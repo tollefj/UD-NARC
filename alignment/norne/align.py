@@ -23,8 +23,6 @@ for lang in ["bokmaal", "nynorsk"]:
     norne_id = "nob" if lang == "bokmaal" else "nno"
     NORNE = get_paths(f"../../norne/ud/{norne_id}")
     UD = get_paths(f"../../UD_Norwegian-{lang.capitalize()}")
-    print(NORNE)
-    print(UD)
     
     for split in ["train", "test", "dev"]:
         norne_path = NORNE[split]
@@ -43,6 +41,8 @@ for lang in ["bokmaal", "nynorsk"]:
             for j in range(len(ud_toks)):
                 ud_misc = ud_toks[j]["misc"] or {}
                 entity_misc = entity_toks[j]["misc"] or {}
+                # filter to only include the "name" key of the NorNE data
+                entity_misc = {k: v for k, v in entity_misc.items() if k == "name"}
 
                 ud_misc.update(entity_misc)
                 ud_toks[j]["misc"] = ud_misc
@@ -98,7 +98,7 @@ for lang in ["bokmaal", "nynorsk"]:
             ud_data[i].metadata = meta
             aligned_data.append(ud_data[i])
 
-        with open(out, "w", encoding="utf-8") as f:
+        with open(out, "w", encoding="utf-8", newline="\n") as f:
             for sent in aligned_data:
                 f.write(sent.serialize())
 
