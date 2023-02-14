@@ -60,3 +60,32 @@ NARC: less mentions/entities thrown away
     - filtered out already during loading the original NARC's ann files
 - we skip a mention only if there is another mention with the same full span
     - instead of the previous solution of skipping on the level of partial mention spans
+
+
+# PR - Feb 14
+Hi @tollefj, I am sorry about giving no news in the past week. Since I found multiple mutually interconnected bugs and issues in the build_ud_narc_map and the merge_ud_narc stages, I decided it would be easier to completely reimplement them than to report those bugs to you. It still took me longer than I expected, mostly because I first opted for the wrong approach of finding the mapping between NARC and UD sentences. However, I think the conversion pipeline is done now.
+
+Just to shortly summarize the key features of the new approach:
+
+looking for a UD parse for each NARC sentence
+comparing preprocessed sentences (tokenized with punctuation symbols replaced by whitespace)
+if there is a single parse, use it; even if the same parse is used for multiple NARC sentences
+if, for a given sentence, there are 
+ occurrences of its UD parses and 
+ occurrences of the sentence in NARC, find the best 1:1 mapping based on the proximity of indices of neighboring sentences
+except for the abovementioned trivial case where 
+, it never happens in the current data that 
+, so it is not needed to search among already used parses for the best fitting one
+having the NARC sentences aligned with UD parses, align the tokens, and push the coreference annotation to UD parses
+token alignment is more or less manageable as the preprocessed NARC and UD sentences match; only additional/missing/non-matching punctuation and different split into tokens must be resolved
+either full documents or single mentions or links are removed if keeping them might cause an error
+full documents
+if no UD parse was found for any of the sentences (there are about 3 cases where just because of one different token the whole document is excluded; this could be fixed by providing the parse for the particular sentence automatically)
+NARC documents that are split between dev/test or test/train (there are several cases of such documents; in my view, this should be fixed in UD so that each document belongs only to a single split)
+mentions or links
+deleted at the very beginning, just after the ann files are loaded
+mentions spanning over multiple sentences (not yet supported by Udapi, although the format theoretically allows it)
+false split antecedents - the antecedents, in fact, belong to the same entity
+crossing mentions are kept, even though the validator throws warnings
+entities
+no filtering of full entities
