@@ -1,6 +1,7 @@
 import json
 import os
 
+from collections import defaultdict
 from tqdm import tqdm
 
 from ann_to_json import convert as convert_ann
@@ -19,6 +20,16 @@ def make_jsonline(_id, sentences, tokens, markables, references, cluster_map, cl
         "cluster_map": cluster_map,
         "clusters": clustered_corefs
     }
+
+# pass the invalid mentions and links indexed by the doc_id and its identifier in the ann file
+# these are excluded at the very beginning and not passed even to the JSON output
+invalid_mention_links = defaultdict(set)
+with open("invalid_mentions_links.txt", "r", encoding="utf-8") as f:
+    for line in f:
+        line = line.strip()
+        if line and "#" not in line:
+            doc_id, mlid = line.split()
+            invalid_mention_links[doc_id].add(mlid)
 
 def convert_ann_to_json(source_path, output_path, verbose=0):
     if not os.path.exists(source_path):
@@ -41,22 +52,14 @@ def convert_ann_to_json(source_path, output_path, verbose=0):
             print("Loading ", file_path)
 
         doc_key = file.split(".")[0]
-        parsed_data.append(make_jsonline(doc_key, *convert_ann(from_file=file_path)))
+        iml = invalid_mention_links[doc_key]
+        parsed_data.append(make_jsonline(doc_key, *convert_ann(from_file=file_path, invalid_obj=iml)))
 
     for jsonline in parsed_data:
         jsonline_path = os.path.join(output_path, jsonline["doc_key"] + FileTypes.JSON.value)
         with open(jsonline_path, "w", encoding="utf-8", newline="\n") as jsonline_file:
             json.dump(jsonline, jsonline_file, ensure_ascii=False)
 
-
-
-# pass the invalid ents to the conll parser
-# these are mapped to the invalid entities in the UD-NARC merge
-invalid_entities = set()
-with open("invalid_entities.txt", "r", encoding="utf-8") as f:
-    for line in f:
-        if "#" not in line:
-            invalid_entities.add(line.strip())
 
 def convert_json_to_conll(source_path, output_path, verbose=0):
     if not os.path.exists(source_path):
@@ -67,7 +70,7 @@ def convert_json_to_conll(source_path, output_path, verbose=0):
         jsonline_path = os.path.join(source_path, jsonline)
         with open(jsonline_path, "r", encoding="utf-8") as jsonline_file:
             data = json.load(jsonline_file)
-            parser = ConlluParser(data, invalid_ents=invalid_entities)
+            parser = ConlluParser(data)
             parser.parse([NARCType.BRIDGE, NARCType.SPLIT])
 
             filename = jsonline.replace(FileTypes.JSON.value, FileTypes.CONLL.value)

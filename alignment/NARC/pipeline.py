@@ -29,9 +29,9 @@ if __name__ == "__main__":
         print(f"Building mapping between NARC and UD {lang}...")
         build_map(
             ud_splits=ud_splits,
-            brat_folder=ANN_FOLDER,
+            narc_folder=ANN_FOLDER,
             ud_split_folder=UD_SPLITS_FOLDER,
-            doc2sent_folder=UD_DOC2SENT
+            doc2sent_folder=UD_DOC2SENT,
         )
         print("Merging compatible UD and NARC files...")
         merge(

@@ -20,7 +20,7 @@ def get_continuous_spans(refs):
 
     return spans
 
-def get_references(ann_data, identifier="T"):
+def get_references(ann_data, invalid_obj=[], identifier="T"):
     markables: Dict[str, List[Tuple[int, int]]] = {}
     references: Dict[str, List[Tuple[str, str]]] = defaultdict(list)
 
@@ -31,9 +31,13 @@ def get_references(ann_data, identifier="T"):
             continue
 
         _id, ref_data, *_ = line_parts
+        if _id in invalid_obj:
+            continue
         if identifier in _id:
             _, *char_idx = ref_data.split()
             spans = get_continuous_spans(char_idx)
+            # spans of the mention T55 in dot~20051126-525 are not in the right order
+            spans.sort(key=lambda x: x[0])
             markables[_id] = spans
         else:
             _type, arg1, arg2 = ref_data.split()
@@ -50,12 +54,12 @@ def cluster_references(corefs):
         coref_graph.add_edge(arg1, arg2)
     return [list(c) for c in nx.connected_components(coref_graph)]
 
-def get_reference_content(from_file):
+def get_reference_content(from_file, invalid_obj):
     if ".ann" not in from_file:
         raise FileNotFoundError("No .ann file provided")
 
     with open(from_file, "r", encoding="utf-8") as ann:
-        markables, references = get_references(ann.readlines())
+        markables, references = get_references(ann.readlines(), invalid_obj)
 
     cluster_map = {}
     clustered_references = cluster_references(deepcopy(references["Coref"]))
@@ -120,10 +124,10 @@ def markable_char_to_word(markables, char_to_word_map):
 
     return markable_by_word
 
-def convert(from_file: str):
+def convert(from_file: str, invalid_obj):
     """ given a .ann file, output the required data for producing a json line
     """
-    markables, references, cluster_map, clustered_corefs = get_reference_content(from_file)
+    markables, references, cluster_map, clustered_corefs = get_reference_content(from_file, invalid_obj)
     txt_path = from_file.split(".ann")[0] + ".txt"
     with open(txt_path, "r", encoding="utf-8") as txt:
         text = "".join(txt.readlines())

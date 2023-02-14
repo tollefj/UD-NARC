@@ -1,4 +1,5 @@
 import os
+import re
 from conllu import parse
 from custom_types import ConlluType
 from typing import List, Dict
@@ -7,6 +8,12 @@ SEP = "\t"
 NEWLINE = "\n"
 EMPTY = "_"
             
+def preprocess_text(text):
+    text = text.lower()
+    text = re.sub(r"[^a-zæøåA-ZÆØÅ0-9\s]", " ", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
 def sort_entity_groups(ents: List[Dict[str, str]]):
     ents = sorted(ents, key=lambda ent: ent["start"], reverse=True)
     # B: beginning entity

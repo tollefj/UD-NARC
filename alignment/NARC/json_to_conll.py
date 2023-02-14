@@ -25,7 +25,9 @@ def make_markable(_id, m_id, etype, start, end):
     }
 
 class ConlluParser:
-    def __init__(self, json_data: Dict, invalid_ents: Set) -> None:
+    ERROR_SPAN_CHARS = ["|", ".", "...", ":", ";", "!", "?"]
+
+    def __init__(self, json_data: Dict) -> None:
         self.misc_dict = defaultdict(lambda : defaultdict(list))
         # keep start, singletons and ends as separate lists
         self.entity_info = defaultdict(list)
@@ -37,8 +39,6 @@ class ConlluParser:
         self.clusters = json_data["references"]
         self.markables = json_data["markables"]
         self.cluster_map = json_data["cluster_map"]  # the mapping of coreference clusters to markables
-
-        self.invalid_entities = invalid_ents
 
 
     def enrich_markable(self, markable):
@@ -53,13 +53,39 @@ class ConlluParser:
             cluster_values = [int(t[1:]) for t in _map.split("_")]
             mark_id = f"{filename}__{len(cluster_values)}{sum(cluster_values)}"
 
-        if mark_id in self.invalid_entities:
-            return None
         return mark_id
 
     def parse(self, features):
+        self.strip_trailing_punct()
         self.populate_entities()
         self.add_feature(*features)
+
+
+    def strip_trailing_punct(self):
+        mentions_to_remove = set()
+        for markable in self.markables:
+            # adjust span...
+            # we then skip the pipe character
+            span = self.markables[markable]
+            span_to_remove = set()
+            for i in range(len(span)):
+                # get rid of the punctuation that ends the mention span or its any continuous part
+                if self.tokens[span[i][1]] in self.ERROR_SPAN_CHARS:
+                    # there are cases of the pipe character
+                    # appearing in discont. spans in NARC
+                    # e.g. "T2	Markable 0 11;29 30	Mer frukt , |"
+                    # (doc: db~20081118-3754590)
+                    # this results in "|" as the entity
+                    # ...which does not exist in UD
+                    span[i][1] -= 1
+                # if the mention end precedes the its start, label the span part to be removed
+                if span[i][1] < span[i][0]:
+                    span_to_remove.add(i)
+            if len(span_to_remove) == len(span):
+                mentions_to_remove.add(markable)
+            else:
+                self.markables[markable] = [part for i, part in enumerate(span) if i not in span_to_remove]
+        self.markables = {k:v for k, v in self.markables.items() if k not in mentions_to_remove}
 
     def populate_entities(self):
         etype_head_other = "--1-"
@@ -68,29 +94,20 @@ class ConlluParser:
         added_spans = set()
 
         for markable, span in self.markables.items():
-            # adjust span...
-            # we then skip the pipe character
+            m_base_id = self.enrich_markable(markable)
+
+            frozenspan = tuple(tuple(s) for s in span)
+            if frozenspan in added_spans:
+                print(f"[WARN] Skipping mention spanning {frozenspan} of the cluster {m_base_id}.")
+                continue
+
+            if not m_base_id:  # skip invalid entities
+                continue
+
+            added_spans.add(frozenspan)
+
             for span_idx, (start, end) in enumerate(span):
-                # or check the pipe condition. if so,
-                # check if end - 1 is in added spans
-                error_span_chars = ["|", ".", "...", ":", ";", "!", "?"]
-                if self.tokens[end] in error_span_chars:
-                    # there are cases of the pipe character
-                    # appearing in discont. spans in NARC
-                    # e.g. "T2	Markable 0 11;29 30	Mer frukt , |"
-                    # (doc: db~20081118-3754590)
-                    # this results in "|" as the entity
-                    # ...which does not exist in UD
-                    if start == end:
-                        start -= 1
-                    end -= 1
-
-                if (start, end) in added_spans:
-                    continue
-
-                m_id = self.enrich_markable(markable)
-                if not m_id:  # skip invalid entities
-                    continue
+                m_id = m_base_id
 
                 # add the part of the markable span if the length > 1
                 # e.g. [1/4], [2/4], [3/4], [4/4]
@@ -103,23 +120,9 @@ class ConlluParser:
                 if start == end:  # fully closed entity
                     e_id = f"({m_id}{etype_head_other})"
                     self.entity_info[start].append(make_markable(e_id, m_id, "S", start, end, ))
-
-                elif self.tokens[end] in error_span_chars:
-                    # correct for end markables sometimes occurring at a pipe
-                    # e.g. "Stolte spillere |", which does not occur for UD
-                    # we simply adjust to the previous token...
-                    if end - start == 1:
-                        e_id_start = f"{e_id_start})"  # close the entity
-                        self.entity_info[start].append(make_markable(e_id_start, m_id, "S", start, start))
-                    else:
-                        self.entity_info[start].append(make_markable(e_id_start, m_id, "B", start, start))
-                        self.entity_info[end-1].append(make_markable(e_id_end, m_id, "E", start, end - 1))
-                        added_spans.add((start, end - 1))
-
                 else:
                     self.entity_info[start].append(make_markable(e_id_start, m_id, "B", start, end))
                     self.entity_info[end].append(make_markable(e_id_end, m_id, "E", start, end))
-                added_spans.add((start, end))
 
     def add_span(self, start: int, end: int):
         span_name = ConlluType.SPAN.value
