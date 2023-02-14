@@ -1,6 +1,8 @@
 import os
 import re
 from conllu import parse
+from conllu.models import SentenceList
+
 from custom_types import ConlluType
 from typing import List, Dict
 
@@ -113,8 +115,7 @@ def make_conllu_line(token_id, token, misc):
     }
     return SEP.join(conllu_dict.values()) + NEWLINE
 
-def get_ud_splits(language):
-    # ud_folder = f"../../UD/UD_Norwegian-{language.capitalize()}"
+def get_ud_splits(language: str) -> Dict[str, List[Dict[str, SentenceList]]]:
     ud_folder = f"../../data/norne-merged/"
     ud_id = f"no_{language}-ud-"
 
