@@ -114,12 +114,13 @@ def make_conllu_line(token_id, token, misc):
     return SEP.join(conllu_dict.values()) + NEWLINE
 
 def get_ud_splits(language):
-    ud_folder = f"UD_Norwegian-{language.capitalize()}"
-    ud_id = f"no_{language}-ud"
+    # ud_folder = f"../../UD/UD_Norwegian-{language.capitalize()}"
+    ud_folder = f"../../data/norne-merged/"
+    ud_id = f"no_{language}-ud-"
 
-    ud_train = os.path.join(os.getcwd(), ud_folder, f"{ud_id}-train.conllu")
-    ud_test = os.path.join(os.getcwd(), ud_folder, f"{ud_id}-test.conllu")
-    ud_dev = os.path.join(os.getcwd(), ud_folder, f"{ud_id}-dev.conllu")
+    ud_train = os.path.join(ud_folder, f"{ud_id}train.conllu")
+    ud_test = os.path.join(ud_folder, f"{ud_id}test.conllu")
+    ud_dev = os.path.join(ud_folder, f"{ud_id}dev.conllu")
 
     return {
         "train": parse(open(ud_train, "r", encoding="utf-8").read()),

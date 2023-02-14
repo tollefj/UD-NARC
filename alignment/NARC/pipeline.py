@@ -9,9 +9,11 @@ from util import get_ud_splits
 if __name__ == "__main__":
     langs = ["bokmaal", "nynorsk"]
 
-    NARC = "NARC"
+    NARC = "../../data/narc-merged"
+    os.makedirs(NARC, exist_ok=True)
+
     for lang in langs:
-        ANN_FOLDER = os.path.join(NARC, f"annotations_{lang}")
+        ANN_FOLDER = f"../../NARC/data/v0.5/annotation_{lang}"
         JSON_FOLDER = os.path.join(NARC, f"annotations_jsonlines_{lang}")
         CONLL_FOLDER = os.path.join(NARC, f"annotations_conll_{lang}")
 
@@ -41,6 +43,6 @@ if __name__ == "__main__":
             ud_split_folder=UD_SPLITS_FOLDER,
             doc2sent_folder=UD_DOC2SENT,
         )
-        OUTPUT = f"no-narc_{lang}"
+        OUTPUT = f"../../data/narc-merged/OUTPUT/no-narc_{lang}"
         combine_into_splits(output=OUTPUT, merge_dir=UD_NARC, language=lang)
         print("-" * 50)

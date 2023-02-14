@@ -95,7 +95,7 @@ def build_map(ud_splits=None,
                 print(f"[WARN] Document {doc} excluded as there is no parse for its {i+1}th sentence: {sents[i]}")
                 break
             elif len(sentids) == 1:
-                print(f"[INFO] {doc}:{i+1} aligned to {sentids[0]}.")
+                # print(f"[INFO] {doc}:{i+1} aligned to {sentids[0]}.")
                 doc_sentids.append(sentids[0])
             else:
                 print(f"[INFO] Multiple alignments possible for {doc}:{i+1}.")
@@ -115,7 +115,7 @@ def build_map(ud_splits=None,
             for j in range(len(ud_ids)):
                 m[i][j] += context_fit_score(narc_ids[i], ud_ids[j], doc2sentids)
         rows, cols = linear_sum_assignment(m)
-        print(m)
+        # print(m)
         for k in range(len(rows)):
             doc, sentord = narc_ids[rows[k]]
             sentid = ud_ids[cols[k]]

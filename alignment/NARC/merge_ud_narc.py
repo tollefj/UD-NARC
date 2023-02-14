@@ -115,7 +115,7 @@ def merge(
         os.makedirs(save_folder, exist_ok=True)
 
         for doc, sentids in doc2sentids.items():
-            print(f"[INFO] Processing document {doc}")
+            # print(f"[INFO] Processing document {doc}")
 
             conll_str = f"# newdoc id = {doc}\n"
             conll_str += "# global.Entity = eid-etype-head-other\n"
