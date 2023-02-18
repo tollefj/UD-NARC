@@ -13,7 +13,7 @@ if __name__ == "__main__":
     os.makedirs(NARC, exist_ok=True)
 
     for lang in langs:
-        ANN_FOLDER = f"../../NARC/data/v0.5/annotation_{lang}"
+        ANN_FOLDER = f"../../NARC/data/v0.6/annotation_{lang}"
         JSON_FOLDER = os.path.join(NARC, f"annotations_jsonlines_{lang}")
         CONLL_FOLDER = os.path.join(NARC, f"annotations_conll_{lang}")
 

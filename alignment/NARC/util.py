@@ -113,7 +113,19 @@ def make_conllu_line(token_id, token, misc):
         "DEPS": "_",
         "MISC": misc
     }
-    return SEP.join(conllu_dict.values()) + NEWLINE
+    conllu_dict = {
+        "ID": str(token_id + 1),
+        "FORM": token,
+        "LEMMA": token,
+        "UPOS": "NOUN",
+        "XPOS": "_",
+        "FEATS": "_",
+        "HEAD": "0",
+        "DEPREL": "root",
+        "DEPS": "_",
+        "MISC": misc
+    }
+    return SEP.join(conllu_dict.values())
 
 def get_ud_splits(language: str) -> Dict[str, List[Dict[str, SentenceList]]]:
     ud_folder = f"../../data/norne-merged/"

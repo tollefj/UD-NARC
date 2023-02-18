@@ -74,27 +74,33 @@ def convert_json_to_conll(source_path, output_path, verbose=0):
             parser.parse([NARCType.BRIDGE, NARCType.SPLIT])
 
             filename = jsonline.replace(FileTypes.JSON.value, FileTypes.CONLL.value)
-            with open(os.path.join(output_path, filename), "w", encoding="utf-8", newline="\n") as conll_file:
-                conll_file.write(f"# filename = {data['doc_key']}{NEWLINE}")
+            with open(os.path.join(output_path, filename), "w", encoding="utf-8") as conll_file:
+                conll_file.write(f"# newdoc id = {data['doc_key']}{NEWLINE}")
                 conll_file.write("# global.Entity = eid-etype-head-other")
 
                 sent_id = 0  # manual control over index due to empty sentences
                 tok_id = 0
+
+                writer = []
                 
                 for sent in data["sentences"]:
                     if len(" ".join(sent)) == 0:
                         tok_id += 1
                         continue
-                    conll_file.write(NEWLINE)
-                    conll_file.write(f"# sent_id = {sent_id}{NEWLINE}")
-                    conll_file.write(f"# text = {' '.join(sent)}{NEWLINE}")
+                    writer.append(NEWLINE)
+                    writer.append(f"# sent_id = {sent_id}{NEWLINE}")
+                    writer.append(f"# text = {' '.join(sent)}{NEWLINE}")
                     for sent_tok_id, tok in enumerate(sent):
                         misc_string = make_misc_string(parser, tok_id)
                         conllu = make_conllu_line(sent_tok_id, tok, misc_string)
-                        conll_file.write(conllu)
+                        # conll_file.write(conllu)
+                        writer.append(conllu)
+                        writer.append(NEWLINE)
                         tok_id += 1
                     sent_id += 1
-
+                writer.pop()  # remove last newline
+                for writable in writer:
+                    conll_file.write(writable)
 
 if __name__ == "__main__":
     ANN_FOLDER = "annotations"
