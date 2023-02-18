@@ -13,5 +13,6 @@ class ConlluType(Enum):
     SPLIT = "SplitAnte"
 
 class FileTypes(Enum):
+    ANN = ".ann"
     JSON = ".jsonl"
     CONLL = ".conllu"

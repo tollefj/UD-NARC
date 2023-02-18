@@ -1,10 +1,12 @@
+import json
+import os
 from collections import defaultdict
-from typing import Dict, List, Set
 
-from custom_types import ConlluType, NARCType
+from custom_types import ConlluType, FileTypes, NARCType
+from util import NEWLINE, make_conllu_line, make_misc_string
 
 
-def make_feature_connection(start: int, end: int, _type :str=None) -> str:
+def make_feature_connection(start: int, end: int, _type: str = None) -> str:
     """
     Args:
         start (int): _description_
@@ -15,6 +17,7 @@ def make_feature_connection(start: int, end: int, _type :str=None) -> str:
     """
     return f"{end}<{start}{f':{_type}' if _type else ''}"
 
+
 def make_markable(_id, m_id, etype, start, end):
     return {
         "node_type": etype,  # B: beginning mark, E: end mark, S: single-node
@@ -24,28 +27,38 @@ def make_markable(_id, m_id, etype, start, end):
         "m_id": m_id  # the markable without parentheses
     }
 
-class ConlluParser:
-    ERROR_SPAN_CHARS = ["|", ".", "...", ":", ";", "!", "?"]
 
-    def __init__(self, json_data: Dict) -> None:
-        self.misc_dict = defaultdict(lambda : defaultdict(list))
+class Json2Conll:
+    ERROR_SPAN_CHARS = ["|", ".", "...", ":", ";", "!", "?"]
+    FROM_FILE = FileTypes.JSON.value
+    TO_FILE = FileTypes.CONLL.value
+    FEATURES = [NARCType.BRIDGE, NARCType.SPLIT]
+
+    def __init__(self, in_file: str) -> None:
+        self.load(in_file)
+
+        self.misc_dict = defaultdict(lambda: defaultdict(list))
         # keep start, singletons and ends as separate lists
         self.entity_info = defaultdict(list)
 
         # all clusters, including features such as coref, split and bridge
-        self.data = json_data
-        self.tokens = json_data["tokens"]
-        self.filename = json_data["doc_key"]
-        self.clusters = json_data["references"]
-        self.markables = json_data["markables"]
-        self.cluster_map = json_data["cluster_map"]  # the mapping of coreference clusters to markables
+    def load(self, in_file):
+        with open(in_file, "r", encoding="utf-8") as f:
+            json_data = json.load(f)
 
+            self._id = json_data["doc_key"]
+            self.tokens = json_data["tokens"]
+            self.sentences = json_data["sentences"]
+            self.clusters = json_data["references"]
+            self.markables = json_data["markables"]
+            self.cluster_map = json_data["cluster_map"]
+            # the mapping of coreference clusters to markables
 
     def enrich_markable(self, markable):
         # there's two options here:
         # 1. the markable is a coreference cluster, with multiple markables
         # 2. the markable (T1) is a singleton
-        filename = self.filename.replace("-", "_").lower()
+        filename = self._id.replace("-", "_").lower()
         # filename = ""
         mark_id = f"{filename}__{markable}"
         if markable in self.cluster_map:
@@ -55,11 +68,11 @@ class ConlluParser:
 
         return mark_id
 
-    def parse(self, features):
+    def parse(self):
         self.strip_trailing_punct()
         self.populate_entities()
-        self.add_feature(*features)
-
+        for feature in self.FEATURES:
+            self.add_feature(feature)
 
     def strip_trailing_punct(self):
         mentions_to_remove = set()
@@ -84,8 +97,10 @@ class ConlluParser:
             if len(span_to_remove) == len(span):
                 mentions_to_remove.add(markable)
             else:
-                self.markables[markable] = [part for i, part in enumerate(span) if i not in span_to_remove]
-        self.markables = {k:v for k, v in self.markables.items() if k not in mentions_to_remove}
+                self.markables[markable] = [
+                    part for i, part in enumerate(span) if i not in span_to_remove]
+        self.markables = {
+            k: v for k, v in self.markables.items() if k not in mentions_to_remove}
 
     def populate_entities(self):
         etype_head_other = "--1-"
@@ -98,7 +113,8 @@ class ConlluParser:
 
             frozenspan = tuple(tuple(s) for s in span)
             if frozenspan in added_spans:
-                print(f"[WARN] Skipping mention spanning {frozenspan} of the cluster {m_base_id}.")
+                print(
+                    f"[WARN] Skipping mention spanning {frozenspan} of the cluster {m_base_id}.")
                 continue
 
             if not m_base_id:  # skip invalid entities
@@ -119,21 +135,25 @@ class ConlluParser:
 
                 if start == end:  # fully closed entity
                     e_id = f"({m_id}{etype_head_other})"
-                    self.entity_info[start].append(make_markable(e_id, m_id, "S", start, end, ))
+                    self.entity_info[start].append(
+                        make_markable(e_id, m_id, "S", start, end, ))
                 else:
-                    self.entity_info[start].append(make_markable(e_id_start, m_id, "B", start, end))
-                    self.entity_info[end].append(make_markable(e_id_end, m_id, "E", start, end))
+                    self.entity_info[start].append(
+                        make_markable(e_id_start, m_id, "B", start, end))
+                    self.entity_info[end].append(
+                        make_markable(e_id_end, m_id, "E", start, end))
 
     def add_span(self, start: int, end: int):
         span_name = ConlluType.SPAN.value
         if (end - start) > 0:
-            self.misc_dict[start][span_name].append(f"{span_name}={start}-{end}")
+            self.misc_dict[start][span_name].append(
+                f"{span_name}={start}-{end}")
 
     def append_feature_pair(self, link, feature_key):
         feature_name = ConlluType[feature_key.name].value
         feature_type = "default" if feature_key == NARCType.BRIDGE else None
         t_start, t_end = link
-        referring_index = 0 
+        referring_index = 0
         # https://github.com/ufal/corefUD/issues/68
         # from the spans, select the last part of the span
         # e.g. if the span is [1/4], [2/4], [3/4], [4/4]
@@ -147,15 +167,47 @@ class ConlluParser:
 
         if entity_start != entity_end:
             self.misc_dict[referring_markable][feature_name].append(
-                make_feature_connection(entity_start, entity_end, _type=feature_type)
+                make_feature_connection(
+                    entity_start, entity_end, _type=feature_type)
             )
-                
-    def add_feature(self, *feature_keys: List[NARCType]):
+
+    def add_feature(self, feature_key):
         # add additional coref-like clusters,
         # following the same format as coref-clusters
         # in this case, Bridging and Split_antecedent
-        for feature_key in feature_keys:
-            if feature_key.value not in self.clusters:
-                continue
-            for link in self.clusters[feature_key.value]:
-                self.append_feature_pair(link, feature_key)
+        if feature_key.value not in self.clusters:
+            return 
+        for link in self.clusters[feature_key.value]:
+            self.append_feature_pair(link, feature_key)
+
+    def write(self, out_file):
+        with open(os.path.join(out_file), "w", encoding="utf-8") as conll_file:
+            conll_file.write(f"# newdoc id = {self._id}{NEWLINE}")
+            conll_file.write("# global.Entity = eid-etype-head-other")
+
+            sent_id = 0  # manual control over index due to empty sentences
+            tok_id = 0
+
+            writer = []
+
+            for sent in self.sentences:
+                if len(" ".join(sent)) == 0:
+                    tok_id += 1
+                    continue
+                writer.append(NEWLINE)
+                writer.append(f"# sent_id = {sent_id}{NEWLINE}")
+                writer.append(f"# text = {' '.join(sent)}{NEWLINE}")
+                for sent_tok_id, tok in enumerate(sent):
+                    misc_string = make_misc_string(
+                        misc=self.misc_dict[tok_id],
+                        ents=self.entity_info[tok_id]
+                    )
+                    conllu = make_conllu_line(sent_tok_id, tok, misc_string)
+                    # conll_file.write(conllu)
+                    writer.append(conllu)
+                    writer.append(NEWLINE)
+                    tok_id += 1
+                sent_id += 1
+            writer.pop()  # remove last newline
+            for writable in writer:
+                conll_file.write(writable)

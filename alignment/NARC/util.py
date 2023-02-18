@@ -55,21 +55,18 @@ def sort_entity_groups(ents: List[Dict[str, str]]):
     return entity_stack
 
 
-def make_misc_string(parser, token_index):
+def make_misc_string(misc, ents):
     """
     first, handle entities,
     then append the rest of the misc fields
     """
-    _misc_dict = parser.misc_dict[token_index]
-
-    # entities = parser.entity_info[token_index]
     entities = []
-    for ent in parser.entity_info[token_index]:
+    for ent in ents:
         if ent["m_id"] not in entities:
             entities.append(ent)
 
     _misc_list = []
-    for key, value in _misc_dict.items():
+    for key, value in misc.items():
         # Split antecedents must have at least two elements...
         if ConlluType.SPLIT.value == key and len(value) < 2:
             continue
