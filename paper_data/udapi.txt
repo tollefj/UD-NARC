@@ -1,0 +1,41 @@
+fetched feb 16, 2023.
+
+
+################## BOKMAAL ################
+cat data/narc-merged/OUTPUT/no-narc_bokmaal/narc_bokmaal_train.conllu | udapy corefud.PrintMentions | tail -1
+2023-02-16 15:32:37,465 [   INFO] execute - No reader specified, using read.Conllu
+2023-02-16 15:32:37,466 [   INFO] execute -  ---- ROUND ----
+2023-02-16 15:32:37,466 [   INFO] execute - Executing block read.Conllu
+2023-02-16 15:32:38,566 [   INFO] execute - Executing block corefud.PrintMentions
+######## Total matching/all mentions = 61522 / 61522
+cat data/narc-merged/OUTPUT/no-narc_bokmaal/narc_bokmaal_test.conllu | udapy corefud.PrintMentions | tail -1
+2023-02-16 15:33:18,684 [   INFO] execute - No reader specified, using read.Conllu
+2023-02-16 15:33:18,684 [   INFO] execute -  ---- ROUND ----
+2023-02-16 15:33:18,684 [   INFO] execute - Executing block read.Conllu
+2023-02-16 15:33:18,798 [   INFO] execute - Executing block corefud.PrintMentions
+######## Total matching/all mentions = 6342 / 6342
+cat data/narc-merged/OUTPUT/no-narc_bokmaal/narc_bokmaal_dev.conllu | udapy corefud.PrintMentions | tail -1
+2023-02-16 15:33:22,548 [   INFO] execute - No reader specified, using read.Conllu
+2023-02-16 15:33:22,549 [   INFO] execute -  ---- ROUND ----
+2023-02-16 15:33:22,549 [   INFO] execute - Executing block read.Conllu
+2023-02-16 15:33:22,666 [   INFO] execute - Executing block corefud.PrintMentions
+######## Total matching/all mentions = 6446 / 6446
+################## NYNORSK ################
+cat data/narc-merged/OUTPUT/no-narc_nynorsk/narc_nynorsk_train.conllu| udapy corefud.PrintMentions | tail -1
+2023-02-16 15:33:26,912 [   INFO] execute - No reader specified, using read.Conllu
+2023-02-16 15:33:26,912 [   INFO] execute -  ---- ROUND ----
+2023-02-16 15:33:26,912 [   INFO] execute - Executing block read.Conllu
+2023-02-16 15:33:27,834 [   INFO] execute - Executing block corefud.PrintMentions
+######## Total matching/all mentions = 51661 / 51661
+cat data/narc-merged/OUTPUT/no-narc_nynorsk/narc_nynorsk_test.conllu| udapy corefud.PrintMentions | tail -1
+2023-02-16 15:34:03,892 [   INFO] execute - No reader specified, using read.Conllu
+2023-02-16 15:34:03,893 [   INFO] execute -  ---- ROUND ----
+2023-02-16 15:34:03,893 [   INFO] execute - Executing block read.Conllu
+2023-02-16 15:34:03,996 [   INFO] execute - Executing block corefud.PrintMentions
+######## Total matching/all mentions = 4761 / 4761
+cat data/narc-merged/OUTPUT/no-narc_nynorsk/narc_nynorsk_dev.conllu| udapy corefud.PrintMentions | tail -1
+2023-02-16 15:34:07,289 [   INFO] execute - No reader specified, using read.Conllu
+2023-02-16 15:34:07,290 [   INFO] execute -  ---- ROUND ----
+2023-02-16 15:34:07,290 [   INFO] execute - Executing block read.Conllu
+2023-02-16 15:34:07,400 [   INFO] execute - Executing block corefud.PrintMentions
+######## Total matching/all mentions = 5193 / 5193
