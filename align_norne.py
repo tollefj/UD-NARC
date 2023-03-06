@@ -50,13 +50,11 @@ def align_norne(norne, ud, output):
                 for j in range(len(ud_toks)):
                     ud_misc = ud_toks[j]["misc"] or {}
                     entity_misc = entity_toks[j]["misc"] or {}
-                    # filter to only include the "name" key of the NorNE data
                     entity_misc = {k: v for k,
                                    v in entity_misc.items() if k == "name"}
 
                     ud_misc.update(entity_misc)
                     ud_toks[j]["misc"] = ud_misc
-
                 return TokenList(ud_toks)
 
             aligned_data = []  # to be written to file
