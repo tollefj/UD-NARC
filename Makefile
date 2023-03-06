@@ -4,9 +4,7 @@ convert:
 	python pipeline.py
 
 clean:
-	rm -rf data/narc-merged/annotations_*
-	rm -rf data/narc-merged/UD*
-	rm -rf data/narc-merged/OUTPUT
+	rm -rf output/
 
 udapi:
 	################## BOKMAAL ################
