@@ -21,7 +21,7 @@ ClusterList = List[List[str]]
 def get_invalid_mention_links():
     # manually controlled invalid mention links
     invalid_mention_links = defaultdict(set)
-    with open("conversion/invalid_mentions_links.txt", "r", encoding="utf-8") as f:
+    with open("ud_narc/conversion/invalid_mentions_links.txt", "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if line and "#" not in line:
