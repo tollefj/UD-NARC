@@ -17,6 +17,7 @@ class Json2Conll(GenericParser):
 
     def __init__(self, in_file: str) -> None:
         self.corrected_spans = []
+        self.mode = "DEFAULT"
         self.load(in_file)
 
         self.misc_dict = defaultdict(lambda: defaultdict(list))
@@ -38,15 +39,23 @@ class Json2Conll(GenericParser):
         # 1. the markable is a coreference cluster, with multiple markables
         # 2. the markable (T1) is a singleton
         filename = self._id.replace("-", "_").lower()
-        mark_id = f"{filename}__{markable}"
         if markable in self.cluster_map:
             _map = self.cluster_map[markable]
             cluster_values = [int(t[1:]) for t in _map.split("_")]
-            mark_id = f"{filename}__{len(cluster_values)}{sum(cluster_values)}"
+            if self.mode == "ONTONOTES":
+                mark_id = f"{len(cluster_values)}{sum(cluster_values)}"
+            else:
+                mark_id = f"{filename}__{len(cluster_values)}{sum(cluster_values)}"
+        else:
+            if self.mode == "ONTONOTES":
+                mark_id = markable.replace("T", "")
+            else:
+                mark_id = f"{filename}__{markable}"
 
         return mark_id
 
-    def parse(self):
+    def parse(self, mode="ONTONOTES"):
+        self.mode = mode  # DEFAULT or ONTONOTES
         self.strip_trailing_punct()
         self.populate_entities()
         for feature in self.FEATURES:
@@ -80,7 +89,7 @@ class Json2Conll(GenericParser):
             k: v for k, v in self.markables.items() if k not in mentions_to_remove}
 
     def populate_entities(self):
-        etype_head_other = "--1-"
+        etype_head_other = "" if self.mode == "ONTONOTES" else "-1--"
         added_spans = set()
 
         for markable, span in self.markables.items():
@@ -166,7 +175,7 @@ class Json2Conll(GenericParser):
                 for sent_tok_id, tok in enumerate(sent):
                     misc_string = make_misc_string(
                         misc=self.misc_dict[tok_id],
-                        ents=self.entity_info[tok_id]
+                        ents=self.entity_info[tok_id],
                     )
                     conllu = make_conllu_line(sent_tok_id, tok, misc_string)
                     writer.append(conllu)
