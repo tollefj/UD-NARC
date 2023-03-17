@@ -26,19 +26,6 @@ def get_grouped_docs(data):
 CONLL_MENTION_PATTERN = re.compile(
     r'(?:\((?P<mono>\d+)\)|\((?P<start>\d+)|(?P<end>\d+)\))')
 
-def get_coref_clusters_from_doc(doc):
-    misc = []
-    for s_id, sent in enumerate(doc):
-        sent_misc = []
-        for token in sent:
-            _misc = token.get("misc", None)
-            entity = _misc.get("Entity", None)
-            sent_misc.append(entity if entity else "*")
-        misc.extend(sent_misc)
-
-    clusters = compute_chains(misc)
-    return clusters
-
 def compute_mentions(columns):
     # Use a dictionary to keep track of pending mentions waiting for an "end" tag
     pending = defaultdict(list)
@@ -88,6 +75,18 @@ def compute_chains(columns):
     # Return the list of chains (i.e., the values of the chains dictionary)
     return list(chains.values())
 
+def get_coref_clusters_from_doc(doc):
+    misc = []
+    for s_id, sent in enumerate(doc):
+        sent_misc = []
+        for token in sent:
+            _misc = token.get("misc", None)
+            entity = _misc.get("Entity", None)
+            sent_misc.append(entity if entity else "*")
+        misc.extend(sent_misc)
+
+    clusters = compute_chains(misc)
+    return clusters
 
 def get_head(mention: Tuple[int, int], heads: List[int]) -> int:
     """Returns the span's head, which is defined as the only word within the
@@ -101,7 +100,7 @@ def get_head(mention: Tuple[int, int], heads: List[int]) -> int:
     """
     head_candidates = set()
     start, end = mention
-    for i in range(start, end):
+    for i in range(start, end + 1):
         ith_head = heads[i]
         if ith_head is None or not (start <= ith_head < end):
             head_candidates.add(i)
@@ -127,15 +126,35 @@ def parse_doc(doc, part_id=None):
         sent_id.extend([current_sent] * len(sent))
         current_sent += 1
 
-    speaker = [0 * len(sent) for sent in doc]
+    speaker = ["blank"] * len(cased_words)
 
     pos = [word["upos"] for sent in doc for word in sent]
     deprel = [word["deprel"] for sent in doc for word in sent]
-    heads = [word["head"] for sent in doc for word in sent]
-    heads = [None if n == b else b for n, b in enumerate(heads)]
+    
+    heads = []
+    # we need to build the proper heads, as they are...
+    # 1) indexed on token ID (1-indexed, not 0)
+    # 2) grounded per sentence
+    token_count = 0
+    for sent in doc:
+        for word in sent:
+            word_head = word["head"]
+            if word_head == 0:
+                # this is a root, append None
+                heads.append(None)
+            else:
+                heads.append(token_count + word_head - 1)
+        token_count += len(sent)
 
     # now we need to group all coreference clusters...
     clusters = get_coref_clusters_from_doc(doc)
+    span_clusters = []
+    singletons = []
+    for cl in clusters:
+        if len(cl) == 1:
+            singletons.append(cl)
+        else:
+            span_clusters.append(cl)
 
     ###############
     # this is the "to_heads" functionality from wl-coref
@@ -166,11 +185,13 @@ def parse_doc(doc, part_id=None):
         "cased_words":      cased_words,
         "sent_id":          sent_id,
         "part_id":          part_id,
-        "speaker":          speaker,
+        # "speaker":          speaker,
         "pos":              pos,
         "deprel":           deprel,
         "head":             heads,
-        "span_clusters":    clusters,
+        "clusters":         clusters,  # all clusters, both singleton + spans
+        "mentions":         singletons,
+        "span_clusters":    span_clusters,
         "word_clusters":    filtered_head_clusters,
         "head2span":        filtered_head2spans,
     }
