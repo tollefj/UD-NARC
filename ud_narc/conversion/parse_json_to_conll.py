@@ -54,7 +54,7 @@ class Json2Conll(GenericParser):
 
         return mark_id
 
-    def parse(self, mode="ONTONOTES"):
+    def parse(self, mode="DEFAULT"):
         self.mode = mode  # DEFAULT or ONTONOTES
         self.strip_trailing_punct()
         self.populate_entities()
