@@ -17,7 +17,7 @@ if __name__ == "__main__":
         align_norne(norne_path, ud_path, aligned_norne)
 
     NARC = os.path.join(output_path, "narc")
-    VERSION = "v0.6"
+    VERSION = "v1.0"
     os.makedirs(NARC, exist_ok=True)
 
     for lang in langs:
