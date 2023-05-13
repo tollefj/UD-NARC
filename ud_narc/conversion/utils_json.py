@@ -121,4 +121,16 @@ def make_conllu_line(token_id, token, misc):
         "DEPS": "_",
         "MISC": misc
     }
+    conllu_dict = {
+        "ID": str(token_id + 1),
+        "FORM": token,
+        "LEMMA": token,
+        "UPOS": "VERB",
+        "XPOS": "_",
+        "FEATS": "_",
+        "HEAD": "0",
+        "DEPREL": "root" if token_id == 2 else "nsubj",
+        "DEPS": "_",
+        "MISC": misc
+    }
     return SEP.join(conllu_dict.values())

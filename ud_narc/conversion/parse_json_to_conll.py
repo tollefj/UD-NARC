@@ -89,7 +89,7 @@ class Json2Conll(GenericParser):
             k: v for k, v in self.markables.items() if k not in mentions_to_remove}
 
     def populate_entities(self):
-        etype_head_other = "" if self.mode == "ONTONOTES" else "-1--"
+        etype_head_other = "" if self.mode == "ONTONOTES" else "--1"
         added_spans = set()
 
         for markable, span in self.markables.items():
