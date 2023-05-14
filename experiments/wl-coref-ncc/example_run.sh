@@ -1,1 +1,0 @@
-python run.py train NORBERT --config-file tomls/POC_nocuda.toml
