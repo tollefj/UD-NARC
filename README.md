@@ -1,5 +1,5 @@
 # NARC-NORNE-UD
-Complete UD-based corpora merged with entity (NorNE) and coreference information (NARC).
+Complete UD-based corpora merged with entity (NorNE) and coreference information (NARC). See the paper [here](https://arxiv.org/abs/2305.13527).
 
 - Universal Dependencies
   - https://github.com/UniversalDependencies/UD_Norwegian-Bokmaal
