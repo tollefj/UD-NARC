@@ -1,0 +1,751 @@
+# newdoc id = vg~VG-20120206-10077898
+# global.Entity = eid-etype-head-other
+# sent_id = 015411
+# text = Breivik om å bli ledd av:
+1	Breivik	Breivik	PROPN	_	_	0	root	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1
+2	om	om	SCONJ	_	_	5	mark	_	name=O
+3	å	å	PART	_	_	5	mark	_	name=O
+4	bli	bli	AUX	_	VerbForm=Inf	5	aux:pass	_	name=O
+5	ledd	le	VERB	_	VerbForm=Part	1	advcl	_	name=O
+6	av	av	ADP	_	_	5	compound:prt	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__535216)
+7	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 015412
+# text = - Det var som ventet
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__T2--1)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	som	som	ADP	_	_	5	case	_	name=O
+5	ventet	vente	VERB	_	VerbForm=Part	0	root	_	name=O
+
+# newpar
+# sent_id = 015413
+# text = Høyreekstrem hilsen
+1	Høyreekstrem	høyreekstrem	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(vg~vg_20120206_10077898__T3--1
+2	hilsen	hilsen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=vg~vg_20120206_10077898__T3)
+
+# newpar
+# sent_id = 015414
+# text = Skriver kronikk
+1	Skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	kronikk	kronikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=(vg~vg_20120206_10077898__T4--1)
+
+# newpar
+# sent_id = 015415
+# text = Får tilgang til nye dokuementer
+1	Får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	tilgang	tilgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=(vg~vg_20120206_10077898__T5--1
+3	til	til	ADP	_	_	5	case	_	name=O
+4	nye	ny	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(vg~vg_20120206_10077898__T6--1
+5	dokuementer	dokument	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	name=O|Entity=vg~vg_20120206_10077898__T6)vg~vg_20120206_10077898__T5)
+
+# sent_id = 015416
+# text = (VG Nett)
+1	(	$(	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T7--1
+2	VG	VG	PROPN	_	_	0	root	_	name=B-PROD
+3	Nett	Nett	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD
+4	)	$)	PUNCT	_	_	2	punct	_	name=O|Entity=vg~vg_20120206_10077898__T7)
+
+# sent_id = 015417
+# text = Da Anders Behring Breivik (32) ba om å bli løslatt umiddelbart, brøt flere berørte ut i latter.
+1	Da	da	SCONJ	_	_	8	mark	_	name=O
+2	Anders	Anders	PROPN	_	Gender=Masc	8	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1
+3	Behring	Behring	PROPN	_	_	2	flat:name	_	name=I-PER
+4	Breivik	Breivik	PROPN	_	_	2	flat:name	_	name=I-PER
+5	(	$(	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O
+6	32	32	NUM	_	Number=Plur|NumType=Card	2	nmod	_	SpaceAfter=No|name=O
+7	)	$)	PUNCT	_	_	6	punct	_	name=O|Entity=vg~vg_20120206_10077898__535216)
+8	ba	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	name=O
+9	om	om	SCONJ	_	_	12	mark	_	name=O
+10	å	å	PART	_	_	12	mark	_	name=O
+11	bli	bli	AUX	_	VerbForm=Inf	12	aux:pass	_	name=O
+12	løslatt	løslate	VERB	_	VerbForm=Part	8	advcl	_	name=O
+13	umiddelbart	umiddelbar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	8	punct	_	name=O
+15	brøt	bryte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+16	flere	mange	ADJ	_	Degree=Cmp	17	amod	_	name=O|Entity=(vg~vg_20120206_10077898__T9--1
+17	berørte	berøre	ADJ	_	Number=Plur|VerbForm=Part	15	nsubj	_	name=O|Entity=vg~vg_20120206_10077898__T9)
+18	ut	ut	ADP	_	_	15	compound:prt	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	latter	latter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T10--1)
+21	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# newpar
+# sent_id = 015418
+# text = Det skal ikke ha overrasket terroristen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__5197--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+4	ha	ha	AUX	_	VerbForm=Inf	5	aux	_	name=O
+5	overrasket	overraske	VERB	_	VerbForm=Part	0	root	_	name=O
+6	terroristen	terrorist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+7	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015419
+# text = I retten:
+1	I	i	ADP	_	_	2	case	_	name=O
+2	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T13--1)
+3	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015420
+# text = Den terrorsiktede Anders Behring Breivik ble fotografert da han kom inn og satt seg i rettsalen før retten ble satt mandag.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1
+2	terrorsiktede	terrorsikte	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	3	amod	_	name=O
+3	Anders	Anders	PROPN	_	Gender=Masc	7	nsubj:pass	_	name=B-PER
+4	Behring	Behring	PROPN	_	_	3	flat:name	_	name=I-PER
+5	Breivik	Breivik	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=vg~vg_20120206_10077898__535216)
+6	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	name=O
+7	fotografert	fotografere	VERB	_	VerbForm=Part	0	root	_	name=O
+8	da	da	SCONJ	_	_	10	mark	_	name=O
+9	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+10	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	name=O
+11	inn	inn	ADP	_	_	10	compound:prt	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	satt	sitte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	name=O
+14	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	obj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	rettsalen	rettsal	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(vg~vg_20120206_10077898__4178--1)
+17	før	før	SCONJ	_	_	20	mark	_	name=O
+18	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nsubj:pass	_	name=O|Entity=(vg~vg_20120206_10077898__2112--1)
+19	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux:pass	_	name=O
+20	satt	sette	VERB	_	VerbForm=Part	13	advcl	_	name=O
+21	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T18--1)
+22	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 015421
+# text = Foto: VGTV
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T19--1
+2	:	$:	PUNCT	_	_	3	punct	_	name=O
+3	VGTV	VGTV	PROPN	_	_	1	parataxis	_	name=B-ORG|Entity=(vg~vg_20120206_10077898__T20--1)vg~vg_20120206_10077898__T19)
+
+# sent_id = 015422
+# text = Det fortalte 32-åringen til sine forsvarere etter at han ble ført ut av retten og ned i arresten i kjelleren tinghuset.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(vg~vg_20120206_10077898__T21--1)
+2	fortalte	fortelle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	32-åringen	32-åring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+4	til	til	ADP	_	_	6	case	_	name=O
+5	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__T24--1(vg~vg_20120206_10077898__535216--1)
+6	forsvarere	forsvarer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	name=O|Entity=vg~vg_20120206_10077898__T24)
+7	etter	etter	SCONJ	_	_	11	mark	_	name=O
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+10	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux:pass	_	name=O
+11	ført	føre	VERB	_	VerbForm=Part	2	advcl	_	name=O
+12	ut	ut	ADP	_	_	14	case	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(vg~vg_20120206_10077898__4178--1)
+15	og	og	CCONJ	_	_	18	cc	_	name=O
+16	ned	ned	ADP	_	_	18	case	_	name=O
+17	i	i	ADP	_	_	18	case	_	name=O
+18	arresten	arrest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	conj	_	name=O|Entity=(vg~vg_20120206_10077898__2120--1
+19	i	i	ADP	_	_	20	case	_	name=O
+20	kjelleren	kjeller	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__T28--1
+21	tinghuset	tinghus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__283--1)vg~vg_20120206_10077898__T28)vg~vg_20120206_10077898__2120)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015423
+# text = - Han sa at han ikke reagerte noe særlig på det.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+3	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+6	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	name=O
+7	reagerte	reagere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+8	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	9	det	_	name=O
+9	særlig	særlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__5197--1)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015424
+# text = Han sa at det var som ventet.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+2	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__5197--1)
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+6	som	som	SCONJ	_	_	7	mark	_	name=O
+7	ventet	vente	VERB	_	VerbForm=Part	2	ccomp	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015425
+# text = Kanskje ikke akkurat så spesifikt som latter, men en type utbrudd, sier en av Breiviks forsvarere Vibeke Hein Bæra til VG Nett.
+1	Kanskje	kanskje	ADV	_	_	2	advmod	_	name=O
+2	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+3	akkurat	akkurat	ADV	_	_	5	advmod	_	name=O
+4	så	så	ADV	_	_	5	advmod	_	name=O
+5	spesifikt	spesifikk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	som	som	ADP	_	_	7	case	_	name=O
+7	latter	latter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T35--1)
+8	,	$,	PUNCT	_	_	12	punct	_	name=O
+9	men	men	CCONJ	_	_	12	cc	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(vg~vg_20120206_10077898__T37--1(vg~vg_20120206_10077898__T36--1
+11	type	type	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=vg~vg_20120206_10077898__T36)
+12	utbrudd	utbrudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=vg~vg_20120206_10077898__T37)
+14	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__151669--1
+16	av	av	ADP	_	_	18	case	_	name=O
+17	Breiviks	Breivik	PROPN	_	Case=Gen	18	nmod	_	name=B-PER|Entity=(vg~vg_20120206_10077898__T39--1(vg~vg_20120206_10077898__535216--1)
+18	forsvarere	forsvarer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	name=O|Entity=vg~vg_20120206_10077898__T39)
+19	Vibeke	Vibeke	PROPN	_	Gender=Fem	14	nsubj	_	name=B-PER
+20	Hein	Hein	PROPN	_	_	19	flat:name	_	name=I-PER
+21	Bæra	Bæra	PROPN	_	_	19	flat:name	_	name=I-PER|Entity=vg~vg_20120206_10077898__151669)
+22	til	til	ADP	_	_	23	case	_	name=O
+23	VG	VG	PROPN	_	_	14	obl	_	name=B-ORG|Entity=(vg~vg_20120206_10077898__T41--1
+24	Nett	Nett	PROPN	_	_	23	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=vg~vg_20120206_10077898__T41)
+25	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015426
+# text = - Du satt helt ved siden av Breivik.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__151669--1)
+3	satt	sitte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	siden	side	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T43--1
+7	av	av	ADP	_	_	8	case	_	name=O
+8	Breivik	Breivik	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1)vg~vg_20120206_10077898__T43)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015427
+# text = Så du forandringer ved ham da dette skjedde?
+1	Så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__151669--1)
+3	forandringer	forandring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	1	obj	_	name=O|Entity=(vg~vg_20120206_10077898__T46--1
+4	ved	ved	ADP	_	_	5	case	_	name=O
+5	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)vg~vg_20120206_10077898__T46)
+6	da	da	SCONJ	_	_	8	mark	_	name=O
+7	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__5197--1)
+8	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	SpaceAfter=No|name=O
+9	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 015428
+# text = - Nei, jeg gjorde ikke det, sier hun.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Nei	nei	INTJ	_	_	5	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__151669--1)
+5	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T50--1)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+10	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__151669--1)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015429
+# text = Det var over 100 overlevende, fornærmede og ofre til stede i tinghuset under fengslingsmøtet.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	over	over	ADP	_	_	4	case	_	name=O
+4	100	100	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O
+5	overlevende	overlevende	ADJ	_	Degree=Pos|Number=Plur	2	nsubj	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	fornærmede	fornærmet	ADJ	_	Degree=Pos|Number=Plur	5	conj	_	name=O
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	ofre	offer	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	conj	_	name=O|Entity=(vg~vg_20120206_10077898__T52--1)
+10	til	til	ADP	_	_	11	case	_	name=O
+11	stede	stede	NOUN	_	_	2	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T53--1)
+12	i	i	ADP	_	_	13	case	_	name=O
+13	tinghuset	tinghus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(vg~vg_20120206_10077898__283--1)
+14	under	under	ADP	_	_	15	case	_	name=O
+15	fengslingsmøtet	fengslingsmøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T55--1)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 015430
+# text = Cirka 70 av dem satt inne i rettssalen, mens resten så fengslingen via videolink i andre saler i tingretten.
+1	Cirka	cirka	ADV	_	_	2	advmod	_	name=O
+2	70	70	NUM	_	Number=Plur|NumType=Card	5	nsubj	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__T56--1)
+5	satt	sitte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	inne	inne	ADP	_	_	8	case	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	rettssalen	rettssal	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__4178--1)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	mens	mens	SCONJ	_	_	12	mark	_	name=O
+11	resten	rest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__T58--1)
+12	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+13	fengslingen	fengsling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=(vg~vg_20120206_10077898__T59--1)
+14	via	via	ADP	_	_	15	case	_	name=O
+15	videolink	videolink	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T60--1)
+16	i	i	ADP	_	_	18	case	_	name=O
+17	andre	annen	DET	_	Number=Plur|PronType=Dem	18	det	_	name=O|Entity=(vg~vg_20120206_10077898__T61--1
+18	saler	sal	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	tingretten	tingrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No|name=O|Bridge=vg~vg_20120206_10077898__283<vg~vg_20120206_10077898__2156:default|Entity=(vg~vg_20120206_10077898__2156--1)vg~vg_20120206_10077898__T61)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015431
+# text = Det var etter at Breivik holdt en tale om hvorfor han mener han ikke kan straffes for terrorangrepene mot regjeringskvartalet og AUF-leiren på Utøya at reaksjonen fra tilhørerne kom.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+3	etter	etter	ADP	_	_	6	case	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	Breivik	Breivik	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1)
+6	holdt	holde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vg~vg_20120206_10077898__T64--1
+8	tale	tale	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O
+9	om	om	ADP	_	_	12	case	_	name=O
+10	hvorfor	hvorfor	ADV	_	_	12	advmod	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+12	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+13	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj:pass	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+14	ikke	ikke	PART	_	Polarity=Neg	16	advmod	_	name=O
+15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	straffes	straffe	VERB	_	VerbForm=Inf|Voice=Pass	12	ccomp	_	name=O
+17	for	for	ADP	_	_	18	case	_	name=O
+18	terrorangrepene	terrorangrep	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	16	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T67--1
+19	mot	mot	ADP	_	_	20	case	_	name=O
+20	regjeringskvartalet	regjeringskvartal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__T68--1(vg~vg_20120206_10077898__T69--1)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	AUF-leiren	AUF-leir	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	conj	_	name=B-DRV|Entity=(vg~vg_20120206_10077898__T70--1
+23	på	på	ADP	_	_	24	case	_	name=O
+24	Utøya	Utøya	PROPN	_	_	22	nmod	_	name=B-LOC|Entity=(vg~vg_20120206_10077898__T71--1)vg~vg_20120206_10077898__T70)vg~vg_20120206_10077898__T68)vg~vg_20120206_10077898__T67)vg~vg_20120206_10077898__T64)
+25	at	at	SCONJ	_	_	29	mark	_	name=O
+26	reaksjonen	reaksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	29	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__5197--1
+27	fra	fra	ADP	_	_	28	case	_	name=O
+28	tilhørerne	tilhører	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	26	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__T73--1)vg~vg_20120206_10077898__5197)
+29	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No|name=O
+30	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015432
+# text = Breivik begjærte seg løslatt umiddelbart og mente at Forsvaret burde gi ham krigskorset.
+1	Breivik	Breivik	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1)
+2	begjærte	begjære	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	iobj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+4	løslatt	løslate	VERB	_	VerbForm=Part	2	xcomp	_	name=O
+5	umiddelbart	umiddelbar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	Forsvaret	Forsvaret	PROPN	_	_	11	nsubj	_	name=B-ORG|Entity=(vg~vg_20120206_10077898__T75--1)
+10	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+11	gi	gi	VERB	_	VerbForm=Inf	7	ccomp	_	name=O
+12	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+13	krigskorset	krigskors	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T77--1)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015433
+# text = Da Breivik kom inn i retten løftet han armene i en hilsen.
+1	Da	da	SCONJ	_	_	3	mark	_	name=O
+2	Breivik	Breivik	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1)
+3	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	name=O
+4	inn	inn	ADP	_	_	6	case	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20120206_10077898__4178--1)
+7	løftet	løfte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+9	armene	arm	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	obj	_	name=O|Entity=(vg~vg_20120206_10077898__T81--1)
+10	i	i	ADP	_	_	12	case	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(vg~vg_20120206_10077898__T82--1
+12	hilsen	hilsen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__T82)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 015434
+# text = I etterkant sa forsvarer Geir Lippestad at dette var en høyreekstrem hilsen.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	etterkant	etterkant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T83--1)
+3	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	forsvarer	forsvarer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__T84--1
+5	Geir	Geir	PROPN	_	Gender=Masc	3	nsubj	_	name=B-PER
+6	Lippestad	Lippestad	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=vg~vg_20120206_10077898__T84)
+7	at	at	SCONJ	_	_	12	mark	_	name=O
+8	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__5499--1)
+9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(vg~vg_20120206_10077898__T86--1
+11	høyreekstrem	høyreekstrem	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	hilsen	hilsen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__T86)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015435
+# text = Vibeke Hein Bæra forteller at Breivik varslet at han ville gjøre dette da de traff ham i arresten i tingretten like før retten skulle settes.
+1	Vibeke	Vibeke	PROPN	_	Gender=Fem	4	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__151669--1
+2	Hein	Hein	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Bæra	Bæra	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vg~vg_20120206_10077898__151669)
+4	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	at	at	SCONJ	_	_	7	mark	_	name=O
+6	Breivik	Breivik	PROPN	_	_	7	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1)
+7	varslet	varsle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	name=O
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+10	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+11	gjøre	gjøre	VERB	_	VerbForm=Inf	7	ccomp	_	name=O
+12	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	name=O|Entity=(vg~vg_20120206_10077898__5499--1)
+13	da	da	SCONJ	_	_	15	mark	_	name=O
+14	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__T91--1)
+15	traff	treffe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	name=O
+16	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+17	i	i	ADP	_	_	18	case	_	name=O
+18	arresten	arrest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(vg~vg_20120206_10077898__2120--1
+19	i	i	ADP	_	_	20	case	_	name=O
+20	tingretten	tingrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__2156--1)vg~vg_20120206_10077898__2120)
+21	like	like	ADV	_	_	22	advmod	_	name=O
+22	før	før	SCONJ	_	_	25	mark	_	name=O
+23	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	nsubj:pass	_	name=O|Entity=(vg~vg_20120206_10077898__2112--1)
+24	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	name=O
+25	settes	sette	VERB	_	VerbForm=Inf|Voice=Pass	15	advcl	_	SpaceAfter=No|name=O
+26	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015436
+# text = - Han sa at han ønsket å rette en kroppslig hilsen for å vise hvilket miljø han tilhører - det høyreekstreme.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+3	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+6	ønsket	ønske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	rette	rette	VERB	_	VerbForm=Inf	6	xcomp	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(vg~vg_20120206_10077898__T98--1
+10	kroppslig	kroppslig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	hilsen	hilsen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	name=O|Entity=vg~vg_20120206_10077898__T98)
+12	for	for	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	vise	vise	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+15	hvilket	hvilken	DET	_	Gender=Neut|Number=Sing|PronType=Int	16	det	_	name=O|Entity=(vg~vg_20120206_10077898__2212[1/2]--1
+16	miljø	miljø	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obj	_	name=O|Entity=vg~vg_20120206_10077898__2212[1/2])
+17	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+18	tilhører	tilhøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	ccomp	_	name=O
+19	-	$-	PUNCT	_	_	21	punct	_	name=O
+20	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	21	det	_	name=O|Entity=(vg~vg_20120206_10077898__2212[2/2]--1
+21	høyreekstreme	høyreekstrem	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	appos	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__2212[2/2])
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015437
+# text = Han er veldig opptatt at det ikke skal være noe tvil om hvor han står, sier Hein Bæra.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	opptatt	opptatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	at	at	SCONJ	_	_	9	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+7	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+8	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	være	være	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+10	noe	noe	DET	_	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	name=O|Entity=(vg~vg_20120206_10077898__T102--1
+11	tvil	tvil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	name=O
+12	om	om	ADP	_	_	15	case	_	name=O
+13	hvor	hvor	ADV	_	_	15	advmod	_	name=O
+14	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+15	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__T102)
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+18	Hein	Hein	PROPN	_	_	17	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__151669--1
+19	Bæra	Bæra	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vg~vg_20120206_10077898__151669)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015438
+# text = - Det kunne minne om en nazihilsen?
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__5499--1)
+3	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	minne	minne	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	om	om	ADP	_	_	7	case	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(vg~vg_20120206_10077898__2213--1
+7	nazihilsen	nazihilsen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__2213)
+8	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015439
+# text = - Nei, det er han veldig opptatt av at det ikke er.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Nei	nei	INTJ	_	_	8	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	advcl	_	name=O|Entity=(vg~vg_20120206_10077898__2213--1)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+7	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+8	opptatt	opptatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+9	av	av	SCONJ	_	_	4	mark	_	name=O
+10	at	at	SCONJ	_	_	4	mark	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__5499--1)
+12	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 015440
+# text = Det er en annen type hilsen rettet mot det høyreekstreme miljøet.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__5499--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(vg~vg_20120206_10077898__T112--1(vg~vg_20120206_10077898__T111--1
+4	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O
+5	type	type	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=vg~vg_20120206_10077898__T111)
+6	hilsen	hilsen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+7	rettet	rette	VERB	_	VerbForm=Part	6	acl:relcl	_	name=O
+8	mot	mot	ADP	_	_	11	case	_	name=O
+9	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(vg~vg_20120206_10077898__2212--1
+10	høyreekstreme	høyreekstrem	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	miljøet	miljø	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__2212)vg~vg_20120206_10077898__T112)
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015441
+# text = Under fengslingsmøtet ba Breivik tingrettsdommer Wenche Fliflet Gjelsten om å få snakke ett minutt om hvorfor han ikke erkjenner straffskyld.
+1	Under	under	ADP	_	_	2	case	_	name=O
+2	fengslingsmøtet	fengslingsmøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T114--1)
+3	ba	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Breivik	Breivik	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1)
+5	tingrettsdommer	tingrettsdommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__T116--1
+6	Wenche	Wenche	PROPN	_	_	3	obj	_	name=B-PER
+7	Fliflet	Fliflet	PROPN	_	_	6	flat:name	_	name=I-PER
+8	Gjelsten	Gjelsten	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=vg~vg_20120206_10077898__T116)
+9	om	om	SCONJ	_	_	12	mark	_	name=O
+10	å	å	PART	_	_	12	mark	_	name=O
+11	få	få	AUX	_	VerbForm=Inf	12	aux	_	name=O
+12	snakke	snakke	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+13	ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	14	nummod	_	name=O|Entity=(vg~vg_20120206_10077898__T117--1
+14	minutt	minutt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	name=O|Entity=vg~vg_20120206_10077898__T117)
+15	om	om	SCONJ	_	_	19	mark	_	name=O
+16	hvorfor	hvorfor	ADV	_	_	19	advmod	_	name=O
+17	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+18	ikke	ikke	PART	_	Polarity=Neg	19	advmod	_	name=O
+19	erkjenner	erkjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	name=O
+20	straffskyld	straffskyld	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T119--1)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015442
+# text = - I etterkant har Breivik sagt at han fikk sagt alt han hadde forberedt og hadde på huskelappen.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	I	i	ADP	_	_	3	case	_	name=O
+3	etterkant	etterkant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T120--1)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	Breivik	Breivik	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1)
+6	sagt	si	VERB	_	VerbForm=Part	0	root	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+9	fikk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+10	sagt	si	VERB	_	VerbForm=Part	6	ccomp	_	name=O
+11	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	name=O|Entity=(vg~vg_20120206_10077898__T123--1
+12	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+13	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	name=O
+14	forberedt	forberede	VERB	_	VerbForm=Part	11	acl:relcl	_	name=O
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	name=O
+17	på	på	ADP	_	_	18	case	_	name=O
+18	huskelappen	huskelapp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T125--1)vg~vg_20120206_10077898__T123)
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015443
+# text = Det var han tilfreds med, sier Hein Bæra.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T126--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+4	tilfreds	tilfreds	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	med	med	ADP	_	_	1	case	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+8	Hein	Hein	PROPN	_	_	7	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__151669--1
+9	Bæra	Bæra	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vg~vg_20120206_10077898__151669)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015444
+# text = Hun forteller at Breivik har forberedt seg til dagens fengslingsmøte ved å meditere på cellen i Ila fengsel.
+1	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__151669--1)
+2	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	6	mark	_	name=O
+4	Breivik	Breivik	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	forberedt	forberede	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+8	til	til	ADP	_	_	10	case	_	name=O
+9	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__2269--1(vg~vg_20120206_10077898__T131--1)
+10	fengslingsmøte	fengslingsmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=vg~vg_20120206_10077898__2269)
+11	ved	ved	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	meditere	meditere	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+14	på	på	ADP	_	_	15	case	_	name=O
+15	cellen	celle	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T133--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Ila	Ila	PROPN	_	_	15	nmod	_	name=B-LOC|Entity=(vg~vg_20120206_10077898__2287--1
+18	fengsel	fengsel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=vg~vg_20120206_10077898__2287)vg~vg_20120206_10077898__T133)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015445
+# text = Da Breivik helt mot slutten av fengslingsmøtet på nytt ba om ordet, fortalte han at han skrev en kronikk om Torgeir Huseby og Synne Sørheims sakkyndigrapport som erklærer ham strafferettslig utilregnelig.
+1	Da	da	SCONJ	_	_	10	mark	_	name=O
+2	Breivik	Breivik	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1)
+3	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+4	mot	mot	ADP	_	_	5	case	_	name=O
+5	slutten	slutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T136--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	fengslingsmøtet	fengslingsmøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__2269--1)vg~vg_20120206_10077898__T136)
+8	på	på	ADP	_	_	9	case	_	name=O
+9	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O|Entity=(vg~vg_20120206_10077898__T138--1)
+10	ba	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	name=O
+11	om	om	ADP	_	_	12	case	_	name=O
+12	ordet	ord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T139--1)
+13	,	$,	PUNCT	_	_	10	punct	_	name=O
+14	fortalte	fortelle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+15	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+16	at	at	SCONJ	_	_	18	mark	_	name=O
+17	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+18	skrev	skrive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	ccomp	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(vg~vg_20120206_10077898__2303--1
+20	kronikk	kronikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	name=O
+21	om	om	ADP	_	_	27	case	_	name=O
+22	Torgeir	Torgeir	PROPN	_	Gender=Masc	27	nmod	_	name=B-PER|Entity=(vg~vg_20120206_10077898__2296--1(vg~vg_20120206_10077898__T143--1(vg~vg_20120206_10077898__T144--1
+23	Huseby	Huseby	PROPN	_	_	22	flat:name	_	name=I-PER|Entity=vg~vg_20120206_10077898__T144)
+24	og	og	CCONJ	_	_	25	cc	_	name=O
+25	Synne	Synne	PROPN	_	Gender=Fem	22	conj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__T145--1
+26	Sørheims	Sørheim	PROPN	_	Case=Gen	25	flat:name	_	name=I-PER|Entity=vg~vg_20120206_10077898__T145)vg~vg_20120206_10077898__T143)
+27	sakkyndigrapport	sakkyndigrapport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	name=O
+28	som	som	PRON	_	PronType=Rel	29	nsubj	_	name=O
+29	erklærer	erklære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	name=O
+30	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+31	strafferettslig	strafferettslig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	32	advmod	_	name=O
+32	utilregnelig	utilregnelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	29	xcomp	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__2296)vg~vg_20120206_10077898__2303)
+33	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 015446
+# text = I retten kalte Breivik denne rapporten " latterlig ".
+1	I	i	ADP	_	_	2	case	_	name=O
+2	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T148--1)
+3	kalte	kalle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Breivik	Breivik	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__535216--1)
+5	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(vg~vg_20120206_10077898__2296--1
+6	rapporten	rapport	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=vg~vg_20120206_10077898__2296)
+7	"	$"	PUNCT	_	_	8	punct	_	name=O
+8	latterlig	latterlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp	_	name=O
+9	"	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015447
+# text = - Vi er godt kjent med at han ønsker å skrive i fengselet, men det er første gang jeg hører ordet kronikk, sier Hein Bæra.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__T151--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	kjent	kjent	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	med	med	SCONJ	_	_	9	mark	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+9	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	skrive	skrive	VERB	_	VerbForm=Inf	9	xcomp	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	fengselet	fengsel	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__2287--1)
+14	,	$,	PUNCT	_	_	19	punct	_	name=O
+15	men	men	CCONJ	_	_	19	cc	_	name=O
+16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	name=O
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+18	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O|Entity=(vg~vg_20120206_10077898__T154--1
+19	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O
+20	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__151669--1)
+21	hører	høre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:cleft	_	name=O
+22	ordet	ord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	obj	_	name=O|Entity=(vg~vg_20120206_10077898__T156--1
+23	kronikk	kronikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__T156)vg~vg_20120206_10077898__T154)
+24	,	$,	PUNCT	_	_	19	punct	_	name=O
+25	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+26	Hein	Hein	PROPN	_	_	25	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__151669--1
+27	Bæra	Bæra	PROPN	_	_	26	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vg~vg_20120206_10077898__151669)
+28	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015448
+# text = - Har han sagt noe om hvor han ønsker å publisere denne kronikken?
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+4	sagt	si	VERB	_	VerbForm=Part	0	root	_	name=O
+5	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	4	obj	_	name=O|Entity=(vg~vg_20120206_10077898__T159--1
+6	om	om	ADP	_	_	9	case	_	name=O
+7	hvor	hvor	ADV	_	_	11	advmod	_	name=O
+8	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+9	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	publisere	publisere	VERB	_	VerbForm=Inf	9	xcomp	_	name=O
+12	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(vg~vg_20120206_10077898__2303--1
+13	kronikken	kronikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__2303)vg~vg_20120206_10077898__T159)
+14	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 015449
+# text = - Nei, dette er helt nytt for meg, sier forsvareren.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Nei	nei	INTJ	_	_	7	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__T162--1)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+6	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__151669--1)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+12	forsvareren	forsvarer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__151669--1)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 015450
+# text = Forsvarerteamet sender denne uken inn anke til Høyesterett angående oppnevning av nye sakkyndige.
+1	Forsvarerteamet	forsvarerteam	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__T165--1)
+2	sender	sende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(vg~vg_20120206_10077898__T166--1
+4	uken	uke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=vg~vg_20120206_10077898__T166)
+5	inn	inn	ADP	_	_	2	compound:prt	_	name=O
+6	anke	anke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(vg~vg_20120206_10077898__T167--1
+7	til	til	ADP	_	_	8	case	_	name=O
+8	Høyesterett	Høyesterett	PROPN	_	_	6	nmod	_	name=B-ORG|Entity=(vg~vg_20120206_10077898__T168--1)
+9	angående	angående	ADP	_	_	10	case	_	name=O
+10	oppnevning	oppnevning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__T169--1
+11	av	av	ADP	_	_	13	case	_	name=O
+12	nye	ny	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(vg~vg_20120206_10077898__T170--1
+13	sakkyndige	sakkyndig	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__T170)vg~vg_20120206_10077898__T169)vg~vg_20120206_10077898__T167)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015451
+# text = - Siktede motsetter seg at det skal brukes mer tid på dette, sier Hein Bæra.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Siktede	sikte	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	3	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+3	motsetter	motsette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	iobj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	brukes	bruke	VERB	_	VerbForm=Inf|Voice=Pass	3	xcomp	_	name=O
+9	mer	mye	ADJ	_	Degree=Cmp	10	amod	_	name=O|Entity=(vg~vg_20120206_10077898__T172--1
+10	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	name=O|Entity=vg~vg_20120206_10077898__T172)
+11	på	på	ADP	_	_	12	case	_	name=O
+12	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20120206_10077898__T173--1)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+15	Hein	Hein	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(vg~vg_20120206_10077898__151669--1
+16	Bæra	Bæra	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vg~vg_20120206_10077898__151669)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015452
+# text = Under hovedforhandlingen som starter 16. april er det satt av én uke til Breiviks forklaring.
+1	Under	under	ADP	_	_	2	case	_	name=O
+2	hovedforhandlingen	hovedforhandling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(vg~vg_20120206_10077898__T175--1
+3	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+4	starter	starte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	name=O
+5	16.	16.	ADJ	_	Number=Plur	6	amod	_	name=O|Entity=(vg~vg_20120206_10077898__T176--1
+6	april	april	NOUN	_	Gender=Masc	4	obl	_	name=O|Entity=vg~vg_20120206_10077898__T176)vg~vg_20120206_10077898__T175)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+9	satt	sette	VERB	_	VerbForm=Part	0	root	_	name=O
+10	av	av	ADP	_	_	9	compound:prt	_	name=O
+11	én	én	NUM	_	Gender=Masc|Number=Sing|NumType=Card	12	nummod	_	name=O|Entity=(vg~vg_20120206_10077898__T177--1
+12	uke	uke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	name=O|Entity=vg~vg_20120206_10077898__T177)
+13	til	til	ADP	_	_	15	case	_	name=O
+14	Breiviks	Breivik	PROPN	_	Case=Gen	15	nmod	_	name=B-PER|Entity=(vg~vg_20120206_10077898__T179--1(vg~vg_20120206_10077898__535216--1)
+15	forklaring	forklaring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__T179)
+16	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 015453
+# text = Han er ifølge forsvareren godt i gang med sitt forsvarsskift.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vg~vg_20120206_10077898__535216--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+3	ifølge	ifølge	ADP	_	_	4	case	_	name=O
+4	forsvareren	forsvarer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(vg~vg_20120206_10077898__151669--1)
+5	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(vg~vg_20120206_10077898__T182--1
+8	med	med	ADP	_	_	10	case	_	name=O
+9	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(vg~vg_20120206_10077898__T184--1(vg~vg_20120206_10077898__535216--1)
+10	forsvarsskift	forsvarsskift	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=vg~vg_20120206_10077898__T184)vg~vg_20120206_10077898__T182)
+11	.	$.	PUNCT	_	_	7	punct	_	name=O
+

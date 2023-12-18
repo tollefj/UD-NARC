@@ -1,0 +1,192 @@
+# newdoc id = firdann~20100305-5007097
+# global.Entity = eid-etype-head-other
+# sent_id = 005338
+# text = - Så langt ute at måsane snakkar engelsk
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Så	så	ADV	_	_	3	advmod	_	name=O
+3	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	ute	ute	ADP	_	_	0	root	_	name=O
+5	at	at	SCONJ	_	_	7	mark	_	name=O
+6	måsane	måse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=(firdann~20100305_5007097__222--1)
+7	snakkar	snakke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+8	engelsk	engelsk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(firdann~20100305_5007097__T2--1)
+
+# newpar
+# sent_id = 005339
+# text = Ordførarar opptekne av kven som bur lengst unna Førde sentralsjukehus.
+1	Ordførarar	ordførar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(firdann~20100305_5007097__T3--1)
+2	opptekne	oppteken	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+3	av	av	SCONJ	_	_	6	mark	_	name=O
+4	kven	kven	PRON	_	Animacy=Hum|PronType=Int	6	nsubj	_	name=O
+5	som	som	PRON	_	PronType=Rel	6	nmod	_	name=O
+6	bur	bu	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+7	lengst	lenge	ADJ	_	Degree=Sup	9	advmod	_	name=O
+8	unna	unna	ADP	_	_	9	case	_	name=O
+9	Førde	Førde	PROPN	_	_	6	obl	_	name=B-LOC|Entity=(firdann~20100305_5007097__364--1
+10	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=firdann~20100305_5007097__364)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 005340
+# text = Ordførar Tore Braastad i Hyllestad.
+1	Ordførar	ordførar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20100305_5007097__6162--1
+2	Tore	Tore	NOUN	_	Gender=Masc	0	root	_	name=B-PER
+3	Braastad	Braastad	PROPN	_	_	2	flat:name	_	name=I-PER
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Hyllestad	Hyllestad	PROPN	_	_	2	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100305_5007097__247--1)firdann~20100305_5007097__6162)
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 005341
+# text = Då ordførarane i fylket fekk høve til å kommentere styringsgruppa i Helse Førde sitt framlegg til ny sjukehusmodell, var avstanden til Førde sentralsjukehus eit tema.
+1	Då	då	SCONJ	_	_	5	mark	_	name=O
+2	ordførarane	ordførar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=(firdann~20100305_5007097__T7--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	fylket	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20100305_5007097__250--1)firdann~20100305_5007097__T7)
+5	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	advcl	_	name=O
+6	høve	høve	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(firdann~20100305_5007097__T9--1
+7	til	til	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	kommentere	kommentere	VERB	_	VerbForm=Inf	6	acl	_	name=O
+10	styringsgruppa	styringsgruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	14	obl	_	name=O|Entity=(firdann~20100305_5007097__T13--1(firdann~20100305_5007097__T12--1(firdann~20100305_5007097__T10--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Helse	Helse	PROPN	_	_	10	nmod	_	name=B-ORG|Entity=(firdann~20100305_5007097__T11--1
+13	Førde	Førde	PROPN	_	_	12	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007097__T11)firdann~20100305_5007097__T10)
+14	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=firdann~20100305_5007097__T12)
+15	framlegg	framlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	name=O
+16	til	til	ADP	_	_	18	case	_	name=O
+17	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(firdann~20100305_5007097__T14--1
+18	sjukehusmodell	sjukehusmodell	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007097__T14)firdann~20100305_5007097__T13)firdann~20100305_5007097__T9)
+19	,	$,	PUNCT	_	_	5	punct	_	name=O
+20	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	cop	_	name=O
+21	avstanden	avstand	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	26	nsubj	_	name=O|Entity=(firdann~20100305_5007097__T15--1
+22	til	til	ADP	_	_	23	case	_	name=O
+23	Førde	Førde	PROPN	_	_	21	nmod	_	name=B-LOC|Entity=(firdann~20100305_5007097__364--1
+24	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	flat:name	_	name=I-LOC|Entity=firdann~20100305_5007097__364)firdann~20100305_5007097__T15)
+25	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(firdann~20100305_5007097__T17--1
+26	tema	tema	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007097__T17)
+27	.	$.	PUNCT	_	_	26	punct	_	name=O
+
+# sent_id = 005342
+# text = - I Hafs-området, der eg bur, er det enkelte av innbyggjarane som bur så langt ute at måsane snakkar engelsk, sa Hyllestad-ordførar Tore Braastad, etter at ordførarkollega Roger B. Silden i Vågsøy like før hadde teke opp den lange avstanden frå hans heimkommune til Førde.
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	I	i	ADP	_	_	3	case	_	name=O
+3	Hafs-området	Hafs-område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=B-DRV|Entity=(firdann~20100305_5007097__250--1
+4	,	$,	PUNCT	_	_	7	punct	_	name=O
+5	der	der	SCONJ	_	_	7	mark	_	name=O
+6	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(firdann~20100305_5007097__6162--1)
+7	bur	bu	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007097__250)
+8	,	$,	PUNCT	_	_	3	punct	_	name=O
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	innbyggjarane	innbyggjar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	11	obl	_	name=O|Bridge=firdann~20100305_5007097__250<firdann~20100305_5007097__T20:default|Entity=(firdann~20100305_5007097__T20--1)
+14	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+15	bur	bu	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:cleft	_	name=O
+16	så	så	ADV	_	_	17	advmod	_	name=O
+17	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+18	ute	ute	ADP	_	_	15	compound:prt	_	name=O
+19	at	at	SCONJ	_	_	21	mark	_	name=O
+20	måsane	måse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	21	nsubj	_	name=O|Entity=(firdann~20100305_5007097__222--1)
+21	snakkar	snakke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	name=O
+22	engelsk	engelsk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007097__T22--1)
+23	,	$,	PUNCT	_	_	24	punct	_	name=O
+24	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	parataxis	_	name=O
+25	Hyllestad-ordførar	Hyllestad-ordførar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	name=B-DRV|Entity=(firdann~20100305_5007097__6162--1
+26	Tore	Tore	NOUN	_	Gender=Masc	24	nsubj	_	name=B-PER
+27	Braastad	Braastad	PROPN	_	_	26	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20100305_5007097__6162)
+28	,	$,	PUNCT	_	_	40	punct	_	name=O
+29	etter	etter	SCONJ	_	_	40	mark	_	name=O
+30	at	at	SCONJ	_	_	40	mark	_	name=O
+31	ordførarkollega	ordførarkollega	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	32	nmod	_	name=O|Entity=(firdann~20100305_5007097__251--1
+32	Roger	Roger	NOUN	_	Gender=Masc	40	nsubj	_	name=B-PER
+33	B.	B.	NOUN	_	Abbr=Yes	32	flat:name	_	name=I-PER
+34	Silden	Silden	PROPN	_	_	32	flat:name	_	name=I-PER
+35	i	i	ADP	_	_	36	case	_	name=O
+36	Vågsøy	Vågsøy	PROPN	_	_	32	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100305_5007097__253--1)firdann~20100305_5007097__251)
+37	like	like	ADV	_	_	38	advmod	_	name=O
+38	før	før	ADP	_	_	40	compound:prt	_	name=O
+39	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	40	aux	_	name=O
+40	teke	ta	VERB	_	VerbForm=Part	24	advcl	_	name=O
+41	opp	opp	ADP	_	_	40	compound:prt	_	name=O
+42	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	44	det	_	name=O|Entity=(firdann~20100305_5007097__T26--1
+43	lange	lang	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	44	amod	_	name=O
+44	avstanden	avstand	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	40	obj	_	name=O
+45	frå	frå	ADP	_	_	47	case	_	name=O
+46	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	47	nmod	_	name=O|Entity=(firdann~20100305_5007097__253--1(firdann~20100305_5007097__251--1)
+47	heimkommune	heimkommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	44	nmod	_	name=O|Entity=firdann~20100305_5007097__253)
+48	til	til	ADP	_	_	49	case	_	name=O
+49	Førde	Førde	PROPN	_	_	47	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100305_5007097__263--1)firdann~20100305_5007097__T26)
+50	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 005343
+# text = - Dersom nokon i dei ytste delane av Hafs-området skal til sjukehus i Førde, må dei stoppe hos meg og ete middag på vegen, la Braastad til.
+1	-	$-	PUNCT	_	_	18	punct	_	name=O
+2	Dersom	dersom	SCONJ	_	_	10	mark	_	name=O
+3	nokon	nokon	PRON	_	Number=Plur|Person=3|PronType=Ind,Prs	10	nsubj	_	name=O|Entity=(firdann~20100305_5007097__265--1
+4	i	i	ADP	_	_	7	case	_	name=O
+5	dei	dei	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(firdann~20100305_5007097__T31--1
+6	ytste	ytre	ADJ	_	Definite=Def|Degree=Sup	7	amod	_	name=O
+7	delane	del	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	Hafs-området	Hafs-område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	name=B-DRV|Entity=(firdann~20100305_5007097__250--1)firdann~20100305_5007097__T31)firdann~20100305_5007097__265)
+10	skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	name=O
+11	til	til	ADP	_	_	12	case	_	name=O
+12	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	name=O|Entity=(firdann~20100305_5007097__T33--1
+13	i	i	ADP	_	_	14	case	_	name=O
+14	Førde	Førde	PROPN	_	_	12	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100305_5007097__263--1)firdann~20100305_5007097__T33)
+15	,	$,	PUNCT	_	_	10	punct	_	name=O
+16	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+17	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(firdann~20100305_5007097__265--1)
+18	stoppe	stoppe	VERB	_	VerbForm=Inf	0	root	_	name=O
+19	hos	hos	ADP	_	_	20	case	_	name=O
+20	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obl	_	name=O|Entity=(firdann~20100305_5007097__6162--1)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	ete	ete	VERB	_	VerbForm=Inf	18	conj	_	name=O
+23	middag	middag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obj	_	name=O|Entity=(firdann~20100305_5007097__T37--1)
+24	på	på	ADP	_	_	25	case	_	name=O
+25	vegen	veg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007097__T38--1)
+26	,	$,	PUNCT	_	_	27	punct	_	name=O
+27	la	leggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	parataxis	_	name=O
+28	Braastad	Braastad	PROPN	_	_	27	nsubj	_	name=B-PER|Entity=(firdann~20100305_5007097__6162--1)
+29	til	til	ADP	_	_	27	compound:prt	_	SpaceAfter=No|name=O
+30	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 005344
+# text = Ordføraren i Hyllestad ville få fram at det er fleire i fylket som har lange avstandar til sentralsjukehuset enn dei som bur i ytre delar av Nordfjord eller i indre delar av Sogn.
+1	Ordføraren	ordførar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20100305_5007097__6162--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Hyllestad	Hyllestad	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100305_5007097__247--1)firdann~20100305_5007097__6162)
+4	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+5	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	fram	fram	ADP	_	_	5	compound:prt	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	fleire	mange	ADJ	_	Degree=Cmp	5	xcomp	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	fylket	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	name=O|Entity=(firdann~20100305_5007097__250--1)
+13	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+14	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:cleft	_	name=O
+15	lange	lang	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O|Entity=(firdann~20100305_5007097__T43--1
+16	avstandar	avstand	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obj	_	name=O
+17	til	til	ADP	_	_	18	case	_	name=O
+18	sentralsjukehuset	sentralsjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	name=O|Entity=(firdann~20100305_5007097__364--1)firdann~20100305_5007097__T43)
+19	enn	enn	ADP	_	_	20	case	_	name=O
+20	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obl	_	name=O|Entity=(firdann~20100305_5007097__T45--1
+21	som	som	PRON	_	PronType=Rel	22	nsubj	_	name=O
+22	bur	bu	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	name=O
+23	i	i	ADP	_	_	25	case	_	name=O
+24	ytre	ytre	ADJ	_	Degree=Cmp	25	amod	_	name=O|Entity=(firdann~20100305_5007097__T46--1
+25	delar	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	obl	_	name=O
+26	av	av	ADP	_	_	27	case	_	name=O
+27	Nordfjord	Nordfjord	PROPN	_	_	25	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100305_5007097__T47--1)firdann~20100305_5007097__T46)
+28	eller	eller	CCONJ	_	_	31	cc	_	name=O
+29	i	i	ADP	_	_	31	case	_	name=O
+30	indre	indre	ADJ	_	Degree=Cmp	31	amod	_	name=O|Entity=(firdann~20100305_5007097__T48--1
+31	delar	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	25	conj	_	name=O
+32	av	av	ADP	_	_	33	case	_	name=O
+33	Sogn	Sogn	PROPN	_	_	31	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100305_5007097__T49--1)firdann~20100305_5007097__T48)firdann~20100305_5007097__T45)
+34	.	$.	PUNCT	_	_	5	punct	_	name=O
+

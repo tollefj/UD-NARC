@@ -1,0 +1,135 @@
+# newdoc id = firdann~20090118-4058903
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 014958
+# text = - Knalløp av Trygve
+1	-	$-	PUNCT	_	_	2	punct	_	name=O|Entity=(firdann~20090118_4058903__T1--1
+2	Knalløp	knalløp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	Trygve	Trygve	NOUN	_	Gender=Masc	2	nmod	_	name=B-PER|Entity=(firdann~20090118_4058903__569--1)firdann~20090118_4058903__T1)
+
+# newpar
+# sent_id = 014959
+# text = Odd-Bjørn Hjelmeset skryt av 18 år gamle Trygve Henden Gaasø etter 5. plass på stafetten i dag.
+1	Odd-Bjørn	Odd-Bjørn	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(firdann~20090118_4058903__347--1
+2	Hjelmeset	Hjelmeset	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20090118_4058903__347)
+3	skryt	skryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	av	av	ADP	_	_	8	case	_	name=O
+5	18	18	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(firdann~20090118_4058903__569--1(firdann~20090118_4058903__T4--1
+6	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O|Entity=firdann~20090118_4058903__T4)
+7	gamle	gammal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	Trygve	Trygve	NOUN	_	Gender=Masc	3	obl	_	name=B-PER
+9	Henden	Henden	PROPN	_	_	8	flat:name	_	name=I-PER
+10	Gaasø	Gaasø	PROPN	_	_	8	flat:name	_	name=I-PER|Entity=firdann~20090118_4058903__569)
+11	etter	etter	ADP	_	_	13	case	_	name=O
+12	5.	5.	ADJ	_	Number=Plur	13	amod	_	name=O|Entity=(firdann~20090118_4058903__T6--1
+13	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O
+14	på	på	ADP	_	_	15	case	_	name=O
+15	stafetten	stafett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(firdann~20090118_4058903__224--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090118_4058903__T8--1)firdann~20090118_4058903__224)firdann~20090118_4058903__T6)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 014960
+# text = Foto Asgeir Årdal
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20090118_4058903__T9--1
+2	Asgeir	Asgeir	PROPN	_	_	1	parataxis	_	name=B-PER|Entity=(firdann~20090118_4058903__T10--1
+3	Årdal	Årdal	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20090118_4058903__T10)firdann~20090118_4058903__T9)
+
+# sent_id = 014961
+# text = - Trygve gjorde eit utruleg godt løp, seier Odd-Bjørn etter at Fjellhug-Vereide Hyen sikra 5. plass i dagens NM-stafett over 3x10 kilometer.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Trygve	Trygve	NOUN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(firdann~20090118_4058903__569--1)
+3	gjorde	gjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20090118_4058903__T12--1
+5	utruleg	utruleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	løp	løp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=firdann~20090118_4058903__T12)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+10	Odd-Bjørn	Odd-Bjørn	PROPN	_	_	9	nsubj	_	name=B-PER|Entity=(firdann~20090118_4058903__347--1)
+11	etter	etter	SCONJ	_	_	15	mark	_	name=O
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	Fjellhug-Vereide	Fjellhug-Vereide	PROPN	_	_	15	nsubj	_	name=B-PER|Entity=(firdann~20090118_4058903__T14--1
+14	Hyen	Hyen	PROPN	_	_	13	flat:name	_	name=I-PER|Entity=firdann~20090118_4058903__T14)
+15	sikra	sikre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	name=O
+16	5.	5.	ADJ	_	Number=Plur	17	amod	_	name=O|Entity=(firdann~20090118_4058903__234--1
+17	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=firdann~20090118_4058903__234)
+18	i	i	ADP	_	_	20	case	_	name=O
+19	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	name=O|Entity=(firdann~20090118_4058903__224--1(firdann~20090118_4058903__T16--1)
+20	NM-stafett	NM-stafett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	name=O
+21	over	over	ADP	_	_	23	case	_	name=O
+22	3x10	3x10	NUM	_	Number=Plur|NumType=Card	23	nummod	_	name=O|Entity=(firdann~20090118_4058903__T18--1
+23	kilometer	kilometer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090118_4058903__T18)firdann~20090118_4058903__224)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 014962
+# text = Det er den beste plasseringa nokon sinne, og 18 år gamle Henden Gaasø heldt følgje med mellom andre Johan Kjølstad i nær fem kilometer.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(firdann~20090118_4058903__234--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(firdann~20090118_4058903__T20--1
+4	beste	god	ADJ	_	Definite=Def|Degree=Sup	5	amod	_	name=O
+5	plasseringa	plassering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=firdann~20090118_4058903__T20)
+6	nokon	nokon	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind,Prs	5	obl	_	name=O|Entity=(firdann~20090118_4058903__T21--1
+7	sinne	sinne	NOUN	_	_	6	flat:name	_	SpaceAfter=No|name=O|Entity=firdann~20090118_4058903__T21)
+8	,	$,	PUNCT	_	_	15	punct	_	name=O
+9	og	og	CCONJ	_	_	15	cc	_	name=O
+10	18	18	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(firdann~20090118_4058903__569--1(firdann~20090118_4058903__T22--1
+11	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obl	_	name=O|Entity=firdann~20090118_4058903__T22)
+12	gamle	gammal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	Henden	Henden	PROPN	_	_	15	nsubj	_	name=B-PER
+14	Gaasø	Gaasø	PROPN	_	_	13	flat:name	_	name=I-PER|Entity=firdann~20090118_4058903__569)
+15	heldt	halde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	name=O
+16	følgje	følgje	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	name=O|Entity=(firdann~20090118_4058903__T24--1
+17	med	med	ADP	_	_	20	case	_	name=O
+18	mellom	mellom	ADP	_	_	19	case	_	name=O|Entity=(firdann~20090118_4058903__T25--1
+19	andre	annan	DET	_	Number=Plur|PronType=Dem	20	nmod	_	name=O
+20	Johan	Johan	NOUN	_	Gender=Masc	16	nmod	_	name=B-PER
+21	Kjølstad	Kjølstad	PROPN	_	_	20	flat:name	_	name=I-PER|Entity=firdann~20090118_4058903__T25)firdann~20090118_4058903__T24)
+22	i	i	ADP	_	_	25	case	_	name=O
+23	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O|Entity=(firdann~20090118_4058903__T26--1
+24	fem	fem	NUM	_	Number=Plur|NumType=Card	23	obj	_	name=O
+25	kilometer	kilometer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090118_4058903__T26)
+26	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 014963
+# text = Men i spurten var ungguten sjanselaus og måtte ta til takke med 5. plass.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	spurten	spurt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(firdann~20090118_4058903__T27--1)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+5	ungguten	unggut	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(firdann~20090118_4058903__569--1)
+6	sjanselaus	sjanselaus	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+9	ta	ta	VERB	_	VerbForm=Inf	6	conj	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	takke	takke	NOUN	_	_	9	obl	_	name=O|Entity=(firdann~20090118_4058903__T29--1)
+12	med	med	ADP	_	_	14	case	_	name=O
+13	5.	5.	ADJ	_	Number=Plur	14	amod	_	name=O|Entity=(firdann~20090118_4058903__T30--1
+14	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090118_4058903__T30)
+15	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 014964
+# text = Odd-Bjørn veksla først på startetappen, medan Roger Aa Djupvik fall ned på 2. plass på andre etappe.
+1	Odd-Bjørn	Odd-Bjørn	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(firdann~20090118_4058903__347--1)
+2	veksla	veksle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	først	først	ADV	_	_	2	advmod	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	startetappen	startetappe	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090118_4058903__T32--1)
+6	,	$,	PUNCT	_	_	11	punct	_	name=O
+7	medan	medan	SCONJ	_	_	11	mark	_	name=O
+8	Roger	Roger	NOUN	_	Gender=Masc	11	nsubj	_	name=B-PER|Entity=(firdann~20090118_4058903__T33--1
+9	Aa	Aa	PROPN	_	_	8	flat:name	_	name=I-PER
+10	Djupvik	Djupvik	PROPN	_	_	8	flat:name	_	name=I-PER|Entity=firdann~20090118_4058903__T33)
+11	fall	falle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	name=O
+12	ned	ned	ADP	_	_	15	case	_	name=O
+13	på	på	ADP	_	_	15	case	_	name=O
+14	2.	2.	ADJ	_	Number=Plur	15	amod	_	name=O|Entity=(firdann~20090118_4058903__T34--1
+15	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=firdann~20090118_4058903__T34)
+16	på	på	ADP	_	_	18	case	_	name=O
+17	andre	andre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(firdann~20090118_4058903__T35--1
+18	etappe	etappe	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090118_4058903__T35)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+

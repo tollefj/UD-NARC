@@ -1,0 +1,424 @@
+# newdoc id = ap_20080923-2669540
+# global.Entity = eid-etype-head-other
+# sent_id = 001201
+# text = Nye dieselbiler best for miljøet
+1	Nye	ny	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(ap_20080923_2669540__T1--1
+2	dieselbiler	dieselbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=ap_20080923_2669540__T1)
+3	best	god	ADJ	_	Definite=Ind|Degree=Sup	2	xcomp	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	miljøet	miljø	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(ap_20080923_2669540__T2--1)
+
+# newpar
+# sent_id = 001202
+# text = Opptatt av økonomi.
+1	Opptatt	opptatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+2	av	av	ADP	_	_	3	case	_	name=O
+3	økonomi	økonomi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T3--1)
+4	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 001203
+# text = Ikke bare bra.
+1	Ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+2	bare	bare	ADV	_	_	3	advmod	_	name=O
+3	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 001204
+# text = Anbefaler diesel.
+1	Anbefaler	anbefale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	diesel	diesel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T4--1)
+3	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 001205
+# text = Nye dieselbiler gir lavere miljø- og helseulemper enn bensinbiler.
+1	Nye	ny	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(ap_20080923_2669540__3118--1
+2	dieselbiler	dieselbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=ap_20080923_2669540__3118)
+3	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	lavere	lav	ADJ	_	Degree=Cmp	5	amod	_	name=O|Entity=(ap_20080923_2669540__T6--1(ap_20080923_2669540__T7[1/2]--1
+5	miljø-	miljø-	NOUN	_	_	3	obj	_	name=O|Entity=ap_20080923_2669540__T7[1/2])
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	helseulemper	helseulempe	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	conj	_	name=O|Entity=(ap_20080923_2669540__T8--1)
+8	enn	enn	ADP	_	_	9	case	_	name=O|Entity=(ap_20080923_2669540__T7[2/2]--1
+9	bensinbiler	bensinbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T9--1)ap_20080923_2669540__T7[2/2])ap_20080923_2669540__T6)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 001206
+# text = 70 prosent av alle nye biler i Norge selges med dieselmotor.
+1	70	70	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(ap_20080923_2669540__T10--1
+2	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nsubj:pass	_	name=O
+3	av	av	ADP	_	_	6	case	_	name=O
+4	alle	all	DET	_	Number=Plur|PronType=Tot	6	det	_	name=O|Entity=(ap_20080923_2669540__T11--1
+5	nye	ny	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	biler	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Norge	Norge	PROPN	_	_	6	nmod	_	name=B-GPE_LOC|Entity=(ap_20080923_2669540__T12--1)ap_20080923_2669540__T11)ap_20080923_2669540__T10)
+9	selges	selge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+10	med	med	ADP	_	_	11	case	_	name=O
+11	dieselmotor	dieselmotor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T13--1)
+12	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 001207
+# text = Det er mye i forhold til resten av Europa der halvparten av alle nye biler som selges er dieseldrevet.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20080923_2669540__T14--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(ap_20080923_2669540__T15--1
+6	til	til	ADP	_	_	7	case	_	name=O
+7	resten	rest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(ap_20080923_2669540__T16--1
+8	av	av	ADP	_	_	9	case	_	name=O
+9	Europa	Europa	PROPN	_	_	7	nmod	_	name=B-GPE_LOC|Entity=(ap_20080923_2669540__T17--1)
+10	der	der	SCONJ	_	_	19	mark	_	name=O
+11	halvparten	halvpart	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	name=O|Entity=(ap_20080923_2669540__T18--1
+12	av	av	ADP	_	_	15	case	_	name=O
+13	alle	all	DET	_	Number=Plur|PronType=Tot	15	det	_	name=O|Entity=(ap_20080923_2669540__T19--1
+14	nye	ny	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	biler	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	name=O
+16	som	som	PRON	_	PronType=Rel	17	nsubj:pass	_	name=O
+17	selges	selge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	15	acl:relcl	_	name=O|Entity=ap_20080923_2669540__T19)ap_20080923_2669540__T18)
+18	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+19	dieseldrevet	dieseldrevet	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	SpaceAfter=No|name=O|Entity=ap_20080923_2669540__T16)ap_20080923_2669540__T15)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001208
+# text = Foto: Aftenposten
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T20--1)
+2	:	$:	PUNCT	_	_	3	punct	_	name=O
+3	Aftenposten	Aftenposten	PROPN	_	Gender=Masc	1	parataxis	_	name=B-ORG|Entity=(ap_20080923_2669540__T21--1)
+
+# newpar
+# sent_id = 001209
+# text = Egil Stenshagen, daglig leder i Stenshagen Bil, og salgssjef Tommy Harland sier kundene er lite opptatt av miljøet når de skal kjøpe ny bil.
+1	Egil	Egil	PROPN	_	Gender=Masc	14	nsubj	_	name=B-PER|Entity=(ap_20080923_2669540__T22--1(ap_20080923_2669540__2134--1
+2	Stenshagen	Stenshagen	PROPN	_	_	1	flat:name	_	SpaceAfter=No|name=I-PER
+3	,	$,	PUNCT	_	_	5	punct	_	name=O
+4	daglig	daglig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(ap_20080923_2669540__T24--1
+5	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Stenshagen	Stenshagen	PROPN	_	_	5	nmod	_	name=B-ORG|Entity=(ap_20080923_2669540__3176--1
+8	Bil	Bil	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20080923_2669540__3176)
+9	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=ap_20080923_2669540__T24)ap_20080923_2669540__2134)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	salgssjef	salgssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(ap_20080923_2669540__270--1
+12	Tommy	Tommy	PROPN	_	_	1	conj	_	name=B-PER
+13	Harland	Harland	PROPN	_	_	12	flat:name	_	name=I-PER|Entity=ap_20080923_2669540__270)ap_20080923_2669540__T22)
+14	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+15	kundene	kunde	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	18	nsubj	_	name=O|Entity=(ap_20080923_2669540__5223--1)
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	name=O
+17	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+18	opptatt	opptatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	ccomp	_	name=O
+19	av	av	ADP	_	_	20	case	_	name=O
+20	miljøet	miljø	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	obl	_	name=O|Entity=(ap_20080923_2669540__T28--1)
+21	når	når	SCONJ	_	_	24	mark	_	name=O
+22	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	name=O|Entity=(ap_20080923_2669540__5223--1)
+23	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	name=O
+24	kjøpe	kjøpe	VERB	_	VerbForm=Inf	18	advcl	_	name=O
+25	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O|Entity=(ap_20080923_2669540__270--1
+26	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No|name=O|Entity=ap_20080923_2669540__270)
+27	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 001210
+# text = Når de kommer til butikken er det lommeboken de er bekymret for.
+1	Når	når	SCONJ	_	_	3	mark	_	name=O
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20080923_2669540__5223--1)
+3	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	butikken	butikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20080923_2669540__280--1)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+8	lommeboken	lommebok	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20080923_2669540__T33--1
+9	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(ap_20080923_2669540__5223--1)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	bekymret	bekymre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	8	acl:cleft	_	name=O
+12	for	for	ADP	_	_	11	obl	_	SpaceAfter=No|name=O|Entity=ap_20080923_2669540__T33)
+13	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001211
+# text = - Miljøhensyn er et tema som kommer langt ut i samtalen, dersom det dukker opp.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Miljøhensyn	miljøhensyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=(ap_20080923_2669540__273--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20080923_2669540__T36--1
+5	tema	tema	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+8	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+9	ut	ut	ADP	_	_	11	case	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	samtalen	samtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T37--1)
+12	,	$,	PUNCT	_	_	15	punct	_	name=O|Entity=ap_20080923_2669540__T36)
+13	dersom	dersom	SCONJ	_	_	15	mark	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(ap_20080923_2669540__273--1)
+15	dukker	dukke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+16	opp	opp	ADP	_	_	15	compound:prt	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001212
+# text = Da spør kunden om bilens CO2-utslipp eller drivstoff-forbruk, sier Tommy Harland.
+1	Da	da	ADV	_	_	2	advmod	_	name=O
+2	spør	spørre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	kunden	kunde	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20080923_2669540__T39--1)
+4	om	om	ADP	_	_	6	case	_	name=O
+5	bilens	bil	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20080923_2669540__T41--1(ap_20080923_2669540__T42--1(ap_20080923_2669540__270--1)
+6	CO2-utslipp	CO2-utslipp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=ap_20080923_2669540__T42)
+7	eller	eller	CCONJ	_	_	8	cc	_	name=O
+8	drivstoff-forbruk	drivstoff-forbruk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T43--1)ap_20080923_2669540__T41)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+11	Tommy	Tommy	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(ap_20080923_2669540__270--1
+12	Harland	Harland	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20080923_2669540__270)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001213
+# text = De fleste kundene har bestemt seg for hva de vil ha før de kommer til butikken.
+1	De	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(ap_20080923_2669540__3138--1
+2	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	3	amod	_	name=O
+3	kundene	kunde	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=ap_20080923_2669540__3138)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	bestemt	bestemme	VERB	_	VerbForm=Part	0	root	_	name=O
+6	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	5	obj	_	name=O
+7	for	for	SCONJ	_	_	11	mark	_	name=O
+8	hva	hva	PRON	_	PronType=Int	11	obj	_	name=O
+9	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(ap_20080923_2669540__3138--1)
+10	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	ha	ha	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+12	før	før	SCONJ	_	_	14	mark	_	name=O
+13	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(ap_20080923_2669540__3138--1)
+14	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	butikken	butikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__280--1)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001214
+# text = 70 prosent av bilene som selges hos Stenshagen, har dieselmotor.
+1	70	70	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(ap_20080923_2669540__T49--1
+2	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nsubj	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	bilene	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	name=O|Entity=(ap_20080923_2669540__T50--1
+5	som	som	PRON	_	PronType=Rel	6	nsubj:pass	_	name=O
+6	selges	selge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	name=O
+7	hos	hos	ADP	_	_	8	case	_	name=O
+8	Stenshagen	Stenshagen	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-PER|Entity=(ap_20080923_2669540__3176--1)ap_20080923_2669540__T50)
+9	,	$,	PUNCT	_	_	2	punct	_	name=O|Entity=ap_20080923_2669540__T49)
+10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	dieselmotor	dieselmotor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T52--1)
+12	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# newpar
+# sent_id = 001215
+# text = Hans Aasen i SFT understreker at selv om nye dieselbilene ikke er så store miljøsyndere som bensinbiler, er de ikke friskmeldt.
+1	Hans	Hans	PROPN	_	Gender=Masc	5	nsubj	_	name=B-PER|Entity=(ap_20080923_2669540__2122--1
+2	Aasen	Aasen	PROPN	_	_	1	flat:name	_	name=I-PER
+3	i	i	ADP	_	_	4	case	_	name=O
+4	SFT	SFT	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(ap_20080923_2669540__T54--1)ap_20080923_2669540__2122)
+5	understreker	understreke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	at	at	SCONJ	_	_	22	mark	_	name=O
+7	selv	selv	ADV	_	_	8	advmod	_	name=O
+8	om	om	SCONJ	_	_	15	mark	_	name=O
+9	nye	ny	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(ap_20080923_2669540__3118--1
+10	dieselbilene	dieselbil	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	15	nsubj	_	name=O|Entity=ap_20080923_2669540__3118)
+11	ikke	ikke	PART	_	Polarity=Neg	15	advmod	_	name=O
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+13	så	så	ADV	_	_	14	advmod	_	name=O|Entity=(ap_20080923_2669540__T56--1
+14	store	stor	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	miljøsyndere	miljøsynder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	advcl	_	name=O
+16	som	som	ADP	_	_	17	case	_	name=O
+17	bensinbiler	bensinbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T57--1)ap_20080923_2669540__T56)
+18	,	$,	PUNCT	_	_	15	punct	_	name=O
+19	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+20	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(ap_20080923_2669540__3118--1)
+21	ikke	ikke	PART	_	Polarity=Neg	22	advmod	_	name=O
+22	friskmeldt	friskmelde	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	5	ccomp	_	SpaceAfter=No|name=O
+23	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001216
+# text = Spesielt i de store byene er utslipp av partikler og NO2 et problem.
+1	Spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+2	i	i	ADP	_	_	5	case	_	name=O
+3	de	de	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(ap_20080923_2669540__T59--1
+4	store	stor	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	byene	by	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	obl	_	name=O|Entity=ap_20080923_2669540__T59)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+7	utslipp	utslipp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nsubj	_	name=O|Entity=(ap_20080923_2669540__T60--1
+8	av	av	ADP	_	_	9	case	_	name=O
+9	partikler	partikkel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=(ap_20080923_2669540__T61--1(ap_20080923_2669540__T62--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	NO2	NO2	PROPN	_	_	9	conj	_	name=O|Entity=(ap_20080923_2669540__T63--1)ap_20080923_2669540__T61)ap_20080923_2669540__T60)
+12	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(ap_20080923_2669540__T64--1
+13	problem	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=ap_20080923_2669540__T64)
+14	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 001217
+# text = - Det er alvorlige problemstillinger knyttet til luftforurensning som følge av bileksos, sier Aasen, og nevner luftveisproblemer og hjerte- og karsykdommer.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	alvorlige	alvorlig	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(ap_20080923_2669540__T65--1
+5	problemstillinger	problemstilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	nsubj	_	name=O
+6	knyttet	knytte	VERB	_	VerbForm=Part	5	acl:relcl	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	luftforurensning	luftforurensning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=(ap_20080923_2669540__T66--1
+9	som	som	ADP	_	_	10	case	_	name=O
+10	følge	følge	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(ap_20080923_2669540__T67--1
+11	av	av	ADP	_	_	12	case	_	name=O
+12	bileksos	bileksos	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T68--1)ap_20080923_2669540__T67)ap_20080923_2669540__T66)ap_20080923_2669540__T65)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+15	Aasen	Aasen	PROPN	_	_	14	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20080923_2669540__2122--1)
+16	,	$,	PUNCT	_	_	18	punct	_	name=O
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	nevner	nevne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	name=O
+19	luftveisproblemer	luftveisproblem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	obj	_	name=O|Entity=(ap_20080923_2669540__T70--1(ap_20080923_2669540__T71--1)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	hjerte-	hjerte-	NOUN	_	_	19	conj	_	name=O|Entity=(ap_20080923_2669540__T72--1(ap_20080923_2669540__T73--1)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	karsykdommer	karsykdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T74--1)ap_20080923_2669540__T72)ap_20080923_2669540__T70)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001218
+# text = - Mange har investert i dieselbiler de siste årene.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	4	nsubj	_	name=O|Entity=(ap_20080923_2669540__T75--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	investert	investere	VERB	_	VerbForm=Part	0	root	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	dieselbiler	dieselbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=(ap_20080923_2669540__2154--1)
+7	de	de	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(ap_20080923_2669540__T77--1
+8	siste	sist	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O
+9	årene	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=ap_20080923_2669540__T77)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001219
+# text = Vil også disse bilene være mer gunstige for miljø og helse sammenlignet med bensinbiler?
+1	Vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+2	også	også	ADV	_	_	4	advmod	_	name=O
+3	disse	disse	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(ap_20080923_2669540__2154--1
+4	bilene	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=ap_20080923_2669540__2154)
+5	være	være	AUX	_	VerbForm=Inf	7	cop	_	name=O
+6	mer	mye	ADJ	_	Degree=Cmp	7	advmod	_	name=O
+7	gunstige	gunstig	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	miljø	miljø	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(ap_20080923_2669540__T79--1(ap_20080923_2669540__T80--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	helse	helse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	name=O|Entity=(ap_20080923_2669540__T81--1)ap_20080923_2669540__T79)
+12	sammenlignet	sammenligne	VERB	_	VerbForm=Part	6	advcl	_	name=O
+13	med	med	ADP	_	_	14	case	_	name=O
+14	bensinbiler	bensinbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T82--1)
+15	?	$?	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001220
+# text = - Eldre dieselbiler bidrar til mer lokal forurensning enn nye, men vi har ikke gjort noen vurdering av de eldre bilene nå, sier Aasen.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Eldre	gammel	ADJ	_	Degree=Cmp	3	amod	_	name=O|Entity=(ap_20080923_2669540__T83--1
+3	dieselbiler	dieselbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=ap_20080923_2669540__T83)
+4	bidrar	bidra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	til	til	ADP	_	_	8	case	_	name=O
+6	mer	mye	ADJ	_	Degree=Cmp	8	amod	_	name=O|Entity=(ap_20080923_2669540__T84--1
+7	lokal	lokal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	forurensning	forurensning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	name=O
+9	enn	enn	ADP	_	_	10	case	_	name=O
+10	nye	ny	ADJ	_	Degree=Pos|Number=Plur	6	advmod	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T85--1)ap_20080923_2669540__T84)
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	men	men	CCONJ	_	_	16	cc	_	name=O
+13	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	name=O|Bridge=ap_20080923_2669540__T54<ap_20080923_2669540__3265:default|Entity=(ap_20080923_2669540__3265--1)
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	ikke	ikke	PART	_	Polarity=Neg	16	advmod	_	name=O
+16	gjort	gjøre	VERB	_	VerbForm=Part	4	conj	_	name=O
+17	noen	noen	DET	_	Gender=Fem|Number=Sing|PronType=Ind	18	det	_	name=O|Entity=(ap_20080923_2669540__T87--1
+18	vurdering	vurdering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	obj	_	name=O
+19	av	av	ADP	_	_	22	case	_	name=O
+20	de	de	DET	_	Number=Plur|PronType=Dem	22	det	_	name=O|Entity=(ap_20080923_2669540__T88--1
+21	eldre	gammel	ADJ	_	Degree=Cmp	22	amod	_	name=O
+22	bilene	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	18	nmod	_	name=O|Entity=ap_20080923_2669540__T88)ap_20080923_2669540__T87)
+23	nå	nå	ADV	_	_	16	advmod	_	SpaceAfter=No|name=O
+24	,	$,	PUNCT	_	_	16	punct	_	name=O
+25	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+26	Aasen	Aasen	PROPN	_	_	25	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20080923_2669540__3265--1)
+27	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001221
+# text = Han legger til at når det gjelder dieselbiler, er utslippskravene blitt strengere.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20080923_2669540__3265--1)
+2	legger	legge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	2	compound:prt	_	name=O
+4	at	at	SCONJ	_	_	12	mark	_	name=O
+5	når	når	SCONJ	_	_	7	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(ap_20080923_2669540__T91--1)
+7	gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	name=O
+8	dieselbiler	dieselbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__2201--1)
+9	,	$,	PUNCT	_	_	7	punct	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	utslippskravene	utslippskrav	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	12	nsubj	_	name=O|Entity=(ap_20080923_2669540__T93--1)
+12	blitt	bli	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+13	strengere	streng	ADJ	_	Degree=Cmp	12	xcomp	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001222
+# text = EU-kravene til dieselbiler som kommer i 2009, er fem ganger strengere for partikler enn kravene som har vært gjeldende siden 2005.
+1	EU-kravene	EU-krav	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	12	nsubj	_	name=B-DRV|Bridge=ap_20080923_2669540__T93<ap_20080923_2669540__T94:default|Entity=(ap_20080923_2669540__T94--1
+2	til	til	ADP	_	_	3	case	_	name=O
+3	dieselbiler	dieselbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	name=O|Entity=(ap_20080923_2669540__T95--1
+4	som	som	PRON	_	PronType=Rel	5	nsubj	_	name=O
+5	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	2009	2009	NUM	_	Number=Plur|NumType=Card	5	obl	_	SpaceAfter=No|name=O|Entity=ap_20080923_2669540__T95)
+8	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=ap_20080923_2669540__T94)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+10	fem	fem	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(ap_20080923_2669540__T96[1/2]--1
+11	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	name=O|Entity=ap_20080923_2669540__T96[1/2])
+12	strengere	streng	ADJ	_	Degree=Cmp	0	root	_	name=O
+13	for	for	ADP	_	_	14	case	_	name=O
+14	partikler	partikkel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	name=O|Entity=(ap_20080923_2669540__T97--1)
+15	enn	enn	ADP	_	_	16	case	_	name=O|Entity=(ap_20080923_2669540__T96[2/2]--1
+16	kravene	krav	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	nmod	_	name=O|Entity=(ap_20080923_2669540__T98--1
+17	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+18	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+19	vært	være	AUX	_	VerbForm=Part	20	cop	_	name=O
+20	gjeldende	gjeldende	ADJ	_	Degree=Pos|Number=Plur	16	acl:relcl	_	name=O
+21	siden	siden	ADP	_	_	22	case	_	name=O
+22	2005	2005	NUM	_	Number=Plur|NumType=Card	20	obl	_	SpaceAfter=No|name=O|Entity=ap_20080923_2669540__T98)ap_20080923_2669540__T96[2/2])
+23	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# newpar
+# sent_id = 001223
+# text = Dersom selgerne hos Stenshagen skal anbefale bilkjøp til kundene, er valget enkelt.
+1	Dersom	dersom	SCONJ	_	_	6	mark	_	name=O
+2	selgerne	selger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(ap_20080923_2669540__T99--1
+3	hos	hos	ADP	_	_	4	case	_	name=O
+4	Stenshagen	Stenshagen	PROPN	_	_	2	nmod	_	name=B-PER|Entity=(ap_20080923_2669540__3176--1)ap_20080923_2669540__T99)
+5	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	anbefale	anbefale	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+7	bilkjøp	bilkjøp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O|Entity=(ap_20080923_2669540__T101--1
+8	til	til	ADP	_	_	9	case	_	name=O
+9	kundene	kunde	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__5223--1)ap_20080923_2669540__T101)
+10	,	$,	PUNCT	_	_	6	punct	_	name=O
+11	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+12	valget	valg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	name=O|Entity=(ap_20080923_2669540__T103--1)
+13	enkelt	enkel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 001224
+# text = - Mindre CO2-utslipp og Regjeringens omlegging av avgiftssystemet, favoriserer dieselbilene, sier daglig leder Egil Stenshagen.
+1	-	$-	PUNCT	_	_	10	punct	_	name=O
+2	Mindre	liten	ADJ	_	Degree=Cmp	3	amod	_	name=O|Entity=(ap_20080923_2669540__T104--1(ap_20080923_2669540__T105[1/2]--1
+3	CO2-utslipp	CO2-utslipp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=ap_20080923_2669540__T105[1/2])
+4	og	og	CCONJ	_	_	6	cc	_	name=O
+5	Regjeringens	Regjeringen	PROPN	_	Case=Gen	6	nmod	_	name=B-ORG|Entity=(ap_20080923_2669540__T107--1(ap_20080923_2669540__T106--1)
+6	omlegging	omlegging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	conj	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	avgiftssystemet	avgiftssystem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__T108--1)ap_20080923_2669540__T107)
+9	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=(ap_20080923_2669540__T105[2/2]--1)ap_20080923_2669540__T104)
+10	favoriserer	favorisere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	dieselbilene	dieselbil	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No|name=O|Entity=(ap_20080923_2669540__2201--1)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	name=O
+14	daglig	daglig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(ap_20080923_2669540__2134--1(ap_20080923_2669540__T110--1
+15	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=ap_20080923_2669540__T110)
+16	Egil	Egil	PROPN	_	Gender=Masc	13	nsubj	_	name=B-PER
+17	Stenshagen	Stenshagen	PROPN	_	_	16	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20080923_2669540__2134)
+18	.	$.	PUNCT	_	_	10	punct	_	name=O
+

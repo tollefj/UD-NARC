@@ -1,0 +1,191 @@
+# newdoc id = firdann~20100916-5312114
+# global.Entity = eid-etype-head-other
+# sent_id = 007500
+# text = To arbeidsuhell
+1	To	to	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(firdann~20100916_5312114__T1--1
+2	arbeidsuhell	arbeidsuhell	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O|Entity=firdann~20100916_5312114__T1)
+
+# newpar
+# sent_id = 007501
+# text = Ein måtte sendast til sjukehus etter fall på Havyard.
+1	Ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	3	nsubj	_	name=O|Entity=(firdann~20100916_5312114__T2--1)
+2	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	sendast	sende	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(firdann~20100916_5312114__T3--1)
+6	etter	etter	ADP	_	_	7	case	_	name=O
+7	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(firdann~20100916_5312114__T4--1
+8	på	på	ADP	_	_	9	case	_	name=O
+9	Havyard	Havyard	PROPN	_	_	7	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20100916_5312114__215--1)firdann~20100916_5312114__T4)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 007502
+# text = Arkivfoto.
+1	Arkivfoto	arkivfoto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312114__T6--1)
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 007503
+# text = Det har i føremiddag vore to arbeidsuhell i fylket.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	føremiddag	føremiddag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(firdann~20100916_5312114__T7--1)
+5	vore	vere	VERB	_	VerbForm=Part	0	root	_	name=O
+6	to	to	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(firdann~20100916_5312114__254--1
+7	arbeidsuhell	arbeidsuhell	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=firdann~20100916_5312114__254)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	fylket	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312114__T9--1)
+10	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007504
+# text = På Havyard i Leirvik vart ein mann skadd etter ei fallulykke litt over klokka 10 i føremiddag.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	Havyard	Havyard	PROPN	_	_	8	obl	_	name=B-ORG|Entity=(firdann~20100916_5312114__215--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Leirvik	Leirvik	PROPN	_	_	2	nmod	_	name=B-LOC|Entity=(firdann~20100916_5312114__T11--1)firdann~20100916_5312114__215)
+5	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux:pass	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20100916_5312114__348--1
+7	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj:pass	_	name=O|Entity=firdann~20100916_5312114__348)
+8	skadd	skade	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+9	etter	etter	ADP	_	_	11	case	_	name=O
+10	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(firdann~20100916_5312114__T13--1
+11	fallulykke	fallulykke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	name=O|Entity=firdann~20100916_5312114__T13)
+12	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+13	over	over	ADP	_	_	15	case	_	name=O
+14	klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	obl	_	name=O|Entity=(firdann~20100916_5312114__T14--1)
+15	10	10	NUM	_	Number=Plur|NumType=Card	8	obl	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	føremiddag	føremiddag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312114__T15--1)
+18	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 007505
+# text = - Mannen har falle kring 1,5 meter, opplyser operasjonsleiar Per Rimmen i politiet.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20100916_5312114__348--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	falle	falle	VERB	_	VerbForm=Part	0	root	_	name=O
+5	kring	kring	ADP	_	_	6	case	_	name=O|Entity=(firdann~20100916_5312114__T17--1
+6	1,5	1,5	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O
+7	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312114__T17)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+10	operasjonsleiar	operasjonsleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(firdann~20100916_5312114__249--1
+11	Per	Per	NOUN	_	Gender=Masc	9	nsubj	_	name=B-PER
+12	Rimmen	Rimmen	PROPN	_	_	11	flat:name	_	name=I-PER
+13	i	i	ADP	_	_	14	case	_	name=O
+14	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312114__388--1)firdann~20100916_5312114__249)
+15	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007506
+# text = Mannen vart send til sjukehus, med lettare skader.
+1	Mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=(firdann~20100916_5312114__348--1)
+2	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	send	sende	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312114__T21--1)
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	med	med	ADP	_	_	9	case	_	name=O
+8	lettare	lett	ADJ	_	Degree=Cmp	9	amod	_	name=O|Entity=(firdann~20100916_5312114__T22--1
+9	skader	skade	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312114__T22)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007507
+# text = Kuttskadar
+1	Kuttskadar	kuttskade	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(firdann~20100916_5312114__T23--1)
+
+# sent_id = 007508
+# text = Også i Naustdal vart ein mann skadd etter eit arbeidsuhell på Sunnfjord Industri.
+1	Også	også	ADV	_	_	3	advmod	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Naustdal	Naustdal	PROPN	_	_	7	obl	_	name=B-GPE_LOC|Entity=(firdann~20100916_5312114__T24--1)
+4	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(firdann~20100916_5312114__253--1
+6	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj:pass	_	name=O|Entity=firdann~20100916_5312114__253)
+7	skadd	skade	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+8	etter	etter	ADP	_	_	10	case	_	name=O
+9	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(firdann~20100916_5312114__260--1
+10	arbeidsuhell	arbeidsuhell	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	Sunnfjord	Sunnfjord	PROPN	_	_	10	nmod	_	name=B-ORG|Entity=(firdann~20100916_5312114__T27--1
+13	Industri	Industri	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100916_5312114__T27)firdann~20100916_5312114__260)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 007509
+# text = Mannen pådrog seg kuttskadar i ei hand, ifølgje operasjonsleiar Rimmen.
+1	Mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100916_5312114__253--1)
+2	pådrog	pådra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	2	iobj	_	name=O
+4	kuttskadar	kuttskade	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=(firdann~20100916_5312114__T29--1
+5	i	i	ADP	_	_	7	case	_	name=O
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20100916_5312114__T30--1
+7	hand	hand	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312114__T30)firdann~20100916_5312114__T29)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	ifølgje	ifølgje	ADP	_	_	11	case	_	name=O
+10	operasjonsleiar	operasjonsleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	name=O|Entity=(firdann~20100916_5312114__249--1
+11	Rimmen	Rimmen	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-PER|Entity=firdann~20100916_5312114__249)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007510
+# text = Politiet fekk melding om uhellet 08.15.
+1	Politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100916_5312114__388--1)
+2	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	melding	melding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(firdann~20100916_5312114__T33--1
+4	om	om	ADP	_	_	5	case	_	name=O
+5	uhellet	uhell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(firdann~20100916_5312114__260--1)firdann~20100916_5312114__T33)
+6	08.15	08.15	NUM	_	NumType=Card	2	obl	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007511
+# text = Granskar verksemdene
+1	Granskar	granske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	verksemdene	verksemd	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	1	obj	_	name=O|SplitAnte=firdann~20100916_5312114__T27<firdann~20100916_5312114__3118,firdann~20100916_5312114__215<firdann~20100916_5312114__3118|Entity=(firdann~20100916_5312114__3118--1)
+
+# sent_id = 007512
+# text = I begge sakene vil politiet gjere ei gransking av stadene der ulukkene fann stad.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	begge	begge	DET	_	Number=Plur|PronType=Tot	3	det	_	name=O|Entity=(firdann~20100916_5312114__T36--1
+3	sakene	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	obl	_	name=O|Entity=firdann~20100916_5312114__T36)
+4	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(firdann~20100916_5312114__388--1)
+6	gjere	gjere	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20100916_5312114__T38--1
+8	gransking	gransking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	stadene	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=(firdann~20100916_5312114__3118--1
+11	der	der	SCONJ	_	_	13	mark	_	name=O
+12	ulukkene	ulukke	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	13	nsubj	_	name=O|Entity=(firdann~20100916_5312114__T40--1)
+13	fann	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl	_	name=O
+14	stad	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312114__T41--1)firdann~20100916_5312114__3118)firdann~20100916_5312114__T38)
+15	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007513
+# text = - Arbeidstilsynet er kontakta, så dei vil gjennomgå bedriftene og sjå på det tekniske, og finne ut kva som har ført til skadane.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Arbeidstilsynet	arbeidstilsyn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20100916_5312114__285--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	kontakta	kontakte	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	så	så	CCONJ	_	_	9	cc	_	name=O
+7	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(firdann~20100916_5312114__285--1)
+8	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	gjennomgå	gjennomgå	VERB	_	VerbForm=Inf	4	conj	_	name=O
+10	bedriftene	bedrift	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	9	obj	_	name=O|Entity=(firdann~20100916_5312114__3118--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	sjå	sjå	VERB	_	VerbForm=Inf	9	conj	_	name=O
+13	på	på	ADP	_	_	15	case	_	name=O
+14	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(firdann~20100916_5312114__T45--1
+15	tekniske	teknisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	advmod	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312114__T45)
+16	,	$,	PUNCT	_	_	18	punct	_	name=O
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	finne	finne	VERB	_	VerbForm=Inf	12	conj	_	name=O
+19	ut	ut	ADP	_	_	18	compound:prt	_	name=O
+20	kva	kva	PRON	_	PronType=Int	23	nsubj	_	name=O
+21	som	som	PRON	_	PronType=Rel	23	obj	_	name=O
+22	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+23	ført	føre	VERB	_	VerbForm=Part	18	ccomp	_	name=O
+24	til	til	ADP	_	_	25	case	_	name=O
+25	skadane	skade	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312114__254--1)
+26	.	$.	PUNCT	_	_	4	punct	_	name=O
+

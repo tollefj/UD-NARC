@@ -1,0 +1,218 @@
+# newdoc id = ap_20080603-2460206
+# global.Entity = eid-etype-head-other
+# sent_id = 000563
+# text = Vellykket operasjon for Edward Kennedy
+1	Vellykket	vellykket	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(ap_20080603_2460206__T1--1
+2	operasjon	operasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+3	for	for	ADP	_	_	4	case	_	name=O
+4	Edward	Edward	PROPN	_	_	2	obl	_	name=B-PER|Entity=(ap_20080603_2460206__17554--1
+5	Kennedy	Kennedy	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=ap_20080603_2460206__17554)ap_20080603_2460206__T1)
+
+# newpar
+# sent_id = 000564
+# text = Senator Edward Kennedy har gjennomgått en vellykket operasjon for ondartet svulst på hjernen.
+1	Senator	senator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20080603_2460206__17554--1
+2	Edward	Edward	PROPN	_	_	5	nsubj	_	name=B-PER
+3	Kennedy	Kennedy	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=ap_20080603_2460206__17554)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	gjennomgått	gjennomgå	VERB	_	VerbForm=Part	0	root	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20080603_2460206__7170--1
+7	vellykket	vellykket	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	operasjon	operasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O
+9	for	for	ADP	_	_	11	case	_	name=O
+10	ondartet	ondartet	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(ap_20080603_2460206__T5--1
+11	svulst	svulst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	hjernen	hjerne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20080603_2460206__T6--1)ap_20080603_2460206__T5)ap_20080603_2460206__7170)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000565
+# text = Operasjonen gikk etter planen, sier hans lege.
+1	Operasjonen	operasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20080603_2460206__7170--1)
+2	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	etter	etter	ADP	_	_	4	case	_	name=O
+4	planen	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080603_2460206__T8--1)
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+7	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(ap_20080603_2460206__473--1(ap_20080603_2460206__17554--1)
+8	lege	lege	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No|name=O|Entity=ap_20080603_2460206__473)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 000566
+# text = Doktor Allan Friedman opplyste mandag at Kennedy var ved bevissthet under det tre og en halv timer lange inngrepet.
+1	Doktor	doktor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20080603_2460206__473--1
+2	Allan	Allan	PROPN	_	_	4	nsubj	_	name=B-PER
+3	Friedman	Friedman	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=ap_20080603_2460206__473)
+4	opplyste	opplyse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(ap_20080603_2460206__T12--1)
+6	at	at	SCONJ	_	_	10	mark	_	name=O
+7	Kennedy	Kennedy	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(ap_20080603_2460206__17554--1)
+8	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	name=O
+9	ved	ved	SCONJ	_	_	10	mark	_	name=O
+10	bevissthet	bevissthet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	ccomp	_	name=O|Entity=(ap_20080603_2460206__T14--1)
+11	under	under	ADP	_	_	19	case	_	name=O
+12	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(ap_20080603_2460206__7170--1
+13	tre	tre	NUM	_	Number=Plur|NumType=Card	18	obl	_	name=O
+14	og	og	CCONJ	_	_	17	cc	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(ap_20080603_2460206__T15--1
+16	halv	halv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	timer	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	conj	_	name=O|Entity=ap_20080603_2460206__T15)
+18	lange	lang	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	inngrepet	inngrep	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=ap_20080603_2460206__7170)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000567
+# text = Den 76 år gamle politiske veteranen skal nå gjennomgå cellegiftkur og strålebehandling.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(ap_20080603_2460206__17554--1
+2	76	76	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(ap_20080603_2460206__T17--1
+3	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O|Entity=ap_20080603_2460206__T17)
+4	gamle	gammel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+5	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	veteranen	veteran	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=ap_20080603_2460206__17554)
+7	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+8	nå	nå	ADV	_	_	9	advmod	_	name=O
+9	gjennomgå	gjennomgå	VERB	_	VerbForm=Inf	0	root	_	name=O
+10	cellegiftkur	cellegiftkur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	name=O|Entity=(ap_20080603_2460206__T19--1(ap_20080603_2460206__T20--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	strålebehandling	strålebehandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No|name=O|Entity=(ap_20080603_2460206__T21--1)ap_20080603_2460206__T19)
+13	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 000568
+# text = - Det gleder meg å kunne meddele at senator Kennedys operasjon var vellykket og at vi nådde de målene vi hadde satt oss, het det i en kort kunngjøring fra Friedman.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	gleder	glede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	name=O|Entity=(ap_20080603_2460206__473--1)
+5	å	å	PART	_	_	7	mark	_	name=O
+6	kunne	kunne	AUX	_	VerbForm=Inf	7	aux	_	name=O
+7	meddele	meddele	VERB	_	VerbForm=Inf	3	csubj	_	name=O
+8	at	at	SCONJ	_	_	13	mark	_	name=O
+9	senator	senator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(ap_20080603_2460206__7170--1(ap_20080603_2460206__17554--1
+10	Kennedys	Kennedy	PROPN	_	Case=Gen	11	nmod	_	name=B-PER|Entity=ap_20080603_2460206__17554)
+11	operasjon	operasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=ap_20080603_2460206__7170)
+12	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+13	vellykket	vellykket	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	ccomp	_	name=O
+14	og	og	CCONJ	_	_	17	cc	_	name=O
+15	at	at	SCONJ	_	_	17	mark	_	name=O
+16	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	name=O|Entity=(ap_20080603_2460206__380--1)
+17	nådde	nå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	name=O
+18	de	de	DET	_	Number=Plur|PronType=Dem	19	det	_	name=O|Entity=(ap_20080603_2460206__T26--1
+19	målene	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	17	obj	_	name=O
+20	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	name=O|Entity=(ap_20080603_2460206__380--1)
+21	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	name=O
+22	satt	sette	VERB	_	VerbForm=Part	19	acl:relcl	_	name=O
+23	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	22	obj	_	SpaceAfter=No|name=O|Entity=(ap_20080603_2460206__380--1)ap_20080603_2460206__T26)
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	het	hete	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	name=O
+27	i	i	ADP	_	_	30	case	_	name=O
+28	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	30	det	_	name=O|Entity=(ap_20080603_2460206__T29--1
+29	kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	30	amod	_	name=O
+30	kunngjøring	kunngjøring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	name=O
+31	fra	fra	ADP	_	_	32	case	_	name=O
+32	Friedman	Friedman	PROPN	_	_	30	nmod	_	SpaceAfter=No|name=B-PER|Entity=(ap_20080603_2460206__473--1)ap_20080603_2460206__T29)
+33	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000569
+# text = Operasjonen ble foretatt ved Duke-universitetet i delstaten North Carolina.
+1	Operasjonen	operasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=(ap_20080603_2460206__7170--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	foretatt	foreta	VERB	_	VerbForm=Part	0	root	_	name=O
+4	ved	ved	ADP	_	_	5	case	_	name=O
+5	Duke-universitetet	Duke-universitetet	PROPN	_	_	3	obl	_	name=B-DRV|Entity=(ap_20080603_2460206__T32--1
+6	i	i	ADP	_	_	8	case	_	name=O
+7	delstaten	delstat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(ap_20080603_2460206__T33--1
+8	North	North	PROPN	_	_	5	nmod	_	name=B-GPE_LOC
+9	Carolina	Carolina	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=ap_20080603_2460206__T33)ap_20080603_2460206__T32)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000570
+# text = En talskvinne for Kennedy sa at han snakket med sin kone Vicki rett etter at inngrepet var over og at han var i glimrende humør.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20080603_2460206__T34--1
+2	talskvinne	talskvinne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O
+3	for	for	ADP	_	_	4	case	_	name=O
+4	Kennedy	Kennedy	PROPN	_	_	2	nmod	_	name=B-PER|Entity=(ap_20080603_2460206__17554--1)ap_20080603_2460206__T34)
+5	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20080603_2460206__17554--1)
+8	snakket	snakke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	name=O
+9	med	med	ADP	_	_	12	case	_	name=O
+10	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	name=O|Entity=(ap_20080603_2460206__T39--1(ap_20080603_2460206__T38--1(ap_20080603_2460206__17554--1)
+11	kone	kone	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=ap_20080603_2460206__T38)
+12	Vicki	Vicki	PROPN	_	_	8	obl	_	name=B-PER|Entity=ap_20080603_2460206__T39)
+13	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+14	etter	etter	SCONJ	_	_	18	mark	_	name=O
+15	at	at	SCONJ	_	_	18	mark	_	name=O
+16	inngrepet	inngrep	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	nsubj	_	name=O|Entity=(ap_20080603_2460206__7170--1)
+17	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	name=O
+18	over	over	ADP	_	_	8	advcl	_	name=O
+19	og	og	CCONJ	_	_	25	cc	_	name=O
+20	at	at	SCONJ	_	_	25	mark	_	name=O
+21	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	name=O|Entity=(ap_20080603_2460206__17554--1)
+22	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	cop	_	name=O
+23	i	i	ADP	_	_	25	case	_	name=O
+24	glimrende	glimrende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	name=O|Entity=(ap_20080603_2460206__T42--1
+25	humør	humør	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=ap_20080603_2460206__T42)
+26	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000571
+# text = - Jeg føler meg i kjempeform, jeg tror jeg vil gjøre det om igjen i morgen, spøkte han.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20080603_2460206__17554--1)
+3	føler	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	name=O|Entity=(ap_20080603_2460206__17554--1)
+5	i	i	SCONJ	_	_	6	mark	_	name=O
+6	kjempeform	kjempeform	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O|Entity=(ap_20080603_2460206__T45--1)
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	name=O|Entity=(ap_20080603_2460206__17554--1)
+9	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+10	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	name=O|Entity=(ap_20080603_2460206__17554--1)
+11	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	gjøre	gjøre	VERB	_	VerbForm=Inf	9	ccomp	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	name=O|Entity=(ap_20080603_2460206__7170--1)
+14	om	om	ADP	_	_	12	compound:prt	_	name=O
+15	igjen	igjen	ADV	_	_	14	advmod	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	morgen	morgen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080603_2460206__T49--1)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	spøkte	spøke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+20	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20080603_2460206__17554--1)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000572
+# text = Han har tidligere lovet å vende tilbake til aktivt politisk arbeid og drive valgkamp for den demokratiske presidentkandidaten Barack Obama.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20080603_2460206__17554--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	tidligere	tidlig	ADJ	_	Degree=Cmp	4	advmod	_	name=O
+4	lovet	love	VERB	_	VerbForm=Part	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	vende	vende	VERB	_	VerbForm=Inf	4	xcomp	_	name=O
+7	tilbake	tilbake	ADP	_	_	11	case	_	name=O
+8	til	til	ADP	_	_	11	case	_	name=O
+9	aktivt	aktiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O|Entity=(ap_20080603_2460206__T52--1
+10	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+11	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=ap_20080603_2460206__T52)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	drive	drive	VERB	_	VerbForm=Inf	6	conj	_	name=O
+14	valgkamp	valgkamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(ap_20080603_2460206__T53--1)
+15	for	for	ADP	_	_	19	case	_	name=O
+16	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(ap_20080603_2460206__T55--1(ap_20080603_2460206__T54--1
+17	demokratiske	demokratisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	presidentkandidaten	presidentkandidat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=ap_20080603_2460206__T54)
+19	Barack	Barack	PROPN	_	_	13	obl	_	name=B-PER
+20	Obama	Obama	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20080603_2460206__T55)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000573
+# text = Edward Kennedy har sittet i Senatet siden 1962.
+1	Edward	Edward	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(ap_20080603_2460206__17554--1
+2	Kennedy	Kennedy	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=ap_20080603_2460206__17554)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	sittet	sitte	VERB	_	VerbForm=Part	0	root	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Senatet	Senatet	PROPN	_	_	4	obl	_	name=B-ORG|Entity=(ap_20080603_2460206__T57--1)
+7	siden	siden	ADP	_	_	8	case	_	name=O
+8	1962	1962	NUM	_	Number=Plur|NumType=Card	4	obl	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+

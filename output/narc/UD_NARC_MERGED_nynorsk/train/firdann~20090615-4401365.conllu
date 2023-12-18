@@ -1,0 +1,196 @@
+# newdoc id = firdann~20090615-4401365
+# global.Entity = eid-etype-head-other
+# sent_id = 006927
+# text = I fengsel for amfetaminkjøp
+1	I	i	ADP	_	_	2	case	_	name=O
+2	fengsel	fengsel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20090615_4401365__T1--1)
+3	for	for	ADP	_	_	4	case	_	name=O
+4	amfetaminkjøp	amfetaminkjøp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(firdann~20090615_4401365__T2--1)
+
+# newpar
+# sent_id = 006928
+# text = Ein barnehagetilsett er i Fjordane tingrett dømd til 30 dagar fengsel og bot for kjøp av narkotika.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(firdann~20090615_4401365__6165--1
+2	barnehagetilsett	barnehagetilsett	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	nsubj	_	name=O|Entity=firdann~20090615_4401365__6165)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Fjordane	Fjordane	PROPN	_	_	7	obl	_	name=B-ORG|Entity=(firdann~20090615_4401365__4119--1
+6	tingrett	tingrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	flat:name	_	name=I-ORG|Entity=firdann~20090615_4401365__4119)
+7	dømd	dømme	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+8	til	til	ADP	_	_	11	case	_	name=O
+9	30	30	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(firdann~20090615_4401365__T6--1(firdann~20090615_4401365__T7--1(firdann~20090615_4401365__T5--1
+10	dagar	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	name=O|Entity=firdann~20090615_4401365__T5)
+11	fengsel	fengsel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=firdann~20090615_4401365__T7)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	bot	bot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	conj	_	name=O|Entity=(firdann~20090615_4401365__T8--1)firdann~20090615_4401365__T6)
+14	for	for	ADP	_	_	15	case	_	name=O
+15	kjøp	kjøp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(firdann~20090615_4401365__T9--1
+16	av	av	ADP	_	_	17	case	_	name=O
+17	narkotika	narkotika	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4401365__T10--1)firdann~20090615_4401365__T9)
+18	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006929
+# text = Kjøpte fem gram
+1	Kjøpte	kjøpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	fem	fem	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(firdann~20090615_4401365__T11--1
+3	gram	gram	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	obj	_	name=O|Entity=firdann~20090615_4401365__T11)
+
+# sent_id = 006930
+# text = Vedkommande er sikta for å ha kjøpt til saman fem gram amfetamin våren 2009, og skal ha brukt dette.
+1	Vedkommande	vedkommande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20090615_4401365__6165--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	sikta	sikte	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+4	for	for	SCONJ	_	_	7	mark	_	name=O
+5	å	å	PART	_	_	7	mark	_	name=O
+6	ha	ha	AUX	_	VerbForm=Inf	7	aux	_	name=O
+7	kjøpt	kjøpe	VERB	_	VerbForm=Part	3	advcl	_	name=O
+8	til	til	ADP	_	_	10	obl	_	name=O|Entity=(firdann~20090615_4401365__369--1(firdann~20090615_4401365__T13--1
+9	saman	saman	ADV	_	_	8	advmod	_	name=O
+10	fem	fem	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O
+11	gram	gram	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	nmod	_	name=O|Entity=firdann~20090615_4401365__T13)
+12	amfetamin	amfetamin	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	name=O|Entity=firdann~20090615_4401365__369)
+13	våren	vår	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(firdann~20090615_4401365__T15--1
+14	2009	2009	NUM	_	Number=Plur|NumType=Card	13	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4401365__T15)
+15	,	$,	PUNCT	_	_	19	punct	_	name=O
+16	og	og	CCONJ	_	_	19	cc	_	name=O
+17	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+18	ha	ha	AUX	_	VerbForm=Inf	19	aux	_	name=O
+19	brukt	bruke	VERB	_	VerbForm=Part	3	conj	_	name=O
+20	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4401365__369--1)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006931
+# text = Den sikta har tilstått kjøp og bruk av fem gram amfetamin, og vart i tingretten dømd til 30 dagar fengsel med prøvetid på to år og ei bot på 4000 kroner subsidiært med åtte dagar fengsel.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(firdann~20090615_4401365__6165--1
+2	sikta	sikte	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	4	nsubj	_	name=O|Entity=firdann~20090615_4401365__6165)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	tilstått	tilstå	VERB	_	VerbForm=Part	0	root	_	name=O
+5	kjøp	kjøp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=(firdann~20090615_4401365__T18--1(firdann~20090615_4401365__T19--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O|Entity=(firdann~20090615_4401365__T20--1
+8	av	av	ADP	_	_	11	case	_	name=O
+9	fem	fem	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(firdann~20090615_4401365__T22--1(firdann~20090615_4401365__T21--1
+10	gram	gram	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	name=O|Entity=firdann~20090615_4401365__T21)
+11	amfetamin	amfetamin	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4401365__T22)firdann~20090615_4401365__T20)firdann~20090615_4401365__T18)
+12	,	$,	PUNCT	_	_	17	punct	_	name=O
+13	og	og	CCONJ	_	_	17	cc	_	name=O
+14	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux:pass	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	tingretten	tingrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obl	_	name=O|Entity=(firdann~20090615_4401365__4119--1)
+17	dømd	dømme	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	4	conj	_	name=O
+18	til	til	ADP	_	_	21	case	_	name=O
+19	30	30	NUM	_	Number=Plur|NumType=Card	20	nummod	_	name=O|Entity=(firdann~20090615_4401365__284--1(firdann~20090615_4401365__T26--1(firdann~20090615_4401365__T24--1
+20	dagar	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	nmod	_	name=O|Entity=firdann~20090615_4401365__T24)
+21	fengsel	fengsel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	obl	_	name=O
+22	med	med	ADP	_	_	23	case	_	name=O
+23	prøvetid	prøvetid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	name=O|Entity=(firdann~20090615_4401365__T27--1
+24	på	på	ADP	_	_	26	case	_	name=O
+25	to	to	NUM	_	Number=Plur|NumType=Card	26	nummod	_	name=O|Entity=(firdann~20090615_4401365__T28--1
+26	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	nmod	_	name=O|Entity=firdann~20090615_4401365__T28)firdann~20090615_4401365__T27)firdann~20090615_4401365__T26)
+27	og	og	CCONJ	_	_	29	cc	_	name=O
+28	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	29	det	_	name=O|Entity=(firdann~20090615_4401365__T29--1(firdann~20090615_4401365__T30--1
+29	bot	bot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	conj	_	name=O
+30	på	på	ADP	_	_	32	case	_	name=O
+31	4000	4000	NUM	_	Number=Plur|NumType=Card	32	nummod	_	name=O|Entity=(firdann~20090615_4401365__T31--1
+32	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	29	nmod	_	name=O|Entity=firdann~20090615_4401365__T31)firdann~20090615_4401365__T30)
+33	subsidiært	subsidiær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	37	advmod	_	name=O
+34	med	med	ADP	_	_	37	case	_	name=O
+35	åtte	åtte	NUM	_	Number=Plur|NumType=Card	36	nummod	_	name=O|Entity=(firdann~20090615_4401365__T33--1(firdann~20090615_4401365__T32--1
+36	dagar	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	37	nmod	_	name=O|Entity=firdann~20090615_4401365__T32)
+37	fengsel	fengsel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	29	conj	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4401365__T33)firdann~20090615_4401365__T29)firdann~20090615_4401365__284)
+38	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006932
+# text = Kjøpte gjentekne gongar
+1	Kjøpte	kjøpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	gjentekne	gjenta	ADJ	_	Number=Plur|VerbForm=Part	3	amod	_	name=O|Entity=(firdann~20090615_4401365__T34--1
+3	gongar	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	obl	_	name=O|Entity=firdann~20090615_4401365__T34)
+
+# sent_id = 006933
+# text = I straffeskjerpande retning, vart det påpeika i retten at vedkommande har gjentekne gongar erverva narkotikaen.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	straffeskjerpande	straffeskjerpe	ADJ	_	VerbForm=Part	3	amod	_	name=O|Entity=(firdann~20090615_4401365__T35--1
+3	retning	retning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4401365__T35)
+4	,	$,	PUNCT	_	_	3	punct	_	name=O
+5	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+7	påpeika	påpeike	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(firdann~20090615_4401365__4119--1)
+10	at	at	SCONJ	_	_	15	mark	_	name=O
+11	vedkommande	vedkommande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	nsubj	_	name=O|Entity=(firdann~20090615_4401365__6165--1)
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+13	gjentekne	gjenta	ADJ	_	Number=Plur|VerbForm=Part	14	amod	_	name=O|Entity=(firdann~20090615_4401365__T38--1
+14	gongar	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obl	_	name=O|Entity=firdann~20090615_4401365__T38)
+15	erverva	erverve	VERB	_	VerbForm=Part	7	ccomp	_	name=O
+16	narkotikaen	narkotika	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4401365__369--1)
+17	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006934
+# text = Men det er snakk om kjøp av amfetamin til eige bruk og spreidningsfaren er såleis liten.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	snakk	snakk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20090615_4401365__T40--1
+5	om	om	ADP	_	_	6	case	_	name=O
+6	kjøp	kjøp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(firdann~20090615_4401365__T41--1
+7	av	av	ADP	_	_	8	case	_	name=O
+8	amfetamin	amfetamin	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20090615_4401365__T42--1
+9	til	til	ADP	_	_	11	case	_	name=O
+10	eige	eigen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	11	det	_	name=O|Entity=(firdann~20090615_4401365__T43--1
+11	bruk	bruk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	name=O|Entity=firdann~20090615_4401365__T43)firdann~20090615_4401365__T42)firdann~20090615_4401365__T41)firdann~20090615_4401365__T40)
+12	og	og	CCONJ	_	_	16	cc	_	name=O
+13	spreidningsfaren	spreidningsfare	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	name=O|Entity=(firdann~20090615_4401365__T44--1)
+14	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+15	såleis	såleis	ADV	_	_	16	advmod	_	name=O
+16	liten	liten	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006935
+# text = Ettersom den sikta har gitt forbehalden tilståing, verkar dette i formildande retning fordi tilståinga har hjelpt til å oppklare saka.
+1	Ettersom	ettersom	SCONJ	_	_	5	mark	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20090615_4401365__6165--1
+3	sikta	sikte	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	5	nsubj	_	name=O|Entity=firdann~20090615_4401365__6165)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	gitt	gi	VERB	_	VerbForm=Part	9	advcl	_	name=O
+6	forbehalden	forbehalden	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(firdann~20090615_4401365__3142--1
+7	tilståing	tilståing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4401365__3142)
+8	,	$,	PUNCT	_	_	5	punct	_	name=O
+9	verkar	verke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(firdann~20090615_4401365__3142--1)
+11	i	i	ADP	_	_	13	case	_	name=O
+12	formildande	formilde	ADJ	_	VerbForm=Part	13	amod	_	name=O|Entity=(firdann~20090615_4401365__T48--1
+13	retning	retning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	name=O|Entity=firdann~20090615_4401365__T48)
+14	fordi	fordi	SCONJ	_	_	17	mark	_	name=O
+15	tilståinga	tilståing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	name=O|Entity=(firdann~20090615_4401365__3142--1)
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	hjelpt	hjelpe	VERB	_	VerbForm=Part	9	advcl	_	name=O
+18	til	til	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	oppklare	oppklare	VERB	_	VerbForm=Inf	17	advcl	_	name=O
+21	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4401365__T50--1)
+22	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 006936
+# text = Vedkommande sin helsetilstand og ansvar for barn har retten teke til følgje, står der i dokumentet til dommen.
+1	Vedkommande	vedkommande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	advmod	_	name=O|Entity=(firdann~20090615_4401365__T52--1(firdann~20090615_4401365__T53--1(firdann~20090615_4401365__6165--1
+2	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	name=O|Entity=firdann~20090615_4401365__6165)
+3	helsetilstand	helsetilstand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=firdann~20090615_4401365__T53)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	conj	_	name=O|Entity=(firdann~20090615_4401365__T54--1
+6	for	for	ADP	_	_	7	case	_	name=O
+7	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	name=O|Entity=(firdann~20090615_4401365__T55--1)firdann~20090615_4401365__T54)firdann~20090615_4401365__T52)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20090615_4401365__4119--1)
+10	teke	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+11	til	til	ADP	_	_	12	case	_	name=O
+12	følgje	følgje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4401365__T57--1)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	name=O
+15	der	der	PRON	_	PronType=Prs	14	expl	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	dokumentet	dokument	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	name=O|Bridge=firdann~20090615_4401365__T50<firdann~20090615_4401365__T58:default|Entity=(firdann~20090615_4401365__T58--1
+18	til	til	ADP	_	_	19	case	_	name=O
+19	dommen	dom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4401365__284--1)firdann~20090615_4401365__T58)
+20	.	$.	PUNCT	_	_	10	punct	_	name=O
+

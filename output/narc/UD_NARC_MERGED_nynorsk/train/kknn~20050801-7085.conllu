@@ -1,0 +1,913 @@
+# newdoc id = kknn~20050801-7085
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 008332
+# text = NEDLEGGJING:
+1	NEDLEGGJING	Nedleggjing	PROPN	_	_	0	root	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T1--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 008333
+# text = Det politiske presset mot leiinga i Norske Skog aukar raskt.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kknn~20050801_7085__295--1
+2	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	presset	press	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O
+4	mot	mot	ADP	_	_	5	case	_	name=O
+5	leiinga	leiing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	name=O|Entity=(kknn~20050801_7085__12941--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Norske	Norske	PROPN	_	_	5	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+8	Skog	Skog	PROPN	_	_	7	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__12941)kknn~20050801_7085__295)
+9	aukar	auke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 008334
+# text = No har konsernleiinga sett seg nøydd til å invitera samtlege partileiarar til møte.
+1	No	no	ADV	_	_	4	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	konsernleiinga	konsernleiing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Entity=(kknn~20050801_7085__12941--1)
+4	sett	sjå	VERB	_	VerbForm=Part	0	root	_	name=O
+5	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	4	obj	_	name=O|Entity=(kknn~20050801_7085__12941--1)
+6	nøydd	nøydd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	xcomp	_	name=O
+7	til	til	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	invitera	invitere	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+10	samtlege	samtleg	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(kknn~20050801_7085__T6--1
+11	partileiarar	partileiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	name=O|Entity=kknn~20050801_7085__T6)
+12	til	til	ADP	_	_	13	case	_	name=O
+13	møte	møte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T7--1)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008335
+# text = - Vi er opptekne av er at politikarane har eit komplett bilete, seier informasjonssjef Tom Bratlie i Norske Skog.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(kknn~20050801_7085__12941--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	opptekne	oppteken	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+5	av	av	SCONJ	_	_	9	mark	_	name=O
+6	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	reparandum	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	politikarane	politikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=(kknn~20050801_7085__4136--1)
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+10	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kknn~20050801_7085__T10--1
+11	komplett	komplett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	name=O
+12	bilete	bilete	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T10)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+15	informasjonssjef	informasjonssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(kknn~20050801_7085__6247--1
+16	Tom	Tom	NOUN	_	Gender=Masc	14	nsubj	_	name=B-PER
+17	Bratlie	Bratlie	PROPN	_	_	16	flat:name	_	name=I-PER
+18	i	i	ADP	_	_	19	case	_	name=O
+19	Norske	Norske	PROPN	_	_	16	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+20	Skog	Skog	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__6247)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 008336
+# text = - Vi kjende behov for å informera politikarane betre, seier Tom Bratlie, informasjonssjef i Norske Skog til Klassekampen.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050801_7085__12941--1)
+3	kjende	kjenne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	behov	behov	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(kknn~20050801_7085__T14--1
+5	for	for	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	informera	informere	VERB	_	VerbForm=Inf	4	acl	_	name=O
+8	politikarane	politikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	obj	_	name=O|Entity=(kknn~20050801_7085__4136--1)
+9	betre	bra	ADJ	_	Degree=Cmp	7	advmod	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T14)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+12	Tom	Tom	NOUN	_	Gender=Masc	11	nsubj	_	name=B-PER|Entity=(kknn~20050801_7085__6247--1
+13	Bratlie	Bratlie	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PER
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	informasjonssjef	informasjonssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	name=O|Entity=(kknn~20050801_7085__T17--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Norske	Norske	PROPN	_	_	15	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+18	Skog	Skog	PROPN	_	_	17	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__T17)kknn~20050801_7085__6247)
+19	til	til	ADP	_	_	20	case	_	name=O
+20	Klassekampen	Klassekampen	PROPN	_	_	11	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20050801_7085__3279--1)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008337
+# text = Bratlie stadfestar at samtlege partileiararar er invitert på informasjonsmøte med konsernleiinga i Norske Skog i dag.
+1	Bratlie	Bratlie	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kknn~20050801_7085__6247--1)
+2	stadfestar	stadfeste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	samtlege	samtleg	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(kknn~20050801_7085__T21--1
+5	partileiararar	partileiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=kknn~20050801_7085__T21)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	invitert	invitere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	2	ccomp	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	informasjonsmøte	informasjonsmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(kknn~20050801_7085__286--1
+10	med	med	ADP	_	_	11	case	_	name=O
+11	konsernleiinga	konsernleiing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	name=O|Entity=(kknn~20050801_7085__12941--1
+12	i	i	ADP	_	_	13	case	_	name=O
+13	Norske	Norske	PROPN	_	_	11	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+14	Skog	Skog	PROPN	_	_	13	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__12941)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T25--1)kknn~20050801_7085__286)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008338
+# text = Bakgrunnen er det enorme oppstyret som har oppstått kring leiinga sitt vedtak om å leggja ned papirfabrikken Union i Skien.
+1	Bakgrunnen	bakgrunn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(kknn~20050801_7085__T26--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(kknn~20050801_7085__81124--1
+4	enorme	enorm	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	oppstyret	oppstyr	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O
+6	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	oppstått	oppstå	VERB	_	VerbForm=Part	5	acl:relcl	_	name=O
+9	kring	kring	ADP	_	_	12	case	_	name=O
+10	leiinga	leiing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=(kknn~20050801_7085__3267--1(kknn~20050801_7085__T29--1(kknn~20050801_7085__12941--1)
+11	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	name=O|Entity=kknn~20050801_7085__T29)
+12	vedtak	vedtak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O
+13	om	om	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	leggja	leggje	VERB	_	VerbForm=Inf	12	acl	_	name=O
+16	ned	ned	ADP	_	_	15	compound:prt	_	name=O
+17	papirfabrikken	papirfabrikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(kknn~20050801_7085__121656--1
+18	Union	Union	PROPN	_	_	15	obj	_	name=B-ORG
+19	i	i	ADP	_	_	20	case	_	name=O
+20	Skien	Skien	PROPN	_	_	18	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20050801_7085__270--1)kknn~20050801_7085__121656)kknn~20050801_7085__3267)kknn~20050801_7085__81124)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008339
+# text = Dei siste dagane har striden kring nedleggjinga vorten eit rikspolitisk spørsmål.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(kknn~20050801_7085__T33--1
+2	siste	sist	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	dagane	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obl	_	name=O|Entity=kknn~20050801_7085__T33)
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	striden	strid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(kknn~20050801_7085__2130--1
+6	kring	kring	ADP	_	_	7	case	_	name=O
+7	nedleggjinga	nedleggjing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	name=O|Entity=(kknn~20050801_7085__3267--1)kknn~20050801_7085__2130)
+8	vorten	verte	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	4	xcomp	_	name=O
+9	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(kknn~20050801_7085__T36--1
+10	rikspolitisk	rikspolitisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+11	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	xcomp	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T36)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008340
+# text = No kappast politikarane om å koma til Skien for å diskutera med dei tilsette ved fabrikken.
+1	No	no	ADV	_	_	2	advmod	_	name=O
+2	kappast	kappast	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	politikarane	politikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(kknn~20050801_7085__4136--1)
+4	om	om	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	koma	kome	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	Skien	Skien	PROPN	_	_	6	obl	_	name=B-GPE_LOC|Entity=(kknn~20050801_7085__270--1)
+9	for	for	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	diskutera	diskutere	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+12	med	med	ADP	_	_	14	case	_	name=O
+13	dei	dei	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(kknn~20050801_7085__T39--1
+14	tilsette	tilsett	ADJ	_	Degree=Pos|Number=Plur	11	advmod	_	name=O
+15	ved	ved	ADP	_	_	16	case	_	name=O
+16	fabrikken	fabrikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__121656--1)kknn~20050801_7085__T39)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008341
+# text = I dag kjem Ap-leiar Jens Stoltenberg på vitjing.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050801_7085__T41--1)
+3	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	Ap-leiar	ap-leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=B-DRV|Entity=(kknn~20050801_7085__5687--1
+5	Jens	Jens	NOUN	_	Gender=Masc	3	nsubj	_	name=B-PER
+6	Stoltenberg	Stoltenberg	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=kknn~20050801_7085__5687)
+7	på	på	ADP	_	_	8	case	_	name=O
+8	vitjing	vitjing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T43--1)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008342
+# text = I morgon kjem Frp-leiar Carl I. Hagen.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	morgon	morgon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050801_7085__T44--1)
+3	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	Frp-leiar	frp-leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=B-DRV|Entity=(kknn~20050801_7085__2275--1
+5	Carl	Carl	NOUN	_	Gender=Masc	3	nsubj	_	name=B-PER
+6	I.	I.	NOUN	_	Abbr=Yes	5	flat:name	_	name=I-PER
+7	Hagen	Hagen	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kknn~20050801_7085__2275)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008343
+# text = Og onsdag kjem SV-leiar Kristin Halvorsen.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050801_7085__T46--1)
+3	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	SV-leiar	sV-leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=B-DRV|Entity=(kknn~20050801_7085__3408--1
+5	Kristin	Kristin	NOUN	_	Gender=Fem	3	nsubj	_	name=B-PER
+6	Halvorsen	Halvorsen	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kknn~20050801_7085__3408)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008344
+# text = Næringsminister Børge Brende seier til NRK at han vil bruke både gulrot og pisk for å hindre nedleggelse.
+1	Næringsminister	næringsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(kknn~20050801_7085__4377--1
+2	Børge	Børge	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER
+3	Brende	Brende	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=kknn~20050801_7085__4377)
+4	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	NRK	NRK	PROPN	_	_	4	obl	_	name=B-ORG|Entity=(kknn~20050801_7085__T49--1)
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(kknn~20050801_7085__4377--1)
+9	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	bruke	bruke	VERB	_	VerbForm=Inf	4	ccomp	_	name=O
+11	både	både	CCONJ	_	_	12	cc	_	name=O
+12	gulrot	gulrot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	name=O|Entity=(kknn~20050801_7085__T51--1(kknn~20050801_7085__T52--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	pisk	pisk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	name=O|Entity=(kknn~20050801_7085__T53--1)kknn~20050801_7085__T51)
+15	for	for	SCONJ	_	_	17	mark	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	hindre	hindre	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+18	nedleggelse	nedleggelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T54--1)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008345
+# text = Men han understreker at det er bedrifta sjølv som avgjer om drifta skal fortsette.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050801_7085__4377--1)
+3	understreker	understreke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	bedrifta	bedrift	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	xcomp	_	name=O|Entity=(kknn~20050801_7085__161940--1
+8	sjølv	sjølv	DET	_	PronType=Prs	7	det	_	name=O|Entity=kknn~20050801_7085__161940)
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	avgjer	avgjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:cleft	_	name=O
+11	om	om	SCONJ	_	_	14	mark	_	name=O
+12	drifta	drift	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	name=O|Entity=(kknn~20050801_7085__T57--1)
+13	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	fortsette	fortsette	VERB	_	VerbForm=Inf	10	advcl	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008346
+# text = - Vi forstår godt at mange har kommentert saka, men har eit behov for å fortelja heile bakgrunnen.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050801_7085__12941--1)
+3	forstår	forstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	mange	mange	ADJ	_	Degree=Pos|Number=Plur	8	nsubj	_	name=O|Entity=(kknn~20050801_7085__T59--1)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	kommentert	kommentere	VERB	_	VerbForm=Part	3	ccomp	_	name=O
+9	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__81124--1)
+10	,	$,	PUNCT	_	_	12	punct	_	name=O
+11	men	men	CCONJ	_	_	12	cc	_	name=O
+12	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+13	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(kknn~20050801_7085__T61--1
+14	behov	behov	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	name=O
+15	for	for	SCONJ	_	_	17	mark	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	fortelja	fortelje	VERB	_	VerbForm=Inf	14	acl	_	name=O
+18	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O|Entity=(kknn~20050801_7085__T62--1
+19	bakgrunnen	bakgrunn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T62)kknn~20050801_7085__T61)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008347
+# text = Då tykte vi det var mest ryddig å invitera til eit slikt møte, seier Bratlie.
+1	Då	då	ADV	_	_	2	advmod	_	name=O
+2	tykte	tykkje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20050801_7085__12941--1)
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+5	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+6	mest	mykje	ADJ	_	Definite=Ind|Degree=Sup	7	advmod	_	name=O
+7	ryddig	ryddig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	invitera	invitere	VERB	_	VerbForm=Inf	7	csubj	_	name=O
+10	til	til	ADP	_	_	13	case	_	name=O
+11	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(kknn~20050801_7085__286--1
+12	slikt	slik	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O
+13	møte	møte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__286)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+16	Bratlie	Bratlie	PROPN	_	_	15	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050801_7085__6247--1)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008348
+# text = - Tykkjer de at enkelte politikarar har utalt seg uheldig i denne saka?
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Tykkjer	tykkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	de	de	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=2|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20050801_7085__6247--1)
+4	at	at	SCONJ	_	_	8	mark	_	name=O
+5	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(kknn~20050801_7085__2306--1
+6	politikarar	politikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=kknn~20050801_7085__2306)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	utalt	uttale	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+9	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	8	obj	_	name=O|Entity=(kknn~20050801_7085__2306--1)
+10	uheldig	uheldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+11	i	i	ADP	_	_	13	case	_	name=O
+12	denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(kknn~20050801_7085__81124--1
+13	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__81124)
+14	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008349
+# text = - Eg har ikkje lyst til å meina noko om det.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050801_7085__6247--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	lyst	lyst	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=(kknn~20050801_7085__T70--1
+6	til	til	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	meina	meine	VERB	_	VerbForm=Inf	5	acl	_	name=O
+9	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	8	obj	_	name=O|Entity=(kknn~20050801_7085__T71--1)
+10	om	om	ADP	_	_	11	case	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T72--1)kknn~20050801_7085__T70)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008350
+# text = Det vi er opptekne av er at politikarane har eit komplett bilete.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(kknn~20050801_7085__T73--1
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(kknn~20050801_7085__12941--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	opptekne	oppteken	ADJ	_	Degree=Pos|Number=Plur	1	acl:relcl	_	name=O
+5	av	av	ADP	_	_	4	obl	_	name=O|Entity=kknn~20050801_7085__T73)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	politikarane	politikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=(kknn~20050801_7085__4136--1)
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kknn~20050801_7085__T76--1
+11	komplett	komplett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	name=O
+12	bilete	bilete	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T76)
+13	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 008351
+# text = Når Klassekampen ringjer hovudtillitsvald ved Union i Skien, Jan Grini, kjenner han til at det skal vera møte, men seier at han ikkje er invitert sjølv.
+1	Når	når	SCONJ	_	_	3	mark	_	name=O
+2	Klassekampen	Klassekampen	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(kknn~20050801_7085__3279--1)
+3	ringjer	ringje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	name=O
+4	hovudtillitsvald	hovudtillitsvald	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(kknn~20050801_7085__91014--1(kknn~20050801_7085__T78--1
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	Union	Union	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__121656--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Skien	Skien	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20050801_7085__4639--1)kknn~20050801_7085__121656)
+9	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=kknn~20050801_7085__T78)
+10	Jan	Jan	NOUN	_	Gender=Masc	3	obj	_	name=B-PER
+11	Grini	Grini	PROPN	_	_	10	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kknn~20050801_7085__91014)
+12	,	$,	PUNCT	_	_	3	punct	_	name=O
+13	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+14	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(kknn~20050801_7085__91014--1)
+15	til	til	SCONJ	_	_	19	mark	_	name=O
+16	at	at	SCONJ	_	_	19	mark	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	name=O
+18	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	vera	vere	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+20	møte	møte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T83--1)
+21	,	$,	PUNCT	_	_	23	punct	_	name=O
+22	men	men	CCONJ	_	_	23	cc	_	name=O
+23	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	conj	_	name=O
+24	at	at	SCONJ	_	_	28	mark	_	name=O
+25	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	name=O|Entity=(kknn~20050801_7085__91014--1)
+26	ikkje	ikkje	PART	_	Polarity=Neg	28	advmod	_	name=O
+27	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	name=O
+28	invitert	invitere	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	23	ccomp	_	name=O
+29	sjølv	sjølv	ADV	_	_	28	advmod	_	SpaceAfter=No|name=O
+30	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 008352
+# text = - Det tykkjer eg kanskje hadde vore naturleg, med tanke på alvoret i situasjonen og alle arbeidsplassane som står på spel.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(kknn~20050801_7085__T85--1)
+3	tykkjer	tykkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050801_7085__91014--1)
+5	kanskje	kanskje	ADV	_	_	8	advmod	_	name=O
+6	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+7	vore	vere	AUX	_	VerbForm=Part	8	cop	_	name=O
+8	naturleg	naturleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	ccomp	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	med	med	ADP	_	_	11	case	_	name=O
+11	tanke	tanke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(kknn~20050801_7085__T87--1
+12	på	på	ADP	_	_	13	case	_	name=O
+13	alvoret	alvor	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(kknn~20050801_7085__T88--1(kknn~20050801_7085__T89--1
+14	i	i	ADP	_	_	15	case	_	name=O
+15	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(kknn~20050801_7085__T90--1)kknn~20050801_7085__T89)
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	alle	all	DET	_	Number=Plur|PronType=Tot	18	det	_	name=O|Entity=(kknn~20050801_7085__T91--1
+18	arbeidsplassane	arbeidsplass	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	conj	_	name=O
+19	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+20	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	name=O
+21	på	på	ADP	_	_	22	case	_	name=O
+22	spel	spel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T92--1)kknn~20050801_7085__T91)kknn~20050801_7085__T88)kknn~20050801_7085__T87)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008353
+# text = Presset aukar
+1	Presset	press	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(kknn~20050801_7085__295--1)
+2	aukar	auke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+
+# sent_id = 008354
+# text = Grini er likevel nøgd med utviklinga striden om Union har tatt dei siste dagane.
+1	Grini	Grini	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(kknn~20050801_7085__91014--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	likevel	likevel	ADV	_	_	4	advmod	_	name=O
+4	nøgd	nøgd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	utviklinga	utvikling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=(kknn~20050801_7085__T95--1
+7	striden	strid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=(kknn~20050801_7085__2130--1
+8	om	om	ADP	_	_	9	case	_	name=O
+9	Union	Union	PROPN	_	_	7	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__121656--1)kknn~20050801_7085__2130)
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	tatt	ta	VERB	_	VerbForm=Part	6	acl:relcl	_	name=O
+12	dei	dei	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(kknn~20050801_7085__T98--1
+13	siste	sist	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	dagane	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T98)kknn~20050801_7085__T95)
+15	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008355
+# text = Laurdag utalte styreleiar i Agder-Telemark Skogeierforening Christian Ramberg, som er aksjonær i Norske Skog, til VG at dei ønskjer framleis drift.
+1	Laurdag	laurdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(kknn~20050801_7085__T99--1)
+2	utalte	uttale	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	styreleiar	styreleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(kknn~20050801_7085__2221--1(kknn~20050801_7085__T100--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Agder-Telemark	Agder-Telemark	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__3327--1
+6	Skogeierforening	Skogeierforening	PROPN	_	_	5	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__3327)kknn~20050801_7085__T100)
+7	Christian	Christian	NOUN	_	Gender=Masc	2	nsubj	_	name=B-PER
+8	Ramberg	Ramberg	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-PER
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+12	aksjonær	aksjonær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	acl:relcl	_	name=O|Entity=(kknn~20050801_7085__T103--1
+13	i	i	ADP	_	_	14	case	_	name=O
+14	Norske	Norske	PROPN	_	_	12	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+15	Skog	Skog	PROPN	_	_	14	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__T103)
+16	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=kknn~20050801_7085__2221)
+17	til	til	ADP	_	_	18	case	_	name=O
+18	VG	VG	PROPN	_	_	2	obl	_	name=B-ORG|Entity=(kknn~20050801_7085__T105--1)
+19	at	at	SCONJ	_	_	21	mark	_	name=O
+20	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(kknn~20050801_7085__3327--1)
+21	ønskjer	ønskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+22	framleis	framleis	ADV	_	_	23	advmod	_	name=O|Entity=(kknn~20050801_7085__T107--1
+23	drift	drift	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T107)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008356
+# text = Ein intern rapport i Norske Skog frå mai i år meinte at ei investering på 100 millionar og ei rein satsing på bokpapir ville gjera det svært lønsamt for Norske Skog å satsa på Union.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(kknn~20050801_7085__T108--1
+2	intern	intern	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	rapport	rapport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Norske	Norske	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+6	Skog	Skog	PROPN	_	_	5	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)
+7	frå	frå	ADP	_	_	8	case	_	name=O
+8	mai	mai	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(kknn~20050801_7085__T110--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	name=O|Entity=(kknn~20050801_7085__T111--1)kknn~20050801_7085__T110)kknn~20050801_7085__T108)
+11	meinte	meine	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+12	at	at	SCONJ	_	_	25	mark	_	name=O
+13	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(kknn~20050801_7085__T112--1(kknn~20050801_7085__T113--1
+14	investering	investering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	nsubj	_	name=O
+15	på	på	ADP	_	_	17	case	_	name=O
+16	100	100	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(kknn~20050801_7085__T114--1
+17	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nmod	_	name=O|Entity=kknn~20050801_7085__T114)kknn~20050801_7085__T113)
+18	og	og	CCONJ	_	_	21	cc	_	name=O
+19	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(kknn~20050801_7085__T115--1
+20	rein	rein	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	satsing	satsing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	conj	_	name=O
+22	på	på	ADP	_	_	23	case	_	name=O
+23	bokpapir	bokpapir	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	nmod	_	name=O|Entity=(kknn~20050801_7085__T116--1)kknn~20050801_7085__T115)kknn~20050801_7085__T112)
+24	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	name=O
+25	gjera	gjere	VERB	_	VerbForm=Inf	11	ccomp	_	name=O
+26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	name=O
+27	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	advmod	_	name=O
+28	lønsamt	lønsam	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	xcomp	_	name=O
+29	for	for	ADP	_	_	30	case	_	name=O
+30	Norske	Norske	PROPN	_	_	28	obl	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+31	Skog	Skog	PROPN	_	_	30	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)
+32	å	å	PART	_	_	33	mark	_	name=O
+33	satsa	satse	VERB	_	VerbForm=Inf	25	xcomp	_	name=O
+34	på	på	ADP	_	_	35	case	_	name=O
+35	Union	Union	PROPN	_	_	33	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20050801_7085__121656--1)
+36	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 008357
+# text = Ramberg utelukka ikkje at dei kan vera villige til å investera pengar i vidare drift av papirfabrikken.
+1	Ramberg	Ramberg	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kknn~20050801_7085__2221--1)
+2	utelukka	utelukke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	at	at	SCONJ	_	_	8	mark	_	name=O
+5	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(kknn~20050801_7085__3327--1)
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+7	vera	vere	AUX	_	VerbForm=Inf	8	cop	_	name=O
+8	villige	villig	ADJ	_	Degree=Pos|Number=Plur	2	ccomp	_	name=O
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	investera	investere	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+12	pengar	penge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	name=O|Entity=(kknn~20050801_7085__T121--1)
+13	i	i	ADP	_	_	15	case	_	name=O
+14	vidare	vid	ADJ	_	Degree=Cmp	15	amod	_	name=O|Entity=(kknn~20050801_7085__T122--1
+15	drift	drift	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	papirfabrikken	papirfabrikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__121656--1)kknn~20050801_7085__T122)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008358
+# text = Såleis aukar presset på Norske Skog, som ønskjer å leggja ned fabrikken i staden for å selja den vidare til andre interesserte.
+1	Såleis	såleis	ADV	_	_	2	advmod	_	name=O
+2	aukar	auke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	presset	press	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(kknn~20050801_7085__2253--1
+4	på	på	ADP	_	_	5	case	_	name=O
+5	Norske	Norske	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+6	Skog	Skog	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__2253)
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+9	ønskjer	ønskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	leggja	leggje	VERB	_	VerbForm=Inf	9	xcomp	_	name=O
+12	ned	ned	ADP	_	_	11	compound:prt	_	name=O
+13	fabrikken	fabrikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	name=O|Entity=(kknn~20050801_7085__121656--1)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(kknn~20050801_7085__T127--1
+16	for	for	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	selja	selje	VERB	_	VerbForm=Inf	15	acl	_	name=O
+19	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	obj	_	name=O|Entity=(kknn~20050801_7085__121656--1)
+20	vidare	vid	ADJ	_	Degree=Cmp	18	advmod	_	name=O
+21	til	til	ADP	_	_	23	case	_	name=O
+22	andre	annan	DET	_	Number=Plur|PronType=Dem	23	det	_	name=O|Entity=(kknn~20050801_7085__T128--1
+23	interesserte	interessere	ADJ	_	Number=Plur|VerbForm=Part	20	advmod	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T128)kknn~20050801_7085__T127)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008359
+# text = Presset vart ikkje mindre då SV-leiar Kristin Halvorsen til Dagsavisen før helga uttalte at partiet vurderer forbod mot å «slakta» verksemder.
+1	Presset	press	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(kknn~20050801_7085__2253--1)
+2	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	mindre	liten	ADJ	_	Degree=Cmp	2	xcomp	_	name=O
+5	då	då	SCONJ	_	_	13	mark	_	name=O
+6	SV-leiar	sV-leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=B-DRV|Entity=(kknn~20050801_7085__3408--1
+7	Kristin	Kristin	NOUN	_	Gender=Fem	13	nsubj	_	name=B-PER
+8	Halvorsen	Halvorsen	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=kknn~20050801_7085__3408)
+9	til	til	ADP	_	_	10	case	_	name=O
+10	Dagsavisen	Dagsavisen	PROPN	_	_	13	obl	_	name=B-ORG|Entity=(kknn~20050801_7085__T131--1)
+11	før	før	ADP	_	_	12	case	_	name=O
+12	helga	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	13	obl	_	name=O|Entity=(kknn~20050801_7085__T132--1)
+13	uttalte	uttale	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	name=O
+14	at	at	SCONJ	_	_	16	mark	_	name=O
+15	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nsubj	_	name=O|Bridge=kknn~20050801_7085__3408<kknn~20050801_7085__4609:default|Entity=(kknn~20050801_7085__4609--1)
+16	vurderer	vurdere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	name=O
+17	forbod	forbod	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	name=O|Entity=(kknn~20050801_7085__T134--1
+18	mot	mot	SCONJ	_	_	21	mark	_	name=O
+19	å	å	PART	_	_	21	mark	_	name=O
+20	«	$"	PUNCT	_	_	21	punct	_	SpaceAfter=No|name=O
+21	slakta	slakte	VERB	_	VerbForm=Inf	17	acl	_	SpaceAfter=No|name=O
+22	»	$"	PUNCT	_	_	21	punct	_	name=O
+23	verksemder	verksemd	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T135--1)kknn~20050801_7085__T134)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008360
+# text = Når Jens Stoltenberg i dag køyrer til Skien, har han Jan Grini som passasjer, og hovudtillitsmannen vil absolutt nytta høvet til å pressa Stoltenberg til å støtta SV sitt framlegg.
+1	Når	når	SCONJ	_	_	6	mark	_	name=O
+2	Jens	Jens	NOUN	_	Gender=Masc	6	nsubj	_	name=B-PER|Entity=(kknn~20050801_7085__5687--1
+3	Stoltenberg	Stoltenberg	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=kknn~20050801_7085__5687)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(kknn~20050801_7085__T137--1)
+6	køyrer	køyre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	Skien	Skien	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20050801_7085__4639--1)
+9	,	$,	PUNCT	_	_	6	punct	_	name=O
+10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(kknn~20050801_7085__5687--1)
+12	Jan	Jan	NOUN	_	Gender=Masc	10	obj	_	name=B-PER|Entity=(kknn~20050801_7085__91014--1
+13	Grini	Grini	PROPN	_	_	12	flat:name	_	name=I-PER|Entity=kknn~20050801_7085__91014)
+14	som	som	SCONJ	_	_	15	mark	_	name=O
+15	passasjer	passasjer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T141--1)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	og	og	CCONJ	_	_	21	cc	_	name=O
+18	hovudtillitsmannen	hovudtillitsmann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	name=O|Entity=(kknn~20050801_7085__91014--1)
+19	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+20	absolutt	absolutt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+21	nytta	nytte	VERB	_	VerbForm=Inf	10	conj	_	name=O
+22	høvet	høve	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	obj	_	name=O|Entity=(kknn~20050801_7085__T143--1)
+23	til	til	SCONJ	_	_	25	mark	_	name=O
+24	å	å	PART	_	_	25	mark	_	name=O
+25	pressa	presse	VERB	_	VerbForm=Inf	21	advcl	_	name=O
+26	Stoltenberg	Stoltenberg	PROPN	_	_	25	obj	_	name=B-PER|Entity=(kknn~20050801_7085__5687--1)
+27	til	til	SCONJ	_	_	29	mark	_	name=O
+28	å	å	PART	_	_	29	mark	_	name=O
+29	støtta	støtte	VERB	_	VerbForm=Inf	25	advcl	_	name=O
+30	SV	SV	NOUN	_	Abbr=Yes	31	obl	_	name=B-ORG|Entity=(kknn~20050801_7085__T147--1(kknn~20050801_7085__T146--1(kknn~20050801_7085__4609--1)
+31	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	32	nmod	_	name=O|Entity=kknn~20050801_7085__T146)
+32	framlegg	framlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	29	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T147)
+33	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 008361
+# text = - Ja, eg skulle ønskt at Ap raskt finn fram til lovformuleringar som både SV og Ap kan samarbeida om, og som vil gjera det vanskelegare for Norske Skog å leggja ned fabrikken, seier Grini.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Ja	ja	INTJ	_	_	6	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(kknn~20050801_7085__91014--1)
+5	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	name=O
+6	ønskt	ønskje	VERB	_	VerbForm=Part	0	root	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	Ap	Ap	NOUN	_	Abbr=Yes	10	nsubj	_	name=B-ORG|Entity=(kknn~20050801_7085__2302--1)
+9	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+10	finn	finne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	name=O
+11	fram	fram	ADP	_	_	13	case	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	lovformuleringar	lovformulering	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	obl	_	name=O|Entity=(kknn~20050801_7085__T150--1
+14	som	som	PRON	_	PronType=Rel	20	nmod	_	name=O
+15	både	både	CCONJ	_	_	16	cc	_	name=O
+16	SV	SV	NOUN	_	Abbr=Yes	20	nsubj	_	name=B-ORG|Entity=(kknn~20050801_7085__T151--1(kknn~20050801_7085__4609--1)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	Ap	Ap	NOUN	_	Abbr=Yes	16	conj	_	name=B-ORG|Entity=(kknn~20050801_7085__2302--1)kknn~20050801_7085__T151)
+19	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+20	samarbeida	samarbeide	VERB	_	VerbForm=Inf	13	acl:relcl	_	name=O
+21	om	om	ADP	_	_	20	compound:prt	_	SpaceAfter=No|name=O
+22	,	$,	PUNCT	_	_	26	punct	_	name=O
+23	og	og	CCONJ	_	_	26	cc	_	name=O
+24	som	som	PRON	_	PronType=Rel	26	nsubj	_	name=O
+25	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	name=O
+26	gjera	gjere	VERB	_	VerbForm=Inf	20	conj	_	name=O
+27	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	obj	_	name=O|Entity=(kknn~20050801_7085__T154--1)
+28	vanskelegare	vanskeleg	ADJ	_	Degree=Cmp	26	xcomp	_	name=O
+29	for	for	ADP	_	_	30	case	_	name=O
+30	Norske	Norske	PROPN	_	_	28	obl	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+31	Skog	Skog	PROPN	_	_	30	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)
+32	å	å	PART	_	_	33	mark	_	name=O
+33	leggja	leggje	VERB	_	VerbForm=Inf	26	xcomp	_	name=O
+34	ned	ned	ADP	_	_	33	compound:prt	_	name=O
+35	fabrikken	fabrikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__121656--1)kknn~20050801_7085__T150)
+36	,	$,	PUNCT	_	_	37	punct	_	name=O
+37	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+38	Grini	Grini	PROPN	_	_	37	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050801_7085__91014--1)
+39	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008362
+# text = Vurderer lovforbod
+1	Vurderer	vurdere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	lovforbod	lovforbod	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	name=O|Entity=(kknn~20050801_7085__T158--1)
+
+# sent_id = 008363
+# text = Om så skjer, og styret i Norske Skog går med på dei tillitsvalde sitt ønske om 100 dagar utsetjing av vedtak i saka, kan saka ta ei dramatisk vending.
+1	Om	om	SCONJ	_	_	3	mark	_	name=O
+2	så	så	ADV	_	_	3	advmod	_	name=O
+3	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	advcl	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	10	punct	_	name=O
+5	og	og	CCONJ	_	_	10	cc	_	name=O
+6	styret	styre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(kknn~20050801_7085__4799--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Norske	Norske	PROPN	_	_	6	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+9	Skog	Skog	PROPN	_	_	8	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__4799)
+10	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+11	med	med	ADP	_	_	10	compound:prt	_	name=O
+12	på	på	ADP	_	_	16	case	_	name=O
+13	dei	dei	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(kknn~20050801_7085__T162--1(kknn~20050801_7085__T161--1
+14	tillitsvalde	tillitsvald	ADJ	_	Degree=Pos|Number=Plur	15	advmod	_	name=O
+15	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	name=O|Entity=kknn~20050801_7085__T161)
+16	ønske	ønske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	name=O
+17	om	om	ADP	_	_	20	case	_	name=O
+18	100	100	NUM	_	Number=Plur|NumType=Card	19	nummod	_	name=O|Entity=(kknn~20050801_7085__T164--1(kknn~20050801_7085__T163--1
+19	dagar	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	nmod	_	name=O|Entity=kknn~20050801_7085__T163)
+20	utsetjing	utsetjing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	name=O
+21	av	av	ADP	_	_	22	case	_	name=O
+22	vedtak	vedtak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	nmod	_	name=O|Entity=(kknn~20050801_7085__T165--1
+23	i	i	ADP	_	_	24	case	_	name=O
+24	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__81124--1)kknn~20050801_7085__T165)kknn~20050801_7085__T164)kknn~20050801_7085__T162)
+25	,	$,	PUNCT	_	_	10	punct	_	name=O
+26	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	name=O
+27	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	28	nsubj	_	name=O|Entity=(kknn~20050801_7085__81124--1)
+28	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+29	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	31	det	_	name=O|Entity=(kknn~20050801_7085__T168--1
+30	dramatisk	dramatisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	31	amod	_	name=O
+31	vending	vending	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	28	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T168)
+32	.	$.	PUNCT	_	_	28	punct	_	name=O
+
+# sent_id = 008364
+# text = Om dei raudgrøne vinn valet, vil det framleis vera tid ved opninga av Stortinget til å fremja lovforbod mot den type fabrikkslakt som Norske Skog går inn for.
+1	Om	om	SCONJ	_	_	4	mark	_	name=O
+2	dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(kknn~20050801_7085__T169--1
+3	raudgrøne	raudgrøn	ADJ	_	Degree=Pos|Number=Plur	4	nsubj	_	name=O|Entity=kknn~20050801_7085__T169)
+4	vinn	vinne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	name=O
+5	valet	val	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__2362--1)
+6	,	$,	PUNCT	_	_	4	punct	_	name=O
+7	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(kknn~20050801_7085__T171--1)
+9	framleis	framleis	ADV	_	_	11	advmod	_	name=O
+10	vera	vere	AUX	_	VerbForm=Inf	11	cop	_	name=O
+11	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(kknn~20050801_7085__T172[1/2]--1)
+12	ved	ved	ADP	_	_	13	case	_	name=O
+13	opninga	opning	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=(kknn~20050801_7085__T173--1
+14	av	av	ADP	_	_	15	case	_	name=O
+15	Stortinget	Stortinget	NOUN	_	Gender=Neut	13	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__T174--1)kknn~20050801_7085__T173)
+16	til	til	SCONJ	_	_	18	mark	_	name=O|Entity=(kknn~20050801_7085__T172[2/2]--1
+17	å	å	PART	_	_	18	mark	_	name=O|Entity=(kknn~20050801_7085__3610--1
+18	fremja	fremje	VERB	_	VerbForm=Inf	11	acl	_	name=O
+19	lovforbod	lovforbod	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obj	_	name=O|Entity=(kknn~20050801_7085__T175--1
+20	mot	mot	ADP	_	_	23	case	_	name=O
+21	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(kknn~20050801_7085__T177--1(kknn~20050801_7085__T176--1
+22	type	type	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	name=O|Entity=kknn~20050801_7085__T176)
+23	fabrikkslakt	fabrikkslakt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nmod	_	name=O
+24	som	som	PRON	_	PronType=Rel	27	nmod	_	name=O
+25	Norske	Norske	PROPN	_	_	27	nsubj	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+26	Skog	Skog	PROPN	_	_	25	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)
+27	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	name=O
+28	inn	inn	ADP	_	_	27	compound:prt	_	name=O
+29	for	for	ADP	_	_	27	compound:prt	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T177)kknn~20050801_7085__T175)kknn~20050801_7085__3610)kknn~20050801_7085__T172[2/2])
+30	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 008365
+# text = SV sin partisekretær Bård Vegard Solhjell stadfester til Klassekampen at dette kan vera aktuelt.
+1	SV	SV	NOUN	_	Abbr=Yes	2	obl	_	name=B-ORG|Entity=(kknn~20050801_7085__2381--1(kknn~20050801_7085__T181--1(kknn~20050801_7085__T180--1(kknn~20050801_7085__4609--1)
+2	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	name=O|Entity=kknn~20050801_7085__T180)
+3	partisekretær	partisekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=kknn~20050801_7085__T181)
+4	Bård	Bård	NOUN	_	Gender=Masc	7	nsubj	_	name=B-PER
+5	Vegard	Vegard	NOUN	_	Gender=Masc	4	flat:name	_	name=I-PER
+6	Solhjell	Solhjell	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=kknn~20050801_7085__2381)
+7	stadfester	stadfeste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	Klassekampen	Klassekampen	PROPN	_	_	7	obl	_	name=B-ORG|Entity=(kknn~20050801_7085__3279--1)
+10	at	at	SCONJ	_	_	14	mark	_	name=O
+11	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(kknn~20050801_7085__3610--1)
+12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+13	vera	vere	AUX	_	VerbForm=Inf	14	cop	_	name=O
+14	aktuelt	aktuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	ccomp	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 008366
+# text = - Det er naturleg å ta med inn i tingingane.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(kknn~20050801_7085__3610--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	naturleg	naturleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	ta	ta	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+7	med	med	ADP	_	_	6	compound:prt	_	name=O
+8	inn	inn	ADP	_	_	10	case	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	tingingane	tinging	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T186--1)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008367
+# text = Med 100 dagar utsetjing er det tid til å gjera noko med dette over valet.
+1	Med	med	ADP	_	_	4	case	_	name=O
+2	100	100	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(kknn~20050801_7085__T188--1(kknn~20050801_7085__T187--1
+3	dagar	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	name=O|Entity=kknn~20050801_7085__T187)
+4	utsetjing	utsetjing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=kknn~20050801_7085__T188)
+5	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+7	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=(kknn~20050801_7085__T189--1
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	gjera	gjere	VERB	_	VerbForm=Inf	7	acl	_	name=O
+11	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	10	obj	_	name=O|Entity=(kknn~20050801_7085__T190--1)
+12	med	med	ADP	_	_	13	case	_	name=O
+13	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	name=O|Entity=(kknn~20050801_7085__81124--1)
+14	over	over	ADP	_	_	15	case	_	name=O
+15	valet	val	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__2362--1)kknn~20050801_7085__T189)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008368
+# text = Både lovforbod mot slakting av lønsame fabrikkar og forkjøpsrett for dei tilsette er absolutt aktuelt, uttalar Solhjell.
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	lovforbod	lovforbod	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nsubj	_	name=O|Entity=(kknn~20050801_7085__T193--1(kknn~20050801_7085__T194--1
+3	mot	mot	ADP	_	_	4	case	_	name=O
+4	slakting	slakting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=(kknn~20050801_7085__T195--1
+5	av	av	ADP	_	_	7	case	_	name=O
+6	lønsame	lønsam	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(kknn~20050801_7085__T196--1
+7	fabrikkar	fabrikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	name=O|Entity=kknn~20050801_7085__T196)kknn~20050801_7085__T195)kknn~20050801_7085__T194)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	forkjøpsrett	forkjøpsrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	name=O|Entity=(kknn~20050801_7085__T197--1
+10	for	for	ADP	_	_	12	case	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Bridge=kknn~20050801_7085__T196<kknn~20050801_7085__T198:default|Entity=(kknn~20050801_7085__T198--1
+12	tilsette	tilsett	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=kknn~20050801_7085__T198)kknn~20050801_7085__T197)kknn~20050801_7085__T193)
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+14	absolutt	absolutt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+15	aktuelt	aktuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	uttalar	uttale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	parataxis	_	name=O
+18	Solhjell	Solhjell	PROPN	_	_	17	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050801_7085__2381--1)
+19	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 008369
+# text = Om styret vedtek utsetjing, kan nedleggjinga av Union i Skien bli ei heit valkampsak.
+1	Om	om	SCONJ	_	_	3	mark	_	name=O
+2	styret	styre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(kknn~20050801_7085__4799--1)
+3	vedtek	vedta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	name=O
+4	utsetjing	utsetjing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T201--1)
+5	,	$,	PUNCT	_	_	3	punct	_	name=O
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+7	nedleggjinga	nedleggjing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	name=O|Entity=(kknn~20050801_7085__3267--1
+8	av	av	ADP	_	_	9	case	_	name=O
+9	Union	Union	PROPN	_	_	7	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__121656--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Skien	Skien	PROPN	_	_	9	nmod	_	name=B-GPE_LOC|Entity=(kknn~20050801_7085__4639--1)kknn~20050801_7085__121656)kknn~20050801_7085__3267)
+12	bli	bli	VERB	_	VerbForm=Inf	0	root	_	name=O
+13	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(kknn~20050801_7085__T205--1
+14	heit	heit	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	valkampsak	valkampsak	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	xcomp	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T205)
+16	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 008370
+# text = Styret i Norske Skog møtest for å diskutera saka for første gong i morgon.
+1	Styret	styre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(kknn~20050801_7085__4799--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Norske	Norske	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+4	Skog	Skog	PROPN	_	_	3	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__4799)
+5	møtest	møtast	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	for	for	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	diskutera	diskutere	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+9	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obj	_	name=O|Entity=(kknn~20050801_7085__81124--1)
+10	for	for	ADP	_	_	12	case	_	name=O
+11	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(kknn~20050801_7085__T209--1
+12	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=kknn~20050801_7085__T209)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	morgon	morgon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T210--1)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008371
+# text = Onsdag i førre veke offentleggjorde leiinga i Norske Skog at dei ønskjer å leggja ned datterselskapet Union i Skien, med 380 tilsette.
+1	Onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(kknn~20050801_7085__T211--1
+2	i	i	ADP	_	_	4	case	_	name=O
+3	førre	førre	DET	_	Definite=Def|PronType=Dem	4	det	_	name=O|Entity=(kknn~20050801_7085__T212--1
+4	veke	veke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=kknn~20050801_7085__T212)kknn~20050801_7085__T211)
+5	offentleggjorde	offentleggjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	leiinga	leiing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=(kknn~20050801_7085__12941--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Norske	Norske	PROPN	_	_	6	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+9	Skog	Skog	PROPN	_	_	8	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__12941)
+10	at	at	SCONJ	_	_	12	mark	_	name=O
+11	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(kknn~20050801_7085__12941--1)
+12	ønskjer	ønskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	leggja	leggje	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	ned	ned	ADP	_	_	14	compound:prt	_	name=O
+16	datterselskapet	datterselskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	name=O|Entity=(kknn~20050801_7085__121656--1
+17	Union	Union	PROPN	_	_	14	obj	_	name=B-ORG
+18	i	i	ADP	_	_	19	case	_	name=O
+19	Skien	Skien	PROPN	_	_	17	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20050801_7085__4639--1)
+20	,	$,	PUNCT	_	_	23	punct	_	name=O
+21	med	med	ADP	_	_	23	case	_	name=O
+22	380	380	NUM	_	Number=Plur|NumType=Card	23	nummod	_	name=O|Entity=(kknn~20050801_7085__T218--1
+23	tilsette	tilsett	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T218)kknn~20050801_7085__121656)
+24	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008372
+# text = Planane har møtt stor motstand.
+1	Planane	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(kknn~20050801_7085__T219--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	møtt	møte	VERB	_	VerbForm=Part	0	root	_	name=O
+4	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(kknn~20050801_7085__T220--1
+5	motstand	motstand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050801_7085__T220)
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008373
+# text = Konsernsjefen i Norske Skog er kalla inn til møte med næringsminister Børge Brende i dag.
+1	Konsernsjefen	konsernsjef	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20050801_7085__T221--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Norske	Norske	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+4	Skog	Skog	PROPN	_	_	3	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__T221)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	kalla	kalle	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	inn	inn	ADP	_	_	9	case	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	møte	møte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(kknn~20050801_7085__T223--1
+10	med	med	ADP	_	_	12	case	_	name=O
+11	næringsminister	næringsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(kknn~20050801_7085__4377--1
+12	Børge	Børge	NOUN	_	Gender=Masc	9	nmod	_	name=B-PER
+13	Brende	Brende	PROPN	_	_	12	flat:name	_	name=I-PER|Entity=kknn~20050801_7085__4377)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T225--1)kknn~20050801_7085__T223)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008374
+# text = Jens Stoltenberg vitjar fabrikken i dag.
+1	Jens	Jens	NOUN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(kknn~20050801_7085__5687--1
+2	Stoltenberg	Stoltenberg	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=kknn~20050801_7085__5687)
+3	vitjar	vitje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	fabrikken	fabrikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(kknn~20050801_7085__121656--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T228--1)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008375
+# text = I morgon kjem Carl I. Hagen, og Kristin Halvorsen kjem onsdag.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	morgon	morgon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050801_7085__T229--1)
+3	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	Carl	Carl	NOUN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(kknn~20050801_7085__2275--1
+5	I.	I.	NOUN	_	Abbr=Yes	4	flat:name	_	name=I-PER
+6	Hagen	Hagen	PROPN	_	_	4	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kknn~20050801_7085__2275)
+7	,	$,	PUNCT	_	_	11	punct	_	name=O
+8	og	og	CCONJ	_	_	11	cc	_	name=O
+9	Kristin	Kristin	NOUN	_	Gender=Fem	11	nsubj	_	name=B-PER|Entity=(kknn~20050801_7085__3408--1
+10	Halvorsen	Halvorsen	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=kknn~20050801_7085__3408)
+11	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+12	onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__T232--1)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008376
+# text = I morgon har styret i Norske Skog første styremøte for å diskutera saka.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	morgon	morgon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050801_7085__T233--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	styret	styr	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(kknn~20050801_7085__4799--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Norske	Norske	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(kknn~20050801_7085__161940--1
+7	Skog	Skog	PROPN	_	_	6	flat:name	_	name=I-ORG|Entity=kknn~20050801_7085__161940)kknn~20050801_7085__4799)
+8	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(kknn~20050801_7085__T236--1
+9	styremøte	styremøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=kknn~20050801_7085__T236)
+10	for	for	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	diskutera	diskutere	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+13	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050801_7085__81124--1)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+

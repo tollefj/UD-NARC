@@ -1,0 +1,130 @@
+# newdoc id = firdann~20110222-5501186
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 016807
+# text = Får toppkarakter av turistane
+1	Får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	toppkarakter	toppkarakter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=(firdann~20110222_5501186__T1--1)
+3	av	av	ADP	_	_	4	case	_	name=O
+4	turistane	turist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	obl	_	name=O|Entity=(firdann~20110222_5501186__210--1)
+
+# sent_id = 016809
+# text = Skriv ut
+1	Skriv	skrive	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	ut	ut	ADP	_	_	1	compound:prt	_	name=O
+
+# sent_id = 016810
+# text = Del på Origo
+1	Del	dele	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	Origo	Origo	PROPN	_	_	1	obl	_	name=B-PROD|Entity=(firdann~20110222_5501186__T3--1)
+
+# sent_id = 016812
+# text = Publisert 22.02.2011 kl 14:21
+1	Publisert	publisere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+2	22.02.2011	22.02.2011	NOUN	_	_	1	obl	_	name=O|Entity=(firdann~20110222_5501186__T4--1
+3	kl	kl.	NOUN	_	Abbr=Yes	4	nmod	_	name=O|Entity=(firdann~20110222_5501186__T5--1)
+4	14:21	14:21	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=firdann~20110222_5501186__T4)
+
+# newpar
+# sent_id = 016813
+# text = Oppdatert 22.02.2011 kl 14:24
+1	Oppdatert	oppdatere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+2	22.02.2011	22.02.2011	NOUN	_	_	1	obl	_	name=O|Entity=(firdann~20110222_5501186__T6--1
+3	kl	kl.	NOUN	_	Abbr=Yes	4	nmod	_	name=O|Entity=(firdann~20110222_5501186__T7--1)
+4	14:24	14:24	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=firdann~20110222_5501186__T6)
+
+# newpar
+# sent_id = 016814
+# text = Cruisetruristane skryt av hamna i Olden.
+1	Cruisetruristane	cruiseturist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(firdann~20110222_5501186__210--1)
+2	skryt	skryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	hamna	hamn	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(firdann~20110222_5501186__220--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Olden	Olden	PROPN	_	_	4	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110222_5501186__356--1)firdann~20110222_5501186__220)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016815
+# text = Olden cruisehamn fått toppscore i ei ny cruiseundersøking utført av det danske konsulentfirmaet Grontmij Carl Bro på vegne av næringsdepartementet.
+1	Olden	Olden	PROPN	_	_	3	nsubj	_	name=B-LOC|Entity=(firdann~20110222_5501186__220--1
+2	cruisehamn	cruisehamn	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	flat:name	_	name=I-LOC|Entity=firdann~20110222_5501186__220)
+3	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+4	toppscore	toppscore	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(firdann~20110222_5501186__T12--1)
+5	i	i	ADP	_	_	8	case	_	name=O
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20110222_5501186__T13--1
+7	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	cruiseundersøking	cruiseundersøking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	name=O
+9	utført	utføre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	8	amod	_	name=O
+10	av	av	ADP	_	_	14	case	_	name=O
+11	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(firdann~20110222_5501186__T15--1(firdann~20110222_5501186__T14--1
+12	danske	dansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	konsulentfirmaet	konsulentfirma	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	name=O|Entity=firdann~20110222_5501186__T14)
+14	Grontmij	Grontmij	PROPN	_	_	9	obl	_	name=B-ORG
+15	Carl	Carl	NOUN	_	Gender=Masc	14	flat:name	_	name=I-ORG
+16	Bro	Bro	PROPN	_	_	14	flat:name	_	name=I-ORG|Entity=firdann~20110222_5501186__T15)
+17	på	på	ADP	_	_	18	case	_	name=O
+18	vegne	vegne	NOUN	_	_	9	obl	_	name=O|Entity=(firdann~20110222_5501186__T16--1
+19	av	av	ADP	_	_	20	case	_	name=O
+20	næringsdepartementet	næringsdepartement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110222_5501186__T17--1)firdann~20110222_5501186__T16)firdann~20110222_5501186__T13)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016816
+# text = Olden scorar høgt når det gjeld graden av tilfredsheit på hamnenivå, skriv Fjordingen.
+1	Olden	Olden	PROPN	_	_	2	nsubj	_	name=B-LOC|Entity=(firdann~20110222_5501186__356--1)
+2	scorar	score	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	høgt	høg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+4	når	når	SCONJ	_	_	6	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+6	gjeld	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+7	graden	grad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(firdann~20110222_5501186__T19--1
+8	av	av	ADP	_	_	9	case	_	name=O
+9	tilfredsheit	tilfredsheit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	name=O|Entity=(firdann~20110222_5501186__T20--1
+10	på	på	ADP	_	_	11	case	_	name=O
+11	hamnenivå	hamnenivå	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110222_5501186__T21--1)firdann~20110222_5501186__T20)firdann~20110222_5501186__T19)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+14	Fjordingen	Fjordingen	PROPN	_	_	13	nsubj	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110222_5501186__T22--1)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016817
+# text = Rapporten legg intervju med cruiseturistar til grunn.
+1	Rapporten	rapport	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Bridge=firdann~20110222_5501186__T13<firdann~20110222_5501186__250:default|Entity=(firdann~20110222_5501186__250--1)
+2	legg	leggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	intervju	intervju	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(firdann~20110222_5501186__T24--1
+4	med	med	ADP	_	_	5	case	_	name=O
+5	cruiseturistar	cruiseturist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nmod	_	name=O|Entity=(firdann~20110222_5501186__T25--1)firdann~20110222_5501186__T24)
+6	til	til	ADP	_	_	7	case	_	name=O
+7	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110222_5501186__T26--1)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016818
+# text = Den seier at «besøkende i Olden, Geiranger og Stavanger uttrykte den største grad av tilfredshet, mens besøk i Trondheim fikk den laveste tilfredsgraden.
+1	Den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20110222_5501186__250--1)
+2	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+5	besøkende	besøkende	X	_	_	2	obj	_	name=O
+6	i	i	X	_	_	5	flat:foreign	_	name=O
+7	Olden	Olden	X	_	_	5	flat:foreign	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110222_5501186__356--1)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	Geiranger	Geiranger	X	_	_	5	flat:foreign	_	name=B-LOC
+10	og	og	X	_	_	5	flat:foreign	_	name=O
+11	Stavanger	Stavanger	X	_	_	5	flat:foreign	_	name=B-GPE_LOC
+12	uttrykte	uttrykte	X	_	_	5	flat:foreign	_	name=O
+13	den	den	X	_	_	5	flat:foreign	_	name=O
+14	største	største	X	_	_	5	flat:foreign	_	name=O
+15	grad	grad	X	_	_	5	flat:foreign	_	name=O
+16	av	av	X	_	_	5	flat:foreign	_	name=O
+17	tilfredshet	tilfredshet	X	_	_	5	flat:foreign	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	mens	mens	X	_	_	5	flat:foreign	_	name=O
+20	besøk	besøk	X	_	_	5	flat:foreign	_	name=O
+21	i	i	X	_	_	5	flat:foreign	_	name=O
+22	Trondheim	Trondheim	X	_	_	5	flat:foreign	_	name=B-GPE_LOC
+23	fikk	fikk	X	_	_	5	flat:foreign	_	name=O
+24	den	den	X	_	_	5	flat:foreign	_	name=O
+25	laveste	laveste	X	_	_	5	flat:foreign	_	name=O
+26	tilfredsgraden	tilfredsgraden	X	_	_	5	flat:foreign	_	SpaceAfter=No|name=O
+27	.	$.	PUNCT	_	_	2	punct	_	name=O
+

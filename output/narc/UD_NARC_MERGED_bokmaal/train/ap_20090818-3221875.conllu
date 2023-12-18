@@ -1,0 +1,722 @@
+# newdoc id = ap_20090818-3221875
+# global.Entity = eid-etype-head-other
+# sent_id = 002390
+# text = Kirken som kan avkristnes innenfra
+1	Kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20090818_3221875__9476--1
+2	som	som	PRON	_	PronType=Rel	4	nsubj:pass	_	name=O
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	avkristnes	avkristne	VERB	_	VerbForm=Inf|Voice=Pass	1	acl:relcl	_	name=O
+5	innenfra	innenfra	ADP	_	_	4	compound:prt	_	name=O|Entity=ap_20090818_3221875__9476)
+
+# newpar
+# sent_id = 002391
+# text = Kan ikke ekskluderes.
+1	Kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+2	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+3	ekskluderes	ekskludere	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 002392
+# text = Redningen.
+1	Redningen	redning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__T2--1)
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 002393
+# text = Ateister i kirkemøtet?
+1	Ateister	ateist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(ap_20090818_3221875__T3--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	kirkemøtet	kirkemøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__4174--1)ap_20090818_3221875__T3)
+4	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 002394
+# text = Enigheten virker til å være stor om at det er bra hvis flere stemmer under kirkevalget i Den norske kirke.
+1	Enigheten	enighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20090818_3221875__T5--1)
+2	virker	virke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	til	til	SCONJ	_	_	6	mark	_	name=O
+4	å	å	PART	_	_	6	mark	_	name=O
+5	være	være	AUX	_	VerbForm=Inf	6	cop	_	name=O
+6	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	name=O
+7	om	om	SCONJ	_	_	11	mark	_	name=O
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advcl	_	name=O
+12	hvis	hvis	SCONJ	_	_	14	mark	_	name=O
+13	flere	mange	ADJ	_	Degree=Cmp	14	nsubj	_	name=O|Entity=(ap_20090818_3221875__T6--1)
+14	stemmer	stemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	csubj	_	name=O
+15	under	under	ADP	_	_	16	case	_	name=O
+16	kirkevalget	kirkevalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=(ap_20090818_3221875__T7--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	Den	Den	PROPN	_	_	16	nmod	_	name=B-ORG|Entity=(ap_20090818_3221875__9476--1
+19	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	flat:name	_	name=I-ORG
+20	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20090818_3221875__9476)ap_20090818_3221875__T7)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002395
+# text = Men resultatet kan bli at ateister tar plass i kirkemøtet.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20090818_3221875__T9--1)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	bli	bli	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	at	at	SCONJ	_	_	7	mark	_	name=O
+6	ateister	ateist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=(ap_20090818_3221875__T10--1)
+7	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	xcomp	_	name=O
+8	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(ap_20090818_3221875__T11--1)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	kirkemøtet	kirkemøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__4174--1)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 002396
+# text = Den som vil bli prest eller prost eller biskop i Den norske kirke må forplikte seg på Bibelen og den lutherske bekjennelse.
+1	Den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(ap_20090818_3221875__2178--1
+2	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	bli	bli	VERB	_	VerbForm=Inf	1	acl:relcl	_	name=O
+5	prest	prest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	xcomp	_	name=O|Entity=(ap_20090818_3221875__T14--1(ap_20090818_3221875__T15--1)
+6	eller	eller	CCONJ	_	_	7	cc	_	name=O
+7	prost	prost	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O|Entity=(ap_20090818_3221875__T16--1)
+8	eller	eller	CCONJ	_	_	9	cc	_	name=O
+9	biskop	biskop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O|Entity=(ap_20090818_3221875__T17--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Den	Den	PROPN	_	_	9	nmod	_	name=B-ORG|Entity=(ap_20090818_3221875__9476--1
+12	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	flat:name	_	name=I-ORG
+13	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	flat:name	_	name=I-ORG|Entity=ap_20090818_3221875__9476)ap_20090818_3221875__T17)ap_20090818_3221875__T14)ap_20090818_3221875__2178)
+14	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	forplikte	forplikte	VERB	_	VerbForm=Inf	0	root	_	name=O
+16	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	15	obj	_	name=O|Entity=(ap_20090818_3221875__2178--1)
+17	på	på	ADP	_	_	18	case	_	name=O
+18	Bibelen	Bibelen	PROPN	_	_	15	obl	_	name=B-PROD|Entity=(ap_20090818_3221875__T19--1(ap_20090818_3221875__T20--1)
+19	og	og	CCONJ	_	_	22	cc	_	name=O
+20	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(ap_20090818_3221875__T21--1
+21	lutherske	luthersk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	bekjennelse	bekjennelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T21)ap_20090818_3221875__T19)
+23	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 002397
+# text = Om dette fungerer tilfredsstillende er en annen sak som kan ligge nå.
+1	Om	om	SCONJ	_	_	3	mark	_	name=O
+2	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090818_3221875__T22--1)
+3	fungerer	fungere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	csubj	_	name=O
+4	tilfredsstillende	tilfredsstille	ADJ	_	VerbForm=Part	3	advmod	_	name=O
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20090818_3221875__T23--1
+7	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O
+8	sak	sak	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+9	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	ligge	ligge	VERB	_	VerbForm=Inf	8	acl:relcl	_	name=O
+12	nå	nå	ADV	_	_	11	advmod	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T23)
+13	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 002398
+# text = Men for å bli valgt inn i et menighetsråd, et bispedømmeråd eller - i siste instans - kirkemøtet, stilles ingen formelle krav til forpliktelse på kirkens grunnlag.
+1	Men	men	CCONJ	_	_	21	cc	_	name=O
+2	for	for	SCONJ	_	_	5	mark	_	name=O
+3	å	å	PART	_	_	5	mark	_	name=O
+4	bli	bli	AUX	_	VerbForm=Inf	5	aux:pass	_	name=O
+5	valgt	velge	VERB	_	VerbForm=Part	21	advcl	_	name=O
+6	inn	inn	ADP	_	_	9	case	_	name=O
+7	i	i	ADP	_	_	9	case	_	name=O
+8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(ap_20090818_3221875__T24--1(ap_20090818_3221875__T25--1
+9	menighetsråd	menighetsråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=ap_20090818_3221875__T25)
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(ap_20090818_3221875__T26--1
+12	bispedømmeråd	bispedømmeråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	conj	_	name=O|Entity=ap_20090818_3221875__T26)
+13	eller	eller	CCONJ	_	_	19	cc	_	name=O
+14	-	$-	PUNCT	_	_	17	punct	_	name=O|Entity=(ap_20090818_3221875__4174--1
+15	i	i	ADP	_	_	17	case	_	name=O
+16	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(ap_20090818_3221875__T27--1
+17	instans	instans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=ap_20090818_3221875__T27)
+18	-	$-	PUNCT	_	_	17	punct	_	name=O
+19	kirkemøtet	kirkemøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__4174)ap_20090818_3221875__T24)
+20	,	$,	PUNCT	_	_	5	punct	_	name=O
+21	stilles	stille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+22	ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	24	det	_	name=O|Entity=(ap_20090818_3221875__T29--1
+23	formelle	formell	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	name=O
+24	krav	krav	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	21	nsubj:pass	_	name=O
+25	til	til	ADP	_	_	26	case	_	name=O
+26	forpliktelse	forpliktelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	name=O|Entity=(ap_20090818_3221875__T30--1
+27	på	på	ADP	_	_	29	case	_	name=O
+28	kirkens	kirke	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	name=O|Entity=(ap_20090818_3221875__T32--1(ap_20090818_3221875__5534--1)
+29	grunnlag	grunnlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T32)ap_20090818_3221875__T30)ap_20090818_3221875__T29)
+30	.	$.	PUNCT	_	_	21	punct	_	name=O
+
+# sent_id = 002399
+# text = Det er nok å være døpt og medlem i Den norske kirke.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	nok	nok	ADV	_	_	0	root	_	name=O
+4	å	å	PART	_	_	6	mark	_	name=O
+5	være	være	AUX	_	VerbForm=Inf	6	aux	_	name=O
+6	døpt	døpe	VERB	_	VerbForm=Part	3	csubj	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	medlem	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	name=O|Entity=(ap_20090818_3221875__T33--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Den	Den	PROPN	_	_	8	nmod	_	name=B-ORG|Entity=(ap_20090818_3221875__9476--1
+11	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	flat:name	_	name=I-ORG
+12	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20090818_3221875__9476)ap_20090818_3221875__T33)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002400
+# text = Som kjent gjelder det bortimot 80 prosent av innbyggerne i Norge.
+1	Som	som	ADP	_	_	2	case	_	name=O
+2	kjent	kjent	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O|Entity=(ap_20090818_3221875__T35--1)
+3	gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090818_3221875__T36--1)
+5	bortimot	bortimot	ADP	_	_	6	case	_	name=O|Entity=(ap_20090818_3221875__T37--1
+6	80	80	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O
+7	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	innbyggerne	innbygger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=(ap_20090818_3221875__281--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Norge	Norge	PROPN	_	_	9	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090818_3221875__281--1)ap_20090818_3221875__281)ap_20090818_3221875__T37)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002401
+# text = En undersøkelse fra 2008 viste at bare 30 prosent av Norges befolkning tror at Jesus Kristus sto opp fra de døde.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20090818_3221875__T40--1
+2	undersøkelse	undersøkelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O
+3	fra	fra	ADP	_	_	4	case	_	name=O
+4	2008	2008	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=ap_20090818_3221875__T40)
+5	viste	vise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	at	at	SCONJ	_	_	13	mark	_	name=O
+7	bare	bare	ADV	_	_	8	advmod	_	name=O|Entity=(ap_20090818_3221875__T41--1
+8	30	30	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O
+9	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nsubj	_	name=O
+10	av	av	ADP	_	_	12	case	_	name=O
+11	Norges	Norge	PROPN	_	Case=Gen	12	nmod	_	name=B-GPE_ORG|Entity=(ap_20090818_3221875__281--1(ap_20090818_3221875__281--1)
+12	befolkning	befolkning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	name=O|Entity=ap_20090818_3221875__281)ap_20090818_3221875__T41)
+13	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	name=O
+14	at	at	SCONJ	_	_	17	mark	_	name=O
+15	Jesus	Jesus	PROPN	_	Gender=Masc	17	nsubj	_	name=B-PER|Entity=(ap_20090818_3221875__T44--1
+16	Kristus	Kristus	PROPN	_	Gender=Masc	15	flat:name	_	name=I-PER|Entity=ap_20090818_3221875__T44)
+17	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	name=O
+18	opp	opp	ADP	_	_	21	case	_	name=O
+19	fra	fra	ADP	_	_	21	case	_	name=O
+20	de	de	DET	_	Number=Plur|PronType=Dem	21	det	_	name=O|Entity=(ap_20090818_3221875__T45--1
+21	døde	død	ADJ	_	Degree=Pos|Number=Plur	17	advmod	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T45)
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002402
+# text = En tredjedel var usikre, mens 38 prosent avviste oppstandelsen.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20090818_3221875__T46--1
+2	tredjedel	tredjedel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=ap_20090818_3221875__T46)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+4	usikre	usikker	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	mens	mens	SCONJ	_	_	9	mark	_	name=O
+7	38	38	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(ap_20090818_3221875__3162--1
+8	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=ap_20090818_3221875__3162)
+9	avviste	avvise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	name=O
+10	oppstandelsen	oppstandelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__4284--1)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002403
+# text = Det betyr at flertallet av medlemmene i Den norske kirke avviser eller er tvilende til selve påskebudskapet.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090818_3221875__T49--1)
+2	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	11	mark	_	name=O
+4	flertallet	flertall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	name=O|Entity=(ap_20090818_3221875__T50--1
+5	av	av	ADP	_	_	6	case	_	name=O
+6	medlemmene	medlem	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	nmod	_	name=O|Entity=(ap_20090818_3221875__T51--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Den	Den	PROPN	_	_	6	nmod	_	name=B-ORG|Entity=(ap_20090818_3221875__9476--1
+9	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	flat:name	_	name=I-ORG
+10	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	flat:name	_	name=I-ORG|Entity=ap_20090818_3221875__9476)ap_20090818_3221875__T51)ap_20090818_3221875__T50)
+11	avviser	avvise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+12	eller	eller	CCONJ	_	_	14	cc	_	name=O
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	tvilende	tvile	ADJ	_	VerbForm=Part	11	conj	_	name=O
+15	til	til	ADP	_	_	17	case	_	name=O
+16	selve	selve	DET	_	Definite=Def|PronType=Prs	17	det	_	name=O|Entity=(ap_20090818_3221875__4284--1
+17	påskebudskapet	påskebudskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__4284)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002404
+# text = Men alle de som ikke tror på oppstandelsen er kvalifisert til å bli leder av kirkerådet - og dermed inneha den øverste posisjonen i Den norske kirke.
+1	Men	men	CCONJ	_	_	10	cc	_	name=O
+2	alle	all	DET	_	Number=Plur|PronType=Tot	3	det	_	name=O|Entity=(ap_20090818_3221875__3162--1
+3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	name=O
+4	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	oppstandelsen	oppstandelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(ap_20090818_3221875__4284--1)ap_20090818_3221875__3162)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	kvalifisert	kvalifisere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+11	til	til	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	bli	bli	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+14	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	xcomp	_	name=O|Entity=(ap_20090818_3221875__T56--1
+15	av	av	ADP	_	_	16	case	_	name=O
+16	kirkerådet	kirkeråd	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	name=O|Entity=(ap_20090818_3221875__T57--1)ap_20090818_3221875__T56)
+17	-	$-	PUNCT	_	_	20	punct	_	name=O
+18	og	og	CCONJ	_	_	20	cc	_	name=O
+19	dermed	dermed	ADV	_	_	20	advmod	_	name=O
+20	inneha	inneha	VERB	_	VerbForm=Inf	13	conj	_	name=O
+21	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	name=O|Entity=(ap_20090818_3221875__T58--1
+22	øverste	øvre	ADJ	_	Definite=Def|Degree=Sup	23	amod	_	name=O
+23	posisjonen	posisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obj	_	name=O
+24	i	i	ADP	_	_	25	case	_	name=O
+25	Den	Den	PROPN	_	_	23	nmod	_	name=B-ORG|Entity=(ap_20090818_3221875__9476--1
+26	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	25	flat:name	_	name=I-ORG
+27	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20090818_3221875__9476)ap_20090818_3221875__T58)
+28	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 002405
+# text = Alt de trenger, er et demokratisk flertall i ryggen.
+1	Alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20090818_3221875__T60--1
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090818_3221875__3162--1)
+3	trenger	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=ap_20090818_3221875__T60)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20090818_3221875__T62--1
+7	demokratisk	demokratisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+8	flertall	flertall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	ryggen	rygg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__T63--1)ap_20090818_3221875__T62)
+11	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 002406
+# text = Nominasjonskampen i Oslo SV mellom Heikki Holmås og Akhtar Chaudhry i desember i fjor handlet blant annet om beskyldninger om juks.
+1	Nominasjonskampen	nominasjonskamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(ap_20090818_3221875__T64--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Oslo	Oslo	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(ap_20090818_3221875__5402--1
+4	SV	Sv	PROPN	_	Abbr=Yes	3	flat:name	_	name=I-ORG|Entity=ap_20090818_3221875__5402)
+5	mellom	mellom	ADP	_	_	6	case	_	name=O
+6	Heikki	Heikki	PROPN	_	_	1	nmod	_	name=B-PER|Entity=(ap_20090818_3221875__T66--1(ap_20090818_3221875__T67--1
+7	Holmås	Holmås	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=ap_20090818_3221875__T67)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	Akhtar	Akhtar	PROPN	_	_	6	conj	_	name=B-PER|Entity=(ap_20090818_3221875__T68--1
+10	Chaudhry	Chaudhry	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=ap_20090818_3221875__T68)ap_20090818_3221875__T66)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	desember	desember	NOUN	_	Gender=Masc	1	nmod	_	name=O|Entity=(ap_20090818_3221875__T69--1
+13	i	i	ADP	_	_	14	case	_	name=O
+14	fjor	fjor	NOUN	_	_	12	nmod	_	name=O|Entity=(ap_20090818_3221875__T70--1)ap_20090818_3221875__T69)ap_20090818_3221875__T64)
+15	handlet	handle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+16	blant	blant	ADP	_	_	17	case	_	name=O
+17	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	15	obl	_	name=O
+18	om	om	ADP	_	_	19	case	_	name=O
+19	beskyldninger	beskyldning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	15	obl	_	name=O|Entity=(ap_20090818_3221875__2144--1
+20	om	om	ADP	_	_	21	case	_	name=O
+21	juks	juks	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__T72--1)ap_20090818_3221875__2144)
+22	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 002407
+# text = Ryktene gikk om at mennesker meldte seg inn i partiet, og fikk stemmerett, selv om de ikke ante hva SV sto for.
+1	Ryktene	rykte	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	name=O|Entity=(ap_20090818_3221875__2144--1)
+2	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	om	om	SCONJ	_	_	6	mark	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nsubj	_	name=O|Entity=(ap_20090818_3221875__3317--1)
+6	meldte	melde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	name=O
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	name=O|Entity=(ap_20090818_3221875__3317--1)
+8	inn	inn	ADP	_	_	10	case	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__5402--1)
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	name=O
+14	stemmerett	stemmerett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__T76--1)
+15	,	$,	PUNCT	_	_	20	punct	_	name=O
+16	selv	selv	ADV	_	_	17	advmod	_	name=O
+17	om	om	SCONJ	_	_	20	mark	_	name=O
+18	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(ap_20090818_3221875__3317--1)
+19	ikke	ikke	PART	_	Polarity=Neg	20	advmod	_	name=O
+20	ante	ane	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	name=O
+21	hva	hva	PRON	_	PronType=Int	23	obl	_	name=O
+22	SV	Sv	PROPN	_	Abbr=Yes	23	nsubj	_	name=B-ORG|Entity=(ap_20090818_3221875__5402--1)
+23	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	ccomp	_	name=O
+24	for	for	ADP	_	_	21	case	_	SpaceAfter=No|name=O
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002408
+# text = Det finnes viktige forskjeller mellom et trossamfunn - som Den norske kirke - og et politisk parti.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	viktige	viktig	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O|Entity=(ap_20090818_3221875__T79--1
+4	forskjeller	forskjell	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	name=O
+5	mellom	mellom	ADP	_	_	7	case	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20090818_3221875__T80--1(ap_20090818_3221875__2167--1
+7	trossamfunn	trossamfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	name=O
+8	-	$-	PUNCT	_	_	10	punct	_	name=O
+9	som	som	ADP	_	_	10	case	_	name=O
+10	Den	Den	PROPN	_	_	7	nmod	_	name=B-ORG|Entity=(ap_20090818_3221875__9476--1
+11	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	flat:name	_	name=I-ORG
+12	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	flat:name	_	name=I-ORG|Entity=ap_20090818_3221875__9476)ap_20090818_3221875__2167)
+13	-	$-	PUNCT	_	_	10	punct	_	name=O
+14	og	og	CCONJ	_	_	17	cc	_	name=O
+15	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(ap_20090818_3221875__2170--1
+16	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	name=O
+17	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__2170)ap_20090818_3221875__T80)ap_20090818_3221875__T79)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002409
+# text = Samtidig finnes det en åpenbar likhet:
+1	Samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+2	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20090818_3221875__T84--1
+5	åpenbar	åpenbar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	likhet	likhet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T84)
+7	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002410
+# text = Både trossamfunnet og partiet har et formelt og tydelig verdigrunnlag.
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	trossamfunnet	trossamfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(ap_20090818_3221875__T85--1(ap_20090818_3221875__2167--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	conj	_	name=O|Entity=(ap_20090818_3221875__2170--1)ap_20090818_3221875__T85)
+5	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(ap_20090818_3221875__T88--1
+7	formelt	formell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	tydelig	tydelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	conj	_	name=O
+10	verdigrunnlag	verdigrunnlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T88)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002411
+# text = SV har for eksempel et partiprogram som forplikter ansatte og tillitsvalgte.
+1	SV	Sv	PROPN	_	Abbr=Yes	2	nsubj	_	name=B-ORG|Entity=(ap_20090818_3221875__5402--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	for	for	ADP	_	_	4	case	_	name=O
+4	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(ap_20090818_3221875__T90--1)
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20090818_3221875__T91--1
+6	partiprogram	partiprogram	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+8	forplikter	forplikte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+9	ansatte	ansatt	ADJ	_	Degree=Pos|Number=Plur	8	advmod	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	tillitsvalgte	tillitsvalgt	ADJ	_	Degree=Pos|Number=Plur	9	conj	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T91)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002412
+# text = Og den som stemmer Høyre har ingen innflytelse over hvem som leder SV.
+1	Og	og	CCONJ	_	_	6	cc	_	name=O
+2	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(ap_20090818_3221875__T92--1
+3	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+4	stemmer	stemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	name=O
+5	Høyre	Høyre	PROPN	_	_	4	obj	_	name=B-ORG|Entity=(ap_20090818_3221875__T93--1)ap_20090818_3221875__T92)
+6	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	8	det	_	name=O|Entity=(ap_20090818_3221875__T94--1
+8	innflytelse	innflytelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O
+9	over	over	ADP	_	_	12	case	_	name=O
+10	hvem	hvem	PRON	_	Animacy=Hum|PronType=Int	12	nsubj	_	name=O
+11	som	som	PRON	_	PronType=Rel	12	nmod	_	name=O
+12	leder	lede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+13	SV	Sv	PROPN	_	Abbr=Yes	12	obj	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20090818_3221875__5402--1)ap_20090818_3221875__T94)
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 002413
+# text = I Den norske kirke er det annerledes.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	Den	Den	PROPN	_	_	7	obl	_	name=B-ORG|Entity=(ap_20090818_3221875__9476--1
+3	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	flat:name	_	name=I-ORG
+4	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	flat:name	_	name=I-ORG|Entity=ap_20090818_3221875__9476)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+7	annerledes	annerledes	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 002414
+# text = Der kan til og med den som ønsker å avkristne kirken gjøre sin innflytelse gjeldende - så lenge vedkommende er medlem.
+1	Der	der	ADV	_	_	12	advmod	_	name=O
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+3	til	til	ADP	_	_	6	nmod	_	name=O|Entity=(ap_20090818_3221875__T97--1
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	med	med	ADP	_	_	3	conj	_	name=O
+6	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(ap_20090818_3221875__3364--1
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+8	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	avkristne	avkristne	VERB	_	VerbForm=Inf	8	xcomp	_	name=O
+11	kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=(ap_20090818_3221875__5534--1)ap_20090818_3221875__3364)ap_20090818_3221875__T97)
+12	gjøre	gjøre	VERB	_	VerbForm=Inf	0	root	_	name=O
+13	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	name=O|Entity=(ap_20090818_3221875__T100--1(ap_20090818_3221875__3364--1)
+14	innflytelse	innflytelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=ap_20090818_3221875__T100)
+15	gjeldende	gjeldende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	xcomp	_	name=O
+16	-	$-	PUNCT	_	_	21	punct	_	name=O
+17	så	så	ADV	_	_	18	advmod	_	name=O
+18	lenge	lenge	ADJ	_	Degree=Pos	21	advmod	_	name=O
+19	vedkommende	vedkommende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	nsubj	_	name=O|Entity=(ap_20090818_3221875__3364--1)
+20	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+21	medlem	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	advcl	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__T102--1)
+22	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 002415
+# text = Og ingen kan ekskluderes fra kirken, heller ikke i ekstreme tilfeller.
+1	Og	og	CCONJ	_	_	4	cc	_	name=O
+2	ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	4	nsubj:pass	_	name=O|Entity=(ap_20090818_3221875__T103--1)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	ekskluderes	ekskludere	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+5	fra	fra	ADP	_	_	6	case	_	name=O
+6	kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__5534--1)
+7	,	$,	PUNCT	_	_	12	punct	_	name=O
+8	heller	heller	ADV	_	_	9	advmod	_	name=O
+9	ikke	ikke	PART	_	Polarity=Neg	12	advmod	_	name=O
+10	i	i	ADP	_	_	12	case	_	name=O
+11	ekstreme	ekstrem	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(ap_20090818_3221875__T105--1
+12	tilfeller	tilfelle	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T105)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002416
+# text = I svenske Aftonbladet klaget Patrik Lindenfors i mars over at Svenska kyrkan ikke var i stand til å kaste ham ut av kirken:
+1	I	i	ADP	_	_	3	case	_	name=O
+2	svenske	svensk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=(ap_20090818_3221875__T106--1
+3	Aftonbladet	Aftonbladet	PROPN	_	_	4	obl	_	name=B-PROD|Entity=ap_20090818_3221875__T106)
+4	klaget	klage	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	Patrik	Patrik	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(ap_20090818_3221875__5567--1
+6	Lindenfors	Lindenfors	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=ap_20090818_3221875__5567)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	mars	mars	NOUN	_	Gender=Masc	4	obl	_	name=O|Entity=(ap_20090818_3221875__T108--1)
+9	over	over	SCONJ	_	_	16	mark	_	name=O
+10	at	at	SCONJ	_	_	16	mark	_	name=O
+11	Svenska	Svenska	PROPN	_	_	16	nsubj	_	name=B-ORG|Entity=(ap_20090818_3221875__6696--1
+12	kyrkan	kyrkan	X	_	_	11	flat:name	_	name=I-ORG|Entity=ap_20090818_3221875__6696)
+13	ikke	ikke	PART	_	Polarity=Neg	16	advmod	_	name=O
+14	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	name=O
+15	i	i	SCONJ	_	_	16	mark	_	name=O
+16	stand	stand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	advcl	_	name=O|Entity=(ap_20090818_3221875__T110--1
+17	til	til	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	kaste	kaste	VERB	_	VerbForm=Inf	16	acl	_	name=O
+20	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	name=O|Entity=(ap_20090818_3221875__5567--1)
+21	ut	ut	ADP	_	_	23	case	_	name=O
+22	av	av	ADP	_	_	23	case	_	name=O
+23	kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__6696--1)ap_20090818_3221875__T110)
+24	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002417
+# text = «Jeg kommer antagelig til å forlate kirken etter hvert - jeg har prinsipper.
+1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090818_3221875__5567--1)
+3	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	antagelig	antagelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	til	til	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	forlate	forlate	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+8	kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(ap_20090818_3221875__6696--1)
+9	etter	etter	ADP	_	_	10	case	_	name=O
+10	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	7	obl	_	name=O
+11	-	$-	PUNCT	_	_	13	punct	_	name=O
+12	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20090818_3221875__5567--1)
+13	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+14	prinsipper	prinsipp	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__T116--1)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002418
+# text = Spørsmålet er om Svenska kyrkan fortsatt har noen.
+1	Spørsmålet	spørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=(ap_20090818_3221875__T117--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+3	om	om	SCONJ	_	_	7	mark	_	name=O
+4	Svenska	Svenska	PROPN	_	_	7	nsubj	_	name=B-ORG|Entity=(ap_20090818_3221875__6696--1
+5	kyrkan	kyrkan	X	_	_	4	flat:name	_	name=I-ORG|Entity=ap_20090818_3221875__6696)
+6	fortsatt	fortsatt	ADV	_	_	7	advmod	_	name=O
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	noen	noen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Ind,Prs	7	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__T119--1)
+9	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 002419
+# text = Tillater de at jeg blir værende; en ateist som aktivt arbeider for å vise hvor falsk deres lære er?»
+1	Tillater	tillate	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	name=O|Entity=(ap_20090818_3221875__6696--1)
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20090818_3221875__5567[1/2]--1)
+5	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	name=O
+6	værende	være	ADJ	_	VerbForm=Part	5	xcomp	_	SpaceAfter=No|name=O
+7	;	$;	PUNCT	_	_	9	punct	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(ap_20090818_3221875__5567[2/2]--1(ap_20090818_3221875__T122--1
+9	ateist	ateist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	appos	_	name=O
+10	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+11	aktivt	aktiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	arbeider	arbeide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+13	for	for	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	vise	vise	VERB	_	VerbForm=Inf	12	advcl	_	name=O
+16	hvor	hvor	ADV	_	_	17	advmod	_	name=O
+17	falsk	falsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	xcomp	_	name=O
+18	deres	deres	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(ap_20090818_3221875__T124--1(ap_20090818_3221875__6696--1)
+19	lære	lære	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=ap_20090818_3221875__T124)
+20	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__5567[2/2])ap_20090818_3221875__T122)
+21	?	$?	PUNCT	_	_	1	punct	_	SpaceAfter=No|name=O
+22	»	$"	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 002420
+# text = Redningen for Den norske kirke har vært - og vil antagelig være - at det først og fremst er de som tror på det kristne budskapet som engasjerer seg.
+1	Redningen	redning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(ap_20090818_3221875__T125--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	Den	Den	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(ap_20090818_3221875__9476--1
+4	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	flat:name	_	name=I-ORG
+5	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	flat:name	_	name=I-ORG|Entity=ap_20090818_3221875__9476)ap_20090818_3221875__T125)
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	vært	være	VERB	_	VerbForm=Part	0	root	_	name=O
+8	-	$-	PUNCT	_	_	20	punct	_	name=O
+9	og	og	CCONJ	_	_	20	cc	_	name=O
+10	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+11	antagelig	antagelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O
+12	være	være	AUX	_	VerbForm=Inf	20	cop	_	name=O
+13	-	$-	PUNCT	_	_	12	punct	_	name=O
+14	at	at	SCONJ	_	_	20	mark	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	name=O
+16	først	først	ADV	_	_	20	advmod	_	name=O
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	fremst	fremre	ADJ	_	Definite=Ind|Degree=Sup	16	conj	_	name=O
+19	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	name=O
+20	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	conj	_	name=O|Entity=(ap_20090818_3221875__2294--1
+21	som	som	PRON	_	PronType=Rel	22	nsubj	_	name=O
+22	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl:cleft	_	name=O
+23	på	på	ADP	_	_	26	case	_	name=O
+24	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	26	det	_	name=O|Entity=(ap_20090818_3221875__4284--1
+25	kristne	kristen	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	budskapet	budskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	obl	_	name=O|Entity=ap_20090818_3221875__4284)
+27	som	som	PRON	_	PronType=Rel	28	nsubj	_	name=O
+28	engasjerer	engasjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl:cleft	_	name=O
+29	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	28	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__2294--1)ap_20090818_3221875__2294)
+30	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 002421
+# text = Derfor vil det neppe dukke opp så mange ateister i kirkemøtet med det første.
+1	Derfor	derfor	ADV	_	_	5	advmod	_	name=O
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+4	neppe	neppe	ADV	_	_	5	advmod	_	name=O
+5	dukke	dukke	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	opp	opp	ADP	_	_	5	compound:prt	_	name=O
+7	så	så	ADV	_	_	8	advmod	_	name=O|Entity=(ap_20090818_3221875__T129--1
+8	mange	mange	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O
+9	ateister	ateist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=ap_20090818_3221875__T129)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	kirkemøtet	kirkemøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(ap_20090818_3221875__4174--1)
+12	med	med	ADP	_	_	14	case	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(ap_20090818_3221875__T131--1
+14	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	advmod	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T131)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002422
+# text = Dette har da også vært et hovedargument for dem som siden slutten av 1800-tallet har kjempet for kirkereformer:
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(ap_20090818_3221875__T132--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+3	da	da	ADV	_	_	7	advmod	_	name=O
+4	også	også	ADV	_	_	7	advmod	_	name=O
+5	vært	være	AUX	_	VerbForm=Part	7	cop	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20090818_3221875__T133--1
+7	hovedargument	hovedargument	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	nmod	_	name=O|Entity=(ap_20090818_3221875__T134--1
+10	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+11	siden	siden	ADP	_	_	12	case	_	name=O
+12	slutten	slutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	name=O|Entity=(ap_20090818_3221875__T135--1
+13	av	av	ADP	_	_	14	case	_	name=O
+14	1800-tallet	1800-tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	name=O|Entity=(ap_20090818_3221875__T136--1)ap_20090818_3221875__T135)
+15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	kjempet	kjempe	VERB	_	VerbForm=Part	9	acl:relcl	_	name=O
+17	for	for	ADP	_	_	18	case	_	name=O
+18	kirkereformer	kirkereform	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090818_3221875__T137--1)ap_20090818_3221875__T134)ap_20090818_3221875__T133)
+19	:	$:	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 002423
+# text = I praksis vil kirkens aktive få innflytelse over sin kirke.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	praksis	praksis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(ap_20090818_3221875__T138--1)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	kirkens	kirke	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(ap_20090818_3221875__2282--1(ap_20090818_3221875__5534--1)
+5	aktive	aktiv	ADJ	_	Degree=Pos|Number=Plur	6	nsubj	_	name=O|Entity=ap_20090818_3221875__2282)
+6	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	innflytelse	innflytelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(ap_20090818_3221875__T141--1
+8	over	over	ADP	_	_	10	case	_	name=O
+9	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(ap_20090818_3221875__T143--1(ap_20090818_3221875__2282--1)
+10	kirke	kirke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T143)ap_20090818_3221875__T141)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 002424
+# text = Men skepsisen har også vært betydelig.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	skepsisen	skepsis	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20090818_3221875__T144--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	også	også	ADV	_	_	6	advmod	_	name=O
+5	vært	være	AUX	_	VerbForm=Part	6	cop	_	name=O
+6	betydelig	betydelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 002425
+# text = Store deler av bedehusbevegelsen har for eksempel protestert mot en struktur som innebærer at passive medlemmer har nøyaktig like stor innflytelse over valg av menighetsråd som aktive kirkegjengere.
+1	Store	stor	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(ap_20090818_3221875__T145--1
+2	deler	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	bedehusbevegelsen	bedehusbevegelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20090818_3221875__T146--1)ap_20090818_3221875__T145)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(ap_20090818_3221875__T147--1)
+8	protestert	protestere	VERB	_	VerbForm=Part	0	root	_	name=O
+9	mot	mot	ADP	_	_	11	case	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(ap_20090818_3221875__T148--1
+11	struktur	struktur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O
+12	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+13	innebærer	innebære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	name=O
+14	at	at	SCONJ	_	_	17	mark	_	name=O
+15	passive	passiv	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O|Entity=(ap_20090818_3221875__T149--1
+16	medlemmer	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	nsubj	_	name=O|Entity=ap_20090818_3221875__T149)
+17	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	name=O
+18	nøyaktig	nøyaktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	name=O|Entity=(ap_20090818_3221875__T150--1
+19	like	like	ADV	_	_	20	advmod	_	name=O
+20	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	innflytelse	innflytelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	name=O
+22	over	over	ADP	_	_	23	case	_	name=O
+23	valg	valg	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	21	nmod	_	name=O|Entity=(ap_20090818_3221875__T151--1
+24	av	av	ADP	_	_	25	case	_	name=O
+25	menighetsråd	menighetsråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	nmod	_	name=O|Entity=(ap_20090818_3221875__T152--1)ap_20090818_3221875__T151)
+26	som	som	ADP	_	_	28	case	_	name=O
+27	aktive	aktiv	ADJ	_	Degree=Pos|Number=Plur	28	amod	_	name=O|Entity=(ap_20090818_3221875__T153--1
+28	kirkegjengere	kirkegjenger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T153)ap_20090818_3221875__T150)ap_20090818_3221875__T148)
+29	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 002426
+# text = Mange av oss har slitt med at politikere - ofte med et perifert forhold til kristen tro - har det øverste ansvaret for en kristen kirke.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	5	nsubj	_	name=O|Entity=(ap_20090818_3221875__T154--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	1	nmod	_	name=O|Entity=(ap_20090818_3221875__T155--1)ap_20090818_3221875__T154)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	slitt	slite	VERB	_	VerbForm=Part	0	root	_	name=O
+6	med	med	SCONJ	_	_	19	mark	_	name=O
+7	at	at	SCONJ	_	_	19	mark	_	name=O
+8	politikere	politiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	nsubj	_	name=O|Entity=(ap_20090818_3221875__T156--1
+9	-	$-	PUNCT	_	_	14	punct	_	name=O
+10	ofte	ofte	ADJ	_	Degree=Pos	14	advmod	_	name=O
+11	med	med	ADP	_	_	14	case	_	name=O
+12	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(ap_20090818_3221875__T157--1
+13	perifert	perifer	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	name=O
+14	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	name=O
+15	til	til	ADP	_	_	17	case	_	name=O
+16	kristen	kristen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(ap_20090818_3221875__T158--1
+17	tro	tro	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	name=O|Entity=ap_20090818_3221875__T158)ap_20090818_3221875__T157)
+18	-	$-	PUNCT	_	_	14	punct	_	name=O|Entity=ap_20090818_3221875__T156)
+19	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+20	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(ap_20090818_3221875__T159--1
+21	øverste	øvre	ADJ	_	Definite=Def|Degree=Sup	22	amod	_	name=O
+22	ansvaret	ansvar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	obj	_	name=O
+23	for	for	ADP	_	_	26	case	_	name=O
+24	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(ap_20090818_3221875__T160--1
+25	kristen	kristen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	kirke	kirke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T160)ap_20090818_3221875__T159)
+27	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002427
+# text = Men hvor mye bedre er det at medlemsflertallet avgjør kirkens profil?
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	hvor	hvor	ADV	_	_	3	advmod	_	name=O
+3	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	name=O
+4	bedre	god	ADJ	_	Degree=Cmp	0	root	_	name=O
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	medlemsflertallet	medlemsflertall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(ap_20090818_3221875__T161--1)
+9	avgjør	avgjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	csubj	_	name=O
+10	kirkens	kirke	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(ap_20090818_3221875__T163--1(ap_20090818_3221875__5534--1)
+11	profil	profil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=ap_20090818_3221875__T163)
+12	?	$?	PUNCT	_	_	4	punct	_	name=O
+

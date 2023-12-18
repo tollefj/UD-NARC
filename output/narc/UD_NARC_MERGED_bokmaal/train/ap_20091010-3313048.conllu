@@ -1,0 +1,796 @@
+# newdoc id = ap_20091010-3313048
+# global.Entity = eid-etype-head-other
+# sent_id = 001717
+# text = En pris til håp, dialog og fremtidstro
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20091010_3313048__T1--1
+2	pris	pris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	håp	håp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T2--1(ap_20091010_3313048__T3--1
+5	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=ap_20091010_3313048__T3)
+6	dialog	dialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	name=O|Entity=(ap_20091010_3313048__T4--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	fremtidstro	fremtidstro	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	name=O|Entity=(ap_20091010_3313048__T5--1)ap_20091010_3313048__T2)ap_20091010_3313048__T1)
+
+# newpar
+# sent_id = 001718
+# text = President Barack Obama er en verdig vinner av Nobels fredspris.
+1	President	president	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20091010_3313048__192360--1
+2	Barack	Barack	PROPN	_	_	7	nsubj	_	name=B-PER
+3	Obama	Obama	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=ap_20091010_3313048__192360)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20091010_3313048__T7--1
+6	verdig	verdig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	vinner	vinner	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	Nobels	Nobels	PROPN	_	_	7	nmod	_	name=B-PROD|Entity=(ap_20091010_3313048__4320--1
+10	fredspris	fredspris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=ap_20091010_3313048__4320)ap_20091010_3313048__T7)
+11	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001719
+# text = Samtidig er tildelingen en av de dristigste i prisens historie.
+1	Samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	tildelingen	tildeling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Bridge=ap_20091010_3313048__4320<ap_20091010_3313048__5442:default|Entity=(ap_20091010_3313048__5442--1)
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+5	av	av	ADP	_	_	7	case	_	name=O
+6	de	de	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(ap_20091010_3313048__T10--1
+7	dristigste	dristig	ADJ	_	Definite=Def|Degree=Sup	4	amod	_	name=O
+8	i	i	ADP	_	_	10	case	_	name=O
+9	prisens	pris	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(ap_20091010_3313048__T12--1(ap_20091010_3313048__4320--1)
+10	historie	historie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T12)ap_20091010_3313048__T10)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001720
+# text = Obama har hatt verdens mektigste folkevalgte embete bare siden 20. januar.
+1	Obama	Obama	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(ap_20091010_3313048__192360--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+4	verdens	verden	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(ap_20091010_3313048__T15--1(ap_20091010_3313048__3134--1)
+5	mektigste	mektig	ADJ	_	Definite=Def|Degree=Sup	7	amod	_	name=O
+6	folkevalgte	folkevalgt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	embete	embete	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=ap_20091010_3313048__T15)
+8	bare	bare	ADV	_	_	11	advmod	_	name=O
+9	siden	siden	ADP	_	_	11	case	_	name=O
+10	20.	20.	ADJ	_	Number=Plur	11	amod	_	name=O|Entity=(ap_20091010_3313048__T16--1
+11	januar	januar	NOUN	_	Gender=Masc	3	obl	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T16)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001721
+# text = I løpet av mindre enn ni måneder i Det hvite hus har han formulert en rekke ærgjerrige målsettinger, men har ikke rukket å oppnå resultater i de store sakene som han arbeider med.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	løpet	løp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=(ap_20091010_3313048__T17--1
+3	av	av	ADP	_	_	7	case	_	name=O
+4	mindre	liten	ADJ	_	Degree=Cmp	7	amod	_	name=O|Entity=(ap_20091010_3313048__T18--1
+5	enn	enn	ADP	_	_	6	case	_	name=O
+6	ni	ni	NUM	_	Number=Plur|NumType=Card	4	obl	_	name=O
+7	måneder	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Det	Det	PROPN	_	_	7	nmod	_	name=B-LOC|Entity=(ap_20091010_3313048__T19--1
+10	hvite	hvit	ADJ	_	Degree=Pos|Number=Plur	9	flat:name	_	name=I-LOC
+11	hus	hus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	flat:name	_	name=I-LOC|Entity=ap_20091010_3313048__T19)ap_20091010_3313048__T18)ap_20091010_3313048__T17)
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+13	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(ap_20091010_3313048__192360--1)
+14	formulert	formulere	VERB	_	VerbForm=Part	0	root	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(ap_20091010_3313048__T22--1(ap_20091010_3313048__T21--1
+16	rekke	rekke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=ap_20091010_3313048__T21)
+17	ærgjerrige	ærgjerrig	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O
+18	målsettinger	målsetting	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T22)
+19	,	$,	PUNCT	_	_	23	punct	_	name=O
+20	men	men	CCONJ	_	_	23	cc	_	name=O
+21	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+22	ikke	ikke	PART	_	Polarity=Neg	23	advmod	_	name=O
+23	rukket	rekke	VERB	_	VerbForm=Part	14	conj	_	name=O
+24	å	å	PART	_	_	25	mark	_	name=O
+25	oppnå	oppnå	VERB	_	VerbForm=Inf	23	xcomp	_	name=O
+26	resultater	resultat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	25	obj	_	name=O|Entity=(ap_20091010_3313048__T23--1)
+27	i	i	ADP	_	_	30	case	_	name=O
+28	de	de	DET	_	Number=Plur|PronType=Dem	30	det	_	name=O|Entity=(ap_20091010_3313048__T24--1
+29	store	stor	ADJ	_	Degree=Pos|Number=Plur	30	amod	_	name=O
+30	sakene	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	25	obl	_	name=O
+31	som	som	PRON	_	PronType=Rel	33	nmod	_	name=O
+32	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	name=O|Entity=(ap_20091010_3313048__192360--1)
+33	arbeider	arbeide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	name=O
+34	med	med	ADP	_	_	33	compound:prt	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T24)
+35	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 001722
+# text = Kunngjøringen om tildelingen var ikke mange minutter gammel, før denne innvendingen ble fremført i går.
+1	Kunngjøringen	kunngjøring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(ap_20091010_3313048__T26--1
+2	om	om	ADP	_	_	3	case	_	name=O
+3	tildelingen	tildeling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(ap_20091010_3313048__5442--1)ap_20091010_3313048__T26)
+4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	8	advmod	_	name=O
+6	mange	mange	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(ap_20091010_3313048__T28--1
+7	minutter	minutt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	name=O|Entity=ap_20091010_3313048__T28)
+8	gammel	gammel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	14	punct	_	name=O
+10	før	før	SCONJ	_	_	14	mark	_	name=O
+11	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(ap_20091010_3313048__T29--1
+12	innvendingen	innvending	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj:pass	_	name=O|Entity=ap_20091010_3313048__T29)
+13	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux:pass	_	name=O
+14	fremført	fremføre	VERB	_	VerbForm=Part	8	advcl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	går	går	NOUN	_	_	14	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T30--1)
+17	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001723
+# text = Selv om vi forstår argumentet, mener vi at dette er å se for snevert på saken.
+1	Selv	selv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	4	mark	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20091010_3313048__264--1)
+4	forstår	forstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+5	argumentet	argument	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T32--1)
+6	,	$,	PUNCT	_	_	4	punct	_	name=O
+7	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(ap_20091010_3313048__264--1)
+9	at	at	SCONJ	_	_	13	mark	_	name=O
+10	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20091010_3313048__T34--1)
+11	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	se	se	VERB	_	VerbForm=Inf	7	ccomp	_	name=O
+14	for	for	ADV	_	_	15	advmod	_	name=O
+15	snevert	snever	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+16	på	på	ADP	_	_	17	case	_	name=O
+17	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T35--1)
+18	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001724
+# text = Årets fredspris er fremfor alt et håndslag til en politisk filosofi der USA igjen erklærer seg som et likeverdig medlem av det internasjonale samfunn.
+1	Årets	år	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(ap_20091010_3313048__4377--1(ap_20091010_3313048__T36--1)
+2	fredspris	fredspris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=ap_20091010_3313048__4377)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+4	fremfor	fremfor	ADP	_	_	5	case	_	name=O
+5	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	name=O|Entity=(ap_20091010_3313048__T38--1)
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20091010_3313048__T39--1
+7	håndslag	håndslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+8	til	til	ADP	_	_	11	case	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(ap_20091010_3313048__T40--1
+10	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	filosofi	filosofi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O
+12	der	der	SCONJ	_	_	15	mark	_	name=O
+13	USA	USA	PROPN	_	Abbr=Yes	15	nsubj	_	name=B-GPE_ORG|Entity=(ap_20091010_3313048__6615--1)
+14	igjen	igjen	ADV	_	_	15	advmod	_	name=O
+15	erklærer	erklære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl	_	name=O
+16	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	15	obj	_	name=O|Entity=(ap_20091010_3313048__6615--1)
+17	som	som	SCONJ	_	_	20	mark	_	name=O
+18	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(ap_20091010_3313048__T42--1
+19	likeverdig	likeverdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	name=O
+20	medlem	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	xcomp	_	name=O
+21	av	av	ADP	_	_	24	case	_	name=O
+22	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	24	det	_	name=O|Entity=(ap_20091010_3313048__T43--1
+23	internasjonale	internasjonal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	24	amod	_	name=O
+24	samfunn	samfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T43)ap_20091010_3313048__T42)ap_20091010_3313048__T40)ap_20091010_3313048__T39)
+25	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001725
+# text = Det betyr at verdens mektigste stat ikke bare har rettigheter, men også plikter overfor fellesskapet.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20091010_3313048__T44--1)
+2	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	9	mark	_	name=O
+4	verdens	verden	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20091010_3313048__T46--1(ap_20091010_3313048__3134--1)
+5	mektigste	mektig	ADJ	_	Definite=Def|Degree=Sup	6	amod	_	name=O
+6	stat	stat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=ap_20091010_3313048__T46)
+7	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+8	bare	bare	ADV	_	_	9	advmod	_	name=O
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+10	rettigheter	rettighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T47--1(ap_20091010_3313048__T48--1
+11	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=ap_20091010_3313048__T48)
+12	men	men	CCONJ	_	_	14	cc	_	name=O
+13	også	også	ADV	_	_	14	advmod	_	name=O|Entity=(ap_20091010_3313048__T49--1
+14	plikter	plikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	conj	_	name=O
+15	overfor	overfor	ADP	_	_	16	case	_	name=O
+16	fellesskapet	fellesskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T50--1)ap_20091010_3313048__T49)ap_20091010_3313048__T47)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001726
+# text = En slik forpliktelse er helt nødvendig, dersom freden skal sikres og de globale utfordringene innenfor klima, miljø og fattigdomsbekjempelse skal komme nærmere en løsning.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(ap_20091010_3313048__T51--1
+2	slik	slik	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O
+3	forpliktelse	forpliktelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=ap_20091010_3313048__T51)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	nødvendig	nødvendig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	11	punct	_	name=O
+8	dersom	dersom	SCONJ	_	_	11	mark	_	name=O
+9	freden	fred	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj:pass	_	name=O|Entity=(ap_20091010_3313048__2198--1)
+10	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	sikres	sikre	VERB	_	VerbForm=Inf|Voice=Pass	6	advcl	_	name=O
+12	og	og	CCONJ	_	_	23	cc	_	name=O
+13	de	de	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(ap_20091010_3313048__T53--1
+14	globale	global	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	utfordringene	utfordring	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	23	nsubj	_	name=O
+16	innenfor	innenfor	ADP	_	_	17	case	_	name=O
+17	klima	klima	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T54--1(ap_20091010_3313048__T55--1
+18	,	$,	PUNCT	_	_	19	punct	_	name=O|Entity=ap_20091010_3313048__T55)
+19	miljø	miljø	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	conj	_	name=O|Entity=(ap_20091010_3313048__T56--1)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	fattigdomsbekjempelse	fattigdomsbekjempelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	name=O|Entity=(ap_20091010_3313048__T57--1)ap_20091010_3313048__T54)ap_20091010_3313048__T53)
+22	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+23	komme	komme	VERB	_	VerbForm=Inf	11	conj	_	name=O
+24	nærmere	nær	ADJ	_	Degree=Cmp	23	advmod	_	name=O
+25	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(ap_20091010_3313048__T58--1
+26	løsning	løsning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T58)
+27	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001727
+# text = Her har Obama allerede levert et grunnleggende bidrag ved å bryte med den inngrodde troen på amerikansk alenegang som dominerte USAs politikk under president George W. Bush og visepresident Dick Cheney.
+1	Her	her	ADV	_	_	5	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	Obama	Obama	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(ap_20091010_3313048__192360--1)
+4	allerede	allerede	ADV	_	_	5	advmod	_	name=O
+5	levert	levere	VERB	_	VerbForm=Part	0	root	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20091010_3313048__T60--1
+7	grunnleggende	grunnleggende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+8	bidrag	bidrag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=ap_20091010_3313048__T60)
+9	ved	ved	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	bryte	bryte	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+12	med	med	ADP	_	_	15	case	_	name=O
+13	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(ap_20091010_3313048__T61--1
+14	inngrodde	inngrodd	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	troen	tro	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O
+16	på	på	ADP	_	_	18	case	_	name=O
+17	amerikansk	amerikansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(ap_20091010_3313048__T62--1
+18	alenegang	alenegang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=ap_20091010_3313048__T62)
+19	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+20	dominerte	dominere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	name=O
+21	USAs	USA	PROPN	_	Abbr=Yes|Case=Gen	22	nmod	_	name=B-GPE_ORG|Entity=(ap_20091010_3313048__T64--1(ap_20091010_3313048__6615--1)
+22	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	name=O|Entity=ap_20091010_3313048__T64)
+23	under	under	ADP	_	_	25	case	_	name=O
+24	president	president	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	nmod	_	name=O|Entity=(ap_20091010_3313048__T65--1(ap_20091010_3313048__4430--1
+25	George	George	PROPN	_	Gender=Masc	20	obl	_	name=B-PER
+26	W.	W.	PROPN	_	Abbr=Yes	25	flat:name	_	name=I-PER
+27	Bush	Bush	PROPN	_	_	25	flat:name	_	name=I-PER|Entity=ap_20091010_3313048__4430)
+28	og	og	CCONJ	_	_	30	cc	_	name=O
+29	visepresident	visepresident	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	name=O|Entity=(ap_20091010_3313048__T67--1
+30	Dick	Dick	PROPN	_	_	25	conj	_	name=B-PER
+31	Cheney	Cheney	PROPN	_	_	30	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20091010_3313048__T67)ap_20091010_3313048__T65)ap_20091010_3313048__T61)
+32	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001728
+# text = Betydningen av kursendringen fra det unilaterale til det multilaterale kan vanskelig overdrives.
+1	Betydningen	betydning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj:pass	_	name=O|Entity=(ap_20091010_3313048__T68--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	kursendringen	kursendring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(ap_20091010_3313048__T69--1
+4	fra	fra	ADP	_	_	6	case	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(ap_20091010_3313048__T70--1
+6	unilaterale	unilateral	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=ap_20091010_3313048__T70)
+7	til	til	ADP	_	_	9	case	_	name=O
+8	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(ap_20091010_3313048__T71--1
+9	multilaterale	multilateral	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	advmod	_	name=O|Entity=ap_20091010_3313048__T71)ap_20091010_3313048__T69)ap_20091010_3313048__T68)
+10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	overdrives	overdrive	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 001729
+# text = USA var på vei inn i en isolasjon som ikke bare gjorde verden mer utrygg, men som også svekket landets anseelse og innflytelse.
+1	USA	USA	PROPN	_	Abbr=Yes	4	nsubj	_	name=B-GPE_ORG|Entity=(ap_20091010_3313048__6615--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20091010_3313048__T73--1
+5	inn	inn	ADP	_	_	8	case	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20091010_3313048__T74--1
+8	isolasjon	isolasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O
+9	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+10	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+11	bare	bare	ADV	_	_	12	advmod	_	name=O
+12	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	name=O
+13	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=(ap_20091010_3313048__3134--1)
+14	mer	mye	ADJ	_	Degree=Cmp	15	advmod	_	name=O
+15	utrygg	utrygg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	xcomp	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	men	men	CCONJ	_	_	20	cc	_	name=O
+18	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+19	også	også	ADV	_	_	20	advmod	_	name=O
+20	svekket	svekke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	name=O
+21	landets	land	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	22	nmod	_	name=O|Entity=(ap_20091010_3313048__T77--1(ap_20091010_3313048__T78--1(ap_20091010_3313048__6615--1)
+22	anseelse	anseelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	name=O|Entity=ap_20091010_3313048__T78)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	innflytelse	innflytelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T79--1)ap_20091010_3313048__T77)ap_20091010_3313048__T74)ap_20091010_3313048__T73)
+25	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001730
+# text = Bakgrunnen for Obamas nåværende posisjon er da også at stadig flere amerikanere etter åtte år innså at denne politikken bar galt av sted.
+1	Bakgrunnen	bakgrunn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	name=O|Entity=(ap_20091010_3313048__T80--1
+2	for	for	ADP	_	_	5	case	_	name=O
+3	Obamas	Obama	PROPN	_	Case=Gen	5	nmod	_	name=B-PER|Entity=(ap_20091010_3313048__T82--1(ap_20091010_3313048__192360--1)
+4	nåværende	nåværende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	posisjon	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=ap_20091010_3313048__T82)ap_20091010_3313048__T80)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+7	da	da	ADV	_	_	16	advmod	_	name=O
+8	også	også	ADV	_	_	16	advmod	_	name=O
+9	at	at	SCONJ	_	_	16	mark	_	name=O
+10	stadig	stadig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O|Entity=(ap_20091010_3313048__T83--1
+11	flere	mange	ADJ	_	Degree=Cmp	12	amod	_	name=O
+12	amerikanere	amerikaner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nsubj	_	name=O|Entity=ap_20091010_3313048__T83)
+13	etter	etter	ADP	_	_	15	case	_	name=O
+14	åtte	åtte	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(ap_20091010_3313048__T84--1
+15	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obl	_	name=O|Entity=ap_20091010_3313048__T84)
+16	innså	innse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+17	at	at	SCONJ	_	_	20	mark	_	name=O
+18	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(ap_20091010_3313048__T85--1
+19	politikken	politikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nsubj	_	name=O|Entity=ap_20091010_3313048__T85)
+20	bar	bære	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	ccomp	_	name=O
+21	galt	gal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O
+22	av	av	ADP	_	_	23	case	_	name=O
+23	sted	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T86--1)
+24	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 001731
+# text = Selv om kontrasten til Obamas forgjenger er viktig for å forstå denne tildelingen, har Nobelkomiteen i sin begrunnelse sørget for å møte argumentet fra den amerikanske høyresiden om at prisen ikke er annet enn et nytt angrep på Bush.
+1	Selv	selv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	8	mark	_	name=O
+3	kontrasten	kontrast	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(ap_20091010_3313048__T87--1
+4	til	til	ADP	_	_	6	case	_	name=O
+5	Obamas	Obama	PROPN	_	Case=Gen	6	nmod	_	name=B-PER|Entity=(ap_20091010_3313048__4430--1(ap_20091010_3313048__192360--1)
+6	forgjenger	forgjenger	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=ap_20091010_3313048__4430)ap_20091010_3313048__T87)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	advcl	_	name=O
+9	for	for	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	forstå	forstå	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+12	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(ap_20091010_3313048__5442--1
+13	tildelingen	tildeling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__5442)
+14	,	$,	PUNCT	_	_	8	punct	_	name=O
+15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+16	Nobelkomiteen	Nobelkomiteen	PROPN	_	_	20	nsubj	_	name=B-ORG|Entity=(ap_20091010_3313048__7965--1)
+17	i	i	ADP	_	_	19	case	_	name=O
+18	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(ap_20091010_3313048__T93--1(ap_20091010_3313048__7965--1)
+19	begrunnelse	begrunnelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	name=O|Entity=ap_20091010_3313048__T93)
+20	sørget	sørge	VERB	_	VerbForm=Part	0	root	_	name=O
+21	for	for	SCONJ	_	_	23	mark	_	name=O
+22	å	å	PART	_	_	23	mark	_	name=O
+23	møte	møte	VERB	_	VerbForm=Inf	20	advcl	_	name=O
+24	argumentet	argument	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	obj	_	name=O|Entity=(ap_20091010_3313048__T94--1
+25	fra	fra	ADP	_	_	28	case	_	name=O
+26	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	name=O|Entity=(ap_20091010_3313048__T95--1
+27	amerikanske	amerikansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	28	amod	_	name=O
+28	høyresiden	høyreside	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	name=O|Entity=ap_20091010_3313048__T95)
+29	om	om	SCONJ	_	_	34	mark	_	name=O
+30	at	at	SCONJ	_	_	34	mark	_	name=O
+31	prisen	pris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	34	nsubj	_	name=O|Entity=(ap_20091010_3313048__4377--1)
+32	ikke	ikke	PART	_	Polarity=Neg	34	advmod	_	name=O
+33	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	34	cop	_	name=O
+34	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	24	acl	_	name=O
+35	enn	enn	ADP	_	_	38	case	_	name=O
+36	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	38	det	_	name=O|Entity=(ap_20091010_3313048__T97--1
+37	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	name=O
+38	angrep	angrep	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	34	obl	_	name=O
+39	på	på	ADP	_	_	40	case	_	name=O
+40	Bush	Bush	PROPN	_	_	38	nmod	_	SpaceAfter=No|name=B-PER|Entity=(ap_20091010_3313048__4430--1)ap_20091010_3313048__T97)ap_20091010_3313048__T94)
+41	.	$.	PUNCT	_	_	20	punct	_	name=O
+
+# sent_id = 001732
+# text = Komiteen peker spesielt på Obamas radikale nytenkning om en verden uten atomvåpen, som kan gi støtet til en ny runde med vidtrekkende nedrustningsforhandlinger.
+1	Komiteen	komité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20091010_3313048__7965--1)
+2	peker	peke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+4	på	på	ADP	_	_	7	case	_	name=O
+5	Obamas	Obama	PROPN	_	Case=Gen	7	nmod	_	name=B-PER|Entity=(ap_20091010_3313048__T101--1(ap_20091010_3313048__192360--1)
+6	radikale	radikal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	nytenkning	nytenkning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O
+8	om	om	ADP	_	_	10	case	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(ap_20091010_3313048__T102--1
+10	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O
+11	uten	uten	ADP	_	_	12	case	_	name=O
+12	atomvåpen	atomvåpen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T103--1)ap_20091010_3313048__T102)
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	gi	gi	VERB	_	VerbForm=Inf	7	acl:relcl	_	name=O
+17	støtet	støt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obj	_	name=O|Entity=(ap_20091010_3313048__T104--1)
+18	til	til	ADP	_	_	21	case	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(ap_20091010_3313048__T105--1
+20	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	runde	runde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	name=O
+22	med	med	ADP	_	_	24	case	_	name=O
+23	vidtrekkende	vidtrekkende	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	name=O|Entity=(ap_20091010_3313048__T106--1
+24	nedrustningsforhandlinger	nedrustningsforhandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T106)ap_20091010_3313048__T105)ap_20091010_3313048__T101)
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001733
+# text = Dette initiativet gir også tildelingen en solid forankring i Alfred Nobels testamente.
+1	Dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(ap_20091010_3313048__T107--1
+2	initiativet	initiativ	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=ap_20091010_3313048__T107)
+3	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	også	også	ADV	_	_	3	advmod	_	name=O
+5	tildelingen	tildeling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	iobj	_	name=O|Entity=(ap_20091010_3313048__5442--1)
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20091010_3313048__T109--1
+7	solid	solid	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	forankring	forankring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O
+9	i	i	ADP	_	_	12	case	_	name=O
+10	Alfred	Alfred	PROPN	_	Gender=Masc	12	nmod	_	name=B-PER|Entity=(ap_20091010_3313048__T111--1(ap_20091010_3313048__T110--1
+11	Nobels	Nobel	PROPN	_	Case=Gen	10	flat:name	_	name=I-PER|Entity=ap_20091010_3313048__T110)
+12	testamente	testamente	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T111)ap_20091010_3313048__T109)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001734
+# text = Årets fredspris er den første etter at Thorbjørn Jagland overtok som leder av Den Norske Nobelkomiteen.
+1	Årets	år	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(ap_20091010_3313048__4377--1(ap_20091010_3313048__T112--1)
+2	fredspris	fredspris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=ap_20091010_3313048__4377)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O
+5	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	0	root	_	name=O
+6	etter	etter	SCONJ	_	_	10	mark	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	Thorbjørn	Thorbjørn	PROPN	_	Gender=Masc	10	nsubj	_	name=B-PER|Entity=(ap_20091010_3313048__2328--1
+9	Jagland	Jagland	PROPN	_	_	8	flat:name	_	name=I-PER|Entity=ap_20091010_3313048__2328)
+10	overtok	overta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+11	som	som	SCONJ	_	_	12	mark	_	name=O
+12	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	xcomp	_	name=O|Entity=(ap_20091010_3313048__T115--1
+13	av	av	ADP	_	_	14	case	_	name=O
+14	Den	Den	PROPN	_	_	12	nmod	_	name=B-ORG|Entity=(ap_20091010_3313048__7965--1
+15	Norske	Norske	PROPN	_	_	14	flat:name	_	name=I-ORG
+16	Nobelkomiteen	Nobelkomiteen	PROPN	_	_	14	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20091010_3313048__7965)ap_20091010_3313048__T115)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001735
+# text = Valget av Obama skiller seg fra mange av de senere års tildelinger, der hederen har gått til relativt ukjente skikkelser.
+1	Valget	valg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20091010_3313048__2342--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	Obama	Obama	PROPN	_	_	1	nmod	_	name=B-PER|Entity=(ap_20091010_3313048__192360--1)ap_20091010_3313048__2342)
+4	skiller	skille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obj	_	name=O|Entity=(ap_20091010_3313048__2342--1)
+6	fra	fra	ADP	_	_	7	case	_	name=O
+7	mange	mange	ADJ	_	Degree=Pos|Number=Plur	4	advmod	_	name=O|Entity=(ap_20091010_3313048__T119--1
+8	av	av	ADP	_	_	12	case	_	name=O
+9	de	de	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(ap_20091010_3313048__T121--1(ap_20091010_3313048__T120--1
+10	senere	sen	ADJ	_	Degree=Cmp	11	amod	_	name=O
+11	års	år	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	12	nmod	_	name=O|Entity=ap_20091010_3313048__T120)
+12	tildelinger	tildeling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	der	der	SCONJ	_	_	17	mark	_	name=O
+15	hederen	heder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Bridge=ap_20091010_3313048__T119<ap_20091010_3313048__T122:default|Entity=(ap_20091010_3313048__T122--1)
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	gått	gå	VERB	_	VerbForm=Part	12	acl	_	name=O
+18	til	til	ADP	_	_	21	case	_	name=O
+19	relativt	relativ	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O|Entity=(ap_20091010_3313048__T123--1
+20	ukjente	ukjent	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	name=O
+21	skikkelser	skikkelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T123)ap_20091010_3313048__T121)ap_20091010_3313048__T119)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001736
+# text = Det er nok å tenke på den kenyanske miljøforkjemperen Wangari Maathai i 2004 og Muhammad Yunus, pioneren for mikrofinans fra Bangladesh, i 2006.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	nok	nok	ADV	_	_	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	tenke	tenke	VERB	_	VerbForm=Inf	3	csubj	_	name=O
+6	på	på	ADP	_	_	10	case	_	name=O
+7	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(ap_20091010_3313048__T125--1(ap_20091010_3313048__T126--1(ap_20091010_3313048__T124--1
+8	kenyanske	kenyansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	miljøforkjemperen	miljøforkjemper	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=ap_20091010_3313048__T124)
+10	Wangari	Wangari	PROPN	_	_	5	obl	_	name=B-PER
+11	Maathai	Maathai	PROPN	_	_	10	flat:name	_	name=I-PER
+12	i	i	ADP	_	_	13	case	_	name=O
+13	2004	2004	NUM	_	Number=Plur|NumType=Card	10	nmod	_	name=O|Entity=ap_20091010_3313048__T126)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	Muhammad	Muhammad	PROPN	_	_	10	conj	_	name=B-PER|Entity=(ap_20091010_3313048__T127--1
+16	Yunus	Yunus	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	pioneren	pioner	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	appos	_	name=O|Entity=(ap_20091010_3313048__T128--1
+19	for	for	ADP	_	_	20	case	_	name=O
+20	mikrofinans	mikrofinans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(ap_20091010_3313048__T129--1)
+21	fra	fra	ADP	_	_	22	case	_	name=O
+22	Bangladesh	Bangladesh	PROPN	_	_	18	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091010_3313048__T130--1)
+23	,	$,	PUNCT	_	_	18	punct	_	name=O|Entity=ap_20091010_3313048__T128)
+24	i	i	ADP	_	_	25	case	_	name=O
+25	2006	2006	NUM	_	Number=Plur|NumType=Card	15	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T127)ap_20091010_3313048__T125)
+26	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001737
+# text = Prisen til Obama er også forskjellig fra tildelingen til Finlands tidligere president Martti Ahtisaari i fjor og USAs tidligere president Jimmy Carter i 2002.
+1	Prisen	pris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20091010_3313048__4377--1
+2	til	til	ADP	_	_	3	case	_	name=O
+3	Obama	Obama	PROPN	_	_	1	nmod	_	name=B-PER|Entity=(ap_20091010_3313048__192360--1)ap_20091010_3313048__4377)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	også	også	ADV	_	_	6	advmod	_	name=O
+6	forskjellig	forskjellig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+7	fra	fra	ADP	_	_	8	case	_	name=O
+8	tildelingen	tildeling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(ap_20091010_3313048__T133--1(ap_20091010_3313048__T134--1
+9	til	til	ADP	_	_	13	case	_	name=O
+10	Finlands	Finland	PROPN	_	Case=Gen	12	nmod	_	name=B-GPE_ORG|Entity=(ap_20091010_3313048__T137--1(ap_20091010_3313048__T136--1(ap_20091010_3313048__T135--1)
+11	tidligere	tidlig	ADJ	_	Degree=Cmp	12	amod	_	name=O
+12	president	president	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=ap_20091010_3313048__T136)
+13	Martti	Martti	PROPN	_	_	8	nmod	_	name=B-PER
+14	Ahtisaari	Ahtisaari	PROPN	_	_	13	flat:name	_	name=I-PER|Entity=ap_20091010_3313048__T137)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	fjor	fjor	NOUN	_	_	8	nmod	_	name=O|Entity=(ap_20091010_3313048__T138--1)ap_20091010_3313048__T134)
+17	og	og	CCONJ	_	_	21	cc	_	name=O
+18	USAs	USA	PROPN	_	Abbr=Yes|Case=Gen	20	nmod	_	name=B-GPE_ORG|Entity=(ap_20091010_3313048__T141--1(ap_20091010_3313048__T140--1(ap_20091010_3313048__6615--1)
+19	tidligere	tidlig	ADJ	_	Degree=Cmp	20	amod	_	name=O
+20	president	president	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=ap_20091010_3313048__T140)
+21	Jimmy	Jimmy	PROPN	_	_	8	conj	_	name=B-PER
+22	Carter	Carter	PROPN	_	_	21	flat:name	_	name=I-PER
+23	i	i	ADP	_	_	24	case	_	name=O
+24	2002	2002	NUM	_	Number=Plur|NumType=Card	21	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T141)ap_20091010_3313048__T133)
+25	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001738
+# text = I disse tilfellene kom prisen som en anerkjennelse for trofast innsats for freden gjennom mange tiår.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	disse	disse	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(ap_20091010_3313048__T142--1
+3	tilfellene	tilfelle	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obl	_	name=O|Entity=ap_20091010_3313048__T142)
+4	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	prisen	pris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20091010_3313048__4320--1)
+6	som	som	SCONJ	_	_	8	mark	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20091010_3313048__T144--1
+8	anerkjennelse	anerkjennelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	acl	_	name=O
+9	for	for	ADP	_	_	11	case	_	name=O
+10	trofast	trofast	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(ap_20091010_3313048__T145--1
+11	innsats	innsats	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O
+12	for	for	ADP	_	_	13	case	_	name=O
+13	freden	fred	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(ap_20091010_3313048__2198--1)
+14	gjennom	gjennom	ADP	_	_	16	case	_	name=O
+15	mange	mange	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O|Entity=(ap_20091010_3313048__T147--1
+16	tiår	tiår	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T147)ap_20091010_3313048__T145)ap_20091010_3313048__T144)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001739
+# text = Det er absolutt ikke noe nytt at komiteen forsøker å påvirke politiske prosesser som er under full utvikling.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	absolutt	absolutt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+5	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	6	det	_	name=O
+6	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	komiteen	komité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=(ap_20091010_3313048__7965--1)
+9	forsøker	forsøke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	csubj	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	påvirke	påvirke	VERB	_	VerbForm=Inf	9	xcomp	_	name=O
+12	politiske	politisk	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(ap_20091010_3313048__T149--1
+13	prosesser	prosess	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	name=O
+14	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+15	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	name=O
+16	under	under	ADP	_	_	18	case	_	name=O
+17	full	full	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(ap_20091010_3313048__T150--1
+18	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	acl:relcl	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T150)ap_20091010_3313048__T149)
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001740
+# text = Den berømte tildelingen til den tyske samfunnskritikeren Carl von Ossietzky i 1935 hadde som en klar hensikt å rette søkelyset på naziregimets stadig mer hardhendte undertrykkelse.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20091010_3313048__T151--1
+2	berømte	berømt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	tildelingen	tildeling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O
+4	til	til	ADP	_	_	8	case	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20091010_3313048__T153--1(ap_20091010_3313048__T152--1
+6	tyske	tysk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	samfunnskritikeren	samfunnskritiker	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=ap_20091010_3313048__T152)
+8	Carl	Carl	PROPN	_	Gender=Masc	3	nmod	_	name=B-PER
+9	von	von	PROPN	_	_	8	flat:name	_	name=I-PER
+10	Ossietzky	Ossietzky	PROPN	_	_	8	flat:name	_	name=I-PER|Entity=ap_20091010_3313048__T153)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	1935	1935	NUM	_	Number=Plur|NumType=Card	3	nmod	_	name=O|Entity=ap_20091010_3313048__T151)
+13	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+14	som	som	SCONJ	_	_	17	mark	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(ap_20091010_3313048__T154--1
+16	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	hensikt	hensikt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	xcomp	_	name=O|Entity=ap_20091010_3313048__T154)
+18	å	å	PART	_	_	19	mark	_	name=O
+19	rette	rette	VERB	_	VerbForm=Inf	13	xcomp	_	name=O
+20	søkelyset	søkelys	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	obj	_	name=O|Entity=(ap_20091010_3313048__T155--1)
+21	på	på	ADP	_	_	26	case	_	name=O
+22	naziregimets	naziregime	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	26	nmod	_	name=O|Entity=(ap_20091010_3313048__T157--1(ap_20091010_3313048__T156--1)
+23	stadig	stadig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	advmod	_	name=O
+24	mer	mye	ADJ	_	Degree=Cmp	25	advmod	_	name=O
+25	hardhendte	hardhendt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	undertrykkelse	undertrykkelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T157)
+27	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 001741
+# text = Fredsprisen har gjennom årene også fokusert på motstanden mot apartheid i Sør-Afrika, kampen for menneskerettighetene i den tidligere Sovjetunionen og arbeidet for en fredsløsning i Midtøsten.
+1	Fredsprisen	fredspris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20091010_3313048__4320--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	gjennom	gjennom	ADP	_	_	4	case	_	name=O
+4	årene	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	obl	_	name=O|Entity=(ap_20091010_3313048__T159--1)
+5	også	også	ADV	_	_	6	advmod	_	name=O
+6	fokusert	fokusere	VERB	_	VerbForm=Part	0	root	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	motstanden	motstand	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(ap_20091010_3313048__T160--1(ap_20091010_3313048__T161--1
+9	mot	mot	ADP	_	_	10	case	_	name=O
+10	apartheid	apartheid	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(ap_20091010_3313048__T162--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Sør-Afrika	Sør-Afrika	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091010_3313048__T163--1)ap_20091010_3313048__T162)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=ap_20091010_3313048__T161)
+14	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	name=O|Entity=(ap_20091010_3313048__T164--1
+15	for	for	ADP	_	_	16	case	_	name=O
+16	menneskerettighetene	menneskerettighet	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	name=O|Entity=(ap_20091010_3313048__T165--1)
+17	i	i	ADP	_	_	20	case	_	name=O
+18	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(ap_20091010_3313048__T166--1
+19	tidligere	tidlig	ADJ	_	Degree=Cmp	20	amod	_	name=O
+20	Sovjetunionen	Sovjetunionen	PROPN	_	_	14	nmod	_	name=B-GPE_LOC|Entity=ap_20091010_3313048__T166)ap_20091010_3313048__T164)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	arbeidet	arbeide	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	conj	_	name=O|Entity=(ap_20091010_3313048__2337--1
+23	for	for	ADP	_	_	25	case	_	name=O
+24	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(ap_20091010_3313048__T168--1
+25	fredsløsning	fredsløsning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	name=O
+26	i	i	ADP	_	_	27	case	_	name=O
+27	Midtøsten	Midtøsten	PROPN	_	_	25	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091010_3313048__T169--1)ap_20091010_3313048__T168)ap_20091010_3313048__2337)ap_20091010_3313048__T160)
+28	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001742
+# text = I det siste tilfellet finnes fremdeles utfordringer som venter på årets prisvinner.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(ap_20091010_3313048__2337--1
+3	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	tilfellet	tilfelle	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=ap_20091010_3313048__2337)
+5	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	fremdeles	fremdeles	ADV	_	_	5	advmod	_	name=O
+7	utfordringer	utfordring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	name=O|Entity=(ap_20091010_3313048__T171--1
+8	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+9	venter	vente	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	name=O
+10	på	på	ADP	_	_	12	case	_	name=O
+11	årets	år	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	name=O|Entity=(ap_20091010_3313048__T173--1(ap_20091010_3313048__T172--1)
+12	prisvinner	prisvinner	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T173)ap_20091010_3313048__T171)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001743
+# text = Obama arvet to kriger fra sin forgjenger.
+1	Obama	Obama	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(ap_20091010_3313048__192360--1)
+2	arvet	arve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	to	to	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(ap_20091010_3313048__T175--1
+4	kriger	krig	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=ap_20091010_3313048__T175)
+5	fra	fra	ADP	_	_	7	case	_	name=O
+6	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(ap_20091010_3313048__4430--1(ap_20091010_3313048__192360--1)
+7	forgjenger	forgjenger	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__4430)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001744
+# text = Det militære engasjementet i Irak er nå under avvikling, mens presidenten og hans rådgivere står midt oppe i en omfattende utredning om hva som skal skje i Afghanistan.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20091010_3313048__T178--1
+2	militære	militær	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	engasjementet	engasjement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Irak	Irak	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(ap_20091010_3313048__T179--1)ap_20091010_3313048__T178)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+7	nå	nå	ADV	_	_	9	advmod	_	name=O
+8	under	under	ADP	_	_	9	case	_	name=O
+9	avvikling	avvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T180--1)
+10	,	$,	PUNCT	_	_	16	punct	_	name=O
+11	mens	mens	SCONJ	_	_	16	mark	_	name=O
+12	presidenten	president	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	name=O|Entity=(ap_20091010_3313048__T181--1(ap_20091010_3313048__192360--1)
+13	og	og	CCONJ	_	_	15	cc	_	name=O
+14	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(ap_20091010_3313048__T184--1(ap_20091010_3313048__192360--1)
+15	rådgivere	rådgiver	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	conj	_	name=O|Entity=ap_20091010_3313048__T184)ap_20091010_3313048__T181)
+16	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	name=O
+17	midt	midt	ADV	_	_	22	advmod	_	name=O
+18	oppe	oppe	ADP	_	_	22	case	_	name=O
+19	i	i	ADP	_	_	22	case	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(ap_20091010_3313048__T185--1
+21	omfattende	omfattende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	utredning	utredning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	name=O
+23	om	om	ADP	_	_	27	case	_	name=O
+24	hva	hva	PRON	_	PronType=Int	27	nsubj	_	name=O
+25	som	som	PRON	_	PronType=Rel	27	nmod	_	name=O
+26	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	name=O
+27	skje	skje	VERB	_	VerbForm=Inf	22	acl:relcl	_	name=O
+28	i	i	ADP	_	_	29	case	_	name=O
+29	Afghanistan	Afghanistan	PROPN	_	_	27	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091010_3313048__T186--1)ap_20091010_3313048__T185)
+30	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 001745
+# text = I tillegg truer det alvorligste økonomiske tilbakeslaget siden 1930-årene med å avspore alle planer som Obama og hans stab legger for fremtiden.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(ap_20091010_3313048__T187--1)
+3	truer	true	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20091010_3313048__T188--1
+5	alvorligste	alvorlig	ADJ	_	Definite=Def|Degree=Sup	7	amod	_	name=O
+6	økonomiske	økonomisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	tilbakeslaget	tilbakeslag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O
+8	siden	siden	ADP	_	_	9	case	_	name=O
+9	1930-årene	1930-år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	obl	_	name=O|Entity=(ap_20091010_3313048__T189--1)ap_20091010_3313048__T188)
+10	med	med	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	avspore	avspore	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+13	alle	all	DET	_	Number=Plur|PronType=Tot	14	det	_	name=O|Entity=(ap_20091010_3313048__T190--1
+14	planer	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	name=O
+15	som	som	PRON	_	PronType=Rel	20	obj	_	name=O
+16	Obama	Obama	PROPN	_	_	20	nsubj	_	name=B-PER|Entity=(ap_20091010_3313048__T191--1(ap_20091010_3313048__192360--1)
+17	og	og	CCONJ	_	_	19	cc	_	name=O
+18	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(ap_20091010_3313048__T194--1(ap_20091010_3313048__192360--1)
+19	stab	stab	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	name=O|Entity=ap_20091010_3313048__T194)ap_20091010_3313048__T191)
+20	legger	legge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	name=O
+21	for	for	ADP	_	_	22	case	_	name=O
+22	fremtiden	fremtid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T195--1)ap_20091010_3313048__T190)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001746
+# text = Fallhøyden er stor, ikke minst fordi presidenten har gjort håp og optimisme til sitt sentrale budskap.
+1	Fallhøyden	fallhøyde	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(ap_20091010_3313048__T196--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	10	punct	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	7	advmod	_	name=O
+7	fordi	fordi	SCONJ	_	_	10	mark	_	name=O
+8	presidenten	president	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(ap_20091010_3313048__192360--1)
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	gjort	gjøre	VERB	_	VerbForm=Part	3	advcl	_	name=O
+11	håp	håp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=(ap_20091010_3313048__T198--1(ap_20091010_3313048__T199--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	optimisme	optimisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	conj	_	name=O|Entity=(ap_20091010_3313048__T200--1)ap_20091010_3313048__T198)
+14	til	til	SCONJ	_	_	17	mark	_	name=O
+15	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	name=O|Entity=(ap_20091010_3313048__T202--1(ap_20091010_3313048__192360--1)
+16	sentrale	sentral	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	budskap	budskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T202)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001747
+# text = Hvis resultatene uteblir, kan det hele ende med bitter skuffelse.
+1	Hvis	hvis	SCONJ	_	_	3	mark	_	name=O
+2	resultatene	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=(ap_20091010_3313048__T203--1)
+3	uteblir	utebli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	3	punct	_	name=O
+5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20091010_3313048__T204--1
+7	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	nsubj	_	name=O|Entity=ap_20091010_3313048__T204)
+8	ende	ende	VERB	_	VerbForm=Inf	0	root	_	name=O
+9	med	med	ADP	_	_	11	case	_	name=O
+10	bitter	bitter	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(ap_20091010_3313048__T205--1
+11	skuffelse	skuffelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T205)
+12	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001748
+# text = Nobelkomiteen tar en betydelig sjanse med denne pristildelingen, og vil få kritikk for det.
+1	Nobelkomiteen	Nobelkomiteen	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(ap_20091010_3313048__7965--1)
+2	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20091010_3313048__T207--1
+4	betydelig	betydelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	sjanse	sjanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=ap_20091010_3313048__T207)
+6	med	med	ADP	_	_	8	case	_	name=O
+7	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(ap_20091010_3313048__5442--1
+8	pristildelingen	pristildeling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__5442)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	få	få	VERB	_	VerbForm=Inf	2	conj	_	name=O
+13	kritikk	kritikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=(ap_20091010_3313048__T209--1)
+14	for	for	ADP	_	_	15	case	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T210--1)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001749
+# text = Men vi har sans for at komiteen under Jaglands ledelse har mot til å velge noe annet enn det trygge og trauste.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20091010_3313048__T211--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	sans	sans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(ap_20091010_3313048__T212--1
+5	for	for	SCONJ	_	_	11	mark	_	name=O
+6	at	at	SCONJ	_	_	11	mark	_	name=O
+7	komiteen	komité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=(ap_20091010_3313048__7965--1)
+8	under	under	ADP	_	_	10	case	_	name=O
+9	Jaglands	Jagland	PROPN	_	Case=Gen	10	nmod	_	name=B-PER|Entity=(ap_20091010_3313048__T215--1(ap_20091010_3313048__2328--1)
+10	ledelse	ledelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=ap_20091010_3313048__T215)
+11	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl	_	name=O
+12	mot	mot	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	name=O|Entity=(ap_20091010_3313048__T216--1
+13	til	til	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	velge	velge	VERB	_	VerbForm=Inf	12	acl	_	name=O
+16	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	17	det	_	name=O
+17	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	15	obj	_	name=O
+18	enn	enn	ADP	_	_	20	case	_	name=O
+19	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(ap_20091010_3313048__T217--1(ap_20091010_3313048__T218--1
+20	trygge	trygg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	advmod	_	name=O|Entity=ap_20091010_3313048__T218)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	trauste	traust	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	conj	_	SpaceAfter=No|name=O|Entity=(ap_20091010_3313048__T219--1)ap_20091010_3313048__T217)ap_20091010_3313048__T216)ap_20091010_3313048__T212)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001750
+# text = Obama har potensial til å endre internasjonal politikk i en generasjon fremover.
+1	Obama	Obama	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(ap_20091010_3313048__192360--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	potensial	potensial	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O|Entity=(ap_20091010_3313048__T221--1
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	endre	endre	VERB	_	VerbForm=Inf	3	acl	_	name=O
+7	internasjonal	internasjonal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(ap_20091010_3313048__T222--1
+8	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=ap_20091010_3313048__T222)
+9	i	i	ADP	_	_	11	case	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(ap_20091010_3313048__T223--1
+11	generasjon	generasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O
+12	fremover	fremover	ADP	_	_	11	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091010_3313048__T223)ap_20091010_3313048__T221)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+

@@ -1,0 +1,673 @@
+# newdoc id = ap_20090922-3281240
+# global.Entity = eid-etype-head-other
+# sent_id = 001584
+# text = Med begrenset virkning
+1	Med	med	ADP	_	_	3	case	_	name=O
+2	begrenset	begrenset	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=(ap_20090922_3281240__T1--1
+3	virkning	virkning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=ap_20090922_3281240__T1)
+
+# newpar
+# sent_id = 001585
+# text = Ordvalg.
+1	Ordvalg	ordvalg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T2--1)
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 001586
+# text = Forhåndsbestemt.
+1	Forhåndsbestemt	forhåndsbestemt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 001587
+# text = Ofrene.
+1	Ofrene	offer	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T3--1)
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 001588
+# text = De to norske Gaza-legene har skrevet en bok som først og fremst er en utdypning av hva vi allerede vet om krigen i januar i år.
+1	De	de	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(ap_20090922_3281240__191898--1
+2	to	to	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+3	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+4	Gaza-legene	Gaza-lege	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=B-DRV|Entity=ap_20090922_3281240__191898)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	skrevet	skrive	VERB	_	VerbForm=Part	0	root	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20090922_3281240__121052--1
+8	bok	bok	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O
+9	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+10	først	først	ADV	_	_	15	advmod	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	fremst	fremre	ADJ	_	Definite=Ind|Degree=Sup	10	conj	_	name=O
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+14	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(ap_20090922_3281240__T6--1
+15	utdypning	utdypning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	acl:relcl	_	name=O
+16	av	av	ADP	_	_	20	case	_	name=O
+17	hva	hva	PRON	_	PronType=Int	20	obj	_	name=O
+18	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	name=O|Entity=(ap_20090922_3281240__T7--1)
+19	allerede	allerede	ADV	_	_	20	advmod	_	name=O
+20	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+21	om	om	ADP	_	_	22	case	_	name=O
+22	krigen	krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obl	_	name=O|Entity=(ap_20090922_3281240__5363--1
+23	i	i	ADP	_	_	24	case	_	name=O
+24	januar	januar	NOUN	_	Gender=Masc	22	nmod	_	name=O|Entity=(ap_20090922_3281240__T9--1
+25	i	i	ADP	_	_	26	case	_	name=O
+26	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T10--1)ap_20090922_3281240__T9)ap_20090922_3281240__5363)ap_20090922_3281240__T6)ap_20090922_3281240__121052)
+27	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 001589
+# text = Gaza-krigen, som startet 27. desember i fjor, ble ført uten at vestlig presse var på plass og kunne rapportere direkte hva som skjedde.
+1	Gaza-krigen	Gaza-krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj:pass	_	SpaceAfter=No|name=B-DRV|Entity=(ap_20090922_3281240__5363--1
+2	,	$,	PUNCT	_	_	4	punct	_	name=O
+3	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+4	startet	starte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	name=O
+5	27.	27.	ADJ	_	Number=Plur	6	amod	_	name=O|Entity=(ap_20090922_3281240__T12--1
+6	desember	desember	NOUN	_	Gender=Masc	4	obl	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	fjor	fjor	NOUN	_	_	6	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T13--1)ap_20090922_3281240__T12)
+9	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=ap_20090922_3281240__5363)
+10	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux:pass	_	name=O
+11	ført	føre	VERB	_	VerbForm=Part	0	root	_	name=O
+12	uten	uten	SCONJ	_	_	18	mark	_	name=O
+13	at	at	SCONJ	_	_	18	mark	_	name=O
+14	vestlig	vestlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(ap_20090922_3281240__T14--1
+15	presse	presse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	_	name=O|Entity=ap_20090922_3281240__T14)
+16	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	name=O
+17	på	på	SCONJ	_	_	18	mark	_	name=O
+18	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	advcl	_	name=O|Entity=(ap_20090922_3281240__T15--1)
+19	og	og	CCONJ	_	_	21	cc	_	name=O
+20	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	name=O
+21	rapportere	rapportere	VERB	_	VerbForm=Inf	18	conj	_	name=O
+22	direkte	direkte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+23	hva	hva	PRON	_	PronType=Int	25	nsubj	_	name=O
+24	som	som	PRON	_	PronType=Rel	25	obj	_	name=O
+25	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	ccomp	_	SpaceAfter=No|name=O
+26	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 001590
+# text = De to norske legene Mads Gilbert og Erik Fosse som dro dit på vegne av NORWAC (Norwegian Aid Commitee), ble derfor en hyppig brukt kilde til informasjon, både for norske og internasjonale medier.
+1	De	de	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(ap_20090922_3281240__191898--1(ap_20090922_3281240__T18[1/2]--1(ap_20090922_3281240__T16--1
+2	to	to	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+3	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+4	legene	lege	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=ap_20090922_3281240__T16)
+5	Mads	Mads	PROPN	_	Gender=Masc	23	nsubj	_	name=B-PER|Entity=(ap_20090922_3281240__5602--1
+6	Gilbert	Gilbert	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=ap_20090922_3281240__5602)ap_20090922_3281240__T18[1/2])
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Erik	Erik	PROPN	_	Gender=Masc	5	conj	_	name=B-PER|Entity=(ap_20090922_3281240__T19--1(ap_20090922_3281240__2343--1
+9	Fosse	Fosse	PROPN	_	_	8	flat:name	_	name=I-PER|Entity=ap_20090922_3281240__2343)
+10	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+11	dro	dra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	name=O
+12	dit	dit	ADV	_	_	11	advmod	_	name=O
+13	på	på	ADP	_	_	11	compound:prt	_	name=O
+14	vegne	vegne	NOUN	_	_	13	obl	_	name=O|Entity=(ap_20090922_3281240__T20--1
+15	av	av	ADP	_	_	16	case	_	name=O
+16	NORWAC	NORWAC	PROPN	_	_	14	nmod	_	name=B-ORG|Entity=(ap_20090922_3281240__T21--1
+17	(	$(	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T22--1
+18	Norwegian	Norwegian	PROPN	_	_	16	appos	_	name=B-ORG
+19	Aid	Aid	PROPN	_	_	18	flat:name	_	name=I-ORG
+20	Commitee	Commitee	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-ORG
+21	)	$)	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T22)ap_20090922_3281240__T21)ap_20090922_3281240__T20)ap_20090922_3281240__T19)ap_20090922_3281240__191898)
+22	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=(ap_20090922_3281240__T18[2/2]--1)
+23	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+24	derfor	derfor	ADV	_	_	23	advmod	_	name=O
+25	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	28	det	_	name=O|Entity=(ap_20090922_3281240__T23--1
+26	hyppig	hyppig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	27	advmod	_	name=O
+27	brukt	brukt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	28	amod	_	name=O
+28	kilde	kilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	xcomp	_	name=O
+29	til	til	ADP	_	_	30	case	_	name=O
+30	informasjon	informasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T24--1)
+31	,	$,	PUNCT	_	_	37	punct	_	name=O
+32	både	både	CCONJ	_	_	34	cc	_	name=O
+33	for	for	ADP	_	_	37	case	_	name=O
+34	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	37	amod	_	name=O|Entity=(ap_20090922_3281240__251--1
+35	og	og	CCONJ	_	_	36	cc	_	name=O
+36	internasjonale	internasjonal	ADJ	_	Degree=Pos|Number=Plur	34	conj	_	name=O
+37	medier	medium	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	28	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__251)ap_20090922_3281240__T23)
+38	.	$.	PUNCT	_	_	23	punct	_	name=O
+
+# sent_id = 001591
+# text = Mediene ble kritisert for det, siden de to har engasjert seg til støtte for palestinernes sak.
+1	Mediene	medium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nsubj:pass	_	name=O|Entity=(ap_20090922_3281240__251--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	kritisert	kritisere	VERB	_	VerbForm=Part	0	root	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T27--1)
+6	,	$,	PUNCT	_	_	11	punct	_	name=O
+7	siden	siden	SCONJ	_	_	11	mark	_	name=O
+8	de	de	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(ap_20090922_3281240__191898--1
+9	to	to	NUM	_	Number=Plur|NumType=Card	11	nsubj	_	name=O|Entity=ap_20090922_3281240__191898)
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	engasjert	engasjere	VERB	_	VerbForm=Part	3	advcl	_	name=O
+12	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	name=O|Entity=(ap_20090922_3281240__191898--1)
+13	til	til	ADP	_	_	14	case	_	name=O
+14	støtte	støtte	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=(ap_20090922_3281240__T28--1
+15	for	for	ADP	_	_	17	case	_	name=O
+16	palestinernes	palestiner	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	17	nmod	_	name=O|Entity=(ap_20090922_3281240__295--1(ap_20090922_3281240__293--1)
+17	sak	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__295)ap_20090922_3281240__T28)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 001592
+# text = I boken som nå foreligger, legger de ikke skjul på det.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	boken	bok	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(ap_20090922_3281240__121052--1
+3	som	som	PRON	_	PronType=Rel	5	nsubj	_	name=O
+4	nå	nå	ADV	_	_	5	advmod	_	name=O
+5	foreligger	foreligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__121052)
+6	,	$,	PUNCT	_	_	2	punct	_	name=O
+7	legger	legge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(ap_20090922_3281240__191898--1)
+9	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	name=O
+10	skjul	skjul	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	name=O|Entity=(ap_20090922_3281240__T33--1)
+11	på	på	ADP	_	_	12	case	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T34--1)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001593
+# text = Ordbruken de velger, som "okkupant" og "okkupert Palestina" eller "Palestina", viser det.
+1	Ordbruken	ordbruk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	name=O|Entity=(ap_20090922_3281240__T35--1
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090922_3281240__191898--1)
+3	velger	velge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	7	punct	_	name=O
+5	som	som	ADP	_	_	7	case	_	name=O
+6	"	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T37--1(ap_20090922_3281240__T38--1
+7	okkupant	okkupant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No|name=O
+8	"	$"	PUNCT	_	_	7	punct	_	name=O|Entity=ap_20090922_3281240__T38)
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	"	$"	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T39--1
+11	okkupert	okkupere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	12	amod	_	name=O
+12	Palestina	Palestina	PROPN	_	_	7	conj	_	SpaceAfter=No|name=B-GPE_LOC
+13	"	$"	PUNCT	_	_	12	punct	_	name=O|Entity=ap_20090922_3281240__T39)
+14	eller	eller	CCONJ	_	_	16	cc	_	name=O
+15	"	$"	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T40--1
+16	Palestina	Palestina	PROPN	_	_	7	conj	_	SpaceAfter=No|name=B-GPE_LOC
+17	"	$"	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T40)ap_20090922_3281240__T37)
+18	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=ap_20090922_3281240__T35)
+19	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+20	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T41--1)
+21	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# sent_id = 001594
+# text = Hele beretningen deres fra de 11 dagene på Shifa-sykehuset i Gaza, samt de historiske og politiske tilleggsbetraktninger som omkapsler denne, levner ingen tvil om hvor holdningene ligger.
+1	Hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(ap_20090922_3281240__121052--1(ap_20090922_3281240__292--1
+2	beretningen	beretning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	name=O
+3	deres	deres	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(ap_20090922_3281240__191898--1)
+4	fra	fra	ADP	_	_	7	case	_	name=O
+5	de	de	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(ap_20090922_3281240__T45--1
+6	11	11	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O
+7	dagene	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	Shifa-sykehuset	Shifa-sykehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	name=B-LOC|Entity=(ap_20090922_3281240__T46--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Gaza	Gaza	PROPN	_	_	9	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090922_3281240__2108--1)ap_20090922_3281240__T46)ap_20090922_3281240__T45)ap_20090922_3281240__292)
+12	,	$,	PUNCT	_	_	18	punct	_	name=O
+13	samt	samt	CCONJ	_	_	18	cc	_	name=O
+14	de	de	DET	_	Number=Plur|PronType=Dem	18	det	_	name=O|Entity=(ap_20090922_3281240__T48--1
+15	historiske	historisk	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	politiske	politisk	ADJ	_	Degree=Pos|Number=Plur	15	conj	_	name=O
+18	tilleggsbetraktninger	tilleggsbetraktning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	conj	_	name=O
+19	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+20	omkapsler	omkapsle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	name=O
+21	denne	denne	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__292--1)ap_20090922_3281240__121052)
+22	,	$,	PUNCT	_	_	18	punct	_	name=O|Entity=ap_20090922_3281240__T48)
+23	levner	levne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+24	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	25	det	_	name=O|Entity=(ap_20090922_3281240__T50--1
+25	tvil	tvil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	name=O
+26	om	om	ADP	_	_	29	case	_	name=O
+27	hvor	hvor	ADV	_	_	29	advmod	_	name=O
+28	holdningene	holdning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	29	nsubj	_	name=O|Bridge=ap_20090922_3281240__191898<ap_20090922_3281240__T51:default|Entity=(ap_20090922_3281240__T51--1)
+29	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T50)
+30	.	$.	PUNCT	_	_	23	punct	_	name=O
+
+# sent_id = 001595
+# text = Dermed kan det stilles spørsmål ved hvilke følger boken kan få.
+1	Dermed	dermed	ADV	_	_	4	advmod	_	name=O
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	stilles	stille	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+5	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=(ap_20090922_3281240__T52--1
+6	ved	ved	ADP	_	_	5	nmod	_	name=O
+7	hvilke	hvilken	DET	_	Number=Plur|PronType=Int	8	det	_	name=O|Entity=(ap_20090922_3281240__T53--1
+8	følger	følge	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	name=O|Entity=ap_20090922_3281240__T53)
+9	boken	bok	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=(ap_20090922_3281240__121052--1)
+10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	få	få	VERB	_	VerbForm=Inf	6	advcl	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T52)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001596
+# text = Forfatterne ønsker å gi en så omfattende beskrivelse som mulig av hva de opplevet de dagene de befant seg i Gaza.
+1	Forfatterne	forfatter	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(ap_20090922_3281240__191898--1)
+2	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	gi	gi	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20090922_3281240__T56--1
+6	så	så	ADV	_	_	7	advmod	_	name=O
+7	omfattende	omfattende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	beskrivelse	beskrivelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O
+9	som	som	ADP	_	_	10	case	_	name=O
+10	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=(ap_20090922_3281240__T57--1)
+11	av	av	ADP	_	_	14	case	_	name=O
+12	hva	hva	PRON	_	PronType=Int	14	obj	_	name=O
+13	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(ap_20090922_3281240__191898--1)
+14	opplevet	oppleve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	name=O
+15	de	de	DET	_	Number=Plur|PronType=Dem	16	det	_	name=O|Entity=(ap_20090922_3281240__T59--1
+16	dagene	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	14	obl	_	name=O
+17	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(ap_20090922_3281240__191898--1)
+18	befant	befinne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	name=O
+19	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	18	obj	_	name=O|Entity=(ap_20090922_3281240__191898--1)
+20	i	i	ADP	_	_	21	case	_	name=O
+21	Gaza	Gaza	PROPN	_	_	18	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090922_3281240__2108--1)ap_20090922_3281240__T59)ap_20090922_3281240__T56)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001597
+# text = Og de vil skape sympati for palestinernes sak.
+1	Og	og	CCONJ	_	_	4	cc	_	name=O
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20090922_3281240__191898--1)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	skape	skape	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	sympati	sympati	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(ap_20090922_3281240__T63--1
+6	for	for	ADP	_	_	8	case	_	name=O
+7	palestinernes	palestiner	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=(ap_20090922_3281240__295--1(ap_20090922_3281240__293--1)
+8	sak	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__295)ap_20090922_3281240__T63)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001598
+# text = Overbevise leserne om at den israelske krigføringen var brutal, at den ble ført i strid med internasjonale regler og at det, som det fremgår av Gilberts avslutningskapittel, er snakk om "krigsforbrytere".
+1	Overbevise	overbevise	VERB	_	VerbForm=Inf	0	root	_	name=O
+2	leserne	leser	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	obj	_	name=O|Bridge=ap_20090922_3281240__121052<ap_20090922_3281240__T66:default|Entity=(ap_20090922_3281240__T66--1)
+3	om	om	SCONJ	_	_	9	mark	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20090922_3281240__2135--1
+6	israelske	israelsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	krigføringen	krigføring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=ap_20090922_3281240__2135)
+8	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+9	brutal	brutal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	1	advcl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	name=O|Entity=(ap_20090922_3281240__2135--1)
+13	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux:pass	_	name=O
+14	ført	føre	VERB	_	VerbForm=Part	9	conj	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	strid	strid	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(ap_20090922_3281240__T69--1
+17	med	med	ADP	_	_	19	case	_	name=O
+18	internasjonale	internasjonal	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O|Entity=(ap_20090922_3281240__T70--1
+19	regler	regel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nmod	_	name=O|Entity=ap_20090922_3281240__T70)ap_20090922_3281240__T69)
+20	og	og	CCONJ	_	_	32	cc	_	name=O
+21	at	at	SCONJ	_	_	32	mark	_	name=O
+22	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T71--1
+23	,	$,	PUNCT	_	_	22	punct	_	name=O|Entity=ap_20090922_3281240__T71)
+24	som	som	PRON	_	PronType=Rel	26	nsubj	_	name=O
+25	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	expl	_	name=O
+26	fremgår	fremgå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	advcl	_	name=O
+27	av	av	ADP	_	_	29	case	_	name=O
+28	Gilberts	Gilbert	PROPN	_	Case=Gen	29	nmod	_	name=B-PER|Entity=(ap_20090922_3281240__T73--1(ap_20090922_3281240__5602--1)
+29	avslutningskapittel	avslutningskapittel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	26	obl	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T73)
+30	,	$,	PUNCT	_	_	26	punct	_	name=O
+31	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	name=O
+32	snakk	snakk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	conj	_	name=O|Entity=(ap_20090922_3281240__T74--1
+33	om	om	ADP	_	_	35	case	_	name=O
+34	"	$"	PUNCT	_	_	35	punct	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T75--1
+35	krigsforbrytere	krigsforbryter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No|name=O
+36	"	$"	PUNCT	_	_	35	punct	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T75)ap_20090922_3281240__T74)
+37	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 001599
+# text = De fleste som gir seg i kast med denne boken, vil nok tilhøre dem som allerede deler forfatternes oppfatning.
+1	De	de	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|Entity=(ap_20090922_3281240__2253--1
+2	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	12	nsubj	_	name=O
+3	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+4	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	name=O
+5	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obj	_	name=O|Entity=(ap_20090922_3281240__2253--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	kast	kast	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(ap_20090922_3281240__T77--1
+8	med	med	ADP	_	_	10	case	_	name=O
+9	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(ap_20090922_3281240__121052--1
+10	boken	bok	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__121052)ap_20090922_3281240__T77)ap_20090922_3281240__2253)
+11	,	$,	PUNCT	_	_	2	punct	_	name=O
+12	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	nok	nok	ADV	_	_	14	advmod	_	name=O
+14	tilhøre	tilhøre	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	name=O|Entity=(ap_20090922_3281240__T79--1
+16	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+17	allerede	allerede	ADV	_	_	18	advmod	_	name=O
+18	deler	dele	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+19	forfatternes	forfatter	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	20	nmod	_	name=O|Entity=(ap_20090922_3281240__T81--1(ap_20090922_3281240__191898--1)
+20	oppfatning	oppfatning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T81)ap_20090922_3281240__T79)
+21	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 001600
+# text = De som støtter Israels syn i denne konflikten, vil trolig avskrive den som propaganda for en sak de ikke har noen sympati for.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(ap_20090922_3281240__2171--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	støtter	støtte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	Israels	Israel	PROPN	_	Case=Gen	5	nmod	_	name=B-GPE_ORG|Entity=(ap_20090922_3281240__T84--1(ap_20090922_3281240__T83--1)
+5	syn	syn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(ap_20090922_3281240__5363--1
+8	konflikten	konflikt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__5363)ap_20090922_3281240__T84)
+9	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=ap_20090922_3281240__2171)
+10	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	trolig	trolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	avskrive	avskrive	VERB	_	VerbForm=Inf	0	root	_	name=O
+13	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	name=O|Entity=(ap_20090922_3281240__121052--1)
+14	som	som	SCONJ	_	_	15	mark	_	name=O
+15	propaganda	propaganda	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	xcomp	_	name=O|Entity=(ap_20090922_3281240__T87--1
+16	for	for	ADP	_	_	18	case	_	name=O
+17	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(ap_20090922_3281240__T88--1
+18	sak	sak	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	name=O
+19	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(ap_20090922_3281240__2171--1)
+20	ikke	ikke	PART	_	Polarity=Neg	21	advmod	_	name=O
+21	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl	_	name=O
+22	noen	noen	DET	_	Gender=Masc|Number=Sing|PronType=Ind	23	det	_	name=O|Entity=(ap_20090922_3281240__T90--1
+23	sympati	sympati	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obj	_	name=O
+24	for	for	ADP	_	_	23	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T90)ap_20090922_3281240__T88)ap_20090922_3281240__T87)
+25	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 001601
+# text = Den vil derfor dele skjebne med mye av det som skrives om Midtøsten-konflikten ut fra et partshensyn, med de følger at det får manglende gjennomslagskraft.
+1	Den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20090922_3281240__121052--1)
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	derfor	derfor	ADV	_	_	4	advmod	_	name=O
+4	dele	dele	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	skjebne	skjebne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(ap_20090922_3281240__T92--1)
+6	med	med	ADP	_	_	7	case	_	name=O
+7	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O|Entity=(ap_20090922_3281240__T93--1
+8	av	av	ADP	_	_	9	case	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nmod	_	name=O|Entity=(ap_20090922_3281240__T94--1
+10	som	som	PRON	_	PronType=Rel	11	nsubj:pass	_	name=O
+11	skrives	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	9	acl:relcl	_	name=O
+12	om	om	ADP	_	_	13	case	_	name=O
+13	Midtøsten-konflikten	Midtøsten-konflikt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=B-EVT|Entity=(ap_20090922_3281240__T95--1)
+14	ut	ut	ADP	_	_	17	case	_	name=O
+15	fra	fra	ADP	_	_	17	case	_	name=O
+16	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(ap_20090922_3281240__T96--1
+17	partshensyn	partshensyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T96)
+18	,	$,	PUNCT	_	_	21	punct	_	name=O
+19	med	med	ADP	_	_	21	case	_	name=O
+20	de	de	DET	_	Number=Plur|PronType=Dem	21	det	_	name=O|Entity=(ap_20090922_3281240__T97--1
+21	følger	følge	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	name=O
+22	at	at	SCONJ	_	_	24	mark	_	name=O
+23	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	name=O|Entity=(ap_20090922_3281240__T98--1)
+24	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	acl	_	name=O
+25	manglende	mangle	ADJ	_	VerbForm=Part	26	amod	_	name=O|Entity=(ap_20090922_3281240__T99--1
+26	gjennomslagskraft	gjennomslagskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	obj	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T99)ap_20090922_3281240__T97)ap_20090922_3281240__T94)ap_20090922_3281240__T93)
+27	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001602
+# text = Når det er sagt, er det ikke tvil om at de to gjorde en imponerende innsats i en krigssituasjon.
+1	Når	når	SCONJ	_	_	4	mark	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20090922_3281240__T100--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	sagt	si	VERB	_	VerbForm=Part	6	advcl	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	4	punct	_	name=O
+6	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+8	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+9	tvil	tvil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20090922_3281240__T101--1
+10	om	om	ADP	_	_	9	nmod	_	name=O
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	de	de	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(ap_20090922_3281240__191898--1
+13	to	to	NUM	_	Number=Plur|NumType=Card	14	nsubj	_	name=O|Entity=ap_20090922_3281240__191898)
+14	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(ap_20090922_3281240__T102--1
+16	imponerende	imponere	ADJ	_	VerbForm=Part	17	amod	_	name=O
+17	innsats	innsats	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=ap_20090922_3281240__T102)
+18	i	i	ADP	_	_	20	case	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(ap_20090922_3281240__T103--1
+20	krigssituasjon	krigssituasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T103)ap_20090922_3281240__T101)
+21	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001603
+# text = Det var klart mens krigen raste, og det viser deres beretning her.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090922_3281240__T104--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	mens	mens	SCONJ	_	_	6	mark	_	name=O
+5	krigen	krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20090922_3281240__5363--1)
+6	raste	rase	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	name=O|Entity=(ap_20090922_3281240__T106--1)
+10	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+11	deres	deres	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	name=O|Entity=(ap_20090922_3281240__121052--1(ap_20090922_3281240__191898--1)
+12	beretning	beretning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	nsubj	_	name=O
+13	her	her	ADV	_	_	12	advmod	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__121052)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001604
+# text = De to har signert ulike kapitler, og det skaper temperatursvingninger i fortellingen.
+1	De	de	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O
+2	to	to	NUM	_	Number=Plur|NumType=Card	4	nsubj	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	signert	signere	VERB	_	VerbForm=Part	0	root	_	name=O
+5	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(ap_20090922_3281240__T109--1
+6	kapitler	kapittel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T109)
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(ap_20090922_3281240__T110--1)
+10	skaper	skape	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+11	temperatursvingninger	temperatursvingning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	name=O|Entity=(ap_20090922_3281240__T111--1
+12	i	i	ADP	_	_	13	case	_	name=O
+13	fortellingen	fortelling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Bridge=ap_20090922_3281240__121052<ap_20090922_3281240__T112:default|Entity=(ap_20090922_3281240__T112--1)ap_20090922_3281240__T111)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001605
+# text = Gilbert er mer engasjert og til dels høystemt i sine deler.
+1	Gilbert	Gilbert	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(ap_20090922_3281240__5602--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	mer	mye	ADJ	_	Degree=Cmp	4	advmod	_	name=O
+4	engasjert	engasjere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	og	og	CCONJ	_	_	8	cc	_	name=O
+6	til	til	ADP	_	_	7	case	_	name=O
+7	dels	del	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(ap_20090922_3281240__T114--1)
+8	høystemt	høystemt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	conj	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	11	nmod	_	name=O|Entity=(ap_20090922_3281240__T116--1(ap_20090922_3281240__5602--1)
+11	deler	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T116)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001606
+# text = Fosse mer nøktern og fortellende.
+1	Fosse	Fosse	PROPN	_	_	0	root	_	name=B-PER|Entity=(ap_20090922_3281240__T117--1(ap_20090922_3281240__2343--1)
+2	mer	mye	ADJ	_	Degree=Cmp	3	advmod	_	name=O
+3	nøktern	nøktern	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	1	xcomp	_	name=O
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	fortellende	fortellende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	conj	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T117)
+6	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 001607
+# text = Tilsammen er det en dagbok fra et opphold som ikke bare fysisk, men psykisk må ha vært en påkjenning, i tillegg til en imponerende innsats.
+1	Tilsammen	tilsammen	ADV	_	_	5	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20090922_3281240__121052--1
+5	dagbok	dagbok	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+6	fra	fra	ADP	_	_	8	case	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20090922_3281240__T119--1
+8	opphold	opphold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	name=O
+9	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+10	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+11	bare	bare	ADV	_	_	12	advmod	_	name=O
+12	fysisk	fysisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	men	men	CCONJ	_	_	15	cc	_	name=O
+15	psykisk	psykisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	conj	_	name=O
+16	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+17	ha	ha	AUX	_	VerbForm=Inf	20	aux	_	name=O
+18	vært	være	AUX	_	VerbForm=Part	20	cop	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(ap_20090922_3281240__T120--1
+20	påkjenning	påkjenning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	acl:relcl	_	SpaceAfter=No|name=O
+21	,	$,	PUNCT	_	_	23	punct	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	nmod	_	name=O|Entity=(ap_20090922_3281240__T121--1
+24	til	til	ADP	_	_	27	case	_	name=O
+25	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	name=O|Entity=(ap_20090922_3281240__T122--1
+26	imponerende	imponere	ADJ	_	VerbForm=Part	27	amod	_	name=O
+27	innsats	innsats	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T122)ap_20090922_3281240__T121)ap_20090922_3281240__T120)ap_20090922_3281240__T119)ap_20090922_3281240__121052)
+28	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 001608
+# text = I skildringen av en sykehushverdag i krig møter vi enkeltskjebner.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	skildringen	skildring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(ap_20090922_3281240__121052--1
+3	av	av	ADP	_	_	5	case	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20090922_3281240__T124--1
+5	sykehushverdag	sykehushverdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	krig	krig	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(ap_20090922_3281240__T125--1)ap_20090922_3281240__T124)ap_20090922_3281240__121052)
+8	møter	møte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20090922_3281240__3405--1)
+10	enkeltskjebner	enkeltskjebne	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__T127--1)
+11	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001609
+# text = Fra en ni måneder gammel jente som møter oss med et brunt undrende blikk, og der Gilberts tekst i mer lavmælte ordelag forteller om hennes skjebne.
+1	Fra	fra	ADP	_	_	6	case	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20090922_3281240__2264--1
+3	ni	ni	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(ap_20090922_3281240__T128--1
+4	måneder	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obl	_	name=O|Entity=ap_20090922_3281240__T128)
+5	gammel	gammel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	jente	jente	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+8	møter	møte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+9	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	8	obj	_	name=O|Entity=(ap_20090922_3281240__3405--1)
+10	med	med	ADP	_	_	14	case	_	name=O
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(ap_20090922_3281240__T131--1
+12	brunt	brun	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	name=O
+13	undrende	undrende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	name=O
+14	blikk	blikk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T131)
+15	,	$,	PUNCT	_	_	24	punct	_	name=O
+16	og	og	CCONJ	_	_	24	cc	_	name=O
+17	der	der	SCONJ	_	_	24	mark	_	name=O
+18	Gilberts	Gilbert	PROPN	_	Case=Gen	19	nmod	_	name=B-PER|Entity=(ap_20090922_3281240__T133--1(ap_20090922_3281240__5602--1)
+19	tekst	tekst	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	nsubj	_	name=O|Entity=ap_20090922_3281240__T133)
+20	i	i	ADP	_	_	23	case	_	name=O
+21	mer	mye	ADJ	_	Degree=Cmp	22	advmod	_	name=O|Entity=(ap_20090922_3281240__T134--1
+22	lavmælte	lavmælt	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	name=O
+23	ordelag	ordelag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	obl	_	name=O|Entity=ap_20090922_3281240__T134)
+24	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	name=O
+25	om	om	ADP	_	_	27	case	_	name=O
+26	hennes	hennes	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	nmod	_	name=O|Entity=(ap_20090922_3281240__T136--1(ap_20090922_3281240__2264--1)
+27	skjebne	skjebne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T136)ap_20090922_3281240__2264)
+28	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001610
+# text = En 12 år gammel gutt kommer inn døende.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20090922_3281240__T138--1
+2	12	12	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(ap_20090922_3281240__T137--1
+3	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O|Entity=ap_20090922_3281240__T137)
+4	gammel	gammel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	gutt	gutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=ap_20090922_3281240__T138)
+6	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	inn	inn	ADP	_	_	6	compound:prt	_	name=O
+8	døende	dø	ADJ	_	VerbForm=Part	5	acl	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001611
+# text = Bena og deler av underkroppen er sprengt bort.
+1	Bena	ben	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	name=O|Bridge=ap_20090922_3281240__T138<ap_20090922_3281240__T140:default|Entity=(ap_20090922_3281240__T139--1(ap_20090922_3281240__T140--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	deler	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	name=O|Entity=(ap_20090922_3281240__T141--1
+4	av	av	ADP	_	_	5	case	_	name=O
+5	underkroppen	underkropp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Bridge=ap_20090922_3281240__T138<ap_20090922_3281240__T142:default|Entity=(ap_20090922_3281240__T142--1)ap_20090922_3281240__T141)ap_20090922_3281240__T139)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	sprengt	sprenge	VERB	_	VerbForm=Part	0	root	_	name=O
+8	bort	bort	ADP	_	_	7	compound:prt	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001612
+# text = Bildet taler sitt tydelige språk.
+1	Bildet	bilde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20090922_3281240__2287--1)
+2	taler	tale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(ap_20090922_3281240__T145--1(ap_20090922_3281240__2287--1)
+4	tydelige	tydelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	språk	språk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T145)
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001613
+# text = Det er beretningen fra et sykehus i krig som først og fremst berører leserne.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	beretningen	beretning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20090922_3281240__T146--1
+4	fra	fra	ADP	_	_	6	case	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20090922_3281240__T147--1
+6	sykehus	sykehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	krig	krig	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20090922_3281240__T148--1)ap_20090922_3281240__T147)
+9	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+10	først	først	ADV	_	_	13	advmod	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	fremst	fremre	ADJ	_	Definite=Ind|Degree=Sup	10	conj	_	name=O
+13	berører	berøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:cleft	_	name=O
+14	leserne	leser	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090922_3281240__3405--1)ap_20090922_3281240__T146)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001614
+# text = Som helhet er boken likevel ikke blitt det holdningsskapende dokument de to sikkert har håpet.
+1	Som	som	SCONJ	_	_	2	mark	_	name=O
+2	helhet	helhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	acl	_	name=O|Entity=(ap_20090922_3281240__T150--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+4	boken	bok	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(ap_20090922_3281240__121052--1)
+5	likevel	likevel	ADV	_	_	7	advmod	_	name=O
+6	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	name=O
+7	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+8	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(ap_20090922_3281240__T152--1
+9	holdningsskapende	holdningsskapende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	dokument	dokument	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	xcomp	_	name=O
+11	de	de	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(ap_20090922_3281240__191898--1
+12	to	to	NUM	_	Number=Plur|NumType=Card	15	nsubj	_	name=O|Entity=ap_20090922_3281240__191898)
+13	sikkert	sikker	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	håpet	håpe	VERB	_	VerbForm=Part	10	acl:relcl	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T152)
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001615
+# text = Men sett på bakgrunn av krigens brutalitet - og fortellernes engasjement - er det neppe å forvente at de skulle "pakket" sin beretning inn i den nøkternhet og balanse som kunne sikret Øyne i Gaza større overbevisningskraft og bredere nedslagsfelt.
+1	Men	men	CCONJ	_	_	17	cc	_	name=O
+2	sett	se	VERB	_	VerbForm=Part	17	advcl	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	bakgrunn	bakgrunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(ap_20090922_3281240__T153--1
+5	av	av	ADP	_	_	7	case	_	name=O
+6	krigens	krig	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(ap_20090922_3281240__T155--1(ap_20090922_3281240__T156--1(ap_20090922_3281240__5363--1)
+7	brutalitet	brutalitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O
+8	-	$-	PUNCT	_	_	11	punct	_	name=O|Entity=ap_20090922_3281240__T156)
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	fortellernes	forteller	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	name=O|Entity=(ap_20090922_3281240__T158--1(ap_20090922_3281240__191898--1)
+11	engasjement	engasjement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	name=O|Entity=ap_20090922_3281240__T158)ap_20090922_3281240__T155)ap_20090922_3281240__T153)
+12	-	$-	PUNCT	_	_	2	punct	_	name=O
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	name=O
+15	neppe	neppe	ADV	_	_	17	advmod	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	forvente	forvente	VERB	_	VerbForm=Inf	0	root	_	name=O
+18	at	at	SCONJ	_	_	22	mark	_	name=O
+19	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(ap_20090922_3281240__191898--1)
+20	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	name=O
+21	"	$"	PUNCT	_	_	22	punct	_	SpaceAfter=No|name=O
+22	pakket	pakke	VERB	_	VerbForm=Part	17	csubj	_	SpaceAfter=No|name=O
+23	"	$"	PUNCT	_	_	22	punct	_	name=O
+24	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	nmod	_	name=O|Entity=(ap_20090922_3281240__T161--1(ap_20090922_3281240__191898--1)
+25	beretning	beretning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obj	_	name=O|Entity=ap_20090922_3281240__T161)
+26	inn	inn	ADP	_	_	29	case	_	name=O
+27	i	i	ADP	_	_	29	case	_	name=O
+28	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	name=O|Entity=(ap_20090922_3281240__T162--1(ap_20090922_3281240__T163--1
+29	nøkternhet	nøkternhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	obl	_	name=O|Entity=ap_20090922_3281240__T163)
+30	og	og	CCONJ	_	_	31	cc	_	name=O
+31	balanse	balanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	conj	_	name=O|Entity=(ap_20090922_3281240__T164--1
+32	som	som	PRON	_	PronType=Rel	34	nsubj	_	name=O
+33	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	34	aux	_	name=O
+34	sikret	sikre	VERB	_	VerbForm=Part	31	acl:relcl	_	name=O
+35	Øyne	Øyne	PROPN	_	_	34	iobj	_	name=B-PROD|Entity=(ap_20090922_3281240__121052--1
+36	i	i	ADP	_	_	35	flat:name	_	name=I-PROD
+37	Gaza	Gaza	PROPN	_	_	35	flat:name	_	name=I-PROD|Entity=ap_20090922_3281240__121052)
+38	større	stor	ADJ	_	Degree=Cmp	39	amod	_	name=O|Entity=(ap_20090922_3281240__T166--1(ap_20090922_3281240__T167--1
+39	overbevisningskraft	overbevisningskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	34	obj	_	name=O|Entity=ap_20090922_3281240__T167)
+40	og	og	CCONJ	_	_	42	cc	_	name=O
+41	bredere	bred	ADJ	_	Degree=Cmp	42	amod	_	name=O|Entity=(ap_20090922_3281240__T168--1
+42	nedslagsfelt	nedslagsfelt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	39	conj	_	SpaceAfter=No|name=O|Entity=ap_20090922_3281240__T168)ap_20090922_3281240__T166)ap_20090922_3281240__T164)ap_20090922_3281240__T162)
+43	.	$.	PUNCT	_	_	17	punct	_	name=O
+

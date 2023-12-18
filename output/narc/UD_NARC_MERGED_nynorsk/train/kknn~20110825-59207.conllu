@@ -1,0 +1,251 @@
+# newdoc id = kknn~20110825-59207
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 008283
+# text = Ekspedisjonssjef Heidi Heggenes i Finansdepartementet hevdar til liks med SSB-sjefen at instruksen er den same som før.
+1	Ekspedisjonssjef	ekspedisjonssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(kknn~20110825_59207__367--1
+2	Heidi	Heidi	NOUN	_	Gender=Fem	6	nsubj	_	name=B-PER
+3	Heggenes	Heggenes	PROPN	_	_	2	flat:name	_	name=I-PER
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Finansdepartementet	Finansdepartementet	PROPN	_	_	2	nmod	_	name=B-ORG|Entity=(kknn~20110825_59207__8280--1)kknn~20110825_59207__367)
+6	hevdar	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	liks	liks	X	_	_	6	obl	_	name=O
+9	med	med	ADP	_	_	10	case	_	name=O
+10	SSB-sjefen	SSB-sjef	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=B-DRV|Entity=(kknn~20110825_59207__T3--1)
+11	at	at	SCONJ	_	_	15	mark	_	name=O
+12	instruksen	instruks	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(kknn~20110825_59207__342--1)
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O
+15	same	same	DET	_	Definite=Def|PronType=Dem	6	ccomp	_	name=O
+16	som	som	ADP	_	_	17	case	_	name=O
+17	før	før	ADP	_	_	15	obl	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008284
+# text = Ho strekar under at FIN ikkje blandar seg inn i dei faglege vurderingane til SSB.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20110825_59207__367--1)
+2	strekar	streke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	under	under	SCONJ	_	_	7	mark	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	FIN	FIN	PROPN	_	_	7	nsubj	_	name=B-ORG|Entity=(kknn~20110825_59207__8280--1)
+6	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	name=O
+7	blandar	blande	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+8	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	7	obj	_	name=O
+9	inn	inn	ADP	_	_	13	case	_	name=O
+10	i	i	ADP	_	_	13	case	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(kknn~20110825_59207__T7--1
+12	faglege	fagleg	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	vurderingane	vurdering	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	obl	_	name=O
+14	til	til	ADP	_	_	15	case	_	name=O
+15	SSB	SSB	PROPN	_	_	13	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20110825_59207__238--1)kknn~20110825_59207__T7)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008285
+# text = - Dette har vore nedfelt i retningslinene våre i snart 20 år.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(kknn~20110825_59207__T9--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	vore	vere	VERB	_	VerbForm=Part	0	root	_	name=O
+5	nedfelt	nedfelle	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	advmod	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	retningslinene	retningsline	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	4	obl	_	name=O|Entity=(kknn~20110825_59207__342--1
+8	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(kknn~20110825_59207__8280--1)kknn~20110825_59207__342)
+9	i	i	ADP	_	_	12	case	_	name=O
+10	snart	snar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O|Entity=(kknn~20110825_59207__T12--1
+11	20	20	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O
+12	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110825_59207__T12)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008286
+# text = Stortinget kommuniserer i utgangspunktet berre med statsråden, samstundes er det viktig at Stortingets komitear har tilgang til etatane si kunnskap, så lenge statsråden er informert.
+1	Stortinget	Stortinget	NOUN	_	Gender=Neut	2	nsubj	_	name=B-ORG|Entity=(kknn~20110825_59207__5161--1)
+2	kommuniserer	kommunisere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	utgangspunktet	utgangspunkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(kknn~20110825_59207__T14--1)
+5	berre	berre	ADV	_	_	7	advmod	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	statsråden	statsråd	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110825_59207__237--1)
+8	,	$,	PUNCT	_	_	12	punct	_	name=O
+9	samstundes	samstundes	ADV	_	_	12	advmod	_	name=O
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+12	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	name=O
+13	at	at	SCONJ	_	_	16	mark	_	name=O
+14	Stortingets	Stortinget	NOUN	_	Case=Gen|Gender=Neut	15	nmod	_	name=B-ORG|Entity=(kknn~20110825_59207__T17--1(kknn~20110825_59207__5161--1)
+15	komitear	komité	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nsubj	_	name=O|Entity=kknn~20110825_59207__T17)
+16	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	csubj	_	name=O
+17	tilgang	tilgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	name=O|Entity=(kknn~20110825_59207__T18--1
+18	til	til	ADP	_	_	21	case	_	name=O
+19	etatane	etat	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	20	obl	_	name=O|Bridge=kknn~20110825_59207__238<kknn~20110825_59207__T19:default|Entity=(kknn~20110825_59207__T21--1(kknn~20110825_59207__T19--1)
+20	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	nmod	_	name=O
+21	kunnskap	kunnskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20110825_59207__T21)kknn~20110825_59207__T18)
+22	,	$,	PUNCT	_	_	24	punct	_	name=O
+23	så	så	ADV	_	_	24	advmod	_	name=O
+24	lenge	lenge	ADJ	_	Degree=Pos	16	advmod	_	name=O
+25	statsråden	statsråd	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	27	nsubj	_	name=O|Entity=(kknn~20110825_59207__237--1)
+26	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	name=O
+27	informert	informere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	24	advcl	_	SpaceAfter=No|name=O
+28	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008287
+# text = Dei nye retningslinene endrar ikkje på dette.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(kknn~20110825_59207__T23--1
+2	nye	ny	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	retningslinene	retningsline	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	name=O|Entity=kknn~20110825_59207__T23)
+4	endrar	endre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110825_59207__T24--1)
+8	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008288
+# text = Klassekampen sit med prov på at det er feil:
+1	Klassekampen	Klassekampen	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(kknn~20110825_59207__283--1)
+2	sit	sitje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	med	med	ADP	_	_	4	case	_	name=O
+4	prov	prov	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(kknn~20110825_59207__T26--1
+5	på	på	ADP	_	_	9	case	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(kknn~20110825_59207__T27--1)
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	feil	feil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No|name=O|Entity=kknn~20110825_59207__T26)
+10	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008289
+# text = I dei gamle retningslinene frå 1992 står det ingenting om at SSB, Finanstilsynet og andre etatar må spørje om lov for å ha kontakt med partia på Stortinget utover komitemøte og arbeidet med statsbudsjettet.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	dei	dei	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(kknn~20110825_59207__342--1
+3	gamle	gammal	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+4	retningslinene	retningsline	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	obl	_	name=O
+5	frå	frå	ADP	_	_	6	case	_	name=O
+6	1992	1992	NUM	_	Number=Plur|NumType=Card	4	nmod	_	name=O|Entity=kknn~20110825_59207__342)
+7	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+9	ingenting	ingenting	PRON	_	Number=Sing|Polarity=Neg|PronType=Neg	7	obj	_	name=O
+10	om	om	SCONJ	_	_	19	mark	_	name=O
+11	at	at	SCONJ	_	_	19	mark	_	name=O
+12	SSB	SSB	PROPN	_	_	19	nsubj	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20110825_59207__3134--1(kknn~20110825_59207__238--1)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	Finanstilsynet	Finanstilsynet	PROPN	_	_	12	conj	_	name=B-ORG|Entity=(kknn~20110825_59207__T31--1)
+15	og	og	CCONJ	_	_	17	cc	_	name=O
+16	andre	annan	DET	_	Number=Plur|PronType=Dem	17	det	_	name=O|Entity=(kknn~20110825_59207__T32--1
+17	etatar	etat	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	conj	_	name=O|Entity=kknn~20110825_59207__T32)kknn~20110825_59207__3134)
+18	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	spørje	spørje	VERB	_	VerbForm=Inf	9	acl	_	name=O
+20	om	om	ADP	_	_	21	case	_	name=O
+21	lov	lov	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obl	_	name=O|Entity=(kknn~20110825_59207__T33--1)
+22	for	for	SCONJ	_	_	24	mark	_	name=O
+23	å	å	PART	_	_	24	mark	_	name=O
+24	ha	ha	VERB	_	VerbForm=Inf	19	advcl	_	name=O
+25	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	name=O|Entity=(kknn~20110825_59207__T34--1
+26	med	med	ADP	_	_	27	case	_	name=O
+27	partia	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	25	nmod	_	name=O|Entity=(kknn~20110825_59207__T35--1
+28	på	på	ADP	_	_	29	case	_	name=O
+29	Stortinget	Stortinget	NOUN	_	Gender=Neut	27	nmod	_	name=B-ORG|Entity=(kknn~20110825_59207__5161--1)kknn~20110825_59207__T35)kknn~20110825_59207__T34)
+30	utover	utover	ADP	_	_	31	case	_	name=O
+31	komitemøte	komitemøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	obl	_	name=O|Entity=(kknn~20110825_59207__T37--1(kknn~20110825_59207__T38--1)
+32	og	og	CCONJ	_	_	33	cc	_	name=O
+33	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	31	conj	_	name=O|Entity=(kknn~20110825_59207__T39--1
+34	med	med	ADP	_	_	35	case	_	name=O
+35	statsbudsjettet	statsbudsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	33	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110825_59207__T40--1)kknn~20110825_59207__T39)kknn~20110825_59207__T37)
+36	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 008290
+# text = Det står at dei ikkje får møte Stortingets organ «utan at finansministeren er informert», men ingenting om at departementet kan seie nei.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(kknn~20110825_59207__3134--1)
+5	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	name=O
+6	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	møte	møte	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+8	Stortingets	Stortinget	NOUN	_	Case=Gen|Gender=Neut	9	nmod	_	name=B-ORG|Entity=(kknn~20110825_59207__T43--1(kknn~20110825_59207__5161--1)
+9	organ	organ	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obj	_	name=O|Entity=kknn~20110825_59207__T43)
+10	«	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+11	utan	utan	SCONJ	_	_	15	mark	_	name=O
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	finansministeren	finansminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(kknn~20110825_59207__T44--1)
+14	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	informert	informere	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	7	advcl	_	SpaceAfter=No|name=O
+16	»	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	15	punct	_	name=O
+18	men	men	CCONJ	_	_	19	cc	_	name=O
+19	ingenting	ingenting	PRON	_	Number=Sing|Polarity=Neg|PronType=Neg	2	conj	_	name=O
+20	om	om	ADP	_	_	24	case	_	name=O
+21	at	at	SCONJ	_	_	24	mark	_	name=O
+22	departementet	departement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	nsubj	_	name=O|Entity=(kknn~20110825_59207__8280--1)
+23	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	name=O
+24	seie	seie	VERB	_	VerbForm=Inf	19	orphan	_	name=O
+25	nei	nei	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20110825_59207__T46--1)
+26	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008291
+# text = I og med at departementet set fast sine eigne retningslinjer, har ikkje saka vore oppe til debatt eller røysting i Stortinget.
+1	I	i	ADP	_	_	15	compound:prt	_	name=O
+2	og	og	CCONJ	_	_	6	cc	_	name=O
+3	med	med	ADP	_	_	6	case	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	departementet	departement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20110825_59207__8280--1)
+6	set	setje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	name=O
+7	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	advmod	_	name=O
+8	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(kknn~20110825_59207__T49--1(kknn~20110825_59207__8280--1
+9	eigne	eigen	DET	_	Number=Plur|PronType=Prs	10	det	_	name=O|Entity=kknn~20110825_59207__8280)
+10	retningslinjer	retningslinje	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110825_59207__T49)
+11	,	$,	PUNCT	_	_	1	punct	_	name=O
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+13	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	name=O
+14	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	name=O|Entity=(kknn~20110825_59207__T50--1)
+15	vore	vere	VERB	_	VerbForm=Part	0	root	_	name=O
+16	oppe	oppe	ADP	_	_	15	compound:prt	_	name=O
+17	til	til	ADP	_	_	18	case	_	name=O
+18	debatt	debatt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(kknn~20110825_59207__T51--1(kknn~20110825_59207__T52--1)
+19	eller	eller	CCONJ	_	_	20	cc	_	name=O
+20	røysting	røysting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	conj	_	name=O|Entity=(kknn~20110825_59207__T53--1
+21	i	i	ADP	_	_	22	case	_	name=O
+22	Stortinget	Stortinget	NOUN	_	Gender=Neut	20	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20110825_59207__5161--1)kknn~20110825_59207__T53)kknn~20110825_59207__T51)
+23	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 008292
+# text = Alt har skjedd i kulissene, og ingen stortingsrepresentantar Klassekampen har tala med var klar over FINs nye policy.
+1	Alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20110825_59207__T55--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	skjedd	skje	VERB	_	VerbForm=Part	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	kulissene	kulisse	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110825_59207__T56--1)
+6	,	$,	PUNCT	_	_	15	punct	_	name=O
+7	og	og	CCONJ	_	_	15	cc	_	name=O
+8	ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	9	det	_	name=O|Entity=(kknn~20110825_59207__T57--1
+9	stortingsrepresentantar	stortingsrepresentant	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nsubj	_	name=O
+10	Klassekampen	Klassekampen	PROPN	_	_	12	nsubj	_	name=B-ORG|Entity=(kknn~20110825_59207__283--1)
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	tala	tale	VERB	_	VerbForm=Part	9	acl:relcl	_	name=O
+13	med	med	ADP	_	_	12	compound:prt	_	name=O|Entity=kknn~20110825_59207__T57)
+14	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	name=O
+15	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	conj	_	name=O
+16	over	over	ADP	_	_	19	case	_	name=O
+17	FINs	FIN	PROPN	_	Case=Gen	19	nmod	_	name=B-ORG|Entity=(kknn~20110825_59207__T60--1(kknn~20110825_59207__8280--1)
+18	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	policy	policy	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110825_59207__T60)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008293
+# text = Heggenes stadfestar at departementet i utgangspunktet ikkje er positive til at etatane møter direkte med partigruppene.
+1	Heggenes	Heggenes	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kknn~20110825_59207__367--1)
+2	stadfestar	stadfeste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	9	mark	_	name=O
+4	departementet	departement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(kknn~20110825_59207__8280--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	utgangspunktet	utgangspunkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(kknn~20110825_59207__T63--1)
+7	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	name=O
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	positive	positiv	ADJ	_	Degree=Pos|Number=Plur	2	ccomp	_	name=O
+10	til	til	SCONJ	_	_	13	mark	_	name=O
+11	at	at	SCONJ	_	_	13	mark	_	name=O
+12	etatane	etat	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	nsubj	_	name=O|Entity=(kknn~20110825_59207__3134--1)
+13	møter	møte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	name=O
+14	direkte	direkte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+15	med	med	ADP	_	_	16	case	_	name=O
+16	partigruppene	partigruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No|name=O|Bridge=kknn~20110825_59207__T35<kknn~20110825_59207__T65:default|Entity=(kknn~20110825_59207__T65--1)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+

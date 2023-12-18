@@ -1,0 +1,215 @@
+# newdoc id = firdann~20100118-4812531
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 016578
+# text = Spytta taxisjåføren rett i ansiktet
+1	Spytta	spytte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	taxisjåføren	taxisjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=(firdann~20100118_4812531__24--1)
+3	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	ansiktet	ansikt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	obl	_	name=O|Entity=(firdann~20100118_4812531__237--1)
+
+# newpar
+# sent_id = 016579
+# text = Ikkje heilt einig med sjåføren - og spytta ut
+1	Ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+2	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+3	einig	einig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+4	med	med	ADP	_	_	5	case	_	name=O
+5	sjåføren	sjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(firdann~20100118_4812531__24--1)
+6	-	$-	PUNCT	_	_	8	punct	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	spytta	spytte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+9	ut	ut	ADP	_	_	8	compound:prt	_	name=O
+
+# sent_id = 016581
+# text = Men den unge jenta i slutten av tenåra som nyleg måtte svare for seg i Sogn tingrett, har også tidlegare brukt kjeften i ilske situasjonar.
+1	Men	men	CCONJ	_	_	22	cc	_	name=O
+2	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(firdann~20100118_4812531__15490--1
+3	unge	ung	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	jenta	jente	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	22	nsubj	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	slutten	slutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(firdann~20100118_4812531__T5--1
+7	av	av	ADP	_	_	8	case	_	name=O
+8	tenåra	tenår	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nmod	_	name=O|Entity=(firdann~20100118_4812531__T6--1)firdann~20100118_4812531__T5)
+9	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+10	nyleg	nyleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+11	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+12	svare	svare	VERB	_	VerbForm=Inf	4	acl:relcl	_	name=O
+13	for	for	ADP	_	_	14	case	_	name=O
+14	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	12	obl	_	name=O|Entity=(firdann~20100118_4812531__15490--1)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	Sogn	Sogn	PROPN	_	_	12	obl	_	name=B-ORG|Entity=(firdann~20100118_4812531__258--1
+17	tingrett	tingrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100118_4812531__258)
+18	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=firdann~20100118_4812531__15490)
+19	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+20	også	også	ADV	_	_	21	advmod	_	name=O
+21	tidlegare	tidleg	ADJ	_	Degree=Cmp	22	advmod	_	name=O
+22	brukt	bruke	VERB	_	VerbForm=Part	0	root	_	name=O
+23	kjeften	kjeft	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	obj	_	name=O|Entity=(firdann~20100118_4812531__T8--1)
+24	i	i	ADP	_	_	26	case	_	name=O
+25	ilske	ilsk	ADJ	_	Degree=Pos|Number=Plur	26	amod	_	name=O|Entity=(firdann~20100118_4812531__T9--1
+26	situasjonar	situasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100118_4812531__T9)
+27	.	$.	PUNCT	_	_	22	punct	_	name=O
+
+# sent_id = 016582
+# text = I oktober serverte ho ei spyttklyse på ein politimann, og i desember slo ho til igjen.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	oktober	oktober	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(firdann~20100118_4812531__T10--1)
+3	serverte	servere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20100118_4812531__15490--1)
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(firdann~20100118_4812531__T12--1
+6	spyttklyse	spyttklyse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=firdann~20100118_4812531__T12)
+7	på	på	ADP	_	_	9	case	_	name=O
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(firdann~20100118_4812531__T13--1
+9	politimann	politimann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100118_4812531__T13)
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	og	og	CCONJ	_	_	14	cc	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	desember	desember	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(firdann~20100118_4812531__T14--1)
+14	slo	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+15	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(firdann~20100118_4812531__15490--1)
+16	til	til	ADP	_	_	14	compound:prt	_	name=O
+17	igjen	igjen	ADV	_	_	14	advmod	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016583
+# text = Denne gongen var det altså ein taxisjåføren i Sogndal som fekk merke misnøya til jenta.
+1	Denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(firdann~20100118_4812531__T16--1
+2	gongen	gong	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=firdann~20100118_4812531__T16)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+5	altså	altså	ADV	_	_	7	advmod	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20100118_4812531__7232--1
+7	taxisjåføren	taxisjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Sogndal	Sogndal	PROPN	_	_	7	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100118_4812531__T18--1)
+10	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+11	fekk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+12	merke	merke	VERB	_	VerbForm=Inf	7	acl:cleft	_	name=O
+13	misnøya	misnøye	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	obj	_	name=O|Entity=(firdann~20100118_4812531__T19--1
+14	til	til	ADP	_	_	15	case	_	name=O
+15	jenta	jente	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4812531__15490--1)firdann~20100118_4812531__T19)firdann~20100118_4812531__7232)
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 016584
+# text = Ho og sjåføren hamna i ei misforståing i det ho skulle gå ut frå taxien ein desemberkveld.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20100118_4812531__T21--1(firdann~20100118_4812531__15490--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	sjåføren	sjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(firdann~20100118_4812531__7232--1)firdann~20100118_4812531__T21)
+4	hamna	hamne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20100118_4812531__T24--1
+7	misforståing	misforståing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=firdann~20100118_4812531__T24)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	name=O|Entity=(firdann~20100118_4812531__T25--1
+10	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(firdann~20100118_4812531__15490--1)
+11	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+12	gå	gå	VERB	_	VerbForm=Inf	9	acl:relcl	_	name=O
+13	ut	ut	ADP	_	_	15	case	_	name=O
+14	frå	frå	ADP	_	_	15	case	_	name=O
+15	taxien	taxi	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(firdann~20100118_4812531__397--1)
+16	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(firdann~20100118_4812531__T28--1
+17	desemberkveld	desemberkveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100118_4812531__T28)firdann~20100118_4812531__T25)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016585
+# text = Den rusa sogningen oppfatta det slik at sjåføren ville hindre ho i å reise frå taxien, og svarte dermed med å spytte sjåføren i ansiktet.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20100118_4812531__15490--1
+2	rusa	rusa	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	sogningen	sogning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=firdann~20100118_4812531__15490)
+4	oppfatta	oppfatte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	name=O|Entity=(firdann~20100118_4812531__T30--1)
+6	slik	slik	ADV	_	_	4	xcomp	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	sjåføren	sjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20100118_4812531__7232--1)
+9	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+10	hindre	hindre	VERB	_	VerbForm=Inf	6	acl	_	name=O
+11	ho	ho	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	name=O|Entity=(firdann~20100118_4812531__15490--1)
+12	i	i	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	reise	reise	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+15	frå	frå	ADP	_	_	16	case	_	name=O
+16	taxien	taxi	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4812531__397--1)
+17	,	$,	PUNCT	_	_	19	punct	_	name=O
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	svarte	svare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	name=O
+20	dermed	dermed	ADV	_	_	19	advmod	_	name=O
+21	med	med	SCONJ	_	_	23	mark	_	name=O
+22	å	å	PART	_	_	23	mark	_	name=O
+23	spytte	spytte	VERB	_	VerbForm=Inf	19	advcl	_	name=O
+24	sjåføren	sjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	obj	_	name=O|Entity=(firdann~20100118_4812531__7232--1)
+25	i	i	ADP	_	_	26	case	_	name=O
+26	ansiktet	ansikt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4812531__237--1)
+27	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016586
+# text = Då ho gjekk ut av bilen, kom sjåføren etter og ville ta tak i armen hennar.
+1	Då	då	SCONJ	_	_	3	mark	_	name=O
+2	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20100118_4812531__15490--1)
+3	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	name=O
+4	ut	ut	ADP	_	_	6	case	_	name=O
+5	av	av	ADP	_	_	6	case	_	name=O
+6	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4812531__397--1)
+7	,	$,	PUNCT	_	_	3	punct	_	name=O
+8	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	sjåføren	sjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(firdann~20100118_4812531__7232--1)
+10	etter	etter	ADP	_	_	8	compound:prt	_	name=O
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+13	ta	ta	VERB	_	VerbForm=Inf	8	conj	_	name=O
+14	tak	tak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	name=O|Entity=(firdann~20100118_4812531__T39--1
+15	i	i	ADP	_	_	16	case	_	name=O
+16	armen	arm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(firdann~20100118_4812531__T40--1
+17	hennar	hennar	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4812531__15490--1)firdann~20100118_4812531__T40)firdann~20100118_4812531__T39)
+18	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 016587
+# text = Ho spytta på nytt mot mannen og slo han lett mot brystet.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20100118_4812531__15490--1)
+2	spytta	spytte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O|Entity=(firdann~20100118_4812531__T43--1)
+5	mot	mot	ADP	_	_	6	case	_	name=O
+6	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100118_4812531__7232--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	slo	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+9	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	name=O|Entity=(firdann~20100118_4812531__7232--1)
+10	lett	lett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+11	mot	mot	ADP	_	_	12	case	_	name=O
+12	brystet	bryst	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4812531__T46--1)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016588
+# text = Sogningen la korta på bordet då ho møtte i Sogn tingrett, men fekk med seg heim ei bot på 2000 kroner og ei betinga fengselsstraff på 14 dagar.
+1	Sogningen	sogning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100118_4812531__15490--1)
+2	la	leggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	korta	kort	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(firdann~20100118_4812531__T48--1)
+4	på	på	ADP	_	_	5	case	_	name=O
+5	bordet	bord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100118_4812531__T49--1)
+6	då	då	SCONJ	_	_	8	mark	_	name=O
+7	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(firdann~20100118_4812531__15490--1)
+8	møtte	møte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Sogn	Sogn	PROPN	_	_	8	obl	_	name=B-ORG|Entity=(firdann~20100118_4812531__258--1
+11	tingrett	tingrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100118_4812531__258)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	men	men	CCONJ	_	_	14	cc	_	name=O
+14	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+15	med	med	ADP	_	_	16	case	_	name=O
+16	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	14	obl	_	name=O|Entity=(firdann~20100118_4812531__15490--1)
+17	heim	heim	ADP	_	_	14	compound:prt	_	name=O
+18	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(firdann~20100118_4812531__T52--1(firdann~20100118_4812531__T53--1
+19	bot	bot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	name=O
+20	på	på	ADP	_	_	22	case	_	name=O
+21	2000	2000	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O|Entity=(firdann~20100118_4812531__T54--1
+22	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	nmod	_	name=O|Entity=firdann~20100118_4812531__T54)firdann~20100118_4812531__T53)
+23	og	og	CCONJ	_	_	26	cc	_	name=O
+24	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(firdann~20100118_4812531__T55--1
+25	betinga	betinge	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	26	amod	_	name=O
+26	fengselsstraff	fengselsstraff	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	conj	_	name=O
+27	på	på	ADP	_	_	29	case	_	name=O
+28	14	14	NUM	_	Number=Plur|NumType=Card	29	nummod	_	name=O|Entity=(firdann~20100118_4812531__T56--1
+29	dagar	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100118_4812531__T56)firdann~20100118_4812531__T55)firdann~20100118_4812531__T52)
+30	.	$.	PUNCT	_	_	2	punct	_	name=O
+

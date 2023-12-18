@@ -1,0 +1,324 @@
+# newdoc id = ap_20051201-18064
+# global.Entity = eid-etype-head-other
+# sent_id = 000587
+# text = Sofia:
+1	Sofia	Sofia	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20051201_18064__240--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 000588
+# text = Allan Gaarde er fornøyd med tiden i Viking etter sommerens overgang fra Aalborg.
+1	Allan	Allan	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(ap_20051201_18064__18712--1
+2	Gaarde	Gaarde	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=ap_20051201_18064__18712)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	fornøyd	fornøyd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(ap_20051201_18064__232--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Viking	Viking	PROPN	_	_	6	nmod	_	name=B-ORG|Entity=(ap_20051201_18064__10303--1)ap_20051201_18064__232)
+9	etter	etter	ADP	_	_	11	case	_	name=O
+10	sommerens	sommer	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(ap_20051201_18064__T6--1(ap_20051201_18064__T5--1)
+11	overgang	overgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O
+12	fra	fra	ADP	_	_	13	case	_	name=O
+13	Aalborg	Aalborg	PROPN	_	_	11	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20051201_18064__T7--1)ap_20051201_18064__T6)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000589
+# text = Men han er bare " semi-tilfreds " med resultatene.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(ap_20051201_18064__18712--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	bare	bare	ADV	_	_	6	advmod	_	name=O
+5	"	$"	PUNCT	_	_	6	punct	_	name=O
+6	semi-tilfreds	semi-tilfreds	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+7	"	$"	PUNCT	_	_	6	punct	_	name=O
+8	med	med	ADP	_	_	9	case	_	name=O
+9	resultatene	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=(ap_20051201_18064__T9--1)
+10	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 000590
+# text = - Jeg har fått det bra til på banen, men er likevel ikke helt fornøyd.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20051201_18064__18712--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	name=O|Entity=(ap_20051201_18064__T11--1)
+6	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+7	til	til	ADP	_	_	4	compound:prt	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	banen	bane	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(ap_20051201_18064__269--1)
+10	,	$,	PUNCT	_	_	16	punct	_	name=O
+11	men	men	CCONJ	_	_	16	cc	_	name=O
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+13	likevel	likevel	ADV	_	_	16	advmod	_	name=O
+14	ikke	ikke	PART	_	Polarity=Neg	16	advmod	_	name=O
+15	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	name=O
+16	fornøyd	fornøyd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	conj	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000591
+# text = Jeg kom til Viking for å vinne noe, og det irriterer meg fortsatt at vi ikke tok medaljer i serien.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20051201_18064__18712--1)
+2	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	Viking	Viking	PROPN	_	_	2	obl	_	name=B-ORG|Entity=(ap_20051201_18064__10303--1)
+5	for	for	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	vinne	vinne	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+8	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	7	obj	_	SpaceAfter=No|name=O|Entity=(ap_20051201_18064__T15--1)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+12	irriterer	irritere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+13	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	name=O|Entity=(ap_20051201_18064__18712--1)
+14	fortsatt	fortsatt	ADV	_	_	12	advmod	_	name=O
+15	at	at	SCONJ	_	_	18	mark	_	name=O
+16	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(ap_20051201_18064__10303--1)
+17	ikke	ikke	PART	_	Polarity=Neg	18	advmod	_	name=O
+18	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	csubj	_	name=O
+19	medaljer	medalje	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	obj	_	name=O|Entity=(ap_20051201_18064__T18--1)
+20	i	i	ADP	_	_	21	case	_	name=O
+21	serien	serie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(ap_20051201_18064__T19--1)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000592
+# text = Det har blitt for mye stang ut i høst, håper det snur neste år, sier dansken til aftenbladet.no.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+4	for	for	ADV	_	_	5	advmod	_	name=O|Entity=(ap_20051201_18064__T20--1
+5	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	stang	stang	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	xcomp	_	name=O
+7	ut	ut	ADP	_	_	6	nmod	_	name=O|Entity=ap_20051201_18064__T20)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	høst	høst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(ap_20051201_18064__T21--1)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	håper	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20051201_18064__T22--1)
+13	snur	snu	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	name=O
+14	neste	neste	DET	_	Definite=Def|PronType=Dem	15	det	_	name=O|Entity=(ap_20051201_18064__T23--1
+15	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=ap_20051201_18064__T23)
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+18	dansken	danske	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(ap_20051201_18064__18712--1)
+19	til	til	ADP	_	_	20	case	_	name=O
+20	aftenbladet.no	aftenbladet.no	PROPN	_	_	17	obl	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20051201_18064__299--1)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000593
+# text = - Gode nok til å gå videre
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Gode	god	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+3	nok	nok	ADV	_	_	2	advmod	_	name=O
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	gå	gå	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	videre	vid	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+
+# sent_id = 000594
+# text = Høstens formsvikt gjør at han bare er " semi-tilfreds " med tiden i Viking til nå.
+1	Høstens	høst	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20051201_18064__T27--1(ap_20051201_18064__T26--1)
+2	formsvikt	formsvikt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=ap_20051201_18064__T27)
+3	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(ap_20051201_18064__18712--1)
+6	bare	bare	ADV	_	_	9	advmod	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	"	$"	PUNCT	_	_	9	punct	_	name=O
+9	semi-tilfreds	semi-tilfreds	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	ccomp	_	name=O
+10	"	$"	PUNCT	_	_	9	punct	_	name=O
+11	med	med	ADP	_	_	12	case	_	name=O
+12	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(ap_20051201_18064__232--1
+13	i	i	ADP	_	_	14	case	_	name=O
+14	Viking	Viking	PROPN	_	_	12	nmod	_	name=B-ORG|Entity=(ap_20051201_18064__10303--1)
+15	til	til	ADP	_	_	16	case	_	name=O
+16	nå	nå	ADV	_	_	12	advmod	_	SpaceAfter=No|name=O|Entity=ap_20051201_18064__232)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000595
+# text = - Jeg mener vi var gode nok til å gå videre fra gruppespillet i Uefa-cupen.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20051201_18064__18712--1)
+3	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(ap_20051201_18064__10303--1)
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+6	gode	god	ADJ	_	Degree=Pos|Number=Plur	3	ccomp	_	name=O
+7	nok	nok	ADV	_	_	6	advmod	_	name=O
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	gå	gå	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+11	videre	vid	ADJ	_	Degree=Cmp	10	advmod	_	name=O
+12	fra	fra	ADP	_	_	13	case	_	name=O
+13	gruppespillet	gruppespill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	name=O|Entity=(ap_20051201_18064__T33--1
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Uefa-cupen	Uefa-cup	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=B-EVT|Entity=(ap_20051201_18064__T34--1)ap_20051201_18064__T33)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000596
+# text = Vi burde slått Slavia Praha, og kunne lett fått med oss poeng her fra Sofia.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20051201_18064__10303--1)
+2	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	slått	slå	VERB	_	VerbForm=Part	0	root	_	name=O
+4	Slavia	Slavia	PROPN	_	_	3	obj	_	name=B-ORG|Entity=(ap_20051201_18064__T36--1
+5	Praha	Praha	PROPN	_	_	4	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20051201_18064__T36)
+6	,	$,	PUNCT	_	_	10	punct	_	name=O
+7	og	og	CCONJ	_	_	10	cc	_	name=O
+8	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+9	lett	lett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+10	fått	få	VERB	_	VerbForm=Part	3	conj	_	name=O
+11	med	med	ADP	_	_	12	case	_	name=O
+12	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obl	_	name=O|Entity=(ap_20051201_18064__10303--1)
+13	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	name=O|Entity=(ap_20051201_18064__T38--1)
+14	her	her	ADV	_	_	10	advmod	_	name=O
+15	fra	fra	ADP	_	_	16	case	_	name=O
+16	Sofia	Sofia	PROPN	_	_	14	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20051201_18064__240--1)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000597
+# text = Synd at vi ikke klart å ta flere poeng, sier Gaarde.
+1	Synd	synd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(ap_20051201_18064__T40--1
+2	at	at	SCONJ	_	_	5	mark	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20051201_18064__10303--1)
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	klart	klare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	csubj	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	ta	ta	VERB	_	VerbForm=Inf	5	xcomp	_	name=O
+8	flere	mange	ADJ	_	Degree=Cmp	9	amod	_	name=O|Entity=(ap_20051201_18064__T42--1
+9	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No|name=O|Entity=ap_20051201_18064__T42)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	name=O
+12	Gaarde	Gaarde	PROPN	_	_	11	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20051201_18064__18712--1)ap_20051201_18064__T40)
+13	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 000598
+# text = At Viking ikke kom til Royal League, tar Gaarde ikke så tungt.
+1	At	at	SCONJ	_	_	4	mark	_	name=O
+2	Viking	Viking	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(ap_20051201_18064__10303--1)
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	Royal	Royal	PROPN	_	_	4	obl	_	name=B-ORG|Entity=(ap_20051201_18064__3147--1
+7	League	League	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20051201_18064__3147)
+8	,	$,	PUNCT	_	_	4	punct	_	name=O
+9	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	Gaarde	Gaarde	PROPN	_	_	9	nsubj	_	name=B-PER|Entity=(ap_20051201_18064__18712--1)
+11	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+12	så	så	ADV	_	_	13	advmod	_	name=O
+13	tungt	tung	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 000599
+# text = - Mer økonomi enn sport
+1	-	$-	PUNCT	_	_	3	punct	_	name=O|Entity=(ap_20051201_18064__T47--1
+2	Mer	mye	ADJ	_	Degree=Cmp	3	amod	_	name=O
+3	økonomi	økonomi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+4	enn	enn	ADP	_	_	5	case	_	name=O
+5	sport	sport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(ap_20051201_18064__T48--1)ap_20051201_18064__T47)
+
+# sent_id = 000600
+# text = - Det betyr ikke så mye at vi ikke kom med i Royal League.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	så	så	ADV	_	_	6	advmod	_	name=O
+6	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	name=O|Entity=(ap_20051201_18064__10303--1)
+9	ikke	ikke	PART	_	Polarity=Neg	10	advmod	_	name=O
+10	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	csubj	_	name=O
+11	med	med	ADP	_	_	13	case	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	Royal	Royal	PROPN	_	_	10	obl	_	name=B-ORG|Entity=(ap_20051201_18064__3147--1
+14	League	League	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20051201_18064__3147)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000601
+# text = Jeg føler at den turneringen betyr mer økonomisk enn sportslig, sier Gaarde.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20051201_18064__18712--1)
+2	føler	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	6	mark	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(ap_20051201_18064__3147--1
+5	turneringen	turnering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=ap_20051201_18064__3147)
+6	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+7	mer	mye	ADJ	_	Degree=Cmp	8	advmod	_	name=O
+8	økonomisk	økonomisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+9	enn	enn	ADP	_	_	10	case	_	name=O
+10	sportslig	sportslig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	SpaceAfter=No|name=O|Entity=(ap_20051201_18064__T53--1)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+13	Gaarde	Gaarde	PROPN	_	_	12	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20051201_18064__18712--1)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000602
+# text = Han har funnet seg godt til rette utenfor banen også.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20051201_18064__18712--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	funnet	finne	VERB	_	VerbForm=Part	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	name=O|Entity=(ap_20051201_18064__18712--1)
+5	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+6	til	til	ADP	_	_	7	case	_	name=O
+7	rette	rett	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	advmod	_	name=O|Entity=(ap_20051201_18064__T56--1)
+8	utenfor	utenfor	ADP	_	_	9	case	_	name=O
+9	banen	bane	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20051201_18064__269--1)
+10	også	også	ADV	_	_	9	advmod	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000603
+# text = - For meg personlig har dette blitt en flott overgang.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	For	for	ADP	_	_	3	case	_	name=O
+3	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	name=O|Entity=(ap_20051201_18064__18712--1
+4	personlig	personlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	name=O|Entity=ap_20051201_18064__18712)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(ap_20051201_18064__T59--1)
+7	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(ap_20051201_18064__T60--1
+9	flott	flott	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	overgang	overgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20051201_18064__T60)
+11	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 000604
+# text = Jeg og min samboer var på jakt etter et lite eventyr i et annet land, og det har vi fått.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(ap_20051201_18064__3202--1(ap_20051201_18064__18712--1)
+2	og	og	CCONJ	_	_	4	cc	_	name=O
+3	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(ap_20051201_18064__T64--1(ap_20051201_18064__18712--1)
+4	samboer	samboer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=ap_20051201_18064__T64)ap_20051201_18064__3202)
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	jakt	jakt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(ap_20051201_18064__T65--1
+8	etter	etter	ADP	_	_	11	case	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(ap_20051201_18064__2134--1
+10	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+11	eventyr	eventyr	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O
+12	i	i	ADP	_	_	15	case	_	name=O
+13	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(ap_20051201_18064__T67--1
+14	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O
+15	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=ap_20051201_18064__T67)ap_20051201_18064__2134)ap_20051201_18064__T65)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	og	og	CCONJ	_	_	21	cc	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	name=O|Entity=(ap_20051201_18064__2134--1)
+19	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+20	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	name=O|Entity=(ap_20051201_18064__3202--1)
+21	fått	få	VERB	_	VerbForm=Part	7	conj	_	SpaceAfter=No|name=O
+22	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 000605
+# text = Stavanger er en fin by, vi trives veldig godt, sier Gaarde til aftenbladet.no.
+1	Stavanger	Stavanger	PROPN	_	_	5	nsubj	_	name=B-GPE_LOC|Entity=(ap_20051201_18064__T70--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20051201_18064__T71--1
+4	fin	fin	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	by	by	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=ap_20051201_18064__T71)
+6	,	$,	PUNCT	_	_	8	punct	_	name=O
+7	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20051201_18064__3202--1)
+8	trives	trives	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+9	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+10	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	8	punct	_	name=O
+12	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+13	Gaarde	Gaarde	PROPN	_	_	12	nsubj	_	name=B-PER|Entity=(ap_20051201_18064__18712--1)
+14	til	til	ADP	_	_	15	case	_	name=O
+15	aftenbladet.no	aftenbladet.no	PROPN	_	_	12	obl	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20051201_18064__299--1)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+

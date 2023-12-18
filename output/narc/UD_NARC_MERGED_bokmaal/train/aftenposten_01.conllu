@@ -1,0 +1,186 @@
+# newdoc id = aftenposten_01
+# global.Entity = eid-etype-head-other
+# sent_id = 000001
+# text = Lam og piggvar på bryllupsmenyen
+1	Lam	lam	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(aftenposten_01__T1--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	piggvar	piggvar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(aftenposten_01__T2--1
+4	på	på	SCONJ	_	_	5	mark	_	name=O
+5	bryllupsmenyen	bryllupsmeny	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	xcomp	_	name=O|Entity=(aftenposten_01__210--1)aftenposten_01__T2)
+
+# newpar
+# sent_id = 000002
+# text = Kamskjell, piggvar og lammefilet sto på menyen under den kongelige gallamiddagen.
+1	Kamskjell	kamskjell	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nsubj	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__T4--1)
+2	,	$,	PUNCT	_	_	3	punct	_	name=O
+3	piggvar	piggvar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(aftenposten_01__T5--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	lammefilet	lammefilet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(aftenposten_01__T6--1)
+6	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	menyen	meny	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(aftenposten_01__210--1)
+9	under	under	ADP	_	_	12	case	_	name=O
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(aftenposten_01__T9--1
+11	kongelige	kongelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	gallamiddagen	gallamiddag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=aftenposten_01__T9)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 000003
+# text = Og til dessert: Parfait à la Mette-Marit.
+1	Og	og	CCONJ	_	_	5	cc	_	name=O
+2	til	til	ADP	_	_	3	case	_	name=O
+3	dessert	dessert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__T10--1)
+4	:	$:	PUNCT	_	_	3	punct	_	name=O
+5	Parfait	Parfait	PROPN	_	_	0	root	_	name=B-PROD|Entity=(aftenposten_01__234--1
+6	à	à	X	_	_	5	flat:name	_	name=I-PROD
+7	la	la	X	_	_	5	flat:name	_	name=I-PROD
+8	Mette-Marit	Mette-Marit	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=aftenposten_01__234)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 000004
+# text = Forretten lyder navnet "Coquilles St. Jacques Prince de Norvege", som er grillet kamskjell på norsk spekeskinke - med trøffelhonningvinaigrette, ruccolasalat og ristede gresskarkjerner.
+1	Forretten	forrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Bridge=aftenposten_01__T9<aftenposten_01__T11:default|Entity=(aftenposten_01__T11--1)
+2	lyder	lyde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	navnet	navn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(aftenposten_01__T33--1
+4	"	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+5	Coquilles	Coquilles	PROPN	_	_	2	obj	_	name=B-PROD
+6	St.	St.	PROPN	_	_	5	flat:name	_	name=I-PROD
+7	Jacques	Jacques	PROPN	_	_	5	flat:name	_	name=I-PROD
+8	Prince	Prince	PROPN	_	_	5	flat:name	_	name=I-PROD
+9	de	de	X	_	_	5	flat:name	_	name=I-PROD
+10	Norvege	Norvege	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-PROD
+11	"	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O|Entity=aftenposten_01__T33)
+12	,	$,	PUNCT	_	_	16	punct	_	name=O
+13	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+15	grillet	grille	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	16	amod	_	name=O|Entity=(aftenposten_01__T12--1
+16	kamskjell	kamskjell	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	acl:relcl	_	name=O
+17	på	på	ADP	_	_	19	case	_	name=O
+18	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	19	amod	_	name=O|Entity=(aftenposten_01__T34--1
+19	spekeskinke	spekeskinke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	name=O|Entity=aftenposten_01__T34)
+20	-	$-	PUNCT	_	_	22	punct	_	name=O
+21	med	med	ADP	_	_	22	case	_	name=O
+22	trøffelhonningvinaigrette	trøffelhonningvinaigrette	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__T14--1)
+23	,	$,	PUNCT	_	_	24	punct	_	name=O
+24	ruccolasalat	ruccolasalat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	conj	_	name=O|Entity=(aftenposten_01__T15--1)
+25	og	og	CCONJ	_	_	27	cc	_	name=O
+26	ristede	riste	ADJ	_	Number=Plur|VerbForm=Part	27	amod	_	name=O|Entity=(aftenposten_01__T35--1
+27	gresskarkjerner	gresskarkjerne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No|name=O|Entity=aftenposten_01__T35)aftenposten_01__T12)
+28	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000005
+# text = Deretter fulgte "Turbot au Four - purée de chou-fleur".
+1	Deretter	deretter	ADV	_	_	2	advmod	_	name=O
+2	fulgte	følge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	"	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__231--1
+4	Turbot	Turbot	PROPN	_	_	2	nsubj	_	name=B-PROD
+5	au	au	X	_	_	4	flat:name	_	name=I-PROD
+6	Four	Four	PROPN	_	_	4	flat:name	_	name=I-PROD
+7	-	$-	PUNCT	_	_	8	punct	_	name=I-PROD
+8	purée	purée	X	_	_	4	flat:name	_	name=I-PROD
+9	de	de	X	_	_	4	flat:name	_	name=I-PROD
+10	chou-fleur	chou-fleur	X	_	_	4	flat:name	_	SpaceAfter=No|name=I-PROD
+11	"	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=aftenposten_01__231)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000006
+# text = Det er ovnsbakt piggvar dandert med ingefærmarinert klasetomatbåter, blomkålpuré drysset med finhakket gressløk, og fransk smørsaus med appelsin og fenikkelsmak.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(aftenposten_01__231--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	ovnsbakt	ovnsbake	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	4	amod	_	name=O|Entity=(aftenposten_01__T43--1
+4	piggvar	piggvar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	dandert	dandere	VERB	_	VerbForm=Part	4	acl:relcl	_	name=O
+6	med	med	ADP	_	_	8	case	_	name=O
+7	ingefærmarinert	ingefærmarinere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	8	amod	_	name=O|Entity=(aftenposten_01__T38--1
+8	klasetomatbåter	klasetomatbåt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|name=O|Entity=aftenposten_01__T38)aftenposten_01__T43)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	blomkålpuré	blomkålpuré	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	name=O|Entity=(aftenposten_01__T37--1
+11	drysset	drysse	VERB	_	VerbForm=Part	10	acl:relcl	_	name=O
+12	med	med	ADP	_	_	14	case	_	name=O
+13	finhakket	finhakke	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	14	amod	_	name=O|Entity=(aftenposten_01__T39--1
+14	gressløk	gressløk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=aftenposten_01__T39)aftenposten_01__T37)
+15	,	$,	PUNCT	_	_	10	punct	_	name=O
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	fransk	fransk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(aftenposten_01__T41--1
+18	smørsaus	smørsaus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	name=O
+19	med	med	ADP	_	_	20	case	_	name=O
+20	appelsin	appelsin	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(aftenposten_01__T16--1)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	fenikkelsmak	fenikkelsmak	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__T17--1)aftenposten_01__T41)
+23	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000007
+# text = Hovedretten er "Filet d'agneau - girolles a la creme":
+1	Hovedretten	hovedrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Bridge=aftenposten_01__T9<aftenposten_01__T20:default|Entity=(aftenposten_01__T20--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	"	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__T21--1
+4	Filet	Filet	PROPN	_	_	0	root	_	name=B-PROD
+5	d'agneau	d'agneau	X	_	_	4	flat:name	_	name=I-PROD
+6	-	$-	PUNCT	_	_	7	punct	_	name=I-PROD
+7	girolles	girolles	X	_	_	4	flat:name	_	name=I-PROD
+8	a	a	X	_	_	4	flat:name	_	name=I-PROD
+9	la	la	X	_	_	4	flat:name	_	name=I-PROD
+10	creme	creme	X	_	_	4	flat:name	_	SpaceAfter=No|name=I-PROD
+11	"	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=aftenposten_01__T21)
+12	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000008
+# text = Ytrefilet av norsk lam, kremet kantareller i nepe, bakt minisquash, lettrøkte rødbeter, rissolepoteter og rosmarinsjy.
+1	Ytrefilet	ytrefilet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(aftenposten_01__T40--1
+2	av	av	ADP	_	_	4	case	_	name=O
+3	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	name=O|Entity=(aftenposten_01__T19--1
+4	lam	lam	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No|name=O|Entity=aftenposten_01__T19)aftenposten_01__T40)
+5	,	$,	PUNCT	_	_	7	punct	_	name=O
+6	kremet	kremet	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(aftenposten_01__T22--1
+7	kantareller	kantarell	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	nepe	nepe	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__T44--1)aftenposten_01__T22)
+10	,	$,	PUNCT	_	_	7	punct	_	name=O
+11	bakt	bake	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	12	amod	_	name=O|Entity=(aftenposten_01__T45--1
+12	minisquash	minisquash	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|name=O|Entity=aftenposten_01__T45)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	lettrøkte	lettrøkt	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O|Entity=(aftenposten_01__T46--1
+15	rødbeter	rødbete	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No|name=O|Entity=aftenposten_01__T46)
+16	,	$,	PUNCT	_	_	15	punct	_	name=O
+17	rissolepoteter	rissolepotet	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	name=O|Entity=(aftenposten_01__T23--1)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	rosmarinsjy	rosmarinsjy	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__T24--1)
+20	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 000009
+# text = Og desserten, "Parfait à la Mette-Marit - coulis de muron arctique" består av Snøfrisk og yoghurtisparfait med friske norske bringebær, blåbær og bjørnebær, samt multemousse på multecoulis.
+1	Og	og	CCONJ	_	_	15	cc	_	name=O
+2	desserten	dessert	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__234--1
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	"	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+5	Parfait	Parfait	PROPN	_	_	15	nsubj	_	name=B-PROD
+6	à	à	X	_	_	5	flat:name	_	name=I-PROD
+7	la	la	X	_	_	5	flat:name	_	name=I-PROD
+8	Mette-Marit	Mette-Marit	PROPN	_	_	5	flat:name	_	name=I-PROD
+9	-	$-	PUNCT	_	_	10	punct	_	name=I-PROD
+10	coulis	coulis	X	_	_	5	flat:name	_	name=I-PROD
+11	de	de	X	_	_	5	flat:name	_	name=I-PROD
+12	muron	muron	X	_	_	5	flat:name	_	name=I-PROD
+13	arctique	arctique	X	_	_	5	flat:name	_	SpaceAfter=No|name=I-PROD
+14	"	$"	PUNCT	_	_	5	punct	_	name=O|Entity=aftenposten_01__234)
+15	består	bestå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	Snøfrisk	Snøfrisk	PROPN	_	_	15	obl	_	name=B-PROD|Entity=(aftenposten_01__T27--1)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	yoghurtisparfait	yoghurtisparfait	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	name=O|Entity=(aftenposten_01__T47--1
+20	med	med	ADP	_	_	23	case	_	name=O
+21	friske	frisk	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	name=O|Entity=(aftenposten_01__T48--1
+22	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	name=O
+23	bringebær	bringebær	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No|name=O|Entity=aftenposten_01__T48)
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	blåbær	blåbær	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	conj	_	name=O|Entity=(aftenposten_01__T29--1)
+26	og	og	CCONJ	_	_	27	cc	_	name=O
+27	bjørnebær	bjørnebær	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	conj	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__T30--1)aftenposten_01__T47)
+28	,	$,	PUNCT	_	_	30	punct	_	name=O
+29	samt	samt	CCONJ	_	_	30	cc	_	name=O
+30	multemousse	multemousse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	conj	_	name=O|Entity=(aftenposten_01__T49--1
+31	på	på	ADP	_	_	32	case	_	name=O
+32	multecoulis	multecoulis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No|name=O|Entity=(aftenposten_01__T32--1)aftenposten_01__T49)
+33	.	$.	PUNCT	_	_	15	punct	_	name=O
+

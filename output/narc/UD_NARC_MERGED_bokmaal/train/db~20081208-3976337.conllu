@@ -1,0 +1,197 @@
+# newdoc id = db~20081208-3976337
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 011084
+# text = Fem slag unna PGA-tour
+1	Fem	fem	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(db~20081208_3976337__T1--1
+2	slag	slag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O
+3	unna	unna	ADP	_	_	4	case	_	name=O
+4	PGA-tour	PGA-tour	NOUN	_	_	2	nmod	_	name=B-EVT|Entity=(db~20081208_3976337__330--1)db~20081208_3976337__T1)
+
+# newpar
+# sent_id = 011085
+# text = Henrik Bjørnstad feilet på sisterunden.
+1	Henrik	Henrik	PROPN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(db~20081208_3976337__10264--1
+2	Bjørnstad	Bjørnstad	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081208_3976337__10264)
+3	feilet	feile	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	sisterunden	sisterunde	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(db~20081208_3976337__5106--1)
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011086
+# text = Henrik Bjørnstad falt ned til 52.-plass etter mandagens avsluttende runde i den siste kvalifiseringen til PGA-touren.
+1	Henrik	Henrik	PROPN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(db~20081208_3976337__10264--1
+2	Bjørnstad	Bjørnstad	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081208_3976337__10264)
+3	falt	falle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	ned	ned	ADP	_	_	6	case	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	52.-plass	52.-plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(db~20081208_3976337__T6--1)
+7	etter	etter	ADP	_	_	10	case	_	name=O
+8	mandagens	mandag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(db~20081208_3976337__5106--1(db~20081208_3976337__T7--1)
+9	avsluttende	avsluttende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	runde	runde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O
+11	i	i	ADP	_	_	14	case	_	name=O
+12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(db~20081208_3976337__T9--1
+13	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	kvalifiseringen	kvalifisering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	PGA-touren	PGA-tour	NOUN	_	_	14	nmod	_	SpaceAfter=No|name=B-EVT|Entity=(db~20081208_3976337__330--1)db~20081208_3976337__T9)db~20081208_3976337__5106)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011087
+# text = Han endte på 13 slag under par totalt, men måtte ha gått totalt på 18 slag under par for å kunne tatt seg inn blant de 25 beste som er kvalifisert til neste års PGA-tour.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081208_3976337__10264--1)
+2	endte	ende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	5	case	_	name=O
+4	13	13	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(db~20081208_3976337__T12--1
+5	slag	slag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	name=O
+6	under	under	ADP	_	_	7	case	_	name=O
+7	par	par	NOUN	_	_	5	nmod	_	name=O|Entity=(db~20081208_3976337__T13--1)db~20081208_3976337__T12)
+8	totalt	total	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	men	men	CCONJ	_	_	13	cc	_	name=O
+11	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+12	ha	ha	AUX	_	VerbForm=Inf	13	aux	_	name=O
+13	gått	gå	VERB	_	VerbForm=Part	2	conj	_	name=O
+14	totalt	total	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+15	på	på	ADP	_	_	17	case	_	name=O
+16	18	18	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(db~20081208_3976337__T14--1
+17	slag	slag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	name=O
+18	under	under	ADP	_	_	19	case	_	name=O
+19	par	par	NOUN	_	_	17	nmod	_	name=O|Entity=(db~20081208_3976337__T15--1)db~20081208_3976337__T14)
+20	for	for	SCONJ	_	_	23	mark	_	name=O
+21	å	å	PART	_	_	23	mark	_	name=O
+22	kunne	kunne	AUX	_	VerbForm=Inf	23	aux	_	name=O
+23	tatt	ta	VERB	_	VerbForm=Part	13	advcl	_	name=O
+24	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	23	obj	_	name=O|Entity=(db~20081208_3976337__10264--1)
+25	inn	inn	ADP	_	_	29	case	_	name=O
+26	blant	blant	ADP	_	_	29	case	_	name=O
+27	de	de	DET	_	Number=Plur|PronType=Dem	29	det	_	name=O|Entity=(db~20081208_3976337__T16--1
+28	25	25	NUM	_	Number=Plur|NumType=Card	29	nummod	_	name=O
+29	beste	god	ADJ	_	Definite=Def|Degree=Sup	23	advmod	_	name=O
+30	som	som	PRON	_	PronType=Rel	32	nsubj	_	name=O
+31	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux	_	name=O
+32	kvalifisert	kvalifisere	VERB	_	VerbForm=Part	29	acl:relcl	_	name=O
+33	til	til	ADP	_	_	36	case	_	name=O
+34	neste	neste	DET	_	Definite=Def|PronType=Dem	35	det	_	name=O|Entity=(db~20081208_3976337__330--1(db~20081208_3976337__T17--1
+35	års	år	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	36	nmod	_	name=O|Entity=db~20081208_3976337__T17)
+36	PGA-tour	PGA-tour	NOUN	_	_	32	obl	_	SpaceAfter=No|name=B-EVT|Entity=db~20081208_3976337__330)db~20081208_3976337__T16)
+37	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011088
+# text = Bjørnstad må nok en sesong spille på PGAs B-tour.
+1	Bjørnstad	Bjørnstad	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(db~20081208_3976337__10264--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	nok	nok	ADV	_	_	5	advmod	_	name=O|Entity=(db~20081208_3976337__T20--1
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O
+5	sesong	sesong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=db~20081208_3976337__T20)
+6	spille	spille	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	på	på	ADP	_	_	9	case	_	name=O
+8	PGAs	PGA	PROPN	_	Case=Gen	9	nmod	_	name=B-ORG|Entity=(db~20081208_3976337__T22--1(db~20081208_3976337__T21--1)
+9	B-tour	B-tour	NOUN	_	_	6	obl	_	SpaceAfter=No|name=O|Entity=db~20081208_3976337__T22)
+10	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 011089
+# text = Han åpnet den viktige finalerunden mandag på en dårlig måte.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081208_3976337__10264--1)
+2	åpnet	åpne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(db~20081208_3976337__5106--1
+4	viktige	viktig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	finalerunden	finalerunde	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=db~20081208_3976337__5106)
+6	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(db~20081208_3976337__T25--1)
+7	på	på	ADP	_	_	10	case	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(db~20081208_3976337__T26--1
+9	dårlig	dårlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=db~20081208_3976337__T26)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011090
+# text = En bogey på det første hull satte dessverre standarden for runden.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(db~20081208_3976337__T27--1
+2	bogey	bogey	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O
+3	på	på	ADP	_	_	6	case	_	name=O
+4	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(db~20081208_3976337__T28--1
+5	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	hull	hull	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=db~20081208_3976337__T28)db~20081208_3976337__T27)
+7	satte	sette	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	dessverre	dessverre	ADV	_	_	7	advmod	_	name=O
+9	standarden	standard	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(db~20081208_3976337__T29--1)
+10	for	for	ADP	_	_	11	case	_	name=O
+11	runden	runde	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(db~20081208_3976337__5106--1)
+12	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 011091
+# text = Han klarte aldri å komme på offensiven og slet med å klare par på hullene.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081208_3976337__10264--1)
+2	klarte	klare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	aldri	aldri	ADV	_	_	2	advmod	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	komme	komme	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	offensiven	offensiv	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(db~20081208_3976337__T32--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	slet	slite	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+10	med	med	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	klare	klare	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+13	par	par	NOUN	_	_	12	obj	_	name=O|Entity=(db~20081208_3976337__T33--1)
+14	på	på	ADP	_	_	15	case	_	name=O
+15	hullene	hull	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=(db~20081208_3976337__T34--1)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011092
+# text = På den samme banen for to dager siden gikk han på 66 slag.
+1	På	på	ADP	_	_	4	case	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(db~20081208_3976337__T35--1
+3	samme	samme	DET	_	Definite=Def|PronType=Dem	4	det	_	name=O
+4	banen	bane	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O
+5	for	for	ADP	_	_	7	case	_	name=O
+6	to	to	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(db~20081208_3976337__T36--1
+7	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	name=O
+8	siden	siden	ADV	_	_	7	advmod	_	name=O|Entity=db~20081208_3976337__T36)db~20081208_3976337__T35)
+9	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+10	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(db~20081208_3976337__10264--1)
+11	på	på	ADP	_	_	13	case	_	name=O
+12	66	66	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(db~20081208_3976337__T38--1
+13	slag	slag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=db~20081208_3976337__T38)
+14	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 011093
+# text = Når ble det bare 72 og par på runden.
+1	Når	nå	ADV	_	_	2	advmod	_	name=O
+2	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	bare	bare	ADV	_	_	2	advmod	_	name=O
+5	72	72	NUM	_	Number=Plur|NumType=Card	2	xcomp	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	par	par	NOUN	_	_	5	conj	_	name=O|Entity=(db~20081208_3976337__T39--1
+8	på	på	ADP	_	_	9	case	_	name=O
+9	runden	runde	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081208_3976337__5106--1)db~20081208_3976337__T39)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011094
+# text = Han var tilbake på par med en birdie på hull fire, mens på hull seks måtte han tåle en ny bogey.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081208_3976337__10264--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+3	tilbake	tilbake	ADP	_	_	5	case	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	par	par	NOUN	_	_	0	root	_	name=O|Entity=(db~20081208_3976337__T42--1)
+6	med	med	ADP	_	_	8	case	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(db~20081208_3976337__T43--1
+8	birdie	birdie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	hull	hull	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	name=O|Entity=(db~20081208_3976337__T44--1
+11	fire	fire	NUM	_	Number=Plur|NumType=Card	10	nmod	_	SpaceAfter=No|name=O|Entity=db~20081208_3976337__T44)db~20081208_3976337__T43)
+12	,	$,	PUNCT	_	_	19	punct	_	name=O
+13	mens	mens	SCONJ	_	_	19	mark	_	name=O
+14	på	på	ADP	_	_	15	case	_	name=O
+15	hull	hull	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	name=O|Entity=(db~20081208_3976337__T45--1
+16	seks	seks	NUM	_	Number=Plur|NumType=Card	15	nmod	_	name=O|Entity=db~20081208_3976337__T45)
+17	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	name=O
+18	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(db~20081208_3976337__10264--1)
+19	tåle	tåle	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(db~20081208_3976337__T47--1
+21	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	bogey	bogey	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No|name=O|Entity=db~20081208_3976337__T47)
+23	.	$.	PUNCT	_	_	5	punct	_	name=O
+

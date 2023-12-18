@@ -1,0 +1,728 @@
+# newdoc id = ap_20090315-2979215
+# global.Entity = eid-etype-head-other
+# sent_id = 002257
+# text = Den mektige somalikvinnen
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20090315_2979215__16562--1
+2	mektige	mektig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	somalikvinnen	somalikvinne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=ap_20090315_2979215__16562)
+
+# newpar
+# sent_id = 002258
+# text = Det er opplest og vedtatt at ingen er mer undertrykt enn somaliske kvinner.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	opplest	opplest	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	vedtatt	vedta	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	3	conj	_	name=O
+6	at	at	SCONJ	_	_	10	mark	_	name=O
+7	ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	10	nsubj	_	name=O|Entity=(ap_20090315_2979215__T2--1)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+9	mer	mye	ADJ	_	Degree=Cmp	10	advmod	_	name=O
+10	undertrykt	undertrykke	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	3	csubj	_	name=O
+11	enn	enn	ADP	_	_	13	case	_	name=O
+12	somaliske	somalisk	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(ap_20090315_2979215__T3--1
+13	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T3)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002259
+# text = Men en av de mest innflytelsesrike personene i Somaliland er en enke på 70 år.
+1	Men	men	CCONJ	_	_	12	cc	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	nsubj	_	name=O
+3	av	av	ADP	_	_	7	case	_	name=O
+4	de	de	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(ap_20090315_2979215__T4--1
+5	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	6	advmod	_	name=O
+6	innflytelsesrike	innflytelsesrik	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	personene	person	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Somaliland	Somaliland	PROPN	_	_	7	nmod	_	name=B-GPE_LOC|Entity=(ap_20090315_2979215__10771--1)ap_20090315_2979215__T4)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(ap_20090315_2979215__T6--1
+12	enke	enke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+13	på	på	ADP	_	_	15	case	_	name=O
+14	70	70	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(ap_20090315_2979215__T7--1
+15	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T7)ap_20090315_2979215__T6)
+16	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# newpar
+# sent_id = 002260
+# text = Jeg var nylig noen dager i Somaliland, mest i hovedstaden Hargeisa, og fikk meg noen overraskelser.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+3	nylig	nylig	ADV	_	_	7	advmod	_	name=O
+4	noen	noen	DET	_	Number=Plur|PronType=Ind	5	det	_	name=O|Entity=(ap_20090315_2979215__T9--1
+5	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	name=O|Entity=ap_20090315_2979215__T9)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Somaliland	Somaliland	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090315_2979215__10771--1)
+8	,	$,	PUNCT	_	_	12	punct	_	name=O
+9	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	12	advmod	_	name=O
+10	i	i	ADP	_	_	12	case	_	name=O
+11	hovedstaden	hovedstad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(ap_20090315_2979215__7661--1
+12	Hargeisa	Hargeisa	PROPN	_	_	7	appos	_	SpaceAfter=No|name=B-GPE_LOC|Entity=ap_20090315_2979215__7661)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	name=O
+16	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	15	iobj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+17	noen	noen	DET	_	Number=Plur|PronType=Ind	18	det	_	name=O|Entity=(ap_20090315_2979215__T13--1
+18	overraskelser	overraskelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T13)
+19	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 002261
+# text = Den største sto Edna Adan for.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(ap_20090315_2979215__T14--1
+2	største	stor	ADJ	_	Definite=Def|Degree=Sup	3	advmod	_	name=O|Entity=ap_20090315_2979215__T14)
+3	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Edna	Edna	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(ap_20090315_2979215__16562--1
+5	Adan	Adan	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=ap_20090315_2979215__16562)
+6	for	for	ADP	_	_	2	case	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002262
+# text = Edna er 70 år og enke.
+1	Edna	Edna	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(ap_20090315_2979215__16562--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	70	70	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(ap_20090315_2979215__T17--1(ap_20090315_2979215__T18--1
+4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O|Entity=ap_20090315_2979215__T18)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	enke	enke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__T19--1)ap_20090315_2979215__T17)
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002263
+# text = Mannen hennes var president i Somaliland fra 1993 til 2002.
+1	Mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20090315_2979215__T20--1
+2	hennes	hennes	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	name=O|Entity=(ap_20090315_2979215__16562--1)ap_20090315_2979215__T20)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+4	president	president	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20090315_2979215__T22--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Somaliland	Somaliland	PROPN	_	_	4	obl	_	name=B-GPE_LOC|Entity=(ap_20090315_2979215__10771--1)
+7	fra	fra	ADP	_	_	8	case	_	name=O
+8	1993	1993	NUM	_	Number=Plur|NumType=Card	4	obl	_	name=O
+9	til	til	ADP	_	_	10	case	_	name=O
+10	2002	2002	NUM	_	Number=Plur|NumType=Card	8	obl	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002264
+# text = Selv har Edna hatt mange viktige posisjoner og er kjent for sin kamp mot omskjæring av kvinner.
+1	Selv	selv	ADV	_	_	4	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	Edna	Edna	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(ap_20090315_2979215__16562--1)
+4	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+5	mange	mange	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(ap_20090315_2979215__T25--1
+6	viktige	viktig	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	posisjoner	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=O|Entity=ap_20090315_2979215__T25)
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	kjent	kjent	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	conj	_	name=O
+11	for	for	ADP	_	_	13	case	_	name=O
+12	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(ap_20090315_2979215__T27--1(ap_20090315_2979215__16562--1)
+13	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O
+14	mot	mot	ADP	_	_	15	case	_	name=O
+15	omskjæring	omskjæring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	name=O|Entity=(ap_20090315_2979215__T28--1
+16	av	av	ADP	_	_	17	case	_	name=O
+17	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__T29--1)ap_20090315_2979215__T28)ap_20090315_2979215__T27)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002265
+# text = For noen år siden var hun også utenriksminister i Somaliland.
+1	For	for	ADP	_	_	3	case	_	name=O
+2	noen	noen	DET	_	Number=Plur|PronType=Ind	3	det	_	name=O|Entity=(ap_20090315_2979215__T30--1
+3	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	name=O
+4	siden	siden	ADV	_	_	3	advmod	_	name=O|Entity=ap_20090315_2979215__T30)
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+6	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20090315_2979215__16562--1)
+7	også	også	ADV	_	_	8	advmod	_	name=O
+8	utenriksminister	utenriksminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20090315_2979215__T32--1)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Somaliland	Somaliland	PROPN	_	_	8	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090315_2979215__10771--1)
+11	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 002266
+# text = Nå er hun sykehusdirektør på sykehuset som bærer hennes navn.
+1	Nå	nå	ADV	_	_	4	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20090315_2979215__16562--1)
+4	sykehusdirektør	sykehusdirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20090315_2979215__T35--1)
+5	på	på	ADP	_	_	6	case	_	name=O
+6	sykehuset	sykehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(ap_20090315_2979215__3125--1
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+8	bærer	bære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+9	hennes	hennes	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(ap_20090315_2979215__T38--1(ap_20090315_2979215__16562--1)
+10	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T38)ap_20090315_2979215__3125)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002267
+# text = Edna Adan Maternity Hospital er Hargeisas flotteste sykehus, grunnlagt av Edna, og blir i stor grad finansieres av henne og hennes kontakter.
+1	Edna	Edna	PROPN	_	_	8	nsubj	_	name=B-LOC|Entity=(ap_20090315_2979215__3125--1
+2	Adan	Adan	PROPN	_	_	1	flat:name	_	name=I-LOC
+3	Maternity	Maternity	PROPN	_	_	1	flat:name	_	name=I-LOC
+4	Hospital	Hospital	PROPN	_	_	1	flat:name	_	name=I-LOC|Entity=ap_20090315_2979215__3125)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	Hargeisas	Hargeisa	PROPN	_	Case=Gen	8	nmod	_	name=B-GPE_LOC|Entity=(ap_20090315_2979215__T41--1(ap_20090315_2979215__7661--1)
+7	flotteste	flott	ADJ	_	Definite=Def|Degree=Sup	8	amod	_	name=O
+8	sykehus	sykehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	grunnlagt	grunnlegge	VERB	_	VerbForm=Part	8	acl:relcl	_	name=O
+11	av	av	ADP	_	_	12	case	_	name=O
+12	Edna	Edna	PROPN	_	_	10	obl	_	SpaceAfter=No|name=B-PER|Entity=(ap_20090315_2979215__16562--1)ap_20090315_2979215__T41)
+13	,	$,	PUNCT	_	_	19	punct	_	name=O
+14	og	og	CCONJ	_	_	19	cc	_	name=O
+15	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux:pass	_	name=O
+16	i	i	ADP	_	_	18	case	_	name=O
+17	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(ap_20090315_2979215__T43--1
+18	grad	grad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	name=O|Entity=ap_20090315_2979215__T43)
+19	finansieres	finansiere	VERB	_	VerbForm=Part	8	conj	_	name=O
+20	av	av	ADP	_	_	21	case	_	name=O
+21	henne	hun	PRON	_	Animacy=Hum|Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obl	_	name=O|Entity=(ap_20090315_2979215__T44--1(ap_20090315_2979215__16562--1)
+22	og	og	CCONJ	_	_	24	cc	_	name=O
+23	hennes	hennes	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	24	nmod	_	name=O|Entity=(ap_20090315_2979215__T47--1(ap_20090315_2979215__16562--1)
+24	kontakter	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T47)ap_20090315_2979215__T44)
+25	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 002268
+# text = Selv bor hun i en leilighet på sykehuset, noen få meter fra kontoret der hun styrer det meste med et sterkt engasjement.
+1	Selv	selv	ADV	_	_	2	advmod	_	name=O
+2	bor	bo	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090315_2979215__16562--1)
+4	i	i	ADP	_	_	6	case	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20090315_2979215__T49--1
+6	leilighet	leilighet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	sykehuset	sykehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__3125--1)ap_20090315_2979215__T49)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	noen	noen	DET	_	Number=Plur|PronType=Ind	12	det	_	name=O|Entity=(ap_20090315_2979215__T51--1
+11	få	få	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	conj	_	name=O
+13	fra	fra	ADP	_	_	14	case	_	name=O
+14	kontoret	kontor	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	name=O|Entity=(ap_20090315_2979215__T52--1
+15	der	der	SCONJ	_	_	17	mark	_	name=O
+16	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(ap_20090315_2979215__16562--1)
+17	styrer	styre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl	_	name=O
+18	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	19	det	_	name=O
+19	meste	mye	ADJ	_	Definite=Def|Degree=Sup	17	obj	_	name=O
+20	med	med	ADP	_	_	23	case	_	name=O
+21	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(ap_20090315_2979215__T54--1
+22	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	name=O
+23	engasjement	engasjement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T54)ap_20090315_2979215__T52)ap_20090315_2979215__T51)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002269
+# text = Jeg skal innrømme at møtet med Edna overrasket.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	innrømme	innrømme	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	at	at	SCONJ	_	_	8	mark	_	name=O
+5	møtet	møte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	name=O|Entity=(ap_20090315_2979215__T56--1
+6	med	med	ADP	_	_	7	case	_	name=O
+7	Edna	Edna	PROPN	_	_	5	nmod	_	name=B-PER|Entity=(ap_20090315_2979215__16562--1)ap_20090315_2979215__T56)
+8	overrasket	overraske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002270
+# text = Mye har vært sagt og skrevet om den sterke undertrykkingen av somaliske kvinner, senest av Amal Aden i A-magasinet 6. mars.
+1	Mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20090315_2979215__T58--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	vært	være	AUX	_	VerbForm=Part	4	aux	_	name=O
+4	sagt	si	VERB	_	VerbForm=Part	0	root	_	name=O
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	skrevet	skrive	VERB	_	VerbForm=Part	4	conj	_	name=O
+7	om	om	ADP	_	_	10	case	_	name=O
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(ap_20090315_2979215__T59--1
+9	sterke	sterk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	undertrykkingen	undertrykking	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O
+11	av	av	ADP	_	_	13	case	_	name=O
+12	somaliske	somalisk	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(ap_20090315_2979215__T60--1
+13	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T60)ap_20090315_2979215__T59)
+14	,	$,	PUNCT	_	_	17	punct	_	name=O
+15	senest	sen	ADJ	_	Definite=Ind|Degree=Sup	17	advmod	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	Amal	Amal	PROPN	_	_	4	conj	_	name=B-PER|Entity=(ap_20090315_2979215__T61--1
+18	Aden	Aden	PROPN	_	_	17	orphan	_	name=I-PER|Entity=ap_20090315_2979215__T61)
+19	i	i	ADP	_	_	20	case	_	name=O
+20	A-magasinet	A-magasinet	PROPN	_	_	17	obl	_	name=B-PROD|Entity=(ap_20090315_2979215__T62--1)
+21	6.	6.	ADJ	_	Number=Plur	22	amod	_	name=O|Entity=(ap_20090315_2979215__T63--1
+22	mars	mars	NOUN	_	Gender=Masc	17	obl	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T63)
+23	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002271
+# text = Jeg påstår ikke at det som sies er usant, men Edna er i hvert fall et bevis på at en kvinne kan få mye makt og innflytelse også i et samfunn der somalierne er i stort flertall.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+2	påstår	påstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(ap_20090315_2979215__T65--1
+6	som	som	PRON	_	PronType=Rel	7	nsubj:pass	_	name=O
+7	sies	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	name=O|Entity=ap_20090315_2979215__T65)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	usant	usann	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	18	punct	_	name=O
+11	men	men	CCONJ	_	_	18	cc	_	name=O
+12	Edna	Edna	PROPN	_	_	18	nsubj	_	name=B-PER|Entity=(ap_20090315_2979215__16562--1)
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	name=O
+14	i	i	ADP	_	_	16	case	_	name=O
+15	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	16	det	_	name=O|Entity=(ap_20090315_2979215__T67--1
+16	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	name=O|Entity=ap_20090315_2979215__T67)
+17	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(ap_20090315_2979215__T68--1
+18	bevis	bevis	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	name=O
+19	på	på	SCONJ	_	_	24	mark	_	name=O
+20	at	at	SCONJ	_	_	24	mark	_	name=O
+21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(ap_20090315_2979215__T69--1
+22	kvinne	kvinne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nsubj	_	name=O|Entity=ap_20090315_2979215__T69)
+23	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	name=O
+24	få	få	VERB	_	VerbForm=Inf	18	acl	_	name=O
+25	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O|Entity=(ap_20090315_2979215__T70--1(ap_20090315_2979215__T71--1
+26	makt	makt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	obj	_	name=O|Entity=ap_20090315_2979215__T71)
+27	og	og	CCONJ	_	_	28	cc	_	name=O
+28	innflytelse	innflytelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	conj	_	name=O|Entity=(ap_20090315_2979215__T72--1)ap_20090315_2979215__T70)
+29	også	også	ADV	_	_	32	advmod	_	name=O
+30	i	i	ADP	_	_	32	case	_	name=O
+31	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	32	det	_	name=O|Entity=(ap_20090315_2979215__T73--1
+32	samfunn	samfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	obl	_	name=O
+33	der	der	SCONJ	_	_	38	mark	_	name=O
+34	somalierne	somalier	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	38	nsubj	_	name=O|Entity=(ap_20090315_2979215__T74--1)
+35	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	38	cop	_	name=O
+36	i	i	SCONJ	_	_	38	mark	_	name=O
+37	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	name=O|Entity=(ap_20090315_2979215__T75--1
+38	flertall	flertall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	32	acl	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T75)ap_20090315_2979215__T73)ap_20090315_2979215__T68)
+39	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002272
+# text = Å rusle rundt i Hargeisa som utlending med lyst hår var interessant.
+1	Å	å	PART	_	_	2	mark	_	name=O
+2	rusle	rusle	VERB	_	VerbForm=Inf	12	csubj	_	name=O
+3	rundt	rundt	ADP	_	_	2	compound:prt	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Hargeisa	Hargeisa	PROPN	_	_	2	obl	_	name=B-GPE_LOC|Entity=(ap_20090315_2979215__7661--1)
+6	som	som	SCONJ	_	_	7	mark	_	name=O
+7	utlending	utlending	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	acl	_	name=O|Entity=(ap_20090315_2979215__T77--1
+8	med	med	ADP	_	_	10	case	_	name=O
+9	lyst	lys	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O|Entity=(ap_20090315_2979215__T78--1
+10	hår	hår	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=ap_20090315_2979215__T78)ap_20090315_2979215__T77)
+11	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	name=O
+12	interessant	interessant	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 002273
+# text = Flere ganger ble jeg kontaktet av somaliere som ville fortelle meg at jeg var trygg og som takket for Norges innsats på Afrikas horn.
+1	Flere	mange	ADJ	_	Degree=Cmp	2	amod	_	name=O|Entity=(ap_20090315_2979215__T79--1
+2	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obl	_	name=O|Entity=ap_20090315_2979215__T79)
+3	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+5	kontaktet	kontakte	VERB	_	VerbForm=Part	0	root	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	somaliere	somalier	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obl	_	name=O|Entity=(ap_20090315_2979215__T81--1
+8	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+9	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+10	fortelle	fortelle	VERB	_	VerbForm=Inf	7	acl:relcl	_	name=O
+11	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	10	iobj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+14	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	name=O
+15	trygg	trygg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	ccomp	_	name=O
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+18	takket	takke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	name=O
+19	for	for	ADP	_	_	21	case	_	name=O
+20	Norges	Norge	PROPN	_	Case=Gen	21	nmod	_	name=B-GPE_ORG|Entity=(ap_20090315_2979215__T85--1(ap_20090315_2979215__2199--1)
+21	innsats	innsats	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	name=O
+22	på	på	ADP	_	_	23	case	_	name=O
+23	Afrikas	Afrikas	PROPN	_	_	21	nmod	_	name=B-LOC|Entity=(ap_20090315_2979215__T86--1
+24	horn	horn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=ap_20090315_2979215__T86)ap_20090315_2979215__T85)ap_20090315_2979215__T81)
+25	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002274
+# text = Terrorangrepet som rammet byen i oktober i fjor hadde skuffet og frustrert store deler av befolkningen.
+1	Terrorangrepet	terrorangrep	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(ap_20090315_2979215__T87--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	rammet	ramme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	name=O
+4	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(ap_20090315_2979215__7661--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	oktober	oktober	NOUN	_	Gender=Masc	3	obl	_	name=O|Entity=(ap_20090315_2979215__T89--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	fjor	fjor	NOUN	_	_	6	nmod	_	name=O|Entity=(ap_20090315_2979215__T90--1)ap_20090315_2979215__T89)ap_20090315_2979215__T87)
+9	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+10	skuffet	skuffe	VERB	_	VerbForm=Part	0	root	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	frustrert	frustrere	VERB	_	VerbForm=Part	10	conj	_	name=O
+13	store	stor	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O|Entity=(ap_20090315_2979215__T91--1
+14	deler	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	name=O
+15	av	av	ADP	_	_	16	case	_	name=O
+16	befolkningen	befolkning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__T92--1)ap_20090315_2979215__T91)
+17	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 002275
+# text = Det er lite klokt å fremstå som ytterliggående somalisk muslim.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	klokt	klok	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	fremstå	fremstå	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+7	som	som	SCONJ	_	_	10	mark	_	name=O
+8	ytterliggående	ytterliggående	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(ap_20090315_2979215__T93--1
+9	somalisk	somalisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	muslim	muslim	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T93)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002276
+# text = Mange i Somaliland kan ikke fordra terror og misliker sterkt politisk islamisme.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	6	nsubj	_	name=O|Entity=(ap_20090315_2979215__T94--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Somaliland	Somaliland	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(ap_20090315_2979215__10771--1)ap_20090315_2979215__T94)
+4	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	fordra	fordra	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	terror	terror	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(ap_20090315_2979215__T96--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	misliker	mislike	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+10	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+11	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(ap_20090315_2979215__T97--1
+12	islamisme	islamisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T97)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 002277
+# text = Selv om Somaliland formelt har vært en del av Somalia siden 1960, fungerer området i dag som en selvstendig og ganske stabil republikk.
+1	Selv	selv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	8	mark	_	name=O
+3	Somaliland	Somaliland	PROPN	_	_	8	nsubj	_	name=B-GPE_LOC|Entity=(ap_20090315_2979215__10771--1)
+4	formelt	formell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+6	vært	være	AUX	_	VerbForm=Part	8	cop	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20090315_2979215__T99--1
+8	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	advcl	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	Somalia	Somalia	PROPN	_	_	8	nmod	_	name=B-GPE_LOC|Entity=(ap_20090315_2979215__3312--1)ap_20090315_2979215__T99)
+11	siden	siden	ADP	_	_	12	case	_	name=O
+12	1960	1960	NUM	_	Number=Plur|NumType=Card	8	obl	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	8	punct	_	name=O
+14	fungerer	fungere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+15	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	name=O|Entity=(ap_20090315_2979215__10771--1)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(ap_20090315_2979215__T102--1)
+18	som	som	SCONJ	_	_	24	mark	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(ap_20090315_2979215__T103--1
+20	selvstendig	selvstendig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	24	amod	_	name=O
+21	og	og	CCONJ	_	_	23	cc	_	name=O
+22	ganske	ganske	ADV	_	_	23	advmod	_	name=O
+23	stabil	stabil	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	conj	_	name=O
+24	republikk	republikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T103)
+25	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 002278
+# text = Landets grenser er ganske identiske med britenes tidligere protektorat, mens det borgerkrigsherjede Somalia tidligere var italiensk koloni.
+1	Landets	land	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(ap_20090315_2979215__T105--1(ap_20090315_2979215__3312--1)
+2	grenser	grense	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	name=O|Entity=ap_20090315_2979215__T105)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ganske	ganske	ADV	_	_	5	advmod	_	name=O
+5	identiske	identisk	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	med	med	ADP	_	_	9	case	_	name=O
+7	britenes	brite	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	name=O|Entity=(ap_20090315_2979215__T107--1(ap_20090315_2979215__T106--1)
+8	tidligere	tidlig	ADJ	_	Degree=Cmp	9	amod	_	name=O
+9	protektorat	protektorat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T107)
+10	,	$,	PUNCT	_	_	18	punct	_	name=O
+11	mens	mens	SCONJ	_	_	18	mark	_	name=O
+12	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(ap_20090315_2979215__3312--1
+13	borgerkrigsherjede	borgerkrigsherjet	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	Somalia	Somalia	PROPN	_	_	18	nsubj	_	name=B-GPE_LOC|Entity=ap_20090315_2979215__3312)
+15	tidligere	tidlig	ADJ	_	Degree=Cmp	18	advmod	_	name=O
+16	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	name=O
+17	italiensk	italiensk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(ap_20090315_2979215__T109--1
+18	koloni	koloni	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	advcl	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T109)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002279
+# text = I Somaliland er målet å bli anerkjent som et uavhengig land - hva enn som skjer med fredsprosessen lenger sør.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	Somaliland	Somaliland	PROPN	_	_	7	obl	_	name=B-GPE_LOC|Entity=(ap_20090315_2979215__10771--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+4	målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj:pass	_	name=O|Entity=(ap_20090315_2979215__T111--1)
+5	å	å	PART	_	_	7	mark	_	name=O
+6	bli	bli	AUX	_	VerbForm=Inf	7	aux:pass	_	name=O
+7	anerkjent	anerkjenne	VERB	_	VerbForm=Part	0	root	_	name=O
+8	som	som	SCONJ	_	_	11	mark	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(ap_20090315_2979215__T112--1
+10	uavhengig	uavhengig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+11	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	acl	_	name=O|Entity=ap_20090315_2979215__T112)
+12	-	$-	PUNCT	_	_	16	punct	_	name=O
+13	hva	hva	PRON	_	PronType=Int	16	nsubj	_	name=O
+14	enn	enn	ADP	_	_	13	nmod	_	name=O
+15	som	som	PRON	_	PronType=Rel	16	obj	_	name=O
+16	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+17	med	med	ADP	_	_	18	case	_	name=O
+18	fredsprosessen	fredsprosess	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	name=O|Entity=(ap_20090315_2979215__T113--1
+19	lenger	lenge	ADJ	_	Degree=Cmp	20	advmod	_	name=O
+20	sør	sør	ADP	_	_	18	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T113)
+21	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 002280
+# text = Mens hijabdebatten fortsatt pågår i Norge, kan jeg rapportere at de fleste kvinnene var tildekket, men få brukte niqab - plagget som skjuler alt unntatt øynene.
+1	Mens	mens	SCONJ	_	_	4	mark	_	name=O
+2	hijabdebatten	hijabdebatt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20090315_2979215__T114--1)
+3	fortsatt	fortsatt	ADV	_	_	4	advmod	_	name=O
+4	pågår	pågå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Norge	Norge	PROPN	_	_	4	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090315_2979215__2199--1)
+7	,	$,	PUNCT	_	_	4	punct	_	name=O
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+10	rapportere	rapportere	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	at	at	SCONJ	_	_	16	mark	_	name=O
+12	de	de	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(ap_20090315_2979215__T117--1
+13	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	14	amod	_	name=O
+14	kvinnene	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	16	nsubj	_	name=O|Entity=ap_20090315_2979215__T117)
+15	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	name=O
+16	tildekket	tildekke	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	10	ccomp	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	20	punct	_	name=O
+18	men	men	CCONJ	_	_	20	cc	_	name=O
+19	få	få	ADJ	_	Degree=Pos|Number=Plur	20	nsubj	_	name=O|Entity=(ap_20090315_2979215__T118--1)
+20	brukte	bruke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	conj	_	name=O
+21	niqab	niqab	NOUN	_	_	20	obj	_	name=O|Entity=(ap_20090315_2979215__T119--1
+22	-	$-	PUNCT	_	_	23	punct	_	name=O
+23	plagget	plagg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	appos	_	name=O|Entity=(ap_20090315_2979215__T120--1
+24	som	som	PRON	_	PronType=Rel	25	nsubj	_	name=O
+25	skjuler	skjule	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	name=O
+26	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	name=O|Entity=(ap_20090315_2979215__T121--1
+27	unntatt	unntatt	ADP	_	_	28	case	_	name=O
+28	øynene	øye	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	26	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__T122--1)ap_20090315_2979215__T121)ap_20090315_2979215__T120)ap_20090315_2979215__T119)
+29	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 002281
+# text = Det interessante var at akkurat disse kvinnene stort sett gikk sammen med kvinner som var mindre tildekket.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(ap_20090315_2979215__T123--1
+2	interessante	interessant	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	nsubj	_	name=O|Entity=ap_20090315_2979215__T123)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	name=O
+4	at	at	SCONJ	_	_	10	mark	_	name=O
+5	akkurat	akkurat	ADV	_	_	6	advmod	_	name=O|Entity=(ap_20090315_2979215__T124--1
+6	disse	disse	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O
+7	kvinnene	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	name=O|Entity=ap_20090315_2979215__T124)
+8	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	sett	se	VERB	_	VerbForm=Part	10	advcl	_	name=O
+10	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+11	sammen	sammen	ADV	_	_	13	advmod	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	obl	_	name=O|Entity=(ap_20090315_2979215__T125--1
+14	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+15	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	name=O
+16	mindre	liten	ADJ	_	Degree=Cmp	17	advmod	_	name=O
+17	tildekket	tildekke	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	13	acl:relcl	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T125)
+18	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 002282
+# text = Jeg kunne altså ikke registrere uniformering blant somaliske kvinner.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+3	altså	altså	ADV	_	_	5	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	registrere	registrere	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	uniformering	uniformering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	name=O|Entity=(ap_20090315_2979215__T127--1)
+7	blant	blant	ADP	_	_	9	case	_	name=O
+8	somaliske	somalisk	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(ap_20090315_2979215__T128--1
+9	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T128)
+10	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002283
+# text = Derimot kunne jeg se kvinner som ikke var tildekket.
+1	Derimot	derimot	ADV	_	_	4	advmod	_	name=O
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+4	se	se	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	name=O|Entity=(ap_20090315_2979215__2261--1
+6	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+7	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+8	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+9	tildekket	tildekke	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__2261)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002284
+# text = De var neppe somaliere.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20090315_2979215__2261--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	neppe	neppe	ADV	_	_	4	advmod	_	name=O
+4	somaliere	somalier	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__T132--1)
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002285
+# text = For også i Somaliland finnes innvandrere - for eksempel fra Etiopia.
+1	For	for	CCONJ	_	_	5	cc	_	name=O
+2	også	også	ADV	_	_	4	advmod	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Somaliland	Somaliland	PROPN	_	_	5	obl	_	name=B-GPE_LOC|Entity=(ap_20090315_2979215__10771--1)
+5	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	innvandrere	innvandrer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=(ap_20090315_2979215__4587--1)
+7	-	$-	PUNCT	_	_	11	punct	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=(ap_20090315_2979215__T135--1)
+10	fra	fra	ADP	_	_	11	case	_	name=O
+11	Etiopia	Etiopia	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090315_2979215__T136--1)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002286
+# text = Om de opplever ubehageligheter fordi de ikke dekker seg til, vet jeg ikke.
+1	Om	om	SCONJ	_	_	3	mark	_	name=O
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090315_2979215__4587--1)
+3	opplever	oppleve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	name=O
+4	ubehageligheter	ubehagelighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	name=O|Entity=(ap_20090315_2979215__T138--1)
+5	fordi	fordi	SCONJ	_	_	8	mark	_	name=O
+6	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20090315_2979215__4587--1)
+7	ikke	ikke	PART	_	Polarity=Neg	8	advmod	_	name=O
+8	dekker	dekke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+9	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	name=O|Entity=(ap_20090315_2979215__4587--1)
+10	til	til	ADP	_	_	8	compound:prt	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	3	punct	_	name=O
+12	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+14	ikke	ikke	PART	_	Polarity=Neg	12	advmod	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 002287
+# text = Hargeisa fremsto langt mer harmonisk og trygt enn jeg hadde forestilt meg.
+1	Hargeisa	Hargeisa	PROPN	_	_	2	nsubj	_	name=B-GPE_LOC|Entity=(ap_20090315_2979215__7661--1)
+2	fremsto	fremstå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	mer	mye	ADJ	_	Degree=Cmp	5	advmod	_	name=O
+5	harmonisk	harmonisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	trygt	trygg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	name=O
+8	enn	enn	SCONJ	_	_	11	mark	_	name=O
+9	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(ap_20090315_2979215__131180--1)
+10	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+11	forestilt	forestille	VERB	_	VerbForm=Part	4	advcl	_	name=O
+12	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__131180--1)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002288
+# text = Byen har mange flotte hus, som det sies er bygd av somaliere i utlandet som drømmer om å vende tilbake.
+1	Byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20090315_2979215__7661--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(ap_20090315_2979215__T145--1
+4	flotte	flott	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	hus	hus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	som	som	PRON	_	PronType=Rel	9	nsubj:pass	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+9	sies	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	bygd	bygge	VERB	_	VerbForm=Part	9	xcomp	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	somaliere	somalier	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obl	_	name=O|Entity=(ap_20090315_2979215__T146--1
+14	i	i	ADP	_	_	15	case	_	name=O
+15	utlandet	utland	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	name=O|Entity=(ap_20090315_2979215__T147--1)
+16	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+17	drømmer	drømme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	name=O
+18	om	om	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	vende	vende	VERB	_	VerbForm=Inf	17	advcl	_	name=O
+21	tilbake	tilbake	ADP	_	_	20	compound:prt	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T146)ap_20090315_2979215__T145)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002289
+# text = Men idyllen er slett ikke fullkommen.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	idyllen	idyll	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20090315_2979215__T148--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	slett	slett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	fullkommen	fullkommen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 002290
+# text = Det er fattigdom, grensekonflikter og vannmangel.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	fattigdom	fattigdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__T149--1(ap_20090315_2979215__T150--1
+4	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=ap_20090315_2979215__T150)
+5	grensekonflikter	grensekonflikt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	name=O|Entity=(ap_20090315_2979215__T151--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	vannmangel	vannmangel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__T152--1)ap_20090315_2979215__T149)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002291
+# text = Valutaen er håpløs.
+1	Valutaen	valuta	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(ap_20090315_2979215__T153--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	håpløs	håpløs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002292
+# text = Betaler du en dollar for en liten cola, får du igjen tusenvis av Somaliland-schilling.
+1	Betaler	betale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	name=O|Entity=(ap_20090315_2979215__T154--1)
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(ap_20090315_2979215__T155--1
+4	dollar	dollar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=ap_20090315_2979215__T155)
+5	for	for	ADP	_	_	8	case	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20090315_2979215__T156--1
+7	liten	liten	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	cola	cola	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T156)
+9	,	$,	PUNCT	_	_	1	punct	_	name=O
+10	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	name=O|Entity=(ap_20090315_2979215__T157--1)
+12	igjen	igjen	ADV	_	_	10	advmod	_	name=O
+13	tusenvis	tusenvis	NOUN	_	_	10	obj	_	name=O|Entity=(ap_20090315_2979215__T158--1
+14	av	av	ADP	_	_	15	case	_	name=O
+15	Somaliland-schilling	Somaliland-schilling	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|name=B-DRV|Entity=(ap_20090315_2979215__T159--1)ap_20090315_2979215__T158)
+16	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 002293
+# text = Ikke en eneste minibank finnes i Hargeisa.
+1	Ikke	ikke	PART	_	Polarity=Neg	4	nmod	_	name=O|Entity=(ap_20090315_2979215__T160--1
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O
+3	eneste	eneste	NUM	_	Definite=Def|NumType=Card	4	nummod	_	name=O
+4	minibank	minibank	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=ap_20090315_2979215__T160)
+5	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Hargeisa	Hargeisa	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090315_2979215__7661--1)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002294
+# text = Skal du forlate landet med fly, er Daallo Airlines eneste alternativ.
+1	Skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090315_2979215__T162--1)
+3	forlate	forlate	VERB	_	VerbForm=Inf	12	advcl	_	name=O
+4	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(ap_20090315_2979215__10771--1)
+5	med	med	ADP	_	_	6	case	_	name=O
+6	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__T164--1)
+7	,	$,	PUNCT	_	_	3	punct	_	name=O
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+9	Daallo	Daallo	PROPN	_	_	12	nsubj	_	name=B-ORG|Entity=(ap_20090315_2979215__T165--1
+10	Airlines	Airlines	PROPN	_	_	9	flat:name	_	name=I-ORG|Entity=ap_20090315_2979215__T165)
+11	eneste	eneste	NUM	_	Definite=Def|NumType=Card	12	nummod	_	name=O|Entity=(ap_20090315_2979215__T166--1
+12	alternativ	alternativ	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T166)
+13	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 002295
+# text = Da må du gå om bord i gamle russiske propellfly uten fungerende seter, sikkerhetsbelter eller bagasjehyller.
+1	Da	da	ADV	_	_	4	advmod	_	name=O
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20090315_2979215__T167--1)
+4	gå	gå	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	om	om	ADP	_	_	6	case	_	name=O
+6	bord	bord	NOUN	_	_	4	obl	_	name=O|Entity=(ap_20090315_2979215__T168--1
+7	i	i	ADP	_	_	10	case	_	name=O
+8	gamle	gammel	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(ap_20090315_2979215__T169--1
+9	russiske	russisk	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O
+10	propellfly	propellfly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	name=O
+11	uten	uten	ADP	_	_	13	case	_	name=O
+12	fungerende	fungere	ADJ	_	VerbForm=Part	13	amod	_	name=O|Entity=(ap_20090315_2979215__T170--1(ap_20090315_2979215__T171--1
+13	seter	sete	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	15	punct	_	name=O|Entity=ap_20090315_2979215__T171)
+15	sikkerhetsbelter	sikkerhetsbelte	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	conj	_	name=O|Entity=(ap_20090315_2979215__T172--1)
+16	eller	eller	CCONJ	_	_	17	cc	_	name=O
+17	bagasjehyller	bagasjehylle	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__T173--1)ap_20090315_2979215__T170)ap_20090315_2979215__T169)ap_20090315_2979215__T168)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002296
+# text = Men frem kommer du.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	frem	frem	ADP	_	_	3	compound:prt	_	name=O
+3	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20090315_2979215__T174--1)
+5	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002297
+# text = Til eneste mulige destinasjon: Djibouti.
+1	Til	til	ADP	_	_	6	case	_	name=O
+2	eneste	eneste	NUM	_	Definite=Def|NumType=Card	4	nummod	_	name=O|Entity=(ap_20090315_2979215__T176--1(ap_20090315_2979215__T175--1
+3	mulige	mulig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	destinasjon	destinasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090315_2979215__T175)
+5	:	$:	PUNCT	_	_	4	punct	_	name=O
+6	Djibouti	Djibouti	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=ap_20090315_2979215__T176)
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+

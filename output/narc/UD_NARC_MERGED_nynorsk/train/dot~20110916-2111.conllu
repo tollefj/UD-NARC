@@ -1,0 +1,1743 @@
+# newdoc id = dot~20110916-2111
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 001424
+# text = Den eksentriske onkelen
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(dot~20110916_2111__7014578--1
+2	eksentriske	eksentrisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	onkelen	onkel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=dot~20110916_2111__7014578)
+
+# newpar
+# sent_id = 001425
+# text = I den fyrste boka om Arne Næss etter at han døydde, er filosofen og miljøaktivisten skildra godt, men det verkeleg fælsleg hjartelause kunne kome betre fram.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(dot~20110916_2111__5330--1
+3	fyrste	fyrste	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	17	obl	_	name=O
+5	om	om	ADP	_	_	6	case	_	name=O
+6	Arne	Arne	NOUN	_	Gender=Masc	4	nmod	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1
+7	Næss	Næss	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=dot~20110916_2111__7014578)
+8	etter	etter	SCONJ	_	_	11	mark	_	name=O
+9	at	at	SCONJ	_	_	11	mark	_	name=O
+10	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+11	døydde	døy	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__5330)
+12	,	$,	PUNCT	_	_	4	punct	_	name=O
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+14	filosofen	filosof	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(dot~20110916_2111__T5--1(dot~20110916_2111__7014578--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	miljøaktivisten	miljøaktivist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	conj	_	name=O|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__T5)
+17	skildra	skildre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+18	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	SpaceAfter=No|name=O
+19	,	$,	PUNCT	_	_	26	punct	_	name=O
+20	men	men	CCONJ	_	_	26	cc	_	name=O
+21	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Prs	24	det	_	name=O|Entity=(dot~20110916_2111__T8--1
+22	verkeleg	verkeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	advmod	_	name=O
+23	fælsleg	fælsleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	name=O
+24	hjartelause	hjartelaus	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	nsubj	_	name=O|Entity=dot~20110916_2111__T8)
+25	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	name=O
+26	kome	kome	VERB	_	VerbForm=Inf	17	conj	_	name=O
+27	betre	bra	ADJ	_	Degree=Cmp	26	advmod	_	name=O
+28	fram	fram	ADP	_	_	26	compound:prt	_	SpaceAfter=No|name=O
+29	.	$.	PUNCT	_	_	17	punct	_	name=O
+
+# newpar
+# sent_id = 001426
+# text = Sakprosa Truls Gjefsen:
+1	Sakprosa	sakprosa	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(dot~20110916_2111__T9--1)
+2	Truls	Truls	NOUN	_	Gender=Masc	0	root	_	name=B-PER|Entity=(dot~20110916_2111__183226--1
+3	Gjefsen	Gjefsen	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PER|Entity=dot~20110916_2111__183226)
+4	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001427
+# text = Arne Næss.
+1	Arne	Arne	NOUN	_	Gender=Masc	0	root	_	name=B-PER
+2	Næss	Næss	PROPN	_	_	1	flat:name	_	SpaceAfter=No|name=I-PER
+3	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 001428
+# text = Et liv
+1	Et	Et	PROPN	_	_	0	root	_	name=O|Entity=(dot~20110916_2111__5330--1
+2	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=dot~20110916_2111__5330)
+
+# sent_id = 001429
+# text = Cappelen Damm 2011
+1	Cappelen	Cappelen	PROPN	_	_	0	root	_	name=B-ORG|Entity=(dot~20110916_2111__T14--1
+2	Damm	Damm	PROPN	_	_	1	flat:name	_	name=I-ORG
+3	2011	2011	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=O|Entity=dot~20110916_2111__T14)
+
+# sent_id = 001430
+# text = Filosofen Arne Næss døydde i 2009.
+1	Filosofen	filosof	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(dot~20110916_2111__7014578--1
+2	Arne	Arne	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER
+3	Næss	Næss	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=dot~20110916_2111__7014578)
+4	døydde	døy	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	2009	2009	NUM	_	Number=Plur|NumType=Card	4	obl	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001431
+# text = No er den første heile biografien komen, skriven av Truls Gjefsen, som alt har skrive biografiar om Finn Alnæs, Hans Børli og Peter Christen Asbjørnsen, alle desse diktarar eller eventyrforteljarar.
+1	No	no	ADV	_	_	7	advmod	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O
+4	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(dot~20110916_2111__5330--1
+5	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	biografien	biografi	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=dot~20110916_2111__5330)
+7	komen	kome	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	skriven	skrive	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	6	amod	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	Truls	Truls	NOUN	_	Gender=Masc	9	obl	_	name=B-PER|Entity=(dot~20110916_2111__183226--1
+12	Gjefsen	Gjefsen	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PER
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+15	alt	alt	ADV	_	_	17	advmod	_	name=O
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	skrive	skrive	VERB	_	VerbForm=Part	11	acl:relcl	_	name=O
+18	biografiar	biografi	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	obj	_	name=O|Entity=(dot~20110916_2111__T18--1
+19	om	om	ADP	_	_	20	case	_	name=O
+20	Finn	Finn	NOUN	_	Gender=Masc	18	nmod	_	name=B-PER|Entity=(dot~20110916_2111__T19--1(dot~20110916_2111__T20--1
+21	Alnæs	Alnæs	PROPN	_	_	20	flat:name	_	SpaceAfter=No|name=I-PER
+22	,	$,	PUNCT	_	_	23	punct	_	name=O|Entity=dot~20110916_2111__T20)
+23	Hans	Hans	NOUN	_	Gender=Masc	20	conj	_	name=B-PER|Entity=(dot~20110916_2111__T21--1
+24	Børli	Børli	PROPN	_	_	23	flat:name	_	name=I-PER|Entity=dot~20110916_2111__T21)
+25	og	og	CCONJ	_	_	26	cc	_	name=O
+26	Peter	Peter	NOUN	_	Gender=Masc	20	conj	_	name=B-PER|Entity=(dot~20110916_2111__T22--1
+27	Christen	Christen	NOUN	_	Gender=Masc	26	flat:name	_	name=I-PER
+28	Asbjørnsen	Asbjørnsen	PROPN	_	_	26	flat:name	_	SpaceAfter=No|name=I-PER|Entity=dot~20110916_2111__T22)
+29	,	$,	PUNCT	_	_	31	punct	_	name=O
+30	alle	all	DET	_	Number=Plur|PronType=Tot	31	det	_	name=O
+31	desse	desse	DET	_	Number=Plur|PronType=Dem	26	appos	_	name=O|SplitAnte=dot~20110916_2111__T22<dot~20110916_2111__T16,dot~20110916_2111__T21<dot~20110916_2111__T16,dot~20110916_2111__T20<dot~20110916_2111__T16|Entity=(dot~20110916_2111__T16--1)
+32	diktarar	diktar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	31	appos	_	name=O|Entity=(dot~20110916_2111__T23--1
+33	eller	eller	CCONJ	_	_	34	cc	_	name=O
+34	eventyrforteljarar	eventyrforteljar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	32	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T24--1)dot~20110916_2111__T23)dot~20110916_2111__T19)dot~20110916_2111__T18)dot~20110916_2111__183226)
+35	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001432
+# text = Dessutan har Gjefsen sjølv måtta bli berga opp frå ein bresprekk der han hadde hange opp ned etter den eine skien.
+1	Dessutan	dessutan	ADV	_	_	7	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+3	Gjefsen	Gjefsen	PROPN	_	_	7	nsubj:pass	_	name=B-PER|Entity=(dot~20110916_2111__183226--1
+4	sjølv	sjølv	DET	_	PronType=Prs	3	det	_	name=O|Entity=dot~20110916_2111__183226)
+5	måtta	måtte	AUX	_	VerbForm=Part	7	aux	_	name=O
+6	bli	bli	AUX	_	VerbForm=Inf	7	aux:pass	_	name=O
+7	berga	berge	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+8	opp	opp	ADP	_	_	11	case	_	name=O
+9	frå	frå	ADP	_	_	11	case	_	name=O
+10	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(dot~20110916_2111__T26--1
+11	bresprekk	bresprekk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O
+12	der	der	SCONJ	_	_	15	mark	_	name=O
+13	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(dot~20110916_2111__183226--1)
+14	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	name=O
+15	hange	henge	VERB	_	VerbForm=Part	11	acl	_	name=O
+16	opp	opp	ADP	_	_	17	case	_	name=O
+17	ned	ned	ADP	_	_	15	compound:prt	_	name=O
+18	etter	etter	ADP	_	_	21	case	_	name=O
+19	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	name=O|Entity=(dot~20110916_2111__T28--1
+20	eine	eine	NUM	_	Definite=Def|Number=Sing|NumType=Card	21	nummod	_	name=O
+21	skien	ski	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T28)dot~20110916_2111__T26)
+22	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001433
+# text = Han skulle difor vera godt kvalifisert til å skriva om ein som laga eventyr om seg sjølv og leika med døden, men alltid vart berga, medan folk kring han døydde som fluger.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(dot~20110916_2111__183226--1)
+2	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	name=O
+3	difor	difor	ADV	_	_	6	advmod	_	name=O
+4	vera	vere	AUX	_	VerbForm=Inf	6	cop	_	name=O
+5	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	kvalifisert	kvalifisere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	til	til	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	skriva	skrive	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+10	om	om	ADP	_	_	11	case	_	name=O
+11	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	9	obl	_	name=O|Entity=(dot~20110916_2111__2379--1
+12	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+13	laga	lage	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	name=O
+14	eventyr	eventyr	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	name=O|Entity=(dot~20110916_2111__T31--1
+15	om	om	ADP	_	_	16	case	_	name=O
+16	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	14	nmod	_	name=O|Entity=(dot~20110916_2111__2379--1
+17	sjølv	sjølv	DET	_	PronType=Prs	16	det	_	name=O|Entity=dot~20110916_2111__2379)dot~20110916_2111__T31)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	leika	leike	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	name=O
+20	med	med	ADP	_	_	21	case	_	name=O
+21	døden	død	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T32--1)
+22	,	$,	PUNCT	_	_	25	punct	_	name=O
+23	men	men	CCONJ	_	_	25	cc	_	name=O
+24	alltid	alltid	ADV	_	_	25	advmod	_	name=O
+25	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	name=O
+26	berga	berge	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	25	xcomp	_	SpaceAfter=No|name=O
+27	,	$,	PUNCT	_	_	32	punct	_	name=O
+28	medan	medan	SCONJ	_	_	32	mark	_	name=O
+29	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	32	nsubj	_	name=O|Entity=(dot~20110916_2111__T33--1)
+30	kring	kring	ADP	_	_	31	case	_	name=O
+31	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obl	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+32	døydde	døy	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	advcl	_	name=O
+33	som	som	ADP	_	_	34	case	_	name=O
+34	fluger	fluge	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T35--1)dot~20110916_2111__2379)
+35	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001434
+# text = Næss ønskte seg ingen biografi, men kan ikkje klaga:
+1	Næss	Næss	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+2	ønskte	ønskje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	2	iobj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+4	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	5	det	_	name=O|Entity=(dot~20110916_2111__T37--1
+5	biografi	biografi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T37)
+6	,	$,	PUNCT	_	_	10	punct	_	name=O
+7	men	men	CCONJ	_	_	10	cc	_	name=O
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	ikkje	ikkje	PART	_	Polarity=Neg	10	advmod	_	name=O
+10	klaga	klage	VERB	_	VerbForm=Inf	2	conj	_	SpaceAfter=No|name=O
+11	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001435
+# text = Mot slutten av livet vart han ei gullgruve for forlag som selde den eine meir absurde boka om og med han etter den andre.
+1	Mot	mot	ADP	_	_	2	case	_	name=O
+2	slutten	slutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(dot~20110916_2111__T38--1
+3	av	av	ADP	_	_	4	case	_	name=O
+4	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(dot~20110916_2111__T39--1)dot~20110916_2111__T38)
+5	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+7	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(dot~20110916_2111__T41--1
+8	gullgruve	gullgruve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	xcomp	_	name=O
+9	for	for	ADP	_	_	10	case	_	name=O
+10	forlag	forlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nmod	_	name=O|Entity=(dot~20110916_2111__T42--1
+11	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+12	selde	selje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	name=O
+13	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(dot~20110916_2111__T43--1
+14	eine	eine	NUM	_	Definite=Def|Number=Sing|NumType=Card	17	nummod	_	name=O
+15	meir	mykje	ADJ	_	Degree=Cmp	16	advmod	_	name=O
+16	absurde	absurd	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	obj	_	name=O
+18	om	om	ADP	_	_	17	nmod	_	name=O
+19	og	og	CCONJ	_	_	21	cc	_	name=O
+20	med	med	ADP	_	_	21	case	_	name=O
+21	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	conj	_	name=O|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__T43)
+22	etter	etter	ADP	_	_	24	case	_	name=O
+23	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	name=O|Entity=(dot~20110916_2111__T45--1
+24	andre	andre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	advmod	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T45)dot~20110916_2111__T42)dot~20110916_2111__T41)
+25	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001436
+# text = Med Næss som viljug deltakar.
+1	Med	med	ADP	_	_	2	case	_	name=O
+2	Næss	Næss	PROPN	_	_	0	root	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+3	som	som	SCONJ	_	_	5	mark	_	name=O
+4	viljug	viljug	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(dot~20110916_2111__T47--1
+5	deltakar	deltakar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T47)
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001437
+# text = Gjefsen sjølv nemner i boka at det var konkurranse mellom forlaga om å gje ut den siste boka av og om Næss før han døydde.
+1	Gjefsen	Gjefsen	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__183226--1
+2	sjølv	sjølv	DET	_	PronType=Prs	1	det	_	name=O|Entity=dot~20110916_2111__183226)
+3	nemner	nemne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(dot~20110916_2111__5330--1)
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+8	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+9	konkurranse	konkurranse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	name=O|Entity=(dot~20110916_2111__T50--1
+10	mellom	mellom	ADP	_	_	11	case	_	name=O
+11	forlaga	forlag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	nmod	_	name=O|Entity=(dot~20110916_2111__T51--1)
+12	om	om	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	gje	gje	VERB	_	VerbForm=Inf	9	acl	_	name=O
+15	ut	ut	ADP	_	_	14	compound:prt	_	name=O
+16	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(dot~20110916_2111__T52--1
+17	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	14	obj	_	name=O
+19	av	av	ADP	_	_	18	nmod	_	name=O
+20	og	og	CCONJ	_	_	22	cc	_	name=O
+21	om	om	ADP	_	_	22	case	_	name=O
+22	Næss	Næss	PROPN	_	_	19	conj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__T52)
+23	før	før	SCONJ	_	_	25	mark	_	name=O
+24	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+25	døydde	døy	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T50)
+26	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001438
+# text = Slik må det òg ha vore konkurranse om å gje ut den første boka etter at han døydde, ein konkurranse Gjefsen og forlaget hans altså no har vunne.
+1	Slik	slik	ADV	_	_	7	advmod	_	name=O
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+4	òg	òg	ADV	_	_	7	advmod	_	name=O
+5	ha	ha	AUX	_	VerbForm=Inf	7	aux	_	name=O
+6	vore	vere	AUX	_	VerbForm=Part	7	cop	_	name=O
+7	konkurranse	konkurranse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(dot~20110916_2111__T55--1
+8	om	om	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	gje	gje	VERB	_	VerbForm=Inf	7	acl	_	name=O
+11	ut	ut	ADP	_	_	10	compound:prt	_	name=O
+12	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(dot~20110916_2111__T56--1
+13	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	obj	_	name=O
+15	etter	etter	SCONJ	_	_	18	mark	_	name=O
+16	at	at	SCONJ	_	_	18	mark	_	name=O
+17	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+18	døydde	døy	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T56)
+19	,	$,	PUNCT	_	_	21	punct	_	name=O
+20	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(dot~20110916_2111__T58--1
+21	konkurranse	konkurranse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	appos	_	name=O
+22	Gjefsen	Gjefsen	PROPN	_	_	29	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__T59--1(dot~20110916_2111__183226--1)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	forlaget	forlag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	conj	_	name=O|Entity=(dot~20110916_2111__T61--1
+25	hans	hans	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	name=O|Entity=(dot~20110916_2111__183226--1)dot~20110916_2111__T61)dot~20110916_2111__T59)
+26	altså	altså	ADV	_	_	29	advmod	_	name=O
+27	no	no	ADV	_	_	29	advmod	_	name=O
+28	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	name=O
+29	vunne	vinne	VERB	_	VerbForm=Part	21	acl:relcl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T58)dot~20110916_2111__T55)
+30	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001439
+# text = Omstende og flaks
+1	Omstende	omstende	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O|Entity=(dot~20110916_2111__T63--1(dot~20110916_2111__T64--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	flaks	flaks	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(dot~20110916_2111__T65--1)dot~20110916_2111__T63)
+
+# sent_id = 001440
+# text = Så vi har alt fått svar på eit første spørsmål:
+1	Så	så	ADV	_	_	5	advmod	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20110916_2111__2138--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	alt	alt	ADV	_	_	5	advmod	_	name=O
+5	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+6	svar	svar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(dot~20110916_2111__T67--1
+7	på	på	ADP	_	_	10	case	_	name=O
+8	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(dot~20110916_2111__T68--1
+9	første	første	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O
+10	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T68)dot~20110916_2111__T67)
+11	:	$:	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001441
+# text = Kvifor endå ei bok om Næss?
+1	Kvifor	kvifor	ADV	_	_	4	advmod	_	name=O|Entity=(dot~20110916_2111__T69--1
+2	endå	endå	ADV	_	_	3	advmod	_	name=O
+3	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	name=O
+4	bok	bok	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O
+5	om	om	ADP	_	_	6	case	_	name=O
+6	Næss	Næss	PROPN	_	_	4	nmod	_	SpaceAfter=No|name=B-PER|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__T69)
+7	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001442
+# text = Forlagspengar.
+1	Forlagspengar	Forlagspengar	PROPN	_	_	0	root	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T71--1)
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 001443
+# text = Samstundes kjem vi ikkje frå at uavhengig av dette oppfyller Næss eitt viktig krav for å få ein biografi:
+1	Samstundes	samstundes	ADV	_	_	2	advmod	_	name=O
+2	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110916_2111__2138--1)
+4	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+5	frå	frå	SCONJ	_	_	10	mark	_	name=O
+6	at	at	SCONJ	_	_	10	mark	_	name=O
+7	uavhengig	uavhengig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	name=O|Entity=(dot~20110916_2111__T73--1)
+10	oppfyller	oppfylle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+11	Næss	Næss	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+12	eitt	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(dot~20110916_2111__T75--1
+13	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	name=O
+14	krav	krav	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	name=O
+15	for	for	SCONJ	_	_	17	mark	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	få	få	VERB	_	VerbForm=Inf	14	acl	_	name=O
+18	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(dot~20110916_2111__T76--1
+19	biografi	biografi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T76)dot~20110916_2111__T75)
+20	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001444
+# text = Han var større enn seg sjølv.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	større	stor	ADJ	_	Degree=Cmp	0	root	_	name=O
+4	enn	enn	ADP	_	_	5	case	_	name=O
+5	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	obl	_	name=O|Entity=(dot~20110916_2111__7014578--1
+6	sjølv	sjølv	DET	_	PronType=Prs	5	det	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__7014578)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001445
+# text = Då spelar det inga rolle om han var det i kraft av seg sjølv eller omstende.
+1	Då	då	ADV	_	_	2	advmod	_	name=O
+2	spelar	spele	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	inga	ingen	DET	_	Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	5	det	_	name=O|Entity=(dot~20110916_2111__T78--1
+5	rolle	rolle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=dot~20110916_2111__T78)
+6	om	om	SCONJ	_	_	9	mark	_	name=O
+7	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+8	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	advcl	_	name=O|Entity=(dot~20110916_2111__T80--1)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	kraft	kraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	name=O|Entity=(dot~20110916_2111__T81--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	11	nmod	_	name=O|Entity=(dot~20110916_2111__7014578--1
+14	sjølv	sjølv	DET	_	PronType=Prs	13	det	_	name=O|Entity=dot~20110916_2111__7014578)
+15	eller	eller	CCONJ	_	_	16	cc	_	name=O
+16	omstende	omstende	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T82--1)dot~20110916_2111__T81)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001446
+# text = I Næss' tilfelle var det nok mykje omstende:
+1	I	i	ADP	_	_	3	case	_	name=O
+2	Næss'	Næss	PROPN	_	Case=Gen	3	nmod	_	name=B-PER|Entity=(dot~20110916_2111__T84--1(dot~20110916_2111__7014578--1)
+3	tilfelle	tilfelle	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=dot~20110916_2111__T84)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+6	nok	nok	ADV	_	_	8	advmod	_	name=O
+7	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O|Entity=(dot~20110916_2111__2247--1
+8	omstende	omstende	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__2247)
+9	:	$:	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001447
+# text = Det er naturlegvis fælt å veksa opp på vestkanten i Oslo med tenestejente og tenarar, men det er bra å disponera 9 millionar (omrekna til dagens kurs) når ein skal studera og reisa kring i Europa i ei tid utan lånekasse.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	naturlegvis	naturlegvis	ADV	_	_	4	advmod	_	name=O
+4	fælt	fæl	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	veksa	vekse	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+7	opp	opp	ADP	_	_	6	compound:prt	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	vestkanten	vestkant	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(dot~20110916_2111__T86--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Oslo	Oslo	PROPN	_	_	9	nmod	_	name=B-GPE_LOC|Entity=(dot~20110916_2111__2327--1)dot~20110916_2111__T86)
+12	med	med	ADP	_	_	13	case	_	name=O
+13	tenestejente	tenestejente	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=(dot~20110916_2111__T88--1(dot~20110916_2111__T89--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	tenarar	tenar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T90--1)dot~20110916_2111__T88)
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	men	men	CCONJ	_	_	20	cc	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	name=O
+19	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	name=O
+20	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	disponera	disponere	VERB	_	VerbForm=Inf	20	csubj	_	name=O
+23	9	9	NUM	_	Number=Plur|NumType=Card	24	nummod	_	name=O|Entity=(dot~20110916_2111__T91--1
+24	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	obj	_	name=O
+25	(	$(	PUNCT	_	_	26	punct	_	SpaceAfter=No|name=O
+26	omrekna	omrekne	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	24	amod	_	name=O
+27	til	til	ADP	_	_	29	case	_	name=O
+28	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	name=O|Entity=(dot~20110916_2111__T93--1(dot~20110916_2111__T92--1)
+29	kurs	kurs	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T93)
+30	)	$)	PUNCT	_	_	26	punct	_	name=O|Entity=dot~20110916_2111__T91)
+31	når	når	SCONJ	_	_	34	mark	_	name=O
+32	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	34	nsubj	_	name=O|Entity=(dot~20110916_2111__T94--1)
+33	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	34	aux	_	name=O
+34	studera	studere	VERB	_	VerbForm=Inf	22	advcl	_	name=O
+35	og	og	CCONJ	_	_	36	cc	_	name=O
+36	reisa	reise	VERB	_	VerbForm=Inf	34	conj	_	name=O
+37	kring	kring	ADP	_	_	39	case	_	name=O
+38	i	i	ADP	_	_	39	case	_	name=O
+39	Europa	Europa	PROPN	_	_	36	obl	_	name=B-GPE_LOC|Entity=(dot~20110916_2111__T95--1)
+40	i	i	ADP	_	_	42	case	_	name=O
+41	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	42	det	_	name=O|Entity=(dot~20110916_2111__T96--1
+42	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	36	obl	_	name=O
+43	utan	utan	ADP	_	_	44	case	_	name=O
+44	lånekasse	lånekasse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T97--1)dot~20110916_2111__T96)
+45	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001448
+# text = Det er òg bra å ha flaks med tilsetjingskomiteen som tilset ein i den einaste filosofistillinga ved Universitetet i Oslo.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	òg	òg	ADV	_	_	4	advmod	_	name=O
+4	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	ha	ha	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+7	flaks	flaks	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(dot~20110916_2111__T98--1
+8	med	med	ADP	_	_	9	case	_	name=O
+9	tilsetjingskomiteen	tilsetjingskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(dot~20110916_2111__T99--1
+10	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+11	tilset	tilsetje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+12	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	11	obj	_	name=O|Entity=(dot~20110916_2111__T100--1)
+13	i	i	ADP	_	_	16	case	_	name=O
+14	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(dot~20110916_2111__T101--1
+15	einaste	einaste	NUM	_	Definite=Def|NumType=Card	16	nummod	_	name=O
+16	filosofistillinga	filosofistilling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	obl	_	name=O
+17	ved	ved	ADP	_	_	18	case	_	name=O
+18	Universitetet	Universitetet	PROPN	_	_	16	nmod	_	name=B-ORG|Entity=(dot~20110916_2111__3896--1
+19	i	i	ADP	_	_	18	flat:name	_	name=I-ORG
+20	Oslo	Oslo	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=dot~20110916_2111__3896)dot~20110916_2111__T101)dot~20110916_2111__T99)dot~20110916_2111__T98)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001449
+# text = Då vert ein stor når landskapet kring ein er flatt.
+1	Då	då	ADV	_	_	2	advmod	_	name=O
+2	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	2	nsubj	_	name=O|Entity=(dot~20110916_2111__T103--1)
+4	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	name=O
+5	når	når	SCONJ	_	_	10	mark	_	name=O
+6	landskapet	landskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(dot~20110916_2111__T104--1
+7	kring	kring	ADP	_	_	8	case	_	name=O
+8	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	6	nmod	_	name=O|Entity=(dot~20110916_2111__T105--1)dot~20110916_2111__T104)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	flatt	flat	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advcl	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001450
+# text = Og endå større når ein bokstavleg og nasjonalistisk klatrar opp på dei høgste fjelltoppar, like etter krigen, som om ein var ein vertikal Thor Heyerdahl.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	endå	endå	ADV	_	_	3	advmod	_	name=O
+3	større	stor	ADJ	_	Degree=Cmp	0	root	_	name=O
+4	når	når	SCONJ	_	_	9	mark	_	name=O
+5	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	9	nsubj	_	name=O|Entity=(dot~20110916_2111__T106--1)
+6	bokstavleg	bokstavleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	advmod	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	nasjonalistisk	nasjonalistisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	conj	_	name=O
+9	klatrar	klatre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+10	opp	opp	ADP	_	_	14	case	_	name=O
+11	på	på	ADP	_	_	14	case	_	name=O
+12	dei	dei	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(dot~20110916_2111__T107--1
+13	høgste	høg	ADJ	_	Definite=Def|Degree=Sup	14	amod	_	name=O
+14	fjelltoppar	fjelltopp	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T107)
+15	,	$,	PUNCT	_	_	18	punct	_	name=O
+16	like	like	ADV	_	_	18	advmod	_	name=O
+17	etter	etter	ADP	_	_	18	case	_	name=O
+18	krigen	krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__3566--1)
+19	,	$,	PUNCT	_	_	18	punct	_	name=O
+20	som	som	SCONJ	_	_	26	mark	_	name=O
+21	om	om	SCONJ	_	_	26	mark	_	name=O
+22	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	26	nsubj	_	name=O|Entity=(dot~20110916_2111__T109--1)
+23	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	cop	_	name=O
+24	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(dot~20110916_2111__T110--1
+25	vertikal	vertikal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	Thor	Thor	NOUN	_	Gender=Masc	9	advcl	_	name=B-PER
+27	Heyerdahl	Heyerdahl	PROPN	_	_	26	flat:name	_	SpaceAfter=No|name=I-PER|Entity=dot~20110916_2111__T110)
+28	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001451
+# text = Seinare vart Næss stor av di han kunne surfa øvst på den andre bylgja etter 1968, miljøvernbylgja.
+1	Seinare	sein	ADJ	_	Degree=Cmp	2	advmod	_	name=O
+2	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	Næss	Næss	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+4	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	name=O
+5	av	av	ADP	_	_	6	case	_	name=O
+6	di	di	NOUN	_	_	2	obl	_	name=O|Entity=(dot~20110916_2111__T112--1
+7	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+8	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+9	surfa	surfe	VERB	_	VerbForm=Inf	6	acl:relcl	_	name=O
+10	øvst	øvre	ADJ	_	Definite=Ind|Degree=Sup	14	advmod	_	name=O
+11	på	på	ADP	_	_	14	case	_	name=O
+12	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(dot~20110916_2111__T114--1
+13	andre	andre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	bylgja	bylgje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	obl	_	name=O
+15	etter	etter	ADP	_	_	16	case	_	name=O
+16	1968	1968	NUM	_	Number=Plur|NumType=Card	14	nmod	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	miljøvernbylgja	miljøvernbylgje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T114)dot~20110916_2111__T112)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001452
+# text = Den første, med Marx og greier, truga med å drukna han.
+1	Den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(dot~20110916_2111__T115--1
+2	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	nsubj	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	5	punct	_	name=O
+4	med	med	ADP	_	_	5	case	_	name=O
+5	Marx	Marx	PROPN	_	_	2	nmod	_	name=B-PER|Entity=(dot~20110916_2111__T116--1(dot~20110916_2111__T117--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	greier	greie	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T118--1)dot~20110916_2111__T116)
+8	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=dot~20110916_2111__T115)
+9	truga	truge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+10	med	med	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	drukna	drukne	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+13	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__7014578--1)
+14	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 001453
+# text = Heilt til slutt vart han lyft opp til dei store høgder av TV og media, etter kvart som klovn.
+1	Heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+2	til	til	ADP	_	_	3	case	_	name=O
+3	slutt	slutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(dot~20110916_2111__T120--1)
+4	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	name=O
+5	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+6	lyft	lyfte	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	opp	opp	ADP	_	_	6	compound:prt	_	name=O
+8	til	til	ADP	_	_	11	case	_	name=O
+9	dei	dei	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(dot~20110916_2111__T122--1
+10	store	stor	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	høgder	høgd	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	name=O|Entity=dot~20110916_2111__T122)
+12	av	av	ADP	_	_	13	case	_	name=O
+13	TV	TV	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(dot~20110916_2111__T123--1(dot~20110916_2111__T124--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	media	medium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	13	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T125--1)dot~20110916_2111__T123)
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	etter	etter	ADP	_	_	18	case	_	name=O
+18	kvart	kvar	DET	_	Gender=Neut|Number=Sing|PronType=Tot	20	obl	_	name=O
+19	som	som	SCONJ	_	_	20	mark	_	name=O
+20	klovn	klovn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	acl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T126--1)
+21	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001454
+# text = Eksentrisitet
+1	Eksentrisitet	eksentrisitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(dot~20110916_2111__2256--1)
+
+# sent_id = 001455
+# text = Men kva hadde han sjølv å by på?
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	kva	kva	PRON	_	PronType=Int	3	obj	_	name=O
+3	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1
+5	sjølv	sjølv	DET	_	PronType=Prs	4	det	_	name=O|Entity=dot~20110916_2111__7014578)
+6	å	å	PART	_	_	7	mark	_	name=O
+7	by	by	VERB	_	VerbForm=Inf	2	acl	_	name=O
+8	på	på	ADP	_	_	7	compound:prt	_	SpaceAfter=No|name=O
+9	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001456
+# text = Først og fremst denne eksentrisiteten sin, kopla til filosofien.
+1	Først	først	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(dot~20110916_2111__2256--1
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	fremst	fremre	ADJ	_	Definite=Ind|Degree=Sup	1	conj	_	name=O
+4	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O
+5	eksentrisiteten	eksentrisitet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O
+6	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__7014578--1)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	kopla	kople	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	5	amod	_	name=O
+9	til	til	ADP	_	_	10	case	_	name=O
+10	filosofien	filosofi	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T131--1)dot~20110916_2111__2256)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001457
+# text = Det skal vera vanleg i velståande syskenflokkar at eitt sysken vert den eksentriske onkelen/tanta.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	vera	vere	AUX	_	VerbForm=Inf	4	cop	_	name=O
+4	vanleg	vanleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	velståande	velståande	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(dot~20110916_2111__T132--1
+7	syskenflokkar	syskenflokk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=dot~20110916_2111__T132)
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	eitt	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(dot~20110916_2111__T133--1
+10	sysken	sysken	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nsubj	_	name=O|Entity=dot~20110916_2111__T133)
+11	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	csubj	_	name=O
+12	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(dot~20110916_2111__T134--1(dot~20110916_2111__T135--1
+13	eksentriske	eksentrisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	onkelen	onkel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No|name=O
+15	/	$/	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T135)
+16	tanta	tante	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T136--1)dot~20110916_2111__T134)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001458
+# text = Psykologane David Weeks og Jamie James trekkjer fram desse kjenneteikna i si forsking på eksentrikarar:
+1	Psykologane	psykolog	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	name=O|Entity=(dot~20110916_2111__T137--1(dot~20110916_2111__T138--1
+2	David	David	NOUN	_	Gender=Masc	7	nsubj	_	name=B-PER
+3	Weeks	Weeks	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=dot~20110916_2111__T138)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	Jamie	Jamie	PROPN	_	_	2	conj	_	name=B-PER|Entity=(dot~20110916_2111__T139--1
+6	James	James	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=dot~20110916_2111__T139)dot~20110916_2111__T137)
+7	trekkjer	trekkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	fram	fram	ADP	_	_	7	compound:prt	_	name=O
+9	desse	desse	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(dot~20110916_2111__3441--1
+10	kjenneteikna	kjenneteikn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	obj	_	name=O|Entity=dot~20110916_2111__3441)
+11	i	i	ADP	_	_	13	case	_	name=O
+12	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(dot~20110916_2111__T142--1(dot~20110916_2111__T141--1)
+13	forsking	forsking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O
+14	på	på	ADP	_	_	15	case	_	name=O
+15	eksentrikarar	eksentrikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T143--1)dot~20110916_2111__T142)
+16	:	$:	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001459
+# text = ikkje-konformisme, idealisme, intens nyfikne, lukkeleg forgjord i ein eller fleire hobbyar, veit særs tidleg i barndomen at ein skil seg frå andre, høg intelligens, sterke meiningar, uvanlege måtar å leva og eta, ikkje interessert i meiningane til andre, rampete form for humor.
+1	ikkje-konformisme	ikkje-konformisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__3441--1(dot~20110916_2111__T145--1)
+2	,	$,	PUNCT	_	_	3	punct	_	name=O
+3	idealisme	idealisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T146--1
+4	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=dot~20110916_2111__T146)
+5	intens	intens	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	nyfikne	nyfiken	ADJ	_	Degree=Pos|Number=Plur	1	conj	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	lukkeleg	lukkeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O|Entity=(dot~20110916_2111__T402--1
+9	forgjord	forgjere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	1	conj	_	name=O
+10	i	i	ADP	_	_	14	case	_	name=O
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(dot~20110916_2111__T147--1
+12	eller	eller	CCONJ	_	_	13	cc	_	name=O
+13	fleire	mange	ADJ	_	Degree=Cmp	11	conj	_	name=O
+14	hobbyar	hobby	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T147)dot~20110916_2111__T402)
+15	,	$,	PUNCT	_	_	9	punct	_	name=O
+16	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	name=O
+17	særs	særs	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+18	tidleg	tidleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	barndomen	barndom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	name=O|Entity=(dot~20110916_2111__T148--1)
+21	at	at	SCONJ	_	_	23	mark	_	name=O
+22	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	23	nsubj	_	name=O|Entity=(dot~20110916_2111__2562--1)
+23	skil	skilje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	ccomp	_	name=O
+24	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	23	obj	_	name=O|Entity=(dot~20110916_2111__2562--1)
+25	frå	frå	ADP	_	_	26	case	_	name=O
+26	andre	annan	DET	_	Number=Plur|PronType=Dem	23	obl	_	SpaceAfter=No|name=O
+27	,	$,	PUNCT	_	_	29	punct	_	name=O
+28	høg	høg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	29	amod	_	name=O|Entity=(dot~20110916_2111__T150--1
+29	intelligens	intelligens	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|name=O
+30	,	$,	PUNCT	_	_	29	punct	_	name=O|Entity=dot~20110916_2111__T150)
+31	sterke	sterk	ADJ	_	Degree=Pos|Number=Plur	32	amod	_	name=O|Entity=(dot~20110916_2111__T151--1
+32	meiningar	meining	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No|name=O
+33	,	$,	PUNCT	_	_	35	punct	_	name=O|Entity=dot~20110916_2111__T151)
+34	uvanlege	uvanleg	ADJ	_	Degree=Pos|Number=Plur	35	amod	_	name=O|Entity=(dot~20110916_2111__T152--1
+35	måtar	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	name=O
+36	å	å	PART	_	_	37	mark	_	name=O
+37	leva	leve	VERB	_	VerbForm=Inf	35	acl	_	name=O
+38	og	og	CCONJ	_	_	39	cc	_	name=O
+39	eta	ete	VERB	_	VerbForm=Inf	37	conj	_	SpaceAfter=No|name=O
+40	,	$,	PUNCT	_	_	35	punct	_	name=O|Entity=dot~20110916_2111__T152)
+41	ikkje	ikkje	PART	_	Polarity=Neg	42	advmod	_	name=O
+42	interessert	interessere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	1	conj	_	name=O
+43	i	i	ADP	_	_	44	case	_	name=O
+44	meiningane	meining	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	42	obl	_	name=O|Entity=(dot~20110916_2111__T153--1
+45	til	til	ADP	_	_	46	case	_	name=O
+46	andre	annan	DET	_	Number=Plur|PronType=Dem	44	nmod	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T153)
+47	,	$,	PUNCT	_	_	49	punct	_	name=O
+48	rampete	rampete	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	49	amod	_	name=O|Entity=(dot~20110916_2111__T154--1
+49	form	form	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	conj	_	name=O
+50	for	for	ADP	_	_	51	case	_	name=O
+51	humor	humor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T155--1)dot~20110916_2111__T154)dot~20110916_2111__3441)
+52	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 001460
+# text = Det meste av dette passar på Næss, som altså i tillegg var professor i filosofi.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(dot~20110916_2111__T156--1
+2	meste	mykje	ADJ	_	Definite=Def|Degree=Sup	5	nsubj	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nmod	_	name=O|Entity=(dot~20110916_2111__3441--1)dot~20110916_2111__T156)
+5	passar	passe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	Næss	Næss	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-PER|Entity=(dot~20110916_2111__7014578--1
+8	,	$,	PUNCT	_	_	14	punct	_	name=O
+9	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+10	altså	altså	ADV	_	_	14	advmod	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=(dot~20110916_2111__T159--1)
+13	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	name=O
+14	professor	professor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	acl:relcl	_	name=O|Entity=(dot~20110916_2111__T160--1
+15	i	i	ADP	_	_	16	case	_	name=O
+16	filosofi	filosofi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T161--1)dot~20110916_2111__T160)dot~20110916_2111__7014578)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001461
+# text = Men her òg kom omstenda til hjelp:
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	her	her	ADV	_	_	4	advmod	_	name=O
+3	òg	òg	ADV	_	_	2	advmod	_	name=O
+4	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	omstenda	omstende	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=(dot~20110916_2111__2247--1)
+6	til	til	ADP	_	_	7	case	_	name=O
+7	hjelp	hjelp	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T163--1)
+8	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001462
+# text = Etter krigen var det stive borgarlege åtferdsmønsteret i ferd med å losna.
+1	Etter	etter	ADP	_	_	2	case	_	name=O
+2	krigen	krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(dot~20110916_2111__3566--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+4	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(dot~20110916_2111__T165--1
+5	stive	stiv	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+6	borgarlege	borgarleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	åtferdsmønsteret	åtferdsmønster	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=dot~20110916_2111__T165)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	ferd	ferd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(dot~20110916_2111__T166--1
+10	med	med	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	losna	losne	VERB	_	VerbForm=Inf	9	acl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T166)
+13	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 001463
+# text = Dei høgåndelege motstandarane til Næss såg meir og meir ut som om dei høyrde til ei gamal tid, medan han varsla om ein ny fridom.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(dot~20110916_2111__2336--1
+2	høgåndelege	høgåndeleg	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	motstandarane	motstandar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	Næss	Næss	PROPN	_	_	3	nmod	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__2336)
+6	såg	sjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	meir	mykje	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	meir	mykje	ADJ	_	Degree=Cmp	7	conj	_	name=O
+10	ut	ut	ADP	_	_	6	compound:prt	_	name=O
+11	som	som	SCONJ	_	_	14	mark	_	name=O
+12	om	om	SCONJ	_	_	14	mark	_	name=O
+13	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(dot~20110916_2111__2336--1)
+14	høyrde	høyre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	name=O
+15	til	til	ADP	_	_	18	case	_	name=O
+16	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(dot~20110916_2111__T170--1
+17	gamal	gamal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T170)
+19	,	$,	PUNCT	_	_	22	punct	_	name=O
+20	medan	medan	SCONJ	_	_	22	mark	_	name=O
+21	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+22	varsla	varsle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	name=O
+23	om	om	ADP	_	_	26	case	_	name=O
+24	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(dot~20110916_2111__T172--1
+25	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	fridom	fridom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T172)
+27	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001464
+# text = Sakleg tvisyn
+1	Sakleg	sakleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	name=O|Entity=(dot~20110916_2111__T173--1
+2	tvisyn	tvisyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=dot~20110916_2111__T173)
+
+# sent_id = 001465
+# text = Så, korleis skulle ein biografi om Næss skrivast?
+1	Så	så	ADV	_	_	9	advmod	_	SpaceAfter=No|name=O
+2	,	$,	PUNCT	_	_	1	punct	_	name=O
+3	korleis	korleis	ADV	_	_	9	advmod	_	name=O
+4	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(dot~20110916_2111__T174--1
+6	biografi	biografi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	name=O
+7	om	om	ADP	_	_	8	case	_	name=O
+8	Næss	Næss	PROPN	_	_	6	nmod	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__T174)
+9	skrivast	skrive	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+10	?	$?	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 001466
+# text = Her er fleire mogelegheiter.
+1	Her	her	ADV	_	_	2	advmod	_	name=O
+2	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	fleire	mange	ADJ	_	Degree=Cmp	4	amod	_	name=O|Entity=(dot~20110916_2111__T176--1
+4	mogelegheiter	mogelegheit	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T176)
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001467
+# text = Ein kunne laga ein hagiografi, som særleg amerikanske økosofar ville lika.
+1	Ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	3	nsubj	_	name=O|Entity=(dot~20110916_2111__T177--1)
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	laga	lage	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(dot~20110916_2111__T178--1
+5	hagiografi	hagiografi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=dot~20110916_2111__T178)
+7	som	som	PRON	_	PronType=Rel	12	obj	_	name=O
+8	særleg	særleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+9	amerikanske	amerikansk	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(dot~20110916_2111__T179--1
+10	økosofar	økosof	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	name=O|Entity=dot~20110916_2111__T179)
+11	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+12	lika	like	VERB	_	VerbForm=Inf	3	acl	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001468
+# text = Eller ein kunne putta han inn i ei mytisk forteljing.
+1	Eller	eller	CCONJ	_	_	4	cc	_	name=O
+2	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	4	nsubj	_	name=O|Entity=(dot~20110916_2111__T180--1)
+3	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	putta	putte	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+6	inn	inn	ADP	_	_	10	case	_	name=O
+7	i	i	ADP	_	_	10	case	_	name=O
+8	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(dot~20110916_2111__T182--1
+9	mytisk	mytisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	forteljing	forteljing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T182)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001469
+# text = Nina Witoszek har gjort noko slikt og sett på Næss som den typiske norske natur- og hyttedyrkaren.
+1	Nina	Nina	NOUN	_	Gender=Fem	4	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__T183--1
+2	Witoszek	Witoszek	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=dot~20110916_2111__T183)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	gjort	gjere	VERB	_	VerbForm=Part	0	root	_	name=O
+5	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	6	det	_	name=O|Entity=(dot~20110916_2111__T184--1
+6	slikt	slikt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	name=O|Entity=dot~20110916_2111__T184)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	sett	sjå	VERB	_	VerbForm=Part	4	conj	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	Næss	Næss	PROPN	_	_	8	obl	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+11	som	som	SCONJ	_	_	15	mark	_	name=O
+12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(dot~20110916_2111__T186--1(dot~20110916_2111__T187--1
+13	typiske	typisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+14	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	natur-	natur-	NOUN	_	_	8	xcomp	_	name=O|Entity=dot~20110916_2111__T187)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	hyttedyrkaren	hyttedyrkar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T188--1)dot~20110916_2111__T186)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001470
+# text = Ein kunne til og med tenkja seg å setja Næss inn i ei Peer Gynt-forteljing:
+1	Ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	6	nsubj	_	name=O|Entity=(dot~20110916_2111__2597--1)
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	name=O
+3	til	til	ADP	_	_	6	compound:prt	_	name=O
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	med	med	ADP	_	_	3	conj	_	name=O
+6	tenkja	tenkje	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	6	iobj	_	name=O|Entity=(dot~20110916_2111__2597--1)
+8	å	å	PART	_	_	9	mark	_	name=O
+9	setja	setje	VERB	_	VerbForm=Inf	6	xcomp	_	name=O
+10	Næss	Næss	PROPN	_	_	9	obj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+11	inn	inn	ADP	_	_	15	case	_	name=O
+12	i	i	ADP	_	_	15	case	_	name=O
+13	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(dot~20110916_2111__T191--1
+14	Peer	Peer	PROPN	_	_	15	compound	_	name=B-DRV|Entity=(dot~20110916_2111__T403--1
+15	Gynt-forteljing	Gynt-forteljing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|name=I-DRV|Entity=dot~20110916_2111__T403)dot~20110916_2111__T191)
+16	:	$:	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001471
+# text = Dei likna på kvarandre.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|SplitAnte=dot~20110916_2111__T403<dot~20110916_2111__2601,dot~20110916_2111__7014578<dot~20110916_2111__2601|Entity=(dot~20110916_2111__2601--1)
+2	likna	likne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	kvarandre	kvarandre	PRON	_	Animacy=Hum|Number=Plur|PronType=Rcp	2	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__2601--1)
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001472
+# text = I Wien vitja Næss ei dårekiste.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	Wien	Wien	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(dot~20110916_2111__T193--1)
+3	vitja	vitje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Næss	Næss	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(dot~20110916_2111__T195--1
+6	dårekiste	dårekiste	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T195)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001473
+# text = Men trefte han Den framande eller Knappestøyparen?
+1	Men	men	CCONJ	_	_	2	cc	_	name=O
+2	trefte	treffe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+4	Den	Den	PROPN	_	_	2	obj	_	name=B-PER|Entity=(dot~20110916_2111__T197--1(dot~20110916_2111__T198--1
+5	framande	framand	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	flat:name	_	name=I-PER|Entity=dot~20110916_2111__T198)
+6	eller	eller	CCONJ	_	_	7	cc	_	name=O
+7	Knappestøyparen	Knappestøyparen	PROPN	_	_	4	conj	_	SpaceAfter=No|name=B-PER|Entity=(dot~20110916_2111__T199--1)dot~20110916_2111__T197)
+8	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001474
+# text = Var han så mykje større enn seg sjølv at han var seg sjølv nok?
+1	Var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+2	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+3	så	så	ADV	_	_	4	advmod	_	name=O
+4	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	større	stor	ADJ	_	Degree=Cmp	0	root	_	name=O
+6	enn	enn	ADP	_	_	7	case	_	name=O
+7	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	5	obl	_	name=O|Entity=(dot~20110916_2111__7014578--1
+8	sjølv	sjølv	DET	_	PronType=Prs	7	det	_	name=O|Entity=dot~20110916_2111__7014578)
+9	at	at	SCONJ	_	_	12	mark	_	name=O
+10	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+11	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	name=O
+12	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	5	advcl	_	name=O
+13	sjølv	sjølv	DET	_	PronType=Prs	12	det	_	name=O
+14	nok	nok	ADV	_	_	12	advmod	_	SpaceAfter=No|name=O
+15	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001475
+# text = Men i alle høve er det to ting ein biografi må gjera greie for, av di dei er dei to viktigaste i alle liv:
+1	Men	men	CCONJ	_	_	8	cc	_	name=O
+2	i	i	ADP	_	_	4	case	_	name=O
+3	alle	all	DET	_	Number=Plur|PronType=Tot	4	det	_	name=O|Entity=(dot~20110916_2111__T202--1
+4	høve	høve	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	name=O|Entity=dot~20110916_2111__T202)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	to	to	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(dot~20110916_2111__T203--1
+8	ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(dot~20110916_2111__T204--1
+10	biografi	biografi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=dot~20110916_2111__T204)
+11	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	gjera	gjere	VERB	_	VerbForm=Inf	8	acl:cleft	_	name=O
+13	greie	greie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	name=O|Entity=(dot~20110916_2111__T205--1)
+14	for	for	ADP	_	_	12	compound:prt	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T203)
+15	,	$,	PUNCT	_	_	17	punct	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	di	di	NOUN	_	_	8	obl	_	name=O|Entity=(dot~20110916_2111__T206--1
+18	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(dot~20110916_2111__2416--1)
+19	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+20	dei	dei	DET	_	Number=Plur|PronType=Dem	22	det	_	name=O
+21	to	to	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O
+22	viktigaste	viktig	ADJ	_	Definite=Def|Degree=Sup	17	acl:relcl	_	name=O
+23	i	i	ADP	_	_	25	case	_	name=O
+24	alle	all	DET	_	Number=Plur|PronType=Tot	25	det	_	name=O|Entity=(dot~20110916_2111__T208--1
+25	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	nmod	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T208)dot~20110916_2111__T206)
+26	:	$:	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001476
+# text = makt og kjærleik.
+1	makt	makt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(dot~20110916_2111__2416--1(dot~20110916_2111__T210--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	kjærleik	kjærleik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T211--1)dot~20110916_2111__2416)
+4	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 001477
+# text = Gjefsen har valt ei tradisjonell framstillingsform, ei krønike, utan å tvinga hendingane inn i ei avrunda forteljing.
+1	Gjefsen	Gjefsen	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__183226--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	valt	velje	VERB	_	VerbForm=Part	0	root	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(dot~20110916_2111__T213--1
+5	tradisjonell	tradisjonell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	framstillingsform	framstillingsform	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(dot~20110916_2111__T214--1
+9	krønike	krønike	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	appos	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T214)dot~20110916_2111__T213)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	utan	utan	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	tvinga	tvinge	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+14	hendingane	hending	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	13	obj	_	name=O|Entity=(dot~20110916_2111__2440--1)
+15	inn	inn	ADP	_	_	19	case	_	name=O
+16	i	i	ADP	_	_	19	case	_	name=O
+17	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(dot~20110916_2111__T216--1
+18	avrunda	avrunda	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	forteljing	forteljing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T216)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001478
+# text = Han skriv sakleg og unngår å dela ut moralske domar, sjølv om det saklege tvisynet innbyd til både fordøming og hyllest.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110916_2111__183226--1)
+2	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	sakleg	sakleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	unngår	unngå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	dela	dele	VERB	_	VerbForm=Inf	5	xcomp	_	name=O
+8	ut	ut	ADP	_	_	7	compound:prt	_	name=O
+9	moralske	moralsk	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(dot~20110916_2111__T218--1
+10	domar	dom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T218)
+11	,	$,	PUNCT	_	_	17	punct	_	name=O
+12	sjølv	sjølv	ADV	_	_	13	advmod	_	name=O
+13	om	om	SCONJ	_	_	17	mark	_	name=O
+14	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(dot~20110916_2111__T219--1
+15	saklege	sakleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	tvisynet	tvisyn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	name=O|Entity=dot~20110916_2111__T219)
+17	innbyd	innbyde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+18	til	til	ADP	_	_	20	case	_	name=O
+19	både	både	CCONJ	_	_	20	cc	_	name=O
+20	fordøming	fordøming	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	name=O|Entity=(dot~20110916_2111__T220--1(dot~20110916_2111__T221--1)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	hyllest	hyllest	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T222--1)dot~20110916_2111__T220)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001479
+# text = Biografiteksten har same temperatur, sjølv om hendingane er dramatiske eller trivielle.
+1	Biografiteksten	biografitekst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Bridge=dot~20110916_2111__5330<dot~20110916_2111__T223:default|Entity=(dot~20110916_2111__T223--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	same	same	DET	_	Definite=Def|PronType=Dem	4	det	_	name=O|Entity=(dot~20110916_2111__T224--1
+4	temperatur	temperatur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=dot~20110916_2111__T224)
+6	sjølv	sjølv	ADV	_	_	7	advmod	_	name=O
+7	om	om	SCONJ	_	_	10	mark	_	name=O
+8	hendingane	hending	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	10	nsubj	_	name=O|Entity=(dot~20110916_2111__2440--1)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	dramatiske	dramatisk	ADJ	_	Degree=Pos|Number=Plur	2	advcl	_	name=O
+11	eller	eller	CCONJ	_	_	12	cc	_	name=O
+12	trivielle	triviell	ADJ	_	Degree=Pos|Number=Plur	10	conj	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001480
+# text = Stor litteratur vert aldri teksten, slik det hender i enkelte andre biografiar, til dømes Jørgen Sandemoses biografi om Aksel.
+1	Stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(dot~20110916_2111__T226--1
+2	litteratur	litteratur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	name=O|Entity=dot~20110916_2111__T226)
+3	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	aldri	aldri	ADV	_	_	3	advmod	_	name=O
+5	teksten	tekst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T227--1)
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	slik	slik	ADV	_	_	3	advmod	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+9	hender	hende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+10	i	i	ADP	_	_	13	case	_	name=O
+11	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(dot~20110916_2111__T228--1
+12	andre	annan	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O
+13	biografiar	biografi	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	19	punct	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O|Entity=(dot~20110916_2111__T231--1
+16	dømes	døme	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	19	nmod	_	name=O|Entity=(dot~20110916_2111__T229--1)
+17	Jørgen	Jørgen	NOUN	_	Gender=Masc	19	nmod	_	name=B-PER|Entity=(dot~20110916_2111__T230--1
+18	Sandemoses	Sandemose	PROPN	_	Case=Gen	17	flat:name	_	name=I-PER|Entity=dot~20110916_2111__T230)
+19	biografi	biografi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	name=O
+20	om	om	ADP	_	_	21	case	_	name=O
+21	Aksel	Aksel	NOUN	_	Gender=Masc	19	nmod	_	SpaceAfter=No|name=B-PER|Entity=(dot~20110916_2111__T232--1)dot~20110916_2111__T231)dot~20110916_2111__T228)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001481
+# text = Ein gong greier han likevel ikkje å la vera å spørja, både seg og oss, om ikkje desse «practical jokes» Næss vart så omtykt for, eigentleg berre var vanlege silkerampestrekar frå Oslo/Bærum.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(dot~20110916_2111__T233--1
+2	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=dot~20110916_2111__T233)
+3	greier	greie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110916_2111__183226--1)
+5	likevel	likevel	ADV	_	_	3	advmod	_	name=O
+6	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	la	la	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+9	vera	vere	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	spørja	spørje	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	både	både	CCONJ	_	_	14	cc	_	name=O
+14	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	11	iobj	_	name=O|Entity=(dot~20110916_2111__183226--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	14	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T235--1
+17	,	$,	PUNCT	_	_	35	punct	_	name=O|Entity=dot~20110916_2111__T235)
+18	om	om	SCONJ	_	_	35	mark	_	name=O
+19	ikkje	ikkje	PART	_	Polarity=Neg	35	advmod	_	name=O
+20	desse	desse	DET	_	Number=Plur|PronType=Dem	23	det	_	name=O|Entity=(dot~20110916_2111__2484--1
+21	«	$"	PUNCT	_	_	23	punct	_	SpaceAfter=No|name=O
+22	practical	practical	ADJ	_	_	23	amod	_	name=O
+23	jokes	jokes	NOUN	_	_	35	nsubj	_	SpaceAfter=No|name=O
+24	»	$"	PUNCT	_	_	23	punct	_	name=O
+25	Næss	Næss	PROPN	_	_	26	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+26	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	name=O
+27	så	så	ADV	_	_	28	advmod	_	name=O
+28	omtykt	omtykt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	xcomp	_	name=O
+29	for	for	ADP	_	_	28	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__2484)
+30	,	$,	PUNCT	_	_	23	punct	_	name=O
+31	eigentleg	eigentleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	32	advmod	_	name=O
+32	berre	berre	ADV	_	_	35	advmod	_	name=O
+33	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	35	cop	_	name=O
+34	vanlege	vanleg	ADJ	_	Degree=Pos|Number=Plur	35	amod	_	name=O|Entity=(dot~20110916_2111__T238--1
+35	silkerampestrekar	silkerampestrek	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	ccomp	_	name=O
+36	frå	frå	ADP	_	_	37	case	_	name=O
+37	Oslo	Oslo	PROPN	_	_	35	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(dot~20110916_2111__T239--1(dot~20110916_2111__2327--1)
+38	/	$/	PUNCT	_	_	39	punct	_	SpaceAfter=No|name=O
+39	Bærum	Bærum	PROPN	_	_	37	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(dot~20110916_2111__T241--1)dot~20110916_2111__T239)dot~20110916_2111__T238)
+40	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001482
+# text = Eller endå verre:
+1	Eller	eller	CCONJ	_	_	3	cc	_	name=O
+2	endå	endå	ADV	_	_	3	advmod	_	name=O
+3	verre	verre	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No|name=O
+4	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001483
+# text = Bernt Vestre har fortalt meg at Næss ein gong nesten tok livet av han på dette viset.
+1	Bernt	Bernt	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__2489--1
+2	Vestre	Vestre	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=dot~20110916_2111__2489)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	fortalt	fortelje	VERB	_	VerbForm=Part	0	root	_	name=O
+5	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	4	iobj	_	name=O|Entity=(dot~20110916_2111__51699--1)
+6	at	at	SCONJ	_	_	11	mark	_	name=O
+7	Næss	Næss	PROPN	_	_	11	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(dot~20110916_2111__T245--1
+9	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=dot~20110916_2111__T245)
+10	nesten	nesten	ADV	_	_	11	advmod	_	name=O
+11	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	name=O
+12	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obj	_	name=O|Entity=(dot~20110916_2111__T246--1)
+13	av	av	ADP	_	_	14	case	_	name=O
+14	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obl	_	name=O|Entity=(dot~20110916_2111__2489--1)
+15	på	på	ADP	_	_	17	case	_	name=O
+16	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(dot~20110916_2111__2484--1
+17	viset	vis	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__2484)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001484
+# text = Det verkeleg fælsleg hjartelause i Næss kunne ha kome betre fram.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(dot~20110916_2111__T249--1
+2	verkeleg	verkeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+3	fælsleg	fælsleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	hjartelause	hjartelaus	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	nsubj	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Næss	Næss	PROPN	_	_	4	nmod	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__T249)
+7	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+8	ha	ha	AUX	_	VerbForm=Inf	9	aux	_	name=O
+9	kome	kome	VERB	_	VerbForm=Part	0	root	_	name=O
+10	betre	bra	ADJ	_	Degree=Cmp	9	advmod	_	name=O
+11	fram	fram	ADP	_	_	9	compound:prt	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 001485
+# text = Makt og kjærleik
+1	Makt	makt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(dot~20110916_2111__T251--1(dot~20110916_2111__T252--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	kjærleik	kjærleik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(dot~20110916_2111__T253--1)dot~20110916_2111__T251)
+
+# sent_id = 001486
+# text = Og ja, krønika handlar om makt og kjærleik.
+1	Og	og	CCONJ	_	_	5	cc	_	name=O
+2	ja	ja	INTJ	_	_	5	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	krønika	krønike	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=(dot~20110916_2111__5330--1)
+5	handlar	handle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	om	om	ADP	_	_	7	case	_	name=O
+7	makt	makt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=(dot~20110916_2111__T255--1(dot~20110916_2111__T256--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	kjærleik	kjærleik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T257--1)dot~20110916_2111__T255)
+10	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001487
+# text = Vi får høyra om alle kjærleikstilhøva til Næss, frå han er liten til han er olding, men nesten utan detaljar og dveling som ville gjort at lesaren synest det vert privat og pinleg.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110916_2111__T258--1)
+2	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	høyra	høyre	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	om	om	ADP	_	_	6	case	_	name=O
+5	alle	all	DET	_	Number=Plur|PronType=Tot	6	det	_	name=O|Entity=(dot~20110916_2111__2527--1
+6	kjærleikstilhøva	kjærleikstilhøve	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	obl	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	Næss	Næss	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	frå	frå	SCONJ	_	_	13	mark	_	name=O
+11	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+12	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+13	liten	liten	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	name=O
+14	til	til	SCONJ	_	_	17	mark	_	name=O
+15	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+16	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+17	olding	olding	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	advcl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T263--1)dot~20110916_2111__2527)
+18	,	$,	PUNCT	_	_	22	punct	_	name=O
+19	men	men	CCONJ	_	_	22	cc	_	name=O
+20	nesten	nesten	ADV	_	_	22	advmod	_	name=O
+21	utan	utan	ADP	_	_	22	case	_	name=O
+22	detaljar	detalj	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	name=O|Entity=(dot~20110916_2111__T264--1(dot~20110916_2111__T265--1)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	dveling	dveling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	conj	_	name=O|Entity=(dot~20110916_2111__T266--1
+25	som	som	PRON	_	PronType=Rel	27	nsubj	_	name=O
+26	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	name=O
+27	gjort	gjere	VERB	_	VerbForm=Part	24	acl:relcl	_	name=O
+28	at	at	SCONJ	_	_	30	mark	_	name=O
+29	lesaren	lesar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	30	nsubj	_	name=O|Entity=(dot~20110916_2111__T267--1)
+30	synest	synast	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	ccomp	_	name=O
+31	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	name=O|Entity=(dot~20110916_2111__2527--1)
+32	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	30	ccomp	_	name=O
+33	privat	privat	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	32	xcomp	_	name=O
+34	og	og	CCONJ	_	_	35	cc	_	name=O
+35	pinleg	pinleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	33	conj	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T266)dot~20110916_2111__T264)
+36	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001488
+# text = At han heile livet er polygam og stadig vert pubertetsforelska, passar elles godt med Næss' eige ønske om aldri å verta vaksen.
+1	At	at	SCONJ	_	_	6	mark	_	name=O
+2	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+3	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(dot~20110916_2111__T270--1
+4	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=dot~20110916_2111__T270)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	polygam	polygam	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	csubj	_	name=O
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	stadig	stadig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+10	pubertetsforelska	pubertetsforelske	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	9	xcomp	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	9	punct	_	name=O
+12	passar	passe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	elles	elles	ADV	_	_	12	advmod	_	name=O
+14	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+15	med	med	ADP	_	_	18	case	_	name=O
+16	Næss'	Næss	PROPN	_	Case=Gen	18	nmod	_	name=B-PER|Entity=(dot~20110916_2111__T272--1(dot~20110916_2111__7014578--1)
+17	eige	eigen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	18	det	_	name=O
+18	ønske	ønske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	name=O
+19	om	om	SCONJ	_	_	22	mark	_	name=O
+20	aldri	aldri	ADV	_	_	22	advmod	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	verta	verte	VERB	_	VerbForm=Inf	18	acl	_	name=O
+23	vaksen	vaksen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	xcomp	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T272)
+24	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 001489
+# text = Og vi får høyra om universitetsmaktkampane.
+1	Og	og	CCONJ	_	_	4	cc	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(dot~20110916_2111__T273--1)
+3	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	høyra	høyre	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	om	om	ADP	_	_	6	case	_	name=O
+6	universitetsmaktkampane	universitetsmaktkamp	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T274--1)
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001490
+# text = Men ein kan naturlegvis undra seg om det har særleg allmenn interesse?
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	5	nsubj	_	name=O|Entity=(dot~20110916_2111__2686--1)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	naturlegvis	naturlegvis	ADV	_	_	5	advmod	_	name=O
+5	undra	undre	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	5	obj	_	name=O|Entity=(dot~20110916_2111__2686--1)
+7	om	om	SCONJ	_	_	9	mark	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|SplitAnte=dot~20110916_2111__T274<dot~20110916_2111__T276,dot~20110916_2111__2527<dot~20110916_2111__T276|Entity=(dot~20110916_2111__T276--1)
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+10	særleg	særleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O|Entity=(dot~20110916_2111__T277--1
+11	allmenn	allmenn	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	interesse	interesse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T277)
+13	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001491
+# text = Viktigast er likevel at Gjefsen skriv mest om den filosofiske utviklinga til Næss, og med tilstrekkeleg intensjonsdjupn til å få fram distinksjonane Næss streva med, likeins alle omgrepsruinane han etterlét seg.
+1	Viktigast	viktig	ADJ	_	Definite=Ind|Degree=Sup	0	root	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	likevel	likevel	ADV	_	_	1	advmod	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	Gjefsen	Gjefsen	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__183226--1)
+6	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	csubj	_	name=O
+7	mest	mykje	ADJ	_	Definite=Ind|Degree=Sup	6	advmod	_	name=O
+8	om	om	ADP	_	_	11	case	_	name=O
+9	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(dot~20110916_2111__T279--1
+10	filosofiske	filosofisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	utviklinga	utvikling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	Næss	Næss	PROPN	_	_	11	nmod	_	SpaceAfter=No|name=B-PER|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__T279)
+14	,	$,	PUNCT	_	_	18	punct	_	name=O
+15	og	og	CCONJ	_	_	18	cc	_	name=O
+16	med	med	ADP	_	_	18	case	_	name=O
+17	tilstrekkeleg	tilstrekkeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(dot~20110916_2111__T281--1
+18	intensjonsdjupn	intensjonsdjupn	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	conj	_	name=O
+19	til	til	SCONJ	_	_	21	mark	_	name=O
+20	å	å	PART	_	_	21	mark	_	name=O
+21	få	få	VERB	_	VerbForm=Inf	17	advcl	_	name=O
+22	fram	fram	ADP	_	_	21	compound:prt	_	name=O
+23	distinksjonane	distinksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	21	obj	_	name=O|Entity=(dot~20110916_2111__T282--1(dot~20110916_2111__T283--1
+24	Næss	Næss	PROPN	_	_	25	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+25	streva	streve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	name=O
+26	med	med	ADP	_	_	25	compound:prt	_	SpaceAfter=No|name=O
+27	,	$,	PUNCT	_	_	30	punct	_	name=O|Entity=dot~20110916_2111__T283)
+28	likeins	likeins	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	name=O|Entity=(dot~20110916_2111__T285--1
+29	alle	all	DET	_	Number=Plur|PronType=Tot	30	det	_	name=O
+30	omgrepsruinane	omgrepsruin	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	23	conj	_	name=O
+31	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+32	etterlét	etterlate	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	30	acl:relcl	_	name=O
+33	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	32	obj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__T285)dot~20110916_2111__T282)dot~20110916_2111__T281)
+34	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 001492
+# text = Ikkje minst det siste får han fram:
+1	Ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+2	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	4	amod	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O
+4	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	obj	_	name=O
+5	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20110916_2111__183226--1)
+7	fram	fram	ADP	_	_	5	compound:prt	_	SpaceAfter=No|name=O
+8	:	$:	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001493
+# text = At doktorgraden hans bryt saman i sjølvmotseiing i sluttkapitlet; at den empiriske semantikken han satsar på etter krigen, teoretisk i hovudverket Interpretation and Preciseness og praktisk i dei UNESCO-finansierte førekomstanalysane av ordet «demokrati», til slutt berre etterlét seg læreboka En del elementære logiske emner som noko varig.
+1	At	at	SCONJ	_	_	4	mark	_	name=O
+2	doktorgraden	doktorgrad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(dot~20110916_2111__T288--1
+3	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__T288)
+4	bryt	bryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	saman	saman	ADV	_	_	4	advmod	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	sjølvmotseiing	sjølvmotseiing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=(dot~20110916_2111__T290--1)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	sluttkapitlet	sluttkapittel	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T291--1)
+10	;	$;	PUNCT	_	_	42	punct	_	name=O
+11	at	at	SCONJ	_	_	42	mark	_	name=O
+12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(dot~20110916_2111__2698--1
+13	empiriske	empirisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	semantikken	semantikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	42	nsubj	_	name=O
+15	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+16	satsar	satse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	name=O
+17	på	på	ADP	_	_	16	compound:prt	_	name=O
+18	etter	etter	ADP	_	_	19	case	_	name=O
+19	krigen	krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__3566--1)
+20	,	$,	PUNCT	_	_	24	punct	_	name=O
+21	teoretisk	teoretisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	advmod	_	name=O
+22	i	i	ADP	_	_	24	case	_	name=O
+23	hovudverket	hovudverk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	nmod	_	name=O|Entity=(dot~20110916_2111__T295--1
+24	Interpretation	Interpretation	PROPN	_	_	16	obl	_	name=B-PROD
+25	and	and	X	_	_	24	flat:name	_	name=I-PROD
+26	Preciseness	Preciseness	X	_	_	24	flat:name	_	name=I-PROD|Entity=dot~20110916_2111__T295)
+27	og	og	CCONJ	_	_	32	cc	_	name=O
+28	praktisk	praktisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	32	advmod	_	name=O
+29	i	i	ADP	_	_	32	case	_	name=O
+30	dei	dei	DET	_	Number=Plur|PronType=Dem	32	det	_	name=O|Entity=(dot~20110916_2111__T296--1
+31	UNESCO-finansierte	UNESCO-finansiere	ADJ	_	Number=Plur|VerbForm=Part	32	amod	_	name=B-DRV
+32	førekomstanalysane	førekomstanalyse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	24	conj	_	name=O
+33	av	av	ADP	_	_	34	case	_	name=O
+34	ordet	ord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	32	nmod	_	name=O|Entity=(dot~20110916_2111__T297--1
+35	«	$"	PUNCT	_	_	36	punct	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T298--1
+36	demokrati	demokrati	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	34	appos	_	SpaceAfter=No|name=O
+37	»	$"	PUNCT	_	_	36	punct	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T298)dot~20110916_2111__T297)dot~20110916_2111__T296)dot~20110916_2111__2698)
+38	,	$,	PUNCT	_	_	14	punct	_	name=O
+39	til	til	ADP	_	_	40	case	_	name=O
+40	slutt	slutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	42	obl	_	name=O|Entity=(dot~20110916_2111__T299--1)
+41	berre	berre	ADV	_	_	42	advmod	_	name=O
+42	etterlét	etterlate	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	name=O
+43	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	42	iobj	_	name=O|Entity=(dot~20110916_2111__2698--1)
+44	læreboka	lærebok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	45	nmod	_	name=O|Entity=(dot~20110916_2111__T300--1
+45	En	En	PROPN	_	_	42	obj	_	name=B-PROD
+46	del	del	X	_	_	45	flat:name	_	name=I-PROD
+47	elementære	elementære	X	_	_	45	flat:name	_	name=I-PROD
+48	logiske	logiske	X	_	_	45	flat:name	_	name=I-PROD
+49	emner	emner	X	_	_	45	flat:name	_	name=I-PROD|Entity=dot~20110916_2111__T300)
+50	som	som	ADP	_	_	42	xcomp	_	name=O
+51	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	52	det	_	name=O
+52	varig	varig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	50	appos	_	SpaceAfter=No|name=O
+53	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001494
+# text = Filosofi-PR
+1	Filosofi-PR	filosofi-PR	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(dot~20110916_2111__T301--1)
+
+# sent_id = 001495
+# text = Når det gjeld universitetspolitikk, får Gjefsen godt fram innsatsen hans for samfunnsvitskapen i Noreg, særleg grunnlegginga av Institutt for samfunnsforsking, utan at Næss' teoriar om samfunnsforsking vert ståande.
+1	Når	når	SCONJ	_	_	3	mark	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110916_2111__T302--1)
+3	gjeld	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	name=O
+4	universitetspolitikk	universitetspolitikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T303--1)
+5	,	$,	PUNCT	_	_	3	punct	_	name=O
+6	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	Gjefsen	Gjefsen	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__183226--1)
+8	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+9	fram	fram	ADP	_	_	6	compound:prt	_	name=O
+10	innsatsen	innsats	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(dot~20110916_2111__T305--1(dot~20110916_2111__T306--1
+11	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+12	for	for	ADP	_	_	13	case	_	name=O
+13	samfunnsvitskapen	samfunnsvitskap	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(dot~20110916_2111__T308--1
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Noreg	Noreg	PROPN	_	_	13	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(dot~20110916_2111__2630--1)dot~20110916_2111__T308)
+16	,	$,	PUNCT	_	_	18	punct	_	name=O|Entity=dot~20110916_2111__T306)
+17	særleg	særleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	name=O|Entity=(dot~20110916_2111__T310--1
+18	grunnlegginga	grunnlegging	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	conj	_	name=O
+19	av	av	ADP	_	_	20	case	_	name=O
+20	Institutt	Institutt	PROPN	_	_	18	nmod	_	name=B-ORG|Entity=(dot~20110916_2111__T311--1
+21	for	for	ADP	_	_	20	flat:name	_	name=I-ORG
+22	samfunnsforsking	samfunnsforsking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=dot~20110916_2111__T311)
+23	,	$,	PUNCT	_	_	18	punct	_	name=O|Entity=dot~20110916_2111__T310)dot~20110916_2111__T305)
+24	utan	utan	SCONJ	_	_	30	mark	_	name=O
+25	at	at	SCONJ	_	_	30	mark	_	name=O
+26	Næss'	Næss	PROPN	_	Case=Gen	27	nmod	_	name=B-PER|Entity=(dot~20110916_2111__T313--1(dot~20110916_2111__7014578--1)
+27	teoriar	teori	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	30	nsubj	_	name=O
+28	om	om	ADP	_	_	29	case	_	name=O
+29	samfunnsforsking	samfunnsforsking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	name=O|Entity=(dot~20110916_2111__T314--1)dot~20110916_2111__T313)
+30	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	name=O
+31	ståande	stå	ADJ	_	VerbForm=Part	30	xcomp	_	SpaceAfter=No|name=O
+32	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001496
+# text = Ikkje minst gjer Gjefsen godt greie for korleis Næss forma om og bygde ut examen philosophicum.
+1	Ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+2	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	3	advmod	_	name=O
+3	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	Gjefsen	Gjefsen	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__183226--1)
+5	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O|Entity=(dot~20110916_2111__T316--1
+6	greie	greie	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O
+7	for	for	ADP	_	_	10	case	_	name=O
+8	korleis	korleis	ADV	_	_	10	advmod	_	name=O
+9	Næss	Næss	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+10	forma	forme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	name=O
+11	om	om	ADP	_	_	10	compound:prt	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	bygde	byggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	name=O
+14	ut	ut	ADP	_	_	13	compound:prt	_	name=O
+15	examen	examen	NOUN	_	_	16	compound	_	name=O|Entity=(dot~20110916_2111__T318--1
+16	philosophicum	philosophicum	NOUN	_	_	13	obj	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T318)dot~20110916_2111__T316)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001497
+# text = Vi er mange filosofar i Noreg som står i stor takksemdsgjeld for det han har gjort for filosofifaget.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(dot~20110916_2111__2647--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O|Entity=(dot~20110916_2111__T320[1/2]--1
+4	filosofar	filosof	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=dot~20110916_2111__T320[1/2])
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Noreg	Noreg	PROPN	_	_	4	obl	_	name=B-GPE_LOC|Entity=(dot~20110916_2111__2630--1)
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O|Entity=(dot~20110916_2111__T320[2/2]--1
+8	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(dot~20110916_2111__T322--1
+11	takksemdsgjeld	takksemdsgjeld	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	name=O
+12	for	for	ADP	_	_	13	case	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nmod	_	name=O|Entity=(dot~20110916_2111__T323--1
+14	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	gjort	gjere	VERB	_	VerbForm=Part	13	acl:relcl	_	name=O
+17	for	for	ADP	_	_	18	case	_	name=O
+18	filosofifaget	filosofifag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T325--1)dot~20110916_2111__T323)dot~20110916_2111__T322)dot~20110916_2111__T320[2/2])
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001498
+# text = Eksentrikaren var den beste PR-mannen vi kunne hatt.
+1	Eksentrikaren	eksentrikar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(dot~20110916_2111__T327--1
+4	beste	god	ADJ	_	Definite=Def|Degree=Sup	5	amod	_	name=O
+5	PR-mannen	PR-mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O
+6	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(dot~20110916_2111__2647--1)
+7	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+8	hatt	ha	VERB	_	VerbForm=Part	5	acl:relcl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T327)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001499
+# text = Rett nok er det nokre av anekdotane Gjefsen gjev att, som eg har fått fortalt med ei anna meining.
+1	Rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+2	nok	nok	ADV	_	_	1	advmod	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	nokre	nokon	DET	_	Number=Plur|PronType=Ind	0	root	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	anekdotane	anekdote	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=(dot~20110916_2111__T329--1
+8	Gjefsen	Gjefsen	PROPN	_	_	9	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__183226--1)
+9	gjev	gje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	name=O
+10	att	att	ADP	_	_	9	compound:prt	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	som	som	PRON	_	PronType=Rel	16	obj	_	name=O
+13	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	name=O|Entity=(dot~20110916_2111__51699--1)
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	fått	få	AUX	_	VerbForm=Part	16	aux	_	name=O
+16	fortalt	fortelje	VERB	_	VerbForm=Part	7	acl:relcl	_	name=O
+17	med	med	ADP	_	_	20	case	_	name=O
+18	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(dot~20110916_2111__T332--1
+19	anna	annan	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	name=O
+20	meining	meining	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T332)dot~20110916_2111__T329)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001500
+# text = At Næss sat og spretta opp avhandlingssidene under disputasen til Johan Fredrik Bjelke, har eg nok høyrt, men ikkje som uttrykk for personleg forakt for den tidlegare nazisten.
+1	At	at	SCONJ	_	_	3	mark	_	name=O
+2	Næss	Næss	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+3	sat	sitje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	ccomp	_	name=O
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	spretta	sprette	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+6	opp	opp	ADP	_	_	5	compound:prt	_	name=O
+7	avhandlingssidene	avhandlingsside	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	5	obj	_	name=O|Entity=(dot~20110916_2111__T334--1)
+8	under	under	ADP	_	_	9	case	_	name=O
+9	disputasen	disputas	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(dot~20110916_2111__T335--1
+10	til	til	ADP	_	_	11	case	_	name=O
+11	Johan	Johan	NOUN	_	Gender=Masc	9	nmod	_	name=B-PER|Entity=(dot~20110916_2111__41362--1
+12	Fredrik	Fredrik	NOUN	_	Gender=Masc	11	flat:name	_	name=I-PER
+13	Bjelke	Bjelke	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PER|Entity=dot~20110916_2111__41362)dot~20110916_2111__T335)
+14	,	$,	PUNCT	_	_	5	punct	_	name=O
+15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+16	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(dot~20110916_2111__51699--1)
+17	nok	nok	ADV	_	_	18	advmod	_	name=O
+18	høyrt	høyre	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+19	,	$,	PUNCT	_	_	21	punct	_	name=O
+20	men	men	CCONJ	_	_	21	cc	_	name=O
+21	ikkje	ikkje	PART	_	Polarity=Neg	18	conj	_	name=O
+22	som	som	ADP	_	_	23	case	_	name=O
+23	uttrykk	uttrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	orphan	_	name=O|Entity=(dot~20110916_2111__T338--1
+24	for	for	ADP	_	_	26	case	_	name=O
+25	personleg	personleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O|Entity=(dot~20110916_2111__T339--1
+26	forakt	forakt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	23	nmod	_	name=O
+27	for	for	ADP	_	_	30	case	_	name=O
+28	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	name=O|Entity=(dot~20110916_2111__41362--1
+29	tidlegare	tidleg	ADJ	_	Degree=Cmp	30	amod	_	name=O
+30	nazisten	nazist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__41362)dot~20110916_2111__T339)dot~20110916_2111__T338)
+31	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 001501
+# text = Tvert om fekk han tilsett Bjelke i fast stilling; Bjelke sjølv uttrykte seinare djup takksemd overfor Næss.
+1	Tvert	tvert	ADV	_	_	2	advmod	_	name=O
+2	om	om	ADP	_	_	5	compound:prt	_	name=O
+3	fekk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+5	tilsett	tilsetje	VERB	_	VerbForm=Part	0	root	_	name=O
+6	Bjelke	Bjelke	PROPN	_	_	5	obj	_	name=B-PER|Entity=(dot~20110916_2111__41362--1)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(dot~20110916_2111__T343--1
+9	stilling	stilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T343)
+10	;	$;	PUNCT	_	_	13	punct	_	name=O
+11	Bjelke	Bjelke	PROPN	_	_	13	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__41362--1
+12	sjølv	sjølv	DET	_	PronType=Prs	11	det	_	name=O|Entity=dot~20110916_2111__41362)
+13	uttrykte	uttrykkje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	name=O
+14	seinare	sein	ADJ	_	Degree=Cmp	13	advmod	_	name=O
+15	djup	djup	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	name=O|Entity=(dot~20110916_2111__T345--1
+16	takksemd	takksemd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	name=O|Entity=dot~20110916_2111__T345)
+17	overfor	overfor	ADP	_	_	18	case	_	name=O
+18	Næss	Næss	PROPN	_	_	13	obl	_	SpaceAfter=No|name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001502
+# text = Og kva med desse bergenske tjuagutfilosofane, Ofstad, Haaland og Tønnessen?
+1	Og	og	CCONJ	_	_	2	cc	_	name=O
+2	kva	kva	PRON	_	PronType=Int	0	root	_	name=O
+3	med	med	ADP	_	_	8	case	_	name=O
+4	desse	desse	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|SplitAnte=dot~20110916_2111__T348<dot~20110916_2111__31055,dot~20110916_2111__T350<dot~20110916_2111__31055,dot~20110916_2111__T351<dot~20110916_2111__31055|Entity=(dot~20110916_2111__31055--1
+5	bergenske	bergensk	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	tjuagutfilosofane	tjuagutfilosof	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__31055)
+7	,	$,	PUNCT	_	_	6	punct	_	name=O
+8	Ofstad	Ofstad	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-PER|Entity=(dot~20110916_2111__T348--1)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	Haaland	Haaland	PROPN	_	_	8	conj	_	name=B-PER|Entity=(dot~20110916_2111__T350--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	Tønnessen	Tønnessen	PROPN	_	_	8	conj	_	SpaceAfter=No|name=B-PER|Entity=(dot~20110916_2111__T351--1)
+13	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001503
+# text = Var dei så harmoniske vener med Næss heile tida?
+1	Var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+2	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20110916_2111__31055--1)
+3	så	så	ADV	_	_	4	advmod	_	name=O|Entity=(dot~20110916_2111__T353--1
+4	harmoniske	harmonisk	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	vener	ven	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	Næss	Næss	PROPN	_	_	5	nmod	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)dot~20110916_2111__T353)
+8	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(dot~20110916_2111__T355--1
+9	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T355)
+10	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001504
+# text = Var det ikkje snarare slik at dei rømde frå han?
+1	Var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+4	snarare	snar	ADJ	_	Degree=Cmp	5	advmod	_	name=O
+5	slik	slik	ADV	_	_	0	root	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(dot~20110916_2111__31055--1)
+8	rømde	rømme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl	_	name=O
+9	frå	frå	ADP	_	_	10	case	_	name=O
+10	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__7014578--1)
+11	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001505
+# text = Uklårt vatn
+1	Uklårt	uklår	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	name=O|Entity=(dot~20110916_2111__T358--1
+2	vatn	vatn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=dot~20110916_2111__T358)
+
+# sent_id = 001506
+# text = Særleg i framstillinga av miljøaktivisten, eller snarare den teoretiske miljøaktivisten - for Næss pla dukka opp i lenkjegjengar fyrst på slutten, når VG-fotografane var komne - , er Gjefsen god:
+1	Særleg	særleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	framstillinga	framstilling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	32	obl	_	name=O|Entity=(dot~20110916_2111__T359--1
+4	av	av	ADP	_	_	5	case	_	name=O
+5	miljøaktivisten	miljøaktivist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T360--1(dot~20110916_2111__7014578--1
+6	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=dot~20110916_2111__7014578)
+7	eller	eller	CCONJ	_	_	11	cc	_	name=O
+8	snarare	snar	ADJ	_	Degree=Cmp	11	amod	_	name=O|Entity=(dot~20110916_2111__7014578--1
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O
+10	teoretiske	teoretisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	miljøaktivisten	miljøaktivist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	conj	_	name=O|Entity=dot~20110916_2111__7014578)dot~20110916_2111__T360)dot~20110916_2111__T359)
+12	-	$-	PUNCT	_	_	3	punct	_	name=O
+13	for	for	CCONJ	_	_	16	cc	_	name=O
+14	Næss	Næss	PROPN	_	_	16	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__7014578--1)
+15	pla	pla	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	32	parataxis	_	name=O
+16	dukka	dukke	VERB	_	VerbForm=Inf	15	ccomp	_	name=O
+17	opp	opp	ADP	_	_	16	compound:prt	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	lenkjegjengar	lenkjegjeng	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obl	_	name=O|Entity=(dot~20110916_2111__T364--1)
+20	fyrst	fyrst	ADV	_	_	22	advmod	_	name=O
+21	på	på	ADP	_	_	22	case	_	name=O
+22	slutten	slutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T365--1)
+23	,	$,	PUNCT	_	_	27	punct	_	name=O
+24	når	når	SCONJ	_	_	27	mark	_	name=O
+25	VG-fotografane	VG-fotograf	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	27	nsubj	_	name=B-DRV|Entity=(dot~20110916_2111__T366--1)
+26	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	27	cop	_	name=O
+27	komne	kome	ADJ	_	Number=Plur|VerbForm=Part	22	appos	_	name=O
+28	-	$-	PUNCT	_	_	27	punct	_	name=O
+29	,	$,	PUNCT	_	_	27	punct	_	name=O
+30	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	name=O
+31	Gjefsen	Gjefsen	PROPN	_	_	32	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__183226--1)
+32	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+33	:	$:	PUNCT	_	_	32	punct	_	name=O
+
+# sent_id = 001507
+# text = Både godt og vondt kjem klårt fram, kan henda mest det siste.
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(dot~20110916_2111__T368--1(dot~20110916_2111__T369--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	vondt	vond	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	name=O|Entity=(dot~20110916_2111__T370--1)dot~20110916_2111__T368)
+5	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	klårt	klår	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+7	fram	fram	ADP	_	_	5	compound:prt	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	13	punct	_	name=O
+9	kan	kan	ADV	_	_	11	advmod	_	name=O
+10	henda	henda	ADV	_	_	9	advmod	_	name=O
+11	mest	mykje	ADJ	_	Definite=Ind|Degree=Sup	13	advmod	_	name=O
+12	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O
+13	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	conj	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001508
+# text = At han var ein nyttig frontfigur, kan henda nyttig idiot, men at djupna i djupøkosofien når alt kom til alt, var grunnare eller uklårare enn ein skulle venta seg av ein som åtvara mot at når ein ikkje såg botnen i eit vatn, kunne det koma av at vatnet var uklårt.
+1	At	at	SCONJ	_	_	6	mark	_	name=O
+2	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(dot~20110916_2111__T372--1
+5	nyttig	nyttig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	frontfigur	frontfigur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=dot~20110916_2111__T372)
+8	kan	kan	ADV	_	_	11	advmod	_	name=O|Entity=(dot~20110916_2111__T373--1
+9	henda	henda	ADV	_	_	8	advmod	_	name=O
+10	nyttig	nyttig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	idiot	idiot	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T373)
+12	,	$,	PUNCT	_	_	25	punct	_	name=O
+13	men	men	CCONJ	_	_	25	cc	_	name=O
+14	at	at	SCONJ	_	_	25	mark	_	name=O
+15	djupna	djupn	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	25	nsubj	_	name=O|Entity=(dot~20110916_2111__T374--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	djupøkosofien	djupøkosofi	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(dot~20110916_2111__T375--1)dot~20110916_2111__T374)
+18	når	når	SCONJ	_	_	20	mark	_	name=O
+19	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(dot~20110916_2111__T376--1)
+20	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	advcl	_	name=O
+21	til	til	ADP	_	_	22	case	_	name=O
+22	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__T377--1)
+23	,	$,	PUNCT	_	_	20	punct	_	name=O
+24	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	cop	_	name=O
+25	grunnare	grunn	ADJ	_	Degree=Cmp	6	conj	_	name=O
+26	eller	eller	CCONJ	_	_	27	cc	_	name=O
+27	uklårare	uklår	ADJ	_	Degree=Cmp	25	conj	_	name=O
+28	enn	enn	SCONJ	_	_	31	mark	_	name=O
+29	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	31	nsubj	_	name=O|Entity=(dot~20110916_2111__2790--1)
+30	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	31	aux	_	name=O
+31	venta	vente	VERB	_	VerbForm=Inf	27	advcl	_	name=O
+32	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	31	obj	_	name=O|Entity=(dot~20110916_2111__2790--1)
+33	av	av	ADP	_	_	34	case	_	name=O
+34	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	31	obl	_	name=O|Entity=(dot~20110916_2111__T379--1
+35	som	som	PRON	_	PronType=Rel	36	nsubj	_	name=O
+36	åtvara	åtvare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	34	acl:relcl	_	name=O
+37	mot	mot	SCONJ	_	_	50	mark	_	name=O
+38	at	at	SCONJ	_	_	50	mark	_	name=O
+39	når	når	SCONJ	_	_	42	mark	_	name=O
+40	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	42	nsubj	_	name=O|Entity=(dot~20110916_2111__T380--1)
+41	ikkje	ikkje	PART	_	Polarity=Neg	42	advmod	_	name=O
+42	såg	sjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	50	advcl	_	name=O
+43	botnen	botn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	42	obj	_	name=O|Entity=(dot~20110916_2111__T381--1
+44	i	i	ADP	_	_	46	case	_	name=O
+45	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	46	det	_	name=O|Entity=(dot~20110916_2111__T382--1
+46	vatn	vatn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	43	nmod	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T382)dot~20110916_2111__T381)
+47	,	$,	PUNCT	_	_	42	punct	_	name=O
+48	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	50	aux	_	name=O
+49	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	50	expl	_	name=O
+50	koma	kome	VERB	_	VerbForm=Inf	36	advcl	_	name=O
+51	av	av	SCONJ	_	_	55	mark	_	name=O
+52	at	at	SCONJ	_	_	55	mark	_	name=O
+53	vatnet	vatn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	55	nsubj	_	name=O|Entity=(dot~20110916_2111__T383--1)
+54	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	55	cop	_	name=O
+55	uklårt	uklår	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	50	advcl	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__T379)
+56	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001509
+# text = Men har vi han no?
+1	Men	men	CCONJ	_	_	2	cc	_	name=O
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110916_2111__T384--1)
+4	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+5	no	no	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+6	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001510
+# text = Han slepp nok unna her òg.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110916_2111__7014578--1)
+2	slepp	sleppe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	nok	nok	ADV	_	_	2	advmod	_	name=O
+4	unna	unna	ADP	_	_	2	compound:prt	_	name=O
+5	her	her	ADV	_	_	2	advmod	_	name=O
+6	òg	òg	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001511
+# text = Med det næssianske smilet.
+1	Med	med	ADP	_	_	4	case	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(dot~20110916_2111__2778--1
+3	næssianske	næssiansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	smilet	smil	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=dot~20110916_2111__2778)
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001512
+# text = Sjølv ikkje Substansen eller Naturen kunne stå imot det.
+1	Sjølv	sjølv	ADV	_	_	2	advmod	_	name=O|Entity=(dot~20110916_2111__T388--1(dot~20110916_2111__T389--1
+2	ikkje	ikkje	PART	_	Polarity=Neg	3	nmod	_	name=O
+3	Substansen	Substansen	PROPN	_	_	7	nsubj	_	name=O|Entity=dot~20110916_2111__T389)
+4	eller	eller	CCONJ	_	_	5	cc	_	name=O
+5	Naturen	Naturen	PROPN	_	_	3	conj	_	name=O|Entity=(dot~20110916_2111__T390--1)dot~20110916_2111__T388)
+6	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	name=O
+7	stå	stå	VERB	_	VerbForm=Inf	0	root	_	name=O
+8	imot	imot	ADP	_	_	9	case	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110916_2111__2778--1)
+10	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001513
+# text = Arild Pedersen er professor i filosofi ved Universitetet i Oslo.
+1	Arild	Arild	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__51699--1
+2	Pedersen	Pedersen	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=dot~20110916_2111__51699)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	professor	professor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(dot~20110916_2111__T393--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	filosofi	filosofi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(dot~20110916_2111__T394--1)
+7	ved	ved	ADP	_	_	8	case	_	name=O
+8	Universitetet	Universitetet	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(dot~20110916_2111__3896--1
+9	i	i	ADP	_	_	8	flat:name	_	name=I-ORG
+10	Oslo	Oslo	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=dot~20110916_2111__3896)dot~20110916_2111__T393)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002091
+# text = Arild Pedersen er professor i filosofi ved Universitetet i Oslo.
+1	Arild	Arild	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(dot~20110916_2111__51699--1
+2	Pedersen	Pedersen	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=dot~20110916_2111__51699)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	professor	professor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(dot~20110916_2111__T397--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	filosofi	filosofi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(dot~20110916_2111__T398--1)
+7	ved	ved	ADP	_	_	8	case	_	name=O
+8	Universitetet	Universitetet	PROPN	_	_	4	obl	_	name=B-ORG|Entity=(dot~20110916_2111__3896--1
+9	i	i	ADP	_	_	8	flat:name	_	name=I-ORG
+10	Oslo	Oslo	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=dot~20110916_2111__3896)dot~20110916_2111__T397)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+

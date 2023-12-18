@@ -1,0 +1,533 @@
+# newdoc id = vtbnn~20030904-1491
+# global.Entity = eid-etype-head-other
+# sent_id = 013201
+# text = - Frp-politikk vil rasere Vest-Telemark
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Frp-politikk	Frp-politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=B-DRV|Entity=(vtbnn~20030904_1491__470--1)
+3	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	rasere	rasere	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	Vest-Telemark	Vest-Telemark	PROPN	_	_	4	obj	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__10724--1)
+
+# newpar
+# sent_id = 013202
+# text = Listetoppane for Senterpartiet, Jon Inge Nordbø i Nissdal og Torstein Tveito i Kviteseid, går hardt ut mot Framstegspartiets politikk og hevdar at Vest-Telemark vil bli rasert om Frp sin politikk fekk gjennomslag.
+1	Listetoppane	listetopp	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=(vtbnn~20030904_1491__7469--1(vtbnn~20030904_1491__T6[1/2]--1(vtbnn~20030904_1491__T3--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	Senterpartiet	Senterpartiet	NOUN	_	Gender=Neut	1	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20030904_1491__8679--1)
+4	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=vtbnn~20030904_1491__T3)
+5	Jon	Jon	NOUN	_	Gender=Masc	16	nsubj	_	name=B-PER
+6	Inge	Inge	PROPN	_	_	5	flat:name	_	name=I-PER
+7	Nordbø	Nordbø	PROPN	_	_	5	flat:name	_	name=I-PER
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Nissdal	Nissdal	PROPN	_	_	5	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__4216--1)vtbnn~20030904_1491__T6[1/2])
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	Torstein	Torstein	NOUN	_	Gender=Masc	5	conj	_	name=B-PER|Entity=(vtbnn~20030904_1491__T8--1
+12	Tveito	Tveito	PROPN	_	_	11	flat:name	_	name=I-PER
+13	i	i	ADP	_	_	14	case	_	name=O
+14	Kviteseid	Kviteseid	PROPN	_	_	11	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__4236--1)vtbnn~20030904_1491__T8)vtbnn~20030904_1491__7469)
+15	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=(vtbnn~20030904_1491__T6[2/2]--1)
+16	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+17	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	name=O
+18	ut	ut	ADP	_	_	21	case	_	name=O
+19	mot	mot	ADP	_	_	21	case	_	name=O
+20	Framstegspartiets	Framstegspartiet	NOUN	_	Case=Gen|Gender=Neut	21	nmod	_	name=B-ORG|Entity=(vtbnn~20030904_1491__470--1(vtbnn~20030904_1491__11841--1)
+21	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	name=O|Entity=vtbnn~20030904_1491__470)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	hevdar	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	conj	_	name=O
+24	at	at	SCONJ	_	_	28	mark	_	name=O
+25	Vest-Telemark	Vest-Telemark	PROPN	_	_	28	nsubj:pass	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__10724--1)
+26	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	name=O
+27	bli	bli	AUX	_	VerbForm=Inf	28	aux:pass	_	name=O
+28	rasert	rasere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	23	ccomp	_	name=O
+29	om	om	SCONJ	_	_	33	mark	_	name=O
+30	Frp	Frp	NOUN	_	Abbr=Yes	31	obl	_	name=B-ORG|Entity=(vtbnn~20030904_1491__470--1(vtbnn~20030904_1491__T14--1(vtbnn~20030904_1491__11841--1)
+31	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	nmod	_	name=O|Entity=vtbnn~20030904_1491__T14)
+32	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	nsubj	_	name=O|Entity=vtbnn~20030904_1491__470)
+33	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	28	advcl	_	name=O
+34	gjennomslag	gjennomslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	33	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__T16--1)
+35	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 013203
+# text = - Kommunane i Vest-Telemark, medrekna Hjartdal, vil få 41 millionar kroner mindre i overføringar om Frp sitt framlegg til statsbudsjett blei vedteke, hevdar Sp-toppane.
+1	-	$-	PUNCT	_	_	10	punct	_	name=O
+2	Kommunane	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	name=O|Entity=(vtbnn~20030904_1491__T17--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Vest-Telemark	Vest-Telemark	PROPN	_	_	2	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__10724--1)
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	medrekna	medrekna	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	name=O
+7	Hjartdal	Hjartdal	PROPN	_	_	6	obj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__3268--1)
+8	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=vtbnn~20030904_1491__T17)
+9	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	41	41	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T21--1(vtbnn~20030904_1491__T20--1
+12	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	name=O|Entity=vtbnn~20030904_1491__T20)
+13	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	obl	_	name=O|Entity=vtbnn~20030904_1491__T21)
+14	mindre	liten	ADJ	_	Degree=Cmp	10	obj	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	overføringar	overføring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T22--1)
+17	om	om	SCONJ	_	_	24	mark	_	name=O
+18	Frp	Frp	NOUN	_	Abbr=Yes	19	obl	_	name=B-ORG|Entity=(vtbnn~20030904_1491__6478--1(vtbnn~20030904_1491__T24--1(vtbnn~20030904_1491__11841--1)
+19	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	name=O|Entity=vtbnn~20030904_1491__T24)
+20	framlegg	framlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	nsubj:pass	_	name=O
+21	til	til	ADP	_	_	22	case	_	name=O
+22	statsbudsjett	statsbudsjett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T26--1)vtbnn~20030904_1491__6478)
+23	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux:pass	_	name=O
+24	vedteke	vedta	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	10	advcl	_	SpaceAfter=No|name=O
+25	,	$,	PUNCT	_	_	26	punct	_	name=O
+26	hevdar	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	name=O
+27	Sp-toppane	Sp-topp	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	26	nsubj	_	SpaceAfter=No|name=B-DRV|Entity=(vtbnn~20030904_1491__7469--1)
+28	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 013204
+# text = - Det er totalt manglande samsvar mellom det Frp står for sentralt og det som blir prioritert lokalt, påstår dei.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	totalt	total	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(vtbnn~20030904_1491__T28--1
+5	manglande	mangle	ADJ	_	VerbForm=Part	6	amod	_	name=O
+6	samsvar	samsvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	name=O
+7	mellom	mellom	ADP	_	_	8	case	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T29--1(vtbnn~20030904_1491__T30--1
+9	Frp	Frp	NOUN	_	Abbr=Yes	10	nsubj	_	name=B-ORG|Entity=(vtbnn~20030904_1491__11841--1)
+10	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+11	for	for	ADP	_	_	10	compound:prt	_	name=O
+12	sentralt	sentral	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O|Entity=vtbnn~20030904_1491__T30)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	conj	_	name=O|Entity=(vtbnn~20030904_1491__T32--1
+15	som	som	PRON	_	PronType=Rel	17	nsubj:pass	_	name=O
+16	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux:pass	_	name=O
+17	prioritert	prioritere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	14	acl:relcl	_	name=O
+18	lokalt	lokal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20030904_1491__T32)vtbnn~20030904_1491__T29)vtbnn~20030904_1491__T28)
+19	,	$,	PUNCT	_	_	20	punct	_	name=O
+20	påstår	påstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+21	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__7469--1)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 013205
+# text = Listetoppane for Senterpartiet i Nissedal og Kviteseid, Jon Inge Nordbø (t.v.) og Torstein Tveito, meiner Framstegspartiets politikk vil rasere Vest-Telemark.
+1	Listetoppane	listetopp	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	name=O|Entity=(vtbnn~20030904_1491__7469--1(vtbnn~20030904_1491__T34--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	Senterpartiet	Senterpartiet	NOUN	_	Gender=Neut	1	nmod	_	name=B-ORG|Entity=(vtbnn~20030904_1491__8679--1)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Nissedal	Nissedal	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T36--1(vtbnn~20030904_1491__4216--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	Kviteseid	Kviteseid	PROPN	_	_	5	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__4236--1)vtbnn~20030904_1491__T36)
+8	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=vtbnn~20030904_1491__T34)
+9	Jon	Jon	NOUN	_	Gender=Masc	19	nsubj	_	name=B-PER
+10	Inge	Inge	PROPN	_	_	9	flat:name	_	name=I-PER
+11	Nordbø	Nordbø	PROPN	_	_	9	flat:name	_	name=I-PER
+12	(	$(	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O
+13	t.v.	t.v.	ADV	_	Abbr=Yes	9	advmod	_	SpaceAfter=No|name=O
+14	)	$)	PUNCT	_	_	13	punct	_	name=O
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	Torstein	Torstein	NOUN	_	Gender=Masc	9	conj	_	name=B-PER|Entity=(vtbnn~20030904_1491__T41--1
+17	Tveito	Tveito	PROPN	_	_	16	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20030904_1491__T41)vtbnn~20030904_1491__7469)
+18	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=(vtbnn~20030904_1491__T40--1)
+19	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+20	Framstegspartiets	Framstegspartiet	NOUN	_	Case=Gen|Gender=Neut	21	nmod	_	name=B-ORG|Entity=(vtbnn~20030904_1491__470--1(vtbnn~20030904_1491__11841--1)
+21	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nsubj	_	name=O|Entity=vtbnn~20030904_1491__470)
+22	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+23	rasere	rasere	VERB	_	VerbForm=Inf	19	ccomp	_	name=O
+24	Vest-Telemark	Vest-Telemark	PROPN	_	_	23	obj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__10724--1)
+25	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# newpar
+# sent_id = 013206
+# text = Listetoppane for Senterpartiet i Nissedal og Kviteseid, Jon Inge Nordbø og Torstein Tveito, har sett på kva fylgjer det vil få for Vest-Telemark om framlegget frå Framstegspartiet til statsbudsjett blir vedteke.
+1	Listetoppane	listetopp	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	name=O|Entity=(vtbnn~20030904_1491__7469--1(vtbnn~20030904_1491__3293--1(vtbnn~20030904_1491__T45--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	Senterpartiet	Senterpartiet	NOUN	_	Gender=Neut	1	nmod	_	name=B-ORG|Entity=(vtbnn~20030904_1491__8679--1)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Nissedal	Nissedal	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T47--1(vtbnn~20030904_1491__4216--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	Kviteseid	Kviteseid	PROPN	_	_	5	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__4236--1)vtbnn~20030904_1491__T47)
+8	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=vtbnn~20030904_1491__T45)
+9	Jon	Jon	NOUN	_	Gender=Masc	17	nsubj	_	name=B-PER
+10	Inge	Inge	PROPN	_	_	9	flat:name	_	name=I-PER
+11	Nordbø	Nordbø	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=vtbnn~20030904_1491__3293)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	Torstein	Torstein	NOUN	_	Gender=Masc	9	conj	_	name=B-PER|Entity=(vtbnn~20030904_1491__4526--1
+14	Tveito	Tveito	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20030904_1491__4526)vtbnn~20030904_1491__7469)
+15	,	$,	PUNCT	_	_	9	punct	_	name=O
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	sett	sjå	VERB	_	VerbForm=Part	0	root	_	name=O
+18	på	på	SCONJ	_	_	23	mark	_	name=O
+19	kva	kva	DET	_	PronType=Int	20	det	_	name=O|Entity=(vtbnn~20030904_1491__T53[1/2]--1
+20	fylgjer	fylgje	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	23	obj	_	name=O|Entity=vtbnn~20030904_1491__T53[1/2])
+21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	name=O
+22	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+23	få	få	VERB	_	VerbForm=Inf	17	advcl	_	name=O
+24	for	for	ADP	_	_	25	case	_	name=O|Entity=(vtbnn~20030904_1491__T53[2/2]--1
+25	Vest-Telemark	Vest-Telemark	PROPN	_	_	20	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__10724--1)vtbnn~20030904_1491__T53[2/2])
+26	om	om	SCONJ	_	_	33	mark	_	name=O
+27	framlegget	framlegg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	33	nsubj:pass	_	name=O|Entity=(vtbnn~20030904_1491__6478--1
+28	frå	frå	ADP	_	_	29	case	_	name=O
+29	Framstegspartiet	Framstegspartiet	NOUN	_	Gender=Neut	27	nmod	_	name=B-ORG|Entity=(vtbnn~20030904_1491__11841--1)
+30	til	til	ADP	_	_	31	case	_	name=O
+31	statsbudsjett	statsbudsjett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	27	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T57--1)vtbnn~20030904_1491__6478)
+32	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	33	aux:pass	_	name=O
+33	vedteke	vedta	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	23	csubj	_	SpaceAfter=No|name=O
+34	.	$.	PUNCT	_	_	17	punct	_	name=O
+
+# sent_id = 013207
+# text = Etter Sp sitt reknestykke vil Frp sitt framlegg om å innlemme regionaltilskotet og basistilskotet til kommunane i det generelle innbyggartilskotet føre til 40,9 millionar kroner mindre i overføringar til Vest-Telemark, inkludert Hjartdal.
+1	Etter	etter	ADP	_	_	4	case	_	name=O
+2	Sp	Sp	NOUN	_	Abbr=Yes	3	obl	_	name=B-ORG|Entity=(vtbnn~20030904_1491__T60--1(vtbnn~20030904_1491__T59--1(vtbnn~20030904_1491__8679--1)
+3	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=vtbnn~20030904_1491__T59)
+4	reknestykke	reknestykke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	name=O|Entity=vtbnn~20030904_1491__T60)
+5	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+6	Frp	Frp	NOUN	_	Abbr=Yes	7	obl	_	name=B-ORG|Entity=(vtbnn~20030904_1491__6478--1(vtbnn~20030904_1491__T62--1(vtbnn~20030904_1491__11841--1)
+7	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=vtbnn~20030904_1491__T62)
+8	framlegg	framlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	nsubj	_	name=O
+9	om	om	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	innlemme	innlemme	VERB	_	VerbForm=Inf	8	acl	_	name=O
+12	regionaltilskotet	regionaltilskot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obj	_	name=O|Entity=(vtbnn~20030904_1491__T64--1(vtbnn~20030904_1491__T65--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	basistilskotet	basistilskot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	conj	_	name=O|Entity=(vtbnn~20030904_1491__T66--1
+15	til	til	ADP	_	_	16	case	_	name=O
+16	kommunane	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	14	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T67--1)vtbnn~20030904_1491__T66)vtbnn~20030904_1491__T64)
+17	i	i	ADP	_	_	20	case	_	name=O
+18	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(vtbnn~20030904_1491__T68--1
+19	generelle	generell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	name=O
+20	innbyggartilskotet	innbyggartilskot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=vtbnn~20030904_1491__T68)vtbnn~20030904_1491__6478)
+21	føre	føre	VERB	_	VerbForm=Inf	0	root	_	name=O
+22	til	til	ADP	_	_	26	case	_	name=O
+23	40,9	40,9	NUM	_	Number=Plur|NumType=Card	24	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T71--1(vtbnn~20030904_1491__T70--1(vtbnn~20030904_1491__T69--1
+24	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	25	nmod	_	name=O|Entity=vtbnn~20030904_1491__T69)
+25	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	26	obl	_	name=O|Entity=vtbnn~20030904_1491__T70)
+26	mindre	liten	ADJ	_	Degree=Cmp	21	advmod	_	name=O
+27	i	i	ADP	_	_	28	case	_	name=O
+28	overføringar	overføring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	26	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T72--1
+29	til	til	ADP	_	_	30	case	_	name=O
+30	Vest-Telemark	Vest-Telemark	PROPN	_	_	28	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__10724--1
+31	,	$,	PUNCT	_	_	32	punct	_	name=O
+32	inkludert	inkludere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	30	amod	_	name=O
+33	Hjartdal	Hjartdal	PROPN	_	_	32	obj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__3268--1)vtbnn~20030904_1491__10724)vtbnn~20030904_1491__T72)vtbnn~20030904_1491__T71)
+34	.	$.	PUNCT	_	_	21	punct	_	name=O
+
+# sent_id = 013208
+# text = Alle kommunane i vestfylket vil tape.
+1	Alle	all	DET	_	Number=Plur|PronType=Tot	2	det	_	name=O|Entity=(vtbnn~20030904_1491__T75--1
+2	kommunane	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	vestfylket	vestfylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20030904_1491__10724--1)vtbnn~20030904_1491__T75)
+5	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	tape	tape	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 013209
+# text = Dei minste kommunane får dei største minusane.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(vtbnn~20030904_1491__T77--1
+2	minste	liten	ADJ	_	Definite=Def|Degree=Sup	3	amod	_	name=O
+3	kommunane	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=vtbnn~20030904_1491__T77)
+4	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	dei	dei	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(vtbnn~20030904_1491__T78--1
+6	største	stor	ADJ	_	Definite=Def|Degree=Sup	7	amod	_	name=O
+7	minusane	minus	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20030904_1491__T78)
+8	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013210
+# text = Fyresdal vil få 7,8 millionar mindre, Nissedal 7,7 millionar, Hjartdal 7,4 millionar, Kviteseid 6,5 millionar og Seljord 6,5 millionar.
+1	Fyresdal	Fyresdal	PROPN	_	_	3	nsubj	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T79--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	7,8	7,8	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T80--1
+5	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O|Entity=vtbnn~20030904_1491__T80)
+6	mindre	liten	ADJ	_	Degree=Cmp	3	obj	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	Nissedal	Nissedal	PROPN	_	_	3	conj	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T81--1
+9	7,7	7,7	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T82--1
+10	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	orphan	_	SpaceAfter=No|name=O|Entity=vtbnn~20030904_1491__T82)
+11	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=vtbnn~20030904_1491__T81)
+12	Hjartdal	Hjartdal	PROPN	_	_	3	conj	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T83--1(vtbnn~20030904_1491__3268--1)
+13	7,4	7,4	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T84--1
+14	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	orphan	_	SpaceAfter=No|name=O|Entity=vtbnn~20030904_1491__T84)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O|Entity=vtbnn~20030904_1491__T83)
+16	Kviteseid	Kviteseid	PROPN	_	_	3	conj	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T85--1
+17	6,5	6,5	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T86--1
+18	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	orphan	_	name=O|Entity=vtbnn~20030904_1491__T86)vtbnn~20030904_1491__T85)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	Seljord	Seljord	PROPN	_	_	3	conj	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T87--1
+21	6,5	6,5	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T88--1
+22	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	orphan	_	SpaceAfter=No|name=O|Entity=vtbnn~20030904_1491__T88)vtbnn~20030904_1491__T87)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013211
+# text = Minst utslag gjev det for Tokke og Vinje med høvesvis 3,2 og 1,8 millionar i minus.
+1	Minst	liten	ADJ	_	Definite=Ind|Degree=Sup	2	amod	_	name=O|Entity=(vtbnn~20030904_1491__T89--1
+2	utslag	utslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=vtbnn~20030904_1491__T89)
+3	gjev	gje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20030904_1491__T90--1)
+5	for	for	ADP	_	_	6	case	_	name=O
+6	Tokke	Tokke	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T91--1(vtbnn~20030904_1491__T92--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Vinje	Vinje	PROPN	_	_	6	conj	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T93--1)vtbnn~20030904_1491__T91)
+9	med	med	ADP	_	_	14	case	_	name=O
+10	høvesvis	høvesvis	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O|Entity=(vtbnn~20030904_1491__T94--1
+11	3,2	3,2	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	1,8	1,8	NUM	_	Number=Plur|NumType=Card	11	conj	_	name=O
+14	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	minus	minus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__T95--1)vtbnn~20030904_1491__T94)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013212
+# text = På den andre sida i Telemark får Skien 40 millionar kroner i pluss og Porsgrunn 25 millionar i pluss, etter framlegget frå Frp.
+1	På	på	ADP	_	_	4	case	_	name=O
+2	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(vtbnn~20030904_1491__T96--1
+3	andre	annan	DET	_	Definite=Def|Number=Sing|PronType=Dem	4	det	_	name=O
+4	sida	side	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Telemark	Telemark	PROPN	_	_	4	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T97--1)vtbnn~20030904_1491__T96)
+7	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	Skien	Skien	PROPN	_	_	7	nsubj	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T98--1)
+9	40	40	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T100--1(vtbnn~20030904_1491__T99--1
+10	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	name=O|Entity=vtbnn~20030904_1491__T99)
+11	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	pluss	pluss	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T101--1)vtbnn~20030904_1491__T100)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	Porsgrunn	Porsgrunn	PROPN	_	_	7	conj	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T102--1
+16	25	25	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T103--1
+17	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	orphan	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	pluss	pluss	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__T104--1)
+20	,	$,	PUNCT	_	_	22	punct	_	name=O|Entity=vtbnn~20030904_1491__T103)
+21	etter	etter	ADP	_	_	22	case	_	name=O
+22	framlegget	framlegg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	obl	_	name=O|Entity=(vtbnn~20030904_1491__6478--1
+23	frå	frå	ADP	_	_	24	case	_	name=O
+24	Frp	Frp	NOUN	_	Abbr=Yes	22	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20030904_1491__11841--1)vtbnn~20030904_1491__6478)vtbnn~20030904_1491__T102)
+25	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 013213
+# text = - Lite samsvar mellom lokal og sentral prioritering
+1	-	$-	PUNCT	_	_	3	punct	_	name=O|Entity=(vtbnn~20030904_1491__T107--1
+2	Lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	name=O
+3	samsvar	samsvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+4	mellom	mellom	ADP	_	_	8	case	_	name=O
+5	lokal	lokal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(vtbnn~20030904_1491__T108--1
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	sentral	sentral	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	conj	_	name=O
+8	prioritering	prioritering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	name=O|Entity=vtbnn~20030904_1491__T108)vtbnn~20030904_1491__T107)
+
+# sent_id = 013214
+# text = - Framlegget betyr ei enorm forfordeling av sentrale kommunar og uttapping av distriktskommunane, seier listetopp for Nissedal Sp, Jon Inge Nordbø.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Framlegget	framlegg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20030904_1491__6478--1)
+3	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20030904_1491__T110--1(vtbnn~20030904_1491__T111--1
+5	enorm	enorm	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	forfordeling	forfordeling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O
+7	av	av	ADP	_	_	9	case	_	name=O
+8	sentrale	sentral	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(vtbnn~20030904_1491__T112--1
+9	kommunar	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	name=O|Entity=vtbnn~20030904_1491__T112)vtbnn~20030904_1491__T111)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	uttapping	uttapping	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	conj	_	name=O|Entity=(vtbnn~20030904_1491__T113--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	distriktskommunane	distriktskommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__T114--1)vtbnn~20030904_1491__T113)vtbnn~20030904_1491__T110)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+16	listetopp	listetopp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=(vtbnn~20030904_1491__3293--1(vtbnn~20030904_1491__T115--1
+17	for	for	ADP	_	_	18	case	_	name=O
+18	Nissedal	Nissedal	PROPN	_	_	16	nmod	_	name=B-ORG|Entity=(vtbnn~20030904_1491__8679--1
+19	Sp	Sp	NOUN	_	Abbr=Yes	18	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=vtbnn~20030904_1491__8679)
+20	,	$,	PUNCT	_	_	18	punct	_	name=O|Entity=vtbnn~20030904_1491__T115)
+21	Jon	Jon	NOUN	_	Gender=Masc	15	nsubj	_	name=B-PER
+22	Inge	Inge	PROPN	_	_	21	flat:name	_	name=I-PER
+23	Nordbø	Nordbø	PROPN	_	_	21	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20030904_1491__3293)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013215
+# text = - Kva hjelper det om Nissedal Frp vil slåss for grendeskulane når partiets kommuneopplegg betyr 7,7 millionar i minus for kommunen, spør han.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Kva	kva	PRON	_	PronType=Int	3	obl	_	name=O
+3	hjelper	hjelpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	om	om	SCONJ	_	_	9	mark	_	name=O
+6	Nissedal	Nissedal	PROPN	_	_	9	nsubj	_	name=B-ORG|Entity=(vtbnn~20030904_1491__2238--1
+7	Frp	Frp	NOUN	_	Abbr=Yes	6	flat:name	_	name=I-ORG|Entity=vtbnn~20030904_1491__2238)
+8	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	slåss	slåss	VERB	_	VerbForm=Inf	3	csubj	_	name=O
+10	for	for	ADP	_	_	11	case	_	name=O
+11	grendeskulane	grendeskule	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	obl	_	name=O|Entity=(vtbnn~20030904_1491__T119--1)
+12	når	når	SCONJ	_	_	15	mark	_	name=O
+13	partiets	parti	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	name=O|Entity=(vtbnn~20030904_1491__6478--1(vtbnn~20030904_1491__2238--1)
+14	kommuneopplegg	kommuneopplegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nsubj	_	name=O|Entity=vtbnn~20030904_1491__6478)
+15	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+16	7,7	7,7	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T122--1
+17	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obj	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	minus	minus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T123--1)vtbnn~20030904_1491__T122)
+20	for	for	ADP	_	_	21	case	_	name=O
+21	kommunen	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__4216--1)
+22	,	$,	PUNCT	_	_	23	punct	_	name=O
+23	spør	spørje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+24	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__3293--1)
+25	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013216
+# text = - Senterpartiet foreslo under behandlinga av kommuneproposisjonen å plusse på fire milliardar meir enn regjeringa.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Senterpartiet	Senterpartiet	NOUN	_	Gender=Neut	3	nsubj	_	name=B-ORG|Entity=(vtbnn~20030904_1491__8679--1)
+3	foreslo	foreslå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	under	under	ADP	_	_	5	case	_	name=O
+5	behandlinga	behandling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20030904_1491__T127--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	kommuneproposisjonen	kommuneproposisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T128--1)vtbnn~20030904_1491__T127)
+8	å	å	PART	_	_	9	mark	_	name=O
+9	plusse	plusse	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+10	på	på	ADP	_	_	9	compound:prt	_	name=O
+11	fire	fire	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T129--1
+12	milliardar	milliard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	name=O|Entity=vtbnn~20030904_1491__T129)
+13	meir	mykje	ADJ	_	Degree=Cmp	9	obj	_	name=O
+14	enn	enn	ADP	_	_	15	case	_	name=O
+15	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__T130--1)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013217
+# text = Det ville ha medført ein pluss for Vest-Telemark medrekna Hjartdal, på 15,6 millionar kroner, hevdar Torstein Tveito, listetopp for Sp i Kviteseid.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(vtbnn~20030904_1491__T131--1)
+2	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	ha	ha	AUX	_	VerbForm=Inf	4	aux	_	name=O
+4	medført	medføre	VERB	_	VerbForm=Part	0	root	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20030904_1491__T132[1/2]--1
+6	pluss	pluss	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=vtbnn~20030904_1491__T132[1/2])
+7	for	for	ADP	_	_	8	case	_	name=O
+8	Vest-Telemark	Vest-Telemark	PROPN	_	_	4	obl	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__10724--1
+9	medrekna	medrekna	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+10	Hjartdal	Hjartdal	PROPN	_	_	9	obj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__T134--1)vtbnn~20030904_1491__10724)
+11	,	$,	PUNCT	_	_	8	punct	_	name=O
+12	på	på	ADP	_	_	15	case	_	name=O|Entity=(vtbnn~20030904_1491__T132[2/2]--1
+13	15,6	15,6	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T136--1(vtbnn~20030904_1491__T135--1
+14	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	name=O|Entity=vtbnn~20030904_1491__T135)
+15	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20030904_1491__T136)vtbnn~20030904_1491__T132[2/2])
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	hevdar	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+18	Torstein	Torstein	NOUN	_	Gender=Masc	17	nsubj	_	name=B-PER|Entity=(vtbnn~20030904_1491__4526--1
+19	Tveito	Tveito	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PER
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	listetopp	listetopp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	appos	_	name=O|Entity=(vtbnn~20030904_1491__T138--1
+22	for	for	ADP	_	_	23	case	_	name=O
+23	Sp	Sp	NOUN	_	Abbr=Yes	21	nmod	_	name=B-ORG|Entity=(vtbnn~20030904_1491__8679--1)
+24	i	i	ADP	_	_	25	case	_	name=O
+25	Kviteseid	Kviteseid	PROPN	_	_	21	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__4236--1)vtbnn~20030904_1491__T138)vtbnn~20030904_1491__4526)
+26	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013218
+# text = Eit forslag frå Senterpartiet sentralt om å auke det kommunale skatteøret med eit prosentpoeng på kostnad av fellesskatten til staten, blir det også vist til.
+1	Eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(vtbnn~20030904_1491__T141--1
+2	forslag	forslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	obl	_	name=O
+3	frå	frå	ADP	_	_	4	case	_	name=O
+4	Senterpartiet	Senterpartiet	NOUN	_	Gender=Neut	2	nmod	_	name=B-ORG|Entity=(vtbnn~20030904_1491__T142--1
+5	sentralt	sentral	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	name=O|Entity=vtbnn~20030904_1491__T142)
+6	om	om	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	auke	auke	VERB	_	VerbForm=Inf	2	acl	_	name=O
+9	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(vtbnn~20030904_1491__T143--1
+10	kommunale	kommunal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	skatteøret	skatteøre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obj	_	name=O|Entity=vtbnn~20030904_1491__T143)
+12	med	med	ADP	_	_	14	case	_	name=O
+13	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(vtbnn~20030904_1491__T144--1
+14	prosentpoeng	prosentpoeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=vtbnn~20030904_1491__T144)
+15	på	på	ADP	_	_	16	case	_	name=O
+16	kostnad	kostnad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(vtbnn~20030904_1491__T145--1
+17	av	av	ADP	_	_	18	case	_	name=O
+18	fellesskatten	fellesskatt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T146--1
+19	til	til	ADP	_	_	20	case	_	name=O
+20	staten	stat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__T147--1)vtbnn~20030904_1491__T146)vtbnn~20030904_1491__T145)
+21	,	$,	PUNCT	_	_	2	punct	_	name=O|Entity=vtbnn~20030904_1491__T141)
+22	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux:pass	_	name=O
+23	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	name=O
+24	også	også	ADV	_	_	25	advmod	_	name=O
+25	vist	vise	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+26	til	til	ADP	_	_	2	case	_	SpaceAfter=No|name=O
+27	.	$.	PUNCT	_	_	25	punct	_	name=O
+
+# sent_id = 013219
+# text = Det ville ha ført til 14,6 millionar kroner meir til dei same kommunane, viser utrekningar frå kommunaldepartementet, hevdar Sp sine kandidatar.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(vtbnn~20030904_1491__T148--1)
+2	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	ha	ha	AUX	_	VerbForm=Inf	4	aux	_	name=O
+4	ført	føre	VERB	_	VerbForm=Part	0	root	_	name=O
+5	til	til	ADP	_	_	9	case	_	name=O
+6	14,6	14,6	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(vtbnn~20030904_1491__T151--1(vtbnn~20030904_1491__T150--1(vtbnn~20030904_1491__T149--1
+7	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=vtbnn~20030904_1491__T149)
+8	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	name=O|Entity=vtbnn~20030904_1491__T150)
+9	meir	mykje	ADJ	_	Degree=Cmp	4	advmod	_	name=O
+10	til	til	ADP	_	_	13	case	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(vtbnn~20030904_1491__10724--1
+12	same	same	DET	_	Definite=Def|PronType=Dem	13	det	_	name=O
+13	kommunane	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20030904_1491__10724)vtbnn~20030904_1491__T151)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+16	utrekningar	utrekning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	15	nsubj	_	name=O|Entity=(vtbnn~20030904_1491__T153--1
+17	frå	frå	ADP	_	_	18	case	_	name=O
+18	kommunaldepartementet	kommunaldepartement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__T154--1)vtbnn~20030904_1491__T153)
+19	,	$,	PUNCT	_	_	20	punct	_	name=O
+20	hevdar	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+21	Sp	Sp	NOUN	_	Abbr=Yes	22	obl	_	name=B-ORG|Entity=(vtbnn~20030904_1491__7469--1(vtbnn~20030904_1491__T156--1(vtbnn~20030904_1491__8679--1)
+22	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	23	nmod	_	name=O|Entity=vtbnn~20030904_1491__T156)
+23	kandidatar	kandidat	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	nsubj	_	SpaceAfter=No|name=O|Entity=vtbnn~20030904_1491__7469)
+24	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013220
+# text = Dei ber veljarane i Vest-Telemark tenke seg nøye om før dei stemmer Frp.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030904_1491__7469--1)
+2	ber	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	veljarane	veljar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	iobj	_	name=O|Entity=(vtbnn~20030904_1491__2320--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Vest-Telemark	Vest-Telemark	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20030904_1491__10724--1)vtbnn~20030904_1491__2320)
+6	tenke	tenke	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+7	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	6	obj	_	name=O
+8	nøye	nøye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+9	om	om	ADP	_	_	6	compound:prt	_	name=O
+10	før	før	SCONJ	_	_	12	mark	_	name=O
+11	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(vtbnn~20030904_1491__2320--1)
+12	stemmer	stemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	name=O
+13	Frp	Frp	NOUN	_	Abbr=Yes	12	obj	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20030904_1491__11841--1)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013221
+# text = - Dette viser at Frp sin politikk er øydeleggande for distrikta, hevdar Tveito.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20030904_1491__T163--1)
+3	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	Frp	Frp	NOUN	_	Abbr=Yes	6	obl	_	name=B-ORG|Entity=(vtbnn~20030904_1491__T166--1(vtbnn~20030904_1491__T165--1(vtbnn~20030904_1491__11841--1)
+6	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=vtbnn~20030904_1491__T165)
+7	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=vtbnn~20030904_1491__T166)
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	øydeleggande	øydelegge	ADJ	_	VerbForm=Part	3	ccomp	_	name=O
+10	for	for	ADP	_	_	11	case	_	name=O
+11	distrikta	distrikt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030904_1491__T167--1)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	hevdar	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+14	Tveito	Tveito	PROPN	_	_	13	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20030904_1491__4526--1)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013222
+# text = Han meiner det er totalt manglande samsvar mellom det Framstegspartiet står for sentralt og det som blir prioritert lokalt.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030904_1491__4526--1)
+2	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	xcomp	_	name=O
+5	totalt	total	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=(vtbnn~20030904_1491__T170--1
+6	manglande	mangle	ADJ	_	VerbForm=Part	7	amod	_	name=O
+7	samsvar	samsvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	name=O
+8	mellom	mellom	ADP	_	_	9	case	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nmod	_	name=O|Entity=(vtbnn~20030904_1491__T171--1(vtbnn~20030904_1491__T172--1
+10	Framstegspartiet	Framstegspartiet	NOUN	_	Gender=Neut	11	nsubj	_	name=B-ORG|Entity=(vtbnn~20030904_1491__11841--1)
+11	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+12	for	for	ADP	_	_	11	compound:prt	_	name=O
+13	sentralt	sentral	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O|Entity=vtbnn~20030904_1491__T172)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	conj	_	name=O|Entity=(vtbnn~20030904_1491__T174--1
+16	som	som	PRON	_	PronType=Rel	18	nsubj:pass	_	name=O
+17	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux:pass	_	name=O
+18	prioritert	prioritere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	15	acl:relcl	_	name=O
+19	lokalt	lokal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20030904_1491__T174)vtbnn~20030904_1491__T171)vtbnn~20030904_1491__T170)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+

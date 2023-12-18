@@ -1,0 +1,850 @@
+# newdoc id = firdann~20090615-4399567
+# global.Entity = eid-etype-head-other
+# sent_id = 006664
+# text = Denne brannbilen skal berge Førde frå brann
+1	Denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(firdann~20090615_4399567__11440--1
+2	brannbilen	brannbil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=firdann~20090615_4399567__11440)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	berge	berge	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	Førde	Førde	PROPN	_	_	4	obj	_	name=B-GPE_LOC|Entity=(firdann~20090615_4399567__6384--1)
+6	frå	frå	ADP	_	_	7	case	_	name=O
+7	brann	brann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(firdann~20090615_4399567__T3--1)
+
+# newpar
+# sent_id = 006665
+# text = Iallfall viss han startar.
+1	Iallfall	iallfall	ADV	_	_	2	advmod	_	name=O
+2	viss	viss	SCONJ	_	_	4	mark	_	name=O
+3	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20090615_4399567__11440--1)
+4	startar	starte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 006666
+# text = Ny og gammal:
+1	Ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	gammal	gammal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	1	conj	_	SpaceAfter=No|name=O
+4	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006667
+# text = Bilen til venstre er ein splitter ny Man med 440 hestekrefter, dte er 190 fleire enn Førdes hovudbrannbil som står til høgre.
+1	Bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T5--1
+2	til	til	ADP	_	_	3	case	_	name=O
+3	venstre	venstre	NOUN	_	Gender=Neut	1	nmod	_	name=O|Entity=(firdann~20090615_4399567__T6--1)firdann~20090615_4399567__T5)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20090615_4399567__T7--1
+6	splitter	splitter	ADV	_	_	7	advmod	_	name=O
+7	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	Man	Man	PROPN	_	_	0	root	_	name=B-PROD
+9	med	med	ADP	_	_	11	case	_	name=O
+10	440	440	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(firdann~20090615_4399567__217--1
+11	hestekrefter	hestekraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__217)firdann~20090615_4399567__T7)
+12	,	$,	PUNCT	_	_	16	punct	_	name=O
+13	dte	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(firdann~20090615_4399567__217--1)
+14	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+15	190	190	NUM	_	Number=Plur|NumType=Card	16	obl	_	name=O
+16	fleire	mange	ADJ	_	Degree=Cmp	8	conj	_	name=O
+17	enn	enn	ADP	_	_	19	case	_	name=O
+18	Førdes	Førde	PROPN	_	Case=Gen	19	nmod	_	name=B-GPE_ORG|Entity=(firdann~20090615_4399567__11440--1(firdann~20090615_4399567__6384--1)
+19	hovudbrannbil	hovudbrannbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	name=O
+20	som	som	PRON	_	PronType=Rel	21	nsubj	_	name=O
+21	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	name=O
+22	til	til	ADP	_	_	23	case	_	name=O
+23	høgre	høgre	NOUN	_	Gender=Neut	21	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T12--1)firdann~20090615_4399567__11440)
+24	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 006668
+# text = Mercedesen frå 1989 merkar alderdommen på fleire måtar, han går for seint, stoppar for ofte og er ikkje fullt så driftssikker som ein skulle ønskje når ein jobbar i brannbransjen.
+1	Mercedesen	mercedes	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=B-DRV|Entity=(firdann~20090615_4399567__11440--1
+2	frå	frå	ADP	_	_	3	case	_	name=O
+3	1989	1989	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=O|Entity=firdann~20090615_4399567__11440)
+4	merkar	merke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	alderdommen	alderdom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O|Bridge=firdann~20090615_4399567__11440<firdann~20090615_4399567__T14:default|Entity=(firdann~20090615_4399567__T14--1)
+6	på	på	ADP	_	_	8	case	_	name=O
+7	fleire	mange	ADJ	_	Degree=Cmp	8	amod	_	name=O|Entity=(firdann~20090615_4399567__T15--1
+8	måtar	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T15)
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(firdann~20090615_4399567__11440--1)
+11	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+12	for	for	ADV	_	_	13	advmod	_	name=O
+13	seint	sein	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	stoppar	stoppe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	name=O
+16	for	for	ADV	_	_	17	advmod	_	name=O
+17	ofte	ofte	ADJ	_	Degree=Pos	15	advmod	_	name=O
+18	og	og	CCONJ	_	_	23	cc	_	name=O
+19	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	name=O
+20	ikkje	ikkje	PART	_	Polarity=Neg	23	advmod	_	name=O
+21	fullt	full	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	advmod	_	name=O
+22	så	så	ADV	_	_	23	advmod	_	name=O
+23	driftssikker	driftssikker	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	name=O
+24	som	som	PRON	_	PronType=Rel	27	obj	_	name=O
+25	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	27	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T17--1)
+26	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	name=O
+27	ønskje	ønskje	VERB	_	VerbForm=Inf	22	advcl	_	name=O
+28	når	når	SCONJ	_	_	30	mark	_	name=O
+29	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	30	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T18--1)
+30	jobbar	jobbe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	advcl	_	name=O
+31	i	i	ADP	_	_	32	case	_	name=O
+32	brannbransjen	brannbransje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T19--1)
+33	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006669
+# text = Sitt beste:
+1	Sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+2	beste	bra	ADJ	_	Definite=Def|Degree=Sup	0	root	_	SpaceAfter=No|name=O
+3	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006670
+# text = - Vi må gjere det beste med det utstyret vi har tilgjengeleg, seier f.v.Tore Skarholm, Bjarte Grimelid, Bjørn Berge og Bernhard Øberg i Førde brannvern.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+3	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	gjere	gjere	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	6	det	_	name=O
+6	beste	bra	ADJ	_	Definite=Def|Degree=Sup	4	obj	_	name=O
+7	med	med	ADP	_	_	9	case	_	name=O
+8	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(firdann~20090615_4399567__T22--1
+9	utstyret	utstyr	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	name=O
+10	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+11	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+12	tilgjengeleg	tilgjengeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T22)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+15	f.v.	f.v.	ADV	_	Abbr=Yes	16	advmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T24--1
+16	Tore	Tore	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(firdann~20090615_4399567__2185--1
+17	Skarholm	Skarholm	PROPN	_	_	16	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20090615_4399567__2185)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	Bjarte	Bjarte	PROPN	_	_	16	conj	_	name=B-PER|Entity=(firdann~20090615_4399567__2177--1
+20	Grimelid	Grimelid	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20090615_4399567__2177)
+21	,	$,	PUNCT	_	_	19	punct	_	name=O
+22	Bjørn	Bjørn	NOUN	_	Gender=Masc	16	conj	_	name=B-PER|Entity=(firdann~20090615_4399567__2143--1
+23	Berge	Berge	PROPN	_	_	22	flat:name	_	name=I-PER|Entity=firdann~20090615_4399567__2143)
+24	og	og	CCONJ	_	_	25	cc	_	name=O
+25	Bernhard	Bernhard	NOUN	_	Gender=Masc	16	conj	_	name=B-PER|Entity=(firdann~20090615_4399567__6531--1
+26	Øberg	Øberg	PROPN	_	_	25	flat:name	_	name=I-PER
+27	i	i	ADP	_	_	28	case	_	name=O
+28	Førde	Førde	PROPN	_	_	25	nmod	_	name=B-ORG|Entity=(firdann~20090615_4399567__232322--1
+29	brannvern	brannvern	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	28	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20090615_4399567__232322)firdann~20090615_4399567__6531)firdann~20090615_4399567__T24)
+30	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006671
+# text = Foto Tone Merete Lillesvangstu
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20090615_4399567__T30--1
+2	Tone	Tone	NOUN	_	Gender=Fem	1	parataxis	_	name=B-PER|Entity=(firdann~20090615_4399567__264--1
+3	Merete	Merete	NOUN	_	Gender=Fem	2	flat:name	_	name=I-PER
+4	Lillesvangstu	Lillesvangstu	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20090615_4399567__264)firdann~20090615_4399567__T30)
+
+# sent_id = 006672
+# text = Foto Tone Merete Lillesvangstu
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20090615_4399567__T32--1
+2	Tone	Tone	NOUN	_	Gender=Fem	1	parataxis	_	name=B-PER|Entity=(firdann~20090615_4399567__264--1
+3	Merete	Merete	NOUN	_	Gender=Fem	2	flat:name	_	name=I-PER
+4	Lillesvangstu	Lillesvangstu	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20090615_4399567__264)firdann~20090615_4399567__T32)
+
+# newpar
+# sent_id = 006673
+# text = Denne bilen er 20 år, og skal berge Førdes innbyggjarar i tilfelle brann.
+1	Denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(firdann~20090615_4399567__11440--1
+2	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=firdann~20090615_4399567__11440)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	20	20	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(firdann~20090615_4399567__T35--1
+5	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T35)
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	berge	berge	VERB	_	VerbForm=Inf	5	conj	_	name=O
+10	Førdes	Førde	PROPN	_	Case=Gen	11	nmod	_	name=B-GPE_LOC|Entity=(firdann~20090615_4399567__T37--1(firdann~20090615_4399567__6384--1)
+11	innbyggjarar	innbyggjar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	name=O|Entity=firdann~20090615_4399567__T37)
+12	i	i	ADP	_	_	13	case	_	name=O
+13	tilfelle	tilfelle	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(firdann~20090615_4399567__T38--1
+14	brann	brann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T38)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006674
+# text = Til no i år har han nekta å starte tre gonger.
+1	Til	til	ADP	_	_	2	case	_	name=O
+2	no	no	ADV	_	_	7	advmod	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(firdann~20090615_4399567__T39--1)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(firdann~20090615_4399567__11440--1)
+7	nekta	nekte	VERB	_	VerbForm=Part	0	root	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	starte	starte	VERB	_	VerbForm=Inf	7	xcomp	_	name=O
+10	tre	tre	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(firdann~20090615_4399567__T41--1
+11	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T41)
+12	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006675
+# text = Ny bil kjem neppe før 2012.
+1	Ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(firdann~20090615_4399567__T42--1
+2	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=firdann~20090615_4399567__T42)
+3	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	neppe	neppe	ADV	_	_	3	advmod	_	name=O
+5	før	før	ADP	_	_	6	case	_	name=O
+6	2012	2012	NUM	_	Number=Plur|NumType=Card	3	obl	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006676
+# text = - Dette er yngste brannbilen vi har, ein Mercedes 1989-modell.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(firdann~20090615_4399567__11440--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	yngste	ung	ADJ	_	Definite=Def|Degree=Sup	5	amod	_	name=O|Entity=(firdann~20090615_4399567__T44--1
+5	brannbilen	brannbil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O
+6	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(firdann~20090615_4399567__T46--1
+10	Mercedes	Mercedes	PROPN	_	_	5	appos	_	name=B-PROD
+11	1989-modell	1989-modell	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T46)firdann~20090615_4399567__T44)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006677
+# text = Så har vi ein 1982-modell som er suppleringsbil ved store utrykkingar, fortel brannsjef i Førde, Bernhard Øberg.
+1	Så	så	ADV	_	_	2	advmod	_	name=O
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(firdann~20090615_4399567__2135--1
+5	1982-modell	1982-modell	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+6	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	suppleringsbil	suppleringsbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	acl:relcl	_	name=O|Entity=(firdann~20090615_4399567__T49--1
+9	ved	ved	ADP	_	_	11	case	_	name=O
+10	store	stor	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(firdann~20090615_4399567__T50--1
+11	utrykkingar	utrykking	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T50)firdann~20090615_4399567__T49)firdann~20090615_4399567__2135)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+14	brannsjef	brannsjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(firdann~20090615_4399567__6531--1(firdann~20090615_4399567__T51--1
+15	i	i	ADP	_	_	16	case	_	name=O
+16	Førde	Førde	PROPN	_	_	14	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20090615_4399567__6384--1)
+17	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=firdann~20090615_4399567__T51)
+18	Bernhard	Bernhard	NOUN	_	Gender=Masc	13	nsubj	_	name=B-PER
+19	Øberg	Øberg	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20090615_4399567__6531)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006678
+# text = Han håpar og trur at rådmannen sitt framlegg i økonomiplanen iallfall ikkje vert endra til det verre.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20090615_4399567__6531--1)
+2	håpar	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	trur	tru	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+5	at	at	SCONJ	_	_	14	mark	_	name=O
+6	rådmannen	rådmann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(firdann~20090615_4399567__2117--1(firdann~20090615_4399567__T56--1(firdann~20090615_4399567__T55--1)
+7	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=firdann~20090615_4399567__T56)
+8	framlegg	framlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	nsubj:pass	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	økonomiplanen	økonomiplan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(firdann~20090615_4399567__T58--1)firdann~20090615_4399567__2117)
+11	iallfall	iallfall	ADV	_	_	14	advmod	_	name=O
+12	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	name=O
+13	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux:pass	_	name=O
+14	endra	endre	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	ccomp	_	name=O
+15	til	til	SCONJ	_	_	17	mark	_	name=O
+16	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(firdann~20090615_4399567__T59--1
+17	verre	verre	ADJ	_	Degree=Cmp	14	xcomp	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T59)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006679
+# text = I framlegget står det nemleg at det er sett av 3,5 millionar kroner til ny brannbil i 2011.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	framlegget	framlegg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(firdann~20090615_4399567__2117--1)
+3	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	nemleg	nemleg	ADV	_	_	3	advmod	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	sett	setje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	3	csubj	_	name=O
+10	av	av	ADP	_	_	9	compound:prt	_	name=O
+11	3,5	3,5	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(firdann~20090615_4399567__T62--1(firdann~20090615_4399567__T61--1
+12	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	name=O|Entity=firdann~20090615_4399567__T61)
+13	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	obj	_	name=O|Entity=firdann~20090615_4399567__T62)
+14	til	til	ADP	_	_	16	case	_	name=O
+15	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	name=O|Entity=(firdann~20090615_4399567__2130--1
+16	brannbil	brannbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=firdann~20090615_4399567__2130)
+17	i	i	ADP	_	_	18	case	_	name=O
+18	2011	2011	NUM	_	Number=Plur|NumType=Card	9	obl	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006680
+# text = Med i overkant av eitt års bestillingstid, vil bilen vere på plass i brannstasjonen på Øyrane i 2012.
+1	Med	med	ADP	_	_	7	case	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O|Entity=(firdann~20090615_4399567__T66--1(firdann~20090615_4399567__T65--1
+3	overkant	overkant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20090615_4399567__T64--1
+4	av	av	ADP	_	_	5	case	_	name=O
+5	eitt	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	nmod	_	name=O|Entity=firdann~20090615_4399567__T64)
+6	års	år	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=firdann~20090615_4399567__T65)
+7	bestillingstid	bestillingstid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T66)
+8	,	$,	PUNCT	_	_	7	punct	_	name=O
+9	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+10	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=(firdann~20090615_4399567__2130--1)
+11	vere	vere	AUX	_	VerbForm=Inf	13	cop	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20090615_4399567__2197--1
+14	i	i	ADP	_	_	15	case	_	name=O
+15	brannstasjonen	brannstasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(firdann~20090615_4399567__T69--1
+16	på	på	ADP	_	_	17	case	_	name=O
+17	Øyrane	Øyrane	PROPN	_	_	15	nmod	_	name=B-LOC|Entity=(firdann~20090615_4399567__T70--1)firdann~20090615_4399567__T69)firdann~20090615_4399567__2197)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	2012	2012	NUM	_	Number=Plur|NumType=Card	13	obl	_	SpaceAfter=No|name=O
+20	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 006681
+# text = Men innan den tid kan det ha brunne mange stader.
+1	Men	men	CCONJ	_	_	8	cc	_	name=O
+2	innan	innan	ADP	_	_	4	case	_	name=O
+3	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(firdann~20090615_4399567__T71--1
+4	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	name=O|Entity=firdann~20090615_4399567__T71)
+5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	ha	ha	AUX	_	VerbForm=Inf	8	aux	_	name=O
+8	brunne	brenne	VERB	_	VerbForm=Part	0	root	_	name=O
+9	mange	mange	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(firdann~20090615_4399567__T72--1
+10	stader	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T72)
+11	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 006682
+# text = Må omgruppere og byte bil
+1	Må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	name=O
+2	omgruppere	omgruppere	VERB	_	VerbForm=Inf	0	root	_	name=O
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	byte	byte	VERB	_	VerbForm=Inf	2	conj	_	name=O
+5	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(firdann~20090615_4399567__T73--1)
+
+# sent_id = 006683
+# text = Til no i år har den gamle slitaren nekta å starte tre gonger.
+1	Til	til	ADP	_	_	2	case	_	name=O
+2	no	no	ADV	_	_	9	advmod	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(firdann~20090615_4399567__T74--1)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(firdann~20090615_4399567__11440--1
+7	gamle	gammal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	slitaren	slitar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=firdann~20090615_4399567__11440)
+9	nekta	nekte	VERB	_	VerbForm=Part	0	root	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	starte	starte	VERB	_	VerbForm=Inf	9	xcomp	_	name=O
+12	tre	tre	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(firdann~20090615_4399567__T76--1
+13	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T76)
+14	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 006684
+# text = Éin gong under utrykking, og to gonger under øving.
+1	Éin	éin	NUM	_	Gender=Masc|Number=Sing|NumType=Card	2	nummod	_	name=O|Entity=(firdann~20090615_4399567__T77--1
+2	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=firdann~20090615_4399567__T77)
+3	under	under	ADP	_	_	4	case	_	name=O
+4	utrykking	utrykking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T78--1)
+5	,	$,	PUNCT	_	_	10	punct	_	name=O
+6	og	og	CCONJ	_	_	10	cc	_	name=O
+7	to	to	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(firdann~20090615_4399567__T79--1
+8	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	name=O|Entity=firdann~20090615_4399567__T79)
+9	under	under	ADP	_	_	10	case	_	name=O
+10	øving	øving	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T80--1)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006685
+# text = - Du blir jo heilt matt når det skjer, men samtidig er vi så drilla på det vi skal gjere, at vi raskt skiftar over i den andre bilen.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T81--1)
+3	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	jo	jo	ADV	_	_	3	advmod	_	name=O
+5	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	matt	matt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	xcomp	_	name=O
+7	når	når	SCONJ	_	_	9	mark	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T82--1)
+9	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	16	punct	_	name=O
+11	men	men	CCONJ	_	_	16	cc	_	name=O
+12	samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	name=O
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+14	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+15	så	så	ADV	_	_	16	advmod	_	name=O
+16	drilla	drille	ADJ	_	Number=Plur|VerbForm=Part	3	conj	_	name=O
+17	på	på	ADP	_	_	18	case	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obl	_	name=O|Entity=(firdann~20090615_4399567__T84--1
+19	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+20	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+21	gjere	gjere	VERB	_	VerbForm=Inf	18	acl:relcl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T84)
+22	,	$,	PUNCT	_	_	26	punct	_	name=O
+23	at	at	SCONJ	_	_	26	mark	_	name=O
+24	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+25	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	advmod	_	name=O
+26	skiftar	skifte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	name=O
+27	over	over	ADP	_	_	31	case	_	name=O
+28	i	i	ADP	_	_	31	case	_	name=O
+29	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	name=O|Entity=(firdann~20090615_4399567__2135--1
+30	andre	annan	DET	_	Definite=Def|Number=Sing|PronType=Dem	31	det	_	name=O
+31	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__2135)
+32	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006686
+# text = Vi snakkar om nokre tapte minutt, men vi taklar slikt, seier Øberg.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T88--1)
+2	snakkar	snakke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	om	om	ADP	_	_	6	case	_	name=O
+4	nokre	nokon	DET	_	Number=Plur|PronType=Ind	6	det	_	name=O|Entity=(firdann~20090615_4399567__T89--1
+5	tapte	tape	ADJ	_	Number=Plur|VerbForm=Part	6	amod	_	name=O
+6	minutt	minutt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T89)
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	men	men	CCONJ	_	_	10	cc	_	name=O
+9	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+10	taklar	takle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+11	slikt	slikt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T91--1)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+14	Øberg	Øberg	PROPN	_	_	13	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20090615_4399567__6531--1)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006687
+# text = Då må brannfolka omgruppere seg, men av garde kjem dei.
+1	Då	då	ADV	_	_	4	advmod	_	name=O
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	brannfolka	brannfolk	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+4	omgruppere	omgruppere	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	4	obj	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	10	punct	_	name=O
+7	men	men	CCONJ	_	_	10	cc	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	garde	garde	NOUN	_	_	10	obl	_	name=O|Entity=(firdann~20090615_4399567__T94--1)
+10	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+11	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__232322--1)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006688
+# text = Dog med langt mindre utstyr med seg.
+1	Dog	dog	ADV	_	_	5	advmod	_	name=O
+2	med	med	ADP	_	_	5	case	_	name=O
+3	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O|Entity=(firdann~20090615_4399567__T96--1
+4	mindre	liten	ADJ	_	Degree=Cmp	5	amod	_	name=O
+5	utstyr	utstyr	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=firdann~20090615_4399567__T96)
+6	med	med	SCONJ	_	_	7	mark	_	name=O
+7	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	5	xcomp	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006689
+# text = Trass i at brannbilen har vore ein trufast slitar for Førde brannvern, er brannkorpset samde om at ein ny bil hadde vore til det betre.
+1	Trass	trass	SCONJ	_	_	9	mark	_	name=O
+2	i	i	SCONJ	_	_	9	mark	_	name=O
+3	at	at	SCONJ	_	_	9	mark	_	name=O
+4	brannbilen	brannbil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=(firdann~20090615_4399567__11440--1)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+6	vore	vere	AUX	_	VerbForm=Part	9	cop	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(firdann~20090615_4399567__T98--1
+8	trufast	trufast	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	slitar	slitar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	advcl	_	name=O
+10	for	for	ADP	_	_	11	case	_	name=O
+11	Førde	Førde	PROPN	_	_	9	nmod	_	name=B-ORG|Entity=(firdann~20090615_4399567__232322--1
+12	brannvern	brannvern	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20090615_4399567__232322)firdann~20090615_4399567__T98)
+13	,	$,	PUNCT	_	_	9	punct	_	name=O
+14	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+15	brannkorpset	brannkorps	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+16	samde	samd	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+17	om	om	SCONJ	_	_	26	mark	_	name=O
+18	at	at	SCONJ	_	_	26	mark	_	name=O
+19	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(firdann~20090615_4399567__T101--1
+20	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nsubj	_	name=O|Entity=firdann~20090615_4399567__T101)
+22	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	name=O
+23	vore	vere	AUX	_	VerbForm=Part	26	cop	_	name=O
+24	til	til	SCONJ	_	_	26	mark	_	name=O
+25	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	26	det	_	name=O|Entity=(firdann~20090615_4399567__T102--1
+26	betre	god	ADJ	_	Degree=Cmp	16	advcl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T102)
+27	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 006690
+# text = Står seg i hel
+1	Står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	1	obj	_	name=O
+3	i	i	SCONJ	_	_	4	mark	_	name=O
+4	hel	hel	NOUN	_	_	1	xcomp	_	name=O|Entity=(firdann~20090615_4399567__T103--1)
+
+# sent_id = 006691
+# text = Dei fleste brannbilar står seg nemleg i hel.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(firdann~20090615_4399567__T104--1
+2	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	3	amod	_	name=O
+3	brannbilar	brannbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=firdann~20090615_4399567__T104)
+4	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	4	obj	_	name=O
+6	nemleg	nemleg	ADV	_	_	4	advmod	_	name=O
+7	i	i	SCONJ	_	_	8	mark	_	name=O
+8	hel	hel	NOUN	_	_	4	xcomp	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T105--1)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006692
+# text = Hovudbrannbilen i Førde er 20 år, har berre gått 25 000 kilometer, men likevel merkast alderdommen.
+1	Hovudbrannbilen	hovudbrannbil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(firdann~20090615_4399567__11440--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Førde	Førde	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(firdann~20090615_4399567__6384--1)firdann~20090615_4399567__11440)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	20	20	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(firdann~20090615_4399567__T108--1
+6	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T108)
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	berre	berre	ADV	_	_	10	advmod	_	name=O
+10	gått	gå	VERB	_	VerbForm=Part	6	conj	_	name=O
+11	25	25	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(firdann~20090615_4399567__T109--1
+12	000	000	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O
+13	kilometer	kilometer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T109)
+14	,	$,	PUNCT	_	_	10	punct	_	name=O
+15	men	men	CCONJ	_	_	17	cc	_	name=O
+16	likevel	likevel	ADV	_	_	17	advmod	_	name=O
+17	merkast	merke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+18	alderdommen	alderdom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No|name=O|Bridge=firdann~20090615_4399567__11440<firdann~20090615_4399567__T110:default|Entity=(firdann~20090615_4399567__T110--1)
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006693
+# text = - Det morknar både eitt og hitt.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	morknar	morkne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	både	både	CCONJ	_	_	5	cc	_	name=O
+5	eitt	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	nsubj	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	hitt	hin	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	conj	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006694
+# text = Det blir brot på det elektriske anlegget.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	brot	brot	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	xcomp	_	name=O|Entity=(firdann~20090615_4399567__T111--1
+4	på	på	ADP	_	_	7	case	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Bridge=firdann~20090615_4399567__11440<firdann~20090615_4399567__T112:default|Entity=(firdann~20090615_4399567__T112--1
+6	elektriske	elektrisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	anlegget	anlegg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T112)firdann~20090615_4399567__T111)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006695
+# text = Rett og slett alderdom som gjer at ting ryk, sjølv om det er pent brukt, seier brannmann Bjørn Berge.
+1	Rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O|Entity=(firdann~20090615_4399567__T113--1
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	slett	slett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	name=O
+4	alderdom	alderdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=(firdann~20090615_4399567__111446--1)
+9	ryk	ryke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	16	punct	_	name=O
+11	sjølv	sjølv	ADV	_	_	12	advmod	_	name=O
+12	om	om	SCONJ	_	_	16	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(firdann~20090615_4399567__111446--1)
+14	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	pent	pen	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	name=O
+16	brukt	bruke	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	9	advcl	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+19	brannmann	brannmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	name=O|Entity=(firdann~20090615_4399567__2143--1
+20	Bjørn	Bjørn	NOUN	_	Gender=Masc	18	nsubj	_	name=B-PER
+21	Berge	Berge	PROPN	_	_	20	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20090615_4399567__2143)firdann~20090615_4399567__T113)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006696
+# text = Det brannfolka fryktar aller mest er at brannbilen rett og slett stoggar før ein har komme fram til brannstaden.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T117--1
+2	brannfolka	brannfolk	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+3	fryktar	frykte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	aller	aller	ADV	_	_	5	advmod	_	name=O
+5	mest	mykje	ADJ	_	Definite=Ind|Degree=Sup	3	advmod	_	name=O|Entity=firdann~20090615_4399567__T117)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+7	at	at	SCONJ	_	_	12	mark	_	name=O
+8	brannbilen	brannbil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(firdann~20090615_4399567__111446--1)
+9	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	slett	slett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	conj	_	name=O
+12	stoggar	stogge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	før	før	SCONJ	_	_	16	mark	_	name=O
+14	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	16	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T120--1)
+15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	komme	komme	VERB	_	VerbForm=Part	12	advcl	_	name=O
+17	fram	fram	ADP	_	_	19	case	_	name=O
+18	til	til	ADP	_	_	19	case	_	name=O
+19	brannstaden	brannstad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T121--1)
+20	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 006697
+# text = - Når han nektar å starte, skiftar vi bil.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Når	når	SCONJ	_	_	4	mark	_	name=O
+3	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20090615_4399567__111446--1)
+4	nektar	nekte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	starte	starte	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	4	punct	_	name=O
+8	skiftar	skifte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+10	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T124--1)
+11	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 006698
+# text = Men stoppar han midt oppe i lia, så må jo bil nummer to mest truleg hentast på brannstasjonen.
+1	Men	men	CCONJ	_	_	17	cc	_	name=O
+2	stoppar	stoppe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	nmod	_	name=O
+3	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20090615_4399567__111446--1)
+4	midt	midt	ADV	_	_	7	advmod	_	name=O
+5	oppe	oppe	ADP	_	_	7	case	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	lia	li	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T126--1)
+8	,	$,	PUNCT	_	_	2	punct	_	name=O
+9	så	så	ADV	_	_	17	advmod	_	name=O
+10	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+11	jo	jo	ADV	_	_	17	advmod	_	name=O
+12	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T127--1
+13	nummer	nummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=(firdann~20090615_4399567__T128--1)
+14	to	to	NUM	_	Number=Plur|NumType=Card	12	nmod	_	name=O|Entity=firdann~20090615_4399567__T127)
+15	mest	mykje	ADJ	_	Definite=Ind|Degree=Sup	16	advmod	_	name=O
+16	truleg	truleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	name=O
+17	hentast	hente	VERB	_	VerbForm=Inf	0	root	_	name=O
+18	på	på	ADP	_	_	19	case	_	name=O
+19	brannstasjonen	brannstasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__2197--1)
+20	.	$.	PUNCT	_	_	17	punct	_	name=O
+
+# sent_id = 006699
+# text = Då går minutta fort, nikkar Øberg.
+1	Då	då	ADV	_	_	2	advmod	_	name=O
+2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	minutta	minutt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T130--1)
+4	fort	fort	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	nikkar	nikke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+7	Øberg	Øberg	PROPN	_	_	6	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20090615_4399567__6531--1)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006700
+# text = Alt ved bilen er gammalt
+1	Alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T132--1
+2	ved	ved	ADP	_	_	3	case	_	name=O
+3	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20090615_4399567__111446--1)firdann~20090615_4399567__T132)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	gammalt	gammal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+
+# sent_id = 006701
+# text = - Alt ved bilen er jo gammalt.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T134--1
+3	ved	ved	ADP	_	_	4	case	_	name=O
+4	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20090615_4399567__111446--1)firdann~20090615_4399567__T134)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+6	jo	jo	ADV	_	_	7	advmod	_	name=O
+7	gammalt	gammal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006702
+# text = Han har for liten motor, for dårlege køyreeigenskapar, har konstant firehjulstrekk medan ein i dag heller satsar på hydraulisk trekk på framakslingen, i tillegg til at han når som helst kan stoppe.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20090615_4399567__111446--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	for	for	ADV	_	_	4	advmod	_	name=O|Entity=(firdann~20090615_4399567__T137--1(firdann~20090615_4399567__T138--1
+4	liten	liten	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	name=O
+5	motor	motor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=firdann~20090615_4399567__T138)
+7	for	for	ADV	_	_	8	advmod	_	name=O|Entity=(firdann~20090615_4399567__T139--1
+8	dårlege	dårleg	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O
+9	køyreeigenskapar	køyreeigenskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T139)firdann~20090615_4399567__T137)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+12	konstant	konstant	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	name=O|Entity=(firdann~20090615_4399567__T140--1
+13	firehjulstrekk	firehjulstrekk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	name=O|Entity=firdann~20090615_4399567__T140)
+14	medan	medan	SCONJ	_	_	19	mark	_	name=O
+15	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	19	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T141--1)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	name=O|Entity=(firdann~20090615_4399567__T142--1)
+18	heller	heller	ADV	_	_	19	advmod	_	name=O
+19	satsar	satse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	name=O
+20	på	på	ADP	_	_	22	case	_	name=O
+21	hydraulisk	hydraulisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	name=O|Entity=(firdann~20090615_4399567__T143--1
+22	trekk	trekk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	name=O
+23	på	på	ADP	_	_	24	case	_	name=O
+24	framakslingen	framaksling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T144--1)firdann~20090615_4399567__T143)
+25	,	$,	PUNCT	_	_	27	punct	_	name=O
+26	i	i	ADP	_	_	27	case	_	name=O
+27	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=(firdann~20090615_4399567__T145--1
+28	til	til	SCONJ	_	_	35	mark	_	name=O
+29	at	at	SCONJ	_	_	35	mark	_	name=O
+30	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	name=O|Entity=(firdann~20090615_4399567__111446--1)
+31	når	når	ADV	_	_	35	advmod	_	name=O
+32	som	som	ADP	_	_	33	case	_	name=O
+33	helst	helst	ADV	_	_	31	advmod	_	name=O
+34	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	name=O
+35	stoppe	stoppe	VERB	_	VerbForm=Inf	27	acl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T145)
+36	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006703
+# text = No kan også nye bilar stoppe, men denne er trass alt 20 år, seier Grimelid.
+1	No	no	ADV	_	_	6	advmod	_	name=O
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	også	også	ADV	_	_	5	advmod	_	name=O|Entity=(firdann~20090615_4399567__T147--1
+4	nye	ny	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	bilar	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=firdann~20090615_4399567__T147)
+6	stoppe	stoppe	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	14	punct	_	name=O
+8	men	men	CCONJ	_	_	14	cc	_	name=O
+9	denne	denne	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(firdann~20090615_4399567__111446--1)
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+11	trass	trass	ADP	_	_	12	case	_	name=O
+12	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	name=O|Entity=(firdann~20090615_4399567__T149--1)
+13	20	20	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(firdann~20090615_4399567__T150--1
+14	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T150)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+17	Grimelid	Grimelid	PROPN	_	_	16	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20090615_4399567__2177--1)
+18	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006704
+# text = Den 20 år gamle bilen har 250 hestekrefter, til samanlikning har ein ny iallfall 200 fleire.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(firdann~20090615_4399567__111446--1
+2	20	20	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(firdann~20090615_4399567__T152--1
+3	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O|Entity=firdann~20090615_4399567__T152)
+4	gamle	gammal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=firdann~20090615_4399567__111446)
+6	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	250	250	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(firdann~20090615_4399567__T154--1
+8	hestekrefter	hestekraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T154)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	samanlikning	samanlikning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	name=O|Entity=(firdann~20090615_4399567__T155--1)
+12	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+13	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(firdann~20090615_4399567__T156--1
+14	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	nsubj	_	name=O|Entity=firdann~20090615_4399567__T156)
+15	iallfall	iallfall	ADV	_	_	16	advmod	_	name=O
+16	200	200	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O
+17	fleire	mange	ADJ	_	Degree=Cmp	12	obj	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006705
+# text = - Opp lia går det i 30 kilometer i timen, sånn er det berre, seier Tore Skarholm.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Opp	opp	ADP	_	_	3	case	_	name=O
+3	lia	li	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=(firdann~20090615_4399567__T157--1)
+4	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	30	30	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(firdann~20090615_4399567__T158--1
+8	kilometer	kilometer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	timen	time	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T159--1)firdann~20090615_4399567__T158)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	sånn	sånn	ADV	_	_	4	conj	_	name=O
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+15	berre	berre	ADV	_	_	12	advmod	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+18	Tore	Tore	NOUN	_	Gender=Masc	17	nsubj	_	name=B-PER|Entity=(firdann~20090615_4399567__2185--1
+19	Skarholm	Skarholm	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20090615_4399567__2185)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006706
+# text = Brannfolka presiserer likevel at dei ikkje grev seg ned av situasjonen.
+1	Brannfolka	brannfolk	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+2	presiserer	presisere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	likevel	likevel	ADV	_	_	2	advmod	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+6	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	name=O
+7	grev	grave	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+8	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	7	obj	_	name=O
+9	ned	ned	ADP	_	_	7	compound:prt	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T163--1)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006707
+# text = - Vi gjer det beste med det vi har.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+3	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	name=O
+5	beste	bra	ADJ	_	Definite=Def|Degree=Sup	3	obj	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	name=O|Entity=(firdann~20090615_4399567__T165--1
+8	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T165)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006708
+# text = Og så kryssar vi fingrane for at vi har ein ny bil i 2012.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	så	så	ADV	_	_	3	advmod	_	name=O
+3	kryssar	krysse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+5	fingrane	finger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obj	_	name=O|Entity=(firdann~20090615_4399567__T168--1)
+6	for	for	SCONJ	_	_	9	mark	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1)
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+10	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(firdann~20090615_4399567__T170--1
+11	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	name=O|Entity=firdann~20090615_4399567__T170)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	2012	2012	NUM	_	Number=Plur|NumType=Card	9	obl	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006709
+# text = At det ikkje blir sett endå lenger ut i tid, seier Øberg.
+1	At	at	SCONJ	_	_	5	mark	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	name=O|Entity=(firdann~20090615_4399567__T171--1)
+3	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+4	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	name=O
+5	sett	setje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	endå	endå	ADV	_	_	7	advmod	_	name=O
+7	lenger	lang	ADJ	_	Degree=Cmp	10	advmod	_	name=O
+8	ut	ut	ADP	_	_	10	case	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T172--1)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+13	Øberg	Øberg	PROPN	_	_	12	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20090615_4399567__6531--1)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006710
+# text = I tillegg til dei to nemnde bilane, disponerer brannkorpset i Førde fire andre bilar, ein 1986-modell VW LT, ein 2000-modell Mercedes-Benz redningsbil, ein 2007-modell Mitsubishi Outlander og ein 2003-modell Mercedes-Benz M-klasse (befalsbil).
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(firdann~20090615_4399567__T174--1
+3	til	til	ADP	_	_	7	case	_	name=O
+4	dei	dei	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|SplitAnte=firdann~20090615_4399567__111446<firdann~20090615_4399567__T175,firdann~20090615_4399567__T127<firdann~20090615_4399567__T175|Entity=(firdann~20090615_4399567__T175--1
+5	to	to	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O
+6	nemnde	nemne	ADJ	_	Number=Plur|VerbForm=Part	7	amod	_	name=O
+7	bilane	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T175)firdann~20090615_4399567__T174)
+8	,	$,	PUNCT	_	_	2	punct	_	name=O
+9	disponerer	disponere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	brannkorpset	brannkorps	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(firdann~20090615_4399567__232322--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Førde	Førde	PROPN	_	_	10	nmod	_	name=B-GPE_LOC|Entity=(firdann~20090615_4399567__6384--1)firdann~20090615_4399567__232322)
+13	fire	fire	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(firdann~20090615_4399567__T178--1
+14	andre	annan	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O
+15	bilar	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	19	punct	_	name=O
+17	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(firdann~20090615_4399567__T180--1(firdann~20090615_4399567__T181--1(firdann~20090615_4399567__T179--1
+18	1986-modell	1986-modell	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=firdann~20090615_4399567__T179)
+19	VW	VW	PROPN	_	_	15	appos	_	name=B-PROD
+20	LT	LT	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-PROD
+21	,	$,	PUNCT	_	_	24	punct	_	name=O|Entity=firdann~20090615_4399567__T181)
+22	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(firdann~20090615_4399567__T183--1(firdann~20090615_4399567__T182--1
+23	2000-modell	2000-modell	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	name=O|Entity=firdann~20090615_4399567__T182)
+24	Mercedes-Benz	Mercedes-Benz	PROPN	_	_	19	conj	_	name=B-PROD
+25	redningsbil	redningsbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	flat:name	_	SpaceAfter=No|name=O
+26	,	$,	PUNCT	_	_	24	punct	_	name=O|Entity=firdann~20090615_4399567__T183)
+27	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	28	det	_	name=O|Entity=(firdann~20090615_4399567__T185--1(firdann~20090615_4399567__T184--1
+28	2007-modell	2007-modell	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	name=O|Entity=firdann~20090615_4399567__T184)
+29	Mitsubishi	Mitsubishi	PROPN	_	_	19	conj	_	name=B-PROD
+30	Outlander	Outlander	PROPN	_	_	29	flat:name	_	name=I-PROD|Entity=firdann~20090615_4399567__T185)
+31	og	og	CCONJ	_	_	34	cc	_	name=O
+32	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	33	det	_	name=O|Entity=(firdann~20090615_4399567__T187--1(firdann~20090615_4399567__T186--1
+33	2003-modell	2003-modell	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	name=O|Entity=firdann~20090615_4399567__T186)
+34	Mercedes-Benz	Mercedes-Benz	PROPN	_	_	19	conj	_	name=B-PROD
+35	M-klasse	M-klasse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	flat:name	_	name=I-PROD
+36	(	$(	PUNCT	_	_	37	punct	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4399567__T188--1
+37	befalsbil	befalsbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	appos	_	SpaceAfter=No|name=O
+38	)	$)	PUNCT	_	_	37	punct	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4399567__T188)firdann~20090615_4399567__T187)firdann~20090615_4399567__T180)firdann~20090615_4399567__T178)
+39	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 006711
+# text = Er brannvernet godt nok?
+1	Er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+2	brannvernet	brannvern	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20090615_4399567__T189--1)
+3	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	nok	nok	ADV	_	_	3	advmod	_	SpaceAfter=No|name=O
+5	?	$?	PUNCT	_	_	3	punct	_	name=O
+

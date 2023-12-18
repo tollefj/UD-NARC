@@ -1,0 +1,266 @@
+# newdoc id = vg~vg-20111003-10039670
+# global.Entity = eid-etype-head-other
+# sent_id = 015087
+# text = Gåteløsingsperle får gratis utvidelse
+1	Gåteløsingsperle	gåteløsingsperle	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(vg~vg_20111003_10039670__7163--1)
+2	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	gratis	gratis	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(vg~vg_20111003_10039670__7207--1
+4	utvidelse	utvidelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=vg~vg_20111003_10039670__7207)
+
+# sent_id = 015088
+# text = (VG Nett)
+1	(	$(	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039670__T3--1
+2	VG	VG	PROPN	_	_	0	root	_	name=B-PROD
+3	Nett	Nett	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD
+4	)	$)	PUNCT	_	_	2	punct	_	name=O|Entity=vg~vg_20111003_10039670__T3)
+
+# sent_id = 015089
+# text = Få spill så langt i år har mottatt såpass udelt hyllest som gåteløsingsperlen "Portal 2".
+1	Få	få	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(vg~vg_20111003_10039670__T4--1
+2	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	name=O
+3	så	så	ADV	_	_	4	advmod	_	name=O
+4	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(vg~vg_20111003_10039670__T5--1)vg~vg_20111003_10039670__T4)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	mottatt	motta	VERB	_	VerbForm=Part	0	root	_	name=O
+9	såpass	såpass	ADV	_	_	10	advmod	_	name=O|Entity=(vg~vg_20111003_10039670__T6--1
+10	udelt	udelt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	hyllest	hyllest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	name=O
+12	som	som	ADP	_	_	15	case	_	name=O
+13	gåteløsingsperlen	gåteløsingsperle	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(vg~vg_20111003_10039670__7163--1
+14	"	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+15	Portal	Portal	PROPN	_	_	9	obl	_	name=B-PROD
+16	2	2	NUM	_	Number=Plur|NumType=Card	15	flat:name	_	SpaceAfter=No|name=I-PROD
+17	"	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039670__7163)vg~vg_20111003_10039670__T6)
+18	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 015090
+# text = Vår anmelder lot seg også trollbinde, og kalte det "så bra at jeg nesten ble rørt" .
+1	Vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(vg~vg_20111003_10039670__380--1(vg~vg_20111003_10039670__T8--1)
+2	anmelder	anmelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=vg~vg_20111003_10039670__380)
+3	lot	late	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	iobj	_	name=O|Entity=(vg~vg_20111003_10039670__380--1)
+5	også	også	ADV	_	_	3	advmod	_	name=O
+6	trollbinde	trollbinde	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	kalte	kalle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	name=O|Entity=(vg~vg_20111003_10039670__7163--1)
+11	"	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O
+12	så	så	ADV	_	_	13	advmod	_	name=O
+13	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	xcomp	_	name=O
+14	at	at	SCONJ	_	_	17	mark	_	name=O
+15	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	name=O|Entity=(vg~vg_20111003_10039670__380--1)
+16	nesten	nesten	ADV	_	_	17	advmod	_	name=O
+17	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	name=O
+18	rørt	røre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	17	xcomp	_	SpaceAfter=No|name=O
+19	"	$"	PUNCT	_	_	13	punct	_	name=O
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015091
+# text = Nå blir opplevelsen enda mer omfattende.
+1	Nå	nå	ADV	_	_	2	advmod	_	name=O
+2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	opplevelsen	opplevelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Bridge=vg~vg_20111003_10039670__7163<vg~vg_20111003_10039670__T12:default|Entity=(vg~vg_20111003_10039670__T12--1)
+4	enda	enda	ADV	_	_	5	advmod	_	name=O
+5	mer	mye	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+6	omfattende	omfattende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015092
+# text = Les også:
+1	Les	lese	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	også	også	ADV	_	_	1	advmod	_	SpaceAfter=No|name=O
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 015093
+# text = "Portal"-skaper med nytt spill
+1	"	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=B-DRV|Entity=(vg~vg_20111003_10039670__T13--1
+2	Portal	Portal	PROPN	_	_	4	compound	_	SpaceAfter=No|name=I-DRV
+3	"	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=I-DRV
+4	-skaper	-skaper	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=I-DRV
+5	med	med	ADP	_	_	7	case	_	name=O
+6	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O|Entity=(vg~vg_20111003_10039670__T14--1
+7	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=vg~vg_20111003_10039670__T14)vg~vg_20111003_10039670__T13)
+
+# sent_id = 015094
+# text = Den nye utvidelsespakken "Peer Review", som kommer 4. oktober, utvider spillets samarbeidskampanje med et nytt brett.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(vg~vg_20111003_10039670__7207--1(vg~vg_20111003_10039670__T15--1
+2	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	utvidelsespakken	utvidelsespakke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=vg~vg_20111003_10039670__T15)
+4	"	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+5	Peer	Peer	PROPN	_	_	14	nsubj	_	name=B-PROD
+6	Review	Review	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-PROD
+7	"	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+11	4.	4.	ADJ	_	Number=Plur	12	amod	_	name=O|Entity=(vg~vg_20111003_10039670__T17--1
+12	oktober	oktober	NOUN	_	Gender=Masc	10	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039670__T17)vg~vg_20111003_10039670__7207)
+13	,	$,	PUNCT	_	_	10	punct	_	name=O
+14	utvider	utvide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+15	spillets	spill	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	name=O|Entity=(vg~vg_20111003_10039670__T19--1(vg~vg_20111003_10039670__7163--1)
+16	samarbeidskampanje	samarbeidskampanje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=vg~vg_20111003_10039670__T19)
+17	med	med	ADP	_	_	20	case	_	name=O
+18	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(vg~vg_20111003_10039670__T20--1
+19	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	name=O
+20	brett	brett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039670__T20)
+21	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 015095
+# text = Det blir også gjort plass til en utfordringsmodus både i en- og flerspiller, og poengtavler for kniving mellom venner.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	name=O
+3	også	også	ADV	_	_	4	advmod	_	name=O
+4	gjort	gjøre	VERB	_	VerbForm=Part	0	root	_	name=O
+5	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(vg~vg_20111003_10039670__T21--1
+6	til	til	ADP	_	_	8	case	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vg~vg_20111003_10039670__T22--1(vg~vg_20111003_10039670__T23--1
+8	utfordringsmodus	utfordringsmodus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O
+9	både	både	CCONJ	_	_	11	cc	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	en-	en-	NOUN	_	_	8	nmod	_	name=O|Entity=(vg~vg_20111003_10039670__T24--1(vg~vg_20111003_10039670__T25--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	flerspiller	flerspiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039670__T26--1)vg~vg_20111003_10039670__T24)
+14	,	$,	PUNCT	_	_	16	punct	_	name=O|Entity=vg~vg_20111003_10039670__T23)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	poengtavler	poengtavle	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	conj	_	name=O|Entity=(vg~vg_20111003_10039670__T27--1
+17	for	for	ADP	_	_	18	case	_	name=O
+18	kniving	kniving	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	name=O|Entity=(vg~vg_20111003_10039670__T28--1
+19	mellom	mellom	ADP	_	_	20	case	_	name=O
+20	venner	venn	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039670__T29--1)vg~vg_20111003_10039670__T28)vg~vg_20111003_10039670__T27)vg~vg_20111003_10039670__T22)vg~vg_20111003_10039670__T21)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015096
+# text = Dette er "Portal 2"s første nedlastbare ekstrapakke, og ifølge en pressemelding vil den være helt gratis.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(vg~vg_20111003_10039670__7207--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+3	"	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039670__T32--1(vg~vg_20111003_10039670__7163--1
+4	Portal	Portal	PROPN	_	_	10	nmod	_	name=B-PROD
+5	2	2	NUM	_	Case=Gen|Number=Plur|NumType=Card	4	flat:name	_	SpaceAfter=No|name=I-PROD
+6	"	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O
+7	s	s	NOUN	_	_	4	flat:name	_	name=O|Entity=vg~vg_20111003_10039670__7163)
+8	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+9	nedlastbare	nedlastbar	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	ekstrapakke	ekstrapakke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039670__T32)
+11	,	$,	PUNCT	_	_	20	punct	_	name=O
+12	og	og	CCONJ	_	_	20	cc	_	name=O
+13	ifølge	ifølge	ADP	_	_	15	case	_	name=O
+14	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(vg~vg_20111003_10039670__T33--1
+15	pressemelding	pressemelding	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	name=O|Entity=vg~vg_20111003_10039670__T33)
+16	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+17	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(vg~vg_20111003_10039670__7207--1)
+18	være	være	AUX	_	VerbForm=Inf	20	cop	_	name=O
+19	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O
+20	gratis	gratis	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	conj	_	SpaceAfter=No|name=O
+21	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 015097
+# text = Les også:
+1	Les	lese	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	også	også	ADV	_	_	1	advmod	_	SpaceAfter=No|name=O
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 015098
+# text = Slik blir "A Game of Thrones"-rollespillet
+1	Slik	slik	ADV	_	_	2	xcomp	_	name=O
+2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	"	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=B-DRV|Entity=(vg~vg_20111003_10039670__T35--1
+4	A	A	PROPN	_	_	9	compound	_	name=I-DRV
+5	Game	Game	PROPN	_	_	9	compound	_	name=I-DRV
+6	of	of	X	_	_	9	compound	_	name=I-DRV
+7	Thrones	Thrones	PROPN	_	_	9	compound	_	SpaceAfter=No|name=I-DRV
+8	"	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=I-DRV
+9	-rollespillet	-rollespill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=I-DRV|Entity=vg~vg_20111003_10039670__T35)
+
+# sent_id = 015099
+# text = Peer Review må lastes ned separat til Xbox 360 og PlayStation 3, hvor du vil finne den i spillets områder på henholdvis Xbox Live Marketplace og PlayStation Store.
+1	Peer	Peer	PROPN	_	_	4	nsubj:pass	_	name=B-PROD|Entity=(vg~vg_20111003_10039670__7207--1
+2	Review	Review	PROPN	_	_	1	flat:name	_	name=I-PROD|Entity=vg~vg_20111003_10039670__7207)
+3	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	lastes	laste	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+5	ned	ned	ADP	_	_	4	compound:prt	_	name=O
+6	separat	separat	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	Xbox	Xbox	PROPN	_	_	4	obl	_	name=B-PROD|Entity=(vg~vg_20111003_10039670__T37--1(vg~vg_20111003_10039670__T38--1
+9	360	360	NUM	_	Number=Plur|NumType=Card	8	flat:name	_	name=I-PROD|Entity=vg~vg_20111003_10039670__T38)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	PlayStation	PlayStation	PROPN	_	_	8	conj	_	name=B-PROD|Entity=(vg~vg_20111003_10039670__T39--1
+12	3	3	NUM	_	Number=Plur|NumType=Card	11	flat:name	_	SpaceAfter=No|name=I-PROD
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	hvor	hvor	ADV	_	_	17	advmod	_	name=O
+15	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	17	nsubj	_	name=O|Entity=(vg~vg_20111003_10039670__T40--1)
+16	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	finne	finne	VERB	_	VerbForm=Inf	11	acl:relcl	_	name=O
+18	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	name=O|Entity=(vg~vg_20111003_10039670__7207--1)
+19	i	i	ADP	_	_	21	case	_	name=O
+20	spillets	spill	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	21	nmod	_	name=O|Entity=(vg~vg_20111003_10039670__T43--1(vg~vg_20111003_10039670__7163--1)
+21	områder	område	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	obl	_	name=O
+22	på	på	ADP	_	_	24	case	_	name=O
+23	henholdvis	henholdvis	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	name=O|Entity=(vg~vg_20111003_10039670__T44--1(vg~vg_20111003_10039670__T45--1
+24	Xbox	Xbox	PROPN	_	_	21	nmod	_	name=B-PROD
+25	Live	Live	PROPN	_	_	24	flat:name	_	name=I-PROD
+26	Marketplace	Marketplace	PROPN	_	_	24	flat:name	_	name=I-PROD|Entity=vg~vg_20111003_10039670__T45)
+27	og	og	CCONJ	_	_	28	cc	_	name=O
+28	PlayStation	PlayStation	PROPN	_	_	24	conj	_	name=B-PROD|Entity=(vg~vg_20111003_10039670__T46--1
+29	Store	Store	PROPN	_	_	28	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=vg~vg_20111003_10039670__T46)vg~vg_20111003_10039670__T44)vg~vg_20111003_10039670__T43)vg~vg_20111003_10039670__T39)vg~vg_20111003_10039670__T37)
+30	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015100
+# text = Windows- og OS X-spillere vil oppleve at oppdateringen lastes ned automatisk via Steam.
+1	Windows-	Windows-	PROPN	_	_	4	compound	_	name=B-DRV|Entity=(vg~vg_20111003_10039670__T47--1
+2	og	og	CCONJ	_	_	4	compound	_	name=I-DRV
+3	OS	OS	PROPN	_	_	4	compound	_	name=I-DRV
+4	X-spillere	X-spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=I-DRV|Entity=vg~vg_20111003_10039670__T47)
+5	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	oppleve	oppleve	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	oppdateringen	oppdatering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj:pass	_	name=O|Entity=(vg~vg_20111003_10039670__7207--1)
+9	lastes	laste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	ccomp	_	name=O
+10	ned	ned	ADP	_	_	9	compound:prt	_	name=O
+11	automatisk	automatisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+12	via	via	ADP	_	_	13	case	_	name=O
+13	Steam	Steam	PROPN	_	_	9	obl	_	SpaceAfter=No|name=B-PROD|Entity=(vg~vg_20111003_10039670__T49--1)
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015101
+# text = Imens du venter på det nye spillinnholdet kan du også laste ned tredje og siste utgave av spillets lydspor på den offisielle hjemmesiden .
+1	Imens	imens	ADV	_	_	3	advmod	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(vg~vg_20111003_10039670__T50--1)
+3	venter	vente	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	name=O
+4	på	på	ADP	_	_	7	case	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(vg~vg_20111003_10039670__T51--1
+6	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	spillinnholdet	spillinnhold	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=vg~vg_20111003_10039670__T51)
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+9	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	name=O|Entity=(vg~vg_20111003_10039670__T52--1)
+10	også	også	ADV	_	_	11	advmod	_	name=O
+11	laste	laste	VERB	_	VerbForm=Inf	0	root	_	name=O
+12	ned	ned	ADP	_	_	16	case	_	name=O
+13	tredje	tredje	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O|Entity=(vg~vg_20111003_10039670__T53--1
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	conj	_	name=O
+16	utgave	utgave	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O
+17	av	av	ADP	_	_	19	case	_	name=O
+18	spillets	spill	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	name=O|Entity=(vg~vg_20111003_10039670__T55--1(vg~vg_20111003_10039670__7163--1)
+19	lydspor	lydspor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	nmod	_	name=O|Entity=vg~vg_20111003_10039670__T55)vg~vg_20111003_10039670__T53)
+20	på	på	ADP	_	_	23	case	_	name=O
+21	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	name=O|Bridge=vg~vg_20111003_10039670__7163<vg~vg_20111003_10039670__T56:default|Entity=(vg~vg_20111003_10039670__T56--1
+22	offisielle	offisiell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	amod	_	name=O
+23	hjemmesiden	hjemmeside	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=vg~vg_20111003_10039670__T56)
+24	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 015102
+# text = Lurer du på hvilke spill som er på vei?
+1	Lurer	lure	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	name=O|Entity=(vg~vg_20111003_10039670__T57--1)
+3	på	på	SCONJ	_	_	9	mark	_	name=O
+4	hvilke	hvilken	DET	_	Number=Plur|PronType=Int	5	det	_	name=O|Entity=(vg~vg_20111003_10039670__T58--1
+5	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	nsubj	_	name=O|Entity=vg~vg_20111003_10039670__T58)
+6	som	som	PRON	_	PronType=Rel	9	nmod	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	på	på	SCONJ	_	_	9	mark	_	name=O
+9	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	advcl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039670__T59--1)
+10	?	$?	PUNCT	_	_	1	punct	_	name=O
+

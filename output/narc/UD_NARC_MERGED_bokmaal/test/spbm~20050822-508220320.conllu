@@ -1,0 +1,215 @@
+# newdoc id = spbm~20050822-508220320
+# global.Entity = eid-etype-head-other
+# sent_id = 019895
+# text = Lasteskip sank etter kollisjon med fiskebåt
+1	Lasteskip	lasteskip	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(spbm~20050822_508220320__571--1)
+2	sank	synke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	etter	etter	ADP	_	_	4	case	_	name=O
+4	kollisjon	kollisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(spbm~20050822_508220320__T2--1
+5	med	med	ADP	_	_	6	case	_	name=O
+6	fiskebåt	fiskebåt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(spbm~20050822_508220320__T3--1)spbm~20050822_508220320__T2)
+
+# newpar
+# sent_id = 019896
+# text = Ingen personer kom til skade da lasteskipet "Ålfjord" natt til mandag gikk til bunns etter en kollisjon med en fiskebåt på Hustadvika i Møre og Romsdal.
+1	Ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	2	det	_	name=O|Entity=(spbm~20050822_508220320__T4--1
+2	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=spbm~20050822_508220320__T4)
+3	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	skade	skade	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(spbm~20050822_508220320__T5--1)
+6	da	da	SCONJ	_	_	14	mark	_	name=O
+7	lasteskipet	lasteskip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(spbm~20050822_508220320__571--1
+8	"	$"	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O
+9	Ålfjord	Ålfjord	PROPN	_	_	14	nsubj	_	SpaceAfter=No|name=B-PROD
+10	"	$"	PUNCT	_	_	9	punct	_	name=O|Entity=spbm~20050822_508220320__571)
+11	natt	natt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	name=O|Entity=(spbm~20050822_508220320__T7--1
+12	til	til	ADP	_	_	13	case	_	name=O
+13	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(spbm~20050822_508220320__T8--1)spbm~20050822_508220320__T7)
+14	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	bunns	bunn	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(spbm~20050822_508220320__T9--1)
+17	etter	etter	ADP	_	_	19	case	_	name=O
+18	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(spbm~20050822_508220320__257--1
+19	kollisjon	kollisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O
+20	med	med	ADP	_	_	22	case	_	name=O
+21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(spbm~20050822_508220320__5163--1
+22	fiskebåt	fiskebåt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=spbm~20050822_508220320__5163)
+23	på	på	ADP	_	_	24	case	_	name=O
+24	Hustadvika	Hustadvika	PROPN	_	Gender=Fem	19	nmod	_	name=B-LOC|Entity=(spbm~20050822_508220320__242--1
+25	i	i	ADP	_	_	26	case	_	name=O
+26	Møre	Møre	PROPN	_	_	24	nmod	_	name=B-GPE_LOC|Entity=(spbm~20050822_508220320__T13--1
+27	og	og	CCONJ	_	_	26	flat:name	_	name=I-GPE_LOC
+28	Romsdal	Romsdal	PROPN	_	_	26	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=spbm~20050822_508220320__T13)spbm~20050822_508220320__242)spbm~20050822_508220320__257)
+29	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 019897
+# text = - Ingen personer ble skadd, men lastebåten gikk til bunns, opplyser redningsleder Eric Willassen ved Hovedredningssentralen Sør-Norge (HRS) til NTB.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	3	det	_	name=O|Entity=(spbm~20050822_508220320__T14--1
+3	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj:pass	_	name=O|Entity=spbm~20050822_508220320__T14)
+4	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+5	skadd	skade	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	men	men	CCONJ	_	_	9	cc	_	name=O
+8	lastebåten	lastebåt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=(spbm~20050822_508220320__571--1)
+9	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	bunns	bunn	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220320__T16--1)
+12	,	$,	PUNCT	_	_	9	punct	_	name=O
+13	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+14	redningsleder	redningsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(spbm~20050822_508220320__270--1
+15	Eric	Eric	PROPN	_	_	13	nsubj	_	name=B-PER
+16	Willassen	Willassen	PROPN	_	_	15	flat:name	_	name=I-PER
+17	ved	ved	ADP	_	_	18	case	_	name=O
+18	Hovedredningssentralen	Hovedredningssentralen	PROPN	_	_	15	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220320__272--1
+19	Sør-Norge	Sør-Norge	PROPN	_	_	18	flat:name	_	name=I-ORG
+20	(	$(	PUNCT	_	_	21	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220320__T19--1
+21	HRS	HRS	PROPN	_	_	18	appos	_	SpaceAfter=No|name=B-ORG
+22	)	$)	PUNCT	_	_	21	punct	_	name=O|Entity=spbm~20050822_508220320__T19)spbm~20050822_508220320__272)spbm~20050822_508220320__270)
+23	til	til	ADP	_	_	24	case	_	name=O
+24	NTB	NTB	PROPN	_	_	13	obl	_	SpaceAfter=No|name=B-ORG|Entity=(spbm~20050822_508220320__278--1)
+25	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 019898
+# text = Det var fire personer om bord i lasteskipet « Ålfjord », og seks i fiskebåten.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	fire	fire	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(spbm~20050822_508220320__379--1
+4	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=spbm~20050822_508220320__379)
+5	om	om	ADP	_	_	6	case	_	name=O
+6	bord	bord	NOUN	_	_	2	obl	_	name=O|Entity=(spbm~20050822_508220320__T22--1
+7	i	i	ADP	_	_	10	case	_	name=O
+8	lasteskipet	lasteskip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	name=O|Entity=(spbm~20050822_508220320__571--1
+9	«	$"	PUNCT	_	_	10	punct	_	name=O
+10	Ålfjord	Ålfjord	PROPN	_	_	6	nmod	_	name=B-PROD
+11	»	$"	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220320__571)spbm~20050822_508220320__T22)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	seks	seks	NUM	_	Number=Plur|NumType=Card	2	conj	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	fiskebåten	fiskebåt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	orphan	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220320__5163--1)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 019899
+# text = Mannskapet i lasteskipet ble raskt tatt om bord i fiskebåten, samtidig som to redningsskøyter gikk mot stedet.
+1	Mannskapet	mannskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj:pass	_	name=O|Entity=(spbm~20050822_508220320__379--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	lasteskipet	lasteskip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(spbm~20050822_508220320__571--1)spbm~20050822_508220320__379)
+4	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	name=O
+5	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	tatt	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+7	om	om	ADP	_	_	8	case	_	name=O
+8	bord	bord	NOUN	_	_	6	obl	_	name=O|Entity=(spbm~20050822_508220320__T27--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	fiskebåten	fiskebåt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220320__5163--1)spbm~20050822_508220320__T27)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+13	som	som	PRON	_	PronType=Rel	16	obj	_	name=O
+14	to	to	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(spbm~20050822_508220320__260--1
+15	redningsskøyter	redningsskøyte	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	16	nsubj	_	name=O|Entity=spbm~20050822_508220320__260)
+16	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	name=O
+17	mot	mot	ADP	_	_	18	case	_	name=O
+18	stedet	sted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220320__242--1)
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 019900
+# text = Den ene av dem, RS « Platou », tok med seg mannskapet som forliste, og var ved 6-tiden mandag morgen på vei til Molde.
+1	Den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(spbm~20050822_508220320__2119--1
+2	ene	ene	NUM	_	Definite=Def|Number=Sing|NumType=Card	11	nsubj	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220320__260--1)
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	RS	RS	PROPN	_	_	2	appos	_	name=B-PROD|Entity=(spbm~20050822_508220320__T32--1
+7	«	$"	PUNCT	_	_	8	punct	_	name=I-PROD
+8	Platou	Platou	PROPN	_	_	6	flat:name	_	name=I-PROD
+9	»	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=I-PROD|Entity=spbm~20050822_508220320__2119)
+10	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=spbm~20050822_508220320__T32)
+11	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obl	_	name=O|Entity=(spbm~20050822_508220320__2119--1)
+14	mannskapet	mannskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obj	_	name=O|Entity=(spbm~20050822_508220320__379--1
+15	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+16	forliste	forlise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220320__379)
+17	,	$,	PUNCT	_	_	25	punct	_	name=O
+18	og	og	CCONJ	_	_	25	cc	_	name=O
+19	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	cop	_	name=O
+20	ved	ved	ADP	_	_	21	case	_	name=O
+21	6-tiden	6-tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	obl	_	name=O|Entity=(spbm~20050822_508220320__T34--1
+22	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	name=O|Entity=(spbm~20050822_508220320__T36--1(spbm~20050822_508220320__T35--1)
+23	morgen	morgen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=spbm~20050822_508220320__T36)spbm~20050822_508220320__T34)
+24	på	på	ADP	_	_	25	case	_	name=O
+25	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	conj	_	name=O|Entity=(spbm~20050822_508220320__T37--1
+26	til	til	ADP	_	_	27	case	_	name=O
+27	Molde	Molde	PROPN	_	_	25	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20050822_508220320__T38--1)spbm~20050822_508220320__T37)
+28	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 019901
+# text = Fiskebåten gikk for egen maskin til et verft for reparasjon av skader på baugen.
+1	Fiskebåten	fiskebåt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(spbm~20050822_508220320__5163--1)
+2	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	for	for	ADP	_	_	5	case	_	name=O
+4	egen	egen	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Prs	5	det	_	name=O|Entity=(spbm~20050822_508220320__T40--1(spbm~20050822_508220320__5163--1)
+5	maskin	maskin	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=spbm~20050822_508220320__T40)
+6	til	til	ADP	_	_	8	case	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(spbm~20050822_508220320__T41--1
+8	verft	verft	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=spbm~20050822_508220320__T41)
+9	for	for	ADP	_	_	10	case	_	name=O
+10	reparasjon	reparasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(spbm~20050822_508220320__T42--1
+11	av	av	ADP	_	_	12	case	_	name=O
+12	skader	skade	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	name=O|Entity=(spbm~20050822_508220320__T43--1
+13	på	på	ADP	_	_	14	case	_	name=O
+14	baugen	baug	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Bridge=spbm~20050822_508220320__5163<spbm~20050822_508220320__T44:default|Entity=(spbm~20050822_508220320__T44--1)spbm~20050822_508220320__T43)spbm~20050822_508220320__T42)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 019902
+# text = - Vi kjenner ikke årsaken til kollisjonen.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220320__T45--1)
+3	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	årsaken	årsak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(spbm~20050822_508220320__T46--1
+6	til	til	ADP	_	_	7	case	_	name=O
+7	kollisjonen	kollisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220320__257--1)spbm~20050822_508220320__T46)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019903
+# text = Det var greit vær i området, men med litt dårlig sikt på grunn av tåke, sier Willassen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	greit	grei	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	name=O|Entity=(spbm~20050822_508220320__T48--1
+4	vær	vær	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=spbm~20050822_508220320__T48)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220320__T49--1)
+7	,	$,	PUNCT	_	_	12	punct	_	name=O
+8	men	men	CCONJ	_	_	12	cc	_	name=O
+9	med	med	ADP	_	_	12	case	_	name=O
+10	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O|Entity=(spbm~20050822_508220320__T50--1
+11	dårlig	dårlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	sikt	sikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	name=O|Entity=spbm~20050822_508220320__T50)
+13	på	på	ADP	_	_	14	case	_	name=O
+14	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	orphan	_	name=O|Entity=(spbm~20050822_508220320__T51--1
+15	av	av	ADP	_	_	16	case	_	name=O
+16	tåke	tåke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220320__T52--1)spbm~20050822_508220320__T51)
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+19	Willassen	Willassen	PROPN	_	_	18	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(spbm~20050822_508220320__270--1)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 019904
+# text = HRS mottok meldingen om forliset klokken 3.49.
+1	HRS	HRS	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(spbm~20050822_508220320__272--1)
+2	mottok	motta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	meldingen	melding	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(spbm~20050822_508220320__T55--1
+4	om	om	ADP	_	_	5	case	_	name=O
+5	forliset	forlis	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(spbm~20050822_508220320__T56--1)spbm~20050822_508220320__T55)
+6	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(spbm~20050822_508220320__T57--1)
+7	3.49	3.49	NUM	_	NumType=Card	2	obl	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 019905
+# text = ( NTB )
+1	(	$(	PUNCT	_	_	2	punct	_	name=O|Entity=(spbm~20050822_508220320__278--1
+2	NTB	NTB	PROPN	_	_	0	root	_	name=B-ORG
+3	)	$)	PUNCT	_	_	2	punct	_	name=O|Entity=spbm~20050822_508220320__278)
+

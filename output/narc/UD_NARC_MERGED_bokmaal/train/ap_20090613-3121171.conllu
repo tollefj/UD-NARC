@@ -1,0 +1,173 @@
+# newdoc id = ap_20090613-3121171
+# global.Entity = eid-etype-head-other
+# sent_id = 000243
+# text = Kong Harald slo erkerivalen
+1	Kong	kong	NOUN	_	_	2	nmod	_	name=O|Entity=(ap_20090613_3121171__457--1
+2	Harald	Harald	PROPN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=ap_20090613_3121171__457)
+3	slo	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	erkerivalen	erkerival	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(ap_20090613_3121171__231--1)
+
+# newpar
+# sent_id = 000244
+# text = Etter trøbbel i Oslos havnebasseng på fredag gikk det lynraskt for « Fram XVI » i Færderseilasen.
+1	Etter	etter	ADP	_	_	2	case	_	name=O
+2	trøbbel	trøbbel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(ap_20090613_3121171__T3--1
+3	i	i	ADP	_	_	5	case	_	name=O
+4	Oslos	Oslo	PROPN	_	Case=Gen	5	nmod	_	name=B-GPE_LOC|Entity=(ap_20090613_3121171__T5--1(ap_20090613_3121171__T4--1)
+5	havnebasseng	havnebasseng	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=ap_20090613_3121171__T5)
+6	på	på	ADP	_	_	7	case	_	name=O
+7	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20090613_3121171__T6--1)ap_20090613_3121171__T3)
+8	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+10	lynraskt	lynrask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+11	for	for	ADP	_	_	13	case	_	name=O
+12	«	$"	PUNCT	_	_	13	punct	_	name=O|Entity=(ap_20090613_3121171__5129--1
+13	Fram	Fram	PROPN	_	_	8	obl	_	name=B-PROD
+14	XVI	XVI	PROPN	_	_	13	flat:name	_	name=I-PROD
+15	»	$"	PUNCT	_	_	13	punct	_	name=O|Entity=ap_20090613_3121171__5129)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Færderseilasen	Færderseilasen	PROPN	_	_	8	obl	_	SpaceAfter=No|name=B-EVT|Entity=(ap_20090613_3121171__T8--1)
+18	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 000245
+# text = Kong Harald og resten av mannskapet hadde problemer i åpningen, men fikk raskt vind i seilene igjen.
+1	Kong	kong	NOUN	_	_	2	nmod	_	name=O|Entity=(ap_20090613_3121171__227--1(ap_20090613_3121171__457--1
+2	Harald	Harald	PROPN	_	Gender=Masc	7	nsubj	_	name=B-PER|Entity=ap_20090613_3121171__457)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	resten	rest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	conj	_	name=O|Entity=(ap_20090613_3121171__231--1
+5	av	av	ADP	_	_	6	case	_	name=O
+6	mannskapet	mannskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	name=O|Bridge=ap_20090613_3121171__5129<ap_20090613_3121171__T12:default|Entity=(ap_20090613_3121171__T12--1)ap_20090613_3121171__231)ap_20090613_3121171__227)
+7	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	problemer	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obj	_	name=O|Entity=(ap_20090613_3121171__T13--1)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	åpningen	åpning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090613_3121171__T14--1)
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	men	men	CCONJ	_	_	13	cc	_	name=O
+13	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	name=O
+14	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+15	vind	vind	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(ap_20090613_3121171__T15--1)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	seilene	seil	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	13	obl	_	name=O|Bridge=ap_20090613_3121171__5129<ap_20090613_3121171__T16:default|Entity=(ap_20090613_3121171__T16--1)
+18	igjen	igjen	ADV	_	_	13	advmod	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 000246
+# text = Fredag havnet kong Harald og Co. i trøbbel da et spinnakerskjøte røk på båten « Fram XVI » .
+1	Fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(ap_20090613_3121171__T17--1)
+2	havnet	havne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	kong	kong	NOUN	_	_	4	nmod	_	name=O|Entity=(ap_20090613_3121171__227--1(ap_20090613_3121171__457--1
+4	Harald	Harald	PROPN	_	Gender=Masc	2	nsubj	_	name=B-PER|Entity=ap_20090613_3121171__457)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	Co.	Co.	NOUN	_	Abbr=Yes	4	conj	_	name=O|Entity=(ap_20090613_3121171__231--1)ap_20090613_3121171__227)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	trøbbel	trøbbel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(ap_20090613_3121171__T21--1)
+9	da	da	SCONJ	_	_	12	mark	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(ap_20090613_3121171__T22--1
+11	spinnakerskjøte	spinnakerskjøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nsubj	_	name=O|Entity=ap_20090613_3121171__T22)
+12	røk	ryke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	name=O
+13	på	på	ADP	_	_	16	case	_	name=O
+14	båten	båt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(ap_20090613_3121171__5129--1
+15	«	$"	PUNCT	_	_	16	punct	_	name=O
+16	Fram	Fram	PROPN	_	_	12	obl	_	name=B-PROD
+17	XVI	XVI	PROPN	_	_	16	flat:name	_	name=I-PROD
+18	»	$"	PUNCT	_	_	16	punct	_	name=O|Entity=ap_20090613_3121171__5129)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000247
+# text = Men derfra gikk det raskt hele veien rundt Færder fyr og inn til Horten.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	derfra	derfra	ADV	_	_	3	advmod	_	name=O
+3	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+6	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(ap_20090613_3121171__T24--1
+7	veien	vei	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=ap_20090613_3121171__T24)
+8	rundt	rundt	ADP	_	_	9	case	_	name=O
+9	Færder	Færder	PROPN	_	_	3	obl	_	name=B-LOC|Entity=(ap_20090613_3121171__T25--1
+10	fyr	fyr	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	flat:name	_	name=I-LOC|Entity=ap_20090613_3121171__T25)
+11	og	og	CCONJ	_	_	14	cc	_	name=O
+12	inn	inn	ADP	_	_	14	case	_	name=O
+13	til	til	ADP	_	_	14	case	_	name=O
+14	Horten	Horten	PROPN	_	_	9	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090613_3121171__T26--1)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000248
+# text = Kongens båt slo rivalen « Camilla », og dermed ble det revansj for nederlaget i HH Skagen Race.
+1	Kongens	konge	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20090613_3121171__5129--1(ap_20090613_3121171__457--1)
+2	båt	båt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=ap_20090613_3121171__5129)
+3	slo	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	rivalen	rival	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20090613_3121171__231--1
+5	«	$"	PUNCT	_	_	6	punct	_	name=O
+6	Camilla	Camilla	PROPN	_	Gender=Fem	3	obj	_	name=B-PROD
+7	»	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=ap_20090613_3121171__231)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	dermed	dermed	ADV	_	_	11	advmod	_	name=O
+11	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+13	revansj	revansj	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	xcomp	_	name=O|Entity=(ap_20090613_3121171__T30--1
+14	for	for	ADP	_	_	15	case	_	name=O
+15	nederlaget	nederlag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	name=O|Entity=(ap_20090613_3121171__T31--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	HH	HH	PROPN	_	_	15	nmod	_	name=B-EVT|Entity=(ap_20090613_3121171__T32--1
+18	Skagen	Skagen	PROPN	_	_	17	flat:name	_	name=I-EVT
+19	Race	Race	PROPN	_	_	17	flat:name	_	SpaceAfter=No|name=I-EVT|Entity=ap_20090613_3121171__T32)ap_20090613_3121171__T31)ap_20090613_3121171__T30)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000249
+# text = Dermed ble Fram XVI beste 50 fots båt.
+1	Dermed	dermed	ADV	_	_	2	advmod	_	name=O
+2	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	Fram	Fram	PROPN	_	_	2	nsubj	_	name=B-PROD|Entity=(ap_20090613_3121171__5129--1
+4	XVI	XVI	PROPN	_	_	3	flat:name	_	name=I-PROD|Entity=ap_20090613_3121171__5129)
+5	beste	god	ADJ	_	Definite=Def|Degree=Sup	8	amod	_	name=O|Entity=(ap_20090613_3121171__T35--1
+6	50	50	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(ap_20090613_3121171__T34--1
+7	fots	fot	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=ap_20090613_3121171__T34)
+8	båt	båt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20090613_3121171__T35)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000250
+# text = Men seier i klassen ORC Club ble det likevel ikke - der endte den kongelige båten nede på 16. plass, bak de mindre båtene.
+1	Men	men	CCONJ	_	_	7	cc	_	name=O
+2	seier	seier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	xcomp	_	name=O|Entity=(ap_20090613_3121171__T36--1
+3	i	i	ADP	_	_	5	case	_	name=O
+4	klassen	klasse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(ap_20090613_3121171__T37--1
+5	ORC	ORC	PROPN	_	_	2	nmod	_	name=B-PROD
+6	Club	Club	PROPN	_	_	5	flat:name	_	name=I-PROD|Entity=ap_20090613_3121171__T37)ap_20090613_3121171__T36)
+7	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+9	likevel	likevel	ADV	_	_	7	advmod	_	name=O
+10	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	name=O
+11	-	$-	PUNCT	_	_	13	punct	_	name=O
+12	der	der	ADV	_	_	13	advmod	_	name=O
+13	endte	ende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	name=O
+14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(ap_20090613_3121171__5129--1
+15	kongelige	kongelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	båten	båt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=ap_20090613_3121171__5129)
+17	nede	nede	ADP	_	_	20	case	_	name=O
+18	på	på	ADP	_	_	20	case	_	name=O
+19	16.	16.	ADJ	_	Number=Plur	20	amod	_	name=O|Entity=(ap_20090613_3121171__T39--1
+20	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O
+21	,	$,	PUNCT	_	_	25	punct	_	name=O
+22	bak	bak	ADP	_	_	25	case	_	name=O
+23	de	de	DET	_	Number=Plur|PronType=Dem	25	det	_	name=O|Bridge=ap_20090613_3121171__T37<ap_20090613_3121171__T40:default|Entity=(ap_20090613_3121171__T40--1
+24	mindre	liten	ADJ	_	Degree=Cmp	25	amod	_	name=O
+25	båtene	båt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090613_3121171__T40)ap_20090613_3121171__T39)
+26	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 000251
+# text = Se komplett resultatliste her , og les mer hos Seilas.no .
+1	Se	se	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	komplett	komplett	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=(ap_20090613_3121171__T41--1
+3	resultatliste	resultatliste	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	name=O|Entity=ap_20090613_3121171__T41)
+4	her	her	ADV	_	_	1	advmod	_	name=O
+5	,	$,	PUNCT	_	_	7	punct	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	les	lese	VERB	_	Mood=Imp|VerbForm=Fin	1	conj	_	name=O
+8	mer	mye	ADJ	_	Degree=Cmp	7	obj	_	name=O
+9	hos	hos	ADP	_	_	10	case	_	name=O
+10	Seilas.no	Seilas.no	PROPN	_	_	7	obl	_	name=B-PROD|Entity=(ap_20090613_3121171__T42--1)
+11	.	$.	PUNCT	_	_	1	punct	_	name=O
+

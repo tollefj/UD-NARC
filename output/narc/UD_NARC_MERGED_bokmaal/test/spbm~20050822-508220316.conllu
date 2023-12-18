@@ -1,0 +1,243 @@
+# newdoc id = spbm~20050822-508220316
+# global.Entity = eid-etype-head-other
+# sent_id = 019818
+# text = Høyre ønsker verdighet i abortdebatten
+1	Høyre	Høyre	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(spbm~20050822_508220316__3105--1)
+2	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	verdighet	verdighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(spbm~20050822_508220316__T2--1)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	abortdebatten	abortdebatt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(spbm~20050822_508220316__234--1)
+
+# newpar
+# sent_id = 019819
+# text = Ludvig Nessa, Norges mest omstridte abortmotstander, vil ha abortsaken inn i valgkampen og tyr som tidligere til drastiske virkemidler som brev med plastfostre og blodige bilder.
+1	Ludvig	Ludvig	PROPN	_	Gender=Masc	10	nsubj	_	name=B-PER|Entity=(spbm~20050822_508220316__8201--1
+2	Nessa	Nessa	PROPN	_	_	1	flat:name	_	SpaceAfter=No|name=I-PER
+3	,	$,	PUNCT	_	_	7	punct	_	name=O
+4	Norges	Norge	PROPN	_	Case=Gen	7	nmod	_	name=B-GPE_LOC|Entity=(spbm~20050822_508220316__T6--1(spbm~20050822_508220316__T5--1)
+5	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	6	advmod	_	name=O
+6	omstridte	omstridt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	abortmotstander	abortmotstander	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=spbm~20050822_508220316__T6)spbm~20050822_508220316__8201)
+9	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	abortsaken	abortsak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=(spbm~20050822_508220316__T7--1)
+12	inn	inn	ADP	_	_	14	case	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	valgkampen	valgkamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(spbm~20050822_508220316__256--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	tyr	ty	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	name=O
+17	som	som	ADP	_	_	18	case	_	name=O
+18	tidligere	tidlig	ADJ	_	Degree=Cmp	16	advmod	_	name=O|Entity=(spbm~20050822_508220316__T9--1)
+19	til	til	ADP	_	_	21	case	_	name=O
+20	drastiske	drastisk	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	name=O|Entity=(spbm~20050822_508220316__T10--1
+21	virkemidler	virkemiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obl	_	name=O
+22	som	som	ADP	_	_	23	case	_	name=O
+23	brev	brev	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	21	nmod	_	name=O|Entity=(spbm~20050822_508220316__T11--1
+24	med	med	ADP	_	_	25	case	_	name=O
+25	plastfostre	plastfoster	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	nmod	_	name=O|Entity=(spbm~20050822_508220316__T12--1(spbm~20050822_508220316__T13--1)
+26	og	og	CCONJ	_	_	28	cc	_	name=O
+27	blodige	blodig	ADJ	_	Degree=Pos|Number=Plur	28	amod	_	name=O|Entity=(spbm~20050822_508220316__T14--1
+28	bilder	bilde	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	25	conj	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220316__T14)spbm~20050822_508220316__T12)spbm~20050822_508220316__T11)spbm~20050822_508220316__T10)
+29	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 019820
+# text = Nessa må selvsagt få lov til å mene hva han vil og kjempe for det han tror på.
+1	Nessa	Nessa	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(spbm~20050822_508220316__8201--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	selvsagt	selvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	lov	lov	NOUN	_	Gender=Masc	4	obj	_	name=O|Entity=(spbm~20050822_508220316__T16--1
+6	til	til	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	mene	mene	VERB	_	VerbForm=Inf	5	acl	_	name=O
+9	hva	hva	PRON	_	PronType=Int	11	obj	_	name=O
+10	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(spbm~20050822_508220316__8201--1)
+11	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	kjempe	kjempe	VERB	_	VerbForm=Inf	8	conj	_	name=O
+14	for	for	ADP	_	_	15	case	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obl	_	name=O|Entity=(spbm~20050822_508220316__T18--1
+16	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(spbm~20050822_508220316__8201--1)
+17	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+18	på	på	ADP	_	_	17	compound:prt	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220316__T18)spbm~20050822_508220316__T16)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 019821
+# text = Ytringsfriheten er nettopp ment å beskytte dem som har avvikende synspunkter i forhold til flertallet.
+1	Ytringsfriheten	ytringsfrihet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(spbm~20050822_508220316__T20--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	nettopp	nettopp	ADV	_	_	4	advmod	_	name=O
+4	ment	mene	VERB	_	VerbForm=Part	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	beskytte	beskytte	VERB	_	VerbForm=Inf	4	xcomp	_	name=O
+7	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	name=O|Entity=(spbm~20050822_508220316__T21--1
+8	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	name=O
+10	avvikende	avvikende	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(spbm~20050822_508220316__T22--1
+11	synspunkter	synspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(spbm~20050822_508220316__T23--1
+14	til	til	ADP	_	_	15	case	_	name=O
+15	flertallet	flertall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220316__T24--1)spbm~20050822_508220316__T23)spbm~20050822_508220316__T22)spbm~20050822_508220316__T21)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 019822
+# text = Bruk av virkemidler som kan virke støtende på mange må også tåles i et demokrati.
+1	Bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj:pass	_	name=O|Entity=(spbm~20050822_508220316__T25--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	virkemidler	virkemiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	nmod	_	name=O|Entity=(spbm~20050822_508220316__T26--1
+4	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	virke	virke	VERB	_	VerbForm=Inf	3	acl:relcl	_	name=O
+7	støtende	støte	ADJ	_	VerbForm=Part	6	xcomp	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	mange	mange	ADJ	_	Degree=Pos|Number=Plur	7	advmod	_	name=O|Entity=(spbm~20050822_508220316__T27--1)spbm~20050822_508220316__T26)spbm~20050822_508220316__T25)
+10	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	også	også	ADV	_	_	12	advmod	_	name=O
+12	tåles	tåle	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+13	i	i	ADP	_	_	15	case	_	name=O
+14	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(spbm~20050822_508220316__T28--1
+15	demokrati	demokrati	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220316__T28)
+16	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 019823
+# text = Men når Nessa på nytt drar debatten ned på et så nedrig nivå, synes jeg vi politikere bør være tilbakeholdne med å gi ham den oppmerksomheten han søker.
+1	Men	men	CCONJ	_	_	15	cc	_	name=O
+2	når	når	SCONJ	_	_	6	mark	_	name=O
+3	Nessa	Nessa	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(spbm~20050822_508220316__8201--1)
+4	på	på	ADP	_	_	5	case	_	name=O
+5	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=(spbm~20050822_508220316__T30--1)
+6	drar	dra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	name=O
+7	debatten	debatt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(spbm~20050822_508220316__234--1)
+8	ned	ned	ADP	_	_	13	case	_	name=O
+9	på	på	ADP	_	_	13	case	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(spbm~20050822_508220316__T32--1
+11	så	så	ADV	_	_	12	advmod	_	name=O
+12	nedrig	nedrig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	name=O
+13	nivå	nivå	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220316__T32)
+14	,	$,	PUNCT	_	_	6	punct	_	name=O
+15	synes	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+16	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	name=O|Entity=(spbm~20050822_508220316__T33--1)
+17	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	name=O|Entity=(spbm~20050822_508220316__275--1
+18	politikere	politiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	appos	_	name=O|Entity=spbm~20050822_508220316__275)
+19	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+20	være	være	AUX	_	VerbForm=Inf	21	cop	_	name=O
+21	tilbakeholdne	tilbakeholden	ADJ	_	Degree=Pos|Number=Plur	15	ccomp	_	name=O
+22	med	med	SCONJ	_	_	24	mark	_	name=O
+23	å	å	PART	_	_	24	mark	_	name=O
+24	gi	gi	VERB	_	VerbForm=Inf	21	advcl	_	name=O
+25	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	iobj	_	name=O|Entity=(spbm~20050822_508220316__8201--1)
+26	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	27	det	_	name=O|Entity=(spbm~20050822_508220316__T36--1
+27	oppmerksomheten	oppmerksomhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	obj	_	name=O
+28	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	name=O|Entity=(spbm~20050822_508220316__8201--1)
+29	søker	søke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220316__T36)
+30	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 019824
+# text = Av respekt for de kvinnene det gjelder og for å verne om en verdig debattform, bør vi ikke bidra til å skape blest om virkemidlene som brukes.
+1	Av	av	ADP	_	_	2	case	_	name=O
+2	respekt	respekt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	name=O|Entity=(spbm~20050822_508220316__T38--1
+3	for	for	ADP	_	_	5	case	_	name=O
+4	de	de	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(spbm~20050822_508220316__T39--1
+5	kvinnene	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+7	gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O|Entity=spbm~20050822_508220316__T39)
+8	og	og	CCONJ	_	_	11	cc	_	name=O
+9	for	for	ADP	_	_	11	case	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	verne	verne	VERB	_	VerbForm=Inf	5	conj	_	name=O
+12	om	om	ADP	_	_	15	case	_	name=O
+13	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(spbm~20050822_508220316__T40--1
+14	verdig	verdig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	debattform	debattform	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220316__T40)spbm~20050822_508220316__T38)
+16	,	$,	PUNCT	_	_	2	punct	_	name=O
+17	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+18	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	name=O|Entity=(spbm~20050822_508220316__275--1)
+19	ikke	ikke	PART	_	Polarity=Neg	20	advmod	_	name=O
+20	bidra	bidra	VERB	_	VerbForm=Inf	0	root	_	name=O
+21	til	til	SCONJ	_	_	23	mark	_	name=O
+22	å	å	PART	_	_	23	mark	_	name=O
+23	skape	skape	VERB	_	VerbForm=Inf	20	advcl	_	name=O
+24	blest	blest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	name=O|Entity=(spbm~20050822_508220316__T42--1)
+25	om	om	ADP	_	_	26	case	_	name=O
+26	virkemidlene	virkemiddel	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	23	obl	_	name=O|Entity=(spbm~20050822_508220316__T43--1
+27	som	som	PRON	_	PronType=Rel	28	nsubj:pass	_	name=O
+28	brukes	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	26	acl:relcl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220316__T43)
+29	.	$.	PUNCT	_	_	20	punct	_	name=O
+
+# sent_id = 019825
+# text = Dette vil kun gi Nessa muligheter til å score noen billige poenger i valgkampen.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(spbm~20050822_508220316__T44--1)
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	kun	kun	ADV	_	_	4	advmod	_	name=O
+4	gi	gi	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	Nessa	Nessa	PROPN	_	_	4	iobj	_	name=B-PER|Entity=(spbm~20050822_508220316__8201--1)
+6	muligheter	mulighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	name=O|Entity=(spbm~20050822_508220316__T46--1
+7	til	til	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	score	score	VERB	_	VerbForm=Inf	6	acl	_	name=O
+10	noen	noen	DET	_	Number=Plur|PronType=Ind	12	det	_	name=O|Entity=(spbm~20050822_508220316__T47--1
+11	billige	billig	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	poenger	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	name=O|Entity=spbm~20050822_508220316__T47)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	valgkampen	valgkamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220316__256--1)spbm~20050822_508220316__T46)
+15	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 019826
+# text = Høyre er en forkjemper for dagens lov og mener at dette vanskelige valget må tas av kvinnen selv.
+1	Høyre	Høyre	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(spbm~20050822_508220316__3105--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(spbm~20050822_508220316__T50--1
+4	forkjemper	forkjemper	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	for	for	ADP	_	_	7	case	_	name=O
+6	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(spbm~20050822_508220316__T52--1(spbm~20050822_508220316__T51--1)
+7	lov	lov	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=spbm~20050822_508220316__T52)spbm~20050822_508220316__T50)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+10	at	at	SCONJ	_	_	15	mark	_	name=O
+11	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(spbm~20050822_508220316__T53--1
+12	vanskelige	vanskelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	valget	valg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nsubj:pass	_	name=O|Entity=spbm~20050822_508220316__T53)
+14	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	tas	ta	VERB	_	VerbForm=Inf|Voice=Pass	9	ccomp	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	kvinnen	kvinne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(spbm~20050822_508220316__2114--1
+18	selv	selv	DET	_	PronType=Prs	17	det	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220316__2114)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 019827
+# text = Vi vil beholde dagens grense for selvbestemt abort på 12 uker fordi det er nødvendig å støtte opp om kvinnens rett til å avgjøre dette på et tidlig stadium i svangerskapet.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220316__3105--1)
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	beholde	beholde	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(spbm~20050822_508220316__T57--1(spbm~20050822_508220316__T56--1)
+5	grense	grense	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O
+6	for	for	ADP	_	_	8	case	_	name=O
+7	selvbestemt	selvbestemt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(spbm~20050822_508220316__T58--1
+8	abort	abort	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O
+9	på	på	ADP	_	_	11	case	_	name=O
+10	12	12	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(spbm~20050822_508220316__T59--1
+11	uker	uke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	name=O|Entity=spbm~20050822_508220316__T59)spbm~20050822_508220316__T58)spbm~20050822_508220316__T57)
+12	fordi	fordi	SCONJ	_	_	15	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	name=O
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+15	nødvendig	nødvendig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advcl	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	støtte	støtte	VERB	_	VerbForm=Inf	15	csubj	_	name=O
+18	opp	opp	ADP	_	_	17	compound:prt	_	name=O
+19	om	om	ADP	_	_	21	case	_	name=O
+20	kvinnens	kvinne	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=(spbm~20050822_508220316__T61--1(spbm~20050822_508220316__2114--1)
+21	rett	rett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	name=O
+22	til	til	SCONJ	_	_	24	mark	_	name=O
+23	å	å	PART	_	_	24	mark	_	name=O
+24	avgjøre	avgjøre	VERB	_	VerbForm=Inf	21	acl	_	name=O
+25	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	_	name=O|Entity=(spbm~20050822_508220316__T62--1)
+26	på	på	ADP	_	_	29	case	_	name=O
+27	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	29	det	_	name=O|Entity=(spbm~20050822_508220316__T63--1
+28	tidlig	tidlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	name=O
+29	stadium	stadium	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	obl	_	name=O
+30	i	i	ADP	_	_	31	case	_	name=O
+31	svangerskapet	svangerskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	29	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220316__T64--1)spbm~20050822_508220316__T63)spbm~20050822_508220316__T61)
+32	.	$.	PUNCT	_	_	3	punct	_	name=O
+

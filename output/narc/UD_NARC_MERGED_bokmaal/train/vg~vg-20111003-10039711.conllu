@@ -1,0 +1,306 @@
+# newdoc id = vg~vg-20111003-10039711
+# global.Entity = eid-etype-head-other
+# sent_id = 015132
+# text = Dødsforliset i Haram:
+1	Dødsforliset	dødsforlis	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(vg~vg_20111003_10039711__T1--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Haram	Haram	PROPN	_	_	1	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vg~vg_20111003_10039711__T2--1)vg~vg_20111003_10039711__T1)
+4	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 015133
+# text = - Hadde ikke informasjon om personskade
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	informasjon	informasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(vg~vg_20111003_10039711__T3--1
+5	om	om	ADP	_	_	6	case	_	name=O
+6	personskade	personskade	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(vg~vg_20111003_10039711__T4--1)vg~vg_20111003_10039711__T3)
+
+# sent_id = 015134
+# text = AMK ble varslet 23 minutter etter politiet
+1	AMK	AMK	PROPN	_	_	3	nsubj:pass	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__5231--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	varslet	varsle	VERB	_	VerbForm=Part	0	root	_	name=O
+4	23	23	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(vg~vg_20111003_10039711__T6--1
+5	minutter	minutt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O|Entity=vg~vg_20111003_10039711__T6)
+6	etter	etter	ADP	_	_	7	case	_	name=O
+7	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20111003_10039711__6287--1)
+
+# sent_id = 015135
+# text = Gikk på grunn:
+1	Gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__T8--1)
+4	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 015136
+# text = Tre mennesker mistet livet i forliset på Lepsøyrevet, utenfor Ålesund.
+1	Tre	tre	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(vg~vg_20111003_10039711__T9--1
+2	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=vg~vg_20111003_10039711__T9)
+3	mistet	miste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Bridge=vg~vg_20111003_10039711__T9<vg~vg_20111003_10039711__T10:default|Entity=(vg~vg_20111003_10039711__T10--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	forliset	forlis	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20111003_10039711__241--1
+7	på	på	ADP	_	_	8	case	_	name=O
+8	Lepsøyrevet	Lepsøyrevet	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(vg~vg_20111003_10039711__295--1
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	utenfor	utenfor	ADP	_	_	11	case	_	name=O
+11	Ålesund	Ålesund	PROPN	_	_	8	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vg~vg_20111003_10039711__T13--1)vg~vg_20111003_10039711__295)vg~vg_20111003_10039711__241)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015137
+# text = Foto: Hallgeir Vågenes
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__T14--1
+2	:	$:	PUNCT	_	_	3	punct	_	name=O
+3	Hallgeir	Hallgeir	PROPN	_	_	1	parataxis	_	name=B-PER|Entity=(vg~vg_20111003_10039711__T15--1
+4	Vågenes	Vågenes	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=vg~vg_20111003_10039711__T15)vg~vg_20111003_10039711__T14)
+
+# sent_id = 015138
+# text = (VG Nett)
+1	(	$(	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__T16--1
+2	VG	VG	PROPN	_	_	0	root	_	name=B-PROD
+3	Nett	Nett	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD
+4	)	$)	PUNCT	_	_	2	punct	_	name=O|Entity=vg~vg_20111003_10039711__T16)
+
+# sent_id = 015139
+# text = Det var NRK som i dag kunne fortelle at det tok 23 minutter fra første melding politiet og HRS mottok melding om grunnstøtingen, til Akuttmedisinsk kommunikasjonsentral (AMK) ble varslet.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	NRK	NRK	PROPN	_	_	0	root	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__T17[1/2]--1
+4	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(vg~vg_20111003_10039711__T18--1)
+7	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+8	fortelle	fortelle	VERB	_	VerbForm=Inf	3	acl:cleft	_	name=O
+9	at	at	SCONJ	_	_	11	mark	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	xcomp	_	name=O
+12	23	23	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(vg~vg_20111003_10039711__T19[1/2]--1
+13	minutter	minutt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obj	_	name=O
+14	fra	fra	ADP	_	_	16	case	_	name=O
+15	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O|Entity=(vg~vg_20111003_10039711__T20[1/2]--1
+16	melding	melding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	name=O
+17	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__T21--1(vg~vg_20111003_10039711__6287--1)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	HRS	HRS	PROPN	_	_	17	conj	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__7361--1)vg~vg_20111003_10039711__T21)
+20	mottok	motta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	name=O|Entity=vg~vg_20111003_10039711__T20[1/2])vg~vg_20111003_10039711__T19[1/2])vg~vg_20111003_10039711__T17[1/2])
+21	melding	melding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	reparandum	_	name=O|Entity=(vg~vg_20111003_10039711__T24--1)
+22	om	om	ADP	_	_	23	case	_	name=O|Entity=(vg~vg_20111003_10039711__T17[2/2]--1(vg~vg_20111003_10039711__T19[2/2]--1(vg~vg_20111003_10039711__T20[2/2]--1
+23	grunnstøtingen	grunnstøting	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__T25--1)vg~vg_20111003_10039711__T20[2/2])
+24	,	$,	PUNCT	_	_	23	punct	_	name=O
+25	til	til	SCONJ	_	_	32	mark	_	name=O
+26	Akuttmedisinsk	Akuttmedisinsk	PROPN	_	_	32	nsubj:pass	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__5231--1
+27	kommunikasjonsentral	kommunikasjonsentral	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	flat:name	_	name=I-ORG
+28	(	$(	PUNCT	_	_	29	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__T27--1
+29	AMK	AMK	PROPN	_	_	26	appos	_	SpaceAfter=No|name=B-ORG
+30	)	$)	PUNCT	_	_	29	punct	_	name=O|Entity=vg~vg_20111003_10039711__T27)vg~vg_20111003_10039711__5231)
+31	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux:pass	_	name=O
+32	varslet	varsle	VERB	_	VerbForm=Part	16	advcl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039711__T17[2/2])vg~vg_20111003_10039711__T19[2/2])
+33	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015140
+# text = Tre personer mistet livet i forliset.
+1	Tre	tre	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(vg~vg_20111003_10039711__T28--1
+2	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=vg~vg_20111003_10039711__T28)
+3	mistet	miste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Bridge=vg~vg_20111003_10039711__T28<vg~vg_20111003_10039711__T29:default|Entity=(vg~vg_20111003_10039711__T29--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	forliset	forlis	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__241--1)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015141
+# text = Jarle Øversveen, avdelingsdirektør i Hovedredningsentralen Sør-Norge (HRS), forklarer dette med at de hadde lite informasjon om grunnstøtingen da de fikk første melding klokken 22.15 på fredag.
+1	Jarle	Jarle	PROPN	_	Gender=Masc	12	nsubj	_	name=B-PER|Entity=(vg~vg_20111003_10039711__3132--1
+2	Øversveen	Øversveen	PROPN	_	_	1	flat:name	_	SpaceAfter=No|name=I-PER
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	avdelingsdirektør	avdelingsdirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	name=O|Entity=(vg~vg_20111003_10039711__T32--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Hovedredningsentralen	Hovedredningsentralen	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__7361--1
+7	Sør-Norge	Sør-Norge	PROPN	_	_	6	flat:name	_	name=I-ORG
+8	(	$(	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__T34--1
+9	HRS	HRS	PROPN	_	_	6	appos	_	SpaceAfter=No|name=B-ORG
+10	)	$)	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039711__T34)vg~vg_20111003_10039711__7361)vg~vg_20111003_10039711__T32)vg~vg_20111003_10039711__3132)
+11	,	$,	PUNCT	_	_	4	punct	_	name=O
+12	forklarer	forklare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	name=O|Entity=(vg~vg_20111003_10039711__T35--1)
+14	med	med	SCONJ	_	_	17	mark	_	name=O
+15	at	at	SCONJ	_	_	17	mark	_	name=O
+16	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__3123--1)
+17	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	name=O
+18	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	19	amod	_	name=O|Entity=(vg~vg_20111003_10039711__T37--1
+19	informasjon	informasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	name=O
+20	om	om	ADP	_	_	21	case	_	name=O
+21	grunnstøtingen	grunnstøting	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=(vg~vg_20111003_10039711__T38--1)vg~vg_20111003_10039711__T37)
+22	da	da	SCONJ	_	_	24	mark	_	name=O
+23	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__3123--1)
+24	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	name=O
+25	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	name=O|Entity=(vg~vg_20111003_10039711__T40--1
+26	melding	melding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	obj	_	name=O|Entity=vg~vg_20111003_10039711__T40)
+27	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	obl	_	name=O|Entity=(vg~vg_20111003_10039711__T41--1)
+28	22.15	22.15	NUM	_	NumType=Card	30	obl	_	name=O
+29	på	på	ADP	_	_	30	case	_	name=O
+30	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__T42--1)
+31	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 015142
+# text = - I dette tilfellet var det HRS sitt ansvar å varsle AMK, men vi måtte først finne ut om det var personskade involvert, sier Øversveen.
+1	-	$-	PUNCT	_	_	9	punct	_	name=O
+2	I	i	ADP	_	_	4	case	_	name=O
+3	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(vg~vg_20111003_10039711__T43--1
+4	tilfellet	tilfelle	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=vg~vg_20111003_10039711__T43)
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+7	HRS	HRS	PROPN	_	_	8	obl	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__T46--1(vg~vg_20111003_10039711__T45--1(vg~vg_20111003_10039711__7361--1)
+8	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=vg~vg_20111003_10039711__T45)
+9	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=vg~vg_20111003_10039711__T46)
+10	å	å	PART	_	_	11	mark	_	name=O
+11	varsle	varsle	VERB	_	VerbForm=Inf	9	csubj	_	name=O
+12	AMK	AMK	PROPN	_	_	11	obj	_	SpaceAfter=No|name=B-ORG|Entity=(vg~vg_20111003_10039711__5231--1)
+13	,	$,	PUNCT	_	_	18	punct	_	name=O
+14	men	men	CCONJ	_	_	18	cc	_	name=O
+15	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__3123--1)
+16	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	name=O
+17	først	først	ADV	_	_	18	advmod	_	name=O
+18	finne	finne	VERB	_	VerbForm=Inf	9	conj	_	name=O
+19	ut	ut	ADP	_	_	18	compound:prt	_	name=O
+20	om	om	SCONJ	_	_	24	mark	_	name=O
+21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	name=O
+22	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	cop	_	name=O
+23	personskade	personskade	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__T49--1)
+24	involvert	involvere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	18	ccomp	_	SpaceAfter=No|name=O
+25	,	$,	PUNCT	_	_	18	punct	_	name=O
+26	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	name=O
+27	Øversveen	Øversveen	PROPN	_	_	26	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vg~vg_20111003_10039711__3132--1)
+28	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 015143
+# text = Ifølge Øversveen er dette hendelsesforløpet:
+1	Ifølge	ifølge	ADP	_	_	2	case	_	name=O
+2	Øversveen	Øversveen	PROPN	_	_	5	obl	_	name=B-PER|Entity=(vg~vg_20111003_10039711__3132--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__T52--1)
+5	hendelsesforløpet	hendelsesforløp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__T53--1)
+6	:	$:	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015144
+# text = 22.14 får politiet første telefon med melding om grunnstøting.
+1	22.14	22.14	NUM	_	NumType=Card	2	obl	_	name=O
+2	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__6287--1)
+4	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(vg~vg_20111003_10039711__2114--1
+5	telefon	telefon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	melding	melding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	name=O|Entity=(vg~vg_20111003_10039711__T56--1
+8	om	om	ADP	_	_	9	case	_	name=O
+9	grunnstøting	grunnstøting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__T57--1)vg~vg_20111003_10039711__T56)vg~vg_20111003_10039711__2114)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015145
+# text = Politiet setter så telefonen over til HRS et minutt senere, altså 22.15, da blir samtalen brutt.
+1	Politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__6287--1)
+2	setter	sette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	så	så	ADV	_	_	2	advmod	_	name=O
+4	telefonen	telefon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(vg~vg_20111003_10039711__2114--1)
+5	over	over	ADP	_	_	2	compound:prt	_	name=O
+6	til	til	ADP	_	_	7	case	_	name=O
+7	HRS	HRS	PROPN	_	_	2	obl	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__7361--1)
+8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vg~vg_20111003_10039711__T61--1
+9	minutt	minutt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O
+10	senere	sen	ADJ	_	Degree=Cmp	9	amod	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	altså	altså	ADV	_	_	13	advmod	_	name=O
+13	22.15	22.15	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039711__T61)
+14	,	$,	PUNCT	_	_	18	punct	_	name=O
+15	da	da	ADV	_	_	18	advmod	_	name=O
+16	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux:pass	_	name=O
+17	samtalen	samtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nsubj:pass	_	name=O|Bridge=vg~vg_20111003_10039711__2114<vg~vg_20111003_10039711__T62:default|Entity=(vg~vg_20111003_10039711__T62--1)
+18	brutt	bryte	VERB	_	VerbForm=Part	2	conj	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015146
+# text = HRS prøver å ringe tilbake til vedkommende men kommer ikke igjennom.
+1	HRS	HRS	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__7361--1)
+2	prøver	prøve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	ringe	ringe	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	tilbake	tilbake	ADP	_	_	7	case	_	name=O
+6	til	til	ADP	_	_	7	case	_	name=O
+7	vedkommende	vedkommende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	advmod	_	name=O|Entity=(vg~vg_20111003_10039711__T64--1)
+8	men	men	CCONJ	_	_	9	cc	_	name=O
+9	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+10	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+11	igjennom	igjennom	ADP	_	_	9	compound:prt	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015147
+# text = Fortsatt har hverken politiet eller HRS informasjon om det er personer skadd i ulykken.
+1	Fortsatt	fortsatt	ADV	_	_	2	advmod	_	name=O
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	hverken	hverken	CCONJ	_	_	4	cc	_	name=O
+4	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__T65--1(vg~vg_20111003_10039711__6287--1)
+5	eller	eller	CCONJ	_	_	6	cc	_	name=O
+6	HRS	HRS	PROPN	_	_	4	conj	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__7361--1)vg~vg_20111003_10039711__T65)
+7	informasjon	informasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(vg~vg_20111003_10039711__T68--1
+8	om	om	SCONJ	_	_	12	mark	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__T69--1)
+12	skadd	skade	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	7	amod	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	ulykken	ulykke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Bridge=vg~vg_20111003_10039711__T57<vg~vg_20111003_10039711__T70:default|Entity=(vg~vg_20111003_10039711__T70--1)vg~vg_20111003_10039711__T68)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015148
+# text = 22.38 får HRS informasjon om at det ligger folk i vannet av øyenvitner, og kontakter AMK umiddelbart.
+1	22.38	22.38	NUM	_	NumType=Card	2	obl	_	name=O
+2	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	HRS	HRS	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__7361--1)
+4	informasjon	informasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(vg~vg_20111003_10039711__T72--1
+5	om	om	SCONJ	_	_	8	mark	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+8	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl	_	name=O
+9	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=(vg~vg_20111003_10039711__T73--1)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	vannet	vann	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(vg~vg_20111003_10039711__T74--1)vg~vg_20111003_10039711__T72)
+12	av	av	ADP	_	_	13	case	_	name=O
+13	øyenvitner	øyenvitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__T75--1)
+14	,	$,	PUNCT	_	_	16	punct	_	name=O
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	kontakter	kontakte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+17	AMK	AMK	PROPN	_	_	16	obj	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__5231--1)
+18	umiddelbart	umiddelbar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015149
+# text = AMK sender deretter luftambulanse til mottakssted avtalt med politiet.
+1	AMK	AMK	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(vg~vg_20111003_10039711__5231--1)
+2	sender	sende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	deretter	deretter	ADV	_	_	2	advmod	_	name=O
+4	luftambulanse	luftambulanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(vg~vg_20111003_10039711__T78--1)
+5	til	til	ADP	_	_	6	case	_	name=O
+6	mottakssted	mottakssted	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(vg~vg_20111003_10039711__T79--1
+7	avtalt	avtale	VERB	_	VerbForm=Part	6	acl:relcl	_	name=O
+8	med	med	ADP	_	_	9	case	_	name=O
+9	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__6287--1)vg~vg_20111003_10039711__T79)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015150
+# text = - Det er ganske mange båter som går på grunn i området, hvert år.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	ganske	ganske	ADV	_	_	5	advmod	_	name=O|Entity=(vg~vg_20111003_10039711__T81--1
+5	mange	mange	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	båter	båt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+8	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:cleft	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(vg~vg_20111003_10039711__T82--1)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039711__295--1)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	15	det	_	name=O|Entity=(vg~vg_20111003_10039711__T84--1
+15	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039711__T84)vg~vg_20111003_10039711__T81)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+

@@ -1,0 +1,149 @@
+# newdoc id = firdann~20110415-5568671
+# global.Entity = eid-etype-head-other
+# sent_id = 006484
+# text = Trafikkulykke ved Kvam i Sogndal
+1	Trafikkulykke	trafikkulykke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(firdann~20110415_5568671__223--1
+2	ved	ved	ADP	_	_	3	case	_	name=O
+3	Kvam	Kvam	PROPN	_	_	1	obl	_	name=B-LOC|Entity=(firdann~20110415_5568671__217--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Sogndal	Sogndal	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110415_5568671__219--1)firdann~20110415_5568671__217)firdann~20110415_5568671__223)
+
+# newpar
+# sent_id = 006485
+# text = Publisert 15.04.2011 kl 12:11
+1	Publisert	publisere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+2	15.04.2011	15.04.2011	NOUN	_	_	1	obl	_	name=O|Entity=(firdann~20110415_5568671__T4--1
+3	kl	kl.	NOUN	_	Abbr=Yes	4	nmod	_	name=O|Entity=(firdann~20110415_5568671__T5--1)
+4	12:11	12:11	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=firdann~20110415_5568671__T4)
+
+# sent_id = 006486
+# text = Oppdatert 15.04.2011 kl 13:23
+1	Oppdatert	oppdatere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+2	15.04.2011	15.04.2011	NOUN	_	_	1	obl	_	name=O|Entity=(firdann~20110415_5568671__T6--1
+3	kl	kl.	NOUN	_	Abbr=Yes	4	nmod	_	name=O|Entity=(firdann~20110415_5568671__T7--1)
+4	13:23	13:23	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=firdann~20110415_5568671__T6)
+
+# sent_id = 006487
+# text = Skriv ut
+1	Skriv	skrive	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	ut	ut	ADP	_	_	1	compound:prt	_	name=O
+
+# sent_id = 006488
+# text = Del på Origo
+1	Del	dele	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	Origo	Origo	PROPN	_	_	1	obl	_	name=B-PROD|Entity=(firdann~20110415_5568671__T8--1)
+
+# newpar
+# sent_id = 006490
+# text = Klokka 11.37 fredag fekk politiet melding om at ein bilist hadde køyrt ut for Fv55 ved Kvam i Sogndal.
+1	Klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20110415_5568671__T9--1)
+2	11.37	11.37	NUM	_	Number=Plur|NumType=Card	4	obl	_	name=O
+3	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20110415_5568671__T10--1)
+4	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20110415_5568671__T11--1)
+6	melding	melding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=(firdann~20110415_5568671__T12--1
+7	om	om	SCONJ	_	_	12	mark	_	name=O
+8	at	at	SCONJ	_	_	12	mark	_	name=O
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(firdann~20110415_5568671__T13--1
+10	bilist	bilist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=firdann~20110415_5568671__T13)
+11	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+12	køyrt	køyre	VERB	_	VerbForm=Part	6	acl	_	name=O
+13	ut	ut	ADP	_	_	15	case	_	name=O
+14	for	for	ADP	_	_	15	case	_	name=O
+15	Fv55	Fv55	PROPN	_	_	12	obl	_	name=O|Entity=(firdann~20110415_5568671__T14--1)
+16	ved	ved	ADP	_	_	17	case	_	name=O
+17	Kvam	Kvam	PROPN	_	_	12	obl	_	name=B-LOC|Entity=(firdann~20110415_5568671__217--1
+18	i	i	ADP	_	_	19	case	_	name=O
+19	Sogndal	Sogndal	PROPN	_	_	17	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110415_5568671__219--1)firdann~20110415_5568671__217)firdann~20110415_5568671__T12)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006491
+# text = Ein mann i 20-åra var innblanda, og er teken med til lege for kontroll.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(firdann~20110415_5568671__T17--1
+2	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	20-åra	20-år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=(firdann~20110415_5568671__T18--1)firdann~20110415_5568671__T17)
+5	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+6	innblanda	innblande	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	teken	ta	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	6	conj	_	name=O
+11	med	med	ADP	_	_	13	case	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	lege	lege	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(firdann~20110415_5568671__T19--1)
+14	for	for	ADP	_	_	15	case	_	name=O
+15	kontroll	kontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110415_5568671__T20--1)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006492
+# text = Det var berre éin bil i ulykka, som fekk både politi og ambulanse til å rykke ut.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	berre	berre	ADV	_	_	2	advmod	_	name=O
+4	éin	éin	NUM	_	Gender=Masc|Number=Sing|NumType=Card	5	nummod	_	name=O|Entity=(firdann~20110415_5568671__T21--1
+5	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=firdann~20110415_5568671__T21)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	ulykka	ulykke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110415_5568671__223--1
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	name=O
+11	både	både	CCONJ	_	_	12	cc	_	name=O
+12	politi	politi	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=(firdann~20110415_5568671__T23--1(firdann~20110415_5568671__T24--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	ambulanse	ambulanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	name=O|Entity=(firdann~20110415_5568671__T25--1)firdann~20110415_5568671__T23)
+15	til	til	SCONJ	_	_	17	mark	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	rykke	rykke	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+18	ut	ut	ADP	_	_	17	compound:prt	_	SpaceAfter=No|name=O|Entity=firdann~20110415_5568671__223)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006493
+# text = Det er ikkje mistanke om promillekøyring.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	mistanke	mistanke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20110415_5568671__T26--1
+5	om	om	ADP	_	_	6	case	_	name=O
+6	promillekøyring	promillekøyring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110415_5568671__T27--1)firdann~20110415_5568671__T26)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006494
+# text = Sogndal lensmannskontor skal etterforske saka vidare.
+1	Sogndal	Sogndal	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(firdann~20110415_5568671__T28--1
+2	lensmannskontor	lensmannskontor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	flat:name	_	name=I-ORG|Entity=firdann~20110415_5568671__T28)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	etterforske	etterforske	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obj	_	name=O|Bridge=firdann~20110415_5568671__223<firdann~20110415_5568671__T29:default|Entity=(firdann~20110415_5568671__T29--1)
+6	vidare	vid	ADJ	_	Degree=Cmp	4	advmod	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006495
+# text = Berre timar tidlegare, vart ei skulejente på seks år treft av ein bil i Eikefjord i Flora.
+1	Berre	berre	ADV	_	_	2	advmod	_	name=O|Entity=(firdann~20110415_5568671__T30--1
+2	timar	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=firdann~20110415_5568671__T30)
+3	tidlegare	tidleg	ADJ	_	Degree=Cmp	11	advmod	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	3	punct	_	name=O
+5	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux:pass	_	name=O
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20110415_5568671__T31--1
+7	skulejente	skulejente	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	nsubj:pass	_	name=O
+8	på	på	ADP	_	_	10	case	_	name=O
+9	seks	seks	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(firdann~20110415_5568671__T32--1
+10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nmod	_	name=O|Entity=firdann~20110415_5568671__T32)firdann~20110415_5568671__T31)
+11	treft	treffe	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+12	av	av	ADP	_	_	14	case	_	name=O
+13	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(firdann~20110415_5568671__T33--1
+14	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=firdann~20110415_5568671__T33)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	Eikefjord	Eikefjord	PROPN	_	_	11	nmod	_	name=B-LOC|Entity=(firdann~20110415_5568671__T34--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	Flora	Flora	PROPN	_	_	16	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110415_5568671__T35--1)firdann~20110415_5568671__T34)
+19	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 006496
+# text = Les saka:
+1	Les	lese	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20110415_5568671__T36--1)
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+

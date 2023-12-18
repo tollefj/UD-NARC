@@ -1,0 +1,162 @@
+# newdoc id = firdann~20110628-5654463
+# global.Entity = eid-etype-head-other
+# sent_id = 005796
+# text = Fekk problem på Utvikfjellet
+1	Fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	problem	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	obj	_	name=O|Entity=(firdann~20110628_5654463__T1--1)
+3	på	på	ADP	_	_	4	case	_	name=O
+4	Utvikfjellet	Utvikfjellet	PROPN	_	_	1	obl	_	name=B-LOC|Entity=(firdann~20110628_5654463__590--1)
+
+# newpar
+# sent_id = 005797
+# text = Gloppen (firda.no):
+1	Gloppen	Gloppen	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=(firdann~20110628_5654463__T3--1
+2	(	$(	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654463__T4--1
+3	firda.no	firda.no	PROPN	_	_	1	parataxis	_	SpaceAfter=No|name=B-PROD
+4	)	$)	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654463__T4)firdann~20110628_5654463__T3)
+5	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 005798
+# text = Utvikfjellet var stengd for all trafikk i fleire timar måndag, etter at to trailarar køyrte seg fast.
+1	Utvikfjellet	Utvikfjellet	PROPN	_	_	3	nsubj	_	name=B-LOC|Entity=(firdann~20110628_5654463__590--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	stengd	stengje	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+4	for	for	ADP	_	_	6	case	_	name=O
+5	all	all	DET	_	Gender=Masc|Number=Sing|PronType=Tot	6	det	_	name=O|Entity=(firdann~20110628_5654463__T6--1
+6	trafikk	trafikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=firdann~20110628_5654463__T6)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	fleire	mange	ADJ	_	Degree=Cmp	9	amod	_	name=O|Entity=(firdann~20110628_5654463__T7--1
+9	timar	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=firdann~20110628_5654463__T7)
+10	måndag	måndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654463__T8--1)
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	etter	etter	SCONJ	_	_	16	mark	_	name=O
+13	at	at	SCONJ	_	_	16	mark	_	name=O
+14	to	to	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(firdann~20110628_5654463__T9--1
+15	trailarar	trailar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nsubj	_	name=O|Entity=firdann~20110628_5654463__T9)
+16	køyrte	køyre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	name=O
+17	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	16	obj	_	name=O
+18	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	advmod	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 005799
+# text = Ein fullasta tungtransport frå Nistad AS fekk trøbbel då han var på veg ned Utvikfjellet måndag kveld.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(firdann~20110628_5654463__342--1
+2	fullasta	fullasta	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	tungtransport	tungtransport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O
+4	frå	frå	ADP	_	_	5	case	_	name=O
+5	Nistad	Nistad	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(firdann~20110628_5654463__T11--1
+6	AS	AS	NOUN	_	Abbr=Yes|Definite=Def,Ind|Gender=Neut|Number=Plur,Sing	5	flat:name	_	name=I-ORG|Entity=firdann~20110628_5654463__T11)firdann~20110628_5654463__342)
+7	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	trøbbel	trøbbel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	name=O|Entity=(firdann~20110628_5654463__T12--1)
+9	då	då	SCONJ	_	_	13	mark	_	name=O
+10	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(firdann~20110628_5654463__342--1)
+11	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+12	på	på	SCONJ	_	_	13	mark	_	name=O
+13	veg	veg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	advcl	_	name=O|Entity=(firdann~20110628_5654463__T14--1
+14	ned	ned	ADP	_	_	15	case	_	name=O
+15	Utvikfjellet	Utvikfjellet	PROPN	_	_	13	nmod	_	name=B-LOC|Entity=(firdann~20110628_5654463__590--1)firdann~20110628_5654463__T14)
+16	måndag	måndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(firdann~20110628_5654463__T16--1
+17	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654463__T17--1)firdann~20110628_5654463__T16)
+18	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 005800
+# text = Utfor vegbana
+1	Utfor	utfor	ADP	_	_	2	case	_	name=O
+2	vegbana	vegbane	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(firdann~20110628_5654463__T18--1)
+
+# sent_id = 005801
+# text = - Bilen har fått problem med den friksjonsstyrte akslinga, som har tatt tak og gjort til at cirka halve traileren hamna utanfor vegbana, fortel Oddvar Nyland ved NAF Byrkjelo.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20110628_5654463__342--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+5	problem	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obj	_	name=O|Entity=(firdann~20110628_5654463__T20--1
+6	med	med	ADP	_	_	9	case	_	name=O
+7	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(firdann~20110628_5654463__T21--1
+8	friksjonsstyrte	friksjonsstyre	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	9	amod	_	name=O
+9	akslinga	aksling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	tatt	ta	VERB	_	VerbForm=Part	9	acl:relcl	_	name=O
+14	tak	tak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	name=O|Entity=(firdann~20110628_5654463__T22--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	gjort	gjere	VERB	_	VerbForm=Part	13	conj	_	name=O
+17	til	til	SCONJ	_	_	22	mark	_	name=O
+18	at	at	SCONJ	_	_	22	mark	_	name=O
+19	cirka	cirka	ADV	_	_	20	advmod	_	name=O|Bridge=firdann~20110628_5654463__342<firdann~20110628_5654463__T23:default|Entity=(firdann~20110628_5654463__T23--1
+20	halve	halv	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	traileren	trailer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	name=O|Entity=firdann~20110628_5654463__T23)
+22	hamna	hamne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	name=O
+23	utanfor	utanfor	ADP	_	_	24	case	_	name=O
+24	vegbana	vegbane	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654463__T24--1)firdann~20110628_5654463__T21)firdann~20110628_5654463__T20)
+25	,	$,	PUNCT	_	_	26	punct	_	name=O
+26	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+27	Oddvar	Oddvar	PROPN	_	_	26	nsubj	_	name=B-PER|Entity=(firdann~20110628_5654463__T25--1
+28	Nyland	Nyland	PROPN	_	_	27	flat:name	_	name=I-PER
+29	ved	ved	ADP	_	_	30	case	_	name=O
+30	NAF	NAF	PROPN	_	_	27	nmod	_	name=B-ORG|Entity=(firdann~20110628_5654463__T26--1
+31	Byrkjelo	Byrkjelo	PROPN	_	_	30	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110628_5654463__T26)firdann~20110628_5654463__T25)
+32	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005802
+# text = Episoden skjedde på Øvreseth, omkring rett ved avkøyringa mot Reed på veg opp Utvikfjellet frå Byrkjelo.
+1	Episoden	episode	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20110628_5654463__T27--1)
+2	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	Øvreseth	Øvreseth	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110628_5654463__T28--1
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	omkring	omkring	ADP	_	_	9	case	_	name=O
+7	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+8	ved	ved	ADP	_	_	9	case	_	name=O
+9	avkøyringa	avkøyring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	name=O|Entity=(firdann~20110628_5654463__T29--1
+10	mot	mot	ADP	_	_	11	case	_	name=O
+11	Reed	Reed	PROPN	_	_	9	nmod	_	name=B-LOC|Entity=(firdann~20110628_5654463__T30--1
+12	på	på	ADP	_	_	13	case	_	name=O
+13	veg	veg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(firdann~20110628_5654463__T31--1
+14	opp	opp	ADP	_	_	15	case	_	name=O
+15	Utvikfjellet	Utvikfjellet	PROPN	_	_	13	nmod	_	name=B-LOC|Entity=(firdann~20110628_5654463__590--1)
+16	frå	frå	ADP	_	_	17	case	_	name=O
+17	Byrkjelo	Byrkjelo	PROPN	_	_	13	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110628_5654463__T33--1)firdann~20110628_5654463__T31)firdann~20110628_5654463__T30)firdann~20110628_5654463__T29)firdann~20110628_5654463__T28)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005803
+# text = Måtte ut på tur
+1	Måtte	måtte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	ut	ut	ADP	_	_	1	compound:prt	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	tur	tur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(firdann~20110628_5654463__T34--1)
+
+# sent_id = 005804
+# text = Bilistar som skulle over fjellet mot Stryn, hadde dermed ikkje anna val enn å snu og køyre til Sandane, for deretter å ta ferje over Nordfjorden.
+1	Bilistar	bilist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=(firdann~20110628_5654463__T35--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	skulle	skulle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	name=O
+4	over	over	ADP	_	_	5	case	_	name=O
+5	fjellet	fjell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(firdann~20110628_5654463__590--1)
+6	mot	mot	ADP	_	_	7	case	_	name=O
+7	Stryn	Stryn	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110628_5654463__T37--1)
+8	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=firdann~20110628_5654463__T35)
+9	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+10	dermed	dermed	ADV	_	_	9	advmod	_	name=O
+11	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	name=O
+12	anna	annan	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(firdann~20110628_5654463__T38--1
+13	val	val	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	name=O
+14	enn	enn	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	snu	snu	VERB	_	VerbForm=Inf	12	advcl	_	name=O
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	køyre	køyre	VERB	_	VerbForm=Inf	16	conj	_	name=O
+19	til	til	ADP	_	_	20	case	_	name=O
+20	Sandane	Sandane	PROPN	_	_	18	obl	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110628_5654463__T39--1)
+21	,	$,	PUNCT	_	_	25	punct	_	name=O
+22	for	for	SCONJ	_	_	25	mark	_	name=O
+23	deretter	deretter	ADV	_	_	25	advmod	_	name=O
+24	å	å	PART	_	_	25	mark	_	name=O
+25	ta	ta	VERB	_	VerbForm=Inf	18	advcl	_	name=O
+26	ferje	ferje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	obj	_	name=O|Entity=(firdann~20110628_5654463__T40--1)
+27	over	over	ADP	_	_	28	case	_	name=O
+28	Nordfjorden	Nordfjorden	PROPN	_	_	25	obl	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110628_5654463__T41--1)firdann~20110628_5654463__T38)
+29	.	$.	PUNCT	_	_	9	punct	_	name=O
+

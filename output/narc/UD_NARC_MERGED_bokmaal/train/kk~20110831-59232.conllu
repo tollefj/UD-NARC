@@ -1,0 +1,335 @@
+# newdoc id = kk~20110831-59232
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 011765
+# text = - På tide!
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	På	på	ADP	_	_	3	case	_	name=O
+3	tide	tide	NOUN	_	_	0	root	_	SpaceAfter=No|name=O|Entity=(kk~20110831_59232__T1--1)
+4	!	$!	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011766
+# text = Margot Eriksson, hjelpepleier ved Ilsvika sykehjem i Trondheim, regner med å øke stillingen sin betydelig etter vedtaket i Trondheim bystyre.
+1	Margot	Margot	PROPN	_	_	11	nsubj	_	name=B-PER|Entity=(kk~20110831_59232__14409--1
+2	Eriksson	Eriksson	PROPN	_	_	1	flat:name	_	SpaceAfter=No|name=I-PER
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	hjelpepleier	hjelpepleier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	name=O|Entity=(kk~20110831_59232__T3--1
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	Ilsvika	Ilsvika	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(kk~20110831_59232__3100--1
+7	sykehjem	sykehjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	flat:name	_	name=I-ORG
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Trondheim	Trondheim	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110831_59232__T5--1)kk~20110831_59232__3100)kk~20110831_59232__14409)
+10	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=kk~20110831_59232__T3)
+11	regner	regne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	med	med	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	øke	øke	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+15	stillingen	stilling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=(kk~20110831_59232__T6--1
+16	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(kk~20110831_59232__14409--1)kk~20110831_59232__T6)
+17	betydelig	betydelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+18	etter	etter	ADP	_	_	19	case	_	name=O
+19	vedtaket	vedtak	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=(kk~20110831_59232__3143--1
+20	i	i	ADP	_	_	21	case	_	name=O
+21	Trondheim	Trondheim	PROPN	_	_	19	nmod	_	name=B-GPE_ORG|Entity=(kk~20110831_59232__T9--1
+22	bystyre	bystyre	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	flat:name	_	SpaceAfter=No|name=I-GPE_ORG|Entity=kk~20110831_59232__T9)kk~20110831_59232__3143)
+23	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 011767
+# text = Hun er ansatt i en 20 prosent stilling, men regner med å gå opp til rundt 50 prosent når hun nå får rett til den stillingsprosenten hun faktisk jobber i.
+1	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110831_59232__14409--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	ansatt	ansatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+4	i	i	ADP	_	_	8	case	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kk~20110831_59232__T12--1
+6	20	20	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(kk~20110831_59232__T11--1
+7	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=kk~20110831_59232__T11)
+8	stilling	stilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=kk~20110831_59232__T12)
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	men	men	CCONJ	_	_	11	cc	_	name=O
+11	regner	regne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+12	med	med	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	gå	gå	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+15	opp	opp	ADP	_	_	19	case	_	name=O
+16	til	til	ADP	_	_	19	case	_	name=O
+17	rundt	rundt	ADP	_	_	19	case	_	name=O
+18	50	50	NUM	_	Number=Plur|NumType=Card	19	nummod	_	name=O|Entity=(kk~20110831_59232__T13--1
+19	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	name=O|Entity=kk~20110831_59232__T13)
+20	når	når	SCONJ	_	_	23	mark	_	name=O
+21	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	name=O|Entity=(kk~20110831_59232__14409--1)
+22	nå	nå	ADV	_	_	23	advmod	_	name=O
+23	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	name=O
+24	rett	rett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	name=O|Entity=(kk~20110831_59232__T15--1
+25	til	til	ADP	_	_	27	case	_	name=O
+26	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	27	det	_	name=O|Entity=(kk~20110831_59232__T16--1
+27	stillingsprosenten	stillingsprosent	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	name=O
+28	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	name=O|Entity=(kk~20110831_59232__14409--1)
+29	faktisk	faktisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	advmod	_	name=O
+30	jobber	jobbe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	name=O
+31	i	i	ADP	_	_	30	compound:prt	_	SpaceAfter=No|name=O|Entity=kk~20110831_59232__T16)kk~20110831_59232__T15)
+32	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011768
+# text = - Jeg har jo ikke råd til å si nei til ekstra vakter, så det er klart det blir en del ekstra, sier Eriksson, som mener det er den økonomiske usikkerheten som er verst med det å jobbe i en så liten stilling.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110831_59232__14409--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	jo	jo	ADV	_	_	3	advmod	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+6	råd	råd	NOUN	_	Gender=Fem	3	obj	_	name=O|Entity=(kk~20110831_59232__T19--1
+7	til	til	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	si	si	VERB	_	VerbForm=Inf	6	acl	_	name=O
+10	nei	nei	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	name=O|Entity=(kk~20110831_59232__T20--1)
+11	til	til	ADP	_	_	13	case	_	name=O
+12	ekstra	ekstra	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(kk~20110831_59232__T21--1
+13	vakter	vakt	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=kk~20110831_59232__T21)kk~20110831_59232__T19)
+14	,	$,	PUNCT	_	_	18	punct	_	name=O
+15	så	så	CCONJ	_	_	18	cc	_	name=O
+16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	name=O
+18	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	name=O
+19	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	name=O
+20	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	csubj	_	name=O
+21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(kk~20110831_59232__T22--1
+22	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	name=O|Entity=kk~20110831_59232__T22)
+23	ekstra	ekstra	ADJ	_	Degree=Pos|Number=Plur	20	xcomp	_	SpaceAfter=No|name=O
+24	,	$,	PUNCT	_	_	18	punct	_	name=O
+25	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+26	Eriksson	Eriksson	PROPN	_	_	25	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kk~20110831_59232__14409--1
+27	,	$,	PUNCT	_	_	29	punct	_	name=O
+28	som	som	PRON	_	PronType=Rel	29	nsubj	_	name=O
+29	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	name=O
+30	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	34	expl	_	name=O
+31	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	34	cop	_	name=O
+32	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	34	det	_	name=O|Entity=(kk~20110831_59232__T24--1
+33	økonomiske	økonomisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	34	amod	_	name=O
+34	usikkerheten	usikkerhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	29	xcomp	_	name=O
+35	som	som	PRON	_	PronType=Rel	37	nsubj	_	name=O
+36	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	37	cop	_	name=O
+37	verst	vond	ADJ	_	Definite=Ind|Degree=Sup	34	acl:cleft	_	name=O
+38	med	med	ADP	_	_	39	case	_	name=O
+39	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	obl	_	name=O|Entity=(kk~20110831_59232__T25--1
+40	å	å	PART	_	_	41	mark	_	name=O
+41	jobbe	jobbe	VERB	_	VerbForm=Inf	39	acl	_	name=O
+42	i	i	ADP	_	_	46	case	_	name=O
+43	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	46	det	_	name=O|Entity=(kk~20110831_59232__T26--1
+44	så	så	ADV	_	_	45	advmod	_	name=O
+45	liten	liten	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	46	amod	_	name=O
+46	stilling	stilling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	41	obl	_	SpaceAfter=No|name=O|Entity=kk~20110831_59232__T26)kk~20110831_59232__T25)kk~20110831_59232__T24)kk~20110831_59232__14409)
+47	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011769
+# text = - Det tar på å aldri vite om jeg har nok penger til å betale husleia neste måned.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	på	på	ADP	_	_	3	compound:prt	_	name=O
+5	å	å	PART	_	_	7	mark	_	name=O
+6	aldri	aldri	ADV	_	_	7	advmod	_	name=O
+7	vite	vite	VERB	_	VerbForm=Inf	3	csubj	_	name=O
+8	om	om	SCONJ	_	_	10	mark	_	name=O
+9	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	name=O|Entity=(kk~20110831_59232__14409--1)
+10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	name=O
+11	nok	nok	ADV	_	_	12	advmod	_	name=O|Entity=(kk~20110831_59232__T28--1
+12	penger	penge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obj	_	name=O
+13	til	til	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	betale	betale	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+16	husleia	husleie	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	obj	_	name=O|Entity=(kk~20110831_59232__T29--1)
+17	neste	neste	DET	_	Definite=Def|PronType=Dem	18	det	_	name=O|Entity=(kk~20110831_59232__T30--1
+18	måned	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=kk~20110831_59232__T30)kk~20110831_59232__T28)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011770
+# text = Med en 20 prosent stilling har jeg 4000 kr utbetalt i måneden, du kan jo tenke deg selv hvor langt det rekker, sier hjelpepleieren.
+1	Med	med	ADP	_	_	5	case	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(kk~20110831_59232__T32--1(kk~20110831_59232__T31--1
+3	20	20	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+4	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=kk~20110831_59232__T31)
+5	stilling	stilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=kk~20110831_59232__T32)
+6	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(kk~20110831_59232__14409--1)
+8	4000	4000	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(kk~20110831_59232__272--1
+9	kr	kr	NOUN	_	Abbr=Yes	6	obj	_	name=O|Entity=kk~20110831_59232__272)
+10	utbetalt	utbetale	VERB	_	VerbForm=Part	6	xcomp	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	måneden	måned	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110831_59232__T35--1)
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	17	nsubj	_	name=O|Entity=(kk~20110831_59232__273--1)
+15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+16	jo	jo	ADV	_	_	17	advmod	_	name=O
+17	tenke	tenke	VERB	_	VerbForm=Inf	6	conj	_	name=O
+18	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	17	iobj	_	name=O|Entity=(kk~20110831_59232__273--1
+19	selv	selv	DET	_	PronType=Prs	18	det	_	name=O|Entity=kk~20110831_59232__273)
+20	hvor	hvor	ADV	_	_	21	advmod	_	name=O
+21	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	advmod	_	name=O
+22	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	name=O|Entity=(kk~20110831_59232__272--1)
+23	rekker	rekke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	ccomp	_	SpaceAfter=No|name=O
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+26	hjelpepleieren	hjelpepleier	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No|name=O|Entity=(kk~20110831_59232__14409--1)
+27	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 011771
+# text = Hun ble ferdig med helsefagarbeiderutdanningen i januar, og har jobbet ved Ilsvika sykehjem annenhver helg siden det.
+1	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110831_59232__14409--1)
+2	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ferdig	ferdig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	name=O
+4	med	med	ADP	_	_	5	case	_	name=O
+5	helsefagarbeiderutdanningen	helsefagarbeiderutdanning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kk~20110831_59232__T41--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	januar	januar	NOUN	_	Gender=Masc	2	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110831_59232__T42--1)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	jobbet	jobbe	VERB	_	VerbForm=Part	2	conj	_	name=O
+12	ved	ved	ADP	_	_	13	case	_	name=O
+13	Ilsvika	Ilsvika	PROPN	_	_	11	obl	_	name=B-ORG|Entity=(kk~20110831_59232__3100--1
+14	sykehjem	sykehjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	flat:name	_	name=I-ORG|Entity=kk~20110831_59232__3100)
+15	annenhver	annenhver	NUM	_	Gender=Fem|Number=Sing|NumType=Card	16	nummod	_	name=O|Entity=(kk~20110831_59232__T44--1
+16	helg	helg	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=kk~20110831_59232__T44)
+17	siden	siden	ADP	_	_	18	case	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110831_59232__T45--1)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011772
+# text = Erikssen mener også det påvirker arbeidsmiljøet og tilbudet til pasientene at så mange jobber deltid på sykehjemmet.
+1	Erikssen	Erikssen	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110831_59232__14409--1)
+2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	påvirker	påvirke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	xcomp	_	name=O
+6	arbeidsmiljøet	arbeidsmiljø	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obj	_	name=O|Bridge=kk~20110831_59232__3100<kk~20110831_59232__T47:default|Entity=(kk~20110831_59232__T47--1(kk~20110831_59232__T48--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	tilbudet	tilbud	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	conj	_	name=O|Entity=(kk~20110831_59232__T49--1
+9	til	til	ADP	_	_	10	case	_	name=O
+10	pasientene	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=(kk~20110831_59232__T50--1)kk~20110831_59232__T49)kk~20110831_59232__T47)
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	så	så	ADV	_	_	13	advmod	_	name=O|Entity=(kk~20110831_59232__T51--1
+13	mange	mange	ADJ	_	Degree=Pos|Number=Plur	14	nsubj	_	name=O|Entity=kk~20110831_59232__T51)
+14	jobber	jobbe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	csubj	_	name=O
+15	deltid	deltid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	name=O|Entity=(kk~20110831_59232__T52--1)
+16	på	på	ADP	_	_	17	case	_	name=O
+17	sykehjemmet	sykehjem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110831_59232__3100--1)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011773
+# text = - En som jobber i hel stilling tar mer ansvar på arbeidsplassen enn vi som bare har små stillingsbrøker.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	En	en	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	8	nsubj	_	name=O|Entity=(kk~20110831_59232__T54--1
+3	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+4	jobber	jobbe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	hel	hel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(kk~20110831_59232__T55--1
+7	stilling	stilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=kk~20110831_59232__T55)kk~20110831_59232__T54)
+8	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	mer	mye	ADJ	_	Degree=Cmp	10	amod	_	name=O|Entity=(kk~20110831_59232__T56[1/2]--1
+10	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	name=O|Entity=kk~20110831_59232__T56[1/2])
+11	på	på	ADP	_	_	12	case	_	name=O
+12	arbeidsplassen	arbeidsplass	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(kk~20110831_59232__T57--1)
+13	enn	enn	ADP	_	_	14	case	_	name=O|Entity=(kk~20110831_59232__T56[2/2]--1
+14	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	9	obl	_	name=O|Entity=(kk~20110831_59232__T58--1
+15	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+16	bare	bare	ADV	_	_	17	advmod	_	name=O
+17	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	name=O
+18	små	liten	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O|Entity=(kk~20110831_59232__T59--1
+19	stillingsbrøker	stillingsbrøk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No|name=O|Entity=kk~20110831_59232__T59)kk~20110831_59232__T58)kk~20110831_59232__T56[2/2])
+20	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 011774
+# text = Dessuten blir det veldig mange nye mennesker å forholde seg til for pasientene.
+1	Dessuten	dessuten	ADV	_	_	2	advmod	_	name=O
+2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(kk~20110831_59232__T60--1
+5	mange	mange	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+6	nye	ny	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	xcomp	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	forholde	forholde	VERB	_	VerbForm=Inf	7	acl	_	name=O
+10	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	name=O|Entity=(kk~20110831_59232__5344--1)
+11	til	til	ADP	_	_	9	compound:prt	_	name=O|Entity=kk~20110831_59232__T60)
+12	for	for	ADP	_	_	13	case	_	name=O
+13	pasientene	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110831_59232__5344--1)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011775
+# text = Mange av dem er demente, og jeg håper virkelig at dette vedtaket fører til mange økte stillingsprosenter her, slik at pasientene kan føle seg enda tryggere her oss hos.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	5	nsubj	_	name=O|Entity=(kk~20110831_59232__T62--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	name=O|Entity=(kk~20110831_59232__5344--1)kk~20110831_59232__T62)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	demente	dement	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	name=O|Entity=(kk~20110831_59232__14409--1)
+9	håper	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+10	virkelig	virkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(kk~20110831_59232__3143--1
+13	vedtaket	vedtak	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	name=O|Entity=kk~20110831_59232__3143)
+14	fører	føre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	name=O
+15	til	til	ADP	_	_	18	case	_	name=O
+16	mange	mange	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(kk~20110831_59232__T66--1
+17	økte	øke	ADJ	_	Number=Plur|VerbForm=Part	18	amod	_	name=O
+18	stillingsprosenter	stillingsprosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	name=O|Entity=kk~20110831_59232__T66)
+19	her	her	ADV	_	_	14	advmod	_	SpaceAfter=No|name=O
+20	,	$,	PUNCT	_	_	25	punct	_	name=O
+21	slik	slik	ADV	_	_	22	advmod	_	name=O
+22	at	at	SCONJ	_	_	25	mark	_	name=O
+23	pasientene	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	25	nsubj	_	name=O|Entity=(kk~20110831_59232__5344--1)
+24	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	føle	føle	VERB	_	VerbForm=Inf	14	advcl	_	name=O
+26	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	25	obj	_	name=O|Entity=(kk~20110831_59232__5344--1)
+27	enda	enda	ADV	_	_	28	advmod	_	name=O
+28	tryggere	trygg	ADJ	_	Degree=Cmp	25	xcomp	_	name=O
+29	her	her	ADV	_	_	25	advmod	_	name=O
+30	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	29	nmod	_	name=O|Bridge=kk~20110831_59232__3100<kk~20110831_59232__T68:default|Entity=(kk~20110831_59232__T68--1)
+31	hos	hos	ADP	_	_	30	case	_	SpaceAfter=No|name=O
+32	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011776
+# text = Og Erikssen mener vedtaket ikke kommer en dag for tidlig.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	Erikssen	Erikssen	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(kk~20110831_59232__14409--1)
+3	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	vedtaket	vedtak	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(kk~20110831_59232__3143--1)
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kk~20110831_59232__T71--1
+8	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=kk~20110831_59232__T71)
+9	for	for	ADV	_	_	10	advmod	_	name=O
+10	tidlig	tidlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011777
+# text = - Det finnes ingen gode argumenter for å la folk være ansatt i så små stillinger.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	6	det	_	name=O|Entity=(kk~20110831_59232__T72--1
+5	gode	god	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	argumenter	argument	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O
+7	for	for	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	la	la	VERB	_	VerbForm=Inf	6	acl	_	name=O
+10	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	iobj	_	name=O|Entity=(kk~20110831_59232__T73--1)
+11	være	være	AUX	_	VerbForm=Inf	12	cop	_	name=O
+12	ansatt	ansatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	xcomp	_	name=O
+13	i	i	ADP	_	_	16	case	_	name=O
+14	så	så	ADV	_	_	15	advmod	_	name=O|Entity=(kk~20110831_59232__T74--1
+15	små	liten	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+16	stillinger	stilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=kk~20110831_59232__T74)kk~20110831_59232__T72)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011778
+# text = Så det var jammen på tide.
+1	Så	så	CCONJ	_	_	6	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+4	jammen	jammen	ADV	_	_	6	advmod	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	tide	tide	NOUN	_	_	0	root	_	SpaceAfter=No|name=O|Entity=(kk~20110831_59232__T75--1)
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+

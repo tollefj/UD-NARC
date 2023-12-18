@@ -1,0 +1,148 @@
+# newdoc id = firdann~20110628-5655252
+# global.Entity = eid-etype-head-other
+# sent_id = 005861
+# text = Dødsulukke på E16
+1	Dødsulukke	dødsulukke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(firdann~20110628_5655252__T1--1
+2	på	på	ADP	_	_	3	case	_	name=O
+3	E16	E16	PROPN	_	_	1	nmod	_	name=B-LOC|Entity=(firdann~20110628_5655252__T2--1)firdann~20110628_5655252__T1)
+
+# newpar
+# sent_id = 005862
+# text = Ein person omkom, og ein er alvorleg skadd etter trafikkulukke mellom semitrailer og varebil ved Gudvangen.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(firdann~20110628_5655252__T3--1
+2	person	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=firdann~20110628_5655252__T3)
+3	omkom	omkome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	9	punct	_	name=O
+5	og	og	CCONJ	_	_	9	cc	_	name=O
+6	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	9	nsubj	_	name=O|Entity=(firdann~20110628_5655252__T4--1)
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	alvorleg	alvorleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	skadd	skade	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	3	conj	_	name=O
+10	etter	etter	ADP	_	_	11	case	_	name=O
+11	trafikkulukke	trafikkulukke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	name=O|Entity=(firdann~20110628_5655252__T5--1
+12	mellom	mellom	ADP	_	_	13	case	_	name=O
+13	semitrailer	semitrailer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(firdann~20110628_5655252__T6--1(firdann~20110628_5655252__351--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	varebil	varebil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	name=O|Entity=(firdann~20110628_5655252__462--1)firdann~20110628_5655252__T6)
+16	ved	ved	ADP	_	_	17	case	_	name=O
+17	Gudvangen	Gudvangen	NOUN	_	Gender=Masc	11	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110628_5655252__340--1)firdann~20110628_5655252__T5)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 005863
+# text = Ulukkesstaden i Gudvangen.
+1	Ulukkesstaden	ulukkesstad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Bridge=firdann~20110628_5655252__T5<firdann~20110628_5655252__250:default|Entity=(firdann~20110628_5655252__250--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Gudvangen	Gudvangen	NOUN	_	Gender=Masc	1	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110628_5655252__340--1)firdann~20110628_5655252__250)
+4	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 005864
+# text = Den forulukka varebilen.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20110628_5655252__462--1
+2	forulukka	forulukke	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	3	amod	_	name=O
+3	varebilen	varebil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5655252__462)
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005865
+# text = Traileren som krasja med varebilen.
+1	Traileren	trailer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20110628_5655252__351--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	krasja	krasje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	name=O
+4	med	med	ADP	_	_	5	case	_	name=O
+5	varebilen	varebil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5655252__462--1)firdann~20110628_5655252__351)
+6	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 005866
+# text = Klokka 18.33 tysdag kveld vart det meldt om ei trafikkulukke på E16 ved Gudvangen.
+1	Klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(firdann~20110628_5655252__T15--1)
+2	18.33	18.33	NUM	_	NumType=Card	7	obl	_	name=O
+3	tysdag	tysdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20110628_5655252__T16--1
+4	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(firdann~20110628_5655252__T17--1)firdann~20110628_5655252__T16)
+5	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+7	meldt	melde	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+8	om	om	ADP	_	_	10	case	_	name=O
+9	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(firdann~20110628_5655252__247--1
+10	trafikkulukke	trafikkulukke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	E16	E16	PROPN	_	_	10	nmod	_	name=B-LOC|Entity=(firdann~20110628_5655252__T19--1
+13	ved	ved	ADP	_	_	14	case	_	name=O
+14	Gudvangen	Gudvangen	NOUN	_	Gender=Masc	12	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110628_5655252__340--1)firdann~20110628_5655252__T19)firdann~20110628_5655252__247)
+15	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 005867
+# text = Ein utanlandsk semitrailer og ein norsk varebil kolliderte, og to personar var involverte.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(firdann~20110628_5655252__T21--1(firdann~20110628_5655252__T22--1
+2	utanlandsk	utanlandsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	semitrailer	semitrailer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=firdann~20110628_5655252__T22)
+4	og	og	CCONJ	_	_	7	cc	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20110628_5655252__T23--1
+6	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	varebil	varebil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	name=O|Entity=firdann~20110628_5655252__T23)firdann~20110628_5655252__T21)
+8	kolliderte	kollidere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	14	punct	_	name=O
+10	og	og	CCONJ	_	_	14	cc	_	name=O
+11	to	to	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(firdann~20110628_5655252__T24--1
+12	personar	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	name=O|Entity=firdann~20110628_5655252__T24)
+13	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	name=O
+14	involverte	involvere	ADJ	_	Number=Plur|VerbForm=Part	8	conj	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 005868
+# text = Klokka 19.20 melder politiet at føraren av varebilen er omkommen etter ulukka.
+1	Klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(firdann~20110628_5655252__T25--1
+2	19.20	19.20	NUM	_	NumType=Card	1	nummod	_	name=O|Entity=firdann~20110628_5655252__T25)
+3	melder	melde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20110628_5655252__T26--1)
+5	at	at	SCONJ	_	_	10	mark	_	name=O
+6	føraren	førar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20110628_5655252__T27--1
+7	av	av	ADP	_	_	8	case	_	name=O
+8	varebilen	varebil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20110628_5655252__462--1)firdann~20110628_5655252__T27)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	omkommen	omkomme	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	3	ccomp	_	name=O
+11	etter	etter	ADP	_	_	12	case	_	name=O
+12	ulukka	ulukke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5655252__247--1)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005869
+# text = Føraren av semitraileren er frigjort etter å ha vore fastklemd, og vert sendt til Haukeland Universitetssjukehus med alvorlege skadar, opplyser politiet klokka 19.55.
+1	Føraren	førar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20110628_5655252__T30--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	semitraileren	semitrailer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20110628_5655252__351--1)firdann~20110628_5655252__T30)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	frigjort	frigjere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	etter	etter	SCONJ	_	_	10	mark	_	name=O
+7	å	å	PART	_	_	10	mark	_	name=O
+8	ha	ha	AUX	_	VerbForm=Inf	10	aux	_	name=O
+9	vore	vere	AUX	_	VerbForm=Part	10	cop	_	name=O
+10	fastklemd	fastklemme	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	5	advcl	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	14	punct	_	name=O
+12	og	og	CCONJ	_	_	14	cc	_	name=O
+13	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux:pass	_	name=O
+14	sendt	sende	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	5	conj	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	Haukeland	Haukeland	PROPN	_	_	14	obl	_	name=B-LOC|Entity=(firdann~20110628_5655252__T32--1
+17	Universitetssjukehus	Universitetssjukehus	PROPN	_	_	16	flat:name	_	name=I-LOC|Entity=firdann~20110628_5655252__T32)
+18	med	med	ADP	_	_	20	case	_	name=O
+19	alvorlege	alvorleg	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(firdann~20110628_5655252__T33--1
+20	skadar	skade	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5655252__T33)
+21	,	$,	PUNCT	_	_	22	punct	_	name=O
+22	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+23	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	nsubj	_	name=O|Entity=(firdann~20110628_5655252__T34--1)
+24	klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	25	obl	_	name=O|Entity=(firdann~20110628_5655252__T35--1)
+25	19.55	19.55	NUM	_	NumType=Card	22	obl	_	SpaceAfter=No|name=O
+26	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 005870
+# text = Ambulanse, brannvesen og politi er på staden.
+1	Ambulanse	ambulanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5655252__T36--1(firdann~20110628_5655252__T37--1
+2	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=firdann~20110628_5655252__T37)
+3	brannvesen	brannvesen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	conj	_	name=O|Entity=(firdann~20110628_5655252__T38--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	politi	politi	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	conj	_	name=O|Entity=(firdann~20110628_5655252__T39--1)firdann~20110628_5655252__T36)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5655252__250--1)
+9	.	$.	PUNCT	_	_	8	punct	_	name=O
+

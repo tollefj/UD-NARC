@@ -1,0 +1,388 @@
+# newdoc id = kknn~20110801-59119
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 009107
+# text = * Litteraturprofessor Tore Rem skriv i Aftenposten om korleis åtteåringen hans møter formaningane frå dei vaksne om at vi må møte vondskapen med kjærleik og forsoning:
+1	*	*	PUNCT	_	_	5	punct	_	name=O
+2	Litteraturprofessor	litteraturprofessor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(kknn~20110801_59119__25--1
+3	Tore	Tore	NOUN	_	Gender=Masc	5	nsubj	_	name=B-PER
+4	Rem	Rem	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=kknn~20110801_59119__25)
+5	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Aftenposten	Aftenposten	NOUN	_	Gender=Masc	5	obl	_	name=B-PROD|Entity=(kknn~20110801_59119__T2--1)
+8	om	om	SCONJ	_	_	12	mark	_	name=O
+9	korleis	korleis	ADV	_	_	12	advmod	_	name=O
+10	åtteåringen	åtteåring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(kknn~20110801_59119__T3--1
+11	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(kknn~20110801_59119__25--1)kknn~20110801_59119__T3)
+12	møter	møte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+13	formaningane	formaning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	12	obj	_	name=O|Entity=(kknn~20110801_59119__T5--1
+14	frå	frå	ADP	_	_	16	case	_	name=O
+15	dei	dei	DET	_	Number=Plur|PronType=Dem	16	det	_	name=O|Entity=(kknn~20110801_59119__T6--1
+16	vaksne	vaksen	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=kknn~20110801_59119__T6)
+17	om	om	SCONJ	_	_	21	mark	_	name=O
+18	at	at	SCONJ	_	_	21	mark	_	name=O
+19	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	name=O|Entity=(kknn~20110801_59119__T7--1)
+20	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+21	møte	møte	VERB	_	VerbForm=Inf	13	acl	_	name=O
+22	vondskapen	vondskap	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	obj	_	name=O|Entity=(kknn~20110801_59119__T8--1)
+23	med	med	ADP	_	_	24	case	_	name=O
+24	kjærleik	kjærleik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	name=O|Entity=(kknn~20110801_59119__T9--1(kknn~20110801_59119__T10--1)
+25	og	og	CCONJ	_	_	26	cc	_	name=O
+26	forsoning	forsoning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No|name=O|Entity=(kknn~20110801_59119__T11--1)kknn~20110801_59119__T9)kknn~20110801_59119__T5)
+27	:	$:	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009108
+# text = «Pappa, det henger i en tynn tråd å tilgi han derre der».
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+2	Pappa	Pappa	X	_	_	0	root	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	det	det	X	_	_	2	flat:foreign	_	name=O
+5	henger	henger	X	_	_	2	flat:foreign	_	name=O
+6	i	i	X	_	_	2	flat:foreign	_	name=O
+7	en	en	X	_	_	2	flat:foreign	_	name=O|Entity=(kknn~20110801_59119__T88--1
+8	tynn	tynn	X	_	_	2	flat:foreign	_	name=O
+9	tråd	tråd	X	_	_	2	flat:foreign	_	name=O|Entity=kknn~20110801_59119__T88)
+10	å	å	X	_	_	2	flat:foreign	_	name=O
+11	tilgi	tilgi	X	_	_	2	flat:foreign	_	name=O
+12	han	han	X	_	_	2	flat:foreign	_	name=O|Entity=(kknn~20110801_59119__T89--1)
+13	derre	derre	X	_	_	2	flat:foreign	_	name=O|Entity=(kknn~20110801_59119__T90--1
+14	der	der	X	_	_	2	flat:foreign	_	SpaceAfter=No|name=O|Entity=kknn~20110801_59119__T90)
+15	»	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009109
+# text = Ja, det heng i ein tråd så tynn at den vil ryke for mange.
+1	Ja	ja	INTJ	_	_	4	discourse	_	SpaceAfter=No|name=O
+2	,	$,	PUNCT	_	_	1	punct	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	heng	henge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kknn~20110801_59119__225--1
+7	tråd	tråd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O
+8	så	så	ADV	_	_	9	advmod	_	name=O
+9	tynn	tynn	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+10	at	at	SCONJ	_	_	13	mark	_	name=O
+11	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(kknn~20110801_59119__225--1)
+12	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	ryke	ryke	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+14	for	for	ADP	_	_	15	case	_	name=O
+15	mange	mange	ADJ	_	Degree=Pos|Number=Plur	13	advmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110801_59119__T14--1)kknn~20110801_59119__225)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009110
+# text = Drapsmannen har påført svært mange menneske sorg og skade i eit slikt omfang og med ein slik grotesk brutalitet at han ikkje kan rekne med tilgjeving.
+1	Drapsmannen	drapsmann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(kknn~20110801_59119__4117--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	påført	påføre	VERB	_	VerbForm=Part	0	root	_	name=O
+4	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(kknn~20110801_59119__T16--1
+5	mange	mange	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	menneske	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	iobj	_	name=O|Entity=kknn~20110801_59119__T16)
+7	sorg	sorg	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=(kknn~20110801_59119__T17--1(kknn~20110801_59119__T18--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	skade	skade	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	name=O|Entity=(kknn~20110801_59119__T19--1
+10	i	i	ADP	_	_	13	case	_	name=O
+11	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(kknn~20110801_59119__T20--1
+12	slikt	slik	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O
+13	omfang	omfang	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=kknn~20110801_59119__T20)
+14	og	og	CCONJ	_	_	19	cc	_	name=O
+15	med	med	ADP	_	_	19	case	_	name=O
+16	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(kknn~20110801_59119__T21--1
+17	slik	slik	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	name=O
+18	grotesk	grotesk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	brutalitet	brutalitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	name=O
+20	at	at	SCONJ	_	_	24	mark	_	name=O
+21	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	name=O|Entity=(kknn~20110801_59119__4117--1)
+22	ikkje	ikkje	PART	_	Polarity=Neg	24	advmod	_	name=O
+23	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	name=O
+24	rekne	rekne	VERB	_	VerbForm=Inf	17	advcl	_	name=O
+25	med	med	ADP	_	_	26	case	_	name=O
+26	tilgjeving	tilgjeving	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110801_59119__T23--1)kknn~20110801_59119__T21)kknn~20110801_59119__T19)kknn~20110801_59119__T17)
+27	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009111
+# text = Raseri og hemntankar er naturlege kjensler, som kan vekse seg sterkare når den lammande sorga kjem meir på avstand.
+1	Raseri	raseri	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20110801_59119__2115--1(kknn~20110801_59119__T25--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	hemntankar	hemntanke	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	name=O|Entity=(kknn~20110801_59119__T26--1)kknn~20110801_59119__2115)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	naturlege	naturleg	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(kknn~20110801_59119__T27--1
+6	kjensler	kjensle	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+9	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	vekse	vekse	VERB	_	VerbForm=Inf	6	acl:relcl	_	name=O
+11	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	10	obj	_	name=O|Entity=(kknn~20110801_59119__2115--1)
+12	sterkare	sterk	ADJ	_	Degree=Cmp	10	xcomp	_	name=O
+13	når	når	SCONJ	_	_	17	mark	_	name=O
+14	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(kknn~20110801_59119__T28--1
+15	lammande	lamme	ADJ	_	VerbForm=Part	16	amod	_	name=O
+16	sorga	sorg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	17	nsubj	_	name=O|Entity=kknn~20110801_59119__T28)
+17	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+18	meir	mykje	ADJ	_	Degree=Cmp	20	advmod	_	name=O
+19	på	på	ADP	_	_	20	case	_	name=O
+20	avstand	avstand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110801_59119__T29--1)kknn~20110801_59119__T27)
+21	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009112
+# text = * Det er likevel avgjerande at rettsstatens prinsipp skal gjelde, også ved så uhyrlege brotsverk.
+1	*	*	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	likevel	likevel	ADV	_	_	5	advmod	_	name=O
+5	avgjerande	avgjere	ADJ	_	VerbForm=Part	0	root	_	name=O
+6	at	at	SCONJ	_	_	10	mark	_	name=O
+7	rettsstatens	rettsstat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(kknn~20110801_59119__T31--1(kknn~20110801_59119__T30--1)
+8	prinsipp	prinsipp	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nsubj	_	name=O|Entity=kknn~20110801_59119__T31)
+9	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	gjelde	gjelde	VERB	_	VerbForm=Inf	5	csubj	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	også	også	ADV	_	_	16	advmod	_	name=O
+13	ved	ved	ADP	_	_	16	case	_	name=O
+14	så	så	ADV	_	_	15	advmod	_	name=O|Entity=(kknn~20110801_59119__T32--1
+15	uhyrlege	uhyrleg	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+16	brotsverk	brotsverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110801_59119__T32)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009113
+# text = Dette skal vera ein del av svaret, som skal vise at det norske samfunnet er på eit heilt anna sivilisasjonsnivå enn gjerningsmannen og det forskrudde verdsbiletet hans.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20110801_59119__T33--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	vera	vere	AUX	_	VerbForm=Inf	5	cop	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kknn~20110801_59119__T34--1
+5	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	svaret	svar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110801_59119__T35--1
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+10	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	vise	vise	VERB	_	VerbForm=Inf	7	acl:relcl	_	name=O
+12	at	at	SCONJ	_	_	21	mark	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(kknn~20110801_59119__T36--1
+14	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	samfunnet	samfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	nsubj	_	name=O|Entity=kknn~20110801_59119__T36)
+16	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+17	på	på	SCONJ	_	_	21	mark	_	name=O
+18	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(kknn~20110801_59119__T37--1
+19	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O
+20	anna	annan	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	21	det	_	name=O
+21	sivilisasjonsnivå	sivilisasjonsnivå	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	ccomp	_	name=O
+22	enn	enn	ADP	_	_	23	case	_	name=O
+23	gjerningsmannen	gjerningsmann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obl	_	name=O|Entity=(kknn~20110801_59119__T38--1(kknn~20110801_59119__4117--1)
+24	og	og	CCONJ	_	_	27	cc	_	name=O
+25	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	27	det	_	name=O|Entity=(kknn~20110801_59119__T40--1
+26	forskrudde	forskrudd	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	27	amod	_	name=O
+27	verdsbiletet	verdsbilete	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	conj	_	name=O
+28	hans	hans	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	27	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110801_59119__4117--1)kknn~20110801_59119__T40)kknn~20110801_59119__T38)kknn~20110801_59119__T37)kknn~20110801_59119__T35)kknn~20110801_59119__T34)
+29	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009114
+# text = Derfor er det uaktuelt å skjerpe straffenivået for å råke dei konkrete ugjerningane, sidan nye lover ikkje skal kunne ha tilbakeverkande kraft.
+1	Derfor	derfor	ADV	_	_	4	advmod	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	uaktuelt	uaktuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	skjerpe	skjerpe	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+7	straffenivået	straffenivå	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obj	_	name=O|Entity=(kknn~20110801_59119__3178--1)
+8	for	for	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	råke	råke	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Bridge=kknn~20110801_59119__4117<kknn~20110801_59119__3214:default|Entity=(kknn~20110801_59119__3214--1
+12	konkrete	konkret	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	ugjerningane	ugjerning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110801_59119__3214)
+14	,	$,	PUNCT	_	_	21	punct	_	name=O
+15	sidan	sidan	SCONJ	_	_	21	mark	_	name=O
+16	nye	ny	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(kknn~20110801_59119__T44--1
+17	lover	lov	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	21	nsubj	_	name=O|Entity=kknn~20110801_59119__T44)
+18	ikkje	ikkje	PART	_	Polarity=Neg	21	advmod	_	name=O
+19	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+20	kunne	kunne	AUX	_	VerbForm=Inf	21	aux	_	name=O
+21	ha	ha	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+22	tilbakeverkande	tilbakeverkande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	23	amod	_	name=O|Entity=(kknn~20110801_59119__T45--1
+23	kraft	kraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110801_59119__T45)
+24	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009115
+# text = Og derfor vil det også vera uheldig å nytte denne ekstreme situasjonen til drøfting av generell skjerping av straffenivået.
+1	Og	og	CCONJ	_	_	7	cc	_	name=O
+2	derfor	derfor	ADV	_	_	7	advmod	_	name=O
+3	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+5	også	også	ADV	_	_	7	advmod	_	name=O
+6	vera	vere	AUX	_	VerbForm=Inf	7	cop	_	name=O
+7	uheldig	uheldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	nytte	nytte	VERB	_	VerbForm=Inf	7	csubj	_	name=O
+10	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(kknn~20110801_59119__T46--1
+11	ekstreme	ekstrem	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	name=O|Entity=kknn~20110801_59119__T46)
+13	til	til	ADP	_	_	14	case	_	name=O
+14	drøfting	drøfting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	name=O|Entity=(kknn~20110801_59119__T47--1
+15	av	av	ADP	_	_	17	case	_	name=O
+16	generell	generell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(kknn~20110801_59119__T48--1
+17	skjerping	skjerping	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	name=O
+18	av	av	ADP	_	_	19	case	_	name=O
+19	straffenivået	straffenivå	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110801_59119__3178--1)kknn~20110801_59119__T48)kknn~20110801_59119__T47)
+20	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 009116
+# text = Justisminister Knut Storberget har opna for dette, sjølv om han presiserer at han berre inviterer til ein debatt.
+1	Justisminister	justisminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(kknn~20110801_59119__4227--1
+2	Knut	Knut	NOUN	_	Gender=Masc	5	nsubj	_	name=B-PER
+3	Storberget	Storberget	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=kknn~20110801_59119__4227)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	opna	opne	VERB	_	VerbForm=Part	0	root	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110801_59119__T51--1)
+8	,	$,	PUNCT	_	_	12	punct	_	name=O
+9	sjølv	sjølv	ADV	_	_	10	advmod	_	name=O
+10	om	om	SCONJ	_	_	12	mark	_	name=O
+11	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(kknn~20110801_59119__4227--1)
+12	presiserer	presisere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+13	at	at	SCONJ	_	_	16	mark	_	name=O
+14	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(kknn~20110801_59119__4227--1)
+15	berre	berre	ADV	_	_	16	advmod	_	name=O
+16	inviterer	invitere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	name=O
+17	til	til	ADP	_	_	19	case	_	name=O
+18	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(kknn~20110801_59119__T54--1
+19	debatt	debatt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110801_59119__T54)
+20	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009117
+# text = Det er alt vedteke å heve strafferamma for grove terrorhandlingar til 30 års fengsel, men dette er enno ikkje gjeldande lov.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	alt	alt	ADV	_	_	4	advmod	_	name=O
+4	vedteke	vedta	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	heve	heve	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+7	strafferamma	strafferamme	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obj	_	name=O|Entity=(kknn~20110801_59119__T55--1
+8	for	for	ADP	_	_	10	case	_	name=O
+9	grove	grov	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(kknn~20110801_59119__T56--1
+10	terrorhandlingar	terrorhandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	name=O|Entity=kknn~20110801_59119__T56)kknn~20110801_59119__T55)
+11	til	til	ADP	_	_	14	case	_	name=O
+12	30	30	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(kknn~20110801_59119__T58--1(kknn~20110801_59119__T57--1
+13	års	år	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	14	nmod	_	name=O|Entity=kknn~20110801_59119__T57)
+14	fengsel	fengsel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110801_59119__T58)
+15	,	$,	PUNCT	_	_	22	punct	_	name=O
+16	men	men	CCONJ	_	_	22	cc	_	name=O
+17	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(kknn~20110801_59119__T59--1)
+18	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+19	enno	enno	ADV	_	_	20	advmod	_	name=O
+20	ikkje	ikkje	PART	_	Polarity=Neg	22	advmod	_	name=O
+21	gjeldande	gjeldande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O|Entity=(kknn~20110801_59119__T60--1
+22	lov	lov	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No|name=O|Entity=kknn~20110801_59119__T60)
+23	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009118
+# text = I dag er det berre lovparagrafen om brotsverk mot menneskeslekta som kan gje 30 år, og dei fremste jussekspertane i landet er usamde om påtalemakta bør gripe til denne paragrafen når tiltalen blir utforma.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(kknn~20110801_59119__T61--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+5	berre	berre	ADV	_	_	6	advmod	_	name=O
+6	lovparagrafen	lovparagraf	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(kknn~20110801_59119__2131--1
+7	om	om	ADP	_	_	8	case	_	name=O
+8	brotsverk	brotsverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(kknn~20110801_59119__T63--1
+9	mot	mot	ADP	_	_	10	case	_	name=O
+10	menneskeslekta	menneskeslekt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	name=O|Entity=(kknn~20110801_59119__T64--1)kknn~20110801_59119__T63)
+11	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	gje	gje	VERB	_	VerbForm=Inf	6	acl:cleft	_	name=O
+14	30	30	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(kknn~20110801_59119__T65--1
+15	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110801_59119__T65)kknn~20110801_59119__2131)
+16	,	$,	PUNCT	_	_	24	punct	_	name=O
+17	og	og	CCONJ	_	_	24	cc	_	name=O
+18	dei	dei	DET	_	Number=Plur|PronType=Dem	20	det	_	name=O|Entity=(kknn~20110801_59119__T66--1
+19	fremste	fremre	ADJ	_	Definite=Def|Degree=Sup	20	amod	_	name=O
+20	jussekspertane	jussekspert	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	24	nsubj	_	name=O
+21	i	i	ADP	_	_	22	case	_	name=O
+22	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	name=O|Entity=(kknn~20110801_59119__T67--1)kknn~20110801_59119__T66)
+23	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	name=O
+24	usamde	usamd	ADJ	_	Degree=Pos|Number=Plur	6	conj	_	name=O
+25	om	om	SCONJ	_	_	28	mark	_	name=O
+26	påtalemakta	påtalemakt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	28	nsubj	_	name=O|Entity=(kknn~20110801_59119__T68--1)
+27	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	name=O
+28	gripe	gripe	VERB	_	VerbForm=Inf	24	advcl	_	name=O
+29	til	til	ADP	_	_	31	case	_	name=O
+30	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	name=O|Entity=(kknn~20110801_59119__2131--1
+31	paragrafen	paragraf	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	obl	_	name=O|Entity=kknn~20110801_59119__2131)
+32	når	når	SCONJ	_	_	35	mark	_	name=O
+33	tiltalen	tiltale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	35	nsubj:pass	_	name=O|Bridge=kknn~20110801_59119__4117<kknn~20110801_59119__T70:default|Entity=(kknn~20110801_59119__T70--1)
+34	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux:pass	_	name=O
+35	utforma	utforma	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	28	advcl	_	SpaceAfter=No|name=O
+36	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009119
+# text = * Justisministeren og regjeringa kjenner utvilsamt press frå ein opinion som av naturlege grunnar reagerer på at slike handlingar kan ha 21 år som maksimal straff.
+1	*	*	PUNCT	_	_	5	punct	_	name=O
+2	Justisministeren	justisminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(kknn~20110801_59119__T71--1(kknn~20110801_59119__4227--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	conj	_	name=O|Entity=(kknn~20110801_59119__T73--1)kknn~20110801_59119__T71)
+5	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	utvilsamt	utvilsam	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+7	press	press	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(kknn~20110801_59119__T74--1
+8	frå	frå	ADP	_	_	10	case	_	name=O
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kknn~20110801_59119__T75--1
+10	opinion	opinion	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O
+11	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+12	av	av	ADP	_	_	14	case	_	name=O
+13	naturlege	naturleg	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O|Entity=(kknn~20110801_59119__T76--1
+14	grunnar	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obl	_	name=O|Entity=kknn~20110801_59119__T76)
+15	reagerer	reagere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O
+16	på	på	SCONJ	_	_	21	mark	_	name=O
+17	at	at	SCONJ	_	_	21	mark	_	name=O
+18	slike	slik	DET	_	Number=Plur|PronType=Dem	19	det	_	name=O|Entity=(kknn~20110801_59119__T77--1
+19	handlingar	handling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	21	nsubj	_	name=O|Entity=kknn~20110801_59119__T77)
+20	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+21	ha	ha	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+22	21	21	NUM	_	Number=Plur|NumType=Card	23	nummod	_	name=O|Entity=(kknn~20110801_59119__T78--1
+23	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	21	obj	_	name=O|Entity=kknn~20110801_59119__T78)
+24	som	som	SCONJ	_	_	26	mark	_	name=O
+25	maksimal	maksimal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O|Entity=(kknn~20110801_59119__T79--1
+26	straff	straff	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	xcomp	_	SpaceAfter=No|name=O|Entity=kknn~20110801_59119__T79)kknn~20110801_59119__T75)kknn~20110801_59119__T74)
+27	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009120
+# text = Men også i denne saka gjeld mantraet om at det er ei tid for alt.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	også	også	ADV	_	_	5	advmod	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(kknn~20110801_59119__T80--1
+5	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=kknn~20110801_59119__T80)
+6	gjeld	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	mantraet	mantra	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20110801_59119__T81--1
+8	om	om	SCONJ	_	_	11	mark	_	name=O
+9	at	at	SCONJ	_	_	11	mark	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl	_	name=O
+12	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(kknn~20110801_59119__T82--1
+13	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	nsubj	_	name=O
+14	for	for	ADP	_	_	15	case	_	name=O
+15	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110801_59119__T83--1)kknn~20110801_59119__T82)kknn~20110801_59119__T81)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009121
+# text = Jussprofessor Asbjørn Strandbakken seier at ugjerninga er så grufull og eineståande at den ikkje bør få påverke det generelle straffenivået.
+1	Jussprofessor	jussprofessor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(kknn~20110801_59119__T84--1
+2	Asbjørn	Asbjørn	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER
+3	Strandbakken	Strandbakken	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=kknn~20110801_59119__T84)
+4	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	at	at	SCONJ	_	_	9	mark	_	name=O
+6	ugjerninga	ugjerning	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	name=O|Entity=(kknn~20110801_59119__3214--1)
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	så	så	ADV	_	_	9	advmod	_	name=O
+9	grufull	grufull	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	ccomp	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	eineståande	eineståande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	conj	_	name=O
+12	at	at	SCONJ	_	_	17	mark	_	name=O
+13	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(kknn~20110801_59119__3214--1)
+14	ikkje	ikkje	PART	_	Polarity=Neg	17	advmod	_	name=O
+15	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+16	få	få	AUX	_	VerbForm=Inf	17	aux	_	name=O
+17	påverke	påverke	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+18	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(kknn~20110801_59119__3178--1
+19	generelle	generell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	name=O
+20	straffenivået	straffenivå	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110801_59119__3178)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+

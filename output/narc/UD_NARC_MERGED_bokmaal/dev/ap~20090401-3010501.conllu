@@ -1,0 +1,430 @@
+# newdoc id = ap~20090401-3010501
+# global.Entity = eid-etype-head-other
+# sent_id = 015800
+# text = NATO har fått to nye medlemsland
+1	NATO	NATO	NOUN	_	Abbr=Yes	3	nsubj	_	name=B-ORG|Entity=(ap~20090401_3010501__8389--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+4	to	to	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(ap~20090401_3010501__T2--1
+5	nye	ny	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	medlemsland	medlemsland	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=ap~20090401_3010501__T2)
+
+# newpar
+# sent_id = 015801
+# text = - Har jobbet hardt
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	jobbet	jobbe	VERB	_	VerbForm=Part	0	root	_	name=O
+4	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+
+# newpar
+# sent_id = 015802
+# text = Albania først
+1	Albania	Albania	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__T3--1(ap~20090401_3010501__8536--1)
+2	først	først	ADV	_	_	1	advmod	_	name=O|Entity=ap~20090401_3010501__T3)
+
+# newpar
+# sent_id = 015803
+# text = Albania og Kroatia ble onsdag formelt ønsket velkommen som NATOs 27. og 28. medlemsland.
+1	Albania	Albania	PROPN	_	_	7	nsubj:pass	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__227--1(ap~20090401_3010501__8536--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	Kroatia	Kroatia	PROPN	_	_	1	conj	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__5276--1)ap~20090401_3010501__227)
+4	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	name=O
+5	onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(ap~20090401_3010501__T7--1)
+6	formelt	formell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	ønsket	ønske	VERB	_	VerbForm=Part	0	root	_	name=O
+8	velkommen	velkommen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	xcomp	_	name=O
+9	som	som	SCONJ	_	_	14	mark	_	name=O
+10	NATOs	NATO	NOUN	_	Abbr=Yes|Case=Gen	14	nmod	_	name=B-ORG|Entity=(ap~20090401_3010501__T9--1(ap~20090401_3010501__8389--1)
+11	27.	27.	ADJ	_	Number=Plur	14	amod	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	28.	28.	ADJ	_	Number=Plur	11	conj	_	name=O
+14	medlemsland	medlemsland	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	acl	_	SpaceAfter=No|name=O|Entity=ap~20090401_3010501__T9)
+15	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 015804
+# text = Folk i Albania er stolte over NATO-medlemskapet.
+1	Folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=(ap~20090401_3010501__T10--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Albania	Albania	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__8536--1)ap~20090401_3010501__T10)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	stolte	stolt	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	over	over	ADP	_	_	7	case	_	name=O
+7	NATO-medlemskapet	NATO-medlemskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=B-DRV|Entity=(ap~20090401_3010501__T12--1)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015805
+# text = Her i Tirana er det hengt opp et en banner der det står "Albania i NATO".
+1	Her	her	ADV	_	_	6	advmod	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Tirana	Tirana	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__T13--1)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+6	hengt	henge	VERB	_	VerbForm=Part	0	root	_	name=O
+7	opp	opp	ADP	_	_	6	compound:prt	_	name=O
+8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(ap~20090401_3010501__T14[1/2]--1)
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	reparandum	_	name=O
+10	banner	banner	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O|Entity=(ap~20090401_3010501__T14[2/2]--1
+11	der	der	SCONJ	_	_	13	mark	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	name=O
+13	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl	_	name=O
+14	"	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=(ap~20090401_3010501__T15--1
+15	Albania	Albania	PROPN	_	_	13	obj	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__8536--1)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	NATO	NATO	NOUN	_	Abbr=Yes	15	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(ap~20090401_3010501__8389--1)
+18	"	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=ap~20090401_3010501__T15)ap~20090401_3010501__T14[2/2])
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015806
+# text = Foto:
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap~20090401_3010501__T17--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 015807
+# text = Reuters
+1	Reuters	Reuters	PROPN	_	_	0	root	_	name=B-ORG|Entity=(ap~20090401_3010501__T18--1)
+
+# newpar
+# sent_id = 015808
+# text = Det bekreftet USAs utenriksdepartement etter møter med landenes ambassadører i Washington onsdag.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(ap~20090401_3010501__T19--1)
+2	bekreftet	bekrefte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	USAs	USA	PROPN	_	Abbr=Yes|Case=Gen	4	nmod	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__T21--1(ap~20090401_3010501__3187--1)
+4	utenriksdepartement	utenriksdepartement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=ap~20090401_3010501__T21)
+5	etter	etter	ADP	_	_	6	case	_	name=O
+6	møter	møte	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	name=O|Entity=(ap~20090401_3010501__T22--1
+7	med	med	ADP	_	_	9	case	_	name=O
+8	landenes	land	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	9	nmod	_	name=O|Entity=(ap~20090401_3010501__T24--1(ap~20090401_3010501__227--1)
+9	ambassadører	ambassadør	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Washington	Washington	PROPN	_	_	9	nmod	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__T25--1)ap~20090401_3010501__T24)
+12	onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(ap~20090401_3010501__T26--1)ap~20090401_3010501__T22)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015809
+# text = - Vi er innstilt på å ta vår andel av ansvaret for global fred og stabilitet i steder som Afghanistan, men også i andre deler av verden, sa Kroatias ambassadør Kolinda Grabar-Kitarovic under seremonien.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(ap~20090401_3010501__255--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	innstilt	innstille	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	på	på	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	ta	ta	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+8	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(ap~20090401_3010501__T29--1(ap~20090401_3010501__255--1)
+9	andel	andel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	ansvaret	ansvar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(ap~20090401_3010501__T30--1
+12	for	for	ADP	_	_	14	case	_	name=O
+13	global	global	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(ap~20090401_3010501__T31--1(ap~20090401_3010501__T32--1
+14	fred	fred	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=ap~20090401_3010501__T32)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	stabilitet	stabilitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	conj	_	name=O|Entity=(ap~20090401_3010501__T33--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	steder	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nmod	_	name=O|Entity=(ap~20090401_3010501__T34--1
+19	som	som	ADP	_	_	20	case	_	name=O
+20	Afghanistan	Afghanistan	PROPN	_	_	18	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap~20090401_3010501__291--1)ap~20090401_3010501__T34)
+21	,	$,	PUNCT	_	_	26	punct	_	name=O
+22	men	men	CCONJ	_	_	26	cc	_	name=O
+23	også	også	ADV	_	_	26	advmod	_	name=O
+24	i	i	ADP	_	_	26	case	_	name=O
+25	andre	annen	DET	_	Number=Plur|PronType=Dem	26	det	_	name=O|Entity=(ap~20090401_3010501__T36--1
+26	deler	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	conj	_	name=O
+27	av	av	ADP	_	_	28	case	_	name=O
+28	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No|name=O|Entity=(ap~20090401_3010501__T37--1)ap~20090401_3010501__T36)ap~20090401_3010501__T33)ap~20090401_3010501__T31)ap~20090401_3010501__T30)ap~20090401_3010501__T29)
+29	,	$,	PUNCT	_	_	30	punct	_	name=O
+30	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	name=O
+31	Kroatias	Kroatia	PROPN	_	Case=Gen	32	nmod	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__T40--1(ap~20090401_3010501__T39--1(ap~20090401_3010501__5276--1)
+32	ambassadør	ambassadør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	name=O|Entity=ap~20090401_3010501__T39)
+33	Kolinda	Kolinda	PROPN	_	_	30	nsubj	_	name=B-PER
+34	Grabar-Kitarovic	Grabar-Kitarovic	PROPN	_	_	33	flat:name	_	name=I-PER|Entity=ap~20090401_3010501__T40)
+35	under	under	ADP	_	_	36	case	_	name=O
+36	seremonien	seremoni	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No|name=O|Entity=(ap~20090401_3010501__T41--1)
+37	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015810
+# text = Den albanske ambassador Aleksander Sallabanda fulgte opp
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap~20090401_3010501__294--1(ap~20090401_3010501__T42--1
+2	albanske	albansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	ambassador	ambassadør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=ap~20090401_3010501__T42)
+4	Aleksander	Aleksander	PROPN	_	_	6	nsubj	_	name=B-PER
+5	Sallabanda	Sallabanda	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=ap~20090401_3010501__294)
+6	fulgte	følge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	opp	opp	ADP	_	_	6	compound:prt	_	name=O
+
+# sent_id = 015811
+# text = - Som NATO-medlemsland er Albania beredt til å ta opp alle utfordringer og ansvar som deltakelsen i alliansen krever, sa han.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Som	som	SCONJ	_	_	3	mark	_	name=O
+3	NATO-medlemsland	NATO-medlemsland	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	acl	_	name=B-DRV|Entity=(ap~20090401_3010501__T44--1)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	Albania	Albania	PROPN	_	_	6	nsubj	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__8536--1)
+6	beredt	beredt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+7	til	til	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	ta	ta	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+10	opp	opp	ADP	_	_	9	compound:prt	_	name=O
+11	alle	all	DET	_	Number=Plur|PronType=Tot	12	det	_	name=O|Entity=(ap~20090401_3010501__T46--1(ap~20090401_3010501__T47--1
+12	utfordringer	utfordring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	obj	_	name=O|Entity=ap~20090401_3010501__T47)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	conj	_	name=O|Entity=(ap~20090401_3010501__T48--1
+15	som	som	PRON	_	PronType=Rel	19	obj	_	name=O
+16	deltakelsen	deltakelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	name=O|Entity=(ap~20090401_3010501__T49--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	alliansen	allianse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(ap~20090401_3010501__8389--1)ap~20090401_3010501__T49)
+19	krever	kreve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No|name=O|Entity=ap~20090401_3010501__T48)ap~20090401_3010501__T46)
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	name=O
+22	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	SpaceAfter=No|name=O|Entity=(ap~20090401_3010501__294--1)
+23	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 015812
+# text = Både Albania og Kroatia bidrar allerede til den NATO-ledede ISAF-styrken i Afghanistan.
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	Albania	Albania	PROPN	_	_	5	nsubj	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__2114--1(ap~20090401_3010501__8536--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	Kroatia	Kroatia	PROPN	_	_	2	conj	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__5276--1)ap~20090401_3010501__2114)
+5	bidrar	bidra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	allerede	allerede	ADV	_	_	5	advmod	_	name=O
+7	til	til	ADP	_	_	10	case	_	name=O
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(ap~20090401_3010501__T55--1
+9	NATO-ledede	NATO-lede	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	10	amod	_	name=B-DRV
+10	ISAF-styrken	ISAF-styrke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=B-DRV
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Afghanistan	Afghanistan	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap~20090401_3010501__291--1)ap~20090401_3010501__T55)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015813
+# text = I Brussel blir bekreftelsen fra USA om at alle NATOs medlemsland formelt har godkjent de nye medlemslandene, tatt godt imot.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	Brussel	Brussel	PROPN	_	_	19	obl	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__T57--1)
+3	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux:pass	_	name=O
+4	bekreftelsen	bekreftelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj:pass	_	name=O|Entity=(ap~20090401_3010501__T58--1
+5	fra	fra	ADP	_	_	6	case	_	name=O
+6	USA	USA	PROPN	_	Abbr=Yes	4	nmod	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__3187--1)
+7	om	om	SCONJ	_	_	14	mark	_	name=O
+8	at	at	SCONJ	_	_	14	mark	_	name=O
+9	alle	all	DET	_	Number=Plur|PronType=Tot	10	det	_	name=O|Entity=(ap~20090401_3010501__T61--1
+10	NATOs	NATO	NOUN	_	Abbr=Yes|Case=Gen	11	nmod	_	name=B-ORG|Entity=(ap~20090401_3010501__8389--1)
+11	medlemsland	medlemsland	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	nsubj	_	name=O|Entity=ap~20090401_3010501__T61)
+12	formelt	formell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	godkjent	godkjenne	VERB	_	VerbForm=Part	4	acl	_	name=O
+15	de	de	DET	_	Number=Plur|PronType=Dem	17	det	_	name=O|Entity=(ap~20090401_3010501__2114--1
+16	nye	ny	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O
+17	medlemslandene	medlemsland	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No|name=O|Entity=ap~20090401_3010501__2114)
+18	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=ap~20090401_3010501__T58)
+19	tatt	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+20	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	name=O
+21	imot	imot	ADP	_	_	19	compound:prt	_	SpaceAfter=No|name=O
+22	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# sent_id = 015814
+# text = - Dette er veldig velkomne nyheter.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(ap~20090401_3010501__T63--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(ap~20090401_3010501__T64--1
+5	velkomne	velkommen	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	nyheter	nyhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=ap~20090401_3010501__T64)
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015815
+# text = Albania og Kroatia har jobbet veldig hardt med å møte alliansens demokratiske og militære standarder, sier NATO-talsmann James Appathurai.
+1	Albania	Albania	PROPN	_	_	5	nsubj	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__7635--1(ap~20090401_3010501__8536--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	Kroatia	Kroatia	PROPN	_	_	1	conj	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__5276--1)ap~20090401_3010501__7635)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	jobbet	jobbe	VERB	_	VerbForm=Part	0	root	_	name=O
+6	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+8	med	med	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	møte	møte	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+11	alliansens	allianse	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(ap~20090401_3010501__T69--1(ap~20090401_3010501__8389--1)
+12	demokratiske	demokratisk	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	militære	militær	ADJ	_	Degree=Pos|Number=Plur	12	conj	_	name=O
+15	standarder	standard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No|name=O|Entity=ap~20090401_3010501__T69)
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+18	NATO-talsmann	NATO-talsmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	name=B-DRV|Entity=(ap~20090401_3010501__3226--1
+19	James	James	PROPN	_	_	17	nsubj	_	name=B-PER
+20	Appathurai	Appathurai	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap~20090401_3010501__3226)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015816
+# text = Han påpeker at de to landene har kommet seg videre etter krigene på Balkan på 90-tallet og nå bidrar til både stabilitet på Balkan og internasjonal sikkerhet.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap~20090401_3010501__3226--1)
+2	påpeker	påpeke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	8	mark	_	name=O
+4	de	de	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(ap~20090401_3010501__7635--1
+5	to	to	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O
+6	landene	land	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=ap~20090401_3010501__7635)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	kommet	komme	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+9	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	name=O|Entity=(ap~20090401_3010501__7635--1)
+10	videre	vid	ADJ	_	Degree=Cmp	8	advmod	_	name=O
+11	etter	etter	ADP	_	_	12	case	_	name=O
+12	krigene	krig	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obl	_	name=O|Entity=(ap~20090401_3010501__T73--1
+13	på	på	ADP	_	_	14	case	_	name=O
+14	Balkan	Balkan	PROPN	_	_	12	nmod	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__2152--1)
+15	på	på	ADP	_	_	16	case	_	name=O
+16	90-tallet	90-tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	name=O|Entity=(ap~20090401_3010501__T75--1)ap~20090401_3010501__T73)
+17	og	og	CCONJ	_	_	19	cc	_	name=O
+18	nå	nå	ADV	_	_	19	advmod	_	name=O
+19	bidrar	bidra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	name=O
+20	til	til	ADP	_	_	22	case	_	name=O
+21	både	både	CCONJ	_	_	22	cc	_	name=O
+22	stabilitet	stabilitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	name=O|Entity=(ap~20090401_3010501__T76--1(ap~20090401_3010501__T77--1
+23	på	på	ADP	_	_	24	case	_	name=O
+24	Balkan	Balkan	PROPN	_	_	22	nmod	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__2152--1)ap~20090401_3010501__T77)
+25	og	og	CCONJ	_	_	27	cc	_	name=O
+26	internasjonal	internasjonal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	amod	_	name=O|Entity=(ap~20090401_3010501__T79--1
+27	sikkerhet	sikkerhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No|name=O|Entity=ap~20090401_3010501__T79)ap~20090401_3010501__T76)
+28	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015817
+# text = - De vil nå nyte godt av felles sikkerhet, men også den forpliktelsen det innebærer å være alliansemedlem, sier Appathurai.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(ap~20090401_3010501__7635--1)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	nå	nå	ADV	_	_	5	advmod	_	name=O
+5	nyte	nyte	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+7	av	av	ADP	_	_	9	case	_	name=O
+8	felles	felles	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(ap~20090401_3010501__T81--1(ap~20090401_3010501__T82--1
+9	sikkerhet	sikkerhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=ap~20090401_3010501__T82)
+11	men	men	CCONJ	_	_	14	cc	_	name=O
+12	også	også	ADV	_	_	14	advmod	_	name=O|Entity=(ap~20090401_3010501__T83--1
+13	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	name=O
+14	forpliktelsen	forpliktelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	conj	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	name=O
+16	innebærer	innebære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	name=O
+17	å	å	PART	_	_	19	mark	_	name=O
+18	være	være	AUX	_	VerbForm=Inf	19	cop	_	name=O
+19	alliansemedlem	alliansemedlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	csubj	_	SpaceAfter=No|name=O|Entity=(ap~20090401_3010501__T84--1)ap~20090401_3010501__T83)ap~20090401_3010501__T81)
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+22	Appathurai	Appathurai	PROPN	_	_	21	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap~20090401_3010501__3226--1)
+23	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 015818
+# text = De to landene vil bli nå få hver sin alfabetiske plass, etter det latinske alfabetet, rundt møtebordet når alliansens stats- og regjeringssjefer møtes til NATOs jubileumstoppmøte med en innledende middag fredag kveld i den tyske byen Baden-Baden.
+1	De	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(ap~20090401_3010501__7635--1
+2	to	to	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O
+3	landene	land	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	name=O|Entity=ap~20090401_3010501__7635)
+4	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+5	bli	bli	VERB	_	VerbForm=Inf	7	reparandum	_	name=O
+6	nå	nå	ADV	_	_	7	advmod	_	name=O
+7	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+8	hver	hver	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	name=O|Entity=(ap~20090401_3010501__T88--1
+9	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	name=O|Entity=(ap~20090401_3010501__7635--1)
+10	alfabetiske	alfabetisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	16	punct	_	name=O
+13	etter	etter	ADP	_	_	16	case	_	name=O
+14	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(ap~20090401_3010501__T89--1
+15	latinske	latinsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	alfabetet	alfabet	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=ap~20090401_3010501__T89)
+17	,	$,	PUNCT	_	_	16	punct	_	name=O
+18	rundt	rundt	ADP	_	_	19	case	_	name=O
+19	møtebordet	møtebord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	name=O|Bridge=ap~20090401_3010501__2216<ap~20090401_3010501__2204:default|Entity=(ap~20090401_3010501__2204--1)ap~20090401_3010501__T88)
+20	når	når	SCONJ	_	_	25	mark	_	name=O
+21	alliansens	allianse	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	name=O|Entity=(ap~20090401_3010501__T92--1(ap~20090401_3010501__T93--1(ap~20090401_3010501__8389--1)
+22	stats-	stats-	NOUN	_	_	25	nsubj	_	name=O|Entity=ap~20090401_3010501__T93)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	regjeringssjefer	regjeringssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	conj	_	name=O|Entity=(ap~20090401_3010501__T94--1)ap~20090401_3010501__T92)
+25	møtes	møtes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+26	til	til	ADP	_	_	28	case	_	name=O
+27	NATOs	NATO	NOUN	_	Abbr=Yes|Case=Gen	28	nmod	_	name=B-ORG|Entity=(ap~20090401_3010501__2216--1(ap~20090401_3010501__8389--1)
+28	jubileumstoppmøte	jubileumstoppmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	obl	_	name=O|Entity=ap~20090401_3010501__2216)
+29	med	med	ADP	_	_	32	case	_	name=O
+30	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	32	det	_	name=O|Entity=(ap~20090401_3010501__T97--1
+31	innledende	innlede	ADJ	_	VerbForm=Part	32	amod	_	name=O
+32	middag	middag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	name=O|Entity=ap~20090401_3010501__T97)
+33	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	name=O|Entity=(ap~20090401_3010501__T98--1
+34	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	name=O|Entity=(ap~20090401_3010501__T99--1)ap~20090401_3010501__T98)
+35	i	i	ADP	_	_	39	case	_	name=O
+36	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	38	det	_	name=O|Entity=(ap~20090401_3010501__T101--1(ap~20090401_3010501__T100--1
+37	tyske	tysk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	38	amod	_	name=O
+38	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	39	nmod	_	name=O|Entity=ap~20090401_3010501__T100)
+39	Baden-Baden	Baden-Baden	PROPN	_	_	25	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=ap~20090401_3010501__T101)
+40	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 015819
+# text = Albanias statsminister Sali Berisha vil ta plass ved generalsekretærens høyre side, mens USA, ved president Barack Obama, vil sitte ved den venstre.
+1	Albanias	Albania	PROPN	_	Case=Gen	2	nmod	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__T104--1(ap~20090401_3010501__T103--1(ap~20090401_3010501__8536--1)
+2	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=ap~20090401_3010501__T103)
+3	Sali	Sali	PROPN	_	_	6	nsubj	_	name=B-PER
+4	Berisha	Berisha	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=ap~20090401_3010501__T104)
+5	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(ap~20090401_3010501__T105--1)
+8	ved	ved	ADP	_	_	11	case	_	name=O
+9	generalsekretærens	generalsekretær	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Bridge=ap~20090401_3010501__8389<ap~20090401_3010501__T106:default|Entity=(ap~20090401_3010501__T107--1(ap~20090401_3010501__T106--1)
+10	høyre	høyre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=ap~20090401_3010501__T107)
+12	,	$,	PUNCT	_	_	22	punct	_	name=O
+13	mens	mens	SCONJ	_	_	22	mark	_	name=O
+14	USA	USA	PROPN	_	Abbr=Yes	22	nsubj	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(ap~20090401_3010501__3187--1
+15	,	$,	PUNCT	_	_	18	punct	_	name=O
+16	ved	ved	ADP	_	_	18	case	_	name=O
+17	president	president	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(ap~20090401_3010501__T109--1
+18	Barack	Barack	PROPN	_	_	14	nmod	_	name=B-PER
+19	Obama	Obama	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap~20090401_3010501__T109)ap~20090401_3010501__3187)
+20	,	$,	PUNCT	_	_	18	punct	_	name=O
+21	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+22	sitte	sitte	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+23	ved	ved	ADP	_	_	25	case	_	name=O
+24	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	name=O|Bridge=ap~20090401_3010501__T107<ap~20090401_3010501__T110:default|Entity=(ap~20090401_3010501__T110--1
+25	venstre	venstre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	advmod	_	SpaceAfter=No|name=O|Entity=ap~20090401_3010501__T110)
+26	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015820
+# text = Kroatias statsminister Ivo Sanader vil også bli sittende høyt ved møtebordet, mellom Canada og Tsjekkia.
+1	Kroatias	Kroatia	PROPN	_	Case=Gen	2	nmod	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__T113--1(ap~20090401_3010501__T112--1(ap~20090401_3010501__5276--1)
+2	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=ap~20090401_3010501__T112)
+3	Ivo	Ivo	PROPN	_	_	7	nsubj	_	name=B-PER
+4	Sanader	Sanader	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=ap~20090401_3010501__T113)
+5	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	også	også	ADV	_	_	7	advmod	_	name=O
+7	bli	bli	VERB	_	VerbForm=Inf	0	root	_	name=O
+8	sittende	sitte	ADJ	_	VerbForm=Part	7	xcomp	_	name=O
+9	høyt	høy	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+10	ved	ved	ADP	_	_	11	case	_	name=O
+11	møtebordet	møtebord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(ap~20090401_3010501__2204--1)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	mellom	mellom	ADP	_	_	14	case	_	name=O
+14	Canada	Canada	PROPN	_	_	8	obl	_	name=B-GPE_ORG|Entity=(ap~20090401_3010501__T115--1(ap~20090401_3010501__T116--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	Tsjekkia	Tsjekkia	PROPN	_	_	14	conj	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(ap~20090401_3010501__T117--1)ap~20090401_3010501__T115)
+17	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 015821
+# text = Deretter vil de to nye medlemslandene være med på resten av toppmøtet i de fransktyske tvillingbyene Strasbourg og Kehl lørdag.
+1	Deretter	deretter	ADV	_	_	8	advmod	_	name=O
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+3	de	de	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(ap~20090401_3010501__7635--1
+4	to	to	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O
+5	nye	ny	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	medlemslandene	medlemsland	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=ap~20090401_3010501__7635)
+7	være	være	AUX	_	VerbForm=Inf	8	cop	_	name=O
+8	med	med	ADP	_	_	0	root	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	resten	rest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(ap~20090401_3010501__T119--1
+11	av	av	ADP	_	_	12	case	_	name=O
+12	toppmøtet	toppmøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	name=O|Entity=(ap~20090401_3010501__2216--1)ap~20090401_3010501__T119)
+13	i	i	ADP	_	_	17	case	_	name=O
+14	de	de	DET	_	Number=Plur|PronType=Dem	16	det	_	name=O|Entity=(ap~20090401_3010501__T122--1(ap~20090401_3010501__T123--1(ap~20090401_3010501__T121--1
+15	fransktyske	fransktysk	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+16	tvillingbyene	tvillingby	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	17	nmod	_	name=O|Entity=ap~20090401_3010501__T121)
+17	Strasbourg	Strasbourg	PROPN	_	_	8	obl	_	name=B-GPE_LOC|Entity=ap~20090401_3010501__T123)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	Kehl	Kehl	PROPN	_	_	17	conj	_	name=B-GPE_LOC|Entity=(ap~20090401_3010501__T124--1)ap~20090401_3010501__T122)
+20	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(ap~20090401_3010501__T125--1)
+21	.	$.	PUNCT	_	_	8	punct	_	name=O
+

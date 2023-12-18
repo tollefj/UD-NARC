@@ -1,0 +1,1684 @@
+# newdoc id = db~20081202-3901555
+# global.Entity = eid-etype-head-other
+# sent_id = 016996
+# text = Hvilket trommespill skal du velge?
+1	Hvilket	hvilken	DET	_	Gender=Neut|Number=Sing|PronType=Int	2	det	_	name=O|Entity=(db~20081202_3901555__T1--1
+2	trommespill	trommespill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=db~20081202_3901555__T1)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081202_3901555__T2--1)
+5	velge	velge	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+6	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 016997
+# text = «Rock Band 2» eller «Guitar Hero: World Tour»?
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T3--1(db~20081202_3901555__132127--1
+2	Rock	Rock	PROPN	_	_	0	root	_	name=B-PROD
+3	Band	Band	PROPN	_	_	2	flat:name	_	name=I-PROD
+4	2	2	NUM	_	Number=Plur|NumType=Card	2	flat:name	_	SpaceAfter=No|name=I-PROD
+5	»	$"	PUNCT	_	_	2	punct	_	name=O|Entity=db~20081202_3901555__132127)
+6	eller	eller	CCONJ	_	_	8	cc	_	name=O
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+8	Guitar	Guitar	PROPN	_	_	2	conj	_	name=B-PROD
+9	Hero	Hero	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PROD
+10	:	$:	PUNCT	_	_	11	punct	_	name=I-PROD
+11	World	World	PROPN	_	_	8	flat:name	_	name=I-PROD
+12	Tour	Tour	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PROD
+13	»	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__172844)db~20081202_3901555__T3)
+14	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 016998
+# text = Oppfølger:
+1	Oppfølger	oppfølger	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T6--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 016999
+# text = I «Rock Band 2» er det et godt utvalg av låter.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__132127--1
+3	Rock	Rock	PROPN	_	_	7	obl	_	name=B-PROD
+4	Band	Band	PROPN	_	_	3	flat:name	_	name=I-PROD
+5	2	2	NUM	_	Number=Plur|NumType=Card	3	flat:name	_	SpaceAfter=No|name=I-PROD
+6	»	$"	PUNCT	_	_	3	punct	_	name=O|Entity=db~20081202_3901555__132127)
+7	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(db~20081202_3901555__T8--1
+10	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+11	utvalg	utvalg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	låter	låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T9--1)db~20081202_3901555__T8)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017000
+# text = Trommer:
+1	Trommer	tromme	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T10--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017001
+# text = Her er trommesettet til «Rock Band 2».
+1	Her	her	ADV	_	_	0	root	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	trommesettet	trommesett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nsubj	_	name=O|Entity=(db~20081202_3901555__T11--1
+4	til	til	ADP	_	_	6	case	_	name=O
+5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__132127--1
+6	Rock	Rock	PROPN	_	_	3	nmod	_	name=B-PROD
+7	Band	Band	PROPN	_	_	6	flat:name	_	name=I-PROD
+8	2	2	NUM	_	Number=Plur|NumType=Card	6	flat:name	_	SpaceAfter=No|name=I-PROD
+9	»	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__132127)db~20081202_3901555__T11)
+10	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017002
+# text = Trommer:
+1	Trommer	tromme	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T13--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017003
+# text = Her er trommesettet til «Guitar Hero: World Tour».
+1	Her	her	ADV	_	_	0	root	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	trommesettet	trommesett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nsubj	_	name=O|Entity=(db~20081202_3901555__T14--1
+4	til	til	ADP	_	_	6	case	_	name=O
+5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+6	Guitar	Guitar	PROPN	_	_	3	nmod	_	name=B-PROD
+7	Hero	Hero	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PROD
+8	:	$:	PUNCT	_	_	9	punct	_	name=I-PROD
+9	World	World	PROPN	_	_	6	flat:name	_	name=I-PROD
+10	Tour	Tour	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PROD
+11	»	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__172844)db~20081202_3901555__T14)
+12	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017004
+# text = For alle som noen gang har drømt om å være som Phil Collins, må dette være en drømmetid i spillsammenheng.
+1	For	for	ADP	_	_	2	case	_	name=O
+2	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	19	obl	_	name=O|Entity=(db~20081202_3901555__T16--1
+3	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+4	noen	noen	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	name=O|Entity=(db~20081202_3901555__T17--1
+5	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=db~20081202_3901555__T17)
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	drømt	drømme	VERB	_	VerbForm=Part	2	acl:relcl	_	name=O
+8	om	om	SCONJ	_	_	12	mark	_	name=O
+9	å	å	PART	_	_	12	mark	_	name=O
+10	være	være	AUX	_	VerbForm=Inf	12	cop	_	name=O
+11	som	som	SCONJ	_	_	12	mark	_	name=O
+12	Phil	Phil	PROPN	_	_	7	advcl	_	name=B-PER|Entity=(db~20081202_3901555__T18--1
+13	Collins	Collins	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PER|Entity=db~20081202_3901555__T18)db~20081202_3901555__T16)
+14	,	$,	PUNCT	_	_	2	punct	_	name=O
+15	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+16	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(db~20081202_3901555__T19--1)
+17	være	være	AUX	_	VerbForm=Inf	19	cop	_	name=O
+18	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(db~20081202_3901555__T20--1
+19	drømmetid	drømmetid	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=db~20081202_3901555__T20)
+20	i	i	ADP	_	_	21	case	_	name=O
+21	spillsammenheng	spillsammenheng	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T21--1)
+22	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# newpar
+# sent_id = 017005
+# text = Tidligere i år kom «Rock Band» som det første spillet som i tillegg til de velkjente plastgitarene og mikrofonene innførte trommesett i stor skala til spilluniverset.
+1	Tidligere	tidlig	ADJ	_	Degree=Cmp	3	advmod	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(db~20081202_3901555__T22--1)
+4	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__4530--1
+6	Rock	Rock	PROPN	_	_	4	nsubj	_	name=B-PROD
+7	Band	Band	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PROD
+8	»	$"	PUNCT	_	_	6	punct	_	name=O|Entity=db~20081202_3901555__4530)
+9	som	som	SCONJ	_	_	12	mark	_	name=O
+10	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(db~20081202_3901555__T24--1
+11	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	acl	_	name=O
+13	som	som	PRON	_	PronType=Rel	22	nsubj	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	obl	_	name=O|Entity=(db~20081202_3901555__T25--1
+16	til	til	ADP	_	_	19	case	_	name=O
+17	de	de	DET	_	Number=Plur|PronType=Dem	19	det	_	name=O|Entity=(db~20081202_3901555__T26--1(db~20081202_3901555__T27--1
+18	velkjente	velkjent	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O
+19	plastgitarene	plastgitar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	15	nmod	_	name=O|Entity=db~20081202_3901555__T27)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	mikrofonene	mikrofon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	19	conj	_	name=O|Entity=(db~20081202_3901555__T28--1)db~20081202_3901555__T26)db~20081202_3901555__T25)
+22	innførte	innføre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	name=O
+23	trommesett	trommesett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	obj	_	name=O|Entity=(db~20081202_3901555__T29--1)
+24	i	i	ADP	_	_	26	case	_	name=O
+25	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O|Entity=(db~20081202_3901555__T30--1
+26	skala	skala	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	name=O|Entity=db~20081202_3901555__T30)
+27	til	til	ADP	_	_	28	case	_	name=O
+28	spilluniverset	spillunivers	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T31--1)db~20081202_3901555__T24)
+29	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017006
+# text = Nå er konkurransen mellom bandspillene trappet ytterligere opp, ettersom både «Rock Band 2» og «Guitar Hero: World Tour» er på markedet med hver sine tilhørende trommesett, gitarer og mikrofoner.
+1	Nå	nå	ADV	_	_	6	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	konkurransen	konkurranse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(db~20081202_3901555__T32--1
+4	mellom	mellom	ADP	_	_	5	case	_	name=O
+5	bandspillene	bandspill	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nmod	_	name=O|Entity=(db~20081202_3901555__T33--1)db~20081202_3901555__T32)
+6	trappet	trappe	VERB	_	VerbForm=Part	0	root	_	name=O
+7	ytterligere	ytterligere	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+8	opp	opp	ADP	_	_	6	compound:prt	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	27	punct	_	name=O
+10	ettersom	ettersom	SCONJ	_	_	27	mark	_	name=O
+11	både	både	CCONJ	_	_	13	cc	_	name=O
+12	«	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__3120--1(db~20081202_3901555__132127--1
+13	Rock	Rock	PROPN	_	_	27	nsubj	_	name=B-PROD
+14	Band	Band	PROPN	_	_	13	flat:name	_	name=I-PROD
+15	2	2	NUM	_	Number=Plur|NumType=Card	13	flat:name	_	SpaceAfter=No|name=I-PROD
+16	»	$"	PUNCT	_	_	13	punct	_	name=O|Entity=db~20081202_3901555__132127)
+17	og	og	CCONJ	_	_	19	cc	_	name=O
+18	«	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+19	Guitar	Guitar	PROPN	_	_	13	conj	_	name=B-PROD
+20	Hero	Hero	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-PROD
+21	:	$:	PUNCT	_	_	22	punct	_	name=I-PROD
+22	World	World	PROPN	_	_	19	flat:name	_	name=I-PROD
+23	Tour	Tour	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-PROD
+24	»	$"	PUNCT	_	_	19	punct	_	name=O|Entity=db~20081202_3901555__172844)db~20081202_3901555__3120)
+25	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	name=O
+26	på	på	SCONJ	_	_	27	mark	_	name=O
+27	markedet	marked	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	advcl	_	name=O|Entity=(db~20081202_3901555__T37--1)
+28	med	med	ADP	_	_	32	case	_	name=O
+29	hver	hver	DET	_	Gender=Fem|Number=Sing|PronType=Tot	32	det	_	name=O|Entity=(db~20081202_3901555__T39--1(db~20081202_3901555__T40--1
+30	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	32	nmod	_	name=O|Entity=(db~20081202_3901555__3120--1)
+31	tilhørende	tilhøre	ADJ	_	VerbForm=Part	32	amod	_	name=O
+32	trommesett	trommesett	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	27	obl	_	SpaceAfter=No|name=O
+33	,	$,	PUNCT	_	_	34	punct	_	name=O|Entity=db~20081202_3901555__T40)
+34	gitarer	gitar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	32	conj	_	name=O|Entity=(db~20081202_3901555__T41--1)
+35	og	og	CCONJ	_	_	36	cc	_	name=O
+36	mikrofoner	mikrofon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	32	conj	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T42--1)db~20081202_3901555__T39)
+37	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017007
+# text = Alle som har en noenlunde normal bosituasjon har imidlertid ikke plass til flere enn ett trommesett - spørsmålet blir da hvilken av spillpakkene du skal gå til innkjøp av dersom du vil hamre løs på spilltrommesett i jula?
+1	Alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	8	nsubj	_	name=O|Entity=(db~20081202_3901555__T43--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(db~20081202_3901555__T44--1
+5	noenlunde	noenlunde	ADV	_	_	6	advmod	_	name=O
+6	normal	normal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	bosituasjon	bosituasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=db~20081202_3901555__T44)db~20081202_3901555__T43)
+8	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	imidlertid	imidlertid	ADV	_	_	8	advmod	_	name=O
+10	ikke	ikke	PART	_	Polarity=Neg	8	advmod	_	name=O
+11	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	name=O|Entity=(db~20081202_3901555__T45--1
+12	til	til	ADP	_	_	16	case	_	name=O
+13	flere	mange	ADJ	_	Degree=Cmp	16	amod	_	name=O|Entity=(db~20081202_3901555__T46--1
+14	enn	enn	ADP	_	_	15	case	_	name=O
+15	ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	13	obl	_	name=O
+16	trommesett	trommesett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=db~20081202_3901555__T46)db~20081202_3901555__T45)
+17	-	$-	PUNCT	_	_	19	punct	_	name=O
+18	spørsmålet	spørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nsubj	_	name=O|Entity=(db~20081202_3901555__T47--1)
+19	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	name=O
+20	da	da	ADV	_	_	19	advmod	_	name=O
+21	hvilken	hvilken	DET	_	Gender=Fem|Number=Sing|PronType=Int	28	nmod	_	name=O|Entity=(db~20081202_3901555__T50[1/2]--1
+22	av	av	ADP	_	_	23	case	_	name=O
+23	spillpakkene	spillpakke	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	name=O|Entity=(db~20081202_3901555__3120--1)db~20081202_3901555__T50[1/2])
+24	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	26	nsubj	_	name=O|Entity=(db~20081202_3901555__2100--1)
+25	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	name=O
+26	gå	gå	VERB	_	VerbForm=Inf	19	xcomp	_	name=O
+27	til	til	ADP	_	_	28	case	_	name=O
+28	innkjøp	innkjøp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	26	obl	_	name=O|Entity=(db~20081202_3901555__T50[2/2]--1
+29	av	av	ADP	_	_	21	case	_	name=O|Entity=db~20081202_3901555__T50[2/2])
+30	dersom	dersom	SCONJ	_	_	33	mark	_	name=O
+31	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	33	nsubj	_	name=O|Entity=(db~20081202_3901555__2100--1)
+32	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	33	aux	_	name=O
+33	hamre	hamre	VERB	_	VerbForm=Inf	26	advcl	_	name=O
+34	løs	løs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	33	advmod	_	name=O
+35	på	på	ADP	_	_	36	case	_	name=O
+36	spilltrommesett	spilltrommesett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	33	obl	_	name=O|Entity=(db~20081202_3901555__T52--1)
+37	i	i	ADP	_	_	38	case	_	name=O
+38	jula	jul	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T53--1)
+39	?	$?	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 017008
+# text = Vi har tatt en såpass nærgående kikk på både «Guitar Hero: World Tour» og «Rock Band 2» at huden i henda muligens er blitt litt tynnere - og her er våre inntrykk:
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081202_3901555__5852--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	tatt	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(db~20081202_3901555__T55--1
+5	såpass	såpass	ADV	_	_	6	advmod	_	name=O
+6	nærgående	nærgående	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	kikk	kikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O
+8	på	på	ADP	_	_	11	case	_	name=O
+9	både	både	CCONJ	_	_	11	cc	_	name=O
+10	«	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T56--1(db~20081202_3901555__172844--1
+11	Guitar	Guitar	PROPN	_	_	7	nmod	_	name=B-PROD
+12	Hero	Hero	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PROD
+13	:	$:	PUNCT	_	_	14	punct	_	name=I-PROD
+14	World	World	PROPN	_	_	11	flat:name	_	name=I-PROD
+15	Tour	Tour	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PROD
+16	»	$"	PUNCT	_	_	11	punct	_	name=O|Entity=db~20081202_3901555__172844)
+17	og	og	CCONJ	_	_	19	cc	_	name=O
+18	«	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__132127--1
+19	Rock	Rock	PROPN	_	_	11	conj	_	name=B-PROD
+20	Band	Band	PROPN	_	_	19	flat:name	_	name=I-PROD
+21	2	2	NUM	_	Number=Plur|NumType=Card	19	flat:name	_	SpaceAfter=No|name=I-PROD
+22	»	$"	PUNCT	_	_	19	punct	_	name=O|Entity=db~20081202_3901555__132127)db~20081202_3901555__T56)
+23	at	at	SCONJ	_	_	29	mark	_	name=O
+24	huden	hud	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	29	nsubj	_	name=O|Entity=(db~20081202_3901555__T59--1
+25	i	i	ADP	_	_	26	case	_	name=O
+26	henda	hånd	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	24	nmod	_	name=O|Entity=(db~20081202_3901555__T60--1)db~20081202_3901555__T59)
+27	muligens	muligens	ADV	_	_	29	advmod	_	name=O
+28	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	name=O
+29	blitt	bli	VERB	_	VerbForm=Part	5	advcl	_	name=O
+30	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	31	advmod	_	name=O
+31	tynnere	tynn	ADJ	_	Degree=Cmp	29	xcomp	_	name=O|Entity=db~20081202_3901555__T55)
+32	-	$-	PUNCT	_	_	34	punct	_	name=O
+33	og	og	CCONJ	_	_	34	cc	_	name=O
+34	her	her	ADV	_	_	3	conj	_	name=O
+35	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	34	cop	_	name=O
+36	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	37	nmod	_	name=O|Entity=(db~20081202_3901555__T62--1(db~20081202_3901555__5852--1)
+37	inntrykk	inntrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	34	nsubj	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T62)
+38	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017009
+# text = Det gikk litt på egoet løs da enmannsbandet «Gjærbägst» skulle utvides til fire mann.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	egoet	ego	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(db~20081202_3901555__T63--1)
+6	løs	løs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	advmod	_	name=O
+7	da	da	SCONJ	_	_	13	mark	_	name=O
+8	enmannsbandet	enmannsband	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	name=O|Entity=(db~20081202_3901555__2155--1
+9	«	$"	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O
+10	Gjærbägst	Gjærbägst	PROPN	_	_	13	nsubj:pass	_	SpaceAfter=No|name=B-ORG
+11	»	$"	PUNCT	_	_	10	punct	_	name=O|Entity=db~20081202_3901555__2155)
+12	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+13	utvides	utvide	VERB	_	VerbForm=Inf|Voice=Pass	2	advcl	_	name=O
+14	til	til	ADP	_	_	16	case	_	name=O
+15	fire	fire	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(db~20081202_3901555__T65--1
+16	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T65)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017010
+# text = Etter å ha turnert stua rundt med en slitt plastgitar i «Guitar Hero» og oppfølgerne skulle det plutselig ryddes enda mer plass for enda flere plastinstrumenter.
+1	Etter	etter	SCONJ	_	_	4	mark	_	name=O
+2	å	å	PART	_	_	4	mark	_	name=O
+3	ha	ha	AUX	_	VerbForm=Inf	4	aux	_	name=O
+4	turnert	turnere	VERB	_	VerbForm=Part	21	advcl	_	name=O
+5	stua	stue	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=(db~20081202_3901555__2160--1)
+6	rundt	rundt	ADP	_	_	5	case	_	name=O
+7	med	med	ADP	_	_	10	case	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(db~20081202_3901555__T67--1
+9	slitt	slite	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	10	amod	_	name=O
+10	plastgitar	plastgitar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=db~20081202_3901555__T67)
+11	i	i	ADP	_	_	13	case	_	name=O
+12	«	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T68--1(db~20081202_3901555__T69--1
+13	Guitar	Guitar	PROPN	_	_	4	obl	_	name=B-PROD
+14	Hero	Hero	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-PROD
+15	»	$"	PUNCT	_	_	13	punct	_	name=O|Entity=db~20081202_3901555__T69)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	oppfølgerne	oppfølger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	conj	_	name=O|Entity=(db~20081202_3901555__T70--1)db~20081202_3901555__T68)
+18	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	name=O
+19	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	name=O
+20	plutselig	plutselig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+21	ryddes	rydde	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+22	enda	enda	ADV	_	_	23	advmod	_	name=O|Entity=(db~20081202_3901555__T71--1
+23	mer	mye	ADJ	_	Degree=Cmp	24	amod	_	name=O
+24	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obj	_	name=O
+25	for	for	ADP	_	_	28	case	_	name=O
+26	enda	enda	ADV	_	_	27	advmod	_	name=O|Entity=(db~20081202_3901555__T72--1
+27	flere	mange	ADJ	_	Degree=Cmp	28	amod	_	name=O
+28	plastinstrumenter	plastinstrument	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	nmod	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T72)db~20081202_3901555__T71)
+29	.	$.	PUNCT	_	_	21	punct	_	name=O
+
+# sent_id = 017011
+# text = Felles for både «Rock Band 2» og «Guitar Hero: World Tour» er at spillene lar en vennegjeng traktere gitar, trommer, bass og mikrofon samtidig til en rekke låter som du stort sett har hørt og et par som du skulle ønske du aldri hadde hørt.
+1	Felles	felles	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+2	for	for	ADP	_	_	5	case	_	name=O
+3	både	både	CCONJ	_	_	5	cc	_	name=O
+4	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__2149--1(db~20081202_3901555__132127--1
+5	Rock	Rock	PROPN	_	_	1	obl	_	name=B-PROD
+6	Band	Band	PROPN	_	_	5	flat:name	_	name=I-PROD
+7	2	2	NUM	_	Number=Plur|NumType=Card	5	flat:name	_	SpaceAfter=No|name=I-PROD
+8	»	$"	PUNCT	_	_	5	punct	_	name=O|Entity=db~20081202_3901555__132127)
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	«	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+11	Guitar	Guitar	PROPN	_	_	5	conj	_	name=B-PROD
+12	Hero	Hero	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PROD
+13	:	$:	PUNCT	_	_	14	punct	_	name=I-PROD
+14	World	World	PROPN	_	_	11	flat:name	_	name=I-PROD
+15	Tour	Tour	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PROD
+16	»	$"	PUNCT	_	_	11	punct	_	name=O|Entity=db~20081202_3901555__172844)db~20081202_3901555__2149)
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+18	at	at	SCONJ	_	_	20	mark	_	name=O
+19	spillene	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	20	nsubj	_	name=O|Entity=(db~20081202_3901555__2149--1)
+20	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	csubj	_	name=O
+21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(db~20081202_3901555__T77--1
+22	vennegjeng	vennegjeng	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	iobj	_	name=O|Entity=db~20081202_3901555__T77)
+23	traktere	traktere	VERB	_	VerbForm=Inf	20	xcomp	_	name=O
+24	gitar	gitar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T78--1(db~20081202_3901555__T79--1
+25	,	$,	PUNCT	_	_	26	punct	_	name=O|Entity=db~20081202_3901555__T79)
+26	trommer	tromme	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T80--1
+27	,	$,	PUNCT	_	_	26	punct	_	name=O|Entity=db~20081202_3901555__T80)
+28	bass	bass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	conj	_	name=O|Entity=(db~20081202_3901555__T81--1)
+29	og	og	CCONJ	_	_	30	cc	_	name=O
+30	mikrofon	mikrofon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	conj	_	name=O|Entity=(db~20081202_3901555__T82--1)db~20081202_3901555__T78)
+31	samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	advmod	_	name=O
+32	til	til	ADP	_	_	35	case	_	name=O
+33	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	34	det	_	name=O|Entity=(db~20081202_3901555__T84--1(db~20081202_3901555__T85--1(db~20081202_3901555__T83--1
+34	rekke	rekke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	35	nmod	_	name=O|Entity=db~20081202_3901555__T83)
+35	låter	låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	obl	_	name=O
+36	som	som	PRON	_	PronType=Rel	41	obj	_	name=O
+37	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	41	nsubj	_	name=O|Entity=(db~20081202_3901555__3263--1)
+38	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	39	advmod	_	name=O
+39	sett	se	VERB	_	VerbForm=Part	41	advcl	_	name=O
+40	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	41	aux	_	name=O
+41	hørt	høre	VERB	_	VerbForm=Part	35	acl:relcl	_	name=O|Entity=db~20081202_3901555__T85)
+42	og	og	CCONJ	_	_	44	cc	_	name=O
+43	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	44	det	_	name=O|Entity=(db~20081202_3901555__T87--1
+44	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	35	conj	_	name=O
+45	som	som	PRON	_	PronType=Rel	48	iobj	_	name=O
+46	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	48	nsubj	_	name=O|Entity=(db~20081202_3901555__3263--1)
+47	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	48	aux	_	name=O
+48	ønske	ønske	VERB	_	VerbForm=Inf	44	acl:relcl	_	name=O
+49	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	52	nsubj	_	name=O|Entity=(db~20081202_3901555__3263--1)
+50	aldri	aldri	ADV	_	_	52	advmod	_	name=O
+51	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	52	aux	_	name=O
+52	hørt	høre	VERB	_	VerbForm=Part	48	ccomp	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T87)db~20081202_3901555__T84)
+53	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017012
+# text = Med et utvidet «Gjærbägst and the Homöcidal Sirupsnipps»-konsept og et trailerlass med plast ble stua raskt forvandlet til et improvisert øvingslokale med høy jallafaktor og lyden skrudd opp til 11.
+1	Med	med	ADP	_	_	11	case	_	name=O
+2	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(db~20081202_3901555__T90--1(db~20081202_3901555__2155--1
+3	utvidet	utvide	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	11	amod	_	name=O
+4	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=B-DRV
+5	Gjærbägst	Gjærbägst	PROPN	_	_	11	compound	_	name=I-DRV
+6	and	and	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	compound	_	name=I-DRV
+7	the	the	X	_	_	11	compound	_	name=I-DRV
+8	Homöcidal	Homöcidal	PROPN	_	_	11	compound	_	name=I-DRV
+9	Sirupsnipps	Sirupsnipps	PROPN	_	_	11	compound	_	SpaceAfter=No|name=I-DRV
+10	»	$"	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=I-DRV
+11	-konsept	-konsept	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	name=I-DRV|Entity=db~20081202_3901555__2155)
+12	og	og	CCONJ	_	_	14	cc	_	name=O
+13	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(db~20081202_3901555__3329--1
+14	trailerlass	trailerlass	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	name=O
+15	med	med	ADP	_	_	16	case	_	name=O
+16	plast	plast	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(db~20081202_3901555__T93--1)db~20081202_3901555__3329)db~20081202_3901555__T90)
+17	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux:pass	_	name=O
+18	stua	stue	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	20	nsubj:pass	_	name=O|Entity=(db~20081202_3901555__2160--1)
+19	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O
+20	forvandlet	forvandle	VERB	_	VerbForm=Part	0	root	_	name=O
+21	til	til	ADP	_	_	24	case	_	name=O
+22	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(db~20081202_3901555__T95--1
+23	improvisert	improvisere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	24	amod	_	name=O
+24	øvingslokale	øvingslokale	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	name=O
+25	med	med	ADP	_	_	27	case	_	name=O
+26	høy	høy	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	amod	_	name=O|Entity=(db~20081202_3901555__T96--1(db~20081202_3901555__T97--1
+27	jallafaktor	jallafaktor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	name=O|Entity=db~20081202_3901555__T97)
+28	og	og	CCONJ	_	_	29	cc	_	name=O
+29	lyden	lyd	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	27	conj	_	name=O|Entity=(db~20081202_3901555__T98--1
+30	skrudd	skru	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	29	amod	_	name=O
+31	opp	opp	ADP	_	_	33	case	_	name=O
+32	til	til	ADP	_	_	33	case	_	name=O
+33	11	11	NUM	_	Number=Plur|NumType=Card	30	obl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T98)db~20081202_3901555__T96)db~20081202_3901555__T95)
+34	.	$.	PUNCT	_	_	20	punct	_	name=O
+
+# sent_id = 017013
+# text = For å ta instrumentene først:
+1	For	for	ADP	_	_	3	case	_	name=O
+2	å	å	PART	_	_	3	mark	_	name=O
+3	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	instrumentene	instrument	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=(db~20081202_3901555__3329--1)
+5	først	først	ADV	_	_	3	advmod	_	SpaceAfter=No|name=O
+6	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017014
+# text = Den store styrken til «GH:WT» er at du selvsagt kan bruke gitarene fra de tidligere «Guitar Hero» spillene.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(db~20081202_3901555__T100--1
+2	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	styrken	styrke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O
+4	til	til	ADP	_	_	6	case	_	name=O
+5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O
+6	GH:WT	GH:WT	PROPN	_	_	3	nmod	_	SpaceAfter=No|name=B-PROD|Entity=(db~20081202_3901555__172844--1)
+7	»	$"	PUNCT	_	_	6	punct	_	name=O|Entity=db~20081202_3901555__T100)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+9	at	at	SCONJ	_	_	13	mark	_	name=O
+10	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	name=O|Entity=(db~20081202_3901555__T102--1)
+11	selvsagt	selvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	bruke	bruke	VERB	_	VerbForm=Inf	0	root	_	name=O
+14	gitarene	gitar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	obj	_	name=O|Entity=(db~20081202_3901555__T103--1
+15	fra	fra	ADP	_	_	22	case	_	name=O
+16	de	de	DET	_	Number=Plur|PronType=Dem	22	det	_	name=O|Entity=(db~20081202_3901555__3564--1
+17	tidligere	tidlig	ADJ	_	Degree=Cmp	22	amod	_	name=O
+18	«	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O
+19	Guitar	Guitar	PROPN	_	_	22	compound	_	name=B-PROD
+20	Hero	Hero	PROPN	_	_	22	compound	_	SpaceAfter=No|name=I-PROD
+21	»	$"	PUNCT	_	_	20	punct	_	name=O
+22	spillene	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__3564)db~20081202_3901555__T103)
+23	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 017015
+# text = De nye gitarene er utstyrt med en trykksensitiv plate nederst på halsen - denne lar deg friksjonsfritt skifte noter når spillet drar til med en synthovergang.
+1	De	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Bridge=db~20081202_3901555__172844<db~20081202_3901555__2219:default|Entity=(db~20081202_3901555__2219--1
+2	nye	ny	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	gitarene	gitar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=db~20081202_3901555__2219)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	utstyrt	utstyre	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	med	med	ADP	_	_	9	case	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(db~20081202_3901555__2214--1
+8	trykksensitiv	trykksensitiv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	plate	plate	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O
+10	nederst	nederst	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	halsen	hals	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O|Bridge=db~20081202_3901555__2219<db~20081202_3901555__T107:default|Entity=(db~20081202_3901555__T107--1)db~20081202_3901555__2214)
+13	-	$-	PUNCT	_	_	15	punct	_	name=O
+14	denne	denne	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(db~20081202_3901555__2214--1)
+15	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+16	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	15	iobj	_	name=O|Entity=(db~20081202_3901555__T109--1)
+17	friksjonsfritt	friksjonsfri	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+18	skifte	skifte	VERB	_	VerbForm=Inf	15	xcomp	_	name=O
+19	noter	note	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	obj	_	name=O|Entity=(db~20081202_3901555__T110--1)
+20	når	når	SCONJ	_	_	22	mark	_	name=O
+21	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	nsubj	_	name=O|Entity=(db~20081202_3901555__172844--1)
+22	drar	dra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	name=O
+23	til	til	ADP	_	_	22	compound:prt	_	name=O
+24	med	med	ADP	_	_	26	case	_	name=O
+25	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(db~20081202_3901555__T112--1
+26	synthovergang	synthovergang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T112)
+27	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017016
+# text = I tillegg har gitaren en kjekk knapp for star power.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(db~20081202_3901555__T113--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	gitaren	gitar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(db~20081202_3901555__2219--1)
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(db~20081202_3901555__T115--1
+6	kjekk	kjekk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	knapp	knapp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	star	star	X	_	_	7	nmod	_	name=O
+10	power	power	X	_	_	9	flat:foreign	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T115)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017017
+# text = Om du allerede har det første «Rock Band», kan du lett bruke alle instrumentene fra det spillet med «Rock Band 2» - og omvendt.
+1	Om	om	SCONJ	_	_	4	mark	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081202_3901555__2234--1)
+3	allerede	allerede	ADV	_	_	4	advmod	_	name=O
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(db~20081202_3901555__4530--1
+6	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O
+8	Rock	Rock	PROPN	_	_	4	obj	_	name=B-PROD
+9	Band	Band	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PROD
+10	»	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__4530)
+11	,	$,	PUNCT	_	_	4	punct	_	name=O
+12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+13	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	name=O|Entity=(db~20081202_3901555__2234--1)
+14	lett	lett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+15	bruke	bruke	VERB	_	VerbForm=Inf	0	root	_	name=O
+16	alle	all	DET	_	Number=Plur|PronType=Tot	17	det	_	name=O|Entity=(db~20081202_3901555__T119--1
+17	instrumentene	instrument	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	15	obj	_	name=O
+18	fra	fra	ADP	_	_	20	case	_	name=O
+19	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(db~20081202_3901555__4530--1
+20	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	name=O|Entity=db~20081202_3901555__4530)db~20081202_3901555__T119)
+21	med	med	ADP	_	_	23	case	_	name=O
+22	«	$"	PUNCT	_	_	23	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__132127--1
+23	Rock	Rock	PROPN	_	_	15	obl	_	name=B-PROD
+24	Band	Band	PROPN	_	_	23	flat:name	_	name=I-PROD
+25	2	2	NUM	_	Number=Plur|NumType=Card	23	flat:name	_	SpaceAfter=No|name=I-PROD
+26	»	$"	PUNCT	_	_	23	punct	_	name=O|Entity=db~20081202_3901555__132127)
+27	-	$-	PUNCT	_	_	29	punct	_	name=O
+28	og	og	CCONJ	_	_	29	cc	_	name=O
+29	omvendt	omvendt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No|name=O
+30	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 017018
+# text = Gitarene er så og si identiske, forstatt med fem tilleggsknapper nederst på halsen for gitarsolo-freaks.
+1	Gitarene	gitar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(db~20081202_3901555__T122--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	så	så	ADV	_	_	5	advmod	_	name=O
+4	og	å	PART	_	_	5	mark	_	name=O
+5	si	si	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+6	identiske	identisk	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	11	punct	_	name=O
+8	forstatt	fortsatt	ADV	_	_	11	advmod	_	name=O
+9	med	med	ADP	_	_	11	case	_	name=O
+10	fem	fem	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(db~20081202_3901555__T123--1
+11	tilleggsknapper	tilleggsknapp	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O
+12	nederst	nederst	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+13	på	på	ADP	_	_	14	case	_	name=O
+14	halsen	hals	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Bridge=db~20081202_3901555__T122<db~20081202_3901555__T124:default|Entity=(db~20081202_3901555__T124--1)
+15	for	for	ADP	_	_	16	case	_	name=O
+16	gitarsolo-freaks	gitarsolo-freaks	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T125--1)db~20081202_3901555__T123)
+17	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017019
+# text = Trommesettet er også nær identisk med fire trommer og en basspedal, men med noen små forbedringer:
+1	Trommesettet	trommesett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(db~20081202_3901555__3391--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	også	også	ADV	_	_	5	advmod	_	name=O
+4	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	advmod	_	name=O
+5	identisk	identisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	med	med	ADP	_	_	8	case	_	name=O
+7	fire	fire	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(db~20081202_3901555__T127--1(db~20081202_3901555__T128--1
+8	trommer	tromme	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	name=O|Entity=db~20081202_3901555__T128)
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(db~20081202_3901555__T129--1
+11	basspedal	basspedal	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T129)db~20081202_3901555__T127)
+12	,	$,	PUNCT	_	_	17	punct	_	name=O
+13	men	men	CCONJ	_	_	17	cc	_	name=O
+14	med	med	ADP	_	_	17	case	_	name=O
+15	noen	noen	DET	_	Number=Plur|PronType=Ind	17	det	_	name=O|Entity=(db~20081202_3901555__T130--1
+16	små	liten	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O
+17	forbedringer	forbedring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T130)
+18	:	$:	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017020
+# text = Det er ikke en like høylytt opplevelse å hamre løs på trommene siden de har bedre plastdekke som demper slagene, og basspedalen er mer solid.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(db~20081202_3901555__T131--1
+5	like	like	ADV	_	_	6	advmod	_	name=O
+6	høylytt	høylytt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	opplevelse	opplevelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=db~20081202_3901555__T131)
+8	å	å	PART	_	_	9	mark	_	name=O
+9	hamre	hamre	VERB	_	VerbForm=Inf	7	csubj	_	name=O
+10	løs	løs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	advmod	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	trommene	tromme	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	9	obl	_	name=O|Entity=(db~20081202_3901555__3391--1)
+13	siden	siden	SCONJ	_	_	15	mark	_	name=O
+14	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(db~20081202_3901555__3391--1)
+15	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+16	bedre	god	ADJ	_	Degree=Cmp	17	amod	_	name=O|Entity=(db~20081202_3901555__T134--1
+17	plastdekke	plastdekke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	name=O
+18	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+19	demper	dempe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	name=O
+20	slagene	slag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	19	obj	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T135--1)db~20081202_3901555__T134)
+21	,	$,	PUNCT	_	_	26	punct	_	name=O
+22	og	og	CCONJ	_	_	26	cc	_	name=O
+23	basspedalen	basspedal	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	26	nsubj	_	name=O|Bridge=db~20081202_3901555__3391<db~20081202_3901555__T136:default|Entity=(db~20081202_3901555__T136--1)
+24	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	cop	_	name=O
+25	mer	mye	ADJ	_	Degree=Cmp	26	advmod	_	name=O
+26	solid	solid	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	conj	_	SpaceAfter=No|name=O
+27	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017021
+# text = I tillegg er instrumentene trådløse, noe som er en sann lettelse.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(db~20081202_3901555__T137--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	instrumentene	instrument	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=(db~20081202_3901555__3329--1)
+5	trådløse	trådløs	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	5	appos	_	name=O|Entity=(db~20081202_3901555__T139--1
+8	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(db~20081202_3901555__T140--1
+11	sann	sann	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	lettelse	lettelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	acl:relcl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T140)db~20081202_3901555__T139)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017022
+# text = I testen er det imidlertid «Guitar Hero»-trommene som er den nye stjernen.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	testen	test	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(db~20081202_3901555__T141--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+5	imidlertid	imidlertid	ADV	_	_	10	advmod	_	name=O
+6	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=B-DRV|Entity=(db~20081202_3901555__61101--1
+7	Guitar	Guitar	PROPN	_	_	10	compound	_	name=I-DRV
+8	Hero	Hero	PROPN	_	_	10	compound	_	SpaceAfter=No|name=I-DRV
+9	»	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=I-DRV
+10	-trommene	-tromme	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	0	root	_	name=I-DRV
+11	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+13	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(db~20081202_3901555__T143--1
+14	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	stjernen	stjerne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	acl:cleft	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T143)db~20081202_3901555__61101)
+16	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 017023
+# text = Tre trommer, to cymbaler (også i plast) og en basstrommepedal utgjør denne uimotståelige, trådløse riggen.
+1	Tre	tre	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(db~20081202_3901555__T144--1(db~20081202_3901555__T145--1
+2	trommer	tromme	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=db~20081202_3901555__T145)
+4	to	to	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(db~20081202_3901555__T146--1
+5	cymbaler	cymbal	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	name=O
+6	(	$(	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O
+7	også	også	ADV	_	_	9	advmod	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	plast	plast	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T147--1)
+10	)	$)	PUNCT	_	_	9	punct	_	name=O|Entity=db~20081202_3901555__T146)
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(db~20081202_3901555__T148--1
+13	basstrommepedal	basstrommepedal	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	name=O|Entity=db~20081202_3901555__T148)db~20081202_3901555__T144)
+14	utgjør	utgjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+15	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(db~20081202_3901555__61101--1
+16	uimotståelige	uimotståelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	16	punct	_	name=O
+18	trådløse	trådløs	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	riggen	rigg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__61101)
+20	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 017024
+# text = Når du endelig har fått montert staseligheten i stua er det klin umulig å gå forbi uten å denge løs til man blir nummen i henda.
+1	Når	når	SCONJ	_	_	6	mark	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	name=O|Entity=(db~20081202_3901555__T150--1)
+3	endelig	endelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	fått	få	AUX	_	VerbForm=Part	6	aux	_	name=O
+6	montert	montere	VERB	_	VerbForm=Part	13	advcl	_	name=O
+7	staseligheten	staselighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(db~20081202_3901555__61101--1)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	stua	stue	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=(db~20081202_3901555__T152--1)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	name=O
+12	klin	klin	ADV	_	_	13	advmod	_	name=O
+13	umulig	umulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	gå	gå	VERB	_	VerbForm=Inf	13	csubj	_	name=O
+16	forbi	forbi	ADP	_	_	15	compound:prt	_	name=O
+17	uten	uten	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	denge	denge	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+20	løs	løs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	19	advmod	_	name=O
+21	til	til	SCONJ	_	_	23	mark	_	name=O
+22	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	23	nsubj	_	name=O|Entity=(db~20081202_3901555__T153--1)
+23	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	name=O
+24	nummen	nummen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	23	xcomp	_	name=O
+25	i	i	ADP	_	_	26	case	_	name=O
+26	henda	hånd	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T154--1)
+27	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 017025
+# text = Trommesettet er en fryd å bruke, og dersom testresultatet hadde vært avhengig av bare dette elementet, hadde nok «Guitar Hero: World Tour» gått av med seieren.
+1	Trommesettet	trommesett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(db~20081202_3901555__61101--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(db~20081202_3901555__T156--1
+4	fryd	fryd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	bruke	bruke	VERB	_	VerbForm=Inf	4	acl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T156)
+7	,	$,	PUNCT	_	_	28	punct	_	name=O
+8	og	og	CCONJ	_	_	28	cc	_	name=O
+9	dersom	dersom	SCONJ	_	_	13	mark	_	name=O
+10	testresultatet	testresultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	name=O|Entity=(db~20081202_3901555__T157--1)
+11	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+12	vært	være	AUX	_	VerbForm=Part	13	cop	_	name=O
+13	avhengig	avhengig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	advcl	_	name=O
+14	av	av	ADP	_	_	17	case	_	name=O
+15	bare	bare	ADV	_	_	16	advmod	_	name=O|Entity=(db~20081202_3901555__T158--1
+16	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	17	det	_	name=O
+17	elementet	element	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T158)
+18	,	$,	PUNCT	_	_	13	punct	_	name=O
+19	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	name=O
+20	nok	nok	ADV	_	_	28	advmod	_	name=O
+21	«	$"	PUNCT	_	_	22	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+22	Guitar	Guitar	PROPN	_	_	28	nsubj	_	name=B-PROD
+23	Hero	Hero	PROPN	_	_	22	flat:name	_	SpaceAfter=No|name=I-PROD
+24	:	$:	PUNCT	_	_	25	punct	_	name=I-PROD
+25	World	World	PROPN	_	_	22	flat:name	_	name=I-PROD
+26	Tour	Tour	PROPN	_	_	22	flat:name	_	SpaceAfter=No|name=I-PROD
+27	»	$"	PUNCT	_	_	22	punct	_	name=O|Entity=db~20081202_3901555__172844)
+28	gått	gå	VERB	_	VerbForm=Part	4	conj	_	name=O
+29	av	av	ADP	_	_	28	compound:prt	_	name=O
+30	med	med	ADP	_	_	31	case	_	name=O
+31	seieren	seier	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T160--1)
+32	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017026
+# text = I skyggen av trommesettenes fristelser ligger de stakkarslige mikrofonene og bassgitarspillingen.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	skyggen	skygge	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(db~20081202_3901555__T161--1
+3	av	av	ADP	_	_	5	case	_	name=O
+4	trommesettenes	trommesett	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	5	nmod	_	name=O|Entity=(db~20081202_3901555__T163--1(db~20081202_3901555__61101--1)
+5	fristelser	fristelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	name=O|Entity=db~20081202_3901555__T163)db~20081202_3901555__T161)
+6	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	de	de	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(db~20081202_3901555__2340--1(db~20081202_3901555__T165--1
+8	stakkarslige	stakkarslig	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O
+9	mikrofonene	mikrofon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=db~20081202_3901555__T165)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	bassgitarspillingen	bassgitarspilling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T166--1)db~20081202_3901555__2340)
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017027
+# text = Etter å ha utsatt en betydelig del av vennekretsen for slike musikkspill er det bare å konstantere at den har et betydelig manko på «Singstar»-fantaster og Primus-fans.
+1	Etter	etter	SCONJ	_	_	4	mark	_	name=O
+2	å	å	PART	_	_	4	mark	_	name=O
+3	ha	ha	AUX	_	VerbForm=Inf	4	aux	_	name=O
+4	utsatt	utsette	VERB	_	VerbForm=Part	15	advcl	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(db~20081202_3901555__T167--1
+6	betydelig	betydelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	vennekretsen	vennekrets	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(db~20081202_3901555__2338--1)db~20081202_3901555__T167)
+10	for	for	ADP	_	_	12	case	_	name=O
+11	slike	slik	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(db~20081202_3901555__T169--1
+12	musikkspill	musikkspill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O|Entity=db~20081202_3901555__T169)
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	name=O
+15	bare	bare	ADV	_	_	0	root	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	konstantere	konstatere	VERB	_	VerbForm=Inf	15	csubj	_	name=O
+18	at	at	SCONJ	_	_	20	mark	_	name=O
+19	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(db~20081202_3901555__2338--1)
+20	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	ccomp	_	name=O
+21	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(db~20081202_3901555__T171--1
+22	betydelig	betydelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	name=O
+23	manko	manko	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	name=O
+24	på	på	ADP	_	_	28	case	_	name=O
+25	«	$"	PUNCT	_	_	26	punct	_	SpaceAfter=No|name=B-DRV|Entity=(db~20081202_3901555__T172--1(db~20081202_3901555__T173--1
+26	Singstar	Singstar	PROPN	_	_	28	compound	_	SpaceAfter=No|name=I-DRV
+27	»	$"	PUNCT	_	_	26	punct	_	SpaceAfter=No|name=I-DRV
+28	-fantaster	-fantast	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	name=I-DRV|Entity=db~20081202_3901555__T173)
+29	og	og	CCONJ	_	_	30	cc	_	name=O
+30	Primus-fans	Primus-fan	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No|name=B-DRV|Entity=(db~20081202_3901555__T174--1)db~20081202_3901555__T172)db~20081202_3901555__T171)
+31	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 017028
+# text = Å få noen til å benytte seg av disse instrumentene i skyggen av knalltøff tromming og frontfigurhåndtering av gitaren, involverer lovnader om både groupies og solo-karrierer i nær fremtid.
+1	Å	å	PART	_	_	2	mark	_	name=O
+2	få	få	VERB	_	VerbForm=Inf	21	csubj	_	name=O
+3	noen	noen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Ind,Prs	2	obj	_	name=O|Entity=(db~20081202_3901555__T175--1)
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	benytte	benytte	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	name=O
+8	av	av	ADP	_	_	10	case	_	name=O
+9	disse	disse	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(db~20081202_3901555__2340--1
+10	instrumentene	instrument	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	obl	_	name=O|Entity=db~20081202_3901555__2340)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	skyggen	skygge	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(db~20081202_3901555__T177--1
+13	av	av	ADP	_	_	15	case	_	name=O
+14	knalltøff	knalltøff	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(db~20081202_3901555__T178--1(db~20081202_3901555__T179--1
+15	tromming	tromming	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	name=O|Entity=db~20081202_3901555__T179)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	frontfigurhåndtering	frontfigurhåndtering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	conj	_	name=O|Entity=(db~20081202_3901555__T180--1
+18	av	av	ADP	_	_	19	case	_	name=O
+19	gitaren	gitar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T181--1)db~20081202_3901555__T180)db~20081202_3901555__T178)db~20081202_3901555__T177)
+20	,	$,	PUNCT	_	_	2	punct	_	name=O
+21	involverer	involvere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+22	lovnader	lovnad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obj	_	name=O|Entity=(db~20081202_3901555__T182--1
+23	om	om	ADP	_	_	25	case	_	name=O
+24	både	både	CCONJ	_	_	25	cc	_	name=O
+25	groupies	groupie	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	nmod	_	name=O|Entity=(db~20081202_3901555__T183--1(db~20081202_3901555__T184--1)
+26	og	og	CCONJ	_	_	27	cc	_	name=O
+27	solo-karrierer	solo-karriere	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	25	conj	_	name=O|Entity=(db~20081202_3901555__T185--1
+28	i	i	ADP	_	_	30	case	_	name=O
+29	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	30	amod	_	name=O|Entity=(db~20081202_3901555__T186--1
+30	fremtid	fremtid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T186)db~20081202_3901555__T185)db~20081202_3901555__T183)db~20081202_3901555__T182)
+31	.	$.	PUNCT	_	_	21	punct	_	name=O
+
+# sent_id = 017029
+# text = Så var det dette med låtutvalget, da.
+1	Så	så	ADV	_	_	4	advmod	_	name=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	name=O|Entity=(db~20081202_3901555__T187--1
+5	med	med	ADP	_	_	6	case	_	name=O
+6	låtutvalget	låtutvalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T188--1)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=db~20081202_3901555__T187)
+8	da	da	ADV	_	_	4	advmod	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017030
+# text = Låtene som følger med «Guitar Hero: World Tour» er delvis triste greier.
+1	Låtene	låt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	15	nsubj	_	name=O|Entity=(db~20081202_3901555__T189--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	følger	følge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	med	med	ADP	_	_	6	case	_	name=O
+5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+6	Guitar	Guitar	PROPN	_	_	3	obl	_	name=B-PROD
+7	Hero	Hero	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PROD
+8	:	$:	PUNCT	_	_	9	punct	_	name=I-PROD
+9	World	World	PROPN	_	_	6	flat:name	_	name=I-PROD
+10	Tour	Tour	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PROD
+11	»	$"	PUNCT	_	_	6	punct	_	name=O|Entity=db~20081202_3901555__172844)db~20081202_3901555__T189)
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+13	delvis	delvis	ADV	_	_	15	advmod	_	name=O
+14	triste	trist	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O|Entity=(db~20081202_3901555__T191--1
+15	greier	greie	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T191)
+16	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 017031
+# text = Nå er vi ikke musikkanmeldere, men noen låter bare funker bare bedre enn andre i rytmespill som dette.
+1	Nå	nå	ADV	_	_	5	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081202_3901555__5852--1)
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	musikkanmeldere	musikkanmelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T193--1)
+6	,	$,	PUNCT	_	_	11	punct	_	name=O
+7	men	men	CCONJ	_	_	11	cc	_	name=O
+8	noen	noen	DET	_	Number=Plur|PronType=Ind	9	det	_	name=O|Entity=(db~20081202_3901555__T194--1
+9	låter	låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nsubj	_	name=O|Entity=db~20081202_3901555__T194)
+10	bare	bare	ADV	_	_	11	advmod	_	name=O
+11	funker	funke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+12	bare	bare	ADV	_	_	11	advmod	_	name=O
+13	bedre	god	ADJ	_	Degree=Cmp	11	advmod	_	name=O
+14	enn	enn	ADP	_	_	15	case	_	name=O
+15	andre	annen	DET	_	Number=Plur|PronType=Dem	13	obl	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	rytmespill	rytmespill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	name=O|Entity=(db~20081202_3901555__T195--1
+18	som	som	ADP	_	_	19	case	_	name=O
+19	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1)db~20081202_3901555__T195)
+20	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017032
+# text = I det første «Guitar Hero»-spillet var låtene var håndplukket med kjærlighet, og fete riff og kongelige solopartier var skreddersydd plastgitaren.
+1	I	i	ADP	_	_	8	case	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(db~20081202_3901555__T197--1
+3	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+4	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=B-DRV
+5	Guitar	Guitar	PROPN	_	_	8	compound	_	name=I-DRV
+6	Hero	Hero	PROPN	_	_	8	compound	_	SpaceAfter=No|name=I-DRV
+7	»	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=I-DRV
+8	-spillet	-spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	name=I-DRV|Entity=db~20081202_3901555__T197)
+9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+10	låtene	låt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	name=O|Bridge=db~20081202_3901555__T197<db~20081202_3901555__T198:default|Entity=(db~20081202_3901555__T198--1)
+11	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	reparandum	_	name=O
+12	håndplukket	håndplukke	VERB	_	VerbForm=Part	0	root	_	name=O
+13	med	med	ADP	_	_	14	case	_	name=O
+14	kjærlighet	kjærlighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T199--1)
+15	,	$,	PUNCT	_	_	23	punct	_	name=O
+16	og	og	CCONJ	_	_	23	cc	_	name=O
+17	fete	fet	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(db~20081202_3901555__T200--1(db~20081202_3901555__T201--1
+18	riff	riff	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	nsubj	_	name=O|Entity=db~20081202_3901555__T201)
+19	og	og	CCONJ	_	_	21	cc	_	name=O
+20	kongelige	kongelig	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	name=O|Entity=(db~20081202_3901555__T202--1
+21	solopartier	soloparti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	conj	_	name=O|Entity=db~20081202_3901555__T202)db~20081202_3901555__T200)
+22	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	name=O
+23	skreddersydd	skreddersy	VERB	_	VerbForm=Part	12	conj	_	name=O
+24	plastgitaren	plastgitar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No|name=O|Bridge=db~20081202_3901555__T197<db~20081202_3901555__T203:default|Entity=(db~20081202_3901555__T203--1)
+25	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 017033
+# text = Med fire instrumenter har dette «GH:WT» en vanskeligere jobb med å finne låter som er like kule å spille med alle instrumentene, men her er det tydelig at mørke krefter har vært med i utvelgelsesprosessen.
+1	Med	med	ADP	_	_	3	case	_	name=O
+2	fire	fire	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(db~20081202_3901555__2413--1
+3	instrumenter	instrument	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O|Entity=db~20081202_3901555__2413)
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	det	_	name=O|Entity=(db~20081202_3901555__172844--1(db~20081202_3901555__T205--1)
+6	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O
+7	GH:WT	GH:WT	PROPN	_	_	4	nsubj	_	SpaceAfter=No|name=B-PROD
+8	»	$"	PUNCT	_	_	7	punct	_	name=O|Entity=db~20081202_3901555__172844)
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(db~20081202_3901555__T207--1
+10	vanskeligere	vanskelig	ADJ	_	Degree=Cmp	11	amod	_	name=O
+11	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O
+12	med	med	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	finne	finne	VERB	_	VerbForm=Inf	11	acl	_	name=O
+15	låter	låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obj	_	name=O|Entity=(db~20081202_3901555__T208--1
+16	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+18	like	like	ADV	_	_	19	advmod	_	name=O
+19	kule	kul	ADJ	_	Degree=Pos|Number=Plur	15	acl:relcl	_	name=O
+20	å	å	PART	_	_	21	mark	_	name=O
+21	spille	spille	VERB	_	VerbForm=Inf	19	advcl	_	name=O
+22	med	med	ADP	_	_	24	case	_	name=O
+23	alle	all	DET	_	Number=Plur|PronType=Tot	24	det	_	name=O|Entity=(db~20081202_3901555__2413--1
+24	instrumentene	instrument	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	21	obl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__2413)db~20081202_3901555__T208)db~20081202_3901555__T207)
+25	,	$,	PUNCT	_	_	30	punct	_	name=O
+26	men	men	CCONJ	_	_	30	cc	_	name=O
+27	her	her	ADV	_	_	30	advmod	_	name=O
+28	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	30	cop	_	name=O
+29	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	expl	_	name=O
+30	tydelig	tydelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	name=O
+31	at	at	SCONJ	_	_	35	mark	_	name=O
+32	mørke	mørk	ADJ	_	Degree=Pos|Number=Plur	33	amod	_	name=O|Entity=(db~20081202_3901555__T210--1
+33	krefter	kraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	35	nsubj	_	name=O|Entity=db~20081202_3901555__T210)
+34	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	name=O
+35	vært	være	VERB	_	VerbForm=Part	30	csubj	_	name=O
+36	med	med	ADP	_	_	35	compound:prt	_	name=O
+37	i	i	ADP	_	_	38	case	_	name=O
+38	utvelgelsesprosessen	utvelgelsesprosess	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T211--1)
+39	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017034
+# text = Willie Nelson med «On the road again»?
+1	Willie	Willie	PROPN	_	_	0	root	_	name=B-PER|Entity=(db~20081202_3901555__3696--1
+2	Nelson	Nelson	PROPN	_	_	1	flat:name	_	name=I-PER
+3	med	med	ADP	_	_	5	case	_	name=O
+4	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__3672--1
+5	On	On	PROPN	_	_	1	nmod	_	name=B-PROD
+6	the	the	X	_	_	5	flat:name	_	name=I-PROD
+7	road	road	X	_	_	5	flat:name	_	name=I-PROD
+8	again	again	X	_	_	5	flat:name	_	SpaceAfter=No|name=I-PROD
+9	»	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__3672)db~20081202_3901555__3696)
+10	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017035
+# text = Du kødder.
+1	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081202_3901555__T214--1)
+2	kødder	kødde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+3	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017036
+# text = Ikke på noe plan i universet har den inntørka, støvete, musikalske fossilen fra kambrium silur-tiden noe som helst i et «Guitar Hero»-spill å gjøre (akkurat på dette punktet er det ikke helt samsvar mellom musikkpreferansene våre, Snorre anm.).
+1	Ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+2	på	på	ADP	_	_	4	case	_	name=O
+3	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	4	det	_	name=O|Entity=(db~20081202_3901555__T215--1
+4	plan	plan	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	universet	univers	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(db~20081202_3901555__T216--1)db~20081202_3901555__T215)
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(db~20081202_3901555__3672--1
+9	inntørka	inntørka	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	9	punct	_	name=O
+11	støvete	støvet	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	11	punct	_	name=O
+13	musikalske	musikalsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	fossilen	fossil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O
+15	fra	fra	ADP	_	_	17	case	_	name=O
+16	kambrium	kambrium	NOUN	_	_	17	compound	_	name=O|Entity=(db~20081202_3901555__T218--1
+17	silur-tiden	silur-tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=db~20081202_3901555__T218)db~20081202_3901555__3672)
+18	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	7	obj	_	name=O|Entity=(db~20081202_3901555__T219--1
+19	som	som	ADP	_	_	20	case	_	name=O
+20	helst	helst	ADV	_	_	18	advmod	_	name=O
+21	i	i	ADP	_	_	27	case	_	name=O
+22	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	27	det	_	name=O|Entity=(db~20081202_3901555__T220--1
+23	«	$"	PUNCT	_	_	24	punct	_	SpaceAfter=No|name=B-DRV
+24	Guitar	Guitar	PROPN	_	_	27	compound	_	name=I-DRV
+25	Hero	Hero	PROPN	_	_	27	compound	_	SpaceAfter=No|name=I-DRV
+26	»	$"	PUNCT	_	_	25	punct	_	SpaceAfter=No|name=I-DRV
+27	-spill	-spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	29	obl	_	name=I-DRV|Entity=db~20081202_3901555__T220)
+28	å	å	PART	_	_	29	mark	_	name=O
+29	gjøre	gjøre	VERB	_	VerbForm=Inf	18	acl	_	name=O|Entity=db~20081202_3901555__T219)
+30	(	$(	PUNCT	_	_	35	punct	_	SpaceAfter=No|name=O
+31	akkurat	akkurat	ADV	_	_	34	advmod	_	name=O
+32	på	på	ADP	_	_	34	case	_	name=O
+33	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	34	det	_	name=O|Entity=(db~20081202_3901555__T221--1
+34	punktet	punkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	35	obl	_	name=O|Entity=db~20081202_3901555__T221)
+35	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+36	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	expl	_	name=O
+37	ikke	ikke	PART	_	Polarity=Neg	35	advmod	_	name=O
+38	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	35	advmod	_	name=O
+39	samsvar	samsvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	35	nsubj	_	name=O|Entity=(db~20081202_3901555__T222--1
+40	mellom	mellom	ADP	_	_	41	case	_	name=O
+41	musikkpreferansene	musikkpreferanse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	39	nmod	_	name=O|Entity=(db~20081202_3901555__T223--1
+42	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	41	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__5852--1)db~20081202_3901555__T223)db~20081202_3901555__T222)
+43	,	$,	PUNCT	_	_	45	punct	_	name=O
+44	Snorre	Snorre	PROPN	_	Gender=Masc	45	compound	_	name=B-PER|Entity=(db~20081202_3901555__T225--1
+45	anm.	anm.	NOUN	_	Abbr=Yes|Gender=Fem	7	parataxis	_	SpaceAfter=No|name=O
+46	)	$)	PUNCT	_	_	45	punct	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T225)
+47	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017037
+# text = Og det er her et sted «Guitar Hero: World Tour» har mistet mye av sjarmen de tidligere spillene hadde.
+1	Og	og	CCONJ	_	_	4	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	her	her	ADV	_	_	0	root	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(db~20081202_3901555__T226--1
+6	sted	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=db~20081202_3901555__T226)
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+8	Guitar	Guitar	PROPN	_	_	15	nsubj	_	name=B-PROD
+9	Hero	Hero	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PROD
+10	:	$:	PUNCT	_	_	11	punct	_	name=I-PROD
+11	World	World	PROPN	_	_	8	flat:name	_	name=I-PROD
+12	Tour	Tour	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PROD
+13	»	$"	PUNCT	_	_	8	punct	_	name=O|Entity=db~20081202_3901555__172844)
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	mistet	miste	VERB	_	VerbForm=Part	4	advcl	_	name=O
+16	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	obj	_	name=O
+17	av	av	ADP	_	_	18	case	_	name=O
+18	sjarmen	sjarm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(db~20081202_3901555__T228--1
+19	de	de	DET	_	Number=Plur|PronType=Dem	21	det	_	name=O|Entity=(db~20081202_3901555__3564--1
+20	tidligere	tidlig	ADJ	_	Degree=Cmp	21	amod	_	name=O
+21	spillene	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	22	nsubj	_	name=O|Entity=db~20081202_3901555__3564)
+22	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T228)
+23	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017038
+# text = Javisst kunne en eller annen obskur klassiker snike seg inn i spillet, men det var alltid gjort med et glimt i øyet, og de var som regel overraskende festlige å spille.
+1	Javisst	javisst	ADV	_	_	8	advmod	_	name=O
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(db~20081202_3901555__3702--1
+4	eller	eller	CCONJ	_	_	5	cc	_	name=O
+5	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	3	conj	_	name=O
+6	obskur	obskur	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	klassiker	klassiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=db~20081202_3901555__3702)
+8	snike	snike	VERB	_	VerbForm=Inf	0	root	_	name=O
+9	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	name=O
+10	inn	inn	ADP	_	_	12	case	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__3564--1)
+13	,	$,	PUNCT	_	_	18	punct	_	name=O
+14	men	men	CCONJ	_	_	18	cc	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(db~20081202_3901555__T232--1)
+16	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	name=O
+17	alltid	alltid	ADV	_	_	18	advmod	_	name=O
+18	gjort	gjøre	VERB	_	VerbForm=Part	8	conj	_	name=O
+19	med	med	ADP	_	_	21	case	_	name=O
+20	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(db~20081202_3901555__T233--1
+21	glimt	glimt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	øyet	øye	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T234--1)db~20081202_3901555__T233)
+24	,	$,	PUNCT	_	_	18	punct	_	name=O
+25	og	og	CCONJ	_	_	31	cc	_	name=O
+26	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	name=O|Entity=(db~20081202_3901555__3702--1)
+27	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	31	cop	_	name=O
+28	som	som	ADP	_	_	29	case	_	name=O
+29	regel	regel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	31	obl	_	name=O|Entity=(db~20081202_3901555__T236--1)
+30	overraskende	overraske	ADJ	_	VerbForm=Part	31	advmod	_	name=O
+31	festlige	festlig	ADJ	_	Degree=Pos|Number=Plur	8	conj	_	name=O
+32	å	å	PART	_	_	33	mark	_	name=O
+33	spille	spille	VERB	_	VerbForm=Inf	31	advcl	_	SpaceAfter=No|name=O
+34	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 017039
+# text = Låtene som tidligere kunne bli sett på som lette og ironiske innslag, er nå med i fullt alvor.
+1	Låtene	låt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	16	nsubj	_	name=O|Entity=(db~20081202_3901555__3702--1
+2	som	som	PRON	_	PronType=Rel	6	nsubj:pass	_	name=O
+3	tidligere	tidlig	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+4	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	name=O
+5	bli	bli	AUX	_	VerbForm=Inf	6	aux:pass	_	name=O
+6	sett	se	VERB	_	VerbForm=Part	1	acl:relcl	_	name=O
+7	på	på	ADP	_	_	6	compound:prt	_	name=O
+8	som	som	SCONJ	_	_	12	mark	_	name=O
+9	lette	lett	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(db~20081202_3901555__T238--1
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	ironiske	ironisk	ADJ	_	Degree=Pos|Number=Plur	9	conj	_	name=O
+12	innslag	innslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	xcomp	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T238)
+13	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=db~20081202_3901555__3702)
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+15	nå	nå	ADV	_	_	16	advmod	_	name=O
+16	med	med	ADP	_	_	0	root	_	name=O
+17	i	i	ADP	_	_	19	case	_	name=O
+18	fullt	full	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	name=O|Entity=(db~20081202_3901555__T239--1
+19	alvor	alvor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T239)
+20	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 017040
+# text = Beklager, country-fans:
+1	Beklager	beklage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+2	,	$,	PUNCT	_	_	3	punct	_	name=O
+3	country-fans	country-fan	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	parataxis	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T240--1)
+4	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017041
+# text = Willie Nelson kan være grei å høre på, men det er dørgende kjedelig å spille låta hans.
+1	Willie	Willie	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(db~20081202_3901555__3696--1
+2	Nelson	Nelson	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081202_3901555__3696)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	være	være	AUX	_	VerbForm=Inf	5	cop	_	name=O
+5	grei	grei	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	høre	høre	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+8	på	på	ADP	_	_	7	compound:prt	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	14	punct	_	name=O
+10	men	men	CCONJ	_	_	14	cc	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	name=O
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+13	dørgende	dørgende	ADV	_	_	14	advmod	_	name=O
+14	kjedelig	kjedelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	spille	spille	VERB	_	VerbForm=Inf	14	csubj	_	name=O
+17	låta	låt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	16	obj	_	name=O|Entity=(db~20081202_3901555__3672--1
+18	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__3696--1)db~20081202_3901555__3672)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017042
+# text = Hadde de enda valgt «Blue Eyes Crying in the Rain» ...
+1	Hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081202_3901555__T244--1)
+3	enda	enda	ADV	_	_	4	advmod	_	name=O
+4	valgt	velge	VERB	_	VerbForm=Part	0	root	_	name=O
+5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T245--1
+6	Blue	Blue	PROPN	_	_	4	obj	_	name=B-PROD
+7	Eyes	Eyes	PROPN	_	_	6	flat:name	_	name=I-PROD
+8	Crying	Crying	PROPN	_	_	6	flat:name	_	name=I-PROD
+9	in	in	X	_	_	6	flat:name	_	name=I-PROD
+10	the	the	X	_	_	6	flat:name	_	name=I-PROD
+11	Rain	Rain	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PROD
+12	»	$"	PUNCT	_	_	6	punct	_	name=O|Entity=db~20081202_3901555__T245)
+13	...	$...	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017043
+# text = I «Rock Band 2» Er imidlertid ståa en helt annen.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__132127--1
+3	Rock	Rock	PROPN	_	_	12	obl	_	name=B-PROD
+4	Band	Band	PROPN	_	_	3	flat:name	_	name=I-PROD
+5	2	2	NUM	_	Number=Plur|NumType=Card	3	flat:name	_	SpaceAfter=No|name=I-PROD
+6	»	$"	PUNCT	_	_	3	punct	_	name=O|Entity=db~20081202_3901555__132127)
+7	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+8	imidlertid	imidlertid	ADV	_	_	12	advmod	_	name=O
+9	ståa	ståe	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	name=O|Entity=(db~20081202_3901555__T247--1)
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O
+11	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 017044
+# text = Her har du et saftig låtutvalg som bærer preg av at utviklerne allerede har vært gjennom en runde med bandspill tidligere.
+1	Her	her	ADV	_	_	2	advmod	_	name=O
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081202_3901555__T248--1)
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(db~20081202_3901555__41048--1
+5	saftig	saftig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O
+6	låtutvalg	låtutvalg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+8	bærer	bære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+9	preg	preg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	name=O|Entity=(db~20081202_3901555__T250--1
+10	av	av	SCONJ	_	_	18	mark	_	name=O
+11	at	at	SCONJ	_	_	18	mark	_	name=O
+12	utviklerne	utvikler	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	18	nsubj	_	name=O|Entity=(db~20081202_3901555__T251--1)
+13	allerede	allerede	ADV	_	_	18	advmod	_	name=O
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+15	vært	være	AUX	_	VerbForm=Part	18	cop	_	name=O
+16	gjennom	gjennom	SCONJ	_	_	18	mark	_	name=O
+17	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(db~20081202_3901555__T252--1
+18	runde	runde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	acl	_	name=O
+19	med	med	ADP	_	_	20	case	_	name=O
+20	bandspill	bandspill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	nmod	_	name=O|Entity=(db~20081202_3901555__T253--1)db~20081202_3901555__T252)
+21	tidligere	tidlig	ADJ	_	Degree=Cmp	18	advmod	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T250)db~20081202_3901555__41048)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017045
+# text = Tverrsnittet av sanger bærer preg av å være håndplukket til et mer voksent publikum med sunn og variert musikksmak, med mange godbiter i utvalget.
+1	Tverrsnittet	tverrsnitt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(db~20081202_3901555__T254--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	sanger	sang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	name=O|Entity=(db~20081202_3901555__T255--1)db~20081202_3901555__T254)
+4	bærer	bære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	preg	preg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=(db~20081202_3901555__T256--1
+6	av	av	SCONJ	_	_	9	mark	_	name=O
+7	å	å	PART	_	_	9	mark	_	name=O
+8	være	være	AUX	_	VerbForm=Inf	9	aux	_	name=O
+9	håndplukket	håndplukke	VERB	_	VerbForm=Part	5	acl	_	name=O
+10	til	til	ADP	_	_	14	case	_	name=O
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(db~20081202_3901555__T257--1
+12	mer	mye	ADJ	_	Degree=Cmp	13	advmod	_	name=O
+13	voksent	voksen	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	name=O
+14	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O
+15	med	med	ADP	_	_	19	case	_	name=O
+16	sunn	sunn	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	19	amod	_	name=O|Entity=(db~20081202_3901555__T258--1
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	variert	variere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	16	conj	_	name=O
+19	musikksmak	musikksmak	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T258)db~20081202_3901555__T257)db~20081202_3901555__T256)
+20	,	$,	PUNCT	_	_	23	punct	_	name=O
+21	med	med	ADP	_	_	23	case	_	name=O
+22	mange	mange	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	name=O|Entity=(db~20081202_3901555__T259--1
+23	godbiter	godbit	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=db~20081202_3901555__T259)
+24	i	i	SCONJ	_	_	25	mark	_	name=O
+25	utvalget	utvalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	xcomp	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__41048--1)
+26	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017046
+# text = Det er riktignok mye godt å hente i «GH:WT» også, for all del, men inntrykket man står igjen med er at det er morsommere å spille låtene i «Rock Band 2».
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	riktignok	riktignok	ADV	_	_	2	advmod	_	name=O
+4	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O
+5	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	nsubj	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	hente	hente	VERB	_	VerbForm=Inf	5	acl	_	name=O
+8	i	i	ADP	_	_	10	case	_	name=O
+9	«	$"	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+10	GH:WT	GH:WT	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-PROD
+11	»	$"	PUNCT	_	_	10	punct	_	name=O|Entity=db~20081202_3901555__172844)
+12	også	også	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	for	for	ADP	_	_	16	case	_	name=O
+15	all	all	DET	_	Gender=Masc|Number=Sing|PronType=Tot	16	det	_	name=O|Entity=(db~20081202_3901555__T262--1
+16	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T262)
+17	,	$,	PUNCT	_	_	16	punct	_	name=O
+18	men	men	CCONJ	_	_	28	cc	_	name=O
+19	inntrykket	inntrykk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	nsubj	_	name=O|Entity=(db~20081202_3901555__T263--1
+20	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	21	nsubj	_	name=O|Entity=(db~20081202_3901555__T264--1)
+21	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	name=O
+22	igjen	igjen	ADV	_	_	21	advmod	_	name=O
+23	med	med	ADP	_	_	21	compound:prt	_	name=O|Entity=db~20081202_3901555__T263)
+24	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	name=O
+25	at	at	SCONJ	_	_	28	mark	_	name=O
+26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	expl	_	name=O
+27	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	name=O
+28	morsommere	morsom	ADJ	_	Degree=Cmp	2	conj	_	name=O
+29	å	å	PART	_	_	30	mark	_	name=O
+30	spille	spille	VERB	_	VerbForm=Inf	28	csubj	_	name=O
+31	låtene	låt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	30	obj	_	name=O|Entity=(db~20081202_3901555__41048--1
+32	i	i	ADP	_	_	34	case	_	name=O
+33	«	$"	PUNCT	_	_	34	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__132127--1
+34	Rock	Rock	PROPN	_	_	31	nmod	_	name=B-PROD
+35	Band	Band	PROPN	_	_	34	flat:name	_	name=I-PROD
+36	2	2	NUM	_	Number=Plur|NumType=Card	34	flat:name	_	SpaceAfter=No|name=I-PROD
+37	»	$"	PUNCT	_	_	34	punct	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__132127)db~20081202_3901555__41048)
+38	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017047
+# text = I tillegg kommer alle sangene fra «Rock Band 1» som kan spilles, og ukentlige nedlastinger - vi er vel oppe i rundt 500 sanger til sammen nå, et utvalg som gjør spillet langt mer attraktivt enn «GH:WT» låtmessig.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(db~20081202_3901555__T267--1)
+3	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	alle	all	DET	_	Number=Plur|PronType=Tot	5	det	_	name=O|Entity=(db~20081202_3901555__T268--1(db~20081202_3901555__T269--1
+5	sangene	sang	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O
+6	fra	fra	ADP	_	_	8	case	_	name=O
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__4530--1
+8	Rock	Rock	PROPN	_	_	5	nmod	_	name=B-PROD
+9	Band	Band	PROPN	_	_	8	flat:name	_	name=I-PROD
+10	1	1	NUM	_	Number=Sing|NumType=Card	8	flat:name	_	SpaceAfter=No|name=I-PROD
+11	»	$"	PUNCT	_	_	8	punct	_	name=O|Entity=db~20081202_3901555__4530)
+12	som	som	PRON	_	PronType=Rel	14	nsubj:pass	_	name=O
+13	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	spilles	spille	VERB	_	VerbForm=Inf|Voice=Pass	5	acl:relcl	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	18	punct	_	name=O|Entity=db~20081202_3901555__T269)
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	ukentlige	ukentlig	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(db~20081202_3901555__T271--1
+18	nedlastinger	nedlasting	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	conj	_	name=O|Entity=db~20081202_3901555__T271)db~20081202_3901555__T268)
+19	-	$-	PUNCT	_	_	27	punct	_	name=O
+20	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	name=O|Entity=(db~20081202_3901555__T272--1)
+21	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	name=O
+22	vel	vel	ADV	_	_	27	advmod	_	name=O
+23	oppe	oppe	ADP	_	_	27	case	_	name=O
+24	i	i	ADP	_	_	27	case	_	name=O
+25	rundt	rundt	ADP	_	_	26	case	_	name=O|Entity=(db~20081202_3901555__T273[1/2]--1
+26	500	500	NUM	_	Number=Plur|NumType=Card	27	nummod	_	name=O
+27	sanger	sang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	name=O
+28	til	til	ADP	_	_	29	case	_	name=O
+29	sammen	sammen	ADV	_	_	26	advmod	_	name=O|Entity=db~20081202_3901555__T273[1/2])
+30	nå	nå	ADV	_	_	27	advmod	_	SpaceAfter=No|name=O
+31	,	$,	PUNCT	_	_	33	punct	_	name=O|Entity=(db~20081202_3901555__T273[2/2]--1
+32	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	33	det	_	name=O|Entity=(db~20081202_3901555__41048--1
+33	utvalg	utvalg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	27	appos	_	name=O
+34	som	som	PRON	_	PronType=Rel	35	nsubj	_	name=O
+35	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	name=O
+36	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	35	obj	_	name=O|Entity=(db~20081202_3901555__T275--1)
+37	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	38	advmod	_	name=O
+38	mer	mye	ADJ	_	Degree=Cmp	39	advmod	_	name=O
+39	attraktivt	attraktiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	35	xcomp	_	name=O
+40	enn	enn	ADP	_	_	42	case	_	name=O
+41	«	$"	PUNCT	_	_	42	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+42	GH:WT	GH:WT	PROPN	_	_	38	obl	_	SpaceAfter=No|name=B-PROD
+43	»	$"	PUNCT	_	_	42	punct	_	name=O|Entity=db~20081202_3901555__172844)
+44	låtmessig	låtmessig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	39	advmod	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__41048)db~20081202_3901555__T273[2/2])
+45	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017048
+# text = Begge spillene lar hver enkelt spiller velge vanskelighetsgrad på sitt instrument, men det er kun i «Rock Band 2» at en spiller som faller ut kan «reddes» av de andre spillerne, slik at man får spilt gjennom sangen uten at én person blir gjort til syndebukk for at publikum buer ut bandet.
+1	Begge	begge	DET	_	Number=Plur|PronType=Tot	2	det	_	name=O|SplitAnte=db~20081202_3901555__172844<db~20081202_3901555__31004,db~20081202_3901555__132127<db~20081202_3901555__31004|Entity=(db~20081202_3901555__31004--1
+2	spillene	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=db~20081202_3901555__31004)
+3	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	hver	hver	DET	_	Gender=Masc|Number=Sing|PronType=Tot	6	det	_	name=O|Entity=(db~20081202_3901555__2558--1
+5	enkelt	enkel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O
+6	spiller	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	iobj	_	name=O|Entity=db~20081202_3901555__2558)
+7	velge	velge	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+8	vanskelighetsgrad	vanskelighetsgrad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(db~20081202_3901555__T279--1
+9	på	på	ADP	_	_	11	case	_	name=O
+10	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	name=O|Entity=(db~20081202_3901555__T281--1(db~20081202_3901555__2558--1)
+11	instrument	instrument	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T281)db~20081202_3901555__T279)
+12	,	$,	PUNCT	_	_	19	punct	_	name=O
+13	men	men	CCONJ	_	_	19	cc	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	name=O
+15	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+16	kun	kun	ADV	_	_	19	advmod	_	name=O
+17	i	i	ADP	_	_	19	case	_	name=O
+18	«	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__132127--1
+19	Rock	Rock	PROPN	_	_	3	conj	_	name=B-PROD
+20	Band	Band	PROPN	_	_	19	flat:name	_	name=I-PROD
+21	2	2	NUM	_	Number=Plur|NumType=Card	19	flat:name	_	SpaceAfter=No|name=I-PROD
+22	»	$"	PUNCT	_	_	19	punct	_	name=O|Entity=db~20081202_3901555__132127)
+23	at	at	SCONJ	_	_	31	mark	_	name=O
+24	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(db~20081202_3901555__T283--1
+25	spiller	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	31	nsubj:pass	_	name=O
+26	som	som	PRON	_	PronType=Rel	27	nsubj	_	name=O
+27	faller	falle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	name=O
+28	ut	ut	ADP	_	_	27	compound:prt	_	name=O|Entity=db~20081202_3901555__T283)
+29	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	name=O
+30	«	$"	PUNCT	_	_	31	punct	_	SpaceAfter=No|name=O
+31	reddes	redde	VERB	_	VerbForm=Inf|Voice=Pass	19	advcl	_	SpaceAfter=No|name=O
+32	»	$"	PUNCT	_	_	31	punct	_	name=O
+33	av	av	ADP	_	_	36	case	_	name=O
+34	de	de	DET	_	Number=Plur|PronType=Dem	36	det	_	name=O|Entity=(db~20081202_3901555__T284--1
+35	andre	annen	DET	_	Number=Plur|PronType=Dem	36	det	_	name=O
+36	spillerne	spiller	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	31	obl	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T284)
+37	,	$,	PUNCT	_	_	42	punct	_	name=O
+38	slik	slik	ADV	_	_	39	advmod	_	name=O
+39	at	at	SCONJ	_	_	42	mark	_	name=O
+40	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	42	nsubj	_	name=O|Entity=(db~20081202_3901555__T285--1)
+41	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	42	aux	_	name=O
+42	spilt	spille	VERB	_	VerbForm=Part	31	advcl	_	name=O
+43	gjennom	gjennom	ADP	_	_	44	case	_	name=O
+44	sangen	sang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	42	obl	_	name=O|Entity=(db~20081202_3901555__T286--1)
+45	uten	uten	SCONJ	_	_	50	mark	_	name=O
+46	at	at	SCONJ	_	_	50	mark	_	name=O
+47	én	én	NUM	_	Gender=Masc|Number=Sing|NumType=Card	48	nummod	_	name=O|Entity=(db~20081202_3901555__T287--1
+48	person	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	50	nsubj:pass	_	name=O|Entity=db~20081202_3901555__T287)
+49	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	50	aux:pass	_	name=O
+50	gjort	gjøre	VERB	_	VerbForm=Part	42	advcl	_	name=O
+51	til	til	SCONJ	_	_	52	mark	_	name=O
+52	syndebukk	syndebukk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	50	xcomp	_	name=O|Entity=(db~20081202_3901555__T288--1
+53	for	for	SCONJ	_	_	56	mark	_	name=O
+54	at	at	SCONJ	_	_	56	mark	_	name=O
+55	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	56	nsubj	_	name=O|Entity=(db~20081202_3901555__T289--1)
+56	buer	bue	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	52	acl	_	name=O
+57	ut	ut	ADP	_	_	56	compound:prt	_	name=O
+58	bandet	band	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	56	obj	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T290--1)db~20081202_3901555__T288)
+59	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017049
+# text = Mangelen på dette i «GH:WT» er som et skudd i baugen for samarbeidsfølelsen.
+1	Mangelen	mangel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=(db~20081202_3901555__T291--1
+2	på	på	ADP	_	_	3	case	_	name=O
+3	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nmod	_	name=O|Entity=(db~20081202_3901555__T292--1)
+4	i	i	ADP	_	_	6	case	_	name=O
+5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+6	GH:WT	GH:WT	PROPN	_	_	1	nmod	_	SpaceAfter=No|name=B-PROD
+7	»	$"	PUNCT	_	_	6	punct	_	name=O|Entity=db~20081202_3901555__172844)db~20081202_3901555__T291)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+9	som	som	ADP	_	_	11	case	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(db~20081202_3901555__T294--1
+11	skudd	skudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	baugen	baug	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(db~20081202_3901555__T295--1)db~20081202_3901555__T294)
+14	for	for	ADP	_	_	15	case	_	name=O
+15	samarbeidsfølelsen	samarbeidsfølelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T296--1)
+16	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 017050
+# text = Som plaster på såret har «GH:WT» en overraskende dyp figurskaper der du kan lage din egen rockehelt med selvkomponerte tatoveringer og gitarer - samt ditt eget opptaksstudio med midi-inngang for bruk av andre midi-kompatible instrumenter.
+1	Som	som	SCONJ	_	_	2	mark	_	name=O
+2	plaster	plaster	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	xcomp	_	name=O|Entity=(db~20081202_3901555__T297--1
+3	på	på	ADP	_	_	4	case	_	name=O
+4	såret	sår	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(db~20081202_3901555__T298--1)db~20081202_3901555__T297)
+5	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+7	GH:WT	GH:WT	PROPN	_	_	5	nsubj	_	SpaceAfter=No|name=B-PROD
+8	»	$"	PUNCT	_	_	7	punct	_	name=O|Entity=db~20081202_3901555__172844)
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(db~20081202_3901555__T300--1
+10	overraskende	overraske	ADJ	_	VerbForm=Part	11	advmod	_	name=O
+11	dyp	dyp	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	figurskaper	figurskaper	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O
+13	der	der	SCONJ	_	_	16	mark	_	name=O
+14	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	name=O|Entity=(db~20081202_3901555__51542--1)
+15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	lage	lage	VERB	_	VerbForm=Inf	12	acl	_	name=O
+17	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(db~20081202_3901555__T303--1(db~20081202_3901555__T304--1(db~20081202_3901555__51542--1)
+18	egen	egen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	19	det	_	name=O
+19	rockehelt	rockehelt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	name=O
+20	med	med	ADP	_	_	22	case	_	name=O
+21	selvkomponerte	selvkomponert	ADJ	_	Degree=Pos|Number=Plur	22	amod	_	name=O|Entity=(db~20081202_3901555__T305--1(db~20081202_3901555__T306--1
+22	tatoveringer	tatovering	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	nmod	_	name=O|Entity=db~20081202_3901555__T306)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	gitarer	gitar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	conj	_	name=O|Entity=(db~20081202_3901555__T307--1)db~20081202_3901555__T305)
+25	-	$-	PUNCT	_	_	29	punct	_	name=O|Entity=db~20081202_3901555__T304)
+26	samt	samt	CCONJ	_	_	29	cc	_	name=O
+27	ditt	din	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	29	nmod	_	name=O|Entity=(db~20081202_3901555__2622--1(db~20081202_3901555__51542--1)
+28	eget	egen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	29	det	_	name=O
+29	opptaksstudio	opptaksstudio	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	conj	_	name=O
+30	med	med	ADP	_	_	31	case	_	name=O
+31	midi-inngang	midi-inngang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	name=O|Entity=(db~20081202_3901555__T310--1)
+32	for	for	SCONJ	_	_	33	mark	_	name=O
+33	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	31	xcomp	_	name=O|Entity=(db~20081202_3901555__T311--1
+34	av	av	ADP	_	_	37	case	_	name=O
+35	andre	annen	DET	_	Number=Plur|PronType=Dem	37	det	_	name=O|Entity=(db~20081202_3901555__T312--1
+36	midi-kompatible	midi-kompatibel	ADJ	_	Degree=Pos|Number=Plur	37	amod	_	name=O
+37	instrumenter	instrument	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	33	nmod	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T312)db~20081202_3901555__T311)db~20081202_3901555__2622)db~20081202_3901555__T303)db~20081202_3901555__T300)
+38	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017051
+# text = Sistnevnte er et herlig tillegg som gjør at du kan lage dine egne låter.
+1	Sistnevnte	sistnevnt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	nsubj	_	name=O|Entity=(db~20081202_3901555__2622--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(db~20081202_3901555__T314--1
+4	herlig	herlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O
+5	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081202_3901555__51542--1)
+10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	lage	lage	VERB	_	VerbForm=Inf	7	ccomp	_	name=O
+12	dine	din	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	14	nmod	_	name=O|Entity=(db~20081202_3901555__T317--1(db~20081202_3901555__51542--1)
+13	egne	egen	DET	_	Number=Plur|PronType=Prs	14	det	_	name=O
+14	låter	låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T317)db~20081202_3901555__T314)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017052
+# text = Resultatet er ganske triste midi-låter, men denne modusen har vært ønsket så lenge at vi glatt kan overse at selvkomponerte rockeepos iblant høres ut som de er filtrert gjennom den gamle casioen alle hadde som barn.
+1	Resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(db~20081202_3901555__T318--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	ganske	ganske	ADV	_	_	4	advmod	_	name=O|Entity=(db~20081202_3901555__T319--1
+4	triste	trist	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	midi-låter	midi-låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T319)
+6	,	$,	PUNCT	_	_	12	punct	_	name=O
+7	men	men	CCONJ	_	_	12	cc	_	name=O
+8	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(db~20081202_3901555__T320--1
+9	modusen	modus	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=db~20081202_3901555__T320)
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	vært	være	AUX	_	VerbForm=Part	12	aux	_	name=O
+12	ønsket	ønske	VERB	_	VerbForm=Part	5	conj	_	name=O
+13	så	så	ADV	_	_	14	advmod	_	name=O
+14	lenge	lenge	ADJ	_	Degree=Pos	12	advmod	_	name=O
+15	at	at	SCONJ	_	_	19	mark	_	name=O
+16	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	name=O|Entity=(db~20081202_3901555__5852--1)
+17	glatt	glatt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	name=O
+18	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	overse	overse	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+20	at	at	SCONJ	_	_	24	mark	_	name=O
+21	selvkomponerte	selvkomponert	ADJ	_	Degree=Pos|Number=Plur	22	amod	_	name=O|Entity=(db~20081202_3901555__2645--1
+22	rockeepos	rockeepos	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	nsubj	_	name=O|Entity=db~20081202_3901555__2645)
+23	iblant	iblant	ADP	_	_	24	compound:prt	_	name=O
+24	høres	høres	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	name=O
+25	ut	ut	ADP	_	_	24	compound:prt	_	name=O
+26	som	som	PRON	_	PronType=Rel	29	obj	_	name=O
+27	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	name=O|Entity=(db~20081202_3901555__2645--1)
+28	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	name=O
+29	filtrert	filtrere	VERB	_	VerbForm=Part	24	xcomp	_	name=O
+30	gjennom	gjennom	ADP	_	_	33	case	_	name=O
+31	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	33	det	_	name=O|Entity=(db~20081202_3901555__T324--1
+32	gamle	gammel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	33	amod	_	name=O
+33	casioen	casio	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	29	obl	_	name=O
+34	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	35	nsubj	_	name=O|Entity=(db~20081202_3901555__T325--1)
+35	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	33	acl:relcl	_	name=O
+36	som	som	SCONJ	_	_	37	mark	_	name=O
+37	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	34	acl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T326--1)db~20081202_3901555__T324)
+38	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017053
+# text = Trommeentusiaster kan på sin side glede seg over trommeskolen i «Rock Band 2», som gir deg en grei innføring i hvordan holde en rytme eller to.
+1	Trommeentusiaster	trommeentusiast	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(db~20081202_3901555__2655--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	på	på	ADP	_	_	5	case	_	name=O
+4	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(db~20081202_3901555__T329--1(db~20081202_3901555__2655--1)
+5	side	side	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=db~20081202_3901555__T329)
+6	glede	glede	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	name=O
+8	over	over	ADP	_	_	9	case	_	name=O
+9	trommeskolen	trommeskole	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(db~20081202_3901555__T330--1
+10	i	i	ADP	_	_	12	case	_	name=O
+11	«	$"	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__132127--1
+12	Rock	Rock	PROPN	_	_	9	nmod	_	name=B-PROD
+13	Band	Band	PROPN	_	_	12	flat:name	_	name=I-PROD
+14	2	2	NUM	_	Number=Plur|NumType=Card	12	flat:name	_	SpaceAfter=No|name=I-PROD
+15	»	$"	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__132127)
+16	,	$,	PUNCT	_	_	18	punct	_	name=O
+17	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+18	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+19	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	18	iobj	_	name=O|Entity=(db~20081202_3901555__T332--1)
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(db~20081202_3901555__T333--1
+21	grei	grei	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	innføring	innføring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	name=O
+23	i	i	ADP	_	_	25	case	_	name=O
+24	hvordan	hvordan	ADV	_	_	25	advmod	_	name=O
+25	holde	holde	VERB	_	VerbForm=Inf	22	acl:relcl	_	name=O
+26	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	name=O|Entity=(db~20081202_3901555__T334--1(db~20081202_3901555__T335--1
+27	rytme	rytme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obj	_	name=O|Entity=db~20081202_3901555__T335)
+28	eller	eller	CCONJ	_	_	29	cc	_	name=O
+29	to	to	NUM	_	Number=Plur|NumType=Card	27	conj	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T334)db~20081202_3901555__T333)db~20081202_3901555__T330)
+30	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017054
+# text = Oppsummeringsvis er den foreløpige tendensen av «Guitar Hero: World Tour» sliter litt i motbakke mot konkurrenten, som har et forsprang rent låtmessig.
+1	Oppsummeringsvis	oppsummeringsvis	ADV	_	_	14	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(db~20081202_3901555__T336--1
+4	foreløpige	foreløpig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	tendensen	tendens	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	name=O|Entity=db~20081202_3901555__T336)
+6	av	at	SCONJ	_	_	14	mark	_	name=O
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__172844--1
+8	Guitar	Guitar	PROPN	_	_	14	nsubj	_	name=B-PROD
+9	Hero	Hero	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PROD
+10	:	$:	PUNCT	_	_	11	punct	_	name=I-PROD
+11	World	World	PROPN	_	_	8	flat:name	_	name=I-PROD
+12	Tour	Tour	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PROD
+13	»	$"	PUNCT	_	_	8	punct	_	name=O|Entity=db~20081202_3901555__172844)
+14	sliter	slite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+15	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	motbakke	motbakke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(db~20081202_3901555__T338--1)
+18	mot	mot	ADP	_	_	19	case	_	name=O
+19	konkurrenten	konkurrent	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__132127--1
+20	,	$,	PUNCT	_	_	22	punct	_	name=O
+21	som	som	PRON	_	PronType=Rel	22	nsubj	_	name=O
+22	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	name=O
+23	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(db~20081202_3901555__T340--1
+24	forsprang	forsprang	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	obj	_	name=O|Entity=db~20081202_3901555__T340)
+25	rent	ren	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	advmod	_	name=O
+26	låtmessig	låtmessig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	advmod	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__132127)
+27	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 017055
+# text = På tross av at trommesettet er hakket hvassere, og du får mulighet til å komponere egne låter, bærer serien preg av å ha blitt litt tøysete - låtutvalget passer bedre til en «Absolute Music» enn «Guitar Hero».
+1	På	på	ADP	_	_	2	case	_	name=O
+2	tross	tross	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	name=O|Entity=(db~20081202_3901555__T341--1
+3	av	av	ADP	_	_	8	case	_	name=O
+4	at	at	SCONJ	_	_	8	mark	_	name=O
+5	trommesettet	trommesett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	name=O|Entity=(db~20081202_3901555__61101--1)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	hakket	hakk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(db~20081202_3901555__T343--1)
+8	hvassere	hvass	ADJ	_	Degree=Cmp	2	amod	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	name=O|Entity=(db~20081202_3901555__T344--1)
+12	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	name=O
+13	mulighet	mulighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	name=O|Entity=(db~20081202_3901555__T345--1
+14	til	til	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	komponere	komponere	VERB	_	VerbForm=Inf	13	acl	_	name=O
+17	egne	egen	DET	_	Number=Plur|PronType=Prs	18	det	_	name=O|Entity=(db~20081202_3901555__T346--1
+18	låter	låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T346)db~20081202_3901555__T345)db~20081202_3901555__T341)
+19	,	$,	PUNCT	_	_	2	punct	_	name=O
+20	bærer	bære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+21	serien	serie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nsubj	_	name=O|Entity=(db~20081202_3901555__2698--1)
+22	preg	preg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obj	_	name=O|Entity=(db~20081202_3901555__T348--1
+23	av	av	SCONJ	_	_	26	mark	_	name=O
+24	å	å	PART	_	_	26	mark	_	name=O
+25	ha	ha	AUX	_	VerbForm=Inf	26	aux	_	name=O
+26	blitt	bli	VERB	_	VerbForm=Part	22	acl	_	name=O
+27	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	advmod	_	name=O
+28	tøysete	tøysete	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	xcomp	_	name=O|Entity=db~20081202_3901555__T348)
+29	-	$-	PUNCT	_	_	31	punct	_	name=O
+30	låtutvalget	låtutvalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	31	nsubj	_	name=O|Entity=(db~20081202_3901555__T349--1)
+31	passer	passe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	conj	_	name=O
+32	bedre	god	ADJ	_	Degree=Cmp	31	advmod	_	name=O
+33	til	til	ADP	_	_	36	case	_	name=O
+34	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	36	det	_	name=O|Entity=(db~20081202_3901555__T350--1
+35	«	$"	PUNCT	_	_	36	punct	_	SpaceAfter=No|name=O
+36	Absolute	Absolute	PROPN	_	_	32	obl	_	name=B-PROD
+37	Music	Music	PROPN	_	_	36	flat:name	_	SpaceAfter=No|name=I-PROD
+38	»	$"	PUNCT	_	_	36	punct	_	name=O|Entity=db~20081202_3901555__T350)
+39	enn	enn	ADP	_	_	41	case	_	name=O
+40	«	$"	PUNCT	_	_	41	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__2698--1
+41	Guitar	Guitar	PROPN	_	_	32	obl	_	name=B-PROD
+42	Hero	Hero	PROPN	_	_	41	flat:name	_	SpaceAfter=No|name=I-PROD
+43	»	$"	PUNCT	_	_	41	punct	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__2698)
+44	.	$.	PUNCT	_	_	20	punct	_	name=O
+
+# sent_id = 017056
+# text = Her gjør «Rock Band 2» en bedre jobb, og ender derfor hakket høyere opp på terningen.
+1	Her	her	ADV	_	_	2	advmod	_	name=O
+2	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__132127--1
+4	Rock	Rock	PROPN	_	_	2	nsubj	_	name=B-PROD
+5	Band	Band	PROPN	_	_	4	flat:name	_	name=I-PROD
+6	2	2	NUM	_	Number=Plur|NumType=Card	4	flat:name	_	SpaceAfter=No|name=I-PROD
+7	»	$"	PUNCT	_	_	4	punct	_	name=O|Entity=db~20081202_3901555__132127)
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(db~20081202_3901555__T353--1
+9	bedre	god	ADJ	_	Degree=Cmp	10	amod	_	name=O
+10	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T353)
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	ender	ende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+14	derfor	derfor	ADV	_	_	13	advmod	_	name=O
+15	hakket	hakk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	name=O|Entity=(db~20081202_3901555__T354--1)
+16	høyere	høy	ADJ	_	Degree=Cmp	19	advmod	_	name=O
+17	opp	opp	ADP	_	_	19	case	_	name=O
+18	på	på	ADP	_	_	19	case	_	name=O
+19	terningen	terning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T355--1)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017057
+# text = Begge spillene kan imidlertid trygt anbefales som et sosialt samlingspunkt i stua - det er overraskende lett å få med selv dem som til vanlig fnyser av dataspill som sosial moro.
+1	Begge	begge	DET	_	Number=Plur|PronType=Tot	2	det	_	name=O|Entity=(db~20081202_3901555__31004--1
+2	spillene	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nsubj:pass	_	name=O|Entity=db~20081202_3901555__31004)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	imidlertid	imidlertid	ADV	_	_	6	advmod	_	name=O
+5	trygt	trygg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	anbefales	anbefale	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+7	som	som	SCONJ	_	_	10	mark	_	name=O
+8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(db~20081202_3901555__T357--1
+9	sosialt	sosial	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O
+10	samlingspunkt	samlingspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	acl	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	stua	stue	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	name=O|Entity=(db~20081202_3901555__T358--1)db~20081202_3901555__T357)
+13	-	$-	PUNCT	_	_	17	punct	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	name=O
+15	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+16	overraskende	overraske	ADJ	_	VerbForm=Part	17	advmod	_	name=O
+17	lett	lett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	få	få	VERB	_	VerbForm=Inf	17	csubj	_	name=O
+20	med	med	ADP	_	_	22	case	_	name=O
+21	selv	selv	ADV	_	_	22	advmod	_	name=O|Entity=(db~20081202_3901555__T359--1
+22	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obl	_	name=O
+23	som	som	PRON	_	PronType=Rel	26	nsubj	_	name=O
+24	til	til	ADP	_	_	25	case	_	name=O
+25	vanlig	vanlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	advmod	_	name=O|Entity=(db~20081202_3901555__T360--1)
+26	fnyser	fnyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	name=O
+27	av	av	ADP	_	_	28	case	_	name=O
+28	dataspill	dataspill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	26	obl	_	name=O|Entity=(db~20081202_3901555__T361--1)
+29	som	som	SCONJ	_	_	31	mark	_	name=O
+30	sosial	sosial	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	31	amod	_	name=O|Entity=(db~20081202_3901555__T362--1
+31	moro	moro	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	26	xcomp	_	SpaceAfter=No|name=O|Entity=db~20081202_3901555__T362)db~20081202_3901555__T359)
+32	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017058
+# text = Timene regelrett flyr mens man gyver løs på låt etter låt, og latteren sitter garantert løst.
+1	Timene	time	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(db~20081202_3901555__T363--1)
+2	regelrett	regelrett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+3	flyr	fly	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	mens	mens	SCONJ	_	_	6	mark	_	name=O
+5	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	6	nsubj	_	name=O|Entity=(db~20081202_3901555__T364--1)
+6	gyver	gyve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+7	løs	løs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	advmod	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	låt	låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(db~20081202_3901555__T365--1
+10	etter	etter	ADP	_	_	11	case	_	name=O
+11	låt	låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T366--1)db~20081202_3901555__T365)
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	og	og	CCONJ	_	_	15	cc	_	name=O
+14	latteren	latter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(db~20081202_3901555__T367--1)
+15	sitter	sitte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+16	garantert	garantere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	15	advmod	_	name=O
+17	løst	løs	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	acl	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017059
+# text = Til info for de av dere som virkelig vil perfeksjonere opplevelsen, går det også an å mikse litt spillene imellom.
+1	Til	til	ADP	_	_	2	case	_	name=O
+2	info	info	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(db~20081202_3901555__T368--1
+3	for	for	ADP	_	_	4	case	_	name=O
+4	de	de	DET	_	Number=Plur|PronType=Dem	2	nmod	_	name=O
+5	av	av	ADP	_	_	6	case	_	name=O
+6	dere	dere	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=2|PronType=Prs	4	nmod	_	name=O|Entity=(db~20081202_3901555__T369--1)
+7	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+8	virkelig	virkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+9	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	perfeksjonere	perfeksjonere	VERB	_	VerbForm=Inf	4	acl:relcl	_	name=O
+11	opplevelsen	opplevelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=(db~20081202_3901555__T370--1)db~20081202_3901555__T368)
+12	,	$,	PUNCT	_	_	2	punct	_	name=O
+13	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	name=O
+15	også	også	ADV	_	_	13	advmod	_	name=O
+16	an	an	ADV	_	_	13	advmod	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	mikse	mikse	VERB	_	VerbForm=Inf	13	csubj	_	name=O
+19	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+20	spillene	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	18	obl	_	name=O|Entity=(db~20081202_3901555__31004--1)
+21	imellom	imellom	ADP	_	_	20	case	_	SpaceAfter=No|name=O
+22	.	$.	PUNCT	_	_	13	punct	_	name=O
+

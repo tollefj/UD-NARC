@@ -1,0 +1,196 @@
+# newdoc id = ap_20080920-2665396
+# global.Entity = eid-etype-head-other
+# sent_id = 001161
+# text = Mange alvorlig syke av sopp i høst
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+2	alvorlig	alvorlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+3	syke	syk	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	sopp	sopp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20080920_2665396__T1--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	høst	høst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20080920_2665396__T2--1)
+
+# newpar
+# sent_id = 001162
+# text = Mange er blitt forgiftet og alvorlig syke av sopp i høst.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	3	nsubj	_	name=O|Entity=(ap_20080920_2665396__T3--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+4	forgiftet	forgifte	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	3	xcomp	_	name=O
+5	og	og	CCONJ	_	_	7	cc	_	name=O
+6	alvorlig	alvorlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	syke	syk	ADJ	_	Degree=Pos|Number=Plur	4	conj	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	sopp	sopp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(ap_20080920_2665396__325--1)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	høst	høst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080920_2665396__T5--1)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001163
+# text = Helsedirektoratet mener kunnskapsnivået om skogens delikatesse er for dårlig.
+1	Helsedirektoratet	Helsedirektoratet	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(ap_20080920_2665396__231--1)
+2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	kunnskapsnivået	kunnskapsnivå	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(ap_20080920_2665396__T7--1
+4	om	om	ADP	_	_	6	case	_	name=O
+5	skogens	skog	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20080920_2665396__325--1(ap_20080920_2665396__234--1)
+6	delikatesse	delikatesse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=ap_20080920_2665396__325)ap_20080920_2665396__T7)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	for	for	ADV	_	_	9	advmod	_	name=O
+9	dårlig	dårlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 001164
+# text = Dinmat:
+1	Dinmat	Dinmat	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-PROD|Entity=(ap_20080920_2665396__T10--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 001165
+# text = Lær deg soppens ABC
+1	Lær	lære	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	1	iobj	_	name=O|Entity=(ap_20080920_2665396__T11--1)
+3	soppens	sopp	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(ap_20080920_2665396__T13--1(ap_20080920_2665396__325--1)
+4	ABC	ABC	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	name=O|Entity=ap_20080920_2665396__T13)
+
+# sent_id = 001166
+# text = Bare den siste måneden har Giftinformasjonen mottatt 340 henvendelser som gjelder sopp, melder NRK.
+1	Bare	bare	ADV	_	_	4	advmod	_	name=O|Entity=(ap_20080920_2665396__T14--1
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O
+3	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	måneden	måned	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=ap_20080920_2665396__T14)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	Giftinformasjonen	Giftinformasjonen	PROPN	_	_	7	nsubj	_	name=B-ORG|Entity=(ap_20080920_2665396__T15--1)
+7	mottatt	motta	VERB	_	VerbForm=Part	0	root	_	name=O
+8	340	340	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(ap_20080920_2665396__T16--1
+9	henvendelser	henvendelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	name=O
+10	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+11	gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+12	sopp	sopp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=(ap_20080920_2665396__T17--1)ap_20080920_2665396__T16)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	melder	melde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+15	NRK	NRK	PROPN	_	_	14	nsubj	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20080920_2665396__T18--1)
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001167
+# text = I hele fjor kom det 450 henvendelser fra usikre sopplukkere.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	hele	hele	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=(ap_20080920_2665396__T19--1
+3	fjor	fjor	NOUN	_	_	4	obl	_	name=O|Entity=ap_20080920_2665396__T19)
+4	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+6	450	450	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(ap_20080920_2665396__T20--1
+7	henvendelser	henvendelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=ap_20080920_2665396__T20)
+8	fra	fra	ADP	_	_	10	case	_	name=O
+9	usikre	usikker	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(ap_20080920_2665396__T21--1
+10	sopplukkere	sopplukker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=ap_20080920_2665396__T21)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001168
+# text = - Mange sopplukkere har for dårlige kunnskaper, sier rådgiver Lise Ringstad i Helsedirektoratet.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=(ap_20080920_2665396__T22--1
+3	sopplukkere	sopplukker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=ap_20080920_2665396__T22)
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	for	for	ADV	_	_	6	advmod	_	name=O|Entity=(ap_20080920_2665396__T23--1
+6	dårlige	dårlig	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	kunnskaper	kunnskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No|name=O|Entity=ap_20080920_2665396__T23)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+10	rådgiver	rådgiver	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(ap_20080920_2665396__3105--1
+11	Lise	Lise	PROPN	_	Gender=Fem	9	nsubj	_	name=B-PER
+12	Ringstad	Ringstad	PROPN	_	_	11	flat:name	_	name=I-PER
+13	i	i	ADP	_	_	14	case	_	name=O
+14	Helsedirektoratet	Helsedirektoratet	PROPN	_	_	11	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20080920_2665396__231--1)ap_20080920_2665396__3105)
+15	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001169
+# text = For skogen bugner av spiselig, men også mye helt uspiselig og farlig sopp.
+1	For	for	CCONJ	_	_	3	cc	_	name=O
+2	skogen	skog	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(ap_20080920_2665396__234--1)
+3	bugner	bugne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	spiselig	spiselig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	advmod	_	SpaceAfter=No|name=O|Entity=(ap_20080920_2665396__T27--1(ap_20080920_2665396__T28--1
+6	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=ap_20080920_2665396__T28)
+7	men	men	CCONJ	_	_	14	cc	_	name=O
+8	også	også	ADV	_	_	14	advmod	_	name=O|Entity=(ap_20080920_2665396__T29--1
+9	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O
+10	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	uspiselig	uspiselig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	farlig	farlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	name=O
+14	sopp	sopp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|name=O|Entity=ap_20080920_2665396__T29)ap_20080920_2665396__T27)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001170
+# text = Er du ikke 100 prosent sikker på at soppen er spiselig, skal du holde deg unna, er det klare rådet.
+1	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	name=O|Entity=(ap_20080920_2665396__T30--1)
+3	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+4	100	100	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(ap_20080920_2665396__T31--1
+5	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O|Entity=ap_20080920_2665396__T31)
+6	sikker	sikker	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	advcl	_	name=O
+7	på	på	SCONJ	_	_	11	mark	_	name=O
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	soppen	sopp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=(ap_20080920_2665396__T32--1)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	spiselig	spiselig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	advcl	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	6	punct	_	name=O
+13	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+14	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	name=O|Entity=(ap_20080920_2665396__267--1)
+15	holde	holde	VERB	_	VerbForm=Inf	0	root	_	name=O
+16	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	15	obj	_	name=O|Entity=(ap_20080920_2665396__267--1)
+17	unna	unna	ADP	_	_	15	compound:prt	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	parataxis	_	name=O
+20	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(ap_20080920_2665396__T35--1
+21	klare	klar	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	rådet	råd	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nsubj	_	SpaceAfter=No|name=O|Entity=ap_20080920_2665396__T35)
+23	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 001171
+# text = - I verste fall kan det være dødelig hvis du spiser feil sopp, advarer Ringstad.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	I	i	ADP	_	_	4	case	_	name=O
+3	verste	vond	ADJ	_	Definite=Def|Degree=Sup	4	amod	_	name=O|Entity=(ap_20080920_2665396__T36--1
+4	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=ap_20080920_2665396__T36)
+5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20080920_2665396__T37--1)
+7	være	være	AUX	_	VerbForm=Inf	8	cop	_	name=O
+8	dødelig	dødelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+9	hvis	hvis	SCONJ	_	_	11	mark	_	name=O
+10	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	name=O|Entity=(ap_20080920_2665396__T38--1)
+11	spiser	spise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	name=O
+12	feil	feil	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(ap_20080920_2665396__T39--1
+13	sopp	sopp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=ap_20080920_2665396__T39)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	advarer	advare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	name=O
+16	Ringstad	Ringstad	PROPN	_	_	15	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20080920_2665396__3105--1)
+17	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001172
+# text = Hun forteller at det allerede har vært flere tilfeller i år med svært alvorlige forgiftninger, med skader på lever og lange sykehusopphold.
+1	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20080920_2665396__3105--1)
+2	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+5	allerede	allerede	ADV	_	_	7	advmod	_	name=O
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	vært	være	VERB	_	VerbForm=Part	2	xcomp	_	name=O
+8	flere	mange	ADJ	_	Degree=Cmp	9	amod	_	name=O|Entity=(ap_20080920_2665396__T42--1
+9	tilfeller	tilfelle	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nsubj	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(ap_20080920_2665396__T43--1)
+12	med	med	ADP	_	_	15	case	_	name=O
+13	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O|Entity=(ap_20080920_2665396__T44--1
+14	alvorlige	alvorlig	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	forgiftninger	forgiftning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	18	punct	_	name=O
+17	med	med	ADP	_	_	18	case	_	name=O
+18	skader	skade	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	name=O|Entity=(ap_20080920_2665396__T45--1(ap_20080920_2665396__T46--1
+19	på	på	ADP	_	_	20	case	_	name=O
+20	lever	lever	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(ap_20080920_2665396__T47--1)ap_20080920_2665396__T46)
+21	og	og	CCONJ	_	_	23	cc	_	name=O
+22	lange	lang	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	name=O|Entity=(ap_20080920_2665396__T48--1
+23	sykehusopphold	sykehusopphold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	conj	_	SpaceAfter=No|name=O|Entity=ap_20080920_2665396__T48)ap_20080920_2665396__T45)ap_20080920_2665396__T44)ap_20080920_2665396__T42)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+

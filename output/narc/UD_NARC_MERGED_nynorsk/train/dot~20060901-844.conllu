@@ -1,0 +1,865 @@
+# newdoc id = dot~20060901-844
+# global.Entity = eid-etype-head-other
+# sent_id = 004564
+# text = Skulebøker kjem altfor seint
+1	Skulebøker	skulebok	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	nsubj	_	name=O|Entity=(dot~20060901_844__312--1)
+2	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	altfor	altfor	ADV	_	_	4	advmod	_	name=O
+4	seint	sein	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+
+# newpar
+# sent_id = 004565
+# text = Mange av lærebøkene for yrkesfaga i vidaregåande skule er sterkt forseinka.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	11	nsubj	_	name=O|Entity=(dot~20060901_844__T2--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	lærebøkene	lærebok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	name=O|Entity=(dot~20060901_844__312--1
+4	for	for	ADP	_	_	5	case	_	name=O
+5	yrkesfaga	yrkesfag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nmod	_	name=O|Entity=(dot~20060901_844__4256--1
+6	i	i	ADP	_	_	8	case	_	name=O
+7	vidaregåande	vidaregåande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(dot~20060901_844__T5--1
+8	skule	skule	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=dot~20060901_844__T5)dot~20060901_844__4256)dot~20060901_844__312)dot~20060901_844__T2)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	forseinka	forseinke	ADJ	_	Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 004566
+# text = Verst står det til med nynorskbøkene.
+1	Verst	verre	ADJ	_	Definite=Ind|Degree=Sup	2	advmod	_	name=O
+2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	til	til	ADP	_	_	2	compound:prt	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	nynorskbøkene	nynorskbok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Bridge=dot~20060901_844__312<dot~20060901_844__7537:default|Entity=(dot~20060901_844__7537--1)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 004567
+# text = Berre rundt halvparten av lærebøkene til Gyldendal for yrkesfaga var ferdige til skulestart.
+1	Berre	berre	ADV	_	_	3	advmod	_	name=O
+2	rundt	rundt	ADP	_	_	3	case	_	name=O
+3	halvparten	halvpart	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=(dot~20060901_844__T7--1
+4	av	av	ADP	_	_	5	case	_	name=O
+5	lærebøkene	lærebok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	name=O|Entity=(dot~20060901_844__312--1
+6	til	til	ADP	_	_	7	case	_	name=O
+7	Gyldendal	Gyldendal	PROPN	_	_	5	nmod	_	name=B-ORG|Entity=(dot~20060901_844__8494--1)
+8	for	for	ADP	_	_	9	case	_	name=O
+9	yrkesfaga	yrkesfag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	nmod	_	name=O|Entity=(dot~20060901_844__4256--1)dot~20060901_844__312)dot~20060901_844__T7)
+10	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	name=O
+11	ferdige	ferdig	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	skulestart	skulestart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T11--1)
+14	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 004568
+# text = Mellom anna var ikkje bøker for helse- og sosialfag, byggfag, elektrofag og teknologi og industriell produksjon klare i tide.
+1	Mellom	mellom	ADP	_	_	2	case	_	name=O
+2	anna	annan	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	19	obl	_	name=O
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	name=O
+5	bøker	bok	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	nsubj	_	name=O|Entity=(dot~20060901_844__T12--1
+6	for	for	ADP	_	_	7	case	_	name=O
+7	helse-	helse-	NOUN	_	_	5	nmod	_	name=O|Entity=(dot~20060901_844__T13--1(dot~20060901_844__T14--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	sosialfag	sosialfag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T15--1
+10	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=dot~20060901_844__T15)
+11	byggfag	byggfag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T16--1
+12	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=dot~20060901_844__T16)
+13	elektrofag	elektrofag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	name=O|Entity=(dot~20060901_844__T17--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	teknologi	teknologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	name=O|Entity=(dot~20060901_844__T18--1(dot~20060901_844__T19--1)
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	industriell	industriell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(dot~20060901_844__T20--1
+18	produksjon	produksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	conj	_	name=O|Entity=dot~20060901_844__T20)dot~20060901_844__T18)dot~20060901_844__T13)dot~20060901_844__T12)
+19	klare	klar	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	tide	tide	NOUN	_	_	19	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T21--1)
+22	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# sent_id = 004569
+# text = Fleire av oppgåvebøkene kjem ikkje før i oktober eller november.
+1	Fleire	mange	ADJ	_	Degree=Cmp	4	nsubj	_	name=O|Entity=(dot~20060901_844__T22--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	oppgåvebøkene	oppgåvebok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	name=O|Bridge=dot~20060901_844__312<dot~20060901_844__T23:default|Entity=(dot~20060901_844__T23--1)dot~20060901_844__T22)
+4	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+6	før	før	ADP	_	_	8	case	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	oktober	oktober	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(dot~20060901_844__T24--1(dot~20060901_844__T25--1)
+9	eller	eller	CCONJ	_	_	10	cc	_	name=O
+10	november	november	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T26--1)dot~20060901_844__T24)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004570
+# text = Gyldendal er det store forlaget for lærebøker for yrkesfaga på vidaregåande skule.
+1	Gyldendal	Gyldendal	PROPN	_	_	5	nsubj	_	name=B-ORG|Entity=(dot~20060901_844__8494--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(dot~20060901_844__T28--1
+4	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	forlaget	forlag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	lærebøker	lærebok	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	name=O|Entity=(dot~20060901_844__T29--1
+8	for	for	ADP	_	_	9	case	_	name=O
+9	yrkesfaga	yrkesfag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nmod	_	name=O|Entity=(dot~20060901_844__4256--1
+10	på	på	ADP	_	_	12	case	_	name=O
+11	vidaregåande	vidaregåande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(dot~20060901_844__T31--1
+12	skule	skule	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T31)dot~20060901_844__4256)dot~20060901_844__T29)dot~20060901_844__T28)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004571
+# text = Men også andre forlag slit med å få ferdig bøker sine.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	også	også	ADV	_	_	4	advmod	_	name=O
+3	andre	annan	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(dot~20060901_844__266--1
+4	forlag	forlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=dot~20060901_844__266)
+5	slit	slite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	med	med	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	få	få	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+9	ferdig	ferdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	xcomp	_	name=O
+10	bøker	bok	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	name=O|Entity=(dot~20060901_844__T33--1
+11	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__266--1)dot~20060901_844__T33)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004572
+# text = Verst står det til med nynorskutgåvene.
+1	Verst	verre	ADJ	_	Definite=Ind|Degree=Sup	2	advmod	_	name=O
+2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	til	til	ADP	_	_	2	compound:prt	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	nynorskutgåvene	nynorskutgåve	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Bridge=dot~20060901_844__T33<dot~20060901_844__4409:default|Entity=(dot~20060901_844__4409--1)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004573
+# text = Fleire av lærebøkene på nynorsk kjem minst ein månad etter at bokmålsutgåvene er ferdige.
+1	Fleire	mange	ADJ	_	Degree=Cmp	6	nsubj	_	name=O|Entity=(dot~20060901_844__T36--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	lærebøkene	lærebok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	name=O|Entity=(dot~20060901_844__7537--1
+4	på	på	ADP	_	_	5	case	_	name=O
+5	nynorsk	nynorsk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(dot~20060901_844__T38--1)dot~20060901_844__7537)dot~20060901_844__T36)
+6	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	8	advmod	_	name=O|Entity=(dot~20060901_844__T39--1
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O
+9	månad	månad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=dot~20060901_844__T39)
+10	etter	etter	SCONJ	_	_	14	mark	_	name=O
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	bokmålsutgåvene	bokmålsutgåve	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	14	nsubj	_	name=O|Bridge=dot~20060901_844__7537<dot~20060901_844__2185:default|Entity=(dot~20060901_844__2185--1)
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	ferdige	ferdig	ADJ	_	Degree=Pos|Number=Plur	6	advcl	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004574
+# text = - Ikkje vårt ansvar
+1	-	$-	PUNCT	_	_	4	punct	_	name=O|Entity=(dot~20060901_844__T42--1
+2	Ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+3	vårt	vår	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(dot~20060901_844__8494--1)
+4	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=dot~20060901_844__T42)
+
+# sent_id = 004575
+# text = Gyldendal vil ikkje ta ansvaret for forseinkingane.
+1	Gyldendal	Gyldendal	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(dot~20060901_844__8494--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	ansvaret	ansvar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=(dot~20060901_844__T44--1
+6	for	for	ADP	_	_	7	case	_	name=O
+7	forseinkingane	forseinking	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T45--1)dot~20060901_844__T44)
+8	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004576
+# text = - Det må Utdanningsdepartementet ta ansvaret for.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod	_	name=O|Entity=(dot~20060901_844__T46--1)
+3	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	Utdanningsdepartementet	Utdanningsdepartementet	PROPN	_	_	5	nsubj	_	name=B-ORG|Entity=(dot~20060901_844__T47--1)
+5	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	ansvaret	ansvar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(dot~20060901_844__T48--1
+7	for	for	ADP	_	_	2	case	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T48)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004577
+# text = Vi arbeider dag og natt for å få ferdig bøkene, seier forlagsdirektør Paul Hedlund i Gyldendal.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20060901_844__8494--1)
+2	arbeider	arbeide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(dot~20060901_844__T50--1(dot~20060901_844__T51--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	natt	natt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	conj	_	name=O|Entity=(dot~20060901_844__T52--1)dot~20060901_844__T50)
+6	for	for	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	få	få	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+9	ferdig	ferdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	xcomp	_	name=O
+10	bøkene	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__7537--1)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+13	forlagsdirektør	forlagsdirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(dot~20060901_844__3209--1(dot~20060901_844__T54[1/2]--1)
+14	Paul	Paul	NOUN	_	Gender=Masc	12	nsubj	_	name=B-PER
+15	Hedlund	Hedlund	PROPN	_	_	14	flat:name	_	name=I-PER
+16	i	i	ADP	_	_	17	case	_	name=O|Entity=(dot~20060901_844__T54[2/2]--1
+17	Gyldendal	Gyldendal	PROPN	_	_	13	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(dot~20060901_844__8494--1)dot~20060901_844__T54[2/2])dot~20060901_844__3209)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004578
+# text = - Forlaga, forfattarane og grafisk bransje sa for lenge sidan klart frå om at det var uansvarleg å innføra nye lærebøker på same tid for så mange skuletrinn.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Forlaga	forlag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T57--1(dot~20060901_844__T58--1
+3	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=dot~20060901_844__T58)
+4	forfattarane	forfattar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	conj	_	name=O|Entity=(dot~20060901_844__T59--1)
+5	og	og	CCONJ	_	_	7	cc	_	name=O
+6	grafisk	grafisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(dot~20060901_844__T60--1
+7	bransje	bransje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	name=O|Entity=dot~20060901_844__T60)dot~20060901_844__T57)
+8	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	for	for	ADP	_	_	10	case	_	name=O
+10	lenge	lenge	ADJ	_	Degree=Pos	8	advmod	_	name=O|Entity=(dot~20060901_844__T61--1
+11	sidan	sidan	ADV	_	_	10	advmod	_	name=O|Entity=dot~20060901_844__T61)
+12	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+13	frå	frå	ADP	_	_	8	compound:prt	_	name=O
+14	om	om	SCONJ	_	_	18	mark	_	name=O
+15	at	at	SCONJ	_	_	18	mark	_	name=O
+16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+17	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	name=O
+18	uansvarleg	uansvarleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advcl	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	innføra	innføre	VERB	_	VerbForm=Inf	18	csubj	_	name=O
+21	nye	ny	ADJ	_	Degree=Pos|Number=Plur	22	amod	_	name=O|Entity=(dot~20060901_844__T62--1
+22	lærebøker	lærebok	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	20	obj	_	name=O|Entity=dot~20060901_844__T62)
+23	på	på	ADP	_	_	25	case	_	name=O
+24	same	same	DET	_	Definite=Def|PronType=Dem	25	det	_	name=O|Entity=(dot~20060901_844__T63--1
+25	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	name=O|Entity=dot~20060901_844__T63)
+26	for	for	ADP	_	_	29	case	_	name=O
+27	så	så	ADV	_	_	28	advmod	_	name=O|Entity=(dot~20060901_844__T64--1
+28	mange	mange	ADJ	_	Degree=Pos|Number=Plur	29	amod	_	name=O
+29	skuletrinn	skuletrinn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T64)
+30	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 004579
+# text = Men vi vart ikkje høyrde, seier Hedlund.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj:pass	_	name=O|Entity=(dot~20060901_844__6458--1)
+3	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	høyrde	høyre	VERB	_	Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+8	Hedlund	Hedlund	PROPN	_	_	7	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(dot~20060901_844__3209--1)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004580
+# text = - Korleis skulle vi greia å få ferdig lærebøkene for yrkesfaga i august når læreplanane fyrst låg føre i mars, april?
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Korleis	korleis	ADV	_	_	5	advmod	_	name=O
+3	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+4	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20060901_844__6458--1)
+5	greia	greie	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	få	få	VERB	_	VerbForm=Inf	5	xcomp	_	name=O
+8	ferdig	ferdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	xcomp	_	name=O
+9	lærebøkene	lærebok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	obj	_	name=O|Entity=(dot~20060901_844__7537--1
+10	for	for	ADP	_	_	11	case	_	name=O
+11	yrkesfaga	yrkesfag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	nmod	_	name=O|Entity=(dot~20060901_844__T69--1)dot~20060901_844__7537)
+12	i	i	ADP	_	_	13	case	_	name=O
+13	august	august	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(dot~20060901_844__T70--1)
+14	når	når	SCONJ	_	_	17	mark	_	name=O
+15	læreplanane	læreplan	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	17	nsubj	_	name=O|Entity=(dot~20060901_844__T71--1)
+16	fyrst	fyrst	ADV	_	_	17	advmod	_	name=O
+17	låg	liggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+18	føre	føre	ADP	_	_	17	compound:prt	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	mars	mars	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T72--1(dot~20060901_844__T73--1
+21	,	$,	PUNCT	_	_	22	punct	_	name=O|Entity=dot~20060901_844__T73)
+22	april	april	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T74--1)dot~20060901_844__T72)
+23	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004581
+# text = Så seint som i vår sa vi frå om at reforma for yrkesfaga burde venta eit år, men til ingen nytte.
+1	Så	så	ADV	_	_	2	advmod	_	name=O
+2	seint	sein	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+3	som	som	ADP	_	_	5	case	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	vår	vår	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(dot~20060901_844__T75--1)
+6	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(dot~20060901_844__6458--1)
+8	frå	frå	ADP	_	_	6	compound:prt	_	name=O
+9	om	om	SCONJ	_	_	15	mark	_	name=O
+10	at	at	SCONJ	_	_	15	mark	_	name=O
+11	reforma	reform	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	name=O|Entity=(dot~20060901_844__3433--1
+12	for	for	ADP	_	_	13	case	_	name=O
+13	yrkesfaga	yrkesfag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	nmod	_	name=O|Entity=(dot~20060901_844__T78--1)dot~20060901_844__3433)
+14	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	name=O
+15	venta	vente	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+16	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(dot~20060901_844__T79--1
+17	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T79)
+18	,	$,	PUNCT	_	_	22	punct	_	name=O
+19	men	men	CCONJ	_	_	22	cc	_	name=O
+20	til	til	ADP	_	_	22	case	_	name=O
+21	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	22	det	_	name=O|Entity=(dot~20060901_844__T80--1
+22	nytte	nytte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T80)
+23	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004582
+# text = Vi opplever det difor som svært urettferdig når vi får kritikk for noko vi ikkje kunne gjera noko med.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20060901_844__6458--1)
+2	opplever	oppleve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	difor	difor	ADV	_	_	2	advmod	_	name=O
+5	som	som	SCONJ	_	_	7	mark	_	name=O
+6	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O|Entity=(dot~20060901_844__T82--1
+7	urettferdig	urettferdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	name=O|Entity=dot~20060901_844__T82)
+8	når	når	SCONJ	_	_	10	mark	_	name=O
+9	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	name=O|Entity=(dot~20060901_844__6458--1)
+10	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+11	kritikk	kritikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=(dot~20060901_844__T84--1
+12	for	for	ADP	_	_	13	case	_	name=O
+13	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	11	nmod	_	name=O|Entity=(dot~20060901_844__T85--1
+14	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	name=O|Entity=(dot~20060901_844__6458--1)
+15	ikkje	ikkje	PART	_	Polarity=Neg	17	advmod	_	name=O
+16	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	name=O
+17	gjera	gjere	VERB	_	VerbForm=Inf	13	acl	_	name=O
+18	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	17	obj	_	name=O|Entity=(dot~20060901_844__T87--1)
+19	med	med	ADP	_	_	17	compound:prt	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T85)dot~20060901_844__T84)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004583
+# text = Direktøren fortel at Gyldendal prøver å bøta på litt av problema for nynorskelevane ved å leggja dei fyrste kapitla i nynorskutgåvene gratis tilgjengeleg på internett.
+1	Direktøren	direktør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(dot~20060901_844__3209--1)
+2	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	Gyldendal	Gyldendal	PROPN	_	_	5	nsubj	_	name=B-ORG|Entity=(dot~20060901_844__8494--1)
+5	prøver	prøve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	bøta	bøte	VERB	_	VerbForm=Inf	5	xcomp	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O|Entity=(dot~20060901_844__T90--1
+10	av	av	ADP	_	_	11	case	_	name=O
+11	problema	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	nmod	_	name=O|Entity=(dot~20060901_844__T91--1
+12	for	for	ADP	_	_	13	case	_	name=O
+13	nynorskelevane	nynorskelev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	11	nmod	_	name=O|Entity=(dot~20060901_844__71026--1)dot~20060901_844__T91)dot~20060901_844__T90)
+14	ved	ved	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	leggja	leggje	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+17	dei	dei	DET	_	Number=Plur|PronType=Dem	19	det	_	name=O|Entity=(dot~20060901_844__T93--1
+18	fyrste	fyrste	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O
+19	kapitla	kapittel	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	16	obj	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	nynorskutgåvene	nynorskutgåve	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	name=O|Entity=(dot~20060901_844__4409--1)dot~20060901_844__T93)
+22	gratis	gratis	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	advmod	_	name=O
+23	tilgjengeleg	tilgjengeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	xcomp	_	name=O
+24	på	på	ADP	_	_	25	case	_	name=O
+25	internett	internett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T95--1)
+26	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004584
+# text = Det har aldri tidlegare vore gjort.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(dot~20060901_844__T96--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	aldri	aldri	ADV	_	_	4	advmod	_	name=O
+4	tidlegare	tidleg	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+5	vore	vere	AUX	_	VerbForm=Part	6	aux	_	name=O
+6	gjort	gjere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004585
+# text = Men det hjelper ofte lite.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20060901_844__T97--1)
+3	hjelper	hjelpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ofte	ofte	ADJ	_	Degree=Pos	3	advmod	_	name=O
+5	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004586
+# text = Mange av elevane kjøper bøkene på bokmål når dei veit dei må venta opp til to månader på nynorskutgåvene.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	4	nsubj	_	name=O|Entity=(dot~20060901_844__3303--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	elevane	elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	name=O|Entity=(dot~20060901_844__T99--1)dot~20060901_844__3303)
+4	kjøper	kjøpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	bøkene	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	4	obj	_	name=O|Entity=(dot~20060901_844__7537--1)
+6	på	på	ADP	_	_	7	case	_	name=O
+7	bokmål	bokmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(dot~20060901_844__T101--1)
+8	når	når	SCONJ	_	_	10	mark	_	name=O
+9	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(dot~20060901_844__3303--1)
+10	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+11	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(dot~20060901_844__3303--1)
+12	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	venta	vente	VERB	_	VerbForm=Inf	10	ccomp	_	name=O
+14	opp	opp	ADP	_	_	16	case	_	name=O|Entity=(dot~20060901_844__T104--1
+15	til	til	ADP	_	_	16	case	_	name=O
+16	to	to	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O
+17	månader	månad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	name=O|Entity=dot~20060901_844__T104)
+18	på	på	ADP	_	_	19	case	_	name=O
+19	nynorskutgåvene	nynorskutgåve	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__4409--1)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004587
+# text = Svært uheldig
+1	Svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+2	uheldig	uheldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+
+# sent_id = 004588
+# text = - Dette er svært uheldig.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20060901_844__T106--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	uheldig	uheldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004589
+# text = Vi har sagt frå om dette for lenge sidan utan å nå fram, seier leiar i Noregs Mållag Hege Myklebust.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20060901_844__T107--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	sagt	seie	VERB	_	VerbForm=Part	0	root	_	name=O
+4	frå	frå	ADP	_	_	3	compound:prt	_	name=O
+5	om	om	ADP	_	_	6	case	_	name=O
+6	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	name=O|Entity=(dot~20060901_844__T108--1)
+7	for	for	ADP	_	_	8	case	_	name=O
+8	lenge	lenge	ADJ	_	Degree=Pos	3	advmod	_	name=O|Entity=(dot~20060901_844__T109--1
+9	sidan	sidan	ADV	_	_	8	advmod	_	name=O|Entity=dot~20060901_844__T109)
+10	utan	utan	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	nå	nå	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+13	fram	fram	ADP	_	_	12	compound:prt	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+16	leiar	leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	name=O|Entity=(dot~20060901_844__2261--1(dot~20060901_844__T110--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	Noregs	Noregs	PROPN	_	_	16	nmod	_	name=B-ORG|Entity=(dot~20060901_844__2227--1
+19	Mållag	Mållag	PROPN	_	_	18	flat:name	_	name=I-ORG|Entity=dot~20060901_844__2227)dot~20060901_844__T110)
+20	Hege	Hege	NOUN	_	Gender=Fem	15	nsubj	_	name=B-PER
+21	Myklebust	Myklebust	PROPN	_	_	20	flat:name	_	SpaceAfter=No|name=I-PER|Entity=dot~20060901_844__2261)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004590
+# text = No har fleire forlag, Utdanningsdirektoratet og Noregs Mållag kome fram til ein del hastetiltak for å bøta på situasjonen.
+1	No	no	ADV	_	_	10	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+3	fleire	mange	ADJ	_	Degree=Cmp	4	amod	_	name=O|Entity=(dot~20060901_844__T113--1(dot~20060901_844__T114--1
+4	forlag	forlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nsubj	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=dot~20060901_844__T114)
+6	Utdanningsdirektoratet	Utdanningsdirektoratet	PROPN	_	_	4	conj	_	name=B-ORG|Entity=(dot~20060901_844__T115--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Noregs	Noregs	PROPN	_	_	4	conj	_	name=B-ORG|Entity=(dot~20060901_844__2227--1
+9	Mållag	Mållag	PROPN	_	_	8	flat:name	_	name=I-ORG|Entity=dot~20060901_844__2227)dot~20060901_844__T113)
+10	kome	kome	VERB	_	VerbForm=Part	0	root	_	name=O
+11	fram	fram	ADP	_	_	15	case	_	name=O
+12	til	til	ADP	_	_	15	case	_	name=O
+13	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(dot~20060901_844__T118--1(dot~20060901_844__T117--1
+14	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=dot~20060901_844__T117)
+15	hastetiltak	hastetiltak	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obl	_	name=O
+16	for	for	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	bøta	bøte	VERB	_	VerbForm=Inf	15	acl	_	name=O
+19	på	på	ADP	_	_	20	case	_	name=O
+20	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T119--1)dot~20060901_844__T118)
+21	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 004591
+# text = Elevane skal kunna lasta ned dei fyrste kapitla av bøkene når dei er klare for trykking, og ein del forlag tilbyd òg at elevane får byte inn bokmålsutgåva mot ei nynorskutgåve så snart boka ligg føre på nynorsk.
+1	Elevane	elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(dot~20060901_844__T120--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	kunna	kunne	AUX	_	VerbForm=Inf	4	aux	_	name=O
+4	lasta	laste	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	ned	ned	ADP	_	_	4	compound:prt	_	name=O
+6	dei	dei	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(dot~20060901_844__2244--1
+7	fyrste	fyrste	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	kapitla	kapittel	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obj	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	bøkene	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	name=O|Entity=(dot~20060901_844__7537--1)dot~20060901_844__2244)
+11	når	når	SCONJ	_	_	14	mark	_	name=O
+12	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(dot~20060901_844__2244--1)
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	klare	klar	ADJ	_	Degree=Pos|Number=Plur	4	advcl	_	name=O
+15	for	for	ADP	_	_	16	case	_	name=O
+16	trykking	trykking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T124--1)
+17	,	$,	PUNCT	_	_	22	punct	_	name=O
+18	og	og	CCONJ	_	_	22	cc	_	name=O
+19	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(dot~20060901_844__T126--1(dot~20060901_844__T125--1
+20	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=dot~20060901_844__T125)
+21	forlag	forlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	nsubj	_	name=O|Entity=dot~20060901_844__T126)
+22	tilbyd	tilbyde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+23	òg	òg	ADV	_	_	22	advmod	_	name=O
+24	at	at	SCONJ	_	_	27	mark	_	name=O
+25	elevane	elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	27	nsubj	_	name=O|Entity=(dot~20060901_844__T127--1)
+26	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	name=O
+27	byte	byte	VERB	_	VerbForm=Inf	22	ccomp	_	name=O
+28	inn	inn	ADP	_	_	27	compound:prt	_	name=O
+29	bokmålsutgåva	bokmålsutgåve	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	27	obj	_	name=O|Entity=(dot~20060901_844__T128--1)
+30	mot	mot	ADP	_	_	32	case	_	name=O
+31	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	32	det	_	name=O|Entity=(dot~20060901_844__2259--1
+32	nynorskutgåve	nynorskutgåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	27	obl	_	name=O|Entity=dot~20060901_844__2259)
+33	så	så	ADV	_	_	34	advmod	_	name=O
+34	snart	snar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	36	advmod	_	name=O
+35	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	36	nsubj	_	name=O|Entity=(dot~20060901_844__2259--1)
+36	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	advcl	_	name=O
+37	føre	føre	ADP	_	_	36	compound:prt	_	name=O
+38	på	på	ADP	_	_	39	case	_	name=O
+39	nynorsk	nynorsk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	36	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T131--1)
+40	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004592
+# text = - Men problemet er at det vert lagt for mange initiativ og for mykje ansvar på nynorskelevane.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Men	men	CCONJ	_	_	8	cc	_	name=O
+3	problemet	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj:pass	_	name=O|Entity=(dot~20060901_844__T132--1)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux:pass	_	name=O
+8	lagt	leggje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+9	for	for	ADV	_	_	10	advmod	_	name=O|Entity=(dot~20060901_844__T133--1(dot~20060901_844__T134--1
+10	mange	mange	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	initiativ	initiativ	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	name=O|Entity=dot~20060901_844__T134)
+12	og	og	CCONJ	_	_	15	cc	_	name=O
+13	for	for	ADV	_	_	14	advmod	_	name=O|Entity=(dot~20060901_844__T135--1
+14	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	name=O
+15	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	name=O|Entity=dot~20060901_844__T135)dot~20060901_844__T133)
+16	på	på	ADP	_	_	17	case	_	name=O
+17	nynorskelevane	nynorskelev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__71026--1)
+18	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 004593
+# text = Elevane må ha eit medvite og sterkt ønske om å halda på nynorsken når dei opplever ein slik situasjon som vi har no.
+1	Elevane	elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(dot~20060901_844__71026--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(dot~20060901_844__T138--1
+5	medvite	medviten	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	name=O
+8	ønske	ønske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O
+9	om	om	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	halda	halde	VERB	_	VerbForm=Inf	8	acl	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	nynorsken	nynorsk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(dot~20060901_844__T139--1)dot~20060901_844__T138)
+14	når	når	SCONJ	_	_	16	mark	_	name=O
+15	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(dot~20060901_844__71026--1)
+16	opplever	oppleve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+17	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(dot~20060901_844__T141--1
+18	slik	slik	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	name=O
+19	situasjon	situasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	name=O
+20	som	som	PRON	_	PronType=Rel	22	obj	_	name=O
+21	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	name=O|Entity=(dot~20060901_844__T142--1)
+22	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	name=O
+23	no	no	ADV	_	_	22	advmod	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T141)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004594
+# text = Det er lett for mange å ta til takke med bokmålsutgåvene når dei ikkje finn nynorskbøker i bokhandelen, seier Myklebust.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	lett	lett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	mange	mange	ADJ	_	Degree=Pos|Number=Plur	3	advmod	_	name=O|Entity=(dot~20060901_844__T143--1)
+6	å	å	PART	_	_	7	mark	_	name=O
+7	ta	ta	VERB	_	VerbForm=Inf	3	csubj	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	takke	takke	NOUN	_	_	7	obl	_	name=O|Entity=(dot~20060901_844__T144--1)
+10	med	med	ADP	_	_	11	case	_	name=O
+11	bokmålsutgåvene	bokmålsutgåve	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	obl	_	name=O|Entity=(dot~20060901_844__2185--1)
+12	når	når	SCONJ	_	_	15	mark	_	name=O
+13	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(dot~20060901_844__71026--1)
+14	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	name=O
+15	finn	finne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+16	nynorskbøker	nynorskbok	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	15	obj	_	name=O|Entity=(dot~20060901_844__T147--1)
+17	i	i	ADP	_	_	18	case	_	name=O
+18	bokhandelen	bokhandel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T148--1)
+19	,	$,	PUNCT	_	_	20	punct	_	name=O
+20	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+21	Myklebust	Myklebust	PROPN	_	_	20	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(dot~20060901_844__2261--1)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004595
+# text = Heilskapsvurdering
+1	Heilskapsvurdering	heilskapsvurdering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(dot~20060901_844__T150--1)
+
+# sent_id = 004596
+# text = - Det er klart det er uheldig at lærebøkene ikkje er ferdige, men ut frå ei heilskapsvurdering har vi ikkje vilja utsetja reforma, seier statssekretær Lisbet Rugtvedt i Kunnskapsdepartementet.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	uheldig	uheldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	csubj	_	name=O
+8	at	at	SCONJ	_	_	12	mark	_	name=O
+9	lærebøkene	lærebok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	12	nsubj	_	name=O|Entity=(dot~20060901_844__7537--1)
+10	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	name=O
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+12	ferdige	ferdig	ADJ	_	Degree=Pos|Number=Plur	7	csubj	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	23	punct	_	name=O
+14	men	men	CCONJ	_	_	23	cc	_	name=O
+15	ut	ut	ADP	_	_	18	case	_	name=O
+16	frå	frå	ADP	_	_	18	case	_	name=O
+17	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(dot~20060901_844__T152--1
+18	heilskapsvurdering	heilskapsvurdering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	23	obl	_	name=O|Entity=dot~20060901_844__T152)
+19	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+20	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	name=O|Entity=(dot~20060901_844__T153--1)
+21	ikkje	ikkje	PART	_	Polarity=Neg	23	advmod	_	name=O
+22	vilja	vilje	AUX	_	VerbForm=Part	23	aux	_	name=O
+23	utsetja	utsetje	VERB	_	VerbForm=Inf	4	conj	_	name=O
+24	reforma	reform	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__3433--1)
+25	,	$,	PUNCT	_	_	26	punct	_	name=O
+26	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+27	statssekretær	statssekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	name=O|Entity=(dot~20060901_844__5860--1(dot~20060901_844__T155[1/2]--1)
+28	Lisbet	Lisbet	NOUN	_	Gender=Fem	26	nsubj	_	name=B-PER
+29	Rugtvedt	Rugtvedt	PROPN	_	_	28	flat:name	_	name=I-PER
+30	i	i	ADP	_	_	31	case	_	name=O|Entity=(dot~20060901_844__T155[2/2]--1
+31	Kunnskapsdepartementet	Kunnskapsdepartementet	PROPN	_	_	27	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(dot~20060901_844__T157--1)dot~20060901_844__T155[2/2])dot~20060901_844__5860)
+32	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004597
+# text = - Vi har presisert at det aldri har vore ein absolutt føresetnad at lærebøkene i alle fag var ferdige til skulestart.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(dot~20060901_844__T158--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	presisert	presisere	VERB	_	VerbForm=Part	0	root	_	name=O
+5	at	at	SCONJ	_	_	12	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+7	aldri	aldri	ADV	_	_	12	advmod	_	name=O
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+9	vore	vere	AUX	_	VerbForm=Part	12	cop	_	name=O
+10	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(dot~20060901_844__T159--1
+11	absolutt	absolutt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	føresetnad	føresetnad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	xcomp	_	name=O|Entity=dot~20060901_844__T159)
+13	at	at	SCONJ	_	_	19	mark	_	name=O
+14	lærebøkene	lærebok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	19	nsubj	_	name=O|Entity=(dot~20060901_844__T160--1
+15	i	i	ADP	_	_	17	case	_	name=O
+16	alle	all	DET	_	Number=Plur|PronType=Tot	17	det	_	name=O|Entity=(dot~20060901_844__T161--1
+17	fag	fag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	nmod	_	name=O|Entity=dot~20060901_844__T161)dot~20060901_844__T160)
+18	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	name=O
+19	ferdige	ferdig	ADJ	_	Degree=Pos|Number=Plur	12	csubj	_	name=O
+20	til	til	ADP	_	_	21	case	_	name=O
+21	skulestart	skulestart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T162--1)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004598
+# text = - Kva seier du til nynorskelevane som ikkje får lærebøker før langt ut i september eller oktober?
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Kva	kva	PRON	_	PronType=Int	3	obj	_	name=O
+3	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20060901_844__5860--1)
+5	til	til	ADP	_	_	6	case	_	name=O
+6	nynorskelevane	nynorskelev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=(dot~20060901_844__71026--1
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	name=O
+9	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+10	lærebøker	lærebok	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	obj	_	name=O|Entity=(dot~20060901_844__3526--1)
+11	før	før	ADP	_	_	15	case	_	name=O
+12	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+13	ut	ut	ADP	_	_	15	obl	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	september	september	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(dot~20060901_844__T166--1(dot~20060901_844__T167--1)
+16	eller	eller	CCONJ	_	_	17	cc	_	name=O
+17	oktober	oktober	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T168--1)dot~20060901_844__T166)dot~20060901_844__71026)
+18	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004599
+# text = - Det er diverre eit problem, men reglane er klinkande klare:
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(dot~20060901_844__T169--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	diverre	diverre	ADV	_	_	6	advmod	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(dot~20060901_844__T170--1
+6	problem	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T170)
+7	,	$,	PUNCT	_	_	12	punct	_	name=O
+8	men	men	CCONJ	_	_	12	cc	_	name=O
+9	reglane	regel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	name=O|Entity=(dot~20060901_844__T171--1)
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	klinkande	klinkande	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	klare	klar	ADJ	_	Degree=Pos|Number=Plur	6	conj	_	SpaceAfter=No|name=O
+13	:	$:	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004600
+# text = Lærebøkene skal vera ferdige samstundes.
+1	Lærebøkene	lærebok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	name=O|Entity=(dot~20060901_844__3526--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	vera	vere	AUX	_	VerbForm=Inf	4	cop	_	name=O
+4	ferdige	ferdig	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+5	samstundes	samstundes	ADV	_	_	4	advmod	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004601
+# text = Det er eit tilbakevendande problem at forlaga ikkje greier å levera nynorskutgåvene til rett tid.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(dot~20060901_844__T173--1
+4	tilbakevendande	tilbakevendande	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O
+5	problem	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=dot~20060901_844__T173)
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	forlaga	forlag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	nsubj	_	name=O|Entity=(dot~20060901_844__2358--1)
+8	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	name=O
+9	greier	greie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	csubj	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	levera	levere	VERB	_	VerbForm=Inf	9	xcomp	_	name=O
+12	nynorskutgåvene	nynorskutgåve	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	11	obj	_	name=O|Entity=(dot~20060901_844__4409--1)
+13	til	til	ADP	_	_	15	case	_	name=O
+14	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(dot~20060901_844__T176--1
+15	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T176)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004602
+# text = - Så du legg i dette tilfelle skulda på Gyldendal?
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Så	så	CCONJ	_	_	4	cc	_	name=O
+3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	name=O|Entity=(dot~20060901_844__5860--1)
+4	legg	leggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(dot~20060901_844__T178--1
+7	tilfelle	tilfelle	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=dot~20060901_844__T178)
+8	skulda	skuld	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=(dot~20060901_844__T179--1)
+9	på	på	ADP	_	_	10	case	_	name=O
+10	Gyldendal	Gyldendal	PROPN	_	_	4	obl	_	SpaceAfter=No|name=B-ORG|Entity=(dot~20060901_844__8494--1)
+11	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004603
+# text = - Eg kjenner ikkje detaljane godt nok, men eg ser at forlaga har hatt ein stram tidsplan.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20060901_844__5860--1)
+3	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	detaljane	detalj	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obj	_	name=O|Entity=(dot~20060901_844__T182--1)
+6	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+7	nok	nok	ADV	_	_	6	advmod	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	men	men	CCONJ	_	_	11	cc	_	name=O
+10	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(dot~20060901_844__5860--1)
+11	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	forlaga	forlag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	15	nsubj	_	name=O|Entity=(dot~20060901_844__2358--1)
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	hatt	ha	VERB	_	VerbForm=Part	11	ccomp	_	name=O
+16	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(dot~20060901_844__T185--1
+17	stram	stram	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	tidsplan	tidsplan	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T185)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004604
+# text = - Alle har jo visst i lang tid at dette ikkje kom til å gå.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	5	nsubj	_	name=O|Entity=(dot~20060901_844__T186--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	jo	jo	INTJ	_	_	5	obl	_	name=O
+5	visst	vite	VERB	_	VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	lang	lang	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(dot~20060901_844__T187--1
+8	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=dot~20060901_844__T187)
+9	at	at	SCONJ	_	_	12	mark	_	name=O
+10	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(dot~20060901_844__T188--1)
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	name=O
+12	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	name=O
+13	til	til	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	gå	gå	VERB	_	VerbForm=Inf	12	advcl	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004605
+# text = Burde ikkje lærebøkene vore ferdige i april og fagplanane seinast i oktober, november i fjor?
+1	Burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+2	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+3	lærebøkene	lærebok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	5	nsubj	_	name=O|Entity=(dot~20060901_844__3526--1)
+4	vore	vere	AUX	_	VerbForm=Part	5	cop	_	name=O
+5	ferdige	ferdig	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	april	april	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(dot~20060901_844__T190--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	fagplanane	fagplan	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	conj	_	name=O|Entity=(dot~20060901_844__2392--1
+10	seinast	sein	ADJ	_	Definite=Ind|Degree=Sup	12	advmod	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	oktober	oktober	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	orphan	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T192--1(dot~20060901_844__T193--1
+13	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=dot~20060901_844__T193)
+14	november	november	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	name=O|Entity=(dot~20060901_844__T194--1
+15	i	i	ADP	_	_	16	case	_	name=O
+16	fjor	fjor	NOUN	_	_	14	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T195--1)dot~20060901_844__T194)dot~20060901_844__T192)dot~20060901_844__2392)
+17	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004606
+# text = - Då ville vi hatt ein for kort fase for innspel og tilbakemelding av planane.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Då	då	ADV	_	_	5	advmod	_	name=O
+3	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+4	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20060901_844__T196--1)
+5	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(dot~20060901_844__T197--1
+7	for	for	ADV	_	_	8	advmod	_	name=O
+8	kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	fase	fase	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O
+10	for	for	ADP	_	_	11	case	_	name=O
+11	innspel	innspel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	nmod	_	name=O|Entity=(dot~20060901_844__T198--1(dot~20060901_844__T199--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	tilbakemelding	tilbakemelding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	conj	_	name=O|Entity=(dot~20060901_844__T200--1
+14	av	av	ADP	_	_	15	case	_	name=O
+15	planane	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__2392--1)dot~20060901_844__T200)dot~20060901_844__T198)dot~20060901_844__T197)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004607
+# text = - Ja, og difor burde vel heile reforma vore utsett eit år.
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	Ja	ja	INTJ	_	_	11	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	og	og	CCONJ	_	_	11	cc	_	name=O
+5	difor	difor	ADV	_	_	11	advmod	_	name=O
+6	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+7	vel	vel	ADV	_	_	11	advmod	_	name=O
+8	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(dot~20060901_844__3433--1
+9	reforma	reform	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	name=O|Entity=dot~20060901_844__3433)
+10	vore	vere	AUX	_	VerbForm=Part	11	aux	_	name=O
+11	utsett	utsetje	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+12	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(dot~20060901_844__T203--1
+13	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=dot~20060901_844__T203)
+14	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 004608
+# text = Kvifor hasta det slik?
+1	Kvifor	kvifor	ADV	_	_	2	advmod	_	name=O
+2	hasta	haste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	slik	slik	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+5	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004609
+# text = - Om ein berre tok utgangspunkt i lærebokproblemet, er det rett.
+1	-	$-	PUNCT	_	_	12	punct	_	name=O
+2	Om	om	SCONJ	_	_	5	mark	_	name=O
+3	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	5	nsubj	_	name=O|Entity=(dot~20060901_844__T204--1)
+4	berre	berre	ADV	_	_	5	advmod	_	name=O
+5	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	name=O
+6	utgangspunkt	utgangspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(dot~20060901_844__T205--1)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	lærebokproblemet	lærebokproblem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T206--1)
+9	,	$,	PUNCT	_	_	5	punct	_	name=O
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(dot~20060901_844__T207--1)
+12	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 004610
+# text = Men ut frå ei totalvurdering meinte vi det var rett å halda tidsplanen.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	ut	ut	ADP	_	_	5	case	_	name=O
+3	frå	frå	ADP	_	_	5	case	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(dot~20060901_844__T208--1
+5	totalvurdering	totalvurdering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=dot~20060901_844__T208)
+6	meinte	meine	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(dot~20060901_844__T209--1)
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+9	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	name=O
+10	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	xcomp	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	halda	halde	VERB	_	VerbForm=Inf	10	csubj	_	name=O
+13	tidsplanen	tidsplan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T210--1)
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004611
+# text = - Nynorskelevane i yrkesfaga ser kanskje annleis på det?
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Nynorskelevane	nynorskelev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=(dot~20060901_844__71026--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	yrkesfaga	yrkesfag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=(dot~20060901_844__4256--1)dot~20060901_844__71026)
+5	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	kanskje	kanskje	ADV	_	_	5	advmod	_	name=O
+7	annleis	annleis	ADV	_	_	5	advmod	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No|name=O|Entity=(dot~20060901_844__T213--1)
+10	?	$?	PUNCT	_	_	5	punct	_	name=O
+

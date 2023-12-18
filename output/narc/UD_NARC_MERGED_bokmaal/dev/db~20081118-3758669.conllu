@@ -1,0 +1,541 @@
+# newdoc id = db~20081118-3758669
+# global.Entity = eid-etype-head-other
+# sent_id = 017179
+# text = Dødssyke Hannah får oppfylt sitt siste ønske likevel
+1	Dødssyke	dødssyk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(db~20081118_3758669__362164--1
+2	Hannah	Hannah	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=db~20081118_3758669__362164)
+3	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	oppfylt	oppfylle	VERB	_	VerbForm=Part	0	root	_	name=O
+5	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(db~20081118_3758669__T3--1(db~20081118_3758669__362164--1)
+6	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	ønske	ønske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=db~20081118_3758669__T3)
+8	likevel	likevel	ADV	_	_	4	advmod	_	name=O
+
+# newpar
+# sent_id = 017180
+# text = Forsikringsselskapet lar henne dra til Disneyland.
+1	Forsikringsselskapet	forsikringsselskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(db~20081118_3758669__T4--1)
+2	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	henne	hun	PRON	_	Animacy=Hum|Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+4	dra	dra	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	Disneyland	Disneyland	PROPN	_	_	4	obl	_	SpaceAfter=No|name=B-LOC|Entity=(db~20081118_3758669__376--1)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 017181
+# text = Får dø hjemme:
+1	Får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	name=O
+2	dø	dø	VERB	_	VerbForm=Inf	0	root	_	name=O
+3	hjemme	hjemme	ADP	_	_	2	compound:prt	_	SpaceAfter=No|name=O
+4	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 017182
+# text = Kreftsyke Hannah Jones (13) overbeviste britiske helsemyndigheter om å få slippe en hjertetransplantasjon.
+1	Kreftsyke	kreftsyk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(db~20081118_3758669__362164--1
+2	Hannah	Hannah	PROPN	_	_	7	nsubj	_	name=B-PER
+3	Jones	Jones	PROPN	_	_	2	flat:name	_	name=I-PER
+4	(	$(	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+5	13	13	NUM	_	Number=Plur|NumType=Card	2	nmod	_	SpaceAfter=No|name=O
+6	)	$)	PUNCT	_	_	5	punct	_	name=O|Entity=db~20081118_3758669__362164)
+7	overbeviste	overbevise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	britiske	britisk	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(db~20081118_3758669__T8--1
+9	helsemyndigheter	helsemyndighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	name=O|Entity=db~20081118_3758669__T8)
+10	om	om	SCONJ	_	_	13	mark	_	name=O
+11	å	å	PART	_	_	13	mark	_	name=O
+12	få	få	AUX	_	VerbForm=Inf	13	aux	_	name=O
+13	slippe	slippe	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+14	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(db~20081118_3758669__T9--1
+15	hjertetransplantasjon	hjertetransplantasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T9)
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017183
+# text = Hun vil heller tilbringe de siste månedene av sitt liv hjemme hos familien.
+1	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	heller	heller	ADV	_	_	4	advmod	_	name=O
+4	tilbringe	tilbringe	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	de	de	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(db~20081118_3758669__T11--1
+6	siste	sist	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	månedene	måned	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	obj	_	name=O
+8	av	av	ADP	_	_	10	case	_	name=O
+9	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(db~20081118_3758669__T13--1(db~20081118_3758669__362164--1)
+10	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=db~20081118_3758669__T13)db~20081118_3758669__T11)
+11	hjemme	hjemme	ADP	_	_	13	case	_	name=O
+12	hos	hos	ADP	_	_	13	case	_	name=O
+13	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Bridge=db~20081118_3758669__362164<db~20081118_3758669__4197:default|Entity=(db~20081118_3758669__4197--1)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017184
+# text = Liker Disney:
+1	Liker	like	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	Disney	Disney	PROPN	_	_	1	obj	_	SpaceAfter=No|name=B-ORG|Entity=(db~20081118_3758669__T15--1)
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017185
+# text = Hannah var i Euro Disney for flere år siden.
+1	Hannah	Hannah	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(db~20081118_3758669__362164--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Euro	Euro	PROPN	_	_	0	root	_	name=B-LOC|Entity=(db~20081118_3758669__T17--1
+5	Disney	Disney	PROPN	_	_	4	flat:name	_	name=I-LOC|Entity=db~20081118_3758669__T17)
+6	for	for	ADP	_	_	8	case	_	name=O
+7	flere	mange	ADJ	_	Degree=Cmp	8	amod	_	name=O|Entity=(db~20081118_3758669__T18--1
+8	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O
+9	siden	siden	ADV	_	_	8	advmod	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T18)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017186
+# text = Nå får hun oppfylt drømmen om å dra til Disneyland i USA.
+1	Nå	nå	ADV	_	_	4	advmod	_	name=O
+2	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+4	oppfylt	oppfylle	VERB	_	VerbForm=Part	0	root	_	name=O
+5	drømmen	drøm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(db~20081118_3758669__T20--1
+6	om	om	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	dra	dra	VERB	_	VerbForm=Inf	5	acl	_	name=O
+9	til	til	ADP	_	_	10	case	_	name=O
+10	Disneyland	Disneyland	PROPN	_	_	8	obl	_	name=B-LOC|Entity=(db~20081118_3758669__376--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	USA	USA	PROPN	_	Abbr=Yes	10	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081118_3758669__273--1)db~20081118_3758669__376)db~20081118_3758669__T20)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017187
+# text = Overbeviste med sin modenhet:
+1	Overbeviste	overbevise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	med	med	ADP	_	_	4	case	_	name=O
+3	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(db~20081118_3758669__T24--1(db~20081118_3758669__362164--1)
+4	modenhet	modenhet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T24)
+5	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017188
+# text = Hannah Jones fikk selv velge at hun ikke skal få et nytt hjerte.
+1	Hannah	Hannah	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(db~20081118_3758669__362164--1
+2	Jones	Jones	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081118_3758669__362164)
+3	fikk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+4	selv	selv	ADV	_	_	5	advmod	_	name=O
+5	velge	velge	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	at	at	SCONJ	_	_	10	mark	_	name=O
+7	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+8	ikke	ikke	PART	_	Polarity=Neg	10	advmod	_	name=O
+9	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	få	få	VERB	_	VerbForm=Inf	5	ccomp	_	name=O
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(db~20081118_3758669__T27--1
+12	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	name=O
+13	hjerte	hjerte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T27)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017189
+# text = Historien om Hannah har fått stor oppmerksomhet i britiske medier, blant annet Sky News.
+1	Historien	historie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(db~20081118_3758669__T28--1
+2	om	om	ADP	_	_	3	case	_	name=O
+3	Hannah	Hannah	PROPN	_	_	1	nmod	_	name=B-PER|Entity=(db~20081118_3758669__362164--1)db~20081118_3758669__T28)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+6	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(db~20081118_3758669__T30--1
+7	oppmerksomhet	oppmerksomhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	name=O
+8	i	i	ADP	_	_	14	case	_	name=O
+9	britiske	britisk	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(db~20081118_3758669__T32--1(db~20081118_3758669__T31--1
+10	medier	medium	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=db~20081118_3758669__T31)
+12	blant	blant	ADP	_	_	13	case	_	name=O
+13	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	14	nmod	_	name=O
+14	Sky	Sky	PROPN	_	_	7	nmod	_	name=B-ORG|Entity=(db~20081118_3758669__3273--1
+15	News	News	PROPN	_	_	14	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=db~20081118_3758669__3273)db~20081118_3758669__T32)db~20081118_3758669__T30)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017190
+# text = Dødssyke Hannah Jones (13) har sagt nei til et nytt hjerte.
+1	Dødssyke	dødssyk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(db~20081118_3758669__362164--1
+2	Hannah	Hannah	PROPN	_	_	8	nsubj	_	name=B-PER
+3	Jones	Jones	PROPN	_	_	2	flat:name	_	name=I-PER
+4	(	$(	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+5	13	13	NUM	_	Number=Plur|NumType=Card	2	nmod	_	SpaceAfter=No|name=O
+6	)	$)	PUNCT	_	_	5	punct	_	name=O|Entity=db~20081118_3758669__362164)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	sagt	si	VERB	_	VerbForm=Part	0	root	_	name=O
+9	nei	nei	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	name=O|Entity=(db~20081118_3758669__T34--1
+10	til	til	ADP	_	_	13	case	_	name=O
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(db~20081118_3758669__T35--1
+12	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	name=O
+13	hjerte	hjerte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T35)db~20081118_3758669__T34)
+14	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 017191
+# text = Hun orker ikke en ny operasjon, og vil heller dø hjemme.
+1	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+2	orker	orke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(db~20081118_3758669__T37--1
+5	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	operasjon	operasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T37)
+7	,	$,	PUNCT	_	_	11	punct	_	name=O
+8	og	og	CCONJ	_	_	11	cc	_	name=O
+9	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+10	heller	heller	ADV	_	_	11	advmod	_	name=O
+11	dø	dø	VERB	_	VerbForm=Inf	2	conj	_	name=O
+12	hjemme	hjemme	ADP	_	_	11	compound:prt	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017192
+# text = Hannah ønsker å få tilbringe sine siste dager hjemme sammen med foreldrene og søsknene Oliver (11), Lucy (10) og Phoebe (4).
+1	Hannah	Hannah	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(db~20081118_3758669__362164--1)
+2	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	5	mark	_	name=O
+4	få	få	AUX	_	VerbForm=Inf	5	aux	_	name=O
+5	tilbringe	tilbringe	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+6	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(db~20081118_3758669__T40--1(db~20081118_3758669__362164--1)
+7	siste	sist	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obj	_	name=O|Entity=db~20081118_3758669__T40)
+9	hjemme	hjemme	ADP	_	_	5	compound:prt	_	name=O
+10	sammen	sammen	ADV	_	_	12	advmod	_	name=O
+11	med	med	ADP	_	_	12	case	_	name=O
+12	foreldrene	forelder	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	obl	_	name=O|Entity=(db~20081118_3758669__4197--1(db~20081118_3758669__296--1)
+13	og	og	CCONJ	_	_	15	cc	_	name=O
+14	søsknene	søsken	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	15	nmod	_	name=O|Entity=(db~20081118_3758669__T43--1(db~20081118_3758669__T44--1
+15	Oliver	Oliver	PROPN	_	_	12	conj	_	name=B-PER
+16	(	$(	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O
+17	11	11	NUM	_	Number=Plur|NumType=Card	15	nmod	_	SpaceAfter=No|name=O
+18	)	$)	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O
+19	,	$,	PUNCT	_	_	20	punct	_	name=O|Entity=db~20081118_3758669__T44)
+20	Lucy	Lucy	PROPN	_	_	15	conj	_	name=B-PER|Entity=(db~20081118_3758669__T45--1
+21	(	$(	PUNCT	_	_	22	punct	_	SpaceAfter=No|name=O
+22	10	10	NUM	_	Number=Plur|NumType=Card	20	nmod	_	SpaceAfter=No|name=O
+23	)	$)	PUNCT	_	_	22	punct	_	name=O|Entity=db~20081118_3758669__T45)
+24	og	og	CCONJ	_	_	25	cc	_	name=O
+25	Phoebe	Phoebe	PROPN	_	_	15	conj	_	name=B-PER|Entity=(db~20081118_3758669__T46--1
+26	(	$(	PUNCT	_	_	27	punct	_	SpaceAfter=No|name=O
+27	4	4	NUM	_	Number=Plur|NumType=Card	25	nmod	_	SpaceAfter=No|name=O
+28	)	$)	PUNCT	_	_	27	punct	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T46)db~20081118_3758669__T43)db~20081118_3758669__4197)
+29	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017193
+# text = Samtidig har hun en siste drøm:
+1	Samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(db~20081118_3758669__T48--1
+5	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	drøm	drøm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T48)
+7	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017194
+# text = Å få reise til Disneyland i Orlando i USA.
+1	Å	å	PART	_	_	3	mark	_	name=O
+2	få	få	AUX	_	VerbForm=Inf	3	aux	_	name=O
+3	reise	reise	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	Disneyland	Disneyland	PROPN	_	_	3	obl	_	name=B-LOC|Entity=(db~20081118_3758669__376--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Orlando	Orlando	PROPN	_	_	5	nmod	_	name=B-GPE_LOC|Entity=(db~20081118_3758669__T50--1
+8	i	i	ADP	_	_	9	case	_	name=O
+9	USA	USA	PROPN	_	Abbr=Yes	7	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081118_3758669__273--1)db~20081118_3758669__T50)db~20081118_3758669__376)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017195
+# text = Fikk ikke reiseforsikring
+1	Fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	ikke	ikke	PART	_	Polarity=Neg	1	advmod	_	name=O
+3	reiseforsikring	reiseforsikring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	name=O|Entity=(db~20081118_3758669__T52--1)
+
+# sent_id = 017196
+# text = 13-åringenes foreldre forsøkte å få henne med på en gruppetur med 40 andre syke eller funksjonshemmede barn, arrangert av veldedige Caudwell Children.
+1	13-åringenes	13-åringen	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(db~20081118_3758669__296--1(db~20081118_3758669__362164--1)
+2	foreldre	forelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=db~20081118_3758669__296)
+3	forsøkte	forsøke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	få	få	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	henne	hun	PRON	_	Animacy=Hum|Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+7	med	med	ADP	_	_	5	compound:prt	_	name=O
+8	på	på	ADP	_	_	10	case	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(db~20081118_3758669__2123--1
+10	gruppetur	gruppetur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O
+11	med	med	ADP	_	_	17	case	_	name=O
+12	40	40	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(db~20081118_3758669__2116--1
+13	andre	annen	DET	_	Number=Plur|PronType=Dem	17	det	_	name=O
+14	syke	syk	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O
+15	eller	eller	CCONJ	_	_	16	cc	_	name=O
+16	funksjonshemmede	funksjonshemmet	ADJ	_	Degree=Pos|Number=Plur	14	conj	_	name=O
+17	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__2116)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	arrangert	arrangere	VERB	_	VerbForm=Part	10	acl:relcl	_	name=O
+20	av	av	ADP	_	_	22	case	_	name=O
+21	veldedige	veldedig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O|Entity=(db~20081118_3758669__T58--1
+22	Caudwell	Caudwell	PROPN	_	_	19	obl	_	name=B-ORG
+23	Children	Children	PROPN	_	_	22	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=db~20081118_3758669__T58)db~20081118_3758669__2123)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017197
+# text = Alle barna fikk reiseforsikring.
+1	Alle	all	DET	_	Number=Plur|PronType=Tot	2	det	_	name=O|Entity=(db~20081118_3758669__2116--1
+2	barna	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=db~20081118_3758669__2116)
+3	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	reiseforsikring	reiseforsikring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=(db~20081118_3758669__T60--1)
+5	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017198
+# text = Men ikke Hannah, selv om familien prøvde hos en rekke selskaper.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O|Entity=(db~20081118_3758669__T61--1
+3	Hannah	Hannah	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-PER|Entity=(db~20081118_3758669__362164--1)
+4	,	$,	PUNCT	_	_	8	punct	_	name=O
+5	selv	selv	ADV	_	_	6	advmod	_	name=O
+6	om	om	SCONJ	_	_	8	mark	_	name=O
+7	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(db~20081118_3758669__4197--1)
+8	prøvde	prøve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	name=O
+9	hos	hos	ADP	_	_	12	case	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(db~20081118_3758669__T64--1(db~20081118_3758669__T63--1
+11	rekke	rekke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=db~20081118_3758669__T63)
+12	selskaper	selskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T64)db~20081118_3758669__T61)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017199
+# text = Det så ut til at det aldri skulle bli noe av turen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081118_3758669__T65--1)
+2	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ut	ut	ADP	_	_	2	compound:prt	_	name=O
+4	til	til	SCONJ	_	_	9	mark	_	name=O
+5	at	at	SCONJ	_	_	9	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+7	aldri	aldri	ADV	_	_	9	advmod	_	name=O
+8	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+9	bli	bli	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+10	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	9	xcomp	_	name=O|Entity=(db~20081118_3758669__T66--1
+11	av	av	ADP	_	_	12	case	_	name=O
+12	turen	tur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081118_3758669__2123--1)db~20081118_3758669__T66)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017200
+# text = Men nå har et selskap meldt seg og sagt seg villig til å forsikre 13-åringen, melder Sky News.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	nå	nå	ADV	_	_	6	advmod	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(db~20081118_3758669__4421--1
+5	selskap	selskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=db~20081118_3758669__4421)
+6	meldt	melde	VERB	_	VerbForm=Part	0	root	_	name=O
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	name=O|Entity=(db~20081118_3758669__4421--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	sagt	si	VERB	_	VerbForm=Part	6	conj	_	name=O
+10	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	name=O|Entity=(db~20081118_3758669__4421--1)
+11	villig	villig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	xcomp	_	name=O
+12	til	til	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	forsikre	forsikre	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+15	13-åringen	13-åring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=(db~20081118_3758669__362164--1)
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	melder	melde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+18	Sky	Sky	PROPN	_	_	17	nsubj	_	name=B-ORG|Entity=(db~20081118_3758669__3273--1
+19	News	News	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=db~20081118_3758669__3273)
+20	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017201
+# text = - Jeg er henrykt og overveldet, sier hun til TV-kanalen.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	henrykt	henrykke	VERB	_	VerbForm=Part	0	root	_	name=O
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	overveldet	overvelde	VERB	_	VerbForm=Part	4	conj	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+9	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+10	til	til	ADP	_	_	11	case	_	name=O
+11	TV-kanalen	TV-kanal	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(db~20081118_3758669__3273--1)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017202
+# text = - En uke vekk fra rutinene på sykehuset vil være en fin avkobling for meg og familien min, vi vil være som en vanlig familie en liten stund, sier hun.
+1	-	$-	PUNCT	_	_	13	punct	_	name=O
+2	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(db~20081118_3758669__T74--1
+3	uke	uke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	name=O
+4	vekk	vekk	ADP	_	_	6	case	_	name=O
+5	fra	fra	ADP	_	_	6	case	_	name=O
+6	rutinene	rutine	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	name=O|Entity=(db~20081118_3758669__T75--1
+7	på	på	ADP	_	_	8	case	_	name=O
+8	sykehuset	sykehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(db~20081118_3758669__T76--1)db~20081118_3758669__T75)db~20081118_3758669__T74)
+9	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+10	være	være	AUX	_	VerbForm=Inf	13	cop	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(db~20081118_3758669__T77--1
+12	fin	fin	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	avkobling	avkobling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+14	for	for	ADP	_	_	15	case	_	name=O
+15	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	13	nmod	_	name=O|Entity=(db~20081118_3758669__8735--1(db~20081118_3758669__362164--1)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	conj	_	name=O|Entity=(db~20081118_3758669__4197--1
+18	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081118_3758669__362164--1)db~20081118_3758669__4197)db~20081118_3758669__8735)db~20081118_3758669__T77)
+19	,	$,	PUNCT	_	_	26	punct	_	name=O
+20	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	name=O|Entity=(db~20081118_3758669__8735--1)
+21	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	name=O
+22	være	være	AUX	_	VerbForm=Inf	26	cop	_	name=O
+23	som	som	ADP	_	_	26	case	_	name=O
+24	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(db~20081118_3758669__T83--1
+25	vanlig	vanlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	familie	familie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	name=O|Entity=db~20081118_3758669__T83)
+27	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	29	det	_	name=O|Entity=(db~20081118_3758669__T84--1
+28	liten	liten	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	29	amod	_	name=O
+29	stund	stund	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T84)
+30	,	$,	PUNCT	_	_	26	punct	_	name=O
+31	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	parataxis	_	name=O
+32	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	SpaceAfter=No|name=O|Entity=(db~20081118_3758669__362164--1)
+33	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 017203
+# text = - Gleder oss
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Gleder	glede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	name=O|Entity=(db~20081118_3758669__8735--1)
+
+# sent_id = 017204
+# text = Navnet på selskapet som oppfyller Hannahs drøm er ikke kjent.
+1	Navnet	navn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(db~20081118_3758669__T87--1
+2	på	på	ADP	_	_	3	case	_	name=O
+3	selskapet	selskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(db~20081118_3758669__4421--1
+4	som	som	PRON	_	PronType=Rel	5	nsubj	_	name=O
+5	oppfyller	oppfylle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	name=O
+6	Hannahs	Hannah	PROPN	_	Case=Gen	7	nmod	_	name=B-PER|Entity=(db~20081118_3758669__T90--1(db~20081118_3758669__362164--1)
+7	drøm	drøm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=db~20081118_3758669__T90)db~20081118_3758669__4421)db~20081118_3758669__T87)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+9	ikke	ikke	PART	_	Polarity=Neg	10	advmod	_	name=O
+10	kjent	kjent	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 017205
+# text = Hannahs far, Andrew Jones, taker nå alle som har hjulpet familien.
+1	Hannahs	Hannah	PROPN	_	Case=Gen	2	nmod	_	name=B-PER|Entity=(db~20081118_3758669__2196--1(db~20081118_3758669__T92--1(db~20081118_3758669__362164--1)
+2	far	far	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O|Entity=db~20081118_3758669__T92)
+4	Andrew	Andrew	PROPN	_	_	7	nsubj	_	name=B-PER
+5	Jones	Jones	PROPN	_	_	4	flat:name	_	SpaceAfter=No|name=I-PER
+6	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=db~20081118_3758669__2196)
+7	taker	takke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	nå	nå	ADV	_	_	7	advmod	_	name=O
+9	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	7	obj	_	name=O|Entity=(db~20081118_3758669__T94--1
+10	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	hjulpet	hjelpe	VERB	_	VerbForm=Part	9	acl:relcl	_	name=O
+13	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|name=O|Entity=(db~20081118_3758669__8735--1)db~20081118_3758669__T94)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017206
+# text = - Vi er veldig glade for at vi får til dette, og gleder oss til å se smilet hennes når vi kommer dit, sier han.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081118_3758669__8735--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	glade	glad	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	for	for	SCONJ	_	_	9	mark	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	name=O|Entity=(db~20081118_3758669__8735--1)
+9	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+10	til	til	ADP	_	_	9	compound:prt	_	name=O
+11	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No|name=O|Entity=(db~20081118_3758669__T98--1)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	gleder	glede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+15	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	14	obj	_	name=O|Entity=(db~20081118_3758669__8735--1)
+16	til	til	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	se	se	VERB	_	VerbForm=Inf	14	advcl	_	name=O
+19	smilet	smil	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	obj	_	name=O|Entity=(db~20081118_3758669__T100--1
+20	hennes	hennes	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(db~20081118_3758669__362164--1)db~20081118_3758669__T100)
+21	når	når	SCONJ	_	_	23	mark	_	name=O
+22	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	name=O|Entity=(db~20081118_3758669__8735--1)
+23	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	name=O
+24	dit	dit	ADV	_	_	23	advmod	_	SpaceAfter=No|name=O
+25	,	$,	PUNCT	_	_	14	punct	_	name=O
+26	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+27	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	SpaceAfter=No|name=O|Entity=(db~20081118_3758669__2196--1)
+28	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017207
+# text = Hannah Jones fikk konstatert leukemi da hun var fem år, og har gått på tunge medisiner i flere år.
+1	Hannah	Hannah	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(db~20081118_3758669__362164--1
+2	Jones	Jones	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081118_3758669__362164)
+3	fikk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	konstatert	konstatere	VERB	_	VerbForm=Part	0	root	_	name=O
+5	leukemi	leukemi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(db~20081118_3758669__T105--1)
+6	da	da	SCONJ	_	_	10	mark	_	name=O
+7	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+8	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	name=O
+9	fem	fem	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(db~20081118_3758669__T107--1
+10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	advcl	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=db~20081118_3758669__T107)
+12	og	og	CCONJ	_	_	14	cc	_	name=O
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	gått	gå	VERB	_	VerbForm=Part	4	conj	_	name=O
+15	på	på	ADP	_	_	17	case	_	name=O
+16	tunge	tung	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(db~20081118_3758669__2219--1
+17	medisiner	medisin	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	name=O|Entity=db~20081118_3758669__2219)
+18	i	i	ADP	_	_	20	case	_	name=O
+19	flere	mange	ADJ	_	Degree=Cmp	20	amod	_	name=O|Entity=(db~20081118_3758669__T109--1
+20	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T109)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017208
+# text = Til slutt førte medisinene til en alvorlig hjertefeil, og Hannah har i dag et hull i hjertet.
+1	Til	til	ADP	_	_	2	case	_	name=O
+2	slutt	slutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(db~20081118_3758669__T110--1)
+3	førte	føre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	medisinene	medisin	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(db~20081118_3758669__2219--1)
+5	til	til	ADP	_	_	8	case	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(db~20081118_3758669__T112--1
+7	alvorlig	alvorlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	hjertefeil	hjertefeil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T112)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	Hannah	Hannah	PROPN	_	_	12	nsubj	_	name=B-PER|Entity=(db~20081118_3758669__362164--1)
+12	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(db~20081118_3758669__T114--1)
+15	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(db~20081118_3758669__T115--1
+16	hull	hull	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	name=O
+17	i	i	ADP	_	_	18	case	_	name=O
+18	hjertet	hjerte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Bridge=db~20081118_3758669__362164<db~20081118_3758669__T116:default|Entity=(db~20081118_3758669__T116--1)db~20081118_3758669__T115)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017209
+# text = Da legene foreslo en hjertetransplantasjon svarte jenta nei.
+1	Da	da	SCONJ	_	_	3	mark	_	name=O
+2	legene	lege	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(db~20081118_3758669__T117--1)
+3	foreslo	foreslå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(db~20081118_3758669__T118--1
+5	hjertetransplantasjon	hjertetransplantasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=db~20081118_3758669__T118)
+6	svarte	svare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	jenta	jente	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+8	nei	nei	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No|name=O|Entity=(db~20081118_3758669__T120--1)
+9	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017210
+# text = Hun ville heller få lov å avslutte livet sammen med sine aller nærmeste, noe som kan bety at hun bare har seks måneder igjen å leve.
+1	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+2	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	heller	heller	ADV	_	_	4	advmod	_	name=O
+4	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	lov	lov	NOUN	_	Gender=Masc	4	obj	_	name=O|Entity=(db~20081118_3758669__T122--1
+6	å	å	PART	_	_	7	mark	_	name=O
+7	avslutte	avslutte	VERB	_	VerbForm=Inf	5	acl	_	name=O
+8	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obj	_	name=O|Bridge=db~20081118_3758669__362164<db~20081118_3758669__T123:default|Entity=(db~20081118_3758669__T123--1)
+9	sammen	sammen	ADV	_	_	13	advmod	_	name=O
+10	med	med	ADP	_	_	13	case	_	name=O
+11	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(db~20081118_3758669__T125--1(db~20081118_3758669__T124--1(db~20081118_3758669__362164--1)
+12	aller	aller	ADV	_	_	11	advmod	_	name=O|Entity=db~20081118_3758669__T124)
+13	nærmeste	nær	ADJ	_	Definite=Def|Degree=Sup	7	advmod	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T125)db~20081118_3758669__T122)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	4	appos	_	name=O|Entity=(db~20081118_3758669__T126--1
+16	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+17	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	bety	bety	VERB	_	VerbForm=Inf	15	acl:relcl	_	name=O
+19	at	at	SCONJ	_	_	22	mark	_	name=O
+20	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(db~20081118_3758669__362164--1)
+21	bare	bare	ADV	_	_	22	advmod	_	name=O
+22	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	ccomp	_	name=O
+23	seks	seks	NUM	_	Number=Plur|NumType=Card	24	nummod	_	name=O|Entity=(db~20081118_3758669__T128--1
+24	måneder	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	obj	_	name=O
+25	igjen	igjen	ADV	_	_	24	advmod	_	name=O
+26	å	å	PART	_	_	27	mark	_	name=O
+27	leve	leve	VERB	_	VerbForm=Inf	24	acl	_	SpaceAfter=No|name=O|Entity=db~20081118_3758669__T128)db~20081118_3758669__T126)
+28	.	$.	PUNCT	_	_	4	punct	_	name=O
+

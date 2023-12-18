@@ -1,0 +1,507 @@
+# newdoc id = firdann~20100305-5007938
+# global.Entity = eid-etype-head-other
+# sent_id = 005466
+# text = Statsrådsprik om sjukehus
+1	Statsrådsprik	statsrådsprik	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20100305_5007938__T1--1
+2	om	om	ADP	_	_	3	case	_	name=O
+3	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20100305_5007938__T2--1)firdann~20100305_5007938__T1)
+
+# newpar
+# sent_id = 005467
+# text = Ifølgje Sogn Avis, går Liv Signe Navarsete (Sp) ut mot sjukehusløysinga helseministeren nærast velsigna.
+1	Ifølgje	ifølgje	ADP	_	_	2	case	_	name=O
+2	Sogn	Sogn	PROPN	_	_	5	obl	_	name=B-PROD|Entity=(firdann~20100305_5007938__5232--1
+3	Avis	Avis	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=firdann~20100305_5007938__5232)
+4	,	$,	PUNCT	_	_	2	punct	_	name=O
+5	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	Liv	Liv	NOUN	_	Gender=Fem	5	nsubj	_	name=B-PER|Entity=(firdann~20100305_5007938__9632--1
+7	Signe	Signe	NOUN	_	Gender=Fem	6	flat:name	_	name=I-PER
+8	Navarsete	Navarsete	PROPN	_	_	6	flat:name	_	name=I-PER
+9	(	$(	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007938__281--1
+10	Sp	Sp	NOUN	_	Abbr=Yes	6	nmod	_	SpaceAfter=No|name=B-ORG
+11	)	$)	PUNCT	_	_	10	punct	_	name=O|Entity=firdann~20100305_5007938__281)firdann~20100305_5007938__9632)
+12	ut	ut	ADP	_	_	5	compound:prt	_	name=O
+13	mot	mot	ADP	_	_	14	case	_	name=O
+14	sjukehusløysinga	sjukehusløysing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=(firdann~20100305_5007938__385--1
+15	helseministeren	helseminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(firdann~20100305_5007938__9409--1)
+16	nærast	nær	ADJ	_	Definite=Ind|Degree=Sup	17	advmod	_	name=O
+17	velsigna	velsigne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__385)
+18	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 005468
+# text = Reagerer:
+1	Reagerer	reagere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 005469
+# text = Liv Signe Navarsete.
+1	Liv	Liv	NOUN	_	Gender=Fem	0	root	_	name=B-PER|Entity=(firdann~20100305_5007938__9632--1
+2	Signe	Signe	NOUN	_	Gender=Fem	1	flat:name	_	name=I-PER
+3	Navarsete	Navarsete	PROPN	_	_	1	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20100305_5007938__9632)
+4	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 005470
+# text = På nettsida si skriv Sogn Avis at Sp-leiar og kommunalminister Liv Signe Navarsete meiner helseministeren må reagere, når Helse Førde kjem med eit framlegg til strukturendring stikk i strid med det som står i regjeringserklæringa.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	nettsida	nettside	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=(firdann~20100305_5007938__T9--1
+3	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(firdann~20100305_5007938__5232--1)firdann~20100305_5007938__T9)
+4	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	Sogn	Sogn	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(firdann~20100305_5007938__5232--1
+6	Avis	Avis	PROPN	_	_	5	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007938__5232)
+7	at	at	SCONJ	_	_	14	mark	_	name=O
+8	Sp-leiar	SP-leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=B-DRV|Entity=(firdann~20100305_5007938__9632--1(firdann~20100305_5007938__T12--1
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	kommunalminister	kommunalminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	name=O|Entity=(firdann~20100305_5007938__T13--1)firdann~20100305_5007938__T12)
+11	Liv	Liv	NOUN	_	Gender=Fem	14	nsubj	_	name=B-PER
+12	Signe	Signe	NOUN	_	Gender=Fem	11	flat:name	_	name=I-PER
+13	Navarsete	Navarsete	PROPN	_	_	11	flat:name	_	name=I-PER|Entity=firdann~20100305_5007938__9632)
+14	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	name=O
+15	helseministeren	helseminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(firdann~20100305_5007938__9409--1)
+16	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	reagere	reagere	VERB	_	VerbForm=Inf	14	ccomp	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	22	punct	_	name=O
+19	når	når	SCONJ	_	_	22	mark	_	name=O
+20	Helse	Helse	PROPN	_	_	22	nsubj	_	name=B-ORG|Entity=(firdann~20100305_5007938__5292--1
+21	Førde	Førde	PROPN	_	_	20	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007938__5292)
+22	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	name=O
+23	med	med	ADP	_	_	25	case	_	name=O
+24	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(firdann~20100305_5007938__278--1
+25	framlegg	framlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	obl	_	name=O
+26	til	til	ADP	_	_	27	case	_	name=O
+27	strukturendring	strukturendring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	name=O|Entity=(firdann~20100305_5007938__T18--1)
+28	stikk	stikk	ADV	_	_	30	advmod	_	name=O
+29	i	i	ADP	_	_	30	case	_	name=O
+30	strid	strid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	name=O|Entity=(firdann~20100305_5007938__T19--1
+31	med	med	ADP	_	_	32	case	_	name=O
+32	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nmod	_	name=O|Entity=(firdann~20100305_5007938__T20--1
+33	som	som	PRON	_	PronType=Rel	34	nsubj	_	name=O
+34	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	name=O
+35	i	i	ADP	_	_	36	case	_	name=O
+36	regjeringserklæringa	regjeringserklæring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007938__4269--1)firdann~20100305_5007938__T20)firdann~20100305_5007938__T19)firdann~20100305_5007938__278)
+37	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005471
+# text = Firda var til stades på presentasjonen av modellen for ein ny sjukehusstruktur, og var vitne til at helseminister Anne-Grete Strøm-Erichsen (Ap) reagerte - med bortimot begeistring.
+1	Firda	Firda	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(firdann~20100305_5007938__T22--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	stades	stades	NOUN	_	_	0	root	_	name=O|Entity=(firdann~20100305_5007938__T23--1)
+5	på	på	ADP	_	_	6	case	_	name=O
+6	presentasjonen	presentasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Bridge=firdann~20100305_5007938__278<firdann~20100305_5007938__T24:default|Entity=(firdann~20100305_5007938__T24--1
+7	av	av	ADP	_	_	8	case	_	name=O
+8	modellen	modell	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20100305_5007938__385--1
+9	for	for	ADP	_	_	12	case	_	name=O
+10	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(firdann~20100305_5007938__T26--1
+11	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	sjukehusstruktur	sjukehusstruktur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__T26)firdann~20100305_5007938__385)firdann~20100305_5007938__T24)
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	og	og	CCONJ	_	_	16	cc	_	name=O
+15	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	name=O
+16	vitne	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	conj	_	name=O|Entity=(firdann~20100305_5007938__T27--1
+17	til	til	SCONJ	_	_	25	mark	_	name=O
+18	at	at	SCONJ	_	_	25	mark	_	name=O
+19	helseminister	helseminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	name=O|Entity=(firdann~20100305_5007938__9409--1
+20	Anne-Grete	Anne-Grete	PROPN	_	_	25	nsubj	_	name=B-PER
+21	Strøm-Erichsen	Strøm-Erichsen	PROPN	_	_	20	flat:name	_	name=I-PER
+22	(	$(	PUNCT	_	_	23	punct	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007938__T29--1
+23	Ap	Ap	NOUN	_	Abbr=Yes	20	nmod	_	SpaceAfter=No|name=B-ORG
+24	)	$)	PUNCT	_	_	23	punct	_	name=O|Entity=firdann~20100305_5007938__T29)firdann~20100305_5007938__9409)
+25	reagerte	reagere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl	_	name=O
+26	-	$-	PUNCT	_	_	29	punct	_	name=O
+27	med	med	ADP	_	_	29	case	_	name=O
+28	bortimot	bortimot	ADP	_	_	29	nmod	_	name=O|Entity=(firdann~20100305_5007938__T30--1
+29	begeistring	begeistring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__T30)firdann~20100305_5007938__T27)
+30	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005472
+# text = Funksjonen viktigast
+1	Funksjonen	funksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20100305_5007938__T31--1)
+2	viktigast	viktig	ADJ	_	Definite=Ind|Degree=Sup	1	xcomp	_	name=O
+
+# sent_id = 005473
+# text = Helseministeren som deltok på gårsdagens dialogmøte i Førde fekk spørsmål nettopp om lokalmedisinske senter kan reknast som sjukehus, og svara følgjande:
+1	Helseministeren	helseminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=(firdann~20100305_5007938__9409--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	deltok	delta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	name=O
+4	på	på	ADP	_	_	6	case	_	name=O
+5	gårsdagens	gårsdag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20100305_5007938__285--1(firdann~20100305_5007938__T33--1)
+6	dialogmøte	dialogmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Førde	Førde	PROPN	_	_	6	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100305_5007938__T35--1)firdann~20100305_5007938__285)firdann~20100305_5007938__9409)
+9	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+10	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	name=O|Entity=(firdann~20100305_5007938__T36--1
+11	nettopp	nettopp	ADV	_	_	12	advmod	_	name=O
+12	om	om	SCONJ	_	_	16	mark	_	name=O
+13	lokalmedisinske	lokalmedisinsk	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O|Entity=(firdann~20100305_5007938__T37--1
+14	senter	senter	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nsubj	_	name=O|Entity=firdann~20100305_5007938__T37)
+15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	reknast	rekne	VERB	_	VerbForm=Inf	10	acl	_	name=O
+17	som	som	SCONJ	_	_	18	mark	_	name=O
+18	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	xcomp	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007938__T38--1)firdann~20100305_5007938__T36)
+19	,	$,	PUNCT	_	_	21	punct	_	name=O
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	svara	svare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	name=O
+22	følgjande	følgje	ADJ	_	VerbForm=Part	21	obj	_	SpaceAfter=No|name=O
+23	:	$:	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 005474
+# text = - Definisjonen av sjukehus er ikkje eintydig, og ein er ikkje lenger i det tradisjonelle definisjonsspennet regionalsjukehus-sentralsjukehus-lokalsjukehus.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Definisjonen	definisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(firdann~20100305_5007938__T39--1
+3	av	av	ADP	_	_	4	case	_	name=O
+4	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20100305_5007938__T40--1)firdann~20100305_5007938__T39)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+6	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	name=O
+7	eintydig	eintydig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	11	nsubj	_	name=O|Entity=(firdann~20100305_5007938__T41--1)
+11	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	name=O
+12	ikkje	ikkje	PART	_	Polarity=Neg	13	advmod	_	name=O
+13	lenger	lenge	ADJ	_	Degree=Cmp	11	advmod	_	name=O
+14	i	i	ADP	_	_	17	case	_	name=O
+15	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(firdann~20100305_5007938__T42--1
+16	tradisjonelle	tradisjonell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	definisjonsspennet	definisjonsspenn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	name=O
+18	regionalsjukehus-sentralsjukehus-lokalsjukehus	regionalsjukehus-sentralsjukehus-lokalsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	appos	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__T42)
+19	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 005475
+# text = Det viktige er at det er ein institusjon som løyser dei behov folk har og som vi ser kjem, sa statsråden.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(firdann~20100305_5007938__T43--1
+2	viktige	viktig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	nsubj	_	name=O|Entity=firdann~20100305_5007938__T43)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+6	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20100305_5007938__T44--1
+8	institusjon	institusjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	løyser	løyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(firdann~20100305_5007938__T45--1
+12	behov	behov	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	name=O
+13	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	nsubj	_	name=O|Entity=(firdann~20100305_5007938__T46--1)
+14	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	name=O
+15	og	og	CCONJ	_	_	18	cc	_	name=O
+16	som	som	PRON	_	PronType=Rel	18	iobj	_	name=O
+17	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(firdann~20100305_5007938__T47--1)
+18	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	name=O
+19	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	xcomp	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__T45)firdann~20100305_5007938__T44)
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	name=O
+22	statsråden	statsråd	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007938__9409--1)
+23	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 005476
+# text = Rosa Helse Førde
+1	Rosa	rose	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	Helse	Helse	PROPN	_	_	1	obj	_	name=B-ORG|Entity=(firdann~20100305_5007938__5292--1
+3	Førde	Førde	PROPN	_	_	2	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007938__5292)
+
+# sent_id = 005477
+# text = Sjølv tala ho under dialogmøtet varmt for lokalmedisinske senter.
+1	Sjølv	sjølv	ADV	_	_	2	advmod	_	name=O
+2	tala	tale	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20100305_5007938__9409--1)
+4	under	under	ADP	_	_	5	case	_	name=O
+5	dialogmøtet	dialogmøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100305_5007938__285--1)
+6	varmt	varm	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+7	for	for	ADP	_	_	9	case	_	name=O
+8	lokalmedisinske	lokalmedisinsk	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(firdann~20100305_5007938__T52--1
+9	senter	senter	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__T52)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005478
+# text = Utan å ta konkret stilling til den tilrådde modellen med eitt sterkt sentralsjukehus og to lokalmedisinske senter i høvesvis Lærdal og på Nordfjordeid, gjekk statsråden langt i å rose det styringsgruppa i Helse Førde no sender ut på høyring.
+1	Utan	utan	SCONJ	_	_	3	mark	_	name=O
+2	å	å	PART	_	_	3	mark	_	name=O
+3	ta	ta	VERB	_	VerbForm=Inf	25	advcl	_	name=O
+4	konkret	konkret	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(firdann~20100305_5007938__T53--1
+5	stilling	stilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O
+6	til	til	ADP	_	_	9	case	_	name=O
+7	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(firdann~20100305_5007938__385--1
+8	tilrådde	tilrå	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	9	amod	_	name=O
+9	modellen	modell	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O
+10	med	med	ADP	_	_	13	case	_	name=O
+11	eitt	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(firdann~20100305_5007938__T55--1(firdann~20100305_5007938__T56--1
+12	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	name=O
+13	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=firdann~20100305_5007938__T56)
+14	og	og	CCONJ	_	_	17	cc	_	name=O
+15	to	to	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(firdann~20100305_5007938__T57--1
+16	lokalmedisinske	lokalmedisinsk	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O
+17	senter	senter	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	conj	_	name=O
+18	i	i	ADP	_	_	20	case	_	name=O
+19	høvesvis	høvesvis	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(firdann~20100305_5007938__T58--1
+20	Lærdal	Lærdal	PROPN	_	_	17	nmod	_	name=B-GPE_LOC|Entity=firdann~20100305_5007938__T58)
+21	og	og	CCONJ	_	_	23	cc	_	name=O
+22	på	på	ADP	_	_	23	case	_	name=O
+23	Nordfjordeid	Nordfjordeid	PROPN	_	_	20	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100305_5007938__T59--1)firdann~20100305_5007938__T57)firdann~20100305_5007938__T55)firdann~20100305_5007938__385)firdann~20100305_5007938__T53)
+24	,	$,	PUNCT	_	_	3	punct	_	name=O
+25	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+26	statsråden	statsråd	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	name=O|Entity=(firdann~20100305_5007938__9409--1)
+27	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	advmod	_	name=O
+28	i	i	SCONJ	_	_	30	mark	_	name=O
+29	å	å	PART	_	_	30	mark	_	name=O
+30	rose	rose	VERB	_	VerbForm=Inf	25	advcl	_	name=O
+31	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	obj	_	name=O|Entity=(firdann~20100305_5007938__278--1
+32	styringsgruppa	styringsgruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	37	nsubj	_	name=O|Entity=(firdann~20100305_5007938__3233--1
+33	i	i	ADP	_	_	34	case	_	name=O
+34	Helse	Helse	PROPN	_	_	32	nmod	_	name=B-ORG|Entity=(firdann~20100305_5007938__5292--1
+35	Førde	Førde	PROPN	_	_	34	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007938__5292)firdann~20100305_5007938__3233)
+36	no	no	ADV	_	_	37	advmod	_	name=O
+37	sender	sende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	name=O
+38	ut	ut	ADP	_	_	37	compound:prt	_	name=O
+39	på	på	ADP	_	_	40	case	_	name=O
+40	høyring	høyring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007938__T64--1)firdann~20100305_5007938__278)
+41	.	$.	PUNCT	_	_	25	punct	_	name=O
+
+# sent_id = 005479
+# text = Den einaste framlagde modellen som bryt med Soria Moria 2, er ifølgje helse- og omsorgsministeren den ikkje tilrådde modellen med eitt sentralsjukehus og der lokalsjukehusa er heilt avvikla.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(firdann~20100305_5007938__T65--1
+2	einaste	einaste	NUM	_	Definite=Def|NumType=Card	4	nummod	_	name=O
+3	framlagde	framleggje	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	4	amod	_	name=O
+4	modellen	modell	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nsubj	_	name=O
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	bryt	bryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+7	med	med	ADP	_	_	8	case	_	name=O
+8	Soria	Soria	PROPN	_	_	6	obl	_	name=B-PROD|Entity=(firdann~20100305_5007938__4269--1
+9	Moria	Moria	PROPN	_	_	8	flat:name	_	name=I-PROD
+10	2	2	NUM	_	Number=Plur|NumType=Card	8	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=firdann~20100305_5007938__4269)firdann~20100305_5007938__T65)
+11	,	$,	PUNCT	_	_	8	punct	_	name=O
+12	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	name=O
+13	ifølgje	ifølgje	ADP	_	_	14	case	_	name=O
+14	helse-	helse-	NOUN	_	_	20	obl	_	name=O|Entity=(firdann~20100305_5007938__9409--1(firdann~20100305_5007938__T68--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	omsorgsministeren	omsorgsminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	conj	_	name=O|Entity=(firdann~20100305_5007938__T69--1)firdann~20100305_5007938__9409)
+17	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(firdann~20100305_5007938__T70--1
+18	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	name=O
+19	tilrådde	tilrå	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	20	amod	_	name=O
+20	modellen	modell	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O
+21	med	med	ADP	_	_	23	case	_	name=O
+22	eitt	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(firdann~20100305_5007938__T71--1
+23	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	nmod	_	name=O|Entity=firdann~20100305_5007938__T71)
+24	og	og	CCONJ	_	_	29	cc	_	name=O
+25	der	der	SCONJ	_	_	29	mark	_	name=O
+26	lokalsjukehusa	lokalsjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	29	nsubj	_	name=O|Entity=(firdann~20100305_5007938__T72--1)
+27	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	name=O
+28	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	29	advmod	_	name=O
+29	avvikla	avvikle	VERB	_	Number=Plur|VerbForm=Part	23	conj	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__T70)
+30	.	$.	PUNCT	_	_	20	punct	_	name=O
+
+# sent_id = 005480
+# text = Forundra over Helse Førde
+1	Forundra	forundra	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+2	over	over	ADP	_	_	3	case	_	name=O
+3	Helse	Helse	PROPN	_	_	1	obl	_	name=B-ORG|Entity=(firdann~20100305_5007938__5292--1
+4	Førde	Førde	PROPN	_	_	3	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007938__5292)
+
+# sent_id = 005481
+# text = Sp-leiar Liv Signe Navarsete, som er til stades på Sps fylkesårsmøte på Skei, seier derimot dette til Sogn Avis si nettside:
+1	Sp-leiar	Sp-leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=B-DRV|Entity=(firdann~20100305_5007938__9632--1
+2	Liv	Liv	NOUN	_	Gender=Fem	16	nsubj	_	name=B-PER
+3	Signe	Signe	NOUN	_	Gender=Fem	2	flat:name	_	name=I-PER
+4	Navarsete	Navarsete	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PER
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	stades	stades	NOUN	_	_	2	acl:relcl	_	name=O|Entity=(firdann~20100305_5007938__T75--1)
+10	på	på	ADP	_	_	12	case	_	name=O
+11	Sps	Sp	NOUN	_	Abbr=Yes|Case=Gen	12	nmod	_	name=B-ORG|Entity=(firdann~20100305_5007938__T77--1(firdann~20100305_5007938__281--1)
+12	fylkesårsmøte	fylkesårsmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O
+13	på	på	ADP	_	_	14	case	_	name=O
+14	Skei	Skei	PROPN	_	_	12	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20100305_5007938__T78--1)firdann~20100305_5007938__T77)firdann~20100305_5007938__9632)
+15	,	$,	PUNCT	_	_	2	punct	_	name=O
+16	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+17	derimot	derimot	ADV	_	_	16	advmod	_	name=O
+18	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	name=O|Entity=(firdann~20100305_5007938__T79--1)
+19	til	til	ADP	_	_	23	case	_	name=O
+20	Sogn	Sogn	PROPN	_	_	22	obl	_	name=B-ORG|Entity=(firdann~20100305_5007938__T82--1(firdann~20100305_5007938__5232--1
+21	Avis	Avis	PROPN	_	_	20	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007938__5232)
+22	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	name=O
+23	nettside	nettside	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__T82)
+24	:	$:	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 005482
+# text = - Det er ikkje meir enn nokre månader sidan at dei tre regjeringspartia framforhandla Soria Moria 2, erklæringa som regjeringa skal styre etter denne fireårsperioden.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	meir	mykje	ADJ	_	Degree=Cmp	0	root	_	name=O
+6	enn	enn	ADP	_	_	8	case	_	name=O
+7	nokre	nokon	DET	_	Number=Plur|PronType=Ind	8	det	_	name=O|Entity=(firdann~20100305_5007938__T83--1
+8	månader	månad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obl	_	name=O
+9	sidan	sidan	ADV	_	_	8	advmod	_	name=O|Entity=firdann~20100305_5007938__T83)
+10	at	at	SCONJ	_	_	14	mark	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(firdann~20100305_5007938__4388--1
+12	tre	tre	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O
+13	regjeringspartia	regjeringsparti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	nsubj	_	name=O|Entity=firdann~20100305_5007938__4388)
+14	framforhandla	framforhandle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+15	Soria	Soria	PROPN	_	_	14	obj	_	name=B-PROD|Entity=(firdann~20100305_5007938__4269--1
+16	Moria	Moria	PROPN	_	_	15	flat:name	_	name=I-PROD
+17	2	2	NUM	_	Number=Plur|NumType=Card	15	flat:name	_	SpaceAfter=No|name=I-PROD
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	erklæringa	erklæring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	appos	_	name=O|Entity=(firdann~20100305_5007938__T86--1
+20	som	som	PRON	_	PronType=Rel	23	nmod	_	name=O
+21	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	name=O|Entity=(firdann~20100305_5007938__4388--1)
+22	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+23	styre	styre	VERB	_	VerbForm=Inf	19	acl:relcl	_	name=O
+24	etter	etter	ADP	_	_	23	compound:prt	_	name=O
+25	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	name=O|Entity=(firdann~20100305_5007938__T88--1
+26	fireårsperioden	fireårsperiode	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__T88)firdann~20100305_5007938__T86)firdann~20100305_5007938__4269)
+27	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 005483
+# text = Då undrar det meg at styret i Helse Førde kjem med eit framlegg til strukturendring som går på tvers med det vi seier i regjeringserklæringa.
+1	Då	då	ADV	_	_	2	advmod	_	name=O
+2	undrar	undre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	name=O|Entity=(firdann~20100305_5007938__9632--1)
+5	at	at	SCONJ	_	_	10	mark	_	name=O
+6	styret	styre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20100305_5007938__3233--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Helse	Helse	PROPN	_	_	6	nmod	_	name=B-ORG|Entity=(firdann~20100305_5007938__5292--1
+9	Førde	Førde	PROPN	_	_	8	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007938__5292)firdann~20100305_5007938__3233)
+10	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	csubj	_	name=O
+11	med	med	ADP	_	_	13	case	_	name=O
+12	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(firdann~20100305_5007938__T92--1
+13	framlegg	framlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	name=O
+14	til	til	ADP	_	_	15	case	_	name=O
+15	strukturendring	strukturendring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	name=O|Entity=(firdann~20100305_5007938__T93--1
+16	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+17	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+18	på	på	ADP	_	_	19	case	_	name=O
+19	tvers	tvers	NOUN	_	_	17	obl	_	name=O|Entity=(firdann~20100305_5007938__T94--1
+20	med	med	ADP	_	_	21	case	_	name=O
+21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nmod	_	name=O|Entity=(firdann~20100305_5007938__T95--1
+22	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	name=O|Entity=(firdann~20100305_5007938__4388--1)
+23	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	name=O
+24	i	i	ADP	_	_	25	case	_	name=O
+25	regjeringserklæringa	regjeringserklæring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007938__4269--1)firdann~20100305_5007938__T95)firdann~20100305_5007938__T94)firdann~20100305_5007938__T93)firdann~20100305_5007938__T92)
+26	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005484
+# text = Nemleg at ingen lokalsjukehus skal leggjast ned.
+1	Nemleg	nemleg	ADV	_	_	2	advmod	_	name=O
+2	at	at	SCONJ	_	_	6	mark	_	name=O
+3	ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	4	det	_	name=O|Entity=(firdann~20100305_5007938__T98--1
+4	lokalsjukehus	lokalsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nsubj	_	name=O|Entity=firdann~20100305_5007938__T98)
+5	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	leggjast	leggjast	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	ned	ned	ADP	_	_	6	compound:prt	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 005485
+# text = Føretaksmøte
+1	Føretaksmøte	føretaksmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20100305_5007938__T99--1)
+
+# sent_id = 005486
+# text = Navarsete meiner at dette må helseministeren fortelje Helse Vest, og i sin tur Helse Førde-styret i eit føretaksmøte.
+1	Navarsete	Navarsete	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(firdann~20100305_5007938__9632--1)
+2	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	name=O|Entity=(firdann~20100305_5007938__T101--1)
+5	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	helseministeren	helseminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(firdann~20100305_5007938__9409--1)
+7	fortelje	fortelje	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+8	Helse	Helse	PROPN	_	_	7	iobj	_	name=B-ORG|Entity=(firdann~20100305_5007938__T103--1(firdann~20100305_5007938__2217--1
+9	Vest	Vest	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100305_5007938__2217)
+10	,	$,	PUNCT	_	_	16	punct	_	name=O
+11	og	og	CCONJ	_	_	16	cc	_	name=O
+12	i	i	ADP	_	_	14	case	_	name=O
+13	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	name=O|Entity=(firdann~20100305_5007938__T106--1(firdann~20100305_5007938__T105--1)
+14	tur	tur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=firdann~20100305_5007938__T106)
+15	Helse	Helse	PROPN	_	_	16	compound	_	name=B-DRV|Entity=(firdann~20100305_5007938__3233--1
+16	Førde-styret	Førde-styre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	conj	_	name=I-DRV|Entity=firdann~20100305_5007938__3233)firdann~20100305_5007938__T103)
+17	i	i	ADP	_	_	19	case	_	name=O
+18	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(firdann~20100305_5007938__T108--1
+19	føretaksmøte	føretaksmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__T108)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005487
+# text = Sjølv vil Navarsete som kommunalminister skaffe seg ei oversikt over dei strukturendringsprosjekta som går føre seg, både innanfor Helse Vest og dei andre regionale helseføretaka sine nedslagsfelt.
+1	Sjølv	sjølv	ADV	_	_	6	advmod	_	name=O
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	Navarsete	Navarsete	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(firdann~20100305_5007938__9632--1)
+4	som	som	SCONJ	_	_	5	mark	_	name=O
+5	kommunalminister	kommunalminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	acl	_	name=O|Entity=(firdann~20100305_5007938__T110--1)
+6	skaffe	skaffe	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	6	iobj	_	name=O|Entity=(firdann~20100305_5007938__9632--1)
+8	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(firdann~20100305_5007938__T111--1
+9	oversikt	oversikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	name=O
+10	over	over	ADP	_	_	12	case	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(firdann~20100305_5007938__T112--1
+12	strukturendringsprosjekta	strukturendringsprosjekt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	nmod	_	name=O
+13	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+14	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	name=O
+15	føre	føre	ADP	_	_	16	case	_	name=O
+16	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	14	obl	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	20	punct	_	name=O
+18	både	både	CCONJ	_	_	20	cc	_	name=O
+19	innanfor	innanfor	ADP	_	_	20	case	_	name=O
+20	Helse	Helse	PROPN	_	_	14	obl	_	name=B-ORG|Entity=(firdann~20100305_5007938__2217--1
+21	Vest	Vest	PROPN	_	_	20	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007938__2217)
+22	og	og	CCONJ	_	_	28	cc	_	name=O
+23	dei	dei	DET	_	Number=Plur|PronType=Dem	26	det	_	name=O|Entity=(firdann~20100305_5007938__T116--1(firdann~20100305_5007938__T115--1(firdann~20100305_5007938__T114--1
+24	andre	annan	DET	_	Number=Plur|PronType=Dem	26	det	_	name=O
+25	regionale	regional	ADJ	_	Degree=Pos|Number=Plur	26	amod	_	name=O
+26	helseføretaka	helseføretak	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	27	obl	_	name=O|Entity=firdann~20100305_5007938__T114)
+27	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	28	nmod	_	name=O|Entity=firdann~20100305_5007938__T115)
+28	nedslagsfelt	nedslagsfelt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	conj	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007938__T116)firdann~20100305_5007938__T112)firdann~20100305_5007938__T111)
+29	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 005488
+# text = - Ei slik oversikt er heilt naudsynt å få på plass for det vidare arbeidet med helsereforma i regjeringa.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(firdann~20100305_5007938__T117--1
+3	slik	slik	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	name=O
+4	oversikt	oversikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	name=O|Entity=firdann~20100305_5007938__T117)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+6	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	naudsynt	naudsynt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	få	få	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(firdann~20100305_5007938__T118--1)
+12	for	for	ADP	_	_	15	case	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(firdann~20100305_5007938__T119--1
+14	vidare	vid	ADJ	_	Degree=Cmp	15	amod	_	name=O
+15	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	name=O
+16	med	med	ADP	_	_	17	case	_	name=O
+17	helsereforma	helsereform	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	name=O|Entity=(firdann~20100305_5007938__T120--1)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007938__4388--1)firdann~20100305_5007938__T119)
+20	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 005489
+# text = På den måten kan vi unngå at desse strategiprosessane endar opp i eit fragmentert sjukehustilbod rundt om i landet, seier Navarsete ifølgje Sogn Avis.
+1	På	på	ADP	_	_	3	case	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20100305_5007938__T122--1
+3	måten	måte	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=firdann~20100305_5007938__T122)
+4	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(firdann~20100305_5007938__T123--1)
+6	unngå	unngå	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	desse	desse	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(firdann~20100305_5007938__T124--1
+9	strategiprosessane	strategiprosess	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	name=O|Entity=firdann~20100305_5007938__T124)
+10	endar	ende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	name=O
+11	opp	opp	ADP	_	_	10	compound:prt	_	name=O
+12	i	i	ADP	_	_	15	case	_	name=O
+13	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(firdann~20100305_5007938__T125--1
+14	fragmentert	fragmentere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	15	amod	_	name=O
+15	sjukehustilbod	sjukehustilbod	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	name=O
+16	rundt	rundt	ADP	_	_	19	case	_	name=O
+17	om	om	ADP	_	_	19	case	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007938__T126--1)firdann~20100305_5007938__T125)
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+22	Navarsete	Navarsete	PROPN	_	_	21	nsubj	_	name=B-PER|Entity=(firdann~20100305_5007938__9632--1)
+23	ifølgje	ifølgje	ADP	_	_	24	case	_	name=O
+24	Sogn	Sogn	PROPN	_	_	21	obl	_	name=B-PROD|Entity=(firdann~20100305_5007938__5232--1
+25	Avis	Avis	PROPN	_	_	24	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=firdann~20100305_5007938__5232)
+26	.	$.	PUNCT	_	_	6	punct	_	name=O
+

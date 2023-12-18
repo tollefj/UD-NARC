@@ -1,0 +1,570 @@
+# newdoc id = kk~20110826-59212
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 012184
+# text = Vil dele makta med KrF
+1	Vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	name=O
+2	dele	dele	VERB	_	VerbForm=Inf	0	root	_	name=O
+3	makta	makt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(kk~20110826_59212__T1--1)
+4	med	med	ADP	_	_	5	case	_	name=O
+5	KrF	KrF	PROPN	_	Abbr=Yes	2	obl	_	name=B-ORG|Entity=(kk~20110826_59212__12731--1)
+
+# sent_id = 012185
+# text = Åpen:
+1	Åpen	åpen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 012186
+# text = LO-leder Roar Flåthen åpner nå for å ta KrF inn i den rødgrønne varmen - dersom Knut Arild Hareide vil.
+1	LO-leder	LO-leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=B-DRV|Entity=(kk~20110826_59212__15904--1
+2	Roar	Roar	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER
+3	Flåthen	Flåthen	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=kk~20110826_59212__15904)
+4	åpner	åpne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	nå	nå	ADV	_	_	4	advmod	_	name=O
+6	for	for	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	ta	ta	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+9	KrF	KrF	PROPN	_	Abbr=Yes	8	obj	_	name=B-ORG|Entity=(kk~20110826_59212__12731--1)
+10	inn	inn	ADP	_	_	14	case	_	name=O
+11	i	i	ADP	_	_	14	case	_	name=O
+12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(kk~20110826_59212__284--1
+13	rødgrønne	rødgrønn	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	varmen	varme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=kk~20110826_59212__284)
+15	-	$-	PUNCT	_	_	20	punct	_	name=O
+16	dersom	dersom	SCONJ	_	_	20	mark	_	name=O
+17	Knut	Knut	PROPN	_	Gender=Masc	20	nsubj	_	name=B-PER|Entity=(kk~20110826_59212__8665--1
+18	Arild	Arild	PROPN	_	_	17	flat:name	_	name=I-PER
+19	Hareide	Hareide	PROPN	_	_	17	flat:name	_	name=I-PER|Entity=kk~20110826_59212__8665)
+20	vil	ville	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No|name=O
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012187
+# text = åpner opp:
+1	åpner	åpne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	opp	opp	ADP	_	_	1	compound:prt	_	SpaceAfter=No|name=O
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 012188
+# text = LO-leder Roar Flaathen ser på KrF som en naturlig samarbeids partner i kampen mot privatisering.
+1	LO-leder	LO-leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=B-DRV|Entity=(kk~20110826_59212__15904--1
+2	Roar	Roar	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER
+3	Flaathen	Flaathen	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=kk~20110826_59212__15904)
+4	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	KrF	KrF	PROPN	_	Abbr=Yes	4	obl	_	name=B-ORG|Entity=(kk~20110826_59212__12731--1)
+7	som	som	SCONJ	_	_	11	mark	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(kk~20110826_59212__T10--1
+9	naturlig	naturlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O
+10	samarbeids	samarbeid	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(kk~20110826_59212__T9--1)
+11	partner	partner	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	xcomp	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(kk~20110826_59212__T11--1
+14	mot	mot	ADP	_	_	15	case	_	name=O
+15	privatisering	privatisering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59212__T12--1)kk~20110826_59212__T11)kk~20110826_59212__T10)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012189
+# text = Venstre har han mindre tro på i denne saken.
+1	Venstre	Venstre	PROPN	_	_	5	nmod	_	name=B-ORG|Entity=(kk~20110826_59212__6429--1)(kk~20110826_59212__T15[1/2]--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110826_59212__15904--1)
+4	mindre	liten	ADJ	_	Degree=Cmp	5	amod	_	name=O|Entity=(kk~20110826_59212__T15[2/2]--1
+5	tro	tro	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O
+6	på	på	ADP	_	_	1	case	_	name=O|Entity=kk~20110826_59212__T15[2/2])
+7	i	i	ADP	_	_	9	case	_	name=O
+8	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(kk~20110826_59212__T16--1
+9	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59212__T16)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012190
+# text = Som første LO-leder åpner nå Flåthen for samarbeid mellom de rødgrønne og KrF.
+1	Som	som	SCONJ	_	_	3	mark	_	name=O
+2	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=(kk~20110826_59212__T17--1
+3	LO-leder	LO-leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	acl	_	name=B-DRV|Entity=kk~20110826_59212__T17)
+4	åpner	åpne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	nå	nå	ADV	_	_	4	advmod	_	name=O
+6	Flåthen	Flåthen	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(kk~20110826_59212__15904--1)
+7	for	for	ADP	_	_	8	case	_	name=O
+8	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(kk~20110826_59212__T19--1
+9	mellom	mellom	ADP	_	_	11	case	_	name=O
+10	de	de	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Bridge=kk~20110826_59212__284<kk~20110826_59212__T21:default|Entity=(kk~20110826_59212__T20--1(kk~20110826_59212__T21--1
+11	rødgrønne	rødgrønn	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=kk~20110826_59212__T21)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	KrF.	Krf.	PROPN	_	Abbr=Yes	11	conj	_	name=B-ORG|Entity=(kk~20110826_59212__12731--1)kk~20110826_59212__T20)kk~20110826_59212__T19)
+
+# sent_id = 012191
+# text = Forgjengerne Gerd-Liv Valla og Yngve Hågensen var i sin tid pådrivere for det rødgrønne samarbeidet.
+1	Forgjengerne	forgjenger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	name=O|Entity=(kk~20110826_59212__249--1(kk~20110826_59212__T24--1
+2	Gerd-Liv	Gerd-Liv	PROPN	_	_	11	nsubj	_	name=B-PER
+3	Valla	Valla	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=kk~20110826_59212__T24)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	Yngve	Yngve	PROPN	_	Gender=Masc	2	conj	_	name=B-PER|Entity=(kk~20110826_59212__T25--1
+6	Hågensen	Hågensen	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=kk~20110826_59212__T25)kk~20110826_59212__249)
+7	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	name=O
+8	i	i	ADP	_	_	10	case	_	name=O
+9	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(kk~20110826_59212__T27--1(kk~20110826_59212__249--1)
+10	tid	tid	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=kk~20110826_59212__T27)
+11	pådrivere	pådriver	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(kk~20110826_59212__T28--1
+12	for	for	ADP	_	_	15	case	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Bridge=kk~20110826_59212__T21<kk~20110826_59212__260:default|Entity=(kk~20110826_59212__260--1
+14	rødgrønne	rødgrønn	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	samarbeidet	samarbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59212__260)kk~20110826_59212__T28)
+16	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 012192
+# text = Nå håper Flåthen på å utvide samarbeidet ytterligere - på én betingelse:
+1	Nå	nå	ADV	_	_	2	advmod	_	name=O
+2	håper	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Flåthen	Flåthen	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110826_59212__15904--1)
+4	på	på	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	utvide	utvide	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	samarbeidet	samarbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obj	_	name=O|Entity=(kk~20110826_59212__260--1)
+8	ytterligere	ytterligere	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+9	-	$-	PUNCT	_	_	12	punct	_	name=O
+10	på	på	ADP	_	_	12	case	_	name=O
+11	én	én	NUM	_	Gender=Masc|Number=Sing|NumType=Card	12	nummod	_	name=O|Entity=(kk~20110826_59212__T32--1
+12	betingelse	betingelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59212__T32)
+13	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012193
+# text = - Det avgjørende spørsmålet for oss er å hindre privatisering og konkurranseutsetting ute i Kommune-Norge.
+1	-	$-	PUNCT	_	_	9	punct	_	name=O
+2	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(kk~20110826_59212__T33--1
+3	avgjørende	avgjørende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	spørsmålet	spørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O
+5	for	for	ADP	_	_	6	case	_	name=O
+6	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obl	_	name=O|Entity=(kk~20110826_59212__T34--1)kk~20110826_59212__T33)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	hindre	hindre	VERB	_	VerbForm=Inf	0	root	_	name=O
+10	privatisering	privatisering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	name=O|Entity=(kk~20110826_59212__T35--1(kk~20110826_59212__T36--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	konkurranseutsetting	konkurranseutsetting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	conj	_	name=O|Entity=(kk~20110826_59212__T37--1)kk~20110826_59212__T35)
+13	ute	ute	ADP	_	_	15	case	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Kommune-Norge	Kommune-Norge	PROPN	_	_	9	obl	_	SpaceAfter=No|name=B-DRV|Entity=(kk~20110826_59212__T38--1)
+16	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012194
+# text = Der opplever jeg KrF som et av de mest naturlige partiene å samarbeide med, sier han.
+1	Der	der	ADV	_	_	2	advmod	_	name=O
+2	opplever	oppleve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110826_59212__15904--1)
+4	KrF	KrF	PROPN	_	Abbr=Yes	2	obj	_	name=B-ORG|Entity=(kk~20110826_59212__12731--1)
+5	som	som	SCONJ	_	_	6	mark	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	xcomp	_	name=O
+7	av	av	ADP	_	_	11	case	_	name=O
+8	de	de	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(kk~20110826_59212__T41--1
+9	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	10	advmod	_	name=O
+10	naturlige	naturlig	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	partiene	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nmod	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	samarbeide	samarbeide	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+14	med	med	ADP	_	_	13	compound:prt	_	SpaceAfter=No|name=O|Entity=kk~20110826_59212__T41)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+17	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59212__15904--1)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012195
+# text = Og LO-lederen er ikke fremmed for at partiet kan ta plass i den rødgrønne regjeringen etter 2013.
+1	Og	og	CCONJ	_	_	5	cc	_	name=O
+2	LO-lederen	LO-leder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=B-DRV|Entity=(kk~20110826_59212__15904--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	fremmed	fremmed	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	for	for	SCONJ	_	_	10	mark	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(kk~20110826_59212__12731--1)
+9	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	ta	ta	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+11	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=(kk~20110826_59212__T45--1)
+12	i	i	ADP	_	_	15	case	_	name=O
+13	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Bridge=kk~20110826_59212__260<kk~20110826_59212__4305:default|Entity=(kk~20110826_59212__4305--1
+14	rødgrønne	rødgrønn	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	regjeringen	regjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=kk~20110826_59212__4305)
+16	etter	etter	ADP	_	_	17	case	_	name=O
+17	2013	2013	NUM	_	Number=Plur|NumType=Card	10	obl	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012196
+# text = Lukker døra for Venstre
+1	Lukker	lukke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	døra	dør	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	obj	_	name=O|Entity=(kk~20110826_59212__T47--1)
+3	for	for	ADP	_	_	4	case	_	name=O
+4	Venstre	Venstre	PROPN	_	_	1	obl	_	name=B-ORG|Entity=(kk~20110826_59212__6429--1)
+
+# sent_id = 012197
+# text = - Det er opp til Knut Arild Hareide, og hvor han vil sette beina.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110826_59212__T49--1)
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	opp	opp	ADP	_	_	3	compound:prt	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	Knut	Knut	PROPN	_	Gender=Masc	4	obl	_	name=B-PER|Entity=(kk~20110826_59212__T50--1(kk~20110826_59212__8665--1
+7	Arild	Arild	PROPN	_	_	6	flat:name	_	name=I-PER
+8	Hareide	Hareide	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PER
+9	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=kk~20110826_59212__8665)
+10	og	og	CCONJ	_	_	14	cc	_	name=O
+11	hvor	hvor	ADV	_	_	14	advmod	_	name=O
+12	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(kk~20110826_59212__8665--1)
+13	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	sette	sette	VERB	_	VerbForm=Inf	6	conj	_	name=O
+15	beina	bein	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59212__T53--1)kk~20110826_59212__T50)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012198
+# text = Jeg opplever ham som en mann med et sosialt blikk, som er enig med LO i mange avgjørende spørsmål.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110826_59212__15904--1)
+2	opplever	oppleve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(kk~20110826_59212__8665--1)
+4	som	som	SCONJ	_	_	6	mark	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kk~20110826_59212__T56--1
+6	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	name=O
+7	med	med	ADP	_	_	10	case	_	name=O
+8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kk~20110826_59212__T57--1
+9	sosialt	sosial	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O
+10	blikk	blikk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59212__T57)
+11	,	$,	PUNCT	_	_	14	punct	_	name=O
+12	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	enig	enig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	acl:relcl	_	name=O
+15	med	med	ADP	_	_	16	case	_	name=O
+16	LO	LO	PROPN	_	_	14	obl	_	name=B-ORG|Entity=(kk~20110826_59212__4369--1)
+17	i	i	ADP	_	_	20	case	_	name=O
+18	mange	mange	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(kk~20110826_59212__T59--1
+19	avgjørende	avgjørende	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O
+20	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59212__T59)kk~20110826_59212__T56)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012199
+# text = Sentrale Ap-politikere som Trond Giske og Jonas Gahr Støre har lenge flørtet med tanken om å ta KrF inn i den rødgrønne alliansen for å isolere Høyre og Frp politisk.
+1	Sentrale	sentral	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(kk~20110826_59212__T60--1
+2	Ap-politikere	Ap-politiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	name=B-DRV
+3	som	som	ADP	_	_	4	case	_	name=O
+4	Trond	Trond	PROPN	_	Gender=Masc	2	nmod	_	name=B-PER|Entity=(kk~20110826_59212__T61--1(kk~20110826_59212__T62--1
+5	Giske	Giske	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=kk~20110826_59212__T62)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	Jonas	Jonas	PROPN	_	Gender=Masc	4	conj	_	name=B-PER|Entity=(kk~20110826_59212__T63--1
+8	Gahr	Gahr	PROPN	_	_	7	flat:name	_	name=I-PER
+9	Støre	Støre	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=kk~20110826_59212__T63)kk~20110826_59212__T61)kk~20110826_59212__T60)
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	lenge	lenge	ADJ	_	Degree=Pos	12	advmod	_	name=O
+12	flørtet	flørte	VERB	_	VerbForm=Part	0	root	_	name=O
+13	med	med	ADP	_	_	14	case	_	name=O
+14	tanken	tanke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(kk~20110826_59212__T64--1
+15	om	om	SCONJ	_	_	17	mark	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	ta	ta	VERB	_	VerbForm=Inf	14	acl	_	name=O
+18	KrF	KrF	PROPN	_	Abbr=Yes	17	obj	_	name=B-ORG|Entity=(kk~20110826_59212__12731--1)
+19	inn	inn	ADP	_	_	23	case	_	name=O
+20	i	i	ADP	_	_	23	case	_	name=O
+21	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	name=O|Entity=(kk~20110826_59212__4305--1
+22	rødgrønne	rødgrønn	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	amod	_	name=O
+23	alliansen	allianse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obl	_	name=O|Entity=kk~20110826_59212__4305)
+24	for	for	SCONJ	_	_	26	mark	_	name=O
+25	å	å	PART	_	_	26	mark	_	name=O
+26	isolere	isolere	VERB	_	VerbForm=Inf	17	advcl	_	name=O
+27	Høyre	Høyre	PROPN	_	_	26	obj	_	name=B-ORG|Entity=(kk~20110826_59212__T67--1(kk~20110826_59212__2154--1)
+28	og	og	CCONJ	_	_	29	cc	_	name=O
+29	Frp	Frp	PROPN	_	Abbr=Yes	27	conj	_	name=B-ORG|Entity=(kk~20110826_59212__3246--1)kk~20110826_59212__T67)
+30	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	advmod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59212__T64)
+31	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 012200
+# text = Men hittil har SV satt foten ned.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	hittil	hittil	ADV	_	_	5	advmod	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	SV	SV	PROPN	_	_	5	nsubj	_	name=B-ORG|Entity=(kk~20110826_59212__3218--1)
+5	satt	sette	VERB	_	VerbForm=Part	0	root	_	name=O
+6	foten	fot	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=(kk~20110826_59212__T71--1)
+7	ned	ned	ADP	_	_	5	compound:prt	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012201
+# text = Nå er imidlertid partiet på gli, og i Klassekampen tirsdag åpnet SV for første gang for å ta KrF inn i varmen i det rødgrønne utstillingsvinduet Trondheim.
+1	Nå	nå	ADV	_	_	2	advmod	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	imidlertid	imidlertid	ADV	_	_	2	advmod	_	name=O
+4	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(kk~20110826_59212__3218--1)
+5	på	på	ADP	_	_	6	case	_	name=O
+6	gli	gli	NOUN	_	_	2	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59212__T73--1)
+7	,	$,	PUNCT	_	_	12	punct	_	name=O
+8	og	og	CCONJ	_	_	12	cc	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Klassekampen	Klassekampen	PROPN	_	_	12	obl	_	name=B-PROD|Entity=(kk~20110826_59212__T74--1)
+11	tirsdag	tirsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(kk~20110826_59212__T75--1)
+12	åpnet	åpne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+13	SV	SV	PROPN	_	_	12	nsubj	_	name=B-ORG|Entity=(kk~20110826_59212__3218--1)
+14	for	for	ADP	_	_	16	case	_	name=O
+15	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O|Entity=(kk~20110826_59212__T77--1
+16	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=kk~20110826_59212__T77)
+17	for	for	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	ta	ta	VERB	_	VerbForm=Inf	12	advcl	_	name=O
+20	KrF	KrF	PROPN	_	Abbr=Yes	19	obj	_	name=B-ORG|Entity=(kk~20110826_59212__12731--1)
+21	inn	inn	ADP	_	_	23	case	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	varmen	varme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obl	_	name=O|Entity=(kk~20110826_59212__284--1)
+24	i	i	ADP	_	_	28	case	_	name=O
+25	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	27	det	_	name=O|Entity=(kk~20110826_59212__T81--1(kk~20110826_59212__T80--1
+26	rødgrønne	rødgrønn	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	27	amod	_	name=O
+27	utstillingsvinduet	utstillingsvindu	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	nmod	_	name=O|Entity=kk~20110826_59212__T80)
+28	Trondheim	Trondheim	PROPN	_	_	19	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=kk~20110826_59212__T81)
+29	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012202
+# text = Mens de rødgrønne frir uhemmet til KrF, beveger Venstre seg stadig nærmere Høyre og Frp.
+1	Mens	mens	SCONJ	_	_	4	mark	_	name=O
+2	de	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(kk~20110826_59212__4305--1
+3	rødgrønne	rødgrønn	ADJ	_	Degree=Pos|Number=Plur	4	nsubj	_	name=O|Entity=kk~20110826_59212__4305)
+4	frir	fri	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	name=O
+5	uhemmet	uhemmet	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+6	til	til	ADP	_	_	7	case	_	name=O
+7	KrF	KrF	PROPN	_	Abbr=Yes	4	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110826_59212__12731--1)
+8	,	$,	PUNCT	_	_	4	punct	_	name=O
+9	beveger	bevege	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	Venstre	Venstre	PROPN	_	_	9	nsubj	_	name=B-ORG|Entity=(kk~20110826_59212__6429--1)
+11	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	name=O
+12	stadig	stadig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+13	nærmere	nær	ADJ	_	Degree=Cmp	9	advmod	_	name=O
+14	Høyre	Høyre	PROPN	_	_	13	obj	_	name=B-ORG|Entity=(kk~20110826_59212__T85--1(kk~20110826_59212__2154--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	Frp.	Frp.	PROPN	_	Abbr=Yes	14	conj	_	name=B-ORG|Entity=(kk~20110826_59212__3246--1)kk~20110826_59212__T85)
+
+# sent_id = 012203
+# text = Partiet inngår nå i et forpliktende samarbeid med Frp i syv av landets ti største kommuner.
+1	Partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(kk~20110826_59212__6429--1)
+2	inngår	inngå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	nå	nå	ADV	_	_	2	advmod	_	name=O
+4	i	i	ADP	_	_	7	case	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kk~20110826_59212__T89--1
+6	forpliktende	forpliktende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O
+8	med	med	ADP	_	_	9	case	_	name=O
+9	Frp	Frp	PROPN	_	Abbr=Yes	7	nmod	_	name=B-ORG|Entity=(kk~20110826_59212__3246--1)kk~20110826_59212__T89)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	syv	syv	NUM	_	Number=Plur|NumType=Card	2	obl	_	name=O
+12	av	av	ADP	_	_	16	case	_	name=O
+13	landets	land	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	name=O|Entity=(kk~20110826_59212__T92--1(kk~20110826_59212__T91--1)
+14	ti	ti	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O
+15	største	stor	ADJ	_	Definite=Def|Degree=Sup	16	amod	_	name=O
+16	kommuner	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59212__T92)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012204
+# text = Overfor Klassekampen slår Roar Flåthen fast at det ikke er aktuelt for LO å åpne for noe samarbeid med Venstre.
+1	Overfor	overfor	ADP	_	_	2	case	_	name=O
+2	Klassekampen	Klassekampen	PROPN	_	_	3	obl	_	name=B-ORG|Entity=(kk~20110826_59212__T93--1)
+3	slår	slå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	Roar	Roar	PROPN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(kk~20110826_59212__15904--1
+5	Flåthen	Flåthen	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=kk~20110826_59212__15904)
+6	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+7	at	at	SCONJ	_	_	11	mark	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+9	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	aktuelt	aktuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp	_	name=O
+12	for	for	ADP	_	_	13	case	_	name=O
+13	LO	LO	PROPN	_	_	11	obl	_	name=B-ORG|Entity=(kk~20110826_59212__4369--1)
+14	å	å	PART	_	_	15	mark	_	name=O
+15	åpne	åpne	VERB	_	VerbForm=Inf	11	csubj	_	name=O
+16	for	for	ADP	_	_	18	case	_	name=O
+17	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	18	det	_	name=O|Entity=(kk~20110826_59212__T96--1
+18	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	name=O
+19	med	med	ADP	_	_	20	case	_	name=O
+20	Venstre	Venstre	PROPN	_	_	18	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110826_59212__6429--1)kk~20110826_59212__T96)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012205
+# text = - Jeg opplever at Venstre ikke er like tydelige på mange områder som er viktige for oss.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110826_59212__15904--1)
+3	opplever	oppleve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	Venstre	Venstre	PROPN	_	_	9	nsubj	_	name=B-ORG|Entity=(kk~20110826_59212__6429--1)
+6	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	like	like	ADV	_	_	9	advmod	_	name=O
+9	tydelige	tydelig	ADJ	_	Degree=Pos|Number=Plur	3	ccomp	_	name=O
+10	på	på	ADP	_	_	12	case	_	name=O
+11	mange	mange	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(kk~20110826_59212__T100--1
+12	områder	område	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obl	_	name=O
+13	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+15	viktige	viktig	ADJ	_	Degree=Pos|Number=Plur	12	acl:relcl	_	name=O
+16	for	for	ADP	_	_	17	case	_	name=O
+17	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	15	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59212__4369--1)kk~20110826_59212__T100)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012206
+# text = Ikke minst gjelder dette synet på privatisering, sier han.
+1	Ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+2	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	3	advmod	_	name=O
+3	gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110826_59212__T102--1)
+5	synet	syn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(kk~20110826_59212__T103--1
+6	på	på	ADP	_	_	7	case	_	name=O
+7	privatisering	privatisering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59212__T104--1)kk~20110826_59212__T103)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+10	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59212__15904--1)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012207
+# text = Flåthen understreker at spørsmålet om samarbeid er lokalt betinget, og at det er store lokale variasjoner i hvilke partier de rødgrønne bør samarbeide med.
+1	Flåthen	Flåthen	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110826_59212__15904--1)
+2	understreker	understreke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	9	mark	_	name=O
+4	spørsmålet	spørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(kk~20110826_59212__T107--1
+5	om	om	ADP	_	_	6	case	_	name=O
+6	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(kk~20110826_59212__T108--1)kk~20110826_59212__T107)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	lokalt	lokal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	betinget	betinge	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	2	ccomp	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	og	og	CCONJ	_	_	14	cc	_	name=O
+12	at	at	SCONJ	_	_	14	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	name=O
+14	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	name=O
+15	store	stor	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(kk~20110826_59212__T109--1
+16	lokale	lokal	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O
+17	variasjoner	variasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	name=O|Entity=kk~20110826_59212__T109)
+18	i	i	SCONJ	_	_	24	mark	_	name=O
+19	hvilke	hvilken	DET	_	Number=Plur|PronType=Int	20	det	_	name=O|Entity=(kk~20110826_59212__T110--1
+20	partier	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	obl	_	name=O|Entity=kk~20110826_59212__T110)
+21	de	de	DET	_	Number=Plur|PronType=Dem	22	det	_	name=O|Entity=(kk~20110826_59212__4305--1
+22	rødgrønne	rødgrønn	ADJ	_	Degree=Pos|Number=Plur	24	nsubj	_	name=O|Entity=kk~20110826_59212__4305)
+23	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	name=O
+24	samarbeide	samarbeide	VERB	_	VerbForm=Inf	14	advcl	_	name=O
+25	med	med	ADP	_	_	20	case	_	SpaceAfter=No|name=O
+26	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012208
+# text = - Det avgjørende er naturligvis hvilken politisk kurs et slikt samarbeid får.
+1	-	$-	PUNCT	_	_	12	punct	_	name=O
+2	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kk~20110826_59212__T112--1
+3	avgjørende	avgjørende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	nsubj	_	name=O|Entity=kk~20110826_59212__T112)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+5	naturligvis	naturligvis	ADV	_	_	12	advmod	_	name=O
+6	hvilken	hvilken	DET	_	Gender=Masc|Number=Sing|PronType=Int	8	det	_	name=O|Entity=(kk~20110826_59212__T113--1
+7	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	kurs	kurs	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=kk~20110826_59212__T113)
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(kk~20110826_59212__T114--1
+10	slikt	slik	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	name=O
+11	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nsubj	_	name=O|Entity=kk~20110826_59212__T114)
+12	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 012209
+# text = Men vi kommer ikke med noen advarsel på generelt grunnlag mot å samarbeide med KrF, sier han.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110826_59212__4369--1)
+3	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	med	med	ADP	_	_	7	case	_	name=O
+6	noen	noen	DET	_	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	name=O|Entity=(kk~20110826_59212__T116[1/2]--1
+7	advarsel	advarsel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=kk~20110826_59212__T116[1/2])
+8	på	på	ADP	_	_	10	case	_	name=O
+9	generelt	generell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O|Entity=(kk~20110826_59212__T117--1
+10	grunnlag	grunnlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=kk~20110826_59212__T117)
+11	mot	mot	SCONJ	_	_	13	mark	_	name=O|Entity=(kk~20110826_59212__T116[2/2]--1
+12	å	å	PART	_	_	13	mark	_	name=O
+13	samarbeide	samarbeide	VERB	_	VerbForm=Inf	7	acl	_	name=O
+14	med	med	ADP	_	_	15	case	_	name=O
+15	KrF	KrF	PROPN	_	Abbr=Yes	13	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110826_59212__12731--1)kk~20110826_59212__T116[2/2])
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+18	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59212__15904--1)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012210
+# text = Spent på Hareide
+1	Spent	spent	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	Hareide	Hareide	PROPN	_	_	1	obl	_	name=B-PER|Entity=(kk~20110826_59212__8665--1)
+
+# sent_id = 012211
+# text = Knut Arild Hareide har holdt kortene tett til brystet etter at han ble valgt til partileder, og har ikke villet si noe om hva slags regjeringskoalisjon partiet vil inngå i før etter kommunevalget i høst.
+1	Knut	Knut	PROPN	_	Gender=Masc	5	nsubj	_	name=B-PER|Entity=(kk~20110826_59212__8665--1
+2	Arild	Arild	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Hareide	Hareide	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=kk~20110826_59212__8665)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	holdt	holde	VERB	_	VerbForm=Part	0	root	_	name=O
+6	kortene	kort	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	obj	_	name=O|Entity=(kk~20110826_59212__T122--1)
+7	tett	tett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	brystet	bryst	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(kk~20110826_59212__T123--1)
+10	etter	etter	SCONJ	_	_	14	mark	_	name=O
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	name=O|Entity=(kk~20110826_59212__8665--1)
+13	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux:pass	_	name=O
+14	valgt	velge	VERB	_	VerbForm=Part	5	advcl	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	partileder	partileder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59212__T125--1)
+17	,	$,	PUNCT	_	_	22	punct	_	name=O
+18	og	og	CCONJ	_	_	22	cc	_	name=O
+19	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+20	ikke	ikke	PART	_	Polarity=Neg	22	advmod	_	name=O
+21	villet	ville	AUX	_	VerbForm=Part	22	aux	_	name=O
+22	si	si	VERB	_	VerbForm=Inf	5	conj	_	name=O
+23	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	22	obj	_	name=O|Entity=(kk~20110826_59212__T126--1)
+24	om	om	SCONJ	_	_	30	mark	_	name=O
+25	hva	hva	PRON	_	PronType=Int	26	det	_	name=O|Entity=(kk~20110826_59212__T128--1(kk~20110826_59212__T127--1
+26	slags	slags	NOUN	_	Gender=Masc	27	nmod	_	name=O|Entity=kk~20110826_59212__T127)
+27	regjeringskoalisjon	regjeringskoalisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	obl	_	name=O|Entity=kk~20110826_59212__T128)
+28	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	30	nsubj	_	name=O|Entity=(kk~20110826_59212__12731--1)
+29	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	30	aux	_	name=O
+30	inngå	inngå	VERB	_	VerbForm=Inf	22	advcl	_	name=O
+31	i	i	ADP	_	_	27	case	_	name=O
+32	før	før	ADP	_	_	34	case	_	name=O
+33	etter	etter	ADP	_	_	34	case	_	name=O
+34	kommunevalget	kommunevalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	obl	_	name=O|Entity=(kk~20110826_59212__T130--1
+35	i	i	ADP	_	_	36	case	_	name=O
+36	høst	høst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59212__T131--1)kk~20110826_59212__T130)
+37	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012212
+# text = Flåthen er en av mange som følger spent med på hvilken side av gjerdet Hareide til slutt faller ned på.
+1	Flåthen	Flåthen	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(kk~20110826_59212__15904--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	mange	mange	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=(kk~20110826_59212__T133--1
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	følger	følge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+8	spent	spent	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	advmod	_	name=O
+9	med	med	SCONJ	_	_	18	mark	_	name=O
+10	på	på	SCONJ	_	_	18	mark	_	name=O
+11	hvilken	hvilken	DET	_	Gender=Fem|Number=Sing|PronType=Int	12	det	_	name=O|Entity=(kk~20110826_59212__T134--1
+12	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	gjerdet	gjerde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	name=O|Entity=(kk~20110826_59212__T135--1)kk~20110826_59212__T134)
+15	Hareide	Hareide	PROPN	_	_	18	nsubj	_	name=B-PER|Entity=(kk~20110826_59212__8665--1)
+16	til	til	ADP	_	_	17	case	_	name=O
+17	slutt	slutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	name=O|Entity=(kk~20110826_59212__T137--1)
+18	faller	falle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+19	ned	ned	ADP	_	_	12	case	_	name=O
+20	på	på	ADP	_	_	12	case	_	SpaceAfter=No|name=O|Entity=kk~20110826_59212__T133)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012213
+# text = - KrF er et borgerlig parti, det nytter det ikke underkjenne.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	KrF	KrF	PROPN	_	Abbr=Yes	6	nsubj	_	name=B-ORG|Entity=(kk~20110826_59212__12731--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kk~20110826_59212__T139--1
+5	borgerlig	borgerlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O
+6	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=kk~20110826_59212__T139)
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	name=O|Entity=(kk~20110826_59212__T140--1)
+9	nytter	nytte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+11	ikke	ikke	PART	_	Polarity=Neg	12	advmod	_	name=O
+12	underkjenne	underkjenne	VERB	_	VerbForm=Inf	9	xcomp	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+

@@ -1,0 +1,660 @@
+# newdoc id = ap_20090804-3200981
+# global.Entity = eid-etype-head-other
+# sent_id = 003765
+# text = Alle kan redusere sykefraværet
+1	Alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	3	nsubj	_	name=O|Entity=(ap_20090804_3200981__T1--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	redusere	redusere	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	sykefraværet	sykefravær	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(ap_20090804_3200981__4191--1)
+
+# newpar
+# sent_id = 003766
+# text = Ikke egnet.
+1	Ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+2	egnet	egne	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+3	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 003767
+# text = Evaluert.
+1	Evaluert	evaluere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 003768
+# text = Hvorfor er partene i arbeidslivet rørende enige om at intensjonsavtalen om et inkluderende arbeidsliv skal videreføres når resultatene hittil har vært så mistrøstige.
+1	Hvorfor	hvorfor	ADV	_	_	7	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+3	partene	part	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=(ap_20090804_3200981__6439--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	arbeidslivet	arbeidsliv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(ap_20090804_3200981__6298--1)ap_20090804_3200981__6439)
+6	rørende	rørende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	enige	enig	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+8	om	om	SCONJ	_	_	16	mark	_	name=O
+9	at	at	SCONJ	_	_	16	mark	_	name=O
+10	intensjonsavtalen	intensjonsavtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj:pass	_	name=O|Entity=(ap_20090804_3200981__8373--1
+11	om	om	ADP	_	_	14	case	_	name=O
+12	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(ap_20090804_3200981__T6--1
+13	inkluderende	inkludere	ADJ	_	VerbForm=Part	14	amod	_	name=O
+14	arbeidsliv	arbeidsliv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	name=O|Entity=ap_20090804_3200981__T6)ap_20090804_3200981__8373)
+15	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	videreføres	videreføre	VERB	_	VerbForm=Inf|Voice=Pass	7	advcl	_	name=O
+17	når	når	SCONJ	_	_	23	mark	_	name=O
+18	resultatene	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	23	nsubj	_	name=O|Entity=(ap_20090804_3200981__T7--1)
+19	hittil	hittil	ADV	_	_	23	advmod	_	name=O
+20	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+21	vært	være	AUX	_	VerbForm=Part	23	cop	_	name=O
+22	så	så	ADV	_	_	23	advmod	_	name=O
+23	mistrøstige	mistrøstig	ADJ	_	Degree=Pos|Number=Plur	16	advcl	_	SpaceAfter=No|name=O
+24	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 003769
+# text = Avtalen om et inkluderende arbeidsliv (IA-avtalen) skal redusere sykefravær, øke avgangsalder fra arbeidslivet og øke rekrutteringen av personer med nedsatt funksjonsevne til arbeidslivet.
+1	Avtalen	avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(ap_20090804_3200981__8373--1
+2	om	om	ADP	_	_	5	case	_	name=O
+3	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20090804_3200981__T9--1
+4	inkluderende	inkludere	ADJ	_	VerbForm=Part	5	amod	_	name=O
+5	arbeidsliv	arbeidsliv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	name=O
+6	(	$(	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T10--1
+7	IA-avtalen	IA-avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No|name=B-PROD
+8	)	$)	PUNCT	_	_	7	punct	_	name=O|Entity=ap_20090804_3200981__T10)ap_20090804_3200981__T9)ap_20090804_3200981__8373)
+9	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	redusere	redusere	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	sykefravær	sykefravær	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T11--1)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	øke	øke	VERB	_	VerbForm=Inf	10	conj	_	name=O
+14	avgangsalder	avgangsalder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(ap_20090804_3200981__T12--1
+15	fra	fra	ADP	_	_	16	case	_	name=O
+16	arbeidslivet	arbeidsliv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	name=O|Entity=(ap_20090804_3200981__6298--1)ap_20090804_3200981__T12)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	øke	øke	VERB	_	VerbForm=Inf	10	conj	_	name=O
+19	rekrutteringen	rekruttering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obj	_	name=O|Entity=(ap_20090804_3200981__T14--1
+20	av	av	ADP	_	_	21	case	_	name=O
+21	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	nmod	_	name=O|Entity=(ap_20090804_3200981__T15--1
+22	med	med	ADP	_	_	24	case	_	name=O
+23	nedsatt	nedsette	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	24	amod	_	name=O|Entity=(ap_20090804_3200981__T16--1
+24	funksjonsevne	funksjonsevne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	nmod	_	name=O|Entity=ap_20090804_3200981__T16)ap_20090804_3200981__T15)
+25	til	til	ADP	_	_	26	case	_	name=O
+26	arbeidslivet	arbeidsliv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__6298--1)ap_20090804_3200981__T14)
+27	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 003770
+# text = Avtalen går ut ved årsskiftet, men partene i arbeidslivet er ivrige etter å forlenge avtalen til tross for marginale resultater så langt.
+1	Avtalen	avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20090804_3200981__8373--1)
+2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ut	ut	ADP	_	_	2	compound:prt	_	name=O
+4	ved	ved	ADP	_	_	5	case	_	name=O
+5	årsskiftet	årsskifte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T19--1)
+6	,	$,	PUNCT	_	_	12	punct	_	name=O
+7	men	men	CCONJ	_	_	12	cc	_	name=O
+8	partene	part	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	name=O|Entity=(ap_20090804_3200981__6439--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	arbeidslivet	arbeidsliv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	name=O|Entity=(ap_20090804_3200981__6298--1)ap_20090804_3200981__6439)
+11	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+12	ivrige	ivrig	ADJ	_	Degree=Pos|Number=Plur	2	conj	_	name=O
+13	etter	etter	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	forlenge	forlenge	VERB	_	VerbForm=Inf	12	advcl	_	name=O
+16	avtalen	avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=(ap_20090804_3200981__8373--1)
+17	til	til	ADP	_	_	21	case	_	name=O
+18	tross	tross	ADP	_	_	21	case	_	name=O
+19	for	for	ADP	_	_	21	case	_	name=O
+20	marginale	marginal	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	name=O|Entity=(ap_20090804_3200981__T23--1
+21	resultater	resultat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	15	obl	_	name=O
+22	så	så	ADV	_	_	23	advmod	_	name=O
+23	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T23)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003771
+# text = Når de velger å fortsette et lite effektivt samarbeid - samtidig som alle politiske partier virker paralysert og uten noe alternativ - kan det skyldes at ingen ønsker å ta den nødvendige diskusjonen om virkemidler som virkelig kan gi resultater.
+1	Når	når	SCONJ	_	_	3	mark	_	name=O
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090804_3200981__6439--1)
+3	velger	velge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	advcl	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	fortsette	fortsette	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(ap_20090804_3200981__T25--1
+7	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+8	effektivt	effektiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	name=O
+9	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=ap_20090804_3200981__T25)
+10	-	$-	PUNCT	_	_	11	punct	_	name=O
+11	samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+12	som	som	PRON	_	PronType=Rel	16	obj	_	name=O
+13	alle	all	DET	_	Number=Plur|PronType=Tot	15	det	_	name=O|Entity=(ap_20090804_3200981__T26--1
+14	politiske	politisk	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	partier	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nsubj	_	name=O|Entity=ap_20090804_3200981__T26)
+16	virker	virke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	name=O
+17	paralysert	paralysere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	16	xcomp	_	name=O
+18	og	og	CCONJ	_	_	21	cc	_	name=O
+19	uten	uten	ADP	_	_	21	case	_	name=O
+20	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	21	det	_	name=O|Entity=(ap_20090804_3200981__T27--1
+21	alternativ	alternativ	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	conj	_	name=O|Entity=ap_20090804_3200981__T27)
+22	-	$-	PUNCT	_	_	11	punct	_	name=O
+23	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+24	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	name=O
+25	skyldes	skyldes	VERB	_	VerbForm=Inf	0	root	_	name=O
+26	at	at	SCONJ	_	_	28	mark	_	name=O
+27	ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	28	nsubj	_	name=O|Entity=(ap_20090804_3200981__T28--1)
+28	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	name=O
+29	å	å	PART	_	_	30	mark	_	name=O
+30	ta	ta	VERB	_	VerbForm=Inf	28	xcomp	_	name=O
+31	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	33	det	_	name=O|Entity=(ap_20090804_3200981__T29--1
+32	nødvendige	nødvendig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	33	amod	_	name=O
+33	diskusjonen	diskusjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	30	obj	_	name=O
+34	om	om	ADP	_	_	35	case	_	name=O
+35	virkemidler	virkemiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	33	nmod	_	name=O|Entity=(ap_20090804_3200981__T30--1
+36	som	som	PRON	_	PronType=Rel	39	nsubj	_	name=O
+37	virkelig	virkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	39	advmod	_	name=O
+38	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	39	aux	_	name=O
+39	gi	gi	VERB	_	VerbForm=Inf	35	acl:relcl	_	name=O
+40	resultater	resultat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	39	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T31--1)ap_20090804_3200981__T30)ap_20090804_3200981__T29)
+41	.	$.	PUNCT	_	_	25	punct	_	name=O
+
+# sent_id = 003772
+# text = SINTEF og Norges teknisk-naturvitenskapelige universitet har evaluert avtalen.
+1	SINTEF	SINTEF	PROPN	_	_	7	nsubj	_	name=B-ORG|Entity=(ap_20090804_3200981__T32--1(ap_20090804_3200981__T33--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	Norges	Norges	PROPN	_	_	1	conj	_	name=B-ORG|Entity=(ap_20090804_3200981__T34--1
+4	teknisk-naturvitenskapelige	teknisk-naturvitenskapelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	flat:name	_	name=I-ORG
+5	universitet	universitet	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	flat:name	_	name=I-ORG|Entity=ap_20090804_3200981__T34)ap_20090804_3200981__T32)
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	evaluert	evaluere	VERB	_	VerbForm=Part	0	root	_	name=O
+8	avtalen	avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__8373--1)
+9	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 003773
+# text = Det nasjonale målet på 20 prosent reduksjon i sykefravær er ikke nådd; sykefraværet var bare 3,1 prosent lavere i 2008 enn i det første avtaleåret 2001.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20090804_3200981__T36--1
+2	nasjonale	nasjonal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	name=O
+4	på	på	ADP	_	_	7	case	_	name=O
+5	20	20	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(ap_20090804_3200981__T38--1(ap_20090804_3200981__T37--1
+6	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=ap_20090804_3200981__T37)
+7	reduksjon	reduksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	sykefravær	sykefravær	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=(ap_20090804_3200981__T39--1)ap_20090804_3200981__T38)ap_20090804_3200981__T36)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	ikke	ikke	PART	_	Polarity=Neg	12	advmod	_	name=O
+12	nådd	nå	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+13	;	$;	PUNCT	_	_	15	punct	_	name=O
+14	sykefraværet	sykefravær	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	name=O|Entity=(ap_20090804_3200981__4191--1)
+15	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	name=O
+16	bare	bare	ADV	_	_	17	advmod	_	name=O|Entity=(ap_20090804_3200981__T41--1
+17	3,1	3,1	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O
+18	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	obl	_	name=O|Entity=ap_20090804_3200981__T41)
+19	lavere	lav	ADJ	_	Degree=Cmp	15	advmod	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	2008	2008	NUM	_	Number=Plur|NumType=Card	19	obl	_	name=O
+22	enn	enn	ADP	_	_	26	case	_	name=O
+23	i	i	ADP	_	_	26	case	_	name=O
+24	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	26	det	_	name=O|Entity=(ap_20090804_3200981__T42--1
+25	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	avtaleåret	avtaleår	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	obl	_	name=O
+27	2001	2001	NUM	_	Number=Plur|NumType=Card	26	appos	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T42)
+28	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 003774
+# text = Målet om å øke avgangsalderen for seniorarbeidstagere har ført til at denne er økt noe (seks måneder), men rapporten konkluderer med at målet om å få inn folk med redusert funksjonsevne har mislykkes.
+1	Målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(ap_20090804_3200981__T43--1
+2	om	om	SCONJ	_	_	4	mark	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	øke	øke	VERB	_	VerbForm=Inf	1	acl	_	name=O
+5	avgangsalderen	avgangsalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(ap_20090804_3200981__290--1
+6	for	for	ADP	_	_	7	case	_	name=O
+7	seniorarbeidstagere	seniorarbeidstager	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=(ap_20090804_3200981__T45--1)ap_20090804_3200981__290)ap_20090804_3200981__T43)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	ført	føre	VERB	_	VerbForm=Part	0	root	_	name=O
+10	til	til	SCONJ	_	_	14	mark	_	name=O
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	denne	denne	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(ap_20090804_3200981__290--1)
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	økt	øke	VERB	_	VerbForm=Part	9	advcl	_	name=O
+15	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	14	obj	_	name=O|Entity=(ap_20090804_3200981__T47--1
+16	(	$(	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T48--1
+17	seks	seks	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O
+18	måneder	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	appos	_	SpaceAfter=No|name=O
+19	)	$)	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T48)ap_20090804_3200981__T47)
+20	,	$,	PUNCT	_	_	23	punct	_	name=O
+21	men	men	CCONJ	_	_	23	cc	_	name=O
+22	rapporten	rapport	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	name=O|Entity=(ap_20090804_3200981__T49--1)
+23	konkluderer	konkludere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	name=O
+24	med	med	SCONJ	_	_	36	mark	_	name=O
+25	at	at	SCONJ	_	_	36	mark	_	name=O
+26	målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	36	nsubj	_	name=O|Entity=(ap_20090804_3200981__T50--1
+27	om	om	SCONJ	_	_	29	mark	_	name=O
+28	å	å	PART	_	_	29	mark	_	name=O
+29	få	få	VERB	_	VerbForm=Inf	26	acl	_	name=O
+30	inn	inn	ADP	_	_	29	compound:prt	_	name=O
+31	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	29	obj	_	name=O|Entity=(ap_20090804_3200981__T51--1
+32	med	med	ADP	_	_	34	case	_	name=O
+33	redusert	redusere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	34	amod	_	name=O|Entity=(ap_20090804_3200981__T52--1
+34	funksjonsevne	funksjonsevne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	31	nmod	_	name=O|Entity=ap_20090804_3200981__T52)ap_20090804_3200981__T51)ap_20090804_3200981__T50)
+35	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	36	aux	_	name=O
+36	mislykkes	mislykkes	VERB	_	VerbForm=Part	23	advcl	_	SpaceAfter=No|name=O
+37	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 003775
+# text = Det som er interessant her er å se på virksomheter som ikke er IA-bedrifter.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20090804_3200981__T53--1
+2	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	interessant	interessant	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	acl:relcl	_	name=O
+5	her	her	ADV	_	_	4	advmod	_	name=O|Entity=ap_20090804_3200981__T53)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	se	se	VERB	_	VerbForm=Inf	0	root	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	virksomheter	virksomhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	obl	_	name=O|Entity=(ap_20090804_3200981__T54--1
+11	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+12	ikke	ikke	PART	_	Polarity=Neg	14	advmod	_	name=O
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	IA-bedrifter	IA-bedrift	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	acl:relcl	_	SpaceAfter=No|name=B-DRV|Entity=(ap_20090804_3200981__T55--1)ap_20090804_3200981__T54)
+15	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 003776
+# text = Mange lar være å delta fordi de ikke har et sykefraværsproblem.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	2	nsubj	_	name=O|Entity=(ap_20090804_3200981__2113--1)
+2	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	være	være	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	delta	delta	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+6	fordi	fordi	SCONJ	_	_	9	mark	_	name=O
+7	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(ap_20090804_3200981__2113--1)
+8	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(ap_20090804_3200981__T58--1
+11	sykefraværsproblem	sykefraværsproblem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T58)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003777
+# text = Mer interessant er det å se på dem som har et sykefraværsproblem, men lar være å delta.
+1	Mer	mye	ADJ	_	Degree=Cmp	2	advmod	_	name=O
+2	interessant	interessant	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	se	se	VERB	_	VerbForm=Inf	2	csubj	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obl	_	name=O|Entity=(ap_20090804_3200981__T59--1
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(ap_20090804_3200981__T60--1
+12	sykefraværsproblem	sykefraværsproblem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T60)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	men	men	CCONJ	_	_	15	cc	_	name=O
+15	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	name=O
+16	være	være	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	delta	delta	VERB	_	VerbForm=Inf	15	advcl	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T59)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003778
+# text = Et børsnotert entreprenørselskap jeg kjenner, klarte å få ned sykefraværet fra ni prosent til tre prosent innen kort tid.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(ap_20090804_3200981__T61--1
+2	børsnotert	børsnotere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	3	amod	_	name=O
+3	entreprenørselskap	entreprenørselskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20090804_3200981__3298--1)
+5	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=ap_20090804_3200981__T61)
+7	klarte	klare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	få	få	VERB	_	VerbForm=Inf	7	xcomp	_	name=O
+10	ned	ned	ADP	_	_	9	compound:prt	_	name=O
+11	sykefraværet	sykefravær	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obj	_	name=O|Entity=(ap_20090804_3200981__4191--1)
+12	fra	fra	ADP	_	_	14	case	_	name=O
+13	ni	ni	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(ap_20090804_3200981__T64--1
+14	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	name=O|Entity=ap_20090804_3200981__T64)
+15	til	til	ADP	_	_	17	case	_	name=O
+16	tre	tre	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(ap_20090804_3200981__T65--1
+17	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	name=O|Entity=ap_20090804_3200981__T65)
+18	innen	innen	ADP	_	_	20	case	_	name=O
+19	kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(ap_20090804_3200981__T66--1
+20	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T66)
+21	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 003779
+# text = Ledelsen valgte å sette søkelys på problemet på alle nivåer i organisasjonen.
+1	Ledelsen	ledelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20090804_3200981__T67--1)
+2	valgte	velge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	sette	sette	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	søkelys	søkelys	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=(ap_20090804_3200981__T68--1)
+6	på	på	ADP	_	_	7	case	_	name=O
+7	problemet	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(ap_20090804_3200981__T69--1)
+8	på	på	ADP	_	_	10	case	_	name=O
+9	alle	all	DET	_	Number=Plur|PronType=Tot	10	det	_	name=O|Entity=(ap_20090804_3200981__T70--1
+10	nivåer	nivå	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	organisasjonen	organisasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T71--1)ap_20090804_3200981__T70)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003780
+# text = Arbeidsskadestatistikken ble oppdatert regelmessig og nøye analysert.
+1	Arbeidsskadestatistikken	arbeidsskadestatistikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=(ap_20090804_3200981__T72--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	oppdatert	oppdatere	VERB	_	VerbForm=Part	0	root	_	name=O
+4	regelmessig	regelmessig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	og	og	CCONJ	_	_	7	cc	_	name=O
+6	nøye	nøye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	analysert	analysere	VERB	_	VerbForm=Part	3	conj	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 003781
+# text = En serie tiltak ble innført der det var mest relevant, og ledere på alle nivåer måtte rapportere regelmessig om utviklingen.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20090804_3200981__2149--1(ap_20090804_3200981__T73--1
+2	serie	serie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=ap_20090804_3200981__T73)
+3	tiltak	tiltak	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj:pass	_	name=O|Entity=ap_20090804_3200981__2149)
+4	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+5	innført	innføre	VERB	_	VerbForm=Part	0	root	_	name=O
+6	der	der	ADV	_	_	5	advmod	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(ap_20090804_3200981__2149--1)
+8	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	name=O
+9	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	10	advmod	_	name=O
+10	relevant	relevant	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advcl	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	18	punct	_	name=O
+12	og	og	CCONJ	_	_	18	cc	_	name=O
+13	ledere	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	nsubj	_	name=O|Entity=(ap_20090804_3200981__T76--1
+14	på	på	ADP	_	_	16	case	_	name=O
+15	alle	all	DET	_	Number=Plur|PronType=Tot	16	det	_	name=O|Entity=(ap_20090804_3200981__T77--1
+16	nivåer	nivå	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	name=O|Entity=ap_20090804_3200981__T77)ap_20090804_3200981__T76)
+17	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	name=O
+18	rapportere	rapportere	VERB	_	VerbForm=Inf	5	conj	_	name=O
+19	regelmessig	regelmessig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+20	om	om	ADP	_	_	21	case	_	name=O
+21	utviklingen	utvikling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T78--1)
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 003782
+# text = Min påstand er at med kunnskap, vilje og styring kan alle virksomheter redusere sykefraværet.
+1	Min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(ap_20090804_3200981__T80--1(ap_20090804_3200981__3298--1)
+2	påstand	påstand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	name=O|Entity=ap_20090804_3200981__T80)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+4	at	at	SCONJ	_	_	14	mark	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	kunnskap	kunnskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T81--1(ap_20090804_3200981__T82--1
+7	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=ap_20090804_3200981__T82)
+8	vilje	vilje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=O|Entity=(ap_20090804_3200981__T83--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	styring	styring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	conj	_	name=O|Entity=(ap_20090804_3200981__T84--1)ap_20090804_3200981__T81)
+11	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+12	alle	all	DET	_	Number=Plur|PronType=Tot	13	det	_	name=O|Entity=(ap_20090804_3200981__T85--1
+13	virksomheter	virksomhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	nsubj	_	name=O|Entity=ap_20090804_3200981__T85)
+14	redusere	redusere	VERB	_	VerbForm=Inf	0	root	_	name=O
+15	sykefraværet	sykefravær	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__4191--1)
+16	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 003783
+# text = Problemene er spesifikke for den enkelte bedrift; det som passer for byggebransjen passer ikke nødvendigvis for et departement.
+1	Problemene	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=(ap_20090804_3200981__T87--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	spesifikke	spesifikk	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+4	for	for	ADP	_	_	7	case	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20090804_3200981__T88--1
+6	enkelte	enkelt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	bedrift	bedrift	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T88)
+8	;	$;	PUNCT	_	_	14	punct	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(ap_20090804_3200981__T89--1
+10	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+11	passer	passe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+12	for	for	ADP	_	_	13	case	_	name=O
+13	byggebransjen	byggebransje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(ap_20090804_3200981__T90--1)ap_20090804_3200981__T89)
+14	passer	passe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+15	ikke	ikke	PART	_	Polarity=Neg	14	advmod	_	name=O
+16	nødvendigvis	nødvendigvis	ADV	_	_	14	advmod	_	name=O
+17	for	for	ADP	_	_	19	case	_	name=O
+18	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(ap_20090804_3200981__T91--1
+19	departement	departement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T91)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 003784
+# text = IA-avtalen, slik den fremstår i dag, er ikke egnet til å bidra nevneverdig til mindre sykefravær, særlig i staten og spesielt blant kvinner.
+1	IA-avtalen	IA-avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No|name=B-PROD|Entity=(ap_20090804_3200981__8373--1
+2	,	$,	PUNCT	_	_	3	punct	_	name=O
+3	slik	slik	ADV	_	_	1	advmod	_	name=O
+4	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20090804_3200981__8373--1)
+5	fremstår	fremstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T94--1)ap_20090804_3200981__8373)
+8	,	$,	PUNCT	_	_	3	punct	_	name=O
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+11	egnet	egne	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+12	til	til	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	bidra	bidra	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+15	nevneverdig	nevneverdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+16	til	til	ADP	_	_	18	case	_	name=O
+17	mindre	liten	ADJ	_	Degree=Cmp	18	amod	_	name=O|Entity=(ap_20090804_3200981__T95--1
+18	sykefravær	sykefravær	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T95)
+19	,	$,	PUNCT	_	_	22	punct	_	name=O
+20	særlig	særlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	advmod	_	name=O
+21	i	i	ADP	_	_	22	case	_	name=O
+22	staten	stat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(ap_20090804_3200981__T96--1)
+23	og	og	CCONJ	_	_	26	cc	_	name=O
+24	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	advmod	_	name=O
+25	blant	blant	ADP	_	_	26	case	_	name=O
+26	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T97--1)
+27	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 003785
+# text = Når arbeidslivets parter er så ivrige etter å videreføre avtalen skyldes nok dette andre forhold.
+1	Når	når	SCONJ	_	_	6	mark	_	name=O
+2	arbeidslivets	arbeidsliv	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(ap_20090804_3200981__6439--1(ap_20090804_3200981__6298--1)
+3	parter	part	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=ap_20090804_3200981__6439)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	så	så	ADV	_	_	6	advmod	_	name=O
+6	ivrige	ivrig	ADJ	_	Degree=Pos|Number=Plur	11	advcl	_	name=O
+7	etter	etter	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	videreføre	videreføre	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+10	avtalen	avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	name=O|Entity=(ap_20090804_3200981__8373--1)
+11	skyldes	skyldes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	nok	nok	ADV	_	_	11	advmod	_	name=O
+13	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(ap_20090804_3200981__T101--1)
+14	andre	annen	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(ap_20090804_3200981__T102--1
+15	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obj	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T102)
+16	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 003786
+# text = Det mest nærliggende er at både arbeidstager- og arbeidsgiverorganisasjonene ønsker å legge lokk på diskusjonen om sykelønnsordningen.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20090804_3200981__T103--1
+2	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	3	advmod	_	name=O
+3	nærliggende	nærliggende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	nsubj	_	name=O|Entity=ap_20090804_3200981__T103)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+5	at	at	SCONJ	_	_	10	mark	_	name=O
+6	både	både	CCONJ	_	_	7	cc	_	name=O
+7	arbeidstager-	arbeidstager-	NOUN	_	_	10	nsubj	_	name=O|Entity=(ap_20090804_3200981__T104--1(ap_20090804_3200981__T105--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	arbeidsgiverorganisasjonene	arbeidsgiverorganisasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	conj	_	name=O|Entity=(ap_20090804_3200981__T106--1)ap_20090804_3200981__T104)
+10	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	legge	legge	VERB	_	VerbForm=Inf	10	xcomp	_	name=O
+13	lokk	lokk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	name=O|Entity=(ap_20090804_3200981__T107--1)
+14	på	på	ADP	_	_	15	case	_	name=O
+15	diskusjonen	diskusjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(ap_20090804_3200981__T108--1
+16	om	om	ADP	_	_	17	case	_	name=O
+17	sykelønnsordningen	sykelønnsordning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T109--1)ap_20090804_3200981__T108)
+18	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 003787
+# text = Sandman-utvalget utredet årsakene til den sterke økningen i sykefravær og uførepensjonering utover 1990-tallet.
+1	Sandman-utvalget	Sandman-utvalget	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(ap_20090804_3200981__2227--1)
+2	utredet	utrede	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	årsakene	årsak	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	2	obj	_	name=O|Entity=(ap_20090804_3200981__T111--1
+4	til	til	ADP	_	_	7	case	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20090804_3200981__T112--1
+6	sterke	sterk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	økningen	økning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	sykefravær	sykefravær	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=(ap_20090804_3200981__T113--1(ap_20090804_3200981__T114--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	uførepensjonering	uførepensjonering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	name=O|Entity=(ap_20090804_3200981__T115--1)ap_20090804_3200981__T113)
+12	utover	utover	ADP	_	_	13	case	_	name=O
+13	1990-tallet	1990-tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T116--1)ap_20090804_3200981__T112)ap_20090804_3200981__T111)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003788
+# text = Det foreslo at både arbeidstagere og arbeidsgivere i større grad skulle ansvarliggjøres.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090804_3200981__2227--1)
+2	foreslo	foreslå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	12	mark	_	name=O
+4	både	både	CCONJ	_	_	5	cc	_	name=O
+5	arbeidstagere	arbeidstager	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nsubj:pass	_	name=O|Entity=(ap_20090804_3200981__T118--1(ap_20090804_3200981__2241--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	arbeidsgivere	arbeidsgiver	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	conj	_	name=O|Entity=(ap_20090804_3200981__2251--1)ap_20090804_3200981__T118)
+8	i	i	ADP	_	_	10	case	_	name=O
+9	større	stor	ADJ	_	Degree=Cmp	10	amod	_	name=O|Entity=(ap_20090804_3200981__T121--1
+10	grad	grad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=ap_20090804_3200981__T121)
+11	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+12	ansvarliggjøres	ansvarliggjøres	VERB	_	VerbForm=Inf|Voice=Pass	2	ccomp	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003789
+# text = Arbeidstagerne skulle bidra med en egenandel på 20 prosent redusert bruttolønn pr. dag i arbeidsgiverperioden (16 dager), men ingenting fra og med 17. fraværsdag.
+1	Arbeidstagerne	arbeidstager	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(ap_20090804_3200981__2241--1)
+2	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	bidra	bidra	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	med	med	ADP	_	_	6	case	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20090804_3200981__T123--1(ap_20090804_3200981__T124--1
+6	egenandel	egenandel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O
+7	på	på	ADP	_	_	11	case	_	name=O
+8	20	20	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(ap_20090804_3200981__T126--1(ap_20090804_3200981__T125[1/2]--1
+9	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	name=O|Entity=ap_20090804_3200981__T125[1/2])
+10	redusert	redusere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	11	amod	_	name=O
+11	bruttolønn	bruttolønn	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	name=O
+12	pr.	pr.	ADP	_	Abbr=Yes	13	case	_	name=O|Entity=(ap_20090804_3200981__T125[2/2]--1
+13	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(ap_20090804_3200981__T127--1)ap_20090804_3200981__T125[2/2])ap_20090804_3200981__T126)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	arbeidsgiverperioden	arbeidsgiverperiode	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20090804_3200981__T128--1
+16	(	$(	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T129--1
+17	16	16	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O
+18	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	appos	_	SpaceAfter=No|name=O
+19	)	$)	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T129)ap_20090804_3200981__T128)
+20	,	$,	PUNCT	_	_	22	punct	_	name=O|Entity=ap_20090804_3200981__T124)
+21	men	men	CCONJ	_	_	22	cc	_	name=O
+22	ingenting	ingenting	PRON	_	Number=Sing|Polarity=Neg|PronType=Neg	6	conj	_	name=O
+23	fra	fra	ADP	_	_	22	obl	_	name=O
+24	og	og	CCONJ	_	_	27	cc	_	name=O
+25	med	med	ADP	_	_	27	case	_	name=O
+26	17.	17.	ADJ	_	Number=Plur	27	amod	_	name=O|Entity=(ap_20090804_3200981__T130--1
+27	fraværsdag	fraværsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T130)ap_20090804_3200981__T123)
+28	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 003790
+# text = Arbeidsgiverne skulle få et medfinansieringsansvar på 20 prosent av sykepengeutbetalingene fra folketrygden fra og med 17. dag og ut hele sykepengeperioden (ett år).
+1	Arbeidsgiverne	arbeidsgiver	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(ap_20090804_3200981__2251--1)
+2	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20090804_3200981__T132--1
+5	medfinansieringsansvar	medfinansieringsansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O
+6	på	på	ADP	_	_	8	case	_	name=O
+7	20	20	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(ap_20090804_3200981__T133--1
+8	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	sykepengeutbetalingene	sykepengeutbetaling	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	name=O|Entity=(ap_20090804_3200981__T134--1
+11	fra	fra	ADP	_	_	12	case	_	name=O
+12	folketrygden	folketrygd	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(ap_20090804_3200981__T135--1)ap_20090804_3200981__T134)ap_20090804_3200981__T133)ap_20090804_3200981__T132)
+13	fra	fra	ADP	_	_	3	compound:prt	_	name=O
+14	og	og	CCONJ	_	_	17	cc	_	name=O
+15	med	med	ADP	_	_	17	case	_	name=O
+16	17.	17.	ADJ	_	Number=Plur	17	amod	_	name=O|Entity=(ap_20090804_3200981__T136--1
+17	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	name=O|Entity=ap_20090804_3200981__T136)
+18	og	og	CCONJ	_	_	21	cc	_	name=O
+19	ut	ut	ADP	_	_	21	case	_	name=O
+20	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O|Entity=(ap_20090804_3200981__T137--1
+21	sykepengeperioden	sykepengeperiode	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	conj	_	name=O
+22	(	$(	PUNCT	_	_	24	punct	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T138--1
+23	ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	24	nummod	_	name=O
+24	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	appos	_	SpaceAfter=No|name=O
+25	)	$)	PUNCT	_	_	24	punct	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T138)ap_20090804_3200981__T137)
+26	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 003791
+# text = Dette kan være en besk medisin, men det er mulig at det er ingen vei utenom:
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(ap_20090804_3200981__T139--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	være	være	AUX	_	VerbForm=Inf	6	cop	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20090804_3200981__T140--1
+5	besk	besk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	medisin	medisin	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=ap_20090804_3200981__T140)
+7	,	$,	PUNCT	_	_	11	punct	_	name=O
+8	men	men	CCONJ	_	_	11	cc	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	name=O
+12	at	at	SCONJ	_	_	14	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	name=O
+14	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	csubj	_	name=O
+15	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	16	det	_	name=O|Entity=(ap_20090804_3200981__T141--1
+16	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	name=O|Entity=ap_20090804_3200981__T141)
+17	utenom	utenom	ADP	_	_	14	compound:prt	_	SpaceAfter=No|name=O
+18	:	$:	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 003792
+# text = Dette er hva pasienten trenger.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20090804_3200981__T142--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	hva	hva	PRON	_	PronType=Int	5	obj	_	name=O
+4	pasienten	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(ap_20090804_3200981__T143--1)
+5	trenger	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 003793
+# text = Men partene i arbeidslivet ønsker ikke å svelge medisinen.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	partene	part	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=(ap_20090804_3200981__6439--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	arbeidslivet	arbeidsliv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(ap_20090804_3200981__6298--1)ap_20090804_3200981__6439)
+5	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	svelge	svelge	VERB	_	VerbForm=Inf	5	xcomp	_	name=O
+9	medisinen	medisin	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T146--1)
+10	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 003794
+# text = Og ingen politiske partier ser noen gevinst i å tvinge dem til å gjøre det.
+1	Og	og	CCONJ	_	_	5	cc	_	name=O
+2	ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	4	det	_	name=O|Entity=(ap_20090804_3200981__T147--1
+3	politiske	politisk	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+4	partier	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=ap_20090804_3200981__T147)
+5	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	noen	noen	DET	_	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	name=O|Entity=(ap_20090804_3200981__T148--1
+7	gevinst	gevinst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O
+8	i	i	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	tvinge	tvinge	VERB	_	VerbForm=Inf	7	acl	_	name=O
+11	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	name=O|Entity=(ap_20090804_3200981__6439--1)
+12	til	til	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	gjøre	gjøre	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__T150--1)ap_20090804_3200981__T148)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 003795
+# text = IA-mysteriet er muligens ikke så mystisk likevel.
+1	IA-mysteriet	IA-mysterie	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=B-DRV|Entity=(ap_20090804_3200981__T151--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	muligens	muligens	ADV	_	_	6	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+5	så	så	ADV	_	_	6	advmod	_	name=O
+6	mystisk	mystisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+7	likevel	likevel	ADV	_	_	6	advmod	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 003796
+# text = Men narrespillet har en pris og den betales av deg og meg.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	narrespillet	narrespill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(ap_20090804_3200981__T152--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20090804_3200981__2307--1
+5	pris	pris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=ap_20090804_3200981__2307)
+6	og	og	CCONJ	_	_	8	cc	_	name=O
+7	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	name=O|Entity=(ap_20090804_3200981__2307--1)
+8	betales	betale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	conj	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	8	obl	_	name=O|Entity=(ap_20090804_3200981__T155--1(ap_20090804_3200981__T156--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	10	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090804_3200981__3298--1)ap_20090804_3200981__T155)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+

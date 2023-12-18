@@ -1,0 +1,247 @@
+# newdoc id = firdann~20110615-5640027
+# global.Entity = eid-etype-head-other
+# sent_id = 007106
+# text = Sa nei til skjenkjekontrollen
+1	Sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	nei	nei	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	name=O|Entity=(firdann~20110615_5640027__T1--1)
+3	til	til	ADP	_	_	4	case	_	name=O
+4	skjenkjekontrollen	skjenkjekontroll	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(firdann~20110615_5640027__T2--1)
+
+# newpar
+# sent_id = 007107
+# text = - Vi har bryllaup.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110615_5640027__T3--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	bryllaup	bryllaup	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640027__T4--1)
+5	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007108
+# text = Kom tilbake seinare, skal den hotelltilsette ha sagt.
+1	Kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	tilbake	tilbake	ADP	_	_	1	compound:prt	_	name=O
+3	seinare	sein	ADJ	_	Degree=Cmp	1	advmod	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	9	punct	_	name=O
+5	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(firdann~20110615_5640027__379--1
+7	hotelltilsette	hotelltilsetje	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	9	nsubj	_	name=O|Entity=firdann~20110615_5640027__379)
+8	ha	ha	AUX	_	VerbForm=Inf	9	aux	_	name=O
+9	sagt	seie	VERB	_	VerbForm=Part	1	parataxis	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 007109
+# text = Nordfjelske kontrollar reagerer skarpt etter at ein kvinneleg kontrollør vart nekta å undersøkje Walaker hotell i Luster i april.
+1	Nordfjelske	Nordfjelske	PROPN	_	_	3	nsubj	_	name=O|Entity=(firdann~20110615_5640027__T6--1
+2	kontrollar	kontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	flat:name	_	name=O|Entity=firdann~20110615_5640027__T6)
+3	reagerer	reagere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	skarpt	skarp	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	etter	etter	SCONJ	_	_	11	mark	_	name=O
+6	at	at	SCONJ	_	_	11	mark	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(firdann~20110615_5640027__4114--1
+8	kvinneleg	kvinneleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	kontrollør	kontrollør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj:pass	_	name=O|Entity=firdann~20110615_5640027__4114)
+10	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux:pass	_	name=O
+11	nekta	nekte	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	3	advcl	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	undersøkje	undersøkje	VERB	_	VerbForm=Inf	11	xcomp	_	name=O
+14	Walaker	Walaker	PROPN	_	_	13	obj	_	name=B-LOC|Entity=(firdann~20110615_5640027__7217--1
+15	hotell	hotell	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	flat:name	_	name=I-LOC
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Luster	Luster	PROPN	_	_	14	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110615_5640027__T9--1)firdann~20110615_5640027__7217)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	april	april	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640027__T10--1)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007110
+# text = Årsaka var at hotellet heldt bryllaup, og derfor hadde lukka lag.
+1	Årsaka	årsak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20110615_5640027__T11--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	hotellet	hotell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20110615_5640027__7217--1)
+5	heldt	halde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	bryllaup	bryllaup	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640027__T13--1)
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	derfor	derfor	ADV	_	_	10	advmod	_	name=O
+10	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	name=O
+11	lukka	lukke	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	12	amod	_	name=O|Entity=(firdann~20110615_5640027__T14--1
+12	lag	lag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640027__T14)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007111
+# text = Kommunen bad om forklaring
+1	Kommunen	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20110615_5640027__241--1)
+2	bad	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	om	om	ADP	_	_	4	case	_	name=O
+4	forklaring	forklaring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(firdann~20110615_5640027__T16--1)
+
+# sent_id = 007112
+# text = - Å nekte ein kontrollør tilgjenge til ein skjenkjestad med kommunalt løyve er eit alvorleg brot, skriv Thor Olav Myhre i ein rapport, ifølgje Sogn Avis onsdag.
+1	-	$-	PUNCT	_	_	16	punct	_	name=O
+2	Å	å	PART	_	_	3	mark	_	name=O
+3	nekte	nekte	VERB	_	VerbForm=Inf	16	csubj	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(firdann~20110615_5640027__T17--1
+5	kontrollør	kontrollør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	iobj	_	name=O|Entity=firdann~20110615_5640027__T17)
+6	tilgjenge	tilgjenge	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(firdann~20110615_5640027__T18--1
+7	til	til	ADP	_	_	9	case	_	name=O
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(firdann~20110615_5640027__T19--1
+9	skjenkjestad	skjenkjestad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O
+10	med	med	ADP	_	_	12	case	_	name=O
+11	kommunalt	kommunal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	name=O|Entity=(firdann~20110615_5640027__T20--1
+12	løyve	løyve	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=firdann~20110615_5640027__T20)firdann~20110615_5640027__T19)firdann~20110615_5640027__T18)
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+14	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(firdann~20110615_5640027__T21--1
+15	alvorleg	alvorleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	name=O
+16	brot	brot	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640027__T21)
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	parataxis	_	name=O
+19	Thor	Thor	NOUN	_	Gender=Masc	18	nsubj	_	name=B-PER|Entity=(firdann~20110615_5640027__T22--1
+20	Olav	Olav	NOUN	_	Gender=Masc	19	flat:name	_	name=I-PER
+21	Myhre	Myhre	PROPN	_	_	19	flat:name	_	name=I-PER|Entity=firdann~20110615_5640027__T22)
+22	i	i	ADP	_	_	24	case	_	name=O
+23	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(firdann~20110615_5640027__T23--1
+24	rapport	rapport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640027__T23)
+25	,	$,	PUNCT	_	_	27	punct	_	name=O
+26	ifølgje	ifølgje	ADP	_	_	27	case	_	name=O
+27	Sogn	Sogn	PROPN	_	_	18	obl	_	name=B-PROD|Entity=(firdann~20110615_5640027__T24--1
+28	Avis	Avis	PROPN	_	_	27	flat:name	_	name=I-PROD
+29	onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640027__T25--1)firdann~20110615_5640027__T24)
+30	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 007113
+# text = Luster kommune bad hotellet om ei forklaring.
+1	Luster	Luster	PROPN	_	_	3	nsubj	_	name=B-GPE_ORG|Entity=(firdann~20110615_5640027__241--1
+2	kommune	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	flat:name	_	name=I-GPE_ORG|Entity=firdann~20110615_5640027__241)
+3	bad	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	hotellet	hotell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(firdann~20110615_5640027__7217--1)
+5	om	om	ADP	_	_	7	case	_	name=O
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20110615_5640027__T28--1
+7	forklaring	forklaring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640027__T28)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007114
+# text = Det vart då presisert at ein skjenkjekontrollør skal få komme inn sjølv om det er lukka lag.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	name=O
+3	då	då	ADV	_	_	4	advmod	_	name=O
+4	presisert	presisere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	at	at	SCONJ	_	_	10	mark	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20110615_5640027__T29--1
+7	skjenkjekontrollør	skjenkjekontrollør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=firdann~20110615_5640027__T29)
+8	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	få	få	AUX	_	VerbForm=Inf	10	aux	_	name=O
+10	komme	komme	VERB	_	VerbForm=Inf	4	csubj:pass	_	name=O
+11	inn	inn	ADP	_	_	10	compound:prt	_	name=O
+12	sjølv	sjølv	ADV	_	_	13	advmod	_	name=O
+13	om	om	SCONJ	_	_	15	mark	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	name=O
+15	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+16	lukka	lukke	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	17	amod	_	name=O|Entity=(firdann~20110615_5640027__T30--1
+17	lag	lag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nsubj	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640027__T30)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007115
+# text = Ole Henrik Nitter Walaker, som ifølgje svarbrevet tok i mot den kvinnelege kontrolløren, seier det ikkje var noko å kontrollere ettersom det var lukka lag.
+1	Ole	Ole	NOUN	_	Gender=Masc	16	nsubj	_	name=B-PER|Entity=(firdann~20110615_5640027__379--1
+2	Henrik	Henrik	NOUN	_	Gender=Masc	1	flat:name	_	name=I-PER
+3	Nitter	Nitter	PROPN	_	_	1	flat:name	_	name=I-PER
+4	Walaker	Walaker	PROPN	_	_	1	flat:name	_	SpaceAfter=No|name=I-PER
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+7	ifølgje	ifølgje	ADP	_	_	8	case	_	name=O
+8	svarbrevet	svarbrev	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(firdann~20110615_5640027__T32--1)
+9	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	mot	mot	ADP	_	_	9	compound:prt	_	name=O
+12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(firdann~20110615_5640027__4114--1
+13	kvinnelege	kvinneleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	kontrolløren	kontrollør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640027__4114)firdann~20110615_5640027__379)
+15	,	$,	PUNCT	_	_	9	punct	_	name=O
+16	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	name=O
+18	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	name=O
+19	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	xcomp	_	name=O
+20	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	19	nsubj	_	name=O|Entity=(firdann~20110615_5640027__T34--1
+21	å	å	PART	_	_	22	mark	_	name=O
+22	kontrollere	kontrollere	VERB	_	VerbForm=Inf	20	acl	_	name=O|Entity=firdann~20110615_5640027__T34)
+23	ettersom	ettersom	SCONJ	_	_	25	mark	_	name=O
+24	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	name=O
+25	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	name=O
+26	lukka	lukke	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	27	amod	_	name=O|Entity=(firdann~20110615_5640027__T35--1
+27	lag	lag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	nsubj	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640027__T35)
+28	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 007116
+# text = - Inviterte kontrolløren tilbake
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Inviterte	invitere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	kontrolløren	kontrollør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(firdann~20110615_5640027__4114--1)
+4	tilbake	tilbake	ADP	_	_	2	compound:prt	_	name=O
+
+# sent_id = 007117
+# text = - Vi inviterte kontrolløren tilbake til ordinær opningstid, som er frå 29. mai til 2. oktober, svarar hotellet.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110615_5640027__7217--1)
+3	inviterte	invitere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	kontrolløren	kontrollør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(firdann~20110615_5640027__4114--1)
+5	tilbake	tilbake	ADP	_	_	3	compound:prt	_	name=O
+6	til	til	ADP	_	_	8	case	_	name=O
+7	ordinær	ordinær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(firdann~20110615_5640027__T39--1
+8	opningstid	opningstid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	14	punct	_	name=O
+10	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+12	frå	frå	ADP	_	_	14	case	_	name=O
+13	29.	29.	ADJ	_	Number=Plur	14	amod	_	name=O|Entity=(firdann~20110615_5640027__T40--1
+14	mai	mai	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	acl:relcl	_	name=O|Entity=firdann~20110615_5640027__T40)
+15	til	til	ADP	_	_	17	case	_	name=O
+16	2.	2.	ADJ	_	Number=Plur	17	amod	_	name=O|Entity=(firdann~20110615_5640027__T41--1
+17	oktober	oktober	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640027__T41)firdann~20110615_5640027__T39)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	svarar	svare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+20	hotellet	hotell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640027__7217--1)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007118
+# text = Men han skriv også at om dei har gjort noko som ikkje er «heilt etter boka», skal dei prøve å bli betre neste gong.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110615_5640027__379--1)
+3	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	også	også	ADV	_	_	3	advmod	_	name=O
+5	at	at	SCONJ	_	_	22	mark	_	name=O
+6	om	om	SCONJ	_	_	9	mark	_	name=O
+7	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(firdann~20110615_5640027__7217--1)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	gjort	gjere	VERB	_	VerbForm=Part	22	advcl	_	name=O
+10	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	9	obj	_	name=O|Entity=(firdann~20110615_5640027__T45--1
+11	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+12	ikkje	ikkje	PART	_	Polarity=Neg	17	advmod	_	name=O
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+14	«	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O
+15	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	name=O
+16	etter	etter	ADP	_	_	17	case	_	name=O
+17	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	acl:relcl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640027__T46--1)
+18	»	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640027__T45)
+19	,	$,	PUNCT	_	_	9	punct	_	name=O
+20	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+21	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(firdann~20110615_5640027__7217--1)
+22	prøve	prøve	VERB	_	VerbForm=Inf	3	ccomp	_	name=O
+23	å	å	PART	_	_	24	mark	_	name=O
+24	bli	bli	VERB	_	VerbForm=Inf	22	xcomp	_	name=O
+25	betre	god	ADJ	_	Degree=Cmp	24	xcomp	_	name=O
+26	neste	neste	DET	_	Definite=Def|PronType=Dem	27	det	_	name=O|Entity=(firdann~20110615_5640027__T48--1
+27	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640027__T48)
+28	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007119
+# text = Luster formannskap hadde saka oppe til orientering.
+1	Luster	Luster	PROPN	_	_	3	nsubj	_	name=B-GPE_ORG|Entity=(firdann~20110615_5640027__T49--1
+2	formannskap	formannskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	flat:name	_	name=I-GPE_ORG|Entity=firdann~20110615_5640027__T49)
+3	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=(firdann~20110615_5640027__T50--1)
+5	oppe	oppe	SCONJ	_	_	7	mark	_	name=O
+6	til	til	SCONJ	_	_	7	mark	_	name=O
+7	orientering	orientering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640027__T51--1)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+

@@ -1,0 +1,1208 @@
+# newdoc id = ap_20081210-1252467
+# global.Entity = eid-etype-head-other
+# sent_id = 001310
+# text = Cæsar på nært hold
+1	Cæsar	Cæsar	PROPN	_	Gender=Masc	0	root	_	name=B-PER|Entity=(ap_20081210_1252467__446168--1
+2	på	på	ADP	_	_	4	case	_	name=O
+3	nært	nær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	name=O|Entity=(ap_20081210_1252467__T2--1
+4	hold	hold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=ap_20081210_1252467__T2)ap_20081210_1252467__446168)
+
+# newpar
+# sent_id = 001311
+# text = Han kom, så og vant.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+2	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	vant	vinne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001312
+# text = Onsdag var det 2050 år siden drapet på Cæsar.
+1	Onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(ap_20081210_1252467__T4--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+4	2050	2050	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(ap_20081210_1252467__T5--1
+5	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O
+6	siden	siden	ADP	_	_	7	case	_	name=O
+7	drapet	drap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(ap_20081210_1252467__256--1
+8	på	på	ADP	_	_	9	case	_	name=O
+9	Cæsar	Cæsar	PROPN	_	Gender=Masc	7	nmod	_	SpaceAfter=No|name=B-PER|Entity=(ap_20081210_1252467__446168--1)ap_20081210_1252467__256)ap_20081210_1252467__T5)
+10	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001313
+# text = Enten vi liker det eller ikke, er han en av grunnleggerne av europeisk sivilisasjon.
+1	Enten	enten	CCONJ	_	_	3	cc	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20081210_1252467__T8--1)
+3	liker	like	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(ap_20081210_1252467__T9--1)
+5	eller	eller	CCONJ	_	_	6	cc	_	name=O
+6	ikke	ikke	PART	_	Polarity=Neg	3	conj	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	3	punct	_	name=O
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+9	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+11	av	av	ADP	_	_	12	case	_	name=O
+12	grunnleggerne	grunnlegger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	name=O|Entity=(ap_20081210_1252467__T11--1
+13	av	av	ADP	_	_	15	case	_	name=O
+14	europeisk	europeisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(ap_20081210_1252467__T12--1
+15	sivilisasjon	sivilisasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T12)ap_20081210_1252467__T11)
+16	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# newpar
+# sent_id = 001314
+# text = En venn spurte forleden:
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20081210_1252467__T13--1
+2	venn	venn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=ap_20081210_1252467__T13)
+3	spurte	spørre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	forleden	forleden	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+5	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001315
+# text = "Du vil ikke si at dere feirer en despot, en imperialist som Gaius Julius Cæsar?"
+1	"	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+2	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20081210_1252467__4133--1)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	si	si	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	dere	dere	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20081210_1252467__T15--1)
+8	feirer	feire	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(ap_20081210_1252467__T16--1
+10	despot	despot	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(ap_20081210_1252467__T17--1
+13	imperialist	imperialist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	appos	_	name=O
+14	som	som	ADP	_	_	15	case	_	name=O
+15	Gaius	Gaius	PROPN	_	_	13	nmod	_	name=B-PER|Entity=(ap_20081210_1252467__446168--1
+16	Julius	Julius	PROPN	_	Gender=Masc	15	flat:name	_	name=I-PER
+17	Cæsar	Cæsar	PROPN	_	Gender=Masc	15	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20081210_1252467__446168)ap_20081210_1252467__T17)ap_20081210_1252467__T16)
+18	?	$?	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+19	"	$"	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001316
+# text = Jeg lo høyt.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20081210_1252467__4133--1)
+2	lo	le	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	høyt	høy	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001317
+# text = Det var 15. mars.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	15.	15.	ADJ	_	Number=Plur	4	amod	_	name=O|Entity=(ap_20081210_1252467__T20--1
+4	mars	mars	NOUN	_	Gender=Masc	0	root	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T20)
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001318
+# text = Vi lo, alle syv, nemlig seks latinartianere fra Grefsen gymnas anno 1978 og vår latinlektor til denne dag, Anne Katrine Frihagen.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20081210_1252467__8515[1/3]--1)
+2	lo	le	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	alle	all	DET	_	Number=Plur|PronType=Tot	1	det	_	name=O|Entity=(ap_20081210_1252467__8515[2/3]--1(ap_20081210_1252467__T320--1
+5	syv	syv	NUM	_	Number=Plur|NumType=Card	4	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T320)
+6	,	$,	PUNCT	_	_	4	punct	_	name=O
+7	nemlig	nemlig	ADV	_	_	9	advmod	_	name=O|Entity=(ap_20081210_1252467__T22[1/2]--1(ap_20081210_1252467__T23--1
+8	seks	seks	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O
+9	latinartianere	latinartianer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	appos	_	name=O
+10	fra	fra	ADP	_	_	11	case	_	name=O
+11	Grefsen	Grefsen	PROPN	_	_	9	nmod	_	name=B-LOC|Entity=(ap_20081210_1252467__T24--1
+12	gymnas	gymnas	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	flat:name	_	name=I-LOC
+13	anno	anno	ADV	_	_	14	advmod	_	name=O
+14	1978	1978	NUM	_	Number=Plur|NumType=Card	11	nmod	_	name=O|Entity=ap_20081210_1252467__T24)ap_20081210_1252467__T23)
+15	og	og	CCONJ	_	_	22	cc	_	name=O
+16	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	name=O|Entity=(ap_20081210_1252467__T26--1(ap_20081210_1252467__T28[1/2]--1(ap_20081210_1252467__T25--1)
+17	latinlektor	latinlektor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	name=O
+18	til	til	ADP	_	_	20	case	_	name=O
+19	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(ap_20081210_1252467__T27--1
+20	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T27)ap_20081210_1252467__T26)ap_20081210_1252467__T28[1/2])ap_20081210_1252467__T22[1/2])ap_20081210_1252467__8515[2/3])
+21	,	$,	PUNCT	_	_	17	punct	_	name=O
+22	Anne	Anne	PROPN	_	Gender=Fem	9	conj	_	name=B-PER|Entity=(ap_20081210_1252467__8515[3/3]--1(ap_20081210_1252467__T22[2/2]--1(ap_20081210_1252467__T28[2/2]--1
+23	Katrine	Katrine	PROPN	_	Gender=Fem	22	flat:name	_	name=I-PER
+24	Frihagen	Frihagen	PROPN	_	_	22	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20081210_1252467__8515[3/3])ap_20081210_1252467__T22[2/2])ap_20081210_1252467__T28[2/2])
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001319
+# text = Vi hadde gått litt av ruten Cæsar gikk den skjebnesvangre formiddagen for 2050 år siden, vi hadde stått omtrent ved drapsstedet, så nær man kan komme på dagens gatenivå, og hadde fulgt etter liket av ham til Forum Romanum hvor likbålet og gravalteret over ham kom til å stå.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20081210_1252467__8515--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	gått	gå	VERB	_	VerbForm=Part	0	root	_	name=O
+4	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	obj	_	name=O
+5	av	av	ADP	_	_	6	case	_	name=O
+6	ruten	rute	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(ap_20081210_1252467__T30--1
+7	Cæsar	Cæsar	PROPN	_	Gender=Masc	8	nsubj	_	name=B-PER|Entity=(ap_20081210_1252467__446168--1)
+8	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	name=O
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(ap_20081210_1252467__T32--1
+10	skjebnesvangre	skjebnesvanger	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	formiddagen	formiddag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obj	_	name=O
+12	for	for	ADP	_	_	14	case	_	name=O
+13	2050	2050	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(ap_20081210_1252467__T33--1
+14	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	name=O
+15	siden	siden	ADV	_	_	14	advmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T33)ap_20081210_1252467__T32)ap_20081210_1252467__T30)
+16	,	$,	PUNCT	_	_	19	punct	_	name=O
+17	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	name=O|Entity=(ap_20081210_1252467__8515--1)
+18	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	name=O
+19	stått	stå	VERB	_	VerbForm=Part	3	conj	_	name=O
+20	omtrent	omtrent	ADV	_	_	22	advmod	_	name=O
+21	ved	ved	ADP	_	_	22	case	_	name=O
+22	drapsstedet	drapssted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Bridge=ap_20081210_1252467__256<ap_20081210_1252467__T35:default|Entity=(ap_20081210_1252467__T35--1)
+23	,	$,	PUNCT	_	_	25	punct	_	name=O
+24	så	så	ADV	_	_	25	advmod	_	name=O
+25	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	19	advmod	_	name=O
+26	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	28	nsubj	_	name=O|Entity=(ap_20081210_1252467__T36--1)
+27	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	name=O
+28	komme	komme	VERB	_	VerbForm=Inf	24	advcl	_	name=O
+29	på	på	ADP	_	_	31	case	_	name=O
+30	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	name=O|Entity=(ap_20081210_1252467__T38--1(ap_20081210_1252467__T37--1)
+31	gatenivå	gatenivå	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	28	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T38)
+32	,	$,	PUNCT	_	_	25	punct	_	name=O
+33	og	og	CCONJ	_	_	35	cc	_	name=O
+34	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux	_	name=O
+35	fulgt	følge	VERB	_	VerbForm=Part	3	conj	_	name=O
+36	etter	etter	ADP	_	_	37	case	_	name=O
+37	liket	lik	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	35	obl	_	name=O|Entity=(ap_20081210_1252467__T39--1
+38	av	av	ADP	_	_	39	case	_	name=O
+39	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nmod	_	name=O|Entity=(ap_20081210_1252467__446168--1)ap_20081210_1252467__T39)
+40	til	til	ADP	_	_	41	case	_	name=O
+41	Forum	Forum	PROPN	_	_	35	obl	_	name=B-LOC|Entity=(ap_20081210_1252467__T41--1
+42	Romanum	Romanum	PROPN	_	_	41	flat:name	_	name=I-LOC
+43	hvor	hvor	ADV	_	_	49	advmod	_	name=O
+44	likbålet	likbål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	49	nsubj	_	name=O|Entity=(ap_20081210_1252467__T42--1(ap_20081210_1252467__T43--1)
+45	og	og	CCONJ	_	_	46	cc	_	name=O
+46	gravalteret	gravalter	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	44	conj	_	name=O|Entity=(ap_20081210_1252467__T44--1
+47	over	over	ADP	_	_	48	case	_	name=O
+48	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	nmod	_	name=O|Entity=(ap_20081210_1252467__446168--1)ap_20081210_1252467__T44)ap_20081210_1252467__T42)
+49	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	41	acl:relcl	_	name=O
+50	til	til	SCONJ	_	_	52	mark	_	name=O
+51	å	å	PART	_	_	52	mark	_	name=O
+52	stå	stå	VERB	_	VerbForm=Inf	49	advcl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T41)
+53	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001320
+# text = "Nei, vi feirer ham ikke," svarte jeg.
+1	"	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+2	Nei	nei	INTJ	_	_	5	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20081210_1252467__8515--1)
+5	feirer	feire	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+7	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+9	"	$"	PUNCT	_	_	5	punct	_	name=O
+10	svarte	svare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	name=O
+11	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__4133--1)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001321
+# text = "Vi feirer heller ikke drapet på ham."
+1	"	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20081210_1252467__8515--1)
+3	feirer	feire	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	heller	heller	ADV	_	_	5	advmod	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+6	drapet	drap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(ap_20081210_1252467__256--1
+7	på	på	ADP	_	_	8	case	_	name=O
+8	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__446168--1)ap_20081210_1252467__256)
+9	.	$.	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+10	"	$"	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001322
+# text = Og her slo det meg med forundring at det er nødvendig å understreke at man ikke nærer sentimentale følelser for noen diktator, enn videre at man ikke er fascist, selv om man er ambivalent betatt av Cæsars begavelse og den enorme betydning hans liv og død fikk for vår europeiske sivilisasjonshistorie.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	her	her	ADV	_	_	3	advmod	_	name=O
+3	slo	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	name=O|Entity=(ap_20081210_1252467__4133--1)
+6	med	med	ADP	_	_	7	case	_	name=O
+7	forundring	forundring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(ap_20081210_1252467__T53--1)
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	nødvendig	nødvendig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	csubj	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	understreke	understreke	VERB	_	VerbForm=Inf	11	csubj	_	name=O
+14	at	at	SCONJ	_	_	17	mark	_	name=O
+15	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	17	nsubj	_	name=O|Entity=(ap_20081210_1252467__T54--1)
+16	ikke	ikke	PART	_	Polarity=Neg	17	advmod	_	name=O
+17	nærer	nære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	name=O
+18	sentimentale	sentimental	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O|Entity=(ap_20081210_1252467__T55--1
+19	følelser	følelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	obj	_	name=O
+20	for	for	ADP	_	_	22	case	_	name=O
+21	noen	noen	DET	_	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	name=O|Entity=(ap_20081210_1252467__T56--1
+22	diktator	diktator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T56)ap_20081210_1252467__T55)
+23	,	$,	PUNCT	_	_	24	punct	_	name=O
+24	enn	enn	ADP	_	_	17	compound:prt	_	name=O
+25	videre	vid	ADJ	_	Degree=Cmp	24	advmod	_	name=O
+26	at	at	SCONJ	_	_	30	mark	_	name=O
+27	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	30	nsubj	_	name=O|Entity=(ap_20081210_1252467__T57--1)
+28	ikke	ikke	PART	_	Polarity=Neg	30	advmod	_	name=O
+29	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	30	cop	_	name=O
+30	fascist	fascist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	advcl	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T58--1)
+31	,	$,	PUNCT	_	_	37	punct	_	name=O
+32	selv	selv	ADV	_	_	33	advmod	_	name=O
+33	om	om	SCONJ	_	_	37	mark	_	name=O
+34	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	37	nsubj	_	name=O|Entity=(ap_20081210_1252467__T59--1)
+35	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	37	cop	_	name=O
+36	ambivalent	ambivalent	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	37	advmod	_	name=O
+37	betatt	betatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	advcl	_	name=O
+38	av	av	ADP	_	_	40	case	_	name=O
+39	Cæsars	Cæsar	PROPN	_	Case=Gen|Gender=Masc	40	nmod	_	name=B-PER|Entity=(ap_20081210_1252467__T61--1(ap_20081210_1252467__T62--1(ap_20081210_1252467__446168--1)
+40	begavelse	begavelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	37	obl	_	name=O|Entity=ap_20081210_1252467__T62)
+41	og	og	CCONJ	_	_	44	cc	_	name=O
+42	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	44	det	_	name=O|Entity=(ap_20081210_1252467__T63--1
+43	enorme	enorm	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	44	amod	_	name=O
+44	betydning	betydning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	40	conj	_	name=O
+45	hans	hans	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	46	nmod	_	name=O|Entity=(ap_20081210_1252467__T65--1(ap_20081210_1252467__T66--1(ap_20081210_1252467__446168--1)
+46	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	49	nsubj	_	name=O|Entity=ap_20081210_1252467__T66)
+47	og	og	CCONJ	_	_	48	cc	_	name=O
+48	død	død	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	46	conj	_	name=O|Entity=(ap_20081210_1252467__T67--1)ap_20081210_1252467__T65)
+49	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	44	acl:relcl	_	name=O
+50	for	for	ADP	_	_	53	case	_	name=O
+51	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	53	nmod	_	name=O|Entity=(ap_20081210_1252467__T69--1(ap_20081210_1252467__T68--1)
+52	europeiske	europeisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	53	amod	_	name=O
+53	sivilisasjonshistorie	sivilisasjonshistorie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	49	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T69)ap_20081210_1252467__T63)ap_20081210_1252467__T61)
+54	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001323
+# text = For eksempel utsatte han de germanske folkevandringer med 500 år.
+1	For	for	ADP	_	_	2	case	_	name=O
+2	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(ap_20081210_1252467__T70--1)
+3	utsatte	utsette	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+5	de	de	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(ap_20081210_1252467__T72--1
+6	germanske	germansk	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	folkevandringer	folkevandring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	name=O|Entity=ap_20081210_1252467__T72)
+8	med	med	ADP	_	_	10	case	_	name=O
+9	500	500	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(ap_20081210_1252467__T73--1
+10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T73)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 001324
+# text = harmløse markering av dagen ved de fire tempelruinene som kom for en dag da Mussolinis byplanleggere rev et par kvartaler og ville anlegge nybygg på Largo Argentina i 1920-årene.
+1	harmløse	harmløs	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(ap_20081210_1252467__T74--1
+2	markering	markering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	dagen	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20081210_1252467__T75--1
+5	ved	ved	ADP	_	_	8	case	_	name=O
+6	de	de	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(ap_20081210_1252467__T76--1
+7	fire	fire	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O
+8	tempelruinene	tempelruin	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nmod	_	name=O
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	name=O
+11	for	for	ADP	_	_	13	case	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(ap_20081210_1252467__T77--1
+13	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=ap_20081210_1252467__T77)
+14	da	da	SCONJ	_	_	17	mark	_	name=O
+15	Mussolinis	Mussolini	PROPN	_	Case=Gen	16	nmod	_	name=B-PER|Entity=(ap_20081210_1252467__T79--1(ap_20081210_1252467__T78--1)
+16	byplanleggere	byplanlegger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	nsubj	_	name=O|Entity=ap_20081210_1252467__T79)
+17	rev	rive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	name=O
+18	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(ap_20081210_1252467__T81--1(ap_20081210_1252467__T80--1
+19	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	nmod	_	name=O|Entity=ap_20081210_1252467__T80)
+20	kvartaler	kvartal	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	obj	_	name=O|Entity=ap_20081210_1252467__T81)
+21	og	og	CCONJ	_	_	23	cc	_	name=O
+22	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	name=O
+23	anlegge	anlegge	VERB	_	VerbForm=Inf	17	conj	_	name=O
+24	nybygg	nybygg	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	obj	_	name=O|Entity=(ap_20081210_1252467__T82--1)
+25	på	på	ADP	_	_	26	case	_	name=O
+26	Largo	Largo	PROPN	_	_	23	obl	_	name=B-LOC|Entity=(ap_20081210_1252467__T83--1
+27	Argentina	Argentina	PROPN	_	_	26	flat:name	_	name=I-LOC|Entity=ap_20081210_1252467__T83)
+28	i	i	ADP	_	_	29	case	_	name=O
+29	1920-årene	1920-år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	23	obl	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T84--1)ap_20081210_1252467__T76)ap_20081210_1252467__T75)ap_20081210_1252467__T74)
+30	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001325
+# text = Prosjektet ble skrinlagt.
+1	Prosjektet	prosjekt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj:pass	_	name=O|Entity=(ap_20081210_1252467__T85--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	skrinlagt	skrinlegge	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001326
+# text = Her står vi, midt i biltrafikken, og stirrer ned på fragmenter av noen bygninger, blant andre en offentlig dass, som var blitt 200 år gamle allerede på Cæsars tid.
+1	Her	her	ADV	_	_	2	advmod	_	name=O
+2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__8515--1)
+4	,	$,	PUNCT	_	_	7	punct	_	name=O
+5	midt	midt	ADV	_	_	7	advmod	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	biltrafikken	biltrafikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T87--1)
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	stirrer	stirre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+11	ned	ned	ADP	_	_	13	case	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	fragmenter	fragment	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obl	_	name=O|Entity=(ap_20081210_1252467__T88--1
+14	av	av	ADP	_	_	16	case	_	name=O
+15	noen	noen	DET	_	Number=Plur|PronType=Ind	16	det	_	name=O|Entity=(ap_20081210_1252467__T89--1
+16	bygninger	bygning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	22	punct	_	name=O
+18	blant	blant	ADP	_	_	19	case	_	name=O|Entity=(ap_20081210_1252467__T90--1
+19	andre	annen	DET	_	Number=Plur|PronType=Dem	22	nmod	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O
+21	offentlig	offentlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	dass	dass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T90)
+23	,	$,	PUNCT	_	_	26	punct	_	name=O
+24	som	som	PRON	_	PronType=Rel	26	nsubj	_	name=O
+25	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	name=O
+26	blitt	bli	VERB	_	VerbForm=Part	16	acl:relcl	_	name=O
+27	200	200	NUM	_	Number=Plur|NumType=Card	28	nummod	_	name=O|Entity=(ap_20081210_1252467__T91--1
+28	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	29	obl	_	name=O|Entity=ap_20081210_1252467__T91)
+29	gamle	gammel	ADJ	_	Degree=Pos|Number=Plur	26	xcomp	_	name=O
+30	allerede	allerede	ADV	_	_	33	advmod	_	name=O
+31	på	på	ADP	_	_	33	case	_	name=O
+32	Cæsars	Cæsar	PROPN	_	Case=Gen|Gender=Masc	33	nmod	_	name=B-PER|Entity=(ap_20081210_1252467__T93--1(ap_20081210_1252467__446168--1)
+33	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T93)ap_20081210_1252467__T89)ap_20081210_1252467__T88)
+34	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001327
+# text = Vi ser altså konturer av republikken Roma, det bysamfunnet som lenge før vår tidsregning var blitt et gryende demokrati, som utviklet latinen som europeisk språk og som ga oss romerretten.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20081210_1252467__8515--1)
+2	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	altså	altså	ADV	_	_	2	advmod	_	name=O
+4	konturer	kontur	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=(ap_20081210_1252467__T95--1
+5	av	av	ADP	_	_	7	case	_	name=O
+6	republikken	republikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(ap_20081210_1252467__81427--1
+7	Roma	Roma	PROPN	_	_	4	nmod	_	SpaceAfter=No|name=B-GPE_ORG
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(ap_20081210_1252467__T97--1
+10	bysamfunnet	bysamfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	appos	_	name=O
+11	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+12	lenge	lenge	ADJ	_	Degree=Pos	15	advmod	_	name=O
+13	før	før	ADP	_	_	15	case	_	name=O
+14	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(ap_20081210_1252467__T99--1(ap_20081210_1252467__T98--1)
+15	tidsregning	tidsregning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	name=O|Entity=ap_20081210_1252467__T99)
+16	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	name=O
+17	blitt	bli	VERB	_	VerbForm=Part	10	acl:relcl	_	name=O
+18	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(ap_20081210_1252467__T100--1
+19	gryende	gry	ADJ	_	VerbForm=Part	20	amod	_	name=O
+20	demokrati	demokrati	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	xcomp	_	SpaceAfter=No|name=O
+21	,	$,	PUNCT	_	_	23	punct	_	name=O
+22	som	som	PRON	_	PronType=Rel	23	nsubj	_	name=O
+23	utviklet	utvikle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	acl:relcl	_	name=O
+24	latinen	latin	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	obj	_	name=O|Entity=(ap_20081210_1252467__2226--1)
+25	som	som	SCONJ	_	_	27	mark	_	name=O
+26	europeisk	europeisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	name=O|Entity=(ap_20081210_1252467__T102--1
+27	språk	språk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	xcomp	_	name=O|Entity=ap_20081210_1252467__T102)
+28	og	og	CCONJ	_	_	30	cc	_	name=O
+29	som	som	PRON	_	PronType=Rel	30	nsubj	_	name=O
+30	ga	gi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	conj	_	name=O
+31	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	30	iobj	_	name=O|Entity=(ap_20081210_1252467__T103--1)
+32	romerretten	romerrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T104--1)ap_20081210_1252467__T100)ap_20081210_1252467__T97)ap_20081210_1252467__81427)ap_20081210_1252467__T95)
+33	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001328
+# text = Det var i republikkens krisetid Cæsar bygget opp sin militære og politiske karrière frem til dødsdagen, 15. mars 44 f. Kr.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	republikkens	republikk	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(ap_20081210_1252467__T106--1(ap_20081210_1252467__81427--1)
+5	krisetid	krisetid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=ap_20081210_1252467__T106)
+6	Cæsar	Cæsar	PROPN	_	Gender=Masc	7	nsubj	_	name=B-PER|Entity=(ap_20081210_1252467__446168--1)
+7	bygget	bygge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+8	opp	opp	ADP	_	_	7	compound:prt	_	name=O
+9	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(ap_20081210_1252467__T109--1(ap_20081210_1252467__446168--1)
+10	militære	militær	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	conj	_	name=O
+13	karrière	karriere	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=ap_20081210_1252467__T109)
+14	frem	frem	ADP	_	_	16	case	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	dødsdagen	dødsdag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T110--1(ap_20081210_1252467__T111--1
+17	,	$,	PUNCT	_	_	19	punct	_	name=O|Entity=ap_20081210_1252467__T111)
+18	15.	15.	ADJ	_	Number=Plur	19	amod	_	name=O|Entity=(ap_20081210_1252467__T112--1
+19	mars	mars	NOUN	_	Gender=Masc	16	conj	_	name=O
+20	44	44	NUM	_	Number=Plur|NumType=Card	19	nmod	_	name=O
+21	f.	f.	ADP	_	Abbr=Yes	22	case	_	name=O
+22	Kr.	kr	NOUN	_	Abbr=Yes	20	obl	_	name=O|Entity=(ap_20081210_1252467__T113--1)ap_20081210_1252467__T112)ap_20081210_1252467__T110)
+
+# sent_id = 001329
+# text = Det er sannsynlig at han kom spaserende akkurat her, og at det var i 11-tiden om morgenen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	sannsynlig	sannsynlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+6	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	csubj	_	name=O
+7	spaserende	spasere	ADJ	_	VerbForm=Part	6	xcomp	_	name=O
+8	akkurat	akkurat	ADV	_	_	9	advmod	_	name=O
+9	her	her	ADV	_	_	6	advmod	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	16	punct	_	name=O
+11	og	og	CCONJ	_	_	16	cc	_	name=O
+12	at	at	SCONJ	_	_	16	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	name=O
+14	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	11-tiden	11-tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	conj	_	name=O|Entity=(ap_20081210_1252467__T115--1
+17	om	om	ADP	_	_	18	case	_	name=O
+18	morgenen	morgen	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T116--1)ap_20081210_1252467__T115)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001330
+# text = Kilder i nær ettertid beskriver overleverte observasjoner, ikke minst biografen Suetonius på 120-tallet, og det er trolig Cæsars egen ekspansjonspolitikk vi kan takke for at latinens utbredelse og overlevelse bringer denne litteraturen helskinnet gjennom det katolske klostervesen like frem til våre bokhyller.
+1	Kilder	kilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=(ap_20081210_1252467__T117[1/2]--1
+2	i	i	ADP	_	_	4	case	_	name=O
+3	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(ap_20081210_1252467__T118--1
+4	ettertid	ettertid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=ap_20081210_1252467__T118)ap_20081210_1252467__T117[1/2])
+5	beskriver	beskrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	overleverte	overlevere	ADJ	_	Number=Plur|VerbForm=Part	7	amod	_	name=O|Entity=(ap_20081210_1252467__T119--1
+7	observasjoner	observasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T119)
+8	,	$,	PUNCT	_	_	12	punct	_	name=O
+9	ikke	ikke	PART	_	Polarity=Neg	10	advmod	_	name=O|Entity=(ap_20081210_1252467__T117[2/2]--1(ap_20081210_1252467__T120--1
+10	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	12	amod	_	name=O
+11	biografen	biograf	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	name=O
+12	Suetonius	Suetonius	PROPN	_	_	1	appos	_	name=B-PER
+13	på	på	ADP	_	_	14	case	_	name=O
+14	120-tallet	120-tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T121--1)
+15	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=ap_20081210_1252467__T117[2/2])ap_20081210_1252467__T120)
+16	og	og	CCONJ	_	_	22	cc	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	name=O
+18	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+19	trolig	trolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	advmod	_	name=O
+20	Cæsars	Cæsar	PROPN	_	Case=Gen|Gender=Masc	22	nmod	_	name=B-PER|Entity=(ap_20081210_1252467__T123--1(ap_20081210_1252467__446168--1)
+21	egen	egen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	22	det	_	name=O
+22	ekspansjonspolitikk	ekspansjonspolitikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O
+23	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	name=O|Entity=(ap_20081210_1252467__T124--1)
+24	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	takke	takke	VERB	_	VerbForm=Inf	22	acl:cleft	_	name=O
+26	for	for	SCONJ	_	_	32	mark	_	name=O
+27	at	at	SCONJ	_	_	32	mark	_	name=O
+28	latinens	latin	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	name=O|Entity=(ap_20081210_1252467__T126--1(ap_20081210_1252467__T127--1(ap_20081210_1252467__2226--1)
+29	utbredelse	utbredelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	32	nsubj	_	name=O|Entity=ap_20081210_1252467__T127)
+30	og	og	CCONJ	_	_	31	cc	_	name=O
+31	overlevelse	overlevelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	conj	_	name=O|Entity=(ap_20081210_1252467__T128--1)ap_20081210_1252467__T126)
+32	bringer	bringe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	advcl	_	name=O
+33	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	34	det	_	name=O|Entity=(ap_20081210_1252467__T129--1
+34	litteraturen	litteratur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	32	obj	_	name=O|Entity=ap_20081210_1252467__T129)
+35	helskinnet	helskinnet	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	32	xcomp	_	name=O
+36	gjennom	gjennom	ADP	_	_	39	case	_	name=O
+37	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	39	det	_	name=O|Entity=(ap_20081210_1252467__T130--1
+38	katolske	katolsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	39	amod	_	name=O
+39	klostervesen	klostervesen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	32	obl	_	name=O|Entity=ap_20081210_1252467__T130)
+40	like	like	ADV	_	_	44	advmod	_	name=O
+41	frem	frem	ADP	_	_	44	case	_	name=O
+42	til	til	ADP	_	_	44	case	_	name=O
+43	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	44	nmod	_	name=O|Entity=(ap_20081210_1252467__T132--1(ap_20081210_1252467__T131--1)
+44	bokhyller	bokhylle	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	32	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T132)ap_20081210_1252467__T123)
+45	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001331
+# text = Cæsar var på vei til et senatsmøte som ikke kunne holdes i curiaen på Forum, den var under oppussing.
+1	Cæsar	Cæsar	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(ap_20081210_1252467__446168--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20081210_1252467__T134--1
+5	til	til	ADP	_	_	7	case	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20081210_1252467__T135--1
+7	senatsmøte	senatsmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	name=O
+8	som	som	PRON	_	PronType=Rel	11	nsubj:pass	_	name=O
+9	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+10	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+11	holdes	holde	VERB	_	VerbForm=Inf|Voice=Pass	7	acl:relcl	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	curiaen	curia	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(ap_20081210_1252467__2274--1
+14	på	på	ADP	_	_	15	case	_	name=O
+15	Forum	Forum	PROPN	_	_	13	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(ap_20081210_1252467__T137--1)ap_20081210_1252467__2274)ap_20081210_1252467__T135)ap_20081210_1252467__T134)
+16	,	$,	PUNCT	_	_	18	punct	_	name=O
+17	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(ap_20081210_1252467__2274--1)
+18	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	name=O
+19	under	under	ADP	_	_	20	case	_	name=O
+20	oppussing	oppussing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T139--1)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001332
+# text = Senatsmøtene var derfor midlertidig flyttet til det strålende nye forsamlingsanlegget som Pompeius, en tidligere alliert, men siden rival av Cæsar, hadde skjenket byen med overbygde søylehaller og teater, riktig et prakteksemplar av et kulturhus.
+1	Senatsmøtene	senatsmøte	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=(ap_20081210_1252467__T140--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+3	derfor	derfor	ADV	_	_	5	advmod	_	name=O
+4	midlertidig	midlertidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	flyttet	flytte	VERB	_	VerbForm=Part	0	root	_	name=O
+6	til	til	ADP	_	_	10	case	_	name=O
+7	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(ap_20081210_1252467__T141--1
+8	strålende	stråle	ADJ	_	VerbForm=Part	10	amod	_	name=O
+9	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	forsamlingsanlegget	forsamlingsanlegg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O
+11	som	som	PRON	_	PronType=Rel	25	iobj	_	name=O
+12	Pompeius	Pompeius	PROPN	_	_	25	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20081210_1252467__T142--1
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O
+15	tidligere	tidlig	ADJ	_	Degree=Cmp	16	advmod	_	name=O
+16	alliert	alliert	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	appos	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	20	punct	_	name=O
+18	men	men	CCONJ	_	_	20	cc	_	name=O
+19	siden	siden	ADV	_	_	20	advmod	_	name=O|Entity=(ap_20081210_1252467__T143--1
+20	rival	rival	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	name=O
+21	av	av	ADP	_	_	22	case	_	name=O
+22	Cæsar	Cæsar	PROPN	_	Gender=Masc	20	nmod	_	SpaceAfter=No|name=B-PER|Entity=(ap_20081210_1252467__446168--1)
+23	,	$,	PUNCT	_	_	20	punct	_	name=O|Entity=ap_20081210_1252467__T143)ap_20081210_1252467__T142)
+24	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	name=O
+25	skjenket	skjenke	VERB	_	VerbForm=Part	10	acl:relcl	_	name=O
+26	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	obj	_	name=O|Entity=(ap_20081210_1252467__81427--1)
+27	med	med	ADP	_	_	29	case	_	name=O
+28	overbygde	overbygd	ADJ	_	Degree=Pos|Number=Plur	29	amod	_	name=O|Entity=(ap_20081210_1252467__T146--1(ap_20081210_1252467__T147--1
+29	søylehaller	søylehall	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	name=O|Entity=ap_20081210_1252467__T147)
+30	og	og	CCONJ	_	_	31	cc	_	name=O
+31	teater	teater	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	29	conj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T148--1)ap_20081210_1252467__T146)
+32	,	$,	PUNCT	_	_	35	punct	_	name=O
+33	riktig	riktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	name=O|Entity=(ap_20081210_1252467__T149--1
+34	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	35	det	_	name=O
+35	prakteksemplar	prakteksemplar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	appos	_	name=O
+36	av	av	ADP	_	_	38	case	_	name=O
+37	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	38	det	_	name=O|Entity=(ap_20081210_1252467__T150--1
+38	kulturhus	kulturhus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	35	nmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T150)ap_20081210_1252467__T149)ap_20081210_1252467__T141)
+39	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001333
+# text = Det er mellom disse søylene, hvorav mange i dag må antas å ligge knust i kjellerfundamentene under bebyggelsen rundt oss, at Gaius Julius Cæsar blir utsatt for et av verdenshistoriens mest berømte attentater.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	mellom	mellom	ADP	_	_	5	case	_	name=O
+4	disse	disse	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(ap_20081210_1252467__T151--1
+5	søylene	søyle	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	12	punct	_	name=O
+7	hvorav	hvorav	ADV	_	_	12	advmod	_	name=O
+8	mange	mange	ADJ	_	Degree=Pos|Number=Plur	12	nsubj:pass	_	name=O|Entity=(ap_20081210_1252467__T152--1)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(ap_20081210_1252467__T153--1)
+11	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	antas	anta	VERB	_	VerbForm=Inf|Voice=Pass	5	acl:cleft	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	ligge	ligge	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	knust	knuse	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	8	acl	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	kjellerfundamentene	kjellerfundament	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	obl	_	name=O|Entity=(ap_20081210_1252467__T154--1
+18	under	under	ADP	_	_	19	case	_	name=O
+19	bebyggelsen	bebyggelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(ap_20081210_1252467__T155--1
+20	rundt	rundt	ADP	_	_	21	case	_	name=O
+21	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	19	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__8515--1)ap_20081210_1252467__T155)ap_20081210_1252467__T154)
+22	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=ap_20081210_1252467__T151)
+23	at	at	SCONJ	_	_	28	mark	_	name=O
+24	Gaius	Gaius	PROPN	_	_	28	nsubj:pass	_	name=B-PER|Entity=(ap_20081210_1252467__446168--1
+25	Julius	Julius	PROPN	_	Gender=Masc	24	flat:name	_	name=I-PER
+26	Cæsar	Cæsar	PROPN	_	Gender=Masc	24	flat:name	_	name=I-PER|Entity=ap_20081210_1252467__446168)
+27	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux:pass	_	name=O
+28	utsatt	utsette	VERB	_	VerbForm=Part	5	advcl	_	name=O
+29	for	for	ADP	_	_	30	case	_	name=O
+30	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	28	obl	_	name=O
+31	av	av	ADP	_	_	35	case	_	name=O
+32	verdenshistoriens	verdenshistorie	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	35	nmod	_	name=O|Entity=(ap_20081210_1252467__T159--1(ap_20081210_1252467__T158--1)
+33	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	34	advmod	_	name=O
+34	berømte	berømt	ADJ	_	Degree=Pos|Number=Plur	35	amod	_	name=O
+35	attentater	attentat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	30	nmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T159)
+36	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001334
+# text = Da det første av 23 dolkestikk rammer ham, utbryter han:
+1	Da	da	SCONJ	_	_	7	mark	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20081210_1252467__2324--1
+3	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	nsubj	_	name=O
+4	av	av	ADP	_	_	6	case	_	name=O
+5	23	23	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(ap_20081210_1252467__T161--1
+6	dolkestikk	dolkestikk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	name=O|Entity=ap_20081210_1252467__T161)ap_20081210_1252467__2324)
+7	rammer	ramme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+8	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__446168--1)
+9	,	$,	PUNCT	_	_	7	punct	_	name=O
+10	utbryter	utbryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__446168--1)
+12	:	$:	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 001335
+# text = "Men dette er jo vold."
+1	"	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O
+2	Men	men	CCONJ	_	_	6	cc	_	name=O
+3	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(ap_20081210_1252467__2324--1)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	jo	jo	ADV	_	_	6	advmod	_	name=O
+6	vold	vold	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T165--1)
+7	.	$.	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O
+8	"	$"	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 001336
+# text = sterkeste mann, utnevnt til diktator.
+1	sterkeste	sterk	ADJ	_	Definite=Def|Degree=Sup	2	amod	_	name=O|Entity=(ap_20081210_1252467__446168--1
+2	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	utnevnt	utnevne	VERB	_	VerbForm=Part	2	acl:relcl	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	diktator	diktator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T167--1)ap_20081210_1252467__446168)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001337
+# text = Men et komplott av senatorer, som foregir å ville forsvare republikken, synes han har gått for langt.
+1	Men	men	CCONJ	_	_	14	cc	_	name=O
+2	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(ap_20081210_1252467__T168--1
+3	komplott	komplott	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	nsubj	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	senatorer	senator	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T169--1
+6	,	$,	PUNCT	_	_	8	punct	_	name=O
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+8	foregir	foregi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+9	å	å	PART	_	_	11	mark	_	name=O
+10	ville	ville	AUX	_	VerbForm=Inf	11	aux	_	name=O
+11	forsvare	forsvare	VERB	_	VerbForm=Inf	8	xcomp	_	name=O
+12	republikken	republikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__81427--1)ap_20081210_1252467__T169)
+13	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=ap_20081210_1252467__T168)
+14	synes	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+15	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	gått	gå	VERB	_	VerbForm=Part	14	ccomp	_	name=O
+18	for	for	ADV	_	_	19	advmod	_	name=O
+19	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	SpaceAfter=No|name=O
+20	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 001338
+# text = Selvsagt har han dét.
+1	Selvsagt	selvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+4	dét	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001339
+# text = Men han har også gått hele karrièreveien etter regelverket, han har latt seg velge til religiøs leder, til edil og til konsul.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	også	også	ADV	_	_	5	advmod	_	name=O
+5	gått	gå	VERB	_	VerbForm=Part	0	root	_	name=O
+6	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(ap_20081210_1252467__T174--1
+7	karrièreveien	karrièrevei	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=ap_20081210_1252467__T174)
+8	etter	etter	ADP	_	_	9	case	_	name=O
+9	regelverket	regelverk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T175--1)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	latt	la	VERB	_	VerbForm=Part	5	conj	_	name=O
+14	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	iobj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+15	velge	velge	VERB	_	VerbForm=Inf	13	xcomp	_	name=O
+16	til	til	ADP	_	_	18	case	_	name=O
+17	religiøs	religiøs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(ap_20081210_1252467__T177--1
+18	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T177)
+19	,	$,	PUNCT	_	_	21	punct	_	name=O
+20	til	til	ADP	_	_	21	case	_	name=O
+21	edil	edil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	conj	_	name=O|Entity=(ap_20081210_1252467__T178--1)
+22	og	og	CCONJ	_	_	24	cc	_	name=O
+23	til	til	ADP	_	_	24	case	_	name=O
+24	konsul	konsul	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T179--1)
+25	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001340
+# text = Tålmodig, nøyeberegnende og smartere enn de aller fleste, har han bygget opp sin autoritet.
+1	Tålmodig	tålmodig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	acl	_	SpaceAfter=No|name=O
+2	,	$,	PUNCT	_	_	3	punct	_	name=O
+3	nøyeberegnende	nøyeberegne	ADJ	_	VerbForm=Part	1	conj	_	name=O
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	smartere	smart	ADJ	_	Degree=Cmp	1	conj	_	name=O
+6	enn	enn	ADP	_	_	9	case	_	name=O
+7	de	de	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(ap_20081210_1252467__T180--1
+8	aller	aller	ADV	_	_	9	advmod	_	name=O
+9	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	5	advmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T180)
+10	,	$,	PUNCT	_	_	1	punct	_	name=O
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+12	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+13	bygget	bygge	VERB	_	VerbForm=Part	0	root	_	name=O
+14	opp	opp	ADP	_	_	13	compound:prt	_	name=O
+15	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	name=O|Entity=(ap_20081210_1252467__T183--1(ap_20081210_1252467__446168--1)
+16	autoritet	autoritet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T183)
+17	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 001341
+# text = Marcus Tullius Cicero har vært hans eneste overmann på talerstolen.
+1	Marcus	Marcus	PROPN	_	Gender=Masc	8	nsubj	_	name=B-PER|Entity=(ap_20081210_1252467__T184--1
+2	Tullius	Tullius	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Cicero	Cicero	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=ap_20081210_1252467__T184)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+5	vært	være	AUX	_	VerbForm=Part	8	cop	_	name=O
+6	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(ap_20081210_1252467__T186--1(ap_20081210_1252467__446168--1)
+7	eneste	eneste	NUM	_	Definite=Def|NumType=Card	8	nummod	_	name=O
+8	overmann	overmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	talerstolen	talerstol	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T187--1)ap_20081210_1252467__T186)
+11	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001342
+# text = Han er lærd i litteratur og retorikk, jus og krigskunst.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	lærd	lærd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	litteratur	litteratur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20081210_1252467__T189--1(ap_20081210_1252467__T190[1/2]--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	retorikk	retorikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T191--1)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=(ap_20081210_1252467__T190[2/2]--1)
+9	jus	jus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O|Entity=(ap_20081210_1252467__T192--1(ap_20081210_1252467__T193--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	krigskunst	krigskunst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T194--1)ap_20081210_1252467__T192)ap_20081210_1252467__T189)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001343
+# text = Han er greskkyndig.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	greskkyndig	greskkyndig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001344
+# text = Han har underlagt seg Gallia og Spania, lagt grunnlaget i århundrer for romaniseringen av verden, indirekte også den romersk-katolske, men delvis uten legitimt mandat fra Roma.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	underlagt	underlegge	VERB	_	VerbForm=Part	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	iobj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+5	Gallia	Gallia	PROPN	_	_	3	obj	_	name=B-GPE_LOC|Entity=(ap_20081210_1252467__T197--1(ap_20081210_1252467__T198--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	Spania	Spania	PROPN	_	_	5	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20081210_1252467__T199--1)ap_20081210_1252467__T197)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	lagt	legge	VERB	_	VerbForm=Part	3	conj	_	name=O
+10	grunnlaget	grunnlag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obj	_	name=O|Entity=(ap_20081210_1252467__T200--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	århundrer	århundre	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	name=O|Entity=(ap_20081210_1252467__T201--1)
+13	for	for	ADP	_	_	14	case	_	name=O
+14	romaniseringen	romanisering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(ap_20081210_1252467__T202--1
+15	av	av	ADP	_	_	16	case	_	name=O
+16	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T203--1(ap_20081210_1252467__T204--1
+17	,	$,	PUNCT	_	_	21	punct	_	name=O|Entity=ap_20081210_1252467__T204)
+18	indirekte	indirekte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	name=O|Entity=(ap_20081210_1252467__T205--1
+19	også	også	ADV	_	_	21	advmod	_	name=O
+20	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	name=O
+21	romersk-katolske	romersk-katolsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	conj	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T205)ap_20081210_1252467__T203)ap_20081210_1252467__T202)ap_20081210_1252467__T200)
+22	,	$,	PUNCT	_	_	24	punct	_	name=O
+23	men	men	CCONJ	_	_	24	cc	_	name=O
+24	delvis	delvis	ADV	_	_	3	conj	_	name=O
+25	uten	uten	ADP	_	_	27	case	_	name=O
+26	legitimt	legitim	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	name=O|Entity=(ap_20081210_1252467__T206--1
+27	mandat	mandat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	orphan	_	name=O
+28	fra	fra	ADP	_	_	29	case	_	name=O
+29	Roma	Roma	PROPN	_	_	27	nmod	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(ap_20081210_1252467__81427--1)ap_20081210_1252467__T206)
+30	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001345
+# text = Derfor har han gått mot Roma i en borgerkrig, men bare for å rydde opp i republikkens kaos.
+1	Derfor	derfor	ADV	_	_	4	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+4	gått	gå	VERB	_	VerbForm=Part	0	root	_	name=O
+5	mot	mot	ADP	_	_	6	case	_	name=O
+6	Roma	Roma	PROPN	_	_	4	obl	_	name=B-GPE_LOC|Entity=(ap_20081210_1252467__81427--1)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(ap_20081210_1252467__T210--1
+9	borgerkrig	borgerkrig	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T210)
+10	,	$,	PUNCT	_	_	15	punct	_	name=O
+11	men	men	CCONJ	_	_	15	cc	_	name=O
+12	bare	bare	ADV	_	_	15	advmod	_	name=O
+13	for	for	ADP	_	_	15	case	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	rydde	rydde	VERB	_	VerbForm=Inf	4	conj	_	name=O
+16	opp	opp	ADP	_	_	15	orphan	_	name=O
+17	i	i	ADP	_	_	19	case	_	name=O
+18	republikkens	republikk	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=(ap_20081210_1252467__T212--1(ap_20081210_1252467__81427--1)
+19	kaos	kaos	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T212)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001346
+# text = Vel hjemme har han sørget for sine veteraner, innvilget tusener av nye statsborgerskap, levert 1 million slaver, og gitt forlystelser til folket.
+1	Vel	vel	ADV	_	_	2	advmod	_	name=O
+2	hjemme	hjemme	ADP	_	_	5	compound:prt	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+5	sørget	sørge	VERB	_	VerbForm=Part	0	root	_	name=O
+6	for	for	ADP	_	_	8	case	_	name=O
+7	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(ap_20081210_1252467__T215--1(ap_20081210_1252467__446168--1)
+8	veteraner	veteran	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T215)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	innvilget	innvilge	VERB	_	VerbForm=Part	5	conj	_	name=O
+11	tusener	tusen	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	name=O|Entity=(ap_20081210_1252467__T216--1
+12	av	av	ADP	_	_	14	case	_	name=O
+13	nye	ny	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O|Entity=(ap_20081210_1252467__T217--1
+14	statsborgerskap	statsborgerskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T217)ap_20081210_1252467__T216)
+15	,	$,	PUNCT	_	_	10	punct	_	name=O
+16	levert	levere	VERB	_	VerbForm=Part	5	conj	_	name=O
+17	1	1	NUM	_	Number=Sing|NumType=Card	18	nummod	_	name=O|Entity=(ap_20081210_1252467__T219--1(ap_20081210_1252467__T218--1
+18	million	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=ap_20081210_1252467__T218)
+19	slaver	slave	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T219)
+20	,	$,	PUNCT	_	_	22	punct	_	name=O
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	gitt	gi	VERB	_	VerbForm=Part	5	conj	_	name=O
+23	forlystelser	forlystelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	obj	_	name=O|Entity=(ap_20081210_1252467__T220--1
+24	til	til	ADP	_	_	25	case	_	name=O
+25	folket	folk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T221--1)ap_20081210_1252467__T220)
+26	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001347
+# text = Imperialisten er på merkelig sammensatt vis også meget av en humanist.
+1	Imperialisten	imperialist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+3	på	på	ADP	_	_	6	case	_	name=O
+4	merkelig	merkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(ap_20081210_1252467__T223--1
+5	sammensatt	sammensatt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O
+6	vis	vis	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=ap_20081210_1252467__T223)
+7	også	også	ADV	_	_	8	advmod	_	name=O
+8	meget	meget	ADV	_	_	0	root	_	name=O
+9	av	av	ADP	_	_	11	case	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(ap_20081210_1252467__T224--1
+11	humanist	humanist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T224)
+12	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001348
+# text = Han har planlagt å bygge nye biblioteker, har satt i verk en nyorganisering av lasarett/vesenet, og gitt enorme pensjoner av sin private formue.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	planlagt	planlegge	VERB	_	VerbForm=Part	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	bygge	bygge	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	nye	ny	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(ap_20081210_1252467__T226--1
+7	biblioteker	bibliotek	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T226)
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	satt	sette	VERB	_	VerbForm=Part	3	conj	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	verk	verk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	name=O|Entity=(ap_20081210_1252467__T227--1)
+13	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(ap_20081210_1252467__T228--1
+14	nyorganisering	nyorganisering	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O
+15	av	av	ADP	_	_	16	case	_	name=O
+16	lasarett	lasarett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T229--1(ap_20081210_1252467__T230--1
+17	/	$/	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T230)
+18	vesenet	vesen	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T231--1)ap_20081210_1252467__T229)ap_20081210_1252467__T228)
+19	,	$,	PUNCT	_	_	21	punct	_	name=O
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	gitt	gi	VERB	_	VerbForm=Part	10	conj	_	name=O
+22	enorme	enorm	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	name=O|Entity=(ap_20081210_1252467__T232--1
+23	pensjoner	pensjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obj	_	name=O|Entity=ap_20081210_1252467__T232)
+24	av	av	ADP	_	_	27	case	_	name=O
+25	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	nmod	_	name=O|Entity=(ap_20081210_1252467__T234--1(ap_20081210_1252467__446168--1)
+26	private	privat	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	27	amod	_	name=O
+27	formue	formue	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T234)
+28	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001349
+# text = Året før han blir stukket ned og drept, har han innført den julianske kalender, slik at det egyptiske solåret også ble europeisk, og at året fikk 365 dager, at januar ble årets første måned, og at vi fikk skuddår.
+1	Året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	name=O|Entity=(ap_20081210_1252467__T235--1
+2	før	før	SCONJ	_	_	5	mark	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+4	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	name=O
+5	stukket	stikke	VERB	_	VerbForm=Part	1	acl	_	name=O
+6	ned	ned	ADP	_	_	5	compound:prt	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	drept	drepe	VERB	_	VerbForm=Part	5	conj	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=ap_20081210_1252467__T235)
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(ap_20081210_1252467__446168--1)
+12	innført	innføre	VERB	_	VerbForm=Part	0	root	_	name=O
+13	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(ap_20081210_1252467__T238--1
+14	julianske	juliansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	kalender	kalender	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T238)
+16	,	$,	PUNCT	_	_	23	punct	_	name=O
+17	slik	slik	ADV	_	_	18	advmod	_	name=O
+18	at	at	SCONJ	_	_	23	mark	_	name=O
+19	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	21	det	_	name=O|Entity=(ap_20081210_1252467__2479--1
+20	egyptiske	egyptisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	solåret	solår	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	nsubj	_	name=O|Entity=ap_20081210_1252467__2479)
+22	også	også	ADV	_	_	23	advmod	_	name=O
+23	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	name=O
+24	europeisk	europeisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	xcomp	_	SpaceAfter=No|name=O
+25	,	$,	PUNCT	_	_	29	punct	_	name=O
+26	og	og	CCONJ	_	_	29	cc	_	name=O
+27	at	at	SCONJ	_	_	29	mark	_	name=O
+28	året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	29	nsubj	_	name=O|Entity=(ap_20081210_1252467__2479--1)
+29	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	conj	_	name=O
+30	365	365	NUM	_	Number=Plur|NumType=Card	31	nummod	_	name=O|Entity=(ap_20081210_1252467__T241--1
+31	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T241)
+32	,	$,	PUNCT	_	_	29	punct	_	name=O
+33	at	at	SCONJ	_	_	35	mark	_	name=O
+34	januar	januar	NOUN	_	Gender=Masc	35	nsubj	_	name=O|Entity=(ap_20081210_1252467__T242--1)
+35	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	conj	_	name=O
+36	årets	året	ADJ	_	Case=Gen|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	name=O|Entity=(ap_20081210_1252467__T243--1
+37	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	38	amod	_	name=O
+38	måned	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	35	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T243)
+39	,	$,	PUNCT	_	_	43	punct	_	name=O
+40	og	og	CCONJ	_	_	43	cc	_	name=O
+41	at	at	SCONJ	_	_	43	mark	_	name=O
+42	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	43	nsubj	_	name=O|Entity=(ap_20081210_1252467__T244--1)
+43	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	conj	_	name=O
+44	skuddår	skuddår	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	43	obj	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T245--1)
+45	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 001350
+# text = Med de justeringene pave Gregor XIII innførte i 1582 (men som Norge og Danmark ikke bøyde seg for før i 1700!), er det fortsatt et juliansk kalendarium vi lever i.
+1	Med	med	ADP	_	_	3	case	_	name=O
+2	de	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(ap_20081210_1252467__T246--1
+3	justeringene	justering	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	31	obl	_	name=O
+4	pave	pave	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(ap_20081210_1252467__T247--1
+5	Gregor	Gregor	PROPN	_	_	7	nsubj	_	name=B-PER
+6	XIII	XIII	NUM	_	NumType=Card	5	flat:name	_	name=I-PER|Entity=ap_20081210_1252467__T247)
+7	innførte	innføre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	1582	1582	NUM	_	Number=Plur|NumType=Card	7	obl	_	name=O
+10	(	$(	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O
+11	men	men	CCONJ	_	_	17	cc	_	name=O
+12	som	som	PRON	_	PronType=Rel	17	nmod	_	name=O
+13	Norge	Norge	PROPN	_	_	17	nsubj	_	name=B-GPE_ORG|Entity=(ap_20081210_1252467__2572--1(ap_20081210_1252467__T249--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	Danmark	Danmark	PROPN	_	_	13	conj	_	name=B-GPE_ORG|Entity=(ap_20081210_1252467__T250--1)ap_20081210_1252467__2572)
+16	ikke	ikke	PART	_	Polarity=Neg	17	advmod	_	name=O
+17	bøyde	bøye	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	name=O
+18	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	17	obj	_	name=O|Entity=(ap_20081210_1252467__2572--1)
+19	for	for	ADP	_	_	17	compound:prt	_	name=O
+20	før	før	ADP	_	_	22	case	_	name=O
+21	i	i	ADP	_	_	22	case	_	name=O
+22	1700	1700	NUM	_	Number=Plur|NumType=Card	17	obl	_	SpaceAfter=No|name=O
+23	!	$!	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O
+24	)	$)	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T246)
+25	,	$,	PUNCT	_	_	3	punct	_	name=O
+26	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	31	cop	_	name=O
+27	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	expl	_	name=O
+28	fortsatt	fortsatt	ADV	_	_	31	advmod	_	name=O
+29	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	31	det	_	name=O|Entity=(ap_20081210_1252467__T251--1
+30	juliansk	juliansk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	name=O
+31	kalendarium	kalendarium	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+32	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	33	nsubj	_	name=O|Entity=(ap_20081210_1252467__T252--1)
+33	lever	leve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	31	acl:cleft	_	name=O
+34	i	i	ADP	_	_	33	compound:prt	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T251)
+35	.	$.	PUNCT	_	_	31	punct	_	name=O
+
+# sent_id = 001351
+# text = Juli måned lot Cæsar oppkalle etter seg selv, den hadde vært årets femte måned så lenge mars var det romerske kalenderårets første.
+1	Juli	juli	NOUN	_	Gender=Masc	2	nmod	_	name=O|Entity=(ap_20081210_1252467__2510--1(ap_20081210_1252467__T253--1)
+2	måned	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	iobj	_	name=O|Entity=ap_20081210_1252467__2510)
+3	lot	late	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Cæsar	Cæsar	PROPN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(ap_20081210_1252467__61652--1)
+5	oppkalle	oppkalle	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	etter	etter	ADP	_	_	8	case	_	name=O
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	det	_	name=O|Entity=(ap_20081210_1252467__61652--1
+8	selv	selv	DET	_	PronType=Prs	5	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__61652)
+9	,	$,	PUNCT	_	_	15	punct	_	name=O
+10	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(ap_20081210_1252467__2510--1)
+11	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	name=O
+12	vært	være	AUX	_	VerbForm=Part	15	cop	_	name=O
+13	årets	år	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	name=O|Entity=(ap_20081210_1252467__T258--1(ap_20081210_1252467__T257--1)
+14	femte	femte	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	måned	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	name=O|Entity=ap_20081210_1252467__T258)
+16	så	så	ADV	_	_	17	advmod	_	name=O
+17	lenge	lenge	ADJ	_	Degree=Pos	15	advmod	_	name=O
+18	mars	mars	NOUN	_	Gender=Masc	23	nsubj	_	name=O|Entity=(ap_20081210_1252467__T259--1)
+19	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	cop	_	name=O
+20	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(ap_20081210_1252467__T260--1
+21	romerske	romersk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	kalenderårets	kalenderår	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	23	nmod	_	name=O|Entity=ap_20081210_1252467__T260)
+23	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	advcl	_	SpaceAfter=No|name=O
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001352
+# text = Da han falt død om, hadde mars vært tredje måned kun året før.
+1	Da	da	SCONJ	_	_	3	mark	_	name=O
+2	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20081210_1252467__61652--1)
+3	falt	falle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	name=O
+4	død	død	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	acl	_	name=O
+5	om	om	ADP	_	_	3	compound:prt	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	3	punct	_	name=O
+7	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+8	mars	mars	NOUN	_	Gender=Masc	11	nsubj	_	name=O|Entity=(ap_20081210_1252467__T262--1)
+9	vært	være	AUX	_	VerbForm=Part	11	cop	_	name=O
+10	tredje	tredje	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(ap_20081210_1252467__T263--1
+11	måned	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=ap_20081210_1252467__T263)
+12	kun	kun	ADV	_	_	13	advmod	_	name=O|Entity=(ap_20081210_1252467__T264--1
+13	året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	name=O
+14	før	før	ADP	_	_	13	nmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T264)
+15	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# newpar
+# sent_id = 001353
+# text = Brutus og de andre som hadde sammensverget seg mot ham, ble siden slått ned av Marcus Antonius og Octavian, Cæsars grandnevø, som viste seg å være utpekt til adoptivsønn og arving ifølge testamentet etter Cæsar.
+1	Brutus	Brutus	PROPN	_	_	14	nsubj:pass	_	name=B-PER|Entity=(ap_20081210_1252467__T265--1(ap_20081210_1252467__T266[1/2]--1)
+2	og	og	CCONJ	_	_	4	cc	_	name=O
+3	de	de	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O
+4	andre	annen	DET	_	Number=Plur|PronType=Dem	1	conj	_	name=O
+5	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+6	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	name=O
+7	sammensverget	sammensverge	VERB	_	VerbForm=Part	4	acl:relcl	_	name=O
+8	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	7	obj	_	name=O
+9	mot	mot	ADP	_	_	10	case	_	name=O
+10	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__61652--1)
+11	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=(ap_20081210_1252467__T266[2/2]--1)ap_20081210_1252467__T265)
+12	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux:pass	_	name=O
+13	siden	siden	ADV	_	_	14	advmod	_	name=O
+14	slått	slå	VERB	_	VerbForm=Part	0	root	_	name=O
+15	ned	ned	ADP	_	_	14	compound:prt	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	Marcus	Marcus	PROPN	_	Gender=Masc	14	obl	_	name=B-PER|Entity=(ap_20081210_1252467__T268--1(ap_20081210_1252467__2549--1
+18	Antonius	Antonius	PROPN	_	_	17	flat:name	_	name=I-PER|Entity=ap_20081210_1252467__2549)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	Octavian	Octavian	PROPN	_	_	17	conj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20081210_1252467__41124--1
+21	,	$,	PUNCT	_	_	23	punct	_	name=O
+22	Cæsars	Cæsar	PROPN	_	Case=Gen|Gender=Masc	23	nmod	_	name=B-PER|Entity=(ap_20081210_1252467__T272--1(ap_20081210_1252467__61652--1)
+23	grandnevø	grandnevø	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No|name=O
+24	,	$,	PUNCT	_	_	26	punct	_	name=O
+25	som	som	PRON	_	PronType=Rel	26	nsubj	_	name=O
+26	viste	vise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	name=O
+27	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	26	obj	_	name=O
+28	å	å	PART	_	_	30	mark	_	name=O
+29	være	være	AUX	_	VerbForm=Inf	30	aux	_	name=O
+30	utpekt	utpeke	VERB	_	VerbForm=Part	26	xcomp	_	name=O
+31	til	til	SCONJ	_	_	32	mark	_	name=O
+32	adoptivsønn	adoptivsønn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	xcomp	_	name=O|Entity=(ap_20081210_1252467__T273--1(ap_20081210_1252467__T274--1)
+33	og	og	CCONJ	_	_	34	cc	_	name=O
+34	arving	arving	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	32	conj	_	name=O|Entity=(ap_20081210_1252467__T275--1)ap_20081210_1252467__T273)
+35	ifølge	ifølge	ADP	_	_	36	case	_	name=O
+36	testamentet	testamente	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	30	obl	_	name=O|Entity=(ap_20081210_1252467__T276--1
+37	etter	etter	ADP	_	_	38	case	_	name=O
+38	Cæsar	Cæsar	PROPN	_	Gender=Masc	36	nmod	_	SpaceAfter=No|name=B-PER|Entity=(ap_20081210_1252467__61652--1)ap_20081210_1252467__T276)ap_20081210_1252467__T272)ap_20081210_1252467__41124)ap_20081210_1252467__T268)
+39	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 001354
+# text = Han ryddet i neste omgang også Marcus Antonius av veien, og ble av senatet utropt til August, den opphøyde, de facto imperiets første keiser.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20081210_1252467__41124--1)
+2	ryddet	rydde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	neste	neste	DET	_	Definite=Def|PronType=Dem	5	det	_	name=O|Entity=(ap_20081210_1252467__T279--1
+5	omgang	omgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=ap_20081210_1252467__T279)
+6	også	også	ADV	_	_	7	advmod	_	name=O|Entity=(ap_20081210_1252467__2549--1
+7	Marcus	Marcus	PROPN	_	Gender=Masc	2	obj	_	name=B-PER
+8	Antonius	Antonius	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=ap_20081210_1252467__2549)
+9	av	av	ADP	_	_	10	case	_	name=O
+10	veien	vei	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T281--1)
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	og	og	CCONJ	_	_	16	cc	_	name=O
+13	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux:pass	_	name=O
+14	av	av	ADP	_	_	15	case	_	name=O
+15	senatet	senat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	name=O|Entity=(ap_20081210_1252467__T282--1)
+16	utropt	utrope	VERB	_	VerbForm=Part	2	conj	_	name=O
+17	til	til	ADP	_	_	18	case	_	name=O
+18	August	August	PROPN	_	_	16	obl	_	SpaceAfter=No|name=B-PER|Entity=(ap_20081210_1252467__41124--1
+19	,	$,	PUNCT	_	_	21	punct	_	name=O
+20	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	name=O
+21	opphøyde	opphøyd	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	appos	_	SpaceAfter=No|name=O
+22	,	$,	PUNCT	_	_	21	punct	_	name=O
+23	de	de	ADV	_	_	24	compound	_	name=O|Entity=(ap_20081210_1252467__T285--1
+24	facto	facto	ADV	_	_	27	advmod	_	name=O
+25	imperiets	imperium	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	27	nmod	_	name=O|Entity=(ap_20081210_1252467__81427--1)
+26	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	27	amod	_	name=O
+27	keiser	keiser	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T285)ap_20081210_1252467__41124)
+28	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001355
+# text = Både betegnelsen tsar og keiser er avledet av Cæsar, tilnavnet Augustus tok som adoptivsønn, og som hans etterfølgere arvet.
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	betegnelsen	betegnelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(ap_20081210_1252467__T286--1
+3	tsar	tsar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	appos	_	name=O|Entity=(ap_20081210_1252467__T287--1
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	keiser	keiser	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	name=O|Entity=(ap_20081210_1252467__T288--1)ap_20081210_1252467__T287)ap_20081210_1252467__T286)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	avledet	avlede	VERB	_	VerbForm=Part	0	root	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	Cæsar	Cæsar	PROPN	_	Gender=Masc	7	obl	_	SpaceAfter=No|name=B-PER|Entity=(ap_20081210_1252467__T289--1
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	tilnavnet	tilnavn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	appos	_	name=O|Entity=(ap_20081210_1252467__T290--1
+12	Augustus	Augustus	PROPN	_	_	13	nsubj	_	name=B-PER|Entity=(ap_20081210_1252467__T291--1)
+13	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	name=O
+14	som	som	SCONJ	_	_	15	mark	_	name=O
+15	adoptivsønn	adoptivsønn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	acl	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T292--1)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	og	og	CCONJ	_	_	21	cc	_	name=O
+18	som	som	PRON	_	PronType=Rel	21	obj	_	name=O
+19	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	20	nmod	_	name=O|Entity=(ap_20081210_1252467__T294--1(ap_20081210_1252467__41124--1)
+20	etterfølgere	etterfølger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	nsubj	_	name=O|Entity=ap_20081210_1252467__T294)
+21	arvet	arve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T290)ap_20081210_1252467__T289)
+22	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001356
+# text = Slik blir 15. mars et veiskille i overgangen fra republikk til keiserdømme.
+1	Slik	slik	ADV	_	_	2	advmod	_	name=O
+2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	15.	15.	ADJ	_	Number=Plur	4	amod	_	name=O|Entity=(ap_20081210_1252467__T295--1
+4	mars	mars	NOUN	_	Gender=Masc	2	nsubj	_	name=O|Entity=ap_20081210_1252467__T295)
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20081210_1252467__T296--1
+6	veiskille	veiskille	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	xcomp	_	name=O|Entity=ap_20081210_1252467__T296)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	overgangen	overgang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(ap_20081210_1252467__T297--1
+9	fra	fra	ADP	_	_	10	case	_	name=O
+10	republikk	republikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(ap_20081210_1252467__T298--1
+11	til	til	ADP	_	_	12	case	_	name=O
+12	keiserdømme	keiserdømme	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20081210_1252467__T299--1)ap_20081210_1252467__T298)ap_20081210_1252467__T297)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001357
+# text = Begge statsformer har dannet mønster for vestlig verdensorden.
+1	Begge	begge	DET	_	Number=Plur|PronType=Tot	2	det	_	name=O|Entity=(ap_20081210_1252467__T300--1
+2	statsformer	statsform	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	name=O|Entity=ap_20081210_1252467__T300)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	dannet	danne	VERB	_	VerbForm=Part	0	root	_	name=O
+5	mønster	mønster	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=(ap_20081210_1252467__T301--1
+6	for	for	ADP	_	_	8	case	_	name=O
+7	vestlig	vestlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(ap_20081210_1252467__T302--1
+8	verdensorden	verdensorden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T302)ap_20081210_1252467__T301)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001358
+# text = Tysk og britisk imperialisme har cæsariske forbilder.
+1	Tysk	tysk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(ap_20081210_1252467__T303--1
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	britisk	britisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	1	conj	_	name=O
+4	imperialisme	imperialisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=ap_20081210_1252467__T303)
+5	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	cæsariske	cæsarisk	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(ap_20081210_1252467__T304--1
+7	forbilder	forbilde	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T304)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001359
+# text = Men også republikkens idealer og institusjoner har overlevd keiserdømmet i fransk og italiensk kultur.
+1	Men	men	CCONJ	_	_	8	cc	_	name=O
+2	også	også	ADV	_	_	4	advmod	_	name=O|Entity=(ap_20081210_1252467__T306--1(ap_20081210_1252467__T307--1
+3	republikkens	republikk	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(ap_20081210_1252467__T305--1)
+4	idealer	ideal	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=ap_20081210_1252467__T307)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	institusjoner	institusjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	conj	_	name=O|Entity=(ap_20081210_1252467__T308--1)ap_20081210_1252467__T306)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	overlevd	overleve	VERB	_	VerbForm=Part	0	root	_	name=O
+9	keiserdømmet	keiserdømme	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obj	_	name=O|Entity=(ap_20081210_1252467__T309--1)
+10	i	i	ADP	_	_	14	case	_	name=O
+11	fransk	fransk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(ap_20081210_1252467__T310--1
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	italiensk	italiensk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	name=O
+14	kultur	kultur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T310)
+15	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001360
+# text = Den amerikanske konstitusjon er utenkelig uten.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20081210_1252467__T311--1
+2	amerikanske	amerikansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	konstitusjon	konstitusjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=ap_20081210_1252467__T311)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	utenkelig	utenkelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	uten	uten	ADP	_	_	5	obl	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001361
+# text = Hvis vi i dag lever i en politisk krise, avspeilet for eksempel i valgkampen for og mot Berlusconi, er det demokratiet som har en prøve å bestå.
+1	Hvis	hvis	SCONJ	_	_	5	mark	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20081210_1252467__T312--1)
+3	i	i	ADP	_	_	4	case	_	name=O
+4	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(ap_20081210_1252467__T313--1)
+5	lever	leve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	advcl	_	name=O
+6	i	i	ADP	_	_	9	case	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(ap_20081210_1252467__T314--1
+8	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	krise	krise	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	avspeilet	avspeile	VERB	_	VerbForm=Part	9	acl:relcl	_	name=O
+12	for	for	ADP	_	_	13	case	_	name=O
+13	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	name=O|Entity=(ap_20081210_1252467__T315--1)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	valgkampen	valgkamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(ap_20081210_1252467__T316--1
+16	for	for	ADP	_	_	15	nmod	_	name=O
+17	og	og	CCONJ	_	_	19	cc	_	name=O
+18	mot	mot	ADP	_	_	19	case	_	name=O
+19	Berlusconi	Berlusconi	PROPN	_	_	16	conj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20081210_1252467__T317--1)ap_20081210_1252467__T316)ap_20081210_1252467__T314)
+20	,	$,	PUNCT	_	_	5	punct	_	name=O
+21	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	name=O
+22	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	name=O
+23	demokratiet	demokrati	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(ap_20081210_1252467__T318--1
+24	som	som	PRON	_	PronType=Rel	25	nsubj	_	name=O
+25	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl:cleft	_	name=O
+26	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	name=O|Entity=(ap_20081210_1252467__T319--1
+27	prøve	prøve	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obj	_	name=O
+28	å	å	PART	_	_	29	mark	_	name=O
+29	bestå	bestå	VERB	_	VerbForm=Inf	27	acl	_	SpaceAfter=No|name=O|Entity=ap_20081210_1252467__T319)ap_20081210_1252467__T318)
+30	.	$.	PUNCT	_	_	23	punct	_	name=O
+

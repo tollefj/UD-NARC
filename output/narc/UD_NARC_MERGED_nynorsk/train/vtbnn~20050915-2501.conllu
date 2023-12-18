@@ -1,0 +1,582 @@
+# newdoc id = vtbnn~20050915-2501
+# global.Entity = eid-etype-head-other
+# sent_id = 012817
+# text = Fekk det fyrste Gandhistipendet
+1	Fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(vtbnn~20050915_2501__T1--1
+3	fyrste	fyrste	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	Gandhistipendet	Gandhistipendet	PROPN	_	_	1	obj	_	name=B-PROD|Entity=(vtbnn~20050915_2501__10988--1)vtbnn~20050915_2501__T1)
+
+# newpar
+# sent_id = 012818
+# text = Original idé
+1	Original	original	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(vtbnn~20050915_2501__T2--1
+2	idé	idé	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=vtbnn~20050915_2501__T2)
+
+# newpar
+# sent_id = 012819
+# text = Tone Svalastog Garnes frå Vinje har fått Gandhistipednet på 50.000 kroner.
+1	Tone	Tone	NOUN	_	Gender=Fem	7	nsubj	_	name=B-PER|Entity=(vtbnn~20050915_2501__201307--1
+2	Svalastog	Svalastog	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Garnes	Garnes	PROPN	_	_	1	flat:name	_	name=I-PER
+4	frå	frå	ADP	_	_	5	case	_	name=O
+5	Vinje	Vinje	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20050915_2501__217--1)vtbnn~20050915_2501__201307)
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+8	Gandhistipednet	Gandhistipendet	PROPN	_	_	7	obj	_	name=B-PROD|Entity=(vtbnn~20050915_2501__10988--1
+9	på	på	ADP	_	_	11	case	_	name=O
+10	50.000	50.000	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(vtbnn~20050915_2501__361--1
+11	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__361)vtbnn~20050915_2501__10988)
+12	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012820
+# text = Midlane skal brukast til ei utstilling av tekstilar i rituelle samanhengar i både kristen og muslimsk kontekst.
+1	Midlane	middel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__361--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	brukast	bruke	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	til	til	ADP	_	_	6	case	_	name=O
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20050915_2501__T8--1
+6	utstilling	utstilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	tekstilar	tekstil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	name=O|Entity=(vtbnn~20050915_2501__T9--1
+9	i	i	ADP	_	_	11	case	_	name=O
+10	rituelle	rituell	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(vtbnn~20050915_2501__T10--1
+11	samanhengar	samanheng	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	name=O
+12	i	i	ADP	_	_	17	case	_	name=O
+13	både	både	CCONJ	_	_	14	cc	_	name=O
+14	kristen	kristen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(vtbnn~20050915_2501__T11--1
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	muslimsk	muslimsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	conj	_	name=O
+17	kontekst	kontekst	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T11)vtbnn~20050915_2501__T10)vtbnn~20050915_2501__T9)vtbnn~20050915_2501__T8)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 012821
+# text = Tone Svalastog Garnes frå Vinje fekk overrekt Gandhistipendet frå kultur- og kyrkjeminister Valgerd Svarstad Haugland.
+1	Tone	Tone	NOUN	_	Gender=Fem	7	nsubj	_	name=B-PER|Entity=(vtbnn~20050915_2501__201307--1
+2	Svalastog	Svalastog	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Garnes	Garnes	PROPN	_	_	1	flat:name	_	name=I-PER
+4	frå	frå	ADP	_	_	5	case	_	name=O
+5	Vinje	Vinje	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20050915_2501__217--1)vtbnn~20050915_2501__201307)
+6	fekk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	name=O
+7	overrekt	overrekkje	VERB	_	VerbForm=Part	0	root	_	name=O
+8	Gandhistipendet	Gandhistipendet	PROPN	_	_	7	obj	_	name=B-PROD|Entity=(vtbnn~20050915_2501__10988--1)
+9	frå	frå	ADP	_	_	13	case	_	name=O
+10	kultur-	kultur-	NOUN	_	_	13	nmod	_	name=O|Entity=(vtbnn~20050915_2501__5467--1(vtbnn~20050915_2501__T15--1
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	kyrkjeminister	kyrkjeminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	name=O|Entity=(vtbnn~20050915_2501__T16--1)vtbnn~20050915_2501__T15)
+13	Valgerd	Valgerd	PROPN	_	_	7	obl	_	name=B-PER
+14	Svarstad	Svarstad	PROPN	_	_	13	flat:name	_	name=I-PER
+15	Haugland	Haugland	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20050915_2501__5467)
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012822
+# text = Til venstre:
+1	Til	til	ADP	_	_	2	case	_	name=O
+2	venstre	venstre	NOUN	_	Gender=Neut	0	root	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__T18--1)
+3	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012823
+# text = statssekretær Berit Øksnes Gjerløw.
+1	statssekretær	statssekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20050915_2501__T19--1
+2	Berit	Berit	NOUN	_	Gender=Fem	0	root	_	name=B-PER
+3	Øksnes	Øksnes	PROPN	_	_	2	flat:name	_	name=I-PER
+4	Gjerløw	Gjerløw	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20050915_2501__T19)
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012824
+# text = Til høgre den andre stipendiaten, Gunnar Haaland.
+1	Til	til	ADP	_	_	2	case	_	name=O|Entity=(vtbnn~20050915_2501__T22--1
+2	høgre	høgre	NOUN	_	Gender=Neut	7	obl	_	name=O|Entity=(vtbnn~20050915_2501__T20--1)
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(vtbnn~20050915_2501__2178--1(vtbnn~20050915_2501__T21--1
+4	andre	annan	DET	_	Definite=Def|Number=Sing|PronType=Dem	5	det	_	name=O
+5	stipendiaten	stipendiat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=vtbnn~20050915_2501__T21)
+7	Gunnar	Gunnar	NOUN	_	Gender=Masc	0	root	_	name=B-PER
+8	Haaland	Haaland	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20050915_2501__2178)vtbnn~20050915_2501__T22)
+9	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 012825
+# text = Tone Svalastog Garnes var ein av to søkjarar som fekk det fyrste Gandhistipendet.
+1	Tone	Tone	NOUN	_	Gender=Fem	5	nsubj	_	name=B-PER|Entity=(vtbnn~20050915_2501__201307--1
+2	Svalastog	Svalastog	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Garnes	Garnes	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20050915_2501__201307)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+6	av	av	ADP	_	_	8	case	_	name=O
+7	to	to	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(vtbnn~20050915_2501__T24--1
+8	søkjarar	søkjar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	name=O
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	name=O
+11	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(vtbnn~20050915_2501__T25--1
+12	fyrste	fyrste	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	Gandhistipendet	Gandhistipendet	PROPN	_	_	10	obj	_	SpaceAfter=No|name=B-PROD|Entity=(vtbnn~20050915_2501__10988--1)vtbnn~20050915_2501__T25)vtbnn~20050915_2501__T24)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012826
+# text = Av i alt seks kandidatar blei Svalastog Garnes og forskar Gunnar Haaland frå Oslo plukka ut til å få stipendet, som er oppretta for å auke kunnskap om, og byggje respekt mellom tru- og livssyn i det norske samfunn.
+1	Av	av	ADP	_	_	5	case	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O|Entity=(vtbnn~20050915_2501__T27--1
+3	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	name=O|Entity=(vtbnn~20050915_2501__T26--1)
+4	seks	seks	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O
+5	kandidatar	kandidat	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obl	_	name=O|Entity=vtbnn~20050915_2501__T27)
+6	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux:pass	_	name=O
+7	Svalastog	Svalastog	PROPN	_	_	15	nsubj:pass	_	name=B-PER|Entity=(vtbnn~20050915_2501__2178--1(vtbnn~20050915_2501__201307--1
+8	Garnes	Garnes	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=vtbnn~20050915_2501__201307)
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	forskar	forskar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(vtbnn~20050915_2501__T30--1
+11	Gunnar	Gunnar	NOUN	_	Gender=Masc	7	conj	_	name=B-PER
+12	Haaland	Haaland	PROPN	_	_	11	flat:name	_	name=I-PER
+13	frå	frå	ADP	_	_	14	case	_	name=O
+14	Oslo	Oslo	PROPN	_	_	11	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20050915_2501__3232--1)vtbnn~20050915_2501__T30)vtbnn~20050915_2501__2178)
+15	plukka	plukke	VERB	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+16	ut	ut	ADP	_	_	15	compound:prt	_	name=O
+17	til	til	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	få	få	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+20	stipendet	stipend	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__10988--1
+21	,	$,	PUNCT	_	_	24	punct	_	name=O
+22	som	som	PRON	_	PronType=Rel	24	nsubj	_	name=O
+23	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	name=O
+24	oppretta	opprette	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	20	acl:relcl	_	name=O
+25	for	for	SCONJ	_	_	27	mark	_	name=O
+26	å	å	PART	_	_	27	mark	_	name=O
+27	auke	auke	VERB	_	VerbForm=Inf	24	advcl	_	name=O
+28	kunnskap	kunnskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	obj	_	name=O|Entity=(vtbnn~20050915_2501__T33--1
+29	om	om	ADP	_	_	28	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T33)
+30	,	$,	PUNCT	_	_	32	punct	_	name=O
+31	og	og	CCONJ	_	_	32	cc	_	name=O
+32	byggje	byggje	VERB	_	VerbForm=Inf	27	conj	_	name=O
+33	respekt	respekt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	32	obj	_	name=O|Entity=(vtbnn~20050915_2501__T34--1)
+34	mellom	mellom	ADP	_	_	35	case	_	name=O
+35	tru-	tru-	NOUN	_	_	32	obl	_	name=O|Entity=(vtbnn~20050915_2501__T35--1(vtbnn~20050915_2501__T36--1)
+36	og	og	CCONJ	_	_	37	cc	_	name=O
+37	livssyn	livssyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	35	conj	_	name=O|Entity=(vtbnn~20050915_2501__T37--1
+38	i	i	ADP	_	_	41	case	_	name=O
+39	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	41	det	_	name=O|Entity=(vtbnn~20050915_2501__T38--1
+40	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	41	amod	_	name=O
+41	samfunn	samfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	37	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T38)vtbnn~20050915_2501__T37)vtbnn~20050915_2501__T35)vtbnn~20050915_2501__10988)
+42	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 012827
+# text = Svalastog Garnes arbeider som kulturkonsulent i Vinje kommune, men ho lagar også eigne arbeid i vev og andre tekstilteknikkar.
+1	Svalastog	Svalastog	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(vtbnn~20050915_2501__201307--1
+2	Garnes	Garnes	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20050915_2501__201307)
+3	arbeider	arbeide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	som	som	SCONJ	_	_	5	mark	_	name=O
+5	kulturkonsulent	kulturkonsulent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	acl	_	name=O|Entity=(vtbnn~20050915_2501__T40--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Vinje	Vinje	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(vtbnn~20050915_2501__2119--1
+8	kommune	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=vtbnn~20050915_2501__2119)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	men	men	CCONJ	_	_	12	cc	_	name=O
+11	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__201307--1)
+12	lagar	lage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+13	også	også	ADV	_	_	12	advmod	_	name=O
+14	eigne	eigen	DET	_	Number=Plur|PronType=Prs	15	det	_	name=O|Entity=(vtbnn~20050915_2501__T43--1
+15	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	name=O|Entity=vtbnn~20050915_2501__T43)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	vev	vev	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(vtbnn~20050915_2501__T44--1(vtbnn~20050915_2501__T45--1)
+18	og	og	CCONJ	_	_	20	cc	_	name=O
+19	andre	annan	DET	_	Number=Plur|PronType=Dem	20	det	_	name=O|Entity=(vtbnn~20050915_2501__T46--1
+20	tekstilteknikkar	tekstilteknikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T46)vtbnn~20050915_2501__T44)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012828
+# text = Ho ynskjer å bruke stipendmidlane til ei innsamling og ei utstilling av tekstilar som blir bruka i rituelle samanhengar i kristen og muslimsk kontekst.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__201307--1)
+2	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	bruke	bruke	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	stipendmidlane	stipendmiddel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	obj	_	name=O|Entity=(vtbnn~20050915_2501__361--1)
+6	til	til	ADP	_	_	8	case	_	name=O
+7	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vtbnn~20050915_2501__T49--1(vtbnn~20050915_2501__T50--1
+8	innsamling	innsamling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=vtbnn~20050915_2501__T50)
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(vtbnn~20050915_2501__2179--1
+11	utstilling	utstilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	tekstilar	tekstil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	name=O|Entity=(vtbnn~20050915_2501__T52--1
+14	som	som	PRON	_	PronType=Rel	16	nsubj:pass	_	name=O
+15	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux:pass	_	name=O
+16	bruka	bruke	VERB	_	Number=Plur|VerbForm=Part	13	acl:relcl	_	name=O
+17	i	i	ADP	_	_	19	case	_	name=O
+18	rituelle	rituell	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O|Entity=(vtbnn~20050915_2501__T53--1
+19	samanhengar	samanheng	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obl	_	name=O
+20	i	i	ADP	_	_	24	case	_	name=O
+21	kristen	kristen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	24	amod	_	name=O|Entity=(vtbnn~20050915_2501__T54--1
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	muslimsk	muslimsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	conj	_	name=O
+24	kontekst	kontekst	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T54)vtbnn~20050915_2501__T53)vtbnn~20050915_2501__T52)vtbnn~20050915_2501__2179)vtbnn~20050915_2501__T49)
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012829
+# text = - Eg ynskjer mellom anna å sjå på tekstilar som er bruka i den kristne tradisjonen ved dåp, bryllaup og gravferd.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__201307--1)
+3	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	mellom	mellom	ADP	_	_	5	case	_	name=O
+5	anna	annan	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	sjå	sjå	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	tekstilar	tekstil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	name=O|Entity=(vtbnn~20050915_2501__T56--1
+10	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	bruka	bruke	VERB	_	Number=Plur|VerbForm=Part	9	acl:relcl	_	name=O
+13	i	i	ADP	_	_	16	case	_	name=O
+14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(vtbnn~20050915_2501__T57--1
+15	kristne	kristen	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	tradisjonen	tradisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	name=O
+17	ved	ved	ADP	_	_	18	case	_	name=O
+18	dåp	dåp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__T58--1(vtbnn~20050915_2501__T59--1
+19	,	$,	PUNCT	_	_	20	punct	_	name=O|Entity=vtbnn~20050915_2501__T59)
+20	bryllaup	bryllaup	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	conj	_	name=O|Entity=(vtbnn~20050915_2501__T60--1)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	gravferd	gravferd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__T61--1)vtbnn~20050915_2501__T58)vtbnn~20050915_2501__T57)vtbnn~20050915_2501__T56)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012830
+# text = Det same vil eg sjå på når det gjeld muslimsk bruk av tekstilar, seier ho.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O
+2	same	same	DET	_	Definite=Def|PronType=Dem	5	obl	_	name=O
+3	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__201307--1)
+5	sjå	sjå	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	på	på	ADP	_	_	2	case	_	name=O
+7	når	når	SCONJ	_	_	9	mark	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__T63--1)
+9	gjeld	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+10	muslimsk	muslimsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(vtbnn~20050915_2501__T64--1
+11	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	tekstilar	tekstil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__T65--1)vtbnn~20050915_2501__T64)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+16	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__201307--1)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012831
+# text = Svalastog Garnes vil mellom anna ta utgangspunkt i muslimske bøneteppe.
+1	Svalastog	Svalastog	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(vtbnn~20050915_2501__201307--1
+2	Garnes	Garnes	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20050915_2501__201307)
+3	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	mellom	mellom	ADP	_	_	5	case	_	name=O
+5	anna	annan	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	name=O
+6	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	utgangspunkt	utgangspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O|Entity=(vtbnn~20050915_2501__T68--1)
+8	i	i	ADP	_	_	10	case	_	name=O
+9	muslimske	muslimsk	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(vtbnn~20050915_2501__2145--1
+10	bøneteppe	bøneteppe	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__2145)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012832
+# text = Ho ynskjer på sikt å utforme eit norsk bøneteppe til dagleg bruk, men understrekar at det ikkje blir snakk om noko etterlikning av det muslimske teppet.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__201307--1)
+2	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	sikt	sikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(vtbnn~20050915_2501__T71--1)
+5	å	å	PART	_	_	6	mark	_	name=O
+6	utforme	utforme	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+7	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20050915_2501__T72--1
+8	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	name=O
+9	bøneteppe	bøneteppe	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O
+10	til	til	ADP	_	_	12	case	_	name=O
+11	dagleg	dagleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(vtbnn~20050915_2501__T73--1
+12	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T73)vtbnn~20050915_2501__T72)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	men	men	CCONJ	_	_	15	cc	_	name=O
+15	understrekar	understreke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+16	at	at	SCONJ	_	_	19	mark	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	name=O
+18	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	name=O
+19	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	xcomp	_	name=O
+20	snakk	snakk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__T74--1)
+21	om	om	ADP	_	_	23	case	_	name=O
+22	noko	noko	DET	_	Gender=Fem|Number=Sing|PronType=Ind	23	det	_	name=O|Entity=(vtbnn~20050915_2501__T75--1
+23	etterlikning	etterlikning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obl	_	name=O
+24	av	av	ADP	_	_	27	case	_	name=O
+25	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	27	det	_	name=O|Entity=(vtbnn~20050915_2501__2145--1
+26	muslimske	muslimsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	27	amod	_	name=O
+27	teppet	teppe	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__2145)vtbnn~20050915_2501__T75)
+28	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012833
+# text = Tidlegare har ho vore flyktningkonsulent i Vinje kommune, og ho er opptatt av forståing mellom ulike kulturar og religionar.
+1	Tidlegare	tidleg	ADJ	_	Degree=Cmp	5	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__201307--1)
+4	vore	vere	AUX	_	VerbForm=Part	5	cop	_	name=O
+5	flyktningkonsulent	flyktningkonsulent	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Vinje	Vinje	PROPN	_	_	5	obl	_	name=B-GPE_LOC|Entity=(vtbnn~20050915_2501__2119--1
+8	kommune	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=vtbnn~20050915_2501__2119)
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	og	og	CCONJ	_	_	13	cc	_	name=O
+11	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__201307--1)
+12	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+13	opptatt	opptatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	conj	_	name=O
+14	av	av	ADP	_	_	15	case	_	name=O
+15	forståing	forståing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	name=O|Entity=(vtbnn~20050915_2501__T80--1
+16	mellom	mellom	ADP	_	_	18	case	_	name=O
+17	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(vtbnn~20050915_2501__T81--1(vtbnn~20050915_2501__T82--1
+18	kulturar	kultur	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	name=O|Entity=vtbnn~20050915_2501__T82)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	religionar	religion	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__T83--1)vtbnn~20050915_2501__T81)vtbnn~20050915_2501__T80)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012834
+# text = - Det handlar om respekt og kunnskap om kvarandre for å unngå fordommar og framandfrykt, seier Svalastog Garnes.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__T84--1)
+3	handlar	handle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	om	om	ADP	_	_	5	case	_	name=O
+5	respekt	respekt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20050915_2501__T85--1(vtbnn~20050915_2501__T86--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	kunnskap	kunnskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O|Entity=(vtbnn~20050915_2501__T87--1
+8	om	om	ADP	_	_	9	case	_	name=O
+9	kvarandre	kvarandre	PRON	_	Animacy=Hum|Number=Plur|PronType=Rcp	7	nmod	_	name=O
+10	for	for	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	unngå	unngå	VERB	_	VerbForm=Inf	7	acl	_	name=O
+13	fordommar	fordom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	name=O|Entity=(vtbnn~20050915_2501__T88--1(vtbnn~20050915_2501__T89--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	framandfrykt	framandfrykt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__T90--1)vtbnn~20050915_2501__T88)vtbnn~20050915_2501__T87)vtbnn~20050915_2501__T85)
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+18	Svalastog	Svalastog	PROPN	_	_	17	nsubj	_	name=B-PER|Entity=(vtbnn~20050915_2501__201307--1
+19	Garnes	Garnes	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20050915_2501__201307)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 012835
+# text = Tekstilkunstnaren fekk overrekt prisen av kultur- og kyrkjeminister Valgerd Svarstad Haugland på statsrådens kontor i Oslo tysdag.
+1	Tekstilkunstnaren	tekstilkunstnar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__201307--1)
+2	fekk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	overrekt	overrekkje	VERB	_	VerbForm=Part	0	root	_	name=O
+4	prisen	pris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(vtbnn~20050915_2501__10988--1)
+5	av	av	ADP	_	_	9	case	_	name=O
+6	kultur-	kultur-	NOUN	_	_	9	nmod	_	name=O|Entity=(vtbnn~20050915_2501__5467--1(vtbnn~20050915_2501__T94--1
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	kyrkjeminister	kyrkjeminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=O|Entity=(vtbnn~20050915_2501__T95--1)vtbnn~20050915_2501__T94)
+9	Valgerd	Valgerd	PROPN	_	_	3	obl	_	name=B-PER
+10	Svarstad	Svarstad	PROPN	_	_	9	flat:name	_	name=I-PER
+11	Haugland	Haugland	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=vtbnn~20050915_2501__5467)
+12	på	på	ADP	_	_	14	case	_	name=O
+13	statsrådens	statsråd	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(vtbnn~20050915_2501__T98--1(vtbnn~20050915_2501__5467--1)
+14	kontor	kontor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	Oslo	Oslo	PROPN	_	_	14	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20050915_2501__3232--1)vtbnn~20050915_2501__T98)
+17	tysdag	tysdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__T100--1)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012836
+# text = - Det var veldig spesielt og kjempemoro og nå opp, seier Svalastog Garnes vel heime att frå hovudstaden.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	kjempemoro	kjempemoro	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	name=O
+8	og	å	PART	_	_	9	mark	_	name=O
+9	nå	nå	VERB	_	VerbForm=Inf	5	csubj	_	name=O
+10	opp	opp	ADP	_	_	9	compound:prt	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+13	Svalastog	Svalastog	PROPN	_	_	12	nsubj	_	name=B-PER|Entity=(vtbnn~20050915_2501__201307--1
+14	Garnes	Garnes	PROPN	_	_	13	flat:name	_	name=I-PER|Entity=vtbnn~20050915_2501__201307)
+15	vel	vel	ADV	_	_	16	advmod	_	name=O
+16	heime	heime	ADP	_	_	12	compound:prt	_	name=O
+17	att	att	ADP	_	_	16	obl	_	name=O
+18	frå	frå	ADP	_	_	19	case	_	name=O
+19	hovudstaden	hovudstad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__3232--1)
+20	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012837
+# text = - Tone Svalastog Garnes sin ide om å samle inn og stille ut tekstilar som er nytta i rituell samanheng er original, og han gjev rom for dialog på ein annan måte enn det vi ofte forbind med religionsdialog.
+1	-	$-	PUNCT	_	_	22	punct	_	name=O
+2	Tone	Tone	NOUN	_	Gender=Fem	5	obl	_	name=B-PER|Entity=(vtbnn~20050915_2501__2213--1(vtbnn~20050915_2501__T104--1(vtbnn~20050915_2501__201307--1
+3	Svalastog	Svalastog	PROPN	_	_	2	flat:name	_	name=I-PER
+4	Garnes	Garnes	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=vtbnn~20050915_2501__201307)
+5	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=vtbnn~20050915_2501__T104)
+6	ide	ide	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	nsubj	_	name=O
+7	om	om	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	samle	samle	VERB	_	VerbForm=Inf	6	acl	_	name=O
+10	inn	inn	ADP	_	_	9	compound:prt	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	stille	stille	VERB	_	VerbForm=Inf	9	conj	_	name=O
+13	ut	ut	ADP	_	_	12	compound:prt	_	name=O
+14	tekstilar	tekstil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	name=O|Entity=(vtbnn~20050915_2501__2228--1
+15	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+16	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	nytta	nytte	VERB	_	Number=Plur|VerbForm=Part	14	acl:relcl	_	name=O
+18	i	i	ADP	_	_	20	case	_	name=O
+19	rituell	rituell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(vtbnn~20050915_2501__T107--1
+20	samanheng	samanheng	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	name=O|Entity=vtbnn~20050915_2501__T107)vtbnn~20050915_2501__2228)vtbnn~20050915_2501__2213)
+21	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+22	original	original	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+23	,	$,	PUNCT	_	_	26	punct	_	name=O
+24	og	og	CCONJ	_	_	26	cc	_	name=O
+25	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__2213--1)
+26	gjev	gje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	conj	_	name=O
+27	rom	rom	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	26	obj	_	name=O|Entity=(vtbnn~20050915_2501__T109--1)
+28	for	for	ADP	_	_	29	case	_	name=O
+29	dialog	dialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	name=O|Entity=(vtbnn~20050915_2501__T110--1)
+30	på	på	ADP	_	_	33	case	_	name=O
+31	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	33	det	_	name=O|Entity=(vtbnn~20050915_2501__T111--1
+32	annan	annan	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	33	det	_	name=O
+33	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	name=O
+34	enn	enn	ADP	_	_	35	case	_	name=O
+35	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	obl	_	name=O|Entity=(vtbnn~20050915_2501__T112--1
+36	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	38	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__3346--1)
+37	ofte	ofte	ADJ	_	Degree=Pos	38	advmod	_	name=O
+38	forbind	forbinde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	name=O
+39	med	med	ADP	_	_	40	case	_	name=O
+40	religionsdialog	religionsdialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__T114--1)vtbnn~20050915_2501__T112)vtbnn~20050915_2501__T111)
+41	.	$.	PUNCT	_	_	22	punct	_	name=O
+
+# sent_id = 012838
+# text = Her får me distrikts-Noreg inn på ein spennande måte.
+1	Her	her	ADV	_	_	2	advmod	_	name=O
+2	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__3346--1)
+4	distrikts-Noreg	distrikts-Noreg	PROPN	_	_	2	obj	_	name=B-DRV|Entity=(vtbnn~20050915_2501__T116--1)
+5	inn	inn	ADP	_	_	2	compound:prt	_	name=O
+6	på	på	ADP	_	_	9	case	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20050915_2501__T117--1
+8	spennande	spennande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T117)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012839
+# text = Og vi får ei estetisk innfallsvinkling.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__3346--1)
+3	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20050915_2501__T119--1
+5	estetisk	estetisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	innfallsvinkling	innfallsvinkling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T119)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012840
+# text = Tone Svalastog Garnes vil samle gode døme på tekstilar som er eller har vore nytta i religiøs samanheng.
+1	Tone	Tone	NOUN	_	Gender=Fem	5	nsubj	_	name=B-PER|Entity=(vtbnn~20050915_2501__201307--1
+2	Svalastog	Svalastog	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Garnes	Garnes	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20050915_2501__201307)
+4	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	samle	samle	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	gode	god	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(vtbnn~20050915_2501__T121--1
+7	døme	døme	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	tekstilar	tekstil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=(vtbnn~20050915_2501__2228--1
+10	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+11	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+12	eller	eller	CCONJ	_	_	15	cc	_	name=O
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+14	vore	vere	AUX	_	VerbForm=Part	15	aux	_	name=O
+15	nytta	nytte	VERB	_	Number=Plur|VerbForm=Part	11	conj	_	name=O
+16	i	i	ADP	_	_	18	case	_	name=O
+17	religiøs	religiøs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(vtbnn~20050915_2501__T123--1
+18	samanheng	samanheng	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T123)vtbnn~20050915_2501__2228)vtbnn~20050915_2501__T121)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012841
+# text = Dette er eit stort emne med lang historie.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__T124--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(vtbnn~20050915_2501__T125--1
+4	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O
+5	emne	emne	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+6	med	med	ADP	_	_	8	case	_	name=O
+7	lang	lang	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(vtbnn~20050915_2501__T126--1
+8	historie	historie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T126)vtbnn~20050915_2501__T125)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012842
+# text = Eg ser fram til utstillinga ho planlegg, sa kulturminister Valgerd Svarstad Haugland under utdelinga av stipendet.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__5467--1)
+2	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	fram	fram	ADP	_	_	5	case	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	utstillinga	utstilling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(vtbnn~20050915_2501__2179--1
+6	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__201307--1)
+7	planlegg	planleggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__2179)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	name=O
+10	kulturminister	kulturminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(vtbnn~20050915_2501__5467--1
+11	Valgerd	Valgerd	PROPN	_	_	9	nsubj	_	name=B-PER
+12	Svarstad	Svarstad	PROPN	_	_	11	flat:name	_	name=I-PER
+13	Haugland	Haugland	PROPN	_	_	11	flat:name	_	name=I-PER|Entity=vtbnn~20050915_2501__5467)
+14	under	under	ADP	_	_	15	case	_	name=O
+15	utdelinga	utdeling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	obl	_	name=O|Entity=(vtbnn~20050915_2501__T131--1
+16	av	av	ADP	_	_	17	case	_	name=O
+17	stipendet	stipend	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050915_2501__10988--1)vtbnn~20050915_2501__T131)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012843
+# text = Det er fyrste gong Gandhistipendet blir delt ut.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	fyrste	fyrste	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(vtbnn~20050915_2501__T133--1
+4	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	Gandhistipendet	Gandhistipendet	PROPN	_	_	7	nsubj:pass	_	name=B-PROD|Entity=(vtbnn~20050915_2501__10988--1)
+6	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	name=O
+7	delt	dele	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	acl:cleft	_	name=O
+8	ut	ut	ADP	_	_	7	compound:prt	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T133)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012844
+# text = Stipendet er oppretta av Kultur- og kyrkjedepartementet for å auke kunnskapen om og byggje respekt mellom tru- og livssyn i det norske samfunnet.
+1	Stipendet	stipend	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__10988--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	oppretta	opprette	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	Kultur-	Kultur-	PROPN	_	_	3	obl	_	name=B-ORG|Entity=(vtbnn~20050915_2501__T136--1
+6	og	og	CCONJ	_	_	5	flat:name	_	name=I-ORG
+7	kyrkjedepartementet	kyrkjedepartement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	flat:name	_	name=I-ORG|Entity=vtbnn~20050915_2501__T136)
+8	for	for	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	auke	auke	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+11	kunnskapen	kunnskap	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=(vtbnn~20050915_2501__T137--1
+12	om	om	ADP	_	_	11	nmod	_	name=O|Entity=vtbnn~20050915_2501__T137)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	byggje	byggje	VERB	_	VerbForm=Inf	10	conj	_	name=O
+15	respekt	respekt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=(vtbnn~20050915_2501__T138--1)
+16	mellom	mellom	ADP	_	_	17	case	_	name=O
+17	tru-	tru-	NOUN	_	_	14	obl	_	name=O|Entity=(vtbnn~20050915_2501__T139--1(vtbnn~20050915_2501__T140--1)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	livssyn	livssyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	conj	_	name=O|Entity=(vtbnn~20050915_2501__T141--1
+20	i	i	ADP	_	_	23	case	_	name=O
+21	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	23	det	_	name=O|Entity=(vtbnn~20050915_2501__T142--1
+22	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	amod	_	name=O
+23	samfunnet	samfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050915_2501__T142)vtbnn~20050915_2501__T141)vtbnn~20050915_2501__T139)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012845
+# text = Stipendet skal bidra til utvikling av praktisk kunnskap som er relevant for utøving av dialog i det fleirkulturelle og fleirreligiøse Noreg.
+1	Stipendet	stipend	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20050915_2501__10988--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	bidra	bidra	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20050915_2501__T144--1
+6	av	av	ADP	_	_	8	case	_	name=O
+7	praktisk	praktisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(vtbnn~20050915_2501__T145--1
+8	kunnskap	kunnskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O
+9	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	relevant	relevant	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	acl:relcl	_	name=O
+12	for	for	ADP	_	_	13	case	_	name=O
+13	utøving	utøving	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=(vtbnn~20050915_2501__T146--1
+14	av	av	ADP	_	_	15	case	_	name=O
+15	dialog	dialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(vtbnn~20050915_2501__T147--1)
+16	i	i	ADP	_	_	21	case	_	name=O
+17	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	21	det	_	name=O|Entity=(vtbnn~20050915_2501__T148--1
+18	fleirkulturelle	fleirkulturell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	fleirreligiøse	fleirreligiøs	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	conj	_	name=O
+21	Noreg	Noreg	PROPN	_	_	13	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=vtbnn~20050915_2501__T148)vtbnn~20050915_2501__T146)vtbnn~20050915_2501__T145)vtbnn~20050915_2501__T144)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+

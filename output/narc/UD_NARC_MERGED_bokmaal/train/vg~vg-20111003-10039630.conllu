@@ -1,0 +1,537 @@
+# newdoc id = vg~vg-20111003-10039630
+# global.Entity = eid-etype-head-other
+# sent_id = 014993
+# text = Hellas' regjering lar 30.000 statsansatte gå
+1	Hellas'	Hellas	PROPN	_	Case=Gen	2	nmod	_	name=B-GPE_ORG|Entity=(vg~vg_20111003_10039630__8449--1(vg~vg_20111003_10039630__11758--1)
+2	regjering	regjering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=vg~vg_20111003_10039630__8449)
+3	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	30.000	30.000	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T143--1
+5	statsansatte	statsansatt	ADJ	_	Degree=Pos|Number=Plur	3	iobj	_	name=O|Entity=vg~vg_20111003_10039630__T143)
+6	gå	gå	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+
+# sent_id = 014994
+# text = Omstridt vedtak:
+1	Omstridt	omstridt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	name=O|Entity=(vg~vg_20111003_10039630__T3--1
+2	vedtak	vedtak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T3)
+3	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 014995
+# text = Hellas' statsminister Giorgos Papandreou er hardt presset.
+1	Hellas'	Hellas	PROPN	_	Case=Gen	2	nmod	_	name=B-GPE_ORG|Entity=(vg~vg_20111003_10039630__T6--1(vg~vg_20111003_10039630__T5--1(vg~vg_20111003_10039630__11758--1)
+2	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=vg~vg_20111003_10039630__T5)
+3	Giorgos	Giorgos	PROPN	_	_	7	nsubj	_	name=B-PER
+4	Papandreou	Papandreou	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=vg~vg_20111003_10039630__T6)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	presset	presse	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 014996
+# text = Regjeringen vedtok søndag en svært omstridt plan om å kvitte seg med 30.000 statsansatte, samtidig som budsjettforslaget for neste år viser vekst på minus 5,5 prosent og større underskudd en ventet.
+1	Regjeringen	regjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__8449--1)
+2	vedtok	vedta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(vg~vg_20111003_10039630__T8--1)
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(vg~vg_20111003_10039630__T9--1
+5	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	omstridt	omstridt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	plan	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+8	om	om	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	kvitte	kvitte	VERB	_	VerbForm=Inf	7	acl	_	name=O
+11	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	name=O|Entity=(vg~vg_20111003_10039630__8449--1)
+12	med	med	ADP	_	_	14	case	_	name=O
+13	30.000	30.000	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T10--1
+14	statsansatte	statsansatt	ADJ	_	Degree=Pos|Number=Plur	10	advmod	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T10)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+17	som	som	PRON	_	PronType=Rel	22	iobj	_	name=O
+18	budsjettforslaget	budsjettforslag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__T11--1
+19	for	for	ADP	_	_	21	case	_	name=O
+20	neste	neste	DET	_	Definite=Def|PronType=Dem	21	det	_	name=O|Entity=(vg~vg_20111003_10039630__T12--1
+21	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	nmod	_	name=O|Entity=vg~vg_20111003_10039630__T12)vg~vg_20111003_10039630__T11)
+22	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	name=O
+23	vekst	vekst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obj	_	name=O|Entity=(vg~vg_20111003_10039630__T13--1(vg~vg_20111003_10039630__T14--1
+24	på	på	ADP	_	_	27	case	_	name=O
+25	minus	minus	ADV	_	_	26	advmod	_	name=O|Entity=(vg~vg_20111003_10039630__T15--1
+26	5,5	5,5	NUM	_	Number=Plur|NumType=Card	27	nummod	_	name=O
+27	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	name=O|Entity=vg~vg_20111003_10039630__T15)vg~vg_20111003_10039630__T14)
+28	og	og	CCONJ	_	_	30	cc	_	name=O
+29	større	stor	ADJ	_	Degree=Cmp	30	amod	_	name=O|Entity=(vg~vg_20111003_10039630__T16--1
+30	underskudd	underskudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	conj	_	name=O
+31	en	enn	SCONJ	_	_	32	mark	_	name=O
+32	ventet	vente	VERB	_	VerbForm=Part	29	advcl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T16)vg~vg_20111003_10039630__T13)vg~vg_20111003_10039630__T9)
+33	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 014997
+# text = Foto: Reuters
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T17--1
+2	:	$:	PUNCT	_	_	3	punct	_	name=O
+3	Reuters	Reuters	PROPN	_	_	1	parataxis	_	name=B-ORG|Entity=(vg~vg_20111003_10039630__T18--1)vg~vg_20111003_10039630__T17)
+
+# sent_id = 014998
+# text = (©NTB)
+1	(	$(	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T19--1
+2	©NTB	©NTB	X	_	_	0	root	_	SpaceAfter=No|name=O
+3	)	$)	PUNCT	_	_	2	punct	_	name=O|Entity=vg~vg_20111003_10039630__T19)
+
+# sent_id = 014999
+# text = Hellas' regjering lar 30.000 statsansatte gå
+1	Hellas'	Hellas	PROPN	_	Case=Gen	2	nmod	_	name=B-GPE_ORG|Entity=(vg~vg_20111003_10039630__8449--1(vg~vg_20111003_10039630__11758--1)
+2	regjering	regjering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=vg~vg_20111003_10039630__8449)
+3	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	30.000	30.000	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T145--1
+5	statsansatte	statsansatt	ADJ	_	Degree=Pos|Number=Plur	3	iobj	_	name=O|Entity=vg~vg_20111003_10039630__T145)
+6	gå	gå	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+
+# sent_id = 015000
+# text = Den greske regjeringen vedtok søndag masseoppsigelser og skatteøkninger, men kommer ikke til å klare kravene til reduksjon i budsjettunderskuddet i år, eller neste år.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(vg~vg_20111003_10039630__8449--1
+2	greske	gresk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	regjeringen	regjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=vg~vg_20111003_10039630__8449)
+4	vedtok	vedta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(vg~vg_20111003_10039630__T23--1)
+6	masseoppsigelser	masseoppsigelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=O|Entity=(vg~vg_20111003_10039630__T24--1(vg~vg_20111003_10039630__T25--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	skatteøkninger	skatteøkning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T26--1)vg~vg_20111003_10039630__T24)
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	men	men	CCONJ	_	_	11	cc	_	name=O
+11	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+12	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+13	til	til	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	klare	klare	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+16	kravene	krav	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	15	obj	_	name=O|Entity=(vg~vg_20111003_10039630__T27--1
+17	til	til	ADP	_	_	18	case	_	name=O
+18	reduksjon	reduksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__T28--1)
+19	i	i	ADP	_	_	20	case	_	name=O
+20	budsjettunderskuddet	budsjettunderskudd	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__T29--1)vg~vg_20111003_10039630__T27)
+21	i	i	ADP	_	_	22	case	_	name=O
+22	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T30--1)
+23	,	$,	PUNCT	_	_	26	punct	_	name=O
+24	eller	eller	CCONJ	_	_	26	cc	_	name=O
+25	neste	neste	DET	_	Definite=Def|PronType=Dem	26	det	_	name=O|Entity=(vg~vg_20111003_10039630__T31--1
+26	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	conj	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T31)
+27	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015001
+# text = Økte skatter, lavere lønninger og en konkret plan for å redusere antallet ansatte i offentlig sektor med en femdel innen 2015.
+1	Økte	øke	ADJ	_	Number=Plur|VerbForm=Part	2	amod	_	name=O|Entity=(vg~vg_20111003_10039630__271--1(vg~vg_20111003_10039630__T33--1
+2	skatter	skatt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=vg~vg_20111003_10039630__T33)
+4	lavere	lav	ADJ	_	Degree=Cmp	5	amod	_	name=O|Entity=(vg~vg_20111003_10039630__T34--1
+5	lønninger	lønning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	conj	_	name=O|Entity=vg~vg_20111003_10039630__T34)
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vg~vg_20111003_10039630__295--1
+8	konkret	konkret	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	plan	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	name=O
+10	for	for	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	redusere	redusere	VERB	_	VerbForm=Inf	9	acl	_	name=O
+13	antallet	antall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__T36--1)
+14	ansatte	ansatt	ADJ	_	Degree=Pos|Number=Plur	12	obj	_	name=O
+15	i	i	ADP	_	_	17	case	_	name=O
+16	offentlig	offentlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(vg~vg_20111003_10039630__T37--1
+17	sektor	sektor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=vg~vg_20111003_10039630__T37)
+18	med	med	ADP	_	_	20	case	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(vg~vg_20111003_10039630__T38--1
+20	femdel	femdel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=vg~vg_20111003_10039630__T38)
+21	innen	innen	ADP	_	_	22	case	_	name=O
+22	2015	2015	NUM	_	Number=Plur|NumType=Card	12	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__295)vg~vg_20111003_10039630__271)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015002
+# text = Dette var blant tiltakene som lå på bordet da den greske regjeringen møttes søndag ettermiddag.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__271--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	blant	blant	ADP	_	_	4	case	_	name=O
+4	tiltakene	tiltak	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	0	root	_	name=O|Entity=(vg~vg_20111003_10039630__T40--1
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	lå	ligge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	bordet	bord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(vg~vg_20111003_10039630__T41--1)
+9	da	da	SCONJ	_	_	13	mark	_	name=O
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(vg~vg_20111003_10039630__8449--1
+11	greske	gresk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	regjeringen	regjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=vg~vg_20111003_10039630__8449)
+13	møttes	møtes	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	name=O
+14	søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(vg~vg_20111003_10039630__T43--1
+15	ettermiddag	ettermiddag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T44--1)vg~vg_20111003_10039630__T43)vg~vg_20111003_10039630__T40)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015003
+# text = Spørsmålet er om innstrammingene er strenge nok til at EU, Det internasjonale pengefondet (IMF) og Den europeiske sentralbanken gir klarsignal til at Hellas får den neste utbetalingen på 8 milliarder euro fra redningspakken landet ble innvilget i sommer.
+1	Spørsmålet	spørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__T45--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	om	om	SCONJ	_	_	6	mark	_	name=O
+4	innstrammingene	innstramming	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__T46--1)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	strenge	streng	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+7	nok	nok	ADV	_	_	6	advmod	_	name=O
+8	til	til	SCONJ	_	_	22	mark	_	name=O
+9	at	at	SCONJ	_	_	22	mark	_	name=O
+10	EU	EU	PROPN	_	Abbr=Yes	22	nsubj	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(vg~vg_20111003_10039630__T47--1(vg~vg_20111003_10039630__2164--1)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	Det	Det	PROPN	_	_	10	conj	_	name=B-ORG|Entity=(vg~vg_20111003_10039630__3269--1
+13	internasjonale	internasjonal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	flat:name	_	name=I-ORG
+14	pengefondet	pengefond	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	flat:name	_	name=I-ORG
+15	(	$(	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T50--1
+16	IMF	IMF	PROPN	_	_	12	appos	_	SpaceAfter=No|name=B-ORG
+17	)	$)	PUNCT	_	_	16	punct	_	name=O|Entity=vg~vg_20111003_10039630__T50)vg~vg_20111003_10039630__3269)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	Den	Den	PROPN	_	_	10	conj	_	name=B-ORG|Entity=(vg~vg_20111003_10039630__2169--1
+20	europeiske	europeisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	flat:name	_	name=I-ORG
+21	sentralbanken	sentralbank	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	flat:name	_	name=I-ORG|Entity=vg~vg_20111003_10039630__2169)vg~vg_20111003_10039630__T47)
+22	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+23	klarsignal	klarsignal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	obj	_	name=O|Entity=(vg~vg_20111003_10039630__T52--1
+24	til	til	SCONJ	_	_	27	mark	_	name=O
+25	at	at	SCONJ	_	_	27	mark	_	name=O
+26	Hellas	Hellas	PROPN	_	_	27	nsubj	_	name=B-GPE_LOC|Entity=(vg~vg_20111003_10039630__11758--1)
+27	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl	_	name=O
+28	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	name=O|Entity=(vg~vg_20111003_10039630__T54--1
+29	neste	neste	DET	_	Definite=Def|PronType=Dem	30	det	_	name=O
+30	utbetalingen	utbetaling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	27	obj	_	name=O
+31	på	på	ADP	_	_	34	case	_	name=O
+32	8	8	NUM	_	Number=Plur|NumType=Card	33	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T56--1(vg~vg_20111003_10039630__T55--1
+33	milliarder	milliard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	34	nmod	_	name=O|Entity=vg~vg_20111003_10039630__T55)
+34	euro	euro	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	name=O|Entity=vg~vg_20111003_10039630__T56)
+35	fra	fra	ADP	_	_	36	case	_	name=O
+36	redningspakken	redningspakke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__T57--1
+37	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	39	nsubj:pass	_	name=O|Entity=(vg~vg_20111003_10039630__11758--1)
+38	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	39	aux:pass	_	name=O
+39	innvilget	innvilge	VERB	_	VerbForm=Part	36	acl:relcl	_	name=O
+40	i	i	ADP	_	_	41	case	_	name=O
+41	sommer	sommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	39	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T59--1)vg~vg_20111003_10039630__T57)vg~vg_20111003_10039630__T54)vg~vg_20111003_10039630__T52)
+42	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015004
+# text = Vedtaket om å gi 30.000 offentlig ansatte ett år til å finne en annen jobb før de blir sagt opp, med 60 prosent av lønna i mellomtiden, svir for dem som rammes.
+1	Vedtaket	vedtak	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	30	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__295--1
+2	om	om	SCONJ	_	_	4	mark	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	gi	gi	VERB	_	VerbForm=Inf	1	acl	_	name=O
+5	30.000	30.000	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__3274--1
+6	offentlig	offentlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	ansatte	ansatt	ADJ	_	Degree=Pos|Number=Plur	4	iobj	_	name=O|Entity=vg~vg_20111003_10039630__3274)
+8	ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	9	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T61--1
+9	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O
+10	til	til	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	finne	finne	VERB	_	VerbForm=Inf	9	acl	_	name=O
+13	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(vg~vg_20111003_10039630__T62--1
+14	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O
+15	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=vg~vg_20111003_10039630__T62)
+16	før	før	SCONJ	_	_	19	mark	_	name=O
+17	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj:pass	_	name=O|Entity=(vg~vg_20111003_10039630__3274--1)
+18	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux:pass	_	name=O
+19	sagt	si	VERB	_	VerbForm=Part	12	advcl	_	name=O
+20	opp	opp	ADP	_	_	19	compound:prt	_	SpaceAfter=No|name=O
+21	,	$,	PUNCT	_	_	24	punct	_	name=O
+22	med	med	ADP	_	_	24	case	_	name=O
+23	60	60	NUM	_	Number=Plur|NumType=Card	24	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T64--1
+24	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	name=O
+25	av	av	ADP	_	_	26	case	_	name=O
+26	lønna	lønn	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__T65--1)
+27	i	i	ADP	_	_	28	case	_	name=O
+28	mellomtiden	mellomtid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T66--1)vg~vg_20111003_10039630__T64)vg~vg_20111003_10039630__T61)vg~vg_20111003_10039630__295)
+29	,	$,	PUNCT	_	_	1	punct	_	name=O
+30	svir	svi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+31	for	for	ADP	_	_	32	case	_	name=O
+32	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	obl	_	name=O|Entity=(vg~vg_20111003_10039630__3274--1
+33	som	som	PRON	_	PronType=Rel	34	nsubj:pass	_	name=O
+34	rammes	ramme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	32	acl:relcl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__3274)
+35	.	$.	PUNCT	_	_	30	punct	_	name=O
+
+# sent_id = 015005
+# text = Men det forhindrer ikke at Hellas i øyeblikket er på stø kurs mot å bomme på økonomiske målsettinger som ble satt for bare to måneder siden.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__T68--1)
+3	forhindrer	forhindre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	at	at	SCONJ	_	_	12	mark	_	name=O
+6	Hellas	Hellas	PROPN	_	_	12	nsubj	_	name=B-GPE_ORG|Entity=(vg~vg_20111003_10039630__11758--1)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	øyeblikket	øyeblikk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	name=O|Entity=(vg~vg_20111003_10039630__T70--1)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+10	på	på	SCONJ	_	_	12	mark	_	name=O
+11	stø	stø	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(vg~vg_20111003_10039630__T71--1
+12	kurs	kurs	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	ccomp	_	name=O
+13	mot	mot	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	bomme	bomme	VERB	_	VerbForm=Inf	12	acl	_	name=O
+16	på	på	ADP	_	_	18	case	_	name=O
+17	økonomiske	økonomisk	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(vg~vg_20111003_10039630__T72--1
+18	målsettinger	målsetting	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	15	obl	_	name=O
+19	som	som	PRON	_	PronType=Rel	21	nsubj:pass	_	name=O
+20	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux:pass	_	name=O
+21	satt	sette	VERB	_	VerbForm=Part	18	acl:relcl	_	name=O
+22	for	for	ADP	_	_	25	case	_	name=O
+23	bare	bare	ADV	_	_	24	advmod	_	name=O|Entity=(vg~vg_20111003_10039630__T73--1
+24	to	to	NUM	_	Number=Plur|NumType=Card	25	nummod	_	name=O
+25	måneder	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obl	_	name=O
+26	siden	siden	ADV	_	_	25	advmod	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T73)vg~vg_20111003_10039630__T72)vg~vg_20111003_10039630__T71)
+27	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015006
+# text = Ifølge lekkasjer fra regjeringsmøtet søndag ligger det offentlige underskuddet an til å bli 8,5 prosent av BNP i år, altså langt over målet på 7,6 prosent som ble satt i juli.
+1	Ifølge	ifølge	ADP	_	_	2	case	_	name=O
+2	lekkasjer	lekkasje	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O|Entity=(vg~vg_20111003_10039630__T74--1
+3	fra	fra	ADP	_	_	4	case	_	name=O
+4	regjeringsmøtet	regjeringsmøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__T75--1
+5	søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__T76--1)vg~vg_20111003_10039630__T75)vg~vg_20111003_10039630__T74)
+6	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(vg~vg_20111003_10039630__T77--1
+8	offentlige	offentlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	underskuddet	underskudd	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=vg~vg_20111003_10039630__T77)
+10	an	an	ADV	_	_	6	advmod	_	name=O
+11	til	til	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	bli	bli	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+14	8,5	8,5	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T78--1
+15	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	xcomp	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	BNP	BNP	NOUN	_	_	15	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__T79--1)vg~vg_20111003_10039630__T78)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T80--1)
+20	,	$,	PUNCT	_	_	24	punct	_	name=O
+21	altså	altså	ADV	_	_	24	advmod	_	name=O
+22	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	advmod	_	name=O
+23	over	over	ADP	_	_	24	case	_	name=O
+24	målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	obl	_	name=O|Entity=(vg~vg_20111003_10039630__2167--1
+25	på	på	ADP	_	_	27	case	_	name=O
+26	7,6	7,6	NUM	_	Number=Plur|NumType=Card	27	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T82--1
+27	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	24	nmod	_	name=O
+28	som	som	PRON	_	PronType=Rel	30	nsubj:pass	_	name=O
+29	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	30	aux:pass	_	name=O
+30	satt	sette	VERB	_	VerbForm=Part	27	acl:relcl	_	name=O
+31	i	i	ADP	_	_	32	case	_	name=O
+32	juli	juli	NOUN	_	Gender=Masc	30	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T83--1)vg~vg_20111003_10039630__T82)vg~vg_20111003_10039630__2167)
+33	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015007
+# text = Heller ikke neste år kommer landet til å klare målet, tror regjeringen.
+1	Heller	heller	ADV	_	_	2	advmod	_	name=O|Entity=(vg~vg_20111003_10039630__T84--1
+2	ikke	ikke	PART	_	Polarity=Neg	4	nmod	_	name=O
+3	neste	neste	DET	_	Definite=Def|PronType=Dem	4	det	_	name=O
+4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=vg~vg_20111003_10039630__T84)
+5	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__11758--1)
+7	til	til	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	klare	klare	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+10	målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__2167--1)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+13	regjeringen	regjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__8449--1)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015008
+# text = Veksten står det også dårlig til med.
+1	Veksten	vekst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	xcomp	_	name=O|Entity=(vg~vg_20111003_10039630__T88--1)
+2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	også	også	ADV	_	_	2	advmod	_	name=O
+5	dårlig	dårlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	name=O
+6	til	til	SCONJ	_	_	1	mark	_	name=O
+7	med	med	SCONJ	_	_	1	mark	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015009
+# text = Hellas er i resesjon, og brutto nasjonalprodukt kommer trolig til å krympe med 5,5 prosent i år.
+1	Hellas	Hellas	PROPN	_	_	4	nsubj	_	name=B-GPE_LOC|Entity=(vg~vg_20111003_10039630__11758--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	resesjon	resesjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T90--1)
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	brutto	brutto	ADV	_	_	8	advmod	_	name=O|Entity=(vg~vg_20111003_10039630__T91--1
+8	nasjonalprodukt	nasjonalprodukt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=vg~vg_20111003_10039630__T91)
+9	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+10	trolig	trolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+11	til	til	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	krympe	krympe	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+14	med	med	ADP	_	_	16	case	_	name=O
+15	5,5	5,5	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T92--1
+16	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	name=O|Entity=vg~vg_20111003_10039630__T92)
+17	i	i	ADP	_	_	18	case	_	name=O
+18	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T93--1)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015010
+# text = Tilbakegangen vil fortsette med opp til 2,5 prosent neste år, heter det i budsjettforslaget som skal sendes til parlamentet mandag.
+1	Tilbakegangen	tilbakegang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__T94--1)
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	fortsette	fortsette	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	med	med	ADP	_	_	8	case	_	name=O
+5	opp	opp	ADP	_	_	7	case	_	name=O|Entity=(vg~vg_20111003_10039630__T95--1
+6	til	til	ADP	_	_	7	case	_	name=O
+7	2,5	2,5	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O
+8	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=vg~vg_20111003_10039630__T95)
+9	neste	neste	DET	_	Definite=Def|PronType=Dem	10	det	_	name=O|Entity=(vg~vg_20111003_10039630__T96--1
+10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T96)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	heter	hete	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	budsjettforslaget	budsjettforslag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	name=O|Entity=(vg~vg_20111003_10039630__T97--1
+16	som	som	PRON	_	PronType=Rel	18	nsubj:pass	_	name=O
+17	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	sendes	sende	VERB	_	VerbForm=Inf|Voice=Pass	15	acl:relcl	_	name=O
+19	til	til	ADP	_	_	20	case	_	name=O
+20	parlamentet	parlament	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	obl	_	name=O|Entity=(vg~vg_20111003_10039630__T98--1)
+21	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T99--1)vg~vg_20111003_10039630__T97)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015011
+# text = De ferske vekstanslagene er i tråd med det som IMF har spådd.
+1	De	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(vg~vg_20111003_10039630__T100--1
+2	ferske	fersk	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	vekstanslagene	vekstanslag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nsubj	_	name=O|Entity=vg~vg_20111003_10039630__T100)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	tråd	tråd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(vg~vg_20111003_10039630__T101--1
+7	med	med	ADP	_	_	8	case	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__T102--1
+9	som	som	PRON	_	PronType=Rel	12	obj	_	name=O
+10	IMF	IMF	PROPN	_	_	12	nsubj	_	name=B-ORG|Entity=(vg~vg_20111003_10039630__3269--1)
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	spådd	spå	VERB	_	VerbForm=Part	8	acl:relcl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T102)vg~vg_20111003_10039630__T101)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015012
+# text = Men kontrasten er skarp til tallmaterialet som for to måneder siden ble brukt for å kalkulere den internasjonale redningspakken på 109 milliarder euro.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	kontrasten	kontrast	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__T104--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	skarp	skarp	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	tallmaterialet	tallmateriale	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(vg~vg_20111003_10039630__T105--1
+7	som	som	PRON	_	PronType=Rel	13	nsubj:pass	_	name=O
+8	for	for	ADP	_	_	10	case	_	name=O
+9	to	to	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T106--1
+10	måneder	måned	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	name=O
+11	siden	siden	ADV	_	_	10	advmod	_	name=O|Entity=vg~vg_20111003_10039630__T106)
+12	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux:pass	_	name=O
+13	brukt	bruke	VERB	_	VerbForm=Part	6	acl:relcl	_	name=O
+14	for	for	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	kalkulere	kalkulere	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+17	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(vg~vg_20111003_10039630__T107--1
+18	internasjonale	internasjonal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	redningspakken	redningspakke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obj	_	name=O
+20	på	på	ADP	_	_	23	case	_	name=O
+21	109	109	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T109--1(vg~vg_20111003_10039630__T108--1
+22	milliarder	milliard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	name=O|Entity=vg~vg_20111003_10039630__T108)
+23	euro	euro	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T109)vg~vg_20111003_10039630__T107)vg~vg_20111003_10039630__T105)
+24	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015013
+# text = Da trodde Hellas på 0,6 prosents vekst neste år.
+1	Da	da	ADV	_	_	2	advmod	_	name=O
+2	trodde	tro	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	Hellas	Hellas	PROPN	_	_	2	nsubj	_	name=B-GPE_ORG|Entity=(vg~vg_20111003_10039630__11758--1)
+4	på	på	ADP	_	_	7	case	_	name=O
+5	0,6	0,6	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T112--1(vg~vg_20111003_10039630__T111--1
+6	prosents	prosent	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=vg~vg_20111003_10039630__T111)
+7	vekst	vekst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+8	neste	neste	DET	_	Definite=Def|PronType=Dem	9	det	_	name=O|Entity=(vg~vg_20111003_10039630__T113--1
+9	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T113)vg~vg_20111003_10039630__T112)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015014
+# text = Inspektørene fra EU, IMF og ECB har de siste dagene finlest det greske budsjettet og regjeringens reformplan.
+1	Inspektørene	inspektør	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__3377--1
+2	fra	fra	ADP	_	_	3	case	_	name=O
+3	EU	EU	PROPN	_	Abbr=Yes	1	nmod	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(vg~vg_20111003_10039630__T115--1(vg~vg_20111003_10039630__2164--1)
+4	,	$,	PUNCT	_	_	5	punct	_	name=O
+5	IMF	IMF	PROPN	_	_	3	conj	_	name=B-ORG|Entity=(vg~vg_20111003_10039630__3269--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	ECB	ECB	PROPN	_	_	3	conj	_	name=B-ORG|Entity=(vg~vg_20111003_10039630__2169--1)vg~vg_20111003_10039630__T115)vg~vg_20111003_10039630__3377)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+9	de	de	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(vg~vg_20111003_10039630__T119--1
+10	siste	sist	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	dagene	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	obl	_	name=O|Entity=vg~vg_20111003_10039630__T119)
+12	finlest	finlese	VERB	_	VerbForm=Part	0	root	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(vg~vg_20111003_10039630__T120--1(vg~vg_20111003_10039630__T121--1
+14	greske	gresk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	budsjettet	budsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obj	_	name=O|Entity=vg~vg_20111003_10039630__T121)
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	regjeringens	regjering	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__T123--1(vg~vg_20111003_10039630__8449--1)
+18	reformplan	reformplan	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T123)vg~vg_20111003_10039630__T120)
+19	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 015015
+# text = Etter all sannsynlighet kommer den såkalte troikaen til å si ja til utbetalingen på 8 milliarder.
+1	Etter	etter	ADP	_	_	3	case	_	name=O
+2	all	all	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	name=O|Entity=(vg~vg_20111003_10039630__T124--1
+3	sannsynlighet	sannsynlighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=vg~vg_20111003_10039630__T124)
+4	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(vg~vg_20111003_10039630__3377--1
+6	såkalte	såkalt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	troikaen	troika	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=vg~vg_20111003_10039630__3377)
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	si	si	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+11	ja	ja	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=(vg~vg_20111003_10039630__T126--1
+12	til	til	ADP	_	_	13	case	_	name=O
+13	utbetalingen	utbetaling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(vg~vg_20111003_10039630__2256--1
+14	på	på	ADP	_	_	16	case	_	name=O
+15	8	8	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(vg~vg_20111003_10039630__T128--1
+16	milliarder	milliard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T128)vg~vg_20111003_10039630__2256)vg~vg_20111003_10039630__T126)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015016
+# text = Uten pengene vil Hellas allerede om få uker kunne stå med tom statskasse, noe som vil trekke de andre 16 eurolandene dypere inn i krise.
+1	Uten	uten	ADP	_	_	2	case	_	name=O
+2	pengene	penge	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	obl	_	name=O|Entity=(vg~vg_20111003_10039630__2256--1)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+4	Hellas	Hellas	PROPN	_	_	10	nsubj	_	name=B-GPE_ORG|Entity=(vg~vg_20111003_10039630__11758--1)
+5	allerede	allerede	ADV	_	_	8	advmod	_	name=O
+6	om	om	ADP	_	_	8	case	_	name=O
+7	få	få	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(vg~vg_20111003_10039630__T131--1
+8	uker	uke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	obl	_	name=O|Entity=vg~vg_20111003_10039630__T131)
+9	kunne	kunne	AUX	_	VerbForm=Inf	10	aux	_	name=O
+10	stå	stå	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	med	med	ADP	_	_	13	case	_	name=O
+12	tom	tom	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(vg~vg_20111003_10039630__T132--1
+13	statskasse	statskasse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T132)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	10	appos	_	name=O|Entity=(vg~vg_20111003_10039630__T133--1
+16	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+17	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	trekke	trekke	VERB	_	VerbForm=Inf	15	acl:relcl	_	name=O
+19	de	de	DET	_	Number=Plur|PronType=Dem	22	det	_	name=O|Entity=(vg~vg_20111003_10039630__T134--1
+20	andre	annen	DET	_	Number=Plur|PronType=Dem	22	det	_	name=O
+21	16	16	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O
+22	eurolandene	euroland	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	18	obj	_	name=O|Entity=vg~vg_20111003_10039630__T134)
+23	dypere	dyp	ADJ	_	Degree=Cmp	26	advmod	_	name=O
+24	inn	inn	ADP	_	_	26	case	_	name=O
+25	i	i	ADP	_	_	26	case	_	name=O
+26	krise	krise	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039630__T135--1)vg~vg_20111003_10039630__T133)
+27	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 015017
+# text = Spenningen er derfor heller knyttet til hva troikaen og Hellas' internasjonale hjelpere mener om de dystre utsiktene for de neste årene.
+1	Spenningen	spenning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__T136--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	derfor	derfor	ADV	_	_	5	advmod	_	name=O
+4	heller	heller	ADV	_	_	5	advmod	_	name=O
+5	knyttet	knytte	VERB	_	VerbForm=Part	0	root	_	name=O
+6	til	til	SCONJ	_	_	13	mark	_	name=O
+7	hva	hva	PRON	_	PronType=Int	13	obj	_	name=O
+8	troikaen	troika	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=(vg~vg_20111003_10039630__T137--1(vg~vg_20111003_10039630__3377--1)
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	Hellas'	Hellas	PROPN	_	Case=Gen	12	nmod	_	name=B-GPE_LOC|Entity=(vg~vg_20111003_10039630__T140--1(vg~vg_20111003_10039630__11758--1)
+11	internasjonale	internasjonal	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	hjelpere	hjelper	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	conj	_	name=O|Entity=vg~vg_20111003_10039630__T140)vg~vg_20111003_10039630__T137)
+13	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+14	om	om	ADP	_	_	17	case	_	name=O
+15	de	de	DET	_	Number=Plur|PronType=Dem	17	det	_	name=O|Entity=(vg~vg_20111003_10039630__T141--1
+16	dystre	dyster	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O
+17	utsiktene	utsikt	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	13	obl	_	name=O
+18	for	for	ADP	_	_	21	case	_	name=O
+19	de	de	DET	_	Number=Plur|PronType=Dem	21	det	_	name=O|Entity=(vg~vg_20111003_10039630__T142--1
+20	neste	neste	DET	_	Definite=Def|PronType=Dem	21	det	_	name=O
+21	årene	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039630__T142)vg~vg_20111003_10039630__T141)
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+

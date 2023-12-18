@@ -1,0 +1,58 @@
+# newdoc id = ap_20091005-3303914
+# global.Entity = eid-etype-head-other
+# sent_id = 003493
+# text = Rekken ut av Norge går
+1	Rekken	rekke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(ap_20091005_3303914__T1--1)
+2	ut	ut	ADP	_	_	4	case	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	Norge	Norge	PROPN	_	_	5	obl	_	name=B-GPE_LOC|Entity=(ap_20091005_3303914__213--1)
+5	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+
+# newpar
+# sent_id = 003494
+# text = Naturlov.
+1	Naturlov	naturlov	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20091005_3303914__T3--1)
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 003495
+# text = Amerikanske Cisco har lagt 17,2 milliarder kroner på bordet for å overta norske Tandberg.
+1	Amerikanske	amerikansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(ap_20091005_3303914__T4--1
+2	Cisco	Cisco	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=ap_20091005_3303914__T4)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	lagt	legge	VERB	_	VerbForm=Part	0	root	_	name=O
+5	17,2	17,2	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(ap_20091005_3303914__T6--1(ap_20091005_3303914__T5--1
+6	milliarder	milliard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=ap_20091005_3303914__T5)
+7	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	name=O|Entity=ap_20091005_3303914__T6)
+8	på	på	ADP	_	_	9	case	_	name=O
+9	bordet	bord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(ap_20091005_3303914__T7--1)
+10	for	for	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	overta	overta	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+13	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(ap_20091005_3303914__T8--1
+14	Tandberg	Tandberg	PROPN	_	_	12	obj	_	SpaceAfter=No|name=B-ORG|Entity=ap_20091005_3303914__T8)
+15	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 003496
+# text = Er det en naturlov som gjør at høyteknologiske bedrifter forsvinner ut av Norge så snart de er blitt en suksess?
+1	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(ap_20091005_3303914__T9--1
+4	naturlov	naturlov	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:cleft	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	høyteknologiske	høyteknologisk	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(ap_20091005_3303914__222--1
+9	bedrifter	bedrift	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nsubj	_	name=O|Entity=ap_20091005_3303914__222)
+10	forsvinner	forsvinne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	name=O
+11	ut	ut	ADP	_	_	13	case	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	Norge	Norge	PROPN	_	_	10	obl	_	name=B-GPE_LOC|Entity=(ap_20091005_3303914__213--1)
+14	så	så	ADV	_	_	15	advmod	_	name=O
+15	snart	snar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+16	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(ap_20091005_3303914__222--1)
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	blitt	bli	VERB	_	VerbForm=Part	10	advcl	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(ap_20091005_3303914__T13--1
+20	suksess	suksess	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20091005_3303914__T13)ap_20091005_3303914__T9)
+21	?	$?	PUNCT	_	_	4	punct	_	name=O
+

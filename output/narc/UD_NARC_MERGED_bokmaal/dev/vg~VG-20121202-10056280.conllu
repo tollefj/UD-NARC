@@ -1,0 +1,194 @@
+# newdoc id = vg~VG-20121202-10056280
+# global.Entity = eid-etype-head-other
+# sent_id = 018032
+# text = Brev fra Napoleon gikk for millionsum på auksjon
+1	Brev	brev	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(vg~vg_20121202_10056280__T1--1
+2	fra	fra	ADP	_	_	3	case	_	name=O
+3	Napoleon	Napoleon	PROPN	_	_	1	nmod	_	name=B-PER|Entity=(vg~vg_20121202_10056280__8158--1)vg~vg_20121202_10056280__T1)
+4	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	for	for	ADP	_	_	6	case	_	name=O
+6	millionsum	millionsum	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(vg~vg_20121202_10056280__T3--1)
+7	på	på	ADP	_	_	8	case	_	name=O
+8	auksjon	auksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(vg~vg_20121202_10056280__T4--1)
+
+# sent_id = 018033
+# text = Et 200 år gammelt brev fra Napoleon Bonaparte ble solgt for nærmere 1,4 millioner kroner på en auksjon.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(vg~vg_20121202_10056280__5106--1
+2	200	200	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(vg~vg_20121202_10056280__T5--1
+3	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O|Entity=vg~vg_20121202_10056280__T5)
+4	gammelt	gammel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O
+5	brev	brev	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nsubj:pass	_	name=O
+6	fra	fra	ADP	_	_	7	case	_	name=O
+7	Napoleon	Napoleon	PROPN	_	_	5	nmod	_	name=B-PER|Entity=(vg~vg_20121202_10056280__8158--1
+8	Bonaparte	Bonaparte	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=vg~vg_20121202_10056280__8158)vg~vg_20121202_10056280__5106)
+9	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	name=O
+10	solgt	selge	VERB	_	VerbForm=Part	0	root	_	name=O
+11	for	for	ADP	_	_	15	case	_	name=O
+12	nærmere	nær	ADJ	_	Degree=Cmp	13	advmod	_	name=O|Entity=(vg~vg_20121202_10056280__T9--1(vg~vg_20121202_10056280__T8--1
+13	1,4	1,4	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O
+14	millioner	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	name=O|Entity=vg~vg_20121202_10056280__T8)
+15	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	obl	_	name=O|Entity=vg~vg_20121202_10056280__T9)
+16	på	på	ADP	_	_	18	case	_	name=O
+17	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(vg~vg_20121202_10056280__251--1
+18	auksjon	auksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20121202_10056280__251)
+19	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# newpar
+# sent_id = 018034
+# text = I brevet forteller den franske lederen om sine planer om å sprenge Kreml.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	brevet	brev	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20121202_10056280__5106--1)
+3	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(vg~vg_20121202_10056280__8158--1
+5	franske	fransk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	lederen	leder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=vg~vg_20121202_10056280__8158)
+7	om	om	ADP	_	_	9	case	_	name=O
+8	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(vg~vg_20121202_10056280__T14--1(vg~vg_20121202_10056280__8158--1)
+9	planer	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O
+10	om	om	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	sprenge	sprenge	VERB	_	VerbForm=Inf	9	acl	_	name=O
+13	Kreml	Kreml	PROPN	_	_	12	obj	_	SpaceAfter=No|name=B-LOC|Entity=(vg~vg_20121202_10056280__232--1)vg~vg_20121202_10056280__T14)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 018035
+# text = "Jeg vil sprenge Kreml i lufta den 22. klokka tre om morgenen", står det i brevet, som er skrevet i tallkode og signert " Nap ".
+1	"	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(vg~vg_20121202_10056280__8158--1)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	sprenge	sprenge	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	Kreml	Kreml	PROPN	_	_	4	obj	_	name=B-LOC|Entity=(vg~vg_20121202_10056280__232--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	lufta	luft	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=(vg~vg_20121202_10056280__T18--1)
+8	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	name=O
+9	22.	22.	ADJ	_	Number=Plur	4	advmod	_	name=O
+10	klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=(vg~vg_20121202_10056280__T19--1)
+11	tre	tre	NUM	_	Number=Plur|NumType=Card	9	obl	_	name=O
+12	om	om	ADP	_	_	13	case	_	name=O
+13	morgenen	morgen	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121202_10056280__T20--1)
+14	"	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	brevet	brev	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121202_10056280__5106--1
+20	,	$,	PUNCT	_	_	23	punct	_	name=O
+21	som	som	PRON	_	PronType=Rel	23	nsubj	_	name=O
+22	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+23	skrevet	skrive	VERB	_	VerbForm=Part	19	acl:relcl	_	name=O
+24	i	i	ADP	_	_	25	case	_	name=O
+25	tallkode	tallkode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obl	_	name=O|Entity=(vg~vg_20121202_10056280__T22--1)
+26	og	og	CCONJ	_	_	27	cc	_	name=O
+27	signert	signere	VERB	_	VerbForm=Part	23	conj	_	name=O
+28	"	$"	PUNCT	_	_	29	punct	_	name=O|Entity=(vg~vg_20121202_10056280__T23--1
+29	Nap	Nap	PROPN	_	_	27	xcomp	_	name=B-PER
+30	"	$"	PUNCT	_	_	29	punct	_	SpaceAfter=No|name=O|Entity=vg~vg_20121202_10056280__T23)vg~vg_20121202_10056280__5106)
+31	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 018036
+# text = Brevet er datert 20. oktober 1812, dagen etter at Napoleon trakk seg tilbake fra sentrum av Moskva.
+1	Brevet	brev	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vg~vg_20121202_10056280__5106--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	datert	datere	VERB	_	VerbForm=Part	0	root	_	name=O
+4	20.	20.	ADJ	_	Number=Plur	5	amod	_	name=O|Entity=(vg~vg_20121202_10056280__T25--1
+5	oktober	oktober	NOUN	_	Gender=Masc	3	xcomp	_	name=O
+6	1812	1812	NUM	_	Number=Plur|NumType=Card	5	nmod	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	dagen	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	appos	_	name=O|Entity=(vg~vg_20121202_10056280__T26--1
+9	etter	etter	SCONJ	_	_	12	mark	_	name=O
+10	at	at	SCONJ	_	_	12	mark	_	name=O
+11	Napoleon	Napoleon	PROPN	_	_	12	nsubj	_	name=B-PER|Entity=(vg~vg_20121202_10056280__8158--1)
+12	trakk	trekke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl	_	name=O
+13	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	12	obj	_	name=O|Entity=(vg~vg_20121202_10056280__8158--1)
+14	tilbake	tilbake	ADP	_	_	16	case	_	name=O
+15	fra	fra	ADP	_	_	16	case	_	name=O
+16	sentrum	sentrum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	name=O|Entity=(vg~vg_20121202_10056280__T28--1
+17	av	av	ADP	_	_	18	case	_	name=O
+18	Moskva	Moskva	PROPN	_	_	16	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vg~vg_20121202_10056280__T29--1)vg~vg_20121202_10056280__T28)vg~vg_20121202_10056280__T26)vg~vg_20121202_10056280__T25)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 018037
+# text = Det er adressert til utenriksminister Hugues-Bernard Maret.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	adressert	adressere	VERB	_	VerbForm=Part	0	root	_	name=O
+4	til	til	ADP	_	_	6	case	_	name=O
+5	utenriksminister	utenriksminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(vg~vg_20121202_10056280__T30--1
+6	Hugues-Bernard	Hugues-Bernard	PROPN	_	_	3	obl	_	name=B-PER
+7	Maret	Maret	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vg~vg_20121202_10056280__T30)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 018038
+# text = Napoleon gjennomførte planen om sprenge Kreml, og flere tårn og vegger ble lagt i ruiner i eksplosjonen.
+1	Napoleon	Napoleon	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(vg~vg_20121202_10056280__8158--1)
+2	gjennomførte	gjennomføre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	planen	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Bridge=vg~vg_20121202_10056280__T14<vg~vg_20121202_10056280__T32:default|Entity=(vg~vg_20121202_10056280__T32--1
+4	om	om	ADP	_	_	5	case	_	name=O
+5	sprenge	sprenge	VERB	_	VerbForm=Inf	3	acl:relcl	_	name=O
+6	Kreml	Kreml	PROPN	_	_	5	obj	_	SpaceAfter=No|name=B-LOC|Entity=(vg~vg_20121202_10056280__T33--1)vg~vg_20121202_10056280__T32)
+7	,	$,	PUNCT	_	_	14	punct	_	name=O
+8	og	og	CCONJ	_	_	14	cc	_	name=O
+9	flere	mange	ADJ	_	Degree=Cmp	10	amod	_	name=O|Entity=(vg~vg_20121202_10056280__273--1(vg~vg_20121202_10056280__T35--1
+10	tårn	tårn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	nsubj:pass	_	name=O|Entity=vg~vg_20121202_10056280__T35)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	vegger	vegg	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	conj	_	name=O|Entity=(vg~vg_20121202_10056280__T36--1)vg~vg_20121202_10056280__273)
+13	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux:pass	_	name=O
+14	lagt	legge	VERB	_	VerbForm=Part	2	conj	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	ruiner	ruin	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	name=O|Entity=(vg~vg_20121202_10056280__T37--1)
+17	i	i	ADP	_	_	18	case	_	name=O
+18	eksplosjonen	eksplosjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Bridge=vg~vg_20121202_10056280__T32<vg~vg_20121202_10056280__T38:default|Entity=(vg~vg_20121202_10056280__T38--1)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 018039
+# text = De er senere blitt gjenoppbygget.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj:pass	_	name=O|Entity=(vg~vg_20121202_10056280__273--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	senere	sen	ADJ	_	Degree=Cmp	5	advmod	_	name=O
+4	blitt	bli	AUX	_	VerbForm=Part	5	aux:pass	_	name=O
+5	gjenoppbygget	gjenoppbygge	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 018040
+# text = Foran søndagens auksjon i Fountanbleau sørøst for Paris var det ventet at brevet ville bli solgt for mellom 10.000 og 15.000 euro.
+1	Foran	foran	ADP	_	_	3	case	_	name=O
+2	søndagens	søndag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(vg~vg_20121202_10056280__251--1(vg~vg_20121202_10056280__T40--1)
+3	auksjon	auksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Fountanbleau	Fountanbleau	PROPN	_	_	3	nmod	_	name=B-LOC|Entity=(vg~vg_20121202_10056280__T42--1
+6	sørøst	sørøst	ADP	_	_	8	case	_	name=O
+7	for	for	ADP	_	_	8	case	_	name=O
+8	Paris	Paris	PROPN	_	_	5	nmod	_	name=B-GPE_LOC|Entity=(vg~vg_20121202_10056280__T43--1)vg~vg_20121202_10056280__T42)vg~vg_20121202_10056280__251)
+9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	ventet	vente	VERB	_	VerbForm=Part	0	root	_	name=O
+12	at	at	SCONJ	_	_	16	mark	_	name=O
+13	brevet	brev	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nsubj:pass	_	name=O|Entity=(vg~vg_20121202_10056280__5106--1)
+14	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	name=O
+15	bli	bli	AUX	_	VerbForm=Inf	16	aux:pass	_	name=O
+16	solgt	selge	VERB	_	VerbForm=Part	11	ccomp	_	name=O
+17	for	for	ADP	_	_	22	case	_	name=O
+18	mellom	mellom	ADP	_	_	19	case	_	name=O|Entity=(vg~vg_20121202_10056280__T45--1
+19	10.000	10.000	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	15.000	15.000	NUM	_	Number=Plur|NumType=Card	19	conj	_	name=O
+22	euro	euro	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20121202_10056280__T45)
+23	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 018041
+# text = Sluttprisen ble imidlertid hele 187.500 euro, tilsvarende nærmere 1,4 millioner kroner.
+1	Sluttprisen	sluttpris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Bridge=vg~vg_20121202_10056280__5106<vg~vg_20121202_10056280__T46:default|Entity=(vg~vg_20121202_10056280__T46--1)
+2	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	imidlertid	imidlertid	ADV	_	_	2	advmod	_	name=O
+4	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(vg~vg_20121202_10056280__T47--1
+5	187.500	187.500	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O
+6	euro	euro	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	tilsvarende	tilsvare	ADJ	_	VerbForm=Part	6	amod	_	name=O
+9	nærmere	nær	ADJ	_	Degree=Cmp	10	advmod	_	name=O|Entity=(vg~vg_20121202_10056280__T49--1(vg~vg_20121202_10056280__T48--1
+10	1,4	1,4	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O
+11	millioner	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=vg~vg_20121202_10056280__T48)
+12	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No|name=O|Entity=vg~vg_20121202_10056280__T49)vg~vg_20121202_10056280__T47)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+

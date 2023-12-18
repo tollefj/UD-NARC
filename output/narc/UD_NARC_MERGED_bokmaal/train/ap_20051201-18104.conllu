@@ -1,0 +1,31 @@
+# newdoc id = ap_20051201-18104
+# global.Entity = eid-etype-head-other
+# sent_id = 000655
+# text = Aftenbladet.no Sofia:
+1	Aftenbladet.no	Aftenbladet.no	PROPN	_	_	0	root	_	name=B-ORG|Entity=(ap_20051201_18104__T1--1
+2	Sofia	Sofia	PROPN	_	_	1	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20051201_18104__T2--1)ap_20051201_18104__T1)
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 000656
+# text = Viking tapte 0-2 for CSKA Sofia i Uefa-cupen.
+1	Viking	Viking	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(ap_20051201_18104__T3--1)
+2	tapte	tape	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	0	0	NUM	_	Number=Plur|NumType=Card	2	obl	_	SpaceAfter=No|name=O
+4	-	$-	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+5	2	2	NUM	_	Number=Plur|NumType=Card	3	conj	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	CSKA	CSKA	PROPN	_	_	2	obl	_	name=B-ORG|Entity=(ap_20051201_18104__T4--1
+8	Sofia	Sofia	PROPN	_	_	7	flat:name	_	name=I-ORG|Entity=ap_20051201_18104__T4)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Uefa-cupen	Uefa-cup	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=B-EVT|Entity=(ap_20051201_18104__T5--1)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000657
+# text = Se bilder fra kampen her!
+1	Se	se	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	bilder	bilde	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	obj	_	name=O|Entity=(ap_20051201_18104__T6--1
+3	fra	fra	ADP	_	_	4	case	_	name=O
+4	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20051201_18104__T7--1)ap_20051201_18104__T6)
+5	her	her	ADV	_	_	1	advmod	_	SpaceAfter=No|name=O
+6	!	$!	PUNCT	_	_	1	punct	_	name=O
+

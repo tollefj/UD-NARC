@@ -1,0 +1,1328 @@
+# newdoc id = kk~20110826-59215
+# global.Entity = eid-etype-head-other
+# sent_id = 017422
+# text = Hitlers kamp i Min kamp
+1	Hitlers	Hitler	PROPN	_	Case=Gen	2	nmod	_	name=B-PER|Entity=(kk~20110826_59215__T2--1(kk~20110826_59215__9810--1)
+2	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Min	Min	PROPN	_	_	2	nmod	_	name=B-PROD|Entity=(kk~20110826_59215__121926--1
+5	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	flat:name	_	name=I-PROD|Entity=kk~20110826_59215__121926)kk~20110826_59215__T2)
+
+# sent_id = 017423
+# text = Det sjette bindet av Karl Ove Knausgårds «Min kamp» inneholder en fordypning i Hitlers tekst «Mein Kampf».
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kk~20110826_59215__111504--1
+2	sjette	sjette	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	bindet	bind	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	name=O
+4	av	av	ADP	_	_	9	case	_	name=O
+5	Karl	Karl	PROPN	_	Gender=Masc	9	nmod	_	name=B-PER|Entity=(kk~20110826_59215__121926--1(kk~20110826_59215__325865--1
+6	Ove	Ove	PROPN	_	Gender=Masc	5	flat:name	_	name=I-PER
+7	Knausgårds	Knausgård	PROPN	_	Case=Gen	5	flat:name	_	name=I-PER|Entity=kk~20110826_59215__325865)
+8	«	$"	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O
+9	Min	Min	PROPN	_	_	3	nmod	_	name=B-PROD
+10	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No|name=I-PROD
+11	»	$"	PUNCT	_	_	9	punct	_	name=O|Entity=kk~20110826_59215__121926)kk~20110826_59215__111504)
+12	inneholder	inneholde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(kk~20110826_59215__T7--1
+14	fordypning	fordypning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O
+15	i	i	ADP	_	_	19	case	_	name=O
+16	Hitlers	Hitler	PROPN	_	Case=Gen	17	nmod	_	name=B-PER|Entity=(kk~20110826_59215__191845--1(kk~20110826_59215__T9--1(kk~20110826_59215__9810--1)
+17	tekst	tekst	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	name=O|Entity=kk~20110826_59215__T9)
+18	«	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O
+19	Mein	Mein	PROPN	_	_	14	nmod	_	name=B-PROD
+20	Kampf	Kampf	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-PROD
+21	»	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__191845)kk~20110826_59215__T7)
+22	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# newpar
+# sent_id = 017424
+# text = Det kan bidra til å øke bevisstheten rundt lingvistisk vold, mener dansk litteraturkritiker.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110826_59215__T11--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	bidra	bidra	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	øke	øke	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+7	bevisstheten	bevissthet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(kk~20110826_59215__T12--1
+8	rundt	rundt	ADP	_	_	10	case	_	name=O
+9	lingvistisk	lingvistisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(kk~20110826_59215__T13--1
+10	vold	vold	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T13)kk~20110826_59215__T12)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+13	dansk	dansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(kk~20110826_59215__8811--1
+14	litteraturkritiker	litteraturkritiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__8811)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017425
+# text = Leses av Knausgård:
+1	Leses	lese	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+2	av	av	ADP	_	_	3	case	_	name=O
+3	Knausgård	Knausgård	PROPN	_	_	1	obl	_	SpaceAfter=No|name=B-PER|Entity=(kk~20110826_59215__325865--1)
+4	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 017426
+# text = Karl Ove Knausgård gjør en omfattende lesning av Adolf Hitlers «Mein Kampf» i sjette bind av Min kamp.
+1	Karl	Karl	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(kk~20110826_59215__325865--1
+2	Ove	Ove	PROPN	_	Gender=Masc	1	flat:name	_	name=I-PER
+3	Knausgård	Knausgård	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=kk~20110826_59215__325865)
+4	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kk~20110826_59215__T17--1
+6	omfattende	omfattende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	lesning	lesning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O
+8	av	av	ADP	_	_	12	case	_	name=O
+9	Adolf	Adolf	PROPN	_	Gender=Masc	12	nmod	_	name=B-PER|Entity=(kk~20110826_59215__191845--1(kk~20110826_59215__9810--1
+10	Hitlers	Hitler	PROPN	_	Case=Gen	9	flat:name	_	name=I-PER|Entity=kk~20110826_59215__9810)
+11	«	$"	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O
+12	Mein	Mein	PROPN	_	_	7	nmod	_	name=B-PROD
+13	Kampf	Kampf	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PROD
+14	»	$"	PUNCT	_	_	12	punct	_	name=O|Entity=kk~20110826_59215__191845)kk~20110826_59215__T17)
+15	i	i	ADP	_	_	17	case	_	name=O
+16	sjette	sjette	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(kk~20110826_59215__111504--1
+17	bind	bind	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O
+18	av	av	ADP	_	_	19	case	_	name=O
+19	Min	Min	PROPN	_	_	17	nmod	_	name=B-PROD|Entity=(kk~20110826_59215__121926--1
+20	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=kk~20110826_59215__121926)kk~20110826_59215__111504)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017427
+# text = - Det er klart at vi må sette oss ned og lese «Mein Kampf» nå, sier litteraturkritiker i danske Jyllands-Posten Jon Helt Haarder når Klassekampen ringer og forteller at forfatter Karl Ove Knausgård har fordypet seg i Hitlers «Mein Kampf».
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(kk~20110826_59215__245--1)
+7	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	sette	sette	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+9	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	8	obj	_	name=O|Entity=(kk~20110826_59215__245--1)
+10	ned	ned	ADP	_	_	8	compound:prt	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	lese	lese	VERB	_	VerbForm=Inf	8	conj	_	name=O
+13	«	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__191845--1
+14	Mein	Mein	PROPN	_	_	12	obj	_	name=B-PROD
+15	Kampf	Kampf	PROPN	_	_	14	flat:name	_	SpaceAfter=No|name=I-PROD
+16	»	$"	PUNCT	_	_	14	punct	_	name=O|Entity=kk~20110826_59215__191845)
+17	nå	nå	ADV	_	_	12	advmod	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+20	litteraturkritiker	litteraturkritiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	name=O|Entity=(kk~20110826_59215__8811--1(kk~20110826_59215__T25--1
+21	i	i	ADP	_	_	23	case	_	name=O
+22	danske	dansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	amod	_	name=O|Entity=(kk~20110826_59215__T26--1
+23	Jyllands-Posten	Jyllands-Posten	PROPN	_	_	20	nmod	_	name=B-ORG|Entity=kk~20110826_59215__T26)kk~20110826_59215__T25)
+24	Jon	Jon	PROPN	_	Gender=Masc	19	nsubj	_	name=B-PER
+25	Helt	Helt	PROPN	_	_	24	flat:name	_	name=I-PER
+26	Haarder	Haarder	PROPN	_	_	24	flat:name	_	name=I-PER|Entity=kk~20110826_59215__8811)
+27	når	når	SCONJ	_	_	29	mark	_	name=O
+28	Klassekampen	Klassekampen	PROPN	_	_	29	nsubj	_	name=B-ORG|Entity=(kk~20110826_59215__4390--1)
+29	ringer	ringe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	name=O
+30	og	og	CCONJ	_	_	31	cc	_	name=O
+31	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	conj	_	name=O
+32	at	at	SCONJ	_	_	38	mark	_	name=O
+33	forfatter	forfatter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	name=O|Entity=(kk~20110826_59215__325865--1
+34	Karl	Karl	PROPN	_	Gender=Masc	38	nsubj	_	name=B-PER
+35	Ove	Ove	PROPN	_	Gender=Masc	34	flat:name	_	name=I-PER
+36	Knausgård	Knausgård	PROPN	_	_	34	flat:name	_	name=I-PER|Entity=kk~20110826_59215__325865)
+37	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	38	aux	_	name=O
+38	fordypet	fordype	VERB	_	VerbForm=Part	31	ccomp	_	name=O
+39	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	38	obj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+40	i	i	ADP	_	_	43	case	_	name=O
+41	Hitlers	Hitler	PROPN	_	Case=Gen	43	nmod	_	name=B-PER|Entity=(kk~20110826_59215__191845--1(kk~20110826_59215__9810--1)
+42	«	$"	PUNCT	_	_	43	punct	_	SpaceAfter=No|name=O
+43	Mein	Mein	PROPN	_	_	38	obl	_	name=B-PROD
+44	Kampf	Kampf	PROPN	_	_	43	flat:name	_	SpaceAfter=No|name=I-PROD
+45	»	$"	PUNCT	_	_	43	punct	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__191845)
+46	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 017428
+# text = I den kommende sjette og avsluttende delen av romanverket «Min Kamp», som etter mange forsinkelser endelig skal utkomme i november, er det nemlig varslet at et essay på 400 sider om «Mein Kampf» vil være å lese i boka.
+1	I	i	ADP	_	_	7	case	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(kk~20110826_59215__111504--1
+3	kommende	komme	ADJ	_	VerbForm=Part	7	amod	_	name=O
+4	sjette	sjette	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	avsluttende	avsluttende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	conj	_	name=O
+7	delen	del	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	obl	_	name=O
+8	av	av	ADP	_	_	11	case	_	name=O
+9	romanverket	romanverk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(kk~20110826_59215__121926--1
+10	«	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=O
+11	Min	Min	PROPN	_	_	7	nmod	_	name=B-PROD
+12	Kamp	Kamp	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PROD
+13	»	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__121926)
+14	,	$,	PUNCT	_	_	21	punct	_	name=O
+15	som	som	PRON	_	PronType=Rel	21	nsubj	_	name=O
+16	etter	etter	ADP	_	_	18	case	_	name=O
+17	mange	mange	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(kk~20110826_59215__T34--1
+18	forsinkelser	forsinkelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obl	_	name=O|Entity=kk~20110826_59215__T34)
+19	endelig	endelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+20	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+21	utkomme	utkomme	VERB	_	VerbForm=Inf	7	acl:relcl	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	november	november	NOUN	_	Gender=Masc	21	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T35--1)kk~20110826_59215__111504)
+24	,	$,	PUNCT	_	_	7	punct	_	name=O
+25	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	name=O
+26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	expl	_	name=O
+27	nemlig	nemlig	ADV	_	_	28	advmod	_	name=O
+28	varslet	varsle	VERB	_	VerbForm=Part	0	root	_	name=O
+29	at	at	SCONJ	_	_	43	mark	_	name=O
+30	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	31	det	_	name=O|Entity=(kk~20110826_59215__T36--1
+31	essay	essay	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	43	nsubj	_	name=O
+32	på	på	ADP	_	_	34	case	_	name=O
+33	400	400	NUM	_	Number=Plur|NumType=Card	34	nummod	_	name=O|Entity=(kk~20110826_59215__T37--1
+34	sider	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	31	nmod	_	name=O|Entity=kk~20110826_59215__T37)
+35	om	om	ADP	_	_	37	case	_	name=O
+36	«	$"	PUNCT	_	_	37	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__191845--1
+37	Mein	Mein	PROPN	_	_	31	nmod	_	name=B-PROD
+38	Kampf	Kampf	PROPN	_	_	37	flat:name	_	SpaceAfter=No|name=I-PROD
+39	»	$"	PUNCT	_	_	37	punct	_	name=O|Entity=kk~20110826_59215__191845)kk~20110826_59215__T36)
+40	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	43	aux	_	name=O
+41	være	være	AUX	_	VerbForm=Inf	43	cop	_	name=O
+42	å	å	PART	_	_	43	mark	_	name=O
+43	lese	lese	VERB	_	VerbForm=Inf	28	ccomp	_	name=O
+44	i	i	ADP	_	_	45	case	_	name=O
+45	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	43	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__111504--1)
+46	.	$.	PUNCT	_	_	28	punct	_	name=O
+
+# sent_id = 017429
+# text = Boka er inndelt i tre deler, og hele del 2 av boka vil dreie seg om Adolf Hitlers selvbiografiske ideologiske dokument, bekrefter forlagssjef i Oktober, Geir Berdahl, overfor Klassekampen.
+1	Boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(kk~20110826_59215__111504--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	inndelt	inndele	VERB	_	VerbForm=Part	0	root	_	name=O
+4	i	i	ADP	_	_	6	case	_	name=O
+5	tre	tre	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(kk~20110826_59215__T41--1
+6	deler	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T41)
+7	,	$,	PUNCT	_	_	15	punct	_	name=O
+8	og	og	CCONJ	_	_	15	cc	_	name=O
+9	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	advmod	_	name=O|Entity=(kk~20110826_59215__2625--1
+10	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(kk~20110826_59215__T42[1/2]--1)
+11	2	2	NUM	_	Number=Plur|NumType=Card	15	nsubj	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O|Entity=(kk~20110826_59215__T42[2/2]--1
+13	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	name=O|Entity=(kk~20110826_59215__111504--1)kk~20110826_59215__T42[2/2])kk~20110826_59215__2625)
+14	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	dreie	dreie	VERB	_	VerbForm=Inf	3	conj	_	name=O
+16	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	15	obj	_	name=O|Entity=(kk~20110826_59215__2625--1)
+17	om	om	ADP	_	_	22	case	_	name=O
+18	Adolf	Adolf	PROPN	_	Gender=Masc	22	nmod	_	name=B-PER|Entity=(kk~20110826_59215__191845--1(kk~20110826_59215__9810--1
+19	Hitlers	Hitler	PROPN	_	Case=Gen	18	flat:name	_	name=I-PER|Entity=kk~20110826_59215__9810)
+20	selvbiografiske	selvbiografisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O
+21	ideologiske	ideologisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	dokument	dokument	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__191845)
+23	,	$,	PUNCT	_	_	15	punct	_	name=O
+24	bekrefter	bekrefte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+25	forlagssjef	forlagssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	name=O|Entity=(kk~20110826_59215__61530--1(kk~20110826_59215__T46--1
+26	i	i	ADP	_	_	27	case	_	name=O
+27	Oktober	Oktober	PROPN	_	_	25	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110826_59215__T47--1)
+28	,	$,	PUNCT	_	_	25	punct	_	name=O|Entity=kk~20110826_59215__T46)
+29	Geir	Geir	PROPN	_	Gender=Masc	24	nsubj	_	name=B-PER
+30	Berdahl	Berdahl	PROPN	_	_	29	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kk~20110826_59215__61530)
+31	,	$,	PUNCT	_	_	33	punct	_	name=O
+32	overfor	overfor	ADP	_	_	33	case	_	name=O
+33	Klassekampen	Klassekampen	PROPN	_	_	24	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110826_59215__4390--1)
+34	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017430
+# text = Språk og vold
+1	Språk	språk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(kk~20110826_59215__T50--1(kk~20110826_59215__T51--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	vold	vold	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(kk~20110826_59215__T52--1)kk~20110826_59215__T50)
+
+# sent_id = 017431
+# text = Så langt er det ikke mange som har gjort som Knausgård og lest «Mein Kampf» som utkom i to bind i 1925 og 1927.
+1	Så	så	ADV	_	_	2	advmod	_	name=O
+2	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	mange	mange	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	gjort	gjøre	VERB	_	VerbForm=Part	6	acl:cleft	_	name=O
+10	som	som	ADP	_	_	11	case	_	name=O
+11	Knausgård	Knausgård	PROPN	_	_	9	obl	_	name=B-PER|Entity=(kk~20110826_59215__325865--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	lest	lese	VERB	_	VerbForm=Part	9	conj	_	name=O
+14	«	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__191845--1
+15	Mein	Mein	PROPN	_	_	13	obj	_	name=B-PROD
+16	Kampf	Kampf	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PROD
+17	»	$"	PUNCT	_	_	15	punct	_	name=O
+18	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+19	utkom	utkomme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	name=O
+20	i	i	ADP	_	_	22	case	_	name=O
+21	to	to	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O|Entity=(kk~20110826_59215__T55--1
+22	bind	bind	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	obl	_	name=O|Entity=kk~20110826_59215__T55)
+23	i	i	ADP	_	_	24	case	_	name=O
+24	1925	1925	NUM	_	Number=Plur|NumType=Card	19	obl	_	name=O
+25	og	og	CCONJ	_	_	26	cc	_	name=O
+26	1927	1927	NUM	_	Number=Plur|NumType=Card	24	conj	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__191845)
+27	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017432
+# text = Etter at tyske myndigheter har ført en bevisst politikk om ikke å tillate nye opplag av teksten etter 1945, er svært få tilgjengelige utgaver av «Mein Kampf» i omløp.
+1	Etter	etter	SCONJ	_	_	6	mark	_	name=O
+2	at	at	SCONJ	_	_	6	mark	_	name=O
+3	tyske	tysk	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O|Entity=(kk~20110826_59215__T56--1
+4	myndigheter	myndighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nsubj	_	name=O|Entity=kk~20110826_59215__T56)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	ført	føre	VERB	_	VerbForm=Part	32	advcl	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kk~20110826_59215__T57--1
+8	bevisst	bevisst	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O
+10	om	om	SCONJ	_	_	13	mark	_	name=O
+11	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	tillate	tillate	VERB	_	VerbForm=Inf	9	acl	_	name=O
+14	nye	ny	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O|Entity=(kk~20110826_59215__T58--1
+15	opplag	opplag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	teksten	tekst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(kk~20110826_59215__191845--1)kk~20110826_59215__T58)
+18	etter	etter	ADP	_	_	19	case	_	name=O
+19	1945	1945	NUM	_	Number=Plur|NumType=Card	13	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T57)
+20	,	$,	PUNCT	_	_	6	punct	_	name=O
+21	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	name=O
+22	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	advmod	_	name=O|Entity=(kk~20110826_59215__T60--1
+23	få	få	ADJ	_	Degree=Pos|Number=Plur	25	amod	_	name=O
+24	tilgjengelige	tilgjengelig	ADJ	_	Degree=Pos|Number=Plur	25	amod	_	name=O
+25	utgaver	utgave	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	32	nsubj	_	name=O
+26	av	av	ADP	_	_	28	case	_	name=O
+27	«	$"	PUNCT	_	_	28	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__191845--1
+28	Mein	Mein	PROPN	_	_	25	nmod	_	name=B-PROD
+29	Kampf	Kampf	PROPN	_	_	28	flat:name	_	SpaceAfter=No|name=I-PROD
+30	»	$"	PUNCT	_	_	28	punct	_	name=O|Entity=kk~20110826_59215__191845)kk~20110826_59215__T60)
+31	i	i	ADP	_	_	32	case	_	name=O
+32	omløp	omløp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T62--1)
+33	.	$.	PUNCT	_	_	32	punct	_	name=O
+
+# sent_id = 017433
+# text = Haarder tror imidlertid at det historiske dokumentets lange liv utenfor offentlighetens søkelys er på vei mot en ende.
+1	Haarder	Haarder	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110826_59215__8811--1)
+2	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	imidlertid	imidlertid	ADV	_	_	2	advmod	_	name=O
+4	at	at	SCONJ	_	_	15	mark	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(kk~20110826_59215__T65--1(kk~20110826_59215__191845--1
+6	historiske	historisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	dokumentets	dokument	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=kk~20110826_59215__191845)
+8	lange	lang	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nsubj	_	name=O
+10	utenfor	utenfor	ADP	_	_	12	case	_	name=O
+11	offentlighetens	offentlighet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(kk~20110826_59215__T67--1(kk~20110826_59215__T66--1)
+12	søkelys	søkelys	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=kk~20110826_59215__T67)kk~20110826_59215__T65)
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+14	på	på	SCONJ	_	_	15	mark	_	name=O
+15	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	ccomp	_	name=O|Entity=(kk~20110826_59215__T68--1
+16	mot	mot	ADP	_	_	18	case	_	name=O
+17	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(kk~20110826_59215__T69--1
+18	ende	ende	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T69)kk~20110826_59215__T68)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017434
+# text = - Diskusjonen om sammenhengen mellom lingvistisk og fysisk vold er svært aktuell, ikke minst etter 22. juli.
+1	-	$-	PUNCT	_	_	12	punct	_	name=O
+2	Diskusjonen	diskusjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(kk~20110826_59215__3236--1
+3	om	om	ADP	_	_	4	case	_	name=O
+4	sammenhengen	sammenheng	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(kk~20110826_59215__T71--1
+5	mellom	mellom	ADP	_	_	9	case	_	name=O
+6	lingvistisk	lingvistisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(kk~20110826_59215__T72--1
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	fysisk	fysisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	conj	_	name=O
+9	vold	vold	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=kk~20110826_59215__T72)kk~20110826_59215__T71)kk~20110826_59215__3236)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	aktuell	aktuell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	18	punct	_	name=O
+14	ikke	ikke	PART	_	Polarity=Neg	15	advmod	_	name=O
+15	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	18	advmod	_	name=O
+16	etter	etter	ADP	_	_	18	case	_	name=O
+17	22.	22.	ADJ	_	Number=Plur	18	amod	_	name=B-EVT|Entity=(kk~20110826_59215__T73--1
+18	juli	juli	NOUN	_	Gender=Masc	12	obl	_	SpaceAfter=No|name=I-EVT|Entity=kk~20110826_59215__T73)
+19	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 017435
+# text = Her i Danmark er dessuten nylig Victor Klemperers store verk om nazismens språkbruk fra 1947, nettopp utkommet.
+1	Her	her	ADV	_	_	18	advmod	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Danmark	Danmark	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(kk~20110826_59215__T74--1)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+5	dessuten	dessuten	ADV	_	_	18	advmod	_	name=O
+6	nylig	nylig	ADV	_	_	18	advmod	_	name=O
+7	Victor	Victor	PROPN	_	Gender=Fem	10	nmod	_	name=B-PER|Entity=(kk~20110826_59215__T76--1(kk~20110826_59215__T75--1
+8	Klemperers	Klemperer	PROPN	_	Case=Gen	7	flat:name	_	name=I-PER|Entity=kk~20110826_59215__T75)
+9	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	verk	verk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	nsubj	_	name=O
+11	om	om	ADP	_	_	13	case	_	name=O
+12	nazismens	nazisme	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(kk~20110826_59215__T78--1(kk~20110826_59215__T77--1)
+13	språkbruk	språkbruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=kk~20110826_59215__T78)
+14	fra	fra	ADP	_	_	15	case	_	name=O
+15	1947	1947	NUM	_	Number=Plur|NumType=Card	10	nmod	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=kk~20110826_59215__T76)
+17	nettopp	nettopp	ADV	_	_	18	advmod	_	name=O
+18	utkommet	utkomme	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 017436
+# text = Dette er veldig oppe i tida, sier Haarder.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(kk~20110826_59215__3236--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+4	oppe	oppe	ADP	_	_	6	case	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T80--1)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+9	Haarder	Haarder	PROPN	_	_	8	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kk~20110826_59215__8811--1)
+10	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017437
+# text = Han mener spesielt språkklimaet på nettet har tvunget fram en ny aktualitet i spørsmålet om sammenhengen mellom språk og vold.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110826_59215__8811--1)
+2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	name=O|Entity=(kk~20110826_59215__T83--1
+4	språkklimaet	språkklima	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	nettet	nett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(kk~20110826_59215__2177--1)kk~20110826_59215__T83)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	tvunget	tvinge	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+9	fram	fram	ADP	_	_	8	compound:prt	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kk~20110826_59215__T85--1
+11	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	aktualitet	aktualitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	name=O|Entity=kk~20110826_59215__T85)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	spørsmålet	spørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(kk~20110826_59215__T86--1
+15	om	om	ADP	_	_	16	case	_	name=O
+16	sammenhengen	sammenheng	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(kk~20110826_59215__3236--1
+17	mellom	mellom	ADP	_	_	18	case	_	name=O
+18	språk	språk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	nmod	_	name=O|Entity=(kk~20110826_59215__T88--1(kk~20110826_59215__T89--1)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	vold	vold	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T90--1)kk~20110826_59215__T88)kk~20110826_59215__3236)kk~20110826_59215__T86)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017438
+# text = - Det er virkelig skremmende å se hvor voldsomt unge mennesker henvender seg språklig til hverandre på Facebook.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	virkelig	virkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	skremmende	skremme	ADJ	_	VerbForm=Part	0	root	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	se	se	VERB	_	VerbForm=Inf	5	csubj	_	name=O
+8	hvor	hvor	ADV	_	_	9	advmod	_	name=O
+9	voldsomt	voldsom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+10	unge	ung	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(kk~20110826_59215__3720--1
+11	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	nsubj	_	name=O|Entity=kk~20110826_59215__3720)
+12	henvender	henvende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	name=O
+13	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	12	obj	_	name=O|Entity=(kk~20110826_59215__3720--1)
+14	språklig	språklig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	hverandre	hverandre	PRON	_	Animacy=Hum|Number=Plur|PronType=Rcp	12	obl	_	name=O|Entity=(kk~20110826_59215__3720--1)
+17	på	på	ADP	_	_	18	case	_	name=O
+18	Facebook	Facebook	PROPN	_	_	12	obl	_	SpaceAfter=No|name=B-PROD|Entity=(kk~20110826_59215__T92--1)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017439
+# text = Med nettet har alle mulige synspunkter har kunnet komme til orde uten redaksjonell innblanding.
+1	Med	med	ADP	_	_	2	case	_	name=O
+2	nettet	nett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(kk~20110826_59215__2177--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+4	alle	all	DET	_	Number=Plur|PronType=Tot	6	det	_	name=O|Entity=(kk~20110826_59215__T94--1
+5	mulige	mulig	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	synspunkter	synspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	nsubj	_	name=O|Entity=kk~20110826_59215__T94)
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	reparandum	_	name=O
+8	kunnet	kunne	AUX	_	VerbForm=Part	9	aux	_	name=O
+9	komme	komme	VERB	_	VerbForm=Inf	0	root	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	orde	orde	NOUN	_	_	9	obl	_	name=O|Entity=(kk~20110826_59215__T95--1)
+12	uten	uten	ADP	_	_	14	case	_	name=O
+13	redaksjonell	redaksjonell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(kk~20110826_59215__T96--1
+14	innblanding	innblanding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T96)
+15	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 017440
+# text = Det er en utvikling vi bør følge med på og undersøke.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(kk~20110826_59215__T97--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(kk~20110826_59215__T98--1
+4	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(kk~20110826_59215__T99--1)
+6	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	følge	følge	VERB	_	VerbForm=Inf	4	acl:relcl	_	name=O
+8	med	med	ADP	_	_	9	case	_	name=O
+9	på	på	ADP	_	_	7	compound:prt	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	undersøke	undersøke	VERB	_	VerbForm=Inf	7	conj	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T98)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017441
+# text = «Om jeg skulle beskrive «Mein Kampf» i en setning, ville det være at det er en bok uten et 'du'.
+1	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+2	Om	om	SCONJ	_	_	5	mark	_	name=O
+3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+4	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+5	beskrive	beskrive	VERB	_	VerbForm=Inf	21	advcl	_	name=O
+6	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__191845--1
+7	Mein	Mein	PROPN	_	_	5	obj	_	name=B-PROD
+8	Kampf	Kampf	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-PROD
+9	»	$"	PUNCT	_	_	7	punct	_	name=O|Entity=kk~20110826_59215__191845)
+10	i	i	ADP	_	_	12	case	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kk~20110826_59215__T102--1
+12	setning	setning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T102)
+13	,	$,	PUNCT	_	_	5	punct	_	name=O
+14	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(kk~20110826_59215__T103--1)
+16	være	være	AUX	_	VerbForm=Inf	21	cop	_	name=O
+17	at	at	SCONJ	_	_	21	mark	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(kk~20110826_59215__191845--1)
+19	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(kk~20110826_59215__T105--1
+21	bok	bok	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+22	uten	uten	ADP	_	_	25	case	_	name=O
+23	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(kk~20110826_59215__T106--1
+24	'	$"	PUNCT	_	_	25	punct	_	SpaceAfter=No|name=O
+25	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	21	nmod	_	SpaceAfter=No|name=O
+26	'	$"	PUNCT	_	_	25	punct	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T106)kk~20110826_59215__T105)
+27	.	$.	PUNCT	_	_	21	punct	_	name=O
+
+# sent_id = 017442
+# text = Det er et 'jeg' der, det er et 'vi' der og det er et 'de' der.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kk~20110826_59215__T107--1
+4	'	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+5	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No|name=O
+6	'	$"	PUNCT	_	_	5	punct	_	name=O|Entity=kk~20110826_59215__T107)
+7	der	der	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+10	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(kk~20110826_59215__T108--1
+12	'	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O
+13	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No|name=O
+14	'	$"	PUNCT	_	_	13	punct	_	name=O|Entity=kk~20110826_59215__T108)
+15	der	der	ADV	_	_	10	advmod	_	name=O
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+18	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+19	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(kk~20110826_59215__T109--1
+20	'	$"	PUNCT	_	_	21	punct	_	SpaceAfter=No|name=O
+21	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No|name=O
+22	'	$"	PUNCT	_	_	21	punct	_	name=O|Entity=kk~20110826_59215__T109)
+23	der	der	ADV	_	_	18	advmod	_	SpaceAfter=No|name=O
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017443
+# text = Men det finnes ikke noe «du», sa Karl Ove Knausgård i det svenske radioprogrammet «Sommar i P1» 14. august.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	7	det	_	name=O|Entity=(kk~20110826_59215__T110--1
+6	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O
+7	du	du	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No|name=O
+8	»	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T110)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+11	Karl	Karl	PROPN	_	Gender=Masc	10	nsubj	_	name=B-PER|Entity=(kk~20110826_59215__325865--1
+12	Ove	Ove	PROPN	_	Gender=Masc	11	flat:name	_	name=I-PER
+13	Knausgård	Knausgård	PROPN	_	_	11	flat:name	_	name=I-PER|Entity=kk~20110826_59215__325865)
+14	i	i	ADP	_	_	19	case	_	name=O
+15	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(kk~20110826_59215__2228--1(kk~20110826_59215__T112--1
+16	svenske	svensk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	radioprogrammet	radioprogram	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	name=O|Entity=kk~20110826_59215__T112)
+18	«	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O
+19	Sommar	Sommar	PROPN	_	_	10	obl	_	name=B-PROD
+20	i	i	ADP	_	_	19	flat:name	_	name=I-PROD
+21	P1	P1	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-PROD
+22	»	$"	PUNCT	_	_	19	punct	_	name=O|Entity=kk~20110826_59215__2228)
+23	14.	14.	ADJ	_	Number=Plur	24	amod	_	name=O|Entity=(kk~20110826_59215__T114--1
+24	august	august	NOUN	_	Gender=Masc	10	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T114)
+25	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017444
+# text = I programmet, som Klassekampen trykket den skriftlige utgaven av på lørdag, sa Karl Ove Knausgård at han i hele vinter og vår har arbeidet med å lese Hitlers «Mein Kampf».
+1	I	i	ADP	_	_	2	case	_	name=O
+2	programmet	program	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__2228--1
+3	,	$,	PUNCT	_	_	6	punct	_	name=O
+4	som	som	PRON	_	PronType=Rel	6	iobj	_	name=O
+5	Klassekampen	Klassekampen	PROPN	_	_	6	nsubj	_	name=B-ORG|Entity=(kk~20110826_59215__4390--1)
+6	trykket	trykke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	name=O
+7	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(kk~20110826_59215__T117--1
+8	skriftlige	skriftlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	utgaven	utgave	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	name=O
+10	av	av	ADP	_	_	9	nmod	_	name=O|Entity=kk~20110826_59215__T117)
+11	på	på	ADP	_	_	12	case	_	name=O
+12	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T118--1)kk~20110826_59215__2228)
+13	,	$,	PUNCT	_	_	6	punct	_	name=O
+14	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+15	Karl	Karl	PROPN	_	Gender=Masc	14	nsubj	_	name=B-PER|Entity=(kk~20110826_59215__325865--1
+16	Ove	Ove	PROPN	_	Gender=Masc	15	flat:name	_	name=I-PER
+17	Knausgård	Knausgård	PROPN	_	_	15	flat:name	_	name=I-PER|Entity=kk~20110826_59215__325865)
+18	at	at	SCONJ	_	_	26	mark	_	name=O
+19	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+20	i	i	ADP	_	_	22	case	_	name=O
+21	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O|Entity=(kk~20110826_59215__T121--1(kk~20110826_59215__T122--1
+22	vinter	vinter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	name=O|Entity=kk~20110826_59215__T122)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	vår	vår	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	conj	_	name=O|Entity=(kk~20110826_59215__T123--1)kk~20110826_59215__T121)
+25	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	name=O
+26	arbeidet	arbeide	VERB	_	VerbForm=Part	14	ccomp	_	name=O
+27	med	med	SCONJ	_	_	29	mark	_	name=O
+28	å	å	PART	_	_	29	mark	_	name=O
+29	lese	lese	VERB	_	VerbForm=Inf	26	advcl	_	name=O
+30	Hitlers	Hitler	PROPN	_	Case=Gen	32	nmod	_	name=B-PER|Entity=(kk~20110826_59215__191845--1(kk~20110826_59215__9810--1)
+31	«	$"	PUNCT	_	_	32	punct	_	SpaceAfter=No|name=O
+32	Mein	Mein	PROPN	_	_	29	obj	_	name=B-PROD
+33	Kampf	Kampf	PROPN	_	_	32	flat:name	_	SpaceAfter=No|name=I-PROD
+34	»	$"	PUNCT	_	_	32	punct	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__191845)
+35	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 017445
+# text = Her påpekte han også likhetene mellom Anders Behring Breiviks publiserte manifest «2083» og Hitlers tekst - men at det påfallende ved Behring Breiviks synspunkter var at de også hadde mange sammenfall med Knausgårds eget liv og egne meninger.
+1	Her	her	ADV	_	_	2	advmod	_	name=O
+2	påpekte	påpeke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+4	også	også	ADV	_	_	2	advmod	_	name=O
+5	likhetene	likhet	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	2	obj	_	name=O|Entity=(kk~20110826_59215__T127--1(kk~20110826_59215__T128--1
+6	mellom	mellom	ADP	_	_	11	case	_	name=O
+7	Anders	Anders	PROPN	_	Gender=Masc	11	nmod	_	name=B-PER|Entity=(kk~20110826_59215__T130--1(kk~20110826_59215__T131--1(kk~20110826_59215__61022--1
+8	Behring	Behring	PROPN	_	_	7	flat:name	_	name=I-PER
+9	Breiviks	Breivik	PROPN	_	Case=Gen	7	flat:name	_	name=I-PER|Entity=kk~20110826_59215__61022)
+10	publiserte	publisere	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	11	amod	_	name=O
+11	manifest	manifest	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	name=O
+12	«	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O
+13	2083	2083	NUM	_	Number=Plur|NumType=Card	11	appos	_	SpaceAfter=No|name=B-PROD
+14	»	$"	PUNCT	_	_	13	punct	_	name=O|Entity=kk~20110826_59215__T131)
+15	og	og	CCONJ	_	_	17	cc	_	name=O
+16	Hitlers	Hitler	PROPN	_	Case=Gen	17	nmod	_	name=B-PER|Entity=(kk~20110826_59215__191845--1(kk~20110826_59215__9810--1)
+17	tekst	tekst	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	conj	_	name=O|Entity=kk~20110826_59215__191845)kk~20110826_59215__T130)
+18	-	$-	PUNCT	_	_	22	punct	_	name=O|Entity=kk~20110826_59215__T128)
+19	men	men	CCONJ	_	_	22	cc	_	name=O
+20	at	at	SCONJ	_	_	22	mark	_	name=O
+21	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	22	det	_	name=O
+22	påfallende	påfallende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	conj	_	name=O
+23	ved	ved	ADP	_	_	26	case	_	name=O
+24	Behring	Behring	PROPN	_	_	26	nmod	_	name=B-PER|Entity=(kk~20110826_59215__2271--1(kk~20110826_59215__61022--1
+25	Breiviks	Breivik	PROPN	_	Case=Gen	24	flat:name	_	name=I-PER|Entity=kk~20110826_59215__61022)
+26	synspunkter	synspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	obl	_	name=O|Entity=kk~20110826_59215__2271)
+27	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	name=O
+28	at	at	SCONJ	_	_	31	mark	_	name=O
+29	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	name=O|Entity=(kk~20110826_59215__2271--1)
+30	også	også	ADV	_	_	31	advmod	_	name=O
+31	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	csubj	_	name=O
+32	mange	mange	ADJ	_	Degree=Pos|Number=Plur	33	amod	_	name=O|Entity=(kk~20110826_59215__T137--1
+33	sammenfall	sammenfall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	31	obj	_	name=O
+34	med	med	ADP	_	_	37	case	_	name=O
+35	Knausgårds	Knausgård	PROPN	_	Case=Gen	37	nmod	_	name=B-PER|Entity=(kk~20110826_59215__T139--1(kk~20110826_59215__T140--1(kk~20110826_59215__325865--1
+36	eget	egen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	37	det	_	name=O|Entity=kk~20110826_59215__325865)
+37	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	33	nmod	_	name=O|Entity=kk~20110826_59215__T140)
+38	og	og	CCONJ	_	_	40	cc	_	name=O
+39	egne	egen	DET	_	Number=Plur|PronType=Prs	40	det	_	name=O|Entity=(kk~20110826_59215__T141--1(kk~20110826_59215__325865--1)
+40	meninger	mening	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	37	conj	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T141)kk~20110826_59215__T139)kk~20110826_59215__T137)kk~20110826_59215__T127)
+41	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017446
+# text = «Avgrunnen går ikke mellom det han mente og det vi mener, avgrunnen går mellom det han mente og det han gjorde», sa Knausgård, som også skal bidra i antologien «Respons 22/7», som utkommer seinere i høst.
+1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Avgrunnen	avgrunn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(kk~20110826_59215__2290--1)
+3	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	mellom	mellom	ADP	_	_	6	case	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	name=O|Entity=(kk~20110826_59215__T143--1(kk~20110826_59215__T144--1
+7	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(kk~20110826_59215__61022--1)
+8	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	name=O|Entity=kk~20110826_59215__T144)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	conj	_	name=O|Entity=(kk~20110826_59215__T146--1
+11	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	name=O|Entity=(kk~20110826_59215__T147--1)
+12	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T146)kk~20110826_59215__T143)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	avgrunnen	avgrunn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(kk~20110826_59215__2290--1)
+15	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+16	mellom	mellom	ADP	_	_	17	case	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obl	_	name=O|Entity=(kk~20110826_59215__T149--1(kk~20110826_59215__T150--1
+18	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(kk~20110826_59215__61022--1)
+19	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:relcl	_	name=O|Entity=kk~20110826_59215__T150)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	conj	_	name=O|Entity=(kk~20110826_59215__T152--1
+22	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	name=O|Entity=(kk~20110826_59215__61022--1)
+23	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T152)kk~20110826_59215__T149)
+24	»	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+25	,	$,	PUNCT	_	_	26	punct	_	name=O
+26	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+27	Knausgård	Knausgård	PROPN	_	_	26	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kk~20110826_59215__325865--1
+28	,	$,	PUNCT	_	_	32	punct	_	name=O
+29	som	som	PRON	_	PronType=Rel	32	nsubj	_	name=O
+30	også	også	ADV	_	_	32	advmod	_	name=O
+31	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux	_	name=O
+32	bidra	bidra	VERB	_	VerbForm=Inf	27	acl:relcl	_	name=O
+33	i	i	ADP	_	_	34	case	_	name=O
+34	antologien	antologi	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	32	obl	_	name=O|Entity=(kk~20110826_59215__T155--1
+35	«	$"	PUNCT	_	_	36	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T156--1
+36	Respons	respons	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	appos	_	name=B-PROD
+37	22/7	22/7	NOUN	_	_	36	nmod	_	SpaceAfter=No|name=I-PROD|Entity=(kk~20110826_59215__T157--1)
+38	»	$"	PUNCT	_	_	36	punct	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T156)
+39	,	$,	PUNCT	_	_	41	punct	_	name=O
+40	som	som	PRON	_	PronType=Rel	41	nsubj	_	name=O
+41	utkommer	utkomme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	name=O
+42	seinere	sein	ADJ	_	Degree=Cmp	44	advmod	_	name=O
+43	i	i	ADP	_	_	44	case	_	name=O
+44	høst	høst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	41	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T158--1)kk~20110826_59215__T155)kk~20110826_59215__325865)
+45	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017447
+# text = Kulturkonservatisme
+1	Kulturkonservatisme	kulturkonservatisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(kk~20110826_59215__T159--1)
+
+# sent_id = 017448
+# text = Jon Helt Haarder synes sammenkoplingen mellom Knausgård og Hitlers «Mein Kampf» er dristig.
+1	Jon	Jon	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(kk~20110826_59215__8811--1
+2	Helt	Helt	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Haarder	Haarder	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=kk~20110826_59215__8811)
+4	synes	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	sammenkoplingen	sammenkopling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(kk~20110826_59215__T161--1
+6	mellom	mellom	ADP	_	_	7	case	_	name=O
+7	Knausgård	Knausgård	PROPN	_	_	5	nmod	_	name=B-PER|Entity=(kk~20110826_59215__T162--1(kk~20110826_59215__325865--1)
+8	og	og	CCONJ	_	_	11	cc	_	name=O
+9	Hitlers	Hitler	PROPN	_	Case=Gen	11	nmod	_	name=B-PER|Entity=(kk~20110826_59215__191845--1(kk~20110826_59215__9810--1)
+10	«	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=O
+11	Mein	Mein	PROPN	_	_	7	conj	_	name=B-PROD
+12	Kampf	Kampf	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PROD
+13	»	$"	PUNCT	_	_	11	punct	_	name=O|Entity=kk~20110826_59215__191845)kk~20110826_59215__T162)kk~20110826_59215__T161)
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+15	dristig	dristig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	ccomp	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017449
+# text = - Vi kan jo ikke vite hvordan Knausgård vil lese «Mein Kampf» i bok 6, men man kan i hvert fall si at han setter seg selv voldsomt på spill ved å gjøre en lesning av det verket.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(kk~20110826_59215__T166--1)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	jo	jo	ADV	_	_	6	advmod	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	vite	vite	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	hvordan	hvordan	ADV	_	_	10	advmod	_	name=O
+8	Knausgård	Knausgård	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(kk~20110826_59215__325865--1)
+9	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	lese	lese	VERB	_	VerbForm=Inf	6	ccomp	_	name=O
+11	«	$"	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__191845--1
+12	Mein	Mein	PROPN	_	_	10	obj	_	name=B-PROD
+13	Kampf	Kampf	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PROD
+14	»	$"	PUNCT	_	_	12	punct	_	name=O|Entity=kk~20110826_59215__191845)
+15	i	i	ADP	_	_	17	case	_	name=O
+16	bok	bok	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	name=O|Entity=(kk~20110826_59215__111504--1
+17	6	6	NUM	_	Number=Plur|NumType=Card	10	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__111504)
+18	,	$,	PUNCT	_	_	25	punct	_	name=O
+19	men	men	CCONJ	_	_	25	cc	_	name=O
+20	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	25	nsubj	_	name=O|Entity=(kk~20110826_59215__T170--1)
+21	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+22	i	i	ADP	_	_	24	case	_	name=O
+23	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	24	det	_	name=O|Entity=(kk~20110826_59215__T171--1
+24	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	obl	_	name=O|Entity=kk~20110826_59215__T171)
+25	si	si	VERB	_	VerbForm=Inf	6	conj	_	name=O
+26	at	at	SCONJ	_	_	28	mark	_	name=O
+27	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+28	setter	sette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	ccomp	_	name=O
+29	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	28	obj	_	name=O|Entity=(kk~20110826_59215__325865--1
+30	selv	selv	DET	_	PronType=Prs	29	det	_	name=O|Entity=kk~20110826_59215__325865)
+31	voldsomt	voldsom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	33	advmod	_	name=O
+32	på	på	ADP	_	_	33	case	_	name=O
+33	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	28	obl	_	name=O|Entity=(kk~20110826_59215__T173--1)
+34	ved	ved	SCONJ	_	_	36	mark	_	name=O
+35	å	å	PART	_	_	36	mark	_	name=O
+36	gjøre	gjøre	VERB	_	VerbForm=Inf	28	advcl	_	name=O
+37	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	38	det	_	name=O|Entity=(kk~20110826_59215__T174--1
+38	lesning	lesning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	36	obj	_	name=O
+39	av	av	ADP	_	_	41	case	_	name=O
+40	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	41	det	_	name=O|Entity=(kk~20110826_59215__191845--1
+41	verket	verk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	38	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__191845)kk~20110826_59215__T174)
+42	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017450
+# text = Med seg selv som innsats tvinger han seg til å forholde seg til den konkrete Hitler-teksten, som alle har hørt om, men ingen har lest.
+1	Med	med	ADP	_	_	2	case	_	name=O
+2	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	obl	_	name=O|Entity=(kk~20110826_59215__325865--1
+3	selv	selv	DET	_	PronType=Prs	2	det	_	name=O|Entity=kk~20110826_59215__325865)
+4	som	som	SCONJ	_	_	5	mark	_	name=O
+5	innsats	innsats	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	name=O|Entity=(kk~20110826_59215__T176--1)
+6	tvinger	tvinge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+8	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	forholde	forholde	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+12	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+13	til	til	ADP	_	_	16	case	_	name=O
+14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(kk~20110826_59215__191845--1
+15	konkrete	konkret	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	Hitler-teksten	Hitler-tekst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=B-DRV
+17	,	$,	PUNCT	_	_	21	punct	_	name=O
+18	som	som	PRON	_	PronType=Rel	21	nmod	_	name=O
+19	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	21	nsubj	_	name=O|Entity=(kk~20110826_59215__T179--1)
+20	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+21	hørt	høre	VERB	_	VerbForm=Part	16	acl:relcl	_	name=O
+22	om	om	ADP	_	_	21	compound:prt	_	SpaceAfter=No|name=O
+23	,	$,	PUNCT	_	_	27	punct	_	name=O
+24	men	men	CCONJ	_	_	27	cc	_	name=O
+25	ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	27	nsubj	_	name=O|Entity=(kk~20110826_59215__T180--1)
+26	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	name=O
+27	lest	lese	VERB	_	VerbForm=Part	21	conj	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__191845)
+28	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017451
+# text = En rekke etiske spørsmål virvles opp og han gjør det i høy grad mulig å innta kritiske posisjoner i forhold til ham, sier litteraturkritikeren.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(kk~20110826_59215__T182--1(kk~20110826_59215__T181--1
+2	rekke	rekke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=kk~20110826_59215__T181)
+3	etiske	etisk	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+4	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj:pass	_	name=O|Entity=kk~20110826_59215__T182)
+5	virvles	virvle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+6	opp	opp	ADP	_	_	5	compound:prt	_	name=O
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+9	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+11	i	i	ADP	_	_	13	case	_	name=O
+12	høy	høy	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(kk~20110826_59215__T184--1
+13	grad	grad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=kk~20110826_59215__T184)
+14	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	xcomp	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	innta	innta	VERB	_	VerbForm=Inf	9	xcomp	_	name=O
+17	kritiske	kritisk	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(kk~20110826_59215__T185--1
+18	posisjoner	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obj	_	name=O|Entity=kk~20110826_59215__T185)
+19	i	i	ADP	_	_	20	case	_	name=O
+20	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	name=O|Entity=(kk~20110826_59215__T186--1
+21	til	til	ADP	_	_	22	case	_	name=O
+22	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__325865--1)kk~20110826_59215__T186)
+23	,	$,	PUNCT	_	_	24	punct	_	name=O
+24	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+25	litteraturkritikeren	litteraturkritiker	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__8811--1)
+26	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017452
+# text = - En del av «min kamp»-bøkenes provokasjonsverdi ligger i det kulturkonservative spranget bøkene gjør.
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(kk~20110826_59215__T189--1
+3	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	name=O
+4	av	av	ADP	_	_	10	case	_	name=O
+5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=B-DRV|Entity=(kk~20110826_59215__T191--1(kk~20110826_59215__121926--1
+6	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	compound	_	name=I-DRV
+7	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No|name=I-DRV
+8	»	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=I-DRV
+9	-bøkenes	-bok	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	name=I-DRV|Entity=kk~20110826_59215__121926)
+10	provokasjonsverdi	provokasjonsverdi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=kk~20110826_59215__T191)kk~20110826_59215__T189)
+11	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	i	i	ADP	_	_	15	case	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(kk~20110826_59215__T192--1
+14	kulturkonservative	kulturkonservativ	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	spranget	sprang	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	name=O
+16	bøkene	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	17	nsubj	_	name=O|Entity=(kk~20110826_59215__121926--1)
+17	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T192)
+18	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 017453
+# text = Forfatteren har en formidabel evne til å være reaksjonær og samtidig nyskapende og bekjennende, utdyper Jon Helt Haarder.
+1	Forfatteren	forfatter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kk~20110826_59215__T195--1
+4	formidabel	formidabel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	evne	evne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+6	til	til	ADP	_	_	9	case	_	name=O
+7	å	å	PART	_	_	9	mark	_	name=O
+8	være	være	AUX	_	VerbForm=Inf	9	cop	_	name=O
+9	reaksjonær	reaksjonær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	nyskapende	nyskapende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	conj	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	bekjennende	bekjenne	ADJ	_	VerbForm=Part	12	conj	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T195)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	utdyper	utdype	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+17	Jon	Jon	PROPN	_	Gender=Masc	16	nsubj	_	name=B-PER|Entity=(kk~20110826_59215__8811--1
+18	Helt	Helt	PROPN	_	_	17	flat:name	_	name=I-PER
+19	Haarder	Haarder	PROPN	_	_	17	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kk~20110826_59215__8811)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017454
+# text = Klassekampens litteraturkritiker Tom Egil Hverven er mer skeptisk til å kople Knausgård direkte til en form for kulturkonservatisme.
+1	Klassekampens	Klassekampen	PROPN	_	Case=Gen	2	nmod	_	name=B-ORG|Entity=(kk~20110826_59215__71626--1(kk~20110826_59215__T198--1(kk~20110826_59215__4390--1)
+2	litteraturkritiker	litteraturkritiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=kk~20110826_59215__T198)
+3	Tom	Tom	PROPN	_	Gender=Masc	8	nsubj	_	name=B-PER
+4	Egil	Egil	PROPN	_	Gender=Masc	3	flat:name	_	name=I-PER
+5	Hverven	Hverven	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=kk~20110826_59215__71626)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	mer	mye	ADJ	_	Degree=Cmp	8	advmod	_	name=O
+8	skeptisk	skeptisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	kople	kople	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+12	Knausgård	Knausgård	PROPN	_	_	11	obj	_	name=B-PER|Entity=(kk~20110826_59215__325865--1)
+13	direkte	direkte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+14	til	til	ADP	_	_	16	case	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(kk~20110826_59215__T201--1
+16	form	form	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O
+17	for	for	ADP	_	_	18	case	_	name=O
+18	kulturkonservatisme	kulturkonservatisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T202--1)kk~20110826_59215__T201)
+19	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 017455
+# text = - Det finnes en sterk gruppering i den norske offentligheten av unge, sinte menn som har forsøkt å ta særlig «Min kamp 2» til inntekt for sine meninger, sier Hverven.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kk~20110826_59215__T203[1/2]--1
+5	sterk	sterk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	gruppering	gruppering	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=kk~20110826_59215__T203[1/2])
+7	i	i	ADP	_	_	10	case	_	name=O
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(kk~20110826_59215__2463--1
+9	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	offentligheten	offentlighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=kk~20110826_59215__2463)
+11	av	av	ADP	_	_	15	case	_	name=O|Entity=(kk~20110826_59215__T203[2/2]--1
+12	unge	ung	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__2413--1
+13	,	$,	PUNCT	_	_	12	punct	_	name=O
+14	sinte	sint	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	menn	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	name=O
+16	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+17	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	forsøkt	forsøke	VERB	_	VerbForm=Part	15	acl:relcl	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	ta	ta	VERB	_	VerbForm=Inf	18	xcomp	_	name=O
+21	særlig	særlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	name=O|Entity=(kk~20110826_59215__2422--1
+22	«	$"	PUNCT	_	_	23	punct	_	SpaceAfter=No|name=O
+23	Min	Min	PROPN	_	_	20	obj	_	name=B-PROD
+24	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	flat:name	_	name=I-PROD
+25	2	2	NUM	_	Number=Plur|NumType=Card	23	flat:name	_	SpaceAfter=No|name=I-PROD
+26	»	$"	PUNCT	_	_	23	punct	_	name=O|Entity=kk~20110826_59215__2422)
+27	til	til	ADP	_	_	28	case	_	name=O
+28	inntekt	inntekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	name=O|Entity=(kk~20110826_59215__T207--1
+29	for	for	ADP	_	_	31	case	_	name=O
+30	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	31	nmod	_	name=O|Entity=(kk~20110826_59215__T209--1(kk~20110826_59215__2413--1)
+31	meninger	mening	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T209)kk~20110826_59215__T207)kk~20110826_59215__2413)kk~20110826_59215__T203[2/2])
+32	,	$,	PUNCT	_	_	33	punct	_	name=O
+33	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+34	Hverven	Hverven	PROPN	_	_	33	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kk~20110826_59215__71626--1)
+35	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017456
+# text = - Men det som overrasker meg at folk stadig glemmer i omtalen av bøkene, er at boka inneholder hundrevis av sider om en tålmodig og omsorgsfull far.
+1	-	$-	PUNCT	_	_	19	punct	_	name=O
+2	Men	men	CCONJ	_	_	19	cc	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(kk~20110826_59215__T211--1
+4	som	som	PRON	_	PronType=Rel	5	nsubj	_	name=O
+5	overrasker	overraske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	name=O
+6	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	name=O|Entity=(kk~20110826_59215__71626--1)
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nsubj	_	name=O|Entity=(kk~20110826_59215__T213--1)
+9	stadig	stadig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+10	glemmer	glemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	csubj	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	omtalen	omtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(kk~20110826_59215__T214--1
+13	av	av	ADP	_	_	14	case	_	name=O
+14	bøkene	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__121926--1)kk~20110826_59215__T214)
+15	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=kk~20110826_59215__T211)
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+17	at	at	SCONJ	_	_	19	mark	_	name=O
+18	boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	19	nsubj	_	name=O|Entity=(kk~20110826_59215__2422--1)
+19	inneholder	inneholde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+20	hundrevis	hundrevis	NOUN	_	_	19	obj	_	name=O|Entity=(kk~20110826_59215__T217--1
+21	av	av	ADP	_	_	22	case	_	name=O
+22	sider	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	20	nmod	_	name=O|Entity=(kk~20110826_59215__T218--1
+23	om	om	ADP	_	_	28	case	_	name=O
+24	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	28	det	_	name=O|Entity=(kk~20110826_59215__T219--1
+25	tålmodig	tålmodig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	28	amod	_	name=O
+26	og	og	CCONJ	_	_	27	cc	_	name=O
+27	omsorgsfull	omsorgsfull	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	conj	_	name=O
+28	far	far	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T219)kk~20110826_59215__T218)kk~20110826_59215__T217)
+29	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# sent_id = 017457
+# text = Selv om han beskriver problemene og aggresjonen, er det som preger bøkene det kjedelige og grå hverdagslivet.
+1	Selv	selv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	4	mark	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(kk~20110826_59215__325865--1)
+4	beskriver	beskrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+5	problemene	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obj	_	name=O|Entity=(kk~20110826_59215__T221--1(kk~20110826_59215__T222--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	aggresjonen	aggresjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T223--1)kk~20110826_59215__T221)
+8	,	$,	PUNCT	_	_	4	punct	_	name=O
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	name=O|Entity=(kk~20110826_59215__T224--1
+11	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+12	preger	prege	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O
+13	bøkene	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	12	obj	_	name=O|Entity=(kk~20110826_59215__121926--1)kk~20110826_59215__T224)
+14	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(kk~20110826_59215__T226--1
+15	kjedelige	kjedelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	grå	grå	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	conj	_	name=O
+18	hverdagslivet	hverdagsliv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T226)
+19	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 017458
+# text = Men det er disse små utbruddene om den rasende attenhundretallsmannen i hans indre som alle husker, fordi slike slående formuleringer gjerne fester seg.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	disse	disse	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(kk~20110826_59215__T227--1
+5	små	liten	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	utbruddene	utbrudd	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	0	root	_	name=O
+7	om	om	ADP	_	_	10	case	_	name=O
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(kk~20110826_59215__T228--1
+9	rasende	rase	ADJ	_	VerbForm=Part	10	amod	_	name=O
+10	attenhundretallsmannen	attenhundretallsmann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O
+11	i	i	ADP	_	_	13	case	_	name=O
+12	hans	hans	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(kk~20110826_59215__T230--1(kk~20110826_59215__325865--1)
+13	indre	indre	ADJ	_	Degree=Cmp	10	amod	_	name=O|Entity=kk~20110826_59215__T230)kk~20110826_59215__T228)
+14	som	som	PRON	_	PronType=Rel	16	obj	_	name=O
+15	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	16	nsubj	_	name=O|Entity=(kk~20110826_59215__T231--1)
+16	husker	huske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:cleft	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T227)
+17	,	$,	PUNCT	_	_	23	punct	_	name=O
+18	fordi	fordi	SCONJ	_	_	23	mark	_	name=O
+19	slike	slik	DET	_	Number=Plur|PronType=Dem	21	det	_	name=O|Entity=(kk~20110826_59215__2553--1
+20	slående	slående	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	name=O
+21	formuleringer	formulering	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	23	nsubj	_	name=O|Entity=kk~20110826_59215__2553)
+22	gjerne	gjerne	ADV	_	_	23	advmod	_	name=O
+23	fester	feste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	name=O
+24	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	23	obj	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__2553--1)
+25	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017459
+# text = Hverven mener imidlertid en del av meningene som legges for dagen i «Min kamp» kan diskuteres.
+1	Hverven	Hverven	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110826_59215__71626--1)
+2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	imidlertid	imidlertid	ADV	_	_	2	advmod	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kk~20110826_59215__T234--1
+5	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nsubj:pass	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	meningene	mening	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	5	nmod	_	name=O|Entity=(kk~20110826_59215__T235--1
+8	som	som	PRON	_	PronType=Rel	9	nsubj:pass	_	name=O
+9	legges	legge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	acl:relcl	_	name=O
+10	for	for	ADP	_	_	11	case	_	name=O
+11	dagen	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(kk~20110826_59215__T236--1)
+12	i	i	ADP	_	_	14	case	_	name=O
+13	«	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__121926--1
+14	Min	Min	PROPN	_	_	9	obl	_	name=B-PROD
+15	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	flat:name	_	SpaceAfter=No|name=I-PROD
+16	»	$"	PUNCT	_	_	14	punct	_	name=O|Entity=kk~20110826_59215__121926)kk~20110826_59215__T235)kk~20110826_59215__T234)
+17	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	diskuteres	diskutere	VERB	_	VerbForm=Inf|Voice=Pass	2	ccomp	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017460
+# text = - Det er viktig å være klar over at Knausgårds verk også gir uttrykk for en del synspunkter som har vunnet fram i bred offentlighet.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	7	mark	_	name=O
+6	være	være	AUX	_	VerbForm=Inf	7	cop	_	name=O
+7	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	csubj	_	name=O
+8	over	over	SCONJ	_	_	13	mark	_	name=O
+9	at	at	SCONJ	_	_	13	mark	_	name=O
+10	Knausgårds	Knausgård	PROPN	_	Case=Gen	11	nmod	_	name=B-PER|Entity=(kk~20110826_59215__121926--1(kk~20110826_59215__325865--1)
+11	verk	verk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nsubj	_	name=O|Entity=kk~20110826_59215__121926)
+12	også	også	ADV	_	_	13	advmod	_	name=O
+13	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+14	uttrykk	uttrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	name=O|Entity=(kk~20110826_59215__T240--1)
+15	for	for	ADP	_	_	18	case	_	name=O
+16	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(kk~20110826_59215__T242--1(kk~20110826_59215__T241--1
+17	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=kk~20110826_59215__T241)
+18	synspunkter	synspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	name=O
+19	som	som	PRON	_	PronType=Rel	21	nsubj	_	name=O
+20	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+21	vunnet	vinne	VERB	_	VerbForm=Part	18	acl:relcl	_	name=O
+22	fram	fram	ADP	_	_	21	compound:prt	_	name=O
+23	i	i	ADP	_	_	25	case	_	name=O
+24	bred	bred	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O|Entity=(kk~20110826_59215__T243--1
+25	offentlighet	offentlighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T243)kk~20110826_59215__T242)
+26	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017461
+# text = Det viser seg for eksempel i kritikken av det politisk korrekte, selv om den er mye kraftigere rettet mot den svenske offentligheten.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110826_59215__2566--1)
+2	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	name=O|Entity=(kk~20110826_59215__2566--1)
+4	for	for	ADP	_	_	5	case	_	name=O
+5	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(kk~20110826_59215__T245--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	kritikken	kritikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(kk~20110826_59215__2494--1
+8	av	av	ADP	_	_	11	case	_	name=O
+9	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(kk~20110826_59215__T247--1
+10	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	korrekte	korrekt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T247)kk~20110826_59215__2494)
+12	,	$,	PUNCT	_	_	19	punct	_	name=O
+13	selv	selv	ADV	_	_	14	advmod	_	name=O
+14	om	om	SCONJ	_	_	19	mark	_	name=O
+15	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(kk~20110826_59215__2494--1)
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+17	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+18	kraftigere	kraftig	ADJ	_	Degree=Cmp	19	advmod	_	name=O
+19	rettet	rette	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	2	advcl	_	name=O
+20	mot	mot	ADP	_	_	23	case	_	name=O
+21	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	name=O|Entity=(kk~20110826_59215__T249--1
+22	svenske	svensk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	amod	_	name=O
+23	offentligheten	offentlighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T249)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017462
+# text = - Hvordan vil du forklare tittelen «Min kamp?
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Hvordan	hvordan	ADV	_	_	5	advmod	_	name=O
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	name=O|Entity=(kk~20110826_59215__71626--1)
+5	forklare	forklare	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	tittelen	tittel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=(kk~20110826_59215__41035--1
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T252--1
+8	Min	Min	NOUN	_	_	6	appos	_	name=B-PROD
+9	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=I-PROD|Entity=(kk~20110826_59215__T253--1)kk~20110826_59215__T252)kk~20110826_59215__41035)
+10	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017463
+# text = - Til nå har jeg lest det som et forsøk på å være litt frekk, fordi den tittelen på en måte var opptatt - ikke bare i den norske offentligheten men i den verdensvide offentligheten.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Til	til	ADP	_	_	3	case	_	name=O
+3	nå	nå	ADV	_	_	6	advmod	_	name=O
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(kk~20110826_59215__71626--1)
+6	lest	lese	VERB	_	VerbForm=Part	0	root	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	name=O|Entity=(kk~20110826_59215__41035--1)
+8	som	som	SCONJ	_	_	10	mark	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kk~20110826_59215__T256--1
+10	forsøk	forsøk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	xcomp	_	name=O
+11	på	på	ADP	_	_	15	case	_	name=O
+12	å	å	PART	_	_	15	mark	_	name=O
+13	være	være	AUX	_	VerbForm=Inf	15	cop	_	name=O
+14	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+15	frekk	frekk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	24	punct	_	name=O|Entity=kk~20110826_59215__T256)
+17	fordi	fordi	SCONJ	_	_	24	mark	_	name=O
+18	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(kk~20110826_59215__41035--1
+19	tittelen	tittel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	name=O|Entity=kk~20110826_59215__41035)
+20	på	på	ADP	_	_	22	case	_	name=O
+21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(kk~20110826_59215__T258--1
+22	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	name=O|Entity=kk~20110826_59215__T258)
+23	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	cop	_	name=O
+24	opptatt	opptatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	advcl	_	name=O
+25	-	$-	PUNCT	_	_	31	punct	_	name=O
+26	ikke	ikke	PART	_	Polarity=Neg	27	advmod	_	name=O
+27	bare	bare	ADV	_	_	31	advmod	_	name=O
+28	i	i	ADP	_	_	31	case	_	name=O
+29	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	name=O|Entity=(kk~20110826_59215__2463--1
+30	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	31	amod	_	name=O
+31	offentligheten	offentlighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	obl	_	name=O|Entity=kk~20110826_59215__2463)
+32	men	men	CCONJ	_	_	36	cc	_	name=O
+33	i	i	ADP	_	_	36	case	_	name=O
+34	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	36	det	_	name=O|Entity=(kk~20110826_59215__T260--1
+35	verdensvide	verdensvid	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	36	amod	_	name=O
+36	offentligheten	offentlighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T260)
+37	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017464
+# text = Man kan si at det handler om kampen om å skrive, kampen om å bli den en er.
+1	Man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110826_59215__T261--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	si	si	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(kk~20110826_59215__T262--1)
+6	handler	handle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	name=O
+7	om	om	ADP	_	_	8	case	_	name=O
+8	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(kk~20110826_59215__T263--1(kk~20110826_59215__T264--1
+9	om	om	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	skrive	skrive	VERB	_	VerbForm=Inf	8	acl	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=kk~20110826_59215__T264)
+13	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	name=O|Entity=(kk~20110826_59215__T265--1
+14	om	om	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	bli	bli	VERB	_	VerbForm=Inf	13	acl	_	name=O
+17	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	16	xcomp	_	name=O|Entity=(kk~20110826_59215__T266--1
+18	en	en	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	19	nsubj	_	name=O|Entity=(kk~20110826_59215__T267--1)
+19	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T266)kk~20110826_59215__T265)kk~20110826_59215__T263)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017465
+# text = - Samtidig tenker jeg det er noe av det utspekulerte i dette verket, at tittelen aldri er blitt forklart.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+3	tenker	tenke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110826_59215__71626--1)
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(kk~20110826_59215__T269[1/2]--1)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	3	ccomp	_	name=O
+8	av	av	ADP	_	_	10	case	_	name=O
+9	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(kk~20110826_59215__T270--1
+10	utspekulerte	utspekulert	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+11	i	i	ADP	_	_	13	case	_	name=O
+12	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(kk~20110826_59215__121926--1
+13	verket	verk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__121926)kk~20110826_59215__T270)
+14	,	$,	PUNCT	_	_	20	punct	_	name=O
+15	at	at	SCONJ	_	_	20	mark	_	name=O|Entity=(kk~20110826_59215__T269[2/2]--1
+16	tittelen	tittel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nsubj:pass	_	name=O|Entity=(kk~20110826_59215__41035--1)
+17	aldri	aldri	ADV	_	_	20	advmod	_	name=O
+18	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+19	blitt	bli	AUX	_	VerbForm=Part	20	aux:pass	_	name=O
+20	forklart	forklare	VERB	_	VerbForm=Part	5	acl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T269[2/2])
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017466
+# text = Det vi vet om det sjette bindet, kan tyde på at dette er gjort med overlegg.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(kk~20110826_59215__T273--1
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110826_59215__T274--1)
+3	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	om	om	ADP	_	_	7	case	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(kk~20110826_59215__111504--1
+6	sjette	sjette	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	bindet	bind	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__111504)
+8	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=kk~20110826_59215__T273)
+9	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	tyde	tyde	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	på	på	SCONJ	_	_	15	mark	_	name=O
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(kk~20110826_59215__T276--1)
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	gjort	gjøre	VERB	_	VerbForm=Part	10	advcl	_	name=O
+16	med	med	ADP	_	_	17	case	_	name=O
+17	overlegg	overlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T277--1)
+18	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 017467
+# text = 22. juli og Knausgård
+1	22.	22.	ADJ	_	Number=Plur	2	amod	_	name=B-EVT|Entity=(kk~20110826_59215__T278--1(kk~20110826_59215__T279--1
+2	juli	juli	NOUN	_	Gender=Masc	0	root	_	name=I-EVT|Entity=kk~20110826_59215__T279)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	Knausgård	Knausgård	PROPN	_	_	2	conj	_	name=B-PER|Entity=(kk~20110826_59215__325865--1)kk~20110826_59215__T278)
+
+# sent_id = 017468
+# text = Knausgårds forlagssjef Berdahl er tilbakeholden med å røpe noe av innholdet i «Min kamp 6».
+1	Knausgårds	Knausgård	PROPN	_	Case=Gen	2	nmod	_	name=B-PER|Entity=(kk~20110826_59215__61530--1(kk~20110826_59215__T282--1(kk~20110826_59215__325865--1)
+2	forlagssjef	forlagssjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=kk~20110826_59215__T282)
+3	Berdahl	Berdahl	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=kk~20110826_59215__61530)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	tilbakeholden	tilbakeholden	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	med	med	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	røpe	røpe	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+9	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	8	obj	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	innholdet	innhold	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(kk~20110826_59215__T284--1
+12	i	i	ADP	_	_	14	case	_	name=O
+13	«	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__111504--1
+14	Min	Min	PROPN	_	_	11	nmod	_	name=B-PROD
+15	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	flat:name	_	name=I-PROD
+16	6	6	NUM	_	Number=Plur|NumType=Card	14	flat:name	_	SpaceAfter=No|name=I-PROD
+17	»	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__111504)kk~20110826_59215__T284)
+18	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017469
+# text = - Har det hele tida vært Knausgårds plan å innlemme Hitlers tekst «Mein Kampf» i siste del av verket?
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+4	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(kk~20110826_59215__T286--1
+5	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obl	_	name=O|Entity=kk~20110826_59215__T286)
+6	vært	være	AUX	_	VerbForm=Part	8	cop	_	name=O
+7	Knausgårds	Knausgårds	PROPN	_	_	8	nmod	_	name=B-PER|Entity=(kk~20110826_59215__T288--1(kk~20110826_59215__325865--1)
+8	plan	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=kk~20110826_59215__T288)
+9	å	å	PART	_	_	10	mark	_	name=O
+10	innlemme	innlemme	VERB	_	VerbForm=Inf	8	csubj	_	name=O
+11	Hitlers	Hitler	PROPN	_	Case=Gen	12	nmod	_	name=B-PER|Entity=(kk~20110826_59215__191845--1(kk~20110826_59215__T290--1(kk~20110826_59215__9810--1)
+12	tekst	tekst	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	name=O|Entity=kk~20110826_59215__T290)
+13	«	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O
+14	Mein	Mein	PROPN	_	_	10	obj	_	name=B-PROD
+15	Kampf	Kampf	PROPN	_	_	14	flat:name	_	SpaceAfter=No|name=I-PROD
+16	»	$"	PUNCT	_	_	14	punct	_	name=O|Entity=kk~20110826_59215__191845)
+17	i	i	ADP	_	_	19	case	_	name=O
+18	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O|Entity=(kk~20110826_59215__111504--1
+19	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O
+20	av	av	ADP	_	_	21	case	_	name=O
+21	verket	verk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__121926--1)kk~20110826_59215__111504)
+22	?	$?	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 017470
+# text = - Nei, det tror jeg ikke.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Nei	nei	INTJ	_	_	5	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	name=O|Entity=(kk~20110826_59215__T294--1)
+5	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(kk~20110826_59215__61530--1)
+7	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017471
+# text = Jeg vet ikke.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110826_59215__61530--1)
+2	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017472
+# text = Ting har nok kommet etter hvert på en del av dette.
+1	Ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(kk~20110826_59215__T297--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	nok	nok	ADV	_	_	4	advmod	_	name=O
+4	kommet	komme	VERB	_	VerbForm=Part	0	root	_	name=O
+5	etter	etter	ADP	_	_	6	case	_	name=O
+6	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	4	obl	_	name=O
+7	på	på	ADP	_	_	9	case	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kk~20110826_59215__T298--1
+9	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__T299--1)kk~20110826_59215__T298)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017473
+# text = Men det er bare noe jeg tror.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(kk~20110826_59215__T300--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	bare	bare	ADV	_	_	5	advmod	_	name=O
+5	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	0	root	_	name=O|Entity=(kk~20110826_59215__T301--1
+6	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(kk~20110826_59215__61530--1)
+7	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No|name=O|Entity=kk~20110826_59215__T301)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017474
+# text = - Er hendelsene 22. juli skrevet inn i romanen?
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	hendelsene	hendelse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(kk~20110826_59215__T303--1
+4	22.	22.	ADJ	_	Number=Plur	5	amod	_	name=B-EVT|Entity=(kk~20110826_59215__T304--1
+5	juli	juli	NOUN	_	Gender=Masc	3	nmod	_	name=I-EVT|Entity=kk~20110826_59215__T304)kk~20110826_59215__T303)
+6	skrevet	skrive	VERB	_	VerbForm=Part	0	root	_	name=O
+7	inn	inn	ADP	_	_	9	case	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	romanen	roman	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110826_59215__111504--1)
+10	?	$?	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017475
+# text = - Nei, ikke så vidt jeg vet.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Nei	nei	INTJ	_	_	4	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	0	root	_	name=O
+5	så	så	ADV	_	_	6	advmod	_	name=O
+6	vidt	vid	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+7	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(kk~20110826_59215__61530--1)
+8	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017476
+# text = Men det kan hende at det vil vise seg noen berøringspunkter og at man kan trekke paralleller til gjerningsmannen Anders Behring Breivik.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	hende	hende	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	vise	vise	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+9	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	name=O
+10	noen	noen	DET	_	Number=Plur|PronType=Ind	11	det	_	name=O|Entity=(kk~20110826_59215__T307--1
+11	berøringspunkter	berøringspunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=kk~20110826_59215__T307)
+12	og	og	CCONJ	_	_	16	cc	_	name=O
+13	at	at	SCONJ	_	_	16	mark	_	name=O
+14	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	16	nsubj	_	name=O|Entity=(kk~20110826_59215__T308--1)
+15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	trekke	trekke	VERB	_	VerbForm=Inf	8	conj	_	name=O
+17	paralleller	parallell	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obj	_	name=O|Entity=(kk~20110826_59215__T309--1)
+18	til	til	ADP	_	_	20	case	_	name=O
+19	gjerningsmannen	gjerningsmann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	name=O|Entity=(kk~20110826_59215__61022--1
+20	Anders	Anders	PROPN	_	Gender=Masc	16	obl	_	name=B-PER
+21	Behring	Behring	PROPN	_	_	20	flat:name	_	name=I-PER
+22	Breivik	Breivik	PROPN	_	_	20	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kk~20110826_59215__61022)
+23	.	$.	PUNCT	_	_	4	punct	_	name=O
+

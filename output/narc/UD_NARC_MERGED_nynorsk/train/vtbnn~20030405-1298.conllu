@@ -1,0 +1,249 @@
+# newdoc id = vtbnn~20030405-1298
+# global.Entity = eid-etype-head-other
+# sent_id = 012196
+# text = - Må tenkje nytt i skogbruket
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	tenkje	tenkje	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	skogbruket	skogbruk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20030405_1298__347--1)
+
+# newpar
+# sent_id = 012197
+# text = Lars Veum har fått skogprisen i Fyresdal for engasjementet sitt i næringa.
+1	Lars	Lars	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(vtbnn~20030405_1298__7177--1
+2	Veum	Veum	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20030405_1298__7177)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+5	skogprisen	skogpris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(vtbnn~20030405_1298__T3--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Fyresdal	Fyresdal	PROPN	_	_	4	obl	_	name=B-GPE_LOC|Entity=(vtbnn~20030405_1298__T4--1)
+8	for	for	ADP	_	_	9	case	_	name=O
+9	engasjementet	engasjement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(vtbnn~20030405_1298__T5--1
+10	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(vtbnn~20030405_1298__7177--1)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	næringa	næring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030405_1298__347--1)vtbnn~20030405_1298__T5)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012198
+# text = Som fleirårig styreleiar i nedlagte Nidarå Tømmersalslag ser han tilbake på åra då organisasjonen blei tatt på senga av ei omstilling som måtte kome.
+1	Som	som	SCONJ	_	_	3	mark	_	name=O
+2	fleirårig	fleirårig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=(vtbnn~20030405_1298__T8--1
+3	styreleiar	styreleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	acl	_	name=O
+4	i	i	ADP	_	_	6	case	_	name=O
+5	nedlagte	nedlagt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(vtbnn~20030405_1298__5108--1
+6	Nidarå	Nidarå	PROPN	_	_	3	nmod	_	name=B-ORG
+7	Tømmersalslag	Tømmersalslag	PROPN	_	_	6	flat:name	_	name=I-ORG|Entity=vtbnn~20030405_1298__5108)vtbnn~20030405_1298__T8)
+8	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(vtbnn~20030405_1298__7177--1)
+10	tilbake	tilbake	ADP	_	_	12	case	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	åra	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	obl	_	name=O|Entity=(vtbnn~20030405_1298__T11--1
+13	då	då	ADV	_	_	15	advmod	_	name=O
+14	organisasjonen	organisasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(vtbnn~20030405_1298__5108--1)
+15	blei	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	name=O
+16	tatt	ta	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	15	xcomp	_	name=O
+17	på	på	ADP	_	_	18	case	_	name=O
+18	senga	seng	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	16	obl	_	name=O|Entity=(vtbnn~20030405_1298__T13--1)
+19	av	av	ADP	_	_	21	case	_	name=O
+20	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(vtbnn~20030405_1298__243--1
+21	omstilling	omstilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	name=O
+22	som	som	PRON	_	PronType=Rel	24	nsubj	_	name=O
+23	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	name=O
+24	kome	kome	VERB	_	VerbForm=Inf	21	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20030405_1298__243)vtbnn~20030405_1298__T11)
+25	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012199
+# text = - Det er eit trasigt faktum at skogeigarar som råvareleverandørar i årevis har opplevd fallande netto.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20030405_1298__T15--1
+5	trasigt	trasig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O
+6	faktum	faktum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=vtbnn~20030405_1298__T15)
+7	at	at	SCONJ	_	_	14	mark	_	name=O
+8	skogeigarar	skogeigar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	name=O|Entity=(vtbnn~20030405_1298__371--1)
+9	som	som	SCONJ	_	_	10	mark	_	name=O
+10	råvareleverandørar	råvareleverandør	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	acl	_	name=O|Entity=(vtbnn~20030405_1298__T17--1)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	årevis	årevis	ADV	_	_	14	advmod	_	name=O
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	opplevd	oppleve	VERB	_	VerbForm=Part	6	csubj	_	name=O
+15	fallande	fallande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	name=O|Entity=(vtbnn~20030405_1298__T18--1
+16	netto	netto	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20030405_1298__T18)
+17	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012200
+# text = Foredlarnettet har teke gevinstane.
+1	Foredlarnettet	foredlarnett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20030405_1298__T19--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	teke	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+4	gevinstane	gevinst	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No|name=O|Bridge=vtbnn~20030405_1298__347<vtbnn~20030405_1298__T20:default|Entity=(vtbnn~20030405_1298__T20--1)
+5	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012201
+# text = Me skogeigarar har dei siste 10-20 åra vore for passive leverandørar, og blitt styrt av internasjonale marknadskrefter.
+1	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(vtbnn~20030405_1298__T21--1
+2	skogeigarar	skogeigar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	appos	_	name=O|Entity=vtbnn~20030405_1298__T21)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+4	dei	dei	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(vtbnn~20030405_1298__T22--1
+5	siste	sist	ADJ	_	Degree=Pos|Number=Plur	6	advmod	_	name=O
+6	10	10	NUM	_	Number=Plur|NumType=Card	9	nummod	_	SpaceAfter=No|name=O
+7	-	$-	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O
+8	20	20	NUM	_	Number=Plur|NumType=Card	6	conj	_	name=O
+9	åra	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	13	obl	_	name=O|Entity=vtbnn~20030405_1298__T22)
+10	vore	vere	AUX	_	VerbForm=Part	13	cop	_	name=O
+11	for	for	ADP	_	_	12	obl	_	name=O|Entity=(vtbnn~20030405_1298__T23--1
+12	passive	passiv	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	leverandørar	leverandør	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=vtbnn~20030405_1298__T23)
+14	,	$,	PUNCT	_	_	17	punct	_	name=O
+15	og	og	CCONJ	_	_	17	cc	_	name=O
+16	blitt	bli	AUX	_	VerbForm=Part	17	aux:pass	_	name=O
+17	styrt	styre	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	13	conj	_	name=O
+18	av	av	ADP	_	_	20	case	_	name=O
+19	internasjonale	internasjonal	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(vtbnn~20030405_1298__T24--1
+20	marknadskrefter	marknadskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20030405_1298__T24)
+21	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 012202
+# text = Skogeigarane har ikkje vore flinke nok.
+1	Skogeigarane	skogeigar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=(vtbnn~20030405_1298__371--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+4	vore	vere	AUX	_	VerbForm=Part	5	cop	_	name=O
+5	flinke	flink	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	nok	nok	ADV	_	_	5	advmod	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012203
+# text = Dessutan er det rett å seie at organisasjonen Nidarå blei tatt litt på senga.
+1	Dessutan	dessutan	ADV	_	_	4	advmod	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	seie	seie	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	organisasjonen	organisasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(vtbnn~20030405_1298__5108--1
+9	Nidarå	Nidarå	PROPN	_	_	10	nsubj	_	name=B-ORG|Entity=vtbnn~20030405_1298__5108)
+10	blei	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	ccomp	_	name=O
+11	tatt	ta	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	10	xcomp	_	name=O
+12	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+13	på	på	ADP	_	_	14	case	_	name=O
+14	senga	seng	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030405_1298__T27--1)
+15	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012204
+# text = Me reagerte ikkje raskt nok på omstillingane som måtte kome.
+1	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030405_1298__5108--1)
+2	reagerte	reagere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+5	nok	nok	ADV	_	_	4	advmod	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	omstillingane	omstilling	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	2	obl	_	name=O|Entity=(vtbnn~20030405_1298__243--1
+8	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+9	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+10	kome	kome	VERB	_	VerbForm=Inf	7	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20030405_1298__243)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012205
+# text = Skogeigarane sat att som taparane, vedkjenner den siste styreleiaren i Nidarå.
+1	Skogeigarane	skogeigar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(vtbnn~20030405_1298__371--1)
+2	sat	sitje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	att	att	ADP	_	_	2	compound:prt	_	name=O
+4	som	som	SCONJ	_	_	5	mark	_	name=O
+5	taparane	tapar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	acl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030405_1298__T31--1)
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	vedkjenner	vedkjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(vtbnn~20030405_1298__7177--1
+9	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	styreleiaren	styreleiar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Nidarå	Nidarå	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20030405_1298__5108--1)vtbnn~20030405_1298__7177)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012206
+# text = Nå ynskjer han generasjonsskifte for å gje sjansen til unge som har evner til å tenkje nytt i skogbruket.
+1	Nå	nå	ADV	_	_	2	advmod	_	name=O
+2	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030405_1298__7177--1)
+4	generasjonsskifte	generasjonsskifte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O|Entity=(vtbnn~20030405_1298__T35--1)
+5	for	for	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	gje	gje	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+8	sjansen	sjanse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(vtbnn~20030405_1298__T36--1)
+9	til	til	ADP	_	_	10	case	_	name=O
+10	unge	ung	ADJ	_	Degree=Pos|Number=Plur	7	advmod	_	name=O|Entity=(vtbnn~20030405_1298__T37--1
+11	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+12	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O
+13	evner	evne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	name=O|Entity=(vtbnn~20030405_1298__T38--1
+14	til	til	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	tenkje	tenkje	VERB	_	VerbForm=Inf	13	acl	_	name=O
+17	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	skogbruket	skogbruk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030405_1298__347--1)vtbnn~20030405_1298__T38)vtbnn~20030405_1298__T37)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012207
+# text = - Det er ikkje moglegheitene det manglar på, men evnene til å utnytte dei.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	moglegheitene	moglegheit	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	0	root	_	name=O|Entity=(vtbnn~20030405_1298__T40--1(vtbnn~20030405_1298__T41--1(vtbnn~20030405_1298__295--1)
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+7	manglar	mangle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:cleft	_	name=O
+8	på	på	ADP	_	_	7	compound:prt	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=vtbnn~20030405_1298__T41)
+10	men	men	CCONJ	_	_	11	cc	_	name=O
+11	evnene	evne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	5	conj	_	name=O|Entity=(vtbnn~20030405_1298__T42--1
+12	til	til	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	utnytte	utnytte	VERB	_	VerbForm=Inf	11	acl	_	name=O
+15	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030405_1298__295--1)vtbnn~20030405_1298__T42)vtbnn~20030405_1298__T40)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012208
+# text = Derfor er det viktig å få generasjonsskifte, seier Lars.
+1	Derfor	derfor	ADV	_	_	4	advmod	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	få	få	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+7	generasjonsskifte	generasjonsskifte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030405_1298__T44--1)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+10	Lars	Lars	NOUN	_	Gender=Masc	9	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20030405_1298__7177--1)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012209
+# text = - Det er ikkje generasjonen min som kan redde bygdene, men ein ung generasjon som maktar å tenkje på ny måte.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	generasjonen	generasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20030405_1298__T46--1(vtbnn~20030405_1298__T47--1
+6	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(vtbnn~20030405_1298__7177--1)
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	redde	redde	VERB	_	VerbForm=Inf	5	acl:cleft	_	name=O
+10	bygdene	bygd	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030405_1298__T49--1)
+11	,	$,	PUNCT	_	_	15	punct	_	name=O|Entity=vtbnn~20030405_1298__T47)
+12	men	men	CCONJ	_	_	15	cc	_	name=O
+13	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(vtbnn~20030405_1298__T50--1
+14	ung	ung	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	generasjon	generasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O
+16	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+17	maktar	makte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	tenkje	tenkje	VERB	_	VerbForm=Inf	17	xcomp	_	name=O
+20	på	på	ADP	_	_	22	case	_	name=O
+21	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O|Entity=(vtbnn~20030405_1298__T51--1
+22	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20030405_1298__T51)vtbnn~20030405_1298__T50)vtbnn~20030405_1298__T46)
+23	.	$.	PUNCT	_	_	5	punct	_	name=O
+

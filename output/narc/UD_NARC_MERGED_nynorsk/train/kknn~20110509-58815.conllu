@@ -1,0 +1,766 @@
+# newdoc id = kknn~20110509-58815
+# global.Entity = eid-etype-head-other
+# sent_id = 009768
+# text = Vil hente jagarflya heim
+1	Vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	name=O
+2	hente	hente	VERB	_	VerbForm=Inf	0	root	_	name=O
+3	jagarflya	jagarfly	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(kknn~20110509_58815__T1--1)
+4	heim	heim	ADP	_	_	2	compound:prt	_	name=O
+
+# newpar
+# sent_id = 009769
+# text = Vil heim:
+1	Vil	vilje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	heim	heim	ADP	_	_	1	compound:prt	_	SpaceAfter=No|name=O
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 009770
+# text = Regjeringa vil trappe ned Libya-innsatsen og kalle fly heim.
+1	Regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(kknn~20110509_58815__5248--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	trappe	trappe	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	ned	ned	ADP	_	_	3	compound:prt	_	name=O
+5	Libya-innsatsen	Libya-innsats	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=B-DRV|Entity=(kknn~20110509_58815__242--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	kalle	kalle	VERB	_	VerbForm=Inf	3	conj	_	name=O
+8	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obj	_	name=O|Entity=(kknn~20110509_58815__T4--1)
+9	heim	heim	ADP	_	_	7	compound:prt	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009771
+# text = Forsvarsdepartementet er redd det vert for få fly att til å forsvare Nord-Noreg.
+1	Forsvarsdepartementet	Forsvarsdepartementet	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(kknn~20110509_58815__4445--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	redd	redd	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+6	for	for	ADV	_	_	7	advmod	_	name=O|Entity=(kknn~20110509_58815__T6[1/2]--1
+7	få	få	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	xcomp	_	name=O|Entity=kknn~20110509_58815__T6[1/2])
+9	att	att	ADP	_	_	5	compound:prt	_	name=O
+10	til	til	SCONJ	_	_	12	mark	_	name=O|Entity=(kknn~20110509_58815__T6[2/2]--1
+11	å	å	PART	_	_	12	mark	_	name=O
+12	forsvare	forsvare	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+13	Nord-Noreg	Nord-Noreg	PROPN	_	_	12	obj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20110509_58815__2131--1)kknn~20110509_58815__T6[2/2])
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 009772
+# text = På hell:
+1	På	på	ADP	_	_	2	case	_	name=O
+2	hell	hell	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T8--1)
+3	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009773
+# text = Statsminister Jens Stoltenberg, her på vitjing på Bodø Hovudflystasjon, leiar ei regjering som vil trappe ned bombinga av Libya.
+1	Statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(kknn~20110509_58815__2181--1
+2	Jens	Jens	NOUN	_	Gender=Masc	12	nsubj	_	name=B-PER
+3	Stoltenberg	Stoltenberg	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kknn~20110509_58815__2181)
+4	,	$,	PUNCT	_	_	2	punct	_	name=O
+5	her	her	ADV	_	_	7	advmod	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	vitjing	vitjing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	name=O|Entity=(kknn~20110509_58815__T10--1
+8	på	på	ADP	_	_	9	case	_	name=O
+9	Bodø	Bodø	PROPN	_	_	7	nmod	_	name=B-LOC|Entity=(kknn~20110509_58815__T11--1
+10	Hovudflystasjon	Hovudflystasjon	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=kknn~20110509_58815__T11)kknn~20110509_58815__T10)
+11	,	$,	PUNCT	_	_	7	punct	_	name=O
+12	leiar	leie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(kknn~20110509_58815__T12--1
+14	regjering	regjering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	name=O
+15	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+16	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	trappe	trappe	VERB	_	VerbForm=Inf	14	acl:relcl	_	name=O
+18	ned	ned	ADP	_	_	17	compound:prt	_	name=O
+19	bombinga	bombing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	17	obj	_	name=O|Entity=(kknn~20110509_58815__3105--1
+20	av	av	ADP	_	_	21	case	_	name=O
+21	Libya	Libya	PROPN	_	_	19	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20110509_58815__6619--1)kknn~20110509_58815__3105)kknn~20110509_58815__T12)
+22	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 009774
+# text = SV står ikkje aleine.
+1	SV	SV	NOUN	_	Abbr=Yes	2	nsubj	_	name=B-ORG|Entity=(kknn~20110509_58815__3217--1)
+2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	aleine	aleine	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009775
+# text = Foto: Jan-Morten Bjørnbakk, Scanpix
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T16--1
+2	:	$:	PUNCT	_	_	3	punct	_	name=O
+3	Jan-Morten	Jan-Morten	PROPN	_	_	1	parataxis	_	name=B-PER|Entity=(kknn~20110509_58815__T17--1
+4	Bjørnbakk	Bjørnbakk	PROPN	_	_	3	flat:name	_	SpaceAfter=No|name=I-PER
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	Scanpix	Scanpix	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(kknn~20110509_58815__T18--1)kknn~20110509_58815__T17)kknn~20110509_58815__T16)
+
+# newpar
+# sent_id = 009776
+# text = SVs landsstyre vedtok laurdag at norske fly skal vere ute av Libya innan 31. juni.
+1	SVs	SV	NOUN	_	Abbr=Yes|Case=Gen	2	nmod	_	name=B-ORG|Entity=(kknn~20110509_58815__T20--1(kknn~20110509_58815__3217--1)
+2	landsstyre	landsstyre	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=kknn~20110509_58815__T20)
+3	vedtok	vedta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	laurdag	laurdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kknn~20110509_58815__T21--1)
+5	at	at	SCONJ	_	_	12	mark	_	name=O
+6	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(kknn~20110509_58815__T22--1
+7	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	nsubj	_	name=O|Entity=kknn~20110509_58815__T22)
+8	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+9	vere	vere	AUX	_	VerbForm=Inf	12	cop	_	name=O
+10	ute	ute	SCONJ	_	_	12	mark	_	name=O
+11	av	av	SCONJ	_	_	12	mark	_	name=O
+12	Libya	Libya	PROPN	_	_	3	ccomp	_	name=B-GPE_LOC|Entity=(kknn~20110509_58815__6619--1)
+13	innan	innan	ADP	_	_	15	case	_	name=O
+14	31.	31.	ADJ	_	Number=Plur	15	amod	_	name=O|Entity=(kknn~20110509_58815__T24--1
+15	juni	juni	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__T24)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009777
+# text = «SV aleine om kampfly-nei» var overskrifta i Aftenposten - Ap og Senterpartiet ville ikkje gå god for dødlinja.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T25--1
+2	SV	SV	NOUN	_	Abbr=Yes	8	nsubj	_	name=B-ORG|Entity=(kknn~20110509_58815__3217--1)
+3	aleine	aleine	ADV	_	_	2	advmod	_	name=O
+4	om	om	ADP	_	_	5	case	_	name=O
+5	kampfly-nei	kampfly-nei	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T26--1)
+6	»	$"	PUNCT	_	_	2	punct	_	name=O|Entity=kknn~20110509_58815__T25)
+7	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+8	overskrifta	overskrift	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(kknn~20110509_58815__T27--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Aftenposten	Aftenposten	NOUN	_	Gender=Masc	8	nmod	_	name=B-PROD|Entity=(kknn~20110509_58815__T28--1)kknn~20110509_58815__T27)
+11	-	$-	PUNCT	_	_	17	punct	_	name=O
+12	Ap	Ap	NOUN	_	Abbr=Yes	17	nsubj	_	name=B-ORG|Entity=(kknn~20110509_58815__T29--1(kknn~20110509_58815__T30--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	Senterpartiet	Senterpartiet	NOUN	_	Gender=Neut	12	conj	_	name=B-ORG|Entity=(kknn~20110509_58815__284--1)kknn~20110509_58815__T29)
+15	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	name=O
+16	ikkje	ikkje	PART	_	Polarity=Neg	17	advmod	_	name=O
+17	gå	gå	VERB	_	VerbForm=Inf	8	conj	_	name=O
+18	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	advmod	_	name=O
+19	for	for	ADP	_	_	20	case	_	name=O
+20	dødlinja	dødlinje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T32--1)
+21	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 009778
+# text = Internt i regjeringa er situasjonen annleis:
+1	Internt	intern	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	obl	_	name=O|Entity=(kknn~20110509_58815__5248--1)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20110509_58815__T34--1)
+6	annleis	annleis	ADV	_	_	0	root	_	SpaceAfter=No|name=O
+7	:	$:	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009779
+# text = Entusiasmen for bombinga er dalande i alle tre parti, og regjeringa ønskjer å trappe ned den norske innsatsen og trekkje fly heim, om ikkje alle.
+1	Entusiasmen	entusiasme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(kknn~20110509_58815__T35--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	bombinga	bombing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=(kknn~20110509_58815__3105--1)kknn~20110509_58815__T35)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	dalande	dale	ADJ	_	VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	9	case	_	name=O
+7	alle	all	DET	_	Number=Plur|PronType=Tot	9	det	_	name=O|SplitAnte=kknn~20110509_58815__T30<kknn~20110509_58815__3131,kknn~20110509_58815__284<kknn~20110509_58815__3131,kknn~20110509_58815__3217<kknn~20110509_58815__3131|Entity=(kknn~20110509_58815__3131--1
+8	tre	tre	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O
+9	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__3131)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	name=O|Entity=(kknn~20110509_58815__5248--1)
+13	ønskjer	ønskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	trappe	trappe	VERB	_	VerbForm=Inf	13	xcomp	_	name=O
+16	ned	ned	ADP	_	_	15	compound:prt	_	name=O
+17	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(kknn~20110509_58815__242--1
+18	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	innsatsen	innsats	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=kknn~20110509_58815__242)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	trekkje	trekkje	VERB	_	VerbForm=Inf	15	conj	_	name=O
+22	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	21	obj	_	name=O|Entity=(kknn~20110509_58815__T40--1)
+23	heim	heim	ADP	_	_	21	compound:prt	_	SpaceAfter=No|name=O
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	om	om	SCONJ	_	_	21	obl	_	name=O
+26	ikkje	ikkje	PART	_	Polarity=Neg	25	advmod	_	name=O
+27	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	25	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T41--1)
+28	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009780
+# text = Det fortel kjelder høgt oppe i alle dei raudgrøne partia og i regjeringsapparatet til Klassekampen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(kknn~20110509_58815__T42--1)
+2	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	kjelder	kjelde	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	nsubj	_	name=O|Entity=(kknn~20110509_58815__T43--1)
+4	høgt	høg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+5	oppe	oppe	ADP	_	_	10	case	_	name=O
+6	i	i	ADP	_	_	10	case	_	name=O
+7	alle	all	DET	_	Number=Plur|PronType=Tot	10	det	_	name=O|Entity=(kknn~20110509_58815__3131--1
+8	dei	dei	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O
+9	raudgrøne	raudgrøn	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O
+10	partia	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	obl	_	name=O|Entity=kknn~20110509_58815__3131)
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	regjeringsapparatet	regjeringsapparat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	conj	_	name=O|Entity=(kknn~20110509_58815__2152--1)
+14	til	til	ADP	_	_	15	case	_	name=O
+15	Klassekampen	Klassekampen	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20110509_58815__4413--1)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009781
+# text = Usemja går på når alle norske fly skal vere ute.
+1	Usemja	usemje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	name=O|Entity=(kknn~20110509_58815__T47--1)
+2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	på	på	SCONJ	_	_	10	mark	_	name=O
+4	når	når	ADV	_	_	10	advmod	_	name=O
+5	alle	all	DET	_	Number=Plur|PronType=Tot	7	det	_	name=O|Entity=(kknn~20110509_58815__2111--1
+6	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nsubj	_	name=O|Entity=kknn~20110509_58815__2111)
+8	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	vere	vere	AUX	_	VerbForm=Inf	10	cop	_	name=O
+10	ute	ute	ADP	_	_	2	advcl	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009782
+# text = - Intensjonen er nokså lik mellom regjeringspartia, seier Trygve Slagsvold Vedum, parlamentarisk leiar i Senterpartiet.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Intensjonen	intensjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(kknn~20110509_58815__T49--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	nokså	nokså	ADV	_	_	5	advmod	_	name=O
+5	lik	lik	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	mellom	mellom	ADP	_	_	7	case	_	name=O
+7	regjeringspartia	regjeringsparti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__3131--1)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+10	Trygve	Trygve	NOUN	_	Gender=Masc	9	nsubj	_	name=B-PER|Entity=(kknn~20110509_58815__T51--1
+11	Slagsvold	Slagsvold	PROPN	_	_	10	flat:name	_	name=I-PER
+12	Vedum	Vedum	PROPN	_	_	10	flat:name	_	SpaceAfter=No|name=I-PER
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	parlamentarisk	parlamentarisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(kknn~20110509_58815__T52--1
+15	leiar	leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	appos	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Senterpartiet	Senterpartiet	NOUN	_	Gender=Neut	15	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20110509_58815__284--1)kknn~20110509_58815__T52)kknn~20110509_58815__T51)
+18	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009783
+# text = Lei av å aksle tyngste børa
+1	Lei	lei	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+2	av	av	SCONJ	_	_	4	mark	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	aksle	aksle	VERB	_	VerbForm=Inf	1	advcl	_	name=O
+5	tyngste	tung	ADJ	_	Definite=Def|Degree=Sup	6	amod	_	name=O|Entity=(kknn~20110509_58815__T54--1
+6	børa	bør	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=kknn~20110509_58815__T54)
+
+# sent_id = 009784
+# text = Lysten til å trappe ned bombinga har to utspring:
+1	Lysten	lyst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(kknn~20110509_58815__T55--1
+2	til	til	SCONJ	_	_	4	mark	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	trappe	trappe	VERB	_	VerbForm=Inf	1	acl	_	name=O
+5	ned	ned	ADP	_	_	4	compound:prt	_	name=O
+6	bombinga	bombing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=(kknn~20110509_58815__3105--1)kknn~20110509_58815__T55)
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	to	to	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(kknn~20110509_58815__T57--1
+9	utspring	utspring	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__T57)
+10	:	$:	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 009785
+# text = For det første er regjeringa lei av at Noreg tek på seg så mange flygingar og andre Nato-land så få.
+1	For	for	ADP	_	_	3	case	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kknn~20110509_58815__T58--1
+3	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	advmod	_	name=O|Entity=kknn~20110509_58815__T58)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20110509_58815__5248--1)
+6	lei	lei	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+7	av	av	SCONJ	_	_	10	mark	_	name=O
+8	at	at	SCONJ	_	_	10	mark	_	name=O
+9	Noreg	Noreg	PROPN	_	_	10	nsubj	_	name=B-GPE_ORG|Entity=(kknn~20110509_58815__131649--1)
+10	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	10	obl	_	name=O|Entity=(kknn~20110509_58815__131649--1)
+13	så	så	ADV	_	_	14	advmod	_	name=O|Entity=(kknn~20110509_58815__T61--1
+14	mange	mange	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	flygingar	flyging	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	name=O|Entity=kknn~20110509_58815__T61)
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	andre	annan	DET	_	Number=Plur|PronType=Dem	18	det	_	name=O|Entity=(kknn~20110509_58815__T62--1
+18	Nato-land	Nato-land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	conj	_	name=B-DRV
+19	så	så	ADV	_	_	20	advmod	_	name=O
+20	få	få	ADJ	_	Degree=Pos|Number=Plur	18	orphan	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__T62)
+21	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009786
+# text = Dei seks F16-flya Noreg har sendt, har flydd over 15 prosent av bomberaida, eit enormt tal i og med at USA, Storbritannia og Frankrike har så mykje større flyvåpen.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(kknn~20110509_58815__2111--1
+2	seks	seks	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O
+3	F16-flya	F16-fly	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	nsubj	_	name=B-DRV
+4	Noreg	Noreg	PROPN	_	_	6	nsubj	_	name=B-GPE_ORG|Entity=(kknn~20110509_58815__131649--1)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	sendt	sende	VERB	_	VerbForm=Part	3	acl:relcl	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__2111)
+7	,	$,	PUNCT	_	_	3	punct	_	name=O
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	flydd	fly	VERB	_	VerbForm=Part	0	root	_	name=O
+10	over	over	ADP	_	_	11	case	_	name=O|Entity=(kknn~20110509_58815__T65--1
+11	15	15	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O
+12	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	bomberaida	bomberaid	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T66--1)
+15	,	$,	PUNCT	_	_	18	punct	_	name=O
+16	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(kknn~20110509_58815__T67--1
+17	enormt	enorm	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	name=O
+18	tal	tal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	appos	_	name=O
+19	i	i	ADP	_	_	18	nmod	_	name=O
+20	og	og	CCONJ	_	_	28	cc	_	name=O
+21	med	med	ADP	_	_	28	case	_	name=O
+22	at	at	SCONJ	_	_	28	mark	_	name=O
+23	USA	USA	NOUN	_	Abbr=Yes	28	nsubj	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(kknn~20110509_58815__T68--1(kknn~20110509_58815__T69--1
+24	,	$,	PUNCT	_	_	25	punct	_	name=O|Entity=kknn~20110509_58815__T69)
+25	Storbritannia	Storbritannia	PROPN	_	_	23	conj	_	name=B-GPE_ORG|Entity=(kknn~20110509_58815__T70--1)
+26	og	og	CCONJ	_	_	27	cc	_	name=O
+27	Frankrike	Frankrike	PROPN	_	_	23	conj	_	name=B-GPE_ORG|Entity=(kknn~20110509_58815__T71--1)kknn~20110509_58815__T68)
+28	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	conj	_	name=O
+29	så	så	ADV	_	_	30	advmod	_	name=O|Entity=(kknn~20110509_58815__T72--1
+30	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	31	advmod	_	name=O
+31	større	stor	ADJ	_	Degree=Cmp	32	amod	_	name=O
+32	flyvåpen	flyvåpen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	28	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__T72)kknn~20110509_58815__T67)kknn~20110509_58815__T65)
+33	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 009787
+# text = Meldinga frå kjelder i Utanriksdepartementet (UD) er at «byrda må verte jamnare fordelt».
+1	Meldinga	melding	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	16	nsubj:pass	_	name=O|Entity=(kknn~20110509_58815__T73--1
+2	frå	frå	ADP	_	_	3	case	_	name=O
+3	kjelder	kjelde	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	name=O|Entity=(kknn~20110509_58815__T74--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Utanriksdepartementet	Utanriksdepartementet	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(kknn~20110509_58815__3347--1
+6	(	$(	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T76--1
+7	UD	UD	PROPN	_	_	5	appos	_	SpaceAfter=No|name=B-ORG
+8	)	$)	PUNCT	_	_	7	punct	_	name=O|Entity=kknn~20110509_58815__T76)kknn~20110509_58815__3347)kknn~20110509_58815__T74)kknn~20110509_58815__T73)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+10	at	at	SCONJ	_	_	16	mark	_	name=O
+11	«	$"	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O
+12	byrda	byrde	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	16	nsubj:pass	_	name=O|Entity=(kknn~20110509_58815__T77--1)
+13	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+14	verte	verte	AUX	_	VerbForm=Inf	16	aux:pass	_	name=O
+15	jamnare	jamn	ADJ	_	Degree=Cmp	16	advmod	_	name=O
+16	fordelt	fordele	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+17	»	$"	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 009788
+# text = Dette skal verte eit sentralt emne for Noreg når den opphavlege Nato-operasjonen er slutt 31. juni og medlemslanda skal forhandle om bidraga til ein ny operasjon.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20110509_58815__T78--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	verte	verte	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kknn~20110509_58815__T79--1
+5	sentralt	sentral	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O
+6	emne	emne	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	xcomp	_	name=O
+7	for	for	ADP	_	_	8	case	_	name=O
+8	Noreg	Noreg	PROPN	_	_	6	nmod	_	name=B-GPE_ORG|Entity=(kknn~20110509_58815__131649--1)kknn~20110509_58815__T79)
+9	når	når	SCONJ	_	_	14	mark	_	name=O
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(kknn~20110509_58815__T81--1
+11	opphavlege	opphavleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	Nato-operasjonen	Nato-operasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	name=B-DRV|Entity=kknn~20110509_58815__T81)
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	slutt	slutt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advcl	_	name=O
+15	31.	31.	ADJ	_	Number=Plur	16	amod	_	name=O|Entity=(kknn~20110509_58815__T82--1
+16	juni	juni	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=kknn~20110509_58815__T82)
+17	og	og	CCONJ	_	_	20	cc	_	name=O
+18	medlemslanda	medlemsland	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	20	nsubj	_	name=O|Entity=(kknn~20110509_58815__T83--1)
+19	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+20	forhandle	forhandle	VERB	_	VerbForm=Inf	14	conj	_	name=O
+21	om	om	ADP	_	_	22	case	_	name=O
+22	bidraga	bidrag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	20	obl	_	name=O|Entity=(kknn~20110509_58815__T84--1
+23	til	til	ADP	_	_	26	case	_	name=O
+24	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(kknn~20110509_58815__T85--1
+25	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	operasjon	operasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__T85)kknn~20110509_58815__T84)
+27	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009789
+# text = Ei kjelde hevdar somme Nato-land er uvillige til å sende fly av di dei følar Nato bryt FN-mandatet om å berre verne sivile, ikkje drepe Gaddafi.
+1	Ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(kknn~20110509_58815__T86--1
+2	kjelde	kjelde	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=kknn~20110509_58815__T86)
+3	hevdar	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	somme	somt	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(kknn~20110509_58815__2176--1
+5	Nato-land	Nato-land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nsubj	_	name=B-DRV|Entity=kknn~20110509_58815__2176)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	uvillige	uvillig	ADJ	_	Degree=Pos|Number=Plur	3	ccomp	_	name=O
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	sende	sende	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+11	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	name=O|Entity=(kknn~20110509_58815__T88--1)
+12	av	av	SCONJ	_	_	15	mark	_	name=O
+13	di	di	SCONJ	_	_	15	mark	_	name=O
+14	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(kknn~20110509_58815__2176--1)
+15	følar	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+16	Nato	NATO	NOUN	_	Abbr=Yes	17	nsubj	_	name=B-ORG|Entity=(kknn~20110509_58815__2222--1)
+17	bryt	bryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	ccomp	_	name=O
+18	FN-mandatet	FN-mandat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	obj	_	name=B-DRV|Entity=(kknn~20110509_58815__2201--1
+19	om	om	SCONJ	_	_	22	mark	_	name=O
+20	å	å	PART	_	_	22	mark	_	name=O
+21	berre	berre	ADV	_	_	22	advmod	_	name=O
+22	verne	verne	VERB	_	VerbForm=Inf	18	acl	_	name=O
+23	sivile	sivil	ADJ	_	Degree=Pos|Number=Plur	22	obj	_	SpaceAfter=No|name=O
+24	,	$,	PUNCT	_	_	26	punct	_	name=O
+25	ikkje	ikkje	PART	_	Polarity=Neg	26	advmod	_	name=O
+26	drepe	drepe	VERB	_	VerbForm=Inf	22	conj	_	name=O
+27	Gaddafi	Gaddafi	PROPN	_	_	26	obj	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20110509_58815__2188--1)kknn~20110509_58815__2201)
+28	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009790
+# text = Førre helg bomba Nato-styrkar huset til Gaddafis son i Tripoli.
+1	Førre	førre	DET	_	Definite=Def|PronType=Dem	2	det	_	name=O|Entity=(kknn~20110509_58815__T93--1
+2	helg	helg	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=kknn~20110509_58815__T93)
+3	bomba	bombe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Nato-styrkar	Nato-styrke	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=B-DRV|Entity=(kknn~20110509_58815__T94--1)
+5	huset	hus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(kknn~20110509_58815__T95--1
+6	til	til	ADP	_	_	8	case	_	name=O
+7	Gaddafis	Gaddafi	PROPN	_	Case=Gen	8	nmod	_	name=B-PER|Entity=(kknn~20110509_58815__3301--1(kknn~20110509_58815__2188--1)
+8	son	son	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=kknn~20110509_58815__3301)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Tripoli	Tripoli	PROPN	_	_	5	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20110509_58815__T98--1)kknn~20110509_58815__T95)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009791
+# text = Libyske styresmakter hevdar sonen og tre av borna hans døydde i angrepet.
+1	Libyske	libysk	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(kknn~20110509_58815__T99--1
+2	styresmakter	styresmakt	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	nsubj	_	name=O|Entity=kknn~20110509_58815__T99)
+3	hevdar	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	sonen	son	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(kknn~20110509_58815__T100--1(kknn~20110509_58815__3301--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	tre	tre	NUM	_	Number=Plur|NumType=Card	4	conj	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	borna	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nmod	_	name=O|Entity=(kknn~20110509_58815__T102--1
+9	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(kknn~20110509_58815__3301--1)kknn~20110509_58815__T102)kknn~20110509_58815__T100)
+10	døydde	døy	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	angrepet	angrep	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T104--1)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009792
+# text = Alle Klassekampens kjelder i regjeringsapparatet strekar likevel under at Noregs posisjon er at FN-mandatet ikkje er brote.
+1	Alle	all	DET	_	Number=Plur|PronType=Tot	3	det	_	name=O|Entity=(kknn~20110509_58815__T106--1
+2	Klassekampens	Klassekampen	PROPN	_	Case=Gen	3	nmod	_	name=B-ORG|Entity=(kknn~20110509_58815__4413--1)
+3	kjelder	kjelde	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nsubj	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	regjeringsapparatet	regjeringsapparat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(kknn~20110509_58815__2152--1)kknn~20110509_58815__T106)
+6	strekar	streke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	likevel	likevel	ADV	_	_	6	advmod	_	name=O
+8	under	under	SCONJ	_	_	17	mark	_	name=O
+9	at	at	SCONJ	_	_	17	mark	_	name=O
+10	Noregs	Noreg	PROPN	_	Case=Gen	11	nmod	_	name=B-GPE_ORG|Entity=(kknn~20110509_58815__T109--1(kknn~20110509_58815__131649--1)
+11	posisjon	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=kknn~20110509_58815__T109)
+12	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+13	at	at	SCONJ	_	_	17	mark	_	name=O
+14	FN-mandatet	FN-mandat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	name=B-DRV|Entity=(kknn~20110509_58815__2201--1)
+15	ikkje	ikkje	PART	_	Polarity=Neg	17	advmod	_	name=O
+16	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+17	brote	bryte	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	6	advcl	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009793
+# text = - Tærer på ressursane
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Tærer	tære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	ressursane	ressurs	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obl	_	name=O|Entity=(kknn~20110509_58815__2244--1)
+
+# sent_id = 009794
+# text = Kjelder i UD stadfestar det Klassekampen tidlegare har skrive:
+1	Kjelder	kjelde	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	name=O|Entity=(kknn~20110509_58815__T112--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	UD	UD	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(kknn~20110509_58815__3347--1)kknn~20110509_58815__T112)
+4	stadfestar	stadfeste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	name=O|Entity=(kknn~20110509_58815__T114--1
+6	Klassekampen	Klassekampen	PROPN	_	_	9	nsubj	_	name=B-ORG|Entity=(kknn~20110509_58815__4413--1)
+7	tidlegare	tidleg	ADJ	_	Degree=Cmp	9	advmod	_	name=O
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	skrive	skrive	VERB	_	VerbForm=Part	5	acl:relcl	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__T114)
+10	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009795
+# text = Dei har aldri vore lystne på krigen, heller ikkje no.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20110509_58815__5248--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	aldri	aldri	ADV	_	_	5	advmod	_	name=O
+4	vore	vere	AUX	_	VerbForm=Part	5	cop	_	name=O
+5	lystne	lysten	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	krigen	krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__2274--1)
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	heller	heller	ADV	_	_	10	advmod	_	name=O
+10	ikkje	ikkje	PART	_	Polarity=Neg	5	conj	_	name=O
+11	no	no	ADV	_	_	10	orphan	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009796
+# text = Forsvarsdepartementet har vore ivrigare, men no må også ei områ seg.
+1	Forsvarsdepartementet	Forsvarsdepartementet	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(kknn~20110509_58815__4445--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	vore	vere	AUX	_	VerbForm=Part	4	cop	_	name=O
+4	ivrigare	ivrig	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	11	punct	_	name=O
+6	men	men	CCONJ	_	_	11	cc	_	name=O
+7	no	no	ADV	_	_	11	advmod	_	name=O
+8	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+9	også	også	ADV	_	_	10	advmod	_	name=O|Entity=(kknn~20110509_58815__T119--1
+10	ei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=kknn~20110509_58815__T119)
+11	områ	områ	VERB	_	VerbForm=Inf	4	conj	_	name=O
+12	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	11	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__4445--1)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009797
+# text = Det byrjar nemleg verte for mange norske fly i beredskap til å fly over Libya, og for få til å verne Nord-Noreg.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	byrjar	byrje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	nemleg	nemleg	ADV	_	_	4	advmod	_	name=O
+4	verte	verte	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	for	for	ADV	_	_	6	advmod	_	name=O|Entity=(kknn~20110509_58815__T120--1(kknn~20110509_58815__T121--1
+6	mange	mange	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+7	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	xcomp	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	beredskap	beredskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(kknn~20110509_58815__T122--1
+11	til	til	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	fly	fly	VERB	_	VerbForm=Inf	10	acl	_	name=O
+14	over	over	ADP	_	_	15	case	_	name=O
+15	Libya	Libya	PROPN	_	_	13	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20110509_58815__6619--1)kknn~20110509_58815__T122)
+16	,	$,	PUNCT	_	_	19	punct	_	name=O|Entity=kknn~20110509_58815__T121)
+17	og	og	CCONJ	_	_	19	cc	_	name=O
+18	for	for	ADV	_	_	19	advmod	_	name=O
+19	få	få	ADJ	_	Degree=Pos|Number=Plur	8	conj	_	name=O
+20	til	til	SCONJ	_	_	22	mark	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	verne	verne	VERB	_	VerbForm=Inf	19	acl	_	name=O
+23	Nord-Noreg	Nord-Noreg	PROPN	_	_	22	obj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20110509_58815__2131--1)kknn~20110509_58815__T120)
+24	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009798
+# text = - Per i dag er vi i stand til å løyse Libya-oppdraget, forsvare oss sjølve og halde dei andre pliktene våre til Nato.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Per	per	ADP	_	_	4	case	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(kknn~20110509_58815__T125--1)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(kknn~20110509_58815__131649--1)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	stand	stand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(kknn~20110509_58815__T127--1
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	løyse	løyse	VERB	_	VerbForm=Inf	8	acl	_	name=O
+12	Libya-oppdraget	Libya-oppdrag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No|name=B-DRV|Entity=(kknn~20110509_58815__T128--1)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	forsvare	forsvare	VERB	_	VerbForm=Inf	11	conj	_	name=O
+15	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	14	obj	_	name=O|Entity=(kknn~20110509_58815__131649--1
+16	sjølve	sjølve	DET	_	Definite=Def|PronType=Prs	15	det	_	name=O|Entity=kknn~20110509_58815__131649)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	halde	halde	VERB	_	VerbForm=Inf	11	conj	_	name=O
+19	dei	dei	DET	_	Number=Plur|PronType=Dem	21	det	_	name=O|Entity=(kknn~20110509_58815__T130--1
+20	andre	annan	DET	_	Number=Plur|PronType=Dem	21	det	_	name=O
+21	pliktene	plikt	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	18	obj	_	name=O
+22	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	21	nmod	_	name=O|Entity=(kknn~20110509_58815__131649--1)
+23	til	til	ADP	_	_	24	case	_	name=O
+24	Nato	NATO	NOUN	_	Abbr=Yes	21	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20110509_58815__2222--1)kknn~20110509_58815__T130)kknn~20110509_58815__T127)
+25	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 009799
+# text = Men det er heilt rett at det tærer på ressursane våre å vere så tungt inne i Libya, seier Roger Ingebrigtsen, statssekretær i Forsvarsdepartementet.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+8	tærer	tære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	csubj	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	ressursane	ressurs	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obl	_	name=O|Entity=(kknn~20110509_58815__2244--1
+11	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(kknn~20110509_58815__131649--1)kknn~20110509_58815__2244)
+12	å	å	PART	_	_	15	mark	_	name=O
+13	vere	vere	AUX	_	VerbForm=Inf	15	cop	_	name=O
+14	så	så	ADV	_	_	15	advmod	_	name=O
+15	tungt	tung	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	csubj	_	name=O
+16	inne	inne	ADP	_	_	18	case	_	name=O
+17	i	i	ADP	_	_	18	case	_	name=O
+18	Libya	Libya	PROPN	_	_	15	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20110509_58815__6619--1)
+19	,	$,	PUNCT	_	_	20	punct	_	name=O
+20	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+21	Roger	Roger	NOUN	_	Gender=Masc	20	nsubj	_	name=B-PER|Entity=(kknn~20110509_58815__2282--1
+22	Ingebrigtsen	Ingebrigtsen	PROPN	_	_	21	flat:name	_	SpaceAfter=No|name=I-PER
+23	,	$,	PUNCT	_	_	24	punct	_	name=O
+24	statssekretær	statssekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	appos	_	name=O|Entity=(kknn~20110509_58815__T137--1
+25	i	i	ADP	_	_	26	case	_	name=O
+26	Forsvarsdepartementet	Forsvarsdepartementet	PROPN	_	_	24	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20110509_58815__4445--1)kknn~20110509_58815__T137)kknn~20110509_58815__2282)
+27	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009800
+# text = - Det er ein innsats som ikkje kan ha en uendeleg tidshorisont.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20110509_58815__T139--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kknn~20110509_58815__T140--1
+5	innsats	innsats	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+6	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+7	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	name=O
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	ha	ha	VERB	_	VerbForm=Inf	5	acl:relcl	_	name=O
+10	en	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kknn~20110509_58815__T141--1
+11	uendeleg	uendeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	tidshorisont	tidshorisont	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__T141)kknn~20110509_58815__T140)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009801
+# text = Det vil vi rett og slett ikkje klare, korkje økonomisk, materielt eller med tanke på personell, uttalar han til Klassekampen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	name=O|Entity=(kknn~20110509_58815__T142--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(kknn~20110509_58815__131649--1)
+4	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	slett	slett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	name=O
+7	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	name=O
+8	klare	klare	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	korkje	korkje	CCONJ	_	_	11	cc	_	name=O
+11	økonomisk	økonomisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	materielt	materiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	name=O
+14	eller	eller	CCONJ	_	_	16	cc	_	name=O
+15	med	med	ADP	_	_	16	case	_	name=O
+16	tanke	tanke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	conj	_	name=O|Entity=(kknn~20110509_58815__T144--1
+17	på	på	ADP	_	_	18	case	_	name=O
+18	personell	personell	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T145--1)kknn~20110509_58815__T144)
+19	,	$,	PUNCT	_	_	20	punct	_	name=O
+20	uttalar	uttale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	name=O
+21	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(kknn~20110509_58815__2282--1)
+22	til	til	ADP	_	_	23	case	_	name=O
+23	Klassekampen	Klassekampen	PROPN	_	_	20	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20110509_58815__4413--1)
+24	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 009802
+# text = Noreg har 57 jagarfly.
+1	Noreg	Noreg	PROPN	_	_	2	nsubj	_	name=B-GPE_LOC|Entity=(kknn~20110509_58815__131649--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	57	57	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(kknn~20110509_58815__3451--1
+4	jagarfly	jagarfly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__3451)
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009803
+# text = Av desse er mellom 25 og 30 klar for skarpe oppdrag, og seks av desse er stasjonert på Souda-basen på Kreta for å fly oppdrag over Libya.
+1	Av	av	ADP	_	_	2	case	_	name=O
+2	desse	desse	PRON	_	Number=Plur|Person=3|PronType=Prs	3	obl	_	name=O|Entity=(kknn~20110509_58815__3451--1)
+3	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	mellom	mellom	ADP	_	_	5	case	_	name=O
+5	25	25	NUM	_	Number=Plur|NumType=Card	3	nsubj	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	30	30	NUM	_	Number=Plur|NumType=Card	5	conj	_	name=O
+8	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	acl	_	name=O
+9	for	for	ADP	_	_	11	case	_	name=O
+10	skarpe	skarp	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(kknn~20110509_58815__T151--1
+11	oppdrag	oppdrag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__T151)
+12	,	$,	PUNCT	_	_	18	punct	_	name=O
+13	og	og	CCONJ	_	_	18	cc	_	name=O
+14	seks	seks	NUM	_	Number=Plur|NumType=Card	18	nsubj	_	name=O
+15	av	av	ADP	_	_	16	case	_	name=O
+16	desse	desse	PRON	_	Number=Plur|Person=3|PronType=Prs	14	nmod	_	name=O|Entity=(kknn~20110509_58815__3451--1)
+17	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	stasjonert	stasjonere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	3	conj	_	name=O
+19	på	på	ADP	_	_	20	case	_	name=O
+20	Souda-basen	Souda-base	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	name=B-LOC|Entity=(kknn~20110509_58815__T153--1
+21	på	på	ADP	_	_	22	case	_	name=O
+22	Kreta	Kreta	PROPN	_	_	20	nmod	_	name=B-GPE_LOC|Entity=(kknn~20110509_58815__T154--1)kknn~20110509_58815__T153)
+23	for	for	SCONJ	_	_	25	mark	_	name=O
+24	å	å	PART	_	_	25	mark	_	name=O
+25	fly	fly	VERB	_	VerbForm=Inf	18	advcl	_	name=O
+26	oppdrag	oppdrag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	25	obj	_	name=O|Entity=(kknn~20110509_58815__T155--1)
+27	over	over	ADP	_	_	28	case	_	name=O
+28	Libya	Libya	PROPN	_	_	25	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20110509_58815__6619--1)
+29	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009804
+# text = Då krigen starta informerte forsvaret UD om at maksimalt seks fly kunne sendast.
+1	Då	då	SCONJ	_	_	3	mark	_	name=O
+2	krigen	krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(kknn~20110509_58815__2274--1)
+3	starta	starte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	name=O
+4	informerte	informere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	forsvaret	forsvar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(kknn~20110509_58815__T158--1)
+6	UD	UD	PROPN	_	_	4	obj	_	name=B-ORG|Entity=(kknn~20110509_58815__3347--1)
+7	om	om	SCONJ	_	_	13	mark	_	name=O
+8	at	at	SCONJ	_	_	13	mark	_	name=O
+9	maksimalt	maksimal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O|Entity=(kknn~20110509_58815__T160--1
+10	seks	seks	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O
+11	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nsubj	_	name=O|Entity=kknn~20110509_58815__T160)
+12	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+13	sendast	sende	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009805
+# text = Men for å halde seks fly på vengene, må fleire vere i beredskap.
+1	Men	men	CCONJ	_	_	14	cc	_	name=O
+2	for	for	SCONJ	_	_	4	mark	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	halde	halde	VERB	_	VerbForm=Inf	14	advcl	_	name=O
+5	seks	seks	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(kknn~20110509_58815__T161--1
+6	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obj	_	name=O|Entity=kknn~20110509_58815__T161)
+7	på	på	SCONJ	_	_	8	mark	_	name=O
+8	vengene	veng	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	xcomp	_	SpaceAfter=No|name=O|Bridge=kknn~20110509_58815__T161<kknn~20110509_58815__T162:default|Entity=(kknn~20110509_58815__T162--1)
+9	,	$,	PUNCT	_	_	4	punct	_	name=O
+10	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+11	fleire	mange	ADJ	_	Degree=Cmp	14	nsubj	_	name=O|Entity=(kknn~20110509_58815__T163--1)
+12	vere	vere	AUX	_	VerbForm=Inf	14	cop	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	beredskap	beredskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T164--1)
+15	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 009806
+# text = Dagens Næringsliv kunne fredag fortelje at Noreg til no har bomba Libya for 130 millionar kroner.
+1	Dagens	Dagens	PROPN	_	_	5	nsubj	_	name=B-ORG|Entity=(kknn~20110509_58815__T165--1
+2	Næringsliv	Næringsliv	PROPN	_	_	1	flat:name	_	name=I-ORG|Entity=kknn~20110509_58815__T165)
+3	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+4	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(kknn~20110509_58815__T166--1)
+5	fortelje	fortelje	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	at	at	SCONJ	_	_	11	mark	_	name=O
+7	Noreg	Noreg	PROPN	_	_	11	nsubj	_	name=B-GPE_ORG|Entity=(kknn~20110509_58815__131649--1)
+8	til	til	ADP	_	_	9	case	_	name=O
+9	no	no	ADV	_	_	11	advmod	_	name=O
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	bomba	bombe	VERB	_	VerbForm=Part	5	ccomp	_	name=O
+12	Libya	Libya	PROPN	_	_	11	obj	_	name=B-GPE_LOC|Entity=(kknn~20110509_58815__6619--1)
+13	for	for	ADP	_	_	16	case	_	name=O
+14	130	130	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(kknn~20110509_58815__T170--1(kknn~20110509_58815__T169--1
+15	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nmod	_	name=O|Entity=kknn~20110509_58815__T169)
+16	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__T170)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009807
+# text = Det kjem fram i eit internt notat frå statsminister Jens Stoltenberg.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	fram	fram	ADP	_	_	2	compound:prt	_	name=O
+4	i	i	ADP	_	_	7	case	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kknn~20110509_58815__T171--1
+6	internt	intern	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	notat	notat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O
+8	frå	frå	ADP	_	_	10	case	_	name=O
+9	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(kknn~20110509_58815__2181--1
+10	Jens	Jens	NOUN	_	Gender=Masc	7	nmod	_	name=B-PER
+11	Stoltenberg	Stoltenberg	PROPN	_	_	10	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kknn~20110509_58815__2181)kknn~20110509_58815__T171)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009808
+# text = Bombene Noreg brukar mest, kostar mellom 200.000 kroner og 400.000 kroner, i tillegg kjem driftsutgifter på 65.000 kroner per time per fly.
+1	Bombene	bombe	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	name=O|Entity=(kknn~20110509_58815__T173--1
+2	Noreg	Noreg	PROPN	_	_	3	nsubj	_	name=B-GPE_ORG|Entity=(kknn~20110509_58815__131649--1)
+3	brukar	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	mest	mykje	ADJ	_	Definite=Ind|Degree=Sup	3	advmod	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=kknn~20110509_58815__T173)
+6	kostar	koste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	mellom	mellom	ADP	_	_	9	case	_	name=O
+8	200.000	200.000	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(kknn~20110509_58815__T175--1(kknn~20110509_58815__T176--1
+9	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	name=O|Entity=kknn~20110509_58815__T176)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	400.000	400.000	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(kknn~20110509_58815__T177--1
+12	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No|name=O|Entity=kknn~20110509_58815__T177)kknn~20110509_58815__T175)
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	name=O|Entity=(kknn~20110509_58815__T178--1)
+16	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+17	driftsutgifter	driftsutgift	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	16	nsubj	_	name=O|Entity=(kknn~20110509_58815__T179--1
+18	på	på	ADP	_	_	20	case	_	name=O
+19	65.000	65.000	NUM	_	Number=Plur|NumType=Card	20	nummod	_	name=O|Entity=(kknn~20110509_58815__T180--1
+20	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	17	nmod	_	name=O
+21	per	per	ADP	_	_	22	case	_	name=O
+22	time	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	name=O|Entity=(kknn~20110509_58815__T181--1)
+23	per	per	ADP	_	_	24	case	_	name=O
+24	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110509_58815__T182--1)kknn~20110509_58815__T180)kknn~20110509_58815__T179)
+25	.	$.	PUNCT	_	_	6	punct	_	name=O
+

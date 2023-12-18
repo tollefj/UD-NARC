@@ -1,0 +1,705 @@
+# newdoc id = db~20081204-3927215
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 010109
+# text = Hva var det siste Kristian Valen (34) fikset selv?
+1	Hva	hva	PRON	_	PronType=Int	0	root	_	name=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	cop	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(db~20081204_3927215__T1--1
+4	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	1	nsubj	_	name=O
+5	Kristian	Kristian	PROPN	_	Gender=Masc	10	nsubj	_	name=B-PER|Entity=(db~20081204_3927215__302777--1
+6	Valen	Valen	PROPN	_	_	5	flat:name	_	name=I-PER
+7	(	$(	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O
+8	34	34	NUM	_	Number=Plur|NumType=Card	5	nmod	_	SpaceAfter=No|name=O
+9	)	$)	PUNCT	_	_	8	punct	_	name=O|Entity=db~20081204_3927215__302777)
+10	fikset	fikse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	name=O
+11	selv	selv	ADV	_	_	10	advmod	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T1)
+12	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 010110
+# text = Sitt eget hår.
+1	Sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	name=O|Entity=(db~20081204_3927215__T4--1(db~20081204_3927215__302777--1)
+2	eget	egen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	3	det	_	name=O
+3	hår	hår	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T4)
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010111
+# text = Aktuell:
+1	Aktuell	aktuell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010112
+# text = Med showet «Raskere enn sitt eget beste» og med DVD-en «Et musikalsk kaos».
+1	Med	med	ADP	_	_	4	case	_	name=O
+2	showet	show	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(db~20081204_3927215__T5--1
+3	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O
+4	Raskere	Raskere	PROPN	_	_	0	root	_	name=B-PROD
+5	enn	enn	ADP	_	_	4	flat:name	_	name=I-PROD
+6	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	flat:name	_	name=I-PROD
+7	eget	egen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	4	flat:name	_	name=I-PROD
+8	beste	god	ADJ	_	Definite=Def|Degree=Sup	4	flat:name	_	SpaceAfter=No|name=I-PROD
+9	»	$"	PUNCT	_	_	4	punct	_	name=O|Entity=db~20081204_3927215__T5)
+10	og	og	CCONJ	_	_	14	cc	_	name=O
+11	med	med	ADP	_	_	14	case	_	name=O
+12	DVD-en	DVD	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(db~20081204_3927215__T6--1
+13	«	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O
+14	Et	Et	PROPN	_	_	4	conj	_	name=B-PROD
+15	musikalsk	musikalsk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	flat:name	_	name=I-PROD
+16	kaos	kaos	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	flat:name	_	SpaceAfter=No|name=I-PROD
+17	»	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T6)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010113
+# text = Bor:
+1	Bor	bo	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010114
+# text = Der toalettveska er.
+1	Der	der	SCONJ	_	_	3	mark	_	name=O
+2	toalettveska	toalettveske	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(db~20081204_3927215__T7--1)
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010115
+# text = Hva er det beste som skjer i livet ditt nå?
+1	Hva	hva	PRON	_	PronType=Int	0	root	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(db~20081204_3927215__T8--1
+4	beste	god	ADJ	_	Definite=Def|Degree=Sup	1	nsubj	_	name=O
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(db~20081204_3927215__T9--1
+9	ditt	din	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(db~20081204_3927215__302777--1)db~20081204_3927215__T9)
+10	nå	nå	ADV	_	_	6	advmod	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T8)
+11	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010116
+# text = - Åhh, det er mye.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Åhh	åhh	INTJ	_	_	6	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(db~20081204_3927215__T11--1)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 010117
+# text = Nytt scene show, ny DVD, nye muligheter og vennlige fjes overalt når vi er ute og reiser.
+1	Nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	name=O|Entity=(db~20081204_3927215__T12--1(db~20081204_3927215__T13--1
+2	scene	scene	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	compound	_	name=O
+3	show	show	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=db~20081204_3927215__T13)
+5	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(db~20081204_3927215__T14--1
+6	DVD	DVD	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=db~20081204_3927215__T14)
+8	nye	ny	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(db~20081204_3927215__T15--1
+9	muligheter	mulighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	conj	_	name=O|Entity=db~20081204_3927215__T15)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	vennlige	vennlig	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(db~20081204_3927215__T16--1
+12	fjes	fjes	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	conj	_	name=O
+13	overalt	overalt	ADV	_	_	12	advmod	_	name=O
+14	når	når	SCONJ	_	_	17	mark	_	name=O
+15	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	name=O|Entity=(db~20081204_3927215__T17--1)
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+17	ute	ute	ADP	_	_	12	advcl	_	name=O
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	reiser	reise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	conj	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T16)db~20081204_3927215__T12)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010118
+# text = Og det verste?
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O
+3	verste	vond	ADJ	_	Definite=Def|Degree=Sup	0	root	_	SpaceAfter=No|name=O
+4	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010119
+# text = - At arbeidsdagen til folk flest starter før klokka 15.00.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	At	at	SCONJ	_	_	7	mark	_	name=O
+3	arbeidsdagen	arbeidsdag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(db~20081204_3927215__T18--1
+4	til	til	ADP	_	_	5	case	_	name=O
+5	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	name=O|Entity=(db~20081204_3927215__T19--1
+6	flest	mange	ADJ	_	Definite=Ind|Degree=Sup	5	amod	_	name=O|Entity=db~20081204_3927215__T19)db~20081204_3927215__T18)
+7	starter	starte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	før	før	ADP	_	_	10	case	_	name=O
+9	klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	obl	_	name=O|Entity=(db~20081204_3927215__T20--1)
+10	15.00	15.00	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 010120
+# text = Din favorittroman er?
+1	Din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(db~20081204_3927215__T22--1(db~20081204_3927215__302777--1)
+2	favorittroman	favorittroman	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=db~20081204_3927215__T22)
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+4	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010121
+# text = - «Alkymisten».
+1	-	$-	PUNCT	_	_	3	punct	_	name=O|Entity=(db~20081204_3927215__T23--1
+2	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+3	Alkymisten	Alkymisten	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-PROD
+4	»	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T23)
+5	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010122
+# text = Aldri gi opp, se lykken og muligheter i alt.
+1	Aldri	aldri	ADV	_	_	2	advmod	_	name=O
+2	gi	gi	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+3	opp	opp	ADP	_	_	2	compound:prt	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	5	punct	_	name=O
+5	se	se	VERB	_	Mood=Imp|VerbForm=Fin	2	conj	_	name=O
+6	lykken	lykke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=(db~20081204_3927215__T24--1(db~20081204_3927215__T25--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	muligheter	mulighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	conj	_	name=O|Entity=(db~20081204_3927215__T26--1)db~20081204_3927215__T24)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T27--1)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010124
+# text = - Til Dubai.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Til	til	ADP	_	_	3	case	_	name=O
+3	Dubai	Dubai	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__4173--1)
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010125
+# text = Hva gjorde du der?
+1	Hva	hva	PRON	_	PronType=Int	2	obj	_	name=O
+2	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+4	der	der	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+5	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010126
+# text = - Jeg skulle ha min første ferie på seks år, og mitt eneste kriterium var solgaranti, og da ble det Dubai, ettersom Egypt samme dag som jeg bestilte fikk tolv utenlandske turister bortført og kidnappet.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+3	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(db~20081204_3927215__T32--1(db~20081204_3927215__302777--1)
+6	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	ferie	ferie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=db~20081204_3927215__T32)
+8	på	på	ADP	_	_	10	case	_	name=O
+9	seks	seks	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(db~20081204_3927215__T33--1
+10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T33)
+11	,	$,	PUNCT	_	_	17	punct	_	name=O
+12	og	og	CCONJ	_	_	17	cc	_	name=O
+13	mitt	min	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(db~20081204_3927215__T35--1(db~20081204_3927215__302777--1)
+14	eneste	eneste	NUM	_	Definite=Def|NumType=Card	15	nummod	_	name=O
+15	kriterium	kriterium	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	nsubj	_	name=O|Entity=db~20081204_3927215__T35)
+16	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	name=O
+17	solgaranti	solgaranti	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T36--1)
+18	,	$,	PUNCT	_	_	21	punct	_	name=O
+19	og	og	CCONJ	_	_	21	cc	_	name=O
+20	da	da	ADV	_	_	21	advmod	_	name=O
+21	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	conj	_	name=O
+22	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	name=O
+23	Dubai	Dubai	PROPN	_	_	21	xcomp	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__4173--1)
+24	,	$,	PUNCT	_	_	32	punct	_	name=O
+25	ettersom	ettersom	SCONJ	_	_	32	mark	_	name=O
+26	Egypt	Egypt	PROPN	_	_	32	nsubj	_	name=B-GPE_LOC|Entity=(db~20081204_3927215__T38--1)
+27	samme	samme	DET	_	Definite=Def|PronType=Dem	28	det	_	name=O|Entity=(db~20081204_3927215__T39--1
+28	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	32	obl	_	name=O
+29	som	som	PRON	_	PronType=Rel	31	obj	_	name=O
+30	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+31	bestilte	bestille	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	27	advcl	_	name=O|Entity=db~20081204_3927215__T39)
+32	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	advcl	_	name=O
+33	tolv	tolv	NUM	_	Number=Plur|NumType=Card	35	nummod	_	name=O|Entity=(db~20081204_3927215__T41--1
+34	utenlandske	utenlandsk	ADJ	_	Degree=Pos|Number=Plur	35	amod	_	name=O
+35	turister	turist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	32	obj	_	name=O|Entity=db~20081204_3927215__T41)
+36	bortført	bortføre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	32	xcomp	_	name=O
+37	og	og	CCONJ	_	_	38	cc	_	name=O
+38	kidnappet	kidnappe	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	36	conj	_	SpaceAfter=No|name=O
+39	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010127
+# text = Det er bare myte at alt som er moro er ulovlig i Saudi-Arabia og Dubai.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	bare	bare	ADV	_	_	4	advmod	_	name=O
+4	myte	myte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(db~20081204_3927215__T42--1)
+5	at	at	SCONJ	_	_	11	mark	_	name=O
+6	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081204_3927215__T43--1
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	moro	moro	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	acl:relcl	_	name=O|Entity=db~20081204_3927215__T43)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	ulovlig	ulovlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	csubj	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	Saudi-Arabia	Saudi-Arabia	PROPN	_	_	11	obl	_	name=B-GPE_LOC|Entity=(db~20081204_3927215__T44--1(db~20081204_3927215__T45--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	Dubai	Dubai	PROPN	_	_	13	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__4173--1)db~20081204_3927215__T44)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010128
+# text = Du kan gjøre alt fra å skyte utmagra kameler med rakett, svinge deg med russiske studenter som jobber alternativt på kveldstid eller ha en romantisk avslapningsferie på stranda med kjæresten.
+1	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3927215__T47--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	gjøre	gjøre	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(db~20081204_3927215__T48--1
+5	fra	fra	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	skyte	skyte	VERB	_	VerbForm=Inf	4	acl	_	name=O
+8	utmagra	utmagra	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(db~20081204_3927215__T49--1
+9	kameler	kamel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	name=O
+10	med	med	ADP	_	_	11	case	_	name=O
+11	rakett	rakett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T50--1)db~20081204_3927215__T49)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	svinge	svinge	VERB	_	VerbForm=Inf	7	conj	_	name=O
+14	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	13	obj	_	name=O|Entity=(db~20081204_3927215__T51--1)
+15	med	med	ADP	_	_	17	case	_	name=O
+16	russiske	russisk	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(db~20081204_3927215__T52--1
+17	studenter	student	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	name=O
+18	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+19	jobber	jobbe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	name=O
+20	alternativt	alternativ	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	name=O
+21	på	på	ADP	_	_	22	case	_	name=O
+22	kveldstid	kveldstid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obl	_	name=O|Entity=(db~20081204_3927215__T53--1)db~20081204_3927215__T52)
+23	eller	eller	CCONJ	_	_	24	cc	_	name=O
+24	ha	ha	VERB	_	VerbForm=Inf	7	conj	_	name=O
+25	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	name=O|Entity=(db~20081204_3927215__T54--1
+26	romantisk	romantisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	amod	_	name=O
+27	avslapningsferie	avslapningsferie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	name=O
+28	på	på	ADP	_	_	29	case	_	name=O
+29	stranda	strand	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	27	nmod	_	name=O|Entity=(db~20081204_3927215__T55--1)db~20081204_3927215__T54)
+30	med	med	ADP	_	_	31	case	_	name=O
+31	kjæresten	kjæreste	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T56--1)db~20081204_3927215__T48)
+32	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010130
+# text = - Det kommer litt an på, men det finnes bare tre store reisemål:
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3927215__T57--1)
+3	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	an	an	ADV	_	_	3	advmod	_	name=O
+6	på	på	ADP	_	_	3	compound:prt	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	men	men	CCONJ	_	_	10	cc	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+10	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+11	bare	bare	ADV	_	_	12	advmod	_	name=O|Entity=(db~20081204_3927215__2117--1
+12	tre	tre	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O
+13	store	stor	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	reisemål	reisemål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nsubj	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__2117)
+15	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010131
+# text = Afrika, USA og Dubai.
+1	Afrika	Afrika	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__2117--1(db~20081204_3927215__T60--1
+2	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=db~20081204_3927215__T60)
+3	USA	USA	PROPN	_	Abbr=Yes	1	conj	_	name=B-GPE_LOC|Entity=(db~20081204_3927215__T61--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	Dubai	Dubai	PROPN	_	_	1	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__4173--1)db~20081204_3927215__2117)
+6	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010132
+# text = Og i Norge?
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Norge	Norge	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__5439--1)
+4	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010134
+# text = Er såpass heldig at jobben min er å reise rundt i Norge hele året.
+1	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+2	såpass	såpass	ADV	_	_	3	advmod	_	name=O
+3	heldig	heldig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	jobben	jobb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=(db~20081204_3927215__T64--1
+6	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(db~20081204_3927215__302777--1)db~20081204_3927215__T64)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	reise	reise	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+10	rundt	rundt	ADP	_	_	12	case	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Norge	Norge	PROPN	_	_	9	obl	_	name=B-GPE_LOC|Entity=(db~20081204_3927215__5439--1)
+13	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(db~20081204_3927215__T67--1
+14	året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T67)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010135
+# text = Hvor er det peneste stedet i Norge?
+1	Hvor	hvor	ADV	_	_	0	root	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(db~20081204_3927215__2139--1
+4	peneste	pen	ADJ	_	Definite=Def|Degree=Sup	5	amod	_	name=O
+5	stedet	sted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nsubj	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Norge	Norge	PROPN	_	_	5	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__5439--1)db~20081204_3927215__2139)
+8	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010136
+# text = - Jeg har hørt det er Svalbard, så jeg håper å dra dit når finanskrisen har gjort sitt til at det er islandske priser på å feriere i Norge.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	hørt	høre	VERB	_	VerbForm=Part	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(db~20081204_3927215__2139--1)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	Svalbard	Svalbard	PROPN	_	_	4	ccomp	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__T72--1)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	så	så	CCONJ	_	_	11	cc	_	name=O
+10	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+11	håper	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	dra	dra	VERB	_	VerbForm=Inf	11	xcomp	_	name=O
+14	dit	dit	ADV	_	_	13	advmod	_	name=O
+15	når	når	SCONJ	_	_	18	mark	_	name=O
+16	finanskrisen	finanskrise	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	name=O|Entity=(db~20081204_3927215__2149--1)
+17	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	gjort	gjøre	VERB	_	VerbForm=Part	13	advcl	_	name=O
+19	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	18	obj	_	name=O|Entity=(db~20081204_3927215__2149--1)
+20	til	til	SCONJ	_	_	23	mark	_	name=O
+21	at	at	SCONJ	_	_	23	mark	_	name=O
+22	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	name=O
+23	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	name=O
+24	islandske	islandsk	ADJ	_	Degree=Pos|Number=Plur	25	amod	_	name=O|Entity=(db~20081204_3927215__T76--1
+25	priser	pris	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	nsubj	_	name=O
+26	på	på	SCONJ	_	_	28	mark	_	name=O
+27	å	å	PART	_	_	28	mark	_	name=O
+28	feriere	feriere	VERB	_	VerbForm=Inf	25	acl	_	name=O
+29	i	i	ADP	_	_	30	case	_	name=O
+30	Norge	Norge	PROPN	_	_	28	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__5439--1)db~20081204_3927215__T76)
+31	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010138
+# text = - Afghanistan.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Afghanistan	Afghanistan	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__3258--1)
+3	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010139
+# text = Jeg vil se med mine egne øyne hvordan et folk blandet av rase og religion holder fast med familiene sine.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	se	se	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	med	med	ADP	_	_	7	case	_	name=O
+5	mine	min	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(db~20081204_3927215__T81--1(db~20081204_3927215__302777--1)
+6	egne	egen	DET	_	Number=Plur|PronType=Prs	7	det	_	name=O
+7	øyne	øye	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	name=O|Entity=db~20081204_3927215__T81)
+8	hvordan	hvordan	ADV	_	_	16	advmod	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(db~20081204_3927215__3262--1
+10	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	nsubj	_	name=O
+11	blandet	blande	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	10	amod	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	rase	rase	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(db~20081204_3927215__T83--1(db~20081204_3927215__T84--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	religion	religion	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	name=O|Entity=(db~20081204_3927215__T85--1)db~20081204_3927215__T83)db~20081204_3927215__3262)
+16	holder	holde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	name=O
+17	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	name=O
+18	med	med	ADP	_	_	19	case	_	name=O
+19	familiene	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	16	obl	_	name=O|Entity=(db~20081204_3927215__T86--1
+20	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	19	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__3262--1)db~20081204_3927215__T86)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010140
+# text = Dette landet har vært i konstant uro siden Aleksander den store, og ingen har til nå klart å erobre eller stabilisere landet.
+1	Dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(db~20081204_3927215__3258--1
+2	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=db~20081204_3927215__3258)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+4	vært	være	AUX	_	VerbForm=Part	7	cop	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	konstant	konstant	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(db~20081204_3927215__T89--1
+7	uro	uro	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=db~20081204_3927215__T89)
+8	siden	siden	ADP	_	_	9	case	_	name=O
+9	Aleksander	Aleksander	PROPN	_	_	7	obl	_	name=B-PER|Entity=(db~20081204_3927215__T90--1
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	flat:name	_	name=I-PER
+11	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	flat:name	_	SpaceAfter=No|name=I-PER|Entity=db~20081204_3927215__T90)
+12	,	$,	PUNCT	_	_	18	punct	_	name=O
+13	og	og	CCONJ	_	_	18	cc	_	name=O
+14	ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	18	nsubj	_	name=O|Entity=(db~20081204_3927215__T91--1)
+15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+16	til	til	ADP	_	_	17	case	_	name=O
+17	nå	nå	ADV	_	_	18	advmod	_	name=O
+18	klart	klare	VERB	_	VerbForm=Part	7	conj	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	erobre	erobre	VERB	_	VerbForm=Inf	18	xcomp	_	name=O
+21	eller	eller	CCONJ	_	_	22	cc	_	name=O
+22	stabilisere	stabilisere	VERB	_	VerbForm=Inf	20	conj	_	name=O
+23	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	obj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__3258--1)
+24	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 010141
+# text = De må ha utrolig sterke familiebånd og tradisjoner for å finne en mening oppi alt kaoset.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3927215__3262--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	utrolig	utrolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(db~20081204_3927215__T94--1(db~20081204_3927215__T95--1
+5	sterke	sterk	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	familiebånd	familiebånd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=db~20081204_3927215__T95)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	tradisjoner	tradisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	conj	_	name=O|Entity=(db~20081204_3927215__T96--1)db~20081204_3927215__T94)
+9	for	for	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	finne	finne	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(db~20081204_3927215__T97--1
+13	mening	mening	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	name=O|Entity=db~20081204_3927215__T97)
+14	oppi	oppi	ADP	_	_	16	case	_	name=O
+15	alt	all	DET	_	Gender=Neut|Number=Sing|PronType=Tot	16	det	_	name=O|Entity=(db~20081204_3927215__T98--1
+16	kaoset	kaos	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T98)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010143
+# text = - Nei, det gjør en automatisk når 80 prosent av billettprisen er avgifter.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Nei	nei	INTJ	_	_	5	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	name=O|Entity=(db~20081204_3927215__T99--1)
+5	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	en	en	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	5	nsubj	_	name=O|Entity=(db~20081204_3927215__T100--1)
+7	automatisk	automatisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+8	når	når	SCONJ	_	_	14	mark	_	name=O
+9	80	80	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(db~20081204_3927215__T101--1
+10	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	name=O
+11	av	av	ADP	_	_	12	case	_	name=O
+12	billettprisen	billettpris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(db~20081204_3927215__T102--1)db~20081204_3927215__T101)
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	avgifter	avgift	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	advcl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T103--1)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010145
+# text = - Hva er fritid?
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Hva	hva	PRON	_	PronType=Int	0	root	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	name=O
+4	fritid	fritid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T104--1)
+5	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010146
+# text = Jeg har ikke fritid, ettersom mesteparten av min omgangskrets ikke spiller fotball, som jeg elsker.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	fritid	fritid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T106--1)
+5	,	$,	PUNCT	_	_	12	punct	_	name=O
+6	ettersom	ettersom	SCONJ	_	_	12	mark	_	name=O
+7	mesteparten	mestepart	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(db~20081204_3927215__T107--1
+8	av	av	ADP	_	_	10	case	_	name=O
+9	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(db~20081204_3927215__T109--1(db~20081204_3927215__302777--1)
+10	omgangskrets	omgangskrets	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=db~20081204_3927215__T109)db~20081204_3927215__T107)
+11	ikke	ikke	PART	_	Polarity=Neg	12	advmod	_	name=O
+12	spiller	spille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+13	fotball	fotball	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T110--1)
+14	,	$,	PUNCT	_	_	17	punct	_	name=O
+15	som	som	PRON	_	PronType=Rel	17	obj	_	name=O
+16	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+17	elsker	elske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010148
+# text = - Hver dag på apparater og litt for frihånd når jeg bor på hotell uten gym.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O|Entity=(db~20081204_3927215__T112--1(db~20081204_3927215__T113--1
+2	Hver	hver	DET	_	Gender=Masc|Number=Sing|PronType=Tot	3	det	_	name=O
+3	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	apparater	apparat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	name=O|Entity=(db~20081204_3927215__T114--1)db~20081204_3927215__T113)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	frihånd	frihånd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(db~20081204_3927215__T115--1)
+10	når	når	SCONJ	_	_	12	mark	_	name=O
+11	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+12	bor	bo	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+13	på	på	ADP	_	_	14	case	_	name=O
+14	hotell	hotell	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	name=O|Entity=(db~20081204_3927215__T117--1
+15	uten	uten	ADP	_	_	16	case	_	name=O
+16	gym	gym	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T118--1)db~20081204_3927215__T117)db~20081204_3927215__T112)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010149
+# text = Hvor mange kilo tar du i benkpress?
+1	Hvor	hvor	ADV	_	_	2	advmod	_	name=O|Entity=(db~20081204_3927215__T119--1
+2	mange	mange	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	kilo	kilo	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=O|Entity=db~20081204_3927215__T119)
+4	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	benkpress	benkpress	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T121--1)
+8	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010150
+# text = - Hva er benkpress?
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Hva	hva	PRON	_	PronType=Int	0	root	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	name=O
+4	benkpress	benkpress	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T122--1)
+5	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010151
+# text = Jeg trener kondisjon og har ikke ambisjoner om å se ut som Arnold.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+2	trener	trene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	kondisjon	kondisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(db~20081204_3927215__T124--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+6	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+7	ambisjoner	ambisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obj	_	name=O|Entity=(db~20081204_3927215__T125--1
+8	om	om	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	se	se	VERB	_	VerbForm=Inf	7	acl	_	name=O
+11	ut	ut	ADP	_	_	10	compound:prt	_	name=O
+12	som	som	ADP	_	_	13	case	_	name=O
+13	Arnold	Arnold	PROPN	_	Gender=Masc	10	obl	_	SpaceAfter=No|name=B-PER|Entity=(db~20081204_3927215__T126--1)db~20081204_3927215__T125)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010152
+# text = Hva er favorittalbumet ditt?
+1	Hva	hva	PRON	_	PronType=Int	0	root	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	favorittalbumet	favorittalbum	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nsubj	_	name=O|Entity=(db~20081204_3927215__T127--1
+4	ditt	din	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__302777--1)db~20081204_3927215__T127)
+5	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010153
+# text = - Det er som om å be sin mor velge hvem av sine barn som hun er mest glad i.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081204_3927215__T129--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	som	som	ADP	_	_	0	root	_	name=O
+5	om	om	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	be	be	VERB	_	VerbForm=Inf	4	xcomp	_	name=O
+8	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(db~20081204_3927215__3397--1(db~20081204_3927215__T130--1)
+9	mor	mor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	iobj	_	name=O|Entity=db~20081204_3927215__3397)
+10	velge	velge	VERB	_	VerbForm=Inf	7	xcomp	_	name=O
+11	hvem	hvem	PRON	_	Animacy=Hum|PronType=Int	19	obl	_	name=O
+12	av	av	ADP	_	_	14	case	_	name=O
+13	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	14	nmod	_	name=O|Entity=(db~20081204_3927215__T133--1(db~20081204_3927215__3397--1)
+14	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	name=O|Entity=db~20081204_3927215__T133)
+15	som	som	PRON	_	PronType=Rel	19	obj	_	name=O
+16	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(db~20081204_3927215__3397--1)
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+18	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	19	advmod	_	name=O
+19	glad	glad	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	ccomp	_	name=O
+20	i	i	ADP	_	_	11	case	_	SpaceAfter=No|name=O
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010155
+# text = - Forhåpentligvis går det taxi så jeg slipper.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Forhåpentligvis	forhåpentligvis	ADV	_	_	3	advmod	_	name=O
+3	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	taxi	taxi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(db~20081204_3927215__T135--1)
+6	så	så	SCONJ	_	_	8	mark	_	name=O
+7	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+8	slipper	slippe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010157
+# text = - Dykkerutstyr, rifle, dasspapir og mobil med mms-mulighet.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O|Entity=(db~20081204_3927215__T137--1(db~20081204_3927215__T138--1
+2	Dykkerutstyr	dykkerutstyr	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=db~20081204_3927215__T138)
+4	rifle	rifle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T139--1
+5	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=db~20081204_3927215__T139)
+6	dasspapir	dasspapir	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	name=O|Entity=(db~20081204_3927215__T140--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	mobil	mobil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	name=O|Entity=(db~20081204_3927215__T141--1
+9	med	med	ADP	_	_	10	case	_	name=O
+10	mms-mulighet	mms-mulighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T142--1)db~20081204_3927215__T141)db~20081204_3927215__T137)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010159
+# text = - Laptopen, diverse minner i våpenskapet og mobilen.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O|Entity=(db~20081204_3927215__T143--1(db~20081204_3927215__T144--1
+2	Laptopen	laptop	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=db~20081204_3927215__T144)
+4	diverse	diverse	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(db~20081204_3927215__T145--1
+5	minner	minne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	conj	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	våpenskapet	våpenskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(db~20081204_3927215__T146--1)db~20081204_3927215__T145)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	mobilen	mobil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T147--1)db~20081204_3927215__T143)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010160
+# text = Hvor kjøper du møblene dine?
+1	Hvor	hvor	ADV	_	_	2	advmod	_	name=O
+2	kjøper	kjøpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+4	møblene	møbel	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(db~20081204_3927215__2302--1
+5	dine	din	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	4	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__302777--1)db~20081204_3927215__2302)
+6	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010161
+# text = - Der de kan levere samme dag og skru dem opp for meg.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Der	der	SCONJ	_	_	5	mark	_	name=O
+3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081204_3927215__T151--1)
+4	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	levere	levere	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	samme	samme	DET	_	Definite=Def|PronType=Dem	7	det	_	name=O|Entity=(db~20081204_3927215__T152--1
+7	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=db~20081204_3927215__T152)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	skru	skru	VERB	_	VerbForm=Inf	5	conj	_	name=O
+10	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	obj	_	name=O|Entity=(db~20081204_3927215__2302--1)
+11	opp	opp	ADP	_	_	9	compound:prt	_	name=O
+12	for	for	ADP	_	_	13	case	_	name=O
+13	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__302777--1)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010162
+# text = Hva var det siste du fikset sjøl?
+1	Hva	hva	PRON	_	PronType=Int	0	root	_	name=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	cop	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(db~20081204_3927215__T155--1
+4	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	1	nsubj	_	name=O
+5	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+6	fikset	fikse	VERB	_	VerbForm=Part	4	acl:relcl	_	name=O
+7	sjøl	sjøl	ADV	_	_	6	advmod	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T155)
+8	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010163
+# text = - Håret.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O|Entity=(db~20081204_3927215__T157--1
+2	Håret	hår	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=db~20081204_3927215__T157)
+3	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010165
+# text = - Sjekker mail.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Sjekker	sjekke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	mail	mail	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__T158--1)
+4	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010166
+# text = jats@dagbladet.no
+1	jats@dagbladet.no	jats@dagbladet.no	PROPN	_	_	0	root	_	name=O|Entity=(db~20081204_3927215__T159--1)
+
+# sent_id = 010304
+# text = Din favorittroman er?
+1	Din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(db~20081204_3927215__T161--1(db~20081204_3927215__302777--1)
+2	favorittroman	favorittroman	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=db~20081204_3927215__T161)
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|name=O
+4	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010313
+# text = Hva er favorittalbumet ditt?
+1	Hva	hva	PRON	_	PronType=Int	0	root	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	favorittalbumet	favorittalbum	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nsubj	_	name=O|Entity=(db~20081204_3927215__T162--1
+4	ditt	din	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__302777--1)db~20081204_3927215__T162)
+5	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010328
+# text = Og i Norge?
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Norge	Norge	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3927215__5439--1)
+4	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010347
+# text = Hvor kjøper du møblene dine?
+1	Hvor	hvor	ADV	_	_	2	advmod	_	name=O
+2	kjøper	kjøpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081204_3927215__302777--1)
+4	møblene	møbel	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(db~20081204_3927215__T166--1
+5	dine	din	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	4	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3927215__302777--1)db~20081204_3927215__T166)
+6	?	$?	PUNCT	_	_	2	punct	_	name=O
+

@@ -1,0 +1,1198 @@
+# newdoc id = nou~nou_002_e
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 012695
+# text = 2.2.4 Finansiering
+1	2.2.4	2.2.4	NUM	_	NumType=Card	2	nummod	_	name=O|Entity=(nou~nou_002_e__T1--1
+2	Finansiering	finansiering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=nou~nou_002_e__T1)
+
+# sent_id = 012696
+# text = I kapittel 6 drøftes ulike finansieringsordninger for Den norske kirke, uavhengig av fremtidig kirkeordning.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	kapittel	kapittel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(nou~nou_002_e__T2--1
+3	6	6	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=nou~nou_002_e__T2)
+4	drøftes	drøfte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+5	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(nou~nou_002_e__T3--1
+6	finansieringsordninger	finansieringsordning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj:pass	_	name=O
+7	for	for	ADP	_	_	8	case	_	name=O
+8	Den	Den	PROPN	_	_	6	nmod	_	name=B-ORG|Entity=(nou~nou_002_e__61011--1
+9	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	flat:name	_	name=I-ORG
+10	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=nou~nou_002_e__61011)nou~nou_002_e__T3)
+11	,	$,	PUNCT	_	_	15	punct	_	name=O
+12	uavhengig	uavhengig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+13	av	av	ADP	_	_	15	case	_	name=O
+14	fremtidig	fremtidig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(nou~nou_002_e__T5--1
+15	kirkeordning	kirkeordning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T5)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012697
+# text = Hovedalternativet står mellom privat eller offentlig finansiering, men kombinasjoner er også mulig.
+1	Hovedalternativet	hovedalternativ	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Bridge=nou~nou_002_e__T3<nou~nou_002_e__T6:default|Entity=(nou~nou_002_e__T6--1)
+2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	mellom	mellom	ADP	_	_	7	case	_	name=O
+4	privat	privat	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(nou~nou_002_e__T7--1
+5	eller	eller	CCONJ	_	_	6	cc	_	name=O
+6	offentlig	offentlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	conj	_	name=O
+7	finansiering	finansiering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T7)
+8	,	$,	PUNCT	_	_	13	punct	_	name=O
+9	men	men	CCONJ	_	_	13	cc	_	name=O
+10	kombinasjoner	kombinasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nsubj	_	name=O|Entity=(nou~nou_002_e__T8--1)
+11	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+12	også	også	ADV	_	_	13	advmod	_	name=O
+13	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 012698
+# text = Offentlig finansiering
+1	Offentlig	offentlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(nou~nou_002_e__T9--1
+2	finansiering	finansiering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=nou~nou_002_e__T9)
+
+# sent_id = 012699
+# text = I dag finansieres Den norske kirke hovedsaklig gjennom bevilgninger fra stat og kommune.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(nou~nou_002_e__T10--1)
+3	finansieres	finansiere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+4	Den	Den	PROPN	_	_	3	nsubj:pass	_	name=B-ORG|Entity=(nou~nou_002_e__61011--1
+5	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	flat:name	_	name=I-ORG
+6	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	flat:name	_	name=I-ORG|Entity=nou~nou_002_e__61011)
+7	hovedsaklig	hovedsaklig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+8	gjennom	gjennom	ADP	_	_	9	case	_	name=O
+9	bevilgninger	bevilgning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obl	_	name=O|Entity=(nou~nou_002_e__T12--1
+10	fra	fra	ADP	_	_	11	case	_	name=O
+11	stat	stat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(nou~nou_002_e__T13--1(nou~nou_002_e__7754--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	kommune	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__5447--1)nou~nou_002_e__T13)nou~nou_002_e__T12)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012700
+# text = Det er mulig å videreføre denne ordningen, der kommunene først og fremst har finansieringsansvaret for de oppgavene hvor lokal tilpasning er mest ønskelig, mens staten har ansvaret for å finansiere formål som i liten grad påvirkes av lokale forhold.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	videreføre	videreføre	VERB	_	VerbForm=Inf	3	csubj	_	name=O
+6	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(nou~nou_002_e__T16--1
+7	ordningen	ordning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	14	punct	_	name=O
+9	der	der	SCONJ	_	_	14	mark	_	name=O
+10	kommunene	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	14	nsubj	_	name=O|Entity=(nou~nou_002_e__5447--1)
+11	først	først	ADV	_	_	14	advmod	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	fremst	fremre	ADJ	_	Definite=Ind|Degree=Sup	11	conj	_	name=O
+14	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl	_	name=O
+15	finansieringsansvaret	finansieringsansvar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obj	_	name=O|Entity=(nou~nou_002_e__T18--1
+16	for	for	ADP	_	_	18	case	_	name=O
+17	de	de	DET	_	Number=Plur|PronType=Dem	18	det	_	name=O|Entity=(nou~nou_002_e__T19--1
+18	oppgavene	oppgave	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	name=O
+19	hvor	hvor	ADV	_	_	24	advmod	_	name=O
+20	lokal	lokal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O|Entity=(nou~nou_002_e__T20--1
+21	tilpasning	tilpasning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	nsubj	_	name=O|Entity=nou~nou_002_e__T20)
+22	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	name=O
+23	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	24	advmod	_	name=O
+24	ønskelig	ønskelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	acl:relcl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T19)nou~nou_002_e__T18)
+25	,	$,	PUNCT	_	_	28	punct	_	name=O
+26	mens	mens	SCONJ	_	_	28	mark	_	name=O
+27	staten	stat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	nsubj	_	name=O|Entity=(nou~nou_002_e__7754--1)
+28	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	name=O
+29	ansvaret	ansvar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	obj	_	name=O|Entity=(nou~nou_002_e__T22--1
+30	for	for	SCONJ	_	_	32	mark	_	name=O
+31	å	å	PART	_	_	32	mark	_	name=O
+32	finansiere	finansiere	VERB	_	VerbForm=Inf	29	acl	_	name=O
+33	formål	formål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	32	obj	_	name=O|Entity=(nou~nou_002_e__T23--1
+34	som	som	PRON	_	PronType=Rel	38	nsubj:pass	_	name=O
+35	i	i	ADP	_	_	37	case	_	name=O
+36	liten	liten	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	37	amod	_	name=O|Entity=(nou~nou_002_e__T24--1
+37	grad	grad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	38	obl	_	name=O|Entity=nou~nou_002_e__T24)
+38	påvirkes	påvirke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	33	acl:relcl	_	name=O
+39	av	av	ADP	_	_	41	case	_	name=O
+40	lokale	lokal	ADJ	_	Degree=Pos|Number=Plur	41	amod	_	name=O|Entity=(nou~nou_002_e__T25--1
+41	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	38	obl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T25)nou~nou_002_e__T23)nou~nou_002_e__T22)nou~nou_002_e__T16)
+42	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012701
+# text = Alternativt kan ansvarsfordelingen endres ved at staten tar et større finansieringsansvar enn i dag, blant annet for å minimalisere forskjellene mellom kirkebevilgningene i de enkelte kommuner, og for å sikre at nasjonale verdier blir forsvarlig ivaretatt.
+1	Alternativt	alternativ	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	ansvarsfordelingen	ansvarsfordeling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj:pass	_	name=O|Bridge=nou~nou_002_e__T16<nou~nou_002_e__T26:default|Entity=(nou~nou_002_e__T26--1)
+4	endres	endre	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+5	ved	ved	SCONJ	_	_	8	mark	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	staten	stat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(nou~nou_002_e__7754--1)
+8	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(nou~nou_002_e__T28--1
+10	større	stor	ADJ	_	Degree=Cmp	11	amod	_	name=O
+11	finansieringsansvar	finansieringsansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	name=O
+12	enn	enn	ADP	_	_	14	case	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T29--1)nou~nou_002_e__T28)
+15	,	$,	PUNCT	_	_	20	punct	_	name=O
+16	blant	blant	ADP	_	_	17	case	_	name=O
+17	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	20	obl	_	name=O
+18	for	for	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	minimalisere	minimalisere	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+21	forskjellene	forskjell	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	20	obj	_	name=O|Entity=(nou~nou_002_e__T30--1
+22	mellom	mellom	ADP	_	_	23	case	_	name=O
+23	kirkebevilgningene	kirkebevilgning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	21	nmod	_	name=O|Entity=(nou~nou_002_e__T31--1
+24	i	i	ADP	_	_	27	case	_	name=O
+25	de	de	DET	_	Number=Plur|PronType=Dem	27	det	_	name=O|Entity=(nou~nou_002_e__T32--1
+26	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	27	amod	_	name=O
+27	kommuner	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T32)nou~nou_002_e__T31)nou~nou_002_e__T30)
+28	,	$,	PUNCT	_	_	32	punct	_	name=O
+29	og	og	CCONJ	_	_	32	cc	_	name=O
+30	for	for	ADP	_	_	32	case	_	name=O
+31	å	å	PART	_	_	32	mark	_	name=O
+32	sikre	sikre	VERB	_	VerbForm=Inf	20	conj	_	name=O
+33	at	at	SCONJ	_	_	38	mark	_	name=O
+34	nasjonale	nasjonal	ADJ	_	Degree=Pos|Number=Plur	35	amod	_	name=O|Entity=(nou~nou_002_e__T33--1
+35	verdier	verdi	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	38	nsubj:pass	_	name=O|Entity=nou~nou_002_e__T33)
+36	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	38	aux:pass	_	name=O
+37	forsvarlig	forsvarlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	38	advmod	_	name=O
+38	ivaretatt	ivareta	VERB	_	VerbForm=Part	32	ccomp	_	SpaceAfter=No|name=O
+39	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012702
+# text = En mulighet er å overføre ansvaret for finansieringen av alle stillinger og personalrettede utgifter til staten, men la kommunene fortsatt ha ansvar for kirkebyggene.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(nou~nou_002_e__T34--1
+2	mulighet	mulighet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=nou~nou_002_e__T34)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	overføre	overføre	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	ansvaret	ansvar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(nou~nou_002_e__T35--1
+7	for	for	ADP	_	_	8	case	_	name=O
+8	finansieringen	finansiering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(nou~nou_002_e__T36--1
+9	av	av	ADP	_	_	11	case	_	name=O
+10	alle	all	DET	_	Number=Plur|PronType=Tot	11	det	_	name=O|Entity=(nou~nou_002_e__T37--1(nou~nou_002_e__T38--1
+11	stillinger	stilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	name=O|Entity=nou~nou_002_e__T38)
+12	og	og	CCONJ	_	_	14	cc	_	name=O
+13	personalrettede	personalrette	ADJ	_	Number=Plur|VerbForm=Part	14	amod	_	name=O|Entity=(nou~nou_002_e__T39--1
+14	utgifter	utgift	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	conj	_	name=O|Entity=nou~nou_002_e__T39)nou~nou_002_e__T37)nou~nou_002_e__T36)nou~nou_002_e__T35)
+15	til	til	ADP	_	_	16	case	_	name=O
+16	staten	stat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__7754--1)
+17	,	$,	PUNCT	_	_	19	punct	_	name=O
+18	men	men	CCONJ	_	_	19	cc	_	name=O
+19	la	la	VERB	_	VerbForm=Inf	5	conj	_	name=O
+20	kommunene	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	19	iobj	_	name=O|Entity=(nou~nou_002_e__5447--1)
+21	fortsatt	fortsatt	ADV	_	_	22	advmod	_	name=O
+22	ha	ha	VERB	_	VerbForm=Inf	19	xcomp	_	name=O
+23	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	obj	_	name=O|Entity=(nou~nou_002_e__T42--1
+24	for	for	ADP	_	_	25	case	_	name=O
+25	kirkebyggene	kirkebygg	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	23	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T43--1)nou~nou_002_e__T42)
+26	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 012703
+# text = Obligatorisk livssynsavgift
+1	Obligatorisk	obligatorisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(nou~nou_002_e__T44--1
+2	livssynsavgift	livssynsavgift	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=nou~nou_002_e__T44)
+
+# sent_id = 012704
+# text = Ordningen består i at alle innbyggerne betaler en øremerket avgift/skatt til tros- og livssynssamfunn som staten innkrever.
+1	Ordningen	ordning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Bridge=nou~nou_002_e__T44<nou~nou_002_e__T45:default|Entity=(nou~nou_002_e__T45--1)
+2	består	bestå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	i	i	SCONJ	_	_	7	mark	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	alle	all	DET	_	Number=Plur|PronType=Tot	6	det	_	name=O|Entity=(nou~nou_002_e__T46--1
+6	innbyggerne	innbygger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=nou~nou_002_e__T46)
+7	betaler	betale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(nou~nou_002_e__2101--1(nou~nou_002_e__T48--1
+9	øremerket	øremerke	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	10	amod	_	name=O
+10	avgift	avgift	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|name=O
+11	/	$/	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T48)
+12	skatt	skatt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	name=O|Entity=(nou~nou_002_e__T49--1
+13	til	til	ADP	_	_	14	case	_	name=O
+14	tros-	tros-	NOUN	_	_	12	nmod	_	name=O|Entity=(nou~nou_002_e__T50--1(nou~nou_002_e__T51--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	livssynssamfunn	livssynssamfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	conj	_	name=O|Entity=(nou~nou_002_e__T52--1)nou~nou_002_e__T50)
+17	som	som	PRON	_	PronType=Rel	19	obj	_	name=O
+18	staten	stat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	name=O|Entity=(nou~nou_002_e__7754--1)
+19	innkrever	innkreve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T49)nou~nou_002_e__2101)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012705
+# text = Avgiften kan enten være et fast kronebeløp eller avhengig av inntekt.
+1	Avgiften	avgift	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(nou~nou_002_e__2101--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+3	enten	enten	CCONJ	_	_	7	cc	_	name=O
+4	være	være	AUX	_	VerbForm=Inf	7	cop	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(nou~nou_002_e__2113--1(nou~nou_002_e__T56--1
+6	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	kronebeløp	kronebeløp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=nou~nou_002_e__T56)
+8	eller	eller	CCONJ	_	_	9	cc	_	name=O
+9	avhengig	avhengig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	conj	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	inntekt	inntekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T57--1)nou~nou_002_e__2113)
+12	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012706
+# text = Beløpet kan kreves inn som en særskilt avgift eller over skatteseddelen.
+1	Beløpet	beløp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj:pass	_	name=O|Entity=(nou~nou_002_e__2113--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	kreves	kreve	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+4	inn	inn	ADP	_	_	3	compound:prt	_	name=O
+5	som	som	SCONJ	_	_	8	mark	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(nou~nou_002_e__T59--1
+7	særskilt	særskilt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	avgift	avgift	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	name=O|Entity=nou~nou_002_e__T59)
+9	eller	eller	CCONJ	_	_	11	cc	_	name=O
+10	over	over	ADP	_	_	11	case	_	name=O
+11	skatteseddelen	skatteseddel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T60--1)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012707
+# text = Den direkte personbeskatningen reduseres tilsvarende.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(nou~nou_002_e__T61--1
+2	direkte	direkte	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	personbeskatningen	personbeskatning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj:pass	_	name=O|Entity=nou~nou_002_e__T61)
+4	reduseres	redusere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+5	tilsvarende	tilsvare	ADJ	_	VerbForm=Part	4	advmod	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012708
+# text = Den innbetalte avgiften fra de som ikke er medlemmer i noe tros- eller livssynssamfunn, kan for eksempel gå til et kulturelt eller veldedig formål.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(nou~nou_002_e__T62--1
+2	innbetalte	innbetale	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	3	amod	_	name=O
+3	avgiften	avgift	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	name=O
+4	fra	fra	ADP	_	_	5	case	_	name=O
+5	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nmod	_	name=O|Entity=(nou~nou_002_e__T63--1
+6	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+7	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	medlemmer	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	acl:relcl	_	name=O|Entity=(nou~nou_002_e__T64--1
+10	i	i	ADP	_	_	12	case	_	name=O
+11	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	12	det	_	name=O|Entity=(nou~nou_002_e__T65--1(nou~nou_002_e__T66--1
+12	tros-	tros-	NOUN	_	_	9	nmod	_	name=O|Entity=nou~nou_002_e__T66)
+13	eller	eller	CCONJ	_	_	14	cc	_	name=O
+14	livssynssamfunn	livssynssamfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T67--1)nou~nou_002_e__T65)nou~nou_002_e__T64)nou~nou_002_e__T63)
+15	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=nou~nou_002_e__T62)
+16	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+17	for	for	ADP	_	_	18	case	_	name=O
+18	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	name=O|Entity=(nou~nou_002_e__T68--1)
+19	gå	gå	VERB	_	VerbForm=Inf	0	root	_	name=O
+20	til	til	ADP	_	_	25	case	_	name=O
+21	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(nou~nou_002_e__T69--1
+22	kulturelt	kulturell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	name=O
+23	eller	eller	CCONJ	_	_	24	cc	_	name=O
+24	veldedig	veldedig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	conj	_	name=O
+25	formål	formål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T69)
+26	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# newpar
+# sent_id = 012709
+# text = Medlemskontingent
+1	Medlemskontingent	medlemskontingent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(nou~nou_002_e__2146--1)
+
+# sent_id = 012710
+# text = Enhver organisasjon med frivillig medlemskap kan bruke en slik finansieringskilde.
+1	Enhver	enhver	DET	_	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	name=O|Entity=(nou~nou_002_e__T71--1
+2	organisasjon	organisasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O
+3	med	med	ADP	_	_	5	case	_	name=O
+4	frivillig	frivillig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O|Entity=(nou~nou_002_e__T72--1
+5	medlemskap	medlemskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=nou~nou_002_e__T72)nou~nou_002_e__T71)
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	bruke	bruke	VERB	_	VerbForm=Inf	0	root	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(nou~nou_002_e__T73--1
+9	slik	slik	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O
+10	finansieringskilde	finansieringskilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T73)
+11	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012711
+# text = I kirker over hele verden er dette den mest vanlige finansieringsformen.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	name=O|Entity=(nou~nou_002_e__T74--1
+3	over	over	ADP	_	_	5	case	_	name=O
+4	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(nou~nou_002_e__T75--1
+5	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=nou~nou_002_e__T75)nou~nou_002_e__T74)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+7	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(nou~nou_002_e__2146--1)
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(nou~nou_002_e__T77--1
+9	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	10	advmod	_	name=O
+10	vanlige	vanlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	finansieringsformen	finansieringsform	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T77)
+12	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 012712
+# text = Et system med medlemskontingent kan utformes på flere måter.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(nou~nou_002_e__T78--1
+2	system	system	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj:pass	_	name=O
+3	med	med	ADP	_	_	4	case	_	name=O
+4	medlemskontingent	medlemskontingent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(nou~nou_002_e__T79--1)nou~nou_002_e__T78)
+5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	utformes	utforme	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+7	på	på	ADP	_	_	9	case	_	name=O
+8	flere	mange	ADJ	_	Degree=Cmp	9	amod	_	name=O|Entity=(nou~nou_002_e__T80--1
+9	måter	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T80)
+10	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012713
+# text = En variant er at medlemmene betaler en differensiert kontingent i forhold til inntekt, eller at alle medlemmene betaler en fast medlemskontingent med særskilte satser for ulike medlemsgrupper som husstandsmedlemmer, studenter, pensjonister osv.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(nou~nou_002_e__T81--1
+2	variant	variant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=nou~nou_002_e__T81)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	medlemmene	medlem	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nsubj	_	name=O|Bridge=nou~nou_002_e__61011<nou~nou_002_e__2167:default|Entity=(nou~nou_002_e__2167--1)
+6	betaler	betale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O
+8	differensiert	differensiere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	9	advmod	_	name=O
+9	kontingent	kontingent	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	obj	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(nou~nou_002_e__T83--1
+12	til	til	ADP	_	_	13	case	_	name=O
+13	inntekt	inntekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T84--1)nou~nou_002_e__T83)
+14	,	$,	PUNCT	_	_	19	punct	_	name=O
+15	eller	eller	CCONJ	_	_	19	cc	_	name=O
+16	at	at	SCONJ	_	_	19	mark	_	name=O
+17	alle	all	DET	_	Number=Plur|PronType=Tot	18	det	_	name=O|Entity=(nou~nou_002_e__2167--1
+18	medlemmene	medlem	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	19	nsubj	_	name=O|Entity=nou~nou_002_e__2167)
+19	betaler	betale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(nou~nou_002_e__T86--1
+21	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	medlemskontingent	medlemskontingent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	name=O
+23	med	med	ADP	_	_	25	case	_	name=O
+24	særskilte	særskilt	ADJ	_	Degree=Pos|Number=Plur	25	amod	_	name=O|Entity=(nou~nou_002_e__T87--1
+25	satser	sats	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	nmod	_	name=O
+26	for	for	ADP	_	_	28	case	_	name=O
+27	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	28	amod	_	name=O|Entity=(nou~nou_002_e__T88--1
+28	medlemsgrupper	medlemsgruppe	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	25	nmod	_	name=O
+29	som	som	ADP	_	_	30	case	_	name=O
+30	husstandsmedlemmer	husstandsmedlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	28	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T89--1(nou~nou_002_e__T90--1
+31	,	$,	PUNCT	_	_	32	punct	_	name=O|Entity=nou~nou_002_e__T90)
+32	studenter	student	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	30	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T91--1
+33	,	$,	PUNCT	_	_	32	punct	_	name=O|Entity=nou~nou_002_e__T91)
+34	pensjonister	pensjonist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	30	conj	_	name=O|Entity=(nou~nou_002_e__T92--1
+35	osv.	osv.	ADV	_	Abbr=Yes	34	advmod	_	name=O|Entity=nou~nou_002_e__T92)nou~nou_002_e__T89)nou~nou_002_e__T88)nou~nou_002_e__T87)nou~nou_002_e__T86)
+
+# newpar
+# sent_id = 012714
+# text = Medlemskontingenten kan enten innsamles av det offentlige eller av kirken.
+1	Medlemskontingenten	medlemskontingent	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj:pass	_	name=O|Bridge=nou~nou_002_e__T78<nou~nou_002_e__T93:default|Entity=(nou~nou_002_e__T93--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	enten	enten	CCONJ	_	_	7	cc	_	name=O
+4	innsamles	innsamle	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+5	av	av	ADP	_	_	7	case	_	name=O
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(nou~nou_002_e__T94--1(nou~nou_002_e__3582--1
+7	offentlige	offentlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	advmod	_	name=O|Entity=nou~nou_002_e__3582)
+8	eller	eller	CCONJ	_	_	10	cc	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__61011--1)nou~nou_002_e__T94)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012715
+# text = 2.2.5 Gravferdsforvaltningen
+1	2.2.5	2.2.5	NUM	_	NumType=Card	2	nummod	_	name=O|Entity=(nou~nou_002_e__T97--1
+2	Gravferdsforvaltningen	gravferdsforvaltning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(nou~nou_002_e__81380--1)nou~nou_002_e__T97)
+
+# sent_id = 012716
+# text = I kapittel 7 utredes ulike sider ved gravferdsforvaltningen.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	kapittel	kapittel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(nou~nou_002_e__T98--1
+3	7	7	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=nou~nou_002_e__T98)
+4	utredes	utrede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+5	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(nou~nou_002_e__T99--1
+6	sider	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj:pass	_	name=O
+7	ved	ved	ADP	_	_	8	case	_	name=O
+8	gravferdsforvaltningen	gravferdsforvaltning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__81380--1)nou~nou_002_e__T99)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012717
+# text = Den omfatter praktiske og juridiske forhold knyttet til forvaltning og drift av kirkegård/ gravplass og krematorium, m.m.
+1	Den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(nou~nou_002_e__81380--1)
+2	omfatter	omfatte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	praktiske	praktisk	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(nou~nou_002_e__T102--1
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	juridiske	juridisk	ADJ	_	Degree=Pos|Number=Plur	3	conj	_	name=O
+6	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	name=O
+7	knyttet	knytte	VERB	_	VerbForm=Part	6	acl:relcl	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	forvaltning	forvaltning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(nou~nou_002_e__T103--1(nou~nou_002_e__T104--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	drift	drift	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	name=O|Entity=(nou~nou_002_e__T105--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	kirkegård	kirkegård	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T106--1(nou~nou_002_e__T107--1
+14	/	$/	PUNCT	_	_	15	punct	_	name=O|Entity=nou~nou_002_e__T107)
+15	gravplass	gravplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	name=O|Entity=(nou~nou_002_e__T108--1)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	krematorium	krematorium	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T109--1)nou~nou_002_e__T106)nou~nou_002_e__T105)nou~nou_002_e__T103)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	m.m.	m.m.	ADV	_	Abbr=Yes	6	advmod	_	name=O|Entity=nou~nou_002_e__T102)
+
+# newpar
+# sent_id = 012718
+# text = I tillegg til det juridiske og administrative, berører gravferdsforvaltningen viktige kulturelle, religiøse og livssynsmessige forhold.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(nou~nou_002_e__T110--1
+3	til	til	ADP	_	_	5	case	_	name=O
+4	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(nou~nou_002_e__T111--1(nou~nou_002_e__T112--1
+5	juridiske	juridisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=nou~nou_002_e__T112)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	administrative	administrativ	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T113--1)nou~nou_002_e__T111)nou~nou_002_e__T110)
+8	,	$,	PUNCT	_	_	2	punct	_	name=O
+9	berører	berøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	gravferdsforvaltningen	gravferdsforvaltning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=(nou~nou_002_e__81380--1)
+11	viktige	viktig	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(nou~nou_002_e__T115--1
+12	kulturelle	kulturell	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	religiøse	religiøs	ADJ	_	Degree=Pos|Number=Plur	12	conj	_	name=O
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	livssynsmessige	livssynsmessig	ADJ	_	Degree=Pos|Number=Plur	12	conj	_	name=O
+17	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T115)
+18	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012719
+# text = Ulike trossamfunns gravskikker og en økende tendens til at enkeltpersoner ønsker individuelle ordninger, utfordrer i dag gravferdsforvaltningen.
+1	Ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(nou~nou_002_e__T117--1(nou~nou_002_e__T118[1/2]--1(nou~nou_002_e__T116--1
+2	trossamfunns	trossamfunn	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	name=O|Entity=nou~nou_002_e__T116)
+3	gravskikker	gravskikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nsubj	_	name=O|Entity=nou~nou_002_e__T118[1/2])
+4	og	og	CCONJ	_	_	7	cc	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(nou~nou_002_e__T119--1
+6	økende	øke	ADJ	_	VerbForm=Part	7	amod	_	name=O
+7	tendens	tendens	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	name=O
+8	til	til	SCONJ	_	_	11	mark	_	name=O
+9	at	at	SCONJ	_	_	11	mark	_	name=O
+10	enkeltpersoner	enkeltperson	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nsubj	_	name=O|Entity=(nou~nou_002_e__T120--1)
+11	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl	_	name=O
+12	individuelle	individuell	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(nou~nou_002_e__T121--1
+13	ordninger	ordning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T121)nou~nou_002_e__T119)
+14	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=(nou~nou_002_e__T118[2/2]--1)nou~nou_002_e__T117)
+15	utfordrer	utfordre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(nou~nou_002_e__T122--1)
+18	gravferdsforvaltningen	gravferdsforvaltning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__81380--1)
+19	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# newpar
+# sent_id = 012720
+# text = Uavhengig av hvem som skal ivareta ansvaret for gravferdsforvaltningen, mener utvalget at følgende retningslinjer bør gjelde:
+1	Uavhengig	uavhengig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+2	av	av	SCONJ	_	_	6	mark	_	name=O
+3	hvem	hvem	PRON	_	Animacy=Hum|PronType=Int	6	nsubj	_	name=O
+4	som	som	PRON	_	PronType=Rel	6	nmod	_	name=O
+5	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	ivareta	ivareta	VERB	_	VerbForm=Inf	1	advcl	_	name=O
+7	ansvaret	ansvar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obj	_	name=O|Entity=(nou~nou_002_e__2285--1
+8	for	for	ADP	_	_	9	case	_	name=O
+9	gravferdsforvaltningen	gravferdsforvaltning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__81380--1)nou~nou_002_e__2285)
+10	,	$,	PUNCT	_	_	1	punct	_	name=O
+11	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	utvalget	utvalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	name=O|Entity=(nou~nou_002_e__61398--1)
+13	at	at	SCONJ	_	_	17	mark	_	name=O
+14	følgende	følgende	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O|Entity=(nou~nou_002_e__T127--1
+15	retningslinjer	retningslinje	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	17	nsubj	_	name=O|Entity=nou~nou_002_e__T127)
+16	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	gjelde	gjelde	VERB	_	VerbForm=Inf	11	ccomp	_	SpaceAfter=No|name=O
+18	:	$:	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 012721
+# text = - Det er et offentlig ansvar å sørge for gravplasser og å etablere ordninger som sikrer at gravferd og jordfesting skjer i faste, ordnede og verdige former.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(nou~nou_002_e__T128--1
+5	offentlig	offentlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O
+6	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=nou~nou_002_e__T128)
+7	å	å	PART	_	_	8	mark	_	name=O
+8	sørge	sørge	VERB	_	VerbForm=Inf	6	csubj	_	name=O
+9	for	for	ADP	_	_	10	case	_	name=O
+10	gravplasser	gravplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	name=O|Entity=(nou~nou_002_e__T129--1)
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	etablere	etablere	VERB	_	VerbForm=Inf	8	conj	_	name=O
+14	ordninger	ordning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	13	obj	_	name=O|Entity=(nou~nou_002_e__T130--1
+15	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+16	sikrer	sikre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	name=O
+17	at	at	SCONJ	_	_	21	mark	_	name=O
+18	gravferd	gravferd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	nsubj	_	name=O|Entity=(nou~nou_002_e__T131--1(nou~nou_002_e__T132--1)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	jordfesting	jordfesting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	conj	_	name=O|Entity=(nou~nou_002_e__T133--1)nou~nou_002_e__T131)
+21	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	ccomp	_	name=O
+22	i	i	ADP	_	_	28	case	_	name=O
+23	faste	fast	ADJ	_	Degree=Pos|Number=Plur	28	amod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T134--1
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	ordnede	ordne	ADJ	_	Number=Plur|VerbForm=Part	23	conj	_	name=O
+26	og	og	CCONJ	_	_	27	cc	_	name=O
+27	verdige	verdig	ADJ	_	Degree=Pos|Number=Plur	23	conj	_	name=O
+28	former	form	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T134)nou~nou_002_e__T130)
+29	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012722
+# text = - Alle skal gravlegges med verdighet og respekt for personlig tro eller livssyn.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	4	nsubj:pass	_	name=O|Entity=(nou~nou_002_e__T135--1)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	gravlegges	gravlegge	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	verdighet	verdighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=(nou~nou_002_e__T136--1(nou~nou_002_e__T137--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	respekt	respekt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=O|Entity=(nou~nou_002_e__T138--1
+9	for	for	ADP	_	_	11	case	_	name=O
+10	personlig	personlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(nou~nou_002_e__T139--1(nou~nou_002_e__T140--1
+11	tro	tro	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	name=O|Entity=nou~nou_002_e__T140)
+12	eller	eller	CCONJ	_	_	13	cc	_	name=O
+13	livssyn	livssyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T141--1)nou~nou_002_e__T139)nou~nou_002_e__T138)nou~nou_002_e__T136)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012723
+# text = - Gravferd skal så langt det er mulig skje i overensstemmelse med de regler den enkelte religion eller tradisjon krever.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Gravferd	gravferd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(nou~nou_002_e__T142--1)
+3	skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	så	så	ADV	_	_	5	advmod	_	name=O
+5	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advcl	_	name=O
+9	skje	skje	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	overensstemmelse	overensstemmelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(nou~nou_002_e__T143--1
+12	med	med	ADP	_	_	14	case	_	name=O
+13	de	de	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(nou~nou_002_e__T144--1
+14	regler	regel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	name=O
+15	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(nou~nou_002_e__T145--1(nou~nou_002_e__T146--1
+16	enkelte	enkelt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	religion	religion	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	nsubj	_	name=O|Entity=nou~nou_002_e__T146)
+18	eller	eller	CCONJ	_	_	19	cc	_	name=O
+19	tradisjon	tradisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	name=O|Entity=(nou~nou_002_e__T147--1)nou~nou_002_e__T145)
+20	krever	kreve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T144)nou~nou_002_e__T143)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 012724
+# text = - Det offentlige må tilsvarende ta ansvar for å skaffe til veie verdige livssynsfleksible seremonilokaler til bruk for innbyggere som ikke benytter kirkelige bygg til sine seremonier.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(nou~nou_002_e__3582--1
+3	offentlige	offentlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	nsubj	_	name=O|Entity=nou~nou_002_e__3582)
+4	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	tilsvarende	tilsvare	ADJ	_	VerbForm=Part	6	advmod	_	name=O
+6	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O|Entity=(nou~nou_002_e__T149--1
+8	for	for	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	skaffe	skaffe	VERB	_	VerbForm=Inf	7	acl	_	name=O
+11	til	til	ADP	_	_	12	case	_	name=O
+12	veie	veie	NOUN	_	_	10	obl	_	name=O|Entity=(nou~nou_002_e__T150--1)
+13	verdige	verdig	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O|Entity=(nou~nou_002_e__T151--1
+14	livssynsfleksible	livssynsfleksibel	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	seremonilokaler	seremonilokale	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	name=O
+16	til	til	ADP	_	_	17	case	_	name=O
+17	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(nou~nou_002_e__T152--1
+18	for	for	ADP	_	_	19	case	_	name=O
+19	innbyggere	innbygger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	nmod	_	name=O|Entity=(nou~nou_002_e__2308--1
+20	som	som	PRON	_	PronType=Rel	22	nsubj	_	name=O
+21	ikke	ikke	PART	_	Polarity=Neg	22	advmod	_	name=O
+22	benytter	benytte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	name=O
+23	kirkelige	kirkelig	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	name=O|Entity=(nou~nou_002_e__T154--1
+24	bygg	bygg	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	obj	_	name=O|Entity=nou~nou_002_e__T154)
+25	til	til	ADP	_	_	27	case	_	name=O
+26	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	27	nmod	_	name=O|Entity=(nou~nou_002_e__T156--1(nou~nou_002_e__2308--1)
+27	seremonier	seremoni	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T156)nou~nou_002_e__2308)nou~nou_002_e__T152)nou~nou_002_e__T151)nou~nou_002_e__T149)
+28	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012725
+# text = Uavhengig av kirkeordning, er det etter utvalgets mening to alternative steder å plassere ansvaret for gravferdsforvaltningen: hos kirkelig fellesråd eller kommunen.
+1	Uavhengig	uavhengig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+2	av	av	ADP	_	_	3	case	_	name=O
+3	kirkeordning	kirkeordning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__2453--1)
+4	,	$,	PUNCT	_	_	1	punct	_	name=O
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+7	etter	etter	ADP	_	_	9	case	_	name=O
+8	utvalgets	utvalg	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(nou~nou_002_e__T159--1(nou~nou_002_e__61398--1)
+9	mening	mening	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	name=O|Entity=nou~nou_002_e__T159)
+10	to	to	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(nou~nou_002_e__2330--1
+11	alternative	alternativ	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	steder	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	plassere	plassere	VERB	_	VerbForm=Inf	12	acl	_	name=O
+15	ansvaret	ansvar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obj	_	name=O|Entity=(nou~nou_002_e__2285--1
+16	for	for	ADP	_	_	17	case	_	name=O
+17	gravferdsforvaltningen	gravferdsforvaltning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__81380--1)nou~nou_002_e__2285)
+18	:	$:	PUNCT	_	_	21	punct	_	name=O
+19	hos	hos	ADP	_	_	21	case	_	name=O
+20	kirkelig	kirkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	name=O|Entity=(nou~nou_002_e__T163--1(nou~nou_002_e__T164--1
+21	fellesråd	fellesråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	appos	_	name=O|Entity=nou~nou_002_e__T164)
+22	eller	eller	CCONJ	_	_	23	cc	_	name=O
+23	kommunen	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__5447--1)nou~nou_002_e__T163)nou~nou_002_e__2330)
+24	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# newpar
+# sent_id = 012726
+# text = Utvalget drøfter fordeler og ulemper med begge alternativene.
+1	Utvalget	utvalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(nou~nou_002_e__61398--1)
+2	drøfter	drøfte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	fordeler	fordel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=(nou~nou_002_e__T167--1(nou~nou_002_e__T168--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	ulemper	ulempe	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	conj	_	name=O|Entity=(nou~nou_002_e__T169--1
+6	med	med	ADP	_	_	8	case	_	name=O
+7	begge	begge	DET	_	Number=Plur|PronType=Tot	8	det	_	name=O|Entity=(nou~nou_002_e__2330--1
+8	alternativene	alternativ	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__2330)nou~nou_002_e__T169)nou~nou_002_e__T167)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 012727
+# text = 2.2.6 Fredede og verneverdige kirker
+1	2.2.6	2.2.6	NUM	_	NumType=Card	5	nummod	_	name=O|Entity=(nou~nou_002_e__T171--1
+2	Fredede	frede	ADJ	_	Number=Plur|VerbForm=Part	5	amod	_	name=O
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	verneverdige	verneverdig	ADJ	_	Degree=Pos|Number=Plur	2	conj	_	name=O
+5	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	name=O|Entity=nou~nou_002_e__T171)
+
+# sent_id = 012728
+# text = I kapittel 8 behandles fredede og verneverdige kirker.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	kapittel	kapittel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(nou~nou_002_e__T172--1
+3	8	8	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=nou~nou_002_e__T172)
+4	behandles	behandle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+5	fredede	frede	ADJ	_	Number=Plur|VerbForm=Part	8	amod	_	name=O|Entity=(nou~nou_002_e__T173--1
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	verneverdige	verneverdig	ADJ	_	Degree=Pos|Number=Plur	5	conj	_	name=O
+8	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj:pass	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T173)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012729
+# text = Landets eldre kirker og kirkegårder er en vesentlig kilde til forståelse av norsk kulturhistorie.
+1	Landets	land	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(nou~nou_002_e__T175--1(nou~nou_002_e__T176--1(nou~nou_002_e__3591--1)
+2	eldre	gammel	ADJ	_	Degree=Cmp	3	amod	_	name=O
+3	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	nsubj	_	name=O|Entity=nou~nou_002_e__T176)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	kirkegårder	kirkegård	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	name=O|Entity=(nou~nou_002_e__T177--1)nou~nou_002_e__T175)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(nou~nou_002_e__T178--1
+8	vesentlig	vesentlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	kilde	kilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	forståelse	forståelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(nou~nou_002_e__T179--1
+12	av	av	ADP	_	_	14	case	_	name=O
+13	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(nou~nou_002_e__T180--1
+14	kulturhistorie	kulturhistorie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T180)nou~nou_002_e__T179)nou~nou_002_e__T178)
+15	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012730
+# text = Kirkenes utsmykning er blant landets viktigste kunstskatter.
+1	Kirkenes	kirke	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Plur	2	nmod	_	name=O|Entity=(nou~nou_002_e__T182--1(nou~nou_002_e__T181--1)
+2	utsmykning	utsmykning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	name=O|Entity=nou~nou_002_e__T182)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+4	blant	blant	ADP	_	_	7	case	_	name=O
+5	landets	land	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=(nou~nou_002_e__T184--1(nou~nou_002_e__3591--1)
+6	viktigste	viktig	ADJ	_	Definite=Def|Degree=Sup	7	amod	_	name=O
+7	kunstskatter	kunstskatt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T184)
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 012731
+# text = Alle offentlige og kirkelige utredninger og instanser har de senere tiår understreket det offentliges ansvar for å ivareta denne kulturarven.
+1	Alle	all	DET	_	Number=Plur|PronType=Tot	5	det	_	name=O|Entity=(nou~nou_002_e__T185--1(nou~nou_002_e__T186--1
+2	offentlige	offentlig	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	kirkelige	kirkelig	ADJ	_	Degree=Pos|Number=Plur	2	conj	_	name=O
+5	utredninger	utredning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nsubj	_	name=O|Entity=nou~nou_002_e__T186)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	instanser	instans	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	conj	_	name=O|Entity=(nou~nou_002_e__T187--1)nou~nou_002_e__T185)
+8	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	de	de	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(nou~nou_002_e__T188--1
+10	senere	sen	ADJ	_	Degree=Cmp	11	amod	_	name=O
+11	tiår	tiår	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obl	_	name=O|Entity=nou~nou_002_e__T188)
+12	understreket	understreke	VERB	_	VerbForm=Part	8	xcomp	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(nou~nou_002_e__T189--1(nou~nou_002_e__3582--1
+14	offentliges	offentlig	ADJ	_	Case=Gen|Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=nou~nou_002_e__3582)
+15	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	name=O
+16	for	for	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	ivareta	ivareta	VERB	_	VerbForm=Inf	15	acl	_	name=O
+19	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	name=O|Bridge=nou~nou_002_e__T182<nou~nou_002_e__T190:default|Entity=(nou~nou_002_e__T190--1
+20	kulturarven	kulturarv	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T190)nou~nou_002_e__T189)
+21	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012732
+# text = Forvaltning av kirken og kirkens omgivelser skal samordnes med kulturminneloven og plan- og bygningsloven.
+1	Forvaltning	forvaltning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	nsubj:pass	_	name=O|Entity=(nou~nou_002_e__T191--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(nou~nou_002_e__T192--1(nou~nou_002_e__2387--1)
+4	og	og	CCONJ	_	_	6	cc	_	name=O
+5	kirkens	kirke	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(nou~nou_002_e__T195--1(nou~nou_002_e__2387--1)
+6	omgivelser	omgivelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	name=O|Entity=nou~nou_002_e__T195)nou~nou_002_e__T192)nou~nou_002_e__T191)
+7	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	samordnes	samordne	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+9	med	med	ADP	_	_	10	case	_	name=O
+10	kulturminneloven	kulturminnelov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(nou~nou_002_e__T196--1(nou~nou_002_e__2421--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	plan-	plan-	NOUN	_	_	10	conj	_	name=O|Entity=(nou~nou_002_e__T198--1(nou~nou_002_e__T199--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	bygningsloven	bygningslov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T200--1)nou~nou_002_e__T198)nou~nou_002_e__T196)
+15	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012733
+# text = Oppføring, ombygging, utvidelse eller nedleggelse av kirker skal godkjennes av departementet.
+1	Oppføring	oppføring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	nsubj:pass	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T201--1(nou~nou_002_e__T202--1
+2	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=nou~nou_002_e__T202)
+3	ombygging	ombygging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T203--1
+4	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=nou~nou_002_e__T203)
+5	utvidelse	utvidelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(nou~nou_002_e__T204--1)
+6	eller	eller	CCONJ	_	_	7	cc	_	name=O
+7	nedleggelse	nedleggelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(nou~nou_002_e__T205--1
+8	av	av	ADP	_	_	9	case	_	name=O
+9	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	nmod	_	name=O|Entity=(nou~nou_002_e__T206--1)nou~nou_002_e__T205)nou~nou_002_e__T201)
+10	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	godkjennes	godkjenne	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	departementet	departement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T207--1)
+14	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 012734
+# text = Dersom en kirke nedlegges, opphører kommunens økonomiske ansvar.
+1	Dersom	dersom	SCONJ	_	_	4	mark	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(nou~nou_002_e__T208--1
+3	kirke	kirke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj:pass	_	name=O|Entity=nou~nou_002_e__T208)
+4	nedlegges	nedlegge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	4	punct	_	name=O
+6	opphører	opphøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	kommunens	kommune	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(nou~nou_002_e__T210--1(nou~nou_002_e__5447--1)
+8	økonomiske	økonomisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T210)
+10	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 012735
+# text = Hvis bygget er verneverdig eller fredet, får det et statlig tilskudd, i tillegg kan Riksantikvaren også gi støtte til merkostnader ved restaurering av kirkebygg.
+1	Hvis	hvis	SCONJ	_	_	4	mark	_	name=O
+2	bygget	bygg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Bridge=nou~nou_002_e__T208<nou~nou_002_e__2423:default|Entity=(nou~nou_002_e__2423--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	verneverdig	verneverdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advcl	_	name=O
+5	eller	eller	CCONJ	_	_	6	cc	_	name=O
+6	fredet	frede	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	conj	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	4	punct	_	name=O
+8	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(nou~nou_002_e__2423--1)
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(nou~nou_002_e__T213--1
+11	statlig	statlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	name=O
+12	tilskudd	tilskudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T213)
+13	,	$,	PUNCT	_	_	19	punct	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	name=O|Entity=(nou~nou_002_e__T214--1)
+16	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+17	Riksantikvaren	Riksantikvaren	PROPN	_	_	19	nsubj	_	name=B-ORG|Entity=(nou~nou_002_e__51164--1)
+18	også	også	ADV	_	_	19	advmod	_	name=O
+19	gi	gi	VERB	_	VerbForm=Inf	8	conj	_	name=O
+20	støtte	støtte	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	name=O|Entity=(nou~nou_002_e__T216--1
+21	til	til	ADP	_	_	22	case	_	name=O
+22	merkostnader	merkostnad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	nmod	_	name=O|Entity=(nou~nou_002_e__T217--1
+23	ved	ved	ADP	_	_	24	case	_	name=O
+24	restaurering	restaurering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	name=O|Entity=(nou~nou_002_e__T218--1
+25	av	av	ADP	_	_	26	case	_	name=O
+26	kirkebygg	kirkebygg	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T219--1)nou~nou_002_e__T218)nou~nou_002_e__T217)nou~nou_002_e__T216)
+27	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012736
+# text = Endringer på fredede kirker krever vedtak både etter kulturminneloven og kirkeloven.
+1	Endringer	endring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	name=O|Entity=(nou~nou_002_e__T220--1
+2	på	på	ADP	_	_	4	case	_	name=O
+3	fredede	frede	ADJ	_	Number=Plur|VerbForm=Part	4	amod	_	name=O|Entity=(nou~nou_002_e__2448--1
+4	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	name=O|Entity=nou~nou_002_e__2448)nou~nou_002_e__T220)
+5	krever	kreve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	vedtak	vedtak	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	name=O|Entity=(nou~nou_002_e__T222--1)
+7	både	både	CCONJ	_	_	9	cc	_	name=O
+8	etter	etter	ADP	_	_	9	case	_	name=O
+9	kulturminneloven	kulturminnelov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(nou~nou_002_e__T223--1(nou~nou_002_e__2421--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	kirkeloven	kirkelov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__2490--1)nou~nou_002_e__T223)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012737
+# text = Enhver endring i disse byggene må godkjennes av både Riksantikvaren og biskopen.
+1	Enhver	enhver	DET	_	Gender=Fem|Number=Sing|PronType=Tot	2	det	_	name=O|Entity=(nou~nou_002_e__T226--1
+2	endring	endring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj:pass	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	disse	disse	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(nou~nou_002_e__2448--1
+5	byggene	bygg	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=nou~nou_002_e__2448)nou~nou_002_e__T226)
+6	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	godkjennes	godkjenne	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+8	av	av	ADP	_	_	10	case	_	name=O
+9	både	både	CCONJ	_	_	10	cc	_	name=O
+10	Riksantikvaren	Riksantikvaren	PROPN	_	_	7	obl	_	name=B-ORG|Entity=(nou~nou_002_e__T228--1(nou~nou_002_e__51164--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	biskopen	biskop	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T230--1)nou~nou_002_e__T228)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 012738
+# text = Vedlikehold skjer etter retningslinjer gitt av Riksantikvaren.
+1	Vedlikehold	vedlikehold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(nou~nou_002_e__T231--1)
+2	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	etter	etter	ADP	_	_	4	case	_	name=O
+4	retningslinjer	retningslinje	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	obl	_	name=O|Entity=(nou~nou_002_e__T232--1
+5	gitt	gi	VERB	_	VerbForm=Part	4	acl:relcl	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	Riksantikvaren	Riksantikvaren	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-ORG|Entity=(nou~nou_002_e__51164--1)nou~nou_002_e__T232)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012739
+# text = Norge har ca. 1620 kirker, av disse er 219 fredet og 761 har status som verneverdige.
+1	Norge	Norge	PROPN	_	_	2	nsubj	_	name=B-GPE_LOC|Entity=(nou~nou_002_e__3591--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ca.	ca.	ADV	_	Abbr=Yes	4	advmod	_	name=O|Entity=(nou~nou_002_e__3715--1
+4	1620	1620	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O
+5	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__3715)
+6	,	$,	PUNCT	_	_	11	punct	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	disse	disse	PRON	_	Number=Plur|Person=3|PronType=Prs	11	obl	_	name=O|Entity=(nou~nou_002_e__3715--1)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	219	219	NUM	_	Number=Plur|NumType=Card	11	nsubj	_	name=O
+11	fredet	frede	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	2	conj	_	name=O
+12	og	og	CCONJ	_	_	14	cc	_	name=O
+13	761	761	NUM	_	Number=Plur|NumType=Card	14	nsubj	_	name=O
+14	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	name=O
+15	status	status	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=(nou~nou_002_e__T237--1
+16	som	som	ADP	_	_	17	case	_	name=O
+17	verneverdige	verneverdig	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T238--1)nou~nou_002_e__T237)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012740
+# text = Dette medfører store praktiske og økonomiske forpliktelser.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(nou~nou_002_e__T239--1)
+2	medfører	medføre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	store	stor	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(nou~nou_002_e__T240--1
+4	praktiske	praktisk	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	økonomiske	økonomisk	ADJ	_	Degree=Pos|Number=Plur	4	conj	_	name=O
+7	forpliktelser	forpliktelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T240)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012741
+# text = Beregninger fra Riksantikvaren viser at en stor del av kirkene blir for dårlig vedlikeholdt.
+1	Beregninger	beregning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	name=O|Entity=(nou~nou_002_e__T241--1
+2	fra	fra	ADP	_	_	3	case	_	name=O
+3	Riksantikvaren	Riksantikvaren	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(nou~nou_002_e__51164--1)nou~nou_002_e__T241)
+4	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	at	at	SCONJ	_	_	14	mark	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(nou~nou_002_e__T243--1
+7	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nsubj:pass	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	kirkene	kirke	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	name=O|Entity=(nou~nou_002_e__3715--1)nou~nou_002_e__T243)
+11	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux:pass	_	name=O
+12	for	for	ADV	_	_	13	advmod	_	name=O
+13	dårlig	dårlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+14	vedlikeholdt	vedlikeholde	VERB	_	VerbForm=Part	4	ccomp	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012742
+# text = Ut fra Riksantikvarens beregninger bevilges det i dag 3 mrd. kroner for lite til istandsetting, og vel 100 mill. kroner mangler til årlig vedlikehold.
+1	Ut	ut	ADP	_	_	4	case	_	name=O
+2	fra	fra	ADP	_	_	4	case	_	name=O
+3	Riksantikvarens	Riksantikvaren	PROPN	_	Case=Gen	4	nmod	_	name=B-ORG|Entity=(nou~nou_002_e__T246--1(nou~nou_002_e__51164--1)
+4	beregninger	beregning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	name=O|Entity=nou~nou_002_e__T246)
+5	bevilges	bevilge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(nou~nou_002_e__T247--1)
+9	3	3	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(nou~nou_002_e__T249--1(nou~nou_002_e__T248--1
+10	mrd.	mrd.	NOUN	_	Abbr=Yes	11	nmod	_	name=O|Entity=nou~nou_002_e__T248)
+11	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	obl	_	name=O|Entity=nou~nou_002_e__T249)
+12	for	for	ADV	_	_	13	advmod	_	name=O
+13	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	obj	_	name=O
+14	til	til	ADP	_	_	15	case	_	name=O
+15	istandsetting	istandsetting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T250--1)
+16	,	$,	PUNCT	_	_	22	punct	_	name=O
+17	og	og	CCONJ	_	_	22	cc	_	name=O
+18	vel	vel	ADV	_	_	19	advmod	_	name=O|Entity=(nou~nou_002_e__T252--1(nou~nou_002_e__T251--1
+19	100	100	NUM	_	Number=Plur|NumType=Card	20	nummod	_	name=O
+20	mill.	mill.	NOUN	_	Abbr=Yes	21	nmod	_	name=O|Entity=nou~nou_002_e__T251)
+21	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	22	nsubj	_	name=O|Entity=nou~nou_002_e__T252)
+22	mangler	mangle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+23	til	til	ADP	_	_	25	case	_	name=O
+24	årlig	årlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	name=O|Entity=(nou~nou_002_e__T253--1
+25	vedlikehold	vedlikehold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T253)
+26	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 012743
+# text = 2.2.7 Eiendomsrett
+1	2.2.7	2.2.7	NUM	_	NumType=Card	2	nummod	_	name=O|Entity=(nou~nou_002_e__T254--1
+2	Eiendomsrett	eiendomsrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=nou~nou_002_e__T254)
+
+# sent_id = 012744
+# text = I kapittel 9 drøftes eiendomsretten til kirker, fond og eiendommer.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	kapittel	kapittel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(nou~nou_002_e__T255--1
+3	9	9	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=nou~nou_002_e__T255)
+4	drøftes	drøfte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+5	eiendomsretten	eiendomsrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj:pass	_	name=O|Entity=(nou~nou_002_e__T256--1
+6	til	til	ADP	_	_	7	case	_	name=O
+7	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T257--1(nou~nou_002_e__T258--1
+8	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=nou~nou_002_e__T258)
+9	fond	fond	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	conj	_	name=O|Entity=(nou~nou_002_e__T259--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	eiendommer	eiendom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T260--1)nou~nou_002_e__T257)nou~nou_002_e__T256)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012745
+# text = De lokale eiendomsrettslige spørsmålene har alltid stått i en særstilling, og er i dag løst ved at soknene etter kirkeloven har fått avklart sin status som egne rettssubjekter, med full eiendomsrett over kirker, kirkefond, kirkegårder m.m.
+1	De	de	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(nou~nou_002_e__T261--1
+2	lokale	lokal	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+3	eiendomsrettslige	eiendomsrettslig	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+4	spørsmålene	spørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	name=O|Entity=nou~nou_002_e__T261)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	alltid	alltid	ADV	_	_	7	advmod	_	name=O
+7	stått	stå	VERB	_	VerbForm=Part	0	root	_	name=O
+8	i	i	ADP	_	_	10	case	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(nou~nou_002_e__T262--1
+10	særstilling	særstilling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T262)
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	og	og	CCONJ	_	_	16	cc	_	name=O
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	name=O|Entity=(nou~nou_002_e__T263--1)
+16	løst	løse	VERB	_	VerbForm=Part	7	conj	_	name=O
+17	ved	ved	SCONJ	_	_	24	mark	_	name=O
+18	at	at	SCONJ	_	_	24	mark	_	name=O
+19	soknene	sokn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	24	nsubj	_	name=O|Entity=(nou~nou_002_e__3823--1)
+20	etter	etter	ADP	_	_	21	case	_	name=O
+21	kirkeloven	kirkelov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	obl	_	name=O|Entity=(nou~nou_002_e__2490--1)
+22	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	name=O
+23	fått	få	AUX	_	VerbForm=Part	24	aux	_	name=O
+24	avklart	avklare	VERB	_	VerbForm=Part	16	advcl	_	name=O
+25	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	nmod	_	name=O|Entity=(nou~nou_002_e__T267--1(nou~nou_002_e__3823--1)
+26	status	status	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	name=O
+27	som	som	ADP	_	_	29	case	_	name=O
+28	egne	egen	DET	_	Number=Plur|PronType=Prs	29	det	_	name=O|Entity=(nou~nou_002_e__T268--1
+29	rettssubjekter	rettssubjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	26	nmod	_	SpaceAfter=No|name=O
+30	,	$,	PUNCT	_	_	33	punct	_	name=O
+31	med	med	ADP	_	_	33	case	_	name=O
+32	full	full	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	33	amod	_	name=O|Entity=(nou~nou_002_e__T269--1
+33	eiendomsrett	eiendomsrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	name=O
+34	over	over	ADP	_	_	35	case	_	name=O
+35	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T270--1(nou~nou_002_e__T271--1
+36	,	$,	PUNCT	_	_	37	punct	_	name=O|Entity=nou~nou_002_e__T271)
+37	kirkefond	kirkefond	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	35	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T272--1
+38	,	$,	PUNCT	_	_	37	punct	_	name=O|Entity=nou~nou_002_e__T272)
+39	kirkegårder	kirkegård	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	35	conj	_	name=O|Entity=(nou~nou_002_e__T273--1
+40	m.m.	m.m.	ADV	_	Abbr=Yes	39	advmod	_	name=O|Entity=nou~nou_002_e__T273)nou~nou_002_e__T270)nou~nou_002_e__T269)nou~nou_002_e__T268)nou~nou_002_e__T267)
+
+# sent_id = 012746
+# text = De fleste sentrale kirkelige eiendommene er samlet i Opplysningsvesenets fond (OVF).
+1	De	de	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(nou~nou_002_e__T274--1
+2	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	5	amod	_	name=O
+3	sentrale	sentral	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+4	kirkelige	kirkelig	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	eiendommene	eiendom	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=nou~nou_002_e__T274)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	samlet	samle	VERB	_	VerbForm=Part	0	root	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Opplysningsvesenets	Opplysningsvesenets	PROPN	_	_	7	obl	_	name=B-PROD|Entity=(nou~nou_002_e__41186--1
+10	fond	fond	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	flat:name	_	name=I-PROD
+11	(	$(	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T276--1
+12	OVF	OVF	PROPN	_	Abbr=Yes	9	appos	_	SpaceAfter=No|name=B-PROD
+13	)	$)	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T276)nou~nou_002_e__41186)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012747
+# text = Her er de fleste viktige forhold rettslig avklart gjennom Grunnloven, lov og fast praksis som regulerer forvaltningen av fondet og bruken av dets avkastning.
+1	Her	her	ADV	_	_	8	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+3	de	de	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(nou~nou_002_e__T277--1
+4	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	6	amod	_	name=O
+5	viktige	viktig	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=nou~nou_002_e__T277)
+7	rettslig	rettslig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+8	avklart	avklare	VERB	_	VerbForm=Part	0	root	_	name=O
+9	gjennom	gjennom	ADP	_	_	10	case	_	name=O
+10	Grunnloven	Grunnloven	PROPN	_	Gender=Masc	8	obl	_	SpaceAfter=No|name=B-PROD|Entity=(nou~nou_002_e__T278--1(nou~nou_002_e__T279--1
+11	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=nou~nou_002_e__T279)
+12	lov	lov	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	name=O|Entity=(nou~nou_002_e__T280--1)
+13	og	og	CCONJ	_	_	15	cc	_	name=O
+14	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(nou~nou_002_e__T281--1
+15	praksis	praksis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	name=O
+16	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+17	regulerer	regulere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+18	forvaltningen	forvaltning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obj	_	name=O|Entity=(nou~nou_002_e__T282--1(nou~nou_002_e__T283--1
+19	av	av	ADP	_	_	20	case	_	name=O
+20	fondet	fond	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	nmod	_	name=O|Entity=(nou~nou_002_e__41186--1)nou~nou_002_e__T283)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	bruken	bruk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	conj	_	name=O|Entity=(nou~nou_002_e__T285--1
+23	av	av	ADP	_	_	25	case	_	name=O
+24	dets	det	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	25	nmod	_	name=O|Entity=(nou~nou_002_e__T286--1(nou~nou_002_e__41186--1)
+25	avkastning	avkastning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T286)nou~nou_002_e__T285)nou~nou_002_e__T282)nou~nou_002_e__T281)nou~nou_002_e__T278)
+26	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012748
+# text = Det gjenstår imidlertid fortsatt et omstridt spørsmål om eiendomsretten til selve fondet.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	gjenstår	gjenstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	imidlertid	imidlertid	ADV	_	_	2	advmod	_	name=O
+4	fortsatt	fortsatt	ADV	_	_	2	advmod	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(nou~nou_002_e__T287--1
+6	omstridt	omstridt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O
+8	om	om	ADP	_	_	9	case	_	name=O
+9	eiendomsretten	eiendomsrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(nou~nou_002_e__T288--1
+10	til	til	ADP	_	_	12	case	_	name=O
+11	selve	selve	DET	_	Definite=Def|PronType=Prs	12	det	_	name=O|Entity=(nou~nou_002_e__41186--1
+12	fondet	fond	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__41186)nou~nou_002_e__T288)nou~nou_002_e__T287)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 012749
+# text = I tillegg finnes det andre sentrale kirkelige eiendommer (kirker m.m.), som ikke er eid av soknene, og som tradisjonelt har vært ansett som statens eiendom.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(nou~nou_002_e__T290--1)
+3	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	andre	annen	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(nou~nou_002_e__T291--1
+6	sentrale	sentral	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+7	kirkelige	kirkelig	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	eiendommer	eiendom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O
+9	(	$(	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T292--1
+10	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	appos	_	name=O
+11	m.m.	m.m.	ADV	_	Abbr=Yes	10	advmod	_	SpaceAfter=No|name=O
+12	)	$)	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T292)
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+15	ikke	ikke	PART	_	Polarity=Neg	17	advmod	_	name=O
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	eid	eie	VERB	_	VerbForm=Part	8	acl:relcl	_	name=O
+18	av	av	ADP	_	_	19	case	_	name=O
+19	soknene	sokn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	17	obl	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__3823--1)
+20	,	$,	PUNCT	_	_	26	punct	_	name=O
+21	og	og	CCONJ	_	_	26	cc	_	name=O
+22	som	som	PRON	_	PronType=Rel	26	nsubj	_	name=O
+23	tradisjonelt	tradisjonell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	advmod	_	name=O
+24	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	name=O
+25	vært	være	AUX	_	VerbForm=Part	26	aux	_	name=O
+26	ansett	anse	VERB	_	VerbForm=Part	17	conj	_	name=O
+27	som	som	SCONJ	_	_	29	mark	_	name=O
+28	statens	stat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	name=O|Entity=(nou~nou_002_e__T295--1(nou~nou_002_e__7754--1)
+29	eiendom	eiendom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	xcomp	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T295)nou~nou_002_e__T291)
+30	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012750
+# text = Dersom kirkeordningen endres slik at Den norske kirke blir et eget rettssubjekt, vil den ha eiendomsrett.
+1	Dersom	dersom	SCONJ	_	_	3	mark	_	name=O
+2	kirkeordningen	kirkeordning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=(nou~nou_002_e__2453--1)
+3	endres	endre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	16	advcl	_	name=O
+4	slik	slik	ADV	_	_	5	advmod	_	name=O
+5	at	at	SCONJ	_	_	9	mark	_	name=O
+6	Den	Den	PROPN	_	_	9	nsubj	_	name=B-ORG|Entity=(nou~nou_002_e__61011--1
+7	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	flat:name	_	name=I-ORG
+8	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	flat:name	_	name=I-ORG|Entity=nou~nou_002_e__61011)
+9	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(nou~nou_002_e__T298--1
+11	eget	egen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	12	det	_	name=O
+12	rettssubjekt	rettssubjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	xcomp	_	SpaceAfter=No|name=O|Entity=nou~nou_002_e__T298)
+13	,	$,	PUNCT	_	_	3	punct	_	name=O
+14	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(nou~nou_002_e__61011--1)
+16	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+17	eiendomsrett	eiendomsrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T300--1)
+18	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# newpar
+# sent_id = 012751
+# text = Dermed må det avklares hvilke eiendommer og fond Den norske kirke kan eller bør få overført fra staten.
+1	Dermed	dermed	ADV	_	_	4	advmod	_	name=O
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	avklares	avklare	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+5	hvilke	hvilken	DET	_	Number=Plur|PronType=Int	6	det	_	name=O|Entity=(nou~nou_002_e__T301--1(nou~nou_002_e__T302--1
+6	eiendommer	eiendom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obj	_	name=O|Entity=nou~nou_002_e__T302)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	fond	fond	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	conj	_	name=O|Entity=(nou~nou_002_e__T303--1)nou~nou_002_e__T301)
+9	Den	Den	PROPN	_	_	12	nsubj	_	name=B-ORG|Entity=(nou~nou_002_e__61011--1
+10	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	flat:name	_	name=I-ORG
+11	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	flat:name	_	name=I-ORG|Entity=nou~nou_002_e__61011)
+12	kan	kunne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	name=O
+13	eller	eller	CCONJ	_	_	16	cc	_	name=O
+14	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	få	få	AUX	_	VerbForm=Inf	16	aux	_	name=O
+16	overført	overføre	VERB	_	VerbForm=Part	12	conj	_	name=O
+17	fra	fra	ADP	_	_	18	case	_	name=O
+18	staten	stat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__7754--1)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012752
+# text = 2.2.8 Utvalgets forslag og konklusjoner
+1	2.2.8	2.2.8	NUM	_	NumType=Card	3	nummod	_	name=O|Entity=(nou~nou_002_e__T307--1(nou~nou_002_e__T308--1
+2	Utvalgets	utvalg	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(nou~nou_002_e__61398--1)
+3	forslag	forslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O|Entity=nou~nou_002_e__T308)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	konklusjoner	konklusjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	name=O|Entity=(nou~nou_002_e__T309--1)nou~nou_002_e__T307)
+
+# sent_id = 012753
+# text = I kapittel 10 finnes utvalgets standpunkter og samlede argumentasjon for fremtidig kirkeordning, finansiering, gravferdsforvaltningen, fredede og verneverdige kirker og eiendomsrett.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	kapittel	kapittel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(nou~nou_002_e__2634--1
+3	10	10	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=nou~nou_002_e__2634)
+4	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	utvalgets	utvalg	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(nou~nou_002_e__T312--1(nou~nou_002_e__T313--1(nou~nou_002_e__61398--1)
+6	standpunkter	standpunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=nou~nou_002_e__T313)
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	samlede	samle	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	9	amod	_	name=O|Entity=(nou~nou_002_e__T314--1
+9	argumentasjon	argumentasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=O
+10	for	for	ADP	_	_	12	case	_	name=O
+11	fremtidig	fremtidig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(nou~nou_002_e__T315--1(nou~nou_002_e__T316--1
+12	kirkeordning	kirkeordning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=nou~nou_002_e__T316)
+14	finansiering	finansiering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T317--1
+15	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=nou~nou_002_e__T317)
+16	gravferdsforvaltningen	gravferdsforvaltning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__81380--1)
+17	,	$,	PUNCT	_	_	21	punct	_	name=O
+18	fredede	frede	ADJ	_	Number=Plur|VerbForm=Part	21	amod	_	name=O|Entity=(nou~nou_002_e__T319--1
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	verneverdige	verneverdig	ADJ	_	Degree=Pos|Number=Plur	18	conj	_	name=O
+21	kirker	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	conj	_	name=O|Entity=nou~nou_002_e__T319)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	eiendomsrett	eiendomsrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T320--1)nou~nou_002_e__T315)nou~nou_002_e__T314)nou~nou_002_e__T312)
+24	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012754
+# text = Enkeltmedlemmers særmerknader fremgår på slutten av kapitlet.
+1	Enkeltmedlemmers	enkeltmedlem	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=(nou~nou_002_e__T322--1(nou~nou_002_e__T321--1)
+2	særmerknader	særmerknad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=nou~nou_002_e__T322)
+3	fremgår	fremgå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	slutten	slutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(nou~nou_002_e__T323--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	kapitlet	kapittel	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__2634--1)nou~nou_002_e__T323)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 012755
+# text = 2.2.9 Forslag til lov- og grunnlovsendringer
+1	2.2.9	2.2.9	NUM	_	NumType=Card	2	nummod	_	name=O|Entity=(nou~nou_002_e__T325--1
+2	Forslag	forslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	lov-	lov-	NOUN	_	_	2	nmod	_	name=O|Entity=(nou~nou_002_e__T326--1(nou~nou_002_e__T327--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	grunnlovsendringer	grunnlovsendring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	conj	_	name=O|Entity=(nou~nou_002_e__T328--1)nou~nou_002_e__T326)nou~nou_002_e__T325)
+
+# newpar
+# sent_id = 012756
+# text = kapittel 11 gir en samlet oversikt over utvalgets forslag til lov- og grunnlovsendringer.
+1	kapittel	kapittel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(nou~nou_002_e__T329--1
+2	11	11	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=O|Entity=nou~nou_002_e__T329)
+3	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(nou~nou_002_e__T330--1
+5	samlet	samle	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	6	amod	_	name=O
+6	oversikt	oversikt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O
+7	over	over	ADP	_	_	9	case	_	name=O
+8	utvalgets	utvalg	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(nou~nou_002_e__T332--1(nou~nou_002_e__61398--1)
+9	forslag	forslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	lov-	lov-	NOUN	_	_	9	nmod	_	name=O|Entity=(nou~nou_002_e__T333--1(nou~nou_002_e__T334--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	grunnlovsendringer	grunnlovsendring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	conj	_	SpaceAfter=No|name=O|Entity=(nou~nou_002_e__T335--1)nou~nou_002_e__T333)nou~nou_002_e__T332)nou~nou_002_e__T330)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 012757
+# text = 2.2.10 Konsekvensvurderinger
+1	2.2.10	2.2.10	NUM	_	NumType=Card	2	nummod	_	name=O|Entity=(nou~nou_002_e__T336--1
+2	Konsekvensvurderinger	konsekvensvurdering	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	name=O|Entity=nou~nou_002_e__T336)
+

@@ -1,0 +1,480 @@
+# newdoc id = firdann~20110615-5640193
+# global.Entity = eid-etype-head-other
+# sent_id = 007157
+# text = - Kvifor gjer dei dette mot meg?
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Kvifor	kvifor	ADV	_	_	3	advmod	_	name=O
+3	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110615_5640193__T1--1)
+5	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(firdann~20110615_5640193__T2--1)
+6	mot	mot	ADP	_	_	7	case	_	name=O
+7	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__261862--1)
+8	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 007158
+# text = Førde-bedrift vert stadig vekk fråstolen skilta sine.
+1	Førde-bedrift	Førde-bedrift	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj:pass	_	name=B-DRV|Entity=(firdann~20110615_5640193__8176--1)
+2	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	name=O
+3	stadig	stadig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+4	vekk	vekk	ADP	_	_	3	obl	_	name=O
+5	fråstolen	fråstele	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	skilta	skilt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	obl	_	name=O|Entity=(firdann~20110615_5640193__8341--1
+7	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	6	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__8176--1)firdann~20110615_5640193__8341)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007159
+# text = - Vi har funne dei i elva, i heisen og no sist i Naustdal ...
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20110615_5640193__8176--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	funne	finne	VERB	_	VerbForm=Part	0	root	_	name=O
+5	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	name=O|Entity=(firdann~20110615_5640193__8341--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	elva	elv	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__255--1)
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	heisen	heis	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	conj	_	name=O|Entity=(firdann~20110615_5640193__T10--1)
+11	og	og	CCONJ	_	_	15	cc	_	name=O
+12	no	no	ADV	_	_	15	advmod	_	name=O
+13	sist	sist	ADV	_	_	12	advmod	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Naustdal	Naustdal	PROPN	_	_	7	conj	_	name=B-GPE_LOC|Entity=(firdann~20110615_5640193__5267--1)
+16	...	$...	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 007160
+# text = Hasan Ibrahim ved Sunnfjord bilpleie i Førde måtte onsdag morgon til Naustdal for å hente eit stole skilt.
+1	Hasan	Hasan	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(firdann~20110615_5640193__261862--1
+2	Ibrahim	Ibrahim	PROPN	_	_	1	flat:name	_	name=I-PER
+3	ved	ved	ADP	_	_	4	case	_	name=O
+4	Sunnfjord	Sunnfjord	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(firdann~20110615_5640193__8176--1
+5	bilpleie	bilpleie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	flat:name	_	name=I-ORG
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Førde	Førde	PROPN	_	_	4	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110615_5640193__3119--1)firdann~20110615_5640193__8176)firdann~20110615_5640193__261862)
+8	måtte	måtte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(firdann~20110615_5640193__T15--1
+10	morgon	morgon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(firdann~20110615_5640193__T16--1)firdann~20110615_5640193__T15)
+11	til	til	ADP	_	_	12	case	_	name=O
+12	Naustdal	Naustdal	PROPN	_	_	8	obl	_	name=B-GPE_LOC|Entity=(firdann~20110615_5640193__5267--1)
+13	for	for	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	hente	hente	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+16	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(firdann~20110615_5640193__T18--1
+17	stole	stele	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	18	amod	_	name=O
+18	skilt	skilt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640193__T18)
+19	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 007161
+# text = Hasan Ibrahim frå Førde driv verksemda Sunnfjord Bilpleie i Førde sentrum.
+1	Hasan	Hasan	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(firdann~20110615_5640193__261862--1
+2	Ibrahim	Ibrahim	PROPN	_	_	1	flat:name	_	name=I-PER
+3	frå	frå	ADP	_	_	4	case	_	name=O
+4	Førde	Førde	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110615_5640193__3119--1)firdann~20110615_5640193__261862)
+5	driv	drive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	verksemda	verksemd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	name=O|Entity=(firdann~20110615_5640193__8176--1
+7	Sunnfjord	Sunnfjord	PROPN	_	_	5	obj	_	name=B-ORG
+8	Bilpleie	Bilpleie	PROPN	_	_	7	flat:name	_	name=I-ORG
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Førde	Førde	PROPN	_	_	7	nmod	_	name=B-LOC|Entity=(firdann~20110615_5640193__T22--1
+11	sentrum	sentrum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=firdann~20110615_5640193__T22)firdann~20110615_5640193__8176)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007162
+# text = Og som alle andre næringsdrivande, ønskjer han å reklamere for tenestene sine.
+1	Og	og	CCONJ	_	_	7	cc	_	name=O
+2	som	som	ADP	_	_	5	case	_	name=O
+3	alle	all	DET	_	Number=Plur|PronType=Tot	5	det	_	name=O|Entity=(firdann~20110615_5640193__T23--1
+4	andre	annan	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O
+5	næringsdrivande	næringsdrivande	ADJ	_	Degree=Pos|Number=Plur	7	advmod	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640193__T23)
+6	,	$,	PUNCT	_	_	5	punct	_	name=O
+7	ønskjer	ønskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+9	å	å	PART	_	_	10	mark	_	name=O
+10	reklamere	reklamere	VERB	_	VerbForm=Inf	7	xcomp	_	name=O
+11	for	for	ADP	_	_	12	case	_	name=O
+12	tenestene	teneste	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	10	obl	_	name=O|Entity=(firdann~20110615_5640193__T25--1
+13	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__261862--1)firdann~20110615_5640193__T25)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 007163
+# text = Men det skal ikkje vere så lett.
+1	Men	men	CCONJ	_	_	7	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(firdann~20110615_5640193__T27--1)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	name=O
+5	vere	vere	AUX	_	VerbForm=Inf	7	cop	_	name=O
+6	så	så	ADV	_	_	7	advmod	_	name=O
+7	lett	lett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 007164
+# text = Finn dei over alt
+1	Finn	finne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	name=O|Entity=(firdann~20110615_5640193__8341--1)
+3	over	over	ADP	_	_	4	case	_	name=O
+4	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	name=O|Entity=(firdann~20110615_5640193__T29--1)
+
+# sent_id = 007165
+# text = Skilta, som kostar nærare 2000 kroner berre for ramma, får ikkje stå i fred.
+1	Skilta	skilt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__8341--1
+2	,	$,	PUNCT	_	_	4	punct	_	name=O
+3	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+4	kostar	koste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+5	nærare	nær	ADJ	_	Degree=Cmp	4	advmod	_	name=O
+6	2000	2000	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(firdann~20110615_5640193__T31--1
+7	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	name=O
+8	berre	berre	ADV	_	_	10	advmod	_	name=O
+9	for	for	ADP	_	_	10	case	_	name=O
+10	ramma	ramme	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T32--1)firdann~20110615_5640193__T31)firdann~20110615_5640193__8341)
+11	,	$,	PUNCT	_	_	1	punct	_	name=O
+12	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+13	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	name=O
+14	stå	stå	VERB	_	VerbForm=Inf	0	root	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	fred	fred	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T33--1)
+17	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 007166
+# text = På ulike stader i nærleiken av bedrifta og Rimi-butikken, står det plassert reklameskilt, gjerne saman med andre bedrifter sine skilt.
+1	På	på	ADP	_	_	3	case	_	name=O
+2	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=(firdann~20110615_5640193__T34--1
+3	stader	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obl	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	nærleiken	nærleik	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(firdann~20110615_5640193__T35--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	bedrifta	bedrift	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	name=O|Entity=(firdann~20110615_5640193__T36--1(firdann~20110615_5640193__8176--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	Rimi-butikken	Rimi-butikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|name=B-DRV|Entity=(firdann~20110615_5640193__T38--1)firdann~20110615_5640193__T36)firdann~20110615_5640193__T35)firdann~20110615_5640193__T34)
+10	,	$,	PUNCT	_	_	3	punct	_	name=O
+11	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+13	plassert	plassere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	11	xcomp	_	name=O
+14	reklameskilt	reklameskilt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T39--1)
+15	,	$,	PUNCT	_	_	22	punct	_	name=O
+16	gjerne	gjerne	ADV	_	_	22	advmod	_	name=O
+17	saman	saman	ADV	_	_	22	advmod	_	name=O
+18	med	med	ADP	_	_	22	case	_	name=O
+19	andre	annan	DET	_	Number=Plur|PronType=Dem	20	det	_	name=O|Entity=(firdann~20110615_5640193__T42--1(firdann~20110615_5640193__T41--1(firdann~20110615_5640193__T40--1
+20	bedrifter	bedrift	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	21	obl	_	name=O|Entity=firdann~20110615_5640193__T40)
+21	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	22	nmod	_	name=O|Entity=firdann~20110615_5640193__T41)
+22	skilt	skilt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640193__T42)
+23	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 007167
+# text = - Vi har funne skilta våre kasta i elva.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20110615_5640193__8176--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	funne	finne	VERB	_	VerbForm=Part	0	root	_	name=O
+5	skilta	skilt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obj	_	name=O|Entity=(firdann~20110615_5640193__8341--1
+6	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(firdann~20110615_5640193__8176--1)firdann~20110615_5640193__8341)
+7	kasta	kaste	ADJ	_	Number=Plur|VerbForm=Part	4	xcomp	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	elva	elv	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__255--1)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007168
+# text = Så var det ein som ringde meg og sa at skiltet mitt stod i ein heis.
+1	Så	så	ADV	_	_	2	advmod	_	name=O
+2	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	2	nsubj	_	name=O|Entity=(firdann~20110615_5640193__T47--1
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	ringde	ringje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	name=O
+7	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	name=O
+10	at	at	SCONJ	_	_	13	mark	_	name=O
+11	skiltet	skilt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	name=O|Entity=(firdann~20110615_5640193__T49--1
+12	mitt	min	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	name=O|Entity=(firdann~20110615_5640193__261862--1)firdann~20110615_5640193__T49)
+13	stod	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	name=O
+14	i	i	ADP	_	_	16	case	_	name=O
+15	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(firdann~20110615_5640193__T51--1
+16	heis	heis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640193__T51)firdann~20110615_5640193__T47)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007169
+# text = I dag, ca klokka 08.00, ringde dei frå Best-stasjonen i Naustdal.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T52--1)
+3	,	$,	PUNCT	_	_	6	punct	_	name=O
+4	ca	ca.	ADV	_	Abbr=Yes	6	advmod	_	name=O
+5	klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=(firdann~20110615_5640193__T53--1)
+6	08.00	08.00	NUM	_	Number=Plur|NumType=Card	2	obl	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	6	punct	_	name=O
+8	ringde	ringje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(firdann~20110615_5640193__2111--1)
+10	frå	frå	ADP	_	_	11	case	_	name=O
+11	Best-stasjonen	Best-stasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=B-DRV|Entity=(firdann~20110615_5640193__3233--1
+12	i	i	ADP	_	_	13	case	_	name=O
+13	Naustdal	Naustdal	PROPN	_	_	11	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110615_5640193__5267--1)firdann~20110615_5640193__3233)
+14	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 007170
+# text = Då hadde dei funne eitt av mine skilt ved stasjonen.
+1	Då	då	ADV	_	_	4	advmod	_	name=O
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20110615_5640193__2111--1)
+4	funne	finne	VERB	_	VerbForm=Part	0	root	_	name=O
+5	eitt	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	4	obj	_	name=O
+6	av	av	ADP	_	_	8	case	_	name=O
+7	mine	min	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(firdann~20110615_5640193__8341--1(firdann~20110615_5640193__261862--1)
+8	skilt	skilt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	name=O|Entity=firdann~20110615_5640193__8341)
+9	ved	ved	ADP	_	_	10	case	_	name=O
+10	stasjonen	stasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__3233--1)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007171
+# text = Nokon har frakta det 50 kilos tunge skiltet heilt til Naustdal i bil, fortvilar Ibrahim.
+1	Nokon	nokon	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind,Prs	3	nsubj	_	name=O|Entity=(firdann~20110615_5640193__T61--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	frakta	frakte	VERB	_	VerbForm=Part	0	root	_	name=O
+4	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(firdann~20110615_5640193__3306--1
+5	50	50	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(firdann~20110615_5640193__T62--1
+6	kilos	kilo	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	name=O|Entity=firdann~20110615_5640193__T62)
+7	tunge	tung	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	skiltet	skilt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=firdann~20110615_5640193__3306)
+9	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	Naustdal	Naustdal	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(firdann~20110615_5640193__5267--1)
+12	i	i	ADP	_	_	13	case	_	name=O
+13	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T65--1)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	fortvilar	fortvile	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+16	Ibrahim	Ibrahim	PROPN	_	_	15	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20110615_5640193__261862--1)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007172
+# text = Han har ikkje tal på kor mange gonger skilta hans har blitt tulla med, teikna på og flytta i løpet av dei siste tre åra han har drive bilpleien.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	tal	tal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O|Entity=(firdann~20110615_5640193__T68--1
+5	på	på	ADP	_	_	13	case	_	name=O
+6	kor	kor	ADV	_	_	7	advmod	_	name=O|Entity=(firdann~20110615_5640193__T69--1
+7	mange	mange	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	name=O|Entity=firdann~20110615_5640193__T69)
+9	skilta	skilt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	13	nsubj:pass	_	name=O|Entity=(firdann~20110615_5640193__8341--1
+10	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(firdann~20110615_5640193__261862--1)firdann~20110615_5640193__8341)
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+12	blitt	bli	AUX	_	VerbForm=Part	13	aux:pass	_	name=O
+13	tulla	tulle	VERB	_	Number=Plur|VerbForm=Part	4	acl:relcl	_	name=O
+14	med	med	ADP	_	_	13	compound:prt	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	teikna	teikne	ADJ	_	Number=Plur|VerbForm=Part	13	conj	_	name=O
+17	på	på	ADP	_	_	16	obl	_	name=O
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	flytta	flytte	ADJ	_	Number=Plur|VerbForm=Part	13	conj	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	løpet	løp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	obl	_	name=O|Entity=(firdann~20110615_5640193__T72--1
+22	av	av	ADP	_	_	26	case	_	name=O
+23	dei	dei	DET	_	Number=Plur|PronType=Dem	26	det	_	name=O|Entity=(firdann~20110615_5640193__T73--1
+24	siste	sist	ADJ	_	Degree=Pos|Number=Plur	26	amod	_	name=O
+25	tre	tre	NUM	_	Number=Plur|NumType=Card	26	nummod	_	name=O
+26	åra	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	21	nmod	_	name=O
+27	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+28	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	name=O
+29	drive	drive	VERB	_	VerbForm=Part	26	acl:relcl	_	name=O
+30	bilpleien	bilpleie	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T75--1)firdann~20110615_5640193__T73)firdann~20110615_5640193__T72)firdann~20110615_5640193__T68)
+31	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007173
+# text = Han trur det har passert 10 i tal.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+2	trur	tru	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(firdann~20110615_5640193__T77--1)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	passert	passere	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+6	10	10	NUM	_	Number=Plur|NumType=Card	5	obj	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	tal	tal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T78--1)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007175
+# text = - Kvifor gjer dei dette mot meg?
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Kvifor	kvifor	ADV	_	_	3	advmod	_	name=O
+3	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110615_5640193__4363--1)
+5	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(firdann~20110615_5640193__T80--1)
+6	mot	mot	ADP	_	_	7	case	_	name=O
+7	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__261862--1)
+8	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007176
+# text = Kven er dei?
+1	Kven	kven	PRON	_	Animacy=Hum|PronType=Int	0	root	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__4363--1)
+4	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 007177
+# text = Eg har berre gode venner i Førde.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	berre	berre	ADV	_	_	2	advmod	_	name=O
+4	gode	god	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(firdann~20110615_5640193__T84--1
+5	venner	venn	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=firdann~20110615_5640193__T84)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Førde	Førde	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110615_5640193__3119--1)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007178
+# text = Eg føler dette er retta mot meg, for eg ser ikkje, eller har høyrt om, andre bedrifter som har dette problemet i like stor grad, seier han.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+2	føler	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(firdann~20110615_5640193__T87--1)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	retta	rette	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	2	ccomp	_	name=O
+6	mot	mot	ADP	_	_	7	case	_	name=O
+7	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__261862--1)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	for	for	CCONJ	_	_	11	cc	_	name=O
+10	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+11	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+12	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	eller	eller	CCONJ	_	_	16	cc	_	name=O
+15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	høyrt	høyre	VERB	_	VerbForm=Part	11	conj	_	name=O
+17	om	om	ADP	_	_	20	case	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	17	punct	_	name=O
+19	andre	annan	DET	_	Number=Plur|PronType=Dem	20	det	_	name=O|Entity=(firdann~20110615_5640193__T90--1
+20	bedrifter	bedrift	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	16	obl	_	name=O
+21	som	som	PRON	_	PronType=Rel	22	nsubj	_	name=O
+22	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	name=O
+23	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	24	det	_	name=O|Entity=(firdann~20110615_5640193__T91--1
+24	problemet	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	obj	_	name=O|Entity=firdann~20110615_5640193__T91)
+25	i	i	ADP	_	_	28	case	_	name=O
+26	like	like	ADV	_	_	27	advmod	_	name=O|Entity=(firdann~20110615_5640193__T92--1
+27	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	28	amod	_	name=O
+28	grad	grad	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110615_5640193__T92)firdann~20110615_5640193__T90)
+29	,	$,	PUNCT	_	_	30	punct	_	name=O
+30	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+31	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__261862--1)
+32	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007179
+# text = No håpar han at dei ansvarlege vil slutte med ugjerningane og la skilta stå i fred.
+1	No	no	ADV	_	_	2	advmod	_	name=O
+2	håpar	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+4	at	at	SCONJ	_	_	8	mark	_	name=O
+5	dei	dei	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(firdann~20110615_5640193__4363--1
+6	ansvarlege	ansvarleg	ADJ	_	Degree=Pos|Number=Plur	8	nsubj	_	name=O|Entity=firdann~20110615_5640193__4363)
+7	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	slutte	slutte	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+9	med	med	ADP	_	_	10	case	_	name=O
+10	ugjerningane	ugjerning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	8	obl	_	name=O|Entity=(firdann~20110615_5640193__T96--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	la	la	VERB	_	VerbForm=Inf	8	conj	_	name=O
+13	skilta	skilt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	12	iobj	_	name=O|Entity=(firdann~20110615_5640193__8341--1)
+14	stå	stå	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	fred	fred	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T98--1)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007180
+# text = - Eg har også opplevd at nokon skrapa opp bilen min heime i garasjen, men no er området videovervaka, fortel Førde-mannen, som opphavleg er frå Kurdistan.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	også	også	ADV	_	_	5	advmod	_	name=O
+5	opplevd	oppleve	VERB	_	VerbForm=Part	0	root	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	nokon	nokon	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind,Prs	8	nsubj	_	name=O|Entity=(firdann~20110615_5640193__T100--1)
+8	skrapa	skrape	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	name=O
+9	opp	opp	ADP	_	_	8	compound:prt	_	name=O
+10	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obj	_	name=O|Entity=(firdann~20110615_5640193__T101--1
+11	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(firdann~20110615_5640193__261862--1)firdann~20110615_5640193__T101)
+12	heime	heime	ADP	_	_	14	case	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	garasjen	garasje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T103--1)
+15	,	$,	PUNCT	_	_	20	punct	_	name=O
+16	men	men	CCONJ	_	_	20	cc	_	name=O
+17	no	no	ADV	_	_	20	advmod	_	name=O
+18	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+19	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nsubj	_	name=O|Entity=(firdann~20110615_5640193__T104--1)
+20	videovervaka	videoovervake	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	5	conj	_	SpaceAfter=No|name=O
+21	,	$,	PUNCT	_	_	22	punct	_	name=O
+22	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+23	Førde-mannen	Førde-mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No|name=B-DRV|Entity=(firdann~20110615_5640193__261862--1
+24	,	$,	PUNCT	_	_	29	punct	_	name=O
+25	som	som	PRON	_	PronType=Rel	29	nsubj	_	name=O
+26	opphavleg	opphavleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	29	advmod	_	name=O
+27	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	cop	_	name=O
+28	frå	frå	ADP	_	_	29	case	_	name=O
+29	Kurdistan	Kurdistan	PROPN	_	_	23	acl:relcl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110615_5640193__T106--1)firdann~20110615_5640193__261862)
+30	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007181
+# text = Tjuvane fanga på video
+1	Tjuvane	tjuv	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(firdann~20110615_5640193__4363--1)
+2	fanga	fange	ADJ	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	video	video	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(firdann~20110615_5640193__T108--1)
+
+# sent_id = 007182
+# text = Han har prøvd å melde sakene til politiet, utan at det har gjeve nokon form for resultat.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	prøvd	prøve	VERB	_	VerbForm=Part	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	melde	melde	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	sakene	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	5	obj	_	name=O|Entity=(firdann~20110615_5640193__T110--1)
+7	til	til	ADP	_	_	8	case	_	name=O
+8	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T111--1)
+9	,	$,	PUNCT	_	_	14	punct	_	name=O
+10	utan	utan	SCONJ	_	_	14	mark	_	name=O
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(firdann~20110615_5640193__T112--1)
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	gjeve	gje	VERB	_	VerbForm=Part	3	advcl	_	name=O
+15	nokon	nokon	DET	_	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	name=O|Entity=(firdann~20110615_5640193__T113--1
+16	form	form	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	name=O
+17	for	for	ADP	_	_	18	case	_	name=O
+18	resultat	resultat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T114--1)firdann~20110615_5640193__T113)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007183
+# text = No finn han likevel eit håp i overvakingskameraet til Best-stasjonen i Naustdal.
+1	No	no	ADV	_	_	2	advmod	_	name=O
+2	finn	finne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20110615_5640193__261862--1)
+4	likevel	likevel	ADV	_	_	2	advmod	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(firdann~20110615_5640193__T116--1
+6	håp	håp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O|Entity=firdann~20110615_5640193__T116)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	overvakingskameraet	overvakingskamera	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(firdann~20110615_5640193__T117--1
+9	til	til	ADP	_	_	10	case	_	name=O
+10	Best-stasjonen	Best-stasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=B-DRV|Entity=(firdann~20110615_5640193__3233--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Naustdal	Naustdal	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110615_5640193__5267--1)firdann~20110615_5640193__3233)firdann~20110615_5640193__T117)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007184
+# text = - Det skal vere observert ein grøn varebil som kom med skiltet og plasserte det ved stasjonen, fortel Ibrahim.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	vere	vere	AUX	_	VerbForm=Inf	5	aux	_	name=O
+5	observert	observere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20110615_5640193__T120--1
+7	grøn	grøn	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	varebil	varebil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	name=O
+11	med	med	ADP	_	_	12	case	_	name=O
+12	skiltet	skilt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	name=O|Entity=(firdann~20110615_5640193__3306--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	plasserte	plassere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	name=O|Entity=(firdann~20110615_5640193__3306--1)
+16	ved	ved	ADP	_	_	17	case	_	name=O
+17	stasjonen	stasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110615_5640193__T123--1)firdann~20110615_5640193__T120)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+20	Ibrahim	Ibrahim	PROPN	_	_	19	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20110615_5640193__261862--1)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+

@@ -1,0 +1,233 @@
+# newdoc id = vtbnn~20030513-1339
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 012247
+# text = Stal for 400.000 kroner
+1	Stal	stele	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	for	for	ADP	_	_	4	case	_	name=O
+3	400.000	400.000	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(vtbnn~20030513_1339__T1--1
+4	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	1	obl	_	name=O|Entity=vtbnn~20030513_1339__T1)
+
+# newpar
+# sent_id = 012248
+# text = Norsk Stenprodukt i Treungen blei natt til i går fråstole varer verdt 400.000 kroner.
+1	Norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	nsubj	_	name=B-ORG|Entity=(vtbnn~20030513_1339__8240--1
+2	Stenprodukt	Stenprodukt	PROPN	_	_	1	nmod	_	name=I-ORG|Entity=(vtbnn~20030513_1339__T3--1)
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Treungen	Treungen	PROPN	_	_	1	nmod	_	name=B-LOC|Entity=(vtbnn~20030513_1339__265--1)vtbnn~20030513_1339__8240)
+5	blei	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	natt	natt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	name=O|Entity=(vtbnn~20030513_1339__T5--1
+7	til	til	ADP	_	_	9	case	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	går	går	NOUN	_	_	6	nmod	_	name=O|Entity=(vtbnn~20030513_1339__T6--1)vtbnn~20030513_1339__T5)
+10	fråstole	fråstele	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	5	advmod	_	name=O
+11	varer	vare	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	name=O|Entity=(vtbnn~20030513_1339__T7--1
+12	verdt	verd	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+13	400.000	400.000	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(vtbnn~20030513_1339__T8--1
+14	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20030513_1339__T8)vtbnn~20030513_1339__T7)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012249
+# text = Verksemda hadde ikkje alarm, og dermed kan det spøkje for forsikringsoppgjeret.
+1	Verksemda	verksemd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__8240--1)
+2	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	alarm	alarm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030513_1339__T10--1)
+5	,	$,	PUNCT	_	_	10	punct	_	name=O
+6	og	og	CCONJ	_	_	10	cc	_	name=O
+7	dermed	dermed	ADV	_	_	10	advmod	_	name=O
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+10	spøkje	spøkje	VERB	_	VerbForm=Inf	2	conj	_	name=O
+11	for	for	ADP	_	_	12	case	_	name=O
+12	forsikringsoppgjeret	forsikringsoppgjer	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Bridge=vtbnn~20030513_1339__8240<vtbnn~20030513_1339__258:default|Entity=(vtbnn~20030513_1339__258--1)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012250
+# text = Store mengder smykke og gåveartiklar er stole.
+1	Store	stor	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(vtbnn~20030513_1339__365--1(vtbnn~20030513_1339__T14--1(vtbnn~20030513_1339__T12--1
+2	mengder	mengd	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	name=O|Entity=vtbnn~20030513_1339__T12)
+3	smykke	smykke	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nsubj	_	name=O|Entity=vtbnn~20030513_1339__T14)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	gåveartiklar	gåveartikkel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	name=O|Entity=(vtbnn~20030513_1339__T15--1)vtbnn~20030513_1339__365)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	stole	stele	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012251
+# text = Tjuvane har vore på utkikk etter dei dyraste produkta, og slike som er lette å selje vidare.
+1	Tjuvane	tjuv	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__238--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	vore	vere	VERB	_	VerbForm=Part	0	root	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	utkikk	utkikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20030513_1339__T17--1
+6	etter	etter	ADP	_	_	9	case	_	name=O
+7	dei	dei	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Bridge=vtbnn~20030513_1339__8240<vtbnn~20030513_1339__T19:default|Entity=(vtbnn~20030513_1339__T18--1(vtbnn~20030513_1339__T19--1
+8	dyraste	dyr	ADJ	_	Definite=Def|Degree=Sup	9	amod	_	name=O
+9	produkta	produkt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20030513_1339__T19)
+10	,	$,	PUNCT	_	_	12	punct	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	slike	slik	DET	_	Number=Plur|PronType=Dem	9	conj	_	name=O|Entity=(vtbnn~20030513_1339__T62--1
+13	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+14	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+15	lette	lett	ADJ	_	Degree=Pos|Number=Plur	12	acl:relcl	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	selje	selje	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+18	vidare	vid	ADJ	_	Degree=Cmp	17	advmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20030513_1339__T62)vtbnn~20030513_1339__T18)vtbnn~20030513_1339__T17)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012252
+# text = - Alle varer med sylv i er borte.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Alle	all	DET	_	Number=Plur|PronType=Tot	3	det	_	name=O|Entity=(vtbnn~20030513_1339__T20--1
+3	varer	vare	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nsubj	_	name=O
+4	med	med	ADP	_	_	5	case	_	name=O
+5	sylv	sylv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(vtbnn~20030513_1339__T21--1)
+6	i	i	ADP	_	_	5	xcomp	_	name=O|Entity=vtbnn~20030513_1339__T20)
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	borte	borte	ADP	_	_	0	root	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012253
+# text = Tjuvane har bruka kurvkoffertar me sel til å pakke varene inn i etter å ha lagt silkepapir rundt dei, fortel fortvila eigarar av verksemda, Johanne Vejrup og Kent Jensby Sørensen.
+1	Tjuvane	tjuv	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__238--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	bruka	bruke	VERB	_	VerbForm=Part	0	root	_	name=O
+4	kurvkoffertar	kurvkoffert	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O|Entity=(vtbnn~20030513_1339__T23--1
+5	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__8240--1)
+6	sel	selje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O|Entity=vtbnn~20030513_1339__T23)
+7	til	til	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	pakke	pakke	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+10	varene	vare	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	9	obj	_	name=O|Entity=(vtbnn~20030513_1339__365--1)
+11	inn	inn	ADP	_	_	9	compound:prt	_	name=O
+12	i	i	ADP	_	_	9	compound:prt	_	name=O
+13	etter	etter	SCONJ	_	_	16	mark	_	name=O
+14	å	å	PART	_	_	16	mark	_	name=O
+15	ha	ha	AUX	_	VerbForm=Inf	16	aux	_	name=O
+16	lagt	leggje	VERB	_	VerbForm=Part	3	advcl	_	name=O
+17	silkepapir	silkepapir	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	name=O|Entity=(vtbnn~20030513_1339__T26--1)
+18	rundt	rundt	ADP	_	_	19	case	_	name=O
+19	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030513_1339__365--1)
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+22	fortvila	fortvila	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	name=O|Entity=(vtbnn~20030513_1339__283--1(vtbnn~20030513_1339__T28--1
+23	eigarar	eigar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	27	nmod	_	name=O
+24	av	av	ADP	_	_	25	case	_	name=O
+25	verksemda	verksemd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030513_1339__8240--1)
+26	,	$,	PUNCT	_	_	23	punct	_	name=O|Entity=vtbnn~20030513_1339__T28)
+27	Johanne	Johanne	NOUN	_	Gender=Fem	21	nsubj	_	name=B-PER|Entity=(vtbnn~20030513_1339__2115--1
+28	Vejrup	Vejrup	PROPN	_	_	27	flat:name	_	name=I-PER|Entity=vtbnn~20030513_1339__2115)
+29	og	og	CCONJ	_	_	30	cc	_	name=O
+30	Kent	Kent	PROPN	_	_	27	conj	_	name=B-PER|Entity=(vtbnn~20030513_1339__T32--1
+31	Jensby	Jensby	PROPN	_	_	30	flat:name	_	name=I-PER
+32	Sørensen	Sørensen	PROPN	_	_	30	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20030513_1339__T32)vtbnn~20030513_1339__283)
+33	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012254
+# text = I gårsdagens fyrste runde med forsikringsselskapet fekk verksemda vite at eigendelen var 9.000 kroner.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	gårsdagens	gårsdag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(vtbnn~20030513_1339__T34--1(vtbnn~20030513_1339__T33--1)
+3	fyrste	fyrste	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	runde	runde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	forsikringsselskapet	forsikringsselskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(vtbnn~20030513_1339__T35--1)vtbnn~20030513_1339__T34)
+7	fekk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+8	verksemda	verksemd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__8240--1)
+9	vite	vite	VERB	_	VerbForm=Inf	0	root	_	name=O
+10	at	at	SCONJ	_	_	14	mark	_	name=O
+11	eigendelen	eigendel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__T37--1)
+12	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	name=O
+13	9.000	9.000	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(vtbnn~20030513_1339__T38--1
+14	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	ccomp	_	SpaceAfter=No|name=O|Entity=vtbnn~20030513_1339__T38)
+15	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012255
+# text = Ein ny telefon peika på ein heilt annan situasjon.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(vtbnn~20030513_1339__T39--1
+2	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	telefon	telefon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=vtbnn~20030513_1339__T39)
+4	peika	peike	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	på	på	ADP	_	_	9	case	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20030513_1339__T40--1
+7	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+8	annan	annan	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O
+9	situasjon	situasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20030513_1339__T40)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012256
+# text = Sidan verksemda ikkje hadde alarm vil det truleg i staden vere snakk om 100.000 kroner i eigendel.
+1	Sidan	sidan	SCONJ	_	_	4	mark	_	name=O
+2	verksemda	verksemd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__8240--1)
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	name=O
+5	alarm	alarm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(vtbnn~20030513_1339__T42--1)
+6	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+8	truleg	truleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(vtbnn~20030513_1339__T43--1)
+11	vere	vere	AUX	_	VerbForm=Inf	12	cop	_	name=O
+12	snakk	snakk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20030513_1339__T44--1
+13	om	om	ADP	_	_	15	case	_	name=O
+14	100.000	100.000	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(vtbnn~20030513_1339__T45--1
+15	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	nmod	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	eigendel	eigendel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030513_1339__T46--1)vtbnn~20030513_1339__T45)vtbnn~20030513_1339__T44)
+18	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 012257
+# text = - Forsikringsoppgjeret blir eit smertebarn.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Forsikringsoppgjeret	forsikringsoppgjer	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__258--1)
+3	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(vtbnn~20030513_1339__T48--1
+5	smertebarn	smertebarn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O|Entity=vtbnn~20030513_1339__T48)
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012258
+# text = Me stiller ikkje så godt om me ikkje får erstatning, seier Johanne Vejrup.
+1	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__8240--1)
+2	stiller	stille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	så	så	ADV	_	_	5	advmod	_	name=O
+5	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+6	om	om	SCONJ	_	_	9	mark	_	name=O
+7	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__8240--1)
+8	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	name=O
+9	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+10	erstatning	erstatning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030513_1339__T51--1)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+13	Johanne	Johanne	NOUN	_	Gender=Fem	12	nsubj	_	name=B-PER|Entity=(vtbnn~20030513_1339__2115--1
+14	Vejrup	Vejrup	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20030513_1339__2115)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012259
+# text = Nå håpar eigarane at somme vil tipse i saka om dei kjenner att steinkulepennar og ostehøvlar med steinskaft som har blitt produsert i Treungen.
+1	Nå	nå	ADV	_	_	2	advmod	_	name=O
+2	håpar	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	eigarane	eigar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__283--1)
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	somme	somme	PRON	_	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__2110--1)
+6	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	tipse	tipse	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(vtbnn~20030513_1339__T55--1)
+10	om	om	SCONJ	_	_	12	mark	_	name=O
+11	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(vtbnn~20030513_1339__2110--1)
+12	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+13	att	att	ADP	_	_	12	compound:prt	_	name=O
+14	steinkulepennar	steinkulepenn	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	name=O|Entity=(vtbnn~20030513_1339__T57--1(vtbnn~20030513_1339__T58--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	ostehøvlar	ostehøvel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	conj	_	name=O|Entity=(vtbnn~20030513_1339__T59--1
+17	med	med	ADP	_	_	18	case	_	name=O
+18	steinskaft	steinskaft	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nmod	_	name=O|Entity=(vtbnn~20030513_1339__T60--1)
+19	som	som	PRON	_	PronType=Rel	22	nsubj:pass	_	name=O
+20	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+21	blitt	bli	AUX	_	VerbForm=Part	22	aux:pass	_	name=O
+22	produsert	produsere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	16	acl:relcl	_	name=O
+23	i	i	ADP	_	_	24	case	_	name=O
+24	Treungen	Treungen	PROPN	_	_	22	obl	_	SpaceAfter=No|name=B-LOC|Entity=(vtbnn~20030513_1339__265--1)vtbnn~20030513_1339__T59)vtbnn~20030513_1339__T57)
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+

@@ -1,0 +1,432 @@
+# newdoc id = kk~20110827-59216
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 011996
+# text = Sp sliter
+1	Sp	Sp	PROPN	_	Abbr=Yes	2	nsubj	_	name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+2	sliter	slite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+
+# newpar
+# sent_id = 011997
+# text = Dagens leder
+1	Dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(kk~20110827_59216__T3--1(kk~20110827_59216__T2--1)
+2	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=kk~20110827_59216__T3)
+
+# sent_id = 011998
+# text = Aviser og kommentatorer over hele landet, inkludert Klassekampen, har denne uka skrevet mye om SVs dårlige tall på meningsmålingene, og vanskelighetene partiet har som juniorpartner i regjeringen.
+1	Aviser	avis	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	nsubj	_	name=O|Entity=(kk~20110827_59216__T4--1(kk~20110827_59216__T5[1/2]--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	kommentatorer	kommentator	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	name=O|Entity=(kk~20110827_59216__T6--1
+4	over	over	ADP	_	_	6	case	_	name=O
+5	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(kk~20110827_59216__T7--1
+6	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=kk~20110827_59216__T7)kk~20110827_59216__T6)
+8	inkludert	inkludere	VERB	_	VerbForm=Part	1	acl:relcl	_	name=O|Entity=(kk~20110827_59216__T5[2/2]--1
+9	Klassekampen	Klassekampen	PROPN	_	_	8	obj	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110827_59216__T8--1
+10	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=kk~20110827_59216__T8)kk~20110827_59216__T5[2/2])kk~20110827_59216__T4)
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+12	denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(kk~20110827_59216__T9--1
+13	uka	uke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	14	obl	_	name=O|Entity=kk~20110827_59216__T9)
+14	skrevet	skrive	VERB	_	VerbForm=Part	0	root	_	name=O
+15	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	obj	_	name=O
+16	om	om	ADP	_	_	19	case	_	name=O
+17	SVs	Sv	PROPN	_	Abbr=Yes|Case=Gen	19	nmod	_	name=B-ORG|Entity=(kk~20110827_59216__T11--1(kk~20110827_59216__T12--1(kk~20110827_59216__347--1)
+18	dårlige	dårlig	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O
+19	tall	tall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	name=O
+20	på	på	ADP	_	_	21	case	_	name=O
+21	meningsmålingene	meningsmåling	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110827_59216__T13--1)
+22	,	$,	PUNCT	_	_	24	punct	_	name=O|Entity=kk~20110827_59216__T12)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	vanskelighetene	vanskelighet	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	19	conj	_	name=O|Entity=(kk~20110827_59216__T14--1
+25	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	26	nsubj	_	name=O|Entity=(kk~20110827_59216__347--1)
+26	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	name=O
+27	som	som	SCONJ	_	_	28	mark	_	name=O
+28	juniorpartner	juniorpartner	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	acl	_	name=O|Entity=(kk~20110827_59216__T16--1
+29	i	i	ADP	_	_	30	case	_	name=O
+30	regjeringen	regjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110827_59216__T17--1)kk~20110827_59216__T16)kk~20110827_59216__T14)kk~20110827_59216__T11)
+31	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 011999
+# text = Faren for å bli ligget i hjel av den største partneren er kronisk.
+1	Faren	fare	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=(kk~20110827_59216__T18--1
+2	for	for	SCONJ	_	_	5	mark	_	name=O
+3	å	å	PART	_	_	5	mark	_	name=O
+4	bli	bli	AUX	_	VerbForm=Inf	5	aux:pass	_	name=O
+5	ligget	ligge	VERB	_	VerbForm=Part	1	acl	_	name=O
+6	i	i	SCONJ	_	_	7	mark	_	name=O
+7	hjel	hjel	NOUN	_	_	5	xcomp	_	name=O|Entity=(kk~20110827_59216__T19--1)
+8	av	av	ADP	_	_	11	case	_	name=O
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(kk~20110827_59216__T20--1
+10	største	stor	ADJ	_	Definite=Def|Degree=Sup	11	amod	_	name=O
+11	partneren	partner	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=kk~20110827_59216__T20)kk~20110827_59216__T18)
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+13	kronisk	kronisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 012000
+# text = Men det som sies om SV, kan med enda større tyngde sies om Senterpartiet.
+1	Men	men	CCONJ	_	_	13	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	name=O|Entity=(kk~20110827_59216__T21--1
+3	som	som	PRON	_	PronType=Rel	4	nsubj:pass	_	name=O
+4	sies	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	acl:relcl	_	name=O
+5	om	om	ADP	_	_	6	case	_	name=O
+6	SV	Sv	PROPN	_	Abbr=Yes	4	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110827_59216__347--1)
+7	,	$,	PUNCT	_	_	2	punct	_	name=O|Entity=kk~20110827_59216__T21)
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+9	med	med	ADP	_	_	12	case	_	name=O
+10	enda	enda	ADV	_	_	11	advmod	_	name=O|Entity=(kk~20110827_59216__T23--1
+11	større	stor	ADJ	_	Degree=Cmp	12	amod	_	name=O
+12	tyngde	tyngde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=kk~20110827_59216__T23)
+13	sies	si	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+14	om	om	ADP	_	_	15	case	_	name=O
+15	Senterpartiet	Senterpartiet	PROPN	_	Gender=Neut	13	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+16	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 012001
+# text = Riktignok fikk Sp en måling på 8,4 prosent i Aftenposten i går, opp 2,4 prosentpoeng fra forrige måling, og 0,4 prosentpoeng høyere enn kommunevalget i 2007, men nær sagt alle andre målinger, ikke minst lokale, viser faretruende lave tall for Senterpartiet.
+1	Riktignok	riktignok	ADV	_	_	2	advmod	_	name=O
+2	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	Sp	Sp	PROPN	_	Abbr=Yes	2	nsubj	_	name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kk~20110827_59216__T26[1/2]--1
+5	måling	måling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+6	på	på	ADP	_	_	8	case	_	name=O
+7	8,4	8,4	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(kk~20110827_59216__T27--1
+8	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=kk~20110827_59216__T27)kk~20110827_59216__T26[1/2])
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Aftenposten	Aftenposten	PROPN	_	Gender=Masc	2	obl	_	name=B-PROD|Entity=(kk~20110827_59216__T28--1)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	går	går	NOUN	_	_	2	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110827_59216__T29--1)
+13	,	$,	PUNCT	_	_	12	punct	_	name=O
+14	opp	opp	ADP	_	_	8	conj	_	name=O|Entity=(kk~20110827_59216__T26[2/2]--1
+15	2,4	2,4	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(kk~20110827_59216__T30--1
+16	prosentpoeng	prosentpoeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	name=O|Entity=kk~20110827_59216__T30)
+17	fra	fra	ADP	_	_	19	case	_	name=O
+18	forrige	forrige	DET	_	Definite=Def|PronType=Dem	19	det	_	name=O|Entity=(kk~20110827_59216__T31--1
+19	måling	måling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T31)
+20	,	$,	PUNCT	_	_	24	punct	_	name=O
+21	og	og	CCONJ	_	_	24	cc	_	name=O
+22	0,4	0,4	NUM	_	Number=Plur|NumType=Card	23	nummod	_	name=O|Entity=(kk~20110827_59216__T32--1
+23	prosentpoeng	prosentpoeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	obl	_	name=O|Entity=kk~20110827_59216__T32)
+24	høyere	høy	ADJ	_	Degree=Cmp	14	conj	_	name=O
+25	enn	enn	ADP	_	_	26	case	_	name=O
+26	kommunevalget	kommunevalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	obl	_	name=O|Entity=(kk~20110827_59216__T33--1
+27	i	i	ADP	_	_	28	case	_	name=O
+28	2007	2007	NUM	_	Number=Plur|NumType=Card	26	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T33)
+29	,	$,	PUNCT	_	_	24	punct	_	name=O|Entity=kk~20110827_59216__T26[2/2])
+30	men	men	CCONJ	_	_	41	cc	_	name=O
+31	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	32	advmod	_	name=O|Entity=(kk~20110827_59216__T34--1
+32	sagt	si	VERB	_	VerbForm=Part	33	advcl	_	name=O
+33	alle	all	DET	_	Number=Plur|PronType=Tot	35	det	_	name=O
+34	andre	annen	DET	_	Number=Plur|PronType=Dem	35	det	_	name=O
+35	målinger	måling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	41	nsubj	_	SpaceAfter=No|name=O
+36	,	$,	PUNCT	_	_	39	punct	_	name=O
+37	ikke	ikke	PART	_	Polarity=Neg	38	advmod	_	name=O
+38	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	39	advmod	_	name=O
+39	lokale	lokal	ADJ	_	Degree=Pos|Number=Plur	35	amod	_	SpaceAfter=No|name=O
+40	,	$,	PUNCT	_	_	39	punct	_	name=O|Entity=kk~20110827_59216__T34)
+41	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+42	faretruende	faretruende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	43	advmod	_	name=O|Entity=(kk~20110827_59216__T35--1
+43	lave	lav	ADJ	_	Degree=Pos|Number=Plur	44	amod	_	name=O
+44	tall	tall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	41	obj	_	name=O|Entity=kk~20110827_59216__T35)
+45	for	for	ADP	_	_	46	case	_	name=O
+46	Senterpartiet	Senterpartiet	PROPN	_	Gender=Neut	41	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+47	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012002
+# text = En oversikt Nationen publiserte denne uka viser at Sp ligger an til gjøre et dårligere valg enn i 2007 i nær sagt alle landets fylker.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(kk~20110827_59216__T37--1
+2	oversikt	oversikt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O
+3	Nationen	Nationen	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(kk~20110827_59216__2139--1)
+4	publiserte	publisere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	name=O
+5	denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(kk~20110827_59216__T39--1
+6	uka	uke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=kk~20110827_59216__T39)kk~20110827_59216__T37)
+7	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	at	at	SCONJ	_	_	10	mark	_	name=O
+9	Sp	Sp	PROPN	_	Abbr=Yes	10	nsubj	_	name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+10	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	name=O
+11	an	an	ADV	_	_	10	advmod	_	name=O
+12	til	til	SCONJ	_	_	13	mark	_	name=O
+13	gjøre	gjøre	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+14	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(kk~20110827_59216__T41--1
+15	dårligere	dårlig	ADJ	_	Degree=Cmp	16	amod	_	name=O
+16	valg	valg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	name=O
+17	enn	enn	ADP	_	_	19	case	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	2007	2007	NUM	_	Number=Plur|NumType=Card	15	obl	_	name=O|Entity=kk~20110827_59216__T41)
+20	i	i	ADP	_	_	25	case	_	name=O
+21	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	advmod	_	name=O|Entity=(kk~20110827_59216__T43--1
+22	sagt	si	VERB	_	VerbForm=Part	23	advcl	_	name=O
+23	alle	all	DET	_	Number=Plur|PronType=Tot	25	det	_	name=O
+24	landets	land	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	25	nmod	_	name=O|Entity=(kk~20110827_59216__T42--1)
+25	fylker	fylke	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T43)
+26	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012003
+# text = Sp står i fare for å gå mest tilbake i partiets sterkeste fylke, Sogn og Fjordane.
+1	Sp	Sp	PROPN	_	Abbr=Yes	2	nsubj	_	name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	fare	fare	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(kk~20110827_59216__T45--1
+5	for	for	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	gå	gå	VERB	_	VerbForm=Inf	4	acl	_	name=O
+8	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	9	advmod	_	name=O
+9	tilbake	tilbake	ADP	_	_	7	compound:prt	_	name=O
+10	i	i	ADP	_	_	15	case	_	name=O
+11	partiets	parti	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	name=O|Entity=(kk~20110827_59216__T48--1(kk~20110827_59216__T47--1(kk~20110827_59216__171076--1)
+12	sterkeste	sterk	ADJ	_	Definite=Def|Degree=Sup	13	amod	_	name=O
+13	fylke	fylke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=kk~20110827_59216__T47)
+15	Sogn	Sogn	PROPN	_	_	7	obl	_	name=B-GPE_LOC
+16	og	og	CCONJ	_	_	15	flat:name	_	name=I-GPE_LOC
+17	Fjordane	Fjordane	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=kk~20110827_59216__T48)kk~20110827_59216__T45)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012004
+# text = En måling fra juni i Firda og Sogn Avis viser en nedgang på 7,3 prosentpoeng fra forrige valg (fra 29 til 21,7 prosents oppslutning).
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(kk~20110827_59216__T49--1
+2	måling	måling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	name=O
+3	fra	fra	ADP	_	_	4	case	_	name=O
+4	juni	juni	NOUN	_	Gender=Masc	2	nmod	_	name=O|Entity=(kk~20110827_59216__T50--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Firda	Firda	PROPN	_	_	2	nmod	_	name=B-PROD|Entity=(kk~20110827_59216__T51--1(kk~20110827_59216__T52--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Sogn	Sogn	PROPN	_	_	6	conj	_	name=B-PROD|Entity=(kk~20110827_59216__T53--1
+9	Avis	Avis	PROPN	_	_	8	flat:name	_	name=I-PROD|Entity=kk~20110827_59216__T53)kk~20110827_59216__T51)kk~20110827_59216__T49)
+10	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kk~20110827_59216__T54--1
+12	nedgang	nedgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O
+13	på	på	ADP	_	_	15	case	_	name=O
+14	7,3	7,3	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(kk~20110827_59216__T55--1
+15	prosentpoeng	prosentpoeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	nmod	_	name=O|Entity=kk~20110827_59216__T55)
+16	fra	fra	ADP	_	_	18	case	_	name=O
+17	forrige	forrige	DET	_	Definite=Def|PronType=Dem	18	det	_	name=O|Entity=(kk~20110827_59216__T56--1
+18	valg	valg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	name=O|Entity=kk~20110827_59216__T56)
+19	(	$(	PUNCT	_	_	21	punct	_	SpaceAfter=No|name=O
+20	fra	fra	ADP	_	_	21	case	_	name=O
+21	29	29	NUM	_	Number=Plur|NumType=Card	12	nmod	_	name=O
+22	til	til	ADP	_	_	25	case	_	name=O
+23	21,7	21,7	NUM	_	Number=Plur|NumType=Card	24	nummod	_	name=O|Entity=(kk~20110827_59216__T58--1(kk~20110827_59216__T57--1
+24	prosents	prosent	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur	25	nmod	_	name=O|Entity=kk~20110827_59216__T57)
+25	oppslutning	oppslutning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T58)
+26	)	$)	PUNCT	_	_	25	punct	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T54)
+27	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 012005
+# text = I Sps nest sterkeste fylke, Nord-Trøndelag, faller partiet med 6,2 prosentpoeng, fra 21,9 til 21,7 prosent.
+1	I	i	ADP	_	_	7	case	_	name=O
+2	Sps	Sp	PROPN	_	Abbr=Yes|Case=Gen	5	nmod	_	name=B-ORG|Entity=(kk~20110827_59216__T61--1(kk~20110827_59216__T60--1(kk~20110827_59216__171076--1)
+3	nest	nest	ADV	_	_	4	advmod	_	name=O
+4	sterkeste	sterk	ADJ	_	Definite=Def|Degree=Sup	5	amod	_	name=O
+5	fylke	fylke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=kk~20110827_59216__T60)
+7	Nord-Trøndelag	Nord-Trøndelag	PROPN	_	_	9	obl	_	SpaceAfter=No|name=B-GPE_LOC
+8	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=kk~20110827_59216__T61)
+9	faller	falle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(kk~20110827_59216__171076--1)
+11	med	med	ADP	_	_	13	case	_	name=O
+12	6,2	6,2	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(kk~20110827_59216__T63--1
+13	prosentpoeng	prosentpoeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T63)
+14	,	$,	PUNCT	_	_	16	punct	_	name=O
+15	fra	fra	ADP	_	_	16	case	_	name=O
+16	21,9	21,9	NUM	_	Number=Plur|NumType=Card	9	obl	_	name=O
+17	til	til	ADP	_	_	19	case	_	name=O
+18	21,7	21,7	NUM	_	Number=Plur|NumType=Card	19	nummod	_	name=O|Entity=(kk~20110827_59216__T64--1
+19	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T64)
+20	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012006
+# text = I andre sterke Sp-fylker som Hedmark og Oppland er det også tilbakegang.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	andre	annen	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(kk~20110827_59216__T65--1
+3	sterke	sterk	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+4	Sp-fylker	Sp-fylke	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obl	_	name=B-DRV
+5	som	som	ADP	_	_	6	case	_	name=O
+6	Hedmark	Hedmark	PROPN	_	_	4	nmod	_	name=B-GPE_LOC|Entity=(kk~20110827_59216__T66--1(kk~20110827_59216__2140--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Oppland	Oppland	PROPN	_	_	6	conj	_	name=B-GPE_LOC|Entity=(kk~20110827_59216__T68--1)kk~20110827_59216__T66)kk~20110827_59216__T65)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+11	også	også	ADV	_	_	12	advmod	_	name=O
+12	tilbakegang	tilbakegang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(kk~20110827_59216__T69--1)
+13	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 012007
+# text = I en augustmåling for Hamar Arbeiderblad, går Sp tilbake i Hedmark med 4,9 prosentpoeng, til 9,9 prosent.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(kk~20110827_59216__T70--1
+3	augustmåling	augustmåling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	Hamar	Hamar	PROPN	_	_	3	nmod	_	name=B-PROD|Entity=(kk~20110827_59216__T71--1
+6	Arbeiderblad	Arbeiderblad	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=kk~20110827_59216__T71)kk~20110827_59216__T70)
+7	,	$,	PUNCT	_	_	3	punct	_	name=O
+8	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	Sp	Sp	PROPN	_	Abbr=Yes	8	nsubj	_	name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+10	tilbake	tilbake	ADP	_	_	8	compound:prt	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Hedmark	Hedmark	PROPN	_	_	8	obl	_	name=B-GPE_LOC|Entity=(kk~20110827_59216__2140--1)
+13	med	med	ADP	_	_	15	case	_	name=O
+14	4,9	4,9	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(kk~20110827_59216__T74--1
+15	prosentpoeng	prosentpoeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T74)
+16	,	$,	PUNCT	_	_	19	punct	_	name=O
+17	til	til	ADP	_	_	19	case	_	name=O
+18	9,9	9,9	NUM	_	Number=Plur|NumType=Card	19	nummod	_	name=O|Entity=(kk~20110827_59216__T75--1
+19	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T75)
+20	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012008
+# text = Mens partiet på landsbasis hadde nesten 7,5 prosent oppslutning i snitt de første ukene i august i 2007, viste et snitt av målingene i forrige uke en oppslutning på rundt seks prosent.
+1	Mens	mens	SCONJ	_	_	5	mark	_	name=O
+2	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(kk~20110827_59216__171076--1)
+3	på	på	ADP	_	_	4	case	_	name=O
+4	landsbasis	landsbasis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(kk~20110827_59216__T77--1)
+5	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	advcl	_	name=O
+6	nesten	nesten	ADV	_	_	7	advmod	_	name=O|Entity=(kk~20110827_59216__T79--1(kk~20110827_59216__T78--1
+7	7,5	7,5	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O
+8	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nmod	_	name=O|Entity=kk~20110827_59216__T78)
+9	oppslutning	oppslutning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	name=O|Entity=kk~20110827_59216__T79)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	snitt	snitt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(kk~20110827_59216__T80--1)
+12	de	de	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(kk~20110827_59216__T81--1
+13	første	første	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	ukene	uke	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	5	obl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	august	august	NOUN	_	Gender=Masc	14	nmod	_	name=O|Entity=(kk~20110827_59216__T82--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	2007	2007	NUM	_	Number=Plur|NumType=Card	16	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T82)kk~20110827_59216__T81)
+19	,	$,	PUNCT	_	_	5	punct	_	name=O
+20	viste	vise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+21	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(kk~20110827_59216__T83--1
+22	snitt	snitt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	nsubj	_	name=O
+23	av	av	ADP	_	_	24	case	_	name=O
+24	målingene	måling	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	22	nmod	_	name=O|Entity=(kk~20110827_59216__T84--1
+25	i	i	ADP	_	_	27	case	_	name=O
+26	forrige	forrige	DET	_	Definite=Def|PronType=Dem	27	det	_	name=O|Entity=(kk~20110827_59216__T85--1
+27	uke	uke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	name=O|Entity=kk~20110827_59216__T85)kk~20110827_59216__T84)kk~20110827_59216__T83)
+28	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	29	det	_	name=O|Entity=(kk~20110827_59216__T86--1
+29	oppslutning	oppslutning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	name=O
+30	på	på	ADP	_	_	33	case	_	name=O
+31	rundt	rundt	ADP	_	_	32	obl	_	name=O|Entity=(kk~20110827_59216__T87--1
+32	seks	seks	NUM	_	Number=Plur|NumType=Card	33	nummod	_	name=O
+33	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T87)kk~20110827_59216__T86)
+34	.	$.	PUNCT	_	_	20	punct	_	name=O
+
+# sent_id = 012009
+# text = «Skal Sp opp på åtte prosent ved dette valget, må partiet virkelig mobilisere.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+2	Skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	name=O
+3	Sp	Sp	PROPN	_	Abbr=Yes	2	nsubj	_	name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+4	opp	opp	ADP	_	_	7	case	_	name=O
+5	på	på	ADP	_	_	7	case	_	name=O
+6	åtte	åtte	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(kk~20110827_59216__T89--1
+7	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	name=O|Entity=kk~20110827_59216__T89)
+8	ved	ved	ADP	_	_	10	case	_	name=O
+9	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(kk~20110827_59216__2199--1
+10	valget	valg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__2199)
+11	,	$,	PUNCT	_	_	2	punct	_	name=O
+12	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+13	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	name=O|Entity=(kk~20110827_59216__171076--1)
+14	virkelig	virkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+15	mobilisere	mobilisere	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 012010
+# text = Tidligere kunne Sp konsentrere seg om å mobilisere nye velgere fra andre parti eller sofavelgere.
+1	Tidligere	tidlig	ADJ	_	Degree=Cmp	4	advmod	_	name=O
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	Sp	Sp	PROPN	_	Abbr=Yes	4	nsubj	_	name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+4	konsentrere	konsentrere	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obj	_	name=O|Entity=(kk~20110827_59216__171076--1)
+6	om	om	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	mobilisere	mobilisere	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+9	nye	ny	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(kk~20110827_59216__T93--1(kk~20110827_59216__T94--1
+10	velgere	velger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	name=O
+11	fra	fra	ADP	_	_	13	case	_	name=O
+12	andre	annen	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(kk~20110827_59216__T95--1
+13	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	name=O|Entity=kk~20110827_59216__T95)kk~20110827_59216__T94)
+14	eller	eller	CCONJ	_	_	15	cc	_	name=O
+15	sofavelgere	sofavelger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No|name=O|Entity=(kk~20110827_59216__T96--1)kk~20110827_59216__T93)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012011
+# text = Det viktigste for Sp nå er å mobilisere kjernevelgerne», sier valgforsker Bernt Aardal til Nationen.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(kk~20110827_59216__T97--1
+2	viktigste	viktig	ADJ	_	Definite=Def|Degree=Sup	8	nsubj	_	name=O
+3	for	for	ADP	_	_	4	case	_	name=O
+4	Sp	Sp	PROPN	_	Abbr=Yes	2	obl	_	name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+5	nå	nå	ADV	_	_	2	advmod	_	name=O|Entity=kk~20110827_59216__T97)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	mobilisere	mobilisere	VERB	_	VerbForm=Inf	0	root	_	name=O
+9	kjernevelgerne	kjernevelger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|name=O|Entity=(kk~20110827_59216__T99--1)
+10	»	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	name=O
+13	valgforsker	valgforsker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(kk~20110827_59216__T100--1
+14	Bernt	Bernt	PROPN	_	Gender=Masc	12	nsubj	_	name=B-PER
+15	Aardal	Aardal	PROPN	_	_	14	flat:name	_	name=I-PER|Entity=kk~20110827_59216__T100)
+16	til	til	ADP	_	_	17	case	_	name=O
+17	Nationen	Nationen	PROPN	_	_	12	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110827_59216__2139--1)
+18	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012012
+# text = På den siste sammenstillingen fra nettstedet Poll of Polls, basert på 31 kommuner, er Sp i ferd med å krype opp til sju prosent.
+1	På	på	ADP	_	_	4	case	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(kk~20110827_59216__T102--1
+3	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	sammenstillingen	sammenstilling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obl	_	name=O
+5	fra	fra	ADP	_	_	7	case	_	name=O
+6	nettstedet	nettsted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=(kk~20110827_59216__T103--1
+7	Poll	Poll	PROPN	_	_	4	nmod	_	name=B-PROD
+8	of	of	X	_	_	7	flat:name	_	name=I-PROD
+9	Polls	Polls	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=kk~20110827_59216__T103)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	basert	basere	VERB	_	VerbForm=Part	4	acl:relcl	_	name=O
+12	på	på	ADP	_	_	14	case	_	name=O
+13	31	31	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(kk~20110827_59216__T104--1
+14	kommuner	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T104)
+15	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=kk~20110827_59216__T102)
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+17	Sp	Sp	PROPN	_	Abbr=Yes	19	nsubj	_	name=B-ORG|Entity=(kk~20110827_59216__171076--1)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	ferd	ferd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(kk~20110827_59216__T106--1
+20	med	med	SCONJ	_	_	22	mark	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	krype	krype	VERB	_	VerbForm=Inf	19	acl	_	name=O
+23	opp	opp	ADP	_	_	26	case	_	name=O
+24	til	til	ADP	_	_	26	case	_	name=O
+25	sju	sju	NUM	_	Number=Plur|NumType=Card	26	nummod	_	name=O|Entity=(kk~20110827_59216__T107--1
+26	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No|name=O|Entity=kk~20110827_59216__T107)kk~20110827_59216__T106)
+27	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# sent_id = 012013
+# text = Årets kommunevalg vil ved siden av mye annet også gi oss et svar på om de mindre partiene får pusterom i senga sammen med storebror Arbeiderpartiet.
+1	Årets	år	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(kk~20110827_59216__2199--1(kk~20110827_59216__T108--1)
+2	kommunevalg	kommunevalg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=kk~20110827_59216__2199)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+4	ved	ved	ADP	_	_	5	case	_	name=O
+5	siden	side	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(kk~20110827_59216__T110--1
+6	av	av	ADP	_	_	8	case	_	name=O
+7	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+8	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	5	nmod	_	name=O|Entity=kk~20110827_59216__T110)
+9	også	også	ADV	_	_	10	advmod	_	name=O
+10	gi	gi	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	10	iobj	_	name=O|Entity=(kk~20110827_59216__T111--1)
+12	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(kk~20110827_59216__T112--1
+13	svar	svar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	name=O
+14	på	på	SCONJ	_	_	19	mark	_	name=O
+15	om	om	SCONJ	_	_	19	mark	_	name=O
+16	de	de	DET	_	Number=Plur|PronType=Dem	18	det	_	name=O|Entity=(kk~20110827_59216__T113--1
+17	mindre	liten	ADJ	_	Degree=Cmp	18	amod	_	name=O
+18	partiene	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	19	nsubj	_	name=O|Entity=kk~20110827_59216__T113)
+19	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl	_	name=O
+20	pusterom	pusterom	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obj	_	name=O|Entity=(kk~20110827_59216__T114--1)
+21	i	i	ADP	_	_	22	case	_	name=O
+22	senga	seng	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	19	obl	_	name=O|Entity=(kk~20110827_59216__T115--1)
+23	sammen	sammen	ADV	_	_	26	advmod	_	name=O
+24	med	med	ADP	_	_	26	case	_	name=O
+25	storebror	storebror	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	name=O|Entity=(kk~20110827_59216__T116--1
+26	Arbeiderpartiet	Arbeiderpartiet	PROPN	_	_	19	obl	_	SpaceAfter=No|name=B-ORG|Entity=kk~20110827_59216__T116)kk~20110827_59216__T112)
+27	.	$.	PUNCT	_	_	10	punct	_	name=O
+

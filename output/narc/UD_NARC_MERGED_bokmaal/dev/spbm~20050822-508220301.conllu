@@ -1,0 +1,359 @@
+# newdoc id = spbm~20050822-508220301
+# global.Entity = eid-etype-head-other
+# sent_id = 017622
+# text = Tiltalt for voldtekt om bord i cruiseskip
+1	Tiltalt	tiltale	VERB	_	VerbForm=Part	0	root	_	name=O
+2	for	for	ADP	_	_	3	case	_	name=O
+3	voldtekt	voldtekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	name=O|Entity=(spbm~20050822_508220301__235--1
+4	om	om	ADP	_	_	5	case	_	name=O
+5	bord	bord	NOUN	_	_	3	nmod	_	name=O|Entity=(spbm~20050822_508220301__T2--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	cruiseskip	cruiseskip	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(spbm~20050822_508220301__T3--1)spbm~20050822_508220301__T2)spbm~20050822_508220301__235)
+
+# sent_id = 017623
+# text = Torsdag møter en mann i retten, tiltalt for å ha voldtatt ei kvinne om bord på cruiseskipet «Queen Elisabeth 2», mens skipet lå ved kai i Ålesund.
+1	Torsdag	torsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(spbm~20050822_508220301__T4--1)
+2	møter	møte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(spbm~20050822_508220301__9370--1
+4	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=spbm~20050822_508220301__9370)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__T6--1)
+7	,	$,	PUNCT	_	_	6	punct	_	name=O
+8	tiltalt	tiltale	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	4	acl	_	name=O
+9	for	for	SCONJ	_	_	12	mark	_	name=O
+10	å	å	PART	_	_	12	mark	_	name=O
+11	ha	ha	AUX	_	VerbForm=Inf	12	aux	_	name=O
+12	voldtatt	voldta	VERB	_	VerbForm=Part	8	advcl	_	name=O
+13	ei	en	DET	_	Gender=Fem|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(spbm~20050822_508220301__9391--1
+14	kvinne	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	name=O|Entity=spbm~20050822_508220301__9391)
+15	om	om	ADP	_	_	16	case	_	name=O
+16	bord	bord	NOUN	_	_	12	obl	_	name=O|Entity=(spbm~20050822_508220301__T8--1
+17	på	på	ADP	_	_	20	case	_	name=O
+18	cruiseskipet	cruiseskip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	name=O|Entity=(spbm~20050822_508220301__6152--1
+19	«	$"	PUNCT	_	_	20	punct	_	SpaceAfter=No|name=O
+20	Queen	Queen	PROPN	_	_	16	nmod	_	name=B-LOC
+21	Elisabeth	Elisabeth	PROPN	_	Gender=Fem	20	flat:name	_	name=I-LOC
+22	2	2	NUM	_	Number=Plur|NumType=Card	20	flat:name	_	SpaceAfter=No|name=I-LOC
+23	»	$"	PUNCT	_	_	20	punct	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220301__6152)spbm~20050822_508220301__T8)
+24	,	$,	PUNCT	_	_	27	punct	_	name=O
+25	mens	mens	SCONJ	_	_	27	mark	_	name=O
+26	skipet	skip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	27	nsubj	_	name=O|Entity=(spbm~20050822_508220301__6152--1)
+27	lå	ligge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	name=O
+28	ved	ved	ADP	_	_	29	case	_	name=O
+29	kai	kai	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	27	obl	_	name=O|Entity=(spbm~20050822_508220301__T11--1)
+30	i	i	ADP	_	_	31	case	_	name=O
+31	Ålesund	Ålesund	PROPN	_	_	27	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20050822_508220301__251--1)
+32	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 017624
+# text = Rettssak.
+1	Rettssak	rettssak	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__T13--1)
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 017625
+# text = Både den tiltalte, en mann fra Serbia, og den fornærma, ei kvinne fra Storbritannia, er ansatt om bord på cruiseskipet.
+1	Både	både	CCONJ	_	_	3	cc	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(spbm~20050822_508220301__T14--1(spbm~20050822_508220301__9370--1
+3	tiltalte	tiltalt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	nsubj	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	6	punct	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(spbm~20050822_508220301__T16--1
+6	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	name=O
+7	fra	fra	ADP	_	_	8	case	_	name=O
+8	Serbia	Serbia	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20050822_508220301__T17--1)spbm~20050822_508220301__T16)spbm~20050822_508220301__9370)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(spbm~20050822_508220301__9391--1
+12	fornærma	fornærma	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	conj	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	ei	en	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(spbm~20050822_508220301__T19--1
+15	kvinne	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	appos	_	name=O
+16	fra	fra	ADP	_	_	17	case	_	name=O
+17	Storbritannia	Storbritannia	PROPN	_	_	15	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20050822_508220301__T20--1)spbm~20050822_508220301__T19)spbm~20050822_508220301__9391)
+18	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=spbm~20050822_508220301__T14)
+19	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	name=O
+20	ansatt	ansatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+21	om	om	ADP	_	_	22	case	_	name=O
+22	bord	bord	NOUN	_	_	20	obl	_	name=O|Entity=(spbm~20050822_508220301__T21--1
+23	på	på	ADP	_	_	24	case	_	name=O
+24	cruiseskipet	cruiseskip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__6152--1)spbm~20050822_508220301__T21)
+25	.	$.	PUNCT	_	_	20	punct	_	name=O
+
+# sent_id = 017626
+# text = Min klient stiller seg fullstendig uforstående til tiltalen.
+1	Min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(spbm~20050822_508220301__9370--1(spbm~20050822_508220301__4210--1)
+2	klient	klient	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=spbm~20050822_508220301__9370)
+3	stiller	stille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	name=O|Entity=(spbm~20050822_508220301__9370--1)
+5	fullstendig	fullstendig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	uforstående	uforstående	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	xcomp	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	tiltalen	tiltale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__T25--1)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017627
+# text = Han benekter å ha hatt noe samkvem med denne kvinna, og erkjenner derfor ikke straffskyld, sier advokat Inger Marie Sperre.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(spbm~20050822_508220301__9370--1)
+2	benekter	benekte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	5	mark	_	name=O
+4	ha	ha	AUX	_	VerbForm=Inf	5	aux	_	name=O
+5	hatt	ha	VERB	_	VerbForm=Part	2	xcomp	_	name=O
+6	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	7	det	_	name=O|Entity=(spbm~20050822_508220301__T27--1
+7	samkvem	samkvem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O
+8	med	med	ADP	_	_	10	case	_	name=O
+9	denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(spbm~20050822_508220301__9391--1
+10	kvinna	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220301__9391)spbm~20050822_508220301__T27)
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	erkjenner	erkjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+14	derfor	derfor	ADV	_	_	13	advmod	_	name=O
+15	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	name=O
+16	straffskyld	straffskyld	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__T29--1)
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+19	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	name=O|Entity=(spbm~20050822_508220301__4210--1
+20	Inger	Inger	PROPN	_	Gender=Fem	18	nsubj	_	name=B-PER
+21	Marie	Marie	PROPN	_	Gender=Fem	20	flat:name	_	name=I-PER
+22	Sperre	Sperre	PROPN	_	_	20	flat:name	_	SpaceAfter=No|name=I-PER|Entity=spbm~20050822_508220301__4210)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017628
+# text = Kollegaer
+1	Kollegaer	kollega	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(spbm~20050822_508220301__T31--1)
+
+# sent_id = 017629
+# text = De to skal bare ha arbeidet sammen på «Queen Elisabeth 2» i fire dager da den angivelige voldtekten fant sted 25. mai, mens skipet lå til kai i Ålesund.
+1	De	de	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|SplitAnte=spbm~20050822_508220301__9370<spbm~20050822_508220301__2129,spbm~20050822_508220301__9391<spbm~20050822_508220301__2129|Entity=(spbm~20050822_508220301__2129--1
+2	to	to	NUM	_	Number=Plur|NumType=Card	6	nsubj	_	name=O|Entity=spbm~20050822_508220301__2129)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	bare	bare	ADV	_	_	6	advmod	_	name=O
+5	ha	ha	AUX	_	VerbForm=Inf	6	aux	_	name=O
+6	arbeidet	arbeide	VERB	_	VerbForm=Part	0	root	_	name=O
+7	sammen	sammen	ADV	_	_	6	advmod	_	name=O
+8	på	på	ADP	_	_	10	case	_	name=O
+9	«	$"	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__6152--1
+10	Queen	Queen	PROPN	_	_	6	obl	_	name=B-LOC
+11	Elisabeth	Elisabeth	PROPN	_	Gender=Fem	10	flat:name	_	name=I-LOC
+12	2	2	NUM	_	Number=Plur|NumType=Card	10	flat:name	_	SpaceAfter=No|name=I-LOC
+13	»	$"	PUNCT	_	_	10	punct	_	name=O|Entity=spbm~20050822_508220301__6152)
+14	i	i	ADP	_	_	16	case	_	name=O
+15	fire	fire	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(spbm~20050822_508220301__T33--1
+16	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O|Entity=spbm~20050822_508220301__T33)
+17	da	da	SCONJ	_	_	21	mark	_	name=O
+18	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(spbm~20050822_508220301__235--1
+19	angivelige	angivelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	name=O
+20	voldtekten	voldtekt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	name=O|Entity=spbm~20050822_508220301__235)
+21	fant	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	name=O
+22	sted	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	name=O|Entity=(spbm~20050822_508220301__T35--1)
+23	25.	25.	ADJ	_	Number=Plur	24	amod	_	name=O|Entity=(spbm~20050822_508220301__T36--1
+24	mai	mai	NOUN	_	Gender=Masc	21	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220301__T36)
+25	,	$,	PUNCT	_	_	28	punct	_	name=O
+26	mens	mens	SCONJ	_	_	28	mark	_	name=O
+27	skipet	skip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	nsubj	_	name=O|Entity=(spbm~20050822_508220301__6152--1)
+28	lå	ligge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	advcl	_	name=O
+29	til	til	ADP	_	_	30	case	_	name=O
+30	kai	kai	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	28	obl	_	name=O|Entity=(spbm~20050822_508220301__T38--1)
+31	i	i	ADP	_	_	32	case	_	name=O
+32	Ålesund	Ålesund	PROPN	_	_	28	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20050822_508220301__251--1)
+33	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017630
+# text = De var derfor ikke omgangsvenner på skipet.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(spbm~20050822_508220301__2129--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+3	derfor	derfor	ADV	_	_	5	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	omgangsvenner	omgangsvenn	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(spbm~20050822_508220301__T41--1)
+6	på	på	ADP	_	_	7	case	_	name=O
+7	skipet	skip	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__6152--1)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017631
+# text = Kvinna har i avhør fortalt at hun hadde lagt seg, da mannen kom inn på lugaren hennes og voldtok henne.
+1	Kvinna	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=(spbm~20050822_508220301__9391--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	avhør	avhør	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(spbm~20050822_508220301__T44--1)
+5	fortalt	fortelle	VERB	_	VerbForm=Part	0	root	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(spbm~20050822_508220301__9391--1)
+8	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+9	lagt	legge	VERB	_	VerbForm=Part	5	ccomp	_	name=O
+10	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__9391--1)
+11	,	$,	PUNCT	_	_	14	punct	_	name=O
+12	da	da	SCONJ	_	_	14	mark	_	name=O
+13	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	name=O|Entity=(spbm~20050822_508220301__9370--1)
+14	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	name=O
+15	inn	inn	ADP	_	_	17	case	_	name=O
+16	på	på	ADP	_	_	17	case	_	name=O
+17	lugaren	lugar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(spbm~20050822_508220301__T47--1
+18	hennes	hennes	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	name=O|Entity=(spbm~20050822_508220301__9391--1)spbm~20050822_508220301__T47)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	voldtok	voldta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	conj	_	name=O
+21	henne	hun	PRON	_	Animacy=Hum|Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__9391--1)
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017632
+# text = Han ble ikke lenge etter pågrepet, og har siden sittet varetektsfengslet, sier statsadvokat Jogeir Nogva, som skal være aktor i rettssaka mot mannen.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	name=O|Entity=(spbm~20050822_508220301__9370--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	lenge	lenge	ADJ	_	Degree=Pos	6	advmod	_	name=O
+5	etter	etter	ADP	_	_	4	obl	_	name=O
+6	pågrepet	pågripe	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	11	punct	_	name=O
+8	og	og	CCONJ	_	_	11	cc	_	name=O
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+10	siden	siden	ADV	_	_	11	advmod	_	name=O
+11	sittet	sitte	VERB	_	VerbForm=Part	6	conj	_	name=O
+12	varetektsfengslet	varetektsfengsle	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	11	xcomp	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	11	punct	_	name=O
+14	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+15	statsadvokat	statsadvokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(spbm~20050822_508220301__T51--1
+16	Jogeir	Jogeir	PROPN	_	_	14	nsubj	_	name=B-PER
+17	Nogva	Nogva	PROPN	_	_	16	flat:name	_	SpaceAfter=No|name=I-PER
+18	,	$,	PUNCT	_	_	22	punct	_	name=O
+19	som	som	PRON	_	PronType=Rel	22	nsubj	_	name=O
+20	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+21	være	være	AUX	_	VerbForm=Inf	22	cop	_	name=O
+22	aktor	aktor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	acl:relcl	_	name=O|Entity=(spbm~20050822_508220301__T52--1)
+23	i	i	ADP	_	_	24	case	_	name=O
+24	rettssaka	rettssak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	22	obl	_	name=O|Bridge=spbm~20050822_508220301__235<spbm~20050822_508220301__2111:default|Entity=(spbm~20050822_508220301__2111--1
+25	mot	mot	ADP	_	_	26	case	_	name=O
+26	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__9370--1)spbm~20050822_508220301__2111)spbm~20050822_508220301__T51)
+27	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017633
+# text = To tolker
+1	To	to	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(spbm~20050822_508220301__T55--1
+2	tolker	tolk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=spbm~20050822_508220301__T55)
+
+# sent_id = 017634
+# text = Det er satt av to dager til rettssaka i Sunnmøre tingrett.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220301__T56--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	satt	sette	VERB	_	VerbForm=Part	0	root	_	name=O
+4	av	av	ADP	_	_	3	compound:prt	_	name=O
+5	to	to	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(spbm~20050822_508220301__T57--1
+6	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O|Entity=spbm~20050822_508220301__T57)
+7	til	til	ADP	_	_	8	case	_	name=O
+8	rettssaka	rettssak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(spbm~20050822_508220301__2111--1)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Sunnmøre	Sunnmøre	PROPN	_	_	3	obl	_	name=B-ORG|Entity=(spbm~20050822_508220301__2132--1
+11	tingrett	tingrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=spbm~20050822_508220301__2132)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017635
+# text = På grunn av at tiltalte og fornærmede har ulik nasjonalitet, er det leid inn to tolker som skal oversette det som blir sagt til serbisk og engelsk.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(spbm~20050822_508220301__T60--1
+3	av	av	SCONJ	_	_	8	mark	_	name=O
+4	at	at	SCONJ	_	_	8	mark	_	name=O
+5	tiltalte	tiltalt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	nsubj	_	name=O|Entity=(spbm~20050822_508220301__T61--1(spbm~20050822_508220301__9370--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	fornærmede	fornærmet	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	conj	_	name=O|Entity=(spbm~20050822_508220301__9391--1)spbm~20050822_508220301__T61)
+8	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl	_	name=O
+9	ulik	ulik	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(spbm~20050822_508220301__T64--1
+10	nasjonalitet	nasjonalitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220301__T64)spbm~20050822_508220301__T60)
+11	,	$,	PUNCT	_	_	2	punct	_	name=O
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	name=O
+14	leid	leie	VERB	_	VerbForm=Part	0	root	_	name=O
+15	inn	inn	ADP	_	_	14	compound:prt	_	name=O
+16	to	to	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(spbm~20050822_508220301__T65--1
+17	tolker	tolk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obj	_	name=O
+18	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+19	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+20	oversette	oversette	VERB	_	VerbForm=Inf	17	acl:relcl	_	name=O
+21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obj	_	name=O|Entity=(spbm~20050822_508220301__T66--1
+22	som	som	PRON	_	PronType=Rel	24	nsubj:pass	_	name=O
+23	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux:pass	_	name=O
+24	sagt	si	VERB	_	VerbForm=Part	21	acl:relcl	_	name=O|Entity=spbm~20050822_508220301__T66)
+25	til	til	ADP	_	_	26	case	_	name=O
+26	serbisk	serbisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O|Entity=(spbm~20050822_508220301__T67--1(spbm~20050822_508220301__T68--1)
+27	og	og	CCONJ	_	_	28	cc	_	name=O
+28	engelsk	engelsk	NOUN	_	Gender=Neut	26	conj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__T69--1)spbm~20050822_508220301__T67)spbm~20050822_508220301__T65)
+29	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 017636
+# text = Advokat Inger Marie Sperre bekrefter overfor Sunnmørsposten at det blir lagt fram tekniske bevis i retten, men at det vil bli et tema om disse bevisene er gode nok til en domfellelse.
+1	Advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(spbm~20050822_508220301__4210--1
+2	Inger	Inger	PROPN	_	Gender=Fem	5	nsubj	_	name=B-PER
+3	Marie	Marie	PROPN	_	Gender=Fem	2	flat:name	_	name=I-PER
+4	Sperre	Sperre	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=spbm~20050822_508220301__4210)
+5	bekrefter	bekrefte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	overfor	overfor	ADP	_	_	7	case	_	name=O
+7	Sunnmørsposten	Sunnmørsposten	PROPN	_	_	5	obl	_	name=B-ORG|Entity=(spbm~20050822_508220301__T71--1)
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+10	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux:pass	_	name=O
+11	lagt	legge	VERB	_	VerbForm=Part	5	xcomp	_	name=O
+12	fram	fram	ADP	_	_	11	compound:prt	_	name=O
+13	tekniske	teknisk	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O|Entity=(spbm~20050822_508220301__4315--1
+14	bevis	bevis	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obj	_	name=O|Entity=spbm~20050822_508220301__4315)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__2132--1)
+17	,	$,	PUNCT	_	_	22	punct	_	name=O
+18	men	men	CCONJ	_	_	22	cc	_	name=O
+19	at	at	SCONJ	_	_	22	mark	_	name=O
+20	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	name=O
+21	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+22	bli	bli	VERB	_	VerbForm=Inf	11	conj	_	name=O
+23	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(spbm~20050822_508220301__T74--1
+24	tema	tema	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	xcomp	_	name=O|Entity=spbm~20050822_508220301__T74)
+25	om	om	SCONJ	_	_	29	mark	_	name=O
+26	disse	disse	DET	_	Number=Plur|PronType=Dem	27	det	_	name=O|Entity=(spbm~20050822_508220301__4315--1
+27	bevisene	bevis	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	29	nsubj	_	name=O|Entity=spbm~20050822_508220301__4315)
+28	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	cop	_	name=O
+29	gode	god	ADJ	_	Degree=Pos|Number=Plur	22	csubj	_	name=O
+30	nok	nok	ADV	_	_	29	advmod	_	name=O
+31	til	til	ADP	_	_	33	case	_	name=O
+32	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	33	det	_	name=O|Entity=(spbm~20050822_508220301__T76--1
+33	domfellelse	domfellelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220301__T76)
+34	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017637
+# text = Dette skal dreie seg om både DNA-spor og fingeravtrykk.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220301__4315--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	dreie	dreie	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	name=O|Entity=(spbm~20050822_508220301__4315--1)
+5	om	om	ADP	_	_	7	case	_	name=O
+6	både	både	CCONJ	_	_	7	cc	_	name=O
+7	DNA-spor	DNA-spor	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	name=O|Entity=(spbm~20050822_508220301__3246--1(spbm~20050822_508220301__T79--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	fingeravtrykk	fingeravtrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220301__T80--1)spbm~20050822_508220301__3246)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017638
+# text = Vurderer bevis
+1	Vurderer	vurdere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	bevis	bevis	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	obj	_	name=O|Entity=(spbm~20050822_508220301__T81--1)
+
+# sent_id = 017639
+# text = Spørsmålet er om disse er funnet på slike steder at de kan bevise om det er gjennomført en forbrytelse, sier Sperre.
+1	Spørsmålet	spørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(spbm~20050822_508220301__T82--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	om	om	SCONJ	_	_	6	mark	_	name=O
+4	disse	disse	PRON	_	Number=Plur|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(spbm~20050822_508220301__3246--1)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	funnet	finne	VERB	_	VerbForm=Part	0	root	_	name=O
+7	på	på	ADP	_	_	9	case	_	name=O
+8	slike	slik	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(spbm~20050822_508220301__T84--1
+9	steder	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	name=O
+10	at	at	SCONJ	_	_	13	mark	_	name=O
+11	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(spbm~20050822_508220301__3246--1)
+12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	bevise	bevise	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+14	om	om	SCONJ	_	_	17	mark	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	name=O
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	gjennomført	gjennomføre	VERB	_	VerbForm=Part	13	xcomp	_	name=O
+18	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(spbm~20050822_508220301__T86--1
+19	forbrytelse	forbrytelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220301__T86)spbm~20050822_508220301__T84)
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+22	Sperre	Sperre	PROPN	_	_	21	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(spbm~20050822_508220301__4210--1)
+23	.	$.	PUNCT	_	_	6	punct	_	name=O
+

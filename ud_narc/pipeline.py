@@ -11,8 +11,10 @@ if __name__ == "__main__":
     output_path = os.path.join(os.getcwd(), "output")
 
     norne_path = os.path.join(os.getcwd(), "data", "norne", "ud")
-    ud_path = os.path.join(os.getcwd(), "data", "ud")
+    ud_path = os.path.join(os.getcwd(), "data", "UD")
     aligned_norne = os.path.join(output_path, "norne")
+    if os.path.exists(aligned_norne) and len(os.listdir(aligned_norne)) == 0:
+        os.rmdir(aligned_norne)
     if not os.path.exists(aligned_norne):
         align_norne(norne_path, ud_path, aligned_norne)
 

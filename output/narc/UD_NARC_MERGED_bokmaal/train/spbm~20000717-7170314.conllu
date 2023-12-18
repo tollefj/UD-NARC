@@ -1,0 +1,466 @@
+# newdoc id = spbm~20000717-7170314
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 013369
+# text = Anita Nyhagen fekk "årets gapskratt"
+1	Anita	Anita	PROPN	_	Gender=Fem	3	nsubj	_	name=B-PER|Entity=(spbm~20000717_7170314__558--1
+2	Nyhagen	Nyhagen	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=spbm~20000717_7170314__558)
+3	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	"	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__436--1
+5	årets	år	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(spbm~20000717_7170314__T2--1)
+6	gapskratt	gapskratt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O
+7	"	$"	PUNCT	_	_	6	punct	_	name=O|Entity=spbm~20000717_7170314__436)
+
+# sent_id = 013370
+# text = Med stående applaus fra 1.100 publikummere i det store sirkusteltet ble Anita Nyhagen fra Vågstranda utropt til "Årets Gapskratt" og fikk tildelt den gjeveste prisen da den humørfylte festivalen i Tresfjord ble avslutta sent lørdagskvelden.
+1	Med	med	ADP	_	_	3	case	_	name=O
+2	stående	stå	ADJ	_	VerbForm=Part	3	amod	_	name=O|Entity=(spbm~20000717_7170314__T4--1
+3	applaus	applaus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	name=O
+4	fra	fra	ADP	_	_	6	case	_	name=O
+5	1.100	1.100	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(spbm~20000717_7170314__T5--1
+6	publikummere	publikummer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nmod	_	name=O
+7	i	i	ADP	_	_	10	case	_	name=O
+8	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__3231:default|Entity=(spbm~20000717_7170314__3231--1
+9	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	sirkusteltet	sirkustelt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=spbm~20000717_7170314__3231)spbm~20000717_7170314__T5)spbm~20000717_7170314__T4)
+11	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux:pass	_	name=O
+12	Anita	Anita	PROPN	_	Gender=Fem	16	nsubj:pass	_	name=B-PER|Entity=(spbm~20000717_7170314__558--1
+13	Nyhagen	Nyhagen	PROPN	_	_	12	flat:name	_	name=I-PER
+14	fra	fra	ADP	_	_	15	case	_	name=O
+15	Vågstranda	Vågstranda	PROPN	_	_	12	nmod	_	name=B-LOC|Entity=(spbm~20000717_7170314__T8--1)spbm~20000717_7170314__558)
+16	utropt	utrope	VERB	_	VerbForm=Part	0	root	_	name=O
+17	til	til	SCONJ	_	_	19	mark	_	name=O
+18	"	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__436--1
+19	Årets	Årets	PROPN	_	_	16	xcomp	_	name=B-PROD
+20	Gapskratt	Gapskratt	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-PROD
+21	"	$"	PUNCT	_	_	19	punct	_	name=O|Entity=spbm~20000717_7170314__436)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	conj	_	name=O
+24	tildelt	tildele	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	23	xcomp	_	name=O
+25	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	27	det	_	name=O|Entity=(spbm~20000717_7170314__436--1
+26	gjeveste	gjev	ADJ	_	Definite=Def|Degree=Sup	27	amod	_	name=O
+27	prisen	pris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	obj	_	name=O|Entity=spbm~20000717_7170314__436)
+28	da	da	SCONJ	_	_	35	mark	_	name=O
+29	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	name=O|Entity=(spbm~20000717_7170314__5297--1
+30	humørfylte	humørfylt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	31	amod	_	name=O
+31	festivalen	festival	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	35	nsubj:pass	_	name=O
+32	i	i	ADP	_	_	33	case	_	name=O
+33	Tresfjord	Tresfjord	PROPN	_	_	31	nmod	_	name=B-LOC|Entity=(spbm~20000717_7170314__240--1)spbm~20000717_7170314__5297)
+34	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux:pass	_	name=O
+35	avslutta	avslutte	VERB	_	VerbForm=Part	23	advcl	_	name=O
+36	sent	sen	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	name=O|Entity=(spbm~20000717_7170314__T13--1
+37	lørdagskvelden	lørdagskveld	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T13)
+38	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# newpar
+# sent_id = 013371
+# text = Prisen fikk hun for sine eminente monologer.
+1	Prisen	pris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(spbm~20000717_7170314__436--1)
+2	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(spbm~20000717_7170314__558--1)
+4	for	for	ADP	_	_	7	case	_	name=O
+5	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(spbm~20000717_7170314__T17--1(spbm~20000717_7170314__558--1)
+6	eminente	eminent	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	monologer	monolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T17)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013372
+# text = Men også flere enn Nyhagen, som for øvrig representerer Vike UL, ble tildelt priser for sine eskapader på scena under denne, den tredje Gapskrattfestivalen i Tresfjord.
+1	Men	men	CCONJ	_	_	15	cc	_	name=O
+2	også	også	ADV	_	_	3	advmod	_	name=O
+3	flere	mange	ADJ	_	Degree=Cmp	15	nsubj:pass	_	name=O|Entity=(spbm~20000717_7170314__2149--1
+4	enn	enn	ADP	_	_	5	case	_	name=O
+5	Nyhagen	Nyhagen	PROPN	_	_	3	nmod	_	SpaceAfter=No|name=B-PER|Entity=(spbm~20000717_7170314__558--1
+6	,	$,	PUNCT	_	_	10	punct	_	name=O
+7	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	øvrig	øvrig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O|Entity=(spbm~20000717_7170314__T20--1)
+10	representerer	representere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+11	Vike	Vike	PROPN	_	_	10	obj	_	name=B-ORG|Entity=(spbm~20000717_7170314__T21--1
+12	UL	UL	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=spbm~20000717_7170314__T21)spbm~20000717_7170314__558)spbm~20000717_7170314__2149)
+13	,	$,	PUNCT	_	_	10	punct	_	name=O
+14	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux:pass	_	name=O
+15	tildelt	tildele	VERB	_	VerbForm=Part	0	root	_	name=O
+16	priser	pris	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obj	_	name=O|Entity=(spbm~20000717_7170314__T22--1
+17	for	for	ADP	_	_	19	case	_	name=O
+18	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(spbm~20000717_7170314__T24--1(spbm~20000717_7170314__2149--1)
+19	eskapader	eskapade	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nmod	_	name=O
+20	på	på	ADP	_	_	21	case	_	name=O
+21	scena	scene	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=(spbm~20000717_7170314__T25--1)spbm~20000717_7170314__T24)spbm~20000717_7170314__T22)
+22	under	under	ADP	_	_	23	case	_	name=O
+23	denne	denne	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	15	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__5297--1
+24	,	$,	PUNCT	_	_	27	punct	_	name=O
+25	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	27	det	_	name=O|Entity=(spbm~20000717_7170314__T27--1
+26	tredje	tredje	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	27	amod	_	name=O
+27	Gapskrattfestivalen	Gapskrattfestivalen	PROPN	_	_	23	appos	_	name=B-EVT
+28	i	i	ADP	_	_	29	case	_	name=O
+29	Tresfjord	Tresfjord	PROPN	_	_	27	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(spbm~20000717_7170314__240--1)spbm~20000717_7170314__T27)spbm~20000717_7170314__5297)
+30	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 013373
+# text = Ingrid Hjelle og Therese Brunstad fra Molja Revyteater i Ålesund gjorde gjennom sin utsøkte vise "Røyk eller ikkje" seg fortjent til prisen for beste vise.
+1	Ingrid	Ingrid	PROPN	_	Gender=Fem	11	nsubj	_	name=B-PER|Entity=(spbm~20000717_7170314__3190--1(spbm~20000717_7170314__T30--1
+2	Hjelle	Hjelle	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=spbm~20000717_7170314__T30)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	Therese	Therese	PROPN	_	_	1	conj	_	name=B-PER|Entity=(spbm~20000717_7170314__T31--1
+5	Brunstad	Brunstad	PROPN	_	_	4	flat:name	_	name=I-PER
+6	fra	fra	ADP	_	_	7	case	_	name=O
+7	Molja	Molja	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(spbm~20000717_7170314__T32--1
+8	Revyteater	Revyteater	PROPN	_	_	7	flat:name	_	name=I-ORG
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Ålesund	Ålesund	PROPN	_	_	7	nmod	_	name=B-GPE_LOC|Entity=(spbm~20000717_7170314__T33--1)spbm~20000717_7170314__T32)spbm~20000717_7170314__T31)spbm~20000717_7170314__3190)
+11	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+12	gjennom	gjennom	ADP	_	_	17	case	_	name=O
+13	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(spbm~20000717_7170314__T36--1(spbm~20000717_7170314__T35--1(spbm~20000717_7170314__3190--1)
+14	utsøkte	utsøkt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	vise	vise	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=spbm~20000717_7170314__T35)
+16	"	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O
+17	Røyk	Røyk	PROPN	_	_	11	obl	_	name=B-PROD
+18	eller	eller	X	_	_	17	flat:name	_	name=I-PROD
+19	ikkje	ikkje	X	_	_	17	flat:name	_	SpaceAfter=No|name=I-PROD
+20	"	$"	PUNCT	_	_	17	punct	_	name=O|Entity=spbm~20000717_7170314__T36)
+21	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	name=O|Entity=(spbm~20000717_7170314__3190--1)
+22	fortjent	fortjent	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	xcomp	_	name=O
+23	til	til	ADP	_	_	24	case	_	name=O
+24	prisen	pris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	obl	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T37:default|Entity=(spbm~20000717_7170314__T37--1
+25	for	for	ADP	_	_	27	case	_	name=O
+26	beste	god	ADJ	_	Definite=Def|Degree=Sup	27	amod	_	name=O|Entity=(spbm~20000717_7170314__T38--1
+27	vise	vise	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T38)spbm~20000717_7170314__T37)
+28	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 013374
+# text = En populær utnevnelse blant det sunnmørstalende publikum.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(spbm~20000717_7170314__T39--1
+2	populær	populær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	utnevnelse	utnevnelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+4	blant	blant	ADP	_	_	7	case	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(spbm~20000717_7170314__T40--1
+6	sunnmørstalende	sunnmørstalende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T40)spbm~20000717_7170314__T39)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013375
+# text = De godt tusen gapskrattende publikummerne fikk videre se at Tresfjord ULs Anne Øvstedal Iversen tok ekte hjemmeseier da hun for framføringa av "På nett", fikk førsteprisen for beste monolog.
+1	De	de	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T41:default|Entity=(spbm~20000717_7170314__T41--1
+2	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+3	tusen	tusen	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O
+4	gapskrattende	gapskratte	ADJ	_	VerbForm=Part	5	amod	_	name=O
+5	publikummerne	publikummer	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=spbm~20000717_7170314__T41)
+6	fikk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+7	videre	vid	ADJ	_	Degree=Cmp	8	advmod	_	name=O
+8	se	se	VERB	_	VerbForm=Inf	0	root	_	name=O
+9	at	at	SCONJ	_	_	15	mark	_	name=O
+10	Tresfjord	Tresfjord	PROPN	_	_	12	nmod	_	name=B-ORG|Entity=(spbm~20000717_7170314__6405--1(spbm~20000717_7170314__T42--1
+11	ULs	UL	PROPN	_	Case=Gen	10	flat:name	_	name=I-ORG|Entity=spbm~20000717_7170314__T42)
+12	Anne	Anne	PROPN	_	Gender=Fem	15	nsubj	_	name=B-PER
+13	Øvstedal	Øvstedal	PROPN	_	_	12	flat:name	_	name=I-PER
+14	Iversen	Iversen	PROPN	_	_	12	flat:name	_	name=I-PER|Entity=spbm~20000717_7170314__6405)
+15	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	ccomp	_	name=O
+16	ekte	ekte	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(spbm~20000717_7170314__T44--1
+17	hjemmeseier	hjemmeseier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=spbm~20000717_7170314__T44)
+18	da	da	SCONJ	_	_	28	mark	_	name=O
+19	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	name=O|Entity=(spbm~20000717_7170314__6405--1)
+20	for	for	ADP	_	_	21	case	_	name=O
+21	framføringa	framføring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	28	obl	_	name=O|Entity=(spbm~20000717_7170314__T46--1
+22	av	av	ADP	_	_	24	case	_	name=O
+23	"	$"	PUNCT	_	_	24	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__2120--1
+24	På	På	PROPN	_	_	21	nmod	_	name=B-PROD
+25	nett	nett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	flat:name	_	SpaceAfter=No|name=I-PROD
+26	"	$"	PUNCT	_	_	24	punct	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__2120)spbm~20000717_7170314__T46)
+27	,	$,	PUNCT	_	_	21	punct	_	name=O
+28	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	name=O
+29	førsteprisen	førstepris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	obj	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T48:default|Entity=(spbm~20000717_7170314__T48--1
+30	for	for	ADP	_	_	32	case	_	name=O
+31	beste	god	ADJ	_	Definite=Def|Degree=Sup	32	amod	_	name=O|Entity=(spbm~20000717_7170314__T49--1
+32	monolog	monolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T49)spbm~20000717_7170314__T48)
+33	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 013376
+# text = Publikumsjuryen hadde ellers funnet ut at Lånke-revyens representanter hadde festivalens beste skjets i "Bufrias og Gudrun".
+1	Publikumsjuryen	publikumsjury	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T50:default|Entity=(spbm~20000717_7170314__T50--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	ellers	ellers	ADV	_	_	4	advmod	_	name=O
+4	funnet	finne	VERB	_	VerbForm=Part	0	root	_	name=O
+5	ut	ut	ADP	_	_	4	compound:prt	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	Lånke-revyens	Lånke-revyen	PROPN	_	Case=Gen	8	nmod	_	name=B-DRV|Entity=(spbm~20000717_7170314__T52--1(spbm~20000717_7170314__T51--1)
+8	representanter	representant	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=spbm~20000717_7170314__T52)
+9	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	name=O
+10	festivalens	festival	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(spbm~20000717_7170314__T54--1(spbm~20000717_7170314__5297--1)
+11	beste	god	ADJ	_	Definite=Def|Degree=Sup	12	amod	_	name=O
+12	skjets	sketsj	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	name=O|Entity=spbm~20000717_7170314__T54)
+13	i	i	ADP	_	_	15	case	_	name=O
+14	"	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__T55--1
+15	Bufrias	Bufrias	PROPN	_	_	9	obl	_	name=B-PROD
+16	og	og	CCONJ	_	_	15	flat:name	_	name=I-PROD
+17	Gudrun	Gudrun	PROPN	_	Gender=Fem	15	flat:name	_	SpaceAfter=No|name=I-PROD
+18	"	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T55)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013377
+# text = Også en representant fra Norsk Revyfaglig Senter kom frem på scena etter at finaleinnslagene var presentert, og hun kunne overrekke Anne Øvstedal Iversen en ærespris fordi hun gjennom sin vinnermonolog hadde fått med seg alle de kriterier som skal til for å ha en skikkelig monolog; at temaet var aktuelt og at det opptar nærmest alle.
+1	Også	også	ADV	_	_	3	advmod	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(spbm~20000717_7170314__2188--1
+3	representant	representant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O
+4	fra	fra	ADP	_	_	5	case	_	name=O
+5	Norsk	Norsk	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(spbm~20000717_7170314__T57--1
+6	Revyfaglig	Revyfaglig	PROPN	_	_	5	flat:name	_	name=I-ORG
+7	Senter	Senter	PROPN	_	_	5	flat:name	_	name=I-ORG|Entity=spbm~20000717_7170314__T57)spbm~20000717_7170314__2188)
+8	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	frem	frem	ADP	_	_	8	compound:prt	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	scena	scene	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T58:default|Entity=(spbm~20000717_7170314__T58--1)
+12	etter	etter	SCONJ	_	_	16	mark	_	name=O
+13	at	at	SCONJ	_	_	16	mark	_	name=O
+14	finaleinnslagene	finaleinnslag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	16	nsubj	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T59:default|Entity=(spbm~20000717_7170314__T59--1)
+15	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	name=O
+16	presentert	presentere	VERB	_	VerbForm=Part	8	advcl	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	21	punct	_	name=O
+18	og	og	CCONJ	_	_	21	cc	_	name=O
+19	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(spbm~20000717_7170314__2188--1)
+20	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	name=O
+21	overrekke	overrekke	VERB	_	VerbForm=Inf	8	conj	_	name=O
+22	Anne	Anne	PROPN	_	Gender=Fem	21	iobj	_	name=B-PER|Entity=(spbm~20000717_7170314__6405--1
+23	Øvstedal	Øvstedal	PROPN	_	_	22	flat:name	_	name=I-PER
+24	Iversen	Iversen	PROPN	_	_	22	flat:name	_	name=I-PER|Entity=spbm~20000717_7170314__6405)
+25	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(spbm~20000717_7170314__T62--1
+26	ærespris	ærespris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obj	_	name=O|Entity=spbm~20000717_7170314__T62)
+27	fordi	fordi	SCONJ	_	_	33	mark	_	name=O
+28	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	name=O|Entity=(spbm~20000717_7170314__6405--1)
+29	gjennom	gjennom	ADP	_	_	31	case	_	name=O
+30	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	nmod	_	name=O|Entity=(spbm~20000717_7170314__T65--1(spbm~20000717_7170314__6405--1)
+31	vinnermonolog	vinnermonolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	obl	_	name=O|Entity=spbm~20000717_7170314__T65)
+32	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	33	aux	_	name=O
+33	fått	få	VERB	_	VerbForm=Part	21	advcl	_	name=O
+34	med	med	ADP	_	_	35	case	_	name=O
+35	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	33	obl	_	name=O|Entity=(spbm~20000717_7170314__6405--1)
+36	alle	all	DET	_	Number=Plur|PronType=Tot	38	det	_	name=O|Entity=(spbm~20000717_7170314__T66--1
+37	de	de	DET	_	Number=Plur|PronType=Dem	38	det	_	name=O
+38	kriterier	kriterium	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	33	obj	_	name=O
+39	som	som	PRON	_	PronType=Rel	40	nsubj	_	name=O
+40	skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	38	acl:relcl	_	name=O
+41	til	til	ADP	_	_	40	compound:prt	_	name=O
+42	for	for	SCONJ	_	_	44	mark	_	name=O
+43	å	å	PART	_	_	44	mark	_	name=O
+44	ha	ha	VERB	_	VerbForm=Inf	40	advcl	_	name=O
+45	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	47	det	_	name=O|Entity=(spbm~20000717_7170314__T67--1
+46	skikkelig	skikkelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	47	amod	_	name=O
+47	monolog	monolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	44	obj	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T67)
+48	;	$;	PUNCT	_	_	52	punct	_	name=O
+49	at	at	SCONJ	_	_	52	mark	_	name=O
+50	temaet	tema	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	52	nsubj	_	name=O|Entity=(spbm~20000717_7170314__2137--1)
+51	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	52	cop	_	name=O
+52	aktuelt	aktuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	38	appos	_	name=O
+53	og	og	CCONJ	_	_	56	cc	_	name=O
+54	at	at	SCONJ	_	_	56	mark	_	name=O
+55	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	56	nsubj	_	name=O|Entity=(spbm~20000717_7170314__2137--1)
+56	opptar	oppta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	52	conj	_	name=O
+57	nærmest	nær	ADJ	_	Definite=Ind|Degree=Sup	58	advmod	_	name=O|Entity=(spbm~20000717_7170314__T70--1
+58	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	56	obj	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T70)spbm~20000717_7170314__T66)
+59	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 013378
+# text = Det gjorde til fulle "På nett" som omhandler eldres utfordringer med tanke på databruk, eller misbruk.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(spbm~20000717_7170314__T71--1)
+2	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	fulle	full	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	advmod	_	name=O|Entity=(spbm~20000717_7170314__T72--1)
+5	"	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__2120--1
+6	På	På	PROPN	_	_	2	nsubj	_	name=B-PROD
+7	nett	nett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	flat:name	_	SpaceAfter=No|name=I-PROD
+8	"	$"	PUNCT	_	_	6	punct	_	name=O
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	omhandler	omhandle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+11	eldres	gammel	ADJ	_	Case=Gen|Degree=Cmp	12	nmod	_	name=O|Entity=(spbm~20000717_7170314__T74--1
+12	utfordringer	utfordring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	name=O
+13	med	med	ADP	_	_	14	case	_	name=O
+14	tanke	tanke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(spbm~20000717_7170314__T75--1
+15	på	på	ADP	_	_	16	case	_	name=O
+16	databruk	databruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__T76--1(spbm~20000717_7170314__T77--1
+17	,	$,	PUNCT	_	_	19	punct	_	name=O|Entity=spbm~20000717_7170314__T77)
+18	eller	eller	CCONJ	_	_	19	cc	_	name=O
+19	misbruk	misbruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__T78--1)spbm~20000717_7170314__T76)spbm~20000717_7170314__T75)spbm~20000717_7170314__T74)spbm~20000717_7170314__2120)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013379
+# text = Men det var også annen underholdning enn selve finalene på lørdagskvelden.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	også	også	ADV	_	_	3	advmod	_	name=O
+5	annen	annen	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(spbm~20000717_7170314__T79--1
+6	underholdning	underholdning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	name=O
+7	enn	enn	ADP	_	_	9	case	_	name=O
+8	selve	selve	DET	_	Definite=Def|PronType=Prs	9	det	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T80:default|Entity=(spbm~20000717_7170314__T80--1
+9	finalene	finale	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	obl	_	name=O|Entity=spbm~20000717_7170314__T80)spbm~20000717_7170314__T79)
+10	på	på	ADP	_	_	11	case	_	name=O
+11	lørdagskvelden	lørdagskveld	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__T81--1)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013380
+# text = Vestnes Storband hadde sin avdeling, likeså fiolinvirtuosen Ola Kvernberg og trekkspilleren Heine Bugge.
+1	Vestnes	Vestnes	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(spbm~20000717_7170314__2165--1
+2	Storband	Storband	PROPN	_	_	1	flat:name	_	name=I-ORG|Entity=spbm~20000717_7170314__2165)
+3	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(spbm~20000717_7170314__T84--1(spbm~20000717_7170314__2165--1)
+5	avdeling	avdeling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T84)
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	likeså	likeså	ADV	_	_	9	advmod	_	name=O|Entity=(spbm~20000717_7170314__T85--1(spbm~20000717_7170314__T86--1
+8	fiolinvirtuosen	fiolinvirtuos	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O
+9	Ola	Ola	PROPN	_	Gender=Masc	3	conj	_	name=B-PER
+10	Kvernberg	Kvernberg	PROPN	_	_	9	orphan	_	name=I-PER|Entity=spbm~20000717_7170314__T86)
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	trekkspilleren	trekkspiller	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(spbm~20000717_7170314__T87--1
+13	Heine	Heine	PROPN	_	_	9	conj	_	name=B-PER
+14	Bugge	Bugge	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-PER|Entity=spbm~20000717_7170314__T87)spbm~20000717_7170314__T85)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013381
+# text = En ekstra ros til gapskrattkonferansieren Gunnar Ødegård som gjennom samtlige revykvelder har gjort en prikkfri jobb.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(spbm~20000717_7170314__T88--1
+2	ekstra	ekstra	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	ros	ros	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+4	til	til	ADP	_	_	6	case	_	name=O
+5	gapskrattkonferansieren	gapskrattkonferansier	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T89:default|Entity=(spbm~20000717_7170314__T89--1
+6	Gunnar	Gunnar	PROPN	_	Gender=Masc	3	nmod	_	name=B-PER
+7	Ødegård	Ødegård	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=spbm~20000717_7170314__T89)
+8	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+9	gjennom	gjennom	ADP	_	_	11	case	_	name=O
+10	samtlige	samtlige	DET	_	Number=Plur|PronType=Tot	11	det	_	name=O|Entity=(spbm~20000717_7170314__T90--1
+11	revykvelder	revykveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	name=O|Entity=spbm~20000717_7170314__T90)
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	gjort	gjøre	VERB	_	VerbForm=Part	3	acl:relcl	_	name=O
+14	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(spbm~20000717_7170314__T91--1
+15	prikkfri	prikkfri	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T91)spbm~20000717_7170314__T88)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013382
+# text = Også regiassistenten, eller " vevkjerringa " som tittelen hennes er, Aase Bjørg Alme, ble tildelt blomster for det store arbeidet hun hadde lagt ned i festivalens kulisser.
+1	Også	også	ADV	_	_	13	advmod	_	name=O
+2	regiassistenten	regiassistent	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__3214--1(spbm~20000717_7170314__T92--1(spbm~20000717_7170314__T93--1
+3	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=spbm~20000717_7170314__T93)
+4	eller	eller	CCONJ	_	_	6	cc	_	name=O
+5	"	$"	PUNCT	_	_	6	punct	_	name=O|Entity=(spbm~20000717_7170314__T94--1
+6	vevkjerringa	vevkjerring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	conj	_	name=O
+7	"	$"	PUNCT	_	_	6	punct	_	name=O
+8	som	som	PRON	_	PronType=Rel	11	obj	_	name=O
+9	tittelen	tittel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=(spbm~20000717_7170314__T95--1
+10	hennes	hennes	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(spbm~20000717_7170314__3214--1)spbm~20000717_7170314__T95)
+11	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=spbm~20000717_7170314__T94)spbm~20000717_7170314__T92)
+13	Aase	Aase	PROPN	_	Gender=Fem	18	nsubj:pass	_	name=B-PER
+14	Bjørg	Bjørg	PROPN	_	Gender=Fem	13	flat:name	_	name=I-PER
+15	Alme	Alme	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-PER|Entity=spbm~20000717_7170314__3214)
+16	,	$,	PUNCT	_	_	13	punct	_	name=O
+17	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux:pass	_	name=O
+18	tildelt	tildele	VERB	_	VerbForm=Part	0	root	_	name=O
+19	blomster	blomst	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	obj	_	name=O|Entity=(spbm~20000717_7170314__T98--1)
+20	for	for	ADP	_	_	23	case	_	name=O
+21	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	23	det	_	name=O|Entity=(spbm~20000717_7170314__T99--1
+22	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	amod	_	name=O
+23	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	obl	_	name=O
+24	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	name=O|Entity=(spbm~20000717_7170314__3214--1)
+25	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	name=O
+26	lagt	legge	VERB	_	VerbForm=Part	23	acl:relcl	_	name=O
+27	ned	ned	ADP	_	_	26	compound:prt	_	name=O
+28	i	i	ADP	_	_	30	case	_	name=O
+29	festivalens	festival	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	nmod	_	name=O|Entity=(spbm~20000717_7170314__T102--1(spbm~20000717_7170314__5297--1)
+30	kulisser	kulisse	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	26	obl	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T102)spbm~20000717_7170314__T99)
+31	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 013383
+# text = Og med teppefallet i sirkusteltet sent lørdagskvelden, var det bare å avrunde Gapskrattfestivalen i restaurantteltet utover kvelden og natta.
+1	Og	og	CCONJ	_	_	11	cc	_	name=O
+2	med	med	ADP	_	_	3	case	_	name=O
+3	teppefallet	teppefall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=(spbm~20000717_7170314__T103--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	sirkusteltet	sirkustelt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(spbm~20000717_7170314__3231--1)
+6	sent	sen	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O|Entity=(spbm~20000717_7170314__T105--1
+7	lørdagskvelden	lørdagskveld	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T105)spbm~20000717_7170314__T103)
+8	,	$,	PUNCT	_	_	3	punct	_	name=O
+9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	bare	bare	ADV	_	_	0	root	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	avrunde	avrunde	VERB	_	VerbForm=Inf	11	csubj	_	name=O
+14	Gapskrattfestivalen	Gapskrattfestivalen	PROPN	_	_	13	obj	_	name=B-EVT|Entity=(spbm~20000717_7170314__5297--1)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	restaurantteltet	restauranttelt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	obl	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T107:default|Entity=(spbm~20000717_7170314__T107--1)
+17	utover	utover	ADP	_	_	18	case	_	name=O
+18	kvelden	kveld	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(spbm~20000717_7170314__T108--1(spbm~20000717_7170314__T109--1)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	natta	natt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__T110--1)spbm~20000717_7170314__T108)
+21	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 013384
+# text = Der benka godt over 500 festivaldeltagere seg, og mellom dem var både prisvinnerne og dyktig slitne arrangører.
+1	Der	der	ADV	_	_	2	advmod	_	name=O
+2	benka	benke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(spbm~20000717_7170314__3353--1
+4	over	over	ADP	_	_	5	case	_	name=O
+5	500	500	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O
+6	festivaldeltagere	festivaldeltager	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=spbm~20000717_7170314__3353)
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__3353--1)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	mellom	mellom	ADP	_	_	11	case	_	name=O
+11	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	conj	_	name=O|Entity=(spbm~20000717_7170314__3353--1)
+12	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	name=O
+13	både	både	CCONJ	_	_	14	cc	_	name=O
+14	prisvinnerne	prisvinner	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	11	nsubj	_	name=O|Entity=(spbm~20000717_7170314__T113--1(spbm~20000717_7170314__T114--1)
+15	og	og	CCONJ	_	_	18	cc	_	name=O
+16	dyktig	dyktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	name=O|Entity=(spbm~20000717_7170314__T115--1
+17	slitne	sliten	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O
+18	arrangører	arrangør	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170314__T115)spbm~20000717_7170314__T113)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013385
+# text = Festivalgeneral Terje Øvstedal var glad:
+1	Festivalgeneral	festivalgeneral	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(spbm~20000717_7170314__2233--1
+2	Terje	Terje	PROPN	_	Gender=Masc	5	nsubj	_	name=B-PER
+3	Øvstedal	Øvstedal	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=spbm~20000717_7170314__2233)
+4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+5	glad	glad	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+6	:	$:	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013386
+# text = -Nå skal jeg senke skuldrene.
+1	-	$-	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+2	Nå	nå	ADV	_	_	5	advmod	_	name=O
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(spbm~20000717_7170314__2233--1)
+5	senke	senke	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	skuldrene	skulder	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170314__T118--1)
+7	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013387
+# text = Skikkelig morsomt at alt klaffer slik det har gjort, over 2.000 har vært innom sirkusteltet under revyfremføringene og mange har deltatt på kursa våre undervies.
+1	Skikkelig	skikkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+2	morsomt	morsom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(spbm~20000717_7170314__T119--1)
+5	klaffer	klaffe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	csubj	_	name=O
+6	slik	slik	ADV	_	_	5	advmod	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(spbm~20000717_7170314__T120--1)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	gjort	gjøre	VERB	_	VerbForm=Part	6	advcl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	16	punct	_	name=O
+11	over	over	ADP	_	_	12	case	_	name=O
+12	2.000	2.000	NUM	_	Number=Plur|NumType=Card	16	nsubj	_	name=O
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+14	vært	være	AUX	_	VerbForm=Part	16	cop	_	name=O
+15	innom	innom	ADP	_	_	16	case	_	name=O
+16	sirkusteltet	sirkustelt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	conj	_	name=O|Entity=(spbm~20000717_7170314__3231--1)
+17	under	under	ADP	_	_	18	case	_	name=O
+18	revyfremføringene	revyfremføring	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	16	orphan	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T122:default|Entity=(spbm~20000717_7170314__T122--1)
+19	og	og	CCONJ	_	_	22	cc	_	name=O
+20	mange	mange	ADJ	_	Degree=Pos|Number=Plur	22	nsubj	_	name=O|Entity=(spbm~20000717_7170314__T123--1)
+21	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+22	deltatt	delta	VERB	_	VerbForm=Part	2	conj	_	name=O
+23	på	på	ADP	_	_	24	case	_	name=O
+24	kursa	kurs	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	22	orphan	_	name=O|Bridge=spbm~20000717_7170314__5297<spbm~20000717_7170314__T124:default|Entity=(spbm~20000717_7170314__T124--1
+25	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	24	nmod	_	name=O|Entity=(spbm~20000717_7170314__T125--1)spbm~20000717_7170314__T124)
+26	undervies	underveis	ADV	_	_	22	advmod	_	SpaceAfter=No|name=O
+27	.	$.	PUNCT	_	_	2	punct	_	name=O
+

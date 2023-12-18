@@ -1,0 +1,358 @@
+# newdoc id = dot~20111014-2133
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 001698
+# text = Stortinget må ta ansvar
+1	Stortinget	Stortinget	NOUN	_	Gender=Neut	3	nsubj	_	name=B-ORG|Entity=(dot~20111014_2133__T1--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(dot~20111014_2133__T2--1)
+
+# newpar
+# sent_id = 001699
+# text = Vi er no i ferd med å sjå resultatet av statsminister Jens Stoltenberg og Arbeidarpartiets vågale helsereform frå 2001.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20111014_2133__T3--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	no	no	ADV	_	_	5	advmod	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	ferd	ferd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(dot~20111014_2133__T4--1
+6	med	med	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	sjå	sjå	VERB	_	VerbForm=Inf	5	acl	_	name=O
+9	resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obj	_	name=O|Entity=(dot~20111014_2133__T5--1
+10	av	av	ADP	_	_	17	case	_	name=O
+11	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(dot~20111014_2133__6134--1(dot~20111014_2133__T6--1(dot~20111014_2133__291--1
+12	Jens	Jens	NOUN	_	Gender=Masc	17	nmod	_	name=B-PER
+13	Stoltenberg	Stoltenberg	PROPN	_	_	12	flat:name	_	name=I-PER|Entity=dot~20111014_2133__291)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	Arbeidarpartiets	Arbeidarpartiet	PROPN	_	Case=Gen	12	conj	_	name=B-ORG|Entity=(dot~20111014_2133__T8--1)dot~20111014_2133__T6)
+16	vågale	vågal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	helsereform	helsereform	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	name=O
+18	frå	frå	ADP	_	_	19	case	_	name=O
+19	2001	2001	NUM	_	Number=Plur|NumType=Card	17	nmod	_	SpaceAfter=No|name=O|Entity=dot~20111014_2133__6134)dot~20111014_2133__T5)dot~20111014_2133__T4)
+20	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001700
+# text = Reforma kjem ikkje til å få eit godt ettermæle.
+1	Reforma	reform	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	name=O|Entity=(dot~20111014_2133__6134--1)
+2	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	få	få	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(dot~20111014_2133__T11--1
+8	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	name=O
+9	ettermæle	ettermæle	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No|name=O|Entity=dot~20111014_2133__T11)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 001701
+# text = Målet med helsereforma var tredelt:
+1	Målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(dot~20111014_2133__T12--1
+2	med	med	ADP	_	_	3	case	_	name=O
+3	helsereforma	helsereform	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=(dot~20111014_2133__6134--1)dot~20111014_2133__T12)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+5	tredelt	tredele	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+6	:	$:	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001702
+# text = å auka kvaliteten på medisinsk behandling, å gjera medisinsk behandling like tilgjengeleg for alle og å auka effektiviteten på sjukehusa.
+1	å	å	PART	_	_	2	mark	_	name=O
+2	auka	auke	VERB	_	VerbForm=Inf	0	root	_	name=O
+3	kvaliteten	kvalitet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(dot~20111014_2133__T14--1
+4	på	på	ADP	_	_	6	case	_	name=O
+5	medisinsk	medisinsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(dot~20111014_2133__T15--1
+6	behandling	behandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|name=O|Entity=dot~20111014_2133__T15)dot~20111014_2133__T14)
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	gjera	gjere	VERB	_	VerbForm=Inf	2	conj	_	name=O
+10	medisinsk	medisinsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(dot~20111014_2133__T16--1
+11	behandling	behandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	name=O|Entity=dot~20111014_2133__T16)
+12	like	like	ADV	_	_	13	advmod	_	name=O
+13	tilgjengeleg	tilgjengeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	xcomp	_	name=O
+14	for	for	ADP	_	_	15	case	_	name=O
+15	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	13	obl	_	name=O|Entity=(dot~20111014_2133__T17--1)
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	auka	auke	VERB	_	VerbForm=Inf	2	conj	_	name=O
+19	effektiviteten	effektivitet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obj	_	name=O|Entity=(dot~20111014_2133__T18--1
+20	på	på	ADP	_	_	21	case	_	name=O
+21	sjukehusa	sjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20111014_2133__T19--1)dot~20111014_2133__T18)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001703
+# text = Verkemidla var samanslåingar og vektlegging på økonomiske tilskuv.
+1	Verkemidla	verkemiddel	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=(dot~20111014_2133__T20--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	samanslåingar	samanslåing	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	name=O|Entity=(dot~20111014_2133__T21--1(dot~20111014_2133__T22--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	vektlegging	vektlegging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	conj	_	name=O|Entity=(dot~20111014_2133__T23--1
+6	på	på	ADP	_	_	8	case	_	name=O
+7	økonomiske	økonomisk	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(dot~20111014_2133__T24--1
+8	tilskuv	tilskuv	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=dot~20111014_2133__T24)dot~20111014_2133__T23)dot~20111014_2133__T21)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001704
+# text = Ei undersøking offentleggjord i sommar syner at sjukehuslækjarane er kritiske til reforma.
+1	Ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(dot~20111014_2133__T25--1
+2	undersøking	undersøking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	name=O
+3	offentleggjord	offentleggjere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	2	amod	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	sommar	sommar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(dot~20111014_2133__T26--1)dot~20111014_2133__T25)
+6	syner	syne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	sjukehuslækjarane	sjukehuslækjar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	name=O|Entity=(dot~20111014_2133__3105--1)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	kritiske	kritisk	ADJ	_	Degree=Pos|Number=Plur	6	ccomp	_	name=O
+11	til	til	ADP	_	_	12	case	_	name=O
+12	reforma	reform	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(dot~20111014_2133__6134--1)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001705
+# text = Ein stor del av lækjarane synest at reforma er i konflikt med lækjarprofesjonen, og at økonomiske føringar får prioritet over dei medisinske.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(dot~20111014_2133__T29--1
+2	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	lækjarane	lækjar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	name=O|Entity=(dot~20111014_2133__3105--1)dot~20111014_2133__T29)
+6	synest	synast	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	at	at	SCONJ	_	_	11	mark	_	name=O
+8	reforma	reform	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	name=O|Entity=(dot~20111014_2133__6134--1)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	i	i	SCONJ	_	_	11	mark	_	name=O
+11	konflikt	konflikt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	ccomp	_	name=O|Entity=(dot~20111014_2133__T32--1
+12	med	med	ADP	_	_	13	case	_	name=O
+13	lækjarprofesjonen	lækjarprofesjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20111014_2133__T33--1)dot~20111014_2133__T32)
+14	,	$,	PUNCT	_	_	19	punct	_	name=O
+15	og	og	CCONJ	_	_	19	cc	_	name=O
+16	at	at	SCONJ	_	_	19	mark	_	name=O
+17	økonomiske	økonomisk	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(dot~20111014_2133__T34--1
+18	føringar	føring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	nsubj	_	name=O|Entity=dot~20111014_2133__T34)
+19	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	conj	_	name=O
+20	prioritet	prioritet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	name=O|Entity=(dot~20111014_2133__T35--1
+21	over	over	ADP	_	_	23	case	_	name=O
+22	dei	dei	DET	_	Number=Plur|PronType=Dem	23	det	_	name=O|Entity=(dot~20111014_2133__T36--1
+23	medisinske	medisinsk	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	SpaceAfter=No|name=O|Entity=dot~20111014_2133__T36)dot~20111014_2133__T35)
+24	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001706
+# text = Det er svært alvorleg.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(dot~20111014_2133__T37--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	alvorleg	alvorleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001707
+# text = For tida står det kanskje verst til ved Universitetssjukehuset i Oslo.
+1	For	for	ADP	_	_	2	case	_	name=O
+2	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(dot~20111014_2133__T38--1)
+3	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20111014_2133__T39--1)
+5	kanskje	kanskje	ADV	_	_	3	advmod	_	name=O
+6	verst	verre	ADJ	_	Definite=Ind|Degree=Sup	3	advmod	_	name=O
+7	til	til	ADP	_	_	3	compound:prt	_	name=O
+8	ved	ved	ADP	_	_	9	case	_	name=O
+9	Universitetssjukehuset	Universitetssjukehuset	PROPN	_	_	3	obl	_	name=B-ORG|Bridge=dot~20111014_2133__T42<dot~20111014_2133__3166:default|Entity=(dot~20111014_2133__3166--1
+10	i	i	ADP	_	_	9	flat:name	_	name=I-ORG
+11	Oslo	Oslo	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=dot~20111014_2133__3166)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001708
+# text = Samanslåinga av Oslo-sjukehusa vart mogeleggjord ved helsereforma og er ei vidareføring av trua på at store einingar er best.
+1	Samanslåinga	samanslåing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj:pass	_	name=O|Entity=(dot~20111014_2133__297--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	Oslo-sjukehusa	Oslo-sjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	1	nmod	_	name=B-DRV|Entity=(dot~20111014_2133__T42--1)dot~20111014_2133__297)
+4	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+5	mogeleggjord	mogeleggjere	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	ved	ved	ADP	_	_	7	case	_	name=O
+7	helsereforma	helsereform	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=(dot~20111014_2133__6134--1)
+8	og	og	CCONJ	_	_	11	cc	_	name=O
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(dot~20111014_2133__T44--1
+11	vidareføring	vidareføring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	trua	tru	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	name=O|Entity=(dot~20111014_2133__T45--1
+14	på	på	ADP	_	_	19	case	_	name=O
+15	at	at	SCONJ	_	_	19	mark	_	name=O
+16	store	stor	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(dot~20111014_2133__T46--1
+17	einingar	eining	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	nsubj	_	name=O|Entity=dot~20111014_2133__T46)
+18	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+19	best	bra	ADJ	_	Definite=Ind|Degree=Sup	13	amod	_	SpaceAfter=No|name=O|Entity=dot~20111014_2133__T45)dot~20111014_2133__T44)
+20	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001709
+# text = Situasjonen er no så alvorleg at hovudtillitsvald for lækjarane, Aasmund Bredeli, ser grunn til å åtvara mot at sjukehuset skal kollapsa.
+1	Situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(dot~20111014_2133__T47--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	no	no	ADV	_	_	5	advmod	_	name=O
+4	så	så	ADV	_	_	5	advmod	_	name=O
+5	alvorleg	alvorleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	at	at	SCONJ	_	_	14	mark	_	name=O
+7	hovudtillitsvald	hovudtillitsvald	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	nmod	_	name=O|Entity=(dot~20111014_2133__3179--1
+8	for	for	ADP	_	_	9	case	_	name=O
+9	lækjarane	lækjar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20111014_2133__3105--1)
+10	,	$,	PUNCT	_	_	7	punct	_	name=O
+11	Aasmund	Aasmund	PROPN	_	_	14	nsubj	_	name=B-PER
+12	Bredeli	Bredeli	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PER
+13	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=dot~20111014_2133__3179)
+14	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+15	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=(dot~20111014_2133__T50--1
+16	til	til	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	åtvara	åtvare	VERB	_	VerbForm=Inf	15	acl	_	name=O
+19	mot	mot	SCONJ	_	_	23	mark	_	name=O
+20	at	at	SCONJ	_	_	23	mark	_	name=O
+21	sjukehuset	sjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	nsubj	_	name=O|Entity=(dot~20111014_2133__3166--1)
+22	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+23	kollapsa	kollapse	VERB	_	VerbForm=Inf	18	advcl	_	SpaceAfter=No|name=O|Entity=dot~20111014_2133__T50)
+24	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001710
+# text = Kva er så responsen frå regjeringa på eit slikt alvorleg varsku?
+1	Kva	kva	PRON	_	PronType=Int	0	root	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	så	så	ADV	_	_	1	advmod	_	name=O
+4	responsen	respons	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	name=O|Entity=(dot~20111014_2133__T52--1
+5	frå	frå	ADP	_	_	6	case	_	name=O
+6	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	name=O|Entity=(dot~20111014_2133__3207--1)
+7	på	på	ADP	_	_	11	case	_	name=O
+8	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(dot~20111014_2133__T54--1
+9	slikt	slik	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	name=O
+10	alvorleg	alvorleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+11	varsku	varsku	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|name=O|Entity=dot~20111014_2133__T54)dot~20111014_2133__T52)
+12	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 001711
+# text = Det er å stå beinhardt på at samanslåinga vart rett, og at budsjetta skal haldast - uansett.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(dot~20111014_2133__T55--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	stå	stå	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	beinhardt	beinhard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+6	på	på	SCONJ	_	_	9	mark	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	samanslåinga	samanslåing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	name=O|Entity=(dot~20111014_2133__297--1)
+9	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	name=O
+10	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	xcomp	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	og	og	CCONJ	_	_	16	cc	_	name=O
+13	at	at	SCONJ	_	_	16	mark	_	name=O
+14	budsjetta	budsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	16	nsubj	_	name=O|Entity=(dot~20111014_2133__T57--1)
+15	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	haldast	halde	VERB	_	VerbForm=Inf	9	conj	_	name=O
+17	-	$-	PUNCT	_	_	18	punct	_	name=O
+18	uansett	uansett	ADV	_	_	16	advmod	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001712
+# text = Eit døme på dette fekk vi i siste utgåve av NRKs Søndagsavisa.
+1	Eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(dot~20111014_2133__T58--1
+2	døme	døme	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nmod	_	name=O|Entity=(dot~20111014_2133__T59--1)dot~20111014_2133__T58)
+5	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20111014_2133__T60--1)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(dot~20111014_2133__T61--1
+9	utgåve	utgåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O
+10	av	av	ADP	_	_	12	case	_	name=O
+11	NRKs	NRK	PROPN	_	Case=Gen	12	nmod	_	name=B-ORG|Entity=(dot~20111014_2133__T63--1(dot~20111014_2133__T62--1)
+12	Søndagsavisa	Søndagsavisa	PROPN	_	_	9	nmod	_	SpaceAfter=No|name=B-PROD|Entity=dot~20111014_2133__T63)dot~20111014_2133__T61)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001713
+# text = Der framførde Bredeli argumenta sine med truverde.
+1	Der	der	ADV	_	_	2	advmod	_	name=O
+2	framførde	framføre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	Bredeli	Bredeli	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(dot~20111014_2133__3179--1)
+4	argumenta	argument	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(dot~20111014_2133__2136--1
+5	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(dot~20111014_2133__3179--1)dot~20111014_2133__2136)
+6	med	med	ADP	_	_	7	case	_	name=O
+7	truverde	truverde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(dot~20111014_2133__T67--1)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001714
+# text = Talsmannen for regjeringa, derimot, statssekretær Robin Kåss, møtte argumenta med det same om att og om att - nærast mekanisk utan evne til å ta inn over seg situasjonen:
+1	Talsmannen	talsmann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(dot~20111014_2133__2150--1(dot~20111014_2133__T68--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20111014_2133__3207--1)
+4	,	$,	PUNCT	_	_	5	punct	_	name=O
+5	derimot	derimot	ADV	_	_	1	advmod	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=dot~20111014_2133__T68)
+7	statssekretær	statssekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O
+8	Robin	Robin	PROPN	_	_	11	nsubj	_	name=B-PER
+9	Kåss	Kåss	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER
+10	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=dot~20111014_2133__2150)
+11	møtte	møte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+12	argumenta	argument	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	obj	_	name=O|Entity=(dot~20111014_2133__2136--1)
+13	med	med	ADP	_	_	15	case	_	name=O
+14	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O
+15	same	same	DET	_	Definite=Def|PronType=Dem	11	obl	_	name=O
+16	om	om	ADP	_	_	11	compound:prt	_	name=O
+17	att	att	ADP	_	_	16	obl	_	name=O
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	om	om	ADP	_	_	16	conj	_	name=O
+20	att	att	ADP	_	_	19	obl	_	name=O
+21	-	$-	PUNCT	_	_	23	punct	_	name=O
+22	nærast	nær	ADJ	_	Definite=Ind|Degree=Sup	23	advmod	_	name=O
+23	mekanisk	mekanisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+24	utan	utan	ADP	_	_	25	case	_	name=O
+25	evne	evne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=(dot~20111014_2133__T72--1
+26	til	til	SCONJ	_	_	28	mark	_	name=O
+27	å	å	PART	_	_	28	mark	_	name=O
+28	ta	ta	VERB	_	VerbForm=Inf	25	acl	_	name=O
+29	inn	inn	ADP	_	_	31	case	_	name=O
+30	over	over	ADP	_	_	31	case	_	name=O
+31	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	28	obl	_	name=O
+32	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No|name=O|Entity=(dot~20111014_2133__T73--1)dot~20111014_2133__T72)
+33	:	$:	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 001715
+# text = Sjukehuset og styret må ta ansvar for å halda budsjettet.
+1	Sjukehuset	sjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(dot~20111014_2133__T74--1(dot~20111014_2133__3166--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	styret	styre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	conj	_	name=O|Entity=(dot~20111014_2133__T76--1)dot~20111014_2133__T74)
+4	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(dot~20111014_2133__T77--1)
+7	for	for	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	halda	halde	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+10	budsjettet	budsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=(dot~20111014_2133__T78--1)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001716
+# text = Slik tale er uansvarleg.
+1	Slik	slik	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(dot~20111014_2133__T79--1
+2	tale	tale	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Entity=dot~20111014_2133__T79)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	uansvarleg	uansvarleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001717
+# text = Kåss er berre sendebod for statsråden, statsministeren og regjeringa.
+1	Kåss	Kåss	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(dot~20111014_2133__2150--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	berre	berre	ADV	_	_	4	advmod	_	name=O
+4	sendebod	sendebod	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(dot~20111014_2133__T81--1)
+5	for	for	ADP	_	_	6	case	_	name=O
+6	statsråden	statsråd	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(dot~20111014_2133__T82--1(dot~20111014_2133__T83--1
+7	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=dot~20111014_2133__T83)
+8	statsministeren	statsminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	conj	_	name=O|Entity=(dot~20111014_2133__291--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=(dot~20111014_2133__3207--1)dot~20111014_2133__T82)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001718
+# text = Så der er det altså ingenting å henta.
+1	Så	så	CCONJ	_	_	3	cc	_	name=O
+2	der	der	ADV	_	_	3	advmod	_	name=O
+3	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	altså	altså	ADV	_	_	3	advmod	_	name=O
+6	ingenting	ingenting	PRON	_	Number=Sing|Polarity=Neg|PronType=Neg	3	nsubj	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	henta	hente	VERB	_	VerbForm=Inf	6	acl	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+

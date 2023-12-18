@@ -1,0 +1,887 @@
+# newdoc id = dot~20110930-2121
+# global.Entity = eid-etype-head-other
+# sent_id = 001580
+# text = Svikne av tida
+1	Svikne	svike	ADJ	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+2	av	av	ADP	_	_	3	case	_	name=O
+3	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	obl	_	name=O|Entity=(dot~20110930_2121__T1--1)
+
+# newpar
+# sent_id = 001581
+# text = Marit Eikemo slepper gråten ut i små porsjonar og skaper eit driv som slår meg knockout.
+1	Marit	Marit	NOUN	_	Gender=Fem	3	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__141469--1
+2	Eikemo	Eikemo	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=dot~20110930_2121__141469)
+3	slepper	sleppe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	gråten	gråt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(dot~20110930_2121__T3--1)
+5	ut	ut	ADP	_	_	3	compound:prt	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	små	liten	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(dot~20110930_2121__T4--1
+8	porsjonar	porsjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=dot~20110930_2121__T4)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	skaper	skape	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+11	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(dot~20110930_2121__T5--1
+12	driv	driv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	name=O
+13	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+14	slår	slå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	name=O
+15	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	name=O|Entity=(dot~20110930_2121__2177--1)
+16	knockout	knockout	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	xcomp	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T5)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 001582
+# text = Roman Marit Eikemo:
+1	Roman	roman	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(dot~20110930_2121__T7--1
+2	Marit	Marit	NOUN	_	Gender=Fem	1	nmod	_	name=B-PER|Entity=(dot~20110930_2121__141469--1
+3	Eikemo	Eikemo	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PER|Entity=dot~20110930_2121__141469)dot~20110930_2121__T7)
+4	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 001583
+# text = Samtale ventar
+1	Samtale	Samtale	PROPN	_	_	0	root	_	name=B-PROD|Entity=(dot~20110930_2121__T9--1
+2	ventar	vente	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=I-PROD|Entity=dot~20110930_2121__T9)
+
+# sent_id = 001584
+# text = Samlaget 2011
+1	Samlaget	samlag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=B-ORG|Entity=(dot~20110930_2121__T10--1
+2	2011	2011	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=O|Entity=dot~20110930_2121__T10)
+
+# sent_id = 001585
+# text = Leiaren for litteratursymposiet i Odda, sjangerkunstnaren Marit Eikemo, har med Samtale ventar skrive sin tredje roman.
+1	Leiaren	leiar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(dot~20110930_2121__141469--1(dot~20110930_2121__T11--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	litteratursymposiet	litteratursymposium	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(dot~20110930_2121__T12--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Odda	Odda	PROPN	_	_	3	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(dot~20110930_2121__T13--1)dot~20110930_2121__T12)
+6	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=dot~20110930_2121__T11)
+7	sjangerkunstnaren	sjangerkunstnar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O
+8	Marit	Marit	NOUN	_	Gender=Fem	15	nsubj	_	name=B-PER
+9	Eikemo	Eikemo	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER|Entity=dot~20110930_2121__141469)
+10	,	$,	PUNCT	_	_	8	punct	_	name=O
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	Samtale	Samtale	PROPN	_	_	15	obl	_	name=B-PROD|Entity=(dot~20110930_2121__T15--1
+14	ventar	vente	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	flat:name	_	name=I-PROD|Entity=dot~20110930_2121__T15)
+15	skrive	skrive	VERB	_	VerbForm=Part	0	root	_	name=O
+16	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	name=O|Entity=(dot~20110930_2121__4371--1(dot~20110930_2121__141469--1)
+17	tredje	tredje	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	roman	roman	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__4371)
+19	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 001586
+# text = Også den krinsar kring den isolerte outsideren.
+1	Også	også	ADV	_	_	2	advmod	_	name=O|Entity=(dot~20110930_2121__4371--1
+2	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=dot~20110930_2121__4371)
+3	krinsar	krinse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	kring	kring	ADP	_	_	7	case	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(dot~20110930_2121__T19--1
+6	isolerte	isolere	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	7	amod	_	name=O
+7	outsideren	outsider	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T19)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001587
+# text = Eks-journalisten Elisabeth Brenner har gått på ein smell og er på attføring i NAV.
+1	Eks-journalisten	eks-journalist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(dot~20110930_2121__334246--1
+2	Elisabeth	Elisabeth	NOUN	_	Gender=Fem	5	nsubj	_	name=B-PER
+3	Brenner	Brenner	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=dot~20110930_2121__334246)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	gått	gå	VERB	_	VerbForm=Part	0	root	_	name=O
+6	på	på	ADP	_	_	8	case	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(dot~20110930_2121__T21--1
+8	smell	smell	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=dot~20110930_2121__T21)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	attføring	attføring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	name=O|Entity=(dot~20110930_2121__T22--1)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	NAV	NAV	NOUN	_	Abbr=Yes	10	obl	_	SpaceAfter=No|name=B-ORG|Entity=(dot~20110930_2121__T23--1)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001588
+# text = Gjennom eit forskingsprosjekt om språkendringar i fem norske industrikommunar får ho arbeid:
+1	Gjennom	gjennom	ADP	_	_	3	case	_	name=O
+2	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(dot~20110930_2121__T24--1
+3	forskingsprosjekt	forskingsprosjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	name=O
+4	om	om	ADP	_	_	5	case	_	name=O
+5	språkendringar	språkendring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	nmod	_	name=O|Entity=(dot~20110930_2121__T25--1
+6	i	i	ADP	_	_	9	case	_	name=O
+7	fem	fem	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(dot~20110930_2121__T26--1
+8	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O
+9	industrikommunar	industrikommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=dot~20110930_2121__T26)dot~20110930_2121__T25)dot~20110930_2121__T24)
+10	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+12	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T28--1)
+13	:	$:	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 001589
+# text = Ho skal kartleggje dialektane i kommunen Einvik medan etterkomarane av innflyttarane framleis er i live.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	kartleggje	kartleggje	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	dialektane	dialekt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obj	_	name=O|Entity=(dot~20110930_2121__T30--1
+5	i	i	ADP	_	_	7	case	_	name=O
+6	kommunen	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(dot~20110930_2121__6776--1
+7	Einvik	Einvik	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=dot~20110930_2121__6776)dot~20110930_2121__T30)
+8	medan	medan	SCONJ	_	_	15	mark	_	name=O
+9	etterkomarane	etterkomar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	15	nsubj	_	name=O|Entity=(dot~20110930_2121__T32--1
+10	av	av	ADP	_	_	11	case	_	name=O
+11	innflyttarane	innflyttar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	name=O|Bridge=dot~20110930_2121__6776<dot~20110930_2121__T33:default|Entity=(dot~20110930_2121__T33--1)dot~20110930_2121__T32)
+12	framleis	framleis	ADV	_	_	15	advmod	_	name=O
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+14	i	i	SCONJ	_	_	15	mark	_	name=O
+15	live	live	NOUN	_	_	3	advcl	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T34--1)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001590
+# text = Ho tek inn på ein brakkeby på den vesle staden og viklar seg gradvis inn i ulukkelege relasjonar.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+2	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	inn	inn	ADP	_	_	2	compound:prt	_	name=O
+4	på	på	ADP	_	_	6	case	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(dot~20110930_2121__T36--1
+6	brakkeby	brakkeby	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+7	på	på	ADP	_	_	10	case	_	name=O
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(dot~20110930_2121__6776--1
+9	vesle	liten	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=dot~20110930_2121__6776)dot~20110930_2121__T36)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	viklar	vikle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+13	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	12	obj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+14	gradvis	gradvis	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+15	inn	inn	ADP	_	_	18	case	_	name=O
+16	i	i	ADP	_	_	18	case	_	name=O
+17	ulukkelege	ulukkeleg	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(dot~20110930_2121__T38--1
+18	relasjonar	relasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T38)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001591
+# text = Problemet er at oppdraget hennar handlar om nærleik og tillit.
+1	Problemet	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(dot~20110930_2121__T39--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	at	at	SCONJ	_	_	6	mark	_	name=O
+4	oppdraget	oppdrag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(dot~20110930_2121__3172--1
+5	hennar	hennar	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(dot~20110930_2121__334246--1)dot~20110930_2121__3172)
+6	handlar	handle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	om	om	ADP	_	_	8	case	_	name=O
+8	nærleik	nærleik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(dot~20110930_2121__T42--1(dot~20110930_2121__T43--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	tillit	tillit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T44--1)dot~20110930_2121__T42)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001592
+# text = For å få samla inn den naudsynte informasjonen, må ho vere ein slags forløysar:
+1	For	for	SCONJ	_	_	4	mark	_	name=O
+2	å	å	PART	_	_	4	mark	_	name=O
+3	få	få	AUX	_	VerbForm=Inf	4	aux	_	name=O
+4	samla	samle	VERB	_	VerbForm=Part	15	advcl	_	name=O
+5	inn	inn	ADP	_	_	4	compound:prt	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Bridge=dot~20110930_2121__3172<dot~20110930_2121__T45:default|Entity=(dot~20110930_2121__T45--1
+7	naudsynte	naudsynt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	informasjonen	informasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T45)
+9	,	$,	PUNCT	_	_	4	punct	_	name=O
+10	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+11	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+12	vere	vere	AUX	_	VerbForm=Inf	15	cop	_	name=O
+13	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(dot~20110930_2121__T48--1(dot~20110930_2121__T47--1
+14	slags	slags	NOUN	_	Gender=Masc	15	nmod	_	name=O|Entity=dot~20110930_2121__T47)
+15	forløysar	forløysar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T48)
+16	:	$:	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 001593
+# text = Ho må få informantane i tale.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	informantane	informant	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obj	_	name=O|Bridge=dot~20110930_2121__T45<dot~20110930_2121__111040:default|Entity=(dot~20110930_2121__111040--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	tale	tale	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T51--1)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001594
+# text = I kraft av oppdraget som samlar, får ho raskt ei viktig rolle.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	kraft	kraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	name=O|Entity=(dot~20110930_2121__T52--1
+3	av	av	ADP	_	_	4	case	_	name=O
+4	oppdraget	oppdrag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(dot~20110930_2121__3172--1
+5	som	som	ADP	_	_	6	case	_	name=O
+6	samlar	samlar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T54--1)dot~20110930_2121__3172)dot~20110930_2121__T52)
+7	,	$,	PUNCT	_	_	2	punct	_	name=O
+8	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+10	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+11	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(dot~20110930_2121__T56--1
+12	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	rolle	rolle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T56)
+14	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001595
+# text = Innbyggjarane må opne seg, slik at dei avdekkjer den eigentlege dialekten sin.
+1	Innbyggjarane	innbyggjar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(dot~20110930_2121__111040--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	opne	opne	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	obj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__111040--1)
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	slik	slik	ADV	_	_	7	advmod	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(dot~20110930_2121__111040--1)
+9	avdekkjer	avdekkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(dot~20110930_2121__3247--1
+11	eigentlege	eigentleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	dialekten	dialekt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	name=O
+13	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__111040--1)dot~20110930_2121__3247)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001596
+# text = Men dette vert problematisk, for kor går grensa mellom jobb og privatliv, når innhaldet i det dei faktisk fortel (draumar, kriser, liva deira), etter kvart får meir merksemd enn sjølve dialektforma?
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110930_2121__T61--1)
+3	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	problematisk	problematisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	for	for	CCONJ	_	_	8	cc	_	name=O
+7	kor	kor	ADV	_	_	8	advmod	_	name=O
+8	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+9	grensa	grense	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	name=O|Entity=(dot~20110930_2121__T62--1
+10	mellom	mellom	ADP	_	_	11	case	_	name=O
+11	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(dot~20110930_2121__T63--1(dot~20110930_2121__T64--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	privatliv	privatliv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T65--1)dot~20110930_2121__T63)dot~20110930_2121__T62)
+14	,	$,	PUNCT	_	_	33	punct	_	name=O
+15	når	når	SCONJ	_	_	33	mark	_	name=O
+16	innhaldet	innhald	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	33	nsubj	_	name=O|Entity=(dot~20110930_2121__T66--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nmod	_	name=O|Entity=(dot~20110930_2121__T67--1
+19	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(dot~20110930_2121__111040--1)
+20	faktisk	faktisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+21	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	name=O
+22	(	$(	PUNCT	_	_	23	punct	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T69--1
+23	draumar	draum	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	appos	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T70--1)
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	kriser	krise	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T71--1)
+26	,	$,	PUNCT	_	_	25	punct	_	name=O
+27	liva	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	23	conj	_	name=O|Entity=(dot~20110930_2121__T72--1
+28	deira	deira	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	27	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__111040--1)dot~20110930_2121__T72)
+29	)	$)	PUNCT	_	_	23	punct	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T69)dot~20110930_2121__T67)dot~20110930_2121__T66)
+30	,	$,	PUNCT	_	_	16	punct	_	name=O
+31	etter	etter	ADP	_	_	32	case	_	name=O
+32	kvart	kvar	DET	_	Gender=Neut|Number=Sing|PronType=Tot	33	obl	_	name=O
+33	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	name=O
+34	meir	mykje	ADJ	_	Degree=Cmp	35	amod	_	name=O|Entity=(dot~20110930_2121__T74--1
+35	merksemd	merksemd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	33	obj	_	name=O
+36	enn	enn	ADP	_	_	38	case	_	name=O
+37	sjølve	sjølve	DET	_	Definite=Def|PronType=Prs	38	det	_	name=O|Entity=(dot~20110930_2121__3247--1
+38	dialektforma	dialektform	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__3247)dot~20110930_2121__T74)
+39	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001597
+# text = Ettersom tida går, ser Elisabeth at objekta for forskinga vert til eineståande subjekt, og ei snikande kjensle av moralsk ansvar sig innover henne.
+1	Ettersom	ettersom	SCONJ	_	_	3	mark	_	name=O
+2	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(dot~20110930_2121__T76--1)
+3	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	3	punct	_	name=O
+5	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	Elisabeth	Elisabeth	NOUN	_	Gender=Fem	5	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__334246--1)
+7	at	at	SCONJ	_	_	11	mark	_	name=O
+8	objekta	objekt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	nsubj	_	name=O|Entity=(dot~20110930_2121__111040--1
+9	for	for	ADP	_	_	10	case	_	name=O
+10	forskinga	forsking	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	name=O|Entity=(dot~20110930_2121__3172--1)dot~20110930_2121__111040)
+11	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	name=O
+12	til	til	ADP	_	_	14	case	_	name=O
+13	eineståande	eineståande	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O|Entity=(dot~20110930_2121__T80--1
+14	subjekt	subjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T80)
+15	,	$,	PUNCT	_	_	23	punct	_	name=O
+16	og	og	CCONJ	_	_	23	cc	_	name=O
+17	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(dot~20110930_2121__T81--1
+18	snikande	snike	ADJ	_	VerbForm=Part	19	amod	_	name=O
+19	kjensle	kjensle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	23	nsubj	_	name=O
+20	av	av	ADP	_	_	22	case	_	name=O
+21	moralsk	moralsk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	name=O|Entity=(dot~20110930_2121__T82--1
+22	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nmod	_	name=O|Entity=dot~20110930_2121__T82)dot~20110930_2121__T81)
+23	sig	sige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+24	innover	innover	ADP	_	_	25	case	_	name=O
+25	henne	ho	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__334246--1)
+26	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001598
+# text = Ho kjem i nær kontakt med ulike lagnader, og ein avgrunn opnar seg.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+2	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(dot~20110930_2121__T85--1
+5	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+6	med	med	ADP	_	_	8	case	_	name=O
+7	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(dot~20110930_2121__T86--1
+8	lagnader	lagnad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T86)dot~20110930_2121__T85)
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	og	og	CCONJ	_	_	13	cc	_	name=O
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(dot~20110930_2121__2307--1
+12	avgrunn	avgrunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=dot~20110930_2121__2307)
+13	opnar	opne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+14	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	13	obj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__2307--1)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001599
+# text = Skarpt blikk
+1	Skarpt	skarp	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	name=O|Entity=(dot~20110930_2121__T88--1
+2	blikk	blikk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=dot~20110930_2121__T88)
+
+# sent_id = 001600
+# text = Eikemo har eit skarpt blikk for dei som fell utanfor, ho teiknar menneskeleg skuld, skam og lengt på ein utruleg dristig og mørk måte.
+1	Eikemo	Eikemo	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__141469--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(dot~20110930_2121__T90--1
+4	skarpt	skarp	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O
+5	blikk	blikk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	5	nmod	_	name=O|Entity=(dot~20110930_2121__T91--1
+8	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+9	fell	falle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	name=O
+10	utanfor	utanfor	ADP	_	_	9	compound:prt	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T91)dot~20110930_2121__T90)
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(dot~20110930_2121__141469--1)
+13	teiknar	teikne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+14	menneskeleg	menneskeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(dot~20110930_2121__T93--1(dot~20110930_2121__T94--1
+15	skuld	skuld	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	17	punct	_	name=O|Entity=dot~20110930_2121__T94)
+17	skam	skam	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	conj	_	name=O|Entity=(dot~20110930_2121__T95--1)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	lengt	lengt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	conj	_	name=O|Entity=(dot~20110930_2121__T96--1)dot~20110930_2121__T93)
+20	på	på	ADP	_	_	26	case	_	name=O
+21	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(dot~20110930_2121__T97--1
+22	utruleg	utruleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	advmod	_	name=O
+23	dristig	dristig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O
+24	og	og	CCONJ	_	_	25	cc	_	name=O
+25	mørk	mørk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	23	conj	_	name=O
+26	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T97)
+27	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001601
+# text = Ved å framstille Einvik-innbyggjarane som levande samtidsruinar syner Eikemo desse menneska som vitne om ei tid då verftsindustrien gav meining og retning.
+1	Ved	ved	SCONJ	_	_	3	mark	_	name=O
+2	å	å	PART	_	_	3	mark	_	name=O
+3	framstille	framstille	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+4	Einvik-innbyggjarane	Einvik-innbyggjar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obj	_	name=B-DRV|Entity=(dot~20110930_2121__111040--1)
+5	som	som	SCONJ	_	_	7	mark	_	name=O
+6	levande	levande	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(dot~20110930_2121__T99--1
+7	samtidsruinar	samtidsruin	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	xcomp	_	name=O|Entity=dot~20110930_2121__T99)
+8	syner	syne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	Eikemo	Eikemo	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__141469--1)
+10	desse	desse	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(dot~20110930_2121__111040--1
+11	menneska	menneske	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	obj	_	name=O|Entity=dot~20110930_2121__111040)
+12	som	som	SCONJ	_	_	13	mark	_	name=O
+13	vitne	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	xcomp	_	name=O|Entity=(dot~20110930_2121__T102--1
+14	om	om	ADP	_	_	16	case	_	name=O
+15	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(dot~20110930_2121__T103--1
+16	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	name=O
+17	då	då	ADV	_	_	19	advmod	_	name=O
+18	verftsindustrien	verftsindustri	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	name=O|Entity=(dot~20110930_2121__T104--1)
+19	gav	gje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	name=O
+20	meining	meining	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	name=O|Entity=(dot~20110930_2121__T105--1(dot~20110930_2121__T106--1)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	retning	retning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T107--1)dot~20110930_2121__T105)dot~20110930_2121__T103)dot~20110930_2121__T102)
+23	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001602
+# text = No er jobbane borte, og staden har gått i meiningslaus kvilemodus.
+1	No	no	ADV	_	_	4	advmod	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	jobbane	jobb	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Bridge=dot~20110930_2121__T104<dot~20110930_2121__T108:default|Entity=(dot~20110930_2121__T108--1)
+4	borte	borte	ADP	_	_	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=(dot~20110930_2121__6776--1)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	gått	gå	VERB	_	VerbForm=Part	4	conj	_	name=O
+10	i	i	ADP	_	_	12	case	_	name=O
+11	meiningslaus	meiningslaus	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(dot~20110930_2121__T110--1
+12	kvilemodus	kvilemodus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T110)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001603
+# text = Litterær jakt
+1	Litterær	litterær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(dot~20110930_2121__T111--1
+2	jakt	jakt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=dot~20110930_2121__T111)
+
+# sent_id = 001604
+# text = I jakta på dialektane får Elisabeth tak i gamle opptak, røyster som ikkje lenger finst.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	jakta	jakt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=(dot~20110930_2121__T112--1
+3	på	på	ADP	_	_	4	case	_	name=O
+4	dialektane	dialekt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	name=O|Entity=(dot~20110930_2121__3247--1)dot~20110930_2121__T112)
+5	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	Elisabeth	Elisabeth	NOUN	_	Gender=Fem	5	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__334246--1)
+7	tak	tak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(dot~20110930_2121__T115--1
+8	i	i	ADP	_	_	10	case	_	name=O
+9	gamle	gammal	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(dot~20110930_2121__T116--1
+10	opptak	opptak	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	røyster	røyst	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	appos	_	name=O|Entity=(dot~20110930_2121__T117--1
+13	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+14	ikkje	ikkje	PART	_	Polarity=Neg	16	advmod	_	name=O
+15	lenger	lenge	ADJ	_	Degree=Cmp	16	advmod	_	name=O
+16	finst	finnast	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T117)dot~20110930_2121__T116)dot~20110930_2121__T115)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001605
+# text = Slik kan Eikemo drive ei litterær jakt på noko som alltid er tapt:
+1	Slik	slik	ADV	_	_	4	advmod	_	name=O
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	Eikemo	Eikemo	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__141469--1)
+4	drive	drive	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(dot~20110930_2121__T119--1
+6	litterær	litterær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	jakt	jakt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	7	nmod	_	name=O|Entity=(dot~20110930_2121__T120--1
+10	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+11	alltid	alltid	ADV	_	_	13	advmod	_	name=O
+12	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+13	tapt	tape	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T120)dot~20110930_2121__T119)
+14	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001606
+# text = Den diakrone og ustoppelege utviklinga av talemåtar i nådelaus utvikling vert eit bilete på ei fortid som er omme.
+1	Den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(dot~20110930_2121__T121--1
+2	diakrone	diakron	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	ustoppelege	ustoppeleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	conj	_	name=O
+5	utviklinga	utvikling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	talemåtar	talemåte	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=(dot~20110930_2121__T122--1
+8	i	i	ADP	_	_	10	case	_	name=O
+9	nådelaus	nådelaus	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(dot~20110930_2121__T123--1
+10	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	name=O|Entity=dot~20110930_2121__T123)dot~20110930_2121__T122)dot~20110930_2121__T121)
+11	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(dot~20110930_2121__T124--1
+13	bilete	bilete	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	xcomp	_	name=O
+14	på	på	ADP	_	_	16	case	_	name=O
+15	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(dot~20110930_2121__T125--1
+16	fortid	fortid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	name=O
+17	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+18	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+19	omme	omme	ADV	_	_	16	acl:relcl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T125)dot~20110930_2121__T124)
+20	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 001607
+# text = Som elva som aldri er den same elva, men berre renn og renn.
+1	Som	som	ADP	_	_	2	case	_	name=O
+2	elva	elv	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(dot~20110930_2121__T126--1
+3	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+4	aldri	aldri	ADV	_	_	8	advmod	_	name=O
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(dot~20110930_2121__T127--1
+7	same	same	DET	_	Definite=Def|PronType=Dem	8	det	_	name=O
+8	elva	elv	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	acl:relcl	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=dot~20110930_2121__T127)
+10	men	men	CCONJ	_	_	12	cc	_	name=O
+11	berre	berre	ADV	_	_	12	advmod	_	name=O
+12	renn	renne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	renn	renne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T126)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001608
+# text = Å vere dialektforskar er ei retrospektiv øving.
+1	Å	å	PART	_	_	3	mark	_	name=O
+2	vere	vere	AUX	_	VerbForm=Inf	3	cop	_	name=O
+3	dialektforskar	dialektforskar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	csubj	_	name=O|Entity=(dot~20110930_2121__T128--1)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(dot~20110930_2121__T129--1
+6	retrospektiv	retrospektiv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	øving	øving	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T129)
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001609
+# text = Eikemo syner ein person som må takle det å grave i ei fortid som alltid er forbi, som spor som er viska ut i sanden.
+1	Eikemo	Eikemo	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__141469--1)
+2	syner	syne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(dot~20110930_2121__T131--1
+4	person	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+5	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+6	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	takle	takle	VERB	_	VerbForm=Inf	4	acl:relcl	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	name=O|Entity=(dot~20110930_2121__T132--1
+9	å	å	PART	_	_	10	mark	_	name=O
+10	grave	grave	VERB	_	VerbForm=Inf	8	acl	_	name=O
+11	i	i	ADP	_	_	13	case	_	name=O
+12	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(dot~20110930_2121__T133--1
+13	fortid	fortid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	name=O
+14	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+15	alltid	alltid	ADV	_	_	16	advmod	_	name=O
+16	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	name=O
+17	forbi	forbi	ADP	_	_	16	compound:prt	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	20	punct	_	name=O
+19	som	som	ADP	_	_	20	case	_	name=O
+20	spor	spor	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obl	_	name=O|Entity=(dot~20110930_2121__T134--1
+21	som	som	PRON	_	PronType=Rel	23	nsubj	_	name=O
+22	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	name=O
+23	viska	viske	ADJ	_	Number=Plur|VerbForm=Part	20	acl:relcl	_	name=O
+24	ut	ut	ADP	_	_	23	obl	_	name=O
+25	i	i	ADP	_	_	26	case	_	name=O
+26	sanden	sand	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T135--1)dot~20110930_2121__T134)dot~20110930_2121__T133)dot~20110930_2121__T132)dot~20110930_2121__T131)
+27	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001610
+# text = Skikkeleg misantrop
+1	Skikkeleg	skikkeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(dot~20110930_2121__T136--1
+2	misantrop	misantrop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=dot~20110930_2121__T136)
+
+# sent_id = 001611
+# text = Dette er ei bok der forfattaren skånsellaust dissekerer nærleiken mellom menneske og syner kor vanskeleg intimitet er.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(dot~20110930_2121__4371--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(dot~20110930_2121__T138--1
+4	bok	bok	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O
+5	der	der	SCONJ	_	_	8	mark	_	name=O
+6	forfattaren	forfattar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(dot~20110930_2121__141469--1)
+7	skånsellaust	skånsellaus	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+8	dissekerer	dissekere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl	_	name=O
+9	nærleiken	nærleik	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obj	_	name=O|Entity=(dot~20110930_2121__T140--1
+10	mellom	mellom	ADP	_	_	11	case	_	name=O
+11	menneske	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	nmod	_	name=O|Entity=(dot~20110930_2121__T141--1)dot~20110930_2121__T140)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	syner	syne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	name=O
+14	kor	kor	ADV	_	_	15	advmod	_	name=O
+15	vanskeleg	vanskeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	xcomp	_	name=O
+16	intimitet	intimitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(dot~20110930_2121__T142--1)
+17	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T138)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001612
+# text = Hovudpersonen responderer på veikskap, både eigen og andres, med forakt.
+1	Hovudpersonen	hovudperson	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+2	responderer	respondere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	veikskap	veikskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T144--1
+5	,	$,	PUNCT	_	_	7	punct	_	name=O
+6	både	både	CCONJ	_	_	7	cc	_	name=O
+7	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	4	det	_	name=O|Entity=(dot~20110930_2121__T217--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	andres	annan	DET	_	Case=Gen|Number=Plur|PronType=Dem	7	conj	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=dot~20110930_2121__T144)
+11	med	med	ADP	_	_	12	case	_	name=O
+12	forakt	forakt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T145--1)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001613
+# text = Ho er ein skikkeleg misantrop.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(dot~20110930_2121__T147--1
+4	skikkeleg	skikkeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	misantrop	misantrop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T147)
+6	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001614
+# text = Men Elisabeth ser sitt eige problem:
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	Elisabeth	Elisabeth	NOUN	_	Gender=Fem	3	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__334246--1)
+3	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(dot~20110930_2121__T150--1(dot~20110930_2121__334246--1
+5	eige	eigen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	6	det	_	name=O|Entity=dot~20110930_2121__334246)
+6	problem	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T150)
+7	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001615
+# text = Ho meiner sjølv at det er noko gale med henne, at ho har for mange låste dører.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+2	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	sjølv	sjølv	ADV	_	_	2	advmod	_	name=O
+4	at	at	SCONJ	_	_	8	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	8	det	_	name=O
+8	gale	galen	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	name=O
+9	med	med	ADP	_	_	10	case	_	name=O
+10	henne	ho	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__334246--1)
+11	,	$,	PUNCT	_	_	14	punct	_	name=O
+12	at	at	SCONJ	_	_	14	mark	_	name=O
+13	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+14	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	name=O
+15	for	for	ADV	_	_	16	advmod	_	name=O|Entity=(dot~20110930_2121__T154--1
+16	mange	mange	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O
+17	låste	låse	ADJ	_	Number=Plur|VerbForm=Part	18	amod	_	name=O
+18	dører	dør	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T154)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001616
+# text = Sjølv dei som likar henne, foraktar ho:
+1	Sjølv	sjølv	ADV	_	_	2	advmod	_	name=O|Entity=(dot~20110930_2121__T155--1
+2	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	name=O
+3	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+4	likar	like	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	name=O
+5	henne	ho	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__334246--1)
+6	,	$,	PUNCT	_	_	2	punct	_	name=O|Entity=dot~20110930_2121__T155)
+7	foraktar	forakte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__334246--1)
+9	:	$:	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001617
+# text = Ho veit at ho ikkje er verd å like.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+2	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+5	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	name=O
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	verd	verd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	ccomp	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	like	like	VERB	_	VerbForm=Inf	7	advcl	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001618
+# text = Dermed forgiftar ho alle spede forsøk på venskap og kjærleik.
+1	Dermed	dermed	ADV	_	_	2	advmod	_	name=O
+2	forgiftar	forgifte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+4	alle	all	DET	_	Number=Plur|PronType=Tot	6	det	_	name=O|Entity=(dot~20110930_2121__T161--1
+5	spede	sped	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	forsøk	forsøk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	venskap	venskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(dot~20110930_2121__T162--1(dot~20110930_2121__T163--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	kjærleik	kjærleik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T164--1)dot~20110930_2121__T162)dot~20110930_2121__T161)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001619
+# text = For Elisabeth ber på ei stor sorg.
+1	For	for	CCONJ	_	_	3	cc	_	name=O
+2	Elisabeth	Elisabeth	NOUN	_	Gender=Fem	3	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__334246--1)
+3	ber	bere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	på	på	ADP	_	_	7	case	_	name=O
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(dot~20110930_2121__T166--1
+6	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	sorg	sorg	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T166)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001620
+# text = Eikemo slepper gråten ut i små porsjonar og skaper eit driv som slår meg knockout.
+1	Eikemo	Eikemo	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__141469--1)
+2	slepper	sleppe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	gråten	gråt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(dot~20110930_2121__T168--1)
+4	ut	ut	ADP	_	_	2	compound:prt	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	små	liten	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(dot~20110930_2121__T169--1
+7	porsjonar	porsjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	name=O|Entity=dot~20110930_2121__T169)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	skaper	skape	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+10	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(dot~20110930_2121__T170--1
+11	driv	driv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	name=O
+12	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+13	slår	slå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	name=O
+14	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	name=O|Entity=(dot~20110930_2121__2177--1)
+15	knockout	knockout	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	xcomp	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T170)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001621
+# text = Sjølvforakta stengjer Elisabeth ute frå nærleiken, og alle forsøk på intimitet endar øydelagt.
+1	Sjølvforakta	sjølvforakt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	name=O|Bridge=dot~20110930_2121__334246<dot~20110930_2121__T172:default|Entity=(dot~20110930_2121__T172--1)
+2	stengjer	stengje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Elisabeth	Elisabeth	NOUN	_	Gender=Fem	2	obj	_	name=B-PER|Entity=(dot~20110930_2121__334246--1)
+4	ute	ute	ADP	_	_	2	compound:prt	_	name=O
+5	frå	frå	ADP	_	_	6	case	_	name=O
+6	nærleiken	nærleik	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T174--1)
+7	,	$,	PUNCT	_	_	13	punct	_	name=O
+8	og	og	CCONJ	_	_	13	cc	_	name=O
+9	alle	all	DET	_	Number=Plur|PronType=Tot	10	det	_	name=O|Entity=(dot~20110930_2121__T175--1
+10	forsøk	forsøk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nsubj	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	intimitet	intimitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(dot~20110930_2121__T176--1)dot~20110930_2121__T175)
+13	endar	ende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+14	øydelagt	øydelegge	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	13	advmod	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001622
+# text = I møte med menneska i bygda syner ho ein sårleik som verkar forførande på mange menn.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	møte	møte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(dot~20110930_2121__T177--1
+3	med	med	ADP	_	_	4	case	_	name=O
+4	menneska	menneske	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=(dot~20110930_2121__111040--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	bygda	bygd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	name=O|Entity=(dot~20110930_2121__6776--1)dot~20110930_2121__111040)dot~20110930_2121__T177)
+7	syner	syne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(dot~20110930_2121__T181--1
+10	sårleik	sårleik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O
+11	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+12	verkar	verke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O
+13	forførande	forføre	ADJ	_	VerbForm=Part	12	xcomp	_	name=O
+14	på	på	ADP	_	_	16	case	_	name=O
+15	mange	mange	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O|Entity=(dot~20110930_2121__T182--1
+16	menn	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T182)dot~20110930_2121__T181)
+17	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 001623
+# text = Og ho lèt seg rive med, men trekkjer seg alltid, til slutt:
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+3	lèt	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	iobj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+5	rive	rive	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	med	med	ADP	_	_	5	compound:prt	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	men	men	CCONJ	_	_	9	cc	_	name=O
+9	trekkjer	trekkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+10	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	9	obj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+11	alltid	alltid	ADV	_	_	9	advmod	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	til	til	ADP	_	_	14	case	_	name=O
+14	slutt	slutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T184--1)
+15	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001624
+# text = «Eg hadde alltid søkt mot det lyssky, det som bare kunne delast mellom to.
+1	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(dot~20110930_2121__334246--1)
+3	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+4	alltid	alltid	ADV	_	_	5	advmod	_	name=O
+5	søkt	søkje	VERB	_	VerbForm=Part	0	root	_	name=O
+6	mot	mot	ADP	_	_	8	case	_	name=O
+7	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(dot~20110930_2121__T186--1
+8	lyssky	lyssky	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	advmod	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	appos	_	name=O|Entity=(dot~20110930_2121__T187--1
+11	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+12	bare	bare	ADV	_	_	14	advmod	_	name=O
+13	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	name=O
+14	delast	dele	VERB	_	VerbForm=Inf	10	acl:relcl	_	name=O
+15	mellom	mellom	ADP	_	_	16	case	_	name=O
+16	to	to	NUM	_	Number=Plur|NumType=Card	14	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T187)dot~20110930_2121__T186)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001625
+# text = Ekte intimitet hadde bare oppstått i løynde rom.
+1	Ekte	ekte	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(dot~20110930_2121__T188--1
+2	intimitet	intimitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=dot~20110930_2121__T188)
+3	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+4	bare	bare	ADV	_	_	5	advmod	_	name=O
+5	oppstått	oppstå	VERB	_	VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	løynde	løynd	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(dot~20110930_2121__T189--1
+8	rom	rom	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T189)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001626
+# text = Straks andre fekk sjå, observere og tolke, hadde det som var stort blitt lite.
+1	Straks	straks	SCONJ	_	_	4	mark	_	name=O
+2	andre	annan	DET	_	Number=Plur|PronType=Dem	4	nsubj	_	name=O
+3	fekk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	sjå	sjå	VERB	_	VerbForm=Inf	15	advcl	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	observere	observere	VERB	_	VerbForm=Inf	4	conj	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	tolke	tolke	VERB	_	VerbForm=Inf	4	conj	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	4	punct	_	name=O
+10	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(dot~20110930_2121__2381--1
+12	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+13	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	name=O
+14	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	acl:relcl	_	name=O|Entity=dot~20110930_2121__2381)
+15	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+16	lite	liten	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	xcomp	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 001627
+# text = Det hadde forsvunne og blitt borte.»
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110930_2121__2381--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	forsvunne	forsvinne	VERB	_	VerbForm=Part	0	root	_	name=O
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	blitt	bli	VERB	_	VerbForm=Part	3	conj	_	name=O
+6	borte	borte	ADP	_	_	5	compound:prt	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+8	»	$"	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001628
+# text = Pageturner Eikemo formidlar syrgjeleg lengt og menneskeleg grenseløyse i tette og gode dialogar.
+1	Pageturner	pageturner	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(dot~20110930_2121__141469--1
+2	Eikemo	Eikemo	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=dot~20110930_2121__141469)
+3	formidlar	formidle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	syrgjeleg	syrgjeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(dot~20110930_2121__T193--1(dot~20110930_2121__T194--1
+5	lengt	lengt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=dot~20110930_2121__T194)
+6	og	og	CCONJ	_	_	8	cc	_	name=O
+7	menneskeleg	menneskeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(dot~20110930_2121__T195--1
+8	grenseløyse	grenseløyse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	name=O|Entity=dot~20110930_2121__T195)dot~20110930_2121__T193)
+9	i	i	ADP	_	_	13	case	_	name=O
+10	tette	tett	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(dot~20110930_2121__T196--1
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	gode	god	ADJ	_	Degree=Pos|Number=Plur	10	conj	_	name=O
+13	dialogar	dialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T196)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001629
+# text = Ho har skapt ein pageturner.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20110930_2121__141469--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	skapt	skape	VERB	_	VerbForm=Part	0	root	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(dot~20110930_2121__T198--1
+5	pageturner	pageturner	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T198)
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001630
+# text = Boka er ei sår skildring om to parallelle historier, om ein forlaten tettstad og ei sorgtung kvinne.
+1	Boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=(dot~20110930_2121__4371--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(dot~20110930_2121__T200--1
+4	sår	sår	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	skildring	skildring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O
+6	om	om	ADP	_	_	9	case	_	name=O
+7	to	to	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(dot~20110930_2121__T201--1
+8	parallelle	parallell	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O
+9	historier	historie	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T201)
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	om	om	ADP	_	_	14	case	_	name=O
+12	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(dot~20110930_2121__T202--1(dot~20110930_2121__T203--1
+13	forlaten	forlate	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	14	amod	_	name=O
+14	tettstad	tettstad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	appos	_	name=O|Entity=dot~20110930_2121__T203)
+15	og	og	CCONJ	_	_	18	cc	_	name=O
+16	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(dot~20110930_2121__T204--1
+17	sorgtung	sorgtung	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	kvinne	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T204)dot~20110930_2121__T202)dot~20110930_2121__T200)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001631
+# text = Eikemo maktar å vikle kvinna og staden saman til ei historie.
+1	Eikemo	Eikemo	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(dot~20110930_2121__141469--1)
+2	maktar	makte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	vikle	vikle	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	kvinna	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=(dot~20110930_2121__T206--1(dot~20110930_2121__334246--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	conj	_	name=O|Entity=(dot~20110930_2121__6776--1)dot~20110930_2121__T206)
+8	saman	saman	ADV	_	_	4	advmod	_	name=O
+9	til	til	ADP	_	_	11	case	_	name=O
+10	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(dot~20110930_2121__T209--1
+11	historie	historie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T209)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001632
+# text = Både kvinnekroppen og tettstaden er etterlatne, svikne av tida.
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	kvinnekroppen	kvinnekropp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(dot~20110930_2121__2424--1(dot~20110930_2121__T211--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	tettstaden	tettstad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	conj	_	name=O|Entity=(dot~20110930_2121__6776--1)dot~20110930_2121__2424)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	etterlatne	etterlate	ADJ	_	Number=Plur|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	svikne	svike	ADJ	_	Number=Plur|VerbForm=Part	2	acl	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T213--1)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001633
+# text = Dei står att, tomme og utan røyndom, som ein utdøydd dialekt.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(dot~20110930_2121__2424--1)
+2	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	att	att	ADP	_	_	2	compound:prt	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	5	punct	_	name=O
+5	tomme	tom	ADJ	_	Degree=Pos|Number=Plur	2	xcomp	_	name=O
+6	og	og	CCONJ	_	_	8	cc	_	name=O
+7	utan	utan	ADP	_	_	8	case	_	name=O
+8	røyndom	røyndom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|name=O|Entity=(dot~20110930_2121__T215--1)
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	som	som	ADP	_	_	13	case	_	name=O
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(dot~20110930_2121__T216--1
+12	utdøydd	utdøydd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	dialekt	dialekt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=dot~20110930_2121__T216)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+

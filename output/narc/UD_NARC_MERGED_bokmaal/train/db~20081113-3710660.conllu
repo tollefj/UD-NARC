@@ -1,0 +1,601 @@
+# newdoc id = db~20081113-3710660
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 009701
+# text = - Dvaske husmødre er den ideelle målgruppen
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Dvaske	dvask	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=(db~20081113_3710660__T1--1
+3	husmødre	husmor	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	nsubj	_	name=O|Entity=db~20081113_3710660__T1)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(db~20081113_3710660__258--1
+6	ideelle	ideell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	målgruppen	målgruppe	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=db~20081113_3710660__258)
+
+# newpar
+# sent_id = 009702
+# text = EA utfordrer «Wii Fit».
+1	EA	EA	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(db~20081113_3710660__7411--1)
+2	utfordrer	utfordre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__6303--1
+4	Wii	Wii	PROPN	_	_	2	obj	_	name=B-PROD
+5	Fit	Fit	PROPN	_	_	4	flat:name	_	SpaceAfter=No|name=I-PROD
+6	»	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__6303)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009703
+# text = Kjendistrener:
+1	Kjendistrener	kjendistrener	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T5--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 009704
+# text = Oprahs personlige trener Bob Greene har hjulpet til med utviklingen av spillet.
+1	Oprahs	Oprah	PROPN	_	Case=Gen	3	nmod	_	name=B-PER|Entity=(db~20081113_3710660__3185--1(db~20081113_3710660__T7--1(db~20081113_3710660__T6--1)
+2	personlige	personlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	trener	trener	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=db~20081113_3710660__T7)
+4	Bob	Bob	PROPN	_	_	7	nsubj	_	name=B-PER
+5	Greene	Greene	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=db~20081113_3710660__3185)
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	hjulpet	hjelpe	VERB	_	VerbForm=Part	0	root	_	name=O
+8	til	til	ADP	_	_	7	compound:prt	_	name=O
+9	med	med	ADP	_	_	10	case	_	name=O
+10	utviklingen	utvikling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(db~20081113_3710660__T9--1
+11	av	av	ADP	_	_	12	case	_	name=O
+12	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__13759--1)db~20081113_3710660__T9)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 009705
+# text = Det har gått rykter en stund om at EA ville prøve seg med et eget trimspill for å konkurrere med «Wii Fit», og nå har spillgiganten endelig annonsert sitt nye treningsprosjekt.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	gått	gå	VERB	_	VerbForm=Part	0	root	_	name=O
+4	rykter	rykte	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=(db~20081113_3710660__T11--1)
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(db~20081113_3710660__T12--1
+6	stund	stund	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=db~20081113_3710660__T12)
+7	om	om	SCONJ	_	_	11	mark	_	name=O
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	EA	EA	PROPN	_	_	11	nsubj	_	name=B-ORG|Entity=(db~20081113_3710660__7411--1)
+10	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+11	prøve	prøve	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+12	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	name=O|Entity=(db~20081113_3710660__7411--1)
+13	med	med	ADP	_	_	16	case	_	name=O
+14	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(db~20081113_3710660__T14--1
+15	eget	egen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	16	det	_	name=O
+16	trimspill	trimspill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=db~20081113_3710660__T14)
+17	for	for	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	konkurrere	konkurrere	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+20	med	med	ADP	_	_	22	case	_	name=O
+21	«	$"	PUNCT	_	_	22	punct	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__6303--1
+22	Wii	Wii	PROPN	_	_	19	obl	_	name=B-PROD
+23	Fit	Fit	PROPN	_	_	22	flat:name	_	SpaceAfter=No|name=I-PROD
+24	»	$"	PUNCT	_	_	22	punct	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__6303)
+25	,	$,	PUNCT	_	_	31	punct	_	name=O
+26	og	og	CCONJ	_	_	31	cc	_	name=O
+27	nå	nå	ADV	_	_	31	advmod	_	name=O
+28	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	name=O
+29	spillgiganten	spillgigant	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	31	nsubj	_	name=O|Entity=(db~20081113_3710660__7411--1)
+30	endelig	endelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	31	advmod	_	name=O
+31	annonsert	annonsere	VERB	_	VerbForm=Part	3	conj	_	name=O
+32	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	34	nmod	_	name=O|Entity=(db~20081113_3710660__13759--1(db~20081113_3710660__7411--1)
+33	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	34	amod	_	name=O
+34	treningsprosjekt	treningsprosjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	31	obj	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__13759)
+35	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009706
+# text = «EA Sports Active» er det neste spillet som skal prøve å få tjukkaser opp og sprette foran tv-skjermen.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__13759--1
+2	EA	EA	PROPN	_	_	9	nsubj	_	name=B-PROD
+3	Sports	Sports	PROPN	_	_	2	flat:name	_	name=I-PROD
+4	Active	Active	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD
+5	»	$"	PUNCT	_	_	2	punct	_	name=O|Entity=db~20081113_3710660__13759)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+7	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(db~20081113_3710660__T20--1
+8	neste	neste	DET	_	Definite=Def|PronType=Dem	9	det	_	name=O
+9	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O
+10	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+11	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	prøve	prøve	VERB	_	VerbForm=Inf	9	acl:relcl	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	få	få	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	tjukkaser	tjukkas	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obj	_	name=O|Entity=(db~20081113_3710660__T21--1)
+16	opp	opp	ADP	_	_	14	xcomp	_	name=O
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	sprette	sprette	VERB	_	VerbForm=Inf	16	conj	_	name=O
+19	foran	foran	ADP	_	_	20	case	_	name=O
+20	tv-skjermen	tv-skjerm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T22--1)db~20081113_3710660__T20)
+21	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 009707
+# text = Vestlig tilnærming
+1	Vestlig	vestlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(db~20081113_3710660__T23--1
+2	tilnærming	tilnærming	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=db~20081113_3710660__T23)
+
+# sent_id = 009708
+# text = Gamespot har snakket med tidligere gymlærer og EA Sports-sjef Peter Moore, som hevder spillet er et flott alternativ eller supplement til «Wii Fit»:
+1	Gamespot	Gamespot	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(db~20081113_3710660__T24--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	snakket	snakke	VERB	_	VerbForm=Part	0	root	_	name=O
+4	med	med	ADP	_	_	10	case	_	name=O
+5	tidligere	tidlig	ADJ	_	Degree=Cmp	6	amod	_	name=O|Entity=(db~20081113_3710660__5336--1(db~20081113_3710660__T25--1(db~20081113_3710660__T26--1
+6	gymlærer	gymlærer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=db~20081113_3710660__T26)
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	EA	EA	PROPN	_	_	9	compound	_	name=B-DRV|Entity=(db~20081113_3710660__T27--1
+9	Sports-sjef	Sports-sjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=I-DRV|Entity=db~20081113_3710660__T27)db~20081113_3710660__T25)
+10	Peter	Peter	PROPN	_	Gender=Masc	3	obl	_	name=B-PER
+11	Moore	Moore	PROPN	_	_	10	flat:name	_	SpaceAfter=No|name=I-PER
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+14	hevder	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O
+15	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nsubj	_	name=O|Entity=(db~20081113_3710660__13759--1)
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+17	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(db~20081113_3710660__T30--1(db~20081113_3710660__T31--1
+18	flott	flott	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	name=O
+19	alternativ	alternativ	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	ccomp	_	name=O|Entity=db~20081113_3710660__T31)
+20	eller	eller	CCONJ	_	_	21	cc	_	name=O
+21	supplement	supplement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	conj	_	name=O|Entity=(db~20081113_3710660__T32--1
+22	til	til	ADP	_	_	24	case	_	name=O
+23	«	$"	PUNCT	_	_	24	punct	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__6303--1
+24	Wii	Wii	PROPN	_	_	21	nmod	_	name=B-PROD
+25	Fit	Fit	PROPN	_	_	24	flat:name	_	SpaceAfter=No|name=I-PROD
+26	»	$"	PUNCT	_	_	24	punct	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__6303)db~20081113_3710660__T32)db~20081113_3710660__T30)db~20081113_3710660__5336)
+27	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009709
+# text = - Det er en helt annen treningsopplevelse.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(db~20081113_3710660__13759--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(db~20081113_3710660__T35--1
+5	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O
+7	treningsopplevelse	treningsopplevelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__T35)
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 009710
+# text = Det er forskjellige filosofier i Østen og Vesten om hva trening skal innebære, og «Wii Fit» gjør en god jobb med østlig filosofi, altså balanse og koordinasjon.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	forskjellige	forskjellig	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O|Entity=(db~20081113_3710660__T36[1/2]--1
+4	filosofier	filosofi	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=db~20081113_3710660__T36[1/2])
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Østen	Østen	PROPN	_	Gender=Neut	2	obl	_	name=B-GPE_LOC|Entity=(db~20081113_3710660__T37--1(db~20081113_3710660__T38--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Vesten	Vesten	PROPN	_	Gender=Masc	6	conj	_	name=B-GPE_LOC|Entity=(db~20081113_3710660__T39--1)db~20081113_3710660__T37)
+9	om	om	ADP	_	_	13	case	_	name=O|Entity=(db~20081113_3710660__T36[2/2]--1
+10	hva	hva	PRON	_	PronType=Int	13	obj	_	name=O
+11	trening	trening	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nsubj	_	name=O|Entity=(db~20081113_3710660__T40--1)
+12	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	innebære	innebære	VERB	_	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__T36[2/2])
+14	,	$,	PUNCT	_	_	20	punct	_	name=O
+15	og	og	CCONJ	_	_	20	cc	_	name=O
+16	«	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__6303--1
+17	Wii	Wii	PROPN	_	_	20	nsubj	_	name=B-PROD
+18	Fit	Fit	PROPN	_	_	17	flat:name	_	SpaceAfter=No|name=I-PROD
+19	»	$"	PUNCT	_	_	17	punct	_	name=O|Entity=db~20081113_3710660__6303)
+20	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(db~20081113_3710660__T42--1
+22	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	23	amod	_	name=O
+23	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	name=O|Entity=db~20081113_3710660__T42)
+24	med	med	ADP	_	_	26	case	_	name=O
+25	østlig	østlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	amod	_	name=O|Entity=(db~20081113_3710660__T43--1
+26	filosofi	filosofi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O
+27	,	$,	PUNCT	_	_	29	punct	_	name=O
+28	altså	altså	ADV	_	_	29	advmod	_	name=O|Entity=(db~20081113_3710660__T44--1(db~20081113_3710660__T45--1
+29	balanse	balanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	appos	_	name=O|Entity=db~20081113_3710660__T45)
+30	og	og	CCONJ	_	_	31	cc	_	name=O
+31	koordinasjon	koordinasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T46--1)db~20081113_3710660__T44)db~20081113_3710660__T43)
+32	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009711
+# text = Problemet er at du sjeldent begynner å svette og kjenne hjertet slå.
+1	Problemet	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(db~20081113_3710660__T47--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	at	at	SCONJ	_	_	6	mark	_	name=O
+4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	name=O|Entity=(db~20081113_3710660__T48--1)
+5	sjeldent	sjelden	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	begynner	begynne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	svette	svette	VERB	_	VerbForm=Inf	6	xcomp	_	name=O
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	kjenne	kjenne	VERB	_	VerbForm=Inf	8	conj	_	name=O
+11	hjertet	hjerte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	name=O|Entity=(db~20081113_3710660__T49--1)
+12	slå	slå	VERB	_	VerbForm=Inf	10	ccomp	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009712
+# text = «EA Sports Active» fokuserer mer på forbrenning og styrke, og Moore innrømmer at dvaske husmødre er den ideelle målgruppen for spillet:
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__13759--1
+2	EA	EA	PROPN	_	_	6	nsubj	_	name=B-PROD
+3	Sports	Sports	PROPN	_	_	2	flat:name	_	name=I-PROD
+4	Active	Active	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD
+5	»	$"	PUNCT	_	_	2	punct	_	name=O|Entity=db~20081113_3710660__13759)
+6	fokuserer	fokusere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	mer	mye	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	forbrenning	forbrenning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=(db~20081113_3710660__T51--1(db~20081113_3710660__T52--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	styrke	styrke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T53--1)db~20081113_3710660__T51)
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	og	og	CCONJ	_	_	15	cc	_	name=O
+14	Moore	Moore	PROPN	_	_	15	nsubj	_	name=B-PER|Entity=(db~20081113_3710660__5336--1)
+15	innrømmer	innrømme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+16	at	at	SCONJ	_	_	22	mark	_	name=O
+17	dvaske	dvask	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(db~20081113_3710660__T55--1
+18	husmødre	husmor	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	22	nsubj	_	name=O|Entity=db~20081113_3710660__T55)
+19	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+20	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(db~20081113_3710660__258--1
+21	ideelle	ideell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	målgruppen	målgruppe	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	ccomp	_	name=O
+23	for	for	ADP	_	_	24	case	_	name=O
+24	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__13759--1)db~20081113_3710660__258)
+25	:	$:	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009713
+# text = - Denne greia er for alle.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(db~20081113_3710660__13759--1
+3	greia	greie	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	name=O|Entity=db~20081113_3710660__13759)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	for	for	ADP	_	_	6	case	_	name=O
+6	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	0	root	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T59--1)
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009714
+# text = Meg, deg, kjærester, koner og barn kan alle ha glede av dette, men vi har funnet ut at det lønner seg å fokusere.
+1	Meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	11	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T60--1(db~20081113_3710660__T66[1/2]--1(db~20081113_3710660__5336--1)
+2	,	$,	PUNCT	_	_	3	punct	_	name=O
+3	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	1	conj	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T62--1
+4	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=db~20081113_3710660__T62)
+5	kjærester	kjæreste	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T63--1
+6	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=db~20081113_3710660__T63)
+7	koner	kone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	1	conj	_	name=O|Entity=(db~20081113_3710660__T64--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	conj	_	name=O|Entity=(db~20081113_3710660__T65--1)db~20081113_3710660__T60)db~20081113_3710660__T66[1/2])
+10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	12	nsubj	_	name=O|Entity=(db~20081113_3710660__T66[2/2]--1)
+12	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+13	glede	glede	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	name=O|Entity=(db~20081113_3710660__T67--1
+14	av	av	ADP	_	_	15	case	_	name=O
+15	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__13759--1)db~20081113_3710660__T67)
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	men	men	CCONJ	_	_	20	cc	_	name=O
+18	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	name=O|Entity=(db~20081113_3710660__2140--1)
+19	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+20	funnet	finne	VERB	_	VerbForm=Part	12	conj	_	name=O
+21	ut	ut	ADP	_	_	20	compound:prt	_	name=O
+22	at	at	SCONJ	_	_	24	mark	_	name=O
+23	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	name=O
+24	lønner	lønne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	xcomp	_	name=O
+25	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	24	obj	_	name=O
+26	å	å	PART	_	_	27	mark	_	name=O
+27	fokusere	fokusere	VERB	_	VerbForm=Inf	24	csubj	_	SpaceAfter=No|name=O
+28	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 009715
+# text = Hvis jeg skal peke ut vår viktigste kunde må det være en kvinne i midten av tredveårene.
+1	Hvis	hvis	SCONJ	_	_	4	mark	_	name=O
+2	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081113_3710660__5336--1)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	peke	peke	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+5	ut	ut	ADP	_	_	4	compound:prt	_	name=O
+6	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(db~20081113_3710660__T72--1(db~20081113_3710660__2140--1)
+7	viktigste	viktig	ADJ	_	Definite=Def|Degree=Sup	8	amod	_	name=O
+8	kunde	kunde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=db~20081113_3710660__T72)
+9	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	name=O
+11	være	være	AUX	_	VerbForm=Inf	13	cop	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(db~20081113_3710660__4377--1
+13	kvinne	kvinne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	midten	midt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(db~20081113_3710660__T74--1
+16	av	av	ADP	_	_	17	case	_	name=O
+17	tredveårene	tredveår	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T75--1)db~20081113_3710660__T74)db~20081113_3710660__4377)
+18	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 009716
+# text = Kanskje hun har et par småbarn og dermed har problemer med å komme seg ut.
+1	Kanskje	kanskje	ADV	_	_	3	advmod	_	name=O
+2	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081113_3710660__4377--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(db~20081113_3710660__T78--1(db~20081113_3710660__T77--1
+5	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=db~20081113_3710660__T77)
+6	småbarn	småbarn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=db~20081113_3710660__T78)
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	dermed	dermed	ADV	_	_	9	advmod	_	name=O
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+10	problemer	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	name=O|Entity=(db~20081113_3710660__T79--1
+11	med	med	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	komme	komme	VERB	_	VerbForm=Inf	10	acl	_	name=O
+14	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	obj	_	name=O|Entity=(db~20081113_3710660__4377--1)
+15	ut	ut	ADP	_	_	13	compound:prt	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__T79)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009717
+# text = En tjueminutters treningsøkt foran TV-en appellerer sikkert til henne.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(db~20081113_3710660__T81--1(db~20081113_3710660__T80--1
+2	tjueminutters	tjueminutt	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	name=O|Entity=db~20081113_3710660__T80)
+3	treningsøkt	treningsøkt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O
+4	foran	foran	ADP	_	_	5	case	_	name=O
+5	TV-en	TV	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(db~20081113_3710660__T82--1)db~20081113_3710660__T81)
+6	appellerer	appellere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	sikkert	sikker	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	henne	hun	PRON	_	Animacy=Hum|Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__4377--1)
+10	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009718
+# text = Kjendistrener
+1	Kjendistrener	kjendistrener	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(db~20081113_3710660__T84--1)
+
+# sent_id = 009719
+# text = Da er det ikke noe dårlig trekk av EA å knytte til seg husmorhelten Ophras personlige trener.
+1	Da	da	ADV	_	_	7	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	name=O
+5	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	7	det	_	name=O|Entity=(db~20081113_3710660__T85--1
+6	dårlig	dårlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	trekk	trekk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	EA	EA	PROPN	_	_	7	nmod	_	name=B-ORG|Entity=(db~20081113_3710660__7411--1)db~20081113_3710660__T85)
+10	å	å	PART	_	_	11	mark	_	name=O
+11	knytte	knytte	VERB	_	VerbForm=Inf	7	csubj	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obl	_	name=O
+14	husmorhelten	husmorhelt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(db~20081113_3710660__3185--1(db~20081113_3710660__T87--1
+15	Ophras	Ophra	PROPN	_	Case=Gen	17	nmod	_	name=B-PER|Entity=db~20081113_3710660__T87)
+16	personlige	personlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	trener	trener	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__3185)
+18	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 009720
+# text = Bob Greene har hjulpet til med utviklingen av spillet, og skal også være med å markedsføre det.
+1	Bob	Bob	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(db~20081113_3710660__3185--1
+2	Greene	Greene	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081113_3710660__3185)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	hjulpet	hjelpe	VERB	_	VerbForm=Part	0	root	_	name=O
+5	til	til	ADP	_	_	4	compound:prt	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	utviklingen	utvikling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(db~20081113_3710660__T90--1
+8	av	av	ADP	_	_	9	case	_	name=O
+9	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__13759--1)db~20081113_3710660__T90)
+10	,	$,	PUNCT	_	_	15	punct	_	name=O
+11	og	og	CCONJ	_	_	15	cc	_	name=O
+12	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+13	også	også	ADV	_	_	15	advmod	_	name=O
+14	være	være	AUX	_	VerbForm=Inf	15	cop	_	name=O
+15	med	med	ADP	_	_	4	conj	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	markedsføre	markedsføre	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__13759--1)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009721
+# text = «EA Sports Active» kommer ikke til å kreve balansebrettet som fulgte med «Wii Fit», men vil i stedet selges med to hylstre som skal brukes til å feste Wiimoten og Nunchucken til armene eller beina dine.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__13759--1
+2	EA	EA	PROPN	_	_	6	nsubj	_	name=B-PROD
+3	Sports	Sports	PROPN	_	_	2	flat:name	_	name=I-PROD
+4	Active	Active	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD
+5	»	$"	PUNCT	_	_	2	punct	_	name=O|Entity=db~20081113_3710660__13759)
+6	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	kreve	kreve	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+11	balansebrettet	balansebrett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=(db~20081113_3710660__T94--1
+12	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+13	fulgte	følge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	name=O
+14	med	med	ADP	_	_	16	case	_	name=O
+15	«	$"	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__6303--1
+16	Wii	Wii	PROPN	_	_	13	obl	_	name=B-PROD
+17	Fit	Fit	PROPN	_	_	16	flat:name	_	SpaceAfter=No|name=I-PROD
+18	»	$"	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__6303)db~20081113_3710660__T94)
+19	,	$,	PUNCT	_	_	24	punct	_	name=O
+20	men	men	CCONJ	_	_	24	cc	_	name=O
+21	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	stedet	sted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	obl	_	name=O|Entity=(db~20081113_3710660__T96--1)
+24	selges	selge	VERB	_	VerbForm=Inf|Voice=Pass	6	conj	_	name=O
+25	med	med	ADP	_	_	27	case	_	name=O
+26	to	to	NUM	_	Number=Plur|NumType=Card	27	nummod	_	name=O|Entity=(db~20081113_3710660__T97--1
+27	hylstre	hylster	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	obl	_	name=O
+28	som	som	PRON	_	PronType=Rel	30	nsubj:pass	_	name=O
+29	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	30	aux	_	name=O
+30	brukes	bruke	VERB	_	VerbForm=Inf|Voice=Pass	27	acl:relcl	_	name=O
+31	til	til	SCONJ	_	_	33	mark	_	name=O
+32	å	å	PART	_	_	33	mark	_	name=O
+33	feste	feste	VERB	_	VerbForm=Inf	30	advcl	_	name=O
+34	Wiimoten	Wiimoten	PROPN	_	_	33	obj	_	name=B-DRV|Entity=(db~20081113_3710660__T98--1(db~20081113_3710660__T99--1)
+35	og	og	CCONJ	_	_	36	cc	_	name=O
+36	Nunchucken	Nunchucken	PROPN	_	_	34	conj	_	name=B-DRV|Entity=(db~20081113_3710660__T100--1)db~20081113_3710660__T98)
+37	til	til	ADP	_	_	38	case	_	name=O
+38	armene	arm	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	33	obl	_	name=O|Entity=(db~20081113_3710660__T101--1(db~20081113_3710660__T102--1)
+39	eller	eller	CCONJ	_	_	40	cc	_	name=O
+40	beina	bein	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	38	conj	_	name=O|Entity=(db~20081113_3710660__T103--1
+41	dine	din	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	40	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T104--1)db~20081113_3710660__T103)db~20081113_3710660__T101)db~20081113_3710660__T97)
+42	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009722
+# text = Dermed vil bevegelsene du gjør foran TV-en overføres direkte til din egen lille trimfigur på skjermen.
+1	Dermed	dermed	ADV	_	_	8	advmod	_	name=O
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+3	bevegelsene	bevegelse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nsubj:pass	_	name=O|Entity=(db~20081113_3710660__T105--1
+4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081113_3710660__T106--1)
+5	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	name=O
+6	foran	foran	ADP	_	_	7	case	_	name=O
+7	TV-en	TV	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(db~20081113_3710660__T107--1)db~20081113_3710660__T105)
+8	overføres	overføre	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+9	direkte	direkte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+10	til	til	ADP	_	_	14	case	_	name=O
+11	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	name=O|Entity=(db~20081113_3710660__T109--1(db~20081113_3710660__T108--1)
+12	egen	egen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	14	det	_	name=O
+13	lille	liten	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	trimfigur	trimfigur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=db~20081113_3710660__T109)
+15	på	på	ADP	_	_	16	case	_	name=O
+16	skjermen	skjerm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T110--1)
+17	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 009723
+# text = Et elastisk bånd for styrketrening følger også med.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(db~20081113_3710660__T111--1
+2	elastisk	elastisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	name=O
+3	bånd	bånd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	styrketrening	styrketrening	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	name=O|Entity=(db~20081113_3710660__T112--1)db~20081113_3710660__T111)
+6	følger	følge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	også	også	ADV	_	_	6	advmod	_	name=O
+8	med	med	ADP	_	_	6	compound:prt	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009724
+# text = Flere spill kommer
+1	Flere	mange	ADJ	_	Degree=Cmp	2	amod	_	name=O|Entity=(db~20081113_3710660__T113--1
+2	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=db~20081113_3710660__T113)
+3	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+
+# sent_id = 009725
+# text = I motsetning til «Wii Fit» må du ikke låse opp noen av øvelsene, og alt sammen skal være tilgjengelig fra starten av.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	motsetning	motsetning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=(db~20081113_3710660__T114--1
+3	til	til	ADP	_	_	5	case	_	name=O
+4	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__6303--1
+5	Wii	Wii	PROPN	_	_	2	nmod	_	name=B-PROD
+6	Fit	Fit	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-PROD
+7	»	$"	PUNCT	_	_	5	punct	_	name=O|Entity=db~20081113_3710660__6303)db~20081113_3710660__T114)
+8	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+9	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081113_3710660__T116--1)
+10	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+11	låse	låse	VERB	_	VerbForm=Inf	0	root	_	name=O
+12	opp	opp	ADP	_	_	11	compound:prt	_	name=O
+13	noen	noen	DET	_	Number=Plur|PronType=Ind	11	obj	_	name=O
+14	av	av	ADP	_	_	15	case	_	name=O
+15	øvelsene	øvelse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T117--1)
+16	,	$,	PUNCT	_	_	22	punct	_	name=O
+17	og	og	CCONJ	_	_	22	cc	_	name=O
+18	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(db~20081113_3710660__T118--1
+19	sammen	sammen	ADV	_	_	18	advmod	_	name=O|Entity=db~20081113_3710660__T118)
+20	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+21	være	være	AUX	_	VerbForm=Inf	22	cop	_	name=O
+22	tilgjengelig	tilgjengelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	name=O
+23	fra	fra	ADP	_	_	24	case	_	name=O
+24	starten	start	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	obl	_	name=O|Entity=(db~20081113_3710660__T119--1
+25	av	av	ADP	_	_	24	nmod	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__T119)
+26	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 009726
+# text = Du kan enten kjøre ferdiglagde programmer, eller sette sammen dine egne.
+1	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081113_3710660__T120--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	enten	enten	CCONJ	_	_	4	cc	_	name=O
+4	kjøre	kjøre	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	ferdiglagde	ferdiglagd	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(db~20081113_3710660__T121--1
+6	programmer	program	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__T121)
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	eller	eller	CCONJ	_	_	9	cc	_	name=O
+9	sette	sette	VERB	_	VerbForm=Inf	4	conj	_	name=O
+10	sammen	sammen	ADV	_	_	9	advmod	_	name=O
+11	dine	din	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	name=O|Entity=(db~20081113_3710660__T122--1)
+12	egne	egen	DET	_	Number=Plur|PronType=Prs	9	obj	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009727
+# text = Ifølge Moore er det enkelt å sette sammen en økt, og alt du trenger å gjøre er å velge treningsmoduler fra en liste og dra dem ned til programmet ditt.
+1	Ifølge	ifølge	ADP	_	_	2	case	_	name=O
+2	Moore	Moore	PROPN	_	_	5	obl	_	name=B-PER|Entity=(db~20081113_3710660__5336--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	enkelt	enkel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	sette	sette	VERB	_	VerbForm=Inf	5	csubj	_	name=O
+8	sammen	sammen	ADV	_	_	7	advmod	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(db~20081113_3710660__T124--1
+10	økt	økt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__T124)
+11	,	$,	PUNCT	_	_	20	punct	_	name=O
+12	og	og	CCONJ	_	_	20	cc	_	name=O
+13	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(db~20081113_3710660__T125--1
+14	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	name=O|Entity=(db~20081113_3710660__T126--1)
+15	trenger	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	gjøre	gjøre	VERB	_	VerbForm=Inf	15	xcomp	_	name=O|Entity=db~20081113_3710660__T125)
+18	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	velge	velge	VERB	_	VerbForm=Inf	5	conj	_	name=O
+21	treningsmoduler	treningsmodul	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	obj	_	name=O|Entity=(db~20081113_3710660__2256--1)
+22	fra	fra	ADP	_	_	24	case	_	name=O
+23	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(db~20081113_3710660__T128--1
+24	liste	liste	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	name=O|Entity=db~20081113_3710660__T128)
+25	og	og	CCONJ	_	_	26	cc	_	name=O
+26	dra	dra	VERB	_	VerbForm=Inf	20	conj	_	name=O
+27	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	obj	_	name=O|Entity=(db~20081113_3710660__2256--1)
+28	ned	ned	ADP	_	_	30	case	_	name=O
+29	til	til	ADP	_	_	30	case	_	name=O
+30	programmet	program	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	26	obl	_	name=O|Entity=(db~20081113_3710660__T130--1
+31	ditt	din	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	30	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T131--1)db~20081113_3710660__T130)
+32	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 009728
+# text = Ikke overraskende har EA allerede begynt å planlegge flere «Sports Active»-titler, og fremtidige spill i serien vil by på nye former for trening.
+1	Ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+2	overraskende	overraske	ADJ	_	VerbForm=Part	6	advmod	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	EA	EA	PROPN	_	_	6	nsubj	_	name=B-ORG|Entity=(db~20081113_3710660__7411--1)
+5	allerede	allerede	ADV	_	_	6	advmod	_	name=O
+6	begynt	begynne	VERB	_	VerbForm=Part	0	root	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	planlegge	planlegge	VERB	_	VerbForm=Inf	6	xcomp	_	name=O
+9	flere	mange	ADJ	_	Degree=Cmp	14	amod	_	name=O|Entity=(db~20081113_3710660__T133--1
+10	«	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=B-DRV
+11	Sports	Sports	PROPN	_	_	14	compound	_	name=I-DRV
+12	Active	Active	PROPN	_	_	14	compound	_	SpaceAfter=No|name=I-DRV
+13	»	$"	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=I-DRV
+14	-titler	-tittel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|name=I-DRV|Entity=db~20081113_3710660__T133)
+15	,	$,	PUNCT	_	_	22	punct	_	name=O
+16	og	og	CCONJ	_	_	22	cc	_	name=O
+17	fremtidige	fremtidig	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(db~20081113_3710660__2273--1
+18	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	nsubj	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	serien	serie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(db~20081113_3710660__T135--1)db~20081113_3710660__2273)
+21	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+22	by	by	VERB	_	VerbForm=Inf	6	conj	_	name=O
+23	på	på	ADP	_	_	25	case	_	name=O
+24	nye	ny	ADJ	_	Degree=Pos|Number=Plur	25	amod	_	name=O|Entity=(db~20081113_3710660__T136--1
+25	former	form	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	22	obl	_	name=O
+26	for	for	ADP	_	_	27	case	_	name=O
+27	trening	trening	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__T137--1)db~20081113_3710660__T136)
+28	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009729
+# text = Det planlegges også mer ekstrautstyr som skal brukes sammen med dem.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	planlegges	planlegge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	mer	mye	ADJ	_	Degree=Cmp	5	amod	_	name=O|Entity=(db~20081113_3710660__T138--1
+5	ekstrautstyr	ekstrautstyr	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O
+6	som	som	PRON	_	PronType=Rel	8	nsubj:pass	_	name=O
+7	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	brukes	bruke	VERB	_	VerbForm=Inf|Voice=Pass	5	acl:relcl	_	name=O
+9	sammen	sammen	ADV	_	_	11	advmod	_	name=O
+10	med	med	ADP	_	_	11	case	_	name=O
+11	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__2273--1)db~20081113_3710660__T138)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009730
+# text = «EA Sports Active» skal slippes i statene i løpet av våren 2009.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(db~20081113_3710660__13759--1
+2	EA	EA	PROPN	_	_	7	nsubj:pass	_	name=B-PROD
+3	Sports	Sports	PROPN	_	_	2	flat:name	_	name=I-PROD
+4	Active	Active	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD
+5	»	$"	PUNCT	_	_	2	punct	_	name=O|Entity=db~20081113_3710660__13759)
+6	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	slippes	slippe	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	statene	stat	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	obl	_	name=O|Entity=(db~20081113_3710660__T141--1)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	løpet	løp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(db~20081113_3710660__T142--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	våren	vår	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(db~20081113_3710660__T143--1
+14	2009	2009	NUM	_	Number=Plur|NumType=Card	13	nmod	_	SpaceAfter=No|name=O|Entity=db~20081113_3710660__T143)db~20081113_3710660__T142)
+15	.	$.	PUNCT	_	_	7	punct	_	name=O
+

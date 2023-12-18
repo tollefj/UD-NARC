@@ -1,0 +1,146 @@
+# newdoc id = spbm~20111209-405014
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 013695
+# text = Skulket klimamøte - dro på safari
+1	Skulket	skulke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	klimamøte	klimamøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	name=O|Entity=(spbm~20111209_405014__236--1)
+3	-	$-	PUNCT	_	_	4	punct	_	name=O
+4	dro	dra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	safari	safari	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(spbm~20111209_405014__228--1)
+
+# sent_id = 013696
+# text = Syv stortingsrepresentanter reiste til Sør-Afrika for å følge klimaforhandlingene.
+1	Syv	syv	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(spbm~20111209_405014__471--1
+2	stortingsrepresentanter	stortingsrepresentant	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=spbm~20111209_405014__471)
+3	reiste	reise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	Sør-Afrika	Sør-Afrika	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(spbm~20111209_405014__232--1)
+6	for	for	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	følge	følge	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+9	klimaforhandlingene	klimaforhandling	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No|name=O|Bridge=spbm~20111209_405014__236<spbm~20111209_405014__T5:default|Entity=(spbm~20111209_405014__T5--1)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 013697
+# text = I går var fire av dem borte vekk, skriver Dagens Næringsliv.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	går	går	NOUN	_	_	7	obl	_	name=O|Entity=(spbm~20111209_405014__T6--1)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+4	fire	fire	NUM	_	Number=Plur|NumType=Card	7	nsubj	_	name=O|Entity=(spbm~20111209_405014__250--1
+5	av	av	ADP	_	_	6	case	_	name=O
+6	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	nmod	_	name=O|Entity=(spbm~20111209_405014__471--1)spbm~20111209_405014__250)
+7	borte	borte	ADP	_	_	0	root	_	name=O
+8	vekk	vekk	ADP	_	_	7	obl	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+11	Dagens	Dagens	PROPN	_	_	10	nsubj	_	name=B-ORG|Entity=(spbm~20111209_405014__226--1
+12	Næringsliv	Næringsliv	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=spbm~20111209_405014__226)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 013698
+# text = Oskar J. Grimstad
+1	Oskar	Oskar	PROPN	_	Gender=Masc	0	root	_	name=B-PER|Entity=(spbm~20111209_405014__T9--1
+2	J.	J.	PROPN	_	Abbr=Yes	1	flat:name	_	name=I-PER
+3	Grimstad	Grimstad	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=spbm~20111209_405014__T9)
+
+# newpar
+# sent_id = 013699
+# text = Foto: Staale Wattø
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405014__T10--1
+2	:	$:	PUNCT	_	_	3	punct	_	name=O
+3	Staale	Staale	PROPN	_	_	1	parataxis	_	name=B-PER|Entity=(spbm~20111209_405014__T11--1
+4	Wattø	Wattø	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=spbm~20111209_405014__T11)spbm~20111209_405014__T10)
+
+# sent_id = 013700
+# text = «Vi er på tur i en nasjonalpark og leter etter the big five», skrev Fremskrittspartiets Oskar Grimstad i en tekstmelding til Dagens Næringsliv torsdag.
+1	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(spbm~20111209_405014__250--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	tur	tur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(spbm~20111209_405014__T13--1)
+6	i	i	ADP	_	_	8	case	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(spbm~20111209_405014__T14--1
+8	nasjonalpark	nasjonalpark	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=spbm~20111209_405014__T14)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	leter	lete	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+11	etter	etter	ADP	_	_	14	case	_	name=O
+12	the	the	DET	_	PronType=Prs	14	det	_	name=O
+13	big	big	ADJ	_	_	14	advmod	_	name=O
+14	five	five	NUM	_	Number=Plur|NumType=Card	10	obl	_	SpaceAfter=No|name=O
+15	»	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	skrev	skrive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	name=O
+18	Fremskrittspartiets	Fremskrittspartiet	PROPN	_	Case=Gen|Gender=Neut	19	nmod	_	name=B-ORG|Entity=(spbm~20111209_405014__T16--1(spbm~20111209_405014__T15--1)
+19	Oskar	Oskar	PROPN	_	Gender=Masc	17	nsubj	_	name=B-PER
+20	Grimstad	Grimstad	PROPN	_	_	19	flat:name	_	name=I-PER|Entity=spbm~20111209_405014__T16)
+21	i	i	ADP	_	_	23	case	_	name=O
+22	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(spbm~20111209_405014__T17--1
+23	tekstmelding	tekstmelding	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	name=O
+24	til	til	ADP	_	_	25	case	_	name=O
+25	Dagens	Dagens	PROPN	_	_	23	nmod	_	name=B-ORG|Entity=(spbm~20111209_405014__226--1
+26	Næringsliv	Næringsliv	PROPN	_	_	25	flat:name	_	name=I-ORG|Entity=spbm~20111209_405014__226)spbm~20111209_405014__T17)
+27	torsdag	torsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405014__T19--1)
+28	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013701
+# text = Høyres Gunnar Gundersen og Siri A. Meling og Sps Erling Sande var med på safarien.
+1	Høyres	Høyre	PROPN	_	Case=Gen	2	nmod	_	name=B-ORG|Entity=(spbm~20111209_405014__T21--1(spbm~20111209_405014__T22--1(spbm~20111209_405014__T20--1)
+2	Gunnar	Gunnar	PROPN	_	Gender=Masc	13	nsubj	_	name=B-PER
+3	Gundersen	Gundersen	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=spbm~20111209_405014__T22)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	Siri	Siri	PROPN	_	Gender=Fem	2	conj	_	name=B-PER|Entity=(spbm~20111209_405014__T23--1
+6	A.	A.	PROPN	_	Abbr=Yes	5	flat:name	_	name=I-PER
+7	Meling	Meling	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=spbm~20111209_405014__T23)
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	Sps	Sp	PROPN	_	Abbr=Yes|Case=Gen	10	nmod	_	name=B-ORG|Entity=(spbm~20111209_405014__T25--1(spbm~20111209_405014__T24--1)
+10	Erling	Erling	PROPN	_	Gender=Masc	2	conj	_	name=B-PER
+11	Sande	Sande	PROPN	_	_	10	flat:name	_	name=I-PER|Entity=spbm~20111209_405014__T25)spbm~20111209_405014__T21)
+12	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+13	med	med	ADP	_	_	0	root	_	name=O
+14	på	på	ADP	_	_	15	case	_	name=O
+15	safarien	safari	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405014__228--1)
+16	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 013702
+# text = De norske stortingsrepresentanter er i Sør-Afrika på skattebetalernes regning for å delta på en klimakonferanse i Durban.
+1	De	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(spbm~20111209_405014__471--1
+2	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	stortingsrepresentanter	stortingsrepresentant	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=spbm~20111209_405014__471)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Sør-Afrika	Sør-Afrika	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=(spbm~20111209_405014__232--1)
+7	på	på	ADP	_	_	9	case	_	name=O
+8	skattebetalernes	skattebetaler	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	name=O|Entity=(spbm~20111209_405014__T30--1(spbm~20111209_405014__T29--1)
+9	regning	regning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=spbm~20111209_405014__T30)
+10	for	for	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	delta	delta	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+13	på	på	ADP	_	_	15	case	_	name=O
+14	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(spbm~20111209_405014__T31--1
+15	klimakonferanse	klimakonferanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Durban	Durban	PROPN	_	_	15	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20111209_405014__T32--1)spbm~20111209_405014__T31)
+18	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 013703
+# text = Men torsdag droppet altså fire av dem møtet og dro på safari i stedet.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	torsdag	torsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(spbm~20111209_405014__T33--1)
+3	droppet	droppe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	altså	altså	ADV	_	_	3	advmod	_	name=O
+5	fire	fire	NUM	_	Number=Plur|NumType=Card	3	nsubj	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	nmod	_	name=O|Entity=(spbm~20111209_405014__471--1)
+8	møtet	møte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(spbm~20111209_405014__236--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	dro	dra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	safari	safari	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(spbm~20111209_405014__T36--1)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	stedet	sted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405014__T37--1)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+

@@ -1,0 +1,985 @@
+# newdoc id = spbm~20050822-508220308
+# global.Entity = eid-etype-head-other
+# sent_id = 017694
+# text = Gasskraft splitter velgerne
+1	Gasskraft	gasskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T1--1)
+2	splitter	splitte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	velgerne	velger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=(spbm~20050822_508220308__6376--1)
+
+# sent_id = 017695
+# text = Gass er bokstavelig talt et brennbart tema i den lokale valgkampen.
+1	Gass	gass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T3--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+3	bokstavelig	bokstavelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	talt	tale	VERB	_	VerbForm=Part	7	advcl	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(spbm~20050822_508220308__T4--1
+6	brennbart	brennbar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	tema	tema	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=spbm~20050822_508220308__T4)
+8	i	i	ADP	_	_	11	case	_	name=O
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(spbm~20050822_508220308__T5--1
+10	lokale	lokal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	valgkampen	valgkamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T5)
+12	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 017696
+# text = Politikere med stortingsambisjoner kappes om å være mest positive til å bygge gasskraftverk i Møre og Romsdal.
+1	Politikere	politiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T6--1
+2	med	med	ADP	_	_	3	case	_	name=O
+3	stortingsambisjoner	stortingsambisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	name=O|Entity=(spbm~20050822_508220308__T7--1)spbm~20050822_508220308__T6)
+4	kappes	kappes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	om	om	SCONJ	_	_	9	mark	_	name=O
+6	å	å	PART	_	_	9	mark	_	name=O
+7	være	være	AUX	_	VerbForm=Inf	9	cop	_	name=O
+8	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	9	advmod	_	name=O
+9	positive	positiv	ADJ	_	Degree=Pos|Number=Plur	4	advcl	_	name=O
+10	til	til	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	bygge	bygge	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+13	gasskraftverk	gasskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	name=O|Entity=(spbm~20050822_508220308__T8--1)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Møre	Møre	PROPN	_	_	12	obl	_	name=B-GPE_LOC|Entity=(spbm~20050822_508220308__6462--1
+16	og	og	CCONJ	_	_	15	flat:name	_	name=I-GPE_LOC
+17	Romsdal	Romsdal	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=spbm~20050822_508220308__6462)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017697
+# text = Men velgerne er ikke så sikre.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	velgerne	velger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(spbm~20050822_508220308__6376--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+5	så	så	ADV	_	_	6	advmod	_	name=O
+6	sikre	sikker	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017698
+# text = En meningsmåling Sentio har utført for Sunnmørsposten viser at det er dødt løp mellom de som vil ha gasskraftverk og de som ikke vil ha det.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(spbm~20050822_508220308__5761--1
+2	meningsmåling	meningsmåling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O
+3	Sentio	Sentio	PROPN	_	_	5	nsubj	_	name=B-ORG|Entity=(spbm~20050822_508220308__3249--1)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	utført	utføre	VERB	_	VerbForm=Part	2	acl:relcl	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	Sunnmørsposten	Sunnmørsposten	PROPN	_	_	5	obl	_	name=B-ORG|Entity=(spbm~20050822_508220308__T13--1)spbm~20050822_508220308__5761)
+8	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	at	at	SCONJ	_	_	11	mark	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	xcomp	_	name=O
+12	dødt	død	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	name=O|Entity=(spbm~20050822_508220308__T14--1
+13	løp	løp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nsubj	_	name=O
+14	mellom	mellom	ADP	_	_	15	case	_	name=O
+15	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nmod	_	name=O|Bridge=spbm~20050822_508220308__6376<spbm~20050822_508220308__T16:default|Entity=(spbm~20050822_508220308__T15--1(spbm~20050822_508220308__T16--1
+16	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+17	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	ha	ha	VERB	_	VerbForm=Inf	15	acl:relcl	_	name=O
+19	gasskraftverk	gasskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	obj	_	name=O|Entity=(spbm~20050822_508220308__T17--1)spbm~20050822_508220308__T16)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	conj	_	name=O|Bridge=spbm~20050822_508220308__6376<spbm~20050822_508220308__T18:default|Entity=(spbm~20050822_508220308__T18--1
+22	som	som	PRON	_	PronType=Rel	25	nsubj	_	name=O
+23	ikke	ikke	PART	_	Polarity=Neg	25	advmod	_	name=O
+24	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	ha	ha	VERB	_	VerbForm=Inf	21	acl:relcl	_	name=O
+26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T19--1)spbm~20050822_508220308__T18)spbm~20050822_508220308__T15)spbm~20050822_508220308__T14)
+27	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 017699
+# text = På spørsmålet om det bør bygges gasskraftverk i Møre og Romsdal nå, eller om vi bør vente på CO2-frie gasskraftverk, og heller satse på andre energikilder, svarte 43,6 prosent at de vil vente, mens 43,3 prosent vil bygge nå.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	spørsmålet	spørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	30	obl	_	name=O|Bridge=spbm~20050822_508220308__5761<spbm~20050822_508220308__5456:default|Entity=(spbm~20050822_508220308__5456--1
+3	om	om	SCONJ	_	_	6	mark	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+5	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	bygges	bygge	VERB	_	VerbForm=Inf|Voice=Pass	2	acl	_	name=O
+7	gasskraftverk	gasskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obj	_	name=O|Entity=(spbm~20050822_508220308__T21--1)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Møre	Møre	PROPN	_	_	6	obl	_	name=B-GPE_LOC|Entity=(spbm~20050822_508220308__6462--1
+10	og	og	CCONJ	_	_	9	flat:name	_	name=I-GPE_LOC
+11	Romsdal	Romsdal	PROPN	_	_	9	flat:name	_	name=I-GPE_LOC|Entity=spbm~20050822_508220308__6462)
+12	nå	nå	ADV	_	_	6	advmod	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	18	punct	_	name=O
+14	eller	eller	CCONJ	_	_	18	cc	_	name=O
+15	om	om	SCONJ	_	_	18	mark	_	name=O
+16	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T23--1)
+17	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	vente	vente	VERB	_	VerbForm=Inf	6	conj	_	name=O
+19	på	på	ADP	_	_	21	case	_	name=O
+20	CO2-frie	CO2-fri	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	name=O|Entity=(spbm~20050822_508220308__T24--1
+21	gasskraftverk	gasskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T24)
+22	,	$,	PUNCT	_	_	25	punct	_	name=O
+23	og	og	CCONJ	_	_	25	cc	_	name=O
+24	heller	heller	ADV	_	_	25	advmod	_	name=O
+25	satse	satse	VERB	_	VerbForm=Inf	18	conj	_	name=O
+26	på	på	ADP	_	_	28	case	_	name=O
+27	andre	annen	DET	_	Number=Plur|PronType=Dem	28	det	_	name=O|Entity=(spbm~20050822_508220308__T25--1
+28	energikilder	energikilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	25	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T25)spbm~20050822_508220308__5456)
+29	,	$,	PUNCT	_	_	2	punct	_	name=O
+30	svarte	svare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+31	43,6	43,6	NUM	_	Number=Plur|NumType=Card	32	nummod	_	name=O|Entity=(spbm~20050822_508220308__253--1
+32	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	30	nsubj	_	name=O|Entity=spbm~20050822_508220308__253)
+33	at	at	SCONJ	_	_	36	mark	_	name=O
+34	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	name=O|Entity=(spbm~20050822_508220308__253--1)
+35	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	36	aux	_	name=O
+36	vente	vente	VERB	_	VerbForm=Inf	30	ccomp	_	SpaceAfter=No|name=O
+37	,	$,	PUNCT	_	_	42	punct	_	name=O
+38	mens	mens	SCONJ	_	_	42	mark	_	name=O
+39	43,3	43,3	NUM	_	Number=Plur|NumType=Card	40	nummod	_	name=O|Entity=(spbm~20050822_508220308__T28--1
+40	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	42	nsubj	_	name=O|Entity=spbm~20050822_508220308__T28)
+41	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	42	aux	_	name=O
+42	bygge	bygge	VERB	_	VerbForm=Inf	30	advcl	_	name=O
+43	nå	nå	ADV	_	_	42	advmod	_	SpaceAfter=No|name=O
+44	.	$.	PUNCT	_	_	30	punct	_	name=O
+
+# sent_id = 017700
+# text = Resten av velgerne har ikke tatt stilling.
+1	Resten	rest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T29--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	velgerne	velger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	name=O|Entity=(spbm~20050822_508220308__6376--1)spbm~20050822_508220308__T29)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	tatt	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+7	stilling	stilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T31--1)
+8	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017701
+# text = Gasskraftspørsmålet splitter ikke bare velgerne.
+1	Gasskraftspørsmålet	gasskraftspørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(spbm~20050822_508220308__5456--1)
+2	splitter	splitte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	bare	bare	ADV	_	_	2	advmod	_	name=O
+5	velgerne	velger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__6376--1)
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017702
+# text = Begge de to regjeringsalternativene er delt.
+1	Begge	begge	DET	_	Number=Plur|PronType=Tot	4	det	_	name=O|Entity=(spbm~20050822_508220308__3108--1
+2	de	de	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O
+3	to	to	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+4	regjeringsalternativene	regjeringsalternativ	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nsubj	_	name=O|Entity=spbm~20050822_508220308__3108)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	delt	dele	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017703
+# text = Begge leire tar Sentios måling til inntekt, og begge hevder de driver folkeopplysning i gasskraftsaken.
+1	Begge	begge	DET	_	Number=Plur|PronType=Tot	2	det	_	name=O|Entity=(spbm~20050822_508220308__3108--1
+2	leire	leir	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=spbm~20050822_508220308__3108)
+3	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	Sentios	Sentio	PROPN	_	Case=Gen	5	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220308__T37--1(spbm~20050822_508220308__3249--1)
+5	måling	måling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=spbm~20050822_508220308__T37)
+6	til	til	ADP	_	_	7	case	_	name=O
+7	inntekt	inntekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T38--1)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	begge	begge	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	11	nsubj	_	name=O|Entity=(spbm~20050822_508220308__3108--1)
+11	hevder	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+12	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	name=O|Bridge=spbm~20050822_508220308__3108<spbm~20050822_508220308__T40:default|Entity=(spbm~20050822_508220308__T40--1)
+13	driver	drive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	name=O
+14	folkeopplysning	folkeopplysning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	name=O|Entity=(spbm~20050822_508220308__T41--1)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	gasskraftsaken	gasskraftsak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Bridge=spbm~20050822_508220308__5456<spbm~20050822_508220308__T42:default|Entity=(spbm~20050822_508220308__T42--1)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017704
+# text = - Oi oi oi!
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Oi	oi	INTJ	_	_	0	root	_	name=O
+3	oi	oi	INTJ	_	_	2	discourse	_	name=O
+4	oi	oi	INTJ	_	_	2	discourse	_	SpaceAfter=No|name=O
+5	!	$!	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017705
+# text = Nå ble jeg glad! jubler SVs Bjørn Jacobsen.
+1	Nå	nå	ADV	_	_	2	advmod	_	name=O
+2	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(spbm~20050822_508220308__11835--1)
+4	glad	glad	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	SpaceAfter=No|name=O
+5	!	$!	PUNCT	_	_	2	punct	_	name=O
+6	jubler	juble	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+7	SVs	SV	PROPN	_	Case=Gen	8	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220308__11835--1(spbm~20050822_508220308__8971--1)
+8	Bjørn	Bjørn	PROPN	_	Gender=Masc	6	nsubj	_	name=B-PER
+9	Jacobsen	Jacobsen	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER|Entity=spbm~20050822_508220308__11835)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017706
+# text = Han har de siste ukene drevet valgkamp gassfylket Møre og Romsdal på vegne av et parti som sier tvert nei til gasskraftverk uten CO2-håndtering, og som heller ikke sto fremst i rekken av gratulanter da Aukra ble ilandføringssted for Ormen Lange-gassen.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(spbm~20050822_508220308__11835--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	de	de	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(spbm~20050822_508220308__T47--1
+4	siste	sist	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	ukene	uke	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	obl	_	name=O|Entity=spbm~20050822_508220308__T47)
+6	drevet	drive	VERB	_	VerbForm=Part	0	root	_	name=O
+7	valgkamp	valgkamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(spbm~20050822_508220308__T48--1)
+8	gassfylket	gassfylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(spbm~20050822_508220308__6462--1
+9	Møre	Møre	PROPN	_	_	6	obl	_	name=B-GPE_LOC
+10	og	og	CCONJ	_	_	9	flat:name	_	name=I-GPE_LOC
+11	Romsdal	Romsdal	PROPN	_	_	9	flat:name	_	name=I-GPE_LOC|Entity=spbm~20050822_508220308__6462)
+12	på	på	ADP	_	_	13	case	_	name=O
+13	vegne	vegne	NOUN	_	_	6	obl	_	name=O|Entity=(spbm~20050822_508220308__T50--1
+14	av	av	ADP	_	_	16	case	_	name=O
+15	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(spbm~20050822_508220308__T51--1
+16	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	name=O
+17	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+18	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	name=O
+19	tvert	tvert	ADV	_	_	20	advmod	_	name=O|Entity=(spbm~20050822_508220308__T52--1
+20	nei	nei	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obj	_	name=O
+21	til	til	ADP	_	_	22	case	_	name=O
+22	gasskraftverk	gasskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	nmod	_	name=O|Entity=(spbm~20050822_508220308__T53--1
+23	uten	uten	ADP	_	_	24	case	_	name=O
+24	CO2-håndtering	CO2-håndtering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T54--1)spbm~20050822_508220308__T53)spbm~20050822_508220308__T52)
+25	,	$,	PUNCT	_	_	30	punct	_	name=O
+26	og	og	CCONJ	_	_	30	cc	_	name=O
+27	som	som	PRON	_	PronType=Rel	30	nsubj	_	name=O
+28	heller	heller	ADV	_	_	29	advmod	_	name=O
+29	ikke	ikke	PART	_	Polarity=Neg	30	advmod	_	name=O
+30	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	conj	_	name=O
+31	fremst	fremre	ADJ	_	Definite=Ind|Degree=Sup	30	advmod	_	name=O
+32	i	i	ADP	_	_	33	case	_	name=O
+33	rekken	rekke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	31	obl	_	name=O|Entity=(spbm~20050822_508220308__T55--1
+34	av	av	ADP	_	_	35	case	_	name=O
+35	gratulanter	gratulant	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	33	nmod	_	name=O|Entity=(spbm~20050822_508220308__T56--1)spbm~20050822_508220308__T55)
+36	da	da	SCONJ	_	_	38	mark	_	name=O
+37	Aukra	Aukra	PROPN	_	_	38	nsubj	_	name=B-GPE_LOC|Entity=(spbm~20050822_508220308__T57--1)
+38	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	30	advcl	_	name=O
+39	ilandføringssted	ilandføringssted	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	38	xcomp	_	name=O|Entity=(spbm~20050822_508220308__T58--1
+40	for	for	ADP	_	_	42	case	_	name=O
+41	Ormen	Ormen	PROPN	_	_	42	compound	_	name=B-DRV|Entity=(spbm~20050822_508220308__T59--1
+42	Lange-gassen	Lange-gass	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No|name=I-DRV|Entity=spbm~20050822_508220308__T59)spbm~20050822_508220308__T58)spbm~20050822_508220308__T51)spbm~20050822_508220308__T50)
+43	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017707
+# text = Da Hustadmarmor sammen med Istad og Tafjord Energi la fram sine planer om gasskraftverk i Fræna, landet Jacobsen på et nølende ja-standpunkt.
+1	Da	da	SCONJ	_	_	9	mark	_	name=O
+2	Hustadmarmor	Hustadmarmor	PROPN	_	_	9	nsubj	_	name=B-ORG|Entity=(spbm~20050822_508220308__T60--1(spbm~20050822_508220308__6619--1)
+3	sammen	sammen	ADV	_	_	5	advmod	_	name=O
+4	med	med	ADP	_	_	5	case	_	name=O
+5	Istad	Istad	PROPN	_	_	2	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220308__T61--1(spbm~20050822_508220308__T62--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	Tafjord	Tafjord	PROPN	_	_	5	conj	_	name=B-ORG|Entity=(spbm~20050822_508220308__T63--1
+8	Energi	Energi	PROPN	_	_	7	flat:name	_	name=I-ORG|Entity=spbm~20050822_508220308__T63)spbm~20050822_508220308__T61)spbm~20050822_508220308__T60)
+9	la	legge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	name=O
+10	fram	fram	ADP	_	_	9	compound:prt	_	name=O
+11	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	name=O|Entity=(spbm~20050822_508220308__T65--1(spbm~20050822_508220308__6619--1)
+12	planer	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	name=O
+13	om	om	ADP	_	_	14	case	_	name=O
+14	gasskraftverk	gasskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	name=O|Entity=(spbm~20050822_508220308__T66--1
+15	i	i	ADP	_	_	16	case	_	name=O
+16	Fræna	Fræna	PROPN	_	_	14	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20050822_508220308__T67--1)spbm~20050822_508220308__T66)spbm~20050822_508220308__T65)
+17	,	$,	PUNCT	_	_	9	punct	_	name=O
+18	landet	lande	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+19	Jacobsen	Jacobsen	PROPN	_	_	18	nsubj	_	name=B-PER|Entity=(spbm~20050822_508220308__11835--1)
+20	på	på	ADP	_	_	23	case	_	name=O
+21	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(spbm~20050822_508220308__T69--1
+22	nølende	nøle	ADJ	_	VerbForm=Part	23	amod	_	name=O
+23	ja-standpunkt	ja-standpunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T69)
+24	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 017708
+# text = - Jeg er positiv til det Hustadmarmor gjør i forhold til å utvikle teknologi for CO2-håndtering.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(spbm~20050822_508220308__11835--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	positiv	positiv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	name=O|Entity=(spbm~20050822_508220308__T71--1
+7	Hustadmarmor	Hustadmarmor	PROPN	_	_	8	nsubj	_	name=B-ORG|Entity=(spbm~20050822_508220308__6619--1)
+8	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(spbm~20050822_508220308__T73--1
+11	til	til	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	utvikle	utvikle	VERB	_	VerbForm=Inf	10	acl	_	name=O
+14	teknologi	teknologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(spbm~20050822_508220308__T74--1
+15	for	for	ADP	_	_	16	case	_	name=O
+16	CO2-håndtering	CO2-håndtering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T75--1)spbm~20050822_508220308__T74)spbm~20050822_508220308__T73)spbm~20050822_508220308__T71)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017709
+# text = Jeg er veldig spent på hva de får til.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(spbm~20050822_508220308__11835--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	spent	spent	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	på	på	SCONJ	_	_	8	mark	_	name=O
+6	hva	hva	PRON	_	PronType=Int	8	obj	_	name=O
+7	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(spbm~20050822_508220308__6619--1)
+8	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+9	til	til	ADP	_	_	8	compound:prt	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017710
+# text = Jeg håper de lykkes, men jeg tviler på det.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(spbm~20050822_508220308__11835--1)
+2	håper	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(spbm~20050822_508220308__6619--1)
+4	lykkes	lykkes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	men	men	CCONJ	_	_	8	cc	_	name=O
+7	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(spbm~20050822_508220308__11835--1)
+8	tviler	tvile	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T81--1)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017711
+# text = Bevisbyrden ligger på dem.
+1	Bevisbyrden	bevisbyrde	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T82--1)
+2	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__6619--1)
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017712
+# text = - Er SVs gasskraftpolitikk en vanskelig valgkampsak for partiet i Møre og Romsdal?
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+3	SVs	SV	PROPN	_	Case=Gen	4	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220308__T85--1(spbm~20050822_508220308__8971--1)
+4	gasskraftpolitikk	gasskraftpolitikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=spbm~20050822_508220308__T85)
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(spbm~20050822_508220308__T86--1
+6	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	valgkampsak	valgkampsak	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=(spbm~20050822_508220308__8971--1)spbm~20050822_508220308__T86)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Møre	Møre	PROPN	_	_	7	obl	_	name=B-GPE_LOC|Entity=(spbm~20050822_508220308__6462--1
+12	og	og	CCONJ	_	_	11	flat:name	_	name=I-GPE_LOC
+13	Romsdal	Romsdal	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=spbm~20050822_508220308__6462)
+14	?	$?	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017714
+# text = SV godtar gasskraft med renseteknologi.
+1	SV	SV	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(spbm~20050822_508220308__8971--1)
+2	godtar	godta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	gasskraft	gasskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(spbm~20050822_508220308__T90--1
+4	med	med	ADP	_	_	5	case	_	name=O
+5	renseteknologi	renseteknologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T91--1)spbm~20050822_508220308__T90)
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017715
+# text = Og vi forutsetter at det blir satt av milliarder, ikke millioner, til utvikling av alternative energikilder.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220308__8971--1)
+3	forutsetter	forutsette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+6	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	name=O
+7	satt	sette	VERB	_	VerbForm=Part	3	xcomp	_	name=O
+8	av	av	ADP	_	_	7	compound:prt	_	name=O
+9	milliarder	milliard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T93--1(spbm~20050822_508220308__T94--1
+10	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=spbm~20050822_508220308__T94)
+11	ikke	ikke	PART	_	Polarity=Neg	12	nmod	_	name=O|Entity=(spbm~20050822_508220308__T95--1
+12	millioner	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=spbm~20050822_508220308__T95)spbm~20050822_508220308__T93)
+14	til	til	ADP	_	_	15	case	_	name=O
+15	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(spbm~20050822_508220308__T96--1
+16	av	av	ADP	_	_	18	case	_	name=O
+17	alternative	alternativ	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(spbm~20050822_508220308__T97--1
+18	energikilder	energikilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T97)spbm~20050822_508220308__T96)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017716
+# text = Jeg synes ikke det er vanskelig å fronte et slikt standpunkt.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(spbm~20050822_508220308__11835--1)
+2	synes	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	fronte	fronte	VERB	_	VerbForm=Inf	6	csubj	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(spbm~20050822_508220308__T99--1
+10	slikt	slik	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	name=O
+11	standpunkt	standpunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T99)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017717
+# text = Det er jo dette som er å drive politikk; å jobbe langsiktig med saker man tror på.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	jo	jo	ADV	_	_	4	advmod	_	name=O
+4	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	name=O|Entity=(spbm~20050822_508220308__T100--1
+5	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	drive	drive	VERB	_	VerbForm=Inf	4	acl:cleft	_	name=O
+9	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T101--1)
+10	;	$;	PUNCT	_	_	12	punct	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	jobbe	jobbe	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+13	langsiktig	langsiktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+14	med	med	ADP	_	_	15	case	_	name=O
+15	saker	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	obl	_	name=O|Entity=(spbm~20050822_508220308__T102--1
+16	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	17	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T103--1)
+17	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+18	på	på	ADP	_	_	17	compound:prt	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T102)spbm~20050822_508220308__T100)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017718
+# text = Vi driver folkeopplysning, og disse tallene viser at velgerne ikke har sovet i timen.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(spbm~20050822_508220308__3324--1)
+2	driver	drive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	folkeopplysning	folkeopplysning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T105--1)
+4	,	$,	PUNCT	_	_	8	punct	_	name=O
+5	og	og	CCONJ	_	_	8	cc	_	name=O
+6	disse	disse	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|SplitAnte=spbm~20050822_508220308__253<spbm~20050822_508220308__T106,spbm~20050822_508220308__T28<spbm~20050822_508220308__T106|Entity=(spbm~20050822_508220308__T106--1
+7	tallene	tall	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=spbm~20050822_508220308__T106)
+8	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+9	at	at	SCONJ	_	_	13	mark	_	name=O
+10	velgerne	velger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	nsubj	_	name=O|Entity=(spbm~20050822_508220308__6376--1)
+11	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	name=O
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	sovet	sove	VERB	_	VerbForm=Part	8	ccomp	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	timen	time	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T108--1)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017719
+# text = Vi har fått fram budskapet vårt, det er veldig gledelig, sier Jacobsen.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220308__3324--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+4	fram	fram	ADP	_	_	3	compound:prt	_	name=O
+5	budskapet	budskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Bridge=spbm~20050822_508220308__T105<spbm~20050822_508220308__T110:default|Entity=(spbm~20050822_508220308__T110--1
+6	vårt	vår	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__3324--1)spbm~20050822_508220308__T110)
+7	,	$,	PUNCT	_	_	11	punct	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T112--1)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	gledelig	gledelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	11	punct	_	name=O
+13	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+14	Jacobsen	Jacobsen	PROPN	_	_	13	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(spbm~20050822_508220308__11835--1)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017720
+# text = Folkeopplysning
+1	Folkeopplysning	folkeopplysning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(spbm~20050822_508220308__T114--1)
+
+# sent_id = 017721
+# text = Sett i forhold til SV og Jacobsen har Petter Løvik (H) diametralt motsatt syn på gasskraft:
+1	Sett	se	VERB	_	VerbForm=Part	8	advcl	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	name=O|Entity=(spbm~20050822_508220308__T115--1
+4	til	til	ADP	_	_	5	case	_	name=O
+5	SV	SV	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220308__T116--1(spbm~20050822_508220308__8971--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	Jacobsen	Jacobsen	PROPN	_	_	5	conj	_	name=B-PER|Entity=(spbm~20050822_508220308__11835--1)spbm~20050822_508220308__T116)spbm~20050822_508220308__T115)
+8	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	Petter	Petter	PROPN	_	Gender=Masc	8	nsubj	_	name=B-PER|Entity=(spbm~20050822_508220308__6881--1
+10	Løvik	Løvik	PROPN	_	_	9	flat:name	_	name=I-PER
+11	(	$(	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__4700--1
+12	H	H	PROPN	_	_	9	appos	_	SpaceAfter=No|name=B-ORG
+13	)	$)	PUNCT	_	_	12	punct	_	name=O|Entity=spbm~20050822_508220308__4700)spbm~20050822_508220308__6881)
+14	diametralt	diametral	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O|Entity=(spbm~20050822_508220308__T121--1
+15	motsatt	motsatt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	name=O
+16	syn	syn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	name=O
+17	på	på	ADP	_	_	18	case	_	name=O
+18	gasskraft	gasskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T122--1)spbm~20050822_508220308__T121)
+19	:	$:	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 017722
+# text = Han vil bygge gaskraftverk nå, med dagens teknologi, og heller drive forskning på alternative energikilder og renseteknologi parallelt.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220308__6881--1)
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	bygge	bygge	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	gaskraftverk	gaskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(spbm~20050822_508220308__T124--1)
+5	nå	nå	ADV	_	_	3	advmod	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	med	med	ADP	_	_	9	case	_	name=O
+8	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(spbm~20050822_508220308__T126--1(spbm~20050822_508220308__T125--1)
+9	teknologi	teknologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T126)
+10	,	$,	PUNCT	_	_	9	punct	_	name=O
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	heller	heller	ADV	_	_	13	advmod	_	name=O
+13	drive	drive	VERB	_	VerbForm=Inf	3	conj	_	name=O
+14	forskning	forskning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	name=O|Entity=(spbm~20050822_508220308__T127--1
+15	på	på	ADP	_	_	17	case	_	name=O
+16	alternative	alternativ	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(spbm~20050822_508220308__T128--1(spbm~20050822_508220308__T129--1
+17	energikilder	energikilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nmod	_	name=O|Entity=spbm~20050822_508220308__T129)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	renseteknologi	renseteknologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	name=O|Entity=(spbm~20050822_508220308__T130--1)spbm~20050822_508220308__T128)spbm~20050822_508220308__T127)
+20	parallelt	parallell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	SpaceAfter=No|name=O
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017723
+# text = - Er du overrasket over at skepsisen er såpass stor?
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	name=O|Entity=(spbm~20050822_508220308__6881--1)
+4	overrasket	overraske	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	over	over	SCONJ	_	_	10	mark	_	name=O
+6	at	at	SCONJ	_	_	10	mark	_	name=O
+7	skepsisen	skepsis	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T132--1)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+9	såpass	såpass	ADV	_	_	10	advmod	_	name=O
+10	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	advcl	_	SpaceAfter=No|name=O
+11	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017724
+# text = - Nei, ikke slik spørsmålet er stilt i denne meningsmålingen.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Nei	nei	INTJ	_	_	4	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	0	root	_	name=O
+5	slik	slik	ADV	_	_	4	advmod	_	name=O
+6	spørsmålet	spørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	name=O|Entity=(spbm~20050822_508220308__5456--1)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	stilt	stille	VERB	_	VerbForm=Part	5	advcl	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(spbm~20050822_508220308__5761--1
+11	meningsmålingen	meningsmåling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__5761)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017725
+# text = Slik det er formulert gir det inntrykk av at det finnes alternative energikilder som kan fylle det gapet som vil oppstå i Møre og Romsdal om få år.
+1	Slik	slik	ADV	_	_	5	advmod	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(spbm~20050822_508220308__5456--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	formulert	formulere	VERB	_	VerbForm=Part	1	advcl	_	name=O
+5	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(spbm~20050822_508220308__5456--1)
+7	inntrykk	inntrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(spbm~20050822_508220308__T137--1
+8	av	av	SCONJ	_	_	11	mark	_	name=O
+9	at	at	SCONJ	_	_	11	mark	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl	_	name=O
+12	alternative	alternativ	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(spbm~20050822_508220308__T138--1
+13	energikilder	energikilde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nsubj	_	name=O
+14	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	fylle	fylle	VERB	_	VerbForm=Inf	13	acl:relcl	_	name=O
+17	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(spbm~20050822_508220308__T139--1
+18	gapet	gap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obj	_	name=O
+19	som	som	PRON	_	PronType=Rel	21	nsubj	_	name=O
+20	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+21	oppstå	oppstå	VERB	_	VerbForm=Inf	18	acl:relcl	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	Møre	Møre	PROPN	_	_	21	obl	_	name=B-GPE_LOC|Entity=(spbm~20050822_508220308__6462--1
+24	og	og	CCONJ	_	_	23	flat:name	_	name=I-GPE_LOC
+25	Romsdal	Romsdal	PROPN	_	_	23	flat:name	_	name=I-GPE_LOC|Entity=spbm~20050822_508220308__6462)
+26	om	om	ADP	_	_	28	case	_	name=O
+27	få	få	ADJ	_	Degree=Pos|Number=Plur	28	amod	_	name=O|Entity=(spbm~20050822_508220308__T141--1
+28	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	21	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T141)spbm~20050822_508220308__T139)spbm~20050822_508220308__T138)spbm~20050822_508220308__T137)
+29	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017726
+# text = Det gjør det ikke.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(spbm~20050822_508220308__T142--1)
+2	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017727
+# text = Et spørsmål om folkeopplysning, også fra Høyres side, med andre ord.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(spbm~20050822_508220308__T143--1
+2	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+3	om	om	ADP	_	_	4	case	_	name=O
+4	folkeopplysning	folkeopplysning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T144--1)
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	også	også	ADV	_	_	9	advmod	_	name=O
+7	fra	fra	ADP	_	_	9	case	_	name=O
+8	Høyres	Høyre	PROPN	_	Case=Gen	9	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220308__T146--1(spbm~20050822_508220308__4700--1)
+9	side	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T146)
+10	,	$,	PUNCT	_	_	9	punct	_	name=O
+11	med	med	ADP	_	_	13	case	_	name=O
+12	andre	annen	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(spbm~20050822_508220308__T147--1
+13	ord	ord	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T147)spbm~20050822_508220308__T143)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017728
+# text = - Vindkraft, som heller ikke er ukontroversielt, kan skaffe oss noe energi.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O|Entity=(spbm~20050822_508220308__T148--1
+2	Vindkraft	vindkraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	8	punct	_	name=O
+4	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+5	heller	heller	ADV	_	_	6	advmod	_	name=O
+6	ikke	ikke	PART	_	Polarity=Neg	8	advmod	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	ukontroversielt	ukontroversiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	acl:relcl	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	2	punct	_	name=O|Entity=spbm~20050822_508220308__T148)
+10	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	skaffe	skaffe	VERB	_	VerbForm=Inf	0	root	_	name=O
+12	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	11	iobj	_	name=O|Entity=(spbm~20050822_508220308__2302--1)
+13	noe	noe	DET	_	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	name=O|Entity=(spbm~20050822_508220308__T150--1
+14	energi	energi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T150)
+15	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 017729
+# text = Men det kan aldri løse det akutte problemet vi står overfor i Møre og Romsdal.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T151--1)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	aldri	aldri	ADV	_	_	5	advmod	_	name=O
+5	løse	løse	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(spbm~20050822_508220308__T152--1
+7	akutte	akutt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	problemet	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obj	_	name=O
+9	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	name=O|Entity=(spbm~20050822_508220308__2302--1)
+10	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+11	overfor	overfor	ADP	_	_	10	compound:prt	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	Møre	Møre	PROPN	_	_	10	obl	_	name=B-GPE_LOC|Entity=(spbm~20050822_508220308__6462--1
+14	og	og	CCONJ	_	_	13	flat:name	_	name=I-GPE_LOC
+15	Romsdal	Romsdal	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=spbm~20050822_508220308__6462)spbm~20050822_508220308__T152)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017730
+# text = Det må vi fortelle folk.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	name=O|Entity=(spbm~20050822_508220308__T155--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T156--1)
+4	fortelle	fortelle	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	iobj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T157--1)
+6	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017731
+# text = Jeg er ofte i debatter der miljøbevegelsen kaller gasskraft med dagens teknologi for «forurensende».
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(spbm~20050822_508220308__6881--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	ofte	ofte	ADJ	_	Degree=Pos	5	advmod	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	debatter	debatt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(spbm~20050822_508220308__T159--1
+6	der	der	SCONJ	_	_	8	mark	_	name=O
+7	miljøbevegelsen	miljøbevegelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T160--1)
+8	kaller	kalle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl	_	name=O
+9	gasskraft	gasskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	name=O|Entity=(spbm~20050822_508220308__T161--1
+10	med	med	ADP	_	_	12	case	_	name=O
+11	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(spbm~20050822_508220308__T163--1(spbm~20050822_508220308__T162--1)
+12	teknologi	teknologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=spbm~20050822_508220308__T163)spbm~20050822_508220308__T161)
+13	for	for	SCONJ	_	_	15	mark	_	name=O
+14	«	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T164--1
+15	forurensende	forurense	ADJ	_	VerbForm=Part	8	xcomp	_	SpaceAfter=No|name=O
+16	»	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T164)spbm~20050822_508220308__T159)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017732
+# text = Det er ikke riktig.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T165--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	riktig	riktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017733
+# text = Strømmen vi kommer til å produsere med gass i Norge vil erstatte strøm produsert med mye mer forurensende kull i Europa, sier Løvik.
+1	Strømmen	strøm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T166--1
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T167--1)
+3	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	produsere	produsere	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+7	med	med	ADP	_	_	8	case	_	name=O
+8	gass	gass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(spbm~20050822_508220308__T168--1)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Norge	Norge	PROPN	_	_	6	obl	_	name=B-GPE_LOC|Entity=(spbm~20050822_508220308__T169--1)spbm~20050822_508220308__T166)
+11	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	erstatte	erstatte	VERB	_	VerbForm=Inf	0	root	_	name=O
+13	strøm	strøm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=(spbm~20050822_508220308__T170--1
+14	produsert	produsere	VERB	_	VerbForm=Part	13	acl:relcl	_	name=O
+15	med	med	ADP	_	_	19	case	_	name=O
+16	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	name=O|Entity=(spbm~20050822_508220308__T171--1
+17	mer	mye	ADJ	_	Degree=Cmp	18	advmod	_	name=O
+18	forurensende	forurense	ADJ	_	VerbForm=Part	19	amod	_	name=O
+19	kull	kull	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=spbm~20050822_508220308__T171)
+20	i	i	ADP	_	_	21	case	_	name=O
+21	Europa	Europa	PROPN	_	_	14	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20050822_508220308__T172--1)spbm~20050822_508220308__T170)
+22	,	$,	PUNCT	_	_	23	punct	_	name=O
+23	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	parataxis	_	name=O
+24	Løvik	Løvik	PROPN	_	_	23	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(spbm~20050822_508220308__6881--1)
+25	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 017734
+# text = Karita Bekkemellem Orheim (A), som også ivrer for gasskraftverk, deler hans tolkning av meningsmålingen:
+1	Karita	Karita	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(spbm~20050822_508220308__5928--1
+2	Bekkemellem	Bekkemellem	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Orheim	Orheim	PROPN	_	_	1	flat:name	_	name=I-PER
+4	(	$(	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T175--1
+5	A	A	PROPN	_	_	1	nmod	_	SpaceAfter=No|name=B-ORG
+6	)	$)	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T175)
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+9	også	også	ADV	_	_	10	advmod	_	name=O
+10	ivrer	ivre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+11	for	for	ADP	_	_	12	case	_	name=O
+12	gasskraftverk	gasskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T176--1)spbm~20050822_508220308__5928)
+13	,	$,	PUNCT	_	_	10	punct	_	name=O
+14	deler	dele	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+15	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	name=O|Entity=(spbm~20050822_508220308__T178--1(spbm~20050822_508220308__6881--1)
+16	tolkning	tolkning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	name=O
+17	av	av	ADP	_	_	18	case	_	name=O
+18	meningsmålingen	meningsmåling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__5761--1)spbm~20050822_508220308__T178)
+19	:	$:	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 017735
+# text = - Dette synes jeg var veldig positive tall.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Bridge=spbm~20050822_508220308__5761<spbm~20050822_508220308__T180:default|Entity=(spbm~20050822_508220308__T180--1)
+3	synes	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220308__5928--1)
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+6	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O|Entity=(spbm~20050822_508220308__T182--1
+7	positive	positiv	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	tall	tall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	ccomp	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T182)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017736
+# text = Jeg hadde ventet at motstanden skulle være mye større.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220308__5928--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	ventet	vente	VERB	_	VerbForm=Part	0	root	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	motstanden	motstand	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Bridge=spbm~20050822_508220308__5761<spbm~20050822_508220308__T184:default|Entity=(spbm~20050822_508220308__T184--1)
+6	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+7	være	være	AUX	_	VerbForm=Inf	9	cop	_	name=O
+8	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	større	stor	ADJ	_	Degree=Cmp	3	ccomp	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017737
+# text = Gasskraft har vært en vanskelig sak som vi ikke har klart å ta ordentlig tak i.
+1	Gasskraft	gasskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T185--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	vært	være	AUX	_	VerbForm=Part	6	cop	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(spbm~20050822_508220308__T186--1
+5	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	sak	sak	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+7	som	som	PRON	_	PronType=Rel	11	iobj	_	name=O
+8	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T187--1)
+9	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	klart	klare	VERB	_	VerbForm=Part	6	acl:relcl	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	ta	ta	VERB	_	VerbForm=Inf	11	xcomp	_	name=O
+14	ordentlig	ordentlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	name=O|Entity=(spbm~20050822_508220308__T188--1
+15	tak	tak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	name=O|Entity=spbm~20050822_508220308__T188)
+16	i	i	ADP	_	_	13	compound:prt	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T186)
+17	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017738
+# text = Det har liksom ikke vært stuereint å jobbe for bygging av gasskraftverk.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	liksom	liksom	ADV	_	_	6	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+5	vært	være	AUX	_	VerbForm=Part	6	cop	_	name=O
+6	stuereint	stuerein	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	jobbe	jobbe	VERB	_	VerbForm=Inf	6	csubj	_	name=O
+9	for	for	ADP	_	_	10	case	_	name=O
+10	bygging	bygging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	name=O|Entity=(spbm~20050822_508220308__T189--1
+11	av	av	ADP	_	_	12	case	_	name=O
+12	gasskraftverk	gasskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T190--1)spbm~20050822_508220308__T189)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017739
+# text = Disse tallene mener jeg er et klart signal fra velgerne om at det er en sterk vilje til å ta gassen i bruk, sier Bekkemellem Orheim.
+1	Disse	disse	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|Bridge=spbm~20050822_508220308__5761<spbm~20050822_508220308__T191:default|Entity=(spbm~20050822_508220308__T191--1
+2	tallene	tall	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=spbm~20050822_508220308__T191)
+3	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20050822_508220308__5928--1)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(spbm~20050822_508220308__T193--1
+7	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+8	signal	signal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	ccomp	_	name=O
+9	fra	fra	ADP	_	_	10	case	_	name=O
+10	velgerne	velger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=(spbm~20050822_508220308__6376--1)
+11	om	om	SCONJ	_	_	14	mark	_	name=O
+12	at	at	SCONJ	_	_	14	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	name=O
+14	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(spbm~20050822_508220308__T195--1
+16	sterk	sterk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	vilje	vilje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	name=O
+18	til	til	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	ta	ta	VERB	_	VerbForm=Inf	17	acl	_	name=O
+21	gassen	gass	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obj	_	name=O|Bridge=spbm~20050822_508220308__T190<spbm~20050822_508220308__T196:default|Entity=(spbm~20050822_508220308__T196--1)
+22	i	i	SCONJ	_	_	23	mark	_	name=O
+23	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	xcomp	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T197--1)spbm~20050822_508220308__T195)spbm~20050822_508220308__T193)
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+26	Bekkemellem	Bekkemellem	PROPN	_	_	25	nsubj	_	name=B-PER|Entity=(spbm~20050822_508220308__5928--1
+27	Orheim	Orheim	PROPN	_	_	26	flat:name	_	SpaceAfter=No|name=I-PER|Entity=spbm~20050822_508220308__5928)
+28	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017740
+# text = Kvinnene sier nei
+1	Kvinnene	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	2	nsubj	_	name=O|Entity=(spbm~20050822_508220308__T199--1)
+2	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	nei	nei	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O|Entity=(spbm~20050822_508220308__T200--1)
+
+# sent_id = 017741
+# text = Sentios undersøkelse viser at det er kvinnene som er mest skeptiske til gasskraft.
+1	Sentios	Sentio	PROPN	_	Case=Gen	2	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220308__5761--1(spbm~20050822_508220308__3249--1)
+2	undersøkelse	undersøkelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=spbm~20050822_508220308__5761)
+3	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	kvinnene	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	3	xcomp	_	name=O|Entity=(spbm~20050822_508220308__2411--1)
+8	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	11	advmod	_	name=O
+11	skeptiske	skeptisk	ADJ	_	Degree=Pos|Number=Plur	7	acl:cleft	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	gasskraft	gasskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T204--1)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017742
+# text = Mens 58 prosent av mennene som ble spurt vil bygge nå, var det bare 28 prosent av kvinnene som inntok tilsvarende standpunkt.
+1	Mens	mens	SCONJ	_	_	10	mark	_	name=O
+2	58	58	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(spbm~20050822_508220308__T205--1
+3	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nsubj	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	mennene	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	name=O|Bridge=spbm~20050822_508220308__5761<spbm~20050822_508220308__T206:default|Entity=(spbm~20050822_508220308__T206--1
+6	som	som	PRON	_	PronType=Rel	8	nsubj:pass	_	name=O
+7	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux:pass	_	name=O
+8	spurt	spørre	VERB	_	VerbForm=Part	5	acl:relcl	_	name=O|Entity=spbm~20050822_508220308__T206)spbm~20050822_508220308__T205)
+9	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	bygge	bygge	VERB	_	VerbForm=Inf	17	advcl	_	name=O
+11	nå	nå	ADV	_	_	10	advmod	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	10	punct	_	name=O
+13	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	name=O
+15	bare	bare	ADV	_	_	16	advmod	_	name=O|Entity=(spbm~20050822_508220308__T207--1
+16	28	28	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O
+17	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O
+18	av	av	ADP	_	_	19	case	_	name=O
+19	kvinnene	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	name=O|Entity=(spbm~20050822_508220308__2411--1)
+20	som	som	PRON	_	PronType=Rel	21	nsubj	_	name=O
+21	inntok	innta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	acl:cleft	_	name=O
+22	tilsvarende	tilsvare	ADJ	_	VerbForm=Part	23	amod	_	name=O|Entity=(spbm~20050822_508220308__T209--1
+23	standpunkt	standpunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T209)spbm~20050822_508220308__T207)
+24	.	$.	PUNCT	_	_	17	punct	_	name=O
+
+# sent_id = 017743
+# text = Motstanden er, kanskje ikke overraskende, størst blant de yngste velgerne, uavhengig av kjønn og partitilhørighet.
+1	Motstanden	motstand	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Bridge=spbm~20050822_508220308__5761<spbm~20050822_508220308__2437:default|Entity=(spbm~20050822_508220308__2437--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	kanskje	kanskje	ADV	_	_	5	advmod	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	overraskende	overraske	ADJ	_	VerbForm=Part	8	advmod	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	6	punct	_	name=O
+8	størst	stor	ADJ	_	Definite=Ind|Degree=Sup	0	root	_	name=O
+9	blant	blant	ADP	_	_	12	case	_	name=O
+10	de	de	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Bridge=spbm~20050822_508220308__6376<spbm~20050822_508220308__T211:default|Entity=(spbm~20050822_508220308__T211--1
+11	yngste	ung	ADJ	_	Definite=Def|Degree=Sup	12	amod	_	name=O
+12	velgerne	velger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T211)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	uavhengig	uavhengig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+15	av	av	ADP	_	_	16	case	_	name=O
+16	kjønn	kjønn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=(spbm~20050822_508220308__T212--1(spbm~20050822_508220308__T213--1)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	partitilhørighet	partitilhørighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No|name=O|Entity=(spbm~20050822_508220308__T214--1)spbm~20050822_508220308__T212)
+19	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 017744
+# text = Høyres velgere er de soleklart mest gassvennlige.
+1	Høyres	Høyre	PROPN	_	Case=Gen	2	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220308__T216--1(spbm~20050822_508220308__4700--1)
+2	velgere	velger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=spbm~20050822_508220308__T216)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+4	de	de	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O
+5	soleklart	soleklar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	7	advmod	_	name=O
+7	gassvennlige	gassvennlig	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017745
+# text = Hele 68 prosent av de som sier de vil stemme Høyre ønsker seg gasskraftverk nå.
+1	Hele	hel	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=(spbm~20050822_508220308__T217--1
+2	68	68	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O
+3	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nmod	_	name=O|Entity=(spbm~20050822_508220308__3680--1
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+8	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(spbm~20050822_508220308__3680--1)
+9	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	stemme	stemme	VERB	_	VerbForm=Inf	7	ccomp	_	name=O
+11	Høyre	Høyre	PROPN	_	_	10	obj	_	name=B-ORG|Entity=(spbm~20050822_508220308__4700--1)spbm~20050822_508220308__3680)spbm~20050822_508220308__T217)
+12	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	12	iobj	_	name=O|Entity=(spbm~20050822_508220308__3680--1)
+14	gasskraftverk	gasskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	name=O|Entity=(spbm~20050822_508220308__T221--1)
+15	nå	nå	ADV	_	_	12	advmod	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 017746
+# text = Det samme gjør 51 prosent av AP-velgerne og 46 prosent av FrP-velgerne.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O
+2	samme	samme	DET	_	Definite=Def|PronType=Dem	3	nsubj	_	name=O
+3	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	51	51	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(spbm~20050822_508220308__T222--1(spbm~20050822_508220308__T223--1
+5	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	AP-velgerne	AP-velger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nmod	_	name=B-DRV|Entity=(spbm~20050822_508220308__T224--1)spbm~20050822_508220308__T223)
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	46	46	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(spbm~20050822_508220308__T225--1
+10	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	conj	_	name=O
+11	av	av	ADP	_	_	12	case	_	name=O
+12	FrP-velgerne	FrP-velger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No|name=B-DRV|Entity=(spbm~20050822_508220308__T226--1)spbm~20050822_508220308__T225)spbm~20050822_508220308__T222)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017747
+# text = Motstanden er ikke uventet størst i SV.
+1	Motstanden	motstand	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(spbm~20050822_508220308__2437--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	uventet	uventet	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	størst	stor	ADJ	_	Definite=Ind|Degree=Sup	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	SV	SV	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-ORG|Entity=(spbm~20050822_508220308__8971--1)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017748
+# text = Nær 70 prosent av SVs velgere sier de ikke ønsker gasskraft basert på eksisterende teknologi.
+1	Nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	advmod	_	name=O|Entity=(spbm~20050822_508220308__2461--1
+2	70	70	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O
+3	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	name=O
+4	av	av	ADP	_	_	6	case	_	name=O
+5	SVs	SV	PROPN	_	Case=Gen	6	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220308__T231--1(spbm~20050822_508220308__8971--1)
+6	velgere	velger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nmod	_	name=O|Entity=spbm~20050822_508220308__T231)spbm~20050822_508220308__2461)
+7	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(spbm~20050822_508220308__2461--1)
+9	ikke	ikke	PART	_	Polarity=Neg	10	advmod	_	name=O
+10	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	name=O
+11	gasskraft	gasskraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	name=O|Entity=(spbm~20050822_508220308__T233--1
+12	basert	basere	VERB	_	VerbForm=Part	11	acl:relcl	_	name=O
+13	på	på	ADP	_	_	15	case	_	name=O
+14	eksisterende	eksistere	ADJ	_	VerbForm=Part	15	amod	_	name=O|Entity=(spbm~20050822_508220308__T234--1
+15	teknologi	teknologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T234)spbm~20050822_508220308__T233)
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017749
+# text = Meningsmålingen viser også at over 70 prosent av Venstres velgere vil bygge gasskraftverk jo før jo heller, stikk i strid med hva som er partiets linje.
+1	Meningsmålingen	meningsmåling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(spbm~20050822_508220308__5761--1)
+2	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	at	at	SCONJ	_	_	12	mark	_	name=O
+5	over	over	ADP	_	_	6	case	_	name=O|Entity=(spbm~20050822_508220308__T236--1
+6	70	70	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O
+7	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	name=O
+8	av	av	ADP	_	_	10	case	_	name=O
+9	Venstres	Venstre	PROPN	_	Case=Gen	10	nmod	_	name=B-ORG|Entity=(spbm~20050822_508220308__T238--1(spbm~20050822_508220308__2478--1)
+10	velgere	velger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=spbm~20050822_508220308__T238)spbm~20050822_508220308__T236)
+11	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	bygge	bygge	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+13	gasskraftverk	gasskraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	name=O|Entity=(spbm~20050822_508220308__T239--1)
+14	jo	jo	ADV	_	_	15	advmod	_	name=O
+15	før	før	ADP	_	_	17	obl	_	name=O
+16	jo	jo	ADV	_	_	17	advmod	_	name=O
+17	heller	heller	ADV	_	_	12	advmod	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	21	punct	_	name=O
+19	stikk	stikk	ADV	_	_	21	advmod	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	strid	strid	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(spbm~20050822_508220308__T240--1
+22	med	med	ADP	_	_	27	case	_	name=O
+23	hva	hva	PRON	_	PronType=Int	27	nsubj	_	name=O
+24	som	som	PRON	_	PronType=Rel	27	nmod	_	name=O
+25	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	name=O
+26	partiets	parti	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	27	nmod	_	name=O|Entity=(spbm~20050822_508220308__T242--1(spbm~20050822_508220308__2478--1)
+27	linje	linje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	acl:relcl	_	SpaceAfter=No|name=O|Entity=spbm~20050822_508220308__T242)spbm~20050822_508220308__T240)
+28	.	$.	PUNCT	_	_	2	punct	_	name=O
+

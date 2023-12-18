@@ -1,0 +1,227 @@
+# newdoc id = spbm~20111209-405184
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 013884
+# text = Bardal på tredjeplass i Harrachov
+1	Bardal	Bardal	PROPN	_	_	0	root	_	name=B-PER|Entity=(spbm~20111209_405184__T1--1(spbm~20111209_405184__6193--1)
+2	på	på	ADP	_	_	3	case	_	name=O
+3	tredjeplass	tredjeplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(spbm~20111209_405184__T2--1)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Harrachov	Harrachov	PROPN	_	_	1	obl	_	name=B-GPE_LOC|Entity=(spbm~20111209_405184__320--1)spbm~20111209_405184__T1)
+
+# sent_id = 013885
+# text = Harrachov (NTB):
+1	Harrachov	Harrachov	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=(spbm~20111209_405184__320--1
+2	(	$(	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405184__T5--1
+3	NTB	NTB	PROPN	_	_	1	parataxis	_	SpaceAfter=No|name=B-ORG
+4	)	$)	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405184__T5)spbm~20111209_405184__320)
+5	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 013886
+# text = Anders Bardal fortsetter å imponere i verdenscupen.
+1	Anders	Anders	PROPN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(spbm~20111209_405184__6193--1
+2	Bardal	Bardal	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=spbm~20111209_405184__6193)
+3	fortsetter	fortsette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	imponere	imponere	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	verdenscupen	verdenscup	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405184__224--1)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013887
+# text = Steinkjer-hopperen var bare 1,8 poeng fra seieren i fredagens renn i Harrachov.
+1	Steinkjer-hopperen	Steinkjer-hopper	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=B-DRV|Entity=(spbm~20111209_405184__6193--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+3	bare	bare	ADV	_	_	4	advmod	_	name=O|Entity=(spbm~20111209_405184__T9--1
+4	1,8	1,8	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O
+5	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O|Entity=spbm~20111209_405184__T9)
+6	fra	fra	ADP	_	_	7	case	_	name=O
+7	seieren	seier	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(spbm~20111209_405184__353--1
+8	i	i	ADP	_	_	10	case	_	name=O
+9	fredagens	fredag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(spbm~20111209_405184__T12--1(spbm~20111209_405184__T11--1)
+10	renn	renn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Harrachov	Harrachov	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20111209_405184__320--1)spbm~20111209_405184__T12)spbm~20111209_405184__353)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 013888
+# text = Gregor Schlierenzauer tok sin 36. seier i verdenscupen.
+1	Gregor	Gregor	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(spbm~20111209_405184__487--1
+2	Schlierenzauer	Schlierenzauer	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=spbm~20111209_405184__487)
+3	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(spbm~20111209_405184__353--1(spbm~20111209_405184__487--1)
+5	36.	36.	ADJ	_	Number=Plur	6	amod	_	name=O
+6	seier	seier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=spbm~20111209_405184__353)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	verdenscupen	verdenscup	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405184__224--1)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013889
+# text = Bardal lå på fjerdeplass etter førsteomgangen, men hoppet seg forbi David Zauner etter et hopp på 135,5 meter i annenomgangen.
+1	Bardal	Bardal	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(spbm~20111209_405184__6193--1)
+2	lå	ligge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	fjerdeplass	fjerdeplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(spbm~20111209_405184__T19--1)
+5	etter	etter	ADP	_	_	6	case	_	name=O
+6	førsteomgangen	førsteomgang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Bridge=spbm~20111209_405184__T12<spbm~20111209_405184__T20:default|Entity=(spbm~20111209_405184__T20--1)
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	men	men	CCONJ	_	_	9	cc	_	name=O
+9	hoppet	hoppe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+10	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	name=O|Entity=(spbm~20111209_405184__6193--1)
+11	forbi	forbi	ADP	_	_	12	case	_	name=O
+12	David	David	PROPN	_	Gender=Masc	9	obl	_	name=B-PER|Entity=(spbm~20111209_405184__T21--1
+13	Zauner	Zauner	PROPN	_	_	12	flat:name	_	name=I-PER|Entity=spbm~20111209_405184__T21)
+14	etter	etter	ADP	_	_	16	case	_	name=O
+15	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(spbm~20111209_405184__T22--1
+16	hopp	hopp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O
+17	på	på	ADP	_	_	19	case	_	name=O
+18	135,5	135,5	NUM	_	Number=Plur|NumType=Card	19	nummod	_	name=O|Entity=(spbm~20111209_405184__T23--1
+19	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nmod	_	name=O|Entity=spbm~20111209_405184__T23)
+20	i	i	ADP	_	_	21	case	_	name=O
+21	annenomgangen	annenomgang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Bridge=spbm~20111209_405184__T12<spbm~20111209_405184__269:default|Entity=(spbm~20111209_405184__269--1)spbm~20111209_405184__T22)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013890
+# text = Med 245 poeng var det kort vei opp til seieren.
+1	Med	med	ADP	_	_	3	case	_	name=O
+2	245	245	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(spbm~20111209_405184__T25--1
+3	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O|Entity=spbm~20111209_405184__T25)
+4	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+6	kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(spbm~20111209_405184__T26--1
+7	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O
+8	opp	opp	ADP	_	_	10	case	_	name=O
+9	til	til	ADP	_	_	10	case	_	name=O
+10	seieren	seier	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405184__353--1)spbm~20111209_405184__T26)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013891
+# text = Schlierenzauer vant nemlig med 246,8 poeng.
+1	Schlierenzauer	Schlierenzauer	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(spbm~20111209_405184__487--1)
+2	vant	vinne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	nemlig	nemlig	ADV	_	_	2	advmod	_	name=O
+4	med	med	ADP	_	_	6	case	_	name=O
+5	246,8	246,8	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(spbm~20111209_405184__T29--1
+6	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405184__T29)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013892
+# text = Østerrikeren ledet klart etter første omgang, men med 128 meter i 2. omgang var det så vidt det holdt til seier.
+1	Østerrikeren	østerriker	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(spbm~20111209_405184__487--1)
+2	ledet	lede	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+4	etter	etter	ADP	_	_	6	case	_	name=O
+5	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(spbm~20111209_405184__T31--1
+6	omgang	omgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405184__T31)
+7	,	$,	PUNCT	_	_	18	punct	_	name=O
+8	men	men	CCONJ	_	_	18	cc	_	name=O
+9	med	med	ADP	_	_	11	case	_	name=O
+10	128	128	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(spbm~20111209_405184__T32--1
+11	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	obl	_	name=O|Entity=spbm~20111209_405184__T32)
+12	i	i	SCONJ	_	_	14	mark	_	name=O
+13	2.	2.	ADJ	_	Number=Plur	14	amod	_	name=O|Entity=(spbm~20111209_405184__T33--1
+14	omgang	omgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	xcomp	_	name=O|Entity=spbm~20111209_405184__T33)
+15	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	name=O
+16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+17	så	så	ADV	_	_	18	advmod	_	name=O
+18	vidt	vid	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	name=O
+19	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(spbm~20111209_405184__T34--1)
+20	holdt	holde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	csubj	_	name=O
+21	til	til	ADP	_	_	22	case	_	name=O
+22	seier	seier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405184__T35--1)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013893
+# text = Ett poeng skilte ned til toer Daiki Ito fra Japan, som følgelig var bare 0,8 poeng foran Bardal.
+1	Ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	2	nummod	_	name=O|Entity=(spbm~20111209_405184__T36--1
+2	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=spbm~20111209_405184__T36)
+3	skilte	skille	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	ned	ned	ADP	_	_	7	case	_	name=O
+5	til	til	ADP	_	_	7	case	_	name=O
+6	toer	toer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(spbm~20111209_405184__T37--1
+7	Daiki	Daiki	PROPN	_	_	3	obl	_	name=B-PER
+8	Ito	Ito	PROPN	_	_	7	flat:name	_	name=I-PER
+9	fra	fra	ADP	_	_	10	case	_	name=O
+10	Japan	Japan	PROPN	_	_	7	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20111209_405184__T38--1)
+11	,	$,	PUNCT	_	_	19	punct	_	name=O
+12	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+13	følgelig	følgelig	ADV	_	_	19	advmod	_	name=O
+14	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	name=O
+15	bare	bare	ADV	_	_	16	advmod	_	name=O|Entity=(spbm~20111209_405184__T39--1
+16	0,8	0,8	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O
+17	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	obl	_	name=O|Entity=spbm~20111209_405184__T39)
+18	foran	foran	ADP	_	_	19	case	_	name=O
+19	Bardal	Bardal	PROPN	_	_	7	acl:relcl	_	SpaceAfter=No|name=B-PER|Entity=(spbm~20111209_405184__6193--1)spbm~20111209_405184__T37)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013894
+# text = Tom Hilde falt fra 8.- til 12.-plass med 127 meter i annenomgangen.
+1	Tom	Tom	PROPN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(spbm~20111209_405184__287--1
+2	Hilde	Hilde	PROPN	_	Gender=Fem	1	flat:name	_	name=I-PER|Entity=spbm~20111209_405184__287)
+3	falt	falle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	fra	fra	ADP	_	_	5	case	_	name=O
+5	8.-	8.-	NOUN	_	_	3	obl	_	name=O|Entity=(spbm~20111209_405184__T42--1)
+6	til	til	ADP	_	_	7	case	_	name=O
+7	12.-plass	12.-plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(spbm~20111209_405184__T43--1)
+8	med	med	ADP	_	_	10	case	_	name=O
+9	127	127	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(spbm~20111209_405184__T44--1
+10	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=spbm~20111209_405184__T44)
+11	i	i	SCONJ	_	_	12	mark	_	name=O
+12	annenomgangen	annenomgang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405184__269--1)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013895
+# text = Han var 0,6 poeng foran Vegard Sklett.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(spbm~20111209_405184__287--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+3	0,6	0,6	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(spbm~20111209_405184__T47--1
+4	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	name=O|Entity=spbm~20111209_405184__T47)
+5	foran	foran	ADP	_	_	6	case	_	name=O
+6	Vegard	Vegard	PROPN	_	Gender=Masc	0	root	_	name=B-PER|Entity=(spbm~20111209_405184__T48--1
+7	Sklett	Sklett	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PER|Entity=spbm~20111209_405184__T48)
+8	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 013896
+# text = Bjørn Einar Romøren har litt igjen til gamle takter.
+1	Bjørn	Bjørn	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(spbm~20111209_405184__2100--1
+2	Einar	Einar	PROPN	_	Gender=Masc	1	flat:name	_	name=I-PER
+3	Romøren	Romøren	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=spbm~20111209_405184__2100)
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	obj	_	name=O
+6	igjen	igjen	ADV	_	_	4	advmod	_	name=O
+7	til	til	ADP	_	_	9	case	_	name=O
+8	gamle	gammel	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(spbm~20111209_405184__T50--1
+9	takter	takt	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405184__T50)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013897
+# text = Hosle-hopperen ble nummer 23 i Tsjekkia fredag.
+1	Hosle-hopperen	Hosle-hopper	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=B-DRV|Entity=(spbm~20111209_405184__2100--1)
+2	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	nummer	nummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(spbm~20111209_405184__T52--1)
+4	23	23	NUM	_	Number=Plur|NumType=Card	2	xcomp	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Tsjekkia	Tsjekkia	PROPN	_	_	2	obl	_	name=B-GPE_LOC|Entity=(spbm~20111209_405184__T53--1)
+7	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405184__T54--1)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013898
+# text = Rune Velta måtte nøye seg med ett hopp etter 111,5 meter og bare 82,1 poeng.
+1	Rune	Rune	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(spbm~20111209_405184__2117--1
+2	Velta	Velta	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=spbm~20111209_405184__2117)
+3	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	nøye	nøye	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obj	_	name=O|Entity=(spbm~20111209_405184__2117--1)
+6	med	med	ADP	_	_	8	case	_	name=O
+7	ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	8	nummod	_	name=O|Entity=(spbm~20111209_405184__T56--1
+8	hopp	hopp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=spbm~20111209_405184__T56)
+9	etter	etter	ADP	_	_	11	case	_	name=O
+10	111,5	111,5	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(spbm~20111209_405184__T57--1(spbm~20111209_405184__T58--1
+11	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=spbm~20111209_405184__T58)
+12	og	og	CCONJ	_	_	15	cc	_	name=O
+13	bare	bare	ADV	_	_	14	advmod	_	name=O|Entity=(spbm~20111209_405184__T59--1
+14	82,1	82,1	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O
+15	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	conj	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405184__T59)spbm~20111209_405184__T57)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+

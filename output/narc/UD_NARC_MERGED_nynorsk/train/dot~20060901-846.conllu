@@ -1,0 +1,111 @@
+# newdoc id = dot~20060901-846
+# global.Entity = eid-etype-head-other
+# sent_id = 004702
+# text = Kvifor subsidiera danskebåten?
+1	Kvifor	kvifor	ADV	_	_	0	root	_	name=O
+2	subsidiera	subsidiere	VERB	_	VerbForm=Inf	1	advcl	_	name=O
+3	danskebåten	danskebåt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_846__317--1)
+4	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 004703
+# text = Kåre Willoch ser i dag ei medvitslaus favorisering av energikrevjande og ureinande produksjonsformer.
+1	Kåre	Kåre	NOUN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(dot~20060901_846__T2--1
+2	Willoch	Willoch	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=dot~20060901_846__T2)
+3	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(dot~20060901_846__T3--1)
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(dot~20060901_846__T4--1
+7	medvitslaus	medvitslaus	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	favorisering	favorisering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O
+9	av	av	ADP	_	_	13	case	_	name=O
+10	energikrevjande	energikrevje	ADJ	_	VerbForm=Part	13	amod	_	name=O|Entity=(dot~20060901_846__T5--1
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	ureinande	ureine	ADJ	_	VerbForm=Part	10	conj	_	name=O
+13	produksjonsformer	produksjonsform	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No|name=O|Entity=dot~20060901_846__T5)dot~20060901_846__T4)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004704
+# text = Eit tankevekkjande døme er danskebåten.
+1	Eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(dot~20060901_846__T6--1
+2	tankevekkjande	tankevekkjande	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	name=O
+3	døme	døme	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=dot~20060901_846__T6)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	danskebåten	danskebåt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(dot~20060901_846__317--1)
+6	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 004705
+# text = - For det fyrste har båten fått kraftige skipsbyggjingssubsidiar.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	For	for	ADP	_	_	4	case	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(dot~20060901_846__T8--1
+4	fyrste	fyrste	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	advmod	_	name=O|Entity=dot~20060901_846__T8)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	båten	båt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(dot~20060901_846__317--1)
+7	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+8	kraftige	kraftig	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(dot~20060901_846__T10--1
+9	skipsbyggjingssubsidiar	skipsbyggjingssubsidie	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No|name=O|Entity=dot~20060901_846__T10)
+10	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 004706
+# text = Deretter er internasjonal skipsfart friteken for avgifter på drivstoff og mannskapet har skattefritak.
+1	Deretter	deretter	ADV	_	_	5	advmod	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	internasjonal	internasjonal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(dot~20060901_846__T11--1
+4	skipsfart	skipsfart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=dot~20060901_846__T11)
+5	friteken	frita	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	avgifter	avgift	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	name=O|Entity=(dot~20060901_846__T12--1
+8	på	på	ADP	_	_	9	case	_	name=O
+9	drivstoff	drivstoff	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=(dot~20060901_846__T13--1)dot~20060901_846__T12)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	mannskapet	mannskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	name=O|Bridge=dot~20060901_846__317<dot~20060901_846__T14:default|Entity=(dot~20060901_846__T14--1)
+12	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+13	skattefritak	skattefritak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_846__T15--1)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004707
+# text = I tillegg får passasjerane billege drikkevarer og momsfritak.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(dot~20060901_846__T16--1)
+3	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	passasjerane	passasjer	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Bridge=dot~20060901_846__317<dot~20060901_846__T17:default|Entity=(dot~20060901_846__T17--1)
+5	billege	billeg	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(dot~20060901_846__T18--1(dot~20060901_846__T19--1
+6	drikkevarer	drikkevare	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	name=O|Entity=dot~20060901_846__T19)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	momsfritak	momsfritak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_846__T20--1)dot~20060901_846__T18)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004708
+# text = - Men reiser du på eit norsk høgfjellshotell, som ureinar mindre, betalar både dei tilsette og eigarane full skatt og moms, og raudvinprisane er avskrekkande.
+1	-	$-	PUNCT	_	_	14	punct	_	name=O
+2	Men	men	CCONJ	_	_	14	cc	_	name=O
+3	reiser	reise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	name=O
+4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20060901_846__T21--1)
+5	på	på	ADP	_	_	8	case	_	name=O
+6	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(dot~20060901_846__T22--1
+7	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+8	høgfjellshotell	høgfjellshotell	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+11	ureinar	ureine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+12	mindre	liten	ADJ	_	Degree=Cmp	11	advmod	_	SpaceAfter=No|name=O|Entity=dot~20060901_846__T22)
+13	,	$,	PUNCT	_	_	3	punct	_	name=O
+14	betalar	betale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+15	både	både	CCONJ	_	_	17	cc	_	name=O
+16	dei	dei	DET	_	Number=Plur|PronType=Dem	17	det	_	name=O|Bridge=dot~20060901_846__T22<dot~20060901_846__T24:default|Entity=(dot~20060901_846__T23--1(dot~20060901_846__T24--1
+17	tilsette	tilsett	ADJ	_	Degree=Pos|Number=Plur	14	nsubj	_	name=O|Entity=dot~20060901_846__T24)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	eigarane	eigar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	17	conj	_	name=O|Bridge=dot~20060901_846__T22<dot~20060901_846__T25:default|Entity=(dot~20060901_846__T25--1)dot~20060901_846__T23)
+20	full	full	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O|Entity=(dot~20060901_846__T26--1(dot~20060901_846__T27--1
+21	skatt	skatt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=dot~20060901_846__T27)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	moms	moms	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No|name=O|Entity=(dot~20060901_846__T28--1)dot~20060901_846__T26)
+24	,	$,	PUNCT	_	_	28	punct	_	name=O
+25	og	og	CCONJ	_	_	28	cc	_	name=O
+26	raudvinprisane	raudvinpris	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	28	nsubj	_	name=O|Entity=(dot~20060901_846__T29--1)
+27	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	name=O
+28	avskrekkande	avskrekkande	ADJ	_	Degree=Pos|Number=Plur	14	conj	_	SpaceAfter=No|name=O
+29	.	$.	PUNCT	_	_	14	punct	_	name=O
+

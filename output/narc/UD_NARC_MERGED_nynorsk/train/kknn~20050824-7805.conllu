@@ -1,0 +1,920 @@
+# newdoc id = kknn~20050824-7805
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 008918
+# text = Human-Etisk Forbund ynskjer berre å byte ut ei kyrkje med ei anna og innsetje Lars Gule som erkebiskop.
+1	Human-Etisk	Human-Etisk	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(kknn~20050824_7805__6161--1
+2	Forbund	Forbund	PROPN	_	_	1	flat:name	_	name=I-ORG|Entity=kknn~20050824_7805__6161)
+3	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	berre	berre	ADV	_	_	3	advmod	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	byte	byte	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+7	ut	ut	ADP	_	_	6	compound:prt	_	name=O
+8	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kknn~20050824_7805__T2--1
+9	kyrkje	kyrkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	name=O|Entity=kknn~20050824_7805__T2)
+10	med	med	ADP	_	_	12	case	_	name=O
+11	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	name=O
+12	anna	annan	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	6	obl	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	innsetje	innsetje	VERB	_	VerbForm=Inf	6	conj	_	name=O
+15	Lars	Lars	NOUN	_	Gender=Masc	14	obj	_	name=B-PER|Entity=(kknn~20050824_7805__6330--1
+16	Gule	Gule	PROPN	_	_	15	flat:name	_	name=I-PER|Entity=kknn~20050824_7805__6330)
+17	som	som	SCONJ	_	_	18	mark	_	name=O
+18	erkebiskop	erkebiskop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T4--1)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008919
+# text = Det meiner dominikanarmunken Arnfinn Haram, som òg synest statskyrkja treng litt mosjon.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(kknn~20050824_7805__T5--1)
+2	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	dominikanarmunken	dominikanarmunk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(kknn~20050824_7805__191999--1
+4	Arnfinn	Arnfinn	NOUN	_	Gender=Masc	2	nsubj	_	name=B-PER
+5	Haram	Haram	PROPN	_	_	4	flat:name	_	SpaceAfter=No|name=I-PER
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	òg	òg	ADV	_	_	9	advmod	_	name=O
+9	synest	synast	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+10	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+11	treng	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	name=O
+12	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(kknn~20050824_7805__T8--1
+13	mosjon	mosjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T8)kknn~20050824_7805__191999)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 008920
+# text = Generalsekretær i Human-Etisk Forbund Lars Gule har erta på seg representantar frå statskyrkja ved å hevde at den norske kyrkja er vorte eit tomt skal og at befolkninga er langt meir sekularisert enn statskyrkja er viljug til å innrømme.
+1	Generalsekretær	generalsekretær	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(kknn~20050824_7805__6330--1(kknn~20050824_7805__T9--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Human-Etisk	Human-Etisk	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(kknn~20050824_7805__6161--1
+4	Forbund	Forbund	PROPN	_	_	3	flat:name	_	name=I-ORG|Entity=kknn~20050824_7805__6161)kknn~20050824_7805__T9)
+5	Lars	Lars	NOUN	_	Gender=Masc	8	nsubj	_	name=B-PER
+6	Gule	Gule	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=kknn~20050824_7805__6330)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	erta	erte	VERB	_	VerbForm=Part	0	root	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	8	obl	_	name=O|Entity=(kknn~20050824_7805__6330--1)
+11	representantar	representant	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	name=O|Entity=(kknn~20050824_7805__T12--1
+12	frå	frå	ADP	_	_	13	case	_	name=O
+13	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	name=O|Entity=(kknn~20050824_7805__242933--1)kknn~20050824_7805__T12)
+14	ved	ved	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	hevde	hevde	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+17	at	at	SCONJ	_	_	22	mark	_	name=O
+18	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(kknn~20050824_7805__242933--1
+19	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	name=O
+20	kyrkja	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	22	nsubj	_	name=O|Entity=kknn~20050824_7805__242933)
+21	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+22	vorte	verte	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	16	ccomp	_	name=O
+23	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(kknn~20050824_7805__T15--1
+24	tomt	tom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	name=O
+25	skal	skal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	xcomp	_	name=O|Entity=kknn~20050824_7805__T15)
+26	og	og	CCONJ	_	_	32	cc	_	name=O
+27	at	at	SCONJ	_	_	32	mark	_	name=O
+28	befolkninga	befolkning	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	32	nsubj	_	name=O|Entity=(kknn~20050824_7805__T16--1)
+29	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	name=O
+30	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	31	advmod	_	name=O
+31	meir	mykje	ADJ	_	Degree=Cmp	32	advmod	_	name=O
+32	sekularisert	sekularisere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	22	conj	_	name=O
+33	enn	enn	SCONJ	_	_	36	mark	_	name=O
+34	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	36	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+35	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	36	cop	_	name=O
+36	viljug	viljug	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	31	advcl	_	name=O
+37	til	til	SCONJ	_	_	39	mark	_	name=O
+38	å	å	PART	_	_	39	mark	_	name=O
+39	innrømme	innrømme	VERB	_	VerbForm=Inf	36	advcl	_	SpaceAfter=No|name=O
+40	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 008921
+# text = Men dominikanarmunk Arnfinn Haram lét seg ikkje provosere.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	dominikanarmunk	dominikanarmunk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(kknn~20050824_7805__191999--1
+3	Arnfinn	Arnfinn	NOUN	_	Gender=Masc	5	nsubj	_	name=B-PER
+4	Haram	Haram	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=kknn~20050824_7805__191999)
+5	lét	la	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	5	iobj	_	name=O|Entity=(kknn~20050824_7805__191999--1)
+7	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+8	provosere	provosere	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008922
+# text = Tvert om ser han store likskapar mellom Gule og kyrkjerådsdirektør Erling Pettersen.
+1	Tvert	tvert	ADV	_	_	2	advmod	_	name=O
+2	om	om	ADP	_	_	3	compound:prt	_	name=O
+3	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__191999--1)
+5	store	stor	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(kknn~20050824_7805__T20--1
+6	likskapar	likskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O
+7	mellom	mellom	ADP	_	_	8	case	_	name=O
+8	Gule	Gule	PROPN	_	_	6	nmod	_	name=B-PER|Entity=(kknn~20050824_7805__T21--1(kknn~20050824_7805__6330--1)
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	kyrkjerådsdirektør	kyrkjerådsdirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(kknn~20050824_7805__279--1
+11	Erling	Erling	NOUN	_	Gender=Masc	8	conj	_	name=B-PER
+12	Pettersen	Pettersen	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kknn~20050824_7805__279)kknn~20050824_7805__T21)kknn~20050824_7805__T20)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008923
+# text = - Gule er ein nostalgikar som vil attende til den religionskritiske steinalderen, der ein såg på religion som eit fenomen på veg ut.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Gule	Gule	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(kknn~20050824_7805__6330--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kknn~20050824_7805__T25--1
+5	nostalgikar	nostalgikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	vil	vilje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+8	attende	attende	ADP	_	_	12	case	_	name=O
+9	til	til	ADP	_	_	12	case	_	name=O
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(kknn~20050824_7805__T26--1
+11	religionskritiske	religionskritisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	steinalderen	steinalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	der	der	SCONJ	_	_	16	mark	_	name=O
+15	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	16	nsubj	_	name=O|Entity=(kknn~20050824_7805__T27--1)
+16	såg	sjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl	_	name=O
+17	på	på	ADP	_	_	18	case	_	name=O
+18	religion	religion	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	name=O|Entity=(kknn~20050824_7805__T28--1)
+19	som	som	SCONJ	_	_	21	mark	_	name=O
+20	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(kknn~20050824_7805__T29--1
+21	fenomen	fenomen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	xcomp	_	name=O
+22	på	på	ADP	_	_	23	case	_	name=O
+23	veg	veg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=(kknn~20050824_7805__T30--1
+24	ut	ut	ADP	_	_	23	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T30)kknn~20050824_7805__T29)kknn~20050824_7805__T26)kknn~20050824_7805__T25)
+25	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008924
+# text = Human-Etisk Forbund ynskjer i ly av denne religionskritikken å omdefinere samfunnet til eit sekulært samfunn, der forbundet vil fungere som paraplyorganisasjon for alle ateistar, og gje sine ateistiske borgarar seremoniar og høgtid.
+1	Human-Etisk	Human-Etisk	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(kknn~20050824_7805__6161--1
+2	Forbund	Forbund	PROPN	_	_	1	flat:name	_	name=I-ORG|Entity=kknn~20050824_7805__6161)
+3	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	ly	ly	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050824_7805__T32--1
+6	av	av	ADP	_	_	8	case	_	name=O
+7	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(kknn~20050824_7805__T33--1
+8	religionskritikken	religionskritikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=kknn~20050824_7805__T33)kknn~20050824_7805__T32)
+9	å	å	PART	_	_	10	mark	_	name=O
+10	omdefinere	omdefinere	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+11	samfunnet	samfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=(kknn~20050824_7805__7648--1)
+12	til	til	SCONJ	_	_	15	mark	_	name=O
+13	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(kknn~20050824_7805__T35--1
+14	sekulært	sekulær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	name=O
+15	samfunn	samfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	xcomp	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	der	der	SCONJ	_	_	20	mark	_	name=O
+18	forbundet	forbund	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nsubj	_	name=O|Entity=(kknn~20050824_7805__6161--1)
+19	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+20	fungere	fungere	VERB	_	VerbForm=Inf	15	acl	_	name=O
+21	som	som	SCONJ	_	_	22	mark	_	name=O
+22	paraplyorganisasjon	paraplyorganisasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	xcomp	_	name=O|Entity=(kknn~20050824_7805__T37--1
+23	for	for	ADP	_	_	25	case	_	name=O
+24	alle	all	DET	_	Number=Plur|PronType=Tot	25	det	_	name=O|Entity=(kknn~20050824_7805__T38--1
+25	ateistar	ateist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T38)kknn~20050824_7805__T37)
+26	,	$,	PUNCT	_	_	28	punct	_	name=O
+27	og	og	CCONJ	_	_	28	cc	_	name=O
+28	gje	gje	VERB	_	VerbForm=Inf	20	conj	_	name=O
+29	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	31	nmod	_	name=O|Entity=(kknn~20050824_7805__T40--1(kknn~20050824_7805__6161--1)
+30	ateistiske	ateistisk	ADJ	_	Degree=Pos|Number=Plur	31	amod	_	name=O
+31	borgarar	borgar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	28	iobj	_	name=O|Entity=kknn~20050824_7805__T40)
+32	seremoniar	seremoni	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	28	obj	_	name=O|Entity=(kknn~20050824_7805__T41--1(kknn~20050824_7805__T42--1)
+33	og	og	CCONJ	_	_	34	cc	_	name=O
+34	høgtid	høgtid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T43--1)kknn~20050824_7805__T41)kknn~20050824_7805__T35)
+35	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008925
+# text = Dei vil med andre ord byte ut ei kyrkje med ei anna og innsetje Gule som erkebiskop, seier Haram.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(kknn~20050824_7805__6161--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	med	med	ADP	_	_	5	case	_	name=O
+4	andre	annan	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(kknn~20050824_7805__T45--1
+5	ord	ord	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	name=O|Entity=kknn~20050824_7805__T45)
+6	byte	byte	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	ut	ut	ADP	_	_	6	compound:prt	_	name=O
+8	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kknn~20050824_7805__T46--1
+9	kyrkje	kyrkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	name=O|Entity=kknn~20050824_7805__T46)
+10	med	med	ADP	_	_	12	case	_	name=O
+11	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	name=O
+12	anna	annan	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	6	obl	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	innsetje	innsetje	VERB	_	VerbForm=Inf	6	conj	_	name=O
+15	Gule	Gule	PROPN	_	_	14	obj	_	name=B-PER|Entity=(kknn~20050824_7805__6330--1)
+16	som	som	SCONJ	_	_	17	mark	_	name=O
+17	erkebiskop	erkebiskop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T48--1)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+20	Haram	Haram	PROPN	_	_	19	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050824_7805__191999--1)
+21	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008926
+# text = På tilsvarande vis ynskjer statskyrkja å klamre seg til sin tradisjonelle monopolsituasjon:
+1	På	på	ADP	_	_	3	case	_	name=O
+2	tilsvarande	tilsvarande	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	name=O|Entity=(kknn~20050824_7805__T50--1
+3	vis	vis	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=kknn~20050824_7805__T50)
+4	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+6	å	å	PART	_	_	7	mark	_	name=O
+7	klamre	klamre	VERB	_	VerbForm=Inf	4	xcomp	_	name=O
+8	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	7	obj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+9	til	til	ADP	_	_	12	case	_	name=O
+10	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	name=O|Entity=(kknn~20050824_7805__T53--1(kknn~20050824_7805__242933--1)
+11	tradisjonelle	tradisjonell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	monopolsituasjon	monopolsituasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T53)
+13	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008927
+# text = - Statskyrkja, og ikkje minst kyrkjerådsdirektør Erling Pettersen, heng fast i ei tilsvarande førestelling:
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	Statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T54--1(kknn~20050824_7805__242933--1)
+3	,	$,	PUNCT	_	_	8	punct	_	name=O
+4	og	og	CCONJ	_	_	8	cc	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	name=O|Entity=(kknn~20050824_7805__279--1
+6	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	8	amod	_	name=O
+7	kyrkjerådsdirektør	kyrkjerådsdirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O
+8	Erling	Erling	NOUN	_	Gender=Masc	2	conj	_	name=B-PER
+9	Pettersen	Pettersen	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kknn~20050824_7805__279)
+10	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=kknn~20050824_7805__T54)
+11	heng	henge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+13	i	i	ADP	_	_	16	case	_	name=O
+14	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(kknn~20050824_7805__T57--1
+15	tilsvarande	tilsvarande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	førestelling	førestelling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T57)
+17	:	$:	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 008928
+# text = Nemleg trua på ein norsk einskapskultur der ein framforhandla, tilpassa og temperert utgåve av kristendomen skal bidra til å oppretthalde eit sett av norske fellesverdiar med kristen melis på, seier han, og legg til:
+1	Nemleg	nemleg	ADV	_	_	2	advmod	_	name=O|Entity=(kknn~20050824_7805__T58--1
+2	trua	tru	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	name=O
+3	på	på	ADP	_	_	6	case	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kknn~20050824_7805__T59--1
+5	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	einskapskultur	einskapskultur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O
+7	der	der	SCONJ	_	_	18	mark	_	name=O
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(kknn~20050824_7805__T60--1
+9	framforhandla	framforhandle	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	14	amod	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	tilpassa	tilpasse	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	9	conj	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	temperert	temperere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	9	conj	_	name=O
+14	utgåve	utgåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	_	name=O
+15	av	av	ADP	_	_	16	case	_	name=O
+16	kristendomen	kristendom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(kknn~20050824_7805__T61--1)kknn~20050824_7805__T60)
+17	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	bidra	bidra	VERB	_	VerbForm=Inf	6	acl	_	name=O
+19	til	til	SCONJ	_	_	21	mark	_	name=O
+20	å	å	PART	_	_	21	mark	_	name=O
+21	oppretthalde	oppretthalde	VERB	_	VerbForm=Inf	18	advcl	_	name=O
+22	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(kknn~20050824_7805__T62--1
+23	sett	sett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	name=O
+24	av	av	ADP	_	_	26	case	_	name=O
+25	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	26	amod	_	name=O|Entity=(kknn~20050824_7805__T63--1
+26	fellesverdiar	fellesverdi	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	name=O
+27	med	med	ADP	_	_	29	case	_	name=O
+28	kristen	kristen	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	name=O|Entity=(kknn~20050824_7805__T64--1
+29	melis	melis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	name=O|Entity=kknn~20050824_7805__T64)
+30	på	på	ADP	_	_	29	xcomp	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T63)kknn~20050824_7805__T62)kknn~20050824_7805__T59)
+31	,	$,	PUNCT	_	_	32	punct	_	name=O
+32	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+33	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__191999--1)
+34	,	$,	PUNCT	_	_	36	punct	_	name=O
+35	og	og	CCONJ	_	_	36	cc	_	name=O
+36	legg	leggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	conj	_	name=O
+37	til	til	ADP	_	_	36	compound:prt	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T58)
+38	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008929
+# text = - Statskyrkja er som ein person som er gått av med pensjon, men som ikkje våger å forlate kontoret.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	som	som	ADP	_	_	6	case	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kknn~20050824_7805__T67--1
+6	person	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	gått	gå	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	6	acl:relcl	_	name=O
+10	av	av	ADP	_	_	9	compound:prt	_	name=O
+11	med	med	ADP	_	_	12	case	_	name=O
+12	pensjon	pensjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T68--1)
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	men	men	CCONJ	_	_	17	cc	_	name=O
+15	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+16	ikkje	ikkje	PART	_	Polarity=Neg	17	advmod	_	name=O
+17	våger	våge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	forlate	forlate	VERB	_	VerbForm=Inf	17	xcomp	_	name=O
+20	kontoret	kontor	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T69--1)kknn~20050824_7805__T67)
+21	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008930
+# text = Reelt mangfald
+1	Reelt	reell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	name=O|Entity=(kknn~20050824_7805__T70--1
+2	mangfald	mangfald	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=kknn~20050824_7805__T70)
+
+# sent_id = 008931
+# text = I staden for denne monopolkonkurransen mellom sekulære humanistar og utvatna kristne, ynskjer Haram å få det reelle livssynsmangfaldet på bordet:
+1	I	i	ADP	_	_	2	case	_	name=O
+2	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(kknn~20050824_7805__T71--1
+3	for	for	ADP	_	_	5	case	_	name=O
+4	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(kknn~20050824_7805__T72--1
+5	monopolkonkurransen	monopolkonkurranse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O
+6	mellom	mellom	ADP	_	_	8	case	_	name=O
+7	sekulære	sekulær	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(kknn~20050824_7805__T73--1(kknn~20050824_7805__T74--1
+8	humanistar	humanist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=kknn~20050824_7805__T74)
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	utvatna	utvatna	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(kknn~20050824_7805__T75--1
+11	kristne	kristen	ADJ	_	Degree=Pos|Number=Plur	8	conj	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T75)kknn~20050824_7805__T73)kknn~20050824_7805__T72)kknn~20050824_7805__T71)
+12	,	$,	PUNCT	_	_	2	punct	_	name=O
+13	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+14	Haram	Haram	PROPN	_	_	13	nsubj	_	name=B-PER|Entity=(kknn~20050824_7805__191999--1)
+15	å	å	PART	_	_	16	mark	_	name=O
+16	få	få	VERB	_	VerbForm=Inf	13	xcomp	_	name=O
+17	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(kknn~20050824_7805__T77--1
+18	reelle	reell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	livssynsmangfaldet	livssynsmangfald	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obj	_	name=O|Entity=kknn~20050824_7805__T77)
+20	på	på	ADP	_	_	21	case	_	name=O
+21	bordet	bord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T78--1)
+22	:	$:	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 008932
+# text = - Før eg vil verte sekulærhumanist, vil eg heller verte kannibal.
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	Før	før	SCONJ	_	_	5	mark	_	name=O
+3	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20050824_7805__191999--1)
+4	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	verte	verte	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+6	sekulærhumanist	sekulærhumanist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T80--1)
+7	,	$,	PUNCT	_	_	5	punct	_	name=O
+8	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+9	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(kknn~20050824_7805__191999--1)
+10	heller	heller	ADV	_	_	11	advmod	_	name=O
+11	verte	verte	VERB	_	VerbForm=Inf	0	root	_	name=O
+12	kannibal	kannibal	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T82--1)
+13	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 008933
+# text = Eg kan ikkje fatte at folk orkar slike tempererte greier.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(kknn~20050824_7805__191999--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	fatte	fatte	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	at	at	SCONJ	_	_	7	mark	_	name=O
+6	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nsubj	_	name=O|Entity=(kknn~20050824_7805__T84--1)
+7	orkar	orke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	name=O
+8	slike	slik	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(kknn~20050824_7805__T85--1
+9	tempererte	temperert	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O
+10	greier	greie	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T85)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008934
+# text = I staden burde det norske samfunnet opne for eit verkeleg mangfald; vi må gjerne bygge moskear og vi må våge å gje religionen ein offentleg plass.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(kknn~20050824_7805__T86--1)
+3	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	name=O
+4	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(kknn~20050824_7805__7648--1
+5	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	samfunnet	samfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=kknn~20050824_7805__7648)
+7	opne	opne	VERB	_	VerbForm=Inf	0	root	_	name=O
+8	for	for	ADP	_	_	11	case	_	name=O
+9	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(kknn~20050824_7805__T88--1
+10	verkeleg	verkeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+11	mangfald	mangfald	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T88)
+12	;	$;	PUNCT	_	_	16	punct	_	name=O
+13	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	name=O|Entity=(kknn~20050824_7805__7648--1)
+14	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	gjerne	gjerne	ADV	_	_	16	advmod	_	name=O
+16	bygge	bygge	VERB	_	VerbForm=Inf	7	conj	_	name=O
+17	moskear	moské	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obj	_	name=O|Entity=(kknn~20050824_7805__T90--1)
+18	og	og	CCONJ	_	_	21	cc	_	name=O
+19	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	name=O|Entity=(kknn~20050824_7805__7648--1)
+20	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+21	våge	våge	VERB	_	VerbForm=Inf	16	conj	_	name=O
+22	å	å	PART	_	_	23	mark	_	name=O
+23	gje	gje	VERB	_	VerbForm=Inf	21	xcomp	_	name=O
+24	religionen	religion	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	iobj	_	name=O|Entity=(kknn~20050824_7805__T92--1)
+25	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	name=O|Entity=(kknn~20050824_7805__T93--1
+26	offentleg	offentleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	amod	_	name=O
+27	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T93)
+28	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 008935
+# text = Vi må sleppe alt fram i det offentlege rommet og ingen må krevje monopol.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__7648--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	sleppe	sleppe	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(kknn~20050824_7805__T95--1)
+5	fram	fram	ADP	_	_	9	case	_	name=O
+6	i	i	ADP	_	_	9	case	_	name=O
+7	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(kknn~20050824_7805__T96--1
+8	offentlege	offentleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	rommet	rom	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=kknn~20050824_7805__T96)
+10	og	og	CCONJ	_	_	13	cc	_	name=O
+11	ingen	ingen	PRON	_	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|PronType=Neg,Prs	13	nsubj	_	name=O|Entity=(kknn~20050824_7805__T97--1)
+12	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	krevje	krevje	VERB	_	VerbForm=Inf	3	conj	_	name=O
+14	monopol	monopol	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T98--1)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008936
+# text = Haram ser helst at statskyrkja vert mindre og tydelegare.
+1	Haram	Haram	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kknn~20050824_7805__191999--1)
+2	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	helst	helst	ADV	_	_	2	advmod	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+6	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+7	mindre	liten	ADJ	_	Degree=Cmp	6	xcomp	_	name=O
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	tydelegare	tydeleg	ADJ	_	Degree=Cmp	7	conj	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008937
+# text = - Vi må attende til den oldkyrkjelege tradisjonen.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__7648--1)
+3	må	måtte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	attende	attende	ADP	_	_	8	case	_	name=O
+5	til	til	ADP	_	_	8	case	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(kknn~20050824_7805__T102--1
+7	oldkyrkjelege	oldkyrkjeleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	tradisjonen	tradisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T102)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008938
+# text = Kyrkja må slutte å krype for den sekularistiske attityden.
+1	Kyrkja	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	slutte	slutte	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	krype	krype	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	for	for	ADP	_	_	9	case	_	name=O
+7	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(kknn~20050824_7805__4543--1
+8	sekularistiske	sekularistisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	attityden	attityde	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__4543)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008939
+# text = Den attityden har sete for lenge og feitna i stolen, det er på høg tid han kjem seg ut på ein joggetur, seier dominikanarmunken.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(kknn~20050824_7805__4543--1
+2	attityden	attityde	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=kknn~20050824_7805__4543)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	sete	sitje	VERB	_	VerbForm=Part	0	root	_	name=O
+5	for	for	ADV	_	_	6	advmod	_	name=O
+6	lenge	lenge	ADJ	_	Degree=Pos	4	advmod	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	feitna	feitne	VERB	_	VerbForm=Part	4	conj	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	stolen	stol	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T106--1)
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	name=O
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+14	på	på	ADP	_	_	16	case	_	name=O
+15	høg	høg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	name=O|Entity=(kknn~20050824_7805__T107--1
+16	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	name=O|Entity=kknn~20050824_7805__T107)
+17	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(kknn~20050824_7805__4543--1)
+18	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	csubj	_	name=O
+19	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	18	obj	_	name=O|Entity=(kknn~20050824_7805__4543--1)
+20	ut	ut	ADP	_	_	18	compound:prt	_	name=O
+21	på	på	ADP	_	_	23	case	_	name=O
+22	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(kknn~20050824_7805__T109--1
+23	joggetur	joggetur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T109)
+24	,	$,	PUNCT	_	_	16	punct	_	name=O
+25	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+26	dominikanarmunken	dominikanarmunk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__191999--1)
+27	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008940
+# text = Saknar innsikt
+1	Saknar	sakne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	innsikt	innsikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	name=O|Entity=(kknn~20050824_7805__T111--1)
+
+# sent_id = 008941
+# text = Fleire av deltakarane i debatten har vist til ei fornya og aukande interesse for religiøse spørsmål i Noreg.
+1	Fleire	mange	ADJ	_	Degree=Cmp	7	nsubj	_	name=O|Entity=(kknn~20050824_7805__T112--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	deltakarane	deltakar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	name=O|Entity=(kknn~20050824_7805__T113--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	debatten	debatt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(kknn~20050824_7805__T114--1)kknn~20050824_7805__T113)kknn~20050824_7805__T112)
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	vist	vise	VERB	_	VerbForm=Part	0	root	_	name=O
+8	til	til	ADP	_	_	13	case	_	name=O
+9	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(kknn~20050824_7805__T115--1
+10	fornya	fornye	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	13	amod	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	aukande	auke	ADJ	_	VerbForm=Part	10	conj	_	name=O
+13	interesse	interesse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O
+14	for	for	ADP	_	_	16	case	_	name=O
+15	religiøse	religiøs	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O|Entity=(kknn~20050824_7805__T116--1
+16	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	name=O|Entity=kknn~20050824_7805__T116)
+17	i	i	ADP	_	_	18	case	_	name=O
+18	Noreg	Noreg	PROPN	_	_	13	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20050824_7805__3367--1)kknn~20050824_7805__T115)
+19	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 008942
+# text = Men for Haram er ikkje religion eit spørsmål om mengde.
+1	Men	men	CCONJ	_	_	8	cc	_	name=O
+2	for	for	ADP	_	_	3	case	_	name=O
+3	Haram	Haram	PROPN	_	_	8	obl	_	name=B-PER|Entity=(kknn~20050824_7805__191999--1)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	name=O
+6	religion	religion	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(kknn~20050824_7805__T119--1)
+7	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kknn~20050824_7805__T120--1
+8	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+9	om	om	ADP	_	_	10	case	_	name=O
+10	mengde	mengde	NOUN	_	_	8	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T121--1)kknn~20050824_7805__T120)
+11	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 008943
+# text = - Det som manglar i Noreg i dag er ikkje kvantum av religion.
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(kknn~20050824_7805__T122--1
+3	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+4	manglar	mangle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Noreg	Noreg	PROPN	_	_	4	obl	_	name=B-GPE_LOC|Entity=(kknn~20050824_7805__3367--1)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(kknn~20050824_7805__T124--1)kknn~20050824_7805__T122)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	name=O
+11	kvantum	kvantum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(kknn~20050824_7805__T125--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	religion	religion	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T126--1)kknn~20050824_7805__T125)
+14	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 008944
+# text = Men vi manglar kvalitativ religiøs innsikt.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__3367--1)
+3	manglar	mangle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	kvalitativ	kvalitativ	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(kknn~20050824_7805__T128--1
+5	religiøs	religiøs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	innsikt	innsikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T128)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008945
+# text = Den religiøse kulturen og dei religiøse ferdigheitene er i ferd med å døy ut.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kknn~20050824_7805__T129--1(kknn~20050824_7805__T130--1
+2	religiøse	religiøs	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	kulturen	kultur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=kknn~20050824_7805__T130)
+4	og	og	CCONJ	_	_	7	cc	_	name=O
+5	dei	dei	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(kknn~20050824_7805__T131--1
+6	religiøse	religiøs	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	ferdigheitene	ferdigheit	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	3	conj	_	name=O|Entity=kknn~20050824_7805__T131)kknn~20050824_7805__T129)
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	ferd	ferd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(kknn~20050824_7805__T132--1
+11	med	med	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	døy	døy	VERB	_	VerbForm=Inf	10	acl	_	name=O
+14	ut	ut	ADP	_	_	13	compound:prt	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T132)
+15	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 008946
+# text = Til og med teologar og prestar bruker tida på å tynne ut tinga, seier han.
+1	Til	til	ADP	_	_	4	nmod	_	name=O|Entity=(kknn~20050824_7805__T133--1(kknn~20050824_7805__T134--1
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	med	med	ADP	_	_	1	conj	_	name=O
+4	teologar	teolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=kknn~20050824_7805__T134)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	prestar	prest	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	conj	_	name=O|Entity=(kknn~20050824_7805__T135--1)kknn~20050824_7805__T133)
+7	bruker	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obj	_	name=O|Entity=(kknn~20050824_7805__T136--1)
+9	på	på	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	tynne	tynne	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+12	ut	ut	ADP	_	_	11	compound:prt	_	name=O
+13	tinga	ting	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T137--1)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+16	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__191999--1)
+17	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 008947
+# text = Og ifylgje Haram ber statskyrkja eit stort ansvar for utvatninga fordi ho tviheld på ein kristendom som er gått ut på dato:
+1	Og	og	CCONJ	_	_	4	cc	_	name=O
+2	ifylgje	ifylgje	ADP	_	_	3	case	_	name=O
+3	Haram	Haram	PROPN	_	_	4	obl	_	name=B-PER|Entity=(kknn~20050824_7805__191999--1)
+4	ber	bere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+6	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kknn~20050824_7805__T141--1
+7	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+8	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O
+9	for	for	ADP	_	_	10	case	_	name=O
+10	utvatninga	utvatning	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	name=O|Entity=(kknn~20050824_7805__T142--1)kknn~20050824_7805__T141)
+11	fordi	fordi	SCONJ	_	_	13	mark	_	name=O
+12	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+13	tviheld	tvihalde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+14	på	på	ADP	_	_	16	case	_	name=O
+15	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(kknn~20050824_7805__T144--1
+16	kristendom	kristendom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O
+17	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+18	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	gått	gå	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	16	acl:relcl	_	name=O
+20	ut	ut	ADP	_	_	19	compound:prt	_	name=O
+21	på	på	ADP	_	_	22	case	_	name=O
+22	dato	dato	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T145--1)kknn~20050824_7805__T144)
+23	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008948
+# text = - Eg ynskjer ein intern refleksjon i statskyrkja om kva slags innsikt ho skal tilby samfunnet om - unnskyld uttrykket - Gud.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__191999--1)
+3	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kknn~20050824_7805__T147[1/2]--1
+5	intern	intern	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	refleksjon	refleksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+9	om	om	ADP	_	_	15	case	_	name=O
+10	kva	kva	DET	_	PronType=Int	11	det	_	name=O|Entity=(kknn~20050824_7805__T150--1(kknn~20050824_7805__T149--1
+11	slags	slags	NOUN	_	Gender=Neut	12	nmod	_	name=O|Entity=kknn~20050824_7805__T149)
+12	innsikt	innsikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	name=O|Entity=kknn~20050824_7805__T150)
+13	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+14	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	tilby	tilby	VERB	_	VerbForm=Inf	6	acl:relcl	_	name=O
+16	samfunnet	samfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	iobj	_	name=O|Entity=(kknn~20050824_7805__7648--1)
+17	om	om	ADP	_	_	22	case	_	name=O|Entity=kknn~20050824_7805__T147[1/2])
+18	-	$-	PUNCT	_	_	17	punct	_	name=O
+19	unnskyld	unnskylde	VERB	_	Mood=Imp|VerbForm=Fin	3	parataxis	_	name=O
+20	uttrykket	uttrykk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	obj	_	name=O|Entity=(kknn~20050824_7805__T153--1)
+21	-	$-	PUNCT	_	_	19	punct	_	name=O
+22	Gud	Gud	PROPN	_	_	15	obl	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050824_7805__T147[2/2]--1)(kknn~20050824_7805__2318--1)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008949
+# text = Teologisk fakultet fabrikkerer ideologi for den norske folkekyrkja og teologi er vorte noko ein driv på med på kammerset.
+1	Teologisk	teologisk	PROPN	_	_	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__T155--1
+2	fakultet	fakultet	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	flat:name	_	name=O|Entity=kknn~20050824_7805__T155)
+3	fabrikkerer	fabrikkere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ideologi	ideologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(kknn~20050824_7805__T156--1)
+5	for	for	ADP	_	_	8	case	_	name=O
+6	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(kknn~20050824_7805__242933--1
+7	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	folkekyrkja	folkekyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=kknn~20050824_7805__242933)
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	teologi	teologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(kknn~20050824_7805__T158--1)
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	vorte	verte	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	3	conj	_	name=O
+13	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	12	xcomp	_	name=O|Entity=(kknn~20050824_7805__T159--1
+14	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	15	nsubj	_	name=O|Entity=(kknn~20050824_7805__T160--1)
+15	driv	drive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	name=O
+16	på	på	ADP	_	_	15	compound:prt	_	name=O
+17	med	med	ADP	_	_	15	compound:prt	_	name=O
+18	på	på	ADP	_	_	19	case	_	name=O
+19	kammerset	kammers	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T161--1)kknn~20050824_7805__T159)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008950
+# text = Men vi må kunne snakke med vaksne folk om Gud.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20050824_7805__T162--1)
+3	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	kunne	kunne	AUX	_	VerbForm=Inf	5	aux	_	name=O
+5	snakke	snakke	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	med	med	ADP	_	_	8	case	_	name=O
+7	vaksne	vaksen	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(kknn~20050824_7805__T163--1
+8	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	name=O|Entity=kknn~20050824_7805__T163)
+9	om	om	ADP	_	_	10	case	_	name=O
+10	Gud	Gud	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050824_7805__2318--1)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008951
+# text = Underleg allianse
+1	Underleg	underleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(kknn~20050824_7805__T165--1
+2	allianse	allianse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=kknn~20050824_7805__T165)
+
+# sent_id = 008952
+# text = Haram meiner statskyrkja i dagens situasjon er viljug til å gjere kva som helst for å halde på monopolet sitt.
+1	Haram	Haram	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kknn~20050824_7805__191999--1)
+2	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+4	i	i	ADP	_	_	6	case	_	name=O
+5	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(kknn~20050824_7805__T169--1(kknn~20050824_7805__T168--1)
+6	situasjon	situasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=kknn~20050824_7805__T169)
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	viljug	viljug	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	ccomp	_	name=O
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	gjere	gjere	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+12	kva	kva	PRON	_	PronType=Int	11	obj	_	name=O
+13	som	som	ADP	_	_	14	case	_	name=O
+14	helst	helst	ADV	_	_	12	advmod	_	name=O
+15	for	for	SCONJ	_	_	17	mark	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	halde	halde	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+18	på	på	ADP	_	_	17	compound:prt	_	name=O
+19	monopolet	monopol	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	obj	_	name=O|Entity=(kknn~20050824_7805__T170--1
+20	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__242933--1)kknn~20050824_7805__T170)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008953
+# text = Dimed er det oppstått ein underleg allianse mellom liberale ateistar i media og politikken og kyrkjas folk.
+1	Dimed	dimed	ADV	_	_	4	advmod	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	oppstått	oppstå	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kknn~20050824_7805__T172--1
+6	underleg	underleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	allianse	allianse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O
+8	mellom	mellom	ADP	_	_	10	case	_	name=O
+9	liberale	liberal	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(kknn~20050824_7805__T173--1(kknn~20050824_7805__T174--1
+10	ateistar	ateist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	media	medium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	10	nmod	_	name=O|Entity=(kknn~20050824_7805__T175--1(kknn~20050824_7805__T176--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	politikken	politikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	conj	_	name=O|Entity=(kknn~20050824_7805__T177--1)kknn~20050824_7805__T175)kknn~20050824_7805__T174)
+15	og	og	CCONJ	_	_	17	cc	_	name=O
+16	kyrkjas	kyrkje	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	17	nmod	_	name=O|Entity=(kknn~20050824_7805__T179--1(kknn~20050824_7805__242933--1)
+17	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	conj	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T179)kknn~20050824_7805__T173)kknn~20050824_7805__T172)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008954
+# text = - Heile det liberale establishment har omfamna statskyrkja fordi dei har sett at statskyrkja er viljug til å gjere kva som helst for å oppretthalde einskapskulturen.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(kknn~20050824_7805__2362--1
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	name=O
+4	liberale	liberal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	establishment	establishment	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=kknn~20050824_7805__2362)
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	omfamna	omfamne	VERB	_	VerbForm=Part	0	root	_	name=O
+8	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+9	fordi	fordi	SCONJ	_	_	12	mark	_	name=O
+10	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(kknn~20050824_7805__2362--1)
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	sett	sjå	VERB	_	VerbForm=Part	7	advcl	_	name=O
+13	at	at	SCONJ	_	_	16	mark	_	name=O
+14	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+15	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+16	viljug	viljug	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	ccomp	_	name=O
+17	til	til	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	gjere	gjere	VERB	_	VerbForm=Inf	16	advcl	_	name=O
+20	kva	kva	PRON	_	PronType=Int	19	obj	_	name=O
+21	som	som	ADP	_	_	22	case	_	name=O
+22	helst	helst	ADV	_	_	20	advmod	_	name=O
+23	for	for	SCONJ	_	_	25	mark	_	name=O
+24	å	å	PART	_	_	25	mark	_	name=O
+25	oppretthalde	oppretthalde	VERB	_	VerbForm=Inf	19	advcl	_	name=O
+26	einskapskulturen	einskapskultur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__2392--1)
+27	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 008955
+# text = Det er oppstått ein allianse frå Dagbladet til Kyrkjerådet, meiner han.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	oppstått	oppstå	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	2	advmod	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kknn~20050824_7805__T185--1
+5	allianse	allianse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O
+6	frå	frå	ADP	_	_	7	case	_	name=O
+7	Dagbladet	Dagbladet	NOUN	_	Gender=Neut	5	nmod	_	name=B-PROD|Entity=(kknn~20050824_7805__T186--1)
+8	til	til	ADP	_	_	9	case	_	name=O
+9	Kyrkjerådet	Kyrkjerådet	PROPN	_	_	7	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20050824_7805__T187--1)kknn~20050824_7805__T185)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+12	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__191999--1)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008956
+# text = - Er inngangsterskelen til statskyrkja vorten for låg?
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	inngangsterskelen	inngangsterskel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20050824_7805__T189--1
+4	til	til	ADP	_	_	5	case	_	name=O
+5	statskyrkja	statskyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	name=O|Entity=(kknn~20050824_7805__242933--1)kknn~20050824_7805__T189)
+6	vorten	verte	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	for	for	ADV	_	_	8	advmod	_	name=O
+8	låg	låg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	xcomp	_	SpaceAfter=No|name=O
+9	?	$?	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008958
+# text = Eit døme på det er at ein no vil byggje interreligiøse kyrkjebygg.
+1	Eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(kknn~20050824_7805__T191--1
+2	døme	døme	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nmod	_	name=O|Entity=(kknn~20050824_7805__T192--1)kknn~20050824_7805__T191)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+6	at	at	SCONJ	_	_	10	mark	_	name=O
+7	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	10	nsubj	_	name=O|Entity=(kknn~20050824_7805__T193--1)
+8	no	no	ADV	_	_	10	advmod	_	name=O
+9	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	byggje	byggje	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	interreligiøse	interreligiøs	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(kknn~20050824_7805__T194--1
+12	kyrkjebygg	kyrkjebygg	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T194)
+13	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 008959
+# text = Eg er absolutt for religionsdialog og kan gjerne låne ut lokala våre til muslimar, men om du byggjer ei uidentifiserbar kyrkje, byggjer du rein ideologi.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20050824_7805__191999--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	absolutt	absolutt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	religionsdialog	religionsdialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(kknn~20050824_7805__T196--1)
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+8	gjerne	gjerne	ADV	_	_	9	advmod	_	name=O
+9	låne	låne	VERB	_	VerbForm=Inf	5	conj	_	name=O
+10	ut	ut	ADP	_	_	9	compound:prt	_	name=O
+11	lokala	lokale	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	obj	_	name=O|Entity=(kknn~20050824_7805__T197--1
+12	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	11	nmod	_	name=O|Entity=(kknn~20050824_7805__T198--1)kknn~20050824_7805__T197)
+13	til	til	ADP	_	_	14	case	_	name=O
+14	muslimar	muslim	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T199--1)
+15	,	$,	PUNCT	_	_	24	punct	_	name=O
+16	men	men	CCONJ	_	_	24	cc	_	name=O
+17	om	om	SCONJ	_	_	19	mark	_	name=O
+18	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	_	name=O|Entity=(kknn~20050824_7805__2402--1)
+19	byggjer	byggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	advcl	_	name=O
+20	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(kknn~20050824_7805__T201--1
+21	uidentifiserbar	uidentifiserbar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	kyrkje	kyrkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T201)
+23	,	$,	PUNCT	_	_	19	punct	_	name=O
+24	byggjer	byggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+25	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	24	nsubj	_	name=O|Entity=(kknn~20050824_7805__2402--1)
+26	rein	rein	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	amod	_	name=O|Entity=(kknn~20050824_7805__T203--1
+27	ideologi	ideologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T203)
+28	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008960
+# text = Det er uttrykk for eit desperat ynskje om å verte del av einskapskulturen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__T204--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	uttrykk	uttrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(kknn~20050824_7805__T205--1
+4	for	for	ADP	_	_	7	case	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kknn~20050824_7805__T206--1
+6	desperat	desperat	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	ynskje	ynskje	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nmod	_	name=O
+8	om	om	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	verte	verte	VERB	_	VerbForm=Inf	7	acl	_	name=O
+11	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	xcomp	_	name=O|Entity=(kknn~20050824_7805__T207--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	einskapskulturen	einskapskultur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__2392--1)kknn~20050824_7805__T207)kknn~20050824_7805__T206)kknn~20050824_7805__T205)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008961
+# text = - Men opptrer ikkje kyrkja i tråd med misjonsbefalinga når ho ynskjer å inkludere så mange som mogleg?
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Men	men	CCONJ	_	_	3	cc	_	name=O
+3	opptrer	opptre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	kyrkja	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	tråd	tråd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050824_7805__T210--1
+8	med	med	ADP	_	_	9	case	_	name=O
+9	misjonsbefalinga	misjonsbefaling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nmod	_	name=O|Entity=(kknn~20050824_7805__2427--1)kknn~20050824_7805__T210)
+10	når	når	SCONJ	_	_	12	mark	_	name=O
+11	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(kknn~20050824_7805__242933--1)
+12	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	inkludere	inkludere	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	så	så	ADV	_	_	16	advmod	_	name=O
+16	mange	mange	ADJ	_	Degree=Pos|Number=Plur	14	obj	_	name=O
+17	som	som	ADP	_	_	18	case	_	name=O
+18	mogleg	mogleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050824_7805__T213--1)
+19	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008962
+# text = - Nei, for det skjer nettopp ikkje på den måten.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Nei	nei	INTJ	_	_	6	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	for	for	ADV	_	_	6	advmod	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+6	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	nettopp	nettopp	ADV	_	_	8	advmod	_	name=O
+8	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	name=O
+9	på	på	ADP	_	_	11	case	_	name=O
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(kknn~20050824_7805__T214--1
+11	måten	måte	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T214)
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008963
+# text = Vi må hugse på at misjonsbefalinga vart gjeve til tolv forhutla fyrer på ein fjelltopp i Gallilea.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__T215--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	hugse	hugse	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	på	på	SCONJ	_	_	8	mark	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	misjonsbefalinga	misjonsbefaling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nsubj:pass	_	name=O|Entity=(kknn~20050824_7805__2427--1)
+7	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux:pass	_	name=O
+8	gjeve	gje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	3	advcl	_	name=O
+9	til	til	ADP	_	_	12	case	_	name=O
+10	tolv	tolv	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(kknn~20050824_7805__T217--1
+11	forhutla	forhutle	ADJ	_	Number=Plur|VerbForm=Part	12	amod	_	name=O
+12	fyrer	fyr	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	name=O|Entity=kknn~20050824_7805__T217)
+13	på	på	ADP	_	_	15	case	_	name=O
+14	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(kknn~20050824_7805__T218--1
+15	fjelltopp	fjelltopp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Gallilea	Gallilea	PROPN	_	_	15	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20050824_7805__T219--1)kknn~20050824_7805__T218)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008964
+# text = Vi må våge å sjå verda i det perspektivet.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050824_7805__T220--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	våge	våge	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	sjå	sjå	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	verda	verd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	name=O|Entity=(kknn~20050824_7805__T221--1)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(kknn~20050824_7805__T222--1
+9	perspektivet	perspektiv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050824_7805__T222)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+

@@ -1,0 +1,146 @@
+# newdoc id = db~20081209-3980406
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 010003
+# text = Tysk par arrestert for tempel-sex
+1	Tysk	tysk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	name=O|Entity=(db~20081209_3980406__T1--1
+2	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=db~20081209_3980406__T1)
+3	arrestert	arrestere	VERB	_	VerbForm=Part	0	root	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	tempel-sex	tempel-sex	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(db~20081209_3980406__T2--1)
+
+# newpar
+# sent_id = 010004
+# text = Fikk bot i Thailand.
+1	Fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	bot	bot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	name=O|Entity=(db~20081209_3980406__T3--1)
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Thailand	Thailand	PROPN	_	_	1	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081209_3980406__T4--1)
+5	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010005
+# text = To tyske turister ble i går arrestert i den thailandske provinsen Ayutthaya.
+1	To	to	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(db~20081209_3980406__8156--1
+2	tyske	tysk	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	turister	turist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj:pass	_	name=O|Entity=db~20081209_3980406__8156)
+4	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	går	går	NOUN	_	_	7	obl	_	name=O|Entity=(db~20081209_3980406__T6--1)
+7	arrestert	arrestere	VERB	_	VerbForm=Part	0	root	_	name=O
+8	i	i	ADP	_	_	12	case	_	name=O
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(db~20081209_3980406__T8--1(db~20081209_3980406__T7--1
+10	thailandske	thailandsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	provinsen	provins	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=db~20081209_3980406__T7)
+12	Ayutthaya	Ayutthaya	PROPN	_	_	7	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=db~20081209_3980406__T8)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 010006
+# text = De må hver betale 500 bath i bot etter å ha hatt sex i et tempel.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081209_3980406__8156[1/2]--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	hver	hver	DET	_	Gender=Masc|Number=Sing|PronType=Tot	1	nmod	_	name=O|Entity=(db~20081209_3980406__8156[2/2]--1)
+4	betale	betale	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	500	500	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(db~20081209_3980406__T10--1
+6	bath	bath	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	bot	bot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	name=O|Entity=(db~20081209_3980406__T11--1)db~20081209_3980406__T10)
+9	etter	etter	SCONJ	_	_	12	mark	_	name=O
+10	å	å	PART	_	_	12	mark	_	name=O
+11	ha	ha	AUX	_	VerbForm=Inf	12	aux	_	name=O
+12	hatt	ha	VERB	_	VerbForm=Part	4	advcl	_	name=O
+13	sex	sex	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=(db~20081209_3980406__T12--1)
+14	i	i	ADP	_	_	16	case	_	name=O
+15	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(db~20081209_3980406__228--1
+16	tempel	tempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=db~20081209_3980406__228)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010007
+# text = Paret ble funnet i Srisanphettempelet i Ayutthaya nasjonalpark klokken 12.30 i går.
+1	Paret	par	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj:pass	_	name=O|Entity=(db~20081209_3980406__8156--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	funnet	finne	VERB	_	VerbForm=Part	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Srisanphettempelet	Srisanphettempelet	PROPN	_	_	3	obl	_	name=B-LOC|Entity=(db~20081209_3980406__228--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Ayutthaya	Ayutthaya	PROPN	_	_	5	nmod	_	name=B-LOC|Entity=(db~20081209_3980406__249--1
+8	nasjonalpark	nasjonalpark	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	flat:name	_	name=I-LOC|Entity=db~20081209_3980406__249)db~20081209_3980406__228)
+9	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(db~20081209_3980406__T17--1)
+10	12.30	12.30	NUM	_	Number=Plur|NumType=Card	3	obl	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	går	går	NOUN	_	_	10	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081209_3980406__T18--1)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010008
+# text = Ifølge avisa The Nation stoppet paret da vakta Phaithoon Puengthong blåste i fløyta si og sprang mot dem.
+1	Ifølge	ifølge	ADP	_	_	3	case	_	name=O
+2	avisa	avis	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	name=O|Entity=(db~20081209_3980406__T19--1
+3	The	The	PROPN	_	_	5	obl	_	name=B-ORG
+4	Nation	Nation	PROPN	_	_	3	flat:name	_	name=I-ORG|Entity=db~20081209_3980406__T19)
+5	stoppet	stoppe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	paret	par	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(db~20081209_3980406__8156--1)
+7	da	da	SCONJ	_	_	11	mark	_	name=O
+8	vakta	vakt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	name=O|Entity=(db~20081209_3980406__244--1
+9	Phaithoon	Phaithoon	PROPN	_	_	11	nsubj	_	name=B-PER
+10	Puengthong	Puengthong	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=db~20081209_3980406__244)
+11	blåste	blåse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	fløyta	fløyte	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=(db~20081209_3980406__T22--1
+14	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(db~20081209_3980406__244--1)db~20081209_3980406__T22)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	sprang	springe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	name=O
+17	mot	mot	ADP	_	_	18	case	_	name=O
+18	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obl	_	SpaceAfter=No|name=O|Entity=(db~20081209_3980406__8156--1)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010009
+# text = Det tyske paret ble overlevert til politiet, som ga dem bot på 500 bath eller 100 kroner hver.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(db~20081209_3980406__8156--1
+2	tyske	tysk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	paret	par	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj:pass	_	name=O|Entity=db~20081209_3980406__8156)
+4	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+5	overlevert	overlevere	VERB	_	VerbForm=Part	0	root	_	name=O
+6	til	til	ADP	_	_	7	case	_	name=O
+7	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(db~20081209_3980406__T26--1
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	ga	gi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	name=O
+11	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	iobj	_	name=O|Entity=(db~20081209_3980406__8156--1)
+12	bot	bot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	name=O|Entity=(db~20081209_3980406__T28--1
+13	på	på	ADP	_	_	15	case	_	name=O
+14	500	500	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(db~20081209_3980406__T29--1(db~20081209_3980406__T30--1
+15	bath	bath	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=db~20081209_3980406__T30)
+16	eller	eller	CCONJ	_	_	18	cc	_	name=O
+17	100	100	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O|Entity=(db~20081209_3980406__T31--1
+18	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	15	conj	_	name=O
+19	hver	hver	DET	_	Gender=Masc|Number=Sing|PronType=Tot	17	obl	_	SpaceAfter=No|name=O|Entity=db~20081209_3980406__T31)db~20081209_3980406__T29)db~20081209_3980406__T28)db~20081209_3980406__T26)
+20	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010010
+# text = De ble siden løslatt.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	name=O|Entity=(db~20081209_3980406__8156--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	name=O
+3	siden	siden	ADV	_	_	4	advmod	_	name=O
+4	løslatt	løslate	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010011
+# text = Ayutthaya nasjonalpark, eller Phra Nakhon Si Ayutthaya Historical Park, ligger åtte mil nord for Bangkok.
+1	Ayutthaya	Ayutthaya	PROPN	_	_	12	nsubj	_	name=B-LOC|Entity=(db~20081209_3980406__249--1(db~20081209_3980406__T34--1
+2	nasjonalpark	nasjonalpark	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	flat:name	_	SpaceAfter=No|name=I-LOC
+3	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=db~20081209_3980406__T34)
+4	eller	eller	CCONJ	_	_	5	cc	_	name=O
+5	Phra	Phra	PROPN	_	_	1	conj	_	name=B-LOC|Entity=(db~20081209_3980406__T35--1
+6	Nakhon	Nakhon	PROPN	_	_	5	flat:name	_	name=I-LOC
+7	Si	Si	PROPN	_	_	5	flat:name	_	name=I-LOC
+8	Ayutthaya	Ayutthaya	PROPN	_	_	5	flat:name	_	name=I-LOC
+9	Historical	Historical	PROPN	_	_	5	flat:name	_	name=I-LOC
+10	Park	Park	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=db~20081209_3980406__249)
+11	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=db~20081209_3980406__T35)
+12	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	åtte	åtte	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(db~20081209_3980406__T36--1
+14	mil	mil	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	17	obl	_	name=O|Entity=db~20081209_3980406__T36)
+15	nord	nord	ADP	_	_	17	case	_	name=O
+16	for	for	ADP	_	_	17	case	_	name=O
+17	Bangkok	Bangkok	PROPN	_	_	12	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081209_3980406__T37--1)
+18	.	$.	PUNCT	_	_	12	punct	_	name=O
+

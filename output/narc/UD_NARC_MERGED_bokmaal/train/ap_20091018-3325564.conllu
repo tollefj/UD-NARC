@@ -1,0 +1,701 @@
+# newdoc id = ap_20091018-3325564
+# global.Entity = eid-etype-head-other
+# sent_id = 002610
+# text = Jehovas vitner, noe helt for seg selv
+1	Jehovas	Jehovas	PROPN	_	_	0	root	_	name=B-ORG|Entity=(ap_20091018_3325564__211878--1
+2	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20091018_3325564__211878)
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	1	appos	_	name=O
+5	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	nmod	_	name=O|Entity=(ap_20091018_3325564__211878--1)
+8	selv	selv	DET	_	PronType=Prs	7	det	_	name=O
+
+# newpar
+# sent_id = 002611
+# text = Feirer ikke.
+1	Feirer	feire	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	ikke	ikke	PART	_	Polarity=Neg	1	advmod	_	SpaceAfter=No|name=O
+3	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 002612
+# text = Verden går under.
+1	Verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20091018_3325564__T3--1)
+2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	under	under	ADP	_	_	2	compound:prt	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 002613
+# text = Mens kristne flest er blitt mer og mer opptatt av å bygge broer over konfesjonsgrensene, er Jehovas vitner fortsatt overbevist om at de alene forvalter sannheten.
+1	Mens	mens	SCONJ	_	_	5	mark	_	name=O
+2	kristne	kristen	ADJ	_	Degree=Pos|Number=Plur	5	nsubj	_	name=O|Entity=(ap_20091018_3325564__T4--1
+3	flest	mange	ADJ	_	Definite=Ind|Degree=Sup	2	amod	_	name=O|Entity=ap_20091018_3325564__T4)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	blitt	bli	VERB	_	VerbForm=Part	21	advcl	_	name=O
+6	mer	mye	ADJ	_	Degree=Cmp	9	advmod	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	mer	mye	ADJ	_	Degree=Cmp	6	conj	_	name=O
+9	opptatt	opptatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	xcomp	_	name=O
+10	av	av	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	bygge	bygge	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+13	broer	bro	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	name=O|Entity=(ap_20091018_3325564__T5--1
+14	over	over	ADP	_	_	15	case	_	name=O
+15	konfesjonsgrensene	konfesjonsgrense	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3325564__T6--1)ap_20091018_3325564__T5)
+16	,	$,	PUNCT	_	_	5	punct	_	name=O
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+18	Jehovas	Jehovas	PROPN	_	_	21	nsubj	_	name=B-ORG|Entity=(ap_20091018_3325564__211878--1
+19	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	flat:name	_	name=I-ORG|Entity=ap_20091018_3325564__211878)
+20	fortsatt	fortsatt	ADV	_	_	21	advmod	_	name=O
+21	overbevist	overbevise	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+22	om	om	SCONJ	_	_	26	mark	_	name=O
+23	at	at	SCONJ	_	_	26	mark	_	name=O
+24	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	name=O|Entity=(ap_20091018_3325564__211878--1
+25	alene	alene	ADV	_	_	24	advmod	_	name=O|Entity=ap_20091018_3325564__211878)
+26	forvalter	forvalte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	advcl	_	name=O
+27	sannheten	sannhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3325564__T9--1)
+28	.	$.	PUNCT	_	_	21	punct	_	name=O
+
+# newpar
+# sent_id = 002614
+# text = Jeg har lest en del fremstillinger om Jehovas vitner.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20091018_3325564__T10--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	lest	lese	VERB	_	VerbForm=Part	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20091018_3325564__T12--1(ap_20091018_3325564__T11--1
+5	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=ap_20091018_3325564__T11)
+6	fremstillinger	fremstilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	name=O
+7	om	om	ADP	_	_	8	case	_	name=O
+8	Jehovas	Jehovas	PROPN	_	_	6	nmod	_	name=B-ORG|Entity=(ap_20091018_3325564__211878--1
+9	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20091018_3325564__211878)ap_20091018_3325564__T12)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002615
+# text = De fleste har konsentrert seg om vitnenes teologi, og er ofte polemiske.
+1	De	de	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|Bridge=ap_20091018_3325564__211878<ap_20091018_3325564__2183:default|Entity=(ap_20091018_3325564__2183--1
+2	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	4	nsubj	_	name=O|Entity=ap_20091018_3325564__2183)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	konsentrert	konsentrere	VERB	_	VerbForm=Part	0	root	_	name=O
+5	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obj	_	name=O|Entity=(ap_20091018_3325564__2183--1)
+6	om	om	ADP	_	_	8	case	_	name=O
+7	vitnenes	vitne	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	8	nmod	_	name=O|Bridge=ap_20091018_3325564__211878<ap_20091018_3325564__T16:default|Entity=(ap_20091018_3325564__T16--1(ap_20091018_3325564__T15--1)
+8	teologi	teologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T16)
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	og	og	CCONJ	_	_	13	cc	_	name=O
+11	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+12	ofte	ofte	ADJ	_	Degree=Pos	13	advmod	_	name=O
+13	polemiske	polemisk	ADJ	_	Degree=Pos|Number=Plur	4	conj	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002616
+# text = Den nyutkomne flerfaglige boken Jehovas vitner har et bredere og mer balansert perspektiv.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(ap_20091018_3325564__4128--1(ap_20091018_3325564__T17--1
+2	nyutkomne	nyutkomme	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	4	amod	_	name=O
+3	flerfaglige	flerfaglig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	boken	bok	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=ap_20091018_3325564__T17)
+5	Jehovas	Jehovas	PROPN	_	_	7	nsubj	_	name=B-PROD
+6	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	flat:name	_	name=I-PROD|Entity=ap_20091018_3325564__4128)
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(ap_20091018_3325564__T19--1
+9	bredere	bred	ADJ	_	Degree=Cmp	13	amod	_	name=O
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	mer	mye	ADJ	_	Degree=Cmp	12	advmod	_	name=O
+12	balansert	balansere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	9	conj	_	name=O
+13	perspektiv	perspektiv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T19)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 002617
+# text = I boken belyser ti ulike fagpersoner trossamfunnet fra en rekke ulike vinkler.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	boken	bok	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20091018_3325564__4128--1)
+3	belyser	belyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ti	ti	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(ap_20091018_3325564__T21--1
+5	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	fagpersoner	fagperson	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=ap_20091018_3325564__T21)
+7	trossamfunnet	trossamfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(ap_20091018_3325564__211878--1)
+8	fra	fra	ADP	_	_	12	case	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(ap_20091018_3325564__T24--1(ap_20091018_3325564__T23--1
+10	rekke	rekke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=ap_20091018_3325564__T23)
+11	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	vinkler	vinkel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T24)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002618
+# text = Mye er svært interessant.
+1	Mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20091018_3325564__T25--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	interessant	interessant	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002619
+# text = Blant annet er det tankevekkende å få innsikt i hvilken kamp vitnene har kjempet for sin religionsfrihet.
+1	Blant	blant	ADP	_	_	2	case	_	name=O
+2	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	tankevekkende	tankevekkende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	få	få	VERB	_	VerbForm=Inf	5	csubj	_	name=O
+8	innsikt	innsikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	name=O|Entity=(ap_20091018_3325564__T26--1
+9	i	i	ADP	_	_	14	case	_	name=O
+10	hvilken	hvilken	DET	_	Gender=Masc|Number=Sing|PronType=Int	11	det	_	name=O|Entity=(ap_20091018_3325564__T27--1
+11	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=ap_20091018_3325564__T27)
+12	vitnene	vitne	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	nsubj	_	name=O|Entity=(ap_20091018_3325564__257--1)
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	kjempet	kjempe	VERB	_	VerbForm=Part	8	acl:relcl	_	name=O
+15	for	for	ADP	_	_	17	case	_	name=O
+16	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	name=O|Entity=(ap_20091018_3325564__T30--1(ap_20091018_3325564__257--1)
+17	religionsfrihet	religionsfrihet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T30)ap_20091018_3325564__T26)
+18	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002620
+# text = Under annen verdenskrig opplevde tusenvis av vitner i USA forfølgelse siden de avviste militærtjenesten og nektet å hilse flagget.
+1	Under	under	ADP	_	_	3	case	_	name=O
+2	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20091018_3325564__T31--1
+3	verdenskrig	verdenskrig	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=ap_20091018_3325564__T31)
+4	opplevde	oppleve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	tusenvis	tusenvis	NOUN	_	_	4	nsubj	_	name=O|Entity=(ap_20091018_3325564__268--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	name=O|Entity=(ap_20091018_3325564__T33--1)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	USA	USA	PROPN	_	Abbr=Yes	5	nmod	_	name=B-GPE_LOC|Entity=(ap_20091018_3325564__T34--1)ap_20091018_3325564__268)
+10	forfølgelse	forfølgelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(ap_20091018_3325564__T35--1)
+11	siden	siden	SCONJ	_	_	13	mark	_	name=O
+12	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20091018_3325564__268--1)
+13	avviste	avvise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	name=O
+14	militærtjenesten	militærtjeneste	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(ap_20091018_3325564__T37--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	nektet	nekte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	hilse	hilse	VERB	_	VerbForm=Inf	16	xcomp	_	name=O
+19	flagget	flagg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No|name=O|Bridge=ap_20091018_3325564__T34<ap_20091018_3325564__T38:default|Entity=(ap_20091018_3325564__T38--1)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002621
+# text = Motstanden mot blodoverføring har også ført til betydelige kontroverser, og boken gir konstruktive råd til medisinsk personale om hvordan man kan møte Jehovas vitner.
+1	Motstanden	motstand	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20091018_3325564__T39--1
+2	mot	mot	ADP	_	_	3	case	_	name=O
+3	blodoverføring	blodoverføring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=(ap_20091018_3325564__T40--1)ap_20091018_3325564__T39)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	også	også	ADV	_	_	6	advmod	_	name=O
+6	ført	føre	VERB	_	VerbForm=Part	0	root	_	name=O
+7	til	til	ADP	_	_	9	case	_	name=O
+8	betydelige	betydelig	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(ap_20091018_3325564__T41--1
+9	kontroverser	kontrovers	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T41)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	boken	bok	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=(ap_20091018_3325564__4128--1)
+13	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+14	konstruktive	konstruktiv	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O|Entity=(ap_20091018_3325564__T43--1
+15	råd	råd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	name=O
+16	til	til	ADP	_	_	18	case	_	name=O
+17	medisinsk	medisinsk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	name=O|Entity=(ap_20091018_3325564__T44--1
+18	personale	personale	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	name=O|Entity=ap_20091018_3325564__T44)
+19	om	om	ADP	_	_	23	case	_	name=O
+20	hvordan	hvordan	ADV	_	_	23	advmod	_	name=O
+21	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	23	nsubj	_	name=O|Entity=(ap_20091018_3325564__T45--1)
+22	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+23	møte	møte	VERB	_	VerbForm=Inf	15	acl:relcl	_	name=O
+24	Jehovas	Jehovas	PROPN	_	_	23	obj	_	name=B-ORG|Entity=(ap_20091018_3325564__6437--1
+25	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20091018_3325564__6437)ap_20091018_3325564__T43)
+26	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 002622
+# text = I det hele tatt legger boken stor vekt på å vise vitnene respekt.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20091018_3325564__T47--1
+3	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	advmod	_	name=O|Entity=ap_20091018_3325564__T47)
+4	tatt	ta	VERB	_	VerbForm=Part	5	advcl	_	name=O
+5	legger	legge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	boken	bok	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(ap_20091018_3325564__4128--1)
+7	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(ap_20091018_3325564__T49--1
+8	vekt	vekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	name=O|Entity=ap_20091018_3325564__T49)
+9	på	på	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	vise	vise	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+12	vitnene	vitne	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	iobj	_	name=O|Entity=(ap_20091018_3325564__6437--1)
+13	respekt	respekt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3325564__T51--1)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 002623
+# text = I det ytre skiller Jehovas vitner seg sterkt fra andre kristne fordi de ikke feirer jul.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20091018_3325564__T52--1
+3	ytre	ytre	ADJ	_	Degree=Cmp	4	advmod	_	name=O|Entity=ap_20091018_3325564__T52)
+4	skiller	skille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	Jehovas	Jehovas	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(ap_20091018_3325564__6437--1
+6	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	flat:name	_	name=I-ORG|Entity=ap_20091018_3325564__6437)
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obj	_	name=O|Entity=(ap_20091018_3325564__6437--1)
+8	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+9	fra	fra	ADP	_	_	11	case	_	name=O
+10	andre	annen	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(ap_20091018_3325564__T54--1
+11	kristne	kristen	ADJ	_	Degree=Pos|Number=Plur	4	advmod	_	name=O|Entity=ap_20091018_3325564__T54)
+12	fordi	fordi	SCONJ	_	_	15	mark	_	name=O
+13	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(ap_20091018_3325564__6437--1)
+14	ikke	ikke	PART	_	Polarity=Neg	15	advmod	_	name=O
+15	feirer	feire	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+16	jul	jul	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3325564__T56--1)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002624
+# text = I skole og barnehage gir dette personalet noen ekstra utfordringer.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	skole	skole	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(ap_20091018_3325564__T57--1(ap_20091018_3325564__T58--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	barnehage	barnehage	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	name=O|Entity=(ap_20091018_3325564__T59--1)ap_20091018_3325564__T57)
+5	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20091018_3325564__T60--1)
+7	personalet	personale	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	iobj	_	name=O|Bridge=ap_20091018_3325564__T57<ap_20091018_3325564__T61:default|Entity=(ap_20091018_3325564__T61--1)
+8	noen	noen	DET	_	Number=Plur|PronType=Ind	10	det	_	name=O|Entity=(ap_20091018_3325564__T62--1
+9	ekstra	ekstra	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O
+10	utfordringer	utfordring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T62)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002625
+# text = Vitnenes begrunnelse er at Bibelen forbyr fødselsdagsfeiringer - og dermed også feiring av Jesu fødsel.
+1	Vitnenes	vitne	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=(ap_20091018_3325564__T64--1(ap_20091018_3325564__6437--1)
+2	begrunnelse	begrunnelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=ap_20091018_3325564__T64)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	Bibelen	Bibelen	PROPN	_	_	6	nsubj	_	name=B-PROD|Entity=(ap_20091018_3325564__2187--1)
+6	forbyr	forby	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	fødselsdagsfeiringer	fødselsdagsfeiring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	name=O|Entity=(ap_20091018_3325564__T66--1(ap_20091018_3325564__T67--1
+8	-	$-	PUNCT	_	_	12	punct	_	name=O|Entity=ap_20091018_3325564__T67)
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	dermed	dermed	ADV	_	_	12	advmod	_	name=O|Entity=(ap_20091018_3325564__T68--1
+11	også	også	ADV	_	_	12	advmod	_	name=O
+12	feiring	feiring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	conj	_	name=O
+13	av	av	ADP	_	_	15	case	_	name=O
+14	Jesu	Jesu	PROPN	_	Case=Gen	15	nmod	_	name=B-PER|Entity=(ap_20091018_3325564__T70--1(ap_20091018_3325564__101038--1)
+15	fødsel	fødsel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T70)ap_20091018_3325564__T68)ap_20091018_3325564__T66)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 002626
+# text = Men den største forskjellen mellom Jehovas vitner og andre kirkesamfunn handler om synet på Jesus.
+1	Men	men	CCONJ	_	_	11	cc	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(ap_20091018_3325564__T71--1
+3	største	stor	ADJ	_	Definite=Def|Degree=Sup	4	amod	_	name=O
+4	forskjellen	forskjell	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O
+5	mellom	mellom	ADP	_	_	6	case	_	name=O
+6	Jehovas	Jehovas	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(ap_20091018_3325564__T72--1(ap_20091018_3325564__211878--1
+7	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	flat:name	_	name=I-ORG|Entity=ap_20091018_3325564__211878)
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	andre	annen	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(ap_20091018_3325564__T74--1
+10	kirkesamfunn	kirkesamfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	conj	_	name=O|Entity=ap_20091018_3325564__T74)ap_20091018_3325564__T72)ap_20091018_3325564__T71)
+11	handler	handle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	om	om	ADP	_	_	13	case	_	name=O
+13	synet	syn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=(ap_20091018_3325564__T75--1
+14	på	på	ADP	_	_	15	case	_	name=O
+15	Jesus	Jesus	PROPN	_	Gender=Masc	13	nmod	_	SpaceAfter=No|name=B-PER|Entity=(ap_20091018_3325564__101038--1)ap_20091018_3325564__T75)
+16	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 002627
+# text = De aller fleste kirkesamfunn står sammen om å bekjenne at Jesus både er Gud og menneske.
+1	De	de	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(ap_20091018_3325564__T77--1
+2	aller	aller	ADV	_	_	3	advmod	_	name=O
+3	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	4	amod	_	name=O
+4	kirkesamfunn	kirkesamfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=ap_20091018_3325564__T77)
+5	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	sammen	sammen	ADV	_	_	5	advmod	_	name=O
+7	om	om	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	bekjenne	bekjenne	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+10	at	at	SCONJ	_	_	14	mark	_	name=O
+11	Jesus	Jesus	PROPN	_	Gender=Masc	14	nsubj	_	name=B-PER|Entity=(ap_20091018_3325564__101038--1)
+12	både	både	CCONJ	_	_	14	cc	_	name=O
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	Gud	Gud	PROPN	_	_	9	ccomp	_	name=B-PER|Entity=(ap_20091018_3325564__T79--1(ap_20091018_3325564__3275--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	menneske	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3325564__T81--1)ap_20091018_3325564__T79)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002628
+# text = Det kjente kirkemøtet i Nikea i 325 - som hverken vedtok at kvinnen hadde sjel (!) eller brant en haug alternative evangelier - uttalte at Jesus Kristus var «av samme vesen som Faderen».
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20091018_3325564__T82[1/2]--1
+2	kjente	kjent	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	kirkemøtet	kirkemøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	26	nsubj	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Nikea	Nikea	PROPN	_	_	3	nmod	_	name=B-LOC|Entity=(ap_20091018_3325564__T83--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	325	325	NUM	_	Number=Plur|NumType=Card	3	nmod	_	name=O
+8	-	$-	PUNCT	_	_	11	punct	_	name=O
+9	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+10	hverken	hverken	CCONJ	_	_	11	cc	_	name=O
+11	vedtok	vedta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	name=O
+12	at	at	SCONJ	_	_	14	mark	_	name=O
+13	kvinnen	kvinne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	name=O|Entity=(ap_20091018_3325564__T84--1)
+14	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	ccomp	_	name=O
+15	sjel	sjel	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	name=O|Entity=(ap_20091018_3325564__T85--1)ap_20091018_3325564__T82[1/2])
+16	(	$(	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O
+17	!	$!	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=O
+18	)	$)	PUNCT	_	_	17	punct	_	name=O
+19	eller	eller	CCONJ	_	_	20	cc	_	name=O|Entity=(ap_20091018_3325564__T82[2/2]--1
+20	brant	brenne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	name=O
+21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(ap_20091018_3325564__T87--1(ap_20091018_3325564__T86--1
+22	haug	haug	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	name=O|Entity=ap_20091018_3325564__T86)
+23	alternative	alternativ	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	name=O
+24	evangelier	evangelium	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	obj	_	name=O|Entity=ap_20091018_3325564__T87)
+25	-	$-	PUNCT	_	_	11	punct	_	name=O|Entity=ap_20091018_3325564__T82[2/2])
+26	uttalte	uttale	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+27	at	at	SCONJ	_	_	34	mark	_	name=O
+28	Jesus	Jesus	PROPN	_	Gender=Masc	34	nsubj	_	name=B-PER|Entity=(ap_20091018_3325564__101038--1
+29	Kristus	Kristus	PROPN	_	Gender=Masc	28	flat:name	_	name=I-PER|Entity=ap_20091018_3325564__101038)
+30	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	34	cop	_	name=O
+31	«	$"	PUNCT	_	_	34	punct	_	SpaceAfter=No|name=O
+32	av	av	SCONJ	_	_	34	mark	_	name=O
+33	samme	samme	DET	_	Definite=Def|PronType=Dem	34	det	_	name=O|Entity=(ap_20091018_3325564__T89--1
+34	vesen	vesen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	26	ccomp	_	name=O
+35	som	som	ADP	_	_	36	case	_	name=O
+36	Faderen	Faderen	PROPN	_	_	33	obl	_	SpaceAfter=No|name=B-PER|Entity=(ap_20091018_3325564__3275--1)ap_20091018_3325564__T89)
+37	»	$"	PUNCT	_	_	34	punct	_	SpaceAfter=No|name=O
+38	.	$.	PUNCT	_	_	26	punct	_	name=O
+
+# sent_id = 002629
+# text = Dette tror både lutheranere og katolikker, ortodokse og pinsevenner.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(ap_20091018_3325564__T91--1)
+2	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	både	både	CCONJ	_	_	4	cc	_	name=O
+4	lutheranere	lutheraner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(ap_20091018_3325564__T92--1(ap_20091018_3325564__T93--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	katolikker	katolikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3325564__T94--1
+7	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=ap_20091018_3325564__T94)
+8	ortodokse	ortodoks	ADJ	_	Degree=Pos|Number=Plur	4	conj	_	name=O|Entity=(ap_20091018_3325564__T95--1(ap_20091018_3325564__T96--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	pinsevenner	pinsevenn	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3325564__T97--1)ap_20091018_3325564__T95)ap_20091018_3325564__T92)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002630
+# text = Jehovas vitner tenker annerledes.
+1	Jehovas	Jehovas	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(ap_20091018_3325564__211878--1
+2	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	flat:name	_	name=I-ORG|Entity=ap_20091018_3325564__211878)
+3	tenker	tenke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	annerledes	annerledes	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002631
+# text = De avviser treenighetslæren og mener alle andre kristne er på villspor.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20091018_3325564__211878--1)
+2	avviser	avvise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	treenighetslæren	treenighetslære	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(ap_20091018_3325564__T100--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+6	alle	all	DET	_	Number=Plur|PronType=Tot	8	det	_	name=O|Entity=(ap_20091018_3325564__T101--1
+7	andre	annen	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O
+8	kristne	kristen	ADJ	_	Degree=Pos|Number=Plur	11	nsubj	_	name=O|Entity=ap_20091018_3325564__T101)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	på	på	SCONJ	_	_	11	mark	_	name=O
+11	villspor	villspor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	ccomp	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3325564__T102--1)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002632
+# text = Vitnene kaller Jesus for Guds sønn, men avviser at han er guddommelig.
+1	Vitnene	vitne	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	name=O|Entity=(ap_20091018_3325564__211878--1)
+2	kaller	kalle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Jesus	Jesus	PROPN	_	Gender=Masc	2	obj	_	name=B-PER|Entity=(ap_20091018_3325564__101038--1)
+4	for	for	SCONJ	_	_	6	mark	_	name=O
+5	Guds	Gud	PROPN	_	Case=Gen	6	nmod	_	name=B-PER|Entity=(ap_20091018_3325564__T106--1(ap_20091018_3325564__3275--1)
+6	sønn	sønn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T106)
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	men	men	CCONJ	_	_	9	cc	_	name=O
+9	avviser	avvise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+10	at	at	SCONJ	_	_	13	mark	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20091018_3325564__101038--1)
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+13	guddommelig	guddommelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	ccomp	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002633
+# text = Slik sett kan det kanskje sies at vitnene er usedvanlig moderne.
+1	Slik	slik	ADV	_	_	2	advmod	_	name=O
+2	sett	se	VERB	_	VerbForm=Part	6	advcl	_	name=O
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	name=O|Entity=(ap_20091018_3325564__T108--1)
+5	kanskje	kanskje	ADV	_	_	6	advmod	_	name=O
+6	sies	si	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+7	at	at	SCONJ	_	_	11	mark	_	name=O
+8	vitnene	vitne	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	nsubj	_	name=O|Entity=(ap_20091018_3325564__211878--1)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	usedvanlig	usedvanlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	moderne	moderne	ADJ	_	Degree=Pos|Number=Plur	6	ccomp	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 002634
+# text = Både Dan Brown, med Da Vinci-koden, og endel liberale teologer har argumentert for at Jesus ikke var noe annet enn et menneske.
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	Dan	Dan	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(ap_20091018_3325564__T110--1(ap_20091018_3325564__2238--1
+3	Brown	Brown	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PER
+4	,	$,	PUNCT	_	_	6	punct	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	Da	Da	PROPN	_	_	2	nmod	_	name=B-PROD|Entity=(ap_20091018_3325564__T112--1
+7	Vinci-koden	Vinci-kode	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=ap_20091018_3325564__T112)ap_20091018_3325564__2238)
+8	,	$,	PUNCT	_	_	6	punct	_	name=O
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	endel	endel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(ap_20091018_3325564__T114--1(ap_20091018_3325564__T113--1)
+11	liberale	liberal	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	teologer	teolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	name=O|Entity=ap_20091018_3325564__T114)ap_20091018_3325564__T110)
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	argumentert	argumentere	VERB	_	VerbForm=Part	0	root	_	name=O
+15	for	for	SCONJ	_	_	21	mark	_	name=O
+16	at	at	SCONJ	_	_	21	mark	_	name=O
+17	Jesus	Jesus	PROPN	_	Gender=Masc	21	nsubj	_	name=B-PER|Entity=(ap_20091018_3325564__101038--1)
+18	ikke	ikke	PART	_	Polarity=Neg	21	advmod	_	name=O
+19	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	cop	_	name=O
+20	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	21	det	_	name=O
+21	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	14	advcl	_	name=O
+22	enn	enn	ADP	_	_	24	case	_	name=O
+23	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(ap_20091018_3325564__T116--1
+24	menneske	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T116)
+25	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 002635
+# text = Men Jehovas vitner har andre premisser for sitt syn.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	Jehovas	Jehovas	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(ap_20091018_3325564__211878--1
+3	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	flat:name	_	name=I-ORG|Entity=ap_20091018_3325564__211878)
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	andre	annen	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(ap_20091018_3325564__T118--1
+6	premisser	premiss	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obj	_	name=O
+7	for	for	ADP	_	_	9	case	_	name=O
+8	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(ap_20091018_3325564__T120--1(ap_20091018_3325564__211878--1)
+9	syn	syn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T120)ap_20091018_3325564__T118)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002636
+# text = De argumenterer ut fra den bibel alle kristne bruker - selv om de nå har utarbeidet sin egen oversettelse.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20091018_3325564__211878--1)
+2	argumenterer	argumentere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ut	ut	ADP	_	_	6	case	_	name=O
+4	fra	fra	ADP	_	_	6	case	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(ap_20091018_3325564__2187--1
+6	bibel	bibel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+7	alle	all	DET	_	Number=Plur|PronType=Tot	8	det	_	name=O|Entity=(ap_20091018_3325564__T123--1
+8	kristne	kristen	ADJ	_	Degree=Pos|Number=Plur	9	nsubj	_	name=O|Entity=ap_20091018_3325564__T123)
+9	bruker	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O|Entity=ap_20091018_3325564__2187)
+10	-	$-	PUNCT	_	_	16	punct	_	name=O
+11	selv	selv	ADV	_	_	12	advmod	_	name=O
+12	om	om	SCONJ	_	_	16	mark	_	name=O
+13	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(ap_20091018_3325564__211878--1)
+14	nå	nå	ADV	_	_	16	advmod	_	name=O
+15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	utarbeidet	utarbeide	VERB	_	VerbForm=Part	2	advcl	_	name=O
+17	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(ap_20091018_3325564__T126--1(ap_20091018_3325564__211878--1)
+18	egen	egen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	19	det	_	name=O
+19	oversettelse	oversettelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T126)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002637
+# text = Dan Brown hevder derimot at de første kristne, og dermed Det nye testamente, gjorde Jesus mer guddommelig enn han selv gjorde krav på.
+1	Dan	Dan	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(ap_20091018_3325564__2238--1
+2	Brown	Brown	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=ap_20091018_3325564__2238)
+3	hevder	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	derimot	derimot	ADV	_	_	3	advmod	_	name=O
+5	at	at	SCONJ	_	_	16	mark	_	name=O
+6	de	de	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(ap_20091018_3325564__T128--1(ap_20091018_3325564__T129--1
+7	første	første	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	kristne	kristen	ADJ	_	Degree=Pos|Number=Plur	16	nsubj	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=ap_20091018_3325564__T129)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	dermed	dermed	ADV	_	_	12	advmod	_	name=O|Entity=(ap_20091018_3325564__T130--1
+12	Det	Det	PROPN	_	_	8	conj	_	name=B-PROD
+13	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	flat:name	_	name=I-PROD
+14	testamente	testamente	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	flat:name	_	SpaceAfter=No|name=I-PROD
+15	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=ap_20091018_3325564__T130)ap_20091018_3325564__T128)
+16	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+17	Jesus	Jesus	PROPN	_	Gender=Masc	16	obj	_	name=B-PER|Entity=(ap_20091018_3325564__101038--1)
+18	mer	mye	ADJ	_	Degree=Cmp	19	advmod	_	name=O
+19	guddommelig	guddommelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	xcomp	_	name=O
+20	enn	enn	SCONJ	_	_	23	mark	_	name=O
+21	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	name=O|Entity=(ap_20091018_3325564__101038--1
+22	selv	selv	DET	_	PronType=Prs	21	det	_	name=O|Entity=ap_20091018_3325564__101038)
+23	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	advcl	_	name=O
+24	krav	krav	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	obj	_	name=O|Entity=(ap_20091018_3325564__T133--1
+25	på	på	ADP	_	_	24	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T133)
+26	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 002638
+# text = Mange vet at Jehovas vitner har et helt spesielt forhold til årstallet 1914.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	2	nsubj	_	name=O|Entity=(ap_20091018_3325564__T134--1)
+2	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	6	mark	_	name=O
+4	Jehovas	Jehovas	PROPN	_	_	6	nsubj	_	name=B-ORG|Entity=(ap_20091018_3325564__211878--1
+5	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	flat:name	_	name=I-ORG|Entity=ap_20091018_3325564__211878)
+6	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(ap_20091018_3325564__T136--1
+8	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O
+10	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O
+11	til	til	ADP	_	_	13	case	_	name=O
+12	årstallet	årstall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	name=O|Entity=(ap_20091018_3325564__2309--1
+13	1914	1914	NUM	_	Number=Plur|NumType=Card	10	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__2309)ap_20091018_3325564__T136)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002639
+# text = I dag hevdes det at Jesus da kom tilbake åndelig og «de siste tider» begynte.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20091018_3325564__T137--1)
+3	hevdes	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	Jesus	Jesus	PROPN	_	Gender=Masc	8	nsubj	_	name=B-PER|Entity=(ap_20091018_3325564__101038--1)
+7	da	da	ADV	_	_	8	advmod	_	name=O
+8	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+9	tilbake	tilbake	ADP	_	_	8	compound:prt	_	name=O
+10	åndelig	åndelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+11	og	og	CCONJ	_	_	17	cc	_	name=O
+12	«	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3325564__T139--1
+13	de	de	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O
+14	siste	sist	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	tider	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	17	nsubj	_	SpaceAfter=No|name=O
+16	»	$"	PUNCT	_	_	15	punct	_	name=O|Entity=ap_20091018_3325564__T139)
+17	begynte	begynne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002640
+# text = Det er mulig at viktigheten av årstallet forklarer hvorfor vitnenes hovedkontor ligger i Ytre Enebakk og har postnummer 1914!
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	at	at	SCONJ	_	_	8	mark	_	name=O
+5	viktigheten	viktighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(ap_20091018_3325564__T140--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	årstallet	årstall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(ap_20091018_3325564__2309--1)ap_20091018_3325564__T140)
+8	forklarer	forklare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	csubj	_	name=O
+9	hvorfor	hvorfor	ADV	_	_	12	advmod	_	name=O
+10	vitnenes	vitne	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Plur	11	nmod	_	name=O|Entity=(ap_20091018_3325564__T143--1(ap_20091018_3325564__211878--1)
+11	hovedkontor	hovedkontor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nsubj	_	name=O|Entity=ap_20091018_3325564__T143)
+12	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	Ytre	Ytre	PROPN	_	_	12	obl	_	name=B-GPE_LOC|Entity=(ap_20091018_3325564__T144--1
+15	Enebakk	Enebakk	PROPN	_	_	14	flat:name	_	name=I-GPE_LOC|Entity=ap_20091018_3325564__T144)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	name=O
+18	postnummer	postnummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	name=O|Entity=(ap_20091018_3325564__T145--1)
+19	1914	1914	NUM	_	Number=Plur|NumType=Card	17	obj	_	SpaceAfter=No|name=O
+20	!	$!	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002641
+# text = Men også 1975 var et viktig årstall.
+1	Men	men	CCONJ	_	_	7	cc	_	name=O
+2	også	også	ADV	_	_	3	advmod	_	name=O
+3	1975	1975	NUM	_	Number=Plur|NumType=Card	7	nsubj	_	name=O
+4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20091018_3325564__T146--1
+6	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	årstall	årstall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T146)
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 002642
+# text = Trossamfunnets ledelse regnet nemlig ut at den nåværende verden da ville utløpe.
+1	Trossamfunnets	trossamfunn	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(ap_20091018_3325564__T148--1(ap_20091018_3325564__211878--1)
+2	ledelse	ledelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=ap_20091018_3325564__T148)
+3	regnet	regne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	nemlig	nemlig	ADV	_	_	3	advmod	_	name=O
+5	ut	ut	ADP	_	_	3	compound:prt	_	name=O
+6	at	at	SCONJ	_	_	12	mark	_	name=O
+7	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(ap_20091018_3325564__T149--1
+8	nåværende	nåværende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=ap_20091018_3325564__T149)
+10	da	da	ADV	_	_	12	advmod	_	name=O
+11	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+12	utløpe	utløpe	VERB	_	VerbForm=Inf	3	ccomp	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002643
+# text = Forventningene som ble skapt, var sterke, noe som også kan avleses i medlemsstatistikken i Jehovas vitner.
+1	Forventningene	forventning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	nsubj	_	name=O|Entity=(ap_20091018_3325564__T150--1
+2	som	som	PRON	_	PronType=Rel	4	nsubj:pass	_	name=O
+3	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	name=O
+4	skapt	skape	VERB	_	VerbForm=Part	1	acl:relcl	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=ap_20091018_3325564__T150)
+6	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+7	sterke	sterk	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	7	appos	_	name=O|Entity=(ap_20091018_3325564__T151--1
+10	som	som	PRON	_	PronType=Rel	13	nsubj:pass	_	name=O
+11	også	også	ADV	_	_	13	advmod	_	name=O
+12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	avleses	avlese	VERB	_	VerbForm=Inf|Voice=Pass	9	acl:relcl	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	medlemsstatistikken	medlemsstatistikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(ap_20091018_3325564__T152--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Jehovas	Jehovas	PROPN	_	_	15	nmod	_	name=B-ORG|Entity=(ap_20091018_3325564__211878--1
+18	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20091018_3325564__211878)ap_20091018_3325564__T152)ap_20091018_3325564__T151)
+19	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 002644
+# text = Rett etter 1975 falt medlemstallet, antagelig i skuffelse over at verden fortsatte sin skjeve gang.
+1	Rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+2	etter	etter	ADP	_	_	3	case	_	name=O
+3	1975	1975	NUM	_	Number=Plur|NumType=Card	4	obl	_	name=O
+4	falt	falle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	medlemstallet	medlemstall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No|name=O|Bridge=ap_20091018_3325564__T152<ap_20091018_3325564__T154:default|Entity=(ap_20091018_3325564__T154--1)
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	antagelig	antagelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	skuffelse	skuffelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(ap_20091018_3325564__T155--1
+10	over	over	SCONJ	_	_	13	mark	_	name=O
+11	at	at	SCONJ	_	_	13	mark	_	name=O
+12	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=(ap_20091018_3325564__2313--1)
+13	fortsatte	fortsette	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl	_	name=O
+14	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	name=O|Entity=(ap_20091018_3325564__T158--1(ap_20091018_3325564__2313--1)
+15	skjeve	skjev	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T158)ap_20091018_3325564__T155)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002645
+# text = Men siden den gang har Jehovas vitner vokst jevnt.
+1	Men	men	CCONJ	_	_	8	cc	_	name=O
+2	siden	siden	ADP	_	_	4	case	_	name=O
+3	den	det	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(ap_20091018_3325564__T159--1
+4	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=ap_20091018_3325564__T159)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+6	Jehovas	Jehovas	PROPN	_	_	8	nsubj	_	name=B-ORG|Entity=(ap_20091018_3325564__211878--1
+7	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	flat:name	_	name=I-ORG|Entity=ap_20091018_3325564__211878)
+8	vokst	vokse	VERB	_	VerbForm=Part	0	root	_	name=O
+9	jevnt	jevn	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 002646
+# text = I Norge finnes det omkring dobbelt så mange vitner nå som i 1975 - omkring 15.000.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	Norge	Norge	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(ap_20091018_3325564__T161--1)
+3	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	omkring	omkring	ADP	_	_	8	case	_	name=O|Entity=(ap_20091018_3325564__2327[1/2]--1
+6	dobbelt	dobbel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O|Entity=(ap_20091018_3325564__T162[1/2]--1
+7	så	så	ADV	_	_	8	advmod	_	name=O
+8	mange	mange	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=ap_20091018_3325564__T162[1/2])
+9	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=ap_20091018_3325564__2327[1/2])
+10	nå	nå	ADV	_	_	3	advmod	_	name=O
+11	som	som	ADP	_	_	13	case	_	name=O|Entity=(ap_20091018_3325564__T162[2/2]--1(ap_20091018_3325564__2327[2/2]--1
+12	i	i	ADP	_	_	13	case	_	name=O
+13	1975	1975	NUM	_	Number=Plur|NumType=Card	7	obl	_	name=O|Entity=ap_20091018_3325564__T162[2/2])ap_20091018_3325564__2327[2/2])
+14	-	$-	PUNCT	_	_	16	punct	_	name=O
+15	omkring	omkring	ADP	_	_	16	case	_	name=O
+16	15.000	15.000	NUM	_	Number=Plur|NumType=Card	3	conj	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002647
+# text = De er en sterkt sammensveiset gruppe og har lite eller intet fellesskap med andre kristne.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(ap_20091018_3325564__2327--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20091018_3325564__T165--1
+4	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O
+5	sammensveiset	sammensveiset	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	gruppe	gruppe	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=ap_20091018_3325564__T165)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+9	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	name=O|Entity=(ap_20091018_3325564__T166--1
+10	eller	eller	CCONJ	_	_	11	cc	_	name=O
+11	intet	ingen	DET	_	Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	9	conj	_	name=O
+12	fellesskap	fellesskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	name=O
+13	med	med	ADP	_	_	15	case	_	name=O
+14	andre	annen	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(ap_20091018_3325564__T167--1
+15	kristne	kristen	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3325564__T167)ap_20091018_3325564__T166)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+

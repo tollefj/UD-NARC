@@ -1,0 +1,143 @@
+# newdoc id = firdann~20090415-4263912
+# global.Entity = eid-etype-head-other
+# sent_id = 006142
+# text = Hotellkjøpar trekte seg
+1	Hotellkjøpar	hotellkjøpar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20090415_4263912__T1--1)
+2	trekte	trekkje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	2	obj	_	name=O
+
+# newpar
+# sent_id = 006143
+# text = Jølster Hotell er framleis til sals.
+1	Jølster	Jølster	PROPN	_	_	6	nsubj	_	name=B-LOC|Entity=(firdann~20090415_4263912__678--1
+2	Hotell	Hotell	PROPN	_	_	1	flat:name	_	name=I-LOC|Entity=firdann~20090415_4263912__678)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	framleis	framleis	ADV	_	_	6	advmod	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	sals	sal	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(firdann~20090415_4263912__T3--1)
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 006144
+# text = Jølster Hotell er framleis til sals, etter at ein interessert kjøpar trekte seg.
+1	Jølster	Jølster	PROPN	_	_	6	nsubj	_	name=B-LOC|Entity=(firdann~20090415_4263912__678--1
+2	Hotell	Hotell	PROPN	_	_	1	flat:name	_	name=I-LOC|Entity=firdann~20090415_4263912__678)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	framleis	framleis	ADV	_	_	6	advmod	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	sals	sal	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(firdann~20090415_4263912__T5--1)
+7	,	$,	PUNCT	_	_	13	punct	_	name=O
+8	etter	etter	SCONJ	_	_	13	mark	_	name=O
+9	at	at	SCONJ	_	_	13	mark	_	name=O
+10	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(firdann~20090415_4263912__T6--1
+11	interessert	interessere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	12	amod	_	name=O
+12	kjøpar	kjøpar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=firdann~20090415_4263912__T6)
+13	trekte	trekkje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	name=O
+14	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	13	obj	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006145
+# text = Foto Katrine Sele
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20090415_4263912__T7--1
+2	Katrine	Katrine	NOUN	_	Gender=Fem	1	parataxis	_	name=B-PER|Entity=(firdann~20090415_4263912__T8--1
+3	Sele	Sele	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20090415_4263912__T8)firdann~20090415_4263912__T7)
+
+# newpar
+# sent_id = 006146
+# text = - Det viser seg no at det ikkje blir noko sal av hotellet i denne omgang, skriv eigar av Jølster Hotell, Ottar Øygard, i ei pressemelding.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	obj	_	name=O
+5	no	no	ADV	_	_	3	advmod	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+8	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	name=O
+9	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	csubj	_	name=O
+10	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	11	det	_	name=O|Entity=(firdann~20090415_4263912__T9--1
+11	sal	sal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	hotellet	hotell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(firdann~20090415_4263912__678--1)firdann~20090415_4263912__T9)
+14	i	i	ADP	_	_	16	case	_	name=O
+15	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(firdann~20090415_4263912__T11--1
+16	omgang	omgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090415_4263912__T11)
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+19	eigar	eigar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	name=O|Entity=(firdann~20090415_4263912__358--1(firdann~20090415_4263912__T12--1
+20	av	av	ADP	_	_	21	case	_	name=O
+21	Jølster	Jølster	PROPN	_	_	19	nmod	_	name=B-LOC|Entity=(firdann~20090415_4263912__678--1
+22	Hotell	Hotell	PROPN	_	_	21	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=firdann~20090415_4263912__678)
+23	,	$,	PUNCT	_	_	19	punct	_	name=O|Entity=firdann~20090415_4263912__T12)
+24	Ottar	Ottar	PROPN	_	_	18	nsubj	_	name=B-PER
+25	Øygard	Øygard	PROPN	_	_	24	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20090415_4263912__358)
+26	,	$,	PUNCT	_	_	29	punct	_	name=O
+27	i	i	ADP	_	_	29	case	_	name=O
+28	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	29	det	_	name=O|Entity=(firdann~20090415_4263912__T15--1
+29	pressemelding	pressemelding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090415_4263912__T15)
+30	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006147
+# text = Ifølgje Øygard er ein kjøpar frå USA ikkje lenger aktuell som ny eigar av hotellet.
+1	Ifølgje	ifølgje	ADP	_	_	2	case	_	name=O
+2	Øygard	Øygard	PROPN	_	_	10	obl	_	name=B-PER|Entity=(firdann~20090415_4263912__358--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(firdann~20090415_4263912__T17--1
+5	kjøpar	kjøpar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	name=O
+6	frå	frå	ADP	_	_	7	case	_	name=O
+7	USA	USA	NOUN	_	Abbr=Yes	5	nmod	_	name=B-GPE_LOC|Entity=(firdann~20090415_4263912__T18--1)firdann~20090415_4263912__T17)
+8	ikkje	ikkje	PART	_	Polarity=Neg	10	advmod	_	name=O
+9	lenger	lenge	ADJ	_	Degree=Cmp	10	advmod	_	name=O
+10	aktuell	aktuell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+11	som	som	SCONJ	_	_	13	mark	_	name=O
+12	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(firdann~20090415_4263912__T19--1
+13	eigar	eigar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	acl	_	name=O
+14	av	av	ADP	_	_	15	case	_	name=O
+15	hotellet	hotell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090415_4263912__678--1)firdann~20090415_4263912__T19)
+16	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 006148
+# text = Vedkommande var formidla av ein familie i Luster.
+1	Vedkommande	vedkommande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20090415_4263912__T21--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	formidla	formidle	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+4	av	av	ADP	_	_	6	case	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(firdann~20090415_4263912__T22--1
+6	familie	familie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Luster	Luster	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20090415_4263912__T23--1)firdann~20090415_4263912__T22)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006149
+# text = - Vi seier oss leie for den forvirringa som dette har skapt, seier Øygard.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20090415_4263912__249--1)
+3	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	name=O|Entity=(firdann~20090415_4263912__249--1)
+5	leie	lei	ADJ	_	Degree=Pos|Number=Plur	3	xcomp	_	name=O
+6	for	for	ADP	_	_	8	case	_	name=O
+7	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(firdann~20090415_4263912__T26--1
+8	forvirringa	forvirring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	name=O
+9	som	som	PRON	_	PronType=Rel	12	obj	_	name=O
+10	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(firdann~20090415_4263912__T27--1)
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	skapt	skape	VERB	_	VerbForm=Part	8	acl:relcl	_	SpaceAfter=No|name=O|Entity=firdann~20090415_4263912__T26)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+15	Øygard	Øygard	PROPN	_	_	14	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20090415_4263912__358--1)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006150
+# text = Hotellet er no opna for sesongen og blir drive som før.
+1	Hotellet	hotell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20090415_4263912__678--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	no	no	ADV	_	_	4	advmod	_	name=O
+4	opna	opne	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	for	for	ADP	_	_	6	case	_	name=O
+6	sesongen	sesong	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(firdann~20090415_4263912__T30--1)
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux:pass	_	name=O
+9	drive	drive	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	conj	_	name=O
+10	som	som	ADP	_	_	11	case	_	name=O
+11	før	før	ADP	_	_	9	compound:prt	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+

@@ -1,0 +1,229 @@
+# newdoc id = firdann~20090615-4401197
+# global.Entity = eid-etype-head-other
+# sent_id = 006884
+# text = Med på knallsterkt norsk lag
+1	Med	med	ADP	_	_	0	root	_	name=O
+2	på	på	ADP	_	_	5	case	_	name=O
+3	knallsterkt	knallsterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O|Entity=(firdann~20090615_4401197__T1--1
+4	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O
+5	lag	lag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	name=O|Entity=firdann~20090615_4401197__T1)
+
+# newpar
+# sent_id = 006885
+# text = Eivind Stavang skal representere Norge i European Team Championship.
+1	Eivind	Eivind	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(firdann~20090615_4401197__8222--1
+2	Stavang	Stavang	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20090615_4401197__8222)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	representere	representere	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	Norge	Norge	PROPN	_	_	4	obj	_	name=B-GPE_LOC|Entity=(firdann~20090615_4401197__442--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	European	European	PROPN	_	_	4	obl	_	name=B-EVT|Entity=(firdann~20090615_4401197__4100--1
+8	Team	Team	PROPN	_	_	7	flat:name	_	name=I-EVT
+9	Championship	Championship	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-EVT|Entity=firdann~20090615_4401197__4100)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 006886
+# text = Spring for Norge:
+1	Spring	springe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	for	for	ADP	_	_	3	case	_	name=O
+3	Norge	Norge	PROPN	_	_	1	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20090615_4401197__442--1)
+4	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006887
+# text = Eivind Stavang skal i aksjon på lag med landets beste friidrettsutøvarar.
+1	Eivind	Eivind	NOUN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(firdann~20090615_4401197__8222--1
+2	Stavang	Stavang	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20090615_4401197__8222)
+3	skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	aksjon	aksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(firdann~20090615_4401197__T7--1)
+6	på	på	ADP	_	_	7	case	_	name=O
+7	lag	lag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(firdann~20090615_4401197__230--1
+8	med	med	ADP	_	_	11	case	_	name=O
+9	landets	land	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(firdann~20090615_4401197__T10--1(firdann~20090615_4401197__442--1)
+10	beste	god	ADJ	_	Definite=Def|Degree=Sup	11	amod	_	name=O
+11	friidrettsutøvarar	friidrettsutøvar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4401197__T10)firdann~20090615_4401197__230)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006888
+# text = Foto Asgeir Årdal
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20090615_4401197__T11--1
+2	Asgeir	Asgeir	PROPN	_	_	1	parataxis	_	name=B-PER|Entity=(firdann~20090615_4401197__T12--1
+3	Årdal	Årdal	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20090615_4401197__T12)firdann~20090615_4401197__T11)
+
+# newpar
+# sent_id = 006889
+# text = Norges Friidrettsforbund har teke ut Eivind Stavang til å springe 110 meter hekk under European Team Championship i Bergen til helga.
+1	Norges	Norges	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(firdann~20090615_4401197__T13--1
+2	Friidrettsforbund	Friidrettsforbund	PROPN	_	_	1	flat:name	_	name=I-ORG|Entity=firdann~20090615_4401197__T13)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	teke	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+5	ut	ut	ADP	_	_	4	compound:prt	_	name=O
+6	Eivind	Eivind	NOUN	_	Gender=Masc	4	obj	_	name=B-PER|Entity=(firdann~20090615_4401197__8222--1
+7	Stavang	Stavang	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=firdann~20090615_4401197__8222)
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	springe	springe	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+11	110	110	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(firdann~20090615_4401197__T16--1(firdann~20090615_4401197__T15--1
+12	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	name=O|Entity=firdann~20090615_4401197__T15)
+13	hekk	hekk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=firdann~20090615_4401197__T16)
+14	under	under	ADP	_	_	15	case	_	name=O
+15	European	European	PROPN	_	_	10	obl	_	name=B-EVT|Entity=(firdann~20090615_4401197__4100--1
+16	Team	Team	PROPN	_	_	15	flat:name	_	name=I-EVT
+17	Championship	Championship	PROPN	_	_	15	flat:name	_	name=I-EVT
+18	i	i	ADP	_	_	19	case	_	name=I-EVT
+19	Bergen	Bergen	PROPN	_	_	15	nmod	_	name=I-EVT|Entity=(firdann~20090615_4401197__271--1)
+20	til	til	ADP	_	_	21	case	_	name=O
+21	helga	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4401197__T19--1)firdann~20090615_4401197__4100)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006890
+# text = Der inngår Florø-sprinteren på det som kan vere det sterkaste norske friidrettslandslaget det siste tiåret.
+1	Der	der	ADV	_	_	2	advmod	_	name=O
+2	inngår	inngå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Florø-sprinteren	Florø-sprinter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=B-DRV|Entity=(firdann~20090615_4401197__8222--1)
+4	på	på	ADP	_	_	5	case	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obl	_	name=O|Entity=(firdann~20090615_4401197__T21--1
+6	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+7	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+8	vere	vere	AUX	_	VerbForm=Inf	12	cop	_	name=O
+9	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(firdann~20090615_4401197__230--1
+10	sterkaste	sterk	ADJ	_	Definite=Def|Degree=Sup	12	amod	_	name=O
+11	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	friidrettslandslaget	friidrettslandslag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	acl:relcl	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(firdann~20090615_4401197__T23--1
+14	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	tiåret	tiår	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4401197__T23)firdann~20090615_4401197__230)firdann~20090615_4401197__T21)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006891
+# text = Sterk motstand
+1	Sterk	sterk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(firdann~20090615_4401197__T24--1
+2	motstand	motstand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=firdann~20090615_4401197__T24)
+
+# sent_id = 006892
+# text = Norge skal konkurrere mot elleve andre nasjonar i European Team Championship.
+1	Norge	Norge	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(firdann~20090615_4401197__442--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	konkurrere	konkurrere	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	mot	mot	ADP	_	_	7	case	_	name=O
+5	elleve	elleve	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(firdann~20090615_4401197__T26--1
+6	andre	annan	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O
+7	nasjonar	nasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=firdann~20090615_4401197__T26)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	European	European	PROPN	_	_	3	obl	_	name=B-EVT|Entity=(firdann~20090615_4401197__4100--1
+10	Team	Team	PROPN	_	_	9	flat:name	_	name=I-EVT
+11	Championship	Championship	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-EVT|Entity=firdann~20090615_4401197__4100)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006893
+# text = Motstandarar er land som Romania, Serbia, Tyrkia, Belgia og Nederland.
+1	Motstandarar	motstandar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(firdann~20090615_4401197__T28--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O|Entity=(firdann~20090615_4401197__T29--1
+4	som	som	ADP	_	_	5	case	_	name=O
+5	Romania	Romania	PROPN	_	_	3	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20090615_4401197__T30--1(firdann~20090615_4401197__T31--1
+6	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=firdann~20090615_4401197__T31)
+7	Serbia	Serbia	PROPN	_	_	5	conj	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20090615_4401197__T32--1
+8	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=firdann~20090615_4401197__T32)
+9	Tyrkia	Tyrkia	PROPN	_	_	5	conj	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20090615_4401197__T33--1
+10	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=firdann~20090615_4401197__T33)
+11	Belgia	Belgia	PROPN	_	_	5	conj	_	name=B-ORG|Entity=(firdann~20090615_4401197__T34--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	Nederland	Nederland	PROPN	_	_	5	conj	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20090615_4401197__T35--1)firdann~20090615_4401197__T30)firdann~20090615_4401197__T29)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006894
+# text = Dei tre beste nasjonane rykkjer opp i Spar Super League, medan dei to svakaste rykkjer ned i Second League.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(firdann~20090615_4401197__T36--1
+2	tre	tre	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+3	beste	god	ADJ	_	Definite=Def|Degree=Sup	4	amod	_	name=O
+4	nasjonane	nasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=firdann~20090615_4401197__T36)
+5	rykkjer	rykkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	opp	opp	ADP	_	_	8	case	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Spar	Spar	PROPN	_	_	5	obl	_	name=B-ORG|Entity=(firdann~20090615_4401197__T37--1
+9	Super	Super	PROPN	_	_	8	flat:name	_	name=I-ORG
+10	League	League	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20090615_4401197__T37)
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	medan	medan	SCONJ	_	_	16	mark	_	name=O
+13	dei	dei	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(firdann~20090615_4401197__T38--1
+14	to	to	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O
+15	svakaste	svak	ADJ	_	Definite=Def|Degree=Sup	16	nsubj	_	name=O|Entity=firdann~20090615_4401197__T38)
+16	rykkjer	rykkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+17	ned	ned	ADP	_	_	19	case	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	Second	Second	PROPN	_	_	16	obl	_	name=B-ORG|Entity=(firdann~20090615_4401197__T39--1
+20	League	League	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20090615_4401197__T39)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006895
+# text = Var sjuk i helga
+1	Var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	cop	_	name=O
+2	sjuk	sjuk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	helga	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(firdann~20090615_4401197__T40--1)
+
+# sent_id = 006896
+# text = Stavang deltok i helga på Tyrvingleikane, der han sprang inn til ordinære 14,99 på 110 meter hekk.
+1	Stavang	Stavang	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(firdann~20090615_4401197__8222--1)
+2	deltok	delta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	helga	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(firdann~20090615_4401197__T42--1)
+5	på	på	ADP	_	_	6	case	_	name=O
+6	Tyrvingleikane	Tyrvingleikane	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-EVT|Entity=(firdann~20090615_4401197__T43--1
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	der	der	SCONJ	_	_	10	mark	_	name=O
+9	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(firdann~20090615_4401197__8222--1)
+10	sprang	springe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl	_	name=O
+11	inn	inn	ADP	_	_	10	compound:prt	_	name=O
+12	til	til	ADP	_	_	14	case	_	name=O
+13	ordinære	ordinær	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	14,99	14,99	NUM	_	Number=Plur|NumType=Card	10	obl	_	name=O
+15	på	på	ADP	_	_	18	case	_	name=O
+16	110	110	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(firdann~20090615_4401197__T46--1(firdann~20090615_4401197__T45--1
+17	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	nmod	_	name=O|Entity=firdann~20090615_4401197__T45)
+18	hekk	hekk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090615_4401197__T46)firdann~20090615_4401197__T43)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006897
+# text = Florø-løparen var då småsjuk, og det er venta at han stiller til start i ein sterkare utgåve til stemnet i Bergen til helga.
+1	Florø-løparen	Florø-løpar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=B-DRV|Entity=(firdann~20090615_4401197__8222--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	då	då	ADV	_	_	4	advmod	_	name=O
+4	småsjuk	småsjuk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	venta	vente	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	conj	_	name=O
+10	at	at	SCONJ	_	_	12	mark	_	name=O
+11	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(firdann~20090615_4401197__8222--1)
+12	stiller	stille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	csubj	_	name=O
+13	til	til	ADP	_	_	14	case	_	name=O
+14	start	start	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(firdann~20090615_4401197__T49--1)
+15	i	i	ADP	_	_	18	case	_	name=O
+16	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	18	det	_	name=O|Entity=(firdann~20090615_4401197__T51--1(firdann~20090615_4401197__T50--1)
+17	sterkare	sterk	ADJ	_	Degree=Cmp	18	amod	_	name=O
+18	utgåve	utgåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	name=O|Entity=firdann~20090615_4401197__T51)
+19	til	til	ADP	_	_	20	case	_	name=O
+20	stemnet	stemne	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	name=O|Entity=(firdann~20090615_4401197__4100--1
+21	i	i	ADP	_	_	22	case	_	name=O
+22	Bergen	Bergen	PROPN	_	_	20	nmod	_	name=B-GPE_LOC|Entity=(firdann~20090615_4401197__271--1)
+23	til	til	ADP	_	_	24	case	_	name=O
+24	helga	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4401197__T54--1)firdann~20090615_4401197__4100)
+25	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006899
+# text = I kvinneklassen er Inger Anne Frøysedal utteken i tresteg.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	kvinneklassen	kvinneklasse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(firdann~20090615_4401197__T55--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+4	Inger	Inger	NOUN	_	Gender=Fem	7	nsubj	_	name=B-PER|Entity=(firdann~20090615_4401197__T56--1
+5	Anne	Anne	NOUN	_	Gender=Fem	4	flat:name	_	name=I-PER
+6	Frøysedal	Frøysedal	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=firdann~20090615_4401197__T56)
+7	utteken	utteken	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	tresteg	tresteg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090615_4401197__T57--1)
+10	.	$.	PUNCT	_	_	7	punct	_	name=O
+

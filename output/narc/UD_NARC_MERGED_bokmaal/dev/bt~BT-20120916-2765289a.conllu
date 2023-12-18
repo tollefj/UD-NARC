@@ -1,0 +1,1823 @@
+# newdoc id = bt~BT-20120916-2765289a
+# global.Entity = eid-etype-head-other
+# sent_id = 016834
+# text = Et spørsmål om dømmekraft
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T1--1
+2	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+3	om	om	ADP	_	_	4	case	_	name=O
+4	dømmekraft	dømmekraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T2--1)bt~bt_20120916_2765289a__T1)
+
+# newpar
+# sent_id = 016835
+# text = Er dommer Tor Bertelsen (57) i Bergen tingrett usikket til jobben og kvinnefiendtlig?
+1	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+2	dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1
+3	Tor	Tor	PROPN	_	Gender=Masc	11	nsubj	_	name=B-PER
+4	Bertelsen	Bertelsen	PROPN	_	_	3	flat:name	_	name=I-PER
+5	(	$(	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O
+6	57	57	NUM	_	Number=Plur|NumType=Card	3	nmod	_	SpaceAfter=No|name=O
+7	)	$)	PUNCT	_	_	6	punct	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Bergen	Bergen	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(bt~bt_20120916_2765289a__4500--1
+10	tingrett	tingrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	flat:name	_	name=I-ORG|Entity=bt~bt_20120916_2765289a__4500)bt~bt_20120916_2765289a__9324618)
+11	usikket	uskikket	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	jobben	jobb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__246--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	kvinnefiendtlig	kvinnefiendtlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	SpaceAfter=No|name=O
+16	?	$?	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 016836
+# text = Eller er han utsatt for skitne triks og usanne rykter fra kollegaer?
+1	Eller	eller	CCONJ	_	_	4	cc	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+4	utsatt	utsette	VERB	_	VerbForm=Part	0	root	_	name=O
+5	for	for	ADP	_	_	7	case	_	name=O
+6	skitne	skitten	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T7--1(bt~bt_20120916_2765289a__T8--1
+7	triks	triks	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O|Entity=bt~bt_20120916_2765289a__T8)
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	usanne	usann	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T9--1
+10	rykter	rykte	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	conj	_	name=O
+11	fra	fra	ADP	_	_	12	case	_	name=O
+12	kollegaer	kollega	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T10--1)bt~bt_20120916_2765289a__T9)bt~bt_20120916_2765289a__T7)
+13	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016837
+# text = Nå kan han bli den første dommeren i nyere tid som får sparken.
+1	Nå	nå	ADV	_	_	4	advmod	_	name=O
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+4	bli	bli	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T12--1
+6	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	dommeren	dommer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	xcomp	_	name=O
+8	i	i	ADP	_	_	10	case	_	name=O
+9	nyere	ny	ADJ	_	Degree=Cmp	10	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T13--1
+10	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	name=O|Entity=bt~bt_20120916_2765289a__T13)
+11	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+12	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	name=O
+13	sparken	spark	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T14--1)bt~bt_20120916_2765289a__T12)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 016838
+# text = Se for deg at du skal møte i retten, for første gang.
+1	Se	se	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	for	for	ADP	_	_	3	case	_	name=O
+3	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	1	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__12351--1)
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__12351--1)
+6	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	møte	møte	VERB	_	VerbForm=Inf	1	ccomp	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__2283--1)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	for	for	ADP	_	_	13	case	_	name=O
+12	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T18--1
+13	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T18)
+14	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 016839
+# text = Saken kan endre livet ditt.
+1	Saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T19--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	endre	endre	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T20--1
+5	ditt	din	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__12351--1)bt~bt_20120916_2765289a__T20)
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016840
+# text = Dommeren har makt til å sette deg bak lås og slå, til å gi deg erstatning, eller sende deg ut i økonomisk ruin.
+1	Dommeren	dommer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	makt	makt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T23--1)
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	sette	sette	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__12351--1)
+8	bak	bak	ADP	_	_	9	case	_	name=O
+9	lås	lås	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T25--1(bt~bt_20120916_2765289a__T26--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	slå	slå	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T27--1)bt~bt_20120916_2765289a__T25)
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	til	til	ADP	_	_	15	case	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	gi	gi	VERB	_	VerbForm=Inf	6	conj	_	name=O
+16	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	15	iobj	_	name=O|Entity=(bt~bt_20120916_2765289a__12351--1)
+17	erstatning	erstatning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T29--1)
+18	,	$,	PUNCT	_	_	20	punct	_	name=O
+19	eller	eller	CCONJ	_	_	20	cc	_	name=O
+20	sende	sende	VERB	_	VerbForm=Inf	15	conj	_	name=O
+21	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	20	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__12351--1)
+22	ut	ut	ADP	_	_	25	case	_	name=O
+23	i	i	ADP	_	_	25	case	_	name=O
+24	økonomisk	økonomisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T31--1
+25	ruin	ruin	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T31)
+26	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016841
+# text = Du har øvd i dagevis på hva du skal si foran dommerbordet.
+1	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__12351--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	øvd	øve	VERB	_	VerbForm=Part	0	root	_	name=O
+4	i	i	SCONJ	_	_	10	mark	_	name=O
+5	dagevis	dagevis	ADV	_	_	10	advmod	_	name=O
+6	på	på	SCONJ	_	_	10	mark	_	name=O
+7	hva	hva	PRON	_	PronType=Int	10	obj	_	name=O
+8	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__12351--1)
+9	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	si	si	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+11	foran	foran	ADP	_	_	12	case	_	name=O
+12	dommerbordet	dommerbord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T34--1)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016842
+# text = Du tar på deg den fineste skjorten du har, for å gjøre et best mulig inntrykk.
+1	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__12351--1)
+2	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	2	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__12351--1)
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T37--1
+6	fineste	fin	ADJ	_	Definite=Def|Degree=Sup	7	amod	_	name=O
+7	skjorten	skjorte	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O
+8	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__12351--1)
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T37)
+11	for	for	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	gjøre	gjøre	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+14	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T39--1
+15	best	god	ADJ	_	Definite=Ind|Degree=Sup	17	amod	_	name=O
+16	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+17	inntrykk	inntrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T39)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016843
+# text = Men hva om dommeren er uskikket til jobben?
+1	Men	men	CCONJ	_	_	2	cc	_	name=O
+2	hva	hva	PRON	_	PronType=Int	0	root	_	name=O
+3	om	om	SCONJ	_	_	6	mark	_	name=O
+4	dommeren	dommer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	uskikket	uskikket	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	advcl	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	jobben	jobb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__246--1)
+9	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016844
+# text = Hva om mannen som skal avgjøre din fremtid, ikke er på nett med virkeligheten?
+1	Hva	hva	PRON	_	PronType=Int	0	root	_	name=O
+2	om	om	SCONJ	_	_	13	mark	_	name=O
+3	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1
+4	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+5	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	avgjøre	avgjøre	VERB	_	VerbForm=Inf	3	acl:relcl	_	name=O
+7	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T44--1(bt~bt_20120916_2765289a__12351--1)
+8	fremtid	fremtid	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T44)bt~bt_20120916_2765289a__9324618)
+9	,	$,	PUNCT	_	_	3	punct	_	name=O
+10	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	name=O
+11	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+12	på	på	SCONJ	_	_	13	mark	_	name=O
+13	nett	nett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	advcl	_	name=O|Entity=(bt~bt_20120916_2765289a__T45--1
+14	med	med	ADP	_	_	15	case	_	name=O
+15	virkeligheten	virkelighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T46--1)bt~bt_20120916_2765289a__T45)
+16	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 016845
+# text = Hva om forholdet mellom ham og sjefen hans er så betent at de havner i håndgemeng i tinghuset?
+1	Hva	hva	PRON	_	PronType=Int	0	root	_	name=O
+2	om	om	SCONJ	_	_	11	mark	_	name=O
+3	forholdet	forhold	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T47--1
+4	mellom	mellom	ADP	_	_	5	case	_	name=O
+5	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__2100--1(bt~bt_20120916_2765289a__9324618--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	sjefen	sjef	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	conj	_	name=O|Entity=(bt~bt_20120916_2765289a__T50--1
+8	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)bt~bt_20120916_2765289a__T50)bt~bt_20120916_2765289a__2100)bt~bt_20120916_2765289a__T47)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	så	så	ADV	_	_	11	advmod	_	name=O
+11	betent	betent	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	amod	_	name=O
+12	at	at	SCONJ	_	_	14	mark	_	name=O
+13	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__2100--1)
+14	havner	havne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	håndgemeng	håndgemeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T53--1)
+17	i	i	ADP	_	_	18	case	_	name=O
+18	tinghuset	tinghus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T54--1)
+19	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 016846
+# text = Tanken er åpenbart usannsynlig.
+1	Tanken	tanke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T55--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	åpenbart	åpenbar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	usannsynlig	usannsynlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016847
+# text = Eller?
+1	Eller	eller	CCONJ	_	_	0	root	_	SpaceAfter=No|name=O
+2	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 016848
+# text = 30. juli 1996:
+1	30.	30.	ADJ	_	Number=Plur	2	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T56--1
+2	juli	juli	NOUN	_	Gender=Masc	0	root	_	name=O
+3	1996	1996	NUM	_	Number=Plur|NumType=Card	2	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T56)
+4	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016849
+# text = Operasjonssentralen på politihuset i Bergen får en telefon fra en bekymret kvinne.
+1	Operasjonssentralen	operasjonssentral	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T57--1
+2	på	på	ADP	_	_	3	case	_	name=O
+3	politihuset	politihus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T58--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Bergen	Bergen	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(bt~bt_20120916_2765289a__2253--1)bt~bt_20120916_2765289a__T58)bt~bt_20120916_2765289a__T57)
+6	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T60--1
+8	telefon	telefon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O
+9	fra	fra	ADP	_	_	12	case	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(bt~bt_20120916_2765289a__5377--1
+11	bekymret	bekymre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	12	amod	_	name=O
+12	kvinne	kvinne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__5377)bt~bt_20120916_2765289a__T60)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 016850
+# text = Hennes fraseparerte ektemann, som har hentet barnet deres noen dager tidligere, er ikke å få tak i.
+1	Hennes	hennes	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1(bt~bt_20120916_2765289a__5377--1)
+2	fraseparerte	fraseparert	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	ektemann	ektemann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	7	punct	_	name=O
+5	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	hentet	hente	VERB	_	VerbForm=Part	3	acl:relcl	_	name=O
+8	barnet	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__3242--1
+9	deres	deres	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|SplitAnte=bt~bt_20120916_2765289a__9324618<bt~bt_20120916_2765289a__T65,bt~bt_20120916_2765289a__5377<bt~bt_20120916_2765289a__T65|Entity=(bt~bt_20120916_2765289a__T65--1)bt~bt_20120916_2765289a__3242)
+10	noen	noen	DET	_	Number=Plur|PronType=Ind	11	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T66--1
+11	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	name=O|Entity=bt~bt_20120916_2765289a__T66)
+12	tidligere	tidlig	ADJ	_	Degree=Cmp	7	advmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__9324618)
+13	,	$,	PUNCT	_	_	3	punct	_	name=O
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+15	ikke	ikke	PART	_	Polarity=Neg	17	advmod	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+18	tak	tak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T67--1
+19	i	i	ADP	_	_	18	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T67)
+20	.	$.	PUNCT	_	_	17	punct	_	name=O
+
+# sent_id = 016851
+# text = Hun forteller at han har montert sikkerhetslås på leiligheten, og at han ikke svarer på telefonen.
+1	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__5377--1)
+2	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	6	mark	_	name=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	montert	montere	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+7	sikkerhetslås	sikkerhetslås	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T70--1)
+8	på	på	ADP	_	_	9	case	_	name=O
+9	leiligheten	leilighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__2175--1)
+10	,	$,	PUNCT	_	_	15	punct	_	name=O
+11	og	og	CCONJ	_	_	15	cc	_	name=O
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+14	ikke	ikke	PART	_	Polarity=Neg	15	advmod	_	name=O
+15	svarer	svare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+16	på	på	ADP	_	_	17	case	_	name=O
+17	telefonen	telefon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T73--1)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016852
+# text = Kvinnen ber om politiets hjelp til å bli gjenforent med barnet.
+1	Kvinnen	kvinne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__5377--1)
+2	ber	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	om	om	ADP	_	_	5	case	_	name=O
+4	politiets	politi	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T76--1(bt~bt_20120916_2765289a__3235--1)
+5	hjelp	hjelp	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O
+6	til	til	SCONJ	_	_	9	mark	_	name=O
+7	å	å	PART	_	_	9	mark	_	name=O
+8	bli	bli	AUX	_	VerbForm=Inf	9	aux:pass	_	name=O
+9	gjenforent	gjenforene	VERB	_	VerbForm=Part	5	acl	_	name=O
+10	med	med	ADP	_	_	11	case	_	name=O
+11	barnet	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__3242--1)bt~bt_20120916_2765289a__T76)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016853
+# text = Informasjonen overbeviser politiets vaktsjef om at de står overfor en nødssituasjon, fastslår daværende politimester Rolf B. Wegner senere i en skriftlig redegjørelse.
+1	Informasjonen	informasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T78--1)
+2	overbeviser	overbevise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	politiets	politi	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T80--1(bt~bt_20120916_2765289a__4761--1(bt~bt_20120916_2765289a__3235--1)
+4	vaktsjef	vaktsjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=bt~bt_20120916_2765289a__4761)
+5	om	om	SCONJ	_	_	8	mark	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__3235--1)
+8	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl	_	name=O
+9	overfor	overfor	ADP	_	_	11	case	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T82--1
+11	nødssituasjon	nødssituasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T82)bt~bt_20120916_2765289a__T80)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	fastslår	fastslå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+14	daværende	daværende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T84--1(bt~bt_20120916_2765289a__T83--1
+15	politimester	politimester	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=bt~bt_20120916_2765289a__T83)
+16	Rolf	Rolf	PROPN	_	Gender=Masc	13	nsubj	_	name=B-PER
+17	B.	B.	PROPN	_	Abbr=Yes	16	flat:name	_	name=I-PER
+18	Wegner	Wegner	PROPN	_	_	16	flat:name	_	name=I-PER|Entity=bt~bt_20120916_2765289a__T84)
+19	senere	sen	ADJ	_	Degree=Cmp	13	advmod	_	name=O
+20	i	i	ADP	_	_	23	case	_	name=O
+21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T85--1
+22	skriftlig	skriftlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	23	amod	_	name=O
+23	redegjørelse	redegjørelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T85)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016854
+# text = Det er ingen av disse konfliktene jeg har vært hovedårsak til.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	0	root	_	name=O
+4	av	av	ADP	_	_	6	case	_	name=O
+5	disse	disse	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T86--1
+6	konfliktene	konflikt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	name=O|Entity=bt~bt_20120916_2765289a__T86)
+7	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	vært	være	AUX	_	VerbForm=Part	10	cop	_	name=O
+10	hovedårsak	hovedårsak	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	acl:cleft	_	name=O|Entity=(bt~bt_20120916_2765289a__T88--1)
+11	til	til	ADP	_	_	10	obl	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016855
+# text = Men det er klart at en som har hatt en så vanskelig arbeidssituasjon i 16 år, kan gjøre ting for å mestre problemene som burde vært ugjort.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	at	at	SCONJ	_	_	19	mark	_	name=O
+6	en	en	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	19	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T89--1
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	hatt	ha	VERB	_	VerbForm=Part	6	acl:relcl	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T90--1
+11	så	så	ADV	_	_	12	advmod	_	name=O
+12	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	arbeidssituasjon	arbeidssituasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	name=O
+14	i	i	ADP	_	_	16	case	_	name=O
+15	16	16	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(bt~bt_20120916_2765289a__T91--1
+16	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T91)bt~bt_20120916_2765289a__T90)
+17	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T89)
+18	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	gjøre	gjøre	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+20	ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T92--1)
+21	for	for	SCONJ	_	_	23	mark	_	name=O
+22	å	å	PART	_	_	23	mark	_	name=O
+23	mestre	mestre	VERB	_	VerbForm=Inf	19	advcl	_	name=O
+24	problemene	problem	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	23	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T93--1
+25	som	som	PRON	_	PronType=Rel	28	nsubj	_	name=O
+26	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	name=O
+27	vært	være	AUX	_	VerbForm=Part	28	cop	_	name=O
+28	ugjort	ugjort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	24	acl:relcl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T93)
+29	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016856
+# text = Vaktsjefen skriver i sin rapport at han vurderer situasjonen som «uklar med henblikk på barnets sikkerhet».
+1	Vaktsjefen	vaktsjef	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__4761--1)
+2	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__2213--1(bt~bt_20120916_2765289a__4761--1)
+5	rapport	rapport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=bt~bt_20120916_2765289a__2213)
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__4761--1)
+8	vurderer	vurdere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+9	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T98--1)
+10	som	som	SCONJ	_	_	12	mark	_	name=O
+11	«	$"	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T99--1
+12	uklar	uklar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	xcomp	_	name=O
+13	med	med	ADP	_	_	14	case	_	name=O
+14	henblikk	henblikk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T100--1
+15	på	på	ADP	_	_	17	case	_	name=O
+16	barnets	barn	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T102--1(bt~bt_20120916_2765289a__3242--1)
+17	sikkerhet	sikkerhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T102)bt~bt_20120916_2765289a__T100)
+18	»	$"	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T99)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016857
+# text = Da patruljen kommer frem til leiligheten, har mannen forsvunnet med barnevognen.
+1	Da	da	SCONJ	_	_	3	mark	_	name=O
+2	patruljen	patrulje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__2213--1)
+3	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+4	frem	frem	ADP	_	_	6	case	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	leiligheten	leilighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__2175--1)
+7	,	$,	PUNCT	_	_	3	punct	_	name=O
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+10	forsvunnet	forsvinne	VERB	_	VerbForm=Part	0	root	_	name=O
+11	med	med	ADP	_	_	12	case	_	name=O
+12	barnevognen	barnevogn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T106--1)
+13	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 016858
+# text = Politibilen kjører rundt på leting.
+1	Politibilen	politibil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Bridge=bt~bt_20120916_2765289a__2213<bt~bt_20120916_2765289a__T107:default|Entity=(bt~bt_20120916_2765289a__T107--1)
+2	kjører	kjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	rundt	rundt	ADP	_	_	2	compound:prt	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	leting	leting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T108--1)
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016859
+# text = Hos dagmammaen finner de ingen.
+1	Hos	hos	ADP	_	_	2	case	_	name=O
+2	dagmammaen	dagmamma	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T109--1)
+3	finner	finne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__2213--1)
+5	ingen	ingen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|Polarity=Neg|PronType=Neg,Prs	3	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T111--1)
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016860
+# text = «Melder mente at ektefellen nå sannsynligvis hadde begitt seg til sitt arbeidssted i Bergen tinghus», heter det i politirapporten.
+1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Melder	melder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__5377--1)
+3	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	ektefellen	ektefelle	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+6	nå	nå	ADV	_	_	9	advmod	_	name=O
+7	sannsynligvis	sannsynligvis	ADV	_	_	9	advmod	_	name=O
+8	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+9	begitt	begi	VERB	_	VerbForm=Part	3	ccomp	_	name=O
+10	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+11	til	til	ADP	_	_	13	case	_	name=O
+12	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T115--1(bt~bt_20120916_2765289a__9324618--1)
+13	arbeidssted	arbeidssted	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Bergen	Bergen	PROPN	_	_	13	nmod	_	name=B-LOC|Entity=(bt~bt_20120916_2765289a__T116--1
+16	tinghus	tinghus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=bt~bt_20120916_2765289a__T116)bt~bt_20120916_2765289a__T115)
+17	»	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	heter	hete	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+20	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	name=O
+21	i	i	ADP	_	_	22	case	_	name=O
+22	politirapporten	politirapport	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__2213--1)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016861
+# text = Mannen er Tor Holger Bertelsen, dommer i Bergen tingrett.
+1	Mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	Tor	Tor	PROPN	_	Gender=Masc	0	root	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__T119--1
+4	Holger	Holger	PROPN	_	_	3	flat:name	_	name=I-PER
+5	Bertelsen	Bertelsen	PROPN	_	_	3	flat:name	_	SpaceAfter=No|name=I-PER
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	appos	_	name=O|Entity=(bt~bt_20120916_2765289a__T120--1
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Bergen	Bergen	PROPN	_	_	7	nmod	_	name=B-ORG|Entity=(bt~bt_20120916_2765289a__4500--1
+10	tingrett	tingrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=bt~bt_20120916_2765289a__4500)bt~bt_20120916_2765289a__T120)bt~bt_20120916_2765289a__T119)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016862
+# text = Det som skjer den neste timen, markerer starten på en 16 år lang konflikt som har rokket Tinghuset i grunnvollene.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T122--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T123--1
+5	neste	neste	DET	_	Definite=Def|PronType=Dem	6	det	_	name=O
+6	timen	time	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T123)
+7	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T122)
+8	markerer	markere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	starten	start	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T124--1
+10	på	på	ADP	_	_	15	case	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(bt~bt_20120916_2765289a__4827--1
+12	16	16	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(bt~bt_20120916_2765289a__T125--1
+13	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	name=O|Entity=bt~bt_20120916_2765289a__T125)
+14	lang	lang	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	konflikt	konflikt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O
+16	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+17	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	rokket	rokke	VERB	_	VerbForm=Part	15	acl:relcl	_	name=O
+19	Tinghuset	Tinghuset	PROPN	_	_	18	obj	_	name=B-LOC|Entity=(bt~bt_20120916_2765289a__2356--1)
+20	i	i	ADP	_	_	21	case	_	name=O
+21	grunnvollene	grunnvoll	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T128--1)bt~bt_20120916_2765289a__4827)bt~bt_20120916_2765289a__T124)
+22	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 016863
+# text = Uskikket, eller bare misforstått?
+1	Uskikket	uskikket	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+2	,	$,	PUNCT	_	_	5	punct	_	name=O
+3	eller	eller	CCONJ	_	_	5	cc	_	name=O
+4	bare	bare	ADV	_	_	5	advmod	_	name=O
+5	misforstått	misforstå	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	1	conj	_	SpaceAfter=No|name=O
+6	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 016864
+# text = - Alt begynner med denne hendelsen, det som er blitt kalt for barrikadesaken.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T129--1)
+3	begynner	begynne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	med	med	ADP	_	_	6	case	_	name=O
+5	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(bt~bt_20120916_2765289a__4827--1
+6	hendelsen	hendelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	appos	_	name=O|Entity=(bt~bt_20120916_2765289a__T131--1
+9	som	som	PRON	_	PronType=Rel	12	nsubj:pass	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	blitt	bli	AUX	_	VerbForm=Part	12	aux:pass	_	name=O
+12	kalt	kalle	VERB	_	VerbForm=Part	8	acl:relcl	_	name=O
+13	for	for	SCONJ	_	_	14	mark	_	name=O
+14	barrikadesaken	barrikadesak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T132--1)bt~bt_20120916_2765289a__T131)bt~bt_20120916_2765289a__4827)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016865
+# text = Den utløser masse rykter, som tiltar gjennom flere år.
+1	Den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__4827--1)
+2	utløser	utløse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	masse	masse	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T134--1
+4	rykter	rykte	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	7	punct	_	name=O
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	tiltar	tilta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+8	gjennom	gjennom	ADP	_	_	10	case	_	name=O
+9	flere	mange	ADJ	_	Degree=Cmp	10	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T135--1
+10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T135)bt~bt_20120916_2765289a__T134)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016866
+# text = Jeg blir tillagt en rekke egenskaper i lys av dette.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj:pass	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux:pass	_	name=O
+3	tillagt	tillegge	VERB	_	VerbForm=Part	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T138--1(bt~bt_20120916_2765289a__T137--1
+5	rekke	rekke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=bt~bt_20120916_2765289a__T137)
+6	egenskaper	egenskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O|Entity=bt~bt_20120916_2765289a__T138)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	lys	lys	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T139--1
+9	av	av	ADP	_	_	10	case	_	name=O
+10	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T140--1)bt~bt_20120916_2765289a__T139)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016867
+# text = Tor Holger Bertelsen (57) setter et nytt brilleglass utenpå paret som allerede hviler på nesen, og myser mot de mange dokumentene i saken mot ham.
+1	Tor	Tor	PROPN	_	Gender=Masc	7	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1
+2	Holger	Holger	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Bertelsen	Bertelsen	PROPN	_	_	1	flat:name	_	name=I-PER
+4	(	$(	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+5	57	57	NUM	_	Number=Plur|NumType=Card	1	nmod	_	SpaceAfter=No|name=O
+6	)	$)	PUNCT	_	_	5	punct	_	name=O|Entity=bt~bt_20120916_2765289a__9324618)
+7	setter	sette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T142--1
+9	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O
+10	brilleglass	brilleglass	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	name=O|Entity=bt~bt_20120916_2765289a__T142)
+11	utenpå	utenpå	ADP	_	_	12	case	_	name=O
+12	paret	par	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T143--1
+13	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+14	allerede	allerede	ADV	_	_	15	advmod	_	name=O
+15	hviler	hvile	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	name=O
+16	på	på	ADP	_	_	17	case	_	name=O
+17	nesen	nese	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Bridge=bt~bt_20120916_2765289a__9324618<bt~bt_20120916_2765289a__T144:default|Entity=(bt~bt_20120916_2765289a__T144--1)bt~bt_20120916_2765289a__T143)
+18	,	$,	PUNCT	_	_	20	punct	_	name=O
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	myser	myse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	name=O
+21	mot	mot	ADP	_	_	24	case	_	name=O
+22	de	de	DET	_	Number=Plur|PronType=Dem	24	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T145--1
+23	mange	mange	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	name=O
+24	dokumentene	dokument	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	20	obl	_	name=O
+25	i	i	ADP	_	_	26	case	_	name=O
+26	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__3541--1
+27	mot	mot	ADP	_	_	28	case	_	name=O
+28	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)bt~bt_20120916_2765289a__3541)bt~bt_20120916_2765289a__T145)
+29	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 016868
+# text = Bunken på bordet hjemme i stuen på Møhlenpris er fyldig.
+1	Bunken	bunke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T148--1
+2	på	på	ADP	_	_	3	case	_	name=O
+3	bordet	bord	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T149--1
+4	hjemme	hjemme	ADP	_	_	6	case	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	stuen	stue	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T150--1
+7	på	på	ADP	_	_	8	case	_	name=O
+8	Møhlenpris	Møhlenpris	PROPN	_	_	6	nmod	_	name=B-GPE_LOC|Entity=(bt~bt_20120916_2765289a__T151--1)bt~bt_20120916_2765289a__T150)bt~bt_20120916_2765289a__T149)bt~bt_20120916_2765289a__T148)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	fyldig	fyldig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 016869
+# text = Etter 16 år skal det nå avgjøres om Bertelsen skal fratas dommerkappen for godt.
+1	Etter	etter	ADP	_	_	3	case	_	name=O
+2	16	16	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(bt~bt_20120916_2765289a__T152--1
+3	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O|Entity=bt~bt_20120916_2765289a__T152)
+4	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+6	nå	nå	ADV	_	_	7	advmod	_	name=O
+7	avgjøres	avgjøre	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+8	om	om	SCONJ	_	_	11	mark	_	name=O
+9	Bertelsen	Bertelsen	PROPN	_	_	11	nsubj:pass	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+10	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	fratas	frata	VERB	_	VerbForm=Inf|Voice=Pass	7	ccomp	_	name=O
+12	dommerkappen	dommerkappe	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T154--1)
+13	for	for	ADP	_	_	14	case	_	name=O
+14	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T155--1)
+15	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 016870
+# text = Han er anklaget for å sjikanere vitner, og for å favorisere fedre i familiefordelingssaker.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	anklaget	anklage	VERB	_	VerbForm=Part	0	root	_	name=O
+4	for	for	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	sjikanere	sjikanere	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+7	vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T157--1)
+8	,	$,	PUNCT	_	_	12	punct	_	name=O
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	for	for	ADP	_	_	12	case	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	favorisere	favorisere	VERB	_	VerbForm=Inf	6	conj	_	name=O
+13	fedre	far	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T158--1)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	familiefordelingssaker	familiefordelingssak	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T159--1)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016871
+# text = I årevis har pressen fråtset i juridisk rot og krangling med andre dommere og sjefer i tingretten.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	årevis	årevis	ADV	_	_	5	advmod	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	pressen	presse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T160--1)
+5	fråtset	fråtse	VERB	_	VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	juridisk	juridisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T161--1(bt~bt_20120916_2765289a__T162--1
+8	rot	rot	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=bt~bt_20120916_2765289a__T162)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	krangling	krangling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	name=O|Entity=(bt~bt_20120916_2765289a__T163--1
+11	med	med	ADP	_	_	13	case	_	name=O
+12	andre	annen	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T164--1(bt~bt_20120916_2765289a__T165--1
+13	dommere	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	name=O|Entity=bt~bt_20120916_2765289a__T165)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	sjefer	sjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	conj	_	name=O|Entity=(bt~bt_20120916_2765289a__T166--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	tingretten	tingrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__4500--1)bt~bt_20120916_2765289a__T166)bt~bt_20120916_2765289a__T164)bt~bt_20120916_2765289a__T163)bt~bt_20120916_2765289a__T161)
+18	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 016872
+# text = Bertelsen har til nå ikke gitt sin fulle versjon av saken.
+1	Bertelsen	Bertelsen	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	nå	nå	ADV	_	_	6	advmod	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	gitt	gi	VERB	_	VerbForm=Part	0	root	_	name=O
+7	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T170--1(bt~bt_20120916_2765289a__9324618--1)
+8	fulle	full	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	versjon	versjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__3541--1)bt~bt_20120916_2765289a__T170)
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 016873
+# text = Nå stiller han opp i Bergens Tidende.
+1	Nå	nå	ADV	_	_	2	advmod	_	name=O
+2	stiller	stille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+4	opp	opp	ADP	_	_	2	compound:prt	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Bergens	Bergens	PROPN	_	_	2	obl	_	name=B-PROD|Entity=(bt~bt_20120916_2765289a__51561--1
+7	Tidende	Tidende	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=bt~bt_20120916_2765289a__51561)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016874
+# text = Han mener arbeidsgiveren har spredd usanne rykter om ham.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	arbeidsgiveren	arbeidsgiver	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__3533--1)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	spredd	spre	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+6	usanne	usann	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T176--1
+7	rykter	rykte	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	name=O
+8	om	om	ADP	_	_	9	case	_	name=O
+9	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)bt~bt_20120916_2765289a__T176)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016875
+# text = At sjefene hans i sin iver etter å bli kvitt ham, har brukt skitne triks og brutt personvernet.
+1	At	at	SCONJ	_	_	14	mark	_	name=O
+2	sjefene	sjef	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	14	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__3533--1
+3	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)bt~bt_20120916_2765289a__3533)
+4	i	i	ADP	_	_	6	case	_	name=O
+5	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T181--1(bt~bt_20120916_2765289a__3533--1)
+6	iver	iver	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O
+7	etter	etter	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	bli	bli	VERB	_	VerbForm=Inf	6	acl	_	name=O
+10	kvitt	kvitt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	xcomp	_	name=O
+11	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)bt~bt_20120916_2765289a__T181)
+12	,	$,	PUNCT	_	_	6	punct	_	name=O
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	brukt	bruke	VERB	_	VerbForm=Part	0	root	_	name=O
+15	skitne	skitten	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T183--1
+16	triks	triks	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	obj	_	name=O|Entity=bt~bt_20120916_2765289a__T183)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	brutt	bryte	VERB	_	VerbForm=Part	14	conj	_	name=O
+19	personvernet	personvern	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T184--1)
+20	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 016876
+# text = - På grunn av ryktespredningen som har vært gjennom 16 år, har jeg brukt store deler av arbeidstiden på å få arbeidssituasjonen til å fungere, sier han.
+1	-	$-	PUNCT	_	_	15	punct	_	name=O
+2	På	på	ADP	_	_	3	case	_	name=O
+3	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T185--1
+4	av	av	ADP	_	_	5	case	_	name=O
+5	ryktespredningen	ryktespredning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T186--1
+6	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	vært	være	VERB	_	VerbForm=Part	5	acl:relcl	_	name=O
+9	gjennom	gjennom	ADP	_	_	11	case	_	name=O
+10	16	16	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(bt~bt_20120916_2765289a__T187--1
+11	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T187)bt~bt_20120916_2765289a__T186)bt~bt_20120916_2765289a__T185)
+12	,	$,	PUNCT	_	_	3	punct	_	name=O
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+14	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+15	brukt	bruke	VERB	_	VerbForm=Part	0	root	_	name=O
+16	store	stor	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T189--1
+17	deler	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obj	_	name=O
+18	av	av	ADP	_	_	19	case	_	name=O
+19	arbeidstiden	arbeidstid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T190--1)bt~bt_20120916_2765289a__T189)
+20	på	på	SCONJ	_	_	22	mark	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	få	få	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+23	arbeidssituasjonen	arbeidssituasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T191--1)
+24	til	til	SCONJ	_	_	26	mark	_	name=O
+25	å	å	PART	_	_	26	mark	_	name=O
+26	fungere	fungere	VERB	_	VerbForm=Inf	22	xcomp	_	SpaceAfter=No|name=O
+27	,	$,	PUNCT	_	_	28	punct	_	name=O
+28	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	parataxis	_	name=O
+29	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+30	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 016877
+# text = Suspendert.
+1	Suspendert	suspendere	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 016878
+# text = Siden 1994 har Bertelsen bestemt hva som er rett og galt for byens borgere.
+1	Siden	siden	ADP	_	_	2	case	_	name=O
+2	1994	1994	NUM	_	Number=Plur|NumType=Card	5	obl	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	Bertelsen	Bertelsen	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+5	bestemt	bestemme	VERB	_	VerbForm=Part	0	root	_	name=O
+6	hva	hva	PRON	_	PronType=Int	9	nsubj	_	name=O
+7	som	som	PRON	_	PronType=Rel	9	obj	_	name=O
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	ccomp	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	galt	gal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	conj	_	name=O
+12	for	for	ADP	_	_	14	case	_	name=O
+13	byens	by	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T195--1(bt~bt_20120916_2765289a__2253--1)
+14	borgere	borger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T195)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 016879
+# text = Får han nå sparken, blir han den første dommeren i moderne tid som blir fradømt jobben.
+1	Får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	name=O
+2	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+3	nå	nå	ADV	_	_	1	advmod	_	name=O
+4	sparken	spark	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T197--1)
+5	,	$,	PUNCT	_	_	1	punct	_	name=O
+6	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T199--1
+9	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	dommeren	dommer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	xcomp	_	name=O
+11	i	i	ADP	_	_	13	case	_	name=O
+12	moderne	moderne	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T200--1
+13	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	name=O|Entity=bt~bt_20120916_2765289a__T200)
+14	som	som	PRON	_	PronType=Rel	16	nsubj:pass	_	name=O
+15	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux:pass	_	name=O
+16	fradømt	fradømme	VERB	_	VerbForm=Part	10	acl:relcl	_	name=O
+17	jobben	jobb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__3650--1)bt~bt_20120916_2765289a__T199)
+18	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 016880
+# text = Det er ikke første gang han har kjempet med ryggen mot veggen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+4	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T202--1
+5	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+6	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	kjempet	kjempe	VERB	_	VerbForm=Part	5	acl:cleft	_	name=O
+9	med	med	ADP	_	_	10	case	_	name=O
+10	ryggen	rygg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T204--1)
+11	mot	mot	SCONJ	_	_	12	mark	_	name=O
+12	veggen	vegg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T205--1)bt~bt_20120916_2765289a__T202)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 016881
+# text = Bertelsen ble også i 2010 forsøkt fjernet av Bergen tingrett og Domstolsadministrasjonen (DA) i Trondheim - det administrative hovedsetet for domstolene i Norge - men da beholdt han jobben.
+1	Bertelsen	Bertelsen	PROPN	_	_	7	nsubj:pass	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	name=O
+3	også	også	ADV	_	_	5	advmod	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	2010	2010	NUM	_	Number=Plur|NumType=Card	7	obl	_	name=O
+6	forsøkt	forsøke	VERB	_	VerbForm=Part	0	root	_	name=O
+7	fjernet	fjerne	VERB	_	VerbForm=Part	6	xcomp	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	Bergen	Bergen	PROPN	_	_	7	obl	_	name=B-ORG|Entity=(bt~bt_20120916_2765289a__T207--1(bt~bt_20120916_2765289a__4500--1
+10	tingrett	tingrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	flat:name	_	name=I-ORG|Entity=bt~bt_20120916_2765289a__4500)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	Domstolsadministrasjonen	Domstolsadministrasjonen	PROPN	_	_	9	conj	_	name=B-ORG|Entity=(bt~bt_20120916_2765289a__2487--1
+13	(	$(	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T210--1
+14	DA	DA	PROPN	_	_	12	appos	_	SpaceAfter=No|name=B-ORG
+15	)	$)	PUNCT	_	_	14	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T210)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Trondheim	Trondheim	PROPN	_	_	12	nmod	_	name=B-GPE_LOC|Entity=(bt~bt_20120916_2765289a__T211--1)
+18	-	$-	PUNCT	_	_	21	punct	_	name=O
+19	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	21	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T212--1
+20	administrative	administrativ	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	hovedsetet	hovedsete	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	appos	_	name=O
+22	for	for	ADP	_	_	23	case	_	name=O
+23	domstolene	domstol	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	21	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T213--1
+24	i	i	ADP	_	_	25	case	_	name=O
+25	Norge	Norge	PROPN	_	_	23	nmod	_	name=B-GPE_LOC|Entity=(bt~bt_20120916_2765289a__T214--1)bt~bt_20120916_2765289a__T213)bt~bt_20120916_2765289a__2487)
+26	-	$-	PUNCT	_	_	21	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T212)bt~bt_20120916_2765289a__T207)
+27	men	men	CCONJ	_	_	29	cc	_	name=O
+28	da	da	ADV	_	_	29	advmod	_	name=O
+29	beholdt	beholde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	name=O
+30	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+31	jobben	jobb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__3650--1)
+32	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 016882
+# text = I mai i år ble Bertelsen ilagt advarsel fra tilsynsutvalget, og 6. juli i år tok saken en ny vending.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	mai	mai	NOUN	_	Gender=Masc	7	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T217--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T218--1)bt~bt_20120916_2765289a__T217)
+5	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	name=O
+6	Bertelsen	Bertelsen	PROPN	_	_	7	nsubj:pass	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+7	ilagt	ilegge	VERB	_	VerbForm=Part	0	root	_	name=O
+8	advarsel	advarsel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T220--1
+9	fra	fra	ADP	_	_	10	case	_	name=O
+10	tilsynsutvalget	tilsynsutvalg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T221--1)bt~bt_20120916_2765289a__T220)
+11	,	$,	PUNCT	_	_	17	punct	_	name=O
+12	og	og	CCONJ	_	_	17	cc	_	name=O
+13	6.	6.	ADJ	_	Number=Plur	14	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T222--1
+14	juli	juli	NOUN	_	Gender=Masc	17	obl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T223--1)bt~bt_20120916_2765289a__T222)
+17	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	name=O
+18	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__3541--1)
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T225--1
+20	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	vending	vending	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T225)
+22	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 016883
+# text = Dommeren ble suspendert fra stillingen sin, og utestengt fra Tinghuset i påvente av en eventuell rettssak.
+1	Dommeren	dommer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	suspendert	suspendere	VERB	_	VerbForm=Part	0	root	_	name=O
+4	fra	fra	ADP	_	_	5	case	_	name=O
+5	stillingen	stilling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T227--1
+6	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)bt~bt_20120916_2765289a__T227)
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	utestengt	utestenge	VERB	_	VerbForm=Part	3	conj	_	name=O
+10	fra	fra	ADP	_	_	11	case	_	name=O
+11	Tinghuset	Tinghuset	PROPN	_	_	9	obl	_	name=B-LOC|Entity=(bt~bt_20120916_2765289a__2356--1)
+12	i	i	ADP	_	_	13	case	_	name=O
+13	påvente	påvente	NOUN	_	_	9	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T230--1
+14	av	av	ADP	_	_	17	case	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T231--1
+16	eventuell	eventuell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	rettssak	rettssak	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T231)bt~bt_20120916_2765289a__T230)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016884
+# text = Om Bertelsen ikke vil forlate jobben frivillig, vurderer Justisdepartementet å gå rettens vei for å avskjedige ham.
+1	Om	om	SCONJ	_	_	5	mark	_	name=O
+2	Bertelsen	Bertelsen	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+3	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+4	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	forlate	forlate	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+6	jobben	jobb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__3650--1)
+7	frivillig	frivillig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	5	punct	_	name=O
+9	vurderer	vurdere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	Justisdepartementet	Justisdepartementet	PROPN	_	_	9	nsubj	_	name=B-ORG|Entity=(bt~bt_20120916_2765289a__2472--1)
+11	å	å	PART	_	_	12	mark	_	name=O
+12	gå	gå	VERB	_	VerbForm=Inf	9	xcomp	_	name=O
+13	rettens	rett	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T236--1(bt~bt_20120916_2765289a__T235--1)
+14	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=bt~bt_20120916_2765289a__T236)
+15	for	for	SCONJ	_	_	17	mark	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	avskjedige	avskjedige	VERB	_	VerbForm=Inf	12	advcl	_	name=O
+18	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+19	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 016885
+# text = De har samlet bevis mot ham i en årrekke:
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__2472--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	samlet	samle	VERB	_	VerbForm=Part	0	root	_	name=O
+4	bevis	bevis	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T239--1
+5	mot	mot	ADP	_	_	6	case	_	name=O
+6	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)bt~bt_20120916_2765289a__T239)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T241--1
+9	årrekke	årrekke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T241)
+10	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016886
+# text = «Tor Holger Bertelsen fremviser ved gjentatte anledninger avvikende virkelighetsoppfatning, sviktende vurderingsevne, rigide holdninger og ustabilitet i jobbutførelsen.
+1	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+2	Tor	Tor	PROPN	_	Gender=Masc	5	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1
+3	Holger	Holger	PROPN	_	_	2	flat:name	_	name=I-PER
+4	Bertelsen	Bertelsen	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=bt~bt_20120916_2765289a__9324618)
+5	fremviser	fremvise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	ved	ved	ADP	_	_	8	case	_	name=O
+7	gjentatte	gjenta	ADJ	_	Number=Plur|VerbForm=Part	8	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T243--1
+8	anledninger	anledning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	name=O|Entity=bt~bt_20120916_2765289a__T243)
+9	avvikende	avvikende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T244--1(bt~bt_20120916_2765289a__T245--1
+10	virkelighetsoppfatning	virkelighetsoppfatning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T245)
+12	sviktende	svikte	ADJ	_	VerbForm=Part	13	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T246--1
+13	vurderingsevne	vurderingsevne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T246)
+15	rigide	rigid	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T247--1
+16	holdninger	holdning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	conj	_	name=O|Entity=bt~bt_20120916_2765289a__T247)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	ustabilitet	ustabilitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	conj	_	name=O|Entity=(bt~bt_20120916_2765289a__T248--1
+19	i	i	ADP	_	_	20	case	_	name=O
+20	jobbutførelsen	jobbutførelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T249--1)bt~bt_20120916_2765289a__T248)bt~bt_20120916_2765289a__T244)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 016887
+# text = Han utfører til tider faglig slett arbeid ved blant annet å ikke begrunne sine avgjørelser, noen som leder til opphevelser i lagmannsretten.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	utfører	utføre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	tider	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T251--1)
+5	faglig	faglig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T252--1
+6	slett	slett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O|Entity=bt~bt_20120916_2765289a__T252)
+8	ved	ved	SCONJ	_	_	13	mark	_	name=O
+9	blant	blant	ADP	_	_	10	case	_	name=O
+10	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	13	obl	_	name=O
+11	å	å	PART	_	_	13	mark	_	name=O
+12	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	name=O
+13	begrunne	begrunne	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+14	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T254--1(bt~bt_20120916_2765289a__9324618--1)
+15	avgjørelser	avgjørelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T254)
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	noen	noen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Ind,Prs	13	appos	_	name=O|Entity=(bt~bt_20120916_2765289a__T255--1
+18	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+19	leder	lede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	name=O
+20	til	til	ADP	_	_	21	case	_	name=O
+21	opphevelser	opphevelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T256--1
+22	i	i	ADP	_	_	23	case	_	name=O
+23	lagmannsretten	lagmannsrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T257--1)bt~bt_20120916_2765289a__T256)bt~bt_20120916_2765289a__T255)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016888
+# text = Det er grunn til å tro at hans fastlåste/rigide holdninger, blant annet til kvinner, påvirker hans behandling av enkeltpersoner i retten, samt hans vurderingsevne i avgjørelser.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T258--1
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	tro	tro	VERB	_	VerbForm=Inf	3	acl	_	name=O
+7	at	at	SCONJ	_	_	19	mark	_	name=O
+8	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	12	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T260--1(bt~bt_20120916_2765289a__9324618--1)
+9	fastlåste	fastlåst	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	SpaceAfter=No|name=O
+10	/	$/	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=O
+11	rigide	rigid	ADJ	_	Degree=Pos|Number=Plur	9	conj	_	name=O
+12	holdninger	holdning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	nsubj	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	blant	blant	ADP	_	_	15	case	_	name=O
+15	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	17	obl	_	name=O
+16	til	til	ADP	_	_	17	case	_	name=O
+17	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T261--1)
+18	,	$,	PUNCT	_	_	17	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T260)
+19	påvirker	påvirke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	name=O
+20	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	21	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T263--1(bt~bt_20120916_2765289a__T264--1(bt~bt_20120916_2765289a__9324618--1)
+21	behandling	behandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	name=O
+22	av	av	ADP	_	_	23	case	_	name=O
+23	enkeltpersoner	enkeltperson	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T265--1
+24	i	i	ADP	_	_	25	case	_	name=O
+25	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__2283--1)bt~bt_20120916_2765289a__T265)
+26	,	$,	PUNCT	_	_	29	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T264)
+27	samt	samt	CCONJ	_	_	29	cc	_	name=O
+28	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T268--1(bt~bt_20120916_2765289a__9324618--1)
+29	vurderingsevne	vurderingsevne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	conj	_	name=O
+30	i	i	ADP	_	_	31	case	_	name=O
+31	avgjørelser	avgjørelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T269--1)bt~bt_20120916_2765289a__T268)bt~bt_20120916_2765289a__T263)bt~bt_20120916_2765289a__T258)
+32	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016889
+# text = Det er således grunn til å stille spørsmål ved rettssikkerheten til partene under hans administrering av sakene», står det blant annet i notatet fra DA.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	således	således	ADV	_	_	2	advmod	_	name=O
+4	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T270--1
+5	til	til	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	stille	stille	VERB	_	VerbForm=Inf	4	acl	_	name=O
+8	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T271--1)
+9	ved	ved	ADP	_	_	10	case	_	name=O
+10	rettssikkerheten	rettssikkerhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T272--1
+11	til	til	ADP	_	_	12	case	_	name=O
+12	partene	part	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T273--1)bt~bt_20120916_2765289a__T272)
+13	under	under	ADP	_	_	15	case	_	name=O
+14	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T275--1(bt~bt_20120916_2765289a__9324618--1)
+15	administrering	administrering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	sakene	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T276--1)bt~bt_20120916_2765289a__T275)bt~bt_20120916_2765289a__T270)
+18	»	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+19	,	$,	PUNCT	_	_	20	punct	_	name=O
+20	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	name=O
+22	blant	blant	ADP	_	_	23	case	_	name=O
+23	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	20	obl	_	name=O
+24	i	i	ADP	_	_	25	case	_	name=O
+25	notatet	notat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T277--1
+26	fra	fra	ADP	_	_	27	case	_	name=O
+27	DA	DA	PROPN	_	_	25	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(bt~bt_20120916_2765289a__2487--1)bt~bt_20120916_2765289a__T277)
+28	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016890
+# text = Og stridens kjerne ligger nettopp her.
+1	Og	og	CCONJ	_	_	4	cc	_	name=O
+2	stridens	strid	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T280--1(bt~bt_20120916_2765289a__T279--1)
+3	kjerne	kjerne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Entity=bt~bt_20120916_2765289a__T280)
+4	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	nettopp	nettopp	ADV	_	_	4	advmod	_	name=O
+6	her	her	ADV	_	_	4	advmod	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016891
+# text = Har det sittet en mann med avvikende virkelighetsoppfatning og dømt bergenserne?
+1	Har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	sittet	sitte	VERB	_	VerbForm=Part	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T281--1
+5	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O
+6	med	med	ADP	_	_	8	case	_	name=O
+7	avvikende	avvikende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T282--1
+8	virkelighetsoppfatning	virkelighetsoppfatning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	name=O|Entity=bt~bt_20120916_2765289a__T282)bt~bt_20120916_2765289a__T281)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	dømt	dømme	VERB	_	VerbForm=Part	3	conj	_	name=O
+11	bergenserne	bergenser	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T283--1)
+12	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016892
+# text = Eller er Tor Bertelsen utsatt for et komplott - slik Bertelsen selv mener?
+1	Eller	eller	CCONJ	_	_	5	cc	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	Tor	Tor	PROPN	_	Gender=Masc	5	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1
+4	Bertelsen	Bertelsen	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=bt~bt_20120916_2765289a__9324618)
+5	utsatt	utsette	VERB	_	VerbForm=Part	0	root	_	name=O
+6	for	for	ADP	_	_	8	case	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T285--1
+8	komplott	komplott	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=bt~bt_20120916_2765289a__T285)
+9	-	$-	PUNCT	_	_	10	punct	_	name=O
+10	slik	slik	ADV	_	_	5	advmod	_	name=O
+11	Bertelsen	Bertelsen	PROPN	_	_	13	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1
+12	selv	selv	DET	_	PronType=Prs	11	det	_	name=O|Entity=bt~bt_20120916_2765289a__9324618)
+13	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No|name=O
+14	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 016893
+# text = Hos mamma eller pappa?
+1	Hos	hos	ADP	_	_	2	case	_	name=O
+2	mamma	mamma	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(bt~bt_20120916_2765289a__T287--1(bt~bt_20120916_2765289a__T288--1)
+3	eller	eller	CCONJ	_	_	4	cc	_	name=O
+4	pappa	pappa	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T289--1)bt~bt_20120916_2765289a__T287)
+5	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016894
+# text = Hvor skal barna bo?
+1	Hvor	hvor	ADV	_	_	4	advmod	_	name=O
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	barna	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T290--1)
+4	bo	bo	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+5	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016895
+# text = Dette er en problemstilling dommere må ta stilling til med jevne mellomrom, også Tor Holger Bertelsen.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T291--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T292--1
+4	problemstilling	problemstilling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	dommere	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T293[1/2]--1)
+6	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	ta	ta	VERB	_	VerbForm=Inf	4	acl:relcl	_	name=O
+8	stilling	stilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T294--1)
+9	til	til	ADP	_	_	7	compound:prt	_	name=O
+10	med	med	ADP	_	_	12	case	_	name=O
+11	jevne	jevn	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T295--1
+12	mellomrom	mellomrom	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T295)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	også	også	ADV	_	_	15	advmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T293[2/2]--1(bt~bt_20120916_2765289a__9324618--1
+15	Tor	Tor	PROPN	_	Gender=Masc	5	appos	_	name=B-PER
+16	Holger	Holger	PROPN	_	_	15	flat:name	_	name=I-PER
+17	Bertelsen	Bertelsen	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER|Entity=bt~bt_20120916_2765289a__T293[2/2])bt~bt_20120916_2765289a__9324618)bt~bt_20120916_2765289a__T292)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016896
+# text = Men på nittitallet sto han selv midt i et samlivsbrudd.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	nittitallet	nittitall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T297--1)
+4	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1
+6	selv	selv	DET	_	PronType=Prs	5	det	_	name=O|Entity=bt~bt_20120916_2765289a__9324618)
+7	midt	midt	ADV	_	_	10	advmod	_	name=O
+8	i	i	ADP	_	_	10	case	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T299--1
+10	samlivsbrudd	samlivsbrudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T299)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016897
+# text = En uheldig kombinasjon, mente mange.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T300--1
+2	uheldig	uheldig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	kombinasjon	kombinasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	5	punct	_	name=O
+5	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+6	mange	mange	ADJ	_	Degree=Pos|Number=Plur	5	nsubj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T301--1)bt~bt_20120916_2765289a__T300)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016898
+# text = Det ble stilt spørsmål ved Bertelsens tolkninger av barneloven.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	stilt	stille	VERB	_	VerbForm=Part	0	root	_	name=O
+4	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T302--1)
+5	ved	ved	ADP	_	_	7	case	_	name=O
+6	Bertelsens	Bertelsen	PROPN	_	Case=Gen	7	nmod	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__T304--1(bt~bt_20120916_2765289a__9324618--1)
+7	tolkninger	tolkning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obl	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	barneloven	barnelov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__2629--1)bt~bt_20120916_2765289a__T304)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016899
+# text = Var han preget av sine private erfaringer?
+1	Var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+2	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+3	preget	prege	VERB	_	VerbForm=Part	0	root	_	name=O
+4	av	av	ADP	_	_	7	case	_	name=O
+5	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T308--1(bt~bt_20120916_2765289a__9324618--1)
+6	private	privat	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	erfaringer	erfaring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T308)
+8	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016900
+# text = Dommeren bar selv ved til bålet i et intervju med BT i 1996.
+1	Dommeren	dommer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	bar	bære	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	selv	selv	ADV	_	_	2	advmod	_	name=O
+4	ved	ved	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T310--1)
+5	til	til	ADP	_	_	6	case	_	name=O
+6	bålet	bål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T311--1)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T312--1
+9	intervju	intervju	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O
+10	med	med	ADP	_	_	11	case	_	name=O
+11	BT	BT	PROPN	_	_	9	nmod	_	name=B-ORG|Entity=(bt~bt_20120916_2765289a__51561--1)
+12	i	i	ADP	_	_	13	case	_	name=O
+13	1996	1996	NUM	_	Number=Plur|NumType=Card	9	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T312)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016901
+# text = - Jeg har gitt fedre omsorgen i enkelte saker.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	gitt	gi	VERB	_	VerbForm=Part	0	root	_	name=O
+5	fedre	far	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	iobj	_	name=O|Entity=(bt~bt_20120916_2765289a__T315--1)
+6	omsorgen	omsorg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T316--1)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T317--1
+9	saker	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T317)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016902
+# text = Det ville ikke forbause meg om andre dommere hadde kommet til et annet resultat, sa Bertelsen til avisen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	forbause	forbause	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+6	om	om	SCONJ	_	_	10	mark	_	name=O
+7	andre	annen	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T319--1
+8	dommere	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nsubj	_	name=O|Entity=bt~bt_20120916_2765289a__T319)
+9	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+10	kommet	komme	VERB	_	VerbForm=Part	4	csubj	_	name=O
+11	til	til	ADP	_	_	14	case	_	name=O
+12	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T320--1
+13	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	name=O
+14	resultat	resultat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T320)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	name=O
+17	Bertelsen	Bertelsen	PROPN	_	_	16	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+18	til	til	ADP	_	_	19	case	_	name=O
+19	avisen	avis	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__51561--1)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016903
+# text = Han mente barneloven var skrevet av og for forrige generasjon - noe han mente særlig gikk ut over far, som etter hans mening er den svake part i barnefordelingssaker.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	barneloven	barnelov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__2629--1)
+4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+5	skrevet	skrive	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+6	av	av	ADP	_	_	5	compound:prt	_	name=O
+7	og	og	CCONJ	_	_	10	cc	_	name=O
+8	for	for	ADP	_	_	10	case	_	name=O
+9	forrige	forrige	DET	_	Definite=Def|PronType=Dem	10	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T325--1
+10	generasjon	generasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=O|Entity=bt~bt_20120916_2765289a__T325)
+11	-	$-	PUNCT	_	_	12	punct	_	name=O
+12	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	5	appos	_	name=O|Entity=(bt~bt_20120916_2765289a__T326--1
+13	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+14	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	name=O
+15	særlig	særlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	name=O
+16	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	xcomp	_	name=O
+17	ut	ut	ADP	_	_	19	case	_	name=O
+18	over	over	ADP	_	_	19	case	_	name=O
+19	far	far	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T328--1
+20	,	$,	PUNCT	_	_	28	punct	_	name=O
+21	som	som	PRON	_	PronType=Rel	28	nsubj	_	name=O
+22	etter	etter	ADP	_	_	24	case	_	name=O
+23	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T330--1(bt~bt_20120916_2765289a__9324618--1)
+24	mening	mening	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	28	obl	_	name=O|Entity=bt~bt_20120916_2765289a__T330)
+25	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	name=O
+26	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T331--1
+27	svake	svak	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	28	amod	_	name=O
+28	part	part	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	acl:relcl	_	name=O
+29	i	i	ADP	_	_	30	case	_	name=O
+30	barnefordelingssaker	barnefordelingssak	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T332--1)bt~bt_20120916_2765289a__T331)bt~bt_20120916_2765289a__T328)bt~bt_20120916_2765289a__T326)
+31	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016904
+# text = Kritikerne hisset seg kraftig opp, og mente en dommer ikke burde uttale seg på denne måten, mens flere dommere og eksperter BT var i kontakt med støttet uttalelsene.
+1	Kritikerne	kritiker	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__2813--1)
+2	hisset	hisse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__2813--1)
+4	kraftig	kraftig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+5	opp	opp	ADP	_	_	2	compound:prt	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	8	punct	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(bt~bt_20120916_2765289a__2813--1
+10	dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=bt~bt_20120916_2765289a__2813)
+11	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	name=O
+12	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+13	uttale	uttale	VERB	_	VerbForm=Inf	8	ccomp	_	name=O
+14	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__2813--1)
+15	på	på	ADP	_	_	17	case	_	name=O
+16	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T335--1
+17	måten	måte	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T335)
+18	,	$,	PUNCT	_	_	29	punct	_	name=O
+19	mens	mens	SCONJ	_	_	29	mark	_	name=O
+20	flere	mange	ADJ	_	Degree=Cmp	21	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__41365--1(bt~bt_20120916_2765289a__T337[1/2]--1
+21	dommere	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	29	nsubj	_	name=O|Entity=bt~bt_20120916_2765289a__T337[1/2])
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	eksperter	ekspert	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	conj	_	name=O|Entity=(bt~bt_20120916_2765289a__T338--1)
+24	BT	BT	PROPN	_	_	27	nsubj	_	name=B-ORG|Entity=(bt~bt_20120916_2765289a__T337[2/2]--1(bt~bt_20120916_2765289a__51561--1)
+25	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	27	cop	_	name=O
+26	i	i	ADP	_	_	27	case	_	name=O
+27	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	acl:relcl	_	name=O|Entity=(bt~bt_20120916_2765289a__T340--1
+28	med	med	ADP	_	_	27	nmod	_	name=O|Entity=bt~bt_20120916_2765289a__T340)bt~bt_20120916_2765289a__T337[2/2])bt~bt_20120916_2765289a__41365)
+29	støttet	støtte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	name=O
+30	uttalelsene	uttalelse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No|name=O|Bridge=bt~bt_20120916_2765289a__T326<bt~bt_20120916_2765289a__T341:default|Entity=(bt~bt_20120916_2765289a__T341--1)
+31	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016905
+# text = De ville imidlertid ikke stå frem - fordi de fryktet å bli inhabile hvis de støttet ham offentlig.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__41365--1)
+2	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+3	imidlertid	imidlertid	ADV	_	_	5	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	stå	stå	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	frem	frem	ADP	_	_	5	compound:prt	_	name=O
+7	-	$-	PUNCT	_	_	10	punct	_	name=O
+8	fordi	fordi	SCONJ	_	_	10	mark	_	name=O
+9	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__41365--1)
+10	fryktet	frykte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	bli	bli	VERB	_	VerbForm=Inf	10	xcomp	_	name=O
+13	inhabile	inhabil	ADJ	_	Degree=Pos|Number=Plur	12	xcomp	_	name=O
+14	hvis	hvis	SCONJ	_	_	16	mark	_	name=O
+15	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__41365--1)
+16	støttet	støtte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	name=O
+17	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+18	offentlig	offentlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 016906
+# text = En venn i nøden.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T346--1
+2	venn	venn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	nøden	nød	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T347--1)bt~bt_20120916_2765289a__T346)
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016907
+# text = På grunn av samlivskonflikten fikk Bertelsen i en periode ikke dømme i slike saker.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T348--1
+3	av	av	ADP	_	_	4	case	_	name=O
+4	samlivskonflikten	samlivskonflikt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T349--1)bt~bt_20120916_2765289a__T348)
+5	fikk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+6	Bertelsen	Bertelsen	PROPN	_	_	11	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T351--1
+9	periode	periode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=bt~bt_20120916_2765289a__T351)
+10	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+11	dømme	dømme	VERB	_	VerbForm=Inf	0	root	_	name=O
+12	i	i	ADP	_	_	14	case	_	name=O
+13	slike	slik	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T352--1
+14	saker	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T352)
+15	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 016908
+# text = Likevel engasjerte han seg i samværssaker.
+1	Likevel	likevel	ADV	_	_	2	advmod	_	name=O
+2	engasjerte	engasjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	samværssaker	samværssak	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T354--1)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016909
+# text = Blant annet stilte han opp da en venn fikk problemer.
+1	Blant	blant	ADP	_	_	2	case	_	name=O
+2	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	name=O
+3	stilte	stille	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+5	opp	opp	ADP	_	_	3	compound:prt	_	name=O
+6	da	da	SCONJ	_	_	9	mark	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(bt~bt_20120916_2765289a__72619--1
+8	venn	venn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=bt~bt_20120916_2765289a__72619)
+9	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	name=O
+10	problemer	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T357--1)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016910
+# text = - Datteren ble tatt fra ham etter et akuttvedtak på grunn av anklager om incest, men han ble aldri siktet for noe straffbart.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Datteren	datter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj:pass	_	name=O|Entity=(bt~bt_20120916_2765289a__51934--1)
+3	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	name=O
+4	tatt	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+5	fra	fra	ADP	_	_	6	case	_	name=O
+6	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__72619--1)
+7	etter	etter	ADP	_	_	9	case	_	name=O
+8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(bt~bt_20120916_2765289a__51997--1
+9	akuttvedtak	akuttvedtak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T361--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	anklager	anklage	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T362--1
+14	om	om	ADP	_	_	15	case	_	name=O
+15	incest	incest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T363--1)bt~bt_20120916_2765289a__T362)bt~bt_20120916_2765289a__T361)bt~bt_20120916_2765289a__51997)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	men	men	CCONJ	_	_	21	cc	_	name=O
+18	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	name=O|Entity=(bt~bt_20120916_2765289a__72619--1)
+19	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux:pass	_	name=O
+20	aldri	aldri	ADV	_	_	21	advmod	_	name=O
+21	siktet	sikte	VERB	_	VerbForm=Part	4	conj	_	name=O
+22	for	for	ADP	_	_	24	case	_	name=O
+23	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	24	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T365--1
+24	straffbart	straffbar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T365)
+25	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016911
+# text = Jeg hadde overnattet flere ganger hos ham etter å ha vært på besøk, og mente jeg hadde relevante opplysninger i saken.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	overnattet	overnatte	VERB	_	VerbForm=Part	0	root	_	name=O
+4	flere	mange	ADJ	_	Degree=Cmp	5	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T367--1
+5	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=bt~bt_20120916_2765289a__T367)
+6	hos	hos	ADP	_	_	7	case	_	name=O
+7	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__72619--1)
+8	etter	etter	SCONJ	_	_	13	mark	_	name=O
+9	å	å	PART	_	_	13	mark	_	name=O
+10	ha	ha	AUX	_	VerbForm=Inf	13	aux	_	name=O
+11	vært	være	AUX	_	VerbForm=Part	13	cop	_	name=O
+12	på	på	SCONJ	_	_	13	mark	_	name=O
+13	besøk	besøk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	advcl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T369--1)
+14	,	$,	PUNCT	_	_	16	punct	_	name=O
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+17	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+18	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	ccomp	_	name=O
+19	relevante	relevant	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T371--1
+20	opplysninger	opplysning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	18	obj	_	name=O
+21	i	i	ADP	_	_	22	case	_	name=O
+22	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__51997--1)bt~bt_20120916_2765289a__T371)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016912
+# text = Jeg fryktet at hele familien ville bli ødelagt ved å miste kontakten med faren, sier Bertelsen - og ville hjelpe.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	fryktet	frykte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	8	mark	_	name=O
+4	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T374--1
+5	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj:pass	_	name=O|Entity=bt~bt_20120916_2765289a__T374)
+6	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+7	bli	bli	AUX	_	VerbForm=Inf	8	aux:pass	_	name=O
+8	ødelagt	ødelegge	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+9	ved	ved	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	miste	miste	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+12	kontakten	kontakt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T375--1
+13	med	med	ADP	_	_	14	case	_	name=O
+14	faren	far	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__72619--1)bt~bt_20120916_2765289a__T375)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+17	Bertelsen	Bertelsen	PROPN	_	_	16	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+18	-	$-	PUNCT	_	_	21	punct	_	name=O
+19	og	og	CCONJ	_	_	21	cc	_	name=O
+20	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	name=O
+21	hjelpe	hjelpe	VERB	_	VerbForm=Inf	16	conj	_	SpaceAfter=No|name=O
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016913
+# text = Slik er hendelsen beskrevet i sakspapirene:
+1	Slik	slik	ADV	_	_	4	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	hendelsen	hendelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T378--1)
+4	beskrevet	beskrive	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	sakspapirene	sakspapir	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T379--1)
+7	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016914
+# text = Våren 1999 tar Bertelsen kontakt med barnets mor, saksbehandleren i barnevernet og administrasjonssjefen i bydelen der vennens sak blir behandlet.
+1	Våren	vår	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T380--1
+2	1999	1999	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=O|Entity=bt~bt_20120916_2765289a__T380)
+3	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	Bertelsen	Bertelsen	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+5	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T382--1)
+6	med	med	ADP	_	_	8	case	_	name=O
+7	barnets	barn	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T384--1(bt~bt_20120916_2765289a__T385--1(bt~bt_20120916_2765289a__51934--1)
+8	mor	mor	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T385)
+10	saksbehandleren	saksbehandler	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	name=O|Entity=(bt~bt_20120916_2765289a__T386--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	barnevernet	barnevern	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__2856--1)bt~bt_20120916_2765289a__T386)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	administrasjonssjefen	administrasjonssjef	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	name=O|Entity=(bt~bt_20120916_2765289a__T388--1
+15	i	i	ADP	_	_	16	case	_	name=O
+16	bydelen	bydel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T389--1
+17	der	der	SCONJ	_	_	21	mark	_	name=O
+18	vennens	venn	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__51997--1(bt~bt_20120916_2765289a__72619--1)
+19	sak	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	nsubj:pass	_	name=O|Entity=bt~bt_20120916_2765289a__51997)
+20	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux:pass	_	name=O
+21	behandlet	behandle	VERB	_	VerbForm=Part	16	acl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T389)bt~bt_20120916_2765289a__T388)bt~bt_20120916_2765289a__T384)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016915
+# text = Bertelsen ringer barnets hjelpeverge, advokat Monica Mæland.
+1	Bertelsen	Bertelsen	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	ringer	ringe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	barnets	barn	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__156292--1(bt~bt_20120916_2765289a__T394--1(bt~bt_20120916_2765289a__51934--1)
+4	hjelpeverge	hjelpeverge	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T394)
+6	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O
+7	Monica	Monica	PROPN	_	Gender=Fem	2	obj	_	name=B-PER
+8	Mæland	Mæland	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-PER|Entity=bt~bt_20120916_2765289a__156292)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016916
+# text = Barnets advokat reagerer kraftig.
+1	Barnets	barn	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__156292--1(bt~bt_20120916_2765289a__51934--1)
+2	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=bt~bt_20120916_2765289a__156292)
+3	reagerer	reagere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	kraftig	kraftig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016917
+# text = «Han presenterte seg som byrettsdommer, men sa at han ringte som privatperson.
+1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+3	presenterte	presentere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+5	som	som	SCONJ	_	_	6	mark	_	name=O
+6	byrettsdommer	byrettsdommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T399--1)
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	men	men	CCONJ	_	_	9	cc	_	name=O
+9	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+10	at	at	SCONJ	_	_	12	mark	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+12	ringte	ringe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	name=O
+13	som	som	SCONJ	_	_	14	mark	_	name=O
+14	privatperson	privatperson	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	acl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T401--1)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016918
+# text = Jeg fikk fortalt at min klient, barnet, ikke snakket sant om faren.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__156292--1)
+2	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	fortalt	fortelle	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	2	xcomp	_	name=O
+4	at	at	SCONJ	_	_	11	mark	_	name=O
+5	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__51934--1(bt~bt_20120916_2765289a__156292--1)
+6	klient	klient	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	barnet	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	appos	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T405--1
+9	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T405)bt~bt_20120916_2765289a__51934)
+10	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+11	snakket	snakke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	name=O
+12	sant	sann	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+13	om	om	ADP	_	_	14	case	_	name=O
+14	faren	far	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__72619--1)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016919
+# text = Jeg oppfattet at han brukte sin posisjon som dommer til å prøve å påvirke meg», sa Monica Mæland til BT den gang.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__156292--1)
+2	oppfattet	oppfatte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+5	brukte	bruke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	name=O
+6	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T410--1(bt~bt_20120916_2765289a__9324618--1)
+7	posisjon	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O
+8	som	som	ADP	_	_	9	case	_	name=O
+9	dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T411--1)bt~bt_20120916_2765289a__T410)
+10	til	til	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	prøve	prøve	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	påvirke	påvirke	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__156292--1)
+16	»	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	name=O
+19	Monica	Monica	PROPN	_	Gender=Fem	18	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__156292--1
+20	Mæland	Mæland	PROPN	_	_	19	flat:name	_	name=I-PER|Entity=bt~bt_20120916_2765289a__156292)
+21	til	til	ADP	_	_	22	case	_	name=O
+22	BT	BT	PROPN	_	_	18	obl	_	name=B-ORG|Entity=(bt~bt_20120916_2765289a__51561--1)
+23	den	det	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T415--1
+24	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T415)
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016920
+# text = I dag er Mæland byrådsleder, men fortsatt kritisk til Bertelsen.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T416--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	Mæland	Mæland	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__156292--1)
+5	byrådsleder	byrådsleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T418--1(bt~bt_20120916_2765289a__T419--1
+6	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=bt~bt_20120916_2765289a__T419)
+7	men	men	CCONJ	_	_	9	cc	_	name=O
+8	fortsatt	fortsatt	ADV	_	_	9	advmod	_	name=O
+9	kritisk	kritisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	conj	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	Bertelsen	Bertelsen	PROPN	_	_	9	obl	_	SpaceAfter=No|name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)bt~bt_20120916_2765289a__T418)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 016921
+# text = - Saken var spesiell, og jeg var en ganske ung advokat på denne tiden.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__51997--1)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+4	spesiell	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	12	punct	_	name=O
+6	og	og	CCONJ	_	_	12	cc	_	name=O
+7	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__156292--1)
+8	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T423--1
+10	ganske	ganske	ADV	_	_	11	advmod	_	name=O
+11	ung	ung	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	advokat	advokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	name=O|Entity=bt~bt_20120916_2765289a__T423)
+13	på	på	ADP	_	_	15	case	_	name=O
+14	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T424--1
+15	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T424)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016922
+# text = Jeg oppfattet henvendelsen fra Bertelsen som utidig.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__156292--1)
+2	oppfattet	oppfatte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	henvendelsen	henvendelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T426--1
+4	fra	fra	ADP	_	_	5	case	_	name=O
+5	Bertelsen	Bertelsen	PROPN	_	_	3	nmod	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)bt~bt_20120916_2765289a__T426)
+6	som	som	SCONJ	_	_	7	mark	_	name=O
+7	utidig	utidig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T428--1)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016923
+# text = Mæland er bare en av mange maktpersoner som har hatt befatning med konflikten rundt Tor Bertelsen.
+1	Mæland	Mæland	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__156292--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	bare	bare	ADV	_	_	4	advmod	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+5	av	av	ADP	_	_	7	case	_	name=O
+6	mange	mange	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T430--1
+7	maktpersoner	maktperson	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	name=O
+8	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	hatt	ha	VERB	_	VerbForm=Part	7	acl:relcl	_	name=O
+11	befatning	befatning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T431--1
+12	med	med	ADP	_	_	13	case	_	name=O
+13	konflikten	konflikt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T432--1
+14	rundt	rundt	ADP	_	_	15	case	_	name=O
+15	Tor	Tor	PROPN	_	Gender=Masc	13	nmod	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1
+16	Bertelsen	Bertelsen	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER|Entity=bt~bt_20120916_2765289a__9324618)bt~bt_20120916_2765289a__T432)bt~bt_20120916_2765289a__T431)bt~bt_20120916_2765289a__T430)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016924
+# text = Etter at hun ble politiker på heltid, har byrådslederen fulgt saken gjennom mediene.
+1	Etter	etter	SCONJ	_	_	4	mark	_	name=O
+2	at	at	SCONJ	_	_	4	mark	_	name=O
+3	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__156292--1)
+4	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	name=O
+5	politiker	politiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	xcomp	_	name=O|Entity=(bt~bt_20120916_2765289a__T435--1
+6	på	på	ADP	_	_	7	case	_	name=O
+7	heltid	heltid	NOUN	_	Gender=Fem	5	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T436--1)bt~bt_20120916_2765289a__T435)
+8	,	$,	PUNCT	_	_	4	punct	_	name=O
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+10	byrådslederen	byrådsleder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__156292--1)
+11	fulgt	følge	VERB	_	VerbForm=Part	0	root	_	name=O
+12	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__4827--1)
+13	gjennom	gjennom	ADP	_	_	14	case	_	name=O
+14	mediene	medium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T439--1)
+15	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 016925
+# text = - Det er svært viktig at man kan stole på at dommere er uavhengige, nøytrale og opptrer etter beste evne.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	9	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T440--1)
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	stole	stole	VERB	_	VerbForm=Inf	5	csubj	_	name=O
+10	på	på	SCONJ	_	_	14	mark	_	name=O
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	dommere	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T441--1)
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	uavhengige	uavhengig	ADJ	_	Degree=Pos|Number=Plur	9	advcl	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	nøytrale	nøytral	ADJ	_	Degree=Pos|Number=Plur	14	conj	_	name=O
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	opptrer	opptre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	name=O
+19	etter	etter	ADP	_	_	21	case	_	name=O
+20	beste	god	ADJ	_	Definite=Def|Degree=Sup	21	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T442--1
+21	evne	evne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T442)
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 016926
+# text = En dommer skal ha legitimitet og tillit.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T443--1
+2	dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=bt~bt_20120916_2765289a__T443)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	legitimitet	legitimitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T444--1(bt~bt_20120916_2765289a__T445--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	tillit	tillit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T446--1)bt~bt_20120916_2765289a__T444)
+8	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016927
+# text = Basert på den informasjonen jeg har fått, virker det som om Bertelsen ikke har den nødvendige tilliten, sier Monica Mæland.
+1	Basert	basere	VERB	_	VerbForm=Part	9	advcl	_	name=O
+2	på	på	ADP	_	_	4	case	_	name=O
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T447--1
+4	informasjonen	informasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	name=O
+5	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__156292--1)
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	fått	få	VERB	_	VerbForm=Part	4	acl:relcl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T447)
+8	,	$,	PUNCT	_	_	1	punct	_	name=O
+9	virker	virke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+11	som	som	SCONJ	_	_	15	mark	_	name=O
+12	om	om	SCONJ	_	_	15	mark	_	name=O
+13	Bertelsen	Bertelsen	PROPN	_	_	15	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1)
+14	ikke	ikke	PART	_	Polarity=Neg	15	advmod	_	name=O
+15	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	xcomp	_	name=O
+16	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T450--1
+17	nødvendige	nødvendig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	tilliten	tillit	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T450)
+19	,	$,	PUNCT	_	_	20	punct	_	name=O
+20	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	name=O
+21	Monica	Monica	PROPN	_	Gender=Fem	20	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__156292--1
+22	Mæland	Mæland	PROPN	_	_	21	flat:name	_	SpaceAfter=No|name=I-PER|Entity=bt~bt_20120916_2765289a__156292)
+23	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 016928
+# text = Bertelsen selv avviser at det var uklokt å involvere seg så sterkt i saken, selv om han var dommer.
+1	Bertelsen	Bertelsen	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(bt~bt_20120916_2765289a__9324618--1
+2	selv	selv	DET	_	PronType=Prs	1	det	_	name=O|Entity=bt~bt_20120916_2765289a__9324618)
+3	avviser	avvise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+6	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+7	uklokt	uklok	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	involvere	involvere	VERB	_	VerbForm=Inf	7	csubj	_	name=O
+10	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+11	så	så	ADV	_	_	12	advmod	_	name=O
+12	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__51997--1)
+15	,	$,	PUNCT	_	_	20	punct	_	name=O
+16	selv	selv	ADV	_	_	17	advmod	_	name=O
+17	om	om	SCONJ	_	_	20	mark	_	name=O
+18	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+19	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	cop	_	name=O
+20	dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	advcl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T455--1)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016929
+# text = Tvert imot.
+1	Tvert	tvert	ADV	_	_	2	advmod	_	name=O
+2	imot	imot	ADP	_	_	0	root	_	SpaceAfter=No|name=O
+3	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016930
+# text = Han mente saksbehandlingen var uforsvarlig, og at det eneste han gjorde var å be om at opplysningene ble sjekket grundig.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+2	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	saksbehandlingen	saksbehandling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T457--1)
+4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+5	uforsvarlig	uforsvarlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	ccomp	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	15	punct	_	name=O
+7	og	og	CCONJ	_	_	15	cc	_	name=O
+8	at	at	SCONJ	_	_	15	mark	_	name=O
+9	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	name=O
+10	eneste	eneste	NUM	_	Definite=Def|NumType=Card	15	nsubj	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+12	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	name=O
+13	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	be	be	VERB	_	VerbForm=Inf	5	conj	_	name=O
+16	om	om	SCONJ	_	_	20	mark	_	name=O
+17	at	at	SCONJ	_	_	20	mark	_	name=O
+18	opplysningene	opplysning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	20	nsubj:pass	_	name=O|Entity=(bt~bt_20120916_2765289a__T459--1)
+19	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux:pass	_	name=O
+20	sjekket	sjekke	VERB	_	VerbForm=Part	15	advcl	_	name=O
+21	grundig	grundig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	SpaceAfter=No|name=O
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016931
+# text = - Jeg tolket det som min plikt.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+3	tolket	tolke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T461--1)
+5	som	som	SCONJ	_	_	7	mark	_	name=O
+6	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T463--1(bt~bt_20120916_2765289a__9324618--1)
+7	plikt	plikt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T463)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016932
+# text = Men jeg opplevde at man ikke ønsket informasjon fra personer som er kritiske til tvangsvedtak fra barnevernet som treffes på uforsvarlig grunnlag.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+3	opplevde	oppleve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	7	nsubj	_	name=O|Entity=(bt~bt_20120916_2765289a__T465--1)
+6	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	name=O
+7	ønsket	ønske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+8	informasjon	informasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(bt~bt_20120916_2765289a__T466--1
+9	fra	fra	ADP	_	_	10	case	_	name=O
+10	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__T467--1
+11	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+13	kritiske	kritisk	ADJ	_	Degree=Pos|Number=Plur	10	acl:relcl	_	name=O
+14	til	til	ADP	_	_	15	case	_	name=O
+15	tvangsvedtak	tvangsvedtak	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T468--1
+16	fra	fra	ADP	_	_	17	case	_	name=O
+17	barnevernet	barnevern	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	name=O|Entity=(bt~bt_20120916_2765289a__2856--1)
+18	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+19	treffes	treffes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+20	på	på	ADP	_	_	22	case	_	name=O
+21	uforsvarlig	uforsvarlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	name=O|Entity=(bt~bt_20120916_2765289a__T470--1
+22	grunnlag	grunnlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120916_2765289a__T470)bt~bt_20120916_2765289a__T468)bt~bt_20120916_2765289a__T467)bt~bt_20120916_2765289a__T466)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016933
+# text = Det er sterkt betenkelig hvis en dommer ikke skal kunne kommunisere med omverdenen og vise samfunnsengasjement, sier han.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	betenkelig	betenkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	hvis	hvis	SCONJ	_	_	11	mark	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(bt~bt_20120916_2765289a__T471--1
+7	dommer	dommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=bt~bt_20120916_2765289a__T471)
+8	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+9	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+10	kunne	kunne	AUX	_	VerbForm=Inf	11	aux	_	name=O
+11	kommunisere	kommunisere	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	omverdenen	omverden	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(bt~bt_20120916_2765289a__T472--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	vise	vise	VERB	_	VerbForm=Inf	11	conj	_	name=O
+16	samfunnsengasjement	samfunnsengasjement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__T473--1)
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+19	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120916_2765289a__9324618--1)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+

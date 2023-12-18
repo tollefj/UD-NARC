@@ -1,0 +1,909 @@
+# newdoc id = db~20081204-3923805
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 010055
+# text = - Ble testet så sjelden at det var vanskelig
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	testet	teste	VERB	_	VerbForm=Part	0	root	_	name=O
+4	så	så	ADV	_	_	5	advmod	_	name=O
+5	sjelden	sjelden	ADV	_	_	3	advmod	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(db~20081204_3923805__T1--1)
+8	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+9	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advcl	_	name=O
+
+# newpar
+# sent_id = 010056
+# text = Lasse Kjus er skeptisk til antidopingarbeidet i alpint.
+1	Lasse	Lasse	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(db~20081204_3923805__181063--1
+2	Kjus	Kjus	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081204_3923805__181063)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	skeptisk	skeptisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	antidopingarbeidet	antidopingarbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(db~20081204_3923805__T3--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	alpint	alpin	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__T4--1)db~20081204_3923805__T3)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010057
+# text = Prioriterer aksel:
+1	Prioriterer	prioritere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	aksel	aksel	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No|name=B-PER|Entity=(db~20081204_3923805__212856--1)
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010058
+# text = Anders Solheim i Antidoping Norge sier alpint følges opp på lik linje med eksempelvis langrenn.
+1	Anders	Anders	PROPN	_	Gender=Masc	6	nsubj	_	name=B-PER|Entity=(db~20081204_3923805__3263--1
+2	Solheim	Solheim	PROPN	_	_	1	flat:name	_	name=I-PER
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Antidoping	Antidoping	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(db~20081204_3923805__7823--1
+5	Norge	Norge	PROPN	_	_	4	flat:name	_	name=I-ORG|Entity=db~20081204_3923805__7823)db~20081204_3923805__3263)
+6	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	alpint	alpin	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__T8--1)
+8	følges	følge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	ccomp	_	name=O
+9	opp	opp	ADP	_	_	8	compound:prt	_	name=O
+10	på	på	ADP	_	_	12	case	_	name=O
+11	lik	lik	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(db~20081204_3923805__T9--1
+12	linje	linje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	name=O
+13	med	med	ADP	_	_	15	case	_	name=O
+14	eksempelvis	eksempelvis	ADV	_	_	15	advmod	_	name=O|Entity=(db~20081204_3923805__T10--1
+15	langrenn	langrenn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T10)db~20081204_3923805__T9)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 010059
+# text = Forundret:
+1	Forundret	forundre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 010060
+# text = Aksel Lund Svindal synes det er rart han ikke testes mer.
+1	Aksel	Aksel	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(db~20081204_3923805__212856--1
+2	Lund	Lund	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Svindal	Svindal	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081204_3923805__212856)
+4	synes	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	rart	rar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	xcomp	_	name=O
+8	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__212856--1)
+9	ikke	ikke	PART	_	Polarity=Neg	10	advmod	_	name=O
+10	testes	teste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	7	csubj	_	name=O
+11	mer	mye	ADJ	_	Degree=Cmp	10	advmod	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010061
+# text = * Les også:
+1	*	*	PUNCT	_	_	2	punct	_	name=O
+2	Les	lese	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+4	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010062
+# text = Har bevis for at skiløpere går med dop
+1	Har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	bevis	bevis	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	name=O|Entity=(db~20081204_3923805__T13--1
+3	for	for	SCONJ	_	_	6	mark	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	skiløpere	skiløper	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(db~20081204_3923805__T14--1)
+6	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl	_	name=O
+7	med	med	ADP	_	_	8	case	_	name=O
+8	dop	dop	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(db~20081204_3923805__T15--1)db~20081204_3923805__T13)
+
+# sent_id = 010063
+# text = Lasse Kjus sier at dopingjegerne testet utøverne for lite under hans karriere, til tross for at alpint vurderes som en kraftidrett.
+1	Lasse	Lasse	PROPN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(db~20081204_3923805__181063--1
+2	Kjus	Kjus	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081204_3923805__181063)
+3	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	dopingjegerne	dopingjeger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(db~20081204_3923805__T17--1)
+6	testet	teste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+7	utøverne	utøver	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	obj	_	name=O|Entity=(db~20081204_3923805__T18--1)
+8	for	for	ADV	_	_	9	advmod	_	name=O
+9	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+10	under	under	ADP	_	_	12	case	_	name=O
+11	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	name=O|Entity=(db~20081204_3923805__T20--1(db~20081204_3923805__181063--1)
+12	karriere	karriere	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T20)
+13	,	$,	PUNCT	_	_	19	punct	_	name=O
+14	til	til	SCONJ	_	_	19	mark	_	name=O
+15	tross	tross	SCONJ	_	_	19	mark	_	name=O
+16	for	for	SCONJ	_	_	19	mark	_	name=O
+17	at	at	SCONJ	_	_	19	mark	_	name=O
+18	alpint	alpin	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__T21--1)
+19	vurderes	vurdere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	advcl	_	name=O
+20	som	som	SCONJ	_	_	22	mark	_	name=O
+21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(db~20081204_3923805__T22--1
+22	kraftidrett	kraftidrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	xcomp	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T22)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010064
+# text = - Jeg ønsket testing så ofte som mulig.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3923805__181063--1)
+3	ønsket	ønske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	testing	testing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=(db~20081204_3923805__5171--1)
+5	så	så	ADV	_	_	6	advmod	_	name=O
+6	ofte	ofte	ADJ	_	Degree=Pos	3	advmod	_	name=O
+7	som	som	ADP	_	_	8	case	_	name=O
+8	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__T25--1)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010065
+# text = For meg ble testingen en slags angst.
+1	For	for	ADP	_	_	2	case	_	name=O
+2	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	name=O|Entity=(db~20081204_3923805__181063--1)
+3	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	testingen	testing	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(db~20081204_3923805__5171--1)
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(db~20081204_3923805__T29--1(db~20081204_3923805__T28--1
+6	slags	slags	NOUN	_	Gender=Masc	7	nmod	_	name=O|Entity=db~20081204_3923805__T28)
+7	angst	angst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T29)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010066
+# text = Det skjedde så sjelden at det var vanskelig å forholde seg til det.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081204_3923805__5171--1)
+2	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	så	så	ADV	_	_	4	advmod	_	name=O
+4	sjelden	sjelden	ADV	_	_	2	advmod	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+8	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advcl	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	forholde	forholde	VERB	_	VerbForm=Inf	8	csubj	_	name=O
+11	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__5171--1)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010067
+# text = Du vet aldri om noe kan gå galt, sier Kjus til Dagbladet.
+1	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081204_3923805__T32--1)
+2	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	aldri	aldri	ADV	_	_	2	advmod	_	name=O
+4	om	om	SCONJ	_	_	7	mark	_	name=O
+5	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	7	nsubj	_	name=O|Entity=(db~20081204_3923805__T33--1)
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	gå	gå	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+8	galt	gal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+11	Kjus	Kjus	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(db~20081204_3923805__181063--1)
+12	til	til	ADP	_	_	13	case	_	name=O
+13	Dagbladet	Dagbladet	PROPN	_	Gender=Neut	10	obl	_	SpaceAfter=No|name=B-ORG|Entity=(db~20081204_3923805__2177--1)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010068
+# text = Ble beskyldt for doping
+1	Ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	aux:pass	_	name=O
+2	beskyldt	beskylde	VERB	_	VerbForm=Part	0	root	_	name=O
+3	for	for	ADP	_	_	4	case	_	name=O
+4	doping	doping	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(db~20081204_3923805__T36--1)
+
+# sent_id = 010069
+# text = Han var aktiv under hele Norges alpin-gullalder fram til 2006, og var blant verdens aller beste alpinister.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3923805__181063--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	aktiv	aktiv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+4	under	under	ADP	_	_	7	case	_	name=O
+5	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(db~20081204_3923805__T39--1
+6	Norges	Norge	PROPN	_	Case=Gen	7	nmod	_	name=B-GPE_LOC|Entity=(db~20081204_3923805__2165--1)
+7	alpin-gullalder	alpin-gullalder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O
+8	fram	fram	ADP	_	_	10	case	_	name=O
+9	til	til	ADP	_	_	10	case	_	name=O
+10	2006	2006	NUM	_	Number=Plur|NumType=Card	7	nmod	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T39)
+11	,	$,	PUNCT	_	_	18	punct	_	name=O
+12	og	og	CCONJ	_	_	18	cc	_	name=O
+13	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	name=O
+14	blant	blant	ADP	_	_	18	case	_	name=O
+15	verdens	verden	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(db~20081204_3923805__T41--1(db~20081204_3923805__T40--1)
+16	aller	aller	ADV	_	_	17	advmod	_	name=O
+17	beste	god	ADJ	_	Definite=Def|Degree=Sup	18	amod	_	name=O
+18	alpinister	alpinist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T41)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010070
+# text = På 90-tallet fikk norske utøvere flere ganger dopingbeskyldninger mot seg på grunn av sin store muskulatur.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	90-tallet	90-tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(db~20081204_3923805__T42--1)
+3	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(db~20081204_3923805__3286--1
+5	utøvere	utøver	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=db~20081204_3923805__3286)
+6	flere	mange	ADJ	_	Degree=Cmp	7	amod	_	name=O|Entity=(db~20081204_3923805__T44--1
+7	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=db~20081204_3923805__T44)
+8	dopingbeskyldninger	dopingbeskyldning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	name=O|Entity=(db~20081204_3923805__294--1)
+9	mot	mot	ADP	_	_	10	case	_	name=O
+10	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obl	_	name=O|Entity=(db~20081204_3923805__3286--1)
+11	på	på	ADP	_	_	12	case	_	name=O
+12	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(db~20081204_3923805__T46--1
+13	av	av	ADP	_	_	16	case	_	name=O
+14	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	name=O|Entity=(db~20081204_3923805__T48--1(db~20081204_3923805__3286--1)
+15	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	muskulatur	muskulatur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T48)db~20081204_3923805__T46)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010071
+# text = Beskyldningene måtte trekkes tilbake hver gang.
+1	Beskyldningene	beskyldning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	3	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__294--1)
+2	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	trekkes	trekke	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+4	tilbake	tilbake	ADP	_	_	3	compound:prt	_	name=O
+5	hver	hver	DET	_	Gender=Masc|Number=Sing|PronType=Tot	6	det	_	name=O|Entity=(db~20081204_3923805__T50--1
+6	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T50)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010072
+# text = Kjus forteller at det var vanlig å bli testet en til tre ganger utenom konkurransesesongen.
+1	Kjus	Kjus	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(db~20081204_3923805__181063--1)
+2	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	6	mark	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+6	vanlig	vanlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	name=O
+7	å	å	PART	_	_	9	mark	_	name=O
+8	bli	bli	AUX	_	VerbForm=Inf	9	aux:pass	_	name=O
+9	testet	teste	VERB	_	VerbForm=Part	6	csubj	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	obl	_	name=O
+11	til	til	ADP	_	_	13	case	_	name=O
+12	tre	tre	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(db~20081204_3923805__T52--1
+13	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	name=O|Entity=db~20081204_3923805__T52)
+14	utenom	utenom	ADP	_	_	15	case	_	name=O
+15	konkurransesesongen	konkurransesesong	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__2163--1)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010073
+# text = Det var heller ikke ofte at alpinistene ble testet i verdenscuprenn.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+3	heller	heller	ADV	_	_	5	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	ofte	ofte	ADJ	_	Degree=Pos	0	root	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	alpinistene	alpinist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__T54--1)
+8	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux:pass	_	name=O
+9	testet	teste	VERB	_	VerbForm=Part	5	csubj	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	verdenscuprenn	verdenscuprenn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__T55--1)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010074
+# text = Testene kom helst under, eller i forkant av, mesterskap.
+1	Testene	test	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(db~20081204_3923805__T56--1)
+2	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	helst	helst	ADV	_	_	2	advmod	_	name=O
+4	under	under	ADP	_	_	2	compound:prt	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	eller	eller	CCONJ	_	_	8	cc	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	forkant	forkant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	name=O|Entity=(db~20081204_3923805__T57--1
+9	av	av	ADP	_	_	11	case	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	9	punct	_	name=O
+11	mesterskap	mesterskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__T58--1)db~20081204_3923805__T57)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010075
+# text = - Testingen var opp og ned og ikke alltid like bra.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Testingen	testing	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(db~20081204_3923805__5171--1)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+4	opp	opp	ADP	_	_	0	root	_	name=O
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	ned	ned	ADP	_	_	4	conj	_	name=O
+7	og	og	CCONJ	_	_	11	cc	_	name=O
+8	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+9	alltid	alltid	ADV	_	_	11	advmod	_	name=O
+10	like	like	ADV	_	_	11	advmod	_	name=O
+11	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	conj	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010076
+# text = Det kunne gå en sommer uten at noe skjedde, for så å bli testet fem ganger i løpet av et mesterskap på fjorten dager, forteller han.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	gå	gå	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(db~20081204_3923805__T60--1
+5	sommer	sommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=db~20081204_3923805__T60)
+6	uten	uten	SCONJ	_	_	9	mark	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	9	nsubj	_	name=O|Entity=(db~20081204_3923805__T61--1)
+9	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	15	punct	_	name=O
+11	for	for	SCONJ	_	_	15	mark	_	name=O
+12	så	så	ADV	_	_	15	advmod	_	name=O
+13	å	å	PART	_	_	15	mark	_	name=O
+14	bli	bli	AUX	_	VerbForm=Inf	15	aux:pass	_	name=O
+15	testet	teste	VERB	_	VerbForm=Part	3	advcl	_	name=O
+16	fem	fem	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(db~20081204_3923805__T62--1
+17	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obl	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	løpet	løp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	name=O|Entity=(db~20081204_3923805__T63--1
+20	av	av	ADP	_	_	22	case	_	name=O
+21	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(db~20081204_3923805__T64--1
+22	mesterskap	mesterskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nmod	_	name=O
+23	på	på	ADP	_	_	25	case	_	name=O
+24	fjorten	fjorten	NUM	_	Number=Plur|NumType=Card	25	nummod	_	name=O|Entity=(db~20081204_3923805__T65--1
+25	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T65)db~20081204_3923805__T64)db~20081204_3923805__T63)db~20081204_3923805__T62)
+26	,	$,	PUNCT	_	_	27	punct	_	name=O
+27	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+28	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__181063--1)
+29	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010077
+# text = Men Kjus ser begrensningene antidopingarbeidet har, og at det koster mye å holde arbeidet i gang året rundt.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	Kjus	Kjus	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(db~20081204_3923805__181063--1)
+3	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	begrensningene	begrensning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	3	obj	_	name=O|Entity=(db~20081204_3923805__T68--1(db~20081204_3923805__T69--1
+5	antidopingarbeidet	antidopingarbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(db~20081204_3923805__2141--1)
+6	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=db~20081204_3923805__T69)
+8	og	og	CCONJ	_	_	11	cc	_	name=O
+9	at	at	SCONJ	_	_	11	mark	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	koster	koste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+12	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	obj	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	holde	holde	VERB	_	VerbForm=Inf	11	csubj	_	name=O
+15	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obj	_	name=O|Entity=(db~20081204_3923805__2141--1)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(db~20081204_3923805__T72--1)
+18	året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=(db~20081204_3923805__T73--1)
+19	rundt	rundt	ADP	_	_	18	case	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T68)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010078
+# text = - Burde testet oftere
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	testet	teste	VERB	_	VerbForm=Part	0	root	_	name=O
+4	oftere	ofte	ADJ	_	Degree=Cmp	3	advmod	_	name=O
+
+# sent_id = 010079
+# text = - Jeg ser med fordel at jeg kunne blitt testet oftere i stedet for å ha et påtvunget meldepliktsystem.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3923805__181063--1)
+3	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	med	med	ADP	_	_	5	case	_	name=O
+5	fordel	fordel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(db~20081204_3923805__T75--1)
+6	at	at	SCONJ	_	_	10	mark	_	name=O
+7	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__181063--1)
+8	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+9	blitt	bli	AUX	_	VerbForm=Part	10	aux:pass	_	name=O
+10	testet	teste	VERB	_	VerbForm=Part	3	ccomp	_	name=O
+11	oftere	ofte	ADJ	_	Degree=Cmp	10	advmod	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	stedet	sted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	name=O|Entity=(db~20081204_3923805__T77--1
+14	for	for	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	ha	ha	VERB	_	VerbForm=Inf	13	acl	_	name=O
+17	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(db~20081204_3923805__2273--1
+18	påtvunget	påtvinge	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	19	amod	_	name=O
+19	meldepliktsystem	meldepliktsystem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__2273)db~20081204_3923805__T77)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010080
+# text = Det lunne spart antidopingsystemet for arbeid, sier Kjus.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	lunne	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	spart	spare	VERB	_	VerbForm=Part	0	root	_	name=O
+4	antidopingsystemet	antidopingsystem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(db~20081204_3923805__T79--1)
+5	for	for	ADP	_	_	6	case	_	name=O
+6	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__T80--1)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+9	Kjus	Kjus	PROPN	_	_	8	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(db~20081204_3923805__181063--1)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010081
+# text = Han er en sterk motstander av det vedtatte, men omdiskuterte opplegget der utløverne til enhver tid må rapportere hvor de er.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081204_3923805__181063--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(db~20081204_3923805__T83--1
+4	sterk	sterk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	motstander	motstander	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+6	av	av	ADP	_	_	8	case	_	name=O
+7	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	name=O|Entity=(db~20081204_3923805__T84--1(db~20081204_3923805__T85--1
+8	vedtatte	vedta	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	5	amod	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=db~20081204_3923805__T85)
+10	men	men	CCONJ	_	_	12	cc	_	name=O
+11	omdiskuterte	omdiskutert	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(db~20081204_3923805__T86--1
+12	opplegget	opplegg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	conj	_	name=O
+13	der	der	SCONJ	_	_	19	mark	_	name=O
+14	utløverne	utløver	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	19	nsubj	_	name=O|Entity=(db~20081204_3923805__2176--1)
+15	til	til	ADP	_	_	17	case	_	name=O
+16	enhver	enhver	DET	_	Gender=Fem|Number=Sing|PronType=Tot	17	det	_	name=O|Entity=(db~20081204_3923805__T88--1
+17	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obl	_	name=O|Entity=db~20081204_3923805__T88)
+18	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	rapportere	rapportere	VERB	_	VerbForm=Inf	12	acl	_	name=O
+20	hvor	hvor	ADV	_	_	19	xcomp	_	name=O
+21	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(db~20081204_3923805__2176--1)
+22	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T86)db~20081204_3923805__T84)db~20081204_3923805__T83)
+23	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010082
+# text = - Jeg ønsker at man kunne hatt et testarkiv av seg selv slik at man hadde noe å vise til, sier Kjus.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3923805__181063--1)
+3	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	7	nsubj	_	name=O|Entity=(db~20081204_3923805__T91--1)
+6	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	name=O
+7	hatt	ha	VERB	_	VerbForm=Part	3	ccomp	_	name=O
+8	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(db~20081204_3923805__T92--1
+9	testarkiv	testarkiv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	nmod	_	name=O
+12	selv	selv	DET	_	PronType=Prs	11	det	_	name=O|Entity=db~20081204_3923805__T92)
+13	slik	slik	ADV	_	_	14	advmod	_	name=O
+14	at	at	SCONJ	_	_	16	mark	_	name=O
+15	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	16	nsubj	_	name=O|Entity=(db~20081204_3923805__T93--1)
+16	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	name=O
+17	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	16	obj	_	name=O|Entity=(db~20081204_3923805__T94--1
+18	å	å	PART	_	_	19	mark	_	name=O
+19	vise	vise	VERB	_	VerbForm=Inf	17	acl	_	name=O
+20	til	til	ADP	_	_	19	compound:prt	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T94)
+21	,	$,	PUNCT	_	_	22	punct	_	name=O
+22	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+23	Kjus	Kjus	PROPN	_	_	22	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(db~20081204_3923805__181063--1)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010083
+# text = - Det har vært få dopingsaker i alpint.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	vært	være	VERB	_	VerbForm=Part	0	root	_	name=O
+5	få	få	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(db~20081204_3923805__T96--1
+6	dopingsaker	dopingsak	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=db~20081204_3923805__T96)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	alpint	alpin	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__2197--1)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010084
+# text = Er det noe å hente på doping i den idretten?
+1	Er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	name=O
+3	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	1	nsubj	_	name=O|Entity=(db~20081204_3923805__T98--1
+4	å	å	PART	_	_	5	mark	_	name=O
+5	hente	hente	VERB	_	VerbForm=Inf	3	acl	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	doping	doping	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=(db~20081204_3923805__T99--1)
+8	i	i	ADP	_	_	10	case	_	name=O
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(db~20081204_3923805__2197--1
+10	idretten	idrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__2197)db~20081204_3923805__T98)
+11	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010085
+# text = - Ja, alpint er en fysisk sport hvor doping selvfølgelig har en prestasjonsfremmende effekt.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Ja	ja	INTJ	_	_	8	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	alpint	alpin	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	nsubj	_	name=O|Entity=(db~20081204_3923805__T101--1)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(db~20081204_3923805__T102--1
+7	fysisk	fysisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	sport	sport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+9	hvor	hvor	ADV	_	_	12	advmod	_	name=O
+10	doping	doping	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	nsubj	_	name=O|Entity=(db~20081204_3923805__T103--1)
+11	selvfølgelig	selvfølgelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+13	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(db~20081204_3923805__T104--1
+14	prestasjonsfremmende	prestasjonsfremmende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	effekt	effekt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T104)db~20081204_3923805__T102)
+16	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 010086
+# text = Kjus er klar på at alpinister ville hatt god bruk for doping under styrketreningen utenfor sesongen.
+1	Kjus	Kjus	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(db~20081204_3923805__181063--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+4	på	på	SCONJ	_	_	8	mark	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	alpinister	alpinist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=(db~20081204_3923805__2219--1)
+7	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+8	hatt	ha	VERB	_	VerbForm=Part	3	advcl	_	name=O
+9	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(db~20081204_3923805__T107--1
+10	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	name=O
+11	for	for	ADP	_	_	12	case	_	name=O
+12	doping	doping	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	name=O|Entity=(db~20081204_3923805__T108--1)db~20081204_3923805__T107)
+13	under	under	ADP	_	_	14	case	_	name=O
+14	styrketreningen	styrketrening	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(db~20081204_3923805__T109--1
+15	utenfor	utenfor	ADP	_	_	16	case	_	name=O
+16	sesongen	sesong	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__2163--1)db~20081204_3923805__T109)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010087
+# text = Dette var perioder de sjelden eller aldri ble testet.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3923805__T111--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	perioder	periode	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(db~20081204_3923805__T112--1
+4	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__2219--1)
+5	sjelden	sjelden	ADV	_	_	9	advmod	_	name=O
+6	eller	eller	CCONJ	_	_	7	cc	_	name=O
+7	aldri	aldri	ADV	_	_	5	conj	_	name=O
+8	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux:pass	_	name=O
+9	testet	teste	VERB	_	VerbForm=Part	3	acl:relcl	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T112)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010088
+# text = - Men det som er flott med alpint er det er så mange aspekter ved idretten at man ikke er «nødt til å dope seg» for å hevde seg, mener den meritterte alpinisten.
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	Men	men	CCONJ	_	_	11	cc	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081204_3923805__T114--1
+4	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	flott	flott	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	acl:relcl	_	name=O
+7	med	med	ADP	_	_	8	case	_	name=O
+8	alpint	alpin	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=(db~20081204_3923805__2232--1)db~20081204_3923805__T114)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	så	så	ADV	_	_	13	advmod	_	name=O|Entity=(db~20081204_3923805__T116--1
+13	mange	mange	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	aspekter	aspekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nsubj	_	name=O
+15	ved	ved	ADP	_	_	16	case	_	name=O
+16	idretten	idrett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(db~20081204_3923805__2232--1)
+17	at	at	SCONJ	_	_	22	mark	_	name=O
+18	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	22	nsubj	_	name=O|Entity=(db~20081204_3923805__T118--1)
+19	ikke	ikke	PART	_	Polarity=Neg	22	advmod	_	name=O
+20	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+21	«	$"	PUNCT	_	_	22	punct	_	SpaceAfter=No|name=O
+22	nødt	nødt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	advcl	_	name=O
+23	til	til	SCONJ	_	_	25	mark	_	name=O
+24	å	å	PART	_	_	25	mark	_	name=O
+25	dope	dope	VERB	_	VerbForm=Inf	22	advcl	_	name=O
+26	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	25	obj	_	SpaceAfter=No|name=O
+27	»	$"	PUNCT	_	_	26	punct	_	name=O
+28	for	for	SCONJ	_	_	30	mark	_	name=O
+29	å	å	PART	_	_	30	mark	_	name=O
+30	hevde	hevde	VERB	_	VerbForm=Inf	25	advcl	_	name=O
+31	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	30	obj	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T116)
+32	,	$,	PUNCT	_	_	33	punct	_	name=O
+33	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	parataxis	_	name=O
+34	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	36	det	_	name=O|Entity=(db~20081204_3923805__181063--1
+35	meritterte	merittere	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	36	amod	_	name=O
+36	alpinisten	alpinist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	33	nsubj	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__181063)
+37	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 010089
+# text = Prioriterer Aksel - men ikke i høst?
+1	Prioriterer	prioritere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	Aksel	Aksel	PROPN	_	Gender=Masc	1	obj	_	name=B-PER|Entity=(db~20081204_3923805__212856--1)
+3	-	$-	PUNCT	_	_	7	punct	_	name=O
+4	men	men	CCONJ	_	_	7	cc	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	høst	høst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__T121--1)
+8	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 010090
+# text = Anders Solheim i Antidoping Norge forteller at alpinister som Aksel Lund Svindal i dag følges opp tett i Norge.
+1	Anders	Anders	PROPN	_	Gender=Masc	6	nsubj	_	name=B-PER|Entity=(db~20081204_3923805__3263--1
+2	Solheim	Solheim	PROPN	_	_	1	flat:name	_	name=I-PER
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Antidoping	Antidoping	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(db~20081204_3923805__7823--1
+5	Norge	Norge	PROPN	_	_	4	flat:name	_	name=I-ORG|Entity=db~20081204_3923805__7823)db~20081204_3923805__3263)
+6	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	at	at	SCONJ	_	_	15	mark	_	name=O
+8	alpinister	alpinist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__T124--1
+9	som	som	ADP	_	_	10	case	_	name=O
+10	Aksel	Aksel	PROPN	_	Gender=Masc	8	nmod	_	name=B-PER|Entity=(db~20081204_3923805__212856--1
+11	Lund	Lund	PROPN	_	_	10	flat:name	_	name=I-PER
+12	Svindal	Svindal	PROPN	_	_	10	flat:name	_	name=I-PER|Entity=db~20081204_3923805__212856)db~20081204_3923805__T124)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(db~20081204_3923805__T126--1)
+15	følges	følge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	ccomp	_	name=O
+16	opp	opp	ADP	_	_	15	compound:prt	_	name=O
+17	tett	tett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	Norge	Norge	PROPN	_	_	15	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081204_3923805__2165--1)
+20	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 010091
+# text = - Vi prioriterer alpint høyt.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3923805__7823--1)
+3	prioriterer	prioritere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	alpint	alpin	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(db~20081204_3923805__2327--1)
+5	høyt	høy	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010092
+# text = Vi følger opp det på linje med det som drives innen utholdenhetsidretter som langrenn, sier sjefen i det nasjonale antidopingbyrået.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081204_3923805__7823--1)
+2	følger	følge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	opp	opp	ADP	_	_	2	compound:prt	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(db~20081204_3923805__2327--1)
+5	på	på	ADP	_	_	6	case	_	name=O
+6	linje	linje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(db~20081204_3923805__T131--1
+7	med	med	ADP	_	_	8	case	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod	_	name=O|Entity=(db~20081204_3923805__T132--1
+9	som	som	PRON	_	PronType=Rel	10	nsubj:pass	_	name=O
+10	drives	drive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	acl:relcl	_	name=O
+11	innen	innen	ADP	_	_	12	case	_	name=O
+12	utholdenhetsidretter	utholdenhetsidrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	name=O|Entity=(db~20081204_3923805__T133--1
+13	som	som	ADP	_	_	14	case	_	name=O
+14	langrenn	langrenn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__T134--1)db~20081204_3923805__T133)db~20081204_3923805__T132)db~20081204_3923805__T131)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+17	sjefen	sjef	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	name=O|Entity=(db~20081204_3923805__3263--1
+18	i	i	ADP	_	_	21	case	_	name=O
+19	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	21	det	_	name=O|Entity=(db~20081204_3923805__7823--1
+20	nasjonale	nasjonal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	antidopingbyrået	antidopingbyrå	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__7823)db~20081204_3923805__3263)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010093
+# text = - De var kjappe med å teste meg da jeg begynte å trene igjen etter uhellet, sier Aksel Lund Svindal til Dagbladet.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081204_3923805__7823--1)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+4	kjappe	kjapp	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+5	med	med	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	teste	teste	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+8	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	name=O|Entity=(db~20081204_3923805__212856--1)
+9	da	da	SCONJ	_	_	11	mark	_	name=O
+10	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081204_3923805__212856--1)
+11	begynte	begynne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	trene	trene	VERB	_	VerbForm=Inf	11	xcomp	_	name=O
+14	igjen	igjen	ADV	_	_	13	advmod	_	name=O
+15	etter	etter	ADP	_	_	16	case	_	name=O
+16	uhellet	uhell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__T140--1)
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+19	Aksel	Aksel	PROPN	_	Gender=Masc	18	nsubj	_	name=B-PER|Entity=(db~20081204_3923805__212856--1
+20	Lund	Lund	PROPN	_	_	19	flat:name	_	name=I-PER
+21	Svindal	Svindal	PROPN	_	_	19	flat:name	_	name=I-PER|Entity=db~20081204_3923805__212856)
+22	til	til	ADP	_	_	23	case	_	name=O
+23	Dagbladet	Dagbladet	PROPN	_	Gender=Neut	18	obl	_	SpaceAfter=No|name=B-ORG|Entity=(db~20081204_3923805__2177--1)
+24	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010094
+# text = - Både i januar og februar kom dopingkontrollørene uanmeldt.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Både	både	CCONJ	_	_	4	cc	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	januar	januar	NOUN	_	Gender=Masc	7	obl	_	name=O|Entity=(db~20081204_3923805__T143--1(db~20081204_3923805__T144--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	februar	februar	NOUN	_	Gender=Masc	4	conj	_	name=O|Entity=(db~20081204_3923805__T145--1)db~20081204_3923805__T143)
+7	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	dopingkontrollørene	dopingkontrollør	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=(db~20081204_3923805__2296--1)
+9	uanmeldt	uanmeldt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 010095
+# text = Men etter at jeg begynte å kjøre på ski igjen har jeg knapt sett dem.
+1	Men	men	CCONJ	_	_	14	cc	_	name=O
+2	etter	etter	SCONJ	_	_	5	mark	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081204_3923805__212856--1)
+5	begynte	begynne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	kjøre	kjøre	VERB	_	VerbForm=Inf	5	xcomp	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	ski	ski	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	name=O|Entity=(db~20081204_3923805__T148--1)
+10	igjen	igjen	ADV	_	_	7	advmod	_	name=O
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+12	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	name=O|Entity=(db~20081204_3923805__212856--1)
+13	knapt	knapp	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+14	sett	se	VERB	_	VerbForm=Part	0	root	_	name=O
+15	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__2296--1)
+16	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 010096
+# text = - Jeg husker ikke helt, men mulig jeg er blitt testet to ganger til ut over det.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3923805__212856--1)
+3	husker	huske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	8	punct	_	name=O
+7	men	men	CCONJ	_	_	8	cc	_	name=O
+8	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	name=O
+9	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__212856--1)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	blitt	bli	AUX	_	VerbForm=Part	12	aux:pass	_	name=O
+12	testet	teste	VERB	_	VerbForm=Part	8	orphan	_	name=O
+13	to	to	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(db~20081204_3923805__3466--1
+14	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	name=O
+15	til	til	ADP	_	_	13	obl	_	name=O|Entity=db~20081204_3923805__3466)
+16	ut	ut	ADP	_	_	18	case	_	name=O
+17	over	over	ADP	_	_	18	case	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__T154--1)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010097
+# text = - Synes du det er for lite?
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Synes	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081204_3923805__212856--1)
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(db~20081204_3923805__3466--1)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+6	for	for	ADV	_	_	7	advmod	_	name=O
+7	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	SpaceAfter=No|name=O
+8	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010098
+# text = - Det er i hvert fall ikke for mye.
+1	-	$-	PUNCT	_	_	9	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(db~20081204_3923805__3466--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+4	i	i	ADP	_	_	6	case	_	name=O
+5	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	6	det	_	name=O|Entity=(db~20081204_3923805__T158--1
+6	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=db~20081204_3923805__T158)
+7	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+8	for	for	ADV	_	_	9	advmod	_	name=O
+9	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 010099
+# text = Og jeg er litt overrasket over at jeg ikke er blitt testet oftere.
+1	Og	og	CCONJ	_	_	5	cc	_	name=O
+2	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081204_3923805__212856--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	overrasket	overraske	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	over	over	SCONJ	_	_	12	mark	_	name=O
+7	at	at	SCONJ	_	_	12	mark	_	name=O
+8	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__212856--1)
+9	ikke	ikke	PART	_	Polarity=Neg	12	advmod	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	blitt	bli	AUX	_	VerbForm=Part	12	aux:pass	_	name=O
+12	testet	teste	VERB	_	VerbForm=Part	5	advcl	_	name=O
+13	oftere	ofte	ADJ	_	Degree=Cmp	12	advmod	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010100
+# text = Men når det er sagt - Antidoping Norge og WADA vet sikkert hva de gjør og bruker sine ressurser deretter.
+1	Men	men	CCONJ	_	_	11	cc	_	name=O
+2	når	når	SCONJ	_	_	5	mark	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081204_3923805__T161--1)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	sagt	si	VERB	_	VerbForm=Part	11	advcl	_	name=O
+6	-	$-	PUNCT	_	_	5	punct	_	name=O
+7	Antidoping	Antidoping	PROPN	_	_	11	nsubj	_	name=B-ORG|Entity=(db~20081204_3923805__3493--1(db~20081204_3923805__7823--1
+8	Norge	Norge	PROPN	_	_	7	flat:name	_	name=I-ORG|Entity=db~20081204_3923805__7823)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	WADA	WADA	PROPN	_	_	7	conj	_	name=B-ORG|Entity=(db~20081204_3923805__T164--1)db~20081204_3923805__3493)
+11	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	sikkert	sikker	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+13	hva	hva	PRON	_	PronType=Int	15	obj	_	name=O
+14	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(db~20081204_3923805__3493--1)
+15	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	name=O
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	bruker	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	conj	_	name=O
+18	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(db~20081204_3923805__T167--1(db~20081204_3923805__3493--1)
+19	ressurser	ressurs	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	obj	_	name=O|Entity=db~20081204_3923805__T167)
+20	deretter	deretter	ADV	_	_	17	advmod	_	SpaceAfter=No|name=O
+21	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 010101
+# text = For meg er det helt naturlig at kontrollørene går mer etter idrettene der styrke og utholdenhet er avgjørende suksessfaktorer.
+1	For	for	ADP	_	_	2	case	_	name=O
+2	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	name=O|Entity=(db~20081204_3923805__212856--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+5	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	naturlig	naturlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	kontrollørene	kontrollør	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=(db~20081204_3923805__T169--1)
+9	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	csubj	_	name=O
+10	mer	mye	ADJ	_	Degree=Cmp	12	advmod	_	name=O
+11	etter	etter	ADP	_	_	12	case	_	name=O
+12	idrettene	idrett	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	obl	_	name=O|Entity=(db~20081204_3923805__T170--1
+13	der	der	SCONJ	_	_	19	mark	_	name=O
+14	styrke	styrke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nsubj	_	name=O|Entity=(db~20081204_3923805__T171--1(db~20081204_3923805__T172--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	utholdenhet	utholdenhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	conj	_	name=O|Entity=(db~20081204_3923805__T173--1)db~20081204_3923805__T171)
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+18	avgjørende	avgjørende	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O|Entity=(db~20081204_3923805__T174--1
+19	suksessfaktorer	suksessfaktor	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	acl	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T174)db~20081204_3923805__T170)
+20	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 010102
+# text = I en teknisk idrett som alpint får man ikke like godt betalt for å jukse.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(db~20081204_3923805__T175--1
+3	teknisk	teknisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	idrett	idrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O
+5	som	som	ADP	_	_	6	case	_	name=O
+6	alpint	alpin	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	name=O|Entity=(db~20081204_3923805__T176--1)db~20081204_3923805__T175)
+7	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	7	nsubj	_	name=O|Entity=(db~20081204_3923805__T177--1)
+9	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	name=O
+10	like	like	ADV	_	_	11	advmod	_	name=O
+11	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	betalt	betale	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	7	xcomp	_	name=O
+13	for	for	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	jukse	jukse	VERB	_	VerbForm=Inf	12	advcl	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 010103
+# text = Aksel Lund Svindal ble testet mer før han ble skadet her i Beaver Creek for ett år siden.
+1	Aksel	Aksel	PROPN	_	Gender=Masc	5	nsubj:pass	_	name=B-PER|Entity=(db~20081204_3923805__212856--1
+2	Lund	Lund	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Svindal	Svindal	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081204_3923805__212856)
+4	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+5	testet	teste	VERB	_	VerbForm=Part	0	root	_	name=O
+6	mer	mye	ADJ	_	Degree=Cmp	5	advmod	_	name=O
+7	før	før	SCONJ	_	_	10	mark	_	name=O
+8	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__212856--1)
+9	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	name=O
+10	skadet	skade	VERB	_	VerbForm=Part	5	advcl	_	name=O
+11	her	her	ADV	_	_	10	advmod	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	Beaver	Beaver	PROPN	_	_	11	nmod	_	name=B-LOC|Entity=(db~20081204_3923805__T180--1
+14	Creek	Creek	PROPN	_	_	13	flat:name	_	name=I-LOC|Entity=db~20081204_3923805__T180)
+15	for	for	ADP	_	_	17	case	_	name=O
+16	ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	17	nummod	_	name=O|Entity=(db~20081204_3923805__T181--1
+17	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	name=O
+18	siden	siden	ADV	_	_	17	advmod	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T181)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010104
+# text = Fordi han kjørte fort på ski.
+1	Fordi	fordi	SCONJ	_	_	3	mark	_	name=O
+2	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081204_3923805__212856--1)
+3	kjørte	kjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	fort	fort	ADJ	_	Degree=Pos	3	advmod	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	ski	ski	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=(db~20081204_3923805__T183--1)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010105
+# text = - Sånn er det og det er bra.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Sånn	sånn	ADV	_	_	0	root	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081204_3923805__T184--1)
+5	og	og	CCONJ	_	_	8	cc	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(db~20081204_3923805__T185--1)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010106
+# text = Kjører du godt i renn blir du oftere testet som en følge av resultatene - der og da.
+1	Kjører	kjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	name=O|Entity=(db~20081204_3923805__2374--1)
+3	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	renn	renn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	obl	_	name=O|Entity=(db~20081204_3923805__T187--1)
+6	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux:pass	_	name=O
+7	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__2374--1)
+8	oftere	ofte	ADJ	_	Degree=Cmp	9	advmod	_	name=O
+9	testet	teste	VERB	_	VerbForm=Part	0	root	_	name=O
+10	som	som	SCONJ	_	_	12	mark	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(db~20081204_3923805__T189--1
+12	følge	følge	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	acl	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	resultatene	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	12	nmod	_	name=O|Entity=(db~20081204_3923805__T190--1
+15	-	$-	PUNCT	_	_	16	punct	_	name=O
+16	der	der	ADV	_	_	14	advmod	_	name=O
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	da	da	ADV	_	_	16	conj	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T190)db~20081204_3923805__T189)
+19	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 010107
+# text = Men i høst - nei, jeg tror ikke jeg er blitt testet en eneste gang.
+1	Men	men	CCONJ	_	_	8	cc	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	høst	høst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(db~20081204_3923805__T191--1)
+4	-	$-	PUNCT	_	_	3	punct	_	name=O
+5	nei	nei	INTJ	_	_	8	discourse	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	5	punct	_	name=O
+7	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(db~20081204_3923805__212856--1)
+8	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	ikke	ikke	PART	_	Polarity=Neg	8	advmod	_	name=O
+10	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj:pass	_	name=O|Entity=(db~20081204_3923805__212856--1)
+11	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+12	blitt	bli	AUX	_	VerbForm=Part	13	aux:pass	_	name=O
+13	testet	teste	VERB	_	VerbForm=Part	8	ccomp	_	name=O
+14	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(db~20081204_3923805__T194--1
+15	eneste	eneste	NUM	_	Definite=Def|NumType=Card	16	nummod	_	name=O
+16	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=db~20081204_3923805__T194)
+17	.	$.	PUNCT	_	_	8	punct	_	name=O
+

@@ -1,0 +1,356 @@
+# newdoc id = dot~20111125-2162
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 000780
+# text = Veks forbi Danmark
+1	Veks	vekse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	forbi	forbi	ADP	_	_	3	case	_	name=O
+3	Danmark	Danmark	PROPN	_	_	1	obl	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+
+# newpar
+# sent_id = 000781
+# text = Noreg er på veg til å passere Danmark i folketal, for første gong i historia.
+1	Noreg	Noreg	PROPN	_	_	2	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__11546--1)
+2	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	veg	veg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(dot~20111125_2162__T3--1
+5	til	til	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	passere	passere	VERB	_	VerbForm=Inf	4	acl	_	name=O
+8	Danmark	Danmark	PROPN	_	_	7	obj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	folketal	folketal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(dot~20111125_2162__T5--1)
+11	,	$,	PUNCT	_	_	14	punct	_	name=O
+12	for	for	ADP	_	_	14	case	_	name=O
+13	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(dot~20111125_2162__T6--1
+14	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	historia	historie	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20111125_2162__T7--1)dot~20111125_2162__T6)dot~20111125_2162__T3)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 000782
+# text = Ved inngangen til 2011 hadde Danmark 5,56 millionar innbyggjarar, Noreg 4,92 millionar.
+1	Ved	ved	ADP	_	_	2	case	_	name=O
+2	inngangen	inngang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(dot~20111125_2162__T8--1
+3	til	til	ADP	_	_	4	case	_	name=O
+4	2011	2011	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=dot~20111125_2162__T8)
+5	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	Danmark	Danmark	PROPN	_	_	5	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+7	5,56	5,56	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(dot~20111125_2162__T11--1(dot~20111125_2162__T10--1
+8	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nmod	_	name=O|Entity=dot~20111125_2162__T10)
+9	innbyggjarar	innbyggjar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No|name=O|Entity=dot~20111125_2162__T11)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	Noreg	Noreg	PROPN	_	_	5	conj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__T12--1(dot~20111125_2162__11546--1)
+12	4,92	4,92	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(dot~20111125_2162__T13--1
+13	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	orphan	_	SpaceAfter=No|name=O|Entity=dot~20111125_2162__T13)dot~20111125_2162__T12)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000783
+# text = Men folketalet i Noreg aukar no mykje raskare enn i Danmark.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	folketalet	folketal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(dot~20111125_2162__T14--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Noreg	Noreg	PROPN	_	_	2	nmod	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__11546--1)dot~20111125_2162__T14)
+5	aukar	auke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	no	no	ADV	_	_	5	advmod	_	name=O
+7	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+8	raskare	rask	ADJ	_	Degree=Cmp	5	advmod	_	name=O
+9	enn	enn	ADP	_	_	11	case	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Danmark	Danmark	PROPN	_	_	8	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000784
+# text = Held utviklinga fram, kjem Noreg til å gå forbi Danmark i innbyggjartal i løpet av 2020-talet.
+1	Held	halde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+2	utviklinga	utvikling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nsubj	_	name=O|Entity=(dot~20111125_2162__T17--1)
+3	fram	fram	ADP	_	_	1	compound:prt	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	1	punct	_	name=O
+5	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	Noreg	Noreg	PROPN	_	_	5	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__11546--1)
+7	til	til	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	gå	gå	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+10	forbi	forbi	ADP	_	_	11	case	_	name=O
+11	Danmark	Danmark	PROPN	_	_	9	obl	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+12	i	i	ADP	_	_	13	case	_	name=O
+13	innbyggjartal	innbyggjartal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(dot~20111125_2162__T20--1)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	løpet	løp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(dot~20111125_2162__T21--1
+16	av	av	ADP	_	_	17	case	_	name=O
+17	2020-talet	2020-tal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20111125_2162__T22--1)dot~20111125_2162__T21)
+18	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000785
+# text = - Det er i så fall unikt i historia, seier historikar Hans Jacob Orning, førsteamanuensis ved Høgskulen i Volda og forfattar av første band av Noregshistoria Norvegr.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(dot~20111125_2162__T23--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+4	i	i	ADP	_	_	6	case	_	name=O
+5	så	så	ADV	_	_	6	advmod	_	name=O|Entity=(dot~20111125_2162__T24--1
+6	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=dot~20111125_2162__T24)
+7	unikt	unik	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	historia	historie	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(dot~20111125_2162__T25--1)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+12	historikar	historikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(dot~20111125_2162__4193--1
+13	Hans	Hans	NOUN	_	Gender=Masc	11	nsubj	_	name=B-PER
+14	Jacob	Jacob	NOUN	_	Gender=Masc	13	flat:name	_	name=I-PER
+15	Orning	Orning	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-PER
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	førsteamanuensis	førsteamanuensis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	appos	_	name=O|Entity=(dot~20111125_2162__T27--1(dot~20111125_2162__T28--1
+18	ved	ved	ADP	_	_	19	case	_	name=O
+19	Høgskulen	Høgskulen	PROPN	_	_	17	nmod	_	name=B-ORG|Entity=(dot~20111125_2162__T29--1
+20	i	i	ADP	_	_	19	flat:name	_	name=I-ORG
+21	Volda	Volda	PROPN	_	_	19	flat:name	_	name=I-ORG|Entity=dot~20111125_2162__T29)dot~20111125_2162__T28)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	forfattar	forfattar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	conj	_	name=O|Entity=(dot~20111125_2162__T30--1
+24	av	av	ADP	_	_	26	case	_	name=O
+25	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	name=O|Entity=(dot~20111125_2162__T31--1
+26	band	band	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	nmod	_	name=O
+27	av	av	ADP	_	_	28	case	_	name=O
+28	Noregshistoria	Noregshistoria	PROPN	_	_	26	nmod	_	name=B-DRV|Entity=(dot~20111125_2162__T32--1
+29	Norvegr	Norvegr	PROPN	_	_	28	flat:name	_	SpaceAfter=No|name=B-PROD|Entity=dot~20111125_2162__T32)dot~20111125_2162__T31)dot~20111125_2162__T30)dot~20111125_2162__T27)dot~20111125_2162__4193)
+30	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 000786
+# text = - Danmark har alltid hatt mykje høgare folketal enn Noreg.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Danmark	Danmark	PROPN	_	_	5	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	alltid	alltid	ADV	_	_	5	advmod	_	name=O
+5	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+6	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O|Entity=(dot~20111125_2162__T34--1
+7	høgare	høg	ADJ	_	Degree=Cmp	8	amod	_	name=O
+8	folketal	folketal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O
+9	enn	enn	ADP	_	_	10	case	_	name=O
+10	Noreg	Noreg	PROPN	_	_	7	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(dot~20111125_2162__11546--1)dot~20111125_2162__T34)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000787
+# text = Danmark hadde til dømes truleg omtrent dobbelt så stor befolkning som Noreg i høgmellomalderen, seier Orning.
+1	Danmark	Danmark	PROPN	_	_	2	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+2	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	dømes	døme	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(dot~20111125_2162__T37--1)
+5	truleg	truleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+6	omtrent	omtrent	ADV	_	_	7	advmod	_	name=O|Entity=(dot~20111125_2162__T38--1
+7	dobbelt	dobbel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+8	så	så	ADV	_	_	9	advmod	_	name=O
+9	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	befolkning	befolkning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O
+11	som	som	ADP	_	_	12	case	_	name=O
+12	Noreg	Noreg	PROPN	_	_	8	obl	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__11546--1)dot~20111125_2162__T38)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	høgmellomalderen	høgmellomalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(dot~20111125_2162__T40--1)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+17	Orning	Orning	PROPN	_	_	16	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(dot~20111125_2162__4193--1)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000788
+# text = Tala frå mellomalderen er naturleg nok svært usikre.
+1	Tala	tal	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=(dot~20111125_2162__T42--1
+2	frå	frå	ADP	_	_	3	case	_	name=O
+3	mellomalderen	mellomalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(dot~20111125_2162__T43--1)dot~20111125_2162__T42)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+5	naturleg	naturleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+6	nok	nok	ADV	_	_	5	advmod	_	name=O
+7	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+8	usikre	usikker	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 000789
+# text = Men frå den tida det finst betre kjelder for, er tala tydelege.
+1	Men	men	CCONJ	_	_	13	cc	_	name=O
+2	frå	frå	ADP	_	_	4	case	_	name=O
+3	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(dot~20111125_2162__T44--1
+4	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	13	obl	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+6	finst	finnast	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+7	betre	god	ADJ	_	Degree=Cmp	8	amod	_	name=O|Entity=(dot~20111125_2162__T45--1
+8	kjelder	kjelde	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nsubj	_	name=O
+9	for	for	ADP	_	_	8	nmod	_	SpaceAfter=No|name=O|Entity=dot~20111125_2162__T45)dot~20111125_2162__T44)
+10	,	$,	PUNCT	_	_	4	punct	_	name=O
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+12	tala	tal	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	13	nsubj	_	name=O|Entity=(dot~20111125_2162__T46--1)
+13	tydelege	tydeleg	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 000790
+# text = Orning viser til Øystein Rians verk Danmark-Norges historie 1380-1814:
+1	Orning	Orning	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(dot~20111125_2162__4193--1)
+2	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	7	case	_	name=O
+4	Øystein	Øystein	NOUN	_	Gender=Masc	6	nmod	_	name=B-PER|Entity=(dot~20111125_2162__T50--1(dot~20111125_2162__T49--1(dot~20111125_2162__T48--1
+5	Rians	Rian	PROPN	_	Case=Gen	4	flat:name	_	name=I-PER|Entity=dot~20111125_2162__T48)
+6	verk	verk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=dot~20111125_2162__T49)
+7	Danmark-Norges	Danmark-Norges	PROPN	_	_	2	obl	_	name=B-PROD
+8	historie	historie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	flat:name	_	name=I-PROD
+9	1380	1380	NUM	_	Number=Plur|NumType=Card	7	flat:name	_	SpaceAfter=No|name=I-PROD
+10	-	$-	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=I-PROD
+11	1814	1814	NUM	_	Number=Plur|NumType=Card	7	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=dot~20111125_2162__T50)
+12	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000791
+# text = I 1550 hadde Danmark kring 600.000 innbyggjarar, Noreg kring 200.000.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	1550	1550	NUM	_	Number=Plur|NumType=Card	3	obl	_	name=O
+3	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Danmark	Danmark	PROPN	_	_	3	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+5	kring	kring	ADP	_	_	6	case	_	name=O|Entity=(dot~20111125_2162__T52--1
+6	600.000	600.000	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O
+7	innbyggjarar	innbyggjar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No|name=O|Entity=dot~20111125_2162__T52)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	Noreg	Noreg	PROPN	_	_	3	conj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__11546--1
+10	kring	kring	ADP	_	_	11	case	_	name=O
+11	200.000	200.000	NUM	_	Number=Plur|NumType=Card	9	orphan	_	SpaceAfter=No|name=O|Entity=dot~20111125_2162__11546)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000792
+# text = I 1648 hadde Danmark 825.000 innbyggjarar, Noreg 450.000.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	1648	1648	NUM	_	Number=Plur|NumType=Card	3	obl	_	name=O
+3	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Danmark	Danmark	PROPN	_	_	3	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+5	825.000	825.000	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(dot~20111125_2162__T55--1
+6	innbyggjarar	innbyggjar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No|name=O|Entity=dot~20111125_2162__T55)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	Noreg	Noreg	PROPN	_	_	3	conj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__11546--1
+9	450.000	450.000	NUM	_	Number=Plur|NumType=Card	8	orphan	_	SpaceAfter=No|name=O|Entity=dot~20111125_2162__11546)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000793
+# text = (Vi går ikkje inn på detaljane om norske og danske tap av landområde gjennom historia her, det fører for langt.)
+1	(	$(	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(dot~20111125_2162__T57--1)
+3	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	inn	inn	ADP	_	_	7	case	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	detaljane	detalj	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=(dot~20111125_2162__T58--1
+8	om	om	ADP	_	_	12	case	_	name=O
+9	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(dot~20111125_2162__T59--1
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	danske	dansk	ADJ	_	Degree=Pos|Number=Plur	9	conj	_	name=O
+12	tap	tap	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nmod	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	landområde	landområde	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	nmod	_	name=O|Entity=(dot~20111125_2162__T60--1)
+15	gjennom	gjennom	ADP	_	_	16	case	_	name=O
+16	historia	historie	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	nmod	_	name=O|Entity=(dot~20111125_2162__T61--1)dot~20111125_2162__T59)dot~20111125_2162__T58)
+17	her	her	ADV	_	_	3	advmod	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	20	punct	_	name=O
+19	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(dot~20111125_2162__T62--1)
+20	fører	føre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+21	for	for	ADV	_	_	22	advmod	_	name=O
+22	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	SpaceAfter=No|name=O
+23	.	$.	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+24	)	$)	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000794
+# text = - Det er ressursane som gjer at Danmark gjennom heile historia har hatt langt høgare folketal enn Noreg:
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	ressursane	ressurs	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(dot~20111125_2162__T63--1
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:cleft	_	name=O
+7	at	at	SCONJ	_	_	13	mark	_	name=O
+8	Danmark	Danmark	PROPN	_	_	13	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+9	gjennom	gjennom	ADP	_	_	11	case	_	name=O
+10	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(dot~20111125_2162__T65--1
+11	historia	historie	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	13	obl	_	name=O|Entity=dot~20111125_2162__T65)
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	hatt	ha	VERB	_	VerbForm=Part	6	ccomp	_	name=O
+14	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O|Entity=(dot~20111125_2162__T66--1
+15	høgare	høg	ADJ	_	Degree=Cmp	16	amod	_	name=O
+16	folketal	folketal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	name=O
+17	enn	enn	ADP	_	_	18	case	_	name=O
+18	Noreg	Noreg	PROPN	_	_	15	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(dot~20111125_2162__11546--1)dot~20111125_2162__T66)dot~20111125_2162__T63)
+19	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000795
+# text = Danmark har langt større og meir samla areal for jordbruk.
+1	Danmark	Danmark	PROPN	_	_	2	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O|Entity=(dot~20111125_2162__T69--1
+4	større	stor	ADJ	_	Degree=Cmp	8	amod	_	name=O
+5	og	og	CCONJ	_	_	7	cc	_	name=O
+6	meir	mykje	ADJ	_	Degree=Cmp	7	advmod	_	name=O
+7	samla	samle	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	4	conj	_	name=O
+8	areal	areal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O
+9	for	for	ADP	_	_	10	case	_	name=O
+10	jordbruk	jordbruk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20111125_2162__T70--1)dot~20111125_2162__T69)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000796
+# text = Trass i det mykje mindre totalarealet sitt har Danmark 40 prosent meir dyrkbar jord enn Noreg, der berre kring to prosent av arealet kan dyrkast, seier Orning.
+1	Trass	trass	ADP	_	_	6	case	_	name=O
+2	i	i	ADP	_	_	6	case	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(dot~20111125_2162__T71--1
+4	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	mindre	liten	ADJ	_	Degree=Cmp	6	amod	_	name=O
+6	totalarealet	totalareal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	name=O
+7	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(dot~20111125_2162__14583--1)dot~20111125_2162__T71)
+8	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	Danmark	Danmark	PROPN	_	_	8	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+10	40	40	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(dot~20111125_2162__T75--1(dot~20111125_2162__T74--1
+11	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nmod	_	name=O|Entity=dot~20111125_2162__T74)
+12	meir	mykje	ADJ	_	Degree=Cmp	13	advmod	_	name=O
+13	dyrkbar	dyrkbar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	jord	jord	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	name=O
+15	enn	enn	ADP	_	_	16	case	_	name=O
+16	Noreg	Noreg	PROPN	_	_	12	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(dot~20111125_2162__T76--1(dot~20111125_2162__11546--1)
+17	,	$,	PUNCT	_	_	26	punct	_	name=O
+18	der	der	SCONJ	_	_	26	mark	_	name=O
+19	berre	berre	ADV	_	_	22	advmod	_	name=O
+20	kring	kring	ADP	_	_	22	case	_	name=O
+21	to	to	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O|Entity=(dot~20111125_2162__T77--1
+22	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	26	obl	_	name=O
+23	av	av	ADP	_	_	24	case	_	name=O
+24	arealet	areal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	nmod	_	name=O|Entity=(dot~20111125_2162__T78--1)dot~20111125_2162__T77)
+25	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	name=O
+26	dyrkast	dyrkast	VERB	_	VerbForm=Inf	16	acl	_	SpaceAfter=No|name=O|Entity=dot~20111125_2162__T76)dot~20111125_2162__T75)
+27	,	$,	PUNCT	_	_	28	punct	_	name=O
+28	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	name=O
+29	Orning	Orning	PROPN	_	_	28	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(dot~20111125_2162__4193--1)
+30	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 000797
+# text = Og om vi går til notida:
+1	Og	og	CCONJ	_	_	4	cc	_	name=O
+2	om	om	SCONJ	_	_	4	mark	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(dot~20111125_2162__T80--1)
+4	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	notida	notid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(dot~20111125_2162__T81--1)
+7	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000798
+# text = Dersom Noreg snart går forbi Danmark i folketal, slik framskrivingane tilseier, kan også dette langt på veg forklarast med naturressursar.
+1	Dersom	dersom	SCONJ	_	_	4	mark	_	name=O
+2	Noreg	Noreg	PROPN	_	_	4	nsubj	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__11546--1)
+3	snart	snar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	name=O
+5	forbi	forbi	ADP	_	_	6	case	_	name=O
+6	Danmark	Danmark	PROPN	_	_	4	obl	_	name=B-GPE_LOC|Entity=(dot~20111125_2162__14583--1)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	folketal	folketal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(dot~20111125_2162__T84--1)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	slik	slik	ADV	_	_	4	advmod	_	name=O
+11	framskrivingane	framskriving	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	12	nsubj	_	name=O|Entity=(dot~20111125_2162__T85--1)
+12	tilseier	tilseie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	10	punct	_	name=O
+14	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+15	også	også	ADV	_	_	20	advmod	_	name=O
+16	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(dot~20111125_2162__T86--1)
+17	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	name=O
+18	på	på	ADP	_	_	19	case	_	name=O
+19	veg	veg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	name=O|Entity=(dot~20111125_2162__T87--1)
+20	forklarast	forklare	VERB	_	VerbForm=Inf	0	root	_	name=O
+21	med	med	ADP	_	_	22	case	_	name=O
+22	naturressursar	naturressurs	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No|name=O|Entity=(dot~20111125_2162__T88--1)
+23	.	$.	PUNCT	_	_	20	punct	_	name=O
+
