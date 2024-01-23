@@ -1,4 +1,10 @@
-all: convert
+all: update install convert
+
+update:
+	git submodule update --recursive --init
+
+install:
+	python -m pip install -r requirements.txt
 
 convert:
 	python ud_narc/pipeline.py
