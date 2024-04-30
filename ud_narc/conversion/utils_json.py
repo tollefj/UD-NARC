@@ -1,8 +1,8 @@
 import re
-from custom_types import ConlluType
-from typing import List, Dict
-from util import SEP, EMPTY
+from typing import Dict, List
 
+from custom_types import ConlluType
+from util import EMPTY, SEP
 
 
 def make_feature_connection(start: int, end: int, _type: str = None) -> str:
@@ -23,7 +23,7 @@ def make_markable(_id, m_id, etype, start, end):
         "start": start,
         "end": end,
         "id": _id,
-        "m_id": m_id  # the markable without parentheses
+        "m_id": m_id,  # the markable without parentheses
     }
 
 
@@ -42,6 +42,7 @@ def sort_entity_groups(ents: List[Dict[str, str]]):
     # opening ents should be sorted by the LENGTH OF THE SPAN MENTION
     def sort_span_length(ent):
         return ent["end"] - ent["start"]
+
     opening_ents = sorted(opening_ents, key=sort_span_length, reverse=True)
 
     entity_stack = []
@@ -96,7 +97,7 @@ def make_misc_string(misc, ents):
 
 
 def make_conllu_line(token_id, token, misc):
-    """ Format following the CoNLLU standard:
+    """Format following the CoNLLU standard:
     ID: Word index, integer starting at 1 for each new sentence; may be a range for multiword tokens; may be a decimal number for empty nodes (decimal numbers can be lower than 1 but must be greater than 0).
     FORM: Word form or punctuation symbol.
     LEMMA: Lemma or stem of word form.
@@ -119,7 +120,7 @@ def make_conllu_line(token_id, token, misc):
         "HEAD": "_",
         "DEPREL": "_",
         "DEPS": "_",
-        "MISC": misc
+        "MISC": misc,
     }
     conllu_dict = {
         "ID": str(token_id + 1),
@@ -131,6 +132,6 @@ def make_conllu_line(token_id, token, misc):
         "HEAD": "0",
         "DEPREL": "root" if token_id == 2 else "nsubj",
         "DEPS": "_",
-        "MISC": misc
+        "MISC": misc,
     }
     return SEP.join(conllu_dict.values())

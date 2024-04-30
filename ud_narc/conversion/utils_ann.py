@@ -4,9 +4,9 @@ from typing import Dict, List, Tuple
 
 import networkx as nx
 
-Mention = Tuple[int, int]               # (start, end)
-RawMarkable = List[str]                 # [T1, T2]
-MarkableConnection = Tuple[str, str]    # (T1, T2)
+Mention = Tuple[int, int]  # (start, end)
+RawMarkable = List[str]  # [T1, T2]
+MarkableConnection = Tuple[str, str]  # (T1, T2)
 
 Mentions = List[Mention]
 Markables = Dict[str, Mentions]
@@ -21,7 +21,9 @@ ClusterList = List[List[str]]
 def get_invalid_mention_links():
     # manually controlled invalid mention links
     invalid_mention_links = defaultdict(set)
-    with open("ud_narc/conversion/invalid_mentions_links.txt", "r", encoding="utf-8") as f:
+    with open(
+        "ud_narc/conversion/invalid_mentions_links.txt", "r", encoding="utf-8"
+    ) as f:
         for line in f:
             line = line.strip()
             if line and "#" not in line:
@@ -49,9 +51,8 @@ def get_continuous_spans(refs: List[str]) -> List[List[int]]:
 
 
 def get_references(
-        ann_data: List[str],
-        invalid_obj: List[str] = [],
-        identifier: str = "T") -> Tuple[Markables, References]:
+    ann_data: List[str], invalid_obj: List[str] = [], identifier: str = "T"
+) -> Tuple[Markables, References]:
 
     markables: Markables = {}
     references: References = defaultdict(list)
@@ -59,8 +60,7 @@ def get_references(
     for line in ann_data:
         line_parts = line.split("\t")
         if len(line_parts) < 2:
-            print(
-                f"Line {line} is not a valid annotation -- Ignoring and continuing")
+            print(f"Line {line} is not a valid annotation -- Ignoring and continuing")
             continue
 
         _id, ref_data, *_ = line_parts
@@ -94,13 +94,13 @@ def cluster_references(corefs: Corefs) -> List[MarkableConnection]:
 
 
 def get_reference_content(
-    markables: Markables,
-    references: References
+    markables: Markables, references: References
 ) -> Tuple[ClusterMapping, ClusterList]:
 
     cluster_map: ClusterMapping = {}
     clustered_references: List[MarkableConnection] = cluster_references(
-        deepcopy(references["Coref"]))
+        deepcopy(references["Coref"])
+    )
 
     for cluster in clustered_references:
         # to identify the cluster in jsonl format
@@ -123,7 +123,7 @@ def get_reference_content(
 
 
 def extract_token_mapping(
-        text: str
+    text: str,
 ) -> Tuple[List[List[str]], List[str], Dict[int, int]]:
 
     current_word_idx = 0
@@ -151,8 +151,7 @@ def extract_token_mapping(
 
 
 def markable_char_to_word(
-    markables: Markables,
-    char_to_word_map: Dict[int, int]
+    markables: Markables, char_to_word_map: Dict[int, int]
 ) -> Dict[int, List[Tuple[int, int]]]:
 
     markable_by_word = {}
