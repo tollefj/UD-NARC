@@ -1,0 +1,392 @@
+# newdoc id = firdann~20100415-5072711
+# global.Entity = eid-etype-head-other
+# sent_id = 006295
+# text = Den siste leigebilen?
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20100415_5072711__568--1
+2	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	leigebilen	leigebil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5072711__568)
+4	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 006296
+# text = Dette kan vere den siste ledige leigebilen i fylket.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(firdann~20100415_5072711__568--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+3	vere	vere	AUX	_	VerbForm=Inf	7	cop	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(firdann~20100415_5072711__T3--1
+5	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+6	ledige	ledig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	leigebilen	leigebil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	fylket	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T4--1)firdann~20100415_5072711__T3)
+10	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006297
+# text = Den er ledig i nokre fattige timar.
+1	Den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20100415_5072711__568--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	ledig	ledig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+4	i	i	ADP	_	_	7	case	_	name=O
+5	nokre	nokon	DET	_	Number=Plur|PronType=Ind	7	det	_	name=O|Entity=(firdann~20100415_5072711__T6--1
+6	fattige	fattig	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	timar	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5072711__T6)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 006298
+# text = Roy Arne Flo, dagleg leiar Europcar, står ved den siste leigebilen dei har.
+1	Roy	Roy	NOUN	_	Gender=Masc	9	nsubj	_	name=B-PER|Entity=(firdann~20100415_5072711__8221--1
+2	Arne	Arne	NOUN	_	Gender=Masc	1	flat:name	_	name=I-PER
+3	Flo	Flo	PROPN	_	_	1	flat:name	_	SpaceAfter=No|name=I-PER
+4	,	$,	PUNCT	_	_	6	punct	_	name=O
+5	dagleg	dagleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(firdann~20100415_5072711__T8--1
+6	leiar	leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	name=O
+7	Europcar	Europcar	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20100415_5072711__7228--1)firdann~20100415_5072711__8221)
+8	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=firdann~20100415_5072711__T8)
+9	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	ved	ved	ADP	_	_	13	case	_	name=O
+11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(firdann~20100415_5072711__568--1
+12	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	leigebilen	leigebil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O
+14	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(firdann~20100415_5072711__7228--1)
+15	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5072711__568)
+16	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# newpar
+# sent_id = 006299
+# text = - Det har vore så mykje trykk i dag at eg har måtta klattlade telefonen, seier Roy Arne Flo til firda.no torsdag ettermiddag.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	vore	vere	VERB	_	VerbForm=Part	0	root	_	name=O
+5	så	så	ADV	_	_	6	advmod	_	name=O|Entity=(firdann~20100415_5072711__T12[1/2]--1
+6	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	trykk	trykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=firdann~20100415_5072711__T12[1/2])
+8	i	i	ADP	_	_	9	case	_	name=O
+9	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(firdann~20100415_5072711__T13--1)
+10	at	at	SCONJ	_	_	14	mark	_	name=O|Entity=(firdann~20100415_5072711__T12[2/2]--1
+11	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	name=O|Entity=(firdann~20100415_5072711__8221--1)
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+13	måtta	måtte	AUX	_	VerbForm=Part	14	aux	_	name=O
+14	klattlade	klattlade	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+15	telefonen	telefon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Bridge=firdann~20100415_5072711__8221<firdann~20100415_5072711__T15:default|Entity=(firdann~20100415_5072711__T15--1)firdann~20100415_5072711__T12[2/2])
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+18	Roy	Roy	NOUN	_	Gender=Masc	17	nsubj	_	name=B-PER|Entity=(firdann~20100415_5072711__8221--1
+19	Arne	Arne	NOUN	_	Gender=Masc	18	flat:name	_	name=I-PER
+20	Flo	Flo	PROPN	_	_	18	flat:name	_	name=I-PER|Entity=firdann~20100415_5072711__8221)
+21	til	til	ADP	_	_	22	case	_	name=O
+22	firda.no	firda.no	PROPN	_	_	17	obl	_	name=B-ORG|Entity=(firdann~20100415_5072711__2106--1)
+23	torsdag	torsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	name=O|Entity=(firdann~20100415_5072711__T18--1
+24	ettermiddag	ettermiddag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T19--1)firdann~20100415_5072711__T18)
+25	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006300
+# text = Flo er dagleg leiar ved Europcar Førde/Florø, og skulle gjerne ønskt at han kunne hjelpe fleire som står fast etter at luftrommet over landet blei stengd for kommersiell trafikk torsdag.
+1	Flo	Flo	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(firdann~20100415_5072711__8221--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	dagleg	dagleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(firdann~20100415_5072711__T21--1
+4	leiar	leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	Europcar	Europcar	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(firdann~20100415_5072711__7228--1
+7	Førde	Førde	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-ORG
+8	/	$/	SYM	_	_	6	flat:name	_	SpaceAfter=No|name=I-ORG
+9	Florø	Florø	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100415_5072711__7228)firdann~20100415_5072711__T21)
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	og	og	CCONJ	_	_	14	cc	_	name=O
+12	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	name=O
+13	gjerne	gjerne	ADV	_	_	14	advmod	_	name=O
+14	ønskt	ønskje	VERB	_	VerbForm=Part	4	conj	_	name=O
+15	at	at	SCONJ	_	_	18	mark	_	name=O
+16	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(firdann~20100415_5072711__8221--1)
+17	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	name=O
+18	hjelpe	hjelpe	VERB	_	VerbForm=Inf	14	ccomp	_	name=O
+19	fleire	mange	ADJ	_	Degree=Cmp	18	obj	_	name=O
+20	som	som	PRON	_	PronType=Rel	21	nsubj	_	name=O
+21	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	name=O
+22	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+23	etter	etter	SCONJ	_	_	29	mark	_	name=O
+24	at	at	SCONJ	_	_	29	mark	_	name=O
+25	luftrommet	luftrom	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	29	nsubj:pass	_	name=O|Entity=(firdann~20100415_5072711__T24--1
+26	over	over	ADP	_	_	27	case	_	name=O
+27	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	25	nmod	_	name=O|Entity=(firdann~20100415_5072711__280--1)firdann~20100415_5072711__T24)
+28	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	29	aux:pass	_	name=O
+29	stengd	stengje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	21	advcl	_	name=O
+30	for	for	ADP	_	_	32	case	_	name=O
+31	kommersiell	kommersiell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	32	amod	_	name=O|Entity=(firdann~20100415_5072711__T26--1
+32	trafikk	trafikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	obl	_	name=O|Entity=firdann~20100415_5072711__T26)
+33	torsdag	torsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T27--1)
+34	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006301
+# text = Måtte stoppe utleige
+1	Måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	aux	_	name=O
+2	stoppe	stoppe	VERB	_	VerbForm=Inf	0	root	_	name=O
+3	utleige	utleige	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(firdann~20100415_5072711__T28--1)
+
+# sent_id = 006302
+# text = - Kundane prøver naturleg nok å tinge bil på nettet etter at dei har ringt og fått vite at vi ikkje har ledige bilar.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Kundane	kunde	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Bridge=firdann~20100415_5072711__7228<firdann~20100415_5072711__261:default|Entity=(firdann~20100415_5072711__261--1)
+3	prøver	prøve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	naturleg	naturleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	nok	nok	ADV	_	_	4	advmod	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	tinge	tinge	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+8	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(firdann~20100415_5072711__T30--1)
+9	på	på	ADP	_	_	10	case	_	name=O
+10	nettet	nett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(firdann~20100415_5072711__T31--1)
+11	etter	etter	SCONJ	_	_	15	mark	_	name=O
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(firdann~20100415_5072711__261--1)
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	ringt	ringe	VERB	_	VerbForm=Part	7	advcl	_	name=O
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	fått	få	AUX	_	VerbForm=Part	18	aux	_	name=O
+18	vite	vite	VERB	_	VerbForm=Inf	15	conj	_	name=O
+19	at	at	SCONJ	_	_	22	mark	_	name=O
+20	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	name=O|Entity=(firdann~20100415_5072711__7228--1)
+21	ikkje	ikkje	PART	_	Polarity=Neg	22	advmod	_	name=O
+22	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	ccomp	_	name=O
+23	ledige	ledig	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	name=O|Entity=(firdann~20100415_5072711__4153--1
+24	bilar	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5072711__4153)
+25	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006303
+# text = For å ikkje miste kontroll over kvar bilane blir levert inn, og når, har vi stoppa all førehandsutleige - også på nett.
+1	For	for	SCONJ	_	_	4	mark	_	name=O
+2	å	å	PART	_	_	4	mark	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	miste	miste	VERB	_	VerbForm=Inf	18	advcl	_	name=O
+5	kontroll	kontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(firdann~20100415_5072711__T35--1
+6	over	over	ADP	_	_	10	case	_	name=O
+7	kvar	kvar	ADV	_	_	10	advmod	_	name=O
+8	bilane	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nsubj:pass	_	name=O|Entity=(firdann~20100415_5072711__4153--1)
+9	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux:pass	_	name=O
+10	levert	levere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	5	acl:relcl	_	name=O
+11	inn	inn	ADP	_	_	10	compound:prt	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	når	når	ADV	_	_	7	conj	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=firdann~20100415_5072711__T35)
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+17	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(firdann~20100415_5072711__7228--1)
+18	stoppa	stoppe	VERB	_	VerbForm=Part	0	root	_	name=O
+19	all	all	DET	_	Gender=Fem|Number=Sing|PronType=Tot	20	det	_	name=O|Entity=(firdann~20100415_5072711__T38--1
+20	førehandsutleige	førehandsutleige	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obj	_	name=O|Entity=firdann~20100415_5072711__T38)
+21	-	$-	PUNCT	_	_	24	punct	_	name=O
+22	også	også	ADV	_	_	24	advmod	_	name=O
+23	på	på	ADP	_	_	24	case	_	name=O
+24	nett	nett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T39--1)
+25	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 006304
+# text = Men vi leiger sjølvsagt bilane ut att så snart dei kjem inn, forsikrar Flo.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20100415_5072711__7228--1)
+3	leiger	leige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	sjølvsagt	sjølvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	bilane	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obj	_	name=O|Entity=(firdann~20100415_5072711__4153--1)
+6	ut	ut	ADP	_	_	3	compound:prt	_	name=O
+7	att	att	ADP	_	_	3	compound:prt	_	name=O
+8	så	så	ADV	_	_	9	advmod	_	name=O
+9	snart	snar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+10	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(firdann~20100415_5072711__4153--1)
+11	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+12	inn	inn	ADP	_	_	11	compound:prt	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	forsikrar	forsikre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+15	Flo	Flo	PROPN	_	_	14	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20100415_5072711__8221--1)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006305
+# text = Les også:
+1	Les	lese	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	også	også	ADV	_	_	1	advmod	_	SpaceAfter=No|name=O
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006306
+# text = Akuttberedskap i lufta ute av spel
+1	Akuttberedskap	akuttberedskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20100415_5072711__T44--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	lufta	luft	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20100415_5072711__T45--1)
+4	ute	ute	SCONJ	_	_	6	mark	_	name=O
+5	av	av	SCONJ	_	_	6	mark	_	name=O
+6	spel	spel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	xcomp	_	name=O|Entity=(firdann~20100415_5072711__T46--1)firdann~20100415_5072711__T44)
+
+# sent_id = 006307
+# text = Då Flo sjekka, var det ingen ledige bilar i systemet.
+1	Då	då	SCONJ	_	_	3	mark	_	name=O
+2	Flo	Flo	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(firdann~20100415_5072711__8221--1)
+3	sjekka	sjekke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	3	punct	_	name=O
+5	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+7	ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	9	det	_	name=O|Entity=(firdann~20100415_5072711__T48--1
+8	ledige	ledig	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O
+9	bilar	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=firdann~20100415_5072711__T48)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	systemet	system	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Bridge=firdann~20100415_5072711__7228<firdann~20100415_5072711__T49:default|Entity=(firdann~20100415_5072711__T49--1)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006308
+# text = Bilen han framleis har inne, er reservert og skal hentast fredag morgon.
+1	Bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(firdann~20100415_5072711__568--1
+2	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20100415_5072711__8221--1)
+3	framleis	framleis	ADV	_	_	4	advmod	_	name=O
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+5	inne	inne	ADP	_	_	4	compound:prt	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5072711__568)
+6	,	$,	PUNCT	_	_	1	punct	_	name=O
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	reservert	reservert	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	hentast	hente	VERB	_	VerbForm=Inf	8	conj	_	name=O
+12	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(firdann~20100415_5072711__T52--1
+13	morgon	morgon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T53--1)firdann~20100415_5072711__T52)
+14	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 006309
+# text = Heller ikkje i resten av landet er det ei lett sak å skaffe transport.
+1	Heller	heller	ADV	_	_	2	advmod	_	name=O
+2	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	resten	rest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(firdann~20100415_5072711__T54--1
+5	av	av	ADP	_	_	6	case	_	name=O
+6	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(firdann~20100415_5072711__280--1)firdann~20100415_5072711__T54)
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+9	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(firdann~20100415_5072711__T56--1
+10	lett	lett	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	sak	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=firdann~20100415_5072711__T56)
+12	å	å	PART	_	_	13	mark	_	name=O
+13	skaffe	skaffe	VERB	_	VerbForm=Inf	11	csubj	_	name=O
+14	transport	transport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T57--1)
+15	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 006310
+# text = - Bergen, Oslo, Haugesund, Stavanger, Molde, Ålesund, Kristiansand og -sund og Bodø.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O|Entity=(firdann~20100415_5072711__T58--1(firdann~20100415_5072711__T59--1
+2	Bergen	Bergen	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC
+3	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=firdann~20100415_5072711__T59)
+4	Oslo	Oslo	PROPN	_	_	2	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5072711__3212--1)
+5	,	$,	PUNCT	_	_	4	punct	_	name=O
+6	Haugesund	Haugesund	PROPN	_	_	2	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5072711__T61--1
+7	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=firdann~20100415_5072711__T61)
+8	Stavanger	Stavanger	PROPN	_	_	2	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5072711__T62--1
+9	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=firdann~20100415_5072711__T62)
+10	Molde	Molde	PROPN	_	_	2	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5072711__T63--1
+11	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=firdann~20100415_5072711__T63)
+12	Ålesund	Ålesund	PROPN	_	_	2	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5072711__T64--1
+13	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=firdann~20100415_5072711__T64)
+14	Kristiansand	Kristiansand	PROPN	_	_	2	conj	_	name=B-GPE_LOC|Entity=(firdann~20100415_5072711__T65--1(firdann~20100415_5072711__T66--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=I-GPE_LOC
+16	-sund	-sund	NOUN	_	_	14	conj	_	name=I-GPE_LOC|Entity=(firdann~20100415_5072711__T67--1)firdann~20100415_5072711__T65)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	Bodø	Bodø	PROPN	_	_	2	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5072711__T68--1)firdann~20100415_5072711__T58)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006311
+# text = Alle kontor er tømd for leigebilar.
+1	Alle	all	DET	_	Number=Plur|PronType=Tot	2	det	_	name=O|Entity=(firdann~20100415_5072711__T69--1
+2	kontor	kontor	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=firdann~20100415_5072711__T69)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	tømd	tømme	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	for	for	ADP	_	_	6	case	_	name=O
+6	leigebilar	leigebil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T70--1)
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006312
+# text = Fire vil til Førde
+1	Fire	fire	NUM	_	Number=Plur|NumType=Card	2	nsubj	_	name=O
+2	vil	vilje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	Førde	Førde	PROPN	_	_	2	obl	_	name=B-GPE_LOC|Entity=(firdann~20100415_5072711__2150--1)
+
+# sent_id = 006313
+# text = Dei aller fleste bilane er på veg til Oslo, og blir ratta av forretningsfolk.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Bridge=firdann~20100415_5072711__T70<firdann~20100415_5072711__T72:default|Entity=(firdann~20100415_5072711__T72--1
+2	aller	aller	ADV	_	_	3	advmod	_	name=O
+3	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	4	amod	_	name=O
+4	bilane	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=firdann~20100415_5072711__T72)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	veg	veg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20100415_5072711__T73--1
+8	til	til	ADP	_	_	9	case	_	name=O
+9	Oslo	Oslo	PROPN	_	_	7	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5072711__3212--1)firdann~20100415_5072711__T73)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux:pass	_	name=O
+13	ratta	ratte	VERB	_	Number=Plur|VerbForm=Part	7	conj	_	name=O
+14	av	av	ADP	_	_	15	case	_	name=O
+15	forretningsfolk	forretningsfolk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T75--1)
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006314
+# text = - Vi har også fire kundar som skal frå Oslo til Førde, og ventar på leigebil.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20100415_5072711__7228--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	også	også	ADV	_	_	3	advmod	_	name=O
+5	fire	fire	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(firdann~20100415_5072711__3248--1
+6	kundar	kunde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+8	skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+9	frå	frå	ADP	_	_	10	case	_	name=O
+10	Oslo	Oslo	PROPN	_	_	8	obl	_	name=B-GPE_LOC|Entity=(firdann~20100415_5072711__3212--1)
+11	til	til	ADP	_	_	12	case	_	name=O
+12	Førde	Førde	PROPN	_	_	10	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5072711__2150--1)firdann~20100415_5072711__3248)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	ventar	vente	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+16	på	på	ADP	_	_	17	case	_	name=O
+17	leigebil	leigebil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T80--1)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006315
+# text = Det kan vere at dei kjem seg avgarde i kveld.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	vere	vere	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(firdann~20100415_5072711__3248--1)
+6	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	csubj	_	name=O
+7	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	6	obj	_	name=O|Entity=(firdann~20100415_5072711__3248--1)
+8	avgarde	avgarde	ADP	_	_	6	compound:prt	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T82--1)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006316
+# text = Den som skal ha bil i dag, kan drøyme hardt og lenge.
+1	Den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(firdann~20100415_5072711__T83--1
+2	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	ha	ha	VERB	_	VerbForm=Inf	1	acl:relcl	_	name=O
+5	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(firdann~20100415_5072711__T84--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T85--1)
+8	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=firdann~20100415_5072711__T83)
+9	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	drøyme	drøyme	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	lenge	lenge	ADJ	_	Degree=Pos	11	conj	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 006317
+# text = Heller ikkje konkurrenten Avis kan tilby kundane transportmiddel, får Firda opplyst.
+1	Heller	heller	ADV	_	_	2	advmod	_	name=O|Entity=(firdann~20100415_5072711__T86--1
+2	ikkje	ikkje	PART	_	Polarity=Neg	4	nmod	_	name=O
+3	konkurrenten	konkurrent	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O
+4	Avis	Avis	PROPN	_	_	6	nsubj	_	name=B-ORG|Entity=firdann~20100415_5072711__T86)
+5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	tilby	tilby	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	kundane	kunde	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	iobj	_	name=O|Bridge=firdann~20100415_5072711__T86<firdann~20100415_5072711__T87:default|Entity=(firdann~20100415_5072711__T87--1)
+8	transportmiddel	transportmiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072711__T88--1)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+11	Firda	Firda	PROPN	_	_	10	nsubj	_	name=B-ORG|Entity=(firdann~20100415_5072711__2106--1)
+12	opplyst	opplyse	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	10	xcomp	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+

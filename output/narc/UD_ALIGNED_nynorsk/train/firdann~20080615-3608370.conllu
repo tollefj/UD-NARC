@@ -1,0 +1,301 @@
+# newdoc id = firdann~20080615-3608370
+# global.Entity = eid-etype-head-other
+# sent_id = 006646
+# text = Flokka seg rundt bjørnen
+1	Flokka	flokke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	1	obj	_	name=O
+3	rundt	rundt	ADP	_	_	4	case	_	name=O
+4	bjørnen	bjørn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+
+# newpar
+# sent_id = 006647
+# text = Nokre hundre skodelystne menneske møtte opp då den skotne bjørnen landa med helikopter i Kjøsnes søndag.
+1	Nokre	nokon	DET	_	Number=Plur|PronType=Ind	2	det	_	name=O|Entity=(firdann~20080615_3608370__T3--1(firdann~20080615_3608370__T2--1
+2	hundre	hundre	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nmod	_	name=O|Entity=firdann~20080615_3608370__T2)
+3	skodelystne	skodelysten	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+4	menneske	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=firdann~20080615_3608370__T3)
+5	møtte	møte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	opp	opp	ADP	_	_	5	compound:prt	_	name=O
+7	då	då	SCONJ	_	_	11	mark	_	name=O
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(firdann~20080615_3608370__14456--1
+9	skotne	skyte	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	10	amod	_	name=O
+10	bjørnen	bjørn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=firdann~20080615_3608370__14456)
+11	landa	lande	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	helikopter	helikopter	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=(firdann~20080615_3608370__347--1)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Kjøsnes	Kjøsnes	PROPN	_	_	11	obl	_	name=B-LOC|Entity=(firdann~20080615_3608370__T6--1)
+16	søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20080615_3608370__T7--1)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 006648
+# text = Sundag 15. juni 2008:
+1	Sundag	sundag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20080615_3608370__T8--1
+2	15.	15.	ADJ	_	Number=Plur	3	amod	_	name=O|Entity=(firdann~20080615_3608370__T9--1
+3	juni	juni	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	name=O
+4	2008	2008	NUM	_	Number=Plur|NumType=Card	3	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20080615_3608370__T9)firdann~20080615_3608370__T8)
+5	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006649
+# text = - Folk flokka seg rundt bjørnen straks den vart lempa ut av sekken.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=(firdann~20080615_3608370__T10--1)
+3	flokka	flokke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	obj	_	name=O
+5	rundt	rundt	ADP	_	_	6	case	_	name=O
+6	bjørnen	bjørn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+7	straks	straks	ADV	_	_	10	advmod	_	name=O
+8	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+9	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	name=O
+10	lempa	lempe	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	3	advcl	_	name=O
+11	ut	ut	ADP	_	_	13	case	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	sekken	sekk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20080615_3608370__T13--1)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006650
+# text = Alle ville ha bilde, og det vart heilt kaos, fortel Firda-journalist Svein Heggheim, som er til stades når bjørnen landar.
+1	Alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	3	nsubj	_	name=O|Entity=(firdann~20080615_3608370__T14--1)
+2	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	bilde	bilde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20080615_3608370__T15--1)
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	og	og	CCONJ	_	_	8	cc	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+8	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+9	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O|Entity=(firdann~20080615_3608370__T16--1
+10	kaos	kaos	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	xcomp	_	SpaceAfter=No|name=O|Entity=firdann~20080615_3608370__T16)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+13	Firda-journalist	Firda-journalist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	name=B-DRV|Entity=(firdann~20080615_3608370__256--1
+14	Svein	Svein	NOUN	_	Gender=Masc	12	nsubj	_	name=B-PER
+15	Heggheim	Heggheim	PROPN	_	_	14	flat:name	_	SpaceAfter=No|name=I-PER
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+18	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	name=O
+19	til	til	ADP	_	_	20	case	_	name=O
+20	stades	stades	NOUN	_	_	14	acl:relcl	_	name=O|Entity=(firdann~20080615_3608370__T18--1)
+21	når	når	SCONJ	_	_	23	mark	_	name=O
+22	bjørnen	bjørn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+23	landar	lande	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No|name=O|Entity=firdann~20080615_3608370__256)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 006651
+# text = Først landa helikopteret med jegerane.
+1	Først	først	ADV	_	_	2	advmod	_	name=O
+2	landa	lande	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	helikopteret	helikopter	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20080615_3608370__347--1)
+4	med	med	ADP	_	_	5	case	_	name=O
+5	jegerane	jeger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Bridge=firdann~20080615_3608370__14456<firdann~20080615_3608370__T21:default|Entity=(firdann~20080615_3608370__T21--1)
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006652
+# text = Sidan returnerte det for å hente bjørnen oppe på Vetlebreen.
+1	Sidan	sidan	ADV	_	_	2	advmod	_	name=O
+2	returnerte	returnere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20080615_3608370__347--1)
+4	for	for	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	hente	hente	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	bjørnen	bjørn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+8	oppe	oppe	ADP	_	_	10	case	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	Vetlebreen	Vetlebreen	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20080615_3608370__253--1)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006653
+# text = Rein Arne Golf frå Statens Naturoppsyn og jaktleiar Finn Olav Myhren hadde vore oppe på breen for å kontrollere at fellinga hadde gått føre seg slik den skulle.
+1	Rein	Rein	PROPN	_	_	16	nsubj	_	name=B-PER|Entity=(firdann~20080615_3608370__T25--1(firdann~20080615_3608370__T26--1
+2	Arne	Arne	NOUN	_	Gender=Masc	1	flat:name	_	name=I-PER
+3	Golf	Golf	PROPN	_	_	1	flat:name	_	name=I-PER
+4	frå	frå	ADP	_	_	5	case	_	name=O
+5	Statens	Statens	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(firdann~20080615_3608370__291--1
+6	Naturoppsyn	Naturoppsyn	PROPN	_	_	5	flat:name	_	name=I-ORG|Entity=firdann~20080615_3608370__291)firdann~20080615_3608370__T26)
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	jaktleiar	jaktleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(firdann~20080615_3608370__291--1
+9	Finn	Finn	NOUN	_	Gender=Masc	1	conj	_	name=B-PER
+10	Olav	Olav	NOUN	_	Gender=Masc	9	flat:name	_	name=I-PER
+11	Myhren	Myhren	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=firdann~20080615_3608370__291)firdann~20080615_3608370__T25)
+12	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	name=O
+13	vore	vere	AUX	_	VerbForm=Part	16	cop	_	name=O
+14	oppe	oppe	ADP	_	_	16	case	_	name=O
+15	på	på	ADP	_	_	16	case	_	name=O
+16	breen	bre	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20080615_3608370__253--1)
+17	for	for	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	kontrollere	kontrollere	VERB	_	VerbForm=Inf	16	advcl	_	name=O
+20	at	at	SCONJ	_	_	23	mark	_	name=O
+21	fellinga	felling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	23	nsubj	_	name=O|Bridge=firdann~20080615_3608370__14456<firdann~20080615_3608370__261:default|Entity=(firdann~20080615_3608370__261--1)
+22	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	name=O
+23	gått	gå	VERB	_	VerbForm=Part	19	ccomp	_	name=O
+24	føre	føre	ADP	_	_	25	case	_	name=O
+25	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	23	obl	_	name=O
+26	slik	slik	ADV	_	_	23	advmod	_	name=O
+27	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	name=O|Entity=(firdann~20080615_3608370__261--1)
+28	skulle	skulle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	advcl	_	SpaceAfter=No|name=O
+29	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 006654
+# text = - Folk flokka seg rundt bjørnen straks den vart lempa ut av sekken.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=(firdann~20080615_3608370__T32--1)
+3	flokka	flokke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	obj	_	name=O
+5	rundt	rundt	ADP	_	_	6	case	_	name=O
+6	bjørnen	bjørn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+7	straks	straks	ADV	_	_	10	advmod	_	name=O
+8	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+9	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	name=O
+10	lempa	lempe	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	3	advcl	_	name=O
+11	ut	ut	ADP	_	_	13	case	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	sekken	sekk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20080615_3608370__T35--1)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006655
+# text = Alle ville ha bilde, og det vart heilt kaos, fortel Firda-journalist Svein Heggheim, som var til stades då bjørnen landa.
+1	Alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	3	nsubj	_	name=O|Entity=(firdann~20080615_3608370__T36--1)
+2	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	bilde	bilde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20080615_3608370__T37--1)
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	og	og	CCONJ	_	_	8	cc	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+8	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+9	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O|Entity=(firdann~20080615_3608370__T38--1
+10	kaos	kaos	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	xcomp	_	SpaceAfter=No|name=O|Entity=firdann~20080615_3608370__T38)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+13	Firda-journalist	Firda-journalist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	name=B-DRV|Entity=(firdann~20080615_3608370__256--1
+14	Svein	Svein	NOUN	_	Gender=Masc	12	nsubj	_	name=B-PER
+15	Heggheim	Heggheim	PROPN	_	_	14	flat:name	_	SpaceAfter=No|name=I-PER
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+18	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	cop	_	name=O
+19	til	til	ADP	_	_	20	case	_	name=O
+20	stades	stades	NOUN	_	_	14	acl:relcl	_	name=O|Entity=(firdann~20080615_3608370__T40--1)
+21	då	då	SCONJ	_	_	23	mark	_	name=O
+22	bjørnen	bjørn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+23	landa	lande	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	advcl	_	SpaceAfter=No|name=O|Entity=firdann~20080615_3608370__256)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006656
+# text = Etterpå var bjørnen lempa opp på ein svans og køyrd med traktor til slakteriet til Nils Einar Kjøsnes rett i nærleiken.
+1	Etterpå	etterpå	ADV	_	_	4	advmod	_	name=O
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	bjørnen	bjørn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+4	lempa	lempe	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	opp	opp	ADP	_	_	8	case	_	name=O
+6	på	på	ADP	_	_	8	case	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20080615_3608370__T43--1
+8	svans	svans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=firdann~20080615_3608370__T43)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	køyrd	køyre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	4	conj	_	name=O
+11	med	med	ADP	_	_	12	case	_	name=O
+12	traktor	traktor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(firdann~20080615_3608370__293--1)
+13	til	til	ADP	_	_	14	case	_	name=O
+14	slakteriet	slakteri	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	name=O|Entity=(firdann~20080615_3608370__2101--1
+15	til	til	ADP	_	_	16	case	_	name=O
+16	Nils	Nils	NOUN	_	Gender=Masc	14	nmod	_	name=B-PER|Entity=(firdann~20080615_3608370__T46--1
+17	Einar	Einar	NOUN	_	Gender=Masc	16	flat:name	_	name=I-PER
+18	Kjøsnes	Kjøsnes	PROPN	_	_	16	flat:name	_	name=I-PER|Entity=firdann~20080615_3608370__T46)
+19	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	nærleiken	nærleik	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20080615_3608370__T47--1)firdann~20080615_3608370__2101)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006657
+# text = Folkemengda følgde etter traktoren som eit 17. mai-tog, og det var stort presseombod.
+1	Folkemengda	folkemengd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20080615_3608370__T48--1)
+2	følgde	følgje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	etter	etter	ADP	_	_	4	case	_	name=O
+4	traktoren	traktor	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(firdann~20080615_3608370__293--1)
+5	som	som	SCONJ	_	_	8	mark	_	name=O
+6	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20080615_3608370__T50--1
+7	17.	17.	ADJ	_	Number=Plur	8	compound	_	name=O
+8	mai-tog	mai-tog	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	acl	_	SpaceAfter=No|name=O|Entity=firdann~20080615_3608370__T50)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+12	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+13	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	name=O|Entity=(firdann~20080615_3608370__T51--1
+14	presseombod	presseombod	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nsubj	_	SpaceAfter=No|name=O|Entity=firdann~20080615_3608370__T51)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006658
+# text = Bjørneskrotten er no å rekne som statens eigedom.
+1	Bjørneskrotten	bjørneskrott	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	no	no	ADV	_	_	5	advmod	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	rekne	rekne	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	som	som	SCONJ	_	_	8	mark	_	name=O
+7	statens	stat	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(firdann~20080615_3608370__T54--1(firdann~20080615_3608370__T53--1)
+8	eigedom	eigedom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No|name=O|Entity=firdann~20080615_3608370__T54)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006659
+# text = Den vil bli slakta og partert på slakteriet på Kjøsnes.
+1	Den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	bli	bli	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	slakta	slakte	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	3	xcomp	_	name=O
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	partert	partere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	4	conj	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	slakteriet	slakteri	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(firdann~20080615_3608370__2101--1
+9	på	på	ADP	_	_	10	case	_	name=O
+10	Kjøsnes	Kjøsnes	PROPN	_	_	8	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20080615_3608370__T57--1)firdann~20080615_3608370__2101)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006660
+# text = - Bjørneskrotten skal veterinærgodkjennast, og sidan skal fylkesmannen omsetje kjøtet.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Bjørneskrotten	bjørneskrott	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20080615_3608370__14456--1)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	veterinærgodkjennast	veterinærgodkjenne	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	10	punct	_	name=O
+6	og	og	CCONJ	_	_	10	cc	_	name=O
+7	sidan	sidan	ADV	_	_	10	advmod	_	name=O
+8	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	fylkesmannen	fylkesmann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20080615_3608370__T59--1)
+10	omsetje	omsetje	VERB	_	VerbForm=Inf	4	conj	_	name=O
+11	kjøtet	kjøt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Bridge=firdann~20080615_3608370__14456<firdann~20080615_3608370__T60:default|Entity=(firdann~20080615_3608370__T60--1)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006661
+# text = Pengane går til Villtfondet, fortel jaktleiar Finn Olav Myhren.
+1	Pengane	penge	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Bridge=firdann~20080615_3608370__T60<firdann~20080615_3608370__T61:default|Entity=(firdann~20080615_3608370__T61--1)
+2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	Villtfondet	Villtfondet	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20080615_3608370__T62--1)
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+7	jaktleiar	jaktleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(firdann~20080615_3608370__291--1
+8	Finn	Finn	NOUN	_	Gender=Masc	6	nsubj	_	name=B-PER
+9	Olav	Olav	NOUN	_	Gender=Masc	8	flat:name	_	name=I-PER
+10	Myhren	Myhren	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20080615_3608370__291)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006662
+# text = Statens naturoppsyn vil få med seg skinn, kranie og diverse prøver og mål frå bjørnen.
+1	Statens	Statens	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(firdann~20080615_3608370__291--1
+2	naturoppsyn	naturoppsyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	flat:name	_	name=I-ORG|Entity=firdann~20080615_3608370__291)
+3	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	4	obl	_	name=O
+7	skinn	skinn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20080615_3608370__T65--1(firdann~20080615_3608370__T66--1
+8	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=firdann~20080615_3608370__T66)
+9	kranie	kranium	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	name=O|Entity=(firdann~20080615_3608370__T67--1)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	diverse	diverse	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(firdann~20080615_3608370__T68--1(firdann~20080615_3608370__T69--1
+12	prøver	prøve	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	conj	_	name=O|Entity=firdann~20080615_3608370__T69)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	mål	mål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	conj	_	name=O|Entity=(firdann~20080615_3608370__T70--1
+15	frå	frå	ADP	_	_	16	case	_	name=O
+16	bjørnen	bjørn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20080615_3608370__14456--1)firdann~20080615_3608370__T70)firdann~20080615_3608370__T68)firdann~20080615_3608370__T65)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+

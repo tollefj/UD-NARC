@@ -1,0 +1,126 @@
+# newdoc id = ap_20051201-18065
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 000606
+# text = Sofia:
+1	Sofia	Sofia	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20051201_18065__T1--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 000607
+# text = Peter Kopteff vil fortsatt ikke avsløre hva som blir hans nye klubb.
+1	Peter	Peter	PROPN	_	Gender=Masc	6	nsubj	_	name=B-PER|Entity=(ap_20051201_18065__9101--1
+2	Kopteff	Kopteff	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=ap_20051201_18065__9101)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	fortsatt	fortsatt	ADV	_	_	5	advmod	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	avsløre	avsløre	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	hva	hva	PRON	_	PronType=Int	9	nsubj	_	name=O
+8	som	som	PRON	_	PronType=Rel	9	obj	_	name=O
+9	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	name=O
+10	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	nmod	_	name=O|Entity=(ap_20051201_18065__T4--1(ap_20051201_18065__9101--1)
+11	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	klubb	klubb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20051201_18065__T4)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 000608
+# text = Kopteff spilte sin siste kamp for Viking mot CSKA Sofia onsdag, men sier at det ikke er noe klart om ny klubb ennå.
+1	Kopteff	Kopteff	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(ap_20051201_18065__9101--1)
+2	spilte	spille	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(ap_20051201_18065__T7--1(ap_20051201_18065__9101--1)
+4	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	Viking	Viking	PROPN	_	_	5	nmod	_	name=B-ORG|Entity=(ap_20051201_18065__T8--1)
+8	mot	mot	ADP	_	_	9	case	_	name=O
+9	CSKA	CSKA	PROPN	_	_	5	nmod	_	name=B-ORG|Entity=(ap_20051201_18065__T9--1
+10	Sofia	Sofia	PROPN	_	_	9	flat:name	_	name=I-ORG|Entity=ap_20051201_18065__T9)ap_20051201_18065__T7)
+11	onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(ap_20051201_18065__T10--1)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	men	men	CCONJ	_	_	14	cc	_	name=O
+14	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+15	at	at	SCONJ	_	_	18	mark	_	name=O
+16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+17	ikke	ikke	PART	_	Polarity=Neg	18	advmod	_	name=O
+18	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	xcomp	_	name=O
+19	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	20	det	_	name=O
+20	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	nsubj	_	name=O
+21	om	om	ADP	_	_	23	case	_	name=O
+22	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	23	amod	_	name=O|Entity=(ap_20051201_18065__T11--1
+23	klubb	klubb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	name=O|Entity=ap_20051201_18065__T11)
+24	ennå	ennå	ADV	_	_	18	advmod	_	SpaceAfter=No|name=O
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000609
+# text = - Nei, det er ikke noe klart, sier Kopteff.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Nei	nei	INTJ	_	_	5	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+7	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	8	det	_	name=O
+8	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+11	Kopteff	Kopteff	PROPN	_	_	10	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20051201_18065__9101--1)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000610
+# text = - Nå blir det en avklaring?
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Nå	nå	ADV	_	_	3	advmod	_	name=O
+3	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20051201_18065__T13--1
+6	avklaring	avklaring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20051201_18065__T13)
+7	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000611
+# text = - Det vet jeg ikke, sier finnen med et skuldertrekk.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(ap_20051201_18065__T14--1)
+3	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20051201_18065__9101--1)
+5	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+8	finnen	finne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(ap_20051201_18065__9101--1)
+9	med	med	ADP	_	_	11	case	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(ap_20051201_18065__T17--1
+11	skuldertrekk	skuldertrekk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=ap_20051201_18065__T17)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000612
+# text = Torsdag var han formelt ikke lenger Viking-spiller, siden kontrakten gikk ut onsdag.
+1	Torsdag	torsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(ap_20051201_18065__T18--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(ap_20051201_18065__9101--1)
+4	formelt	formell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	lenger	lenge	ADJ	_	Degree=Cmp	7	advmod	_	name=O
+7	Viking-spiller	Viking-spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=B-DRV|Entity=(ap_20051201_18065__T20--1)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	siden	siden	SCONJ	_	_	11	mark	_	name=O
+10	kontrakten	kontrakt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Bridge=ap_20051201_18065__T20<ap_20051201_18065__T21:default|Entity=(ap_20051201_18065__T21--1)
+11	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	name=O
+12	ut	ut	ADP	_	_	11	compound:prt	_	name=O
+13	onsdag	onsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(ap_20051201_18065__T22--1)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 000613
+# text = Likevel gikk finnen rundt i den vante Viking-dressen på hjemreisen fra Bulgaria.
+1	Likevel	likevel	ADV	_	_	2	advmod	_	name=O
+2	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	finnen	finne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20051201_18065__9101--1)
+4	rundt	rundt	ADP	_	_	8	case	_	name=O
+5	i	i	ADP	_	_	8	case	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Bridge=ap_20051201_18065__T20<ap_20051201_18065__T24:default|Entity=(ap_20051201_18065__T24--1
+7	vante	vant	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	Viking-dressen	Viking-dress	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=B-DRV|Entity=ap_20051201_18065__T24)
+9	på	på	ADP	_	_	10	case	_	name=O
+10	hjemreisen	hjemreise	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(ap_20051201_18065__T25--1
+11	fra	fra	ADP	_	_	12	case	_	name=O
+12	Bulgaria	Bulgaria	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20051201_18065__T26--1)ap_20051201_18065__T25)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+

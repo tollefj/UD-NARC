@@ -1,0 +1,312 @@
+# newdoc id = spbm~20111209-404947
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 013604
+# text = Vitner så mann forlate utested etter skyting
+1	Vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	nsubj	_	name=O|Entity=(spbm~20111209_404947__T1--1)
+2	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(spbm~20111209_404947__T2--1)
+4	forlate	forlate	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+5	utested	utested	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=(spbm~20111209_404947__382--1)
+6	etter	etter	ADP	_	_	7	case	_	name=O
+7	skyting	skyting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=(spbm~20111209_404947__3125--1)
+
+# sent_id = 013605
+# text = Oslo (NTB):
+1	Oslo	Oslo	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=(spbm~20111209_404947__349--1
+2	(	$(	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_404947__237--1
+3	NTB	NTB	PROPN	_	_	1	parataxis	_	SpaceAfter=No|name=B-ORG
+4	)	$)	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=spbm~20111209_404947__237)spbm~20111209_404947__349)
+5	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 013606
+# text = Vitner har forklart til politiet at de så en mann i slutten av 20-årene forlate utestedet Fugazi i Oslo etter at det ble løsnet løsskudd på dansegulvet natt til fredag.
+1	Vitner	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=(spbm~20111209_404947__216--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	forklart	forklare	VERB	_	VerbForm=Part	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(spbm~20111209_404947__3114--1)
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(spbm~20111209_404947__216--1)
+8	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(spbm~20111209_404947__5176--1
+10	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	slutten	slutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(spbm~20111209_404947__T11--1
+13	av	av	ADP	_	_	14	case	_	name=O
+14	20-årene	20-år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	12	nmod	_	name=O|Entity=(spbm~20111209_404947__T12--1)spbm~20111209_404947__T11)spbm~20111209_404947__5176)
+15	forlate	forlate	VERB	_	VerbForm=Inf	8	ccomp	_	name=O
+16	utestedet	utested	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	name=O|Entity=(spbm~20111209_404947__382--1
+17	Fugazi	Fugazi	PROPN	_	_	15	obj	_	name=B-LOC
+18	i	i	ADP	_	_	19	case	_	name=O
+19	Oslo	Oslo	PROPN	_	_	17	nmod	_	name=B-GPE_LOC|Entity=(spbm~20111209_404947__349--1)spbm~20111209_404947__382)
+20	etter	etter	SCONJ	_	_	24	mark	_	name=O
+21	at	at	SCONJ	_	_	24	mark	_	name=O
+22	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	name=O
+23	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux:pass	_	name=O
+24	løsnet	løsne	VERB	_	VerbForm=Part	15	advcl	_	name=O
+25	løsskudd	løsskudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	obj	_	name=O|Entity=(spbm~20111209_404947__T15--1)
+26	på	på	ADP	_	_	27	case	_	name=O
+27	dansegulvet	dansegulv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	obl	_	name=O|Bridge=spbm~20111209_404947__382<spbm~20111209_404947__T16:default|Entity=(spbm~20111209_404947__T16--1)
+28	natt	natt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	24	obl	_	name=O|Entity=(spbm~20111209_404947__T17--1
+29	til	til	ADP	_	_	30	case	_	name=O
+30	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_404947__T18--1)spbm~20111209_404947__T17)
+31	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013607
+# text = - Vi ønsker ikke å gå ut med så mange detaljer ennå.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(spbm~20111209_404947__4136--1)
+3	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	gå	gå	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+7	ut	ut	ADP	_	_	6	compound:prt	_	name=O
+8	med	med	ADP	_	_	11	case	_	name=O
+9	så	så	ADV	_	_	10	advmod	_	name=O|Entity=(spbm~20111209_404947__T20--1
+10	mange	mange	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	detaljer	detalj	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O|Entity=spbm~20111209_404947__T20)
+12	ennå	ennå	ADV	_	_	6	advmod	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013608
+# text = Det vi kan si er at det ikke er en norsk-etnisk mann, og at mannen trolig er 35-30 år gammel, forklarer politiadvokat Tone Bysting ved Sentrum politistasjon i Oslo til NTB.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(spbm~20111209_404947__T21--1
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(spbm~20111209_404947__4136--1)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	si	si	VERB	_	VerbForm=Inf	1	acl:relcl	_	name=O|Entity=spbm~20111209_404947__T21)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+6	at	at	SCONJ	_	_	12	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(spbm~20111209_404947__5176--1)
+8	ikke	ikke	PART	_	Polarity=Neg	12	advmod	_	name=O
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(spbm~20111209_404947__T24--1
+11	norsk-etnisk	norsk-etnisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=spbm~20111209_404947__T24)
+13	,	$,	PUNCT	_	_	23	punct	_	name=O
+14	og	og	CCONJ	_	_	23	cc	_	name=O
+15	at	at	SCONJ	_	_	23	mark	_	name=O
+16	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	name=O|Entity=(spbm~20111209_404947__5176--1)
+17	trolig	trolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	advmod	_	name=O
+18	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	name=O
+19	35	35	NUM	_	Number=Plur|NumType=Card	22	nummod	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_404947__T26--1
+20	-	$-	PUNCT	_	_	21	punct	_	SpaceAfter=No|name=O
+21	30	30	NUM	_	Number=Plur|NumType=Card	19	conj	_	name=O
+22	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	obl	_	name=O|Entity=spbm~20111209_404947__T26)
+23	gammel	gammel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	conj	_	SpaceAfter=No|name=O
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	forklarer	forklare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	parataxis	_	name=O
+26	politiadvokat	politiadvokat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	nmod	_	name=O|Entity=(spbm~20111209_404947__5244--1(spbm~20111209_404947__T27[1/2]--1)
+27	Tone	Tone	PROPN	_	Gender=Fem	25	nsubj	_	name=B-PER
+28	Bysting	Bysting	PROPN	_	_	27	flat:name	_	name=I-PER
+29	ved	ved	ADP	_	_	30	case	_	name=O|Entity=(spbm~20111209_404947__T27[2/2]--1
+30	Sentrum	Sentrum	PROPN	_	_	26	nmod	_	name=B-ORG|Entity=(spbm~20111209_404947__T29--1
+31	politistasjon	politistasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	flat:name	_	name=I-ORG
+32	i	i	ADP	_	_	33	case	_	name=O
+33	Oslo	Oslo	PROPN	_	_	30	nmod	_	name=B-GPE_LOC|Entity=(spbm~20111209_404947__349--1)spbm~20111209_404947__T29)spbm~20111209_404947__T27[2/2])spbm~20111209_404947__5244)
+34	til	til	ADP	_	_	35	case	_	name=O
+35	NTB	NTB	PROPN	_	_	25	obl	_	SpaceAfter=No|name=B-ORG|Entity=(spbm~20111209_404947__237--1)
+36	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 013609
+# text = Politiet har ikke funnet våpenet som ble brukt, men har sikret seg 5-6 tomhylser.
+1	Politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(spbm~20111209_404947__3114--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	funnet	finne	VERB	_	VerbForm=Part	0	root	_	name=O
+5	våpenet	våpen	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obj	_	name=O|Bridge=spbm~20111209_404947__T15<spbm~20111209_404947__T33:default|Entity=(spbm~20111209_404947__T33--1
+6	som	som	PRON	_	PronType=Rel	8	nsubj:pass	_	name=O
+7	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux:pass	_	name=O
+8	brukt	bruke	VERB	_	VerbForm=Part	5	acl:relcl	_	SpaceAfter=No|name=O|Entity=spbm~20111209_404947__T33)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	men	men	CCONJ	_	_	12	cc	_	name=O
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	sikret	sikre	VERB	_	VerbForm=Part	4	conj	_	name=O
+13	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	12	iobj	_	name=O|Entity=(spbm~20111209_404947__3114--1)
+14	5	5	NUM	_	Number=Plur|NumType=Card	17	nummod	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_404947__T34--1
+15	-	$-	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O
+16	6	6	NUM	_	Number=Plur|NumType=Card	14	conj	_	name=O
+17	tomhylser	tomhylse	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No|name=O|Entity=spbm~20111209_404947__T34)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013610
+# text = De kan derfor fastslå at det var løsammunisjon som ble brukt, men Bysting understreker at saken ikke er mindre alvorlig av den grunn.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	name=O|Bridge=spbm~20111209_404947__3114<spbm~20111209_404947__T35:default|Entity=(spbm~20111209_404947__T35--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	derfor	derfor	ADV	_	_	4	advmod	_	name=O
+4	fastslå	fastslå	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+8	løsammunisjon	løsammunisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	xcomp	_	name=O|Entity=(spbm~20111209_404947__T36--1
+9	som	som	PRON	_	PronType=Rel	11	nsubj:pass	_	name=O
+10	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux:pass	_	name=O
+11	brukt	bruke	VERB	_	VerbForm=Part	8	acl:cleft	_	SpaceAfter=No|name=O|Entity=spbm~20111209_404947__T36)
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	men	men	CCONJ	_	_	15	cc	_	name=O
+14	Bysting	Bysting	PROPN	_	_	15	nsubj	_	name=B-PER|Entity=(spbm~20111209_404947__5244--1)
+15	understreker	understreke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+16	at	at	SCONJ	_	_	21	mark	_	name=O
+17	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	name=O|Bridge=spbm~20111209_404947__3125<spbm~20111209_404947__T38:default|Entity=(spbm~20111209_404947__T38--1)
+18	ikke	ikke	PART	_	Polarity=Neg	21	advmod	_	name=O
+19	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+20	mindre	liten	ADJ	_	Degree=Cmp	21	advmod	_	name=O
+21	alvorlig	alvorlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	ccomp	_	name=O
+22	av	av	ADP	_	_	24	case	_	name=O
+23	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	name=O|Entity=(spbm~20111209_404947__T39--1
+24	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No|name=O|Entity=spbm~20111209_404947__T39)
+25	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013611
+# text = - Det er likevel for tidlig å si hvilke paragrafer som kommer til anvendelse.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	likevel	likevel	ADV	_	_	6	advmod	_	name=O
+5	for	for	ADV	_	_	6	advmod	_	name=O
+6	tidlig	tidlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	si	si	VERB	_	VerbForm=Inf	6	csubj	_	name=O
+9	hvilke	hvilken	DET	_	Number=Plur|PronType=Int	10	det	_	name=O|Entity=(spbm~20111209_404947__T40--1
+10	paragrafer	paragraf	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	name=O|Entity=spbm~20111209_404947__T40)
+11	som	som	PRON	_	PronType=Rel	12	obj	_	name=O
+12	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	name=O
+13	til	til	ADP	_	_	14	case	_	name=O
+14	anvendelse	anvendelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_404947__T41--1)
+15	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 013612
+# text = Vi må blant annet finne ut hvorfor den som skjøt, valgte å ta med seg et våpen på byen, forklarer hun.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(spbm~20111209_404947__4136--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	blant	blant	ADP	_	_	4	case	_	name=O
+4	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	name=O
+5	finne	finne	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	ut	ut	ADP	_	_	5	compound:prt	_	name=O
+7	hvorfor	hvorfor	ADV	_	_	12	advmod	_	name=O
+8	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(spbm~20111209_404947__5176--1
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	skjøt	skyte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=spbm~20111209_404947__5176)
+12	valgte	velge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	ta	ta	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	med	med	ADP	_	_	16	case	_	name=O
+16	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	14	obl	_	name=O|Entity=(spbm~20111209_404947__5176--1)
+17	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(spbm~20111209_404947__T44--1
+18	våpen	våpen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	name=O|Entity=spbm~20111209_404947__T44)
+19	på	på	ADP	_	_	20	case	_	name=O
+20	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_404947__T45--1)
+21	,	$,	PUNCT	_	_	22	punct	_	name=O
+22	forklarer	forklare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+23	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_404947__5244--1)
+24	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013613
+# text = Etterforskningen fortsetter med flere vitneavhør og gjennomgang av innholdet på overvåkingsvideoer.
+1	Etterforskningen	etterforskning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Bridge=spbm~20111209_404947__3114<spbm~20111209_404947__2117:default|Entity=(spbm~20111209_404947__2117--1)
+2	fortsetter	fortsette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	med	med	ADP	_	_	5	case	_	name=O
+4	flere	mange	ADJ	_	Degree=Cmp	5	amod	_	name=O|Entity=(spbm~20111209_404947__T48--1(spbm~20111209_404947__T49--1
+5	vitneavhør	vitneavhør	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	name=O|Entity=spbm~20111209_404947__T49)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	gjennomgang	gjennomgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O|Entity=(spbm~20111209_404947__T50--1
+8	av	av	ADP	_	_	9	case	_	name=O
+9	innholdet	innhold	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=(spbm~20111209_404947__T51--1
+10	på	på	ADP	_	_	11	case	_	name=O
+11	overvåkingsvideoer	overvåkingsvideo	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_404947__T52--1)spbm~20111209_404947__T51)spbm~20111209_404947__T50)spbm~20111209_404947__T48)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013614
+# text = - Vi har også fått inn en video fra et vitne, og den skal være tatt opp et par minutter før skytingen, sier politiadvokaten.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(spbm~20111209_404947__4136--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	også	også	ADV	_	_	5	advmod	_	name=O
+5	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+6	inn	inn	ADP	_	_	5	compound:prt	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(spbm~20111209_404947__2110--1
+8	video	video	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O
+9	fra	fra	ADP	_	_	11	case	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(spbm~20111209_404947__T55--1
+11	vitne	vitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20111209_404947__T55)spbm~20111209_404947__2110)
+12	,	$,	PUNCT	_	_	17	punct	_	name=O
+13	og	og	CCONJ	_	_	17	cc	_	name=O
+14	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(spbm~20111209_404947__2110--1)
+15	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+16	være	være	AUX	_	VerbForm=Inf	17	aux	_	name=O
+17	tatt	ta	VERB	_	VerbForm=Part	5	conj	_	name=O
+18	opp	opp	ADP	_	_	17	compound:prt	_	name=O
+19	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(spbm~20111209_404947__T58--1(spbm~20111209_404947__T57--1
+20	par	par	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	nmod	_	name=O|Entity=spbm~20111209_404947__T57)
+21	minutter	minutt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	obl	_	name=O|Entity=spbm~20111209_404947__T58)
+22	før	før	ADP	_	_	23	case	_	name=O
+23	skytingen	skyting	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_404947__3125--1)
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+26	politiadvokaten	politiadvokat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_404947__5244--1)
+27	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013615
+# text = Kort tid før skytingen ble en person pågrepet i forbindelse med at det ble kastet stein mot utestedet i Tordenskiolds gate.
+1	Kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(spbm~20111209_404947__T61--1
+2	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	name=O
+3	før	før	ADP	_	_	4	case	_	name=O
+4	skytingen	skyting	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(spbm~20111209_404947__3125--1)spbm~20111209_404947__T61)
+5	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux:pass	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(spbm~20111209_404947__T63--1
+7	person	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj:pass	_	name=O|Entity=spbm~20111209_404947__T63)
+8	pågrepet	pågripe	VERB	_	VerbForm=Part	0	root	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	forbindelse	forbindelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(spbm~20111209_404947__T64--1
+11	med	med	SCONJ	_	_	15	mark	_	name=O
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	name=O
+14	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux:pass	_	name=O
+15	kastet	kaste	VERB	_	VerbForm=Part	10	acl	_	name=O
+16	stein	stein	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=(spbm~20111209_404947__T65--1)
+17	mot	mot	ADP	_	_	18	case	_	name=O
+18	utestedet	utested	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	obl	_	name=O|Entity=(spbm~20111209_404947__382--1
+19	i	i	ADP	_	_	20	case	_	name=O
+20	Tordenskiolds	Tordenskiolds	PROPN	_	_	18	nmod	_	name=B-LOC|Entity=(spbm~20111209_404947__T67--1
+21	gate	gate	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=spbm~20111209_404947__T67)spbm~20111209_404947__382)spbm~20111209_404947__T64)
+22	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 013616
+# text = - Det er klart at det er noe det er interessant å se nærmere på, og så må etterforskningen avdekke om det er en sammenheng mellom de to hendelsene, sier Bysting.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(spbm~20111209_404947__T68--1)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	4	csubj	_	name=O|Entity=(spbm~20111209_404947__T69--1
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	interessant	interessant	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	acl:relcl	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	se	se	VERB	_	VerbForm=Inf	11	csubj	_	name=O
+14	nærmere	nær	ADJ	_	Degree=Cmp	13	advmod	_	name=O
+15	på	på	ADP	_	_	13	compound:prt	_	SpaceAfter=No|name=O|Entity=spbm~20111209_404947__T69)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	og	og	CCONJ	_	_	21	cc	_	name=O
+18	så	så	ADV	_	_	21	advmod	_	name=O
+19	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+20	etterforskningen	etterforskning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	name=O|Entity=(spbm~20111209_404947__2117--1)
+21	avdekke	avdekke	VERB	_	VerbForm=Inf	4	conj	_	name=O
+22	om	om	SCONJ	_	_	24	mark	_	name=O
+23	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	name=O
+24	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	xcomp	_	name=O
+25	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(spbm~20111209_404947__T71--1
+26	sammenheng	sammenheng	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nsubj	_	name=O
+27	mellom	mellom	ADP	_	_	30	case	_	name=O
+28	de	de	DET	_	Number=Plur|PronType=Dem	30	det	_	name=O|Entity=(spbm~20111209_404947__T72--1
+29	to	to	NUM	_	Number=Plur|NumType=Card	30	nummod	_	name=O
+30	hendelsene	hendelse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20111209_404947__T72)spbm~20111209_404947__T71)
+31	,	$,	PUNCT	_	_	32	punct	_	name=O
+32	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+33	Bysting	Bysting	PROPN	_	_	32	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(spbm~20111209_404947__5244--1)
+34	.	$.	PUNCT	_	_	4	punct	_	name=O
+

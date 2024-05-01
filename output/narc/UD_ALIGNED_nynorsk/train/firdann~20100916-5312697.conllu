@@ -1,0 +1,235 @@
+# newdoc id = firdann~20100916-5312697
+# global.Entity = eid-etype-head-other
+# sent_id = 007568
+# text = Fiskeridirektoratet går mot deponiet
+1	Fiskeridirektoratet	Fiskeridirektoratet	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(firdann~20100916_5312697__583--1)
+2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	mot	mot	ADP	_	_	4	case	_	name=O
+4	deponiet	deponi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100916_5312697__T2--1)
+
+# newpar
+# sent_id = 007569
+# text = Reiser motsegn mot Engebøplanane
+1	Reiser	reise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	motsegn	motsegn	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	name=O|Entity=(firdann~20100916_5312697__T3--1)
+3	mot	mot	ADP	_	_	4	case	_	name=O
+4	Engebøplanane	Engebøplanane	PROPN	_	_	1	obl	_	name=B-PROD|Entity=(firdann~20100916_5312697__T4--1)
+
+# newpar
+# sent_id = 007570
+# text = Planen for rutilutvinning i Vevring har så mykje uvisse ved seg at den strir mot viktige regionale og nasjonale interesser, meiner Fiskeridirektoratet Region Vest.
+1	Planen	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(firdann~20100916_5312697__6176--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	rutilutvinning	rutilutvinning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20100916_5312697__T6--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Vevring	Vevring	PROPN	_	_	3	nmod	_	name=B-LOC|Entity=(firdann~20100916_5312697__T7--1)firdann~20100916_5312697__T6)firdann~20100916_5312697__6176)
+6	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	så	så	ADV	_	_	8	advmod	_	name=O|Entity=(firdann~20100916_5312697__T8[1/2]--1
+8	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	uvisse	uvisse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	name=O|Entity=firdann~20100916_5312697__T8[1/2])
+10	ved	ved	SCONJ	_	_	11	mark	_	name=O
+11	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	6	xcomp	_	name=O|Entity=(firdann~20100916_5312697__6176--1)
+12	at	at	SCONJ	_	_	14	mark	_	name=O|Entity=(firdann~20100916_5312697__T8[2/2]--1
+13	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(firdann~20100916_5312697__6176--1)
+14	strir	stri	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+15	mot	mot	ADP	_	_	20	case	_	name=O
+16	viktige	viktig	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(firdann~20100916_5312697__T10--1
+17	regionale	regional	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	nasjonale	nasjonal	ADJ	_	Degree=Pos|Number=Plur	17	conj	_	name=O
+20	interesser	interesse	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312697__T10)firdann~20100916_5312697__T8[2/2])
+21	,	$,	PUNCT	_	_	22	punct	_	name=O
+22	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+23	Fiskeridirektoratet	Fiskeridirektoratet	PROPN	_	_	22	nsubj	_	name=B-ORG|Entity=(firdann~20100916_5312697__583--1
+24	Region	Region	PROPN	_	_	23	flat:name	_	name=I-ORG
+25	Vest	Vest	PROPN	_	_	23	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100916_5312697__583)
+26	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007571
+# text = Vore skeptisk
+1	Vore	vere	AUX	_	VerbForm=Part	2	cop	_	name=O
+2	skeptisk	skeptisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+
+# sent_id = 007572
+# text = Direktoratets Region Vest har tidlegare signalisert skepsis til rutilprosjektet.
+1	Direktoratets	direktorat	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20100916_5312697__T13--1(firdann~20100916_5312697__583--1)
+2	Region	Region	PROPN	_	_	6	nsubj	_	name=B-ORG
+3	Vest	Vest	PROPN	_	_	2	flat:name	_	name=I-ORG|Entity=firdann~20100916_5312697__T13)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	tidlegare	tidleg	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+6	signalisert	signalisere	VERB	_	VerbForm=Part	0	root	_	name=O
+7	skepsis	skepsis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(firdann~20100916_5312697__T14--1
+8	til	til	ADP	_	_	9	case	_	name=O
+9	rutilprosjektet	rutilprosjekt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312697__6176--1)firdann~20100916_5312697__T14)
+10	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007573
+# text = Men etter Havfirskingsinstituttets siste åtvaringar går direktoratet no til det steg å reise motsegn.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	etter	etter	ADP	_	_	5	case	_	name=O
+3	Havfirskingsinstituttets	Havfirskingsinstituttet	PROPN	_	Case=Gen	5	nmod	_	name=B-ORG|Entity=(firdann~20100916_5312697__T17--1(firdann~20100916_5312697__259--1)
+4	siste	sist	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	åtvaringar	åtvaring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	name=O|Entity=firdann~20100916_5312697__T17)
+6	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	direktoratet	direktorat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(firdann~20100916_5312697__583--1)
+8	no	no	ADV	_	_	6	advmod	_	name=O
+9	til	til	ADP	_	_	11	case	_	name=O
+10	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(firdann~20100916_5312697__240--1
+11	steg	steg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	reise	reise	VERB	_	VerbForm=Inf	11	acl	_	name=O
+14	motsegn	motsegn	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312697__T20--1)firdann~20100916_5312697__240)
+15	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007574
+# text = Dette er eit verkemiddel som statlege fagorgan, fylkeskommune eller nabokommune kan bruke, og som sagt enkelt betyr omkamp hos ein høgare instans, dersom forhandlingar i forkant ikkje fører fram.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20100916_5312697__240--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(firdann~20100916_5312697__T22--1
+4	verkemiddel	verkemiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+5	som	som	PRON	_	PronType=Rel	13	obj	_	name=O
+6	statlege	statleg	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(firdann~20100916_5312697__T23--1(firdann~20100916_5312697__T24--1
+7	fagorgan	fagorgan	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nsubj	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=firdann~20100916_5312697__T24)
+9	fylkeskommune	fylkeskommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	name=O|Entity=(firdann~20100916_5312697__T25--1)
+10	eller	eller	CCONJ	_	_	11	cc	_	name=O
+11	nabokommune	nabokommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	name=O|Entity=(firdann~20100916_5312697__T26--1)firdann~20100916_5312697__T23)
+12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	bruke	bruke	VERB	_	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	19	punct	_	name=O
+15	og	og	CCONJ	_	_	19	cc	_	name=O
+16	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+17	sagt	seie	VERB	_	VerbForm=Part	19	advcl	_	name=O
+18	enkelt	enkel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	name=O
+19	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	conj	_	name=O
+20	omkamp	omkamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	name=O|Entity=(firdann~20100916_5312697__T27--1)
+21	hos	hos	ADP	_	_	24	case	_	name=O
+22	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(firdann~20100916_5312697__T28--1
+23	høgare	høg	ADJ	_	Degree=Cmp	24	amod	_	name=O
+24	instans	instans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312697__T28)
+25	,	$,	PUNCT	_	_	31	punct	_	name=O
+26	dersom	dersom	SCONJ	_	_	31	mark	_	name=O
+27	forhandlingar	forhandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	31	nsubj	_	name=O|Entity=(firdann~20100916_5312697__T29--1
+28	i	i	ADP	_	_	29	case	_	name=O
+29	forkant	forkant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	nmod	_	name=O|Entity=(firdann~20100916_5312697__T30--1)firdann~20100916_5312697__T29)
+30	ikkje	ikkje	PART	_	Polarity=Neg	31	advmod	_	name=O
+31	fører	føre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	name=O
+32	fram	fram	ADP	_	_	31	compound:prt	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312697__T22)
+33	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007575
+# text = Dermed kan Naustdals reguleringsplan for gruveprosjektet og fjorddeponiet hamne på Fylkesmannens eller Miljødepartementets bord.
+1	Dermed	dermed	ADV	_	_	9	advmod	_	name=O
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+3	Naustdals	Naustdal	PROPN	_	Case=Gen	4	nmod	_	name=B-GPE_ORG|Entity=(firdann~20100916_5312697__T32--1(firdann~20100916_5312697__298--1)
+4	reguleringsplan	reguleringsplan	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	name=O
+5	for	for	ADP	_	_	6	case	_	name=O
+6	gruveprosjektet	gruveprosjekt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(firdann~20100916_5312697__T33--1(firdann~20100916_5312697__6176--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	fjorddeponiet	fjorddeponi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	conj	_	name=O|Entity=(firdann~20100916_5312697__T35--1)firdann~20100916_5312697__T33)firdann~20100916_5312697__T32)
+9	hamne	hamne	VERB	_	VerbForm=Inf	0	root	_	name=O
+10	på	på	ADP	_	_	14	case	_	name=O
+11	Fylkesmannens	Fylkesmannen	PROPN	_	Case=Gen	14	nmod	_	name=B-ORG|Entity=(firdann~20100916_5312697__T39--1(firdann~20100916_5312697__T36--1(firdann~20100916_5312697__T37--1)
+12	eller	eller	CCONJ	_	_	13	cc	_	name=O
+13	Miljødepartementets	Miljødepartementet	PROPN	_	Case=Gen	11	conj	_	name=B-ORG|Entity=(firdann~20100916_5312697__T38--1)firdann~20100916_5312697__T36)
+14	bord	bord	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312697__T39)
+15	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 007576
+# text = Urovekkjande opplysningar
+1	Urovekkjande	urovekkjande	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(firdann~20100916_5312697__T40--1
+2	opplysningar	opplysning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	name=O|Entity=firdann~20100916_5312697__T40)
+
+# sent_id = 007577
+# text = Fiskeridirektoratet meiner det har kome fram nye, urovekkjande opplysningar frå Havforskingsinstituttet om moglege konsekvensar av rutilutvinninga.
+1	Fiskeridirektoratet	Fiskeridirektoratet	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(firdann~20100916_5312697__583--1)
+2	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	kome	kome	VERB	_	VerbForm=Part	2	xcomp	_	name=O
+6	fram	fram	ADP	_	_	5	compound:prt	_	name=O
+7	nye	ny	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312697__288--1
+8	,	$,	PUNCT	_	_	7	punct	_	name=O
+9	urovekkjande	urovekkjande	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O
+10	opplysningar	opplysning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	name=O
+11	frå	frå	ADP	_	_	12	case	_	name=O
+12	Havforskingsinstituttet	Havforskingsinstituttet	PROPN	_	_	10	nmod	_	name=B-ORG|Entity=(firdann~20100916_5312697__259--1)
+13	om	om	ADP	_	_	15	case	_	name=O
+14	moglege	mogleg	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O|Entity=(firdann~20100916_5312697__T44--1
+15	konsekvensar	konsekvens	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	rutilutvinninga	rutilutvinning	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312697__6176--1)firdann~20100916_5312697__T44)firdann~20100916_5312697__288)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007578
+# text = - Desse opplysningane styrkjer uroa vår for effekta av den planlagde arealbruken.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Desse	desse	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(firdann~20100916_5312697__288--1
+3	opplysningane	opplysning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	name=O|Entity=firdann~20100916_5312697__288)
+4	styrkjer	styrkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	uroa	uro	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=(firdann~20100916_5312697__T47--1
+6	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(firdann~20100916_5312697__T48--1)
+7	for	for	ADP	_	_	8	case	_	name=O
+8	effekta	effekt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	name=O|Entity=(firdann~20100916_5312697__T49--1
+9	av	av	ADP	_	_	12	case	_	name=O
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(firdann~20100916_5312697__T50--1
+11	planlagde	planleggje	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	12	amod	_	name=O
+12	arealbruken	arealbruk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312697__T50)firdann~20100916_5312697__T49)firdann~20100916_5312697__T47)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007579
+# text = Bruk av fjorden som deponi av gruveslam vil ut frå den kunnskapen vi har i dag, få urovekkjande verknad på det marine miljøet, det biologiske mangfaldet i fjorden og på kysttorsken som ressurs, skriv regiondirektør Hans Haddal i eit motsegn-brevet til Naustdal kommune.
+1	Bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nsubj	_	name=O|Entity=(firdann~20100916_5312697__T51--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	fjorden	fjord	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20100916_5312697__2114--1)
+4	som	som	ADP	_	_	5	case	_	name=O
+5	deponi	deponi	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20100916_5312697__T53--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	gruveslam	gruveslam	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(firdann~20100916_5312697__T54--1)firdann~20100916_5312697__T53)firdann~20100916_5312697__T51)
+8	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+9	ut	ut	ADP	_	_	12	case	_	name=O
+10	frå	frå	ADP	_	_	12	case	_	name=O
+11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(firdann~20100916_5312697__T55--1
+12	kunnskapen	kunnskap	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	name=O
+13	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	name=O|Entity=(firdann~20100916_5312697__T56--1)
+14	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312697__T57--1)firdann~20100916_5312697__T55)
+17	,	$,	PUNCT	_	_	12	punct	_	name=O
+18	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+19	urovekkjande	urovekkjande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(firdann~20100916_5312697__T58--1
+20	verknad	verknad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	name=O
+21	på	på	ADP	_	_	24	case	_	name=O
+22	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	24	det	_	name=O|Entity=(firdann~20100916_5312697__T59--1(firdann~20100916_5312697__T60--1
+23	marine	marin	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	24	amod	_	name=O
+24	miljøet	miljø	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No|name=O
+25	,	$,	PUNCT	_	_	28	punct	_	name=O|Entity=firdann~20100916_5312697__T60)
+26	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	28	det	_	name=O|Entity=(firdann~20100916_5312697__T61--1
+27	biologiske	biologisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	28	amod	_	name=O
+28	mangfaldet	mangfald	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	conj	_	name=O
+29	i	i	ADP	_	_	30	case	_	name=O
+30	fjorden	fjord	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	name=O|Entity=(firdann~20100916_5312697__2114--1)firdann~20100916_5312697__T61)firdann~20100916_5312697__T59)
+31	og	og	CCONJ	_	_	33	cc	_	name=O
+32	på	på	ADP	_	_	33	case	_	name=O
+33	kysttorsken	kysttorsk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	conj	_	name=O|Entity=(firdann~20100916_5312697__T63--1
+34	som	som	ADP	_	_	35	case	_	name=O
+35	ressurs	ressurs	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312697__T64--1)firdann~20100916_5312697__T63)firdann~20100916_5312697__T58)
+36	,	$,	PUNCT	_	_	37	punct	_	name=O
+37	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	parataxis	_	name=O
+38	regiondirektør	regiondirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	39	nmod	_	name=O|Entity=(firdann~20100916_5312697__T65--1
+39	Hans	Hans	NOUN	_	Gender=Masc	37	nsubj	_	name=B-PER
+40	Haddal	Haddal	PROPN	_	_	39	flat:name	_	name=I-PER|Entity=firdann~20100916_5312697__T65)
+41	i	i	ADP	_	_	43	case	_	name=O
+42	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	43	det	_	name=O|Entity=(firdann~20100916_5312697__T66--1
+43	motsegn-brevet	motsegn-brev	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	37	obl	_	name=O
+44	til	til	ADP	_	_	45	case	_	name=O
+45	Naustdal	Naustdal	PROPN	_	_	43	nmod	_	name=B-GPE_ORG|Entity=(firdann~20100916_5312697__298--1
+46	kommune	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	45	flat:name	_	SpaceAfter=No|name=I-GPE_ORG|Entity=firdann~20100916_5312697__298)firdann~20100916_5312697__T66)
+47	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 007580
+# text = Veit for lite
+1	Veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	for	for	ADV	_	_	3	advmod	_	name=O
+3	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	obj	_	name=O
+

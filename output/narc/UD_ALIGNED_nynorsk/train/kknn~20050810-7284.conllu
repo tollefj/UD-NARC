@@ -1,0 +1,1538 @@
+# newdoc id = kknn~20050810-7284
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 008644
+# text = Einstein i Bergen
+1	Einstein	Einstein	PROPN	_	_	0	root	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Bergen	Bergen	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(kknn~20050810_7284__4383--1)
+
+# newpar
+# sent_id = 008645
+# text = Kven var eigentleg Albert Einstein?
+1	Kven	kven	PRON	_	Animacy=Hum|PronType=Int	0	root	_	name=O
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	cop	_	name=O
+3	eigentleg	eigentleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	name=O
+4	Albert	Albert	NOUN	_	Gender=Masc	1	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1
+5	Einstein	Einstein	PROPN	_	_	4	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kknn~20050810_7284__6412830)
+6	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 008646
+# text = Og korleis vart han den han vart, spør Robert Marc Friedman i teaterstykket «Becoming Albert Einstein».
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	korleis	korleis	ADV	_	_	3	advmod	_	name=O
+3	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+5	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	3	xcomp	_	name=O|Entity=(kknn~20050810_7284__T5--1
+6	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+7	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T5)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	spør	spørje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+10	Robert	Robert	NOUN	_	Gender=Masc	9	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__233589--1
+11	Marc	Marc	PROPN	_	_	10	flat:name	_	name=I-PER
+12	Friedman	Friedman	PROPN	_	_	10	flat:name	_	name=I-PER|Entity=kknn~20050810_7284__233589)
+13	i	i	ADP	_	_	16	case	_	name=O
+14	teaterstykket	teaterstykke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	name=O|Entity=(kknn~20050810_7284__61273--1
+15	«	$"	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O
+16	Becoming	Becoming	PROPN	_	_	9	obl	_	name=B-PROD
+17	Albert	Albert	NOUN	_	Gender=Masc	16	flat:name	_	name=I-PROD
+18	Einstein	Einstein	PROPN	_	_	16	flat:name	_	SpaceAfter=No|name=I-PROD
+19	»	$"	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__61273)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 008647
+# text = I kveld er det urpremiere i Håkonshallen i Bergen på det nyskrivne teaterstykke «Becoming Albert Einstein».
+1	I	i	ADP	_	_	2	case	_	name=O
+2	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050810_7284__T9--1)
+3	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	urpremiere	urpremiere	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(kknn~20050810_7284__T10[1/2]--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Håkonshallen	Håkonshallen	PROPN	_	_	3	obl	_	name=B-LOC|Entity=(kknn~20050810_7284__T11--1
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Bergen	Bergen	PROPN	_	_	7	nmod	_	name=B-GPE_LOC|Entity=(kknn~20050810_7284__4383--1)kknn~20050810_7284__T11)
+10	på	på	ADP	_	_	15	case	_	name=O|Entity=(kknn~20050810_7284__T10[2/2]--1
+11	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(kknn~20050810_7284__61273--1(kknn~20050810_7284__T13--1
+12	nyskrivne	nyskrive	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	13	amod	_	name=O
+13	teaterstykke	teaterstykke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	name=O|Entity=kknn~20050810_7284__T13)
+14	«	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+15	Becoming	Becoming	PROPN	_	_	5	nmod	_	name=B-PROD
+16	Albert	Albert	NOUN	_	Gender=Masc	15	flat:name	_	name=I-PROD
+17	Einstein	Einstein	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PROD
+18	»	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__61273)kknn~20050810_7284__T10[2/2])
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008648
+# text = Forfattaren Robert Marc Friedman vil bak klisjeen om den distré og uflidde fysikaren.
+1	Forfattaren	forfattar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(kknn~20050810_7284__233589--1
+2	Robert	Robert	NOUN	_	Gender=Masc	5	nsubj	_	name=B-PER
+3	Marc	Marc	PROPN	_	_	2	flat:name	_	name=I-PER
+4	Friedman	Friedman	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=kknn~20050810_7284__233589)
+5	vil	vilje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	bak	bak	ADP	_	_	7	case	_	name=O
+7	klisjeen	klisjé	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(kknn~20050810_7284__395--1
+8	om	om	ADP	_	_	13	case	_	name=O
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(kknn~20050810_7284__6412830--1
+10	distré	distré	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	uflidde	uflidd	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	conj	_	name=O
+13	fysikaren	fysikar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__6412830)kknn~20050810_7284__395)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008649
+# text = Han vil vise oss korleis og kvifor Einstein vart den han vart.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050810_7284__233589--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	vise	vise	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	3	iobj	_	name=O|Entity=(kknn~20050810_7284__T19--1)
+5	korleis	korleis	ADV	_	_	9	advmod	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	kvifor	kvifor	ADV	_	_	5	conj	_	name=O
+8	Einstein	Einstein	PROPN	_	_	9	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+9	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+10	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	9	xcomp	_	name=O|Entity=(kknn~20050810_7284__T21--1
+11	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+12	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T21)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008650
+# text = - Einstein er så mykje meir kompleks enn den ålmenne klisjéoppfatninga av han.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Einstein	Einstein	PROPN	_	_	7	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+4	så	så	ADV	_	_	5	advmod	_	name=O
+5	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	meir	mykje	ADJ	_	Degree=Cmp	7	advmod	_	name=O
+7	kompleks	kompleks	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+8	enn	enn	ADP	_	_	11	case	_	name=O
+9	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(kknn~20050810_7284__395--1
+10	ålmenne	ålmenn	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	klisjéoppfatninga	klisjéoppfatning	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__6412830--1)kknn~20050810_7284__395)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 008651
+# text = Eg ynskjer å vise kor dumt det er å redusere han til eit ikon, slik det berømte biletet av Einstein med tunga ute framstiller han, seier Friedman til Klassekampen.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20050810_7284__233589--1)
+2	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	vise	vise	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	kor	kor	ADV	_	_	6	advmod	_	name=O
+6	dumt	dum	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	xcomp	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	redusere	redusere	VERB	_	VerbForm=Inf	6	csubj	_	name=O
+11	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+12	til	til	ADP	_	_	14	case	_	name=O
+13	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(kknn~20050810_7284__T28--1
+14	ikon	ikon	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	16	punct	_	name=O|Entity=kknn~20050810_7284__T28)
+16	slik	slik	ADV	_	_	10	advmod	_	name=O
+17	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(kknn~20050810_7284__T29--1
+18	berømte	berømt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	biletet	bilete	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	25	nsubj	_	name=O
+20	av	av	ADP	_	_	21	case	_	name=O
+21	Einstein	Einstein	PROPN	_	_	19	nmod	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1
+22	med	med	ADP	_	_	23	case	_	name=O
+23	tunga	tunge	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	name=O|Entity=(kknn~20050810_7284__T31--1)
+24	ute	ute	ADP	_	_	23	xcomp	_	name=O|Entity=kknn~20050810_7284__6412830)kknn~20050810_7284__T29)
+25	framstiller	framstille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	advcl	_	name=O
+26	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__6412830--1)
+27	,	$,	PUNCT	_	_	28	punct	_	name=O
+28	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+29	Friedman	Friedman	PROPN	_	_	28	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__233589--1)
+30	til	til	ADP	_	_	31	case	_	name=O
+31	Klassekampen	Klassekampen	PROPN	_	_	28	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kknn~20050810_7284__T34--1)
+32	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008652
+# text = Til dagleg er Friedman professor i vitskapshistorie ved Universitetet i Oslo.
+1	Til	til	ADP	_	_	2	case	_	name=O
+2	dagleg	dagleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(kknn~20050810_7284__T35--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	Friedman	Friedman	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__233589--1)
+5	professor	professor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(kknn~20050810_7284__T37--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	vitskapshistorie	vitskapshistorie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	name=O|Entity=(kknn~20050810_7284__T38--1)
+8	ved	ved	ADP	_	_	9	case	_	name=O
+9	Universitetet	Universitetet	PROPN	_	_	5	nmod	_	name=B-ORG|Entity=(kknn~20050810_7284__T39--1
+10	i	i	ADP	_	_	9	flat:name	_	name=I-ORG
+11	Oslo	Oslo	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=kknn~20050810_7284__T39)kknn~20050810_7284__T37)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008653
+# text = Men då utfordringa om å skrive eit teaterstykke om Einstein dukka opp, klarte han ikkje takke nei.
+1	Men	men	CCONJ	_	_	14	cc	_	name=O
+2	då	då	SCONJ	_	_	11	mark	_	name=O
+3	utfordringa	utfordring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	name=O|Entity=(kknn~20050810_7284__T40--1
+4	om	om	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	skrive	skrive	VERB	_	VerbForm=Inf	3	acl	_	name=O
+7	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kknn~20050810_7284__T41--1
+8	teaterstykke	teaterstykke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O
+9	om	om	ADP	_	_	10	case	_	name=O
+10	Einstein	Einstein	PROPN	_	_	8	nmod	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)kknn~20050810_7284__T41)kknn~20050810_7284__T40)
+11	dukka	dukke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	name=O
+12	opp	opp	ADP	_	_	11	compound:prt	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	11	punct	_	name=O
+14	klarte	klare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+15	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(kknn~20050810_7284__233589--1)
+16	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	name=O
+17	takke	takke	VERB	_	VerbForm=Inf	14	xcomp	_	name=O
+18	nei	nei	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T44--1)
+19	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 008654
+# text = Høvet er markeringa av 100-årsjubileet for utviklinga av den spesielle relativitetsteorien, som dei neste dagane skal markerast med eit internasjonalt fysikarmøte i Bergen og Hardanger.
+1	Høvet	høve	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Bridge=kknn~20050810_7284__T41<kknn~20050810_7284__T45:default|Entity=(kknn~20050810_7284__T45--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	markeringa	markering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(kknn~20050810_7284__T46--1
+4	av	av	ADP	_	_	5	case	_	name=O
+5	100-årsjubileet	100-årsjubileum	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(kknn~20050810_7284__T47--1
+6	for	for	ADP	_	_	7	case	_	name=O
+7	utviklinga	utvikling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	name=O|Entity=(kknn~20050810_7284__T48--1
+8	av	av	ADP	_	_	11	case	_	name=O
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(kknn~20050810_7284__142627--1
+10	spesielle	spesiell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	relativitetsteorien	relativitetsteori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__142627)kknn~20050810_7284__T48)
+12	,	$,	PUNCT	_	_	18	punct	_	name=O
+13	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+14	dei	dei	DET	_	Number=Plur|PronType=Dem	16	det	_	name=O|Entity=(kknn~20050810_7284__T50--1
+15	neste	neste	DET	_	Definite=Def|PronType=Dem	16	det	_	name=O
+16	dagane	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	18	obl	_	name=O|Entity=kknn~20050810_7284__T50)
+17	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	markerast	markere	VERB	_	VerbForm=Inf	5	acl:relcl	_	name=O
+19	med	med	ADP	_	_	22	case	_	name=O
+20	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(kknn~20050810_7284__T51--1
+21	internasjonalt	internasjonal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	name=O
+22	fysikarmøte	fysikarmøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	name=O
+23	i	i	ADP	_	_	24	case	_	name=O
+24	Bergen	Bergen	PROPN	_	_	22	nmod	_	name=B-GPE_LOC|Entity=(kknn~20050810_7284__T52--1(kknn~20050810_7284__4383--1)
+25	og	og	CCONJ	_	_	26	cc	_	name=O
+26	Hardanger	Hardanger	PROPN	_	_	24	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20050810_7284__T54--1)kknn~20050810_7284__T52)kknn~20050810_7284__T51)kknn~20050810_7284__T47)kknn~20050810_7284__T46)
+27	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008655
+# text = Klisjeen Einstein
+1	Klisjeen	klisjé	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(kknn~20050810_7284__395--1
+2	Einstein	Einstein	PROPN	_	_	0	root	_	name=B-PER|Entity=kknn~20050810_7284__395)
+
+# sent_id = 008656
+# text = «Jeg er blitt en stor klisje,» klagar Einstein i Friedmans manuskript.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+2	Jeg	Jeg	X	_	_	10	obj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+3	er	er	X	_	_	2	flat:foreign	_	name=O
+4	blitt	blitt	X	_	_	2	flat:foreign	_	name=O
+5	en	en	X	_	_	2	flat:foreign	_	name=O
+6	stor	stor	X	_	_	2	flat:foreign	_	name=O
+7	klisje	klisje	X	_	_	2	flat:foreign	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+9	»	$"	PUNCT	_	_	2	punct	_	name=O
+10	klagar	klage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	Einstein	Einstein	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+12	i	i	ADP	_	_	14	case	_	name=O
+13	Friedmans	Friedman	PROPN	_	Case=Gen	14	nmod	_	name=B-PER|Bridge=kknn~20050810_7284__61273<kknn~20050810_7284__T58:default|Entity=(kknn~20050810_7284__T58--1(kknn~20050810_7284__233589--1)
+14	manuskript	manuskript	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T58)
+15	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 008657
+# text = - Kvifor vart han det?
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Kvifor	kvifor	ADV	_	_	3	advmod	_	name=O
+3	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	xcomp	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T60--1)
+6	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008658
+# text = - Etter den andre verdskrigen vart ikonet Einstein sterkare enn nokon gong, då han engasjerte seg aktivt i kampen mot atomvåpen.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Etter	etter	ADP	_	_	5	case	_	name=O
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(kknn~20050810_7284__T61--1
+4	andre	annan	DET	_	Definite=Def|Number=Sing|PronType=Dem	5	det	_	name=O
+5	verdskrigen	verdskrig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=kknn~20050810_7284__T61)
+6	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	ikonet	ikon	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	name=O|Entity=(kknn~20050810_7284__T62--1
+8	Einstein	Einstein	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=kknn~20050810_7284__T62)
+9	sterkare	sterk	ADJ	_	Degree=Cmp	6	xcomp	_	name=O
+10	enn	enn	ADP	_	_	12	case	_	name=O
+11	nokon	nokon	DET	_	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	name=O|Entity=(kknn~20050810_7284__T63--1
+12	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T63)
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	då	då	SCONJ	_	_	16	mark	_	name=O
+15	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+16	engasjerte	engasjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	advcl	_	name=O
+17	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	16	obj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+18	aktivt	aktiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	name=O|Entity=(kknn~20050810_7284__T65--1
+21	mot	mot	ADP	_	_	22	case	_	name=O
+22	atomvåpen	atomvåpen	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T66--1)kknn~20050810_7284__T65)
+23	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008659
+# text = Då var han òg blitt enkemann og meir av den shabby, røyndomsfjerne fysikaren vi kjenner så godt, med ulike strømper og uflidd barbering.
+1	Då	då	ADV	_	_	5	advmod	_	name=O
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+3	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+4	òg	òg	ADV	_	_	5	advmod	_	name=O
+5	blitt	bli	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	enkemann	enkemann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	xcomp	_	name=O|Entity=(kknn~20050810_7284__T68--1(kknn~20050810_7284__T69--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	meir	mykje	ADJ	_	Degree=Cmp	6	conj	_	name=O
+9	av	av	ADP	_	_	14	case	_	name=O
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(kknn~20050810_7284__T70--1
+11	shabby	shabby	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	11	punct	_	name=O
+13	røyndomsfjerne	røyndomsfjern	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	fysikaren	fysikar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O
+15	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	name=O|Entity=(kknn~20050810_7284__T71--1)
+16	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	name=O
+17	så	så	ADV	_	_	18	advmod	_	name=O
+18	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	SpaceAfter=No|name=O
+19	,	$,	PUNCT	_	_	22	punct	_	name=O
+20	med	med	ADP	_	_	22	case	_	name=O
+21	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	22	amod	_	name=O|Entity=(kknn~20050810_7284__T72--1(kknn~20050810_7284__T73--1
+22	strømper	strømpe	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	nmod	_	name=O|Entity=kknn~20050810_7284__T73)
+23	og	og	CCONJ	_	_	25	cc	_	name=O
+24	uflidd	uflidd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O|Entity=(kknn~20050810_7284__T74--1
+25	barbering	barbering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T74)kknn~20050810_7284__T72)kknn~20050810_7284__T70)kknn~20050810_7284__T68)
+26	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008660
+# text = Det uflidde biletet kombinert med hans genialitet og politiske engasjement, har nok bidrege til ikonstatusen i vår tid, seier Friedman.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kknn~20050810_7284__T75--1
+2	uflidde	uflidd	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	biletet	bilete	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	name=O
+4	kombinert	kombinere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	3	amod	_	name=O
+5	med	med	ADP	_	_	7	case	_	name=O
+6	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(kknn~20050810_7284__T77--1(kknn~20050810_7284__T78--1(kknn~20050810_7284__6412830--1)
+7	genialitet	genialitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=kknn~20050810_7284__T78)
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(kknn~20050810_7284__T79--1
+10	engasjement	engasjement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T79)kknn~20050810_7284__T77)
+11	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=kknn~20050810_7284__T75)
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+13	nok	nok	ADV	_	_	14	advmod	_	name=O
+14	bidrege	bidra	VERB	_	VerbForm=Part	0	root	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	ikonstatusen	ikonstatus	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	name=O|Bridge=kknn~20050810_7284__6412830<kknn~20050810_7284__2280:default|Entity=(kknn~20050810_7284__2280--1
+17	i	i	ADP	_	_	19	case	_	name=O
+18	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(kknn~20050810_7284__T82--1(kknn~20050810_7284__T81--1)
+19	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T82)kknn~20050810_7284__2280)
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	parataxis	_	name=O
+22	Friedman	Friedman	PROPN	_	_	21	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050810_7284__233589--1)
+23	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 008661
+# text = Men allereie i 1919 vart Einstein ein internasjonal superkjendis.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	allereie	allereie	ADV	_	_	4	advmod	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	1919	1919	NUM	_	Number=Plur|NumType=Card	5	obl	_	name=O
+5	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	Einstein	Einstein	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kknn~20050810_7284__T85--1
+8	internasjonal	internasjonal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	superkjendis	superkjendis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T85)
+10	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008662
+# text = Fjorten år etter han utvikla relativitetsteorien, hadde ein britisk ekspedisjon kunna stadfeste teorien empirisk.
+1	Fjorten	fjorten	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(kknn~20050810_7284__T86--1
+2	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	name=O|Entity=kknn~20050810_7284__T86)
+3	etter	etter	SCONJ	_	_	5	mark	_	name=O
+4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+5	utvikla	utvikle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	name=O
+6	relativitetsteorien	relativitetsteori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__142627--1)
+7	,	$,	PUNCT	_	_	5	punct	_	name=O
+8	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(kknn~20050810_7284__T89--1
+10	britisk	britisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	ekspedisjon	ekspedisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=kknn~20050810_7284__T89)
+12	kunna	kunne	AUX	_	VerbForm=Part	13	aux	_	name=O
+13	stadfeste	stadfeste	VERB	_	VerbForm=Inf	0	root	_	name=O
+14	teorien	teori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(kknn~20050810_7284__142627--1)
+15	empirisk	empirisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 008663
+# text = - I november 1919, etter kunngjeringa av dei britiske solformørkingsresultata som stadfesta relativitetsteorien, vart Einstein kjendis over natta.
+1	-	$-	PUNCT	_	_	16	punct	_	name=O
+2	I	i	ADP	_	_	3	case	_	name=O
+3	november	november	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	name=O|Entity=(kknn~20050810_7284__T91--1
+4	1919	1919	NUM	_	Number=Plur|NumType=Card	3	nmod	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=kknn~20050810_7284__T91)
+6	etter	etter	ADP	_	_	7	case	_	name=O
+7	kunngjeringa	kunngjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050810_7284__T92--1
+8	av	av	ADP	_	_	11	case	_	name=O
+9	dei	dei	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(kknn~20050810_7284__T93--1
+10	britiske	britisk	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	solformørkingsresultata	solformørkingsresultat	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nmod	_	name=O
+12	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+13	stadfesta	stadfeste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	name=O
+14	relativitetsteorien	relativitetsteori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__142627--1)kknn~20050810_7284__T93)kknn~20050810_7284__T92)
+15	,	$,	PUNCT	_	_	7	punct	_	name=O
+16	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+17	Einstein	Einstein	PROPN	_	_	16	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+18	kjendis	kjendis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	xcomp	_	name=O|Entity=(kknn~20050810_7284__T96--1)
+19	over	over	ADP	_	_	20	case	_	name=O
+20	natta	natt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T97--1)
+21	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 008664
+# text = Og timinga kunne ikkje ha vore betre:
+1	Og	og	CCONJ	_	_	7	cc	_	name=O
+2	timinga	timing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	name=O|Bridge=kknn~20050810_7284__T92<kknn~20050810_7284__T98:default|Entity=(kknn~20050810_7284__T98--1)
+3	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	name=O
+5	ha	ha	AUX	_	VerbForm=Inf	7	aux	_	name=O
+6	vore	vere	AUX	_	VerbForm=Part	7	cop	_	name=O
+7	betre	bra	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No|name=O
+8	:	$:	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 008665
+# text = - Det er lett å gløyme i dag, men ein må hugse kor deprimert verda var etter fyrste verdskrigen.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(kknn~20050810_7284__T99--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	lett	lett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	gløyme	gløyme	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T100--1)
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	men	men	CCONJ	_	_	13	cc	_	name=O
+11	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	13	nsubj	_	name=O|Entity=(kknn~20050810_7284__T101--1)
+12	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	hugse	hugse	VERB	_	VerbForm=Inf	4	conj	_	name=O
+14	kor	kor	ADV	_	_	15	advmod	_	name=O
+15	deprimert	deprimert	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	xcomp	_	name=O
+16	verda	verd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	name=O|Entity=(kknn~20050810_7284__5763--1)
+17	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	name=O
+18	etter	etter	ADP	_	_	20	case	_	name=O
+19	fyrste	fyrste	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(kknn~20050810_7284__3389--1
+20	verdskrigen	verdskrig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__3389)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008666
+# text = Ein hadde før krigen levd i ei sosialdarwinistisk tru på at kulturnasjonane i fredeleg konkurranse skulle føre verda framover.
+1	Ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	5	nsubj	_	name=O|Entity=(kknn~20050810_7284__T104--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+3	før	før	ADP	_	_	4	case	_	name=O
+4	krigen	krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(kknn~20050810_7284__3389--1)
+5	levd	leve	VERB	_	VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	9	case	_	name=O
+7	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kknn~20050810_7284__T106--1
+8	sosialdarwinistisk	sosialdarwinistisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	tru	tru	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O
+10	på	på	SCONJ	_	_	17	mark	_	name=O
+11	at	at	SCONJ	_	_	17	mark	_	name=O
+12	kulturnasjonane	kulturnasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	17	nsubj	_	name=O|Entity=(kknn~20050810_7284__T107--1)
+13	i	i	ADP	_	_	15	case	_	name=O
+14	fredeleg	fredeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(kknn~20050810_7284__T108--1
+15	konkurranse	konkurranse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	name=O|Entity=kknn~20050810_7284__T108)
+16	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	name=O
+17	føre	føre	VERB	_	VerbForm=Inf	9	acl	_	name=O
+18	verda	verd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	17	obj	_	name=O|Entity=(kknn~20050810_7284__5763--1)
+19	framover	framover	ADP	_	_	17	compound:prt	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T106)
+20	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008667
+# text = I staden enda ein opp med eit øydelagt Europa.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050810_7284__T110--1)
+3	enda	ende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	3	nsubj	_	name=O|Entity=(kknn~20050810_7284__T111--1)
+5	opp	opp	ADP	_	_	3	compound:prt	_	name=O
+6	med	med	ADP	_	_	9	case	_	name=O
+7	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kknn~20050810_7284__T112--1
+8	øydelagt	øydeleggje	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	9	amod	_	name=O
+9	Europa	Europa	PROPN	_	_	3	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=kknn~20050810_7284__T112)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008668
+# text = Så kom det ein britisk ekspedisjon som stadfesta ein tysk teori som i populær forståing betydde at Newton var detronisert.
+1	Så	så	ADV	_	_	2	advmod	_	name=O
+2	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kknn~20050810_7284__T113--1
+5	britisk	britisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	ekspedisjon	ekspedisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+8	stadfesta	stadfeste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	name=O
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(kknn~20050810_7284__T114--1
+10	tysk	tysk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	teori	teori	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	name=O
+12	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+13	i	i	ADP	_	_	15	case	_	name=O
+14	populær	populær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(kknn~20050810_7284__T115--1
+15	forståing	forståing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	name=O|Entity=kknn~20050810_7284__T115)
+16	betydde	bety	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	name=O
+17	at	at	SCONJ	_	_	20	mark	_	name=O
+18	Newton	Newton	PROPN	_	_	20	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__T116--1)
+19	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	name=O
+20	detronisert	detronisere	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	16	ccomp	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T114)kknn~20050810_7284__T113)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008669
+# text = Det hadde ikkje trengt å bli den store nyheita, men det vart det verkeleg, forklarar han.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(kknn~20050810_7284__4487--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	trengt	trengje	VERB	_	VerbForm=Part	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	bli	bli	VERB	_	VerbForm=Inf	4	xcomp	_	name=O
+7	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(kknn~20050810_7284__T118--1
+8	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	nyheita	nyheit	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	xcomp	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T118)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	men	men	CCONJ	_	_	13	cc	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(kknn~20050810_7284__4487--1)
+13	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	xcomp	_	name=O|Entity=(kknn~20050810_7284__T120--1)
+15	verkeleg	verkeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	forklarar	forklare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+18	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__233589--1)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008670
+# text = Konsekvensar
+1	Konsekvensar	konsekvens	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(kknn~20050810_7284__T122--1)
+
+# sent_id = 008671
+# text = Nyheita fekk straks populærkulturelle fortolkingar og konsekvensar.
+1	Nyheita	nyheit	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	name=O|Entity=(kknn~20050810_7284__4487--1)
+2	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	straks	straks	ADV	_	_	2	advmod	_	name=O
+4	populærkulturelle	populærkulturell	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(kknn~20050810_7284__T124--1(kknn~20050810_7284__T125--1
+5	fortolkingar	fortolking	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	name=O|Entity=kknn~20050810_7284__T125)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	konsekvensar	konsekvens	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T126--1)kknn~20050810_7284__T124)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008672
+# text = - Nokre omtalte det som dadaisme i vitskapen, medan ein amerikansk journalist skreiv at det berre fanst elleve menneske i heile verda som forstod teorien.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Nokre	nokre	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kknn~20050810_7284__T127--1)
+3	omtalte	omtale	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(kknn~20050810_7284__4487--1)
+5	som	som	SCONJ	_	_	6	mark	_	name=O
+6	dadaisme	dadaisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	name=O|Entity=(kknn~20050810_7284__T129--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	vitskapen	vitskap	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T130--1)kknn~20050810_7284__T129)
+9	,	$,	PUNCT	_	_	14	punct	_	name=O
+10	medan	medan	SCONJ	_	_	14	mark	_	name=O
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(kknn~20050810_7284__T131--1
+12	amerikansk	amerikansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	journalist	journalist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	name=O|Entity=kknn~20050810_7284__T131)
+14	skreiv	skrive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	name=O
+15	at	at	SCONJ	_	_	18	mark	_	name=O
+16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+17	berre	berre	ADV	_	_	18	advmod	_	name=O
+18	fanst	finnast	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	xcomp	_	name=O
+19	elleve	elleve	NUM	_	Number=Plur|NumType=Card	20	nummod	_	name=O|Entity=(kknn~20050810_7284__T132[1/2]--1
+20	menneske	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	nsubj	_	name=O|Entity=kknn~20050810_7284__T132[1/2])
+21	i	i	ADP	_	_	23	case	_	name=O
+22	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	amod	_	name=O|Entity=(kknn~20050810_7284__5763--1
+23	verda	verd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	18	obl	_	name=O|Entity=kknn~20050810_7284__5763)
+24	som	som	PRON	_	PronType=Rel	25	nsubj	_	name=O|Entity=(kknn~20050810_7284__T132[2/2]--1
+25	forstod	forstå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	acl:relcl	_	name=O
+26	teorien	teori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__142627--1)kknn~20050810_7284__T132[2/2])
+27	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008673
+# text = Einsteins utsjånad var heller ikkje slik ein forventa seg av ein Berlin-professor, seier Friedman.
+1	Einsteins	Einstein	PROPN	_	Case=Gen	2	nmod	_	name=B-PER|Entity=(kknn~20050810_7284__T136--1(kknn~20050810_7284__6412830--1)
+2	utsjånad	utsjånad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=kknn~20050810_7284__T136)
+3	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	heller	heller	ADV	_	_	3	advmod	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+6	slik	slik	ADV	_	_	8	advmod	_	name=O
+7	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	8	nsubj	_	name=O|Entity=(kknn~20050810_7284__T137--1)
+8	forventa	forvente	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	name=O
+9	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	8	obj	_	name=O
+10	av	av	ADP	_	_	12	case	_	name=O
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kknn~20050810_7284__T138--1
+12	Berlin-professor	Berlin-professor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=B-DRV|Entity=kknn~20050810_7284__T138)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+15	Friedman	Friedman	PROPN	_	_	14	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050810_7284__233589--1)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008674
+# text = Det var kjend at Einstein var pasifist og mot Tysklands krigføring.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	kjend	kjend	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	Einstein	Einstein	PROPN	_	_	7	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+6	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+7	pasifist	pasifist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	csubj	_	name=O|Entity=(kknn~20050810_7284__T141--1(kknn~20050810_7284__T142--1)
+8	og	og	CCONJ	_	_	11	cc	_	name=O
+9	mot	mot	ADP	_	_	11	case	_	name=O
+10	Tysklands	Tyskland	PROPN	_	Case=Gen	11	nmod	_	name=B-GPE_ORG|Entity=(kknn~20050810_7284__T144--1(kknn~20050810_7284__T143--1)
+11	krigføring	krigføring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T144)kknn~20050810_7284__T141)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008675
+# text = Difor tok det heller ikkje lang tid før teorien hans vart brukt politisk, forklarar vitskapshistorikaren.
+1	Difor	difor	ADV	_	_	2	advmod	_	name=O
+2	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20050810_7284__T145--1)
+4	heller	heller	ADV	_	_	2	advmod	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+6	lang	lang	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(kknn~20050810_7284__T146--1
+7	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=kknn~20050810_7284__T146)
+8	før	før	SCONJ	_	_	12	mark	_	name=O
+9	teorien	teori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj:pass	_	name=O|Entity=(kknn~20050810_7284__142627--1
+10	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(kknn~20050810_7284__6412830--1)kknn~20050810_7284__142627)
+11	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux:pass	_	name=O
+12	brukt	bruke	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	2	advcl	_	name=O
+13	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	forklarar	forklare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+16	vitskapshistorikaren	vitskapshistorikar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__233589--1)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008676
+# text = - Progressive krefter meinte relativitetsteorien synte at verda ikkje var statisk, mekanisk og førebestemt, medan dei konservative kreftene såg det som eit åtak på dei absolutte storleikane godheit, skjønnheit og sanning, seier han.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Progressive	progressiv	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=(kknn~20050810_7284__T150--1
+3	krefter	kraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	name=O|Entity=kknn~20050810_7284__T150)
+4	meinte	meine	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	relativitetsteorien	relativitetsteori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20050810_7284__142627--1)
+6	synte	syne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	name=O
+7	at	at	SCONJ	_	_	11	mark	_	name=O
+8	verda	verd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	name=O|Entity=(kknn~20050810_7284__5763--1)
+9	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	name=O
+10	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	name=O
+11	statisk	statisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	ccomp	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	mekanisk	mekanisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	name=O
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	førebestemt	førebestemd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	medan	medan	SCONJ	_	_	21	mark	_	name=O
+18	dei	dei	DET	_	Number=Plur|PronType=Dem	20	det	_	name=O|Entity=(kknn~20050810_7284__T153--1
+19	konservative	konservativ	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O
+20	kreftene	kraft	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	21	nsubj	_	name=O|Entity=kknn~20050810_7284__T153)
+21	såg	sjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	name=O
+22	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	name=O|Entity=(kknn~20050810_7284__142627--1)
+23	som	som	SCONJ	_	_	25	mark	_	name=O
+24	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(kknn~20050810_7284__T155--1
+25	åtak	åtak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	xcomp	_	name=O
+26	på	på	ADP	_	_	29	case	_	name=O
+27	dei	dei	DET	_	Number=Plur|PronType=Dem	29	det	_	name=O|Entity=(kknn~20050810_7284__T156--1
+28	absolutte	absolutt	ADJ	_	Degree=Pos|Number=Plur	29	amod	_	name=O
+29	storleikane	storleik	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	25	nmod	_	name=O
+30	godheit	godheit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	29	appos	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T157--1(kknn~20050810_7284__T158--1
+31	,	$,	PUNCT	_	_	32	punct	_	name=O|Entity=kknn~20050810_7284__T158)
+32	skjønnheit	skjønnheit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	30	conj	_	name=O|Entity=(kknn~20050810_7284__T159--1)
+33	og	og	CCONJ	_	_	34	cc	_	name=O
+34	sanning	sanning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	30	conj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T160--1)kknn~20050810_7284__T157)kknn~20050810_7284__T156)kknn~20050810_7284__T155)
+35	,	$,	PUNCT	_	_	36	punct	_	name=O
+36	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+37	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__233589--1)
+38	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008677
+# text = Men sjølv om dei politiske fortolkingane av relativitetsteorien er langt utanfor det Einstein kunne gå god for, var Einstein sjølv ein viktig politisk aktør.
+1	Men	men	CCONJ	_	_	25	cc	_	name=O
+2	sjølv	sjølv	ADV	_	_	3	advmod	_	name=O
+3	om	om	SCONJ	_	_	12	mark	_	name=O
+4	dei	dei	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(kknn~20050810_7284__T162--1
+5	politiske	politisk	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	fortolkingane	fortolking	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	12	nsubj	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	relativitetsteorien	relativitetsteori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(kknn~20050810_7284__142627--1)kknn~20050810_7284__T162)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+10	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+11	utanfor	utanfor	SCONJ	_	_	12	mark	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	advcl	_	name=O|Entity=(kknn~20050810_7284__T164--1
+13	Einstein	Einstein	PROPN	_	_	15	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+14	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	name=O
+15	gå	gå	VERB	_	VerbForm=Inf	12	acl:relcl	_	name=O
+16	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	acl	_	name=O
+17	for	for	ADP	_	_	15	compound:prt	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T164)
+18	,	$,	PUNCT	_	_	12	punct	_	name=O
+19	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	cop	_	name=O
+20	Einstein	Einstein	PROPN	_	_	25	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1
+21	sjølv	sjølv	DET	_	PronType=Prs	20	det	_	name=O|Entity=kknn~20050810_7284__6412830)
+22	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(kknn~20050810_7284__T167--1
+23	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O
+24	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O
+25	aktør	aktør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T167)
+26	.	$.	PUNCT	_	_	25	punct	_	name=O
+
+# sent_id = 008678
+# text = Friedman er oppteken av splittinga mellom den engasjerte, idealistiske sosialisten Albert Einstein og den geniale teoretiske fysikaren.
+1	Friedman	Friedman	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__233589--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	oppteken	oppteken	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	splittinga	splitting	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050810_7284__T169--1
+6	mellom	mellom	ADP	_	_	12	case	_	name=O
+7	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(kknn~20050810_7284__T171--1(kknn~20050810_7284__6412830--1(kknn~20050810_7284__T170--1
+8	engasjerte	engasjere	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	11	amod	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	8	punct	_	name=O
+10	idealistiske	idealistisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	sosialisten	sosialist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=kknn~20050810_7284__T170)
+12	Albert	Albert	NOUN	_	Gender=Masc	5	nmod	_	name=B-PER
+13	Einstein	Einstein	PROPN	_	_	12	flat:name	_	name=I-PER|Entity=kknn~20050810_7284__6412830)
+14	og	og	CCONJ	_	_	18	cc	_	name=O
+15	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(kknn~20050810_7284__6412830--1
+16	geniale	genial	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O
+17	teoretiske	teoretisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	fysikaren	fysikar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__6412830)kknn~20050810_7284__T171)kknn~20050810_7284__T169)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008679
+# text = I tittelen «Becoming Albert Einstein» ligg eit hint om ei utviklingsline, frå ein asosial, sjølvoppteken ung forskar til ein fridomskjempande vismann.
+1	I	i	ADP	_	_	8	compound:prt	_	name=O
+2	tittelen	tittel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Bridge=kknn~20050810_7284__61273<kknn~20050810_7284__T174:default|Entity=(kknn~20050810_7284__T174--1
+3	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O
+4	Becoming	Becoming	PROPN	_	_	1	appos	_	name=B-PROD
+5	Albert	Albert	NOUN	_	Gender=Masc	4	flat:name	_	name=I-PROD
+6	Einstein	Einstein	PROPN	_	_	4	flat:name	_	SpaceAfter=No|name=I-PROD
+7	»	$"	PUNCT	_	_	4	punct	_	name=O|Entity=kknn~20050810_7284__T174)
+8	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kknn~20050810_7284__T175--1
+10	hint	hint	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	nsubj	_	name=O
+11	om	om	ADP	_	_	13	case	_	name=O
+12	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(kknn~20050810_7284__T176--1
+13	utviklingsline	utviklingsline	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	21	punct	_	name=O
+15	frå	frå	ADP	_	_	21	case	_	name=O
+16	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(kknn~20050810_7284__T177--1
+17	asosial	asosial	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	17	punct	_	name=O
+19	sjølvoppteken	sjølvoppteken	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	name=O
+20	ung	ung	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	forskar	forskar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=kknn~20050810_7284__T177)
+22	til	til	ADP	_	_	25	case	_	name=O
+23	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(kknn~20050810_7284__T178--1
+24	fridomskjempande	fridomskjempe	ADJ	_	VerbForm=Part	25	amod	_	name=O
+25	vismann	vismann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T178)kknn~20050810_7284__T176)kknn~20050810_7284__T175)
+26	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 008680
+# text = - Einstein vaknar politisk mot slutten av fyrste verdskrigen, han var forbanna over korleis jødane vart handsama ved universitetet og særleg over tysk hat mot fattige aust-jødiske flyktningar.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Einstein	Einstein	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+3	vaknar	vakne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	mot	mot	ADP	_	_	6	case	_	name=O
+6	slutten	slutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050810_7284__T180--1
+7	av	av	ADP	_	_	9	case	_	name=O
+8	fyrste	fyrste	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(kknn~20050810_7284__3389--1
+9	verdskrigen	verdskrig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__3389)kknn~20050810_7284__T180)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+12	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+13	forbanna	forbanna	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	conj	_	name=O
+14	over	over	SCONJ	_	_	18	mark	_	name=O
+15	korleis	korleis	ADV	_	_	18	advmod	_	name=O
+16	jødane	jøde	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	18	nsubj:pass	_	name=O|Entity=(kknn~20050810_7284__T183--1)
+17	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux:pass	_	name=O
+18	handsama	handsame	VERB	_	Number=Plur|VerbForm=Part	13	advcl	_	name=O
+19	ved	ved	ADP	_	_	20	case	_	name=O
+20	universitetet	universitet	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	obl	_	name=O|Entity=(kknn~20050810_7284__T184--1)
+21	og	og	CCONJ	_	_	25	cc	_	name=O
+22	særleg	særleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	advmod	_	name=O
+23	over	over	ADP	_	_	25	case	_	name=O
+24	tysk	tysk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	name=O|Entity=(kknn~20050810_7284__T185--1
+25	hat	hat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	conj	_	name=O
+26	mot	mot	ADP	_	_	29	case	_	name=O
+27	fattige	fattig	ADJ	_	Degree=Pos|Number=Plur	29	amod	_	name=O|Entity=(kknn~20050810_7284__T186--1
+28	aust-jødiske	aust-jødisk	ADJ	_	Degree=Pos|Number=Plur	29	amod	_	name=O
+29	flyktningar	flyktning	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T186)kknn~20050810_7284__T185)
+30	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008681
+# text = Men sinnet hans gjekk òg vidare.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	sinnet	sinne	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(kknn~20050810_7284__T187--1
+3	hans	hans	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(kknn~20050810_7284__6412830--1)kknn~20050810_7284__T187)
+4	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	òg	òg	ADV	_	_	4	advmod	_	name=O
+6	vidare	vid	ADJ	_	Degree=Cmp	4	advmod	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008682
+# text = Han kravde at alle folk måtte ha verdigheit, at vi måtte organisere samfunnet slik at folk kunne ha verdigheit, og han vart difor sosialist.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+2	kravde	krevje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	alle	all	DET	_	Number=Plur|PronType=Tot	5	det	_	name=O|Entity=(kknn~20050810_7284__T190--1
+5	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nsubj	_	name=O|Entity=kknn~20050810_7284__T190)
+6	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	name=O
+7	ha	ha	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+8	verdigheit	verdigheit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T191--1)
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	at	at	SCONJ	_	_	13	mark	_	name=O
+11	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(kknn~20050810_7284__T192--1)
+12	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+13	organisere	organisere	VERB	_	VerbForm=Inf	7	conj	_	name=O
+14	samfunnet	samfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	obj	_	name=O|Entity=(kknn~20050810_7284__T193--1)
+15	slik	slik	ADV	_	_	13	advmod	_	name=O
+16	at	at	SCONJ	_	_	19	mark	_	name=O
+17	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	nsubj	_	name=O|Entity=(kknn~20050810_7284__T194--1)
+18	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	name=O
+19	ha	ha	VERB	_	VerbForm=Inf	15	acl	_	name=O
+20	verdigheit	verdigheit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T195--1)
+21	,	$,	PUNCT	_	_	24	punct	_	name=O
+22	og	og	CCONJ	_	_	24	cc	_	name=O
+23	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+24	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+25	difor	difor	ADV	_	_	24	advmod	_	name=O
+26	sosialist	sosialist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	xcomp	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T197--1)
+27	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008683
+# text = Big Science
+1	Big	Big	PROPN	_	_	0	root	_	name=B-PROD|Entity=(kknn~20050810_7284__T198--1
+2	Science	Science	PROPN	_	_	1	flat:name	_	name=I-PROD|Entity=kknn~20050810_7284__T198)
+
+# sent_id = 008684
+# text = Einsteins ikonstatus oppstod fyrst i England og USA.
+1	Einsteins	Einstein	PROPN	_	Case=Gen	2	nmod	_	name=B-PER|Entity=(kknn~20050810_7284__2280--1(kknn~20050810_7284__6412830--1)
+2	ikonstatus	ikonstatus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=kknn~20050810_7284__2280)
+3	oppstod	oppstå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	fyrst	fyrst	ADV	_	_	3	advmod	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	England	England	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(kknn~20050810_7284__T201--1(kknn~20050810_7284__T202--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	USA	USA	NOUN	_	Abbr=Yes	6	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20050810_7284__2408--1)kknn~20050810_7284__T201)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008685
+# text = Men statusen i USA var på mange måtar paradoksal, ifylgje Friedman.
+1	Men	men	CCONJ	_	_	9	cc	_	name=O
+2	statusen	status	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Bridge=kknn~20050810_7284__2280<kknn~20050810_7284__T204:default|Entity=(kknn~20050810_7284__T204--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	USA	USA	NOUN	_	Abbr=Yes	2	nmod	_	name=B-GPE_LOC|Entity=(kknn~20050810_7284__2408--1)kknn~20050810_7284__T204)
+5	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+6	på	på	ADP	_	_	8	case	_	name=O
+7	mange	mange	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(kknn~20050810_7284__T206--1
+8	måtar	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	name=O|Entity=kknn~20050810_7284__T206)
+9	paradoksal	paradoksal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	12	punct	_	name=O
+11	ifylgje	ifylgje	ADP	_	_	12	case	_	name=O
+12	Friedman	Friedman	PROPN	_	_	9	obl	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050810_7284__233589--1)
+13	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 008686
+# text = - Eigentleg er det merkeleg at amerikansk fysikk brukte han som ikon, fordi han på mange måtar representerte det motsette av det amerikansk fysikk utvikla seg til på denne tida, med Big Science, nære koplingar mellom vitskapen og militærindustrien og harde maktkampar om pengeløyvingar, seier han.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Eigentleg	eigentleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	merkeleg	merkeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	amerikansk	amerikansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(kknn~20050810_7284__T208--1
+8	fysikk	fysikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=kknn~20050810_7284__T208)
+9	brukte	bruke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	csubj	_	name=O
+10	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+11	som	som	SCONJ	_	_	12	mark	_	name=O
+12	ikon	ikon	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	xcomp	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T210--1)
+13	,	$,	PUNCT	_	_	19	punct	_	name=O
+14	fordi	fordi	SCONJ	_	_	19	mark	_	name=O
+15	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+16	på	på	ADP	_	_	18	case	_	name=O
+17	mange	mange	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(kknn~20050810_7284__T212--1
+18	måtar	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	obl	_	name=O|Entity=kknn~20050810_7284__T212)
+19	representerte	representere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+20	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	21	det	_	name=O
+21	motsette	motsett	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	obj	_	name=O
+22	av	av	ADP	_	_	23	case	_	name=O
+23	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nmod	_	name=O|Entity=(kknn~20050810_7284__2441--1
+24	amerikansk	amerikansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O|Entity=(kknn~20050810_7284__2602--1
+25	fysikk	fysikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nsubj	_	name=O|Entity=kknn~20050810_7284__2602)
+26	utvikla	utvikle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	advcl	_	name=O
+27	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	26	obj	_	name=O|Entity=(kknn~20050810_7284__2602--1)
+28	til	til	ADP	_	_	26	compound:prt	_	name=O
+29	på	på	ADP	_	_	31	case	_	name=O
+30	denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	31	det	_	name=O|Entity=(kknn~20050810_7284__T215--1
+31	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T215)
+32	,	$,	PUNCT	_	_	34	punct	_	name=O
+33	med	med	ADP	_	_	34	case	_	name=O
+34	Big	Big	PROPN	_	_	26	obl	_	name=B-PROD|Entity=(kknn~20050810_7284__T216--1(kknn~20050810_7284__T217--1
+35	Science	Science	PROPN	_	_	34	flat:name	_	SpaceAfter=No|name=I-PROD
+36	,	$,	PUNCT	_	_	38	punct	_	name=O|Entity=kknn~20050810_7284__T217)
+37	nære	nær	ADJ	_	Degree=Pos|Number=Plur	38	amod	_	name=O|Entity=(kknn~20050810_7284__T218--1
+38	koplingar	kopling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	34	conj	_	name=O
+39	mellom	mellom	ADP	_	_	40	case	_	name=O
+40	vitskapen	vitskap	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	38	nmod	_	name=O|Entity=(kknn~20050810_7284__T219--1(kknn~20050810_7284__T220--1)
+41	og	og	CCONJ	_	_	42	cc	_	name=O
+42	militærindustrien	militærindustri	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	40	conj	_	name=O|Entity=(kknn~20050810_7284__T221--1)kknn~20050810_7284__T219)kknn~20050810_7284__T218)
+43	og	og	CCONJ	_	_	45	cc	_	name=O
+44	harde	hard	ADJ	_	Degree=Pos|Number=Plur	45	amod	_	name=O|Entity=(kknn~20050810_7284__T222--1
+45	maktkampar	maktkamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	34	conj	_	name=O
+46	om	om	ADP	_	_	47	case	_	name=O
+47	pengeløyvingar	pengeløyving	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	45	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T223--1)kknn~20050810_7284__T222)kknn~20050810_7284__T216)kknn~20050810_7284__2441)
+48	,	$,	PUNCT	_	_	49	punct	_	name=O
+49	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+50	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__233589--1)
+51	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008687
+# text = - Kanskje Einstein var eit nyttig PR-stunt nettopp på grunn av denne utviklinga?
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Kanskje	kanskje	ADV	_	_	7	advmod	_	name=O
+3	Einstein	Einstein	PROPN	_	_	7	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kknn~20050810_7284__T226--1
+6	nyttig	nyttig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	PR-stunt	PR-stunt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=kknn~20050810_7284__T226)
+8	nettopp	nettopp	ADV	_	_	10	advmod	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(kknn~20050810_7284__T227--1
+11	av	av	ADP	_	_	13	case	_	name=O
+12	denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(kknn~20050810_7284__2441--1
+13	utviklinga	utvikling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__2441)kknn~20050810_7284__T227)
+14	?	$?	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 008688
+# text = - Ja, nettopp.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Ja	ja	INTJ	_	_	0	root	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	nettopp	nettopp	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008689
+# text = Men sjølv om mange leiande internasjonale fysikarar kasta seg over Einsteins teoriar, var Nobelkomiteen i Stockholm heller lunken.
+1	Men	men	CCONJ	_	_	19	cc	_	name=O
+2	sjølv	sjølv	ADV	_	_	3	advmod	_	name=O
+3	om	om	SCONJ	_	_	8	mark	_	name=O
+4	mange	mange	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(kknn~20050810_7284__2620--1
+5	leiande	leie	ADJ	_	VerbForm=Part	7	amod	_	name=O
+6	internasjonale	internasjonal	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	fysikarar	fysikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=kknn~20050810_7284__2620)
+8	kasta	kaste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	name=O
+9	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	8	obj	_	name=O|Entity=(kknn~20050810_7284__2620--1)
+10	over	over	ADP	_	_	12	case	_	name=O
+11	Einsteins	Einstein	PROPN	_	Case=Gen	12	nmod	_	name=B-PER|Entity=(kknn~20050810_7284__T231--1(kknn~20050810_7284__6412830--1)
+12	teoriar	teori	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T231)
+13	,	$,	PUNCT	_	_	8	punct	_	name=O
+14	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	name=O
+15	Nobelkomiteen	Nobelkomiteen	PROPN	_	_	19	nsubj	_	name=B-ORG|Entity=(kknn~20050810_7284__4985--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Stockholm	Stockholm	PROPN	_	_	15	nmod	_	name=B-GPE_LOC|Entity=(kknn~20050810_7284__T233--1)kknn~20050810_7284__4985)
+18	heller	heller	ADV	_	_	19	advmod	_	name=O
+19	lunken	lunken	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O
+20	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# sent_id = 008690
+# text = Einstein fekk ikkje Nobelprisen for relativitetsteorien, den fekk han først i 1921/1922, og då for oppdaginga av lova for den fotoelektriske effekten.
+1	Einstein	Einstein	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+2	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	Nobelprisen	Nobelprisen	PROPN	_	_	2	obj	_	name=B-PROD|Entity=(kknn~20050810_7284__2472--1)
+5	for	for	ADP	_	_	6	case	_	name=O
+6	relativitetsteorien	relativitetsteori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__142627--1)
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	name=O|Entity=(kknn~20050810_7284__2472--1)
+9	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+10	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+11	først	først	ADV	_	_	13	advmod	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	1921	1921	NUM	_	Number=Plur|NumType=Card	9	obl	_	SpaceAfter=No|name=O
+14	/	$/	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+15	1922	1922	NUM	_	Number=Plur|NumType=Card	13	conj	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	og	og	CCONJ	_	_	20	cc	_	name=O
+18	då	då	ADV	_	_	20	advmod	_	name=O
+19	for	for	ADP	_	_	20	case	_	name=O
+20	oppdaginga	oppdaging	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	conj	_	name=O|Entity=(kknn~20050810_7284__T239--1
+21	av	av	ADP	_	_	22	case	_	name=O
+22	lova	lov	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	20	orphan	_	name=O|Entity=(kknn~20050810_7284__T240--1
+23	for	for	ADP	_	_	26	case	_	name=O
+24	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	name=O|Entity=(kknn~20050810_7284__T241--1
+25	fotoelektriske	fotoelektrisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	effekten	effekt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T241)kknn~20050810_7284__T240)kknn~20050810_7284__T239)
+27	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008691
+# text = - Nobelkomiteen var ikkje veldig interessert.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Nobelkomiteen	Nobelkomiteen	PROPN	_	_	6	nsubj	_	name=B-ORG|Entity=(kknn~20050810_7284__4985--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	name=O
+5	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	interessert	interessere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008692
+# text = Det handla nok om ulike syn på kva fysikk skulle vere.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20050810_7284__T243--1)
+2	handla	handle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	nok	nok	ADV	_	_	2	advmod	_	name=O
+4	om	om	ADP	_	_	6	case	_	name=O
+5	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(kknn~20050810_7284__T244--1
+6	syn	syn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	kva	kva	DET	_	PronType=Int	6	acl:relcl	_	name=O
+9	fysikk	fysikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(kknn~20050810_7284__T245--1)
+10	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+11	vere	vere	AUX	_	VerbForm=Inf	8	cop	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T244)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008693
+# text = Ifylgje Nobelkomiteen var eksperimentet den einaste måten ein kunne skaffe til vege ny kunnskap.
+1	Ifylgje	ifylgje	ADP	_	_	2	case	_	name=O
+2	Nobelkomiteen	Nobelkomiteen	PROPN	_	_	7	obl	_	name=B-ORG|Entity=(kknn~20050810_7284__4985--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+4	eksperimentet	eksperiment	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=(kknn~20050810_7284__T247--1)
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(kknn~20050810_7284__T248--1
+6	einaste	einaste	NUM	_	Definite=Def|NumType=Card	7	nummod	_	name=O
+7	måten	måte	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O
+8	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	10	nsubj	_	name=O|Entity=(kknn~20050810_7284__T249--1)
+9	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+10	skaffe	skaffe	VERB	_	VerbForm=Inf	7	acl:relcl	_	name=O
+11	til	til	ADP	_	_	12	case	_	name=O
+12	vege	vege	NOUN	_	_	10	obl	_	name=O|Entity=(kknn~20050810_7284__T250--1)
+13	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(kknn~20050810_7284__T251--1
+14	kunnskap	kunnskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T251)kknn~20050810_7284__T248)
+15	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 008694
+# text = Ein fysikar som berre dreiv med teori var ikkje ein fysikar; teoretisk fysikk var suspekt.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(kknn~20050810_7284__T252--1
+2	fysikar	fysikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	name=O
+3	som	som	PRON	_	PronType=Rel	5	nsubj	_	name=O
+4	berre	berre	ADV	_	_	5	advmod	_	name=O
+5	dreiv	drive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	teori	teori	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(kknn~20050810_7284__T253--1)kknn~20050810_7284__T252)
+8	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	name=O
+9	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	name=O
+10	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(kknn~20050810_7284__T254--1
+11	fysikar	fysikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T254)
+12	;	$;	PUNCT	_	_	16	punct	_	name=O
+13	teoretisk	teoretisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(kknn~20050810_7284__T255--1
+14	fysikk	fysikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nsubj	_	name=O|Entity=kknn~20050810_7284__T255)
+15	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	name=O
+16	suspekt	suspekt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 008695
+# text = Men det var òg fordommar mot Einstein og dei kulturelle tolkingar av relativitetsteorien.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	òg	òg	ADV	_	_	3	advmod	_	name=O
+5	fordommar	fordom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(kknn~20050810_7284__T256--1
+6	mot	mot	ADP	_	_	7	case	_	name=O
+7	Einstein	Einstein	PROPN	_	_	5	nmod	_	name=B-PER|Entity=(kknn~20050810_7284__T257--1(kknn~20050810_7284__6412830--1)
+8	og	og	CCONJ	_	_	11	cc	_	name=O
+9	dei	dei	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(kknn~20050810_7284__T259--1
+10	kulturelle	kulturell	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	tolkingar	tolking	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	conj	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	relativitetsteorien	relativitetsteori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__142627--1)kknn~20050810_7284__T259)kknn~20050810_7284__T257)kknn~20050810_7284__T256)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008696
+# text = Vitskapsakademiets medlemmer den gongen, og særleg Nobelkomiteen, var politisk og kulturelt konservative, seier Friedman.
+1	Vitskapsakademiets	vitskapsakademi	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(kknn~20050810_7284__T262--1(kknn~20050810_7284__T263--1(kknn~20050810_7284__T261--1)
+2	medlemmer	medlem	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	name=O
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(kknn~20050810_7284__T264--1
+4	gongen	gong	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T264)
+5	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=kknn~20050810_7284__T263)
+6	og	og	CCONJ	_	_	8	cc	_	name=O
+7	særleg	særleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O|Entity=(kknn~20050810_7284__4985--1
+8	Nobelkomiteen	Nobelkomiteen	PROPN	_	_	2	conj	_	SpaceAfter=No|name=B-ORG|Entity=kknn~20050810_7284__4985)
+9	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=kknn~20050810_7284__T262)
+10	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	name=O
+11	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	xcomp	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	kulturelt	kulturell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	name=O
+14	konservative	konservativ	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	parataxis	_	name=O
+17	Friedman	Friedman	PROPN	_	_	16	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050810_7284__233589--1)
+18	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 008697
+# text = Tilfeldig
+1	Tilfeldig	tilfeldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+
+# sent_id = 008698
+# text = Om ikkje alt i verda er relativt, er det i alle fall mykje som er tilfeldig.
+1	Om	om	SCONJ	_	_	6	mark	_	name=O
+2	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	name=O
+3	alt	all	DET	_	Gender=Neut|Number=Sing|PronType=Tot	6	nsubj	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	verda	verd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	name=O|Entity=(kknn~20050810_7284__5763--1)
+6	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	name=O
+7	relativt	relativ	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	6	punct	_	name=O
+9	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+11	i	i	ADP	_	_	13	case	_	name=O
+12	alle	all	DET	_	Number=Sing|PronType=Tot	13	det	_	name=O|Entity=(kknn~20050810_7284__T268--1
+13	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obl	_	name=O|Entity=kknn~20050810_7284__T268)
+14	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	nsubj	_	name=O
+15	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+16	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+17	tilfeldig	tilfeldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	acl:relcl	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 008699
+# text = Til dømes det at NRK-legenda Harald Tusberg skulle smøre seg bort då han gjekk på skitur på Hardangervidda i 1980, at han tilfeldigvis skulle få smørehjelp frå den unge amerikanske vitskapshistorikaren Robert Marc Friedman, og at samtalen tilfeldigvis skulle pense inn på Vilhelm Bjerknes og moglegheita for å lage eit fjernsynsdrama om den norske meteorologen.
+1	Til	til	ADP	_	_	2	case	_	name=O|Entity=(kknn~20050810_7284__T270--1
+2	dømes	døme	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050810_7284__T269--1)
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	NRK-legenda	NRK-legende	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	name=B-DRV|Entity=(kknn~20050810_7284__41207--1
+6	Harald	Harald	NOUN	_	Gender=Masc	9	nsubj	_	name=B-PER
+7	Tusberg	Tusberg	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=kknn~20050810_7284__41207)
+8	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+9	smøre	smøre	VERB	_	VerbForm=Inf	3	acl	_	name=O
+10	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	9	obj	_	name=O|Entity=(kknn~20050810_7284__41207--1)
+11	bort	bort	ADP	_	_	9	compound:prt	_	name=O
+12	då	då	SCONJ	_	_	14	mark	_	name=O
+13	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(kknn~20050810_7284__41207--1)
+14	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	name=O
+15	på	på	ADP	_	_	16	case	_	name=O
+16	skitur	skitur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(kknn~20050810_7284__T273--1)
+17	på	på	ADP	_	_	18	case	_	name=O
+18	Hardangervidda	Hardangervidda	NOUN	_	Gender=Fem	14	obl	_	name=B-LOC|Entity=(kknn~20050810_7284__T274--1)
+19	i	i	ADP	_	_	20	case	_	name=O
+20	1980	1980	NUM	_	Number=Plur|NumType=Card	14	obl	_	SpaceAfter=No|name=O
+21	,	$,	PUNCT	_	_	26	punct	_	name=O
+22	at	at	SCONJ	_	_	26	mark	_	name=O
+23	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	name=O|Entity=(kknn~20050810_7284__41207--1)
+24	tilfeldigvis	tilfeldigvis	ADV	_	_	26	advmod	_	name=O
+25	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	name=O
+26	få	få	VERB	_	VerbForm=Inf	9	conj	_	name=O
+27	smørehjelp	smørehjelp	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	26	obj	_	name=O|Entity=(kknn~20050810_7284__T276--1)
+28	frå	frå	ADP	_	_	33	case	_	name=O
+29	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	32	det	_	name=O|Entity=(kknn~20050810_7284__233589--1(kknn~20050810_7284__T277--1
+30	unge	ung	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	32	amod	_	name=O
+31	amerikanske	amerikansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	32	amod	_	name=O
+32	vitskapshistorikaren	vitskapshistorikar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	name=O|Entity=kknn~20050810_7284__T277)
+33	Robert	Robert	NOUN	_	Gender=Masc	26	obl	_	name=B-PER
+34	Marc	Marc	PROPN	_	_	33	flat:name	_	name=I-PER
+35	Friedman	Friedman	PROPN	_	_	33	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kknn~20050810_7284__233589)
+36	,	$,	PUNCT	_	_	42	punct	_	name=O
+37	og	og	CCONJ	_	_	42	cc	_	name=O
+38	at	at	SCONJ	_	_	42	mark	_	name=O
+39	samtalen	samtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	42	nsubj	_	name=O|Entity=(kknn~20050810_7284__T279--1)
+40	tilfeldigvis	tilfeldigvis	ADV	_	_	42	advmod	_	name=O
+41	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	42	aux	_	name=O
+42	pense	pense	VERB	_	VerbForm=Inf	9	conj	_	name=O
+43	inn	inn	ADP	_	_	45	case	_	name=O
+44	på	på	ADP	_	_	45	case	_	name=O
+45	Vilhelm	Vilhelm	PROPN	_	_	42	obl	_	name=B-PER|Entity=(kknn~20050810_7284__T280--1(kknn~20050810_7284__3854--1
+46	Bjerknes	Bjerknes	PROPN	_	_	45	flat:name	_	name=I-PER|Entity=kknn~20050810_7284__3854)
+47	og	og	CCONJ	_	_	48	cc	_	name=O
+48	moglegheita	moglegheit	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	45	conj	_	name=O|Entity=(kknn~20050810_7284__T282--1
+49	for	for	SCONJ	_	_	51	mark	_	name=O
+50	å	å	PART	_	_	51	mark	_	name=O
+51	lage	lage	VERB	_	VerbForm=Inf	48	acl	_	name=O
+52	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	53	det	_	name=O|Entity=(kknn~20050810_7284__T283--1
+53	fjernsynsdrama	fjernsynsdrama	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	51	obj	_	name=O
+54	om	om	ADP	_	_	57	case	_	name=O
+55	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	57	det	_	name=O|Entity=(kknn~20050810_7284__3854--1
+56	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	57	amod	_	name=O
+57	meteorologen	meteorolog	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	53	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__3854)kknn~20050810_7284__T283)kknn~20050810_7284__T282)kknn~20050810_7284__T280)kknn~20050810_7284__T270)
+58	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008700
+# text = Resultatet vart at NRK i jula 1982 sende ein film om Bjerknes, med manus frå Friedman.
+1	Resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Bridge=kknn~20050810_7284__T279<kknn~20050810_7284__T285:default|Entity=(kknn~20050810_7284__T285--1)
+2	vart	verte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	8	mark	_	name=O
+4	NRK	NRK	PROPN	_	_	8	nsubj	_	name=B-ORG|Entity=(kknn~20050810_7284__T286--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	jula	jul	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obl	_	name=O|Entity=(kknn~20050810_7284__T287--1
+7	1982	1982	NUM	_	Number=Plur|NumType=Card	6	nmod	_	name=O|Entity=kknn~20050810_7284__T287)
+8	sende	sende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	xcomp	_	name=O
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kknn~20050810_7284__T288--1
+10	film	film	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	name=O
+11	om	om	ADP	_	_	12	case	_	name=O
+12	Bjerknes	Bjerknes	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050810_7284__3854--1)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	med	med	ADP	_	_	15	case	_	name=O
+15	manus	manus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	name=O|Entity=(kknn~20050810_7284__T290--1
+16	frå	frå	ADP	_	_	17	case	_	name=O
+17	Friedman	Friedman	PROPN	_	_	15	nmod	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050810_7284__233589--1)kknn~20050810_7284__T290)kknn~20050810_7284__T288)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008701
+# text = Seinare har Friedman òg skrive eit teaterstykke om fysikaren Lisa Meitner som er sett opp på Göteborgs Stadsteater og Radioteatern i Sverige, før han i kveld redebuterer endå ein gong med teaterstykket om Einstein.
+1	Seinare	sein	ADJ	_	Degree=Cmp	5	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	Friedman	Friedman	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__233589--1)
+4	òg	òg	ADV	_	_	5	advmod	_	name=O
+5	skrive	skrive	VERB	_	VerbForm=Part	0	root	_	name=O
+6	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kknn~20050810_7284__T293--1
+7	teaterstykke	teaterstykke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O
+8	om	om	ADP	_	_	10	case	_	name=O
+9	fysikaren	fysikar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(kknn~20050810_7284__T294--1
+10	Lisa	Lisa	NOUN	_	Gender=Fem	7	nmod	_	name=B-PER
+11	Meitner	Meitner	PROPN	_	_	10	flat:name	_	name=I-PER|Entity=kknn~20050810_7284__T294)
+12	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	sett	setje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	7	acl:relcl	_	name=O
+15	opp	opp	ADP	_	_	14	compound:prt	_	name=O
+16	på	på	ADP	_	_	17	case	_	name=O
+17	Göteborgs	Göteborgs	PROPN	_	_	14	obl	_	name=B-ORG|Entity=(kknn~20050810_7284__T295--1(kknn~20050810_7284__T296--1
+18	Stadsteater	Stadsteater	PROPN	_	_	17	flat:name	_	name=I-ORG|Entity=kknn~20050810_7284__T296)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	Radioteatern	Radioteatern	PROPN	_	_	17	conj	_	name=B-ORG|Entity=(kknn~20050810_7284__T297--1
+21	i	i	ADP	_	_	22	case	_	name=I-ORG
+22	Sverige	Sverige	PROPN	_	_	20	nmod	_	SpaceAfter=No|name=I-ORG|Entity=(kknn~20050810_7284__T298--1)kknn~20050810_7284__T297)kknn~20050810_7284__T295)kknn~20050810_7284__T293)
+23	,	$,	PUNCT	_	_	28	punct	_	name=O
+24	før	før	SCONJ	_	_	28	mark	_	name=O
+25	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	name=O|Entity=(kknn~20050810_7284__233589--1)
+26	i	i	ADP	_	_	27	case	_	name=O
+27	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	obl	_	name=O|Entity=(kknn~20050810_7284__T300--1)
+28	redebuterer	redebutere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+29	endå	endå	ADV	_	_	30	advmod	_	name=O|Entity=(kknn~20050810_7284__T301--1
+30	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	31	det	_	name=O
+31	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	obl	_	name=O|Entity=kknn~20050810_7284__T301)
+32	med	med	ADP	_	_	33	case	_	name=O
+33	teaterstykket	teaterstykke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	obl	_	name=O|Entity=(kknn~20050810_7284__61273--1
+34	om	om	ADP	_	_	35	case	_	name=O
+35	Einstein	Einstein	PROPN	_	_	33	nmod	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050810_7284__6412830--1)kknn~20050810_7284__61273)
+36	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008702
+# text = Oppsetjinga i kveld er ei eingongsoppsetjing for fysikarkongressen, men Frode Rasmussen, som speler Einstein i oppsetjinga, er så begeistra for stykket at han ynskjer å setje det opp på sitt eige teater i Bergen, Altona teater.
+1	Oppsetjinga	oppsetjing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20050810_7284__2614--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(kknn~20050810_7284__T305--1)kknn~20050810_7284__2614)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kknn~20050810_7284__T306--1
+6	eingongsoppsetjing	eingongsoppsetjing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O
+7	for	for	ADP	_	_	8	case	_	name=O
+8	fysikarkongressen	fysikarkongress	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T307--1)kknn~20050810_7284__T306)
+9	,	$,	PUNCT	_	_	22	punct	_	name=O
+10	men	men	CCONJ	_	_	22	cc	_	name=O
+11	Frode	Frode	NOUN	_	Gender=Masc	22	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__41252--1
+12	Rasmussen	Rasmussen	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PER
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+15	speler	spele	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	name=O
+16	Einstein	Einstein	PROPN	_	_	15	obj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+17	i	i	ADP	_	_	18	case	_	name=O
+18	oppsetjinga	oppsetjing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__2614--1)kknn~20050810_7284__41252)
+19	,	$,	PUNCT	_	_	15	punct	_	name=O
+20	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+21	så	så	ADV	_	_	22	advmod	_	name=O
+22	begeistra	begeistre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	6	conj	_	name=O
+23	for	for	ADP	_	_	24	case	_	name=O
+24	stykket	stykke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	obl	_	name=O|Entity=(kknn~20050810_7284__61273--1)
+25	at	at	SCONJ	_	_	27	mark	_	name=O
+26	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	name=O|Entity=(kknn~20050810_7284__41252--1)
+27	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	advcl	_	name=O
+28	å	å	PART	_	_	29	mark	_	name=O
+29	setje	setje	VERB	_	VerbForm=Inf	27	xcomp	_	name=O
+30	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	obj	_	name=O|Entity=(kknn~20050810_7284__61273--1)
+31	opp	opp	ADP	_	_	29	compound:prt	_	name=O
+32	på	på	ADP	_	_	39	case	_	name=O
+33	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	35	nmod	_	name=O|Entity=(kknn~20050810_7284__T317--1(kknn~20050810_7284__T315--1(kknn~20050810_7284__41252--1
+34	eige	eigen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	35	det	_	name=O|Entity=kknn~20050810_7284__41252)
+35	teater	teater	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	39	nmod	_	name=O
+36	i	i	ADP	_	_	37	case	_	name=O
+37	Bergen	Bergen	PROPN	_	_	35	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20050810_7284__4383--1)
+38	,	$,	PUNCT	_	_	37	punct	_	name=O|Entity=kknn~20050810_7284__T315)
+39	Altona	Altona	PROPN	_	_	29	obl	_	name=B-LOC
+40	teater	teater	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	39	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=kknn~20050810_7284__T317)
+41	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008703
+# text = Og Rasmussen har allereie vore i kontakt med Riksteatret for å lufte ideen om ein nasjonal turné.
+1	Og	og	CCONJ	_	_	5	cc	_	name=O
+2	Rasmussen	Rasmussen	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__41252--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	allereie	allereie	ADV	_	_	5	advmod	_	name=O
+5	vore	vere	VERB	_	VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(kknn~20050810_7284__T319--1
+8	med	med	ADP	_	_	9	case	_	name=O
+9	Riksteatret	Riksteatret	NOUN	_	Gender=Neut	7	nmod	_	name=B-ORG|Entity=(kknn~20050810_7284__T320--1)kknn~20050810_7284__T319)
+10	for	for	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	lufte	lufte	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+13	ideen	idé	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=(kknn~20050810_7284__T321--1
+14	om	om	ADP	_	_	17	case	_	name=O
+15	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(kknn~20050810_7284__T322--1
+16	nasjonal	nasjonal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	turné	turné	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T322)kknn~20050810_7284__T321)
+18	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 008704
+# text = Vakker fysikk
+1	Vakker	vakker	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(kknn~20050810_7284__T323--1
+2	fysikk	fysikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=kknn~20050810_7284__T323)
+
+# sent_id = 008705
+# text = I Friedmans stykke kommenterer Einstein den etterlengta stadfestinga av relativitetsteorien ganske sjølvsikkert; «teorien var bare altfor vakker til ikke å være sann».
+1	I	i	ADP	_	_	3	case	_	name=O
+2	Friedmans	Friedman	PROPN	_	Case=Gen	3	nmod	_	name=B-PER|Entity=(kknn~20050810_7284__61273--1(kknn~20050810_7284__233589--1)
+3	stykke	stykke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=kknn~20050810_7284__61273)
+4	kommenterer	kommentere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	Einstein	Einstein	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+6	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(kknn~20050810_7284__T327[1/2]--1
+7	etterlengta	etterlengta	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	stadfestinga	stadfesting	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obj	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	relativitetsteorien	relativitetsteori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(kknn~20050810_7284__142627--1)kknn~20050810_7284__T327[1/2])
+11	ganske	ganske	ADV	_	_	12	advmod	_	name=O
+12	sjølvsikkert	sjølvsikker	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	SpaceAfter=No|name=O
+13	;	$;	PUNCT	_	_	12	punct	_	name=O|Entity=(kknn~20050810_7284__T327[2/2]--1
+14	«	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+15	teorien	teorien	X	_	_	8	appos	_	name=O|Entity=(kknn~20050810_7284__142627--1)
+16	var	var	X	_	_	15	flat:foreign	_	name=O
+17	bare	bare	X	_	_	15	flat:foreign	_	name=O
+18	altfor	altfor	X	_	_	15	flat:foreign	_	name=O
+19	vakker	vakker	X	_	_	15	flat:foreign	_	name=O
+20	til	til	X	_	_	15	flat:foreign	_	name=O
+21	ikke	ikke	X	_	_	15	flat:foreign	_	name=O
+22	å	å	X	_	_	15	flat:foreign	_	name=O
+23	være	være	X	_	_	15	flat:foreign	_	name=O
+24	sann	sann	X	_	_	15	flat:foreign	_	SpaceAfter=No|name=O
+25	»	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T327[2/2])
+26	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008706
+# text = - Hadde han eit slikt estetisk forhold til fysikken?
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kknn~20050810_7284__T330--1
+5	slikt	slik	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O
+6	estetisk	estetisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	fysikken	fysikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T331--1)kknn~20050810_7284__T330)
+10	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008707
+# text = - Ja, absolutt.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Ja	ja	INTJ	_	_	0	root	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	absolutt	absolutt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008708
+# text = Stundom har folk sagt at Einstein ikkje meinte det var naudsynt med eksperiment, men det er ikkje sant.
+1	Stundom	stundom	ADV	_	_	4	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=(kknn~20050810_7284__T332--1)
+4	sagt	seie	VERB	_	VerbForm=Part	0	root	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	Einstein	Einstein	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+7	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	name=O
+8	meinte	meine	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+10	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	name=O
+11	naudsynt	naudsynt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	xcomp	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	eksperiment	eksperiment	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nsubj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T334--1)
+14	,	$,	PUNCT	_	_	19	punct	_	name=O
+15	men	men	CCONJ	_	_	19	cc	_	name=O
+16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(kknn~20050810_7284__T335--1)
+17	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+18	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	name=O
+19	sant	sann	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No|name=O
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008709
+# text = Han meinte han måtte ha stadfesting av teoriane, men han trengte ikkje å vente.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+2	meinte	meine	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+4	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+5	ha	ha	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+6	stadfesting	stadfesting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	name=O|Entity=(kknn~20050810_7284__T338--1
+7	av	av	ADP	_	_	8	case	_	name=O
+8	teoriane	teori	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T339--1)kknn~20050810_7284__T338)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	men	men	CCONJ	_	_	12	cc	_	name=O
+11	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+12	trengte	trengje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+13	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	vente	vente	VERB	_	VerbForm=Inf	12	xcomp	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008710
+# text = Han så at alt i relativitetsteorien passa i hop og han såg at det var vakkert.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+2	så	sjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(kknn~20050810_7284__T342--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	relativitetsteorien	relativitetsteori	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(kknn~20050810_7284__142627--1)kknn~20050810_7284__T342)
+7	passa	passe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	hop	hop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(kknn~20050810_7284__T344--1)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+12	såg	sjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+13	at	at	SCONJ	_	_	16	mark	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(kknn~20050810_7284__T346--1)
+15	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	name=O
+16	vakkert	vakker	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	ccomp	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 008711
+# text = For fysikk var ikkje eit nyttefag eller eit morofag for Einstein, kan Friedheim fortelje.
+1	For	for	CCONJ	_	_	6	cc	_	name=O
+2	fysikk	fysikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(kknn~20050810_7284__T347--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kknn~20050810_7284__T348--1(kknn~20050810_7284__T349--1
+6	nyttefag	nyttefag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=kknn~20050810_7284__T349)
+7	eller	eller	CCONJ	_	_	9	cc	_	name=O
+8	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kknn~20050810_7284__T350--1
+9	morofag	morofag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	name=O|Entity=kknn~20050810_7284__T350)kknn~20050810_7284__T348)
+10	for	for	ADP	_	_	11	case	_	name=O
+11	Einstein	Einstein	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+14	Friedheim	Friedheim	PROPN	_	_	15	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__233589--1)
+15	fortelje	fortelje	VERB	_	VerbForm=Inf	6	parataxis	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008712
+# text = - For Einstein var ikkje fysikk noko artig.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	For	for	ADP	_	_	3	case	_	name=O
+3	Einstein	Einstein	PROPN	_	_	8	obl	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	name=O
+6	fysikk	fysikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(kknn~20050810_7284__2709--1)
+7	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	8	det	_	name=O
+8	artig	artig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 008713
+# text = Det var snarare ei moralsk oppgåve for han, han dreiv med fysikk i klassisk protestantisk ånd, som hardt arbeid utan tanke for belønning eller personleg berømming.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(kknn~20050810_7284__2709--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+3	snarare	snar	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kknn~20050810_7284__T356--1
+5	moralsk	moralsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	oppgåve	oppgåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=kknn~20050810_7284__T356)
+7	for	for	ADP	_	_	8	case	_	name=O
+8	han	han	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__6412830--1)
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+11	dreiv	drive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	fysikk	fysikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(kknn~20050810_7284__T359--1)
+14	i	i	ADP	_	_	17	case	_	name=O
+15	klassisk	klassisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	advmod	_	name=O|Entity=(kknn~20050810_7284__T360--1
+16	protestantisk	protestantisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	ånd	ånd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T360)
+18	,	$,	PUNCT	_	_	21	punct	_	name=O
+19	som	som	SCONJ	_	_	21	mark	_	name=O
+20	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	name=O|Entity=(kknn~20050810_7284__T361--1
+21	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	xcomp	_	name=O
+22	utan	utan	ADP	_	_	23	case	_	name=O
+23	tanke	tanke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=(kknn~20050810_7284__T362--1
+24	for	for	ADP	_	_	25	case	_	name=O
+25	belønning	belønning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	23	nmod	_	name=O|Entity=(kknn~20050810_7284__T363--1(kknn~20050810_7284__T364--1)
+26	eller	eller	CCONJ	_	_	28	cc	_	name=O
+27	personleg	personleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	28	amod	_	name=O|Entity=(kknn~20050810_7284__T365--1
+28	berømming	berømming	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T365)kknn~20050810_7284__T363)kknn~20050810_7284__T362)kknn~20050810_7284__T361)
+29	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 008714
+# text = Einstein ville kome i berøring med den objektive røynda, gjennom musikk eller fysikk ville han kome inn i ein sfære der det ikkje fanst menneskelege draumar eller vilje, inn til den reine objektiviteten.
+1	Einstein	Einstein	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+2	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	kome	kome	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	berøring	berøring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(kknn~20050810_7284__T367--1
+6	med	med	ADP	_	_	9	case	_	name=O
+7	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(kknn~20050810_7284__T368--1
+8	objektive	objektiv	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	røynda	røynd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T368)kknn~20050810_7284__T367)
+10	,	$,	PUNCT	_	_	17	punct	_	name=O
+11	gjennom	gjennom	ADP	_	_	12	case	_	name=O
+12	musikk	musikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	name=O|Entity=(kknn~20050810_7284__T369--1(kknn~20050810_7284__T370--1)
+13	eller	eller	CCONJ	_	_	14	cc	_	name=O
+14	fysikk	fysikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	name=O|Entity=(kknn~20050810_7284__T371--1)kknn~20050810_7284__T369)
+15	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	name=O
+16	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+17	kome	kome	VERB	_	VerbForm=Inf	3	conj	_	name=O
+18	inn	inn	ADP	_	_	21	case	_	name=O
+19	i	i	ADP	_	_	21	case	_	name=O
+20	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(kknn~20050810_7284__T373--1
+21	sfære	sfære	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	name=O
+22	der	der	SCONJ	_	_	25	mark	_	name=O
+23	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	name=O
+24	ikkje	ikkje	PART	_	Polarity=Neg	25	advmod	_	name=O
+25	fanst	finnast	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl	_	name=O
+26	menneskelege	menneskeleg	ADJ	_	Degree=Pos|Number=Plur	27	amod	_	name=O|Entity=(kknn~20050810_7284__T374--1(kknn~20050810_7284__T375--1
+27	draumar	draum	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	25	nsubj	_	name=O|Entity=kknn~20050810_7284__T375)
+28	eller	eller	CCONJ	_	_	29	cc	_	name=O
+29	vilje	vilje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No|name=O|Entity=(kknn~20050810_7284__T376--1)kknn~20050810_7284__T374)kknn~20050810_7284__T373)
+30	,	$,	PUNCT	_	_	35	punct	_	name=O
+31	inn	inn	ADP	_	_	35	case	_	name=O
+32	til	til	ADP	_	_	35	case	_	name=O
+33	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	35	det	_	name=O|Entity=(kknn~20050810_7284__T377--1
+34	reine	rein	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	35	amod	_	name=O
+35	objektiviteten	objektivitet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T377)
+36	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 008715
+# text = Einstein var veldig inspirert av filosofen Schopenhauer.
+1	Einstein	Einstein	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	inspirert	inspirere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	av	av	ADP	_	_	7	case	_	name=O
+6	filosofen	filosof	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(kknn~20050810_7284__T379--1
+7	Schopenhauer	Schopenhauer	PROPN	_	_	4	obl	_	SpaceAfter=No|name=B-PER|Entity=kknn~20050810_7284__T379)
+8	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 008716
+# text = Og all mediemerksemda om sin eigen person kunne han slett ikkje forstå.
+1	Og	og	CCONJ	_	_	12	cc	_	name=O
+2	all	all	DET	_	Gender=Fem|Number=Sing|PronType=Tot	3	det	_	name=O|Entity=(kknn~20050810_7284__T380--1
+3	mediemerksemda	mediemerksemd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	obj	_	name=O
+4	om	om	ADP	_	_	7	case	_	name=O
+5	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(kknn~20050810_7284__T382--1(kknn~20050810_7284__6412830--1
+6	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	7	det	_	name=O|Entity=kknn~20050810_7284__6412830)
+7	person	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=kknn~20050810_7284__T382)kknn~20050810_7284__T380)
+8	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+9	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(kknn~20050810_7284__6412830--1)
+10	slett	slett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	name=O
+12	forstå	forstå	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 008717
+# text = - Einstein var oppriktig smålåten og kunne ikkje forstå all viraken rundt hans eigen person.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Einstein	Einstein	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(kknn~20050810_7284__6412830--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	oppriktig	oppriktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	smålåten	smålåten	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+8	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	name=O
+9	forstå	forstå	VERB	_	VerbForm=Inf	5	conj	_	name=O
+10	all	all	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	name=O|Entity=(kknn~20050810_7284__T385--1
+11	viraken	virak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	name=O
+12	rundt	rundt	ADP	_	_	15	case	_	name=O
+13	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(kknn~20050810_7284__T387--1(kknn~20050810_7284__6412830--1
+14	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	15	det	_	name=O|Entity=kknn~20050810_7284__6412830)
+15	person	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20050810_7284__T387)kknn~20050810_7284__T385)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+

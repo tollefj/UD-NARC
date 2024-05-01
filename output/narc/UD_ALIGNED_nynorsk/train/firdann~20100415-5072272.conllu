@@ -1,0 +1,174 @@
+# newdoc id = firdann~20100415-5072272
+# global.Entity = eid-etype-head-other
+# sent_id = 006238
+# text = Køyrde lastebil med høg promille
+1	Køyrde	køyre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	lastebil	lastebil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=(firdann~20100415_5072272__T1--1)
+3	med	med	ADP	_	_	5	case	_	name=O
+4	høg	høg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(firdann~20100415_5072272__T2--1
+5	promille	promille	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=firdann~20100415_5072272__T2)
+
+# newpar
+# sent_id = 006239
+# text = Heldt på å kollidere med ein møtande bil.
+1	Heldt	halde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	på	på	SCONJ	_	_	4	mark	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	kollidere	kollidere	VERB	_	VerbForm=Inf	1	advcl	_	name=O
+5	med	med	ADP	_	_	8	case	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20100415_5072272__T3--1
+7	møtande	møte	ADJ	_	VerbForm=Part	8	amod	_	name=O
+8	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5072272__T3)
+9	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 006240
+# text = Ein mann i 50-åra er i Sogn tingrett dømd for å ha køyrt både personbil og lastebil med høg promille.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(firdann~20100415_5072272__8200--1
+2	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	50-åra	50-år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=(firdann~20100415_5072272__T5--1)firdann~20100415_5072272__8200)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Sogn	Sogn	PROPN	_	_	9	obl	_	name=B-ORG|Entity=(firdann~20100415_5072272__369--1
+8	tingrett	tingrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	flat:name	_	name=I-ORG|Entity=firdann~20100415_5072272__369)
+9	dømd	dømme	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+10	for	for	SCONJ	_	_	13	mark	_	name=O
+11	å	å	PART	_	_	13	mark	_	name=O
+12	ha	ha	AUX	_	VerbForm=Inf	13	aux	_	name=O
+13	køyrt	køyre	VERB	_	VerbForm=Part	9	advcl	_	name=O
+14	både	både	CCONJ	_	_	15	cc	_	name=O
+15	personbil	personbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(firdann~20100415_5072272__T7--1(firdann~20100415_5072272__T8--1)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	lastebil	lastebil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	conj	_	name=O|Entity=(firdann~20100415_5072272__T9--1)firdann~20100415_5072272__T7)
+18	med	med	ADP	_	_	20	case	_	name=O
+19	høg	høg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(firdann~20100415_5072272__240--1
+20	promille	promille	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5072272__240)
+21	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 006241
+# text = Køyringa fann stad sommaren 2009, då mannen først køyrde til jobb i personbil før han sette seg inn i ein lastebil og køyrde denne.
+1	Køyringa	køyring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100415_5072272__380--1)
+2	fann	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	stad	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(firdann~20100415_5072272__T12--1)
+4	sommaren	sommar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100415_5072272__T13--1
+5	2009	2009	NUM	_	Number=Plur|NumType=Card	4	nmod	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	10	punct	_	name=O
+7	då	då	SCONJ	_	_	10	mark	_	name=O
+8	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20100415_5072272__8200--1)
+9	først	først	ADV	_	_	10	advmod	_	name=O
+10	køyrde	køyre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl	_	name=O
+11	til	til	ADP	_	_	12	case	_	name=O
+12	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(firdann~20100415_5072272__T15--1)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	personbil	personbil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(firdann~20100415_5072272__T16--1)
+15	før	før	SCONJ	_	_	17	mark	_	name=O
+16	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(firdann~20100415_5072272__8200--1)
+17	sette	setje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	name=O
+18	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	17	obj	_	name=O|Entity=(firdann~20100415_5072272__8200--1)
+19	inn	inn	ADP	_	_	22	case	_	name=O
+20	i	i	ADP	_	_	22	case	_	name=O
+21	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(firdann~20100415_5072272__361--1
+22	lastebil	lastebil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	name=O|Entity=firdann~20100415_5072272__361)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	køyrde	køyre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	conj	_	name=O
+25	denne	denne	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072272__361--1)firdann~20100415_5072272__T13)
+26	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006242
+# text = Blodprøve teke av mannen tre timar etter at mannen sette seg i bilen og køyrde, viste ein alkoholkonsentrasjon i blodet på 2,63 i promille.
+1	Blodprøve	blodprøve	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(firdann~20100415_5072272__T20--1
+2	teke	ta	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	1	amod	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100415_5072272__8200--1)
+5	tre	tre	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(firdann~20100415_5072272__T22--1
+6	timar	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	name=O|Entity=firdann~20100415_5072272__T22)
+7	etter	etter	SCONJ	_	_	10	mark	_	name=O
+8	at	at	SCONJ	_	_	10	mark	_	name=O
+9	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20100415_5072272__8200--1)
+10	sette	setje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	name=O
+11	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	10	obj	_	name=O|Entity=(firdann~20100415_5072272__8200--1)
+12	i	i	ADP	_	_	13	case	_	name=O
+13	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(firdann~20100415_5072272__361--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	køyrde	køyre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=firdann~20100415_5072272__T20)
+17	viste	vise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+18	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(firdann~20100415_5072272__T25--1
+19	alkoholkonsentrasjon	alkoholkonsentrasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	blodet	blod	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	name=O|Bridge=firdann~20100415_5072272__8200<firdann~20100415_5072272__T26:default|Entity=(firdann~20100415_5072272__T26--1)
+22	på	på	ADP	_	_	23	case	_	name=O
+23	2,63	2,63	NUM	_	Number=Plur|NumType=Card	19	nmod	_	name=O
+24	i	i	ADP	_	_	25	case	_	name=O
+25	promille	promille	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5072272__T27--1)firdann~20100415_5072272__T25)
+26	.	$.	PUNCT	_	_	17	punct	_	name=O
+
+# sent_id = 006243
+# text = Retten legg til grunn at promillen var over 2,8 då køyreturen starta.
+1	Retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100415_5072272__369--1)
+2	legg	leggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100415_5072272__T29--1)
+5	at	at	SCONJ	_	_	9	mark	_	name=O
+6	promillen	promille	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=(firdann~20100415_5072272__240--1)
+7	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+8	over	over	SCONJ	_	_	9	mark	_	name=O
+9	2,8	2,8	NUM	_	Number=Plur|NumType=Card	2	ccomp	_	name=O
+10	då	då	SCONJ	_	_	12	mark	_	name=O
+11	køyreturen	køyretur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(firdann~20100415_5072272__380--1)
+12	starta	starte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006244
+# text = Den sikta køyrde ei lengre strekning med høg promille.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(firdann~20100415_5072272__8200--1
+2	sikta	sikte	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	3	nsubj	_	name=O|Entity=firdann~20100415_5072272__8200)
+3	køyrde	køyre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(firdann~20100415_5072272__T33--1
+5	lengre	lang	ADJ	_	Degree=Cmp	6	amod	_	name=O
+6	strekning	strekning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O
+7	med	med	ADP	_	_	9	case	_	name=O
+8	høg	høg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(firdann~20100415_5072272__T34--1
+9	promille	promille	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5072272__T34)firdann~20100415_5072272__T33)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006245
+# text = Retten legg i skjerpande retning vekt på at køyringa fann stad med ein stor og tung bil, og at det var reine tilfeldigheiter som gjorde at det ikkje oppstod ein kollisjon med møtande bil.
+1	Retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100415_5072272__369--1)
+2	legg	leggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	skjerpande	skjerpe	ADJ	_	VerbForm=Part	5	amod	_	name=O|Entity=(firdann~20100415_5072272__T36--1
+5	retning	retning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=firdann~20100415_5072272__T36)
+6	vekt	vekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(firdann~20100415_5072272__T37--1)
+7	på	på	SCONJ	_	_	10	mark	_	name=O
+8	at	at	SCONJ	_	_	10	mark	_	name=O
+9	køyringa	køyring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20100415_5072272__380--1)
+10	fann	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	name=O
+11	stad	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=(firdann~20100415_5072272__T39--1)
+12	med	med	ADP	_	_	17	case	_	name=O
+13	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(firdann~20100415_5072272__T40--1
+14	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	tung	tung	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	conj	_	name=O
+17	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5072272__T40)
+18	,	$,	PUNCT	_	_	24	punct	_	name=O
+19	og	og	CCONJ	_	_	24	cc	_	name=O
+20	at	at	SCONJ	_	_	24	mark	_	name=O
+21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	name=O
+22	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	cop	_	name=O
+23	reine	rein	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	name=O|Entity=(firdann~20100415_5072272__T41--1
+24	tilfeldigheiter	tilfeldigheit	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	conj	_	name=O
+25	som	som	PRON	_	PronType=Rel	26	nsubj	_	name=O
+26	gjorde	gjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	acl:cleft	_	name=O
+27	at	at	SCONJ	_	_	30	mark	_	name=O
+28	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	expl	_	name=O
+29	ikkje	ikkje	PART	_	Polarity=Neg	30	advmod	_	name=O
+30	oppstod	oppstå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	xcomp	_	name=O
+31	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	32	det	_	name=O|Entity=(firdann~20100415_5072272__T42--1
+32	kollisjon	kollisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	nsubj	_	name=O
+33	med	med	ADP	_	_	35	case	_	name=O
+34	møtande	møte	ADJ	_	VerbForm=Part	35	amod	_	name=O|Entity=(firdann~20100415_5072272__T43--1
+35	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5072272__T43)firdann~20100415_5072272__T42)firdann~20100415_5072272__T41)
+36	.	$.	PUNCT	_	_	2	punct	_	name=O
+

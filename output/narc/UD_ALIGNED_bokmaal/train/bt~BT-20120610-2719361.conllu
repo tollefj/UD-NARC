@@ -1,0 +1,862 @@
+# newdoc id = bt~BT-20120610-2719361
+# global.Entity = eid-etype-head-other
+# sent_id = 006398
+# text = Pater Arnfinn Haram er død
+1	Pater	pater	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1
+2	Arnfinn	Arnfinn	PROPN	_	Gender=Masc	5	nsubj	_	name=B-PER
+3	Haram	Haram	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=bt~bt_20120610_2719361__414141)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	død	død	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+
+# sent_id = 006399
+# text = -Nådde det personlige plan
+1	-	$-	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+2	Nådde	nå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(bt~bt_20120610_2719361__T2--1
+4	personlige	personlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	plan	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=bt~bt_20120610_2719361__T2)
+
+# sent_id = 006400
+# text = Prost for Bergen vest
+1	Prost	prost	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(bt~bt_20120610_2719361__T3--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	Bergen	Bergen	PROPN	_	_	1	nmod	_	name=B-LOC|Entity=(bt~bt_20120610_2719361__268--1
+4	vest	vest	ADP	_	_	3	flat:name	_	name=I-LOC|Entity=bt~bt_20120610_2719361__268)bt~bt_20120610_2719361__T3)
+
+# sent_id = 006401
+# text = Usminket og ærlig
+1	Usminket	usminket	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	ærlig	ærlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	1	conj	_	name=O
+
+# newpar
+# sent_id = 006402
+# text = Sender sin siste hilsen
+1	Sender	sende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T6--1(bt~bt_20120610_2719361__T5--1)
+3	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	hilsen	hilsen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=bt~bt_20120610_2719361__T6)
+
+# newpar
+# sent_id = 006403
+# text = Haram døde av et hjerteinfarkt under en sykkeltur i Nordmarka i Oslo søndag.
+1	Haram	Haram	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(bt~bt_20120610_2719361__414141--1)
+2	døde	dø	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	av	av	ADP	_	_	5	case	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(bt~bt_20120610_2719361__T8--1
+5	hjerteinfarkt	hjerteinfarkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=bt~bt_20120610_2719361__T8)
+6	under	under	ADP	_	_	8	case	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(bt~bt_20120610_2719361__T9--1
+8	sykkeltur	sykkeltur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Nordmarka	Nordmarka	PROPN	_	Gender=Fem	8	nmod	_	name=B-LOC|Entity=(bt~bt_20120610_2719361__T10--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Oslo	Oslo	PROPN	_	_	10	nmod	_	name=B-GPE_LOC|Entity=(bt~bt_20120610_2719361__4277--1)bt~bt_20120610_2719361__T10)bt~bt_20120610_2719361__T9)
+13	søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T12--1)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 006404
+# text = Siden september 2009 har Haram vært prior for dominikanerne i St. Dominikus kloster i Oslo.
+1	Siden	siden	ADP	_	_	2	case	_	name=O
+2	september	september	NOUN	_	Gender=Masc	7	obl	_	name=O|Entity=(bt~bt_20120610_2719361__T13--1
+3	2009	2009	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=bt~bt_20120610_2719361__T13)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+5	Haram	Haram	PROPN	_	_	7	nsubj	_	name=B-PER|Entity=(bt~bt_20120610_2719361__414141--1)
+6	vært	være	AUX	_	VerbForm=Part	7	cop	_	name=O
+7	prior	prior	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(bt~bt_20120610_2719361__T15--1
+8	for	for	ADP	_	_	9	case	_	name=O
+9	dominikanerne	dominikaner	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__239--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	St.	St.	PROPN	_	_	9	nmod	_	name=B-LOC|Entity=(bt~bt_20120610_2719361__T17--1
+12	Dominikus	Dominikus	PROPN	_	_	11	flat:name	_	name=I-LOC
+13	kloster	kloster	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	flat:name	_	name=I-LOC
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Oslo	Oslo	PROPN	_	_	11	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(bt~bt_20120610_2719361__4277--1)bt~bt_20120610_2719361__T17)bt~bt_20120610_2719361__239)bt~bt_20120610_2719361__T15)
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006405
+# text = - Pater Arnfinns bortgang er et stort tap, både for hans orden og for hele Kirken i Norge, sier biskop Bernt Eidsvig i en artikkel om dødsfallet på Den katolske kirke sin hjemmeside.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Pater	pater	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T20--1(bt~bt_20120610_2719361__414141--1
+3	Arnfinns	Arnfinn	PROPN	_	Case=Gen|Gender=Masc	4	nmod	_	name=B-PER|Entity=bt~bt_20120610_2719361__414141)
+4	bortgang	bortgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=bt~bt_20120610_2719361__T20)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(bt~bt_20120610_2719361__T21--1
+7	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+8	tap	tap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T21)
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	både	både	CCONJ	_	_	13	cc	_	name=O
+11	for	for	ADP	_	_	13	case	_	name=O
+12	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__239--1(bt~bt_20120610_2719361__414141--1)
+13	orden	orden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=bt~bt_20120610_2719361__239)
+14	og	og	CCONJ	_	_	17	cc	_	name=O
+15	for	for	ADP	_	_	17	case	_	name=O
+16	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(bt~bt_20120610_2719361__T24--1
+17	Kirken	Kirken	PROPN	_	_	13	conj	_	name=B-ORG
+18	i	i	ADP	_	_	19	case	_	name=O
+19	Norge	Norge	PROPN	_	_	17	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(bt~bt_20120610_2719361__T25--1)bt~bt_20120610_2719361__T24)
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	name=O
+22	biskop	biskop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__280--1
+23	Bernt	Bernt	PROPN	_	Gender=Masc	21	nsubj	_	name=B-PER
+24	Eidsvig	Eidsvig	PROPN	_	_	23	flat:name	_	name=I-PER|Entity=bt~bt_20120610_2719361__280)
+25	i	i	ADP	_	_	27	case	_	name=O
+26	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	name=O|Entity=(bt~bt_20120610_2719361__T27--1
+27	artikkel	artikkel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	name=O
+28	om	om	ADP	_	_	29	case	_	name=O
+29	dødsfallet	dødsfall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	27	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T28--1
+30	på	på	ADP	_	_	35	case	_	name=O
+31	Den	Den	PROPN	_	_	34	obl	_	name=B-ORG|Entity=(bt~bt_20120610_2719361__T31--1(bt~bt_20120610_2719361__T30--1(bt~bt_20120610_2719361__2224--1
+32	katolske	katolsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	31	flat:name	_	name=I-ORG
+33	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	31	flat:name	_	name=I-ORG|Entity=bt~bt_20120610_2719361__2224)
+34	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	nmod	_	name=O|Entity=bt~bt_20120610_2719361__T30)
+35	hjemmeside	hjemmeside	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T31)bt~bt_20120610_2719361__T28)bt~bt_20120610_2719361__T27)
+36	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 006406
+# text = - Arnfinn var en unik personlighet.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Arnfinn	Arnfinn	PROPN	_	Gender=Masc	6	nsubj	_	name=B-PER|Entity=(bt~bt_20120610_2719361__414141--1)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(bt~bt_20120610_2719361__T33--1
+5	unik	unik	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	personlighet	personlighet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T33)
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006407
+# text = Ingen kunne som ham få folk både i tale og til å lytte.
+1	Ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	5	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__T34--1)
+2	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+3	som	som	ADP	_	_	4	case	_	name=O
+4	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+5	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	name=O|Entity=(bt~bt_20120610_2719361__T36--1)
+7	både	både	CCONJ	_	_	9	cc	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	tale	tale	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(bt~bt_20120610_2719361__T37--1)
+10	og	og	CCONJ	_	_	13	cc	_	name=O
+11	til	til	ADP	_	_	13	case	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	lytte	lytte	VERB	_	VerbForm=Inf	9	conj	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006408
+# text = Han var også en unik sjelesørger og skribent - og nådde folk på det personlige plan og i media.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+3	også	også	ADV	_	_	6	advmod	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(bt~bt_20120610_2719361__T39--1(bt~bt_20120610_2719361__T40--1
+5	unik	unik	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	sjelesørger	sjelesørger	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=bt~bt_20120610_2719361__T40)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	skribent	skribent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=O|Entity=(bt~bt_20120610_2719361__T41--1)bt~bt_20120610_2719361__T39)
+9	-	$-	PUNCT	_	_	11	punct	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	nådde	nå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	name=O
+12	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obj	_	name=O|Entity=(bt~bt_20120610_2719361__T42--1)
+13	på	på	ADP	_	_	16	case	_	name=O
+14	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(bt~bt_20120610_2719361__T43--1
+15	personlige	personlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	plan	plan	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=bt~bt_20120610_2719361__T43)
+17	og	og	CCONJ	_	_	19	cc	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	media	medium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	16	conj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T44--1)
+20	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 006409
+# text = Vi tenker i dag særlig på hans mor, bror, familie og kommunitet, og sørger sammen med dem, fremholder Eidsvig.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__T45--1)
+2	tenker	tenke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(bt~bt_20120610_2719361__T46--1)
+5	særlig	særlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+6	på	på	ADP	_	_	8	case	_	name=O
+7	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__2101--1(bt~bt_20120610_2719361__T49--1(bt~bt_20120610_2719361__414141--1)
+8	mor	mor	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=bt~bt_20120610_2719361__T49)
+10	bror	bror	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T50--1
+11	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=bt~bt_20120610_2719361__T50)
+12	familie	familie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	name=O|Entity=(bt~bt_20120610_2719361__T51--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	kommunitet	kommunitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T52--1)bt~bt_20120610_2719361__2101)
+15	,	$,	PUNCT	_	_	17	punct	_	name=O
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	sørger	sørge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+18	sammen	sammen	ADV	_	_	20	advmod	_	name=O
+19	med	med	ADP	_	_	20	case	_	name=O
+20	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__2101--1)
+21	,	$,	PUNCT	_	_	17	punct	_	name=O
+22	fremholder	fremholde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+23	Eidsvig	Eidsvig	PROPN	_	_	22	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(bt~bt_20120610_2719361__280--1)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006410
+# text = Pater Haram var i sin tid en markert prest i Øygarden og Loddefjord, og ble utnevnt til prost for kirkene i Bergen vest.
+1	Pater	pater	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1
+2	Haram	Haram	PROPN	_	_	9	nsubj	_	name=B-PER|Entity=bt~bt_20120610_2719361__414141)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+4	i	i	ADP	_	_	6	case	_	name=O
+5	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T57--1(bt~bt_20120610_2719361__414141--1)
+6	tid	tid	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=bt~bt_20120610_2719361__T57)
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(bt~bt_20120610_2719361__T58--1
+8	markert	markert	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	prest	prest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Øygarden	Øygarden	PROPN	_	Gender=Masc	9	nmod	_	name=B-LOC|Entity=(bt~bt_20120610_2719361__T59--1(bt~bt_20120610_2719361__T60--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	Loddefjord	Loddefjord	PROPN	_	_	11	conj	_	SpaceAfter=No|name=B-LOC|Entity=(bt~bt_20120610_2719361__2152--1)bt~bt_20120610_2719361__T59)bt~bt_20120610_2719361__T58)
+14	,	$,	PUNCT	_	_	17	punct	_	name=O
+15	og	og	CCONJ	_	_	17	cc	_	name=O
+16	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux:pass	_	name=O
+17	utnevnt	utnevne	VERB	_	VerbForm=Part	9	conj	_	name=O
+18	til	til	ADP	_	_	19	case	_	name=O
+19	prost	prost	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	name=O|Entity=(bt~bt_20120610_2719361__T62--1
+20	for	for	ADP	_	_	21	case	_	name=O
+21	kirkene	kirke	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	19	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T63--1
+22	i	i	ADP	_	_	23	case	_	name=O
+23	Bergen	Bergen	PROPN	_	_	21	nmod	_	name=B-LOC|Entity=(bt~bt_20120610_2719361__268--1
+24	vest	vest	ADP	_	_	23	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=bt~bt_20120610_2719361__268)bt~bt_20120610_2719361__T63)bt~bt_20120610_2719361__T62)
+25	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 006411
+# text = Han fulgte også Børre Knudsen i opprøret mot abortloven og nektet å motta lønn.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+2	fulgte	følge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	Børre	Børre	PROPN	_	Gender=Masc	2	obj	_	name=B-PER|Entity=(bt~bt_20120610_2719361__T66--1
+5	Knudsen	Knudsen	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=bt~bt_20120610_2719361__T66)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	opprøret	opprør	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(bt~bt_20120610_2719361__T67--1
+8	mot	mot	ADP	_	_	9	case	_	name=O
+9	abortloven	abortlov	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T68--1)bt~bt_20120610_2719361__T67)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	nektet	nekte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	motta	motta	VERB	_	VerbForm=Inf	11	xcomp	_	name=O
+14	lønn	lønn	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T69--1)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006412
+# text = - Jeg har en frihet til å være meg selv og kan bruke tiden til å lese og tenke.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(bt~bt_20120610_2719361__T71--1
+5	frihet	frihet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O
+6	til	til	SCONJ	_	_	9	mark	_	name=O
+7	å	å	PART	_	_	9	mark	_	name=O
+8	være	være	AUX	_	VerbForm=Inf	9	cop	_	name=O
+9	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	5	acl	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1
+10	selv	selv	DET	_	PronType=Prs	9	det	_	name=O|Entity=bt~bt_20120610_2719361__414141)bt~bt_20120610_2719361__T71)
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	bruke	bruke	VERB	_	VerbForm=Inf	3	conj	_	name=O
+14	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(bt~bt_20120610_2719361__T73--1)
+15	til	til	SCONJ	_	_	17	mark	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	lese	lese	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	tenke	tenke	VERB	_	VerbForm=Inf	17	conj	_	SpaceAfter=No|name=O
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006413
+# text = Enkelheten hjelper meg til å fokusere på de virkelige verdier.
+1	Enkelheten	enkelhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__T74--1)
+2	hjelper	hjelpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	fokusere	fokusere	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	på	på	ADP	_	_	10	case	_	name=O
+8	de	de	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(bt~bt_20120610_2719361__T76--1
+9	virkelige	virkelig	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O
+10	verdier	verdi	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T76)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006414
+# text = Jeg er kritisk til den norske materialismen.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	kritisk	kritisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+4	til	til	ADP	_	_	7	case	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(bt~bt_20120610_2719361__T78--1
+6	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	materialismen	materialisme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T78)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006415
+# text = Norge som nasjon vralter som en feit 19-åring og trenger en slankekur, fortalte Haram i et intervju med BT høsten 2008.
+1	Norge	Norge	PROPN	_	_	4	nsubj	_	name=B-GPE_ORG|Entity=(bt~bt_20120610_2719361__T79--1
+2	som	som	ADP	_	_	3	case	_	name=O
+3	nasjon	nasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T80--1)bt~bt_20120610_2719361__T79)
+4	vralter	vralte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	som	som	ADP	_	_	8	case	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(bt~bt_20120610_2719361__T81--1
+7	feit	feit	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	19-åring	19-åring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=bt~bt_20120610_2719361__T81)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	trenger	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(bt~bt_20120610_2719361__T82--1
+12	slankekur	slankekur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T82)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	fortalte	fortelle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	name=O
+15	Haram	Haram	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(bt~bt_20120610_2719361__414141--1)
+16	i	i	ADP	_	_	18	case	_	name=O
+17	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(bt~bt_20120610_2719361__T84--1
+18	intervju	intervju	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	name=O
+19	med	med	ADP	_	_	20	case	_	name=O
+20	BT	BT	PROPN	_	_	18	nmod	_	name=B-ORG|Entity=(bt~bt_20120610_2719361__T85--1)
+21	høsten	høst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T86--1
+22	2008	2008	NUM	_	Number=Plur|NumType=Card	21	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T86)bt~bt_20120610_2719361__T84)
+23	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006416
+# text = Enkelte ganger reiste han også inn til Bystasjonen og hentet ungdommer tilbake til Loddefjord.
+1	Enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(bt~bt_20120610_2719361__T87--1
+2	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=bt~bt_20120610_2719361__T87)
+3	reiste	reise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+5	også	også	ADV	_	_	3	advmod	_	name=O
+6	inn	inn	ADP	_	_	8	case	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	Bystasjonen	Bystasjonen	PROPN	_	_	3	obl	_	name=B-LOC|Entity=(bt~bt_20120610_2719361__T89--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	hentet	hente	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+11	ungdommer	ungdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obj	_	name=O|Entity=(bt~bt_20120610_2719361__T90--1)
+12	tilbake	tilbake	ADP	_	_	14	case	_	name=O
+13	til	til	ADP	_	_	14	case	_	name=O
+14	Loddefjord	Loddefjord	PROPN	_	_	10	obl	_	SpaceAfter=No|name=B-LOC|Entity=(bt~bt_20120610_2719361__2152--1)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006417
+# text = - Menigheten var min familie.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Menigheten	menighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__T92--1)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T94--1(bt~bt_20120610_2719361__414141--1)
+5	familie	familie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T94)
+6	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006418
+# text = En prest er en far.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(bt~bt_20120610_2719361__T95--1
+2	prest	prest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=bt~bt_20120610_2719361__T95)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(bt~bt_20120610_2719361__T96--1
+5	far	far	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T96)
+6	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006419
+# text = Min fordel var at jeg var enslig og kunne rykke ut om natten.
+1	Min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T98--1(bt~bt_20120610_2719361__414141--1)
+2	fordel	fordel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=bt~bt_20120610_2719361__T98)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+6	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+7	enslig	enslig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+10	rykke	rykke	VERB	_	VerbForm=Inf	7	conj	_	name=O
+11	ut	ut	ADP	_	_	10	compound:prt	_	name=O
+12	om	om	ADP	_	_	13	case	_	name=O
+13	natten	natt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T100--1)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006420
+# text = Jeg så nok ikke alle, men livet blant dem som sliter er bedre enn kontorlivet.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+2	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	nok	nok	ADV	_	_	2	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+5	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	2	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T102--1)
+6	,	$,	PUNCT	_	_	14	punct	_	name=O
+7	men	men	CCONJ	_	_	14	cc	_	name=O
+8	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__T103--1
+9	blant	blant	ADP	_	_	10	case	_	name=O
+10	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T104--1
+11	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+12	sliter	slite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O|Entity=bt~bt_20120610_2719361__T104)bt~bt_20120610_2719361__T103)
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	bedre	god	ADJ	_	Degree=Cmp	2	conj	_	name=O
+15	enn	enn	ADP	_	_	16	case	_	name=O
+16	kontorlivet	kontorliv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T105--1)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006421
+# text = Jeg sluttet å telle innbruddene i leiligheten.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+2	sluttet	slutte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	telle	telle	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	innbruddene	innbrudd	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obj	_	name=O|Entity=(bt~bt_20120610_2719361__T107--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	leiligheten	leilighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T108--1)bt~bt_20120610_2719361__T107)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 006422
+# text = Mer enn en gang var det blodspor på stuegulvet, sa Haram da.
+1	Mer	mye	ADJ	_	Degree=Cmp	5	advmod	_	name=O
+2	enn	enn	ADP	_	_	4	case	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(bt~bt_20120610_2719361__T109--1
+4	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=bt~bt_20120610_2719361__T109)
+5	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+7	blodspor	blodspor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__T110--1
+8	på	på	ADP	_	_	9	case	_	name=O
+9	stuegulvet	stuegulv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T111--1)bt~bt_20120610_2719361__T110)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	name=O
+12	Haram	Haram	PROPN	_	_	11	nsubj	_	name=B-PER|Entity=(bt~bt_20120610_2719361__414141--1)
+13	da	da	ADV	_	_	11	advmod	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006423
+# text = Haram vokste opp på Sunnmøre, tok gymnaset i Tønsberg og studerte teologi i Oslo.
+1	Haram	Haram	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(bt~bt_20120610_2719361__414141--1)
+2	vokste	vokse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	opp	opp	ADP	_	_	2	compound:prt	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	Sunnmøre	Sunnmøre	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(bt~bt_20120610_2719361__T114--1)
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+8	gymnaset	gymnas	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__T115--1)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Tønsberg	Tønsberg	PROPN	_	_	7	obl	_	name=B-GPE_LOC|Entity=(bt~bt_20120610_2719361__T116--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	studerte	studere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+13	teologi	teologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=(bt~bt_20120610_2719361__T117--1)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Oslo	Oslo	PROPN	_	_	12	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(bt~bt_20120610_2719361__4277--1)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006424
+# text = 48 år gammel brøt han med Den norske kirke for å bli katolikk, og etter et år som novise og tre år med dype studier, ble han innviet til munk i Oslo i 2002.
+1	48	48	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(bt~bt_20120610_2719361__T119--1
+2	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	name=O|Entity=bt~bt_20120610_2719361__T119)
+3	gammel	gammel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	acl	_	name=O
+4	brøt	bryte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+6	med	med	ADP	_	_	7	case	_	name=O
+7	Den	Den	PROPN	_	_	4	obl	_	name=B-ORG|Entity=(bt~bt_20120610_2719361__T121--1
+8	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	flat:name	_	name=I-ORG
+9	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	flat:name	_	name=I-ORG|Entity=bt~bt_20120610_2719361__T121)
+10	for	for	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	bli	bli	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+13	katolikk	katolikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T122--1)
+14	,	$,	PUNCT	_	_	30	punct	_	name=O
+15	og	og	CCONJ	_	_	30	cc	_	name=O
+16	etter	etter	ADP	_	_	18	case	_	name=O
+17	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(bt~bt_20120610_2719361__T123--1(bt~bt_20120610_2719361__T124--1
+18	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	30	obl	_	name=O
+19	som	som	ADP	_	_	20	case	_	name=O
+20	novise	novise	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T125--1)bt~bt_20120610_2719361__T124)
+21	og	og	CCONJ	_	_	23	cc	_	name=O
+22	tre	tre	NUM	_	Number=Plur|NumType=Card	23	nummod	_	name=O|Entity=(bt~bt_20120610_2719361__T126--1
+23	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	conj	_	name=O
+24	med	med	ADP	_	_	26	case	_	name=O
+25	dype	dyp	ADJ	_	Degree=Pos|Number=Plur	26	amod	_	name=O|Entity=(bt~bt_20120610_2719361__T127--1
+26	studier	studium	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T127)bt~bt_20120610_2719361__T126)bt~bt_20120610_2719361__T123)
+27	,	$,	PUNCT	_	_	18	punct	_	name=O
+28	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	30	aux:pass	_	name=O
+29	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj:pass	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+30	innviet	innvie	VERB	_	VerbForm=Part	4	conj	_	name=O
+31	til	til	ADP	_	_	32	case	_	name=O
+32	munk	munk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	obl	_	name=O|Entity=(bt~bt_20120610_2719361__T129--1)
+33	i	i	ADP	_	_	34	case	_	name=O
+34	Oslo	Oslo	PROPN	_	_	30	obl	_	name=B-GPE_LOC|Entity=(bt~bt_20120610_2719361__4277--1)
+35	i	i	ADP	_	_	36	case	_	name=O
+36	2002	2002	NUM	_	Number=Plur|NumType=Card	30	obl	_	SpaceAfter=No|name=O
+37	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006425
+# text = Han ble presteviet som katolsk prest i 2003.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	presteviet	prestevie	VERB	_	VerbForm=Part	0	root	_	name=O
+4	som	som	SCONJ	_	_	6	mark	_	name=O
+5	katolsk	katolsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(bt~bt_20120610_2719361__T132--1
+6	prest	prest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	acl	_	name=O|Entity=bt~bt_20120610_2719361__T132)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	2003	2003	NUM	_	Number=Plur|NumType=Card	3	obl	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006426
+# text = Han har også skrevet fast i Klassekampen, og gitt ut flere bøker.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	også	også	ADV	_	_	4	advmod	_	name=O
+4	skrevet	skrive	VERB	_	VerbForm=Part	0	root	_	name=O
+5	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Klassekampen	Klassekampen	PROPN	_	_	4	obl	_	SpaceAfter=No|name=B-PROD|Entity=(bt~bt_20120610_2719361__T134--1)
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	gitt	gi	VERB	_	VerbForm=Part	4	conj	_	name=O
+11	ut	ut	ADP	_	_	10	compound:prt	_	name=O
+12	flere	mange	ADJ	_	Degree=Cmp	13	amod	_	name=O|Entity=(bt~bt_20120610_2719361__T135--1
+13	bøker	bok	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T135)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006427
+# text = - Med Arnfinn Harams bortgang har norsk kristenhet mistet en av sine skarpeste penner, og radikale røster.
+1	-	$-	PUNCT	_	_	9	punct	_	name=O
+2	Med	med	ADP	_	_	5	case	_	name=O
+3	Arnfinn	Arnfinn	PROPN	_	Gender=Masc	5	nmod	_	name=B-PER|Entity=(bt~bt_20120610_2719361__T137--1(bt~bt_20120610_2719361__414141--1
+4	Harams	Haram	PROPN	_	Case=Gen	3	flat:name	_	name=I-PER|Entity=bt~bt_20120610_2719361__414141)
+5	bortgang	bortgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=bt~bt_20120610_2719361__T137)
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+7	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(bt~bt_20120610_2719361__2277--1
+8	kristenhet	kristenhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	name=O|Entity=bt~bt_20120610_2719361__2277)
+9	mistet	miste	VERB	_	VerbForm=Part	0	root	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	obj	_	name=O
+11	av	av	ADP	_	_	14	case	_	name=O
+12	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	14	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T140--1(bt~bt_20120610_2719361__T141--1(bt~bt_20120610_2719361__2277--1)
+13	skarpeste	skarp	ADJ	_	Definite=Def|Degree=Sup	14	amod	_	name=O
+14	penner	penn	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	18	punct	_	name=O|Entity=bt~bt_20120610_2719361__T141)
+16	og	og	CCONJ	_	_	18	cc	_	name=O
+17	radikale	radikal	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(bt~bt_20120610_2719361__T142--1
+18	røster	røst	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T142)bt~bt_20120610_2719361__T140)
+19	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 006428
+# text = Han hadde en sjelden evne til å formulere seg, det lød ofte som den vakreste musikk.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+2	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(bt~bt_20120610_2719361__T144--1
+4	sjelden	sjelden	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	evne	evne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+6	til	til	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	formulere	formulere	VERB	_	VerbForm=Inf	5	acl	_	name=O
+9	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__414141--1)bt~bt_20120610_2719361__T144)
+10	,	$,	PUNCT	_	_	12	punct	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+12	lød	lyde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+13	ofte	ofte	ADJ	_	Degree=Pos	12	advmod	_	name=O
+14	som	som	SCONJ	_	_	17	mark	_	name=O
+15	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(bt~bt_20120610_2719361__T145--1
+16	vakreste	vakker	ADJ	_	Definite=Def|Degree=Sup	17	amod	_	name=O
+17	musikk	musikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T145)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 006429
+# text = Raust delte han eget levd liv, usminket og ærlig og kalte og lokket oss til en mer helhjertet, radikal etterfølgelse av Kristus, skriver pastor og bibellærer Bjørn Olav Hansen på sin personlige blogg.
+1	Raust	raus	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+2	delte	dele	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+4	eget	egen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	6	det	_	name=O|Entity=(bt~bt_20120610_2719361__T147--1
+5	levd	leve	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	6	amod	_	name=O
+6	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T147)
+7	,	$,	PUNCT	_	_	6	punct	_	name=O
+8	usminket	usminket	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	acl	_	name=O
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	ærlig	ærlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	conj	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	kalte	kalle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	lokket	lokke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	name=O
+15	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	14	obj	_	name=O|Entity=(bt~bt_20120610_2719361__T148--1)
+16	til	til	ADP	_	_	22	case	_	name=O
+17	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(bt~bt_20120610_2719361__T149--1
+18	mer	mye	ADJ	_	Degree=Cmp	19	advmod	_	name=O
+19	helhjertet	helhjertet	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	SpaceAfter=No|name=O
+20	,	$,	PUNCT	_	_	19	punct	_	name=O
+21	radikal	radikal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	etterfølgelse	etterfølgelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O
+23	av	av	ADP	_	_	24	case	_	name=O
+24	Kristus	Kristus	PROPN	_	Gender=Masc	22	nmod	_	SpaceAfter=No|name=B-PER|Entity=(bt~bt_20120610_2719361__T150--1)bt~bt_20120610_2719361__T149)
+25	,	$,	PUNCT	_	_	26	punct	_	name=O
+26	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+27	pastor	pastor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__2307--1(bt~bt_20120610_2719361__T151--1
+28	og	og	CCONJ	_	_	29	cc	_	name=O
+29	bibellærer	bibellærer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	conj	_	name=O|Entity=(bt~bt_20120610_2719361__T152--1)bt~bt_20120610_2719361__T151)
+30	Bjørn	Bjørn	PROPN	_	Gender=Masc	26	nsubj	_	name=B-PER
+31	Olav	Olav	PROPN	_	Gender=Masc	30	flat:name	_	name=I-PER
+32	Hansen	Hansen	PROPN	_	_	30	flat:name	_	name=I-PER|Entity=bt~bt_20120610_2719361__2307)
+33	på	på	ADP	_	_	36	case	_	name=O
+34	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	36	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T155--1(bt~bt_20120610_2719361__2307--1)
+35	personlige	personlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	36	amod	_	name=O
+36	blogg	blogg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T155)
+37	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006430
+# text = Etter at pater Harams død ble kjent i kveld, har det strømmet til med hilsener på nettsamfunnet Twitter.
+1	Etter	etter	SCONJ	_	_	6	mark	_	name=O
+2	at	at	SCONJ	_	_	6	mark	_	name=O
+3	pater	pater	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T157--1(bt~bt_20120610_2719361__414141--1
+4	Harams	Haram	PROPN	_	Case=Gen	5	nmod	_	name=B-PER|Entity=bt~bt_20120610_2719361__414141)
+5	død	død	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=bt~bt_20120610_2719361__T157)
+6	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	name=O
+7	kjent	kjent	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	xcomp	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T158--1)
+10	,	$,	PUNCT	_	_	6	punct	_	name=O
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	name=O
+13	strømmet	strømme	VERB	_	VerbForm=Part	0	root	_	name=O
+14	til	til	ADP	_	_	13	compound:prt	_	name=O
+15	med	med	ADP	_	_	16	case	_	name=O
+16	hilsener	hilsen	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__T159--1)
+17	på	på	ADP	_	_	19	case	_	name=O
+18	nettsamfunnet	nettsamfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T160--1
+19	Twitter	Twitter	PROPN	_	_	13	obl	_	SpaceAfter=No|name=B-PROD|Entity=bt~bt_20120610_2719361__T160)
+20	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 006431
+# text = Her er noen av meldingene:
+1	Her	her	ADV	_	_	0	root	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	noen	noen	DET	_	Number=Plur|PronType=Ind	1	nsubj	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	meldingene	melding	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T161--1)
+6	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006432
+# text = «Pater Arnfin Haram var en av mine store forbilder på at det er lov å tenke selv om man er troende.
+1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Pater	pater	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1
+3	Arnfin	Arnfin	PROPN	_	_	6	nsubj	_	name=B-PER
+4	Haram	Haram	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=bt~bt_20120610_2719361__414141)
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+7	av	av	ADP	_	_	10	case	_	name=O
+8	mine	min	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__T164--1(bt~bt_20120610_2719361__T163--1)
+9	store	stor	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O
+10	forbilder	forbilde	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	name=O
+11	på	på	SCONJ	_	_	15	mark	_	name=O
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	name=O
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+15	lov	lov	NOUN	_	Gender=Masc	10	acl	_	name=O|Entity=(bt~bt_20120610_2719361__T165--1)
+16	å	å	PART	_	_	17	mark	_	name=O
+17	tenke	tenke	VERB	_	VerbForm=Inf	15	csubj	_	name=O
+18	selv	selv	ADV	_	_	19	advmod	_	name=O
+19	om	om	SCONJ	_	_	22	mark	_	name=O
+20	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	22	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__T166--1)
+21	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+22	troende	troende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	advcl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T164)
+23	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006433
+# text = Norge er blitt fattigere."
+1	Norge	Norge	PROPN	_	_	3	nsubj	_	name=B-GPE_LOC|Entity=(bt~bt_20120610_2719361__T167--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+4	fattigere	fattigere	ADJ	_	Degree=Cmp	3	xcomp	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+6	"	$"	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006434
+# text = «Fikk akkurat den triste nyheten at min kollega og venn fr Arnfinn Haram døde idag av et hjerteinfarkt.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+2	Fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	akkurat	akkurat	ADV	_	_	2	advmod	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(bt~bt_20120610_2719361__T168--1
+5	triste	trist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	nyheten	nyhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O
+7	at	at	SCONJ	_	_	15	mark	_	name=O
+8	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1(bt~bt_20120610_2719361__T170--1(bt~bt_20120610_2719361__T171--1(bt~bt_20120610_2719361__T169--1)
+9	kollega	kollega	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=bt~bt_20120610_2719361__T171)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	venn	venn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	name=O|Entity=(bt~bt_20120610_2719361__T172--1)bt~bt_20120610_2719361__T170)
+12	fr	fr	NOUN	_	Abbr=Yes	13	nmod	_	name=O
+13	Arnfinn	Arnfinn	PROPN	_	Gender=Masc	15	nsubj	_	name=B-PER
+14	Haram	Haram	PROPN	_	_	13	flat:name	_	name=I-PER|Entity=bt~bt_20120610_2719361__414141)
+15	døde	dø	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl	_	name=O
+16	idag	idag	ADV	_	_	15	advmod	_	name=O
+17	av	av	ADP	_	_	19	case	_	name=O
+18	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(bt~bt_20120610_2719361__T174--1
+19	hjerteinfarkt	hjerteinfarkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T174)bt~bt_20120610_2719361__T168)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006435
+# text = Requiem aeternam dona eis, Domine."
+1	Requiem	Requiem	X	_	_	0	root	_	name=O
+2	aeternam	aeternam	X	_	_	1	flat:foreign	_	name=O
+3	dona	dona	X	_	_	1	flat:foreign	_	name=O
+4	eis	eis	X	_	_	1	flat:foreign	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	Domine	Domine	X	_	_	1	flat:foreign	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	1	punct	_	SpaceAfter=No|name=O
+8	"	$"	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006436
+# text = «Pater Arnfinn #Haram er død.
+1	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O
+2	Pater	pater	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1
+3	Arnfinn	Arnfinn	PROPN	_	Gender=Masc	6	nsubj	_	name=B-PER
+4	#Haram	#Haram	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=bt~bt_20120610_2719361__414141)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	død	død	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006437
+# text = En bauta i norsk kristenliv er gått bort.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(bt~bt_20120610_2719361__T176--1
+2	bauta	bauta	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O|Entity=(bt~bt_20120610_2719361__T177--1
+5	kristenliv	kristenliv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=bt~bt_20120610_2719361__T177)bt~bt_20120610_2719361__T176)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	gått	gå	VERB	_	VerbForm=Part	0	root	_	name=O
+8	bort	bort	ADP	_	_	7	compound:prt	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006438
+# text = Forfremmet til herligheten, som de gamle sa."
+1	Forfremmet	forfremme	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+2	til	til	ADP	_	_	3	case	_	name=O
+3	herligheten	herlighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20120610_2719361__T178--1)
+4	,	$,	PUNCT	_	_	8	punct	_	name=O
+5	som	som	PRON	_	PronType=Rel	8	obj	_	name=O
+6	de	de	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(bt~bt_20120610_2719361__T179--1
+7	gamle	gammel	ADJ	_	Degree=Pos|Number=Plur	8	nsubj	_	name=O|Entity=bt~bt_20120610_2719361__T179)
+8	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	1	punct	_	SpaceAfter=No|name=O
+10	"	$"	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006439
+# text = «Gjør meg uendelig trist.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+2	Gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	name=O|Entity=(bt~bt_20120610_2719361__T180--1)
+4	uendelig	uendelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	trist	trist	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006440
+# text = Takk for alle gode minner kjære venn."
+1	Takk	takk	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(bt~bt_20120610_2719361__T181--1
+2	for	for	ADP	_	_	5	case	_	name=O
+3	alle	all	DET	_	Number=Plur|PronType=Tot	5	det	_	name=O|Entity=(bt~bt_20120610_2719361__T182--1
+4	gode	god	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	minner	minne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	nmod	_	name=O|Entity=bt~bt_20120610_2719361__T182)
+6	kjære	kjær	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(bt~bt_20120610_2719361__T183--1
+7	venn	venn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T183)
+8	.	$.	PUNCT	_	_	1	punct	_	SpaceAfter=No|name=O
+9	"	$"	PUNCT	_	_	1	punct	_	name=O|Entity=bt~bt_20120610_2719361__T181)
+
+# sent_id = 006441
+# text = «RIP Pater Arnfinn Haram.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+2	RIP	RIP	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Pater	Pater	PROPN	_	_	2	parataxis	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1
+4	Arnfinn	Arnfinn	PROPN	_	_	3	flat:name	_	name=B-PER
+5	Haram	Haram	PROPN	_	_	3	flat:name	_	SpaceAfter=No|name=I-PER|Entity=bt~bt_20120610_2719361__414141)
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006442
+# text = En interessant samtalepartner, en hjertelig og varm personlighet"
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(bt~bt_20120610_2719361__T185--1(bt~bt_20120610_2719361__T186[1/2]--1
+2	interessant	interessant	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	samtalepartner	samtalepartner	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=bt~bt_20120610_2719361__T186[1/2])
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(bt~bt_20120610_2719361__T187--1
+6	hjertelig	hjertelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	varm	varm	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	conj	_	name=O
+9	personlighet	personlighet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T187)
+10	"	$"	PUNCT	_	_	3	punct	_	name=O|Entity=(bt~bt_20120610_2719361__T186[2/2]--1)bt~bt_20120610_2719361__T185)
+
+# sent_id = 006443
+# text = «Har fått vite at bror Arnfinn Haram er død.
+1	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O
+2	Har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	fått	få	AUX	_	VerbForm=Part	4	aux	_	name=O
+4	vite	vite	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	at	at	SCONJ	_	_	10	mark	_	name=O
+6	bror	bror	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1
+7	Arnfinn	Arnfinn	PROPN	_	Gender=Masc	10	nsubj	_	name=B-PER
+8	Haram	Haram	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=bt~bt_20120610_2719361__414141)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	død	død	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	ccomp	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006444
+# text = En av de fineste og mest interessante menneskene jeg har fått gleden av å møte.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+2	av	av	ADP	_	_	8	case	_	name=O
+3	de	de	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(bt~bt_20120610_2719361__T189--1
+4	fineste	fin	ADJ	_	Definite=Def|Degree=Sup	8	amod	_	name=O
+5	og	og	CCONJ	_	_	7	cc	_	name=O
+6	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	7	advmod	_	name=O
+7	interessante	interessant	ADJ	_	Degree=Pos|Number=Plur	4	conj	_	name=O
+8	menneskene	menneske	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	1	nmod	_	name=O
+9	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__T190--1)
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	fått	få	VERB	_	VerbForm=Part	8	acl:relcl	_	name=O
+12	gleden	glede	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	name=O|Entity=(bt~bt_20120610_2719361__T191--1
+13	av	av	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	møte	møte	VERB	_	VerbForm=Inf	12	acl	_	SpaceAfter=No|name=O|Entity=bt~bt_20120610_2719361__T191)bt~bt_20120610_2719361__T189)
+16	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006445
+# text = Utrolig trist."
+1	Utrolig	utrolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+2	trist	trist	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+3	.	$.	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+4	"	$"	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006446
+# text = «Ein sjeldan mann er gått bort.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+2	Ein	Ein	X	_	_	0	root	_	name=O
+3	sjeldan	sjeldan	X	_	_	2	flat:foreign	_	name=O
+4	mann	mann	X	_	_	2	flat:foreign	_	name=O
+5	er	er	X	_	_	2	flat:foreign	_	name=O
+6	gått	gått	X	_	_	2	flat:foreign	_	name=O
+7	bort	bort	X	_	_	2	flat:foreign	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006447
+# text = Skal sakna pater Arnfinn Haram.
+1	Skal	Skal	X	_	_	0	root	_	name=O
+2	sakna	sakna	X	_	_	1	flat:foreign	_	name=O
+3	pater	pater	X	_	_	1	flat:foreign	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1
+4	Arnfinn	Arnfinn	X	_	_	1	flat:foreign	_	name=B-PER
+5	Haram	Haram	X	_	_	1	flat:foreign	_	SpaceAfter=No|name=I-PER|Entity=bt~bt_20120610_2719361__414141)
+6	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006448
+# text = Fryktlaus utfordrar av storstraumen, mild hand på kinnet."
+1	Fryktlaus	Fryktlaus	X	_	_	0	root	_	name=O
+2	utfordrar	utfordrar	X	_	_	1	flat:foreign	_	name=O
+3	av	av	X	_	_	1	flat:foreign	_	name=O
+4	storstraumen	storstraumen	X	_	_	1	flat:foreign	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	mild	mild	X	_	_	1	flat:foreign	_	name=O
+7	hand	hand	X	_	_	1	flat:foreign	_	name=O
+8	på	på	X	_	_	1	flat:foreign	_	name=O
+9	kinnet	kinnet	X	_	_	1	flat:foreign	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	1	punct	_	SpaceAfter=No|name=O
+11	"	$"	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006449
+# text = «Mer enn noen annen knyttet han bånd mellom Den katolske kirke og andre kristne i Norge.
+1	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O
+2	Mer	mye	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+3	enn	enn	ADP	_	_	5	case	_	name=O
+4	noen	noen	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	name=O
+5	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	2	obl	_	name=O
+6	knyttet	knytte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(bt~bt_20120610_2719361__414141--1)
+8	bånd	bånd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obj	_	name=O|Entity=(bt~bt_20120610_2719361__T193--1
+9	mellom	mellom	ADP	_	_	10	case	_	name=O
+10	Den	Den	PROPN	_	_	8	nmod	_	name=B-ORG|Entity=(bt~bt_20120610_2719361__T194--1(bt~bt_20120610_2719361__2224--1
+11	katolske	katolsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	flat:name	_	name=I-ORG
+12	kirke	kirke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	flat:name	_	name=I-ORG|Entity=bt~bt_20120610_2719361__2224)
+13	og	og	CCONJ	_	_	15	cc	_	name=O
+14	andre	annen	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(bt~bt_20120610_2719361__T196--1
+15	kristne	kristen	ADJ	_	Degree=Pos|Number=Plur	10	conj	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Norge	Norge	PROPN	_	_	15	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(bt~bt_20120610_2719361__T197--1)bt~bt_20120610_2719361__T196)bt~bt_20120610_2719361__T194)bt~bt_20120610_2719361__T193)
+18	.	$.	PUNCT	_	_	6	punct	_	name=O
+

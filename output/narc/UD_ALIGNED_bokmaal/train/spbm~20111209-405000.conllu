@@ -1,0 +1,263 @@
+# newdoc id = spbm~20111209-405000
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 013681
+# text = Oppgang, men fortsatt usikkerhet på Oslo Børs
+1	Oppgang	oppgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405000__T1--1
+2	,	$,	PUNCT	_	_	5	punct	_	name=O
+3	men	men	CCONJ	_	_	5	cc	_	name=O
+4	fortsatt	fortsatt	ADV	_	_	5	advmod	_	name=O|Entity=(spbm~20111209_405000__T2--1
+5	usikkerhet	usikkerhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	conj	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	Oslo	Oslo	PROPN	_	_	5	orphan	_	name=B-ORG|Entity=(spbm~20111209_405000__212--1
+8	Børs	Børs	PROPN	_	_	7	flat:name	_	name=I-ORG|Entity=spbm~20111209_405000__212)spbm~20111209_405000__T2)spbm~20111209_405000__T1)
+
+# sent_id = 013682
+# text = Oslo (NTB):
+1	Oslo	Oslo	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=(spbm~20111209_405000__252--1
+2	(	$(	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405000__T5--1
+3	NTB	NTB	PROPN	_	_	1	parataxis	_	SpaceAfter=No|name=B-ORG
+4	)	$)	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405000__T5)spbm~20111209_405000__252)
+5	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 013683
+# text = Etter en ny uke med usikkerhet sluttet hovedindeksen på Oslo Børs fredag med en oppgang på 1,24 prosent til 378,18 poeng.
+1	Etter	etter	ADP	_	_	4	case	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(spbm~20111209_405000__T6--1
+3	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	uke	uke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	usikkerhet	usikkerhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	name=O|Entity=(spbm~20111209_405000__T7--1)spbm~20111209_405000__T6)
+7	sluttet	slutte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	hovedindeksen	hovedindeks	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(spbm~20111209_405000__T8--1
+9	på	på	ADP	_	_	10	case	_	name=O
+10	Oslo	Oslo	PROPN	_	_	8	nmod	_	name=B-ORG|Entity=(spbm~20111209_405000__212--1
+11	Børs	Børs	PROPN	_	_	10	flat:name	_	name=I-ORG|Entity=spbm~20111209_405000__212)spbm~20111209_405000__T8)
+12	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(spbm~20111209_405000__T10--1)
+13	med	med	ADP	_	_	15	case	_	name=O
+14	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(spbm~20111209_405000__T11--1
+15	oppgang	oppgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O
+16	på	på	ADP	_	_	18	case	_	name=O
+17	1,24	1,24	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O|Entity=(spbm~20111209_405000__T12--1
+18	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	name=O
+19	til	til	ADP	_	_	21	case	_	name=O
+20	378,18	378,18	NUM	_	Number=Plur|NumType=Card	21	nummod	_	name=O|Entity=(spbm~20111209_405000__T13--1
+21	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405000__T13)spbm~20111209_405000__T12)spbm~20111209_405000__T11)
+22	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 013684
+# text = I alt 36 selskap på hovedlisten steg mens 16 falt og 7 sluttet uendret.
+1	I	i	ADP	_	_	2	case	_	name=O|Entity=(spbm~20111209_405000__T15--1
+2	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	name=O|Entity=(spbm~20111209_405000__T14--1)
+3	36	36	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+4	selskap	selskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nsubj	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	hovedlisten	hovedliste	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(spbm~20111209_405000__T16--1)spbm~20111209_405000__T15)
+7	steg	stige	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	mens	mens	SCONJ	_	_	10	mark	_	name=O
+9	16	16	NUM	_	Number=Plur|NumType=Card	10	nsubj	_	name=O
+10	falt	falle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	name=O
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	7	7	NUM	_	Number=Plur|NumType=Card	13	nsubj	_	name=O
+13	sluttet	slutte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	name=O
+14	uendret	uendret	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	acl	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 013685
+# text = Selv om mange nå har sterkere tro på eurosonen enn tidligere i uken, er det fortsatt usikkerhet som preger markedene.
+1	Selv	selv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	5	mark	_	name=O
+3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	5	nsubj	_	name=O|Entity=(spbm~20111209_405000__T17--1)
+4	nå	nå	ADV	_	_	5	advmod	_	name=O
+5	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	name=O
+6	sterkere	sterk	ADJ	_	Degree=Cmp	7	amod	_	name=O|Entity=(spbm~20111209_405000__T18--1
+7	tro	tro	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	eurosonen	eurosone	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(spbm~20111209_405000__T19--1)
+10	enn	enn	ADP	_	_	13	case	_	name=O
+11	tidligere	tidlig	ADJ	_	Degree=Cmp	13	advmod	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	uken	uke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405000__T20--1)spbm~20111209_405000__T18)
+14	,	$,	PUNCT	_	_	5	punct	_	name=O
+15	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	name=O
+16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+17	fortsatt	fortsatt	ADV	_	_	18	advmod	_	name=O
+18	usikkerhet	usikkerhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(spbm~20111209_405000__T21--1
+19	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+20	preger	prege	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:cleft	_	name=O
+21	markedene	marked	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	20	obj	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405000__T22--1)spbm~20111209_405000__T21)
+22	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 013686
+# text = Selv om færre tror på noe sammenbrudd, er det likevel bred enighet om at de fleste børsnoterte selskaper går et vanskelig år i møte, nær sagt uansett hvor de er notert.
+1	Selv	selv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	4	mark	_	name=O
+3	færre	få	ADJ	_	Degree=Cmp	4	nsubj	_	name=O|Entity=(spbm~20111209_405000__T23--1)
+4	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	name=O
+5	på	på	ADP	_	_	7	case	_	name=O
+6	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	7	det	_	name=O|Entity=(spbm~20111209_405000__T24--1
+7	sammenbrudd	sammenbrudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405000__T24)
+8	,	$,	PUNCT	_	_	4	punct	_	name=O
+9	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+11	likevel	likevel	ADV	_	_	9	advmod	_	name=O
+12	bred	bred	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(spbm~20111209_405000__T25--1
+13	enighet	enighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	name=O
+14	om	om	SCONJ	_	_	20	mark	_	name=O
+15	at	at	SCONJ	_	_	20	mark	_	name=O
+16	de	de	DET	_	Number=Plur|PronType=Dem	19	det	_	name=O|Entity=(spbm~20111209_405000__255--1
+17	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	19	amod	_	name=O
+18	børsnoterte	børsnotere	ADJ	_	Number=Plur|VerbForm=Part	19	amod	_	name=O
+19	selskaper	selskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	nsubj	_	name=O|Entity=spbm~20111209_405000__255)
+20	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl	_	name=O
+21	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(spbm~20111209_405000__T27--1(spbm~20111209_405000__T28[1/2]--1
+22	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	name=O
+23	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	nmod	_	name=O|Entity=spbm~20111209_405000__T27)spbm~20111209_405000__T28[1/2])
+24	i	i	ADP	_	_	25	case	_	name=O
+25	møte	møte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405000__T28[2/2]--1)
+26	,	$,	PUNCT	_	_	33	punct	_	name=O
+27	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	28	advmod	_	name=O
+28	sagt	si	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	33	advmod	_	name=O
+29	uansett	uansett	SCONJ	_	_	33	mark	_	name=O
+30	hvor	hvor	ADV	_	_	33	advmod	_	name=O
+31	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	name=O|Entity=(spbm~20111209_405000__255--1)
+32	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	33	aux	_	name=O
+33	notert	notere	VERB	_	VerbForm=Part	20	advcl	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405000__T25)
+34	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 013687
+# text = Oljeprisen ligger fortsatt godt over 100 dollar og dermed er det lite som tyder på at virksomheten på sokkelen vil bli svekket.
+1	Oljeprisen	oljepris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(spbm~20111209_405000__T30--1)
+2	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	fortsatt	fortsatt	ADV	_	_	2	advmod	_	name=O
+4	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+5	over	over	ADP	_	_	7	case	_	name=O
+6	100	100	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(spbm~20111209_405000__T31--1
+7	dollar	dollar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	name=O|Entity=spbm~20111209_405000__T31)
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	dermed	dermed	ADV	_	_	10	advmod	_	name=O
+10	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+12	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	nsubj	_	name=O
+13	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+14	tyder	tyde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	name=O
+15	på	på	SCONJ	_	_	22	mark	_	name=O
+16	at	at	SCONJ	_	_	22	mark	_	name=O
+17	virksomheten	virksomhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nsubj:pass	_	name=O|Entity=(spbm~20111209_405000__T32--1
+18	på	på	ADP	_	_	19	case	_	name=O
+19	sokkelen	sokkel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(spbm~20111209_405000__T33--1)spbm~20111209_405000__T32)
+20	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+21	bli	bli	AUX	_	VerbForm=Inf	22	aux:pass	_	name=O
+22	svekket	svekke	VERB	_	VerbForm=Part	14	advcl	_	SpaceAfter=No|name=O
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013688
+# text = Med 108 dollar per fat er det svært mange lønnsomme investeringer som gjenstår.
+1	Med	med	ADP	_	_	3	case	_	name=O
+2	108	108	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(spbm~20111209_405000__T34--1
+3	dollar	dollar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O|Entity=spbm~20111209_405000__T34)
+4	per	per	SCONJ	_	_	5	mark	_	name=O
+5	fat	fat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	xcomp	_	name=O|Entity=(spbm~20111209_405000__T35--1)
+6	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+8	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O|Entity=(spbm~20111209_405000__T36--1
+9	mange	mange	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+10	lønnsomme	lønnsom	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	investeringer	investering	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nsubj	_	name=O
+12	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+13	gjenstår	gjenstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405000__T36)
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 013689
+# text = I solselskapet Rec er situasjonen den stikk motsatte.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	solselskapet	solselskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(spbm~20111209_405000__3135--1
+3	Rec	Rec	PROPN	_	_	8	obl	_	name=B-ORG|Entity=spbm~20111209_405000__3135)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+5	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(spbm~20111209_405000__T38--1)
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O
+7	stikk	stikk	ADV	_	_	8	advmod	_	name=O
+8	motsatte	motsatt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 013690
+# text = Nedskjæringene og nedgangen i økonomisk aktivitet verden over gjør at land ikke ser seg tjent med å subsidiere denne energiformen lenger.
+1	Nedskjæringene	nedskjæring	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	name=O|Entity=(spbm~20111209_405000__T39--1(spbm~20111209_405000__T40--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	nedgangen	nedgang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(spbm~20111209_405000__T41--1
+4	i	i	ADP	_	_	6	case	_	name=O
+5	økonomisk	økonomisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(spbm~20111209_405000__T42--1
+6	aktivitet	aktivitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=spbm~20111209_405000__T42)
+7	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(spbm~20111209_405000__T43--1)
+8	over	over	ADP	_	_	7	case	_	name=O|Entity=spbm~20111209_405000__T41)spbm~20111209_405000__T39)
+9	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	at	at	SCONJ	_	_	13	mark	_	name=O
+11	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nsubj	_	name=O|Entity=(spbm~20111209_405000__T44--1)
+12	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	name=O
+13	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	name=O
+14	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	obj	_	name=O
+15	tjent	tjene	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	13	xcomp	_	name=O
+16	med	med	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	subsidiere	subsidiere	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+19	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(spbm~20111209_405000__T45--1
+20	energiformen	energiform	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obj	_	name=O|Entity=spbm~20111209_405000__T45)
+21	lenger	lenge	ADJ	_	Degree=Cmp	18	advmod	_	SpaceAfter=No|name=O
+22	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 013691
+# text = Dermed sank kursen på Rec i Oslo fredag til det laveste nivået noensinne.
+1	Dermed	dermed	ADV	_	_	2	advmod	_	name=O
+2	sank	synke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	kursen	kurs	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(spbm~20111209_405000__T46--1
+4	på	på	ADP	_	_	5	case	_	name=O
+5	Rec	Rec	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(spbm~20111209_405000__3135--1)spbm~20111209_405000__T46)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Oslo	Oslo	PROPN	_	_	2	obl	_	name=B-GPE_LOC|Entity=(spbm~20111209_405000__252--1)
+8	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(spbm~20111209_405000__T49--1)
+9	til	til	ADP	_	_	12	case	_	name=O
+10	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(spbm~20111209_405000__T50--1
+11	laveste	lav	ADJ	_	Definite=Def|Degree=Sup	12	amod	_	name=O
+12	nivået	nivå	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O
+13	noensinne	noensinne	ADV	_	_	11	advmod	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405000__T50)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013692
+# text = Selskapet er nå verdt litt over 3 milliarder.
+1	Selskapet	selskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(spbm~20111209_405000__3135--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	nå	nå	ADV	_	_	4	advmod	_	name=O
+4	verdt	verdt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O|Entity=(spbm~20111209_405000__T52--1
+6	over	over	ADP	_	_	7	case	_	name=O
+7	3	3	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O
+8	milliarder	milliard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405000__T52)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013693
+# text = Nedturen slår automatisk inn i verdiene til en av storeierne, Orkla, der kursen nå ligger noen øre over 42 kroner.
+1	Nedturen	nedtur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(spbm~20111209_405000__T53--1)
+2	slår	slå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	automatisk	automatisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+4	inn	inn	ADP	_	_	6	case	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	verdiene	verdi	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obl	_	name=O|Entity=(spbm~20111209_405000__T54--1
+7	til	til	ADP	_	_	12	case	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	nmod	_	name=O|Entity=(spbm~20111209_405000__T56--1
+9	av	av	ADP	_	_	10	case	_	name=O
+10	storeierne	storeier	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20111209_405000__T55--1)
+11	,	$,	PUNCT	_	_	8	punct	_	name=O
+12	Orkla	Orkla	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-ORG
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	der	der	SCONJ	_	_	17	mark	_	name=O
+15	kursen	kurs	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(spbm~20111209_405000__T57--1)
+16	nå	nå	ADV	_	_	17	advmod	_	name=O
+17	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl	_	name=O
+18	noen	noen	DET	_	Number=Plur|PronType=Ind	19	det	_	name=O|Entity=(spbm~20111209_405000__T58--1
+19	øre	øre	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	obl	_	name=O|Entity=spbm~20111209_405000__T58)
+20	over	over	ADP	_	_	22	case	_	name=O
+21	42	42	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O|Entity=(spbm~20111209_405000__T59--1
+22	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No|name=O|Entity=spbm~20111209_405000__T59)spbm~20111209_405000__T56)spbm~20111209_405000__T54)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+

@@ -1,0 +1,317 @@
+# newdoc id = db~20081121-3791325
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 011116
+# text = Nei, nei, nei, Nintendo!
+1	Nei	nei	INTJ	_	_	0	root	_	SpaceAfter=No|name=O
+2	,	$,	PUNCT	_	_	3	punct	_	name=O
+3	nei	nei	INTJ	_	_	1	discourse	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	3	punct	_	name=O
+5	nei	nei	INTJ	_	_	1	discourse	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	Nintendo	Nintendo	PROPN	_	_	1	parataxis	_	SpaceAfter=No|name=B-ORG|Entity=(db~20081121_3791325__368--1)
+8	!	$!	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 011117
+# text = Ulyder i «Wii Music».
+1	Ulyder	ulyd	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(db~20081121_3791325__T2--1
+2	i	i	ADP	_	_	4	case	_	name=O
+3	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=(db~20081121_3791325__6159--1
+4	Wii	Wii	PROPN	_	_	1	nmod	_	name=B-PROD
+5	Music	Music	PROPN	_	_	4	flat:name	_	SpaceAfter=No|name=I-PROD
+6	»	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=db~20081121_3791325__6159)db~20081121_3791325__T2)
+7	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 011118
+# text = Nintendo har gjort mye bra siden lanseringen av Wii, og med det fått med seg et publikum som ikke tidligere var like interesserte av spill.
+1	Nintendo	Nintendo	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(db~20081121_3791325__368--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	gjort	gjøre	VERB	_	VerbForm=Part	0	root	_	name=O
+4	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	obj	_	name=O
+5	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+6	siden	siden	ADP	_	_	7	case	_	name=O
+7	lanseringen	lansering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(db~20081121_3791325__212--1
+8	av	av	ADP	_	_	9	case	_	name=O
+9	Wii	Wii	PROPN	_	_	7	nmod	_	SpaceAfter=No|name=B-PROD|Entity=(db~20081121_3791325__T6--1)db~20081121_3791325__212)
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	og	og	CCONJ	_	_	14	cc	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	name=O|Entity=(db~20081121_3791325__212--1)
+14	fått	få	VERB	_	VerbForm=Part	3	conj	_	name=O
+15	med	med	ADP	_	_	16	case	_	name=O
+16	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	14	obl	_	name=O|Entity=(db~20081121_3791325__368--1)
+17	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(db~20081121_3791325__T8--1
+18	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	name=O
+19	som	som	PRON	_	PronType=Rel	24	nsubj	_	name=O
+20	ikke	ikke	PART	_	Polarity=Neg	21	advmod	_	name=O
+21	tidligere	tidlig	ADJ	_	Degree=Cmp	24	advmod	_	name=O
+22	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	cop	_	name=O
+23	like	like	ADV	_	_	24	advmod	_	name=O
+24	interesserte	interessere	ADJ	_	Number=Plur|VerbForm=Part	18	acl:relcl	_	name=O
+25	av	av	ADP	_	_	26	case	_	name=O
+26	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=(db~20081121_3791325__T9--1)db~20081121_3791325__T8)
+27	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011119
+# text = Baksiden av den medaljen er at de som tidligere var svært lidenskapelige Nintendo-fans nå må se seg avspist med spill som knapt lenger kan defineres som spill.
+1	Baksiden	bakside	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	name=O|Entity=(db~20081121_3791325__T10--1
+2	av	av	ADP	_	_	4	case	_	name=O
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(db~20081121_3791325__T11--1
+4	medaljen	medalje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=db~20081121_3791325__T11)db~20081121_3791325__T10)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+6	at	at	SCONJ	_	_	16	mark	_	name=O
+7	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(db~20081121_3791325__276--1
+8	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+9	tidligere	tidlig	ADJ	_	Degree=Cmp	13	advmod	_	name=O
+10	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+11	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O|Entity=(db~20081121_3791325__T13--1
+12	lidenskapelige	lidenskapelig	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	Nintendo-fans	Nintendo-fan	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	acl:relcl	_	name=B-DRV|Entity=db~20081121_3791325__T13)db~20081121_3791325__276)
+14	nå	nå	ADV	_	_	16	advmod	_	name=O
+15	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	se	se	VERB	_	VerbForm=Inf	0	root	_	name=O
+17	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	16	obj	_	name=O|Entity=(db~20081121_3791325__276--1)
+18	avspist	avspise	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	16	xcomp	_	name=O
+19	med	med	ADP	_	_	20	case	_	name=O
+20	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	obl	_	name=O|Entity=(db~20081121_3791325__T14--1
+21	som	som	PRON	_	PronType=Rel	25	nsubj:pass	_	name=O
+22	knapt	knapp	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	advmod	_	name=O
+23	lenger	lenge	ADJ	_	Degree=Cmp	25	advmod	_	name=O
+24	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	defineres	definere	VERB	_	VerbForm=Inf|Voice=Pass	20	acl:relcl	_	name=O
+26	som	som	SCONJ	_	_	27	mark	_	name=O
+27	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	xcomp	_	SpaceAfter=No|name=O|Entity=(db~20081121_3791325__T15--1)db~20081121_3791325__T14)
+28	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 011120
+# text = Med «Wii Music» er vi kommet til et punkt at jeg føler at nok snart må være nok.
+1	Med	med	ADP	_	_	3	case	_	name=O
+2	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=(db~20081121_3791325__6159--1
+3	Wii	Wii	PROPN	_	_	8	obl	_	name=B-PROD
+4	Music	Music	PROPN	_	_	3	flat:name	_	SpaceAfter=No|name=I-PROD
+5	»	$"	PUNCT	_	_	3	punct	_	name=O|Entity=db~20081121_3791325__6159)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+7	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(db~20081121_3791325__T17--1)
+8	kommet	komme	VERB	_	VerbForm=Part	0	root	_	name=O
+9	til	til	ADP	_	_	11	case	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(db~20081121_3791325__T18--1
+11	punkt	punkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O
+12	at	at	SCONJ	_	_	14	mark	_	name=O
+13	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	name=O|Entity=(db~20081121_3791325__T19--1)
+14	føler	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl	_	name=O
+15	at	at	SCONJ	_	_	20	mark	_	name=O
+16	nok	nok	ADV	_	_	20	nsubj	_	name=O
+17	snart	snar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O
+18	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+19	være	være	AUX	_	VerbForm=Inf	20	cop	_	name=O
+20	nok	nok	ADV	_	_	14	ccomp	_	SpaceAfter=No|name=O|Entity=db~20081121_3791325__T18)
+21	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 011121
+# text = Her har du i all enkelhet et spill, om man kan kalle det dét, som lar deg spille over seksti instrumenter med enkle grep.
+1	Her	her	ADV	_	_	2	advmod	_	name=O
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081121_3791325__5176--1)
+4	i	i	ADP	_	_	6	case	_	name=O
+5	all	all	DET	_	Gender=Fem|Number=Sing|PronType=Tot	6	det	_	name=O|Entity=(db~20081121_3791325__T21--1
+6	enkelhet	enkelhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=db~20081121_3791325__T21)
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(db~20081121_3791325__6159[1/2]--1
+8	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=db~20081121_3791325__6159[1/2])
+10	om	om	SCONJ	_	_	13	mark	_	name=O
+11	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	13	nsubj	_	name=O|Entity=(db~20081121_3791325__T23--1)
+12	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	kalle	kalle	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	name=O|Entity=(db~20081121_3791325__6159--1)
+15	dét	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	xcomp	_	SpaceAfter=No|name=O|Entity=(db~20081121_3791325__T25--1)
+16	,	$,	PUNCT	_	_	13	punct	_	name=O
+17	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O|Entity=(db~20081121_3791325__6159[2/2]--1
+18	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+19	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	18	iobj	_	name=O|Entity=(db~20081121_3791325__T26--1)
+20	spille	spille	VERB	_	VerbForm=Inf	18	xcomp	_	name=O
+21	over	over	ADP	_	_	22	case	_	name=O|Entity=(db~20081121_3791325__262--1
+22	seksti	seksti	NUM	_	Number=Plur|NumType=Card	23	nummod	_	name=O
+23	instrumenter	instrument	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	obj	_	name=O|Entity=db~20081121_3791325__262)
+24	med	med	ADP	_	_	26	case	_	name=O
+25	enkle	enkel	ADJ	_	Degree=Pos|Number=Plur	26	amod	_	name=O|Entity=(db~20081121_3791325__T28--1
+26	grep	grep	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No|name=O|Entity=db~20081121_3791325__T28)db~20081121_3791325__6159[2/2])
+27	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011122
+# text = Høres forlokkende ut?
+1	Høres	høres	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	forlokkende	forlokkende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	xcomp	_	name=O
+3	ut	ut	ADP	_	_	1	compound:prt	_	SpaceAfter=No|name=O
+4	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 011123
+# text = Vel, det gjør ikke lenger det når du får høre hvordan spillet høres ut.
+1	Vel	vel	ADV	_	_	4	advmod	_	SpaceAfter=No|name=O
+2	,	$,	PUNCT	_	_	1	punct	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081121_3791325__T29--1)
+4	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+6	lenger	lenge	ADJ	_	Degree=Cmp	4	advmod	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	name=O|Entity=(db~20081121_3791325__T30--1)
+8	når	når	SCONJ	_	_	11	mark	_	name=O
+9	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081121_3791325__5176--1)
+10	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	høre	høre	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+12	hvordan	hvordan	ADV	_	_	14	xcomp	_	name=O
+13	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	name=O|Entity=(db~20081121_3791325__6159--1)
+14	høres	høres	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	name=O
+15	ut	ut	ADP	_	_	14	compound:prt	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011124
+# text = Ettersom du ikke har noe presis måte å spille instrumentene på, handler det hele om å mime via vilkårlig knappetrykking og veiving med Wii-kontrollerne.
+1	Ettersom	ettersom	SCONJ	_	_	4	mark	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081121_3791325__5176--1)
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	name=O
+5	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	7	det	_	name=O|Entity=(db~20081121_3791325__T34--1
+6	presis	presis	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	spille	spille	VERB	_	VerbForm=Inf	7	acl	_	name=O
+10	instrumentene	instrument	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	obj	_	name=O|Entity=(db~20081121_3791325__262--1)
+11	på	på	ADP	_	_	9	compound:prt	_	SpaceAfter=No|name=O|Entity=db~20081121_3791325__T34)
+12	,	$,	PUNCT	_	_	4	punct	_	name=O
+13	handler	handle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+14	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(db~20081121_3791325__T36--1
+15	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	nsubj	_	name=O|Entity=db~20081121_3791325__T36)
+16	om	om	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	mime	mime	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+19	via	via	ADP	_	_	21	case	_	name=O
+20	vilkårlig	vilkårlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O|Entity=(db~20081121_3791325__T37--1(db~20081121_3791325__T38--1
+21	knappetrykking	knappetrykking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	name=O|Entity=db~20081121_3791325__T38)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	veiving	veiving	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	conj	_	name=O|Entity=(db~20081121_3791325__T39--1
+24	med	med	ADP	_	_	25	case	_	name=O
+25	Wii-kontrollerne	Wii-kontroller	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No|name=B-DRV|Entity=(db~20081121_3791325__T40--1)db~20081121_3791325__T39)db~20081121_3791325__T37)
+26	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 011125
+# text = Du kan spille etter et slags notesystem for å holde takten, men det hele kan kort oppsummeres i ett ord:
+1	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081121_3791325__5176--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	spille	spille	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	etter	etter	ADP	_	_	7	case	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(db~20081121_3791325__T43--1(db~20081121_3791325__T42--1
+6	slags	slags	NOUN	_	Gender=Neut	7	nmod	_	name=O|Entity=db~20081121_3791325__T42)
+7	notesystem	notesystem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=db~20081121_3791325__T43)
+8	for	for	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	holde	holde	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+11	takten	takt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=(db~20081121_3791325__T44--1)
+12	,	$,	PUNCT	_	_	18	punct	_	name=O
+13	men	men	CCONJ	_	_	18	cc	_	name=O
+14	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(db~20081121_3791325__T45--1
+15	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	nsubj:pass	_	name=O|Entity=db~20081121_3791325__T45)
+16	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+17	kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+18	oppsummeres	oppsummere	VERB	_	VerbForm=Inf|Voice=Pass	3	conj	_	name=O
+19	i	i	ADP	_	_	21	case	_	name=O
+20	ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	21	nummod	_	name=O|Entity=(db~20081121_3791325__T46--1
+21	ord	ord	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=db~20081121_3791325__T46)
+22	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011126
+# text = Tilfeldig.
+1	Tilfeldig	tilfeldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 011127
+# text = Forresten, stryk det - det kan oppsummeres i to ord:
+1	Forresten	forresten	ADV	_	_	3	advmod	_	SpaceAfter=No|name=O
+2	,	$,	PUNCT	_	_	1	punct	_	name=O
+3	stryk	stryke	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(db~20081121_3791325__T47--1)
+5	-	$-	PUNCT	_	_	8	punct	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj:pass	_	name=O|Entity=(db~20081121_3791325__T48--1)
+7	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	oppsummeres	oppsummere	VERB	_	VerbForm=Inf|Voice=Pass	3	conj	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	to	to	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(db~20081121_3791325__T49--1
+11	ord	ord	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=db~20081121_3791325__T49)
+12	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011128
+# text = Tilfeldig og fryktelig.
+1	Tilfeldig	tilfeldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	fryktelig	fryktelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 011129
+# text = Der du og noen kompiser jammer i vei, er det nesten utålelig å lytte på det som kommer ut fra høyttalerne.
+1	Der	der	SCONJ	_	_	6	mark	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	name=O|Entity=(db~20081121_3791325__T50--1(db~20081121_3791325__5176--1)
+3	og	og	CCONJ	_	_	5	cc	_	name=O
+4	noen	noen	DET	_	Number=Plur|PronType=Ind	5	det	_	name=O|Entity=(db~20081121_3791325__T52--1
+5	kompiser	kompis	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	name=O|Entity=db~20081121_3791325__T52)db~20081121_3791325__T50)
+6	jammer	jamme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(db~20081121_3791325__T53--1)
+9	,	$,	PUNCT	_	_	6	punct	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	name=O
+12	nesten	nesten	ADV	_	_	13	advmod	_	name=O
+13	utålelig	utålelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	lytte	lytte	VERB	_	VerbForm=Inf	13	csubj	_	name=O
+16	på	på	ADP	_	_	17	case	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obl	_	name=O|Entity=(db~20081121_3791325__T54--1
+18	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+19	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	name=O
+20	ut	ut	ADP	_	_	22	case	_	name=O
+21	fra	fra	ADP	_	_	22	case	_	name=O
+22	høyttalerne	høyttaler	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No|name=O|Entity=(db~20081121_3791325__T55--1)db~20081121_3791325__T54)
+23	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 011130
+# text = Det er nær umulig å være samspilte, og når den tegneserieaktige Mii-grafikken ledsages av midibasert tullelyd og dølle låter, blir det bare vondt.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	advmod	_	name=O
+4	umulig	umulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	7	mark	_	name=O
+6	være	være	AUX	_	VerbForm=Inf	7	cop	_	name=O
+7	samspilte	samspilt	ADJ	_	Degree=Pos|Number=Plur	4	csubj	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	22	punct	_	name=O
+9	og	og	CCONJ	_	_	22	cc	_	name=O
+10	når	når	SCONJ	_	_	14	mark	_	name=O
+11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(db~20081121_3791325__T56--1
+12	tegneserieaktige	tegneserieaktig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	Mii-grafikken	Mii-grafikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj:pass	_	name=B-DRV|Entity=db~20081121_3791325__T56)
+14	ledsages	ledsage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	22	advcl	_	name=O
+15	av	av	ADP	_	_	17	case	_	name=O
+16	midibasert	midibasere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	17	amod	_	name=O|Entity=(db~20081121_3791325__T57--1(db~20081121_3791325__T58--1
+17	tullelyd	tullelyd	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	name=O|Entity=db~20081121_3791325__T58)
+18	og	og	CCONJ	_	_	20	cc	_	name=O
+19	dølle	døll	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(db~20081121_3791325__T59--1
+20	låter	låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No|name=O|Entity=db~20081121_3791325__T59)db~20081121_3791325__T57)
+21	,	$,	PUNCT	_	_	14	punct	_	name=O
+22	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+23	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	name=O
+24	bare	bare	ADV	_	_	25	advmod	_	name=O
+25	vondt	vond	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	xcomp	_	SpaceAfter=No|name=O
+26	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011131
+# text = Tenk at «Mario»-skaper Shigeru Miyamoto står bak dette.
+1	Tenk	tenke	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	at	at	SCONJ	_	_	9	mark	_	name=O
+3	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=B-DRV|Entity=(db~20081121_3791325__T61--1(db~20081121_3791325__T60--1
+4	Mario	Mario	PROPN	_	_	6	compound	_	SpaceAfter=No|name=I-DRV
+5	»	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=I-DRV
+6	-skaper	-skaper	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=I-DRV|Entity=db~20081121_3791325__T60)
+7	Shigeru	Shigeru	PROPN	_	_	9	nsubj	_	name=B-PER
+8	Miyamoto	Miyamoto	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=db~20081121_3791325__T61)
+9	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	name=O
+10	bak	bak	ADP	_	_	11	case	_	name=O
+11	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obl	_	SpaceAfter=No|name=O|Entity=(db~20081121_3791325__6159--1)
+12	.	$.	PUNCT	_	_	1	punct	_	name=O
+

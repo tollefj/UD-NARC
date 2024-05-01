@@ -1,0 +1,159 @@
+# newdoc id = vg~vg-20111003-10039651
+# global.Entity = eid-etype-head-other
+# sent_id = 015257
+# text = - Han har alibi
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vg~vg_20111003_10039651__T1--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	alibi	alibi	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(vg~vg_20111003_10039651__T2--1)
+
+# sent_id = 015260
+# text = Foto: Jan Petter Lynau
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039651__T3--1
+2	:	$:	PUNCT	_	_	3	punct	_	name=O
+3	Jan	Jan	PROPN	_	Gender=Masc	1	parataxis	_	name=B-PER|Entity=(vg~vg_20111003_10039651__T4--1
+4	Petter	Petter	PROPN	_	Gender=Masc	3	flat:name	_	name=I-PER
+5	Lynau	Lynau	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=vg~vg_20111003_10039651__T4)vg~vg_20111003_10039651__T3)
+
+# sent_id = 015261
+# text = (VG Nett)
+1	(	$(	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039651__T5--1
+2	VG	VG	PROPN	_	_	0	root	_	name=B-PROD
+3	Nett	Nett	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD
+4	)	$)	PUNCT	_	_	2	punct	_	name=O|Entity=vg~vg_20111003_10039651__T5)
+
+# sent_id = 015286
+# text = Ber pressen trå varsomt
+1	Ber	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	pressen	presse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	iobj	_	name=O|Entity=(vg~vg_20111003_10039651__T6--1)
+3	trå	trå	VERB	_	VerbForm=Inf	1	xcomp	_	name=O
+4	varsomt	varsom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+
+# sent_id = 015287
+# text = Knust av bomben:
+1	Knust	knuse	VERB	_	VerbForm=Part	0	root	_	name=O
+2	av	av	ADP	_	_	3	case	_	name=O
+3	bomben	bombe	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039651__219--1)
+4	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 015288
+# text = Utenfor VG-huset henger fortsatt avissidene fra 22. juli.
+1	Utenfor	utenfor	ADP	_	_	2	case	_	name=O
+2	VG-huset	VG-hus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=B-DRV|Entity=(vg~vg_20111003_10039651__T8--1)
+3	henger	henge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	fortsatt	fortsatt	ADV	_	_	3	advmod	_	name=O
+5	avissidene	avisside	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	3	nsubj	_	name=O|Entity=(vg~vg_20111003_10039651__T9--1
+6	fra	fra	ADP	_	_	8	case	_	name=O
+7	22.	22.	ADJ	_	Number=Plur	8	amod	_	name=B-EVT|Entity=(vg~vg_20111003_10039651__247--1
+8	juli	juli	NOUN	_	Gender=Masc	5	nmod	_	SpaceAfter=No|name=I-EVT|Entity=vg~vg_20111003_10039651__247)vg~vg_20111003_10039651__T9)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015289
+# text = Avisstativet ble smadret av bomben til Anders Behring Breivik.
+1	Avisstativet	avisstativ	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj:pass	_	name=O|Entity=(vg~vg_20111003_10039651__T11--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	smadret	smadre	VERB	_	VerbForm=Part	0	root	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	bomben	bombe	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20111003_10039651__219--1
+6	til	til	ADP	_	_	7	case	_	name=O
+7	Anders	Anders	PROPN	_	Gender=Masc	5	nmod	_	name=B-PER|Entity=(vg~vg_20111003_10039651__386--1
+8	Behring	Behring	PROPN	_	_	7	flat:name	_	name=I-PER
+9	Breivik	Breivik	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vg~vg_20111003_10039651__386)vg~vg_20111003_10039651__219)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015290
+# text = Foto: Scanpix
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039651__T14--1
+2	:	$:	PUNCT	_	_	3	punct	_	name=O
+3	Scanpix	Scanpix	PROPN	_	_	1	parataxis	_	name=B-ORG|Entity=(vg~vg_20111003_10039651__T15--1)vg~vg_20111003_10039651__T14)
+
+# sent_id = 015291
+# text = (VG Nett)
+1	(	$(	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039651__T16--1
+2	VG	VG	PROPN	_	_	0	root	_	name=B-PROD
+3	Nett	Nett	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD
+4	)	$)	PUNCT	_	_	2	punct	_	name=O|Entity=vg~vg_20111003_10039651__T16)
+
+# sent_id = 015292
+# text = Adresseavisens nettutgave bringer i morgentimene en video hvor Utøya-overlevende Kristoffer Bergersen som går opp sin egen fluktrute .
+1	Adresseavisens	Adresseavisen	PROPN	_	Case=Gen|Gender=Masc	2	nmod	_	name=B-PROD|Entity=(vg~vg_20111003_10039651__T18--1(vg~vg_20111003_10039651__T17--1)
+2	nettutgave	nettutgave	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=vg~vg_20111003_10039651__T18)
+3	bringer	bringe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	morgentimene	morgentime	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=(vg~vg_20111003_10039651__T19--1)
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(vg~vg_20111003_10039651__244--1
+7	video	video	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O
+8	hvor	hvor	ADV	_	_	13	advmod	_	name=O
+9	Utøya-overlevende	utøya-overlevende	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=B-DRV|Entity=(vg~vg_20111003_10039651__368--1
+10	Kristoffer	Kristoffer	PROPN	_	Gender=Masc	13	nsubj	_	name=B-PER
+11	Bergersen	Bergersen	PROPN	_	_	10	flat:name	_	name=I-PER|Entity=vg~vg_20111003_10039651__368)
+12	som	som	PRON	_	PronType=Rel	13	nmod	_	name=O
+13	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	name=O
+14	opp	opp	ADP	_	_	13	compound:prt	_	name=O
+15	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	name=O|Entity=(vg~vg_20111003_10039651__T23--1(vg~vg_20111003_10039651__368--1)
+16	egen	egen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	17	det	_	name=O
+17	fluktrute	fluktrute	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=vg~vg_20111003_10039651__T23)vg~vg_20111003_10039651__244)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015293
+# text = Videoen ble filmet av hans far da de var tilbake på øya 19. august.
+1	Videoen	video	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=(vg~vg_20111003_10039651__244--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	filmet	filme	VERB	_	VerbForm=Part	0	root	_	name=O
+4	av	av	ADP	_	_	6	case	_	name=O
+5	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(vg~vg_20111003_10039651__T26--1(vg~vg_20111003_10039651__368--1)
+6	far	far	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=vg~vg_20111003_10039651__T26)
+7	da	da	SCONJ	_	_	12	mark	_	name=O
+8	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	name=O|SplitAnte=vg~vg_20111003_10039651__T26<vg~vg_20111003_10039651__T27,vg~vg_20111003_10039651__368<vg~vg_20111003_10039651__T27|Entity=(vg~vg_20111003_10039651__T27--1)
+9	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	name=O
+10	tilbake	tilbake	SCONJ	_	_	12	mark	_	name=O
+11	på	på	SCONJ	_	_	12	mark	_	name=O
+12	øya	øy	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	advcl	_	name=O|Entity=(vg~vg_20111003_10039651__263--1)
+13	19.	19.	ADJ	_	Number=Plur	14	amod	_	name=O|Entity=(vg~vg_20111003_10039651__T29--1
+14	august	august	NOUN	_	Gender=Masc	12	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20111003_10039651__T29)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015294
+# text = På papir i dag skriver Dagbladet at massemorderen Behring Breivik var innom kafébygget på Utøya minst to ganger 22. juli.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	papir	papir	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(vg~vg_20111003_10039651__T30--1)
+3	i	i	ADP	_	_	4	case	_	name=O
+4	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	name=O|Entity=(vg~vg_20111003_10039651__T31--1)
+5	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	Dagbladet	Dagbladet	PROPN	_	Gender=Neut	5	nsubj	_	name=B-ORG|Entity=(vg~vg_20111003_10039651__T32--1)
+7	at	at	SCONJ	_	_	13	mark	_	name=O
+8	massemorderen	massemorder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(vg~vg_20111003_10039651__386--1
+9	Behring	Behring	PROPN	_	_	13	nsubj	_	name=B-PER
+10	Breivik	Breivik	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=vg~vg_20111003_10039651__386)
+11	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+12	innom	innom	SCONJ	_	_	13	mark	_	name=O
+13	kafébygget	kafébygg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	ccomp	_	name=O|Entity=(vg~vg_20111003_10039651__275--1
+14	på	på	ADP	_	_	15	case	_	name=O
+15	Utøya	Utøya	PROPN	_	_	13	nmod	_	name=B-LOC|Entity=(vg~vg_20111003_10039651__263--1)vg~vg_20111003_10039651__275)
+16	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	17	advmod	_	name=O|Entity=(vg~vg_20111003_10039651__T36--1
+17	to	to	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O
+18	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	name=O|Entity=vg~vg_20111003_10039651__T36)
+19	22.	22.	ADJ	_	Number=Plur	20	amod	_	name=B-EVT|Entity=(vg~vg_20111003_10039651__247--1
+20	juli	juli	NOUN	_	Gender=Masc	13	obl	_	SpaceAfter=No|name=I-EVT|Entity=vg~vg_20111003_10039651__247)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015295
+# text = Det er øyenvitner som så Behring Breivik ved huset på to separate anledninger som uttaler dette.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vg~vg_20111003_10039651__T38--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	øyenvitner	øyenvitne	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O|Entity=(vg~vg_20111003_10039651__T39--1
+4	som	som	PRON	_	PronType=Rel	5	nsubj	_	name=O
+5	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	name=O
+6	Behring	Behring	PROPN	_	_	5	obj	_	name=B-PER|Entity=(vg~vg_20111003_10039651__386--1
+7	Breivik	Breivik	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=vg~vg_20111003_10039651__386)
+8	ved	ved	ADP	_	_	9	case	_	name=O
+9	huset	hus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(vg~vg_20111003_10039651__275--1)
+10	på	på	ADP	_	_	13	case	_	name=O
+11	to	to	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(vg~vg_20111003_10039651__T42--1
+12	separate	separat	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	anledninger	anledning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	name=O|Entity=vg~vg_20111003_10039651__T42)
+14	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+15	uttaler	uttale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	name=O
+16	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20111003_10039651__T43--1)vg~vg_20111003_10039651__T39)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+

@@ -1,0 +1,470 @@
+# newdoc id = ap_20051203-1170828
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 000658
+# text = En prins er født, navnet klart til uken
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20051203_1170828__T1--1
+2	prins	prins	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=ap_20051203_1170828__T1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	født	føde	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	navnet	navn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	conj	_	name=O|Entity=(ap_20051203_1170828__6242--1
+7	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	orphan	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	uken	uke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(ap_20051203_1170828__T3--1)ap_20051203_1170828__6242)
+
+# newpar
+# sent_id = 000659
+# text = Navnet klart på mandag
+1	Navnet	navn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(ap_20051203_1170828__6242--1
+2	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	xcomp	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(ap_20051203_1170828__T5--1)ap_20051203_1170828__6242)
+
+# newpar
+# sent_id = 000660
+# text = Olav er aktuelt
+1	Olav	Olav	PROPN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(ap_20051203_1170828__T6--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	aktuelt	aktuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+
+# newpar
+# sent_id = 000661
+# text = Flagget til topps
+1	Flagget	flagg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(ap_20051203_1170828__T7--1
+2	til	til	ADP	_	_	3	case	_	name=O
+3	topps	topp	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(ap_20051203_1170828__T8--1)ap_20051203_1170828__T7)
+
+# newpar
+# sent_id = 000662
+# text = Kronprinsesse Mette-Marit fødte en gutt lørdag.
+1	Kronprinsesse	kronprinsesse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=(ap_20051203_1170828__6270--1
+2	Mette-Marit	Mette-Marit	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=ap_20051203_1170828__6270)
+3	fødte	føde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20051203_1170828__7329--1
+5	gutt	gutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=ap_20051203_1170828__7329)
+6	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(ap_20051203_1170828__T11--1)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000663
+# text = Den lille prinsen blir nummer tre i arverekken.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20051203_1170828__7329--1
+2	lille	liten	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	prinsen	prins	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=ap_20051203_1170828__7329)
+4	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	nummer	nummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(ap_20051203_1170828__T13--1)
+6	tre	tre	NUM	_	Number=Plur|NumType=Card	4	xcomp	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	arverekken	arverekke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20051203_1170828__T14--1)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000664
+# text = Navnet blir trolig offentliggjort til uken.
+1	Navnet	navn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj:pass	_	name=O|Entity=(ap_20051203_1170828__6242--1)
+2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	name=O
+3	trolig	trolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	offentliggjort	offentliggjøre	VERB	_	VerbForm=Part	0	root	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	uken	uke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(ap_20051203_1170828__T16--1)
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 000665
+# text = Gutten ble født på Rikshospitalet klokken 10.45 lørdag formiddag.
+1	Gutten	gutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=(ap_20051203_1170828__7329--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	født	føde	VERB	_	VerbForm=Part	0	root	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	Rikshospitalet	Rikshospitalet	PROPN	_	_	3	obl	_	name=B-LOC|Entity=(ap_20051203_1170828__3169--1)
+6	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(ap_20051203_1170828__T19--1)
+7	10.45	10.45	NUM	_	NumType=Card	3	obl	_	name=O
+8	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(ap_20051203_1170828__T20--1
+9	formiddag	formiddag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20051203_1170828__T21--1)ap_20051203_1170828__T20)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000666
+# text = "Alt befinner seg vel med mor og barn", heter det i en pressemelding fra Slottet.
+1	"	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20051203_1170828__T22--1)
+3	befinner	befinne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	name=O
+5	vel	vel	ADV	_	_	3	advmod	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	mor	mor	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(ap_20051203_1170828__T23--1(ap_20051203_1170828__T24--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=(ap_20051203_1170828__T25--1)ap_20051203_1170828__T23)
+10	"	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	heter	hete	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+14	i	i	ADP	_	_	16	case	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(ap_20051203_1170828__T26--1
+16	pressemelding	pressemelding	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O
+17	fra	fra	ADP	_	_	18	case	_	name=O
+18	Slottet	Slottet	PROPN	_	_	16	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20051203_1170828__T27--1)ap_20051203_1170828__T26)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000667
+# text = Mette-Marit er nå blitt mamma for tredje gang, og etter hva Aftenposten.no erfarer, var det hennes rutine på dette området som gjorde at hun valgte å bli hjemme på Skaugum i Asker så lenge som mulig.
+1	Mette-Marit	Mette-Marit	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(ap_20051203_1170828__6270--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	nå	nå	ADV	_	_	4	advmod	_	name=O
+4	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+5	mamma	mamma	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	xcomp	_	name=O|Entity=(ap_20051203_1170828__T29--1)
+6	for	for	ADP	_	_	8	case	_	name=O
+7	tredje	tredje	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(ap_20051203_1170828__T30--1
+8	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__T30)
+9	,	$,	PUNCT	_	_	19	punct	_	name=O
+10	og	og	CCONJ	_	_	19	cc	_	name=O
+11	etter	etter	SCONJ	_	_	14	mark	_	name=O
+12	hva	hva	PRON	_	PronType=Int	14	obj	_	name=O
+13	Aftenposten.no	Aftenposten.no	PROPN	_	_	14	nsubj	_	name=B-ORG|Entity=(ap_20051203_1170828__T31--1)
+14	erfarer	erfare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	advcl	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	14	punct	_	name=O
+16	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	name=O
+18	hennes	hennes	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(ap_20051203_1170828__T33--1(ap_20051203_1170828__6270--1)
+19	rutine	rutine	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	name=O
+20	på	på	ADP	_	_	22	case	_	name=O
+21	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(ap_20051203_1170828__T34--1
+22	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	name=O|Entity=ap_20051203_1170828__T34)
+23	som	som	PRON	_	PronType=Rel	24	nsubj	_	name=O
+24	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:cleft	_	name=O
+25	at	at	SCONJ	_	_	27	mark	_	name=O
+26	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	name=O|Entity=(ap_20051203_1170828__6270--1)
+27	valgte	velge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	ccomp	_	name=O
+28	å	å	PART	_	_	29	mark	_	name=O
+29	bli	bli	VERB	_	VerbForm=Inf	27	xcomp	_	name=O
+30	hjemme	hjemme	ADP	_	_	29	xcomp	_	name=O
+31	på	på	ADP	_	_	32	case	_	name=O
+32	Skaugum	Skaugum	PROPN	_	_	29	obl	_	name=B-LOC|Entity=(ap_20051203_1170828__T36--1
+33	i	i	ADP	_	_	34	case	_	name=O
+34	Asker	Asker	PROPN	_	_	32	nmod	_	name=B-GPE_LOC|Entity=(ap_20051203_1170828__T37--1)ap_20051203_1170828__T36)
+35	så	så	ADV	_	_	36	advmod	_	name=O
+36	lenge	lenge	ADJ	_	Degree=Pos	29	advmod	_	name=O
+37	som	som	ADP	_	_	38	case	_	name=O
+38	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	35	advmod	_	SpaceAfter=No|name=O|Entity=(ap_20051203_1170828__T38--1)ap_20051203_1170828__T33)
+39	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000668
+# text = Kronprinsessen og kronprinsen ankom Rikshospitalet ved 08-tiden lørdag morgen.
+1	Kronprinsessen	kronprinsesse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20051203_1170828__5428--1(ap_20051203_1170828__6270--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	kronprinsen	kronprins	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(ap_20051203_1170828__8548--1)ap_20051203_1170828__5428)
+4	ankom	ankomme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	Rikshospitalet	Rikshospitalet	PROPN	_	_	4	obj	_	name=B-LOC|Entity=(ap_20051203_1170828__3169--1)
+6	ved	ved	ADP	_	_	7	case	_	name=O
+7	08-tiden	08-tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(ap_20051203_1170828__T43--1
+8	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(ap_20051203_1170828__T44--1
+9	morgen	morgen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20051203_1170828__T45--1)ap_20051203_1170828__T44)ap_20051203_1170828__T43)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 000669
+# text = Kronprins Haakon vil holde en pressekonferanse senere lørdag.
+1	Kronprins	kronprins	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20051203_1170828__8548--1
+2	Haakon	Haakon	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=ap_20051203_1170828__8548)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	holde	holde	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20051203_1170828__T47--1
+6	pressekonferanse	pressekonferanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=ap_20051203_1170828__T47)
+7	senere	sen	ADJ	_	Degree=Cmp	4	advmod	_	name=O
+8	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(ap_20051203_1170828__T48--1)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000670
+# text = Da vil han orientere om hvordan fødselen forløp og barnets vitale mål.
+1	Da	da	ADV	_	_	4	advmod	_	name=O
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20051203_1170828__8548--1)
+4	orientere	orientere	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	om	om	SCONJ	_	_	8	mark	_	name=O
+6	hvordan	hvordan	ADV	_	_	8	advmod	_	name=O
+7	fødselen	fødsel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(ap_20051203_1170828__T50--1)
+8	forløp	forløpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	name=O
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	barnets	barn	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	name=O|Entity=(ap_20051203_1170828__T52--1(ap_20051203_1170828__7329--1)
+11	vitale	vital	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	mål	mål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	conj	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__T52)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000671
+# text = Kronprins Haakon er for øvrig regent i kong Haralds fravær.
+1	Kronprins	kronprins	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20051203_1170828__8548--1
+2	Haakon	Haakon	PROPN	_	Gender=Masc	6	nsubj	_	name=B-PER|Entity=ap_20051203_1170828__8548)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	øvrig	øvrig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=(ap_20051203_1170828__T54--1)
+6	regent	regent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20051203_1170828__T55--1)
+7	i	i	ADP	_	_	10	case	_	name=O
+8	kong	kong	NOUN	_	_	9	nmod	_	name=O|Entity=(ap_20051203_1170828__T57--1(ap_20051203_1170828__5338--1
+9	Haralds	Harald	PROPN	_	Case=Gen|Gender=Masc	10	nmod	_	name=B-PER|Entity=ap_20051203_1170828__5338)
+10	fravær	fravær	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__T57)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 000672
+# text = Kongen er for tiden i København på privat reise, og dermed kunne kronprinsen fått oppgaven med å holde ekstraordinært statsråd, og offentliggjøre prinsens navn, på mandag.
+1	Kongen	konge	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=B-PER|Entity=(ap_20051203_1170828__5338--1)
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	for	for	ADP	_	_	4	case	_	name=O
+4	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(ap_20051203_1170828__T59--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	København	København	PROPN	_	_	2	obl	_	name=B-GPE_LOC|Entity=(ap_20051203_1170828__T60--1)
+7	på	på	ADP	_	_	9	case	_	name=O
+8	privat	privat	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(ap_20051203_1170828__T61--1
+9	reise	reise	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__T61)
+10	,	$,	PUNCT	_	_	15	punct	_	name=O
+11	og	og	CCONJ	_	_	15	cc	_	name=O
+12	dermed	dermed	ADV	_	_	15	advmod	_	name=O
+13	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	name=O
+14	kronprinsen	kronprins	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(ap_20051203_1170828__8548--1)
+15	fått	få	VERB	_	VerbForm=Part	2	conj	_	name=O
+16	oppgaven	oppgave	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=(ap_20051203_1170828__T63--1
+17	med	med	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	holde	holde	VERB	_	VerbForm=Inf	16	acl	_	name=O
+20	ekstraordinært	ekstraordinær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	name=O|Entity=(ap_20051203_1170828__T64--1
+21	statsråd	statsråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__T64)
+22	,	$,	PUNCT	_	_	24	punct	_	name=O
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	offentliggjøre	offentliggjøre	VERB	_	VerbForm=Inf	19	conj	_	name=O
+25	prinsens	prins	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	26	nmod	_	name=O|Entity=(ap_20051203_1170828__6242--1(ap_20051203_1170828__7329--1)
+26	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__6242)
+27	,	$,	PUNCT	_	_	29	punct	_	name=O
+28	på	på	ADP	_	_	29	case	_	name=O
+29	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=(ap_20051203_1170828__T67--1)ap_20051203_1170828__T63)
+30	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000673
+# text = Haakon gjorde dette etter at prinsesse Ingrid Alexandra ble født i og med at Kongen var sykmeldt.
+1	Haakon	Haakon	PROPN	_	Gender=Masc	2	nsubj	_	name=B-PER|Entity=(ap_20051203_1170828__8548--1)
+2	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(ap_20051203_1170828__T69--1)
+4	etter	etter	SCONJ	_	_	10	mark	_	name=O
+5	at	at	SCONJ	_	_	10	mark	_	name=O
+6	prinsesse	prinsesse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	name=O|Entity=(ap_20051203_1170828__T70--1
+7	Ingrid	Ingrid	PROPN	_	Gender=Fem	10	nsubj:pass	_	name=B-PER
+8	Alexandra	Alexandra	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=ap_20051203_1170828__T70)
+9	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	name=O
+10	født	føde	VERB	_	VerbForm=Part	2	advcl	_	name=O
+11	i	i	ADP	_	_	2	compound:prt	_	name=O
+12	og	og	CCONJ	_	_	17	cc	_	name=O
+13	med	med	ADP	_	_	17	case	_	name=O
+14	at	at	SCONJ	_	_	17	mark	_	name=O
+15	Kongen	Kongen	PROPN	_	_	17	nsubj	_	name=B-PER|Entity=(ap_20051203_1170828__5338--1)
+16	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	name=O
+17	sykmeldt	sykmeldt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000674
+# text = Men lørdag ble det klart at kong Harald høyst trolig kommer hjem tidsnok til å holde statsråd selv.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20051203_1170828__T72--1)
+3	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp	_	name=O
+6	at	at	SCONJ	_	_	11	mark	_	name=O
+7	kong	kong	NOUN	_	_	8	nmod	_	name=O|Entity=(ap_20051203_1170828__5338--1
+8	Harald	Harald	PROPN	_	Gender=Masc	11	nsubj	_	name=B-PER|Entity=ap_20051203_1170828__5338)
+9	høyst	høyst	ADV	_	_	10	advmod	_	name=O
+10	trolig	trolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	csubj	_	name=O
+12	hjem	hjem	ADP	_	_	11	compound:prt	_	name=O
+13	tidsnok	tidsnok	ADV	_	_	11	advmod	_	name=O
+14	til	til	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	holde	holde	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+17	statsråd	statsråd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	name=O|Entity=(ap_20051203_1170828__T74--1)
+18	selv	selv	ADV	_	_	16	advmod	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 000675
+# text = Foreldrene har trolig hatt barnets navn klart lenge, og det er valgt i samråd med kong Harald.
+1	Foreldrene	forelder	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(ap_20051203_1170828__5428--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	trolig	trolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+5	barnets	barn	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(ap_20051203_1170828__6242--1(ap_20051203_1170828__7329--1)
+6	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=ap_20051203_1170828__6242)
+7	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	xcomp	_	name=O
+8	lenge	lenge	ADJ	_	Degree=Pos	4	advmod	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	og	og	CCONJ	_	_	13	cc	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20051203_1170828__6242--1)
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	valgt	velge	VERB	_	VerbForm=Part	4	conj	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	samråd	samråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	name=O|Entity=(ap_20051203_1170828__T79--1
+16	med	med	ADP	_	_	18	case	_	name=O
+17	kong	kong	NOUN	_	_	18	nmod	_	name=O|Entity=(ap_20051203_1170828__5338--1
+18	Harald	Harald	PROPN	_	Gender=Masc	15	nmod	_	SpaceAfter=No|name=B-PER|Entity=ap_20051203_1170828__5338)ap_20051203_1170828__T79)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000676
+# text = Aktuelle navn er Olav, Harald og Haakon, ifølge NTB.
+1	Aktuelle	aktuell	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(ap_20051203_1170828__T81--1
+2	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=ap_20051203_1170828__T81)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	Olav	Olav	PROPN	_	Gender=Masc	0	root	_	SpaceAfter=No|name=B-PER|Entity=(ap_20051203_1170828__T82--1(ap_20051203_1170828__T83--1
+5	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=ap_20051203_1170828__T83)
+6	Harald	Harald	PROPN	_	Gender=Masc	4	conj	_	name=B-PER|Entity=(ap_20051203_1170828__T84--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Haakon	Haakon	PROPN	_	Gender=Masc	4	conj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20051203_1170828__T85--1)ap_20051203_1170828__T82)
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	ifølge	ifølge	ADP	_	_	11	case	_	name=O
+11	NTB	NTB	PROPN	_	_	4	obl	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20051203_1170828__2202--1)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000677
+# text = Også gamle kongenavn som Magnus og Sverre er aktuelle.
+1	Også	også	ADV	_	_	3	advmod	_	name=O|Entity=(ap_20051203_1170828__T87--1
+2	gamle	gammel	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	kongenavn	kongenavn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	nsubj	_	name=O
+4	som	som	ADP	_	_	5	case	_	name=O
+5	Magnus	Magnus	PROPN	_	Gender=Masc	3	nmod	_	name=B-PER|Entity=(ap_20051203_1170828__T88--1(ap_20051203_1170828__T89--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	Sverre	Sverre	PROPN	_	Gender=Masc	5	conj	_	name=B-PER|Entity=(ap_20051203_1170828__T90--1)ap_20051203_1170828__T88)ap_20051203_1170828__T87)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	aktuelle	aktuell	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 000678
+# text = Men foreldrene kan like gjerne velge et helt annet navn til en nyfødt sønn, eventuelt flere navn.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	foreldrene	forelder	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(ap_20051203_1170828__5428--1)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	like	like	ADV	_	_	5	advmod	_	name=O
+5	gjerne	gjerne	ADV	_	_	6	advmod	_	name=O
+6	velge	velge	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(ap_20051203_1170828__T92--1
+8	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	name=O
+10	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O|Entity=ap_20051203_1170828__T92)
+11	til	til	ADP	_	_	14	case	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(ap_20051203_1170828__T93--1
+13	nyfødt	nyfødt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	sønn	sønn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__T93)
+15	,	$,	PUNCT	_	_	18	punct	_	name=O
+16	eventuelt	eventuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O|Entity=(ap_20051203_1170828__T94--1
+17	flere	mange	ADJ	_	Degree=Cmp	18	amod	_	name=O
+18	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__T94)
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 000679
+# text = I den norske kongefamilien er det bare kongeparet som kun har ett navn.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(ap_20051203_1170828__T95--1
+3	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	kongefamilien	kongefamilie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=ap_20051203_1170828__T95)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	bare	bare	ADV	_	_	8	advmod	_	name=O
+8	kongeparet	kongepar	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(ap_20051203_1170828__T96--1
+9	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+10	kun	kun	ADV	_	_	11	advmod	_	name=O
+11	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:cleft	_	name=O
+12	ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	13	nummod	_	name=O|Entity=(ap_20051203_1170828__T97--1
+13	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__T97)ap_20051203_1170828__T96)
+14	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 000680
+# text = Den nyfødte gutten kan ikke ta fra kronprinsparets førstefødte, prinsesse Ingrid Alexandra (2), retten til tronen etter sin far.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20051203_1170828__7329--1
+2	nyfødte	nyfødt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	gutten	gutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=ap_20051203_1170828__7329)
+4	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	fra	fra	ADP	_	_	12	case	_	name=O
+8	kronprinsparets	kronprinspar	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(ap_20051203_1170828__2203--1(ap_20051203_1170828__5428--1)
+9	førstefødte	førstefødt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	nmod	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	9	punct	_	name=O
+11	prinsesse	prinsesse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	name=O
+12	Ingrid	Ingrid	PROPN	_	Gender=Fem	6	obl	_	name=B-PER
+13	Alexandra	Alexandra	PROPN	_	_	12	flat:name	_	name=I-PER
+14	(	$(	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+15	2	2	NUM	_	Number=Plur|NumType=Card	12	nmod	_	SpaceAfter=No|name=O
+16	)	$)	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__2203)
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	retten	rett	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(ap_20051203_1170828__T101--1
+19	til	til	ADP	_	_	20	case	_	name=O
+20	tronen	trone	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(ap_20051203_1170828__T102--1)
+21	etter	etter	ADP	_	_	23	case	_	name=O
+22	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	name=O|Entity=(ap_20051203_1170828__8548--1(ap_20051203_1170828__2203--1)
+23	far	far	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__8548)ap_20051203_1170828__T101)
+24	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 000681
+# text = Like etter klokken 12 lørdag gikk flagget til topps på Rikshospitalet.
+1	Like	like	ADV	_	_	4	advmod	_	name=O
+2	etter	etter	ADP	_	_	4	case	_	name=O
+3	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(ap_20051203_1170828__T105--1)
+4	12	12	NUM	_	Number=Plur|NumType=Card	6	obl	_	name=O
+5	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(ap_20051203_1170828__T106--1)
+6	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	flagget	flagg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20051203_1170828__T107--1)
+8	til	til	ADP	_	_	9	case	_	name=O
+9	topps	topp	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(ap_20051203_1170828__T108--1)
+10	på	på	ADP	_	_	11	case	_	name=O
+11	Rikshospitalet	Rikshospitalet	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-LOC|Entity=(ap_20051203_1170828__3169--1)
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 000682
+# text = Søndag blir det offisiell flagging fra offentlige bygninger i Norge og de norske utenriksstasjonene, ifølge NTB.
+1	Søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(ap_20051203_1170828__2227--1)
+2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	offisiell	offisiell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(ap_20051203_1170828__T111--1
+5	flagging	flagging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	xcomp	_	name=O
+6	fra	fra	ADP	_	_	8	case	_	name=O
+7	offentlige	offentlig	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(ap_20051203_1170828__T112--1
+8	bygninger	bygning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Norge	Norge	PROPN	_	_	8	nmod	_	name=B-GPE_LOC|Entity=(ap_20051203_1170828__T113--1(ap_20051203_1170828__T114--1)
+11	og	og	CCONJ	_	_	14	cc	_	name=O
+12	de	de	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(ap_20051203_1170828__T115--1
+13	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	utenriksstasjonene	utenriksstasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__T115)ap_20051203_1170828__T113)ap_20051203_1170828__T112)ap_20051203_1170828__T111)
+15	,	$,	PUNCT	_	_	17	punct	_	name=O
+16	ifølge	ifølge	ADP	_	_	17	case	_	name=O
+17	NTB	NTB	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20051203_1170828__2202--1)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000683
+# text = Samme dag vil det bli skutt salutt fra Forsvarets saluttpliktige festninger klokken 13.
+1	Samme	samme	DET	_	Definite=Def|PronType=Dem	2	det	_	name=O|Entity=(ap_20051203_1170828__2227--1
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=ap_20051203_1170828__2227)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+5	bli	bli	AUX	_	VerbForm=Inf	6	aux:pass	_	name=O
+6	skutt	skyte	VERB	_	VerbForm=Part	0	root	_	name=O
+7	salutt	salutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(ap_20051203_1170828__T118--1)
+8	fra	fra	ADP	_	_	11	case	_	name=O
+9	Forsvarets	Forsvaret	PROPN	_	Case=Gen	11	nmod	_	name=B-ORG|Entity=(ap_20051203_1170828__T120--1(ap_20051203_1170828__T119--1)
+10	saluttpliktige	saluttpliktig	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	festninger	festning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	name=O|Entity=ap_20051203_1170828__T120)
+12	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(ap_20051203_1170828__T121--1)
+13	13	13	NUM	_	Number=Plur|NumType=Card	6	obl	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 000684
+# text = Skriv inn din hilsen til Haakon og Mette-Marit i kommentarfeltet i bunnen av denne saken.
+1	Skriv	skrive	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	inn	inn	ADP	_	_	1	compound:prt	_	name=O
+3	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(ap_20051203_1170828__T123--1(ap_20051203_1170828__T122--1)
+4	hilsen	hilsen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	Haakon	Haakon	PROPN	_	Gender=Masc	4	nmod	_	name=B-PER|Entity=(ap_20051203_1170828__5428--1(ap_20051203_1170828__8548--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Mette-Marit	Mette-Marit	PROPN	_	_	6	conj	_	name=B-PER|Entity=(ap_20051203_1170828__6270--1)ap_20051203_1170828__5428)ap_20051203_1170828__T123)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	kommentarfeltet	kommentarfelt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	obl	_	name=O|Entity=(ap_20051203_1170828__T127--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	bunnen	bunn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(ap_20051203_1170828__T128--1
+13	av	av	ADP	_	_	15	case	_	name=O
+14	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(ap_20051203_1170828__T129--1
+15	saken	sak	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=ap_20051203_1170828__T129)ap_20051203_1170828__T128)ap_20051203_1170828__T127)
+16	.	$.	PUNCT	_	_	1	punct	_	name=O
+

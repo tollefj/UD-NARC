@@ -1,0 +1,992 @@
+# newdoc id = vtbnn~20050628-2383
+# global.Entity = eid-etype-head-other
+# sent_id = 012478
+# text = Vassekte verdsrekord
+1	Vassekte	vassekte	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(vtbnn~20050628_2383__T1--1
+2	verdsrekord	verdsrekord	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=vtbnn~20050628_2383__T1)
+
+# newpar
+# sent_id = 012479
+# text = Vanskelege parti
+1	Vanskelege	vanskeleg	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(vtbnn~20050628_2383__T2--1
+2	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O|Entity=vtbnn~20050628_2383__T2)
+
+# newpar
+# sent_id = 012480
+# text = Endeleg gjennomførbart
+1	Endeleg	endeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+2	gjennomførbart	gjennomførbar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+
+# newpar
+# sent_id = 012481
+# text = - Større Dalsmarken enn på lenge
+1	-	$-	PUNCT	_	_	3	punct	_	name=O|Entity=(vtbnn~20050628_2383__T3--1
+2	Større	stor	ADJ	_	Degree=Cmp	3	amod	_	name=O
+3	Dalsmarken	Dalsmarken	PROPN	_	_	0	root	_	name=B-EVT
+4	enn	enn	ADP	_	_	6	case	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	lenge	lenge	ADJ	_	Degree=Pos	2	advmod	_	name=O|Entity=(vtbnn~20050628_2383__T4--1)vtbnn~20050628_2383__T3)
+
+# newpar
+# sent_id = 012482
+# text = Sosial samlingsstad
+1	Sosial	sosial	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(vtbnn~20050628_2383__T5--1
+2	samlingsstad	samlingsstad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=vtbnn~20050628_2383__T5)
+
+# newpar
+# sent_id = 012483
+# text = Forsøker å snu dårleg trend
+1	Forsøker	forsøke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	å	å	PART	_	_	3	mark	_	name=O
+3	snu	snu	VERB	_	VerbForm=Inf	1	xcomp	_	name=O
+4	dårleg	dårleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(vtbnn~20050628_2383__T6--1
+5	trend	trend	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=vtbnn~20050628_2383__T6)
+
+# newpar
+# sent_id = 012484
+# text = Juggel, handverk og motorar
+1	Juggel	juggel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T7--1(vtbnn~20050628_2383__T8--1
+2	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=vtbnn~20050628_2383__T8)
+3	handverk	handverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	conj	_	name=O|Entity=(vtbnn~20050628_2383__T9--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	motorar	motor	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	name=O|Entity=(vtbnn~20050628_2383__T10--1)vtbnn~20050628_2383__T7)
+
+# newpar
+# sent_id = 012485
+# text = Kjetil Espedalen kan skryte av å ha ein verdsrekord, etter at han køyrde seks mil med skuter over Bandak laurdag.
+1	Kjetil	Kjetil	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__312851--1
+2	Espedalen	Espedalen	NOUN	_	Gender=Masc	1	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2383__312851)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	skryte	skryte	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	av	av	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	ha	ha	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20050628_2383__T12--1
+9	verdsrekord	verdsrekord	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T12)
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	etter	etter	SCONJ	_	_	14	mark	_	name=O
+12	at	at	SCONJ	_	_	14	mark	_	name=O
+13	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+14	køyrde	køyre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	name=O
+15	seks	seks	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(vtbnn~20050628_2383__T14--1
+16	mil	mil	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	obl	_	name=O|Entity=vtbnn~20050628_2383__T14)
+17	med	med	ADP	_	_	18	case	_	name=O
+18	skuter	skuter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(vtbnn~20050628_2383__T15--1)
+19	over	over	ADP	_	_	20	case	_	name=O
+20	Bandak	Bandak	PROPN	_	_	14	obl	_	name=B-LOC|Entity=(vtbnn~20050628_2383__111315--1)
+21	laurdag	laurdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T17--1)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012486
+# text = Kring 1.500 tilskodarar hadde samla seg for å sjå at den gamle rekorden på 2,6 mil blei slått ned i støvlane.
+1	Kring	kring	ADP	_	_	2	case	_	name=O|Entity=(vtbnn~20050628_2383__4382--1
+2	1.500	1.500	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O
+3	tilskodarar	tilskodar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=vtbnn~20050628_2383__4382)
+4	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+5	samla	samle	VERB	_	VerbForm=Part	0	root	_	name=O
+6	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	5	obj	_	name=O|Entity=(vtbnn~20050628_2383__4382--1)
+7	for	for	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	sjå	sjå	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+10	at	at	SCONJ	_	_	18	mark	_	name=O
+11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(vtbnn~20050628_2383__2109--1
+12	gamle	gammal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	rekorden	rekord	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nsubj:pass	_	name=O
+14	på	på	ADP	_	_	16	case	_	name=O
+15	2,6	2,6	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(vtbnn~20050628_2383__T20--1
+16	mil	mil	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	13	nmod	_	name=O|Entity=vtbnn~20050628_2383__T20)vtbnn~20050628_2383__2109)
+17	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux:pass	_	name=O
+18	slått	slå	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	9	ccomp	_	name=O
+19	ned	ned	ADP	_	_	18	compound:prt	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	støvlane	støvel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T21--1)
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012487
+# text = - Eg gjorde det berre for moro, seier Espedalen, som innrømmer at det ikkje var like moro heile vegen.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+3	gjorde	gjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(vtbnn~20050628_2383__6793--1)
+5	berre	berre	ADV	_	_	7	advmod	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	moro	moro	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T24--1)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+10	Espedalen	Espedalen	NOUN	_	Gender=Masc	9	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20050628_2383__312851--1
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+13	innrømmer	innrømme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O
+14	at	at	SCONJ	_	_	19	mark	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__6793--1)
+16	ikkje	ikkje	PART	_	Polarity=Neg	19	advmod	_	name=O
+17	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	name=O
+18	like	like	ADV	_	_	19	advmod	_	name=O
+19	moro	moro	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	ccomp	_	name=O
+20	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O|Entity=(vtbnn~20050628_2383__T27--1
+21	vegen	veg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T27)vtbnn~20050628_2383__312851)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012488
+# text = - Utpå Bandak var det veldig mykje bølgjer og då trudde eg at eg kom til å gå ned, seier den ferske verdsrekordhaldaren.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Utpå	utpå	ADP	_	_	3	case	_	name=O
+3	Bandak	Bandak	PROPN	_	_	8	obl	_	name=B-LOC|Entity=(vtbnn~20050628_2383__111315--1)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+6	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O|Entity=(vtbnn~20050628_2383__T29--1
+7	mykje	mykje	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	bølgjer	bølgje	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	name=O|Entity=vtbnn~20050628_2383__T29)
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	då	då	ADV	_	_	11	advmod	_	name=O
+11	trudde	tru	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	name=O
+12	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+13	at	at	SCONJ	_	_	15	mark	_	name=O
+14	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+15	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	ccomp	_	name=O
+16	til	til	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	gå	gå	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+19	ned	ned	ADP	_	_	18	compound:prt	_	SpaceAfter=No|name=O
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	name=O
+22	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	name=O|Entity=(vtbnn~20050628_2383__312851--1
+23	ferske	fersk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	24	amod	_	name=O
+24	verdsrekordhaldaren	verdsrekordhaldar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__312851)
+25	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 012489
+# text = Etter å ha køyrd att og fram mellom Dalen og Lårdal to gonger svingar Kjetil Espedalen skuteren inn til brygga på Dalen til jubel og applaus frå dei nærare 1500 publikumarane som stod og venta.
+1	Etter	etter	SCONJ	_	_	4	mark	_	name=O
+2	å	å	PART	_	_	4	mark	_	name=O
+3	ha	ha	AUX	_	VerbForm=Inf	4	aux	_	name=O
+4	køyrd	køyre	VERB	_	VerbForm=Part	14	advcl	_	name=O
+5	att	att	ADP	_	_	4	compound:prt	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	fram	fram	ADP	_	_	5	conj	_	name=O
+8	mellom	mellom	ADP	_	_	9	case	_	name=O
+9	Dalen	Dalen	PROPN	_	_	4	obl	_	name=B-LOC|Entity=(vtbnn~20050628_2383__T33--1(vtbnn~20050628_2383__6555--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	Lårdal	Lårdal	PROPN	_	_	9	conj	_	name=B-LOC|Entity=(vtbnn~20050628_2383__295--1)vtbnn~20050628_2383__T33)
+12	to	to	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(vtbnn~20050628_2383__T36--1
+13	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=vtbnn~20050628_2383__T36)
+14	svingar	svinge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+15	Kjetil	Kjetil	NOUN	_	Gender=Masc	14	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__312851--1
+16	Espedalen	Espedalen	NOUN	_	Gender=Masc	15	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2383__312851)
+17	skuteren	skuter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=(vtbnn~20050628_2383__3236--1)
+18	inn	inn	ADP	_	_	20	case	_	name=O
+19	til	til	ADP	_	_	20	case	_	name=O
+20	brygga	brygge	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	14	obl	_	name=O|Entity=(vtbnn~20050628_2383__285--1
+21	på	på	ADP	_	_	22	case	_	name=O
+22	Dalen	Dalen	PROPN	_	_	20	nmod	_	name=B-LOC|Entity=(vtbnn~20050628_2383__6555--1)vtbnn~20050628_2383__285)
+23	til	til	ADP	_	_	24	case	_	name=O
+24	jubel	jubel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(vtbnn~20050628_2383__T41--1(vtbnn~20050628_2383__T42--1)
+25	og	og	CCONJ	_	_	26	cc	_	name=O
+26	applaus	applaus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	conj	_	name=O|Entity=(vtbnn~20050628_2383__T43--1
+27	frå	frå	ADP	_	_	31	case	_	name=O
+28	dei	dei	DET	_	Number=Plur|PronType=Dem	31	det	_	name=O|Entity=(vtbnn~20050628_2383__4382--1
+29	nærare	nær	ADJ	_	Degree=Cmp	30	advmod	_	name=O
+30	1500	1500	NUM	_	Number=Plur|NumType=Card	31	nummod	_	name=O
+31	publikumarane	publikumar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	26	nmod	_	name=O
+32	som	som	PRON	_	PronType=Rel	33	nsubj	_	name=O
+33	stod	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	31	acl:relcl	_	name=O
+34	og	og	CCONJ	_	_	35	cc	_	name=O
+35	venta	vente	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	33	conj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__4382)vtbnn~20050628_2383__T43)vtbnn~20050628_2383__T41)
+36	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# newpar
+# sent_id = 012490
+# text = Mellom 1.000 og 1.500 publikummarar hadde møtt opp på brygga på Dalen for å sjå Kjetil Espedalen sikra seg plass i Guiness rekordbok med å køyre 61,18 km på vatn med snøskuter.
+1	Mellom	mellom	ADP	_	_	2	case	_	name=O|Entity=(vtbnn~20050628_2383__T45--1
+2	1.000	1.000	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	1.500	1.500	NUM	_	Number=Plur|NumType=Card	2	conj	_	name=O
+5	publikummarar	publikummar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=vtbnn~20050628_2383__T45)
+6	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	name=O
+7	møtt	møte	VERB	_	VerbForm=Part	0	root	_	name=O
+8	opp	opp	ADP	_	_	7	compound:prt	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	brygga	brygge	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(vtbnn~20050628_2383__285--1
+11	på	på	ADP	_	_	12	case	_	name=O
+12	Dalen	Dalen	PROPN	_	_	10	nmod	_	name=B-LOC|Entity=(vtbnn~20050628_2383__6555--1)vtbnn~20050628_2383__285)
+13	for	for	SCONJ	_	_	18	mark	_	name=O
+14	å	å	PART	_	_	18	mark	_	name=O
+15	sjå	sjå	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+16	Kjetil	Kjetil	NOUN	_	Gender=Masc	18	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__312851--1
+17	Espedalen	Espedalen	NOUN	_	Gender=Masc	16	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2383__312851)
+18	sikra	sikre	VERB	_	VerbForm=Inf	15	ccomp	_	name=O
+19	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	18	iobj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+20	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	name=O|Entity=(vtbnn~20050628_2383__T49--1
+21	i	i	ADP	_	_	22	case	_	name=O
+22	Guiness	Guiness	PROPN	_	_	20	nmod	_	name=B-PROD|Entity=(vtbnn~20050628_2383__T50--1
+23	rekordbok	rekordbok	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	flat:name	_	name=I-PROD|Entity=vtbnn~20050628_2383__T50)vtbnn~20050628_2383__T49)
+24	med	med	SCONJ	_	_	26	mark	_	name=O
+25	å	å	PART	_	_	26	mark	_	name=O
+26	køyre	køyre	VERB	_	VerbForm=Inf	18	advcl	_	name=O
+27	61,18	61,18	NUM	_	Number=Plur|NumType=Card	28	nummod	_	name=O|Entity=(vtbnn~20050628_2383__T51--1
+28	km	km	NOUN	_	_	26	obl	_	name=O|Entity=vtbnn~20050628_2383__T51)
+29	på	på	ADP	_	_	30	case	_	name=O
+30	vatn	vatn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	26	obl	_	name=O|Entity=(vtbnn~20050628_2383__T52--1)
+31	med	med	ADP	_	_	32	case	_	name=O
+32	snøskuter	snøskuter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T53--1)
+33	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012491
+# text = Verdsrekorden var realitet etter at han hadde køyrd fram og tilbake mellom Dalen og Gulnes utanfor Lårdal to gonger.
+1	Verdsrekorden	verdsrekord	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__3349--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	realitet	realitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20050628_2383__T55--1)
+4	etter	etter	SCONJ	_	_	8	mark	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+7	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+8	køyrd	køyre	VERB	_	VerbForm=Part	3	advcl	_	name=O
+9	fram	fram	ADP	_	_	8	compound:prt	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	tilbake	tilbake	ADP	_	_	9	conj	_	name=O
+12	mellom	mellom	ADP	_	_	13	case	_	name=O
+13	Dalen	Dalen	PROPN	_	_	8	obl	_	name=B-LOC|Entity=(vtbnn~20050628_2383__T57--1(vtbnn~20050628_2383__6555--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	Gulnes	Gulnes	PROPN	_	_	13	conj	_	name=B-LOC|Entity=(vtbnn~20050628_2383__T59--1
+16	utanfor	utanfor	ADP	_	_	17	case	_	name=O
+17	Lårdal	Lårdal	PROPN	_	_	15	nmod	_	name=B-LOC|Entity=(vtbnn~20050628_2383__295--1)vtbnn~20050628_2383__T59)vtbnn~20050628_2383__T57)
+18	to	to	NUM	_	Number=Plur|NumType=Card	19	nummod	_	name=O|Entity=(vtbnn~20050628_2383__T61--1
+19	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T61)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 012492
+# text = Ferda på vatnet tok vel ein time, og Espedalen hadde ein toppfart på 92 km i timen.
+1	Ferda	ferd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T62--1
+2	på	på	ADP	_	_	3	case	_	name=O
+3	vatnet	vatn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(vtbnn~20050628_2383__111315--1)vtbnn~20050628_2383__T62)
+4	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	vel	vel	ADV	_	_	7	advmod	_	name=O|Entity=(vtbnn~20050628_2383__T64--1
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O
+7	time	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T64)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	Espedalen	Espedalen	NOUN	_	Gender=Masc	11	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__312851--1)
+11	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	name=O
+12	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(vtbnn~20050628_2383__T66--1
+13	toppfart	toppfart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	name=O
+14	på	på	ADP	_	_	16	case	_	name=O
+15	92	92	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(vtbnn~20050628_2383__T67--1
+16	km	km	NOUN	_	_	13	nmod	_	name=O
+17	i	i	ADP	_	_	18	case	_	name=O
+18	timen	time	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T68--1)vtbnn~20050628_2383__T67)vtbnn~20050628_2383__T66)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012493
+# text = For tilskodarane såg det ut som han leika seg på vatnet og hadde full kontroll heile vegen, men det såg nok lettare ut enn det var.
+1	For	for	ADP	_	_	2	case	_	name=O
+2	tilskodarane	tilskodar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=(vtbnn~20050628_2383__4382--1)
+3	såg	sjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	ut	ut	ADP	_	_	3	compound:prt	_	name=O
+6	som	som	PRON	_	PronType=Rel	8	iobj	_	name=O
+7	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+8	leika	leike	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	xcomp	_	name=O
+9	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	8	obj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+10	på	på	ADP	_	_	11	case	_	name=O
+11	vatnet	vatn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(vtbnn~20050628_2383__111315--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	name=O
+14	full	full	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(vtbnn~20050628_2383__T72--1
+15	kontroll	kontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=vtbnn~20050628_2383__T72)
+16	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(vtbnn~20050628_2383__T73--1
+17	vegen	veg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T73)
+18	,	$,	PUNCT	_	_	21	punct	_	name=O
+19	men	men	CCONJ	_	_	21	cc	_	name=O
+20	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__2149--1)
+21	såg	sjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+22	nok	nok	ADV	_	_	21	advmod	_	name=O
+23	lettare	lett	ADJ	_	Degree=Cmp	21	xcomp	_	name=O
+24	ut	ut	ADP	_	_	21	compound:prt	_	name=O
+25	enn	enn	SCONJ	_	_	27	mark	_	name=O
+26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__2149--1)
+27	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	advcl	_	SpaceAfter=No|name=O
+28	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012494
+# text = - Det var ein del vanskelege bølgjer godt utpå vatnet, så då var eg temmeleg konsentrert, seier Espedalen etter at verdsrekorden var i boks.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(vtbnn~20050628_2383__T77--1(vtbnn~20050628_2383__T76--1
+5	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=vtbnn~20050628_2383__T76)
+6	vanskelege	vanskeleg	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	bølgjer	bølgje	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	name=O|Entity=vtbnn~20050628_2383__T77)
+8	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+9	utpå	utpå	ADP	_	_	10	case	_	name=O
+10	vatnet	vatn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__111315--1)
+11	,	$,	PUNCT	_	_	17	punct	_	name=O
+12	så	så	CCONJ	_	_	17	cc	_	name=O
+13	då	då	ADV	_	_	17	advmod	_	name=O
+14	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	name=O
+15	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+16	temmeleg	temmeleg	ADV	_	_	17	advmod	_	name=O
+17	konsentrert	konsentrere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	7	conj	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+20	Espedalen	Espedalen	NOUN	_	Gender=Masc	19	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__312851--1)
+21	etter	etter	SCONJ	_	_	24	mark	_	name=O
+22	at	at	SCONJ	_	_	24	mark	_	name=O
+23	verdsrekorden	verdsrekord	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__3349--1)
+24	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	advcl	_	name=O
+25	i	i	ADP	_	_	26	case	_	name=O
+26	boks	boks	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T82--1)
+27	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012495
+# text = Han fortel at han var i tvil om han kom til å gjennomføre den andre runden, for alt etter ein runde hadde han slått den gamle rekorden på 26 km, som blei sett i Canada.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+2	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+5	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+6	i	i	SCONJ	_	_	7	mark	_	name=O
+7	tvil	tvil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	ccomp	_	name=O|Entity=(vtbnn~20050628_2383__T85--1
+8	om	om	SCONJ	_	_	10	mark	_	name=O
+9	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+10	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl	_	name=O
+11	til	til	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	gjennomføre	gjennomføre	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(vtbnn~20050628_2383__T87--1
+15	andre	andre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	runden	runde	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T87)vtbnn~20050628_2383__T85)
+17	,	$,	PUNCT	_	_	25	punct	_	name=O
+18	for	for	CCONJ	_	_	25	cc	_	name=O
+19	alt	alt	ADV	_	_	22	advmod	_	name=O
+20	etter	etter	ADP	_	_	22	case	_	name=O
+21	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(vtbnn~20050628_2383__T88--1
+22	runde	runde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	name=O|Entity=vtbnn~20050628_2383__T88)
+23	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	name=O
+24	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+25	slått	slå	VERB	_	VerbForm=Part	2	conj	_	name=O
+26	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	name=O|Entity=(vtbnn~20050628_2383__2109--1
+27	gamle	gammal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	28	amod	_	name=O
+28	rekorden	rekord	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	obj	_	name=O
+29	på	på	ADP	_	_	31	case	_	name=O
+30	26	26	NUM	_	Number=Plur|NumType=Card	31	nummod	_	name=O|Entity=(vtbnn~20050628_2383__T91--1
+31	km	km	NOUN	_	_	28	nmod	_	SpaceAfter=No|name=O
+32	,	$,	PUNCT	_	_	35	punct	_	name=O
+33	som	som	PRON	_	PronType=Rel	35	nsubj:pass	_	name=O
+34	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	35	aux:pass	_	name=O
+35	sett	setje	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	31	acl:relcl	_	name=O
+36	i	i	ADP	_	_	37	case	_	name=O
+37	Canada	Canada	PROPN	_	_	35	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20050628_2383__T92--1)vtbnn~20050628_2383__T91)vtbnn~20050628_2383__2109)
+38	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012496
+# text = Den skutervande 23-åringen, som arbeider med anleggsmaskiner, er godt kjend med motorar, og hadde stort sett klargjort skuteren sjølv.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(vtbnn~20050628_2383__312851--1
+2	skutervande	skutervand	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	23-åringen	23-åring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	6	punct	_	name=O
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	arbeider	arbeide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	name=O
+7	med	med	ADP	_	_	8	case	_	name=O
+8	anleggsmaskiner	anleggsmaskin	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T94--1)vtbnn~20050628_2383__312851)
+9	,	$,	PUNCT	_	_	6	punct	_	name=O
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	kjend	kjend	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+13	med	med	ADP	_	_	14	case	_	name=O
+14	motorar	motor	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T95--1)
+15	,	$,	PUNCT	_	_	20	punct	_	name=O
+16	og	og	CCONJ	_	_	20	cc	_	name=O
+17	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	name=O
+18	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	name=O
+19	sett	se	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	20	advmod	_	name=O
+20	klargjort	klargjere	VERB	_	VerbForm=Part	12	conj	_	name=O
+21	skuteren	skuter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obj	_	name=O|Entity=(vtbnn~20050628_2383__3236--1)
+22	sjølv	sjølv	ADV	_	_	20	advmod	_	SpaceAfter=No|name=O
+23	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 012497
+# text = - Det einaste eg gjorde var å sveise inn ein ekstra bensintank, sette på flyte-element og tette litt sprekkar, elles er det ingen store endringar på skuteren, seier Espedalen.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O
+3	einaste	einaste	NUM	_	Definite=Def|NumType=Card	8	nsubj	_	name=O
+4	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+5	gjorde	gjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	name=O
+6	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	sveise	sveise	VERB	_	VerbForm=Inf	0	root	_	name=O
+9	inn	inn	ADP	_	_	8	compound:prt	_	name=O
+10	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(vtbnn~20050628_2383__T98--1
+11	ekstra	ekstra	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	bensintank	bensintank	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T98)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	sette	sette	VERB	_	VerbForm=Inf	8	conj	_	name=O
+15	på	på	ADP	_	_	16	case	_	name=O
+16	flyte-element	flyte-element	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	name=O|Entity=(vtbnn~20050628_2383__T99--1)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	tette	tette	VERB	_	VerbForm=Inf	8	conj	_	name=O
+19	litt	litt	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(vtbnn~20050628_2383__T100--1
+20	sprekkar	sprekk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T100)
+21	,	$,	PUNCT	_	_	27	punct	_	name=O
+22	elles	elles	ADV	_	_	27	advmod	_	name=O
+23	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	name=O
+24	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	expl	_	name=O
+25	ingen	ingen	DET	_	Number=Plur|Polarity=Neg|PronType=Neg	27	det	_	name=O|Entity=(vtbnn~20050628_2383__T101--1
+26	store	stor	ADJ	_	Degree=Pos|Number=Plur	27	amod	_	name=O
+27	endringar	endring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	conj	_	name=O|Entity=vtbnn~20050628_2383__T101)
+28	på	på	ADP	_	_	29	case	_	name=O
+29	skuteren	skuter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__3236--1)
+30	,	$,	PUNCT	_	_	27	punct	_	name=O
+31	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	name=O
+32	Espedalen	Espedalen	NOUN	_	Gender=Masc	31	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20050628_2383__312851--1)
+33	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 012498
+# text = Espedalen hadde i utgangspunktet søkt om å få køyre Bandak på langs, men fekk avslag på søknaden i frå Nome og Kviteseid kommunar.
+1	Espedalen	Espedalen	NOUN	_	Gender=Masc	5	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__312851--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	utgangspunktet	utgangspunkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(vtbnn~20050628_2383__T105--1)
+5	søkt	søkje	VERB	_	VerbForm=Part	0	root	_	name=O
+6	om	om	SCONJ	_	_	9	mark	_	name=O
+7	å	å	PART	_	_	9	mark	_	name=O
+8	få	få	AUX	_	VerbForm=Inf	9	aux	_	name=O
+9	køyre	køyre	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+10	Bandak	Bandak	PROPN	_	_	9	obl	_	name=B-LOC|Entity=(vtbnn~20050628_2383__111315--1
+11	på	på	ADP	_	_	12	case	_	name=O
+12	langs	langs	ADP	_	_	10	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__111315)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	men	men	CCONJ	_	_	15	cc	_	name=O
+15	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	name=O
+16	avslag	avslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	name=O|Entity=(vtbnn~20050628_2383__T107--1)
+17	på	på	ADP	_	_	18	case	_	name=O
+18	søknaden	søknad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(vtbnn~20050628_2383__T108--1)
+19	i	i	ADP	_	_	21	case	_	name=O
+20	frå	frå	ADP	_	_	21	case	_	name=O
+21	Nome	Nome	PROPN	_	_	15	obl	_	name=B-GPE_ORG|Entity=(vtbnn~20050628_2383__T109--1(vtbnn~20050628_2383__T110--1)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	Kviteseid	Kviteseid	PROPN	_	_	21	conj	_	name=B-GPE_ORG|Entity=(vtbnn~20050628_2383__T111--1
+24	kommunar	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	flat:name	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T111)vtbnn~20050628_2383__T109)
+25	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012499
+# text = Tokke var derimot positiv til forsøket, og derfor let verdsrekordforsøket seg gjennomføre.
+1	Tokke	tokke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=B-GPE_ORG|Entity=(vtbnn~20050628_2383__2238--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	derimot	derimot	ADV	_	_	4	advmod	_	name=O
+4	positiv	positiv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	forsøket	forsøk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T113--1)
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	derfor	derfor	ADV	_	_	10	advmod	_	name=O
+10	let	la	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	name=O
+11	verdsrekordforsøket	verdsrekordforsøk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__6793--1)
+12	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	10	iobj	_	name=O|Entity=(vtbnn~20050628_2383__6793--1)
+13	gjennomføre	gjennomføre	VERB	_	VerbForm=Inf	10	xcomp	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012500
+# text = I fjor søkte han om det same, men då fekk han avslag frå samtlege kommunar.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	fjor	fjor	NOUN	_	_	3	obl	_	name=O|Entity=(vtbnn~20050628_2383__T115--1)
+3	søkte	søkje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+5	om	om	ADP	_	_	7	case	_	name=O
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O
+7	same	same	DET	_	Definite=Def|PronType=Dem	3	obl	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	men	men	CCONJ	_	_	11	cc	_	name=O
+10	då	då	ADV	_	_	11	advmod	_	name=O
+11	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+12	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+13	avslag	avslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	name=O|Entity=(vtbnn~20050628_2383__T118--1)
+14	frå	frå	ADP	_	_	16	case	_	name=O
+15	samtlege	samtleg	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O|SplitAnte=vtbnn~20050628_2383__T109<vtbnn~20050628_2383__T119,vtbnn~20050628_2383__2238<vtbnn~20050628_2383__T119|Entity=(vtbnn~20050628_2383__T119--1
+16	kommunar	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T119)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012501
+# text = Eit av kriteria for at forsøket skulle la seg gjennomføre var at eit skikkeleg opplegg for sikkerheiten skulle godkjennast både av lensmannen og Tokke kommune.
+1	Eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	19	nsubj	_	name=O
+2	av	av	ADP	_	_	3	case	_	name=O
+3	kriteria	kriterium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	1	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T120--1
+4	for	for	SCONJ	_	_	8	mark	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	forsøket	forsøk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__6793--1)
+7	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+8	la	la	VERB	_	VerbForm=Inf	3	acl	_	name=O
+9	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	8	iobj	_	name=O|Entity=(vtbnn~20050628_2383__6793--1)
+10	gjennomføre	gjennomføre	VERB	_	VerbForm=Inf	8	xcomp	_	name=O|Entity=vtbnn~20050628_2383__T120)
+11	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	name=O
+12	at	at	SCONJ	_	_	19	mark	_	name=O
+13	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(vtbnn~20050628_2383__T122--1
+14	skikkeleg	skikkeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	name=O
+15	opplegg	opplegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nsubj	_	name=O
+16	for	for	ADP	_	_	17	case	_	name=O
+17	sikkerheiten	sikkerheit	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T123--1)vtbnn~20050628_2383__T122)
+18	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	name=O
+19	godkjennast	godkjenne	VERB	_	VerbForm=Inf	0	root	_	name=O
+20	både	både	CCONJ	_	_	22	cc	_	name=O
+21	av	av	ADP	_	_	22	case	_	name=O
+22	lensmannen	lensmann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obl	_	name=O|Entity=(vtbnn~20050628_2383__T124--1(vtbnn~20050628_2383__T125--1)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	Tokke	Tokke	PROPN	_	_	22	conj	_	name=B-GPE_ORG|Entity=(vtbnn~20050628_2383__2238--1
+25	kommune	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	flat:name	_	SpaceAfter=No|name=I-GPE_ORG|Entity=vtbnn~20050628_2383__2238)vtbnn~20050628_2383__T124)
+26	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# sent_id = 012502
+# text = Åtte båtar var på vatnet og stoppa all annan trafikk.
+1	Åtte	åtte	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(vtbnn~20050628_2383__T127--1
+2	båtar	båt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=vtbnn~20050628_2383__T127)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	vatnet	vatn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20050628_2383__111315--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	stoppa	stoppe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	name=O
+8	all	all	DET	_	Gender=Masc|Number=Sing|PronType=Tot	10	det	_	name=O|Entity=(vtbnn~20050628_2383__T129--1
+9	annan	annan	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O
+10	trafikk	trafikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T129)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012503
+# text = I tillegg var dykkarar på plass i tilfelle uhellet skulle hende.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(vtbnn~20050628_2383__T130--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+4	dykkarar	dykkar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T131--1)
+5	på	på	ADP	_	_	6	case	_	name=O
+6	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20050628_2383__T132--1)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	tilfelle	tilfelle	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(vtbnn~20050628_2383__T133--1
+9	uhellet	uhell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T134--1)
+10	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+11	hende	hende	VERB	_	VerbForm=Inf	8	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T133)
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012504
+# text = At dette blir siste gongen Kjetil Espedalen gjere noko uvanleg kan han ikkje garantere
+1	At	at	SCONJ	_	_	3	mark	_	name=O
+2	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T135--1)
+3	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	ccomp	_	name=O
+4	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(vtbnn~20050628_2383__T136--1
+5	gongen	gong	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	xcomp	_	name=O
+6	Kjetil	Kjetil	NOUN	_	Gender=Masc	8	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__312851--1
+7	Espedalen	Espedalen	NOUN	_	Gender=Masc	6	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2383__312851)
+8	gjere	gjere	VERB	_	VerbForm=Inf	5	acl:relcl	_	name=O
+9	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	10	det	_	name=O
+10	uvanleg	uvanleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	obj	_	name=O|Entity=vtbnn~20050628_2383__T136)
+11	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+12	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+13	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	name=O
+14	garantere	garantere	VERB	_	VerbForm=Inf	0	root	_	name=O
+
+# sent_id = 012505
+# text = - Det kjem an på om eg kjem på nokon lur idé, det, seier han lurt.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T139[1/2]--1)
+3	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	an	an	ADV	_	_	3	advmod	_	name=O
+5	på	på	SCONJ	_	_	8	mark	_	name=O
+6	om	om	SCONJ	_	_	8	mark	_	name=O
+7	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+8	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+9	på	på	ADP	_	_	12	case	_	name=O
+10	nokon	nokon	DET	_	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	name=O|Entity=(vtbnn~20050628_2383__T141--1
+11	lur	lur	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	idé	idé	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T141)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	appos	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T139[2/2]--1(vtbnn~20050628_2383__T142--1
+15	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=vtbnn~20050628_2383__T139[2/2])vtbnn~20050628_2383__T142)
+16	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+17	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__312851--1)
+18	lurt	lur	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 012506
+# text = Torget på Dalen var fullt av folk då Hallvard Flatland, tydeleg inspirert av kongelege opningsteknikkar, erklærte Dalsmarken 2005 for opna sist fredag.
+1	Torget	torg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__2306--1
+2	på	på	ADP	_	_	3	case	_	name=O
+3	Dalen	Dalen	PROPN	_	_	1	nmod	_	name=B-LOC|Entity=(vtbnn~20050628_2383__6555--1)vtbnn~20050628_2383__2306)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+5	fullt	full	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	name=O|Entity=(vtbnn~20050628_2383__T146--1)
+8	då	då	SCONJ	_	_	18	mark	_	name=O
+9	Hallvard	Hallvard	NOUN	_	Gender=Masc	18	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__4699--1
+10	Flatland	Flatland	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-PER
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	tydeleg	tydeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+13	inspirert	inspirere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	9	amod	_	name=O
+14	av	av	ADP	_	_	16	case	_	name=O
+15	kongelege	kongeleg	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O|Entity=(vtbnn~20050628_2383__T148--1
+16	opningsteknikkar	opningsteknikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T148)vtbnn~20050628_2383__4699)
+17	,	$,	PUNCT	_	_	9	punct	_	name=O
+18	erklærte	erklære	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+19	Dalsmarken	Dalsmarken	PROPN	_	_	18	obj	_	name=B-EVT|Entity=(vtbnn~20050628_2383__T149--1
+20	2005	2005	NUM	_	Number=Plur|NumType=Card	19	flat:name	_	name=I-EVT|Entity=vtbnn~20050628_2383__T149)
+21	for	for	SCONJ	_	_	22	mark	_	name=O
+22	opna	opne	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	18	xcomp	_	name=O|Entity=(vtbnn~20050628_2383__T150--1)
+23	sist	sist	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	24	amod	_	name=O|Entity=(vtbnn~20050628_2383__T151--1
+24	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T151)
+25	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012507
+# text = Det blei starten på ein marknad med strålande vêr, rekordmange folk, rekordmange bodar og underhaldning med alt frå gratiskonsertar på torget til verdsrekord på Bandak.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T152--1)
+2	blei	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	starten	start	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	xcomp	_	name=O|Entity=(vtbnn~20050628_2383__T153--1
+4	på	på	ADP	_	_	6	case	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20050628_2383__T154--1
+6	marknad	marknad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O
+7	med	med	ADP	_	_	9	case	_	name=O
+8	strålande	stråle	ADJ	_	VerbForm=Part	9	amod	_	name=O|Entity=(vtbnn~20050628_2383__T155--1(vtbnn~20050628_2383__T156--1
+9	vêr	vêr	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=vtbnn~20050628_2383__T156)
+11	rekordmange	rekordmange	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(vtbnn~20050628_2383__T157--1
+12	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	conj	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=vtbnn~20050628_2383__T157)
+14	rekordmange	rekordmange	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O|Entity=(vtbnn~20050628_2383__T158--1
+15	bodar	bod	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	conj	_	name=O|Entity=vtbnn~20050628_2383__T158)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	underhaldning	underhaldning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	name=O|Entity=(vtbnn~20050628_2383__T159--1
+18	med	med	ADP	_	_	19	case	_	name=O
+19	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T160--1
+20	frå	frå	ADP	_	_	21	case	_	name=O
+21	gratiskonsertar	gratiskonsert	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T161--1
+22	på	på	ADP	_	_	23	case	_	name=O
+23	torget	torg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	nmod	_	name=O|Entity=(vtbnn~20050628_2383__2306--1)vtbnn~20050628_2383__T161)
+24	til	til	ADP	_	_	25	case	_	name=O
+25	verdsrekord	verdsrekord	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T163--1
+26	på	på	ADP	_	_	27	case	_	name=O
+27	Bandak	Bandak	PROPN	_	_	25	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(vtbnn~20050628_2383__111315--1)vtbnn~20050628_2383__T163)vtbnn~20050628_2383__T160)vtbnn~20050628_2383__T159)vtbnn~20050628_2383__T155)vtbnn~20050628_2383__T154)vtbnn~20050628_2383__T153)
+28	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 012508
+# text = - Tidlegare har ein politikar opna Dalsmarken, men no ville me ha ein ny vri, så me inviterte Flatland, seier Arne Gjerlid som er leiar for arbeidsgruppa for Dalsmarken.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Tidlegare	tidleg	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(vtbnn~20050628_2383__T165--1
+5	politikar	politikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=vtbnn~20050628_2383__T165)
+6	opna	opne	VERB	_	VerbForm=Part	0	root	_	name=O
+7	Dalsmarken	Dalsmarken	PROPN	_	_	6	obj	_	SpaceAfter=No|name=B-EVT|Entity=(vtbnn~20050628_2383__71317--1)
+8	,	$,	PUNCT	_	_	13	punct	_	name=O
+9	men	men	CCONJ	_	_	13	cc	_	name=O
+10	no	no	ADV	_	_	13	advmod	_	name=O
+11	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+12	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__61198--1)
+13	ha	ha	VERB	_	VerbForm=Inf	6	conj	_	name=O
+14	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(vtbnn~20050628_2383__T168--1
+15	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	vri	vri	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T168)
+17	,	$,	PUNCT	_	_	13	punct	_	name=O
+18	så	så	CCONJ	_	_	20	cc	_	name=O
+19	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__61198--1)
+20	inviterte	invitere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	name=O
+21	Flatland	Flatland	PROPN	_	_	20	obj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20050628_2383__4699--1)
+22	,	$,	PUNCT	_	_	23	punct	_	name=O
+23	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+24	Arne	Arne	NOUN	_	Gender=Masc	23	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__71448--1
+25	Gjerlid	Gjerlid	PROPN	_	_	24	flat:name	_	name=I-PER
+26	som	som	PRON	_	PronType=Rel	28	nsubj	_	name=O
+27	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	name=O
+28	leiar	leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	acl:relcl	_	name=O|Entity=(vtbnn~20050628_2383__T172--1
+29	for	for	ADP	_	_	30	case	_	name=O
+30	arbeidsgruppa	arbeidsgruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T173--1
+31	for	for	ADP	_	_	32	case	_	name=O
+32	Dalsmarken	Dalsmarken	PROPN	_	_	30	nmod	_	SpaceAfter=No|name=B-EVT|Entity=(vtbnn~20050628_2383__71317--1)vtbnn~20050628_2383__T173)vtbnn~20050628_2383__T172)vtbnn~20050628_2383__71448)
+33	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012509
+# text = Hallvard Flatland la i opningstala vekt på at Dalsmarken ikkje berre skulle vera ein stad der ein kunne finne noko å kjøpe, men at det òg skulle vera ein sosial samlingsplass.
+1	Hallvard	Hallvard	NOUN	_	Gender=Masc	3	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__4699--1
+2	Flatland	Flatland	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2383__4699)
+3	la	leggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	opningstala	opningstale	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20050628_2383__T176--1)
+6	vekt	vekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=(vtbnn~20050628_2383__T177--1)
+7	på	på	SCONJ	_	_	15	mark	_	name=O
+8	at	at	SCONJ	_	_	15	mark	_	name=O
+9	Dalsmarken	Dalsmarken	PROPN	_	_	15	nsubj	_	name=B-EVT|Entity=(vtbnn~20050628_2383__71317--1)
+10	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	name=O
+11	berre	berre	ADV	_	_	15	advmod	_	name=O
+12	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	name=O
+13	vera	vere	AUX	_	VerbForm=Inf	15	cop	_	name=O
+14	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(vtbnn~20050628_2383__T179--1
+15	stad	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	advcl	_	name=O
+16	der	der	SCONJ	_	_	19	mark	_	name=O
+17	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	19	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T180--1)
+18	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	name=O
+19	finne	finne	VERB	_	VerbForm=Inf	15	acl	_	name=O
+20	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	19	obj	_	name=O|Entity=(vtbnn~20050628_2383__T181--1
+21	å	å	PART	_	_	22	mark	_	name=O
+22	kjøpe	kjøpe	VERB	_	VerbForm=Inf	20	acl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T181)vtbnn~20050628_2383__T179)
+23	,	$,	PUNCT	_	_	32	punct	_	name=O
+24	men	men	CCONJ	_	_	32	cc	_	name=O
+25	at	at	SCONJ	_	_	32	mark	_	name=O
+26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__71317--1)
+27	òg	òg	ADV	_	_	32	advmod	_	name=O
+28	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	name=O
+29	vera	vere	AUX	_	VerbForm=Inf	32	cop	_	name=O
+30	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	32	det	_	name=O|Entity=(vtbnn~20050628_2383__T183--1
+31	sosial	sosial	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	32	amod	_	name=O
+32	samlingsplass	samlingsplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T183)
+33	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012510
+# text = Det same var arbeidsgruppa for Dalsmarken opptekne av.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O
+2	same	same	DET	_	Definite=Def|PronType=Dem	7	obl	_	name=O
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+4	arbeidsgruppa	arbeidsgruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T184--1
+5	for	for	ADP	_	_	6	case	_	name=O
+6	Dalsmarken	Dalsmarken	PROPN	_	_	4	nmod	_	name=B-EVT|Entity=(vtbnn~20050628_2383__71317--1)vtbnn~20050628_2383__T184)
+7	opptekne	oppteken	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+8	av	av	ADP	_	_	2	case	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012511
+# text = - I år har me prøvd å få det trivlegare for folk å koma, blant anna med meir underhaldning på scena og matservering i teltet, seier Gjerlid.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	I	i	ADP	_	_	3	case	_	name=O
+3	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(vtbnn~20050628_2383__T186--1)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__61198--1)
+6	prøvd	prøve	VERB	_	VerbForm=Part	0	root	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	få	få	VERB	_	VerbForm=Inf	6	xcomp	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	name=O|Entity=(vtbnn~20050628_2383__T188--1)
+10	trivlegare	triveleg	ADJ	_	Degree=Cmp	8	xcomp	_	name=O
+11	for	for	ADP	_	_	12	case	_	name=O
+12	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obl	_	name=O|Entity=(vtbnn~20050628_2383__T189--1)
+13	å	å	PART	_	_	14	mark	_	name=O
+14	koma	kome	VERB	_	VerbForm=Inf	10	advcl	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	20	punct	_	name=O
+16	blant	blant	ADP	_	_	17	case	_	name=O
+17	anna	annan	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	20	obl	_	name=O
+18	med	med	ADP	_	_	20	case	_	name=O
+19	meir	mykje	ADJ	_	Degree=Cmp	20	amod	_	name=O|Entity=(vtbnn~20050628_2383__T190--1(vtbnn~20050628_2383__T191--1
+20	underhaldning	underhaldning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	name=O
+21	på	på	ADP	_	_	22	case	_	name=O
+22	scena	scene	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T192--1)vtbnn~20050628_2383__T191)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	matservering	matservering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	conj	_	name=O|Entity=(vtbnn~20050628_2383__T193--1
+25	i	i	ADP	_	_	26	case	_	name=O
+26	teltet	telt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T194--1)vtbnn~20050628_2383__T193)vtbnn~20050628_2383__T190)
+27	,	$,	PUNCT	_	_	28	punct	_	name=O
+28	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+29	Gjerlid	Gjerlid	PROPN	_	_	28	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20050628_2383__71448--1)
+30	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 012512
+# text = Sidan starten på 80-talet har det vore synkande interesse for Dalsmarken, men Gjerlid håpar at trenden har snudd.
+1	Sidan	sidan	ADP	_	_	2	case	_	name=O
+2	starten	start	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(vtbnn~20050628_2383__T196--1
+3	på	på	ADP	_	_	4	case	_	name=O
+4	80-talet	80-tal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T197--1)vtbnn~20050628_2383__T196)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+7	vore	vere	AUX	_	VerbForm=Part	9	cop	_	name=O
+8	synkande	synkande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(vtbnn~20050628_2383__T198--1
+9	interesse	interesse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O
+10	for	for	ADP	_	_	11	case	_	name=O
+11	Dalsmarken	Dalsmarken	PROPN	_	_	9	nmod	_	SpaceAfter=No|name=B-EVT|Entity=(vtbnn~20050628_2383__71317--1)vtbnn~20050628_2383__T198)
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	men	men	CCONJ	_	_	15	cc	_	name=O
+14	Gjerlid	Gjerlid	PROPN	_	_	15	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__71448--1)
+15	håpar	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	name=O
+16	at	at	SCONJ	_	_	19	mark	_	name=O
+17	trenden	trend	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T201--1)
+18	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	snudd	snu	VERB	_	VerbForm=Part	15	ccomp	_	SpaceAfter=No|name=O
+20	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012513
+# text = - Det er fleire folk her enn tidlegare år, seier Arne Gjerlid.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	fleire	mange	ADJ	_	Degree=Cmp	5	amod	_	name=O|Entity=(vtbnn~20050628_2383__T202[1/2]--1
+5	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=vtbnn~20050628_2383__T202[1/2])
+6	her	her	ADV	_	_	3	advmod	_	name=O
+7	enn	enn	ADP	_	_	9	case	_	name=O|Entity=(vtbnn~20050628_2383__T202[2/2]--1
+8	tidlegare	tidleg	ADJ	_	Degree=Cmp	9	amod	_	name=O|Entity=(vtbnn~20050628_2383__T203--1
+9	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T203)vtbnn~20050628_2383__T202[2/2])
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+12	Arne	Arne	NOUN	_	Gender=Masc	11	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__71448--1
+13	Gjerlid	Gjerlid	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20050628_2383__71448)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012514
+# text = Han trur Hallvard Flatland og Drangedal Bortforklaring fungerte som trekkplaster på opningskvelden.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__71448--1)
+2	trur	tru	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Hallvard	Hallvard	NOUN	_	Gender=Masc	8	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__T206--1(vtbnn~20050628_2383__4699--1
+4	Flatland	Flatland	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2383__4699)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	Drangedal	Drangedal	PROPN	_	_	3	conj	_	name=B-ORG|Entity=(vtbnn~20050628_2383__T208--1
+7	Bortforklaring	Bortforklaring	PROPN	_	_	6	flat:name	_	name=I-ORG|Entity=vtbnn~20050628_2383__T208)vtbnn~20050628_2383__T206)
+8	fungerte	fungere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	name=O
+9	som	som	SCONJ	_	_	10	mark	_	name=O
+10	trekkplaster	trekkplaster	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	xcomp	_	name=O|Entity=(vtbnn~20050628_2383__T209--1)
+11	på	på	ADP	_	_	12	case	_	name=O
+12	opningskvelden	opningskveld	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T210--1)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012515
+# text = Høgdepunktet i helga var utan tvil verdsrekorden som blei sett på Bandak.
+1	Høgdepunktet	høgdepunkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T211--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	helga	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=(vtbnn~20050628_2383__2444--1)vtbnn~20050628_2383__T211)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+5	utan	utan	ADP	_	_	6	case	_	name=O
+6	tvil	tvil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(vtbnn~20050628_2383__T213--1)
+7	verdsrekorden	verdsrekord	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20050628_2383__3349--1
+8	som	som	PRON	_	PronType=Rel	10	nsubj:pass	_	name=O
+9	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	name=O
+10	sett	setje	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	7	acl:relcl	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	Bandak	Bandak	PROPN	_	_	10	obl	_	SpaceAfter=No|name=B-LOC|Entity=(vtbnn~20050628_2383__111315--1)vtbnn~20050628_2383__3349)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012516
+# text = - Då me høyrde om at Kjetil Espedalen ville forsøke å ta ny verdsrekord med snøskuter på vatnet, tok me kontakt og planla saman, seier Gjerlid, som meiner nermare 1.500 møtte opp for å sjå verdsmeisteren i aksjon på vatnet.
+1	-	$-	PUNCT	_	_	20	punct	_	name=O
+2	Då	då	SCONJ	_	_	4	mark	_	name=O
+3	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__61198--1)
+4	høyrde	høyre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	advcl	_	name=O
+5	om	om	SCONJ	_	_	10	mark	_	name=O
+6	at	at	SCONJ	_	_	10	mark	_	name=O
+7	Kjetil	Kjetil	NOUN	_	Gender=Masc	10	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2383__312851--1
+8	Espedalen	Espedalen	NOUN	_	Gender=Masc	7	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2383__312851)
+9	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+10	forsøke	forsøke	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	ta	ta	VERB	_	VerbForm=Inf	10	xcomp	_	name=O
+13	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(vtbnn~20050628_2383__T218--1
+14	verdsrekord	verdsrekord	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=vtbnn~20050628_2383__T218)
+15	med	med	ADP	_	_	16	case	_	name=O
+16	snøskuter	snøskuter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(vtbnn~20050628_2383__T219--1)
+17	på	på	ADP	_	_	18	case	_	name=O
+18	vatnet	vatn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__111315--1)
+19	,	$,	PUNCT	_	_	4	punct	_	name=O
+20	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+21	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__61198--1)
+22	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	name=O|Entity=(vtbnn~20050628_2383__T222--1)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	planla	planleggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	_	name=O
+25	saman	saman	ADV	_	_	24	advmod	_	SpaceAfter=No|name=O
+26	,	$,	PUNCT	_	_	27	punct	_	name=O
+27	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	parataxis	_	name=O
+28	Gjerlid	Gjerlid	PROPN	_	_	27	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20050628_2383__71448--1
+29	,	$,	PUNCT	_	_	31	punct	_	name=O
+30	som	som	PRON	_	PronType=Rel	31	nsubj	_	name=O
+31	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	name=O
+32	nermare	nær	ADJ	_	Degree=Cmp	33	amod	_	name=O
+33	1.500	1.500	NUM	_	Number=Plur|NumType=Card	34	nsubj	_	name=O
+34	møtte	møte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	31	ccomp	_	name=O
+35	opp	opp	ADP	_	_	34	compound:prt	_	name=O
+36	for	for	SCONJ	_	_	38	mark	_	name=O
+37	å	å	PART	_	_	38	mark	_	name=O
+38	sjå	sjå	VERB	_	VerbForm=Inf	34	advcl	_	name=O
+39	verdsmeisteren	verdsmeister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	38	obj	_	name=O|Entity=(vtbnn~20050628_2383__T224--1)
+40	i	i	ADP	_	_	41	case	_	name=O
+41	aksjon	aksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	38	obl	_	name=O|Entity=(vtbnn~20050628_2383__T225--1)
+42	på	på	ADP	_	_	43	case	_	name=O
+43	vatnet	vatn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	38	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__111315--1)vtbnn~20050628_2383__71448)
+44	.	$.	PUNCT	_	_	20	punct	_	name=O
+
+# sent_id = 012517
+# text = Det fine vêret får òg litt av æra for at så mange som 5.000 fant vegen til Dalen denne helga.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(vtbnn~20050628_2383__T227--1
+2	fine	fin	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	vêret	vêr	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=vtbnn~20050628_2383__T227)
+4	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	òg	òg	ADV	_	_	4	advmod	_	name=O
+6	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	obj	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	æra	ære	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T228--1
+9	for	for	SCONJ	_	_	15	mark	_	name=O
+10	at	at	SCONJ	_	_	15	mark	_	name=O
+11	så	så	ADV	_	_	12	advmod	_	name=O|Entity=(vtbnn~20050628_2383__T229--1
+12	mange	mange	ADJ	_	Degree=Pos|Number=Plur	15	nsubj	_	name=O
+13	som	som	ADP	_	_	14	case	_	name=O
+14	5.000	5.000	NUM	_	Number=Plur|NumType=Card	11	obl	_	name=O|Entity=vtbnn~20050628_2383__T229)
+15	fant	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl	_	name=O
+16	vegen	veg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=(vtbnn~20050628_2383__T230--1
+17	til	til	ADP	_	_	18	case	_	name=O
+18	Dalen	Dalen	PROPN	_	_	16	nmod	_	name=B-LOC|Entity=(vtbnn~20050628_2383__6555--1)vtbnn~20050628_2383__T230)
+19	denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(vtbnn~20050628_2383__2444--1
+20	helga	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__2444)vtbnn~20050628_2383__T228)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012518
+# text = På Dalsmarken var det ikkje berre ny publikumsrekord, men òg rekordmange bodar, med varer for nokon kvar smak.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	Dalsmarken	Dalsmarken	PROPN	_	_	8	obl	_	name=B-EVT|Entity=(vtbnn~20050628_2383__71317--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	name=O
+6	berre	berre	ADV	_	_	8	advmod	_	name=O
+7	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(vtbnn~20050628_2383__T234--1
+8	publikumsrekord	publikumsrekord	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T234)
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	men	men	CCONJ	_	_	13	cc	_	name=O
+11	òg	òg	ADV	_	_	13	advmod	_	name=O|Entity=(vtbnn~20050628_2383__T235--1
+12	rekordmange	rekordmange	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	bodar	bod	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	16	punct	_	name=O
+15	med	med	ADP	_	_	16	case	_	name=O
+16	varer	vare	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	13	orphan	_	name=O|Entity=(vtbnn~20050628_2383__T236--1
+17	for	for	ADP	_	_	20	case	_	name=O
+18	nokon	nokon	DET	_	Gender=Masc|Number=Sing|PronType=Ind	20	det	_	name=O|Entity=(vtbnn~20050628_2383__T237--1
+19	kvar	kvar	DET	_	Gender=Masc|Number=Sing|PronType=Tot	20	det	_	name=O
+20	smak	smak	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T237)vtbnn~20050628_2383__T236)vtbnn~20050628_2383__T235)
+21	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012519
+# text = - Til saman hadde me 48 bodar der ein kunne finne alt frå klede og handverk til firehjulingar og juggel.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Til	til	ADP	_	_	3	case	_	name=O
+3	saman	saman	ADV	_	_	4	advmod	_	name=O
+4	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__61198--1)
+6	48	48	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(vtbnn~20050628_2383__T239--1
+7	bodar	bod	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=O
+8	der	der	SCONJ	_	_	11	mark	_	name=O
+9	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	11	nsubj	_	name=O|Entity=(vtbnn~20050628_2383__T240--1)
+10	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+11	finne	finne	VERB	_	VerbForm=Inf	7	acl	_	name=O
+12	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	name=O|Entity=(vtbnn~20050628_2383__T241--1
+13	frå	frå	ADP	_	_	14	case	_	name=O
+14	klede	klede	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T242--1(vtbnn~20050628_2383__T243--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	handverk	handverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	conj	_	name=O|Entity=(vtbnn~20050628_2383__T244--1)vtbnn~20050628_2383__T242)
+17	til	til	ADP	_	_	18	case	_	name=O
+18	firehjulingar	firehjuling	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=(vtbnn~20050628_2383__T245--1(vtbnn~20050628_2383__T246--1)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	juggel	juggel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2383__T247--1)vtbnn~20050628_2383__T245)vtbnn~20050628_2383__T241)vtbnn~20050628_2383__T239)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012520
+# text = I år var det spesielt mykje trearbied, seier Gjerlid.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(vtbnn~20050628_2383__T248--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+5	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=(vtbnn~20050628_2383__T249--1
+6	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	trearbied	trearbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2383__T249)
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+10	Gjerlid	Gjerlid	PROPN	_	_	9	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20050628_2383__71448--1)
+11	.	$.	PUNCT	_	_	7	punct	_	name=O
+

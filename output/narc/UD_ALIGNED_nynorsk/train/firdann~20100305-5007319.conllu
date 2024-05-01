@@ -1,0 +1,171 @@
+# newdoc id = firdann~20100305-5007319
+# global.Entity = eid-etype-head-other
+# sent_id = 005402
+# text = 1,2 millionar til Stavenes
+1	1,2	1,2	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(firdann~20100305_5007319__T1--1
+2	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	Stavenes	Stavenes	PROPN	_	_	2	obl	_	name=B-PROD|Entity=(firdann~20100305_5007319__7101--1)firdann~20100305_5007319__T1)
+
+# newpar
+# sent_id = 005403
+# text = Skal på sjøen att i løpet av året
+1	Skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	sjøen	sjø	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(firdann~20100305_5007319__T3--1)
+4	att	att	ADP	_	_	1	compound:prt	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	løpet	løp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	obl	_	name=O|Entity=(firdann~20100305_5007319__T4--1
+7	av	av	ADP	_	_	8	case	_	name=O
+8	året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20100305_5007319__T5--1)firdann~20100305_5007319__T4)
+
+# newpar
+# sent_id = 005404
+# text = DS «Stavenes»:
+1	DS	DS	NOUN	_	Abbr=Yes	3	nmod	_	name=O|Entity=(firdann~20100305_5007319__7101--1
+2	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+3	Stavenes	Stavenes	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-PROD
+4	»	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007319__7101)
+5	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005405
+# text = Frå 1904 til 1972 var «Stavenes» i drift for Fylkesbaatane i Sogn og Fjordane.
+1	Frå	frå	ADP	_	_	2	case	_	name=O
+2	1904	1904	NUM	_	Number=Plur|NumType=Card	10	obl	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	1972	1972	NUM	_	Number=Plur|NumType=Card	2	obl	_	name=O
+5	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	name=O
+6	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007319__7101--1
+7	Stavenes	Stavenes	PROPN	_	_	10	nsubj	_	SpaceAfter=No|name=B-PROD
+8	»	$"	PUNCT	_	_	7	punct	_	name=O|Entity=firdann~20100305_5007319__7101)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	drift	drift	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(firdann~20100305_5007319__T8--1
+11	for	for	ADP	_	_	12	case	_	name=O
+12	Fylkesbaatane	Fylkesbaatane	PROPN	_	_	10	nmod	_	name=B-ORG|Entity=(firdann~20100305_5007319__T9--1
+13	i	i	ADP	_	_	12	flat:name	_	name=I-ORG
+14	Sogn	Sogn	PROPN	_	_	12	flat:name	_	name=I-ORG|Entity=(firdann~20100305_5007319__239--1
+15	og	og	CCONJ	_	_	12	flat:name	_	name=I-ORG
+16	Fjordane	Fjordane	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100305_5007319__239)firdann~20100305_5007319__T9)firdann~20100305_5007319__T8)
+17	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 005406
+# text = No ligg den på Dåfjorden slipp
+1	No	no	ADV	_	_	2	advmod	_	name=O
+2	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20100305_5007319__7101--1)
+4	på	på	ADP	_	_	5	case	_	name=O
+5	Dåfjorden	Dåfjorden	PROPN	_	_	2	obl	_	name=B-LOC|Entity=(firdann~20100305_5007319__T11--1
+6	slipp	slipp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	flat:name	_	name=I-LOC|Entity=firdann~20100305_5007319__T11)
+
+# newpar
+# sent_id = 005407
+# text = Riksantikvaren har løyvd 1 million kroner og Vestenfjeldske Bykreditt i Bergen 200 000 kroner til D/S "Stavenes" for 2010.
+1	Riksantikvaren	Riksantikvaren	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(firdann~20100305_5007319__237--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	løyvd	løyve	VERB	_	VerbForm=Part	0	root	_	name=O
+4	1	1	NUM	_	NumType=Card	5	nummod	_	name=O|Entity=(firdann~20100305_5007319__T14--1(firdann~20100305_5007319__T13--1
+5	million	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=firdann~20100305_5007319__T13)
+6	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	name=O|Entity=firdann~20100305_5007319__T14)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Vestenfjeldske	Vestenfjeldske	PROPN	_	_	3	conj	_	name=B-ORG|Entity=(firdann~20100305_5007319__T15--1
+9	Bykreditt	Bykreditt	PROPN	_	_	8	orphan	_	name=I-ORG
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Bergen	Bergen	PROPN	_	_	8	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100305_5007319__T16--1)
+12	200	200	NUM	_	Number=Plur|NumType=Card	13	compound	_	name=O|Entity=(firdann~20100305_5007319__T17--1
+13	000	000	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O
+14	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	name=O
+15	til	til	ADP	_	_	18	case	_	name=O
+16	D/S	DS	NOUN	_	Abbr=Yes	18	nmod	_	name=O|Entity=(firdann~20100305_5007319__7101--1
+17	"	$"	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O
+18	Stavenes	Stavenes	PROPN	_	_	14	nmod	_	SpaceAfter=No|name=B-PROD
+19	"	$"	PUNCT	_	_	18	punct	_	name=O|Entity=firdann~20100305_5007319__7101)firdann~20100305_5007319__T17)
+20	for	for	ADP	_	_	21	case	_	name=O
+21	2010	2010	NUM	_	Number=Plur|NumType=Card	8	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007319__T15)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005408
+# text = Fylket sin einaste attverande dampbåt er i ferd med å bli førd tilbake til slik den var i 1939.
+1	Fylket	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100305_5007319__T21--1(firdann~20100305_5007319__239--1)
+2	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O
+3	einaste	einaste	NUM	_	Definite=Def|NumType=Card	5	nummod	_	name=O
+4	attverande	attverande	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	dampbåt	dampbåt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=firdann~20100305_5007319__T21)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	ferd	ferd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(firdann~20100305_5007319__T22--1
+9	med	med	SCONJ	_	_	12	mark	_	name=O
+10	å	å	PART	_	_	12	mark	_	name=O
+11	bli	bli	AUX	_	VerbForm=Inf	12	aux:pass	_	name=O
+12	førd	føre	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	8	acl	_	name=O
+13	tilbake	tilbake	ADP	_	_	15	case	_	name=O
+14	til	til	ADP	_	_	15	case	_	name=O
+15	slik	slik	ADV	_	_	12	advmod	_	name=O
+16	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(firdann~20100305_5007319__7101--1)
+17	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	1939	1939	NUM	_	Number=Plur|NumType=Card	17	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007319__T22)
+20	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 005409
+# text = Av dei 40 mill som Riksantikvaren har til fartyvern, var ca. halvparten av desse øyremerkte til prioriterte prosjekt.
+1	Av	av	ADP	_	_	4	case	_	name=O
+2	dei	dei	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(firdann~20100305_5007319__252--1
+3	40	40	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+4	mill	mill.	NOUN	_	Abbr=Yes	16	obl	_	name=O
+5	som	som	PRON	_	PronType=Rel	7	obj	_	name=O
+6	Riksantikvaren	Riksantikvaren	PROPN	_	_	7	nsubj	_	name=B-ORG|Entity=(firdann~20100305_5007319__237--1)
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	fartyvern	fartyvern	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007319__T26--1)firdann~20100305_5007319__252)
+10	,	$,	PUNCT	_	_	4	punct	_	name=O
+11	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	name=O
+12	ca.	ca.	ADV	_	Abbr=Yes	13	advmod	_	name=O|Entity=(firdann~20100305_5007319__T27--1
+13	halvparten	halvpart	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	name=O
+14	av	av	ADP	_	_	15	case	_	name=O
+15	desse	desse	PRON	_	Number=Plur|Person=3|PronType=Prs	13	nmod	_	name=O|Entity=(firdann~20100305_5007319__252--1)firdann~20100305_5007319__T27)
+16	øyremerkte	øyremerke	ADJ	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+17	til	til	ADP	_	_	19	case	_	name=O
+18	prioriterte	prioritere	ADJ	_	Number=Plur|VerbForm=Part	19	amod	_	name=O|Entity=(firdann~20100305_5007319__T29--1
+19	prosjekt	prosjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007319__T29)
+20	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 005410
+# text = Totalt var det søkt om 170 millionar til fartyvern på landsbasis.
+1	Totalt	total	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	søkt	søkje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	om	om	ADP	_	_	7	case	_	name=O
+6	170	170	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(firdann~20100305_5007319__T30--1
+7	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	fartyvern	fartyvern	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=(firdann~20100305_5007319__T31--1)
+10	på	på	ADP	_	_	11	case	_	name=O
+11	landsbasis	landsbasis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007319__T32--1)firdann~20100305_5007319__T30)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005411
+# text = At "Stavenes"-prosjektet får 1 million syner at D/S "Stavenes" no er med i øvste divisjon.
+1	At	at	SCONJ	_	_	7	mark	_	name=O
+2	"	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=B-DRV|Entity=(firdann~20100305_5007319__T33--1
+3	Stavenes	Stavenes	PROPN	_	_	6	compound	_	SpaceAfter=No|name=I-DRV
+4	"	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=I-DRV
+5	-	$-	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=I-DRV
+6	prosjektet	prosjekt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=I-DRV|Entity=firdann~20100305_5007319__T33)
+7	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	csubj	_	name=O
+8	1	1	NUM	_	NumType=Card	9	nummod	_	name=O|Entity=(firdann~20100305_5007319__T34--1
+9	million	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=firdann~20100305_5007319__T34)
+10	syner	syne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	at	at	SCONJ	_	_	18	mark	_	name=O
+12	D/S	DS	NOUN	_	Abbr=Yes	14	nmod	_	name=O|Entity=(firdann~20100305_5007319__7101--1
+13	"	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O
+14	Stavenes	Stavenes	PROPN	_	_	18	nsubj	_	SpaceAfter=No|name=B-PROD
+15	"	$"	PUNCT	_	_	14	punct	_	name=O|Entity=firdann~20100305_5007319__7101)
+16	no	no	ADV	_	_	18	advmod	_	name=O
+17	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	name=O
+18	med	med	ADP	_	_	10	ccomp	_	name=O
+19	i	i	ADP	_	_	21	case	_	name=O
+20	øvste	øvre	ADJ	_	Definite=Def|Degree=Sup	21	amod	_	name=O|Entity=(firdann~20100305_5007319__T36--1
+21	divisjon	divisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007319__T36)
+22	.	$.	PUNCT	_	_	10	punct	_	name=O
+

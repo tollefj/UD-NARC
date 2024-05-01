@@ -1,0 +1,118 @@
+# newdoc id = firdann~20100305-5007425
+# global.Entity = eid-etype-head-other
+# sent_id = 005424
+# text = - Lat oss ha eit sterkt sentralsjukehus
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Lat	late	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+3	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	2	iobj	_	name=O|Entity=(firdann~20100305_5007425__644--1)
+4	ha	ha	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20100305_5007425__215--1
+6	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=firdann~20100305_5007425__215)
+
+# newpar
+# sent_id = 005425
+# text = Aksjonsgruppa for Førde sentralsjukehus bad helseministeren ta eit klart val.
+1	Aksjonsgruppa	Aksjonsgruppa	PROPN	_	_	5	nsubj	_	name=B-ORG|Entity=(firdann~20100305_5007425__644--1
+2	for	for	ADP	_	_	1	flat:name	_	name=I-ORG
+3	Førde	Førde	PROPN	_	_	1	flat:name	_	name=I-ORG
+4	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007425__644)
+5	bad	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	helseministeren	helseminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	iobj	_	name=O|Entity=(firdann~20100305_5007425__218--1)
+7	ta	ta	VERB	_	VerbForm=Inf	5	xcomp	_	name=O
+8	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(firdann~20100305_5007425__T5--1
+9	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	name=O
+10	val	val	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007425__T5)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 005426
+# text = Aksjonsgruppa for Førde sentralsjukehus
+1	Aksjonsgruppa	Aksjonsgruppa	PROPN	_	_	0	root	_	name=B-ORG|Entity=(firdann~20100305_5007425__644--1
+2	for	for	ADP	_	_	1	flat:name	_	name=I-ORG
+3	Førde	Førde	PROPN	_	_	1	flat:name	_	name=I-ORG
+4	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	flat:name	_	name=I-ORG|Entity=firdann~20100305_5007425__644)
+
+# newpar
+# sent_id = 005427
+# text = - Vi vil ha ei sterk spesialisthelseteneste, og ønskjer at styret får rom til å jobbe fritt, var beskjeden aksjonistane for Førde sentralsjukehus gav til helseminister Anne-Grethe Strøm-Erichsen.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20100305_5007425__644--1)
+3	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20100305_5007425__T8--1
+6	sterk	sterk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	spesialisthelseteneste	spesialisthelseteneste	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=firdann~20100305_5007425__T8)
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	ønskjer	ønskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+11	at	at	SCONJ	_	_	13	mark	_	name=O
+12	styret	styre	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	name=O|Bridge=firdann~20100305_5007425__T8<firdann~20100305_5007425__T9:default|Entity=(firdann~20100305_5007425__T9--1)
+13	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	name=O
+14	rom	rom	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	name=O|Entity=(firdann~20100305_5007425__T10--1)
+15	til	til	SCONJ	_	_	17	mark	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	jobbe	jobbe	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+18	fritt	fri	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	SpaceAfter=No|name=O
+19	,	$,	PUNCT	_	_	21	punct	_	name=O
+20	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	cop	_	name=O
+21	beskjeden	beskjed	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	parataxis	_	name=O|Entity=(firdann~20100305_5007425__T11--1
+22	aksjonistane	aksjonist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	26	nsubj	_	name=O|Entity=(firdann~20100305_5007425__644--1
+23	for	for	ADP	_	_	24	case	_	name=O
+24	Førde	Førde	PROPN	_	_	22	nmod	_	name=B-LOC|Entity=(firdann~20100305_5007425__215--1
+25	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	flat:name	_	name=I-LOC|Entity=firdann~20100305_5007425__215)firdann~20100305_5007425__644)
+26	gav	gje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	acl:relcl	_	name=O
+27	til	til	ADP	_	_	29	case	_	name=O
+28	helseminister	helseminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	name=O|Entity=(firdann~20100305_5007425__218--1
+29	Anne-Grethe	Anne-Grethe	PROPN	_	_	26	obl	_	name=B-PER
+30	Strøm-Erichsen	Strøm-Erichsen	PROPN	_	_	29	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20100305_5007425__218)firdann~20100305_5007425__T11)
+31	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005428
+# text = Dei la vekt på at eit sterkt sentralsjukehus i Førde er heilt nødvendig for å behalde sjukepleieutdanninga i fylket og for å sikre rekruttering av fagpersonell til fylket.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20100305_5007425__644--1)
+2	la	leggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	vekt	vekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(firdann~20100305_5007425__T16--1)
+4	på	på	SCONJ	_	_	13	mark	_	name=O
+5	at	at	SCONJ	_	_	13	mark	_	name=O
+6	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20100305_5007425__242--1
+7	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+8	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nsubj	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Førde	Førde	PROPN	_	_	8	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100305_5007425__T18--1)firdann~20100305_5007425__242)
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+12	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+13	nødvendig	nødvendig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advcl	_	name=O
+14	for	for	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	behalde	behalde	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+17	sjukepleieutdanninga	sjukepleieutdanning	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	16	obj	_	name=O|Entity=(firdann~20100305_5007425__T19--1
+18	i	i	ADP	_	_	19	case	_	name=O
+19	fylket	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	name=O|Entity=(firdann~20100305_5007425__371--1)firdann~20100305_5007425__T19)
+20	og	og	CCONJ	_	_	23	cc	_	name=O
+21	for	for	ADP	_	_	23	case	_	name=O
+22	å	å	PART	_	_	23	mark	_	name=O
+23	sikre	sikre	VERB	_	VerbForm=Inf	16	conj	_	name=O
+24	rekruttering	rekruttering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	23	obj	_	name=O|Entity=(firdann~20100305_5007425__T21--1
+25	av	av	ADP	_	_	26	case	_	name=O
+26	fagpersonell	fagpersonell	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	nmod	_	name=O|Entity=(firdann~20100305_5007425__T22--1)
+27	til	til	ADP	_	_	28	case	_	name=O
+28	fylket	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007425__371--1)firdann~20100305_5007425__T21)
+29	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005429
+# text = - Vi treng sentralsjukehuset som ein motor for helsetilbodet i fylket vårt.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20100305_5007425__253--1)
+3	treng	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	sentralsjukehuset	sentralsjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(firdann~20100305_5007425__242--1)
+5	som	som	SCONJ	_	_	7	mark	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20100305_5007425__T26--1
+7	motor	motor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	helsetilbodet	helsetilbod	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=(firdann~20100305_5007425__T27--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	fylket	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(firdann~20100305_5007425__371--1
+12	vårt	vår	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100305_5007425__253--1)firdann~20100305_5007425__371)firdann~20100305_5007425__T27)firdann~20100305_5007425__T26)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+

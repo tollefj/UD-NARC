@@ -1,0 +1,269 @@
+# newdoc id = dot~20051126-523
+# global.Entity = eid-etype-head-other
+# sent_id = 002830
+# text = Madam Tussaud's slukt av oljen
+1	Madam	madam	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	name=B-ORG|Entity=(dot~20051126_523__260--1
+2	Tussaud's	Tussaud's	PROPN	_	_	3	nsubj	_	name=I-ORG|Entity=dot~20051126_523__260)
+3	slukt	sluke	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	oljen	olje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(dot~20051126_523__216--1)
+
+# newpar
+# sent_id = 002831
+# text = Dei store oljeeksporterande landa i verda veit knapt kor dei skal gjere av all rikdommen som den høge oljeprisen gjev dei.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(dot~20051126_523__667--1
+2	store	stor	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+3	oljeeksporterande	oljeeksportere	ADJ	_	VerbForm=Part	4	amod	_	name=O
+4	landa	land	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	verda	verd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	name=O|Entity=(dot~20051126_523__T4--1)dot~20051126_523__667)
+7	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	knapt	knapp	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+9	kor	kor	ADV	_	_	12	advmod	_	name=O
+10	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(dot~20051126_523__667--1)
+11	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	gjere	gjere	VERB	_	VerbForm=Inf	7	ccomp	_	name=O
+13	av	av	ADP	_	_	15	case	_	name=O
+14	all	all	DET	_	Gender=Masc|Number=Sing|PronType=Tot	15	det	_	name=O|Entity=(dot~20051126_523__T6--1
+15	rikdommen	rikdom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	name=O
+16	som	som	PRON	_	PronType=Rel	20	iobj	_	name=O
+17	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(dot~20051126_523__T7--1
+18	høge	høg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	oljeprisen	oljepris	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nsubj	_	name=O|Entity=dot~20051126_523__T7)
+20	gjev	gje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+21	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No|name=O|Entity=(dot~20051126_523__667--1)dot~20051126_523__T6)
+22	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 002832
+# text = I år kan dei oljeeksporterande landa hanke inn kring 700 milliardar dollar på eksport av den dyrebare råvara, skriv The Economist.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(dot~20051126_523__T9--1)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+4	dei	dei	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(dot~20051126_523__667--1
+5	oljeeksporterande	oljeeksportere	ADJ	_	VerbForm=Part	6	amod	_	name=O
+6	landa	land	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	name=O|Entity=dot~20051126_523__667)
+7	hanke	hanke	VERB	_	VerbForm=Inf	0	root	_	name=O
+8	inn	inn	ADP	_	_	7	compound:prt	_	name=O
+9	kring	kring	ADP	_	_	10	case	_	name=O|Entity=(dot~20051126_523__T12--1(dot~20051126_523__T11--1
+10	700	700	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O
+11	milliardar	milliard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=dot~20051126_523__T11)
+12	dollar	dollar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	name=O|Entity=dot~20051126_523__T12)
+13	på	på	ADP	_	_	14	case	_	name=O
+14	eksport	eksport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(dot~20051126_523__T13--1
+15	av	av	ADP	_	_	18	case	_	name=O
+16	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(dot~20051126_523__216--1
+17	dyrebare	dyrebar	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	råvara	råvare	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=dot~20051126_523__216)dot~20051126_523__T13)
+19	,	$,	PUNCT	_	_	20	punct	_	name=O
+20	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+21	The	The	PROPN	_	_	20	nsubj	_	name=B-PROD|Entity=(dot~20051126_523__T15--1
+22	Economist	Economist	PROPN	_	_	21	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=dot~20051126_523__T15)
+23	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 002833
+# text = Handelsoverskotet til oljeeksportørlanda kan bli så stort som 400 milliardar dollar, over fire gonger så mykje som i 2002.
+1	Handelsoverskotet	handelsoverskot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(dot~20051126_523__T16--1
+2	til	til	ADP	_	_	3	case	_	name=O
+3	oljeeksportørlanda	oljeeksportørland	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	1	nmod	_	name=O|Entity=(dot~20051126_523__667--1)dot~20051126_523__T16)
+4	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	bli	bli	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	så	så	ADV	_	_	7	advmod	_	name=O
+7	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	xcomp	_	name=O
+8	som	som	ADP	_	_	11	case	_	name=O
+9	400	400	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(dot~20051126_523__T19--1(dot~20051126_523__T18--1
+10	milliardar	milliard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	nmod	_	name=O|Entity=dot~20051126_523__T18)
+11	dollar	dollar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=dot~20051126_523__T19)
+12	,	$,	PUNCT	_	_	17	punct	_	name=O
+13	over	over	ADP	_	_	14	case	_	name=O
+14	fire	fire	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O|Entity=(dot~20051126_523__T20--1
+15	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obl	_	name=O|Entity=dot~20051126_523__T20)
+16	så	så	ADV	_	_	17	advmod	_	name=O
+17	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	appos	_	name=O
+18	som	som	ADP	_	_	20	case	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	2002	2002	NUM	_	Number=Plur|NumType=Card	16	obl	_	SpaceAfter=No|name=O|Entity=(dot~20051126_523__T69--1)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002834
+# text = Oljeprisveksten fører til ei kolossal pengeoverføring frå dei oljeimporterande til dei oljeeksporterande landa.
+1	Oljeprisveksten	oljeprisvekst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(dot~20051126_523__T21--1)
+2	fører	føre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	6	case	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(dot~20051126_523__T22--1
+5	kolossal	kolossal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	pengeoverføring	pengeoverføring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O
+7	frå	frå	ADP	_	_	9	case	_	name=O
+8	dei	dei	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(dot~20051126_523__T23--1
+9	oljeimporterande	oljeimportere	ADJ	_	VerbForm=Part	6	amod	_	name=O|Entity=dot~20051126_523__T23)
+10	til	til	ADP	_	_	13	case	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(dot~20051126_523__667--1
+12	oljeeksporterande	oljeeksportere	ADJ	_	VerbForm=Part	13	amod	_	name=O
+13	landa	land	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=dot~20051126_523__667)dot~20051126_523__T22)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 002835
+# text = Men kor blir alle pengane av?
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	kor	kor	ADV	_	_	3	advmod	_	name=O
+3	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	alle	all	DET	_	Number=Plur|PronType=Tot	5	det	_	name=O|Bridge=dot~20051126_523__T22<dot~20051126_523__T25:default|Entity=(dot~20051126_523__T25--1
+5	pengane	penge	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=dot~20051126_523__T25)
+6	av	av	ADP	_	_	3	xcomp	_	SpaceAfter=No|name=O
+7	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 002836
+# text = Noko blir sjølvsagt brukt på offentlege utgifter innanlands, i Noreg som i andre oljeland.
+1	Noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	4	nsubj:pass	_	name=O|Entity=(dot~20051126_523__T26--1)
+2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	name=O
+3	sjølvsagt	sjølvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	brukt	bruke	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	på	på	ADP	_	_	7	case	_	name=O
+6	offentlege	offentleg	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(dot~20051126_523__T27--1
+7	utgifter	utgift	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	obl	_	name=O|Entity=dot~20051126_523__T27)
+8	innanlands	innanlands	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Noreg	Noreg	PROPN	_	_	8	obl	_	name=B-GPE_LOC|Entity=(dot~20051126_523__259--1)
+12	som	som	ADP	_	_	15	case	_	name=O
+13	i	i	ADP	_	_	15	case	_	name=O
+14	andre	annan	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(dot~20051126_523__T29--1
+15	oljeland	oljeland	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=dot~20051126_523__T29)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 002837
+# text = Men til liks med Noreg sparer òg dei fleste store oljelanda, som Opec-landa og Russland, no ein mykje større del av formuen sin.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	til	til	ADP	_	_	3	case	_	name=O
+3	liks	lik	ADJ	_	Case=Gen|Definite=Ind|Degree=Pos|Number=Sing	6	advmod	_	name=O|Entity=(dot~20051126_523__T30--1
+4	med	med	ADP	_	_	5	case	_	name=O
+5	Noreg	Noreg	PROPN	_	_	3	nmod	_	name=B-GPE_ORG|Entity=(dot~20051126_523__259--1)dot~20051126_523__T30)
+6	sparer	spare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	òg	òg	ADV	_	_	6	advmod	_	name=O
+8	dei	dei	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(dot~20051126_523__270--1
+9	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	11	amod	_	name=O
+10	store	stor	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	oljelanda	oljeland	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nsubj	_	SpaceAfter=No|name=O|Entity=dot~20051126_523__270)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	som	som	ADP	_	_	14	case	_	name=O
+14	Opec-landa	Opec-land	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	nmod	_	name=B-DRV|Entity=(dot~20051126_523__T33--1(dot~20051126_523__2102--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	Russland	Russland	PROPN	_	_	14	conj	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(dot~20051126_523__T35--1)dot~20051126_523__T33)
+17	,	$,	PUNCT	_	_	14	punct	_	name=O
+18	no	no	ADV	_	_	6	advmod	_	name=O
+19	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(dot~20051126_523__T36--1
+20	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+21	større	stor	ADJ	_	Degree=Cmp	22	amod	_	name=O
+22	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O
+23	av	av	ADP	_	_	24	case	_	name=O
+24	formuen	formue	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	name=O|Entity=(dot~20051126_523__T37--1
+25	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20051126_523__270--1)dot~20051126_523__T37)dot~20051126_523__T36)
+26	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 002838
+# text = Dei fleste oljeland har lært av tidlegare sløsing med oljepengar.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(dot~20051126_523__T39--1
+2	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	3	amod	_	name=O
+3	oljeland	oljeland	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=dot~20051126_523__T39)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	lært	lære	VERB	_	VerbForm=Part	0	root	_	name=O
+6	av	av	ADP	_	_	8	case	_	name=O
+7	tidlegare	tidleg	ADJ	_	Degree=Cmp	8	amod	_	name=O|Entity=(dot~20051126_523__T40--1
+8	sløsing	sløsing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O
+9	med	med	ADP	_	_	10	case	_	name=O
+10	oljepengar	oljepenge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20051126_523__T41--1)dot~20051126_523__T40)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002839
+# text = Det meste av sparinga skjer i form av aksjar og andre verdipapir i utlandet.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(dot~20051126_523__T42--1
+2	meste	mykje	ADJ	_	Definite=Def|Degree=Sup	5	nsubj	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	sparinga	sparing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=(dot~20051126_523__2104--1)dot~20051126_523__T42)
+5	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	form	form	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=(dot~20051126_523__T44--1
+8	av	av	ADP	_	_	9	case	_	name=O
+9	aksjar	aksje	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=(dot~20051126_523__T45--1(dot~20051126_523__T46--1)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	andre	annan	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(dot~20051126_523__T47--1
+12	verdipapir	verdipapir	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	conj	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	utlandet	utland	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=(dot~20051126_523__T48--1)dot~20051126_523__T47)dot~20051126_523__T45)dot~20051126_523__T44)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 002840
+# text = Oljepengar frå Dubai har til dømes blitt brukte til å kjøpe aksjar for ein milliard dollar i DaimlerChrysler - og heile Tussaud's Group, temaparkselskapet bygd opp frå vokskabinettet Madam Tussaud's i London.
+1	Oljepengar	oljepenge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj:pass	_	name=O|Entity=(dot~20051126_523__T49--1
+2	frå	frå	ADP	_	_	3	case	_	name=O
+3	Dubai	Dubai	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(dot~20051126_523__T50--1)dot~20051126_523__T49)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	dømes	døme	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(dot~20051126_523__T51--1)
+7	blitt	bli	AUX	_	VerbForm=Part	8	aux:pass	_	name=O
+8	brukte	bruke	VERB	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	kjøpe	kjøpe	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+12	aksjar	aksje	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	name=O|Entity=(dot~20051126_523__T52--1)
+13	for	for	ADP	_	_	16	case	_	name=O
+14	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(dot~20051126_523__T54--1(dot~20051126_523__T53--1
+15	milliard	milliard	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=dot~20051126_523__T53)
+16	dollar	dollar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obl	_	name=O|Entity=dot~20051126_523__T54)
+17	i	i	ADP	_	_	18	case	_	name=O
+18	DaimlerChrysler	DaimlerChrysler	PROPN	_	_	11	obl	_	name=B-ORG|Entity=(dot~20051126_523__T55--1(dot~20051126_523__T56--1
+19	-	$-	PUNCT	_	_	22	punct	_	name=O|Entity=dot~20051126_523__T56)
+20	og	og	CCONJ	_	_	22	cc	_	name=O
+21	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O|Entity=(dot~20051126_523__T57--1
+22	Tussaud's	Tussaud's	PROPN	_	_	18	conj	_	name=B-ORG
+23	Group	Group	PROPN	_	_	22	flat:name	_	SpaceAfter=No|name=I-ORG
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	temaparkselskapet	temaparkselskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	appos	_	name=O|Entity=(dot~20051126_523__T58--1
+26	bygd	byggje	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	25	amod	_	name=O
+27	opp	opp	ADP	_	_	26	obl	_	name=O
+28	frå	frå	ADP	_	_	30	case	_	name=O
+29	vokskabinettet	vokskabinett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	30	nmod	_	name=O|Entity=(dot~20051126_523__260--1
+30	Madam	Madam	PROPN	_	_	26	obl	_	name=B-LOC
+31	Tussaud's	Tussaud's	PROPN	_	_	30	flat:name	_	name=I-LOC
+32	i	i	ADP	_	_	33	case	_	name=O
+33	London	London	PROPN	_	_	30	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(dot~20051126_523__T60--1)dot~20051126_523__260)dot~20051126_523__T58)dot~20051126_523__T57)dot~20051126_523__T55)
+34	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 002841
+# text = Så omfattande har sparinga av oljepengar blitt at Det internasjonale pengefondet (IMF), som nesten alltid talar for innstrammingar og moderasjon, har oppmoda Opec-landa om å spare mindre og bruke meir.
+1	Så	så	ADV	_	_	2	advmod	_	name=O
+2	omfattande	omfattande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	xcomp	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+4	sparinga	sparing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	name=O|Entity=(dot~20051126_523__2104--1
+5	av	av	ADP	_	_	6	case	_	name=O
+6	oljepengar	oljepenge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	name=O|Entity=(dot~20051126_523__T62--1)dot~20051126_523__2104)
+7	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+8	at	at	SCONJ	_	_	26	mark	_	name=O
+9	Det	Det	PROPN	_	_	26	nsubj	_	name=B-ORG|Entity=(dot~20051126_523__T63--1
+10	internasjonale	internasjonal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	flat:name	_	name=I-ORG
+11	pengefondet	pengefond	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	flat:name	_	name=I-ORG
+12	(	$(	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O|Entity=(dot~20051126_523__T64--1
+13	IMF	IMF	PROPN	_	_	9	appos	_	SpaceAfter=No|name=B-ORG
+14	)	$)	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=dot~20051126_523__T64)
+16	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+17	nesten	nesten	ADV	_	_	18	advmod	_	name=O
+18	alltid	alltid	ADV	_	_	19	advmod	_	name=O
+19	talar	tale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+20	for	for	ADP	_	_	21	case	_	name=O
+21	innstrammingar	innstramming	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	obl	_	name=O|Entity=(dot~20051126_523__T65--1(dot~20051126_523__T66--1)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	moderasjon	moderasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No|name=O|Entity=(dot~20051126_523__T67--1)dot~20051126_523__T65)dot~20051126_523__T63)
+24	,	$,	PUNCT	_	_	9	punct	_	name=O
+25	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	name=O
+26	oppmoda	oppmode	VERB	_	VerbForm=Part	1	advcl	_	name=O
+27	Opec-landa	Opec-land	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	26	obj	_	name=B-DRV|Entity=(dot~20051126_523__2102--1)
+28	om	om	SCONJ	_	_	30	mark	_	name=O
+29	å	å	PART	_	_	30	mark	_	name=O
+30	spare	spare	VERB	_	VerbForm=Inf	26	advcl	_	name=O
+31	mindre	liten	ADJ	_	Degree=Cmp	30	advmod	_	name=O
+32	og	og	CCONJ	_	_	33	cc	_	name=O
+33	bruke	bruke	VERB	_	VerbForm=Inf	30	conj	_	name=O
+34	meir	mykje	ADJ	_	Degree=Cmp	33	advmod	_	SpaceAfter=No|name=O
+35	.	$.	PUNCT	_	_	7	punct	_	name=O
+

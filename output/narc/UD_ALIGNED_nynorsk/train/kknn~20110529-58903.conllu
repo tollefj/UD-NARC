@@ -1,0 +1,430 @@
+# newdoc id = kknn~20110529-58903
+# global.Entity = eid-etype-head-other
+# sent_id = 010033
+# text = Høgresida?
+1	Høgresida	høgreside	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(kknn~20110529_58903__3164--1)
+2	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 010035
+# text = * SVs leiar Kristin Halvorsen gjev i Klassekampen laurdag eit grundig svar på delar av kritikken som den utmelde partiveteranen Tore Linné Eriksen har retta mot SVs utvikling.
+1	*	*	PUNCT	_	_	6	punct	_	name=O
+2	SVs	SV	NOUN	_	Abbr=Yes|Case=Gen	3	nmod	_	name=B-ORG|Entity=(kknn~20110529_58903__11622--1(kknn~20110529_58903__T3--1(kknn~20110529_58903__11753--1)
+3	leiar	leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=kknn~20110529_58903__T3)
+4	Kristin	Kristin	NOUN	_	Gender=Fem	6	nsubj	_	name=B-PER
+5	Halvorsen	Halvorsen	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=kknn~20110529_58903__11622)
+6	gjev	gje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Klassekampen	Klassekampen	PROPN	_	_	6	obl	_	name=B-PROD|Entity=(kknn~20110529_58903__394--1)
+9	laurdag	laurdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(kknn~20110529_58903__T6--1)
+10	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kknn~20110529_58903__T7--1
+11	grundig	grundig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	name=O
+12	svar	svar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O
+13	på	på	ADP	_	_	14	case	_	name=O
+14	delar	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=(kknn~20110529_58903__T8--1
+15	av	av	ADP	_	_	16	case	_	name=O
+16	kritikken	kritikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(kknn~20110529_58903__261--1
+17	som	som	PRON	_	PronType=Rel	25	obj	_	name=O
+18	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	name=O|Bridge=kknn~20110529_58903__11753<kknn~20110529_58903__6228:default|Entity=(kknn~20110529_58903__6228--1(kknn~20110529_58903__T10--1
+19	utmelde	utmelde	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	20	amod	_	name=O
+20	partiveteranen	partiveteran	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=kknn~20110529_58903__T10)
+21	Tore	Tore	NOUN	_	Gender=Masc	25	nsubj	_	name=B-PER
+22	Linné	Linné	PROPN	_	_	21	flat:name	_	name=I-PER
+23	Eriksen	Eriksen	PROPN	_	_	21	flat:name	_	name=I-PER|Entity=kknn~20110529_58903__6228)
+24	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	retta	rette	VERB	_	VerbForm=Part	16	acl:relcl	_	name=O
+26	mot	mot	ADP	_	_	28	case	_	name=O
+27	SVs	SV	NOUN	_	Abbr=Yes|Case=Gen	28	nmod	_	name=B-ORG|Entity=(kknn~20110529_58903__T13--1(kknn~20110529_58903__11753--1)
+28	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110529_58903__T13)kknn~20110529_58903__261)kknn~20110529_58903__T8)kknn~20110529_58903__T7)
+29	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 010036
+# text = Ho tek særleg for seg handteringa av finanskrisa då ho sat som finansminister, og meiner det er oppsiktsvekkjande at Eriksen ikkje gjev eit anerkjennande ord om ein politikk som bidrog til at Norge vart langt mindre råka av krisa enn andre europeiske land.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20110529_58903__11622--1)
+2	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	særleg	særleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	2	obl	_	name=O|Entity=(kknn~20110529_58903__11622--1)
+6	handteringa	handtering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(kknn~20110529_58903__T15--1
+7	av	av	ADP	_	_	8	case	_	name=O
+8	finanskrisa	finanskrise	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	name=O|Entity=(kknn~20110529_58903__239--1)
+9	då	då	SCONJ	_	_	11	mark	_	name=O
+10	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(kknn~20110529_58903__11622--1)
+11	sat	sitje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl	_	name=O
+12	som	som	SCONJ	_	_	13	mark	_	name=O
+13	finansminister	finansminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	xcomp	_	SpaceAfter=No|name=O|Entity=(kknn~20110529_58903__T18--1)kknn~20110529_58903__T15)
+14	,	$,	PUNCT	_	_	16	punct	_	name=O
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	name=O
+18	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+19	oppsiktsvekkjande	oppsiktsvekkjande	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	xcomp	_	name=O
+20	at	at	SCONJ	_	_	23	mark	_	name=O
+21	Eriksen	Eriksen	PROPN	_	_	23	nsubj	_	name=B-PER|Entity=(kknn~20110529_58903__6228--1)
+22	ikkje	ikkje	PART	_	Polarity=Neg	23	advmod	_	name=O
+23	gjev	gje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	csubj	_	name=O
+24	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(kknn~20110529_58903__T20--1
+25	anerkjennande	anerkjenne	ADJ	_	VerbForm=Part	26	amod	_	name=O
+26	ord	ord	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	obj	_	name=O
+27	om	om	ADP	_	_	29	case	_	name=O
+28	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	29	det	_	name=O|Entity=(kknn~20110529_58903__T21--1
+29	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	name=O
+30	som	som	PRON	_	PronType=Rel	31	nsubj	_	name=O
+31	bidrog	bidra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	29	acl:relcl	_	name=O
+32	til	til	SCONJ	_	_	38	mark	_	name=O
+33	at	at	SCONJ	_	_	38	mark	_	name=O
+34	Norge	Norge	PROPN	_	_	38	nsubj:pass	_	name=B-GPE_LOC|Entity=(kknn~20110529_58903__4286--1)
+35	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	38	aux:pass	_	name=O
+36	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	37	advmod	_	name=O
+37	mindre	liten	ADJ	_	Degree=Cmp	38	advmod	_	name=O
+38	råka	råke	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	31	advcl	_	name=O
+39	av	av	ADP	_	_	40	case	_	name=O
+40	krisa	krise	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	38	obl	_	name=O|Entity=(kknn~20110529_58903__239--1)
+41	enn	enn	ADP	_	_	44	case	_	name=O
+42	andre	annan	DET	_	Number=Plur|PronType=Dem	44	det	_	name=O|Entity=(kknn~20110529_58903__T24--1
+43	europeiske	europeisk	ADJ	_	Degree=Pos|Number=Plur	44	amod	_	name=O
+44	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	37	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110529_58903__T24)kknn~20110529_58903__T21)kknn~20110529_58903__T20)
+45	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010037
+# text = Halvorsen har mange poeng som kritikarane må ta på alvor.
+1	Halvorsen	Halvorsen	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kknn~20110529_58903__11622--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O|Entity=(kknn~20110529_58903__T26--1
+4	poeng	poeng	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	name=O
+5	som	som	PRON	_	PronType=Rel	8	obj	_	name=O
+6	kritikarane	kritikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=(kknn~20110529_58903__T27--1)
+7	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	ta	ta	VERB	_	VerbForm=Inf	4	acl:relcl	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	alvor	alvor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110529_58903__T28--1)kknn~20110529_58903__T26)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010038
+# text = Men når ho avsluttar med eit hjartesukk om at Klassekampens dekning av Tore Linné Eriksens farvel med partiet er til glede for høgresida og dei som vil at Norge skal føye seg inn i rekkja av høgreregime i Europa, kjem ho i skade for å skyte på pianisten.
+1	Men	men	CCONJ	_	_	41	cc	_	name=O
+2	når	når	SCONJ	_	_	4	mark	_	name=O
+3	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(kknn~20110529_58903__11622--1)
+4	avsluttar	avslutte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	41	advcl	_	name=O
+5	med	med	ADP	_	_	7	case	_	name=O
+6	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kknn~20110529_58903__T30--1
+7	hjartesukk	hjartesukk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O
+8	om	om	SCONJ	_	_	21	mark	_	name=O
+9	at	at	SCONJ	_	_	21	mark	_	name=O
+10	Klassekampens	Klassekampen	PROPN	_	Case=Gen	11	nmod	_	name=B-ORG|Entity=(kknn~20110529_58903__T32--1(kknn~20110529_58903__394--1)
+11	dekning	dekning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	nsubj	_	name=O
+12	av	av	ADP	_	_	16	case	_	name=O
+13	Tore	Tore	NOUN	_	Gender=Masc	16	nmod	_	name=B-PER|Entity=(kknn~20110529_58903__T34--1(kknn~20110529_58903__6228--1
+14	Linné	Linné	PROPN	_	_	13	flat:name	_	name=I-PER
+15	Eriksens	Eriksen	PROPN	_	Case=Gen	13	flat:name	_	name=I-PER|Entity=kknn~20110529_58903__6228)
+16	farvel	farvel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	name=O
+17	med	med	ADP	_	_	18	case	_	name=O
+18	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	nmod	_	name=O|Entity=(kknn~20110529_58903__11753--1)kknn~20110529_58903__T34)kknn~20110529_58903__T32)
+19	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+20	til	til	SCONJ	_	_	21	mark	_	name=O
+21	glede	glede	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	acl	_	name=O|Entity=(kknn~20110529_58903__T36--1
+22	for	for	ADP	_	_	23	case	_	name=O
+23	høgresida	høgreside	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	name=O|Entity=(kknn~20110529_58903__T37--1(kknn~20110529_58903__3164--1)
+24	og	og	CCONJ	_	_	25	cc	_	name=O
+25	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	23	conj	_	name=O|Entity=(kknn~20110529_58903__T39--1
+26	som	som	PRON	_	PronType=Rel	27	nsubj	_	name=O
+27	vil	vilje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	name=O
+28	at	at	SCONJ	_	_	31	mark	_	name=O
+29	Norge	Norge	PROPN	_	_	31	nsubj	_	name=B-GPE_LOC|Entity=(kknn~20110529_58903__4286--1)
+30	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	name=O
+31	føye	føye	VERB	_	VerbForm=Inf	27	ccomp	_	name=O
+32	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	31	obj	_	name=O|Entity=(kknn~20110529_58903__4286--1)
+33	inn	inn	ADP	_	_	35	case	_	name=O
+34	i	i	ADP	_	_	35	case	_	name=O
+35	rekkja	rekkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	31	obl	_	name=O|Entity=(kknn~20110529_58903__T41--1
+36	av	av	ADP	_	_	37	case	_	name=O
+37	høgreregime	høgreregime	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	35	nmod	_	name=O|Entity=(kknn~20110529_58903__T42--1
+38	i	i	ADP	_	_	39	case	_	name=O
+39	Europa	Europa	PROPN	_	_	37	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20110529_58903__T43--1)kknn~20110529_58903__T42)kknn~20110529_58903__T41)kknn~20110529_58903__T39)kknn~20110529_58903__T37)kknn~20110529_58903__T36)kknn~20110529_58903__T30)
+40	,	$,	PUNCT	_	_	4	punct	_	name=O
+41	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+42	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	name=O|Entity=(kknn~20110529_58903__11622--1)
+43	i	i	ADP	_	_	44	case	_	name=O
+44	skade	skade	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	41	obl	_	name=O|Entity=(kknn~20110529_58903__T45--1
+45	for	for	SCONJ	_	_	47	mark	_	name=O
+46	å	å	PART	_	_	47	mark	_	name=O
+47	skyte	skyte	VERB	_	VerbForm=Inf	44	acl	_	name=O
+48	på	på	ADP	_	_	49	case	_	name=O
+49	pianisten	pianist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	47	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110529_58903__T46--1)kknn~20110529_58903__T45)
+50	.	$.	PUNCT	_	_	41	punct	_	name=O
+
+# sent_id = 010039
+# text = * Tore Linné Eriksen har ikkje hatt sentrale posisjonar i partiet på lenge, men hans oppgjer er symptom på problem som leiinga i SV ikkje bør avskrive med velbrukte hersketeknikkar.
+1	*	*	PUNCT	_	_	7	punct	_	name=O
+2	Tore	Tore	NOUN	_	Gender=Masc	7	nsubj	_	name=B-PER|Entity=(kknn~20110529_58903__6228--1
+3	Linné	Linné	PROPN	_	_	2	flat:name	_	name=I-PER
+4	Eriksen	Eriksen	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=kknn~20110529_58903__6228)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	name=O
+7	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+8	sentrale	sentral	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(kknn~20110529_58903__T48--1
+9	posisjonar	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(kknn~20110529_58903__11753--1)kknn~20110529_58903__T48)
+12	på	på	ADP	_	_	13	case	_	name=O
+13	lenge	lenge	ADJ	_	Degree=Pos	7	advmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110529_58903__T50--1)
+14	,	$,	PUNCT	_	_	19	punct	_	name=O
+15	men	men	CCONJ	_	_	19	cc	_	name=O
+16	hans	hans	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	name=O|Entity=(kknn~20110529_58903__261--1(kknn~20110529_58903__6228--1)
+17	oppgjer	oppgjer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nsubj	_	name=O|Entity=kknn~20110529_58903__261)
+18	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+19	symptom	symptom	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	name=O|Entity=(kknn~20110529_58903__T53--1
+20	på	på	ADP	_	_	21	case	_	name=O
+21	problem	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	nmod	_	name=O|Entity=(kknn~20110529_58903__T54--1
+22	som	som	PRON	_	PronType=Rel	28	obj	_	name=O
+23	leiinga	leiing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	28	nsubj	_	name=O|Entity=(kknn~20110529_58903__T55--1
+24	i	i	ADP	_	_	25	case	_	name=O
+25	SV	SV	NOUN	_	Abbr=Yes	23	nmod	_	name=B-ORG|Entity=(kknn~20110529_58903__11753--1)kknn~20110529_58903__T55)
+26	ikkje	ikkje	PART	_	Polarity=Neg	28	advmod	_	name=O
+27	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	aux	_	name=O
+28	avskrive	avskrive	VERB	_	VerbForm=Inf	21	acl:relcl	_	name=O
+29	med	med	ADP	_	_	31	case	_	name=O
+30	velbrukte	velbrukt	ADJ	_	Degree=Pos|Number=Plur	31	amod	_	name=O|Entity=(kknn~20110529_58903__T57--1
+31	hersketeknikkar	hersketeknikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110529_58903__T57)kknn~20110529_58903__T54)kknn~20110529_58903__T53)
+32	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 010040
+# text = I avisa der Halvorsen gjev sitt svar, har 24 partimedlemer eit innlegg som opnar med at «SV er inne i en dyp krise».
+1	I	i	ADP	_	_	2	case	_	name=O
+2	avisa	avis	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	obl	_	name=O|Entity=(kknn~20110529_58903__394--1
+3	der	der	SCONJ	_	_	5	mark	_	name=O
+4	Halvorsen	Halvorsen	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(kknn~20110529_58903__11622--1)
+5	gjev	gje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl	_	name=O
+6	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(kknn~20110529_58903__T61--1(kknn~20110529_58903__11622--1)
+7	svar	svar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110529_58903__T61)kknn~20110529_58903__394)
+8	,	$,	PUNCT	_	_	2	punct	_	name=O
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	24	24	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(kknn~20110529_58903__4324--1
+11	partimedlemer	partimedlem	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=kknn~20110529_58903__4324)
+12	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(kknn~20110529_58903__T63--1
+13	innlegg	innlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	name=O
+14	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+15	opnar	opne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	name=O
+16	med	med	ADP	_	_	19	case	_	name=O
+17	at	at	SCONJ	_	_	19	mark	_	name=O
+18	«	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O
+19	SV	SV	X	_	_	15	obl	_	name=B-ORG|Entity=(kknn~20110529_58903__11753--1)
+20	er	er	X	_	_	19	flat:foreign	_	name=O
+21	inne	inne	X	_	_	19	flat:foreign	_	name=O
+22	i	i	X	_	_	19	flat:foreign	_	name=O
+23	en	en	X	_	_	19	flat:foreign	_	name=O|Entity=(kknn~20110529_58903__T128--1
+24	dyp	dyp	X	_	_	19	flat:foreign	_	name=O
+25	krise	krise	X	_	_	19	flat:foreign	_	SpaceAfter=No|name=O|Entity=kknn~20110529_58903__T128)
+26	»	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O|Entity=kknn~20110529_58903__T63)
+27	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 010041
+# text = Dei høyrer venstrefløya til, og vil i motsetning til Eriksen halde fram i partiet.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kknn~20110529_58903__4324--1)
+2	høyrer	høyre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	venstrefløya	venstrefløy	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(kknn~20110529_58903__T65--1)
+4	til	til	ADP	_	_	2	compound:prt	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	12	punct	_	name=O
+6	og	og	CCONJ	_	_	12	cc	_	name=O
+7	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	motsetning	motsetning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	name=O|Entity=(kknn~20110529_58903__T66--1
+10	til	til	ADP	_	_	11	case	_	name=O
+11	Eriksen	Eriksen	PROPN	_	_	9	nmod	_	name=B-PER|Entity=(kknn~20110529_58903__6228--1)kknn~20110529_58903__T66)
+12	halde	halde	VERB	_	VerbForm=Inf	2	conj	_	name=O
+13	fram	fram	ADP	_	_	12	compound:prt	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=(kknn~20110529_58903__11753--1)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010042
+# text = Dei vil etter valet arrangere eigen konferanse for å mobilisere medlemene til å «ta kampen opp mot partiets politikk».
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20110529_58903__4324--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	etter	etter	ADP	_	_	4	case	_	name=O
+4	valet	val	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(kknn~20110529_58903__T70--1)
+5	arrangere	arrangere	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	7	det	_	name=O|Entity=(kknn~20110529_58903__T71--1(kknn~20110529_58903__4324--1)
+7	konferanse	konferanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=kknn~20110529_58903__T71)
+8	for	for	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	mobilisere	mobilisere	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+11	medlemene	medlem	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	obj	_	name=O|Bridge=kknn~20110529_58903__11753<kknn~20110529_58903__T72:default|Entity=(kknn~20110529_58903__T72--1)
+12	til	til	SCONJ	_	_	15	mark	_	name=O
+13	å	å	PART	_	_	15	mark	_	name=O
+14	«	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+15	ta	ta	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+16	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=(kknn~20110529_58903__T73--1)
+17	opp	opp	ADP	_	_	15	compound:prt	_	name=O
+18	mot	mot	ADP	_	_	20	case	_	name=O
+19	partiets	parti	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	name=O|Entity=(kknn~20110529_58903__T75--1(kknn~20110529_58903__11753--1)
+20	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=kknn~20110529_58903__T75)
+21	»	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010043
+# text = Det er kraftig kost.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(kknn~20110529_58903__T76--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	kraftig	kraftig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(kknn~20110529_58903__T77--1
+4	kost	kost	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=kknn~20110529_58903__T77)
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 010044
+# text = Tyngdepunktet ligg ikkje uventa i Hordaland og Bergen, men også tidlegare fylkesleiar i Akershus SV, Per-Olav Lauvstad, og den respekterte økonomen Rune Skarstein er med.
+1	Tyngdepunktet	tyngdepunkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Bridge=kknn~20110529_58903__4324<kknn~20110529_58903__T78:default|Entity=(kknn~20110529_58903__T78--1)
+2	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	uventa	uventa	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Hordaland	Hordaland	PROPN	_	_	2	obl	_	name=B-GPE_LOC|Entity=(kknn~20110529_58903__T79--1(kknn~20110529_58903__T80--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Bergen	Bergen	PROPN	_	_	6	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kknn~20110529_58903__T81--1)kknn~20110529_58903__T79)
+9	,	$,	PUNCT	_	_	28	punct	_	name=O
+10	men	men	CCONJ	_	_	28	cc	_	name=O
+11	også	også	ADV	_	_	12	advmod	_	name=O|Entity=(kknn~20110529_58903__T84--1(kknn~20110529_58903__T85--1(kknn~20110529_58903__T82--1
+12	tidlegare	tidleg	ADJ	_	Degree=Cmp	13	amod	_	name=O
+13	fylkesleiar	fylkesleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Akershus	Akershus	PROPN	_	_	13	nmod	_	name=B-ORG|Entity=(kknn~20110529_58903__T83--1
+16	SV	SV	NOUN	_	Abbr=Yes	15	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=kknn~20110529_58903__T83)
+17	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=kknn~20110529_58903__T82)
+18	Per-Olav	Per-Olav	PROPN	_	_	28	nsubj	_	name=B-PER
+19	Lauvstad	Lauvstad	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PER
+20	,	$,	PUNCT	_	_	25	punct	_	name=O|Entity=kknn~20110529_58903__T85)
+21	og	og	CCONJ	_	_	25	cc	_	name=O
+22	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	name=O|Entity=(kknn~20110529_58903__T87--1(kknn~20110529_58903__T86--1
+23	respekterte	respektere	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	24	amod	_	name=O
+24	økonomen	økonom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	name=O|Entity=kknn~20110529_58903__T86)
+25	Rune	Rune	NOUN	_	Gender=Masc	18	conj	_	name=B-PER
+26	Skarstein	Skarstein	PROPN	_	_	25	flat:name	_	name=I-PER|Entity=kknn~20110529_58903__T87)kknn~20110529_58903__T84)
+27	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	name=O
+28	med	med	ADP	_	_	2	conj	_	SpaceAfter=No|name=O
+29	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010045
+# text = Samstundes bryt Hallgeir Langeland borgfreden i stortingsgruppa og ber om at regjeringa straks dreg Norge ut av Libya-krigen.
+1	Samstundes	samstundes	ADV	_	_	2	advmod	_	name=O
+2	bryt	bryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Hallgeir	Hallgeir	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kknn~20110529_58903__T88--1
+4	Langeland	Langeland	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=kknn~20110529_58903__T88)
+5	borgfreden	borgfred	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(kknn~20110529_58903__T89--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	stortingsgruppa	stortingsgruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	name=O|Bridge=kknn~20110529_58903__11753<kknn~20110529_58903__T90:default|Entity=(kknn~20110529_58903__T90--1)kknn~20110529_58903__T89)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	ber	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+10	om	om	SCONJ	_	_	14	mark	_	name=O
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	name=O|Entity=(kknn~20110529_58903__2199--1)
+13	straks	straks	ADV	_	_	14	advmod	_	name=O
+14	dreg	dra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	name=O
+15	Norge	Norge	PROPN	_	_	14	obj	_	name=B-GPE_ORG|Entity=(kknn~20110529_58903__4286--1)
+16	ut	ut	ADP	_	_	18	case	_	name=O
+17	av	av	ADP	_	_	18	case	_	name=O
+18	Libya-krigen	Libya-krig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=B-DRV|Entity=(kknn~20110529_58903__T93--1)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010046
+# text = * SVs problem er del av eit langt større bilete, med venstrekrefter på defensiven over nesten heile Europa.
+1	*	*	PUNCT	_	_	5	punct	_	name=O
+2	SVs	SV	NOUN	_	Abbr=Yes|Case=Gen	3	nmod	_	name=B-ORG|Entity=(kknn~20110529_58903__T95--1(kknn~20110529_58903__11753--1)
+3	problem	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=kknn~20110529_58903__T95)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(kknn~20110529_58903__T96--1
+6	av	av	ADP	_	_	10	case	_	name=O
+7	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kknn~20110529_58903__T97--1
+8	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	større	stor	ADJ	_	Degree=Cmp	10	amod	_	name=O
+10	bilete	bilete	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	venstrekrefter	venstrekraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	name=O|Entity=(kknn~20110529_58903__T98--1)
+14	på	på	SCONJ	_	_	15	mark	_	name=O
+15	defensiven	defensiv	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	xcomp	_	name=O|Entity=(kknn~20110529_58903__T99--1)
+16	over	over	ADP	_	_	19	case	_	name=O
+17	nesten	nesten	ADV	_	_	18	advmod	_	name=O|Entity=(kknn~20110529_58903__T100--1
+18	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	Europa	Europa	PROPN	_	_	13	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=kknn~20110529_58903__T100)kknn~20110529_58903__T97)kknn~20110529_58903__T96)
+20	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010047
+# text = Ein kan forstå at misnøya i eigne rekkjer og all den negative merksemda kan verke urimeleg for SVs folk i regjeringsapparatet, som kvar dag jobbar hardt for å oppnå resultat i høve til det overmektige Arbeidarpartiet.
+1	Ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	3	nsubj	_	name=O|Entity=(kknn~20110529_58903__T101--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	forstå	forstå	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	at	at	SCONJ	_	_	15	mark	_	name=O
+5	misnøya	misnøye	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	nsubj	_	name=O|Entity=(kknn~20110529_58903__T102--1
+6	i	i	ADP	_	_	8	case	_	name=O
+7	eigne	eigen	DET	_	Number=Plur|PronType=Prs	8	det	_	name=O|Entity=(kknn~20110529_58903__T103--1(kknn~20110529_58903__T104--1(kknn~20110529_58903__11753--1)
+8	rekkjer	rekkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	name=O|Entity=kknn~20110529_58903__T104)
+9	og	og	CCONJ	_	_	13	cc	_	name=O
+10	all	all	DET	_	Gender=Fem|Number=Sing|PronType=Tot	13	det	_	name=O|Entity=(kknn~20110529_58903__T105--1
+11	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	name=O
+12	negative	negativ	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	merksemda	merksemd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	conj	_	name=O|Entity=kknn~20110529_58903__T105)kknn~20110529_58903__T103)kknn~20110529_58903__T102)
+14	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	verke	verke	VERB	_	VerbForm=Inf	3	ccomp	_	name=O
+16	urimeleg	urimeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+17	for	for	ADP	_	_	19	case	_	name=O
+18	SVs	SV	NOUN	_	Abbr=Yes|Case=Gen	19	nmod	_	name=B-ORG|Entity=(kknn~20110529_58903__T107--1(kknn~20110529_58903__11753--1)
+19	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obl	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	regjeringsapparatet	regjeringsapparat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No|name=O|Entity=(kknn~20110529_58903__2199--1)
+22	,	$,	PUNCT	_	_	26	punct	_	name=O
+23	som	som	PRON	_	PronType=Rel	26	nsubj	_	name=O
+24	kvar	kvar	DET	_	Gender=Masc|Number=Sing|PronType=Tot	25	det	_	name=O|Entity=(kknn~20110529_58903__T109--1
+25	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	name=O|Entity=kknn~20110529_58903__T109)
+26	jobbar	jobbe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	name=O
+27	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	advmod	_	name=O
+28	for	for	SCONJ	_	_	30	mark	_	name=O
+29	å	å	PART	_	_	30	mark	_	name=O
+30	oppnå	oppnå	VERB	_	VerbForm=Inf	26	advcl	_	name=O
+31	resultat	resultat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	30	obj	_	name=O|Entity=(kknn~20110529_58903__T110--1
+32	i	i	ADP	_	_	33	case	_	name=O
+33	høve	høve	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	31	nmod	_	name=O|Entity=(kknn~20110529_58903__T111--1
+34	til	til	ADP	_	_	37	case	_	name=O
+35	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	37	det	_	name=O|Entity=(kknn~20110529_58903__T112--1
+36	overmektige	overmektig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	37	amod	_	name=O
+37	Arbeidarpartiet	Arbeidarpartiet	PROPN	_	_	33	nmod	_	SpaceAfter=No|name=B-ORG|Entity=kknn~20110529_58903__T112)kknn~20110529_58903__T111)kknn~20110529_58903__T110)kknn~20110529_58903__T107)
+38	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010048
+# text = Men dette er ein del av maktas pris.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(kknn~20110529_58903__T113--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kknn~20110529_58903__T114--1
+5	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+6	av	av	ADP	_	_	8	case	_	name=O
+7	maktas	makt	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	name=O|Entity=(kknn~20110529_58903__T116--1(kknn~20110529_58903__T115--1)
+8	pris	pris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=kknn~20110529_58903__T116)kknn~20110529_58903__T114)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 010049
+# text = Det er ingen farbar veg for Halvorsen og hennar krets å utdefinere motstand frå venstre ved å skulde den for å gå høgresidas ærend.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	5	det	_	name=O|Entity=(kknn~20110529_58903__T117--1
+4	farbar	farbar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	veg	veg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	Halvorsen	Halvorsen	PROPN	_	_	5	nmod	_	name=B-PER|Entity=(kknn~20110529_58903__T118--1(kknn~20110529_58903__11622--1)
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	hennar	hennar	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(kknn~20110529_58903__T121--1(kknn~20110529_58903__11622--1)
+10	krets	krets	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	name=O|Entity=kknn~20110529_58903__T121)kknn~20110529_58903__T118)kknn~20110529_58903__T117)
+11	å	å	PART	_	_	12	mark	_	name=O
+12	utdefinere	utdefinere	VERB	_	VerbForm=Inf	5	csubj	_	name=O
+13	motstand	motstand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=(kknn~20110529_58903__2246--1
+14	frå	frå	ADP	_	_	15	case	_	name=O
+15	venstre	venstre	NOUN	_	Gender=Neut	13	nmod	_	name=O|Entity=(kknn~20110529_58903__T123--1)kknn~20110529_58903__2246)
+16	ved	ved	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	skulde	skulde	VERB	_	VerbForm=Inf	12	advcl	_	name=O
+19	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	name=O|Entity=(kknn~20110529_58903__2246--1)
+20	for	for	SCONJ	_	_	22	mark	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	gå	gå	VERB	_	VerbForm=Inf	18	advcl	_	name=O
+23	høgresidas	høgreside	NOUN	_	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	name=O|Entity=(kknn~20110529_58903__T126--1(kknn~20110529_58903__3164--1)
+24	ærend	ærend	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	22	obj	_	SpaceAfter=No|name=O|Entity=kknn~20110529_58903__T126)
+25	.	$.	PUNCT	_	_	5	punct	_	name=O
+

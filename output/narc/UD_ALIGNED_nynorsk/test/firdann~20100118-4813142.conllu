@@ -1,0 +1,145 @@
+# newdoc id = firdann~20100118-4813142
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 016637
+# text = Stoppa ikkje i kontroll - fekk 8000 kroner i bot
+1	Stoppa	stoppe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	ikkje	ikkje	PART	_	Polarity=Neg	1	advmod	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	kontroll	kontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(firdann~20100118_4813142__T1--1)
+5	-	$-	PUNCT	_	_	6	punct	_	name=O
+6	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	conj	_	name=O
+7	8000	8000	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(firdann~20100118_4813142__T2--1
+8	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obj	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	bot	bot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	name=O|Entity=(firdann~20100118_4813142__T3--1)firdann~20100118_4813142__T2)
+
+# sent_id = 016638
+# text = Like i nærleiken av Lærdalstunnelen (biletet), på E16, vart trailersjåføren stoppa av politiet.
+1	Like	like	ADV	_	_	3	advmod	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	nærleiken	nærleik	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(firdann~20100118_4813142__T4--1
+4	av	av	ADP	_	_	5	case	_	name=O
+5	Lærdalstunnelen	Lærdalstunnelen	PROPN	_	_	3	nmod	_	name=B-LOC|Entity=(firdann~20100118_4813142__232--1
+6	(	$(	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4813142__T6--1
+7	biletet	bilete	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|name=O
+8	)	$)	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=firdann~20100118_4813142__T6)
+10	på	på	ADP	_	_	11	case	_	name=O
+11	E16	E16	PROPN	_	_	5	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20100118_4813142__235--1)firdann~20100118_4813142__232)firdann~20100118_4813142__T4)
+12	,	$,	PUNCT	_	_	3	punct	_	name=O
+13	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux:pass	_	name=O
+14	trailersjåføren	trailersjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj:pass	_	name=O|Entity=(firdann~20100118_4813142__362--1)
+15	stoppa	stoppe	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4813142__5115--1)
+18	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 016639
+# text = Då venta ei sviande bot på 8000 kroner.
+1	Då	då	ADV	_	_	2	advmod	_	name=O
+2	venta	vente	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(firdann~20100118_4813142__T10--1
+4	sviande	sviande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	bot	bot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nsubj	_	name=O
+6	på	på	ADP	_	_	8	case	_	name=O
+7	8000	8000	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(firdann~20100118_4813142__T11--1
+8	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100118_4813142__T11)firdann~20100118_4813142__T10)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016640
+# text = Foto:
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4813142__T12--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 016642
+# text = Ein polsk trailer køyrde rett forbi ein kontroll av tyngre køyretøy Biltilsynet hadde i Lærdal måndag.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(firdann~20100118_4813142__239--1
+2	polsk	polsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	trailer	trailer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=firdann~20100118_4813142__239)
+4	køyrde	køyre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+6	forbi	forbi	ADP	_	_	8	case	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20100118_4813142__238--1
+8	kontroll	kontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O
+9	av	av	ADP	_	_	11	case	_	name=O
+10	tyngre	tung	ADJ	_	Degree=Cmp	11	amod	_	name=O|Entity=(firdann~20100118_4813142__T15--1
+11	køyretøy	køyretøy	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nmod	_	name=O
+12	Biltilsynet	Biltilsynet	PROPN	_	_	13	nsubj	_	name=B-ORG|Entity=(firdann~20100118_4813142__251--1)
+13	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Lærdal	Lærdal	PROPN	_	_	13	obl	_	name=B-GPE_LOC|Entity=(firdann~20100118_4813142__T17--1)
+16	måndag	måndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4813142__T40--1)firdann~20100118_4813142__T15)firdann~20100118_4813142__238)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016643
+# text = Dette fall ikkje i god jord hos politiet, som gav sjåføren 8000 kroner i bot for å ha latt vere å stoppe i kontrollen.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20100118_4813142__T18--1)
+2	fall	falle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	i	i	ADP	_	_	6	case	_	name=O
+5	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(firdann~20100118_4813142__T19--1
+6	jord	jord	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O
+7	hos	hos	ADP	_	_	8	case	_	name=O
+8	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4813142__5115--1
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+11	gav	gje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	name=O
+12	sjåføren	sjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	iobj	_	name=O|Entity=(firdann~20100118_4813142__362--1)
+13	8000	8000	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(firdann~20100118_4813142__253--1
+14	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	bot	bot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	nmod	_	name=O|Entity=(firdann~20100118_4813142__T23--1)firdann~20100118_4813142__253)
+17	for	for	SCONJ	_	_	20	mark	_	name=O
+18	å	å	PART	_	_	20	mark	_	name=O
+19	ha	ha	AUX	_	VerbForm=Inf	20	aux	_	name=O
+20	latt	la	VERB	_	VerbForm=Part	11	advcl	_	name=O
+21	vere	vere	VERB	_	VerbForm=Inf	20	xcomp	_	name=O
+22	å	å	PART	_	_	23	mark	_	name=O
+23	stoppe	stoppe	VERB	_	VerbForm=Inf	20	iobj	_	name=O
+24	i	i	ADP	_	_	25	case	_	name=O
+25	kontrollen	kontroll	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4813142__238--1)firdann~20100118_4813142__5115)firdann~20100118_4813142__T19)
+26	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016644
+# text = Dei fekk stoppa traileren like ved Lærdalstunnelen på E16, opplyser politiet.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20100118_4813142__5115--1)
+2	fekk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	stoppa	stoppe	VERB	_	VerbForm=Part	0	root	_	name=O
+4	traileren	trailer	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(firdann~20100118_4813142__239--1)
+5	like	like	ADV	_	_	7	advmod	_	name=O
+6	ved	ved	ADP	_	_	7	case	_	name=O
+7	Lærdalstunnelen	Lærdalstunnelen	PROPN	_	_	3	obl	_	name=B-LOC|Entity=(firdann~20100118_4813142__232--1
+8	på	på	ADP	_	_	9	case	_	name=O
+9	E16	E16	PROPN	_	_	7	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20100118_4813142__235--1)firdann~20100118_4813142__232)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+12	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4813142__5115--1)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 016645
+# text = I tillegg til den sviande bota frå politiet, fekk trailersjåføren bot frå Biltilsynet på 500 kroner for manglande bruk av kjettingar.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	name=O|Entity=(firdann~20100118_4813142__T30--1
+3	til	til	ADP	_	_	6	case	_	name=O
+4	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(firdann~20100118_4813142__253--1
+5	sviande	sviande	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	bota	bot	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	name=O
+7	frå	frå	ADP	_	_	8	case	_	name=O
+8	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4813142__5115--1)firdann~20100118_4813142__253)firdann~20100118_4813142__T30)
+9	,	$,	PUNCT	_	_	2	punct	_	name=O
+10	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+11	trailersjåføren	trailersjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20100118_4813142__362--1)
+12	bot	bot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	name=O|Entity=(firdann~20100118_4813142__T34--1
+13	frå	frå	ADP	_	_	14	case	_	name=O
+14	Biltilsynet	Biltilsynet	PROPN	_	_	12	nmod	_	name=B-ORG|Entity=(firdann~20100118_4813142__251--1)
+15	på	på	ADP	_	_	17	case	_	name=O
+16	500	500	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(firdann~20100118_4813142__T36--1
+17	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	nmod	_	name=O|Entity=firdann~20100118_4813142__T36)
+18	for	for	ADP	_	_	20	case	_	name=O
+19	manglande	mangle	ADJ	_	VerbForm=Part	20	amod	_	name=O|Entity=(firdann~20100118_4813142__T37--1
+20	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O
+21	av	av	ADP	_	_	22	case	_	name=O
+22	kjettingar	kjetting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100118_4813142__T38--1)firdann~20100118_4813142__T37)firdann~20100118_4813142__T34)
+23	.	$.	PUNCT	_	_	10	punct	_	name=O
+

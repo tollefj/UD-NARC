@@ -1,0 +1,630 @@
+# newdoc id = vtbnn~20030906-1495
+# global.Entity = eid-etype-head-other
+# sent_id = 013287
+# text = Tolvåringar tatt med alkohol på skuletur
+1	Tolvåringar	tolvåring	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T1--1)
+2	tatt	ta	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+3	med	med	ADP	_	_	4	case	_	name=O
+4	alkohol	alkohol	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(vtbnn~20030906_1495__T2--1)
+5	på	på	ADP	_	_	6	case	_	name=O
+6	skuletur	skuletur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(vtbnn~20030906_1495__T3--1)
+
+# newpar
+# sent_id = 013288
+# text = Slår alarm
+1	Slår	slå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	alarm	alarm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=(vtbnn~20030906_1495__T4--1)
+
+# newpar
+# sent_id = 013289
+# text = Foreldre kan få seg eit sjokk
+1	Foreldre	forelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T5--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	iobj	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20030906_1495__T6--1
+6	sjokk	sjokk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=vtbnn~20030906_1495__T6)
+
+# newpar
+# sent_id = 013290
+# text = Fleire tolvåringar blei avslørt med alkohol då Gimle skule i Fyresdal arrangerte tur i haust.
+1	Fleire	mange	ADJ	_	Degree=Cmp	2	amod	_	name=O|Entity=(vtbnn~20030906_1495__T7--1
+2	tolvåringar	tolvåring	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj:pass	_	name=O|Entity=vtbnn~20030906_1495__T7)
+3	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	name=O
+4	avslørt	avsløre	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	alkohol	alkohol	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(vtbnn~20030906_1495__T8--1)
+7	då	då	SCONJ	_	_	12	mark	_	name=O
+8	Gimle	Gimle	PROPN	_	_	12	nsubj	_	name=B-ORG|Entity=(vtbnn~20030906_1495__5385--1
+9	skule	skule	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	flat:name	_	name=I-ORG
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Fyresdal	Fyresdal	PROPN	_	_	8	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20030906_1495__8520--1)vtbnn~20030906_1495__5385)
+12	arrangerte	arrangere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	name=O
+13	tur	tur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=(vtbnn~20030906_1495__T11--1)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	haust	haust	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T12--1)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013291
+# text = Ågot Takle Nesland ved helseetaten i kommunen har i mange år sett ei skremmande utvikling med alkoholbruk blant unge.
+1	Ågot	Ågot	NOUN	_	Gender=Fem	12	nsubj	_	name=B-PER|Entity=(vtbnn~20030906_1495__181536--1
+2	Takle	Takle	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Nesland	Nesland	PROPN	_	_	1	flat:name	_	name=I-PER
+4	ved	ved	ADP	_	_	5	case	_	name=O
+5	helseetaten	helseetat	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(vtbnn~20030906_1495__T14--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	kommunen	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(vtbnn~20030906_1495__T15--1)vtbnn~20030906_1495__T14)vtbnn~20030906_1495__181536)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	mange	mange	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(vtbnn~20030906_1495__T16--1
+11	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obl	_	name=O|Entity=vtbnn~20030906_1495__T16)
+12	sett	sjå	VERB	_	VerbForm=Part	0	root	_	name=O
+13	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(vtbnn~20030906_1495__T17--1
+14	skremmande	skremme	ADJ	_	VerbForm=Part	15	amod	_	name=O
+15	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obj	_	name=O
+16	med	med	ADP	_	_	17	case	_	name=O
+17	alkoholbruk	alkoholbruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(vtbnn~20030906_1495__T18--1)vtbnn~20030906_1495__T17)
+18	blant	blant	ADP	_	_	19	case	_	name=O
+19	unge	ung	ADJ	_	Degree=Pos|Number=Plur	12	advmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T19--1)
+20	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 013292
+# text = - Det er veldig mykje alkohol blant ungdomane i bygda.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(vtbnn~20030906_1495__T20--1
+5	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	alkohol	alkohol	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=vtbnn~20030906_1495__T20)
+7	blant	blant	ADP	_	_	8	case	_	name=O
+8	ungdomane	ungdom	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=(vtbnn~20030906_1495__5280--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	bygda	bygd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__8520--1)vtbnn~20030906_1495__5280)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013293
+# text = Kvar er foreldra, undrar ho.
+1	Kvar	kvar	ADV	_	_	0	root	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	foreldra	forelder	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No|name=O|Bridge=vtbnn~20030906_1495__5280<vtbnn~20030906_1495__T23:default|Entity=(vtbnn~20030906_1495__T23--1)
+4	,	$,	PUNCT	_	_	5	punct	_	name=O
+5	undrar	undre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	name=O
+6	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__181536--1)
+7	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 013294
+# text = Til veka blir rusproblemet tema både i skulen og på folkemøte.
+1	Til	til	ADP	_	_	2	case	_	name=O
+2	veka	veke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20030906_1495__T25--1)
+3	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	rusproblemet	rusproblem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T26--1)
+5	tema	tema	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	xcomp	_	name=O|Entity=(vtbnn~20030906_1495__T27--1)
+6	både	både	CCONJ	_	_	8	cc	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	skulen	skule	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20030906_1495__5385--1)
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	folkemøte	folkemøte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T29--1)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 013295
+# text = - Når unge byrjar med alkohol som tolvåringar må me slå alarm, seier Ågot Takle Nesland.
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	Når	når	SCONJ	_	_	4	mark	_	name=O
+3	unge	ung	ADJ	_	Degree=Pos|Number=Plur	4	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T30--1)
+4	byrjar	byrje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	alkohol	alkohol	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(vtbnn~20030906_1495__T31--1)
+7	som	som	SCONJ	_	_	8	mark	_	name=O
+8	tolvåringar	tolvåring	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	acl	_	name=O|Entity=(vtbnn~20030906_1495__T32--1)
+9	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+10	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T33--1)
+11	slå	slå	VERB	_	VerbForm=Inf	0	root	_	name=O
+12	alarm	alarm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T34--1)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	parataxis	_	name=O
+15	Ågot	Ågot	NOUN	_	Gender=Fem	14	nsubj	_	name=B-PER|Entity=(vtbnn~20030906_1495__181536--1
+16	Takle	Takle	PROPN	_	_	15	flat:name	_	name=I-PER
+17	Nesland	Nesland	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20030906_1495__181536)
+18	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 013296
+# text = Ho oppmodar alle foreldre til å ta eit tak for å løyse rusproblem blant unge i Fyresdal.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__181536--1)
+2	oppmodar	oppmode	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	alle	all	DET	_	Number=Plur|PronType=Tot	4	det	_	name=O|Entity=(vtbnn~20030906_1495__T37--1
+4	foreldre	forelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=vtbnn~20030906_1495__T37)
+5	til	til	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	ta	ta	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+8	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20030906_1495__T38--1
+9	tak	tak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	name=O|Entity=vtbnn~20030906_1495__T38)
+10	for	for	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	løyse	løyse	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+13	rusproblem	rusproblem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obj	_	name=O|Entity=(vtbnn~20030906_1495__T39--1
+14	blant	blant	ADP	_	_	15	case	_	name=O
+15	unge	ung	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(vtbnn~20030906_1495__T40--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Fyresdal	Fyresdal	PROPN	_	_	15	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030906_1495__8520--1)vtbnn~20030906_1495__T40)vtbnn~20030906_1495__T39)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 013297
+# text = Ågot Takle Nesland har i mange år sett ei skremmande utvikling med alkoholbruk blant unge i Fyresdal.
+1	Ågot	Ågot	NOUN	_	Gender=Fem	8	nsubj	_	name=B-PER|Entity=(vtbnn~20030906_1495__181536--1
+2	Takle	Takle	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Nesland	Nesland	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20030906_1495__181536)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	mange	mange	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(vtbnn~20030906_1495__T43--1
+7	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	name=O|Entity=vtbnn~20030906_1495__T43)
+8	sett	sjå	VERB	_	VerbForm=Part	0	root	_	name=O
+9	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(vtbnn~20030906_1495__2110--1
+10	skremmande	skremme	ADJ	_	VerbForm=Part	11	amod	_	name=O
+11	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	alkoholbruk	alkoholbruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(vtbnn~20030906_1495__T45--1)vtbnn~20030906_1495__2110)
+14	blant	blant	ADP	_	_	15	case	_	name=O
+15	unge	ung	ADJ	_	Degree=Pos|Number=Plur	8	advmod	_	name=O|Entity=(vtbnn~20030906_1495__T46--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Fyresdal	Fyresdal	PROPN	_	_	15	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030906_1495__8520--1)vtbnn~20030906_1495__T46)
+18	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 013298
+# text = - Nå er det veldig mykje alkohol blant ungdomane i bygda.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Nå	nå	ADV	_	_	3	advmod	_	name=O
+3	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=(vtbnn~20030906_1495__T48--1
+6	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	alkohol	alkohol	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=vtbnn~20030906_1495__T48)
+8	blant	blant	ADP	_	_	9	case	_	name=O
+9	ungdomane	ungdom	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=(vtbnn~20030906_1495__5280--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	bygda	bygd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__8520--1)vtbnn~20030906_1495__5280)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013299
+# text = Kvar er foreldra, undrar ho.
+1	Kvar	kvar	ADV	_	_	0	root	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	cop	_	name=O
+3	foreldra	forelder	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No|name=O|Bridge=vtbnn~20030906_1495__5280<vtbnn~20030906_1495__2127:default|Entity=(vtbnn~20030906_1495__2127--1)
+4	,	$,	PUNCT	_	_	5	punct	_	name=O
+5	undrar	undre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	name=O
+6	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__181536--1)
+7	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 013300
+# text = I haust blei det avslørt at minst to tolvåringar på mellomtrinnet ved Gimle skule hadde med seg alkohol på ein skuletur.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	haust	haust	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(vtbnn~20030906_1495__T53--1)
+3	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	avslørt	avsløre	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	at	at	SCONJ	_	_	15	mark	_	name=O
+7	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	8	advmod	_	name=O|Entity=(vtbnn~20030906_1495__T54--1
+8	to	to	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O
+9	tolvåringar	tolvåring	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nsubj	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	mellomtrinnet	mellomtrinn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(vtbnn~20030906_1495__T55--1
+12	ved	ved	ADP	_	_	13	case	_	name=O
+13	Gimle	Gimle	PROPN	_	_	11	nmod	_	name=B-LOC|Entity=(vtbnn~20030906_1495__5385--1
+14	skule	skule	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	flat:name	_	name=I-LOC|Entity=vtbnn~20030906_1495__5385)vtbnn~20030906_1495__T55)vtbnn~20030906_1495__T54)
+15	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	name=O
+16	med	med	ADP	_	_	17	case	_	name=O
+17	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	15	obl	_	name=O
+18	alkohol	alkohol	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=(vtbnn~20030906_1495__T57--1)
+19	på	på	ADP	_	_	21	case	_	name=O
+20	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(vtbnn~20030906_1495__T58--1
+21	skuletur	skuletur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20030906_1495__T58)
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 013301
+# text = - Når dei byrjar med alkohol som tolvåringar må det slåast alarm.
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	Når	når	SCONJ	_	_	4	mark	_	name=O
+3	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__5280--1)
+4	byrjar	byrje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	alkohol	alkohol	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(vtbnn~20030906_1495__T60--1)
+7	som	som	SCONJ	_	_	8	mark	_	name=O
+8	tolvåringar	tolvåring	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	acl	_	name=O|Entity=(vtbnn~20030906_1495__T61--1)
+9	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	slåast	slå	VERB	_	VerbForm=Inf	0	root	_	name=O
+12	alarm	alarm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T62--1)
+13	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 013302
+# text = Eg veit at dei fleste foreldra i Fyresdal er redd utviklinga, men somme er for søvnige i forhold til rusproblem blant unge.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__181536--1)
+2	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	10	mark	_	name=O
+4	dei	dei	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(vtbnn~20030906_1495__T64--1
+5	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	6	amod	_	name=O
+6	foreldra	forelder	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Fyresdal	Fyresdal	PROPN	_	_	6	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20030906_1495__8520--1)vtbnn~20030906_1495__T64)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	redd	redd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	ccomp	_	name=O
+11	utviklinga	utvikling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__2110--1)
+12	,	$,	PUNCT	_	_	17	punct	_	name=O
+13	men	men	CCONJ	_	_	17	cc	_	name=O
+14	somme	somme	PRON	_	Number=Plur|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T67--1)
+15	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+16	for	for	ADV	_	_	17	advmod	_	name=O
+17	søvnige	søvnig	ADJ	_	Degree=Pos|Number=Plur	2	conj	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	obl	_	name=O|Entity=(vtbnn~20030906_1495__T68--1
+20	til	til	ADP	_	_	21	case	_	name=O
+21	rusproblem	rusproblem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	nmod	_	name=O|Entity=(vtbnn~20030906_1495__T69--1
+22	blant	blant	ADP	_	_	23	case	_	name=O
+23	unge	ung	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T70--1)vtbnn~20030906_1495__T69)vtbnn~20030906_1495__T68)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013303
+# text = Foreldre vil ikkje innsjå at det kan skje i eigen familie.
+1	Foreldre	forelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T71--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	innsjå	innsjå	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T72--1)
+7	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	skje	skje	VERB	_	VerbForm=Inf	4	ccomp	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	11	det	_	name=O|Entity=(vtbnn~20030906_1495__T73--1
+11	familie	familie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20030906_1495__T73)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013304
+# text = Når ungdomane kjem heim frå fest bør foreldra vere der og ta dei imot, meiner Takle Nesland.
+1	Når	når	SCONJ	_	_	3	mark	_	name=O
+2	ungdomane	ungdom	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__5280--1)
+3	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	name=O
+4	heim	heim	ADP	_	_	6	case	_	name=O
+5	frå	frå	ADP	_	_	6	case	_	name=O
+6	fest	fest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20030906_1495__T75--1)
+7	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+8	foreldra	forelder	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__2127--1)
+9	vere	vere	VERB	_	VerbForm=Inf	0	root	_	name=O
+10	der	der	ADV	_	_	9	advmod	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	ta	ta	VERB	_	VerbForm=Inf	9	conj	_	name=O
+13	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	name=O|Entity=(vtbnn~20030906_1495__5280--1)
+14	imot	imot	ADP	_	_	12	compound:prt	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	name=O
+17	Takle	Takle	PROPN	_	_	16	nsubj	_	name=B-PER|Entity=(vtbnn~20030906_1495__181536--1
+18	Nesland	Nesland	PROPN	_	_	17	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20030906_1495__181536)
+19	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 013305
+# text = Ho trur foreldre som bryr seg blir takka av ungdomane når dei blir vaksne.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__181536--1)
+2	trur	tru	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	foreldre	forelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj:pass	_	name=O|Entity=(vtbnn~20030906_1495__T80--1
+4	som	som	PRON	_	PronType=Rel	5	nsubj	_	name=O
+5	bryr	bry	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	name=O
+6	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	5	obj	_	name=O|Entity=vtbnn~20030906_1495__T80)
+7	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux:pass	_	name=O
+8	takka	takke	VERB	_	Number=Plur|VerbForm=Part	2	ccomp	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	ungdomane	ungdom	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obl	_	name=O|Bridge=vtbnn~20030906_1495__T80<vtbnn~20030906_1495__5520:default|Entity=(vtbnn~20030906_1495__5520--1)
+11	når	når	SCONJ	_	_	13	mark	_	name=O
+12	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__5520--1)
+13	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	name=O
+14	vaksne	vaksen	ADJ	_	Degree=Pos|Number=Plur	13	xcomp	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013306
+# text = Takle Nesland har vidareutdanning innan rus.
+1	Takle	Takle	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(vtbnn~20030906_1495__181536--1
+2	Nesland	Nesland	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20030906_1495__181536)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	vidareutdanning	vidareutdanning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=(vtbnn~20030906_1495__T84--1)
+5	innan	innan	ADP	_	_	6	case	_	name=O
+6	rus	rus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T85--1)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013307
+# text = Det viser seg at all rus byrjar med alkohol.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	2	obj	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	all	all	DET	_	Gender=Masc|Number=Sing|PronType=Tot	6	det	_	name=O|Entity=(vtbnn~20030906_1495__T86--1
+6	rus	rus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=vtbnn~20030906_1495__T86)
+7	byrjar	byrje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	csubj	_	name=O
+8	med	med	ADP	_	_	9	case	_	name=O
+9	alkohol	alkohol	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T87--1)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013308
+# text = - Det er om å gjere å setje ein stoppar for alkoholbruken blant unge så fort som råd.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T88--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	om	om	ADP	_	_	6	case	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	gjere	gjere	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	setje	setje	VERB	_	VerbForm=Inf	6	xcomp	_	name=O
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(vtbnn~20030906_1495__T89--1
+10	stoppar	stoppar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	name=O|Entity=vtbnn~20030906_1495__T89)
+11	for	for	ADP	_	_	12	case	_	name=O
+12	alkoholbruken	alkoholbruk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(vtbnn~20030906_1495__T90--1
+13	blant	blant	ADP	_	_	14	case	_	name=O
+14	unge	ung	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(vtbnn~20030906_1495__T91--1)vtbnn~20030906_1495__T90)
+15	så	så	ADV	_	_	16	advmod	_	name=O
+16	fort	fort	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+17	som	som	ADP	_	_	18	case	_	name=O
+18	råd	råd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T92--1)
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 013309
+# text = Når dei unge rusar seg har dei ikkje kontroll på eigne kroppar.
+1	Når	når	SCONJ	_	_	4	mark	_	name=O
+2	dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(vtbnn~20030906_1495__5520--1
+3	unge	ung	ADJ	_	Degree=Pos|Number=Plur	4	nsubj	_	name=O|Entity=vtbnn~20030906_1495__5520)
+4	rusar	ruse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	name=O
+5	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	4	obj	_	name=O
+6	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__5520--1)
+8	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	name=O
+9	kontroll	kontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(vtbnn~20030906_1495__T95--1
+10	på	på	ADP	_	_	12	case	_	name=O
+11	eigne	eigen	DET	_	Number=Plur|PronType=Prs	12	det	_	name=O|Entity=(vtbnn~20030906_1495__T96--1(vtbnn~20030906_1495__5520--1)
+12	kroppar	kropp	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20030906_1495__T96)vtbnn~20030906_1495__T95)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 013310
+# text = Det aukar sjansen for ufriviljug sex som kan få store konsekvensar.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T97--1)
+2	aukar	auke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	sjansen	sjanse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(vtbnn~20030906_1495__T98--1
+4	for	for	ADP	_	_	6	case	_	name=O
+5	ufriviljug	ufriviljug	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(vtbnn~20030906_1495__T99--1
+6	sex	sex	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	få	få	VERB	_	VerbForm=Inf	6	acl:relcl	_	name=O
+10	store	stor	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(vtbnn~20030906_1495__T100--1
+11	konsekvensar	konsekvens	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20030906_1495__T100)vtbnn~20030906_1495__T99)vtbnn~20030906_1495__T98)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013311
+# text = Trur nokon at gutane spanderer fordi jentene er tørste, spør Takle Nesland.
+1	Trur	tru	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	nokon	nokon	PRON	_	Number=Plur|Person=3|PronType=Ind,Prs	1	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T101--1)
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	gutane	gut	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T102--1)
+5	spanderer	spandere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	name=O
+6	fordi	fordi	SCONJ	_	_	9	mark	_	name=O
+7	jentene	jente	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	9	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T103--1)
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	tørste	tørst	ADJ	_	Degree=Pos|Number=Plur	5	advcl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	spør	spørje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	name=O
+12	Takle	Takle	PROPN	_	_	11	nsubj	_	name=B-PER|Entity=(vtbnn~20030906_1495__181536--1
+13	Nesland	Nesland	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20030906_1495__181536)
+14	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 013312
+# text = Ho blir skremt når ho høyrer om og sjølv oppdagar at vaksne ungdomar og foreldre kjøper alkohol til unge under 18 år.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	name=O|Entity=(vtbnn~20030906_1495__181536--1)
+2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux:pass	_	name=O
+3	skremt	skremme	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+4	når	når	SCONJ	_	_	6	mark	_	name=O
+5	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__181536--1)
+6	høyrer	høyre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+7	om	om	ADP	_	_	6	compound:prt	_	name=O
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	sjølv	sjølv	ADV	_	_	10	advmod	_	name=O|Entity=(vtbnn~20030906_1495__T168--1)
+10	oppdagar	oppdage	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+11	at	at	SCONJ	_	_	16	mark	_	name=O
+12	vaksne	vaksen	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(vtbnn~20030906_1495__T107--1(vtbnn~20030906_1495__T108--1
+13	ungdomar	ungdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nsubj	_	name=O|Entity=vtbnn~20030906_1495__T108)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	foreldre	forelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	conj	_	name=O|Entity=(vtbnn~20030906_1495__T109--1)vtbnn~20030906_1495__T107)
+16	kjøper	kjøpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	name=O
+17	alkohol	alkohol	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	name=O|Entity=(vtbnn~20030906_1495__T110--1)
+18	til	til	ADP	_	_	19	case	_	name=O
+19	unge	ung	ADJ	_	Degree=Pos|Number=Plur	16	advmod	_	name=O|Entity=(vtbnn~20030906_1495__T111--1
+20	under	under	ADP	_	_	22	case	_	name=O
+21	18	18	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O|Entity=(vtbnn~20030906_1495__T112--1
+22	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20030906_1495__T112)vtbnn~20030906_1495__T111)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013313
+# text = - Kanskje er det ei utvikling som er større på landet, undrar helsearbeidaren.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Kanskje	kanskje	ADV	_	_	6	advmod	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T113--1)
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20030906_1495__T114--1
+6	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	større	stor	ADJ	_	Degree=Cmp	6	acl:relcl	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T115--1)vtbnn~20030906_1495__T114)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	undrar	undre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+14	helsearbeidaren	helsearbeidar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__181536--1)
+15	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 013314
+# text = Alkoholproblemet blant unge i Fyresdal er årsaka til at rus er tema på ungdomsskulen heile fyrstkomande tysdag.
+1	Alkoholproblemet	alkoholproblem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__2282--1
+2	blant	blant	ADP	_	_	3	case	_	name=O
+3	unge	ung	ADJ	_	Degree=Pos|Number=Plur	1	amod	_	name=O|Entity=(vtbnn~20030906_1495__2254--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Fyresdal	Fyresdal	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20030906_1495__8520--1)vtbnn~20030906_1495__2254)vtbnn~20030906_1495__2282)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	årsaka	årsak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20030906_1495__T120--1
+8	til	til	SCONJ	_	_	12	mark	_	name=O
+9	at	at	SCONJ	_	_	12	mark	_	name=O
+10	rus	rus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T121--1)
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+12	tema	tema	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	acl	_	name=O|Entity=(vtbnn~20030906_1495__T122--1)
+13	på	på	ADP	_	_	14	case	_	name=O
+14	ungdomsskulen	ungdomsskule	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(vtbnn~20030906_1495__5385--1)
+15	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(vtbnn~20030906_1495__T124--1
+16	fyrstkomande	fyrstkomande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	tysdag	tysdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20030906_1495__T124)vtbnn~20030906_1495__T120)
+18	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 013315
+# text = Kvelden før er rus tema på eit ope møte på samfunnshuset.
+1	Kvelden	kveld	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(vtbnn~20030906_1495__T125--1
+2	før	før	ADP	_	_	1	nmod	_	name=O|Entity=vtbnn~20030906_1495__T125)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	rus	rus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T126--1)
+5	tema	tema	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20030906_1495__T127--1)
+6	på	på	ADP	_	_	9	case	_	name=O
+7	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20030906_1495__2274--1
+8	ope	open	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	name=O
+9	møte	møte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	samfunnshuset	samfunnshus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T129--1)vtbnn~20030906_1495__2274)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013316
+# text = - Alle foreldre bør møte fyrstkomande måndag.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Alle	all	DET	_	Number=Plur|PronType=Tot	3	det	_	name=O|Entity=(vtbnn~20030906_1495__2263--1
+3	foreldre	forelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=vtbnn~20030906_1495__2263)
+4	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	møte	møte	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	fyrstkomande	fyrstkomande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(vtbnn~20030906_1495__T131--1
+7	måndag	måndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20030906_1495__T131)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013317
+# text = Eg trur dei i klartekst vil få greie på kva som rører seg blant ungdomane.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__181536--1)
+2	trur	tru	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__2263--1)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	klartekst	klartekst	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(vtbnn~20030906_1495__T134--1)
+6	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	få	få	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+8	greie	greie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	name=O|Entity=(vtbnn~20030906_1495__T135--1
+9	på	på	ADP	_	_	12	case	_	name=O
+10	kva	kva	PRON	_	PronType=Int	12	nsubj	_	name=O
+11	som	som	PRON	_	PronType=Rel	12	nmod	_	name=O
+12	rører	røre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+13	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	12	obj	_	name=O
+14	blant	blant	ADP	_	_	15	case	_	name=O
+15	ungdomane	ungdom	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__2254--1)vtbnn~20030906_1495__T135)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013318
+# text = Foreldre kan få seg eit sjokk, seier Takle Nesland frå arrangørgruppa.
+1	Foreldre	forelder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__T137--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	iobj	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20030906_1495__T138--1
+6	sjokk	sjokk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20030906_1495__T138)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+9	Takle	Takle	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(vtbnn~20030906_1495__181536--1
+10	Nesland	Nesland	PROPN	_	_	9	flat:name	_	name=I-PER
+11	frå	frå	ADP	_	_	12	case	_	name=O
+12	arrangørgruppa	arrangørgruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Bridge=vtbnn~20030906_1495__2274<vtbnn~20030906_1495__T140:default|Entity=(vtbnn~20030906_1495__T140--1)vtbnn~20030906_1495__181536)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013319
+# text = Det er helse, sosial, barnevernet og skulen som samarbeider om temakvelden.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	helse	helse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T141--1(vtbnn~20030906_1495__T142--1
+4	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=vtbnn~20030906_1495__T142)
+5	sosial	sosial	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T143--1
+6	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=vtbnn~20030906_1495__T143)
+7	barnevernet	barnevern	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	conj	_	name=O|Entity=(vtbnn~20030906_1495__T144--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	skulen	skule	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	conj	_	name=O|Entity=(vtbnn~20030906_1495__T145--1(vtbnn~20030906_1495__5385--1)
+10	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+11	samarbeider	samarbeide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+12	om	om	ADP	_	_	13	case	_	name=O
+13	temakvelden	temakveld	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__2274--1)vtbnn~20030906_1495__T145)vtbnn~20030906_1495__T141)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013320
+# text = Politifyrstebetjent Bente Hauger skal halde foredrag om rus.
+1	Politifyrstebetjent	politifyrstebetjent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20030906_1495__4618--1
+2	Bente	Bente	NOUN	_	Gender=Fem	5	nsubj	_	name=B-PER
+3	Hauger	Hauger	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=vtbnn~20030906_1495__4618)
+4	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	halde	halde	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	foredrag	foredrag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(vtbnn~20030906_1495__T148--1)
+7	om	om	ADP	_	_	8	case	_	name=O
+8	rus	rus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T149--1)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013321
+# text = Hauger har eigne barn, er fostermor til narkotikamisbrukarar og har erfaring som barne- og ungdomsarbeidar.
+1	Hauger	Hauger	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(vtbnn~20030906_1495__4618--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	eigne	eigen	DET	_	Number=Plur|PronType=Prs	4	det	_	name=O|Entity=(vtbnn~20030906_1495__T151--1
+4	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20030906_1495__T151)
+5	,	$,	PUNCT	_	_	7	punct	_	name=O
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	fostermor	fostermor	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	conj	_	name=O|Entity=(vtbnn~20030906_1495__T152--1
+8	til	til	ADP	_	_	9	case	_	name=O
+9	narkotikamisbrukarar	narkotikamisbrukar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=(vtbnn~20030906_1495__T153--1)vtbnn~20030906_1495__T152)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+12	erfaring	erfaring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	name=O|Entity=(vtbnn~20030906_1495__T154--1)
+13	som	som	SCONJ	_	_	14	mark	_	name=O
+14	barne-	barne-	NOUN	_	_	1	acl	_	name=O|Entity=(vtbnn~20030906_1495__T155--1(vtbnn~20030906_1495__T156--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	ungdomsarbeidar	ungdomsarbeidar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T157--1)vtbnn~20030906_1495__T155)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013322
+# text = Ho har med seg ein narkotikahund som er kåra til den beste i landet.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__4618--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	med	med	ADP	_	_	4	case	_	name=O
+4	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	2	obl	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20030906_1495__T159--1
+6	narkotikahund	narkotikahund	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	kåra	kåre	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	6	acl:relcl	_	name=O
+10	til	til	ADP	_	_	12	case	_	name=O
+11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(vtbnn~20030906_1495__T160--1
+12	beste	god	ADJ	_	Definite=Def|Degree=Sup	9	advmod	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20030906_1495__T161--1)vtbnn~20030906_1495__T160)vtbnn~20030906_1495__T159)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013323
+# text = - Eg håpar Hauger provoserer fram ein diskusjon rundt rusproblemet i Fyresdal, seier Takle Nesland.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20030906_1495__181536--1)
+3	håpar	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	Hauger	Hauger	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(vtbnn~20030906_1495__4618--1)
+5	provoserer	provosere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	name=O
+6	fram	fram	ADP	_	_	5	compound:prt	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vtbnn~20030906_1495__T164--1
+8	diskusjon	diskusjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=vtbnn~20030906_1495__T164)
+9	rundt	rundt	ADP	_	_	10	case	_	name=O
+10	rusproblemet	rusproblem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(vtbnn~20030906_1495__2282--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Fyresdal	Fyresdal	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20030906_1495__8520--1)vtbnn~20030906_1495__2282)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+15	Takle	Takle	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(vtbnn~20030906_1495__181536--1
+16	Nesland	Nesland	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20030906_1495__181536)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+

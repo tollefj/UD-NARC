@@ -1,0 +1,1509 @@
+# newdoc id = db~20081117-3745306
+# global.Entity = eid-etype-head-other
+# sent_id = 017103
+# text = Verdens beste jobb
+1	Verdens	verden	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(db~20081117_3745306__T2--1(db~20081117_3745306__T1--1)
+2	beste	god	ADJ	_	Definite=Def|Degree=Sup	3	amod	_	name=O
+3	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=db~20081117_3745306__T2)
+
+# sent_id = 017104
+# text = «Football Manager 2009» gjør alt riktig
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__132288--1
+2	Football	Football	PROPN	_	_	6	nsubj	_	name=B-PROD
+3	Manager	Manager	PROPN	_	_	2	flat:name	_	name=I-PROD
+4	2009	2009	NUM	_	Number=Plur|NumType=Card	2	flat:name	_	SpaceAfter=No|name=I-PROD
+5	»	$"	PUNCT	_	_	2	punct	_	name=O|Entity=db~20081117_3745306__132288)
+6	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	name=O|Entity=(db~20081117_3745306__T4--1)
+8	riktig	riktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+
+# newpar
+# sent_id = 017105
+# text = «Football Manager 2009» er tilbake med nok en fritidsknuser.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__132288--1
+2	Football	Football	PROPN	_	_	7	nsubj	_	name=B-PROD
+3	Manager	Manager	PROPN	_	_	2	flat:name	_	name=I-PROD
+4	2009	2009	NUM	_	Number=Plur|NumType=Card	2	flat:name	_	SpaceAfter=No|name=I-PROD
+5	»	$"	PUNCT	_	_	2	punct	_	name=O|Entity=db~20081117_3745306__132288)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	tilbake	tilbake	ADP	_	_	0	root	_	name=O
+8	med	med	ADP	_	_	11	case	_	name=O
+9	nok	nok	ADV	_	_	10	advmod	_	name=O|Entity=(db~20081117_3745306__T6--1
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O
+11	fritidsknuser	fritidsknuser	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T6)
+12	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 017106
+# text = Det femte spillet i serien med navnet «Football Manager» fortsetter der 2008-utgaven slapp, og gir oss enda mer.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(db~20081117_3745306__132288--1
+2	femte	femte	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	serien	serie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(db~20081117_3745306__81023--1
+6	med	med	ADP	_	_	9	case	_	name=O
+7	navnet	navn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(db~20081117_3745306__T9--1
+8	«	$"	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O
+9	Football	Football	PROPN	_	_	5	nmod	_	name=B-PROD
+10	Manager	Manager	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-PROD
+11	»	$"	PUNCT	_	_	9	punct	_	name=O|Entity=db~20081117_3745306__T9)db~20081117_3745306__81023)db~20081117_3745306__132288)
+12	fortsetter	fortsette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	der	der	ADV	_	_	12	advmod	_	name=O
+14	2008-utgaven	2008-utgave	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Bridge=db~20081117_3745306__81023<db~20081117_3745306__6136:default|Entity=(db~20081117_3745306__6136--1)
+15	slapp	slippe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	18	punct	_	name=O
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	name=O
+19	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	18	obj	_	name=O|Entity=(db~20081117_3745306__T11--1)
+20	enda	enda	ADV	_	_	21	advmod	_	name=O
+21	mer	mye	ADJ	_	Degree=Cmp	18	advmod	_	SpaceAfter=No|name=O
+22	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 017107
+# text = For bare uker siden spilte jeg «FM 2008» og fikk beskjeden «What Are Humans?» på spillets status da jeg skulle lagre.
+1	For	for	ADP	_	_	3	case	_	name=O
+2	bare	bare	ADV	_	_	3	advmod	_	name=O|Entity=(db~20081117_3745306__T12--1
+3	uker	uke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	name=O
+4	siden	siden	ADV	_	_	3	advmod	_	name=O|Entity=db~20081117_3745306__T12)
+5	spilte	spille	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081117_3745306__363--1)
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__6136--1
+8	FM	FM	PROPN	_	_	5	obj	_	name=B-PROD
+9	2008	2008	NUM	_	Number=Plur|NumType=Card	8	flat:name	_	SpaceAfter=No|name=I-PROD
+10	»	$"	PUNCT	_	_	8	punct	_	name=O|Entity=db~20081117_3745306__6136)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	name=O
+13	beskjeden	beskjed	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(db~20081117_3745306__T15--1
+14	«	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+15	What	What	PROPN	_	_	12	obj	_	name=O
+16	Are	Are	PROPN	_	_	15	flat:name	_	name=O
+17	Humans	Humans	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=O
+18	?	$?	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+19	»	$"	PUNCT	_	_	15	punct	_	name=O|Entity=db~20081117_3745306__T15)
+20	på	på	ADP	_	_	22	case	_	name=O
+21	spillets	spill	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	22	nmod	_	name=O|Entity=(db~20081117_3745306__T17--1(db~20081117_3745306__6136--1)
+22	status	status	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=db~20081117_3745306__T17)
+23	da	da	SCONJ	_	_	26	mark	_	name=O
+24	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	name=O|Entity=(db~20081117_3745306__363--1)
+25	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	name=O
+26	lagre	lagre	VERB	_	VerbForm=Inf	12	advcl	_	SpaceAfter=No|name=O
+27	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017108
+# text = Spilltiden var nærmere 50 dager, noe som igjen innebærer 1200 timer som manager for diverse lag overalt i verden.
+1	Spilltiden	spilltid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Bridge=db~20081117_3745306__6136<db~20081117_3745306__T19:default|Entity=(db~20081117_3745306__T19--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+3	nærmere	nær	ADJ	_	Degree=Cmp	4	advmod	_	name=O|Entity=(db~20081117_3745306__T20--1
+4	50	50	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O
+5	dager	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T20)
+6	,	$,	PUNCT	_	_	7	punct	_	name=O
+7	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	5	appos	_	name=O|Entity=(db~20081117_3745306__T21--1
+8	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+9	igjen	igjen	ADV	_	_	10	advmod	_	name=O
+10	innebærer	innebære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	name=O
+11	1200	1200	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(db~20081117_3745306__T22--1
+12	timer	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obj	_	name=O
+13	som	som	ADP	_	_	14	case	_	name=O
+14	manager	manager	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(db~20081117_3745306__T23--1
+15	for	for	ADP	_	_	17	case	_	name=O
+16	diverse	diverse	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(db~20081117_3745306__T24--1
+17	lag	lag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	nmod	_	name=O
+18	overalt	overalt	ADV	_	_	20	advmod	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T25--1)db~20081117_3745306__T24)db~20081117_3745306__T23)db~20081117_3745306__T22)db~20081117_3745306__T21)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017109
+# text = Og dette var bare et av flere spill som ble igangsatt i løpet av året.
+1	Og	og	CCONJ	_	_	5	cc	_	name=O
+2	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081117_3745306__6136--1)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	bare	bare	ADV	_	_	5	advmod	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	0	root	_	name=O
+6	av	av	ADP	_	_	8	case	_	name=O
+7	flere	mange	ADJ	_	Degree=Cmp	8	amod	_	name=O|Entity=(db~20081117_3745306__T27--1
+8	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	name=O
+9	som	som	PRON	_	PronType=Rel	11	nsubj:pass	_	name=O
+10	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux:pass	_	name=O
+11	igangsatt	igangsette	VERB	_	VerbForm=Part	8	acl:relcl	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	løpet	løp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=(db~20081117_3745306__T28--1
+14	av	av	ADP	_	_	15	case	_	name=O
+15	året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T29--1)db~20081117_3745306__T28)db~20081117_3745306__T27)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017110
+# text = Dette underbygger min og andres påstand om at dette er mer enn et spill, dette er en jobb.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081117_3745306__T30--1)
+2	underbygger	underbygge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(db~20081117_3745306__T33--1(db~20081117_3745306__T31--1(db~20081117_3745306__363--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	andres	annen	DET	_	Case=Gen|Number=Plur|PronType=Dem	3	conj	_	name=O|Entity=db~20081117_3745306__T31)
+6	påstand	påstand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+7	om	om	ADP	_	_	11	case	_	name=O
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081117_3745306__6136--1)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	mer	mye	ADJ	_	Degree=Cmp	6	amod	_	name=O
+12	enn	enn	ADP	_	_	14	case	_	name=O
+13	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(db~20081117_3745306__T35--1
+14	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T35)
+15	,	$,	PUNCT	_	_	19	punct	_	name=O
+16	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(db~20081117_3745306__6136--1)
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+18	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(db~20081117_3745306__T37--1
+19	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T37)db~20081117_3745306__T33)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017111
+# text = For de av dere som skulle være ny i «Football Manager» sin verden, kan vi fortelle at spillserien har vart i 16 år.
+1	For	for	ADP	_	_	2	case	_	name=O
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	obl	_	name=O|Entity=(db~20081117_3745306__T38--1
+3	av	av	ADP	_	_	4	case	_	name=O
+4	dere	dere	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=2|PronType=Prs	2	nmod	_	name=O|Entity=(db~20081117_3745306__T39--1
+5	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+6	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+7	være	være	AUX	_	VerbForm=Inf	8	cop	_	name=O
+8	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	acl:relcl	_	name=O
+9	i	i	ADP	_	_	15	case	_	name=O
+10	«	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T42--1(db~20081117_3745306__T41--1(db~20081117_3745306__81023--1
+11	Football	Football	PROPN	_	_	14	obl	_	name=B-PROD
+12	Manager	Manager	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PROD
+13	»	$"	PUNCT	_	_	11	punct	_	name=O|Entity=db~20081117_3745306__81023)
+14	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=db~20081117_3745306__T41)
+15	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T42)db~20081117_3745306__T39)db~20081117_3745306__T38)
+16	,	$,	PUNCT	_	_	2	punct	_	name=O
+17	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+18	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	name=O|Entity=(db~20081117_3745306__T43--1)
+19	fortelle	fortelle	VERB	_	VerbForm=Inf	0	root	_	name=O
+20	at	at	SCONJ	_	_	23	mark	_	name=O
+21	spillserien	spillserie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	name=O|Entity=(db~20081117_3745306__81023--1)
+22	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux	_	name=O
+23	vart	vare	VERB	_	VerbForm=Part	19	ccomp	_	name=O
+24	i	i	ADP	_	_	26	case	_	name=O
+25	16	16	NUM	_	Number=Plur|NumType=Card	26	nummod	_	name=O|Entity=(db~20081117_3745306__T45--1
+26	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T45)
+27	.	$.	PUNCT	_	_	19	punct	_	name=O
+
+# sent_id = 017112
+# text = Sports Interactive har vært ansvarlig for spillserien i alle år, men skilte i 2004 lag med spillutviklerne Eidos og skiftet da navn fra «Championship Manager» til «Football Manager».
+1	Sports	Sports	PROPN	_	_	5	nsubj	_	name=B-ORG|Entity=(db~20081117_3745306__5374--1
+2	Interactive	Interactive	PROPN	_	_	1	flat:name	_	name=I-ORG|Entity=db~20081117_3745306__5374)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	vært	være	AUX	_	VerbForm=Part	5	cop	_	name=O
+5	ansvarlig	ansvarlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	spillserien	spillserie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(db~20081117_3745306__81023--1)
+8	i	i	ADP	_	_	10	case	_	name=O
+9	alle	all	DET	_	Number=Plur|PronType=Tot	10	det	_	name=O|Entity=(db~20081117_3745306__T48--1
+10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T48)
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	men	men	CCONJ	_	_	13	cc	_	name=O
+13	skilte	skille	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	2004	2004	NUM	_	Number=Plur|NumType=Card	13	obl	_	name=O
+16	lag	lag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	name=O|Entity=(db~20081117_3745306__T49--1)
+17	med	med	ADP	_	_	19	case	_	name=O
+18	spillutviklerne	spillutvikler	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	name=O|Entity=(db~20081117_3745306__3185--1
+19	Eidos	Eidos	PROPN	_	_	13	obl	_	name=B-ORG|Entity=db~20081117_3745306__3185)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	skiftet	skifte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	conj	_	name=O
+22	da	da	ADV	_	_	21	advmod	_	name=O
+23	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	name=O|Entity=(db~20081117_3745306__T51--1)
+24	fra	fra	ADP	_	_	26	case	_	name=O
+25	«	$"	PUNCT	_	_	26	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__2108--1
+26	Championship	Championship	PROPN	_	_	21	obl	_	name=B-PROD
+27	Manager	Manager	PROPN	_	_	26	flat:name	_	SpaceAfter=No|name=I-PROD
+28	»	$"	PUNCT	_	_	26	punct	_	name=O|Entity=db~20081117_3745306__2108)
+29	til	til	ADP	_	_	31	case	_	name=O
+30	«	$"	PUNCT	_	_	31	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__81023--1
+31	Football	Football	PROPN	_	_	26	obl	_	name=B-PROD
+32	Manager	Manager	PROPN	_	_	31	flat:name	_	SpaceAfter=No|name=I-PROD
+33	»	$"	PUNCT	_	_	31	punct	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__81023)
+34	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017113
+# text = Eidos gir fortsatt ut spill ved navn «Championship Manager», men har aldri oppnådd samme suksess som Sports Interactives spillserie.
+1	Eidos	Eidos	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(db~20081117_3745306__3185--1)
+2	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	fortsatt	fortsatt	ADV	_	_	2	advmod	_	name=O
+4	ut	ut	ADP	_	_	2	compound:prt	_	name=O
+5	spill	spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(db~20081117_3745306__T55--1
+6	ved	ved	ADP	_	_	9	case	_	name=O
+7	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(db~20081117_3745306__2108--1
+8	«	$"	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O
+9	Championship	Championship	PROPN	_	_	5	nmod	_	name=B-PROD
+10	Manager	Manager	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-PROD
+11	»	$"	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__2108)db~20081117_3745306__T55)
+12	,	$,	PUNCT	_	_	16	punct	_	name=O
+13	men	men	CCONJ	_	_	16	cc	_	name=O
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	aldri	aldri	ADV	_	_	16	advmod	_	name=O
+16	oppnådd	oppnå	VERB	_	VerbForm=Part	2	conj	_	name=O
+17	samme	samme	DET	_	Definite=Def|PronType=Dem	18	det	_	name=O|Entity=(db~20081117_3745306__T57--1
+18	suksess	suksess	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	name=O
+19	som	som	ADP	_	_	17	obl	_	name=O
+20	Sports	Sports	PROPN	_	_	22	nmod	_	name=B-ORG|Entity=(db~20081117_3745306__T59--1(db~20081117_3745306__5374--1
+21	Interactives	Interactive	PROPN	_	Case=Gen	20	flat:name	_	name=I-ORG|Entity=db~20081117_3745306__5374)
+22	spillserie	spillserie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	appos	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T59)db~20081117_3745306__T57)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017114
+# text = 3D-motor
+1	3D-motor	3D-motor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(db~20081117_3745306__T60--1)
+
+# sent_id = 017115
+# text = Det er mange nye spennende funksjoner på årets utgave av «Football Manager» («FM»), den største nyheten er selvsagt spillets 3D-kampmotor.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(db~20081117_3745306__T61--1
+4	nye	ny	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+5	spennende	spennende	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	funksjoner	funksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	name=O
+7	på	på	ADP	_	_	9	case	_	name=O
+8	årets	år	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(db~20081117_3745306__132288--1(db~20081117_3745306__T62--1)
+9	utgave	utgave	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	name=O
+10	av	av	ADP	_	_	12	case	_	name=O
+11	«	$"	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T64--1
+12	Football	Football	PROPN	_	_	9	nmod	_	name=B-PROD
+13	Manager	Manager	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PROD
+14	»	$"	PUNCT	_	_	12	punct	_	name=O
+15	(	$(	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T65--1
+16	«	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O
+17	FM	FM	PROPN	_	_	12	appos	_	SpaceAfter=No|name=B-PROD
+18	»	$"	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O
+19	)	$)	PUNCT	_	_	17	punct	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T65)db~20081117_3745306__T64)db~20081117_3745306__132288)db~20081117_3745306__T61)
+20	,	$,	PUNCT	_	_	27	punct	_	name=O
+21	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	name=O|Bridge=db~20081117_3745306__T61<db~20081117_3745306__T66:default|Entity=(db~20081117_3745306__T66--1
+22	største	stor	ADJ	_	Definite=Def|Degree=Sup	23	amod	_	name=O
+23	nyheten	nyhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	27	nsubj	_	name=O|Entity=db~20081117_3745306__T66)
+24	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	name=O
+25	selvsagt	selvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	27	advmod	_	name=O
+26	spillets	spill	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	27	nmod	_	name=O|Entity=(db~20081117_3745306__5472--1(db~20081117_3745306__132288--1)
+27	3D-kampmotor	3D-kampmotor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__5472)
+28	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017116
+# text = Du kan nå se kampene i mye større grad og detalj.
+1	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081117_3745306__T69--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	nå	nå	ADV	_	_	4	advmod	_	name=O
+4	se	se	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	kampene	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	obj	_	name=O|Bridge=db~20081117_3745306__132288<db~20081117_3745306__T70:default|Entity=(db~20081117_3745306__T70--1)
+6	i	i	ADP	_	_	9	case	_	name=O
+7	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O|Entity=(db~20081117_3745306__T71--1(db~20081117_3745306__T72--1
+8	større	stor	ADJ	_	Degree=Cmp	9	amod	_	name=O
+9	grad	grad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=db~20081117_3745306__T72)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	detalj	detalj	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T73--1)db~20081117_3745306__T71)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017117
+# text = 3D-kampmotor i managerspill er på ingen måte en stor nyhet, både «Championship Manager» serien til Eidos og Fifa Manager har hatt slike spillmotorer.
+1	3D-kampmotor	3D-kampmotor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(db~20081117_3745306__T74--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	managerspill	managerspill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	nmod	_	name=O|Entity=(db~20081117_3745306__T75--1)db~20081117_3745306__T74)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+5	på	på	ADP	_	_	7	case	_	name=O
+6	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	7	det	_	name=O|Entity=(db~20081117_3745306__T76--1
+7	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=db~20081117_3745306__T76)
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(db~20081117_3745306__T77--1
+9	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	nyhet	nyhet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T77)
+11	,	$,	PUNCT	_	_	24	punct	_	name=O
+12	både	både	CCONJ	_	_	17	cc	_	name=O
+13	«	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T79--1(db~20081117_3745306__T80--1(db~20081117_3745306__T78--1
+14	Championship	Championship	PROPN	_	_	17	nmod	_	name=B-PROD
+15	Manager	Manager	PROPN	_	_	14	flat:name	_	SpaceAfter=No|name=I-PROD
+16	»	$"	PUNCT	_	_	14	punct	_	name=O|Entity=db~20081117_3745306__T78)
+17	serien	serie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	name=O
+18	til	til	ADP	_	_	19	case	_	name=O
+19	Eidos	Eidos	PROPN	_	_	17	nmod	_	name=B-ORG|Entity=(db~20081117_3745306__3185--1)db~20081117_3745306__T80)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	Fifa	Fifa	PROPN	_	_	17	conj	_	name=B-PROD|Entity=(db~20081117_3745306__T82--1
+22	Manager	Manager	PROPN	_	_	21	flat:name	_	name=I-PROD|Entity=db~20081117_3745306__T82)db~20081117_3745306__T79)
+23	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	name=O
+24	hatt	ha	VERB	_	VerbForm=Part	10	conj	_	name=O
+25	slike	slik	DET	_	Number=Plur|PronType=Dem	26	det	_	name=O|Entity=(db~20081117_3745306__T83--1
+26	spillmotorer	spillmotor	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T83)
+27	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 017118
+# text = Men ingen har kunne skilte med en så vellykket motor som «FM 2009», «Sports Interactive» har jobbet med dette i over tre år før de valgte lansering, og det har gjorde de lurt i.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	5	nsubj	_	name=O|Entity=(db~20081117_3745306__T84--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	kunne	kunne	AUX	_	VerbForm=Inf	5	aux	_	name=O
+5	skilte	skilte	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	med	med	ADP	_	_	10	case	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(db~20081117_3745306__T85--1
+8	så	så	ADV	_	_	9	advmod	_	name=O
+9	vellykket	vellykket	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	motor	motor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O
+11	som	som	ADP	_	_	13	case	_	name=O
+12	«	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__132288--1
+13	FM	FM	PROPN	_	_	8	obl	_	name=B-PROD
+14	2009	2009	NUM	_	Number=Plur|NumType=Card	13	flat:name	_	SpaceAfter=No|name=I-PROD
+15	»	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__132288)db~20081117_3745306__T85)
+16	,	$,	PUNCT	_	_	22	punct	_	name=O
+17	«	$"	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__5374--1
+18	Sports	Sports	PROPN	_	_	22	nsubj	_	name=B-ORG
+19	Interactive	Interactive	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-ORG
+20	»	$"	PUNCT	_	_	18	punct	_	name=O|Entity=db~20081117_3745306__5374)
+21	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+22	jobbet	jobbe	VERB	_	VerbForm=Part	5	conj	_	name=O
+23	med	med	ADP	_	_	24	case	_	name=O
+24	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obl	_	name=O|Entity=(db~20081117_3745306__5472--1)
+25	i	i	ADP	_	_	28	case	_	name=O
+26	over	over	ADP	_	_	27	case	_	name=O|Entity=(db~20081117_3745306__T89--1
+27	tre	tre	NUM	_	Number=Plur|NumType=Card	28	nummod	_	name=O
+28	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	obl	_	name=O|Entity=db~20081117_3745306__T89)
+29	før	før	SCONJ	_	_	31	mark	_	name=O
+30	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	name=O|Entity=(db~20081117_3745306__5374--1)
+31	valgte	velge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	name=O
+32	lansering	lansering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T91--1)
+33	,	$,	PUNCT	_	_	34	punct	_	name=O
+34	og	og	CCONJ	_	_	37	cc	_	name=O
+35	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	obl	_	name=O|Entity=(db~20081117_3745306__T92--1)
+36	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	reparandum	_	name=O
+37	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	conj	_	name=O
+38	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	name=O|Entity=(db~20081117_3745306__5374--1)
+39	lurt	lur	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	37	advmod	_	name=O
+40	i	i	ADP	_	_	35	case	_	SpaceAfter=No|name=O
+41	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017119
+# text = Det eneste å utsette på 3D-motoren er at den har litt problemer når man velger vindu- og ikke fullskjermsmodus.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O
+2	eneste	eneste	NUM	_	Definite=Def|NumType=Card	10	nsubj	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	utsette	utsette	VERB	_	VerbForm=Inf	2	acl	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	3D-motoren	3D-motor	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(db~20081117_3745306__5472--1)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+8	at	at	SCONJ	_	_	10	mark	_	name=O
+9	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(db~20081117_3745306__5472--1)
+10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	name=O|Entity=(db~20081117_3745306__T96--1
+12	problemer	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	name=O|Entity=db~20081117_3745306__T96)
+13	når	når	SCONJ	_	_	15	mark	_	name=O
+14	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	15	nsubj	_	name=O|Entity=(db~20081117_3745306__T97--1)
+15	velger	velge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+16	vindu-	vindu-	NOUN	_	_	15	obj	_	name=O|Entity=(db~20081117_3745306__T98--1(db~20081117_3745306__T99--1)
+17	og	og	CCONJ	_	_	19	cc	_	name=O
+18	ikke	ikke	PART	_	Polarity=Neg	19	nmod	_	name=O|Entity=(db~20081117_3745306__T100--1
+19	fullskjermsmodus	fullskjermsmodus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T100)db~20081117_3745306__T98)
+20	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 017120
+# text = Man kan også velge kameravinkling i kampen, samt har man TV-skjerm som gir deg full oversikt over kampbildet.
+1	Man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081117_3745306__T101--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	også	også	ADV	_	_	4	advmod	_	name=O
+4	velge	velge	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	kameravinkling	kameravinkling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=(db~20081117_3745306__T102--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T103--1)
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	samt	samt	CCONJ	_	_	10	cc	_	name=O
+10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+11	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	10	nsubj	_	name=O|Entity=(db~20081117_3745306__T104--1)
+12	TV-skjerm	TV-skjerm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=(db~20081117_3745306__T105--1
+13	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+14	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	name=O
+15	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	14	iobj	_	name=O|Entity=(db~20081117_3745306__T106--1)
+16	full	full	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(db~20081117_3745306__T107--1
+17	oversikt	oversikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obj	_	name=O
+18	over	over	ADP	_	_	19	case	_	name=O
+19	kampbildet	kampbilde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Bridge=db~20081117_3745306__T103<db~20081117_3745306__3344:default|Entity=(db~20081117_3745306__3344--1)db~20081117_3745306__T107)db~20081117_3745306__T105)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017121
+# text = Det beste med å velge TV-skjerm er at man har muligheten til å velge bokser som tar grunnlag i kampbildet.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(db~20081117_3745306__T109--1
+2	beste	god	ADJ	_	Definite=Def|Degree=Sup	10	nsubj	_	name=O
+3	med	med	SCONJ	_	_	5	mark	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	velge	velge	VERB	_	VerbForm=Inf	2	acl	_	name=O
+6	TV-skjerm	TV-skjerm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=(db~20081117_3745306__T110--1)db~20081117_3745306__T109)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+8	at	at	SCONJ	_	_	10	mark	_	name=O
+9	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	10	nsubj	_	name=O|Entity=(db~20081117_3745306__T111--1)
+10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	muligheten	mulighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=(db~20081117_3745306__T112--1
+12	til	til	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	velge	velge	VERB	_	VerbForm=Inf	11	acl	_	name=O
+15	bokser	boks	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obj	_	name=O|Entity=(db~20081117_3745306__T113--1
+16	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+17	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+18	grunnlag	grunnlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	obj	_	name=O|Entity=(db~20081117_3745306__T114--1
+19	i	i	ADP	_	_	20	case	_	name=O
+20	kampbildet	kampbilde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__3344--1)db~20081117_3745306__T114)db~20081117_3745306__T113)db~20081117_3745306__T112)
+21	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 017122
+# text = Min favoritt er den som måler spillernes selvtillit i kampbildet, og forteller deg hvem som gjorde feil og spiller uten selvtillit.
+1	Min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(db~20081117_3745306__T117--1(db~20081117_3745306__122309--1)
+2	favoritt	favoritt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=db~20081117_3745306__T117)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	name=O|Bridge=db~20081117_3745306__T113<db~20081117_3745306__T118:default|Entity=(db~20081117_3745306__T118--1
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	måler	måle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+7	spillernes	spiller	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=(db~20081117_3745306__T120--1(db~20081117_3745306__T119--1)
+8	selvtillit	selvtillit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obj	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	kampbildet	kampbilde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__3344--1)db~20081117_3745306__T120)
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+14	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	13	iobj	_	name=O|Entity=(db~20081117_3745306__T122--1)
+15	hvem	hvem	PRON	_	Animacy=Hum|PronType=Int	17	nsubj	_	name=O
+16	som	som	PRON	_	PronType=Rel	17	iobj	_	name=O
+17	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	ccomp	_	name=O
+18	feil	feil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	name=O|Entity=(db~20081117_3745306__T123--1)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	spiller	spille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	conj	_	name=O
+21	uten	uten	ADP	_	_	22	case	_	name=O
+22	selvtillit	selvtillit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T124--1)db~20081117_3745306__T118)
+23	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017123
+# text = Assistent gull verdt
+1	Assistent	assistent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(db~20081117_3745306__T125--1
+2	gull	gull	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(db~20081117_3745306__T126--1)
+3	verdt	verdt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	xcomp	_	name=O|Entity=db~20081117_3745306__T125)
+
+# sent_id = 017124
+# text = Hvis 3D-motoren er spillets største nyhet, er din assisterende manager den beste.
+1	Hvis	hvis	SCONJ	_	_	6	mark	_	name=O
+2	3D-motoren	3D-motor	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(db~20081117_3745306__5472--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	spillets	spill	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(db~20081117_3745306__T129--1(db~20081117_3745306__132288--1)
+5	største	stor	ADJ	_	Definite=Def|Degree=Sup	6	amod	_	name=O
+6	nyhet	nyhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	advcl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T129)
+7	,	$,	PUNCT	_	_	6	punct	_	name=O
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+9	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	name=O|Entity=(db~20081117_3745306__81280--1(db~20081117_3745306__81157--1)
+10	assisterende	assistere	ADJ	_	VerbForm=Part	11	amod	_	name=O
+11	manager	manager	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=db~20081117_3745306__81280)
+12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O
+13	beste	god	ADJ	_	Definite=Def|Degree=Sup	0	root	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 017125
+# text = Hvis du er nybegynner kan din høyre hånd fort bli den nye stjernen.
+1	Hvis	hvis	SCONJ	_	_	4	mark	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081117_3745306__T132--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	nybegynner	nybegynner	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	advcl	_	name=O|Entity=(db~20081117_3745306__T133--1)
+5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+6	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=(db~20081117_3745306__81280--1(db~20081117_3745306__81157--1)
+7	høyre	høyre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	hånd	hånd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=db~20081117_3745306__81280)
+9	fort	fort	ADJ	_	Degree=Pos	10	advmod	_	name=O
+10	bli	bli	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(db~20081117_3745306__T136--1
+12	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	stjernen	stjerne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T136)
+14	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 017126
+# text = Før, etter og underveis i kampen har du øyeblikkelig feedback fra sidemannen din på benken, han gir det taktiske råd og forteller deg hvilke spillere du burde sette inn noen harde taklinger på.
+1	Før	før	ADP	_	_	8	compound:prt	_	SpaceAfter=No|name=O
+2	,	$,	PUNCT	_	_	3	punct	_	name=O
+3	etter	etter	ADP	_	_	1	conj	_	name=O
+4	og	og	CCONJ	_	_	7	cc	_	name=O
+5	underveis	underveis	ADP	_	_	7	case	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	conj	_	name=O|Bridge=db~20081117_3745306__132288<db~20081117_3745306__T137:default|Entity=(db~20081117_3745306__T137--1)
+8	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	name=O|Entity=(db~20081117_3745306__81157--1)
+10	øyeblikkelig	øyeblikkelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(db~20081117_3745306__T139--1
+11	feedback	feedback	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	name=O
+12	fra	fra	ADP	_	_	13	case	_	name=O
+13	sidemannen	sidemann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(db~20081117_3745306__81280--1
+14	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(db~20081117_3745306__T141--1)
+15	på	på	ADP	_	_	16	case	_	name=O
+16	benken	benk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T142--1)db~20081117_3745306__81280)db~20081117_3745306__T139)
+17	,	$,	PUNCT	_	_	19	punct	_	name=O
+18	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(db~20081117_3745306__81280--1)
+19	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	name=O
+20	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(db~20081117_3745306__T144--1
+21	taktiske	taktisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	råd	råd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obj	_	name=O|Entity=db~20081117_3745306__T144)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	conj	_	name=O
+25	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	24	iobj	_	name=O|Entity=(db~20081117_3745306__81157--1)
+26	hvilke	hvilken	DET	_	Number=Plur|PronType=Int	27	det	_	name=O|Entity=(db~20081117_3745306__T146--1(db~20081117_3745306__T148[1/2]--1
+27	spillere	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	34	nmod	_	name=O|Entity=db~20081117_3745306__T146)db~20081117_3745306__T148[1/2])
+28	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	30	nsubj	_	name=O|Entity=(db~20081117_3745306__81157--1)
+29	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	30	aux	_	name=O
+30	sette	sette	VERB	_	VerbForm=Inf	24	ccomp	_	name=O
+31	inn	inn	ADP	_	_	30	compound:prt	_	name=O
+32	noen	noen	DET	_	Number=Plur|PronType=Ind	34	det	_	name=O|Entity=(db~20081117_3745306__T148[2/2]--1
+33	harde	hard	ADJ	_	Degree=Pos|Number=Plur	34	amod	_	name=O
+34	taklinger	takling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	30	obj	_	name=O
+35	på	på	ADP	_	_	27	case	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T148[2/2])
+36	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 017127
+# text = Ikke at noen behøver å fortelle deg at du må gå inn hardt på Ronaldo, men det hjelper å bli minnet på det.
+1	Ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+2	at	at	SCONJ	_	_	4	mark	_	name=O
+3	noen	noen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Ind,Prs	4	nsubj	_	name=O|Entity=(db~20081117_3745306__T149--1)
+4	behøver	behøve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	fortelle	fortelle	VERB	_	VerbForm=Inf	4	xcomp	_	name=O
+7	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	6	iobj	_	name=O|Entity=(db~20081117_3745306__81157--1)
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081117_3745306__81157--1)
+10	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	gå	gå	VERB	_	VerbForm=Inf	6	ccomp	_	name=O
+12	inn	inn	ADP	_	_	11	compound:prt	_	name=O
+13	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+14	på	på	ADP	_	_	15	case	_	name=O
+15	Ronaldo	Ronaldo	PROPN	_	_	11	obl	_	SpaceAfter=No|name=B-PER|Entity=(db~20081117_3745306__T152--1)
+16	,	$,	PUNCT	_	_	19	punct	_	name=O
+17	men	men	CCONJ	_	_	19	cc	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	name=O
+19	hjelper	hjelpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+20	å	å	PART	_	_	22	mark	_	name=O
+21	bli	bli	AUX	_	VerbForm=Inf	22	aux:pass	_	name=O
+22	minnet	minne	VERB	_	VerbForm=Part	19	csubj	_	name=O
+23	på	på	ADP	_	_	24	case	_	name=O
+24	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T153--1)
+25	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017128
+# text = Aldri før har jeg hatt en så god sesongstart på «Football Manager» før, det har alltid tatt tid å tilpasse taktikk og spillere, men med en god assistent får du verdifull hjelp.
+1	Aldri	aldri	ADV	_	_	2	advmod	_	name=O
+2	før	før	ADP	_	_	5	compound:prt	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081117_3745306__122309--1)
+5	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(db~20081117_3745306__T155--1
+7	så	så	ADV	_	_	8	advmod	_	name=O
+8	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	sesongstart	sesongstart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O
+10	på	på	ADP	_	_	12	case	_	name=O
+11	«	$"	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__81023--1
+12	Football	Football	PROPN	_	_	9	nmod	_	name=B-PROD
+13	Manager	Manager	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PROD
+14	»	$"	PUNCT	_	_	12	punct	_	name=O|Entity=db~20081117_3745306__81023)db~20081117_3745306__T155)
+15	før	før	ADP	_	_	5	compound:prt	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	expl	_	name=O
+18	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+19	alltid	alltid	ADV	_	_	20	advmod	_	name=O
+20	tatt	ta	VERB	_	VerbForm=Part	5	conj	_	name=O
+21	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	obj	_	name=O|Entity=(db~20081117_3745306__T157--1)
+22	å	å	PART	_	_	23	mark	_	name=O
+23	tilpasse	tilpasse	VERB	_	VerbForm=Inf	20	csubj	_	name=O
+24	taktikk	taktikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	name=O|Entity=(db~20081117_3745306__T158--1(db~20081117_3745306__T159--1)
+25	og	og	CCONJ	_	_	26	cc	_	name=O
+26	spillere	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T160--1)db~20081117_3745306__T158)
+27	,	$,	PUNCT	_	_	33	punct	_	name=O
+28	men	men	CCONJ	_	_	33	cc	_	name=O
+29	med	med	ADP	_	_	32	case	_	name=O
+30	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	32	det	_	name=O|Entity=(db~20081117_3745306__T161--1
+31	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	32	amod	_	name=O
+32	assistent	assistent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	obl	_	name=O|Entity=db~20081117_3745306__T161)
+33	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	conj	_	name=O
+34	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	33	nsubj	_	name=O|Entity=(db~20081117_3745306__81157--1)
+35	verdifull	verdifull	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	36	amod	_	name=O|Entity=(db~20081117_3745306__T163--1
+36	hjelp	hjelp	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	33	obj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T163)
+37	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017129
+# text = Min høyre hånd fortalte meg fort at spillerne ikke taklet det høye tempoet og feilplasserte kortpasningene, mine markeringsspillere var ikke gode nok og spissene mine var ikke raske nok.
+1	Min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	name=O|Entity=(db~20081117_3745306__3564--1(db~20081117_3745306__122309--1)
+2	høyre	høyre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	hånd	hånd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=db~20081117_3745306__3564)
+4	fortalte	fortelle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	4	iobj	_	name=O|Entity=(db~20081117_3745306__122309--1)
+6	fort	fort	ADJ	_	Degree=Pos	4	advmod	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	spillerne	spiller	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	nsubj	_	name=O|Entity=(db~20081117_3745306__T167--1)
+9	ikke	ikke	PART	_	Polarity=Neg	10	advmod	_	name=O
+10	taklet	takle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	name=O
+11	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Bridge=db~20081117_3745306__81023<db~20081117_3745306__T168:default|Entity=(db~20081117_3745306__T168--1
+12	høye	høy	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	tempoet	tempo	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=db~20081117_3745306__T168)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	feilplasserte	feilplassere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	name=O
+16	kortpasningene	kortpasning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No|name=O|Bridge=db~20081117_3745306__81023<db~20081117_3745306__T169:default|Entity=(db~20081117_3745306__T169--1)
+17	,	$,	PUNCT	_	_	22	punct	_	name=O
+18	mine	min	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(db~20081117_3745306__T171--1(db~20081117_3745306__122309--1)
+19	markeringsspillere	markeringsspiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	nsubj	_	name=O|Entity=db~20081117_3745306__T171)
+20	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	name=O
+21	ikke	ikke	PART	_	Polarity=Neg	22	advmod	_	name=O
+22	gode	god	ADJ	_	Degree=Pos|Number=Plur	15	conj	_	name=O
+23	nok	nok	ADV	_	_	22	advmod	_	name=O
+24	og	og	CCONJ	_	_	29	cc	_	name=O
+25	spissene	spiss	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	29	nsubj	_	name=O|Entity=(db~20081117_3745306__T172--1
+26	mine	min	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	25	nmod	_	name=O|Entity=(db~20081117_3745306__122309--1)db~20081117_3745306__T172)
+27	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	29	cop	_	name=O
+28	ikke	ikke	PART	_	Polarity=Neg	29	advmod	_	name=O
+29	raske	rask	ADJ	_	Degree=Pos|Number=Plur	22	conj	_	name=O
+30	nok	nok	ADV	_	_	29	advmod	_	SpaceAfter=No|name=O
+31	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017130
+# text = Under hele kampen kommer altså din mest verdifulle hjelper med gode tips.
+1	Under	under	ADP	_	_	3	case	_	name=O
+2	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=(db~20081117_3745306__T174--1
+3	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=db~20081117_3745306__T174)
+4	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	altså	altså	ADV	_	_	4	advmod	_	name=O
+6	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(db~20081117_3745306__81280--1(db~20081117_3745306__T175--1)
+7	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	8	advmod	_	name=O
+8	verdifulle	verdifull	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	hjelper	hjelper	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=db~20081117_3745306__81280)
+10	med	med	ADP	_	_	12	case	_	name=O
+11	gode	god	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(db~20081117_3745306__T177--1
+12	tips	tips	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T177)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017131
+# text = En annen ting din gode venn hjelper deg med er å finne spillere tilgjengelig for lån i spesifikke posisjoner.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(db~20081117_3745306__T178--1
+2	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O
+3	ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	name=O
+4	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(db~20081117_3745306__81280--1(db~20081117_3745306__61122--1)
+5	gode	god	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	venn	venn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=db~20081117_3745306__81280)
+7	hjelper	hjelpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	name=O
+8	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	7	obj	_	name=O|Entity=(db~20081117_3745306__61122--1)
+9	med	med	ADP	_	_	7	compound:prt	_	name=O|Entity=db~20081117_3745306__T178)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	finne	finne	VERB	_	VerbForm=Inf	0	root	_	name=O
+13	spillere	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	name=O|Entity=(db~20081117_3745306__T182--1
+14	tilgjengelig	tilgjengelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+15	for	for	ADP	_	_	16	case	_	name=O
+16	lån	lån	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=(db~20081117_3745306__T183--1)
+17	i	i	ADP	_	_	19	case	_	name=O
+18	spesifikke	spesifikk	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O|Entity=(db~20081117_3745306__T184--1
+19	posisjoner	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T184)db~20081117_3745306__T182)
+20	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 017132
+# text = Mener han at laget ditt ikke er sterkt nok, kanskje du mangler en venstreback, så kommer han med tips til spillere du kan anskaffe deg innenfor budsjettet.
+1	Mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	nmod	_	name=O
+2	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	name=O|Entity=(db~20081117_3745306__81280--1)
+3	at	at	SCONJ	_	_	8	mark	_	name=O
+4	laget	lag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	name=O|Entity=(db~20081117_3745306__T186--1
+5	ditt	din	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(db~20081117_3745306__61122--1)db~20081117_3745306__T186)
+6	ikke	ikke	PART	_	Polarity=Neg	8	advmod	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	sterkt	sterk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	ccomp	_	name=O
+9	nok	nok	ADV	_	_	8	advmod	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	kanskje	kanskje	ADV	_	_	13	advmod	_	name=O
+12	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	name=O|Entity=(db~20081117_3745306__61122--1)
+13	mangler	mangle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	name=O
+14	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(db~20081117_3745306__T189--1
+15	venstreback	venstreback	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T189)
+16	,	$,	PUNCT	_	_	13	punct	_	name=O
+17	så	så	ADV	_	_	18	advmod	_	name=O
+18	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+19	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(db~20081117_3745306__81280--1)
+20	med	med	ADP	_	_	21	case	_	name=O
+21	tips	tips	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	obl	_	name=O|Entity=(db~20081117_3745306__T191--1
+22	til	til	ADP	_	_	23	case	_	name=O
+23	spillere	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	nmod	_	name=O|Entity=(db~20081117_3745306__T192--1
+24	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	26	nsubj	_	name=O|Entity=(db~20081117_3745306__61122--1)
+25	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	name=O
+26	anskaffe	anskaffe	VERB	_	VerbForm=Inf	23	acl:relcl	_	name=O
+27	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	26	obj	_	name=O|Entity=(db~20081117_3745306__61122--1)
+28	innenfor	innenfor	ADP	_	_	29	case	_	name=O
+29	budsjettet	budsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	26	obl	_	SpaceAfter=No|name=O|Bridge=db~20081117_3745306__T186<db~20081117_3745306__T195:default|Entity=(db~20081117_3745306__T195--1)db~20081117_3745306__T192)db~20081117_3745306__T191)
+30	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 017133
+# text = Det jeg kanskje brukte min assisterende manager til mest var å sende han på pressekonferanser.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(db~20081117_3745306__T196--1
+2	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081117_3745306__122309--1)
+3	kanskje	kanskje	ADV	_	_	4	advmod	_	name=O
+4	brukte	bruke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	name=O
+5	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(db~20081117_3745306__3564--1(db~20081117_3745306__122309--1)
+6	assisterende	assistere	ADJ	_	VerbForm=Part	7	amod	_	name=O
+7	manager	manager	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=db~20081117_3745306__3564)
+8	til	til	ADP	_	_	4	compound:prt	_	name=O
+9	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	4	advmod	_	name=O|Entity=db~20081117_3745306__T196)
+10	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	sende	sende	VERB	_	VerbForm=Inf	0	root	_	name=O
+13	han	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	name=O|Entity=(db~20081117_3745306__3564--1)
+14	på	på	ADP	_	_	15	case	_	name=O
+15	pressekonferanser	pressekonferanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__2406--1)
+16	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 017134
+# text = Kjedelige pressekonferanser
+1	Kjedelige	kjedelig	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(db~20081117_3745306__2421--1
+2	pressekonferanser	pressekonferanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=db~20081117_3745306__2421)
+
+# sent_id = 017135
+# text = En ny og artig nyhet på FM 2009 er altså disse pressekonferansene, gøy med en gang, for så å bli kjedelig.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(db~20081117_3745306__T203--1
+2	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	artig	artig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	conj	_	name=O
+5	nyhet	nyhet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	FM	FM	PROPN	_	_	5	nmod	_	name=B-PROD|Entity=(db~20081117_3745306__132288--1
+8	2009	2009	NUM	_	Number=Plur|NumType=Card	7	flat:name	_	name=I-PROD|Entity=db~20081117_3745306__132288)db~20081117_3745306__T203)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+10	altså	altså	ADV	_	_	12	advmod	_	name=O
+11	disse	disse	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(db~20081117_3745306__2406--1
+12	pressekonferansene	pressekonferanse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__2406)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	gøy	gøy	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	conj	_	name=O
+15	med	med	ADP	_	_	17	case	_	name=O
+16	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(db~20081117_3745306__T206--1
+17	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	orphan	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T206)
+18	,	$,	PUNCT	_	_	22	punct	_	name=O
+19	for	for	SCONJ	_	_	22	mark	_	name=O
+20	så	så	ADV	_	_	22	advmod	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	bli	bli	VERB	_	VerbForm=Inf	14	advcl	_	name=O
+23	kjedelig	kjedelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	xcomp	_	SpaceAfter=No|name=O
+24	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 017136
+# text = Er du manager for en mindre klubb er det begrenset hvor spennende det er å møte den samme sportsjournalisten hele tiden.
+1	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081117_3745306__T207--1)
+3	manager	manager	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	advcl	_	name=O|Entity=(db~20081117_3745306__T208--1
+4	for	for	ADP	_	_	7	case	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(db~20081117_3745306__T209--1
+6	mindre	liten	ADJ	_	Degree=Cmp	7	amod	_	name=O
+7	klubb	klubb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=db~20081117_3745306__T209)db~20081117_3745306__T208)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+10	begrenset	begrense	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+11	hvor	hvor	ADV	_	_	12	advmod	_	name=O
+12	spennende	spennende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	csubj	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	møte	møte	VERB	_	VerbForm=Inf	12	csubj	_	name=O
+17	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	name=O|Bridge=db~20081117_3745306__2406<db~20081117_3745306__T210:default|Entity=(db~20081117_3745306__T210--1
+18	samme	samme	DET	_	Definite=Def|PronType=Dem	19	det	_	name=O
+19	sportsjournalisten	sportsjournalist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obj	_	name=O|Entity=db~20081117_3745306__T210)
+20	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O|Entity=(db~20081117_3745306__T211--1
+21	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T211)
+22	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 017137
+# text = Selv om Mike Poole og meg selv ble svært så gode venner og fikk et respektfullt vennskap, så kunne jeg greid meg uten alle disse møtene.
+1	Selv	selv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	8	mark	_	name=O
+3	Mike	Mike	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(db~20081117_3745306__T212--1(db~20081117_3745306__T213--1
+4	Poole	Poole	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=db~20081117_3745306__T213)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	3	conj	_	name=O|Entity=(db~20081117_3745306__122309--1
+7	selv	selv	DET	_	PronType=Prs	6	det	_	name=O|Entity=db~20081117_3745306__122309)db~20081117_3745306__T212)
+8	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	nmod	_	name=O
+9	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O|Entity=(db~20081117_3745306__T215--1
+10	så	så	ADV	_	_	11	advmod	_	name=O
+11	gode	god	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	venner	venn	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	xcomp	_	name=O|Entity=db~20081117_3745306__T215)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	name=O
+15	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(db~20081117_3745306__T216--1
+16	respektfullt	respektfull	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	name=O
+17	vennskap	vennskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T216)
+18	,	$,	PUNCT	_	_	14	punct	_	name=O
+19	så	så	ADV	_	_	22	advmod	_	name=O
+20	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	name=O
+21	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	name=O|Entity=(db~20081117_3745306__122309--1)
+22	greid	greie	VERB	_	VerbForm=Part	0	root	_	name=O
+23	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	name=O|Entity=(db~20081117_3745306__122309--1)
+24	uten	uten	ADP	_	_	27	case	_	name=O
+25	alle	all	DET	_	Number=Plur|PronType=Tot	27	det	_	name=O|Entity=(db~20081117_3745306__2421--1
+26	disse	disse	DET	_	Number=Plur|PronType=Dem	27	det	_	name=O
+27	møtene	møte	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	22	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__2421)
+28	.	$.	PUNCT	_	_	22	punct	_	name=O
+
+# sent_id = 017138
+# text = Men ingen jobb kan bare være gøy.
+1	Men	men	CCONJ	_	_	7	cc	_	name=O
+2	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	3	det	_	name=O|Entity=(db~20081117_3745306__T220--1
+3	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=db~20081117_3745306__T220)
+4	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+5	bare	bare	ADV	_	_	7	advmod	_	name=O
+6	være	være	AUX	_	VerbForm=Inf	7	cop	_	name=O
+7	gøy	gøy	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017139
+# text = For å slippe unna kjedelige pressekonferanser kan man sende ut assistenten, men de kan fort si tåpelige ting som spillere reagerer på.
+1	For	for	SCONJ	_	_	3	mark	_	name=O
+2	å	å	PART	_	_	3	mark	_	name=O
+3	slippe	slippe	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+4	unna	unna	ADP	_	_	3	compound:prt	_	name=O
+5	kjedelige	kjedelig	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(db~20081117_3745306__T221--1
+6	pressekonferanser	pressekonferanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O|Entity=db~20081117_3745306__T221)
+7	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+8	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	9	nsubj	_	name=O|Entity=(db~20081117_3745306__T222--1)
+9	sende	sende	VERB	_	VerbForm=Inf	0	root	_	name=O
+10	ut	ut	ADP	_	_	9	compound:prt	_	name=O
+11	assistenten	assistent	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__2447--1)
+12	,	$,	PUNCT	_	_	17	punct	_	name=O
+13	men	men	CCONJ	_	_	17	cc	_	name=O
+14	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(db~20081117_3745306__2447--1)
+15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+16	fort	fort	ADJ	_	Degree=Pos	17	advmod	_	name=O
+17	si	si	VERB	_	VerbForm=Inf	9	conj	_	name=O
+18	tåpelige	tåpelig	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O|Entity=(db~20081117_3745306__T225--1
+19	ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	obj	_	name=O
+20	som	som	PRON	_	PronType=Rel	22	nmod	_	name=O
+21	spillere	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	nsubj	_	name=O|Entity=(db~20081117_3745306__T226--1)
+22	reagerer	reagere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	name=O
+23	på	på	ADP	_	_	22	compound:prt	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T225)
+24	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 017140
+# text = Disse sportsjournalistene glemmer heller ikke og er raskt ute med å holde sleivkjefta kommentarer mot deg ved senere anledninger.
+1	Disse	disse	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|Bridge=db~20081117_3745306__T221<db~20081117_3745306__T227:default|Entity=(db~20081117_3745306__T227--1
+2	sportsjournalistene	sportsjournalist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=db~20081117_3745306__T227)
+3	glemmer	glemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	heller	heller	ADV	_	_	3	advmod	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	ute	ute	ADP	_	_	3	conj	_	name=O
+10	med	med	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	holde	holde	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+13	sleivkjefta	sleivkjefta	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O|Entity=(db~20081117_3745306__T228--1
+14	kommentarer	kommentar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	name=O|Entity=db~20081117_3745306__T228)
+15	mot	mot	ADP	_	_	16	case	_	name=O
+16	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	12	obl	_	name=O|Entity=(db~20081117_3745306__3705--1)
+17	ved	ved	ADP	_	_	19	case	_	name=O
+18	senere	sen	ADJ	_	Degree=Cmp	19	amod	_	name=O|Entity=(db~20081117_3745306__T230--1
+19	anledninger	anledning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T230)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017141
+# text = «Storm ut»-funksjonen på pressekonferansen er en farlig morsom metode for å avslutte en pressekonferanse, spesielt gøy er tilleggskommentaren du selv kan forfatte.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T231--1
+2	Storm	storme	VERB	_	Mood=Imp|VerbForm=Fin	5	compound	_	name=O
+3	ut	ut	ADP	_	_	5	compound	_	SpaceAfter=No|name=O
+4	»	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+5	-funksjonen	-funksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	pressekonferansen	pressekonferanse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(db~20081117_3745306__T232--1)db~20081117_3745306__T231)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(db~20081117_3745306__T233--1
+10	farlig	farlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	morsom	morsom	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	metode	metode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+13	for	for	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	avslutte	avslutte	VERB	_	VerbForm=Inf	12	acl	_	name=O
+16	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(db~20081117_3745306__T234--1
+17	pressekonferanse	pressekonferanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T234)db~20081117_3745306__T233)
+18	,	$,	PUNCT	_	_	20	punct	_	name=O
+19	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O
+20	gøy	gøy	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	conj	_	name=O
+21	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	name=O
+22	tilleggskommentaren	tilleggskommentar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nsubj	_	name=O|Bridge=db~20081117_3745306__T231<db~20081117_3745306__T235:default|Entity=(db~20081117_3745306__T235--1
+23	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	26	nsubj	_	name=O|Entity=(db~20081117_3745306__3705--1
+24	selv	selv	DET	_	PronType=Prs	23	det	_	name=O|Entity=db~20081117_3745306__3705)
+25	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	name=O
+26	forfatte	forfatte	VERB	_	VerbForm=Inf	22	acl:relcl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T235)
+27	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 017142
+# text = Men vær advart, det kan være potensielt livsfarlig å be en Daily Mirror-journalist «dra til helvete» når han konfronterer deg med en tapt ligacupkamp.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	vær	være	AUX	_	Mood=Imp|VerbForm=Fin	3	aux	_	name=O
+3	advart	advare	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	9	punct	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+7	være	være	AUX	_	VerbForm=Inf	9	cop	_	name=O
+8	potensielt	potensiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	livsfarlig	livsfarlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	be	be	VERB	_	VerbForm=Inf	9	csubj	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(db~20081117_3745306__2476--1
+13	Daily	Daily	PROPN	_	_	14	compound	_	name=B-DRV
+14	Mirror-journalist	Mirror-journalist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	iobj	_	name=I-DRV|Entity=db~20081117_3745306__2476)
+15	«	$"	PUNCT	_	_	16	punct	_	SpaceAfter=No|name=O
+16	dra	dra	VERB	_	VerbForm=Inf	11	xcomp	_	name=O
+17	til	til	ADP	_	_	18	case	_	name=O
+18	helvete	helvete	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T238--1)
+19	»	$"	PUNCT	_	_	16	punct	_	name=O
+20	når	når	SCONJ	_	_	22	mark	_	name=O
+21	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(db~20081117_3745306__2476--1)
+22	konfronterer	konfrontere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	name=O
+23	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	22	obj	_	name=O|Entity=(db~20081117_3745306__3705--1)
+24	med	med	ADP	_	_	27	case	_	name=O
+25	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	name=O|Entity=(db~20081117_3745306__T241--1
+26	tapt	tape	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	27	amod	_	name=O
+27	ligacupkamp	ligacupkamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T241)
+28	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017143
+# text = Stor fallhøyde
+1	Stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(db~20081117_3745306__T242--1
+2	fallhøyde	fallhøyde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=db~20081117_3745306__T242)
+
+# sent_id = 017144
+# text = Som i tidligere «FM»-spill er det stor fallhøyde i de store klubbene, kanskje enda mer denne gang.
+1	Som	som	ADP	_	_	7	case	_	name=O
+2	i	i	ADP	_	_	7	case	_	name=O
+3	tidligere	tidlig	ADJ	_	Degree=Cmp	7	amod	_	name=O|Entity=(db~20081117_3745306__T243--1
+4	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=B-DRV
+5	FM	FM	PROPN	_	_	7	compound	_	SpaceAfter=No|name=I-DRV
+6	»	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=I-DRV
+7	-spill	-spill	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	name=I-DRV|Entity=db~20081117_3745306__T243)
+8	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+10	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(db~20081117_3745306__T244--1
+11	fallhøyde	fallhøyde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=db~20081117_3745306__T244)
+12	i	i	ADP	_	_	15	case	_	name=O
+13	de	de	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Bridge=db~20081117_3745306__T243<db~20081117_3745306__T245:default|Entity=(db~20081117_3745306__T245--1
+14	store	stor	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	klubbene	klubb	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T245)
+16	,	$,	PUNCT	_	_	19	punct	_	name=O
+17	kanskje	kanskje	ADV	_	_	19	advmod	_	name=O
+18	enda	enda	ADV	_	_	19	advmod	_	name=O
+19	mer	mye	ADJ	_	Degree=Cmp	8	conj	_	name=O
+20	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	name=O|Bridge=db~20081117_3745306__132288<db~20081117_3745306__T246:default|Entity=(db~20081117_3745306__T246--1
+21	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	orphan	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T246)
+22	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 017145
+# text = Velger du din egen alder som manager og lar være å skryte på deg en tidligere karriere som landslagspiller for Norge (69 kamper og 12 mål), stoler som regel spillere i større klubber ikke på deg.
+1	Velger	velge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	30	advcl	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	name=O|Entity=(db~20081117_3745306__82085--1)
+3	din	din	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(db~20081117_3745306__T249--1(db~20081117_3745306__82085--1)
+4	egen	egen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	5	det	_	name=O
+5	alder	alder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=db~20081117_3745306__T249)
+6	som	som	SCONJ	_	_	7	mark	_	name=O
+7	manager	manager	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	acl	_	name=O|Entity=(db~20081117_3745306__T250--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	name=O
+10	være	være	VERB	_	VerbForm=Inf	9	xcomp	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	skryte	skryte	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+13	på	på	ADP	_	_	14	case	_	name=O
+14	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	12	obl	_	name=O|Entity=(db~20081117_3745306__82085--1)
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(db~20081117_3745306__T252--1
+16	tidligere	tidlig	ADJ	_	Degree=Cmp	17	amod	_	name=O
+17	karriere	karriere	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O
+18	som	som	ADP	_	_	19	case	_	name=O
+19	landslagspiller	landslagspiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(db~20081117_3745306__T253--1
+20	for	for	ADP	_	_	21	case	_	name=O
+21	Norge	Norge	PROPN	_	_	19	nmod	_	name=B-GPE_LOC|Entity=(db~20081117_3745306__T254--1)db~20081117_3745306__T253)db~20081117_3745306__T252)
+22	(	$(	PUNCT	_	_	24	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T255--1(db~20081117_3745306__T256[1/2]--1
+23	69	69	NUM	_	Number=Plur|NumType=Card	24	nummod	_	name=O
+24	kamper	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	30	parataxis	_	name=O|Entity=db~20081117_3745306__T256[1/2])
+25	og	og	CCONJ	_	_	27	cc	_	name=O
+26	12	12	NUM	_	Number=Plur|NumType=Card	27	nummod	_	name=O|Entity=(db~20081117_3745306__T257--1
+27	mål	mål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	24	conj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T257)
+28	)	$)	PUNCT	_	_	24	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T256[2/2]--1)db~20081117_3745306__T255)
+29	,	$,	PUNCT	_	_	24	punct	_	name=O
+30	stoler	stole	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+31	som	som	ADP	_	_	32	case	_	name=O
+32	regel	regel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	obl	_	name=O|Entity=(db~20081117_3745306__T258--1)
+33	spillere	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	30	nsubj	_	name=O|Entity=(db~20081117_3745306__T259--1
+34	i	i	ADP	_	_	36	case	_	name=O
+35	større	stor	ADJ	_	Degree=Cmp	36	amod	_	name=O|Entity=(db~20081117_3745306__T260--1
+36	klubber	klubb	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	33	nmod	_	name=O|Entity=db~20081117_3745306__T260)db~20081117_3745306__T259)
+37	ikke	ikke	PART	_	Polarity=Neg	30	advmod	_	name=O
+38	på	på	ADP	_	_	39	case	_	name=O
+39	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	30	obl	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__82085--1)
+40	.	$.	PUNCT	_	_	30	punct	_	name=O
+
+# sent_id = 017146
+# text = Og det tar lang tid å overbevise Premier League-spillere med primadonnanykker.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	lang	lang	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(db~20081117_3745306__T262--1
+5	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=db~20081117_3745306__T262)
+6	å	å	PART	_	_	7	mark	_	name=O
+7	overbevise	overbevise	VERB	_	VerbForm=Inf	3	csubj	_	name=O
+8	Premier	Premier	PROPN	_	_	9	compound	_	name=B-DRV|Entity=(db~20081117_3745306__T263--1
+9	League-spillere	League-spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obj	_	name=I-DRV
+10	med	med	ADP	_	_	11	case	_	name=O
+11	primadonnanykker	primadonnanykke	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T264--1)db~20081117_3745306__T263)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017147
+# text = Nedover i divisjonene blir det fort lettere, og gjør du det bra allerede i første sesong blir du fort jaktet på av større klubber.
+1	Nedover	nedover	ADP	_	_	3	case	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	divisjonene	divisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	obl	_	name=O|Bridge=db~20081117_3745306__T263<db~20081117_3745306__T265:default|Entity=(db~20081117_3745306__T265--1)
+4	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+6	fort	fort	ADJ	_	Degree=Pos	7	advmod	_	name=O
+7	lettere	lett	ADJ	_	Degree=Cmp	4	xcomp	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	21	punct	_	name=O
+9	og	og	CCONJ	_	_	21	cc	_	name=O
+10	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	advcl	_	name=O
+11	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	10	nsubj	_	name=O|Entity=(db~20081117_3745306__82085--1)
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+13	bra	bra	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	xcomp	_	name=O
+14	allerede	allerede	ADV	_	_	17	advmod	_	name=O
+15	i	i	ADP	_	_	17	case	_	name=O
+16	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(db~20081117_3745306__T267--1
+17	sesong	sesong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=db~20081117_3745306__T267)
+18	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux:pass	_	name=O
+19	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	21	nsubj:pass	_	name=O|Entity=(db~20081117_3745306__82085--1)
+20	fort	fort	ADJ	_	Degree=Pos	21	advmod	_	name=O
+21	jaktet	jakte	VERB	_	VerbForm=Part	4	conj	_	name=O
+22	på	på	ADP	_	_	21	compound:prt	_	name=O
+23	av	av	ADP	_	_	25	case	_	name=O
+24	større	stor	ADJ	_	Degree=Cmp	25	amod	_	name=O|Entity=(db~20081117_3745306__T269--1
+25	klubber	klubb	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T269)
+26	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017148
+# text = Kanskje litt for ofte.
+1	Kanskje	kanskje	ADV	_	_	4	advmod	_	name=O
+2	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+3	for	for	ADV	_	_	4	advmod	_	name=O
+4	ofte	ofte	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 017149
+# text = Er du norsk manager i Englands nest øverste divisjon blir du også hele tiden linket til norske klubber.
+1	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081117_3745306__82085--1)
+3	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(db~20081117_3745306__T271--1
+4	manager	manager	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	advcl	_	name=O
+5	i	i	ADP	_	_	9	case	_	name=O
+6	Englands	England	PROPN	_	Case=Gen	9	nmod	_	name=B-GPE_LOC|Entity=(db~20081117_3745306__T273--1(db~20081117_3745306__T272--1)
+7	nest	nest	ADV	_	_	8	advmod	_	name=O
+8	øverste	øvre	ADJ	_	Definite=Def|Degree=Sup	9	amod	_	name=O
+9	divisjon	divisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=db~20081117_3745306__T273)db~20081117_3745306__T271)
+10	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux:pass	_	name=O
+11	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj:pass	_	name=O|Entity=(db~20081117_3745306__82085--1)
+12	også	også	ADV	_	_	15	advmod	_	name=O
+13	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(db~20081117_3745306__T275--1
+14	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=db~20081117_3745306__T275)
+15	linket	linke	VERB	_	VerbForm=Part	0	root	_	name=O
+16	til	til	ADP	_	_	18	case	_	name=O
+17	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(db~20081117_3745306__T276--1
+18	klubber	klubb	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T276)
+19	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 017150
+# text = Nei takk til Brann og Vålerenga.
+1	Nei	nei	INTJ	_	_	0	root	_	name=O
+2	takk	takk	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	name=O|Entity=(db~20081117_3745306__T277--1)
+3	til	til	ADP	_	_	4	case	_	name=O
+4	Brann	Brann	PROPN	_	_	1	obl	_	name=B-ORG|Entity=(db~20081117_3745306__T278--1(db~20081117_3745306__T279--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	Vålerenga	Vålerenga	PROPN	_	_	4	conj	_	SpaceAfter=No|name=B-ORG|Entity=(db~20081117_3745306__T280--1)db~20081117_3745306__T278)
+7	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017151
+# text = Jakten på de store stjernene er jo en av de viktigste sidene som manager, også talentspeiderne har fått en aldri så liten oppussing til det bedre.
+1	Jakten	jakt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(db~20081117_3745306__T281--1
+2	på	på	ADP	_	_	5	case	_	name=O
+3	de	de	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Bridge=db~20081117_3745306__T243<db~20081117_3745306__T282:default|Entity=(db~20081117_3745306__T282--1
+4	store	stor	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	stjernene	stjerne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	name=O|Entity=db~20081117_3745306__T282)db~20081117_3745306__T281)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	jo	jo	ADV	_	_	8	advmod	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+9	av	av	ADP	_	_	12	case	_	name=O
+10	de	de	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(db~20081117_3745306__T283--1
+11	viktigste	viktig	ADJ	_	Definite=Def|Degree=Sup	12	amod	_	name=O
+12	sidene	side	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	8	nmod	_	name=O
+13	som	som	ADP	_	_	14	case	_	name=O
+14	manager	manager	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T284--1)db~20081117_3745306__T283)
+15	,	$,	PUNCT	_	_	19	punct	_	name=O
+16	også	også	ADV	_	_	17	advmod	_	name=O|Bridge=db~20081117_3745306__T281<db~20081117_3745306__T285:default|Entity=(db~20081117_3745306__T285--1
+17	talentspeiderne	talentspeider	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	19	nsubj	_	name=O|Entity=db~20081117_3745306__T285)
+18	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	fått	få	VERB	_	VerbForm=Part	8	conj	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(db~20081117_3745306__T286--1
+21	aldri	aldri	ADV	_	_	22	advmod	_	name=O
+22	så	så	ADV	_	_	23	advmod	_	name=O
+23	liten	liten	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	24	amod	_	name=O
+24	oppussing	oppussing	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	name=O
+25	til	til	ADP	_	_	27	case	_	name=O
+26	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	27	det	_	name=O|Entity=(db~20081117_3745306__T287--1
+27	bedre	god	ADJ	_	Degree=Cmp	24	amod	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T287)db~20081117_3745306__T286)
+28	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 017152
+# text = Speiderne dine forteller deg også hovedstaden i for eksempel Sverige, og hvor mange innbyggere landet har.
+1	Speiderne	speider	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(db~20081117_3745306__41209--1
+2	dine	din	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	1	nmod	_	name=O|Entity=(db~20081117_3745306__3881--1)db~20081117_3745306__41209)
+3	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	3	iobj	_	name=O|Entity=(db~20081117_3745306__3881--1)
+5	også	også	ADV	_	_	3	advmod	_	name=O
+6	hovedstaden	hovedstad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(db~20081117_3745306__T291--1(db~20081117_3745306__T292--1
+7	i	i	ADP	_	_	10	case	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O|Entity=(db~20081117_3745306__T294--1
+9	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	name=O|Entity=(db~20081117_3745306__T293--1)
+10	Sverige	Sverige	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=db~20081117_3745306__T294)
+11	,	$,	PUNCT	_	_	17	punct	_	name=O|Entity=db~20081117_3745306__T292)
+12	og	og	CCONJ	_	_	17	cc	_	name=O
+13	hvor	hvor	ADV	_	_	14	advmod	_	name=O|Entity=(db~20081117_3745306__T295--1
+14	mange	mange	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	innbyggere	innbygger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	obj	_	name=O|Entity=db~20081117_3745306__T295)
+16	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	name=O|Bridge=db~20081117_3745306__T292<db~20081117_3745306__T296:default|Entity=(db~20081117_3745306__T296--1)
+17	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T291)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017153
+# text = Det beste ved speiderfunksjonen i år er helt klart at den er mye mer oversiktlig.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(db~20081117_3745306__T297--1
+2	beste	god	ADJ	_	Definite=Def|Degree=Sup	15	nsubj	_	name=O
+3	ved	ved	ADP	_	_	4	case	_	name=O
+4	speiderfunksjonen	speiderfunksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Bridge=db~20081117_3745306__41209<db~20081117_3745306__2598:default|Entity=(db~20081117_3745306__2598--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(db~20081117_3745306__T299--1)db~20081117_3745306__T297)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+8	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+10	at	at	SCONJ	_	_	15	mark	_	name=O
+11	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(db~20081117_3745306__2598--1)
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+13	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+14	mer	mye	ADJ	_	Degree=Cmp	15	advmod	_	name=O
+15	oversiktlig	oversiktlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 017154
+# text = På nyhetsskjermen får du speidernes oppsummering, hvilke spillere de anbefaler og hvor mye de koster.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	nyhetsskjermen	nyhetsskjerm	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(db~20081117_3745306__T301--1)
+3	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081117_3745306__3881--1)
+5	speidernes	speider	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	name=O|Entity=(db~20081117_3745306__T304--1(db~20081117_3745306__T305--1(db~20081117_3745306__41209--1)
+6	oppsummering	oppsummering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=db~20081117_3745306__T305)
+8	hvilke	hvilken	DET	_	Number=Plur|PronType=Int	9	det	_	name=O|Entity=(db~20081117_3745306__2614--1
+9	spillere	spiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	name=O|Entity=db~20081117_3745306__2614)
+10	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081117_3745306__41209--1)
+11	anbefaler	anbefale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+12	og	og	CCONJ	_	_	16	cc	_	name=O
+13	hvor	hvor	ADV	_	_	14	advmod	_	name=O
+14	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	obj	_	name=O
+15	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(db~20081117_3745306__2614--1)
+16	koster	koste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T304)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 017155
+# text = Fortløpende informasjon fra landene de besøker settes også pris på.
+1	Fortløpende	fortløpende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(db~20081117_3745306__T309--1
+2	informasjon	informasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj:pass	_	name=O
+3	fra	fra	ADP	_	_	4	case	_	name=O
+4	landene	land	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=(db~20081117_3745306__T310--1
+5	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(db~20081117_3745306__41209--1)
+6	besøker	besøke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O|Entity=db~20081117_3745306__T310)db~20081117_3745306__T309)
+7	settes	sette	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+8	også	også	ADV	_	_	7	advmod	_	name=O
+9	pris	pris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(db~20081117_3745306__T312--1)
+10	på	på	ADP	_	_	7	compound:prt	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017156
+# text = Store forbedringer
+1	Store	stor	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(db~20081117_3745306__T313--1
+2	forbedringer	forbedring	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	name=O|Entity=db~20081117_3745306__T313)
+
+# sent_id = 017157
+# text = Alt i alt er årets utgave en av spillseriens sterkeste noensinne, mye av det jeg har ønsket å sette fingeren på i tidligere utgaver er rettet på og forbedret.
+1	Alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obl	_	name=O|Entity=(db~20081117_3745306__T314--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nmod	_	name=O|Entity=(db~20081117_3745306__T315--1)db~20081117_3745306__T314)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+5	årets	år	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(db~20081117_3745306__132288--1(db~20081117_3745306__T316--1)
+6	utgave	utgave	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	name=O|Entity=db~20081117_3745306__132288)
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+8	av	av	ADP	_	_	10	case	_	name=O
+9	spillseriens	spillserie	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(db~20081117_3745306__T319--1(db~20081117_3745306__81023--1)
+10	sterkeste	sterk	ADJ	_	Definite=Def|Degree=Sup	7	amod	_	name=O
+11	noensinne	noensinne	ADV	_	_	10	advmod	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T319)
+12	,	$,	PUNCT	_	_	27	punct	_	name=O
+13	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	27	nsubj	_	name=O|Entity=(db~20081117_3745306__T320--1
+14	av	av	ADP	_	_	15	case	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nmod	_	name=O|Entity=(db~20081117_3745306__T321--1
+16	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(db~20081117_3745306__122309--1)
+17	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	ønsket	ønske	VERB	_	VerbForm=Part	15	acl:relcl	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	sette	sette	VERB	_	VerbForm=Inf	18	xcomp	_	name=O
+21	fingeren	finger	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obj	_	name=O|Entity=(db~20081117_3745306__T323--1)
+22	på	på	ADP	_	_	20	compound:prt	_	name=O
+23	i	i	ADP	_	_	25	case	_	name=O
+24	tidligere	tidlig	ADJ	_	Degree=Cmp	25	amod	_	name=O|Entity=(db~20081117_3745306__T324--1
+25	utgaver	utgave	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	20	obl	_	name=O|Entity=db~20081117_3745306__T324)db~20081117_3745306__T321)db~20081117_3745306__T320)
+26	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	name=O
+27	rettet	rette	VERB	_	VerbForm=Part	7	conj	_	name=O
+28	på	på	ADP	_	_	27	compound:prt	_	name=O
+29	og	og	CCONJ	_	_	30	cc	_	name=O
+30	forbedret	forbedre	VERB	_	VerbForm=Part	27	conj	_	SpaceAfter=No|name=O
+31	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 017158
+# text = Et godt eksempel er karaktersystemet i kamper, der spillerne nå får desimalkarakterer og det er blitt mye vanskeligere å oppnå høye poengsummer.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(db~20081117_3745306__T325--1
+2	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	name=O
+3	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=db~20081117_3745306__T325)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	karaktersystemet	karaktersystem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(db~20081117_3745306__T326--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	kamper	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T327--1)
+8	,	$,	PUNCT	_	_	12	punct	_	name=O
+9	der	der	SCONJ	_	_	12	mark	_	name=O
+10	spillerne	spiller	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	name=O|Bridge=db~20081117_3745306__T327<db~20081117_3745306__T328:default|Entity=(db~20081117_3745306__T328--1)
+11	nå	nå	ADV	_	_	12	advmod	_	name=O
+12	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl	_	name=O
+13	desimalkarakterer	desimalkarakter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	name=O|Entity=(db~20081117_3745306__T329--1)db~20081117_3745306__T326)
+14	og	og	CCONJ	_	_	17	cc	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	name=O
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	blitt	bli	VERB	_	VerbForm=Part	5	conj	_	name=O
+18	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	advmod	_	name=O
+19	vanskeligere	vanskelig	ADJ	_	Degree=Cmp	17	xcomp	_	name=O
+20	å	å	PART	_	_	21	mark	_	name=O
+21	oppnå	oppnå	VERB	_	VerbForm=Inf	17	csubj	_	name=O
+22	høye	høy	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	name=O|Entity=(db~20081117_3745306__T330--1
+23	poengsummer	poengsum	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T330)
+24	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017159
+# text = At innbyttere med lite spilletid får ingen karakter i stedet for en laber sekser som tidligere, er også en ønsket oppdatering.
+1	At	at	SCONJ	_	_	6	mark	_	name=O
+2	innbyttere	innbytter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(db~20081117_3745306__T331--1
+3	med	med	ADP	_	_	5	case	_	name=O
+4	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(db~20081117_3745306__T332--1
+5	spilletid	spilletid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=db~20081117_3745306__T332)db~20081117_3745306__T331)
+6	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	csubj	_	name=O
+7	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	8	det	_	name=O|Entity=(db~20081117_3745306__T333--1
+8	karakter	karakter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=db~20081117_3745306__T333)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	stedet	sted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(db~20081117_3745306__T334--1
+11	for	for	ADP	_	_	14	case	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(db~20081117_3745306__T335--1
+13	laber	laber	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	sekser	sekser	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=db~20081117_3745306__T335)db~20081117_3745306__T334)
+15	som	som	ADP	_	_	16	case	_	name=O
+16	tidligere	tidlig	ADJ	_	Degree=Cmp	6	advmod	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T336--1)
+17	,	$,	PUNCT	_	_	6	punct	_	name=O
+18	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+19	også	også	ADV	_	_	22	advmod	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(db~20081117_3745306__T337--1
+21	ønsket	ønske	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	22	amod	_	name=O
+22	oppdatering	oppdatering	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T337)
+23	.	$.	PUNCT	_	_	22	punct	_	name=O
+
+# sent_id = 017160
+# text = Kampbildet til «FM 2009» er utrolig mye mer interessant denne utgaven, med mye større muligheter til å følge og endre spillet underveis.
+1	Kampbildet	kampbilde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	name=O|Entity=(db~20081117_3745306__T338--1
+2	til	til	ADP	_	_	4	case	_	name=O
+3	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__132288--1
+4	FM	FM	PROPN	_	_	1	nmod	_	name=B-PROD
+5	2009	2009	NUM	_	Number=Plur|NumType=Card	4	flat:name	_	SpaceAfter=No|name=I-PROD
+6	»	$"	PUNCT	_	_	4	punct	_	name=O|Entity=db~20081117_3745306__132288)db~20081117_3745306__T338)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+8	utrolig	utrolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+10	mer	mye	ADJ	_	Degree=Cmp	11	advmod	_	name=O
+11	interessant	interessant	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+12	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(db~20081117_3745306__132288--1
+13	utgaven	utgave	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__132288)
+14	,	$,	PUNCT	_	_	18	punct	_	name=O
+15	med	med	ADP	_	_	18	case	_	name=O
+16	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	name=O|Entity=(db~20081117_3745306__T341--1
+17	større	stor	ADJ	_	Degree=Cmp	18	amod	_	name=O
+18	muligheter	mulighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	obl	_	name=O
+19	til	til	SCONJ	_	_	21	mark	_	name=O
+20	å	å	PART	_	_	21	mark	_	name=O
+21	følge	følge	VERB	_	VerbForm=Inf	18	acl	_	name=O
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	endre	endre	VERB	_	VerbForm=Inf	21	conj	_	name=O
+24	spillet	spill	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	obj	_	name=O|Entity=(db~20081117_3745306__132288--1)
+25	underveis	underveis	ADP	_	_	23	compound:prt	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T341)
+26	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 017161
+# text = Et annet positivt innslag er harmonien i klubben, som har fått sin egen status på «Board Confidence», går det bra med klubben og du har god stemning i stallen er dette noe pressen fokuserer på.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(db~20081117_3745306__T343--1
+2	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O
+3	positivt	positiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	name=O
+4	innslag	innslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=db~20081117_3745306__T343)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	harmonien	harmoni	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(db~20081117_3745306__T344--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	klubben	klubb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__31040--1)
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	fått	få	VERB	_	VerbForm=Part	6	acl:relcl	_	name=O
+13	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(db~20081117_3745306__T347--1(db~20081117_3745306__31040--1)
+14	egen	egen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	15	det	_	name=O
+15	status	status	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O
+16	på	på	ADP	_	_	18	case	_	name=O
+17	«	$"	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T348--1
+18	Board	Board	PROPN	_	_	15	nmod	_	name=B-PROD
+19	Confidence	Confidence	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PROD
+20	»	$"	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T348)db~20081117_3745306__T347)
+21	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=db~20081117_3745306__T344)
+22	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	36	advcl	_	name=O
+23	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	name=O
+24	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	xcomp	_	name=O
+25	med	med	ADP	_	_	26	case	_	name=O
+26	klubben	klubb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	obl	_	name=O|Entity=(db~20081117_3745306__31040--1)
+27	og	og	CCONJ	_	_	29	cc	_	name=O
+28	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	29	nsubj	_	name=O|Entity=(db~20081117_3745306__T350--1)
+29	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	conj	_	name=O
+30	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	31	amod	_	name=O|Entity=(db~20081117_3745306__T351--1
+31	stemning	stemning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	29	obj	_	name=O
+32	i	i	ADP	_	_	33	case	_	name=O
+33	stallen	stall	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	31	nmod	_	name=O|Entity=(db~20081117_3745306__T352--1)db~20081117_3745306__T351)
+34	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	36	cop	_	name=O
+35	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	name=O|Entity=(db~20081117_3745306__T353--1)
+36	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	6	conj	_	name=O|Entity=(db~20081117_3745306__T354--1
+37	pressen	presse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	38	nsubj	_	name=O|Entity=(db~20081117_3745306__T355--1)
+38	fokuserer	fokusere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	name=O
+39	på	på	ADP	_	_	38	compound:prt	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T354)
+40	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 017162
+# text = Hardt arbeid belønnes
+1	Hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	name=O|Entity=(db~20081117_3745306__T356--1
+2	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj:pass	_	name=O|Entity=db~20081117_3745306__T356)
+3	belønnes	belønne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+
+# sent_id = 017163
+# text = «Football Manager» er og blir en jobb, aldri før har det vært mer å gjøre i en klubb som nå.
+1	«	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__81023--1
+2	Football	Football	PROPN	_	_	5	nsubj	_	name=B-PROD
+3	Manager	Manager	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PROD
+4	»	$"	PUNCT	_	_	2	punct	_	name=O|Entity=db~20081117_3745306__81023)
+5	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(db~20081117_3745306__T358--1
+9	jobb	jobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T358)
+10	,	$,	PUNCT	_	_	16	punct	_	name=O
+11	aldri	aldri	ADV	_	_	16	advmod	_	name=O
+12	før	før	ADP	_	_	11	obl	_	name=O
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	name=O
+15	vært	være	AUX	_	VerbForm=Part	16	cop	_	name=O
+16	mer	mye	ADJ	_	Degree=Cmp	5	conj	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	gjøre	gjøre	VERB	_	VerbForm=Inf	16	acl	_	name=O
+19	i	i	ADP	_	_	21	case	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(db~20081117_3745306__T359--1
+21	klubb	klubb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	name=O|Entity=db~20081117_3745306__T359)
+22	som	som	ADP	_	_	23	case	_	name=O
+23	nå	nå	ADV	_	_	16	advmod	_	SpaceAfter=No|name=O
+24	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017164
+# text = Desto mer tid du bruker på taktikk, treningsopplegg, speiding og forståelse av stallen du besitter, desto bedre resultater får du.
+1	Desto	desto	ADV	_	_	2	advmod	_	name=O|Entity=(db~20081117_3745306__T369--1(db~20081117_3745306__T360--1
+2	mer	mye	ADJ	_	Degree=Cmp	3	amod	_	name=O
+3	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	name=O|Entity=db~20081117_3745306__T360)
+4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081117_3745306__41481--1)
+5	bruker	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	taktikk	taktikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T362--1(db~20081117_3745306__T363--1
+8	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=db~20081117_3745306__T363)
+9	treningsopplegg	treningsopplegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__T364--1
+10	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=db~20081117_3745306__T364)
+11	speiding	speiding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	conj	_	name=O|Entity=(db~20081117_3745306__T365--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	forståelse	forståelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	name=O|Entity=(db~20081117_3745306__T366--1
+14	av	av	ADP	_	_	15	case	_	name=O
+15	stallen	stall	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Bridge=db~20081117_3745306__81023<db~20081117_3745306__T367:default|Entity=(db~20081117_3745306__T367--1
+16	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	17	nsubj	_	name=O|Entity=(db~20081117_3745306__41481--1)
+17	besitter	besitte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T367)db~20081117_3745306__T366)db~20081117_3745306__T362)
+18	,	$,	PUNCT	_	_	5	punct	_	name=O
+19	desto	desto	ADV	_	_	20	advmod	_	name=O
+20	bedre	god	ADJ	_	Degree=Cmp	21	amod	_	name=O
+21	resultater	resultat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	obj	_	name=O|Entity=db~20081117_3745306__T369)
+22	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+23	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	SpaceAfter=No|name=O|Entity=(db~20081117_3745306__41481--1)
+24	.	$.	PUNCT	_	_	22	punct	_	name=O
+
+# sent_id = 017165
+# text = I år som tidligere belønnes hardt arbeid.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(db~20081117_3745306__T371--1
+3	som	som	ADP	_	_	4	case	_	name=O
+4	tidligere	tidlig	ADJ	_	Degree=Cmp	2	amod	_	name=O|Entity=(db~20081117_3745306__T372--1)db~20081117_3745306__T371)
+5	belønnes	belønne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+6	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O|Entity=(db~20081117_3745306__T373--1
+7	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj:pass	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T373)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 017166
+# text = Southampton vant playoff-finalen mot Cardiff og er atter en gang et Premier League-lag med minst budsjett.
+1	Southampton	Southampton	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(db~20081117_3745306__T374--1)
+2	vant	vinne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	playoff-finalen	playoff-finale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(db~20081117_3745306__T375--1
+4	mot	mot	ADP	_	_	5	case	_	name=O
+5	Cardiff	Cardiff	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(db~20081117_3745306__T376--1)db~20081117_3745306__T375)
+6	og	og	CCONJ	_	_	13	cc	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+8	atter	atter	ADV	_	_	9	advmod	_	name=O|Entity=(db~20081117_3745306__T377--1
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O
+10	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=db~20081117_3745306__T377)
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(db~20081117_3745306__T378--1
+12	Premier	Premier	PROPN	_	_	13	compound	_	name=B-DRV
+13	League-lag	League-lag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	conj	_	name=I-DRV
+14	med	med	ADP	_	_	16	case	_	name=O
+15	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	16	amod	_	name=O|Entity=(db~20081117_3745306__T379--1
+16	budsjett	budsjett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T379)db~20081117_3745306__T378)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017167
+# text = Nevnte vi at i år kan du også være kvinnelig manager?
+1	Nevnte	nevne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	name=O|Entity=(db~20081117_3745306__2768--1)
+3	at	at	SCONJ	_	_	11	mark	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=(db~20081117_3745306__T381--1)
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+7	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081117_3745306__41481--1)
+8	også	også	ADV	_	_	11	advmod	_	name=O
+9	være	være	AUX	_	VerbForm=Inf	11	cop	_	name=O
+10	kvinnelig	kvinnelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(db~20081117_3745306__T383--1
+11	manager	manager	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	ccomp	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T383)
+12	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 017168
+# text = Media reagerer på kvinneskikkelser i en «mannsdominert» idrett.
+1	Media	medium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	name=O|Entity=(db~20081117_3745306__T384--1)
+2	reagerer	reagere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	kvinneskikkelser	kvinneskikkelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	name=O|Entity=(db~20081117_3745306__T385--1
+5	i	i	ADP	_	_	10	case	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(db~20081117_3745306__T386--1
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O
+8	mannsdominert	mannsdominert	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	SpaceAfter=No|name=O
+9	»	$"	PUNCT	_	_	8	punct	_	name=O
+10	idrett	idrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T386)db~20081117_3745306__T385)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 017169
+# text = Versjonen vi testet er den oppdaterte 9.1-utgaven.
+1	Versjonen	versjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(db~20081117_3745306__132288--1
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081117_3745306__2768--1)
+3	testet	teste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	name=O|Entity=db~20081117_3745306__132288)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(db~20081117_3745306__T389--1
+6	oppdaterte	oppdatere	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	7	amod	_	name=O
+7	9.1-utgaven	9.1-utgave	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=db~20081117_3745306__T389)
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+

@@ -1,0 +1,633 @@
+# newdoc id = vtbnn~20090623-4272
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 015974
+# text = - Stolt dag for Vest-Telemark
+1	-	$-	PUNCT	_	_	3	punct	_	name=O|Entity=(vtbnn~20090623_4272__T1--1
+2	Stolt	stolt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	Vest-Telemark	Vest-Telemark	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20090623_4272__4288--1)vtbnn~20090623_4272__T1)
+
+# newpar
+# sent_id = 015975
+# text = Flittige eldsjeler
+1	Flittige	flittig	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(vtbnn~20090623_4272__T3--1
+2	eldsjeler	eldsjel	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	name=O|Entity=vtbnn~20090623_4272__T3)
+
+# newpar
+# sent_id = 015976
+# text = Fleire planar
+1	Fleire	mange	ADJ	_	Degree=Cmp	2	amod	_	name=O|Entity=(vtbnn~20090623_4272__T4--1
+2	planar	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=vtbnn~20090623_4272__T4)
+
+# newpar
+# sent_id = 015977
+# text = - Strålande arbeid
+1	-	$-	PUNCT	_	_	3	punct	_	name=O|Entity=(vtbnn~20090623_4272__T5--1
+2	Strålande	stråle	ADJ	_	VerbForm=Part	3	amod	_	name=O
+3	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=vtbnn~20090623_4272__T5)
+
+# sent_id = 015978
+# text = Biskop Olav Skjevesland vigsla Skafsåheii Fjellkyrkje sundag.
+1	Biskop	biskop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20090623_4272__7712--1
+2	Olav	Olav	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER
+3	Skjevesland	Skjevesland	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=vtbnn~20090623_4272__7712)
+4	vigsla	vigsle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	Skafsåheii	Skafsåheii	PROPN	_	_	4	obj	_	name=B-LOC|Entity=(vtbnn~20090623_4272__151107--1
+6	Fjellkyrkje	Fjellkyrkje	PROPN	_	_	5	flat:name	_	name=I-LOC|Entity=vtbnn~20090623_4272__151107)
+7	sundag	sundag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__220--1)
+8	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 015979
+# text = Kyrkja har endeleg blitt ein realitet etter å ha vore planlagt i over 50 år, og vigsledagen var ho fylt til randen med bunadskledde kyrkjegjengerar.
+1	Kyrkja	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__151107--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	endeleg	endeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+5	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20090623_4272__T10--1
+6	realitet	realitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	xcomp	_	name=O|Entity=vtbnn~20090623_4272__T10)
+7	etter	etter	SCONJ	_	_	11	mark	_	name=O
+8	å	å	PART	_	_	11	mark	_	name=O
+9	ha	ha	AUX	_	VerbForm=Inf	11	aux	_	name=O
+10	vore	vere	AUX	_	VerbForm=Part	11	aux	_	name=O
+11	planlagt	planleggje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	advcl	_	name=O
+12	i	i	ADP	_	_	15	case	_	name=O
+13	over	over	ADP	_	_	14	case	_	name=O|Entity=(vtbnn~20090623_4272__T11--1
+14	50	50	NUM	_	Number=Plur|NumType=Card	15	nummod	_	name=O
+15	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__T11)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	og	og	CCONJ	_	_	21	cc	_	name=O
+18	vigsledagen	vigsledag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	obl	_	name=O|Entity=(vtbnn~20090623_4272__220--1)
+19	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	name=O
+20	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__151107--1)
+21	fylt	fylle	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	4	conj	_	name=O
+22	til	til	ADP	_	_	23	case	_	name=O
+23	randen	rand	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	obl	_	name=O|Entity=(vtbnn~20090623_4272__T14--1)
+24	med	med	ADP	_	_	26	case	_	name=O
+25	bunadskledde	bunadskledd	ADJ	_	Degree=Pos|Number=Plur	26	amod	_	name=O|Entity=(vtbnn~20090623_4272__T15--1
+26	kyrkjegjengerar	kyrkjegjengar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__T15)
+27	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015980
+# text = Biskop Olav Skjevesland kom til Skafsåheii for å vigsle den nye fjellkyrkja.
+1	Biskop	biskop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20090623_4272__7712--1
+2	Olav	Olav	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER
+3	Skjevesland	Skjevesland	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=vtbnn~20090623_4272__7712)
+4	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	Skafsåheii	Skafsåheii	PROPN	_	_	4	obl	_	name=B-LOC|Entity=(vtbnn~20090623_4272__3142--1)
+7	for	for	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	vigsle	vigsle	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+10	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(vtbnn~20090623_4272__151107--1
+11	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	fjellkyrkja	fjellkyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__151107)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 015981
+# text = F.v. Diakon Eilev Erikstein, tidlegare prest i Tokke Bernt Olav Karlsen, prost i Vest-Telemark og prest i Tokke Øyvind Jørgensen, Bjørg Abusland og Gunstein Seltveit, leiar i arbeidsnemnda i Skafså sokneråd.
+1	F.v.	f.v.	ADV	_	Abbr=Yes	3	advmod	_	name=O|Entity=(vtbnn~20090623_4272__T19--1(vtbnn~20090623_4272__T20--1
+2	Diakon	diakon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O
+3	Eilev	Eilev	PROPN	_	_	0	root	_	name=B-PER
+4	Erikstein	Erikstein	PROPN	_	_	3	flat:name	_	SpaceAfter=No|name=I-PER
+5	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=vtbnn~20090623_4272__T20)
+6	tidlegare	tidleg	ADJ	_	Degree=Cmp	7	amod	_	name=O|Entity=(vtbnn~20090623_4272__T23--1(vtbnn~20090623_4272__T21[1/2]--1
+7	prest	prest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Tokke	Tokke	PROPN	_	_	7	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20090623_4272__2115--1)vtbnn~20090623_4272__T21[1/2])
+10	Bernt	Bernt	NOUN	_	Gender=Masc	3	conj	_	name=B-PER
+11	Olav	Olav	NOUN	_	Gender=Masc	10	flat:name	_	name=I-PER
+12	Karlsen	Karlsen	PROPN	_	_	10	flat:name	_	SpaceAfter=No|name=I-PER
+13	,	$,	PUNCT	_	_	21	punct	_	name=O|Entity=(vtbnn~20090623_4272__T21[2/2]--1)vtbnn~20090623_4272__T23)
+14	prost	prost	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=(vtbnn~20090623_4272__T29--1(vtbnn~20090623_4272__T24[1/2]--1(vtbnn~20090623_4272__T25[1/2]--1
+15	i	i	ADP	_	_	16	case	_	name=O
+16	Vest-Telemark	Vest-Telemark	PROPN	_	_	14	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20090623_4272__4288--1)vtbnn~20090623_4272__T25[1/2])
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	prest	prest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	conj	_	name=O|Entity=(vtbnn~20090623_4272__T27--1
+19	i	i	ADP	_	_	20	case	_	name=O
+20	Tokke	Tokke	PROPN	_	_	18	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20090623_4272__T28--1)vtbnn~20090623_4272__T27)vtbnn~20090623_4272__T24[1/2])
+21	Øyvind	Øyvind	NOUN	_	Gender=Masc	3	conj	_	name=B-PER
+22	Jørgensen	Jørgensen	PROPN	_	_	21	flat:name	_	SpaceAfter=No|name=I-PER
+23	,	$,	PUNCT	_	_	24	punct	_	name=O|Entity=(vtbnn~20090623_4272__T24[2/2]--1)(vtbnn~20090623_4272__T25[2/2]--1)vtbnn~20090623_4272__T29)
+24	Bjørg	Bjørg	NOUN	_	Gender=Fem	3	conj	_	name=B-PER|Entity=(vtbnn~20090623_4272__T30--1
+25	Abusland	Abusland	PROPN	_	_	24	flat:name	_	name=I-PER|Entity=vtbnn~20090623_4272__T30)
+26	og	og	CCONJ	_	_	27	cc	_	name=O
+27	Gunstein	Gunstein	PROPN	_	_	3	conj	_	name=B-PER|Entity=(vtbnn~20090623_4272__289--1
+28	Seltveit	Seltveit	PROPN	_	_	27	flat:name	_	SpaceAfter=No|name=I-PER
+29	,	$,	PUNCT	_	_	30	punct	_	name=O
+30	leiar	leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	appos	_	name=O|Entity=(vtbnn~20090623_4272__T32--1
+31	i	i	ADP	_	_	32	case	_	name=O
+32	arbeidsnemnda	arbeidsnemnd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	30	nmod	_	name=O|Entity=(vtbnn~20090623_4272__T33--1
+33	i	i	ADP	_	_	34	case	_	name=O
+34	Skafså	Skafså	PROPN	_	_	32	nmod	_	name=B-ORG|Entity=(vtbnn~20090623_4272__289--1
+35	sokneråd	sokneråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	34	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=vtbnn~20090623_4272__289)vtbnn~20090623_4272__T33)vtbnn~20090623_4272__T32)vtbnn~20090623_4272__289)vtbnn~20090623_4272__T19)
+36	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015982
+# text = Det var sokneprest Bjarne Nensæter i Mo som fyrst hadde ideen til ei kyrkje på Skafsåheii, men det skulle altså gå 50 år før ho stod der klar til bruk.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	sokneprest	sokneprest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(vtbnn~20090623_4272__T35--1
+4	Bjarne	Bjarne	NOUN	_	Gender=Masc	0	root	_	name=B-PER
+5	Nensæter	Nensæter	PROPN	_	_	4	flat:name	_	name=I-PER
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Mo	Mo	PROPN	_	_	4	nmod	_	name=B-LOC|Entity=(vtbnn~20090623_4272__T36--1)
+8	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+9	fyrst	fyrst	ADV	_	_	10	advmod	_	name=O
+10	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:cleft	_	name=O
+11	ideen	idé	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=(vtbnn~20090623_4272__T37--1
+12	til	til	ADP	_	_	14	case	_	name=O
+13	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(vtbnn~20090623_4272__T38--1
+14	kyrkje	kyrkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	name=O
+15	på	på	ADP	_	_	16	case	_	name=O
+16	Skafsåheii	Skafsåheii	PROPN	_	_	14	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(vtbnn~20090623_4272__3142--1)vtbnn~20090623_4272__T38)vtbnn~20090623_4272__T37)vtbnn~20090623_4272__T35)
+17	,	$,	PUNCT	_	_	22	punct	_	name=O
+18	men	men	CCONJ	_	_	22	cc	_	name=O
+19	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	name=O
+20	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	name=O
+21	altså	altså	ADV	_	_	22	advmod	_	name=O
+22	gå	gå	VERB	_	VerbForm=Inf	4	conj	_	name=O
+23	50	50	NUM	_	Number=Plur|NumType=Card	24	nummod	_	name=O|Entity=(vtbnn~20090623_4272__283--1
+24	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	nsubj	_	name=O|Entity=vtbnn~20090623_4272__283)
+25	før	før	SCONJ	_	_	27	mark	_	name=O
+26	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__151107--1)
+27	stod	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	advcl	_	name=O
+28	der	der	ADV	_	_	27	advmod	_	name=O
+29	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	acl	_	name=O
+30	til	til	ADP	_	_	31	case	_	name=O
+31	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__T42--1)
+32	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 015983
+# text = Dei åra har vore fylt med hardt arbeid, håp og skuffelsar, fortel Ottar Urbø, ein primus motor i prosjektet.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|Entity=(vtbnn~20090623_4272__283--1
+2	åra	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=vtbnn~20090623_4272__283)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	vore	vere	AUX	_	VerbForm=Part	5	cop	_	name=O
+5	fylt	fylle	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	med	med	ADP	_	_	8	case	_	name=O
+7	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O|Entity=(vtbnn~20090623_4272__T44--1(vtbnn~20090623_4272__T45--1
+8	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=vtbnn~20090623_4272__T45)
+10	håp	håp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	conj	_	name=O|Entity=(vtbnn~20090623_4272__T46--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	skuffelsar	skuffelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__T47--1)vtbnn~20090623_4272__T44)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+15	Ottar	Ottar	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(vtbnn~20090623_4272__7593--1
+16	Urbø	Urbø	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER
+17	,	$,	PUNCT	_	_	20	punct	_	name=O
+18	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(vtbnn~20090623_4272__T49--1
+19	primus	primus	NOUN	_	_	20	compound	_	name=O
+20	motor	motor	NOUN	_	_	15	appos	_	name=O
+21	i	i	ADP	_	_	22	case	_	name=O
+22	prosjektet	prosjekt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No|name=O|Bridge=vtbnn~20090623_4272__151107<vtbnn~20090623_4272__3179:default|Entity=(vtbnn~20090623_4272__3179--1)vtbnn~20090623_4272__T49)vtbnn~20090623_4272__7593)
+23	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015984
+# text = For 19 år sidan var han ein av dei som vart valde inn i nemnda Skafså sokneråd sette ned for å arbeide med fjellkyrkja.
+1	For	for	ADP	_	_	3	case	_	name=O
+2	19	19	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(vtbnn~20090623_4272__T51--1
+3	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O
+4	sidan	sidan	ADV	_	_	3	advmod	_	name=O|Entity=vtbnn~20090623_4272__T51)
+5	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+6	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__7593--1)
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+8	av	av	ADP	_	_	9	case	_	name=O
+9	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	7	nmod	_	name=O|Entity=(vtbnn~20090623_4272__111036--1
+10	som	som	PRON	_	PronType=Rel	12	nsubj:pass	_	name=O
+11	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux:pass	_	name=O
+12	valde	velje	VERB	_	Number=Plur|VerbForm=Part	9	acl:relcl	_	name=O
+13	inn	inn	ADP	_	_	15	case	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	nemnda	nemnd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	obl	_	name=O|Entity=(vtbnn~20090623_4272__T54--1
+16	Skafså	Skafså	PROPN	_	_	18	nsubj	_	name=B-ORG|Entity=(vtbnn~20090623_4272__289--1
+17	sokneråd	sokneråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	flat:name	_	name=I-ORG|Entity=vtbnn~20090623_4272__289)
+18	sette	setje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	name=O
+19	ned	ned	ADP	_	_	18	compound:prt	_	name=O
+20	for	for	SCONJ	_	_	22	mark	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	arbeide	arbeide	VERB	_	VerbForm=Inf	18	advcl	_	name=O
+23	med	med	ADP	_	_	24	case	_	name=O
+24	fjellkyrkja	fjellkyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__151107--1)vtbnn~20090623_4272__T54)vtbnn~20090623_4272__111036)
+25	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 015985
+# text = Denne arbeidsgruppa har stått på heilt sidan 1990 med Gunstein Seltveit i spissen, og no kan dei endeleg beundre det ferdige resultatet.
+1	Denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(vtbnn~20090623_4272__111036--1
+2	arbeidsgruppa	arbeidsgruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Entity=vtbnn~20090623_4272__111036)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	stått	stå	VERB	_	VerbForm=Part	0	root	_	name=O
+5	på	på	ADP	_	_	4	compound:prt	_	name=O
+6	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+7	sidan	sidan	ADP	_	_	8	case	_	name=O
+8	1990	1990	NUM	_	Number=Plur|NumType=Card	4	obl	_	name=O
+9	med	med	ADP	_	_	10	case	_	name=O
+10	Gunstein	Gunstein	PROPN	_	_	4	obl	_	name=B-PER|Entity=(vtbnn~20090623_4272__289--1
+11	Seltveit	Seltveit	PROPN	_	_	10	flat:name	_	name=I-PER|Entity=vtbnn~20090623_4272__289)
+12	i	i	SCONJ	_	_	13	mark	_	name=O
+13	spissen	spiss	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__T59--1)
+14	,	$,	PUNCT	_	_	20	punct	_	name=O
+15	og	og	CCONJ	_	_	20	cc	_	name=O
+16	no	no	ADV	_	_	20	advmod	_	name=O
+17	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+18	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__111036--1)
+19	endeleg	endeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O
+20	beundre	beundre	VERB	_	VerbForm=Inf	4	conj	_	name=O
+21	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	23	det	_	name=O|Entity=(vtbnn~20090623_4272__151107--1
+22	ferdige	ferdig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	amod	_	name=O
+23	resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__151107)
+24	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015986
+# text = Før dei tok tak i prosjektet låg det daudt i mange år, i fylgje Urbø.
+1	Før	før	SCONJ	_	_	3	mark	_	name=O
+2	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__111036--1)
+3	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	name=O
+4	tak	tak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(vtbnn~20090623_4272__T63--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	prosjektet	prosjekt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20090623_4272__3179--1)
+7	låg	liggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__3179--1)
+9	daudt	daud	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	acl	_	name=O
+10	i	i	ADP	_	_	12	case	_	name=O
+11	mange	mange	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(vtbnn~20090623_4272__T66--1
+12	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__T66)
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	fylgje	fylgje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(vtbnn~20090623_4272__T67--1
+16	Urbø	Urbø	PROPN	_	_	15	nmod	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20090623_4272__7593--1)vtbnn~20090623_4272__T67)
+17	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 015987
+# text = Tidleg på 90-talet kom det ei pengegåve på 1,3 millionar som gjorde det mogleg å byrje planlegginga for alvor.
+1	Tidleg	tidleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	90-talet	90-tal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(vtbnn~20090623_4272__T69--1)
+4	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(vtbnn~20090623_4272__T70--1
+7	pengegåve	pengegåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	name=O
+8	på	på	ADP	_	_	10	case	_	name=O
+9	1,3	1,3	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(vtbnn~20090623_4272__T71--1
+10	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=vtbnn~20090623_4272__T71)
+11	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+12	gjorde	gjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+14	mogleg	mogleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	xcomp	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	byrje	byrje	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+17	planlegginga	planlegging	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	16	obj	_	name=O|Bridge=vtbnn~20090623_4272__3179<vtbnn~20090623_4272__T72:default|Entity=(vtbnn~20090623_4272__T72--1)
+18	for	for	ADP	_	_	19	case	_	name=O
+19	alvor	alvor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__T73--1)vtbnn~20090623_4272__T70)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 015988
+# text = Vegen har vore kronglete for eldsjelene som har jobba for fjellkyrkja.
+1	Vegen	veg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__T74--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	vore	vere	AUX	_	VerbForm=Part	4	cop	_	name=O
+4	kronglete	kronglete	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	for	for	ADP	_	_	6	case	_	name=O
+6	eldsjelene	eldsjel	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	4	obl	_	name=O|Entity=(vtbnn~20090623_4272__111036--1
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	jobba	jobbe	VERB	_	VerbForm=Part	6	acl:relcl	_	name=O
+10	for	for	ADP	_	_	11	case	_	name=O
+11	fjellkyrkja	fjellkyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__151107--1)vtbnn~20090623_4272__111036)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 015989
+# text = Mangfoldige dugnadstimar og pengegåver har gjort at kyrkja står der i dag, men utfordringane har vore mange.
+1	Mangfoldige	mangfoldig	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(vtbnn~20090623_4272__T77--1(vtbnn~20090623_4272__T78--1
+2	dugnadstimar	dugnadstime	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=vtbnn~20090623_4272__T78)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	pengegåver	pengegåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	conj	_	name=O|Entity=(vtbnn~20090623_4272__T79--1)vtbnn~20090623_4272__T77)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	gjort	gjere	VERB	_	VerbForm=Part	0	root	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	kyrkja	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__151107--1)
+9	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	name=O
+10	der	der	ADV	_	_	9	advmod	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__T81--1)
+13	,	$,	PUNCT	_	_	18	punct	_	name=O
+14	men	men	CCONJ	_	_	18	cc	_	name=O
+15	utfordringane	utfordring	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	18	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__2224--1)
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+17	vore	vere	AUX	_	VerbForm=Part	18	cop	_	name=O
+18	mange	mange	ADJ	_	Degree=Pos|Number=Plur	6	conj	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 015990
+# text = Mange tomter har vore aktuelle for bygging av ei fjellkyrkje på Skafsåheii, men har blitt forkasta av ulike årsaker, fortel Urbø.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(vtbnn~20090623_4272__T83--1
+2	tomter	tomt	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	name=O|Entity=vtbnn~20090623_4272__T83)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	vore	vere	AUX	_	VerbForm=Part	5	cop	_	name=O
+5	aktuelle	aktuell	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	bygging	bygging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=(vtbnn~20090623_4272__4428--1
+8	av	av	ADP	_	_	10	case	_	name=O
+9	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(vtbnn~20090623_4272__T85--1
+10	fjellkyrkje	fjellkyrkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	Skafsåheii	Skafsåheii	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(vtbnn~20090623_4272__3142--1)vtbnn~20090623_4272__T85)vtbnn~20090623_4272__4428)
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	men	men	CCONJ	_	_	17	cc	_	name=O
+15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+16	blitt	bli	AUX	_	VerbForm=Part	17	aux:pass	_	name=O
+17	forkasta	forkaste	VERB	_	Number=Plur|VerbForm=Part	5	conj	_	name=O
+18	av	av	ADP	_	_	20	case	_	name=O
+19	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(vtbnn~20090623_4272__T87--1
+20	årsaker	årsak	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__T87)
+21	,	$,	PUNCT	_	_	22	punct	_	name=O
+22	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+23	Urbø	Urbø	PROPN	_	_	22	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20090623_4272__7593--1)
+24	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015991
+# text = Den tomta der kyrkja står i dag, har dei fått av kommunen.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(vtbnn~20090623_4272__2183--1
+2	tomta	tomt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	obj	_	name=O
+3	der	der	SCONJ	_	_	5	mark	_	name=O
+4	kyrkja	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__151107--1)
+5	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__T91--1)vtbnn~20090623_4272__2183)
+8	,	$,	PUNCT	_	_	5	punct	_	name=O
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+10	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__111036--1)
+11	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	kommunen	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__2115--1)
+14	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 015992
+# text = Sidan tomta ligg i eit hyttefelt var det alt lagt opp til straum og vatn.
+1	Sidan	sidan	SCONJ	_	_	3	mark	_	name=O
+2	tomta	tomt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__2183--1)
+3	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+4	i	i	ADP	_	_	6	case	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20090623_4272__T95--1
+6	hyttefelt	hyttefelt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O|Entity=vtbnn~20090623_4272__T95)
+7	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+9	alt	alt	ADV	_	_	10	advmod	_	name=O
+10	lagt	leggje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+11	opp	opp	ADP	_	_	10	compound:prt	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	straum	straum	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(vtbnn~20090623_4272__T96--1(vtbnn~20090623_4272__T97--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	vatn	vatn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__T98--1)vtbnn~20090623_4272__T96)
+16	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 015993
+# text = Det gjorde at arbeidet gjekk raskare når det fyrst kom i gang.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__T99--1)
+2	gjorde	gjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__4428--1)
+5	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	name=O
+6	raskare	rask	ADJ	_	Degree=Cmp	5	advmod	_	name=O
+7	når	når	SCONJ	_	_	10	mark	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__4428--1)
+9	fyrst	fyrst	ADV	_	_	10	advmod	_	name=O
+10	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__T102--1)
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015994
+# text = Urbø framhevar arbeidsinnsatsen til Feltspatkompaniet, eit firma som driv med hyttebygging på Hallbjønnsekken.
+1	Urbø	Urbø	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(vtbnn~20090623_4272__7593--1)
+2	framhevar	framheve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	arbeidsinnsatsen	arbeidsinnsats	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(vtbnn~20090623_4272__T104--1
+4	til	til	ADP	_	_	5	case	_	name=O
+5	Feltspatkompaniet	Feltspatkompaniet	PROPN	_	_	3	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20090623_4272__2214--1
+6	,	$,	PUNCT	_	_	8	punct	_	name=O
+7	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vtbnn~20090623_4272__T106--1
+8	firma	firma	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	appos	_	name=O
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	driv	drive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+11	med	med	ADP	_	_	12	case	_	name=O
+12	hyttebygging	hyttebygging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	name=O|Entity=(vtbnn~20090623_4272__T107--1
+13	på	på	ADP	_	_	14	case	_	name=O
+14	Hallbjønnsekken	Hallbjønnsekken	PROPN	_	_	12	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(vtbnn~20090623_4272__T108--1)vtbnn~20090623_4272__T107)vtbnn~20090623_4272__T106)vtbnn~20090623_4272__2214)vtbnn~20090623_4272__T104)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 015995
+# text = Dei har sett opp den vakre kyrkja og har gjort ein kjempejobb, kyter Urbø.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__2214--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	sett	setje	VERB	_	VerbForm=Part	0	root	_	name=O
+4	opp	opp	ADP	_	_	3	compound:prt	_	name=O
+5	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(vtbnn~20090623_4272__151107--1
+6	vakre	vakker	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	kyrkja	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=vtbnn~20090623_4272__151107)
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	gjort	gjere	VERB	_	VerbForm=Part	3	conj	_	name=O
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(vtbnn~20090623_4272__T111--1
+12	kjempejobb	kjempejobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__T111)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	kyter	kyte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+15	Urbø	Urbø	PROPN	_	_	14	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20090623_4272__7593--1)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015996
+# text = - Me håpar å etterkvart få nok pengar til å byggje ut kjellaren slik me har planlagt.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__111036--1)
+3	håpar	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	å	å	PART	_	_	6	mark	_	name=O
+5	etterkvart	etterkvart	ADV	_	_	6	advmod	_	name=O
+6	få	få	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+7	nok	nok	ADV	_	_	8	advmod	_	name=O|Entity=(vtbnn~20090623_4272__T114--1
+8	pengar	penge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	name=O
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	byggje	byggje	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+12	ut	ut	ADP	_	_	11	compound:prt	_	name=O
+13	kjellaren	kjellar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	name=O|Bridge=vtbnn~20090623_4272__151107<vtbnn~20090623_4272__T115:default|Entity=(vtbnn~20090623_4272__T115--1)
+14	slik	slik	ADV	_	_	11	advmod	_	name=O
+15	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__111036--1)
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	planlagt	planleggje	VERB	_	VerbForm=Part	14	advcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__T114)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 015997
+# text = Det vil vere ein ideell plass for ungdomsaktivitetar i kyrkja, og der vil bli sengeplassar til 16 personar, seier Urbø.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	vere	vere	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20090623_4272__T117--1
+5	ideell	ideell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O
+7	for	for	ADP	_	_	8	case	_	name=O
+8	ungdomsaktivitetar	ungdomsaktivitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	name=O|Entity=(vtbnn~20090623_4272__T118--1)vtbnn~20090623_4272__T117)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	kyrkja	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__151107--1)
+11	,	$,	PUNCT	_	_	15	punct	_	name=O
+12	og	og	CCONJ	_	_	15	cc	_	name=O
+13	der	der	PRON	_	PronType=Prs	15	expl	_	name=O
+14	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	bli	bli	VERB	_	VerbForm=Inf	3	conj	_	name=O
+16	sengeplassar	sengeplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	xcomp	_	name=O|Entity=(vtbnn~20090623_4272__T120--1
+17	til	til	ADP	_	_	19	case	_	name=O
+18	16	16	NUM	_	Number=Plur|NumType=Card	19	nummod	_	name=O|Entity=(vtbnn~20090623_4272__T121--1
+19	personar	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__T121)vtbnn~20090623_4272__T120)
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+22	Urbø	Urbø	PROPN	_	_	21	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20090623_4272__7593--1)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 015998
+# text = Det er ikkje kvar dag ein kan oppleve slike hendingar i Vest-Telemark.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+4	kvar	kvar	DET	_	Gender=Masc|Number=Sing|PronType=Tot	5	det	_	name=O|Entity=(vtbnn~20090623_4272__T123--1
+5	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+6	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	8	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__T124--1)
+7	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	oppleve	oppleve	VERB	_	VerbForm=Inf	5	acl:cleft	_	name=O
+9	slike	slik	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(vtbnn~20090623_4272__T125--1
+10	hendingar	hending	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	name=O|Entity=vtbnn~20090623_4272__T125)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Vest-Telemark	Vest-Telemark	PROPN	_	_	8	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20090623_4272__4288--1)vtbnn~20090623_4272__T123)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 015999
+# text = Sist gong var i 1958 då Kilen kapell vart vigsla.
+1	Sist	sist	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(vtbnn~20090623_4272__T127--1
+2	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=vtbnn~20090623_4272__T127)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	1958	1958	NUM	_	Number=Plur|NumType=Card	0	root	_	name=O
+6	då	då	SCONJ	_	_	10	mark	_	name=O
+7	Kilen	Kilen	PROPN	_	_	10	nsubj:pass	_	name=B-LOC|Entity=(vtbnn~20090623_4272__T128--1
+8	kapell	kapell	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	flat:name	_	name=I-LOC|Entity=vtbnn~20090623_4272__T128)
+9	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	name=O
+10	vigsla	vigsle	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	5	advcl	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 016000
+# text = Biskop Olav Skjevesland rosa dei som har jobba med å få Skafsåheii fjellkyrkje opp og stå.
+1	Biskop	biskop	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20090623_4272__7712--1
+2	Olav	Olav	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER
+3	Skjevesland	Skjevesland	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=vtbnn~20090623_4272__7712)
+4	rosa	rose	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	name=O|Entity=(vtbnn~20090623_4272__111036--1
+6	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	jobba	jobbe	VERB	_	VerbForm=Part	5	acl:relcl	_	name=O
+9	med	med	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	få	få	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+12	Skafsåheii	Skafsåheii	PROPN	_	_	11	obj	_	name=B-LOC|Entity=(vtbnn~20090623_4272__151107--1
+13	fjellkyrkje	fjellkyrkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	flat:name	_	name=I-LOC|Entity=vtbnn~20090623_4272__151107)
+14	opp	opp	ADP	_	_	11	xcomp	_	name=O
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	stå	stå	VERB	_	VerbForm=Inf	14	conj	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__111036)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 016001
+# text = - Dette er ein stolt dag for Vest-Telemark, sa biskopen etter gudstenesta.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__T132--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20090623_4272__T133--1
+5	stolt	stolt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=vtbnn~20090623_4272__T133)
+7	for	for	ADP	_	_	8	case	_	name=O
+8	Vest-Telemark	Vest-Telemark	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20090623_4272__4288--1)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	name=O
+11	biskopen	biskop	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__7712--1)
+12	etter	etter	ADP	_	_	13	case	_	name=O
+13	gudstenesta	gudsteneste	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__T136--1)
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 016002
+# text = Han meinte eldsjelene har gjort eit strålande arbeid, og roste dei for å ha hatt tålmod til å takle alle motbakkane arbeidet har bydd på.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__7712--1)
+2	meinte	meine	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	eldsjelene	eldsjel	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	5	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__111036--1)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	gjort	gjere	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+6	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vtbnn~20090623_4272__T139--1
+7	strålande	stråle	ADJ	_	VerbForm=Part	8	amod	_	name=O
+8	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__T139)
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	roste	rose	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+12	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	11	obj	_	name=O|Entity=(vtbnn~20090623_4272__111036--1)
+13	for	for	SCONJ	_	_	16	mark	_	name=O
+14	å	å	PART	_	_	16	mark	_	name=O
+15	ha	ha	AUX	_	VerbForm=Inf	16	aux	_	name=O
+16	hatt	ha	VERB	_	VerbForm=Part	11	advcl	_	name=O
+17	tålmod	tålmod	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	name=O|Entity=(vtbnn~20090623_4272__T141--1
+18	til	til	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	takle	takle	VERB	_	VerbForm=Inf	17	acl	_	name=O
+21	alle	all	DET	_	Number=Plur|PronType=Tot	22	det	_	name=O|Entity=(vtbnn~20090623_4272__2224--1
+22	motbakkane	motbakke	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	20	obj	_	name=O
+23	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	25	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__4428--1)
+24	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	bydd	by	VERB	_	VerbForm=Part	22	acl:relcl	_	name=O
+26	på	på	ADP	_	_	25	compound:prt	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__2224)vtbnn~20090623_4272__T141)
+27	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016003
+# text = Skjevesland framheva at han ville at kyrkja skulle viglast ved å bli teken i bruk, ikkje ved «å skvette vievatn i krokane».
+1	Skjevesland	Skjevesland	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(vtbnn~20090623_4272__7712--1)
+2	framheva	framheve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__7712--1)
+5	ville	vilje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	kyrkja	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	name=O|Entity=(vtbnn~20090623_4272__151107--1)
+8	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+9	viglast	vigsle	VERB	_	VerbForm=Inf	5	ccomp	_	name=O
+10	ved	ved	SCONJ	_	_	13	mark	_	name=O
+11	å	å	PART	_	_	13	mark	_	name=O
+12	bli	bli	AUX	_	VerbForm=Inf	13	aux:pass	_	name=O
+13	teken	ta	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	9	advcl	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20090623_4272__T147--1)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	ikkje	ikkje	PART	_	Polarity=Neg	21	advmod	_	name=O
+18	ved	ved	ADP	_	_	21	case	_	name=O
+19	«	$"	PUNCT	_	_	21	punct	_	SpaceAfter=No|name=O
+20	å	å	PART	_	_	21	mark	_	name=O
+21	skvette	skvette	VERB	_	VerbForm=Inf	9	conj	_	name=O
+22	vievatn	vievatn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	orphan	_	name=O|Entity=(vtbnn~20090623_4272__T148--1)
+23	i	i	ADP	_	_	24	case	_	name=O
+24	krokane	krok	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No|name=O|Bridge=vtbnn~20090623_4272__151107<vtbnn~20090623_4272__T149:default|Entity=(vtbnn~20090623_4272__T149--1)
+25	»	$"	PUNCT	_	_	21	punct	_	SpaceAfter=No|name=O
+26	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 016004
+# text = Fjellkyrkja sitt mandat er å vere ei levande kyrkje og ein sosial møteplass.
+1	Fjellkyrkja	Fjellkyrkja	PROPN	_	_	2	obl	_	name=O|Entity=(vtbnn~20090623_4272__T152--1(vtbnn~20090623_4272__T151--1(vtbnn~20090623_4272__151107--1)
+2	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	name=O|Entity=vtbnn~20090623_4272__T151)
+3	mandat	mandat	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=vtbnn~20090623_4272__T152)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+5	å	å	PART	_	_	9	mark	_	name=O
+6	vere	vere	AUX	_	VerbForm=Inf	9	cop	_	name=O
+7	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20090623_4272__T153--1(vtbnn~20090623_4272__T154--1
+8	levande	levande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	kyrkje	kyrkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=vtbnn~20090623_4272__T154)
+10	og	og	CCONJ	_	_	13	cc	_	name=O
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(vtbnn~20090623_4272__T155--1
+12	sosial	sosial	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	møteplass	møteplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No|name=O|Entity=vtbnn~20090623_4272__T155)vtbnn~20090623_4272__T153)
+14	.	$.	PUNCT	_	_	9	punct	_	name=O
+

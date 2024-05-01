@@ -1,0 +1,556 @@
+# newdoc id = db~20081207-3963610
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 019537
+# text = Et tidel unna trippel Aksel
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(db~20081207_3963610__T1--1
+2	tidel	tidel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=db~20081207_3963610__T1)
+3	unna	unna	ADP	_	_	5	case	_	name=O
+4	trippel	trippel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(db~20081207_3963610__T2--1
+5	Aksel	Aksel	PROPN	_	Gender=Masc	0	root	_	name=B-PER|Entity=db~20081207_3963610__T2)
+
+# newpar
+# sent_id = 019538
+# text = Lund Svindal på pallen igjen.
+1	Lund	Lund	PROPN	_	_	0	root	_	name=B-PER|Entity=(db~20081207_3963610__18991--1
+2	Svindal	Svindal	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081207_3963610__18991)
+3	på	på	SCONJ	_	_	4	mark	_	name=O
+4	pallen	pall	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	xcomp	_	name=O|Entity=(db~20081207_3963610__T4--1)
+5	igjen	igjen	ADV	_	_	1	advmod	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 019539
+# text = Aksel Lund Svindal vant både utfor og super-G i Beaver Creek, den samme bakken han falt og ødela både seg selv og forrige sesong i.
+1	Aksel	Aksel	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__18991--1
+2	Lund	Lund	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Svindal	Svindal	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081207_3963610__18991)
+4	vant	vinne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	både	både	CCONJ	_	_	6	cc	_	name=O
+6	utfor	utfor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(db~20081207_3963610__T6--1(db~20081207_3963610__T7--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	super-G	super-G	NOUN	_	_	6	conj	_	name=O|Entity=(db~20081207_3963610__T8--1)db~20081207_3963610__T6)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Beaver	Beaver	PROPN	_	_	4	obl	_	name=B-LOC|Entity=(db~20081207_3963610__265--1
+11	Creek	Creek	PROPN	_	_	10	flat:name	_	SpaceAfter=No|name=I-LOC
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(db~20081207_3963610__T10--1
+14	samme	samme	DET	_	Definite=Def|PronType=Dem	15	det	_	name=O
+15	bakken	bakke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	appos	_	name=O
+16	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(db~20081207_3963610__18991--1)
+17	falt	falle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	name=O
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	ødela	ødelegge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	conj	_	name=O
+20	både	både	CCONJ	_	_	21	cc	_	name=O
+21	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	19	obj	_	name=O|Entity=(db~20081207_3963610__18991--1
+22	selv	selv	DET	_	PronType=Prs	21	det	_	name=O|Entity=db~20081207_3963610__18991)
+23	og	og	CCONJ	_	_	25	cc	_	name=O
+24	forrige	forrige	DET	_	Definite=Def|PronType=Dem	25	det	_	name=O|Entity=(db~20081207_3963610__T12--1
+25	sesong	sesong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	conj	_	name=O|Entity=db~20081207_3963610__T12)
+26	i	i	ADP	_	_	19	compound:prt	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T10)db~20081207_3963610__265)
+27	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 019540
+# text = I kveld var det storslalåm, og allerede etter førsteomgang ante vi konturene av en ny triumf.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(db~20081207_3963610__T13--1)
+3	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	storslalåm	storslalåm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__T14--1)
+6	,	$,	PUNCT	_	_	11	punct	_	name=O
+7	og	og	CCONJ	_	_	11	cc	_	name=O
+8	allerede	allerede	ADV	_	_	10	advmod	_	name=O
+9	etter	etter	ADP	_	_	10	case	_	name=O
+10	førsteomgang	førsteomgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(db~20081207_3963610__237--1)
+11	ante	ane	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+12	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081207_3963610__T16--1)
+13	konturene	kontur	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	11	obj	_	name=O|Entity=(db~20081207_3963610__T17--1
+14	av	av	ADP	_	_	17	case	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(db~20081207_3963610__T18--1
+16	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	triumf	triumf	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T18)db~20081207_3963610__T17)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019541
+# text = - Jeg kjørte ikke spesielt bra, sa Lund Svindal til Dagbladet.no etter omgangens tredje beste tid, og mente det burde være mulig å ta igjen de 69 tapte hundredelene med en god andreomgang.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081207_3963610__18991--1)
+3	kjørte	kjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+9	Lund	Lund	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__18991--1
+10	Svindal	Svindal	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=db~20081207_3963610__18991)
+11	til	til	ADP	_	_	12	case	_	name=O
+12	Dagbladet.no	Dagbladet.no	PROPN	_	_	8	obl	_	name=B-ORG|Entity=(db~20081207_3963610__3176--1)
+13	etter	etter	ADP	_	_	17	case	_	name=O
+14	omgangens	omgang	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(db~20081207_3963610__T23--1(db~20081207_3963610__237--1)
+15	tredje	tredje	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+16	beste	god	ADJ	_	Definite=Def|Degree=Sup	17	amod	_	name=O
+17	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T23)
+18	,	$,	PUNCT	_	_	20	punct	_	name=O
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	name=O
+21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	name=O
+22	burde	burde	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	name=O
+23	være	være	AUX	_	VerbForm=Inf	24	cop	_	name=O
+24	mulig	mulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	xcomp	_	name=O
+25	å	å	PART	_	_	26	mark	_	name=O
+26	ta	ta	VERB	_	VerbForm=Inf	24	csubj	_	name=O
+27	igjen	igjen	ADV	_	_	26	advmod	_	name=O
+28	de	de	DET	_	Number=Plur|PronType=Dem	31	det	_	name=O|Entity=(db~20081207_3963610__T24--1
+29	69	69	NUM	_	Number=Plur|NumType=Card	31	nummod	_	name=O
+30	tapte	tape	ADJ	_	Number=Plur|VerbForm=Part	31	amod	_	name=O
+31	hundredelene	hundredel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	26	obj	_	name=O|Entity=db~20081207_3963610__T24)
+32	med	med	ADP	_	_	35	case	_	name=O
+33	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	35	det	_	name=O|Entity=(db~20081207_3963610__T25--1
+34	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	35	amod	_	name=O
+35	andreomgang	andreomgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T25)
+36	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019542
+# text = Det gjorde han nesten også.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(db~20081207_3963610__T26--1)
+2	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081207_3963610__18991--1)
+4	nesten	nesten	ADV	_	_	2	advmod	_	name=O
+5	også	også	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 019543
+# text = Ted Ligety var mannen som var 69 hundredeler foran, og i mål var Ligety bare ni hundredeler foran Lund Svindal.
+1	Ted	Ted	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__398--1
+2	Ligety	Ligety	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081207_3963610__398)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+4	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(db~20081207_3963610__T29--1
+5	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+6	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+7	69	69	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(db~20081207_3963610__T30--1
+8	hundredeler	hundredel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	name=O|Entity=db~20081207_3963610__T30)
+9	foran	foran	ADP	_	_	4	acl:relcl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	og	og	CCONJ	_	_	14	cc	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	mål	mål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	name=O|Entity=(db~20081207_3963610__T31--1)
+14	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	name=O
+15	Ligety	Ligety	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__398--1)
+16	bare	bare	ADV	_	_	17	advmod	_	name=O|Entity=(db~20081207_3963610__T33--1
+17	ni	ni	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O
+18	hundredeler	hundredel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	obl	_	name=O|Entity=db~20081207_3963610__T33)
+19	foran	foran	ADP	_	_	20	case	_	name=O
+20	Lund	Lund	PROPN	_	_	14	obl	_	name=B-PER|Entity=(db~20081207_3963610__18991--1
+21	Svindal	Svindal	PROPN	_	_	20	flat:name	_	SpaceAfter=No|name=I-PER|Entity=db~20081207_3963610__18991)db~20081207_3963610__T29)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 019544
+# text = Dessverre for begge dem var Benjamin Raich hundredelen foran Ligety.
+1	Dessverre	dessverre	ADV	_	_	10	advmod	_	name=O
+2	for	for	ADP	_	_	4	case	_	name=O
+3	begge	begge	DET	_	Number=Plur|PronType=Tot	4	nmod	_	name=O|SplitAnte=db~20081207_3963610__18991<db~20081207_3963610__T35,db~20081207_3963610__398<db~20081207_3963610__T35|Entity=(db~20081207_3963610__T35--1
+4	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obl	_	name=O|Entity=db~20081207_3963610__T35)
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	name=O
+6	Benjamin	Benjamin	PROPN	_	Gender=Masc	10	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__2107--1
+7	Raich	Raich	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=db~20081207_3963610__2107)
+8	hundredelen	hundredel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(db~20081207_3963610__T37--1)
+9	foran	foran	ADP	_	_	10	case	_	name=O
+10	Ligety	Ligety	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-PER|Entity=(db~20081207_3963610__398--1)
+11	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 019545
+# text = Føles bedre enn seirene
+1	Føles	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+2	bedre	god	ADJ	_	Degree=Cmp	1	xcomp	_	name=O
+3	enn	enn	ADP	_	_	4	case	_	name=O
+4	seirene	seier	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obl	_	name=O|Entity=(db~20081207_3963610__3140--1)
+
+# sent_id = 019546
+# text = - Sånn med en gang føles det bedre å komme på pallen i dag enn de to seriene tidligere i uka.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Sånn	sånn	ADV	_	_	5	advmod	_	name=O
+3	med	med	ADP	_	_	5	case	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(db~20081207_3963610__T40--1
+5	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=db~20081207_3963610__T40)
+6	føles	føles	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+8	bedre	god	ADJ	_	Degree=Cmp	6	xcomp	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	komme	komme	VERB	_	VerbForm=Inf	6	csubj	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	pallen	pall	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(db~20081207_3963610__T41--1)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(db~20081207_3963610__T42--1)
+15	enn	enn	ADP	_	_	18	case	_	name=O
+16	de	de	DET	_	Number=Plur|PronType=Dem	18	det	_	name=O|Entity=(db~20081207_3963610__3140--1
+17	to	to	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O
+18	seriene	serie	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obl	_	name=O
+19	tidligere	tidlig	ADJ	_	Degree=Cmp	18	amod	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	uka	uke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__T44--1)db~20081207_3963610__3140)
+22	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 019547
+# text = Dette hadde jeg satset på, de to andre rennene var mer overraskende, sier Aksel Lund Svindal til Dagbladet.no.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	name=O|Entity=(db~20081207_3963610__T45--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081207_3963610__18991--1)
+4	satset	satse	VERB	_	VerbForm=Part	0	root	_	name=O
+5	på	på	ADP	_	_	1	case	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	13	punct	_	name=O
+7	de	de	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(db~20081207_3963610__T47--1
+8	to	to	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O
+9	andre	annen	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O
+10	rennene	renn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	13	nsubj	_	name=O|Entity=db~20081207_3963610__T47)
+11	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+12	mer	mye	ADJ	_	Degree=Cmp	13	advmod	_	name=O
+13	overraskende	overraske	ADJ	_	VerbForm=Part	4	conj	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	13	punct	_	name=O
+15	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+16	Aksel	Aksel	PROPN	_	Gender=Masc	15	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__18991--1
+17	Lund	Lund	PROPN	_	_	16	flat:name	_	name=I-PER
+18	Svindal	Svindal	PROPN	_	_	16	flat:name	_	name=I-PER|Entity=db~20081207_3963610__18991)
+19	til	til	ADP	_	_	20	case	_	name=O
+20	Dagbladet.no	Dagbladet.no	PROPN	_	_	15	obl	_	SpaceAfter=No|name=B-ORG|Entity=(db~20081207_3963610__3176--1)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 019548
+# text = - Jeg har hatt en kjempeuke, det har gått langt over forventning.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081207_3963610__18991--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(db~20081207_3963610__T51--1
+6	kjempeuke	kjempeuke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T51)
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	gått	gå	VERB	_	VerbForm=Part	4	conj	_	name=O
+11	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+12	over	over	ADP	_	_	13	case	_	name=O
+13	forventning	forventning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__T52--1)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 019549
+# text = Dermed er Lund Svindals fasit etter tre renn i Beaver Creek to seire og en tredjeplass.
+1	Dermed	dermed	ADV	_	_	13	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+3	Lund	Lund	PROPN	_	_	5	nmod	_	name=B-PER|Entity=(db~20081207_3963610__T54--1(db~20081207_3963610__18991--1
+4	Svindals	Svindal	PROPN	_	Case=Gen	3	flat:name	_	name=I-PER|Entity=db~20081207_3963610__18991)
+5	fasit	fasit	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=db~20081207_3963610__T54)
+6	etter	etter	ADP	_	_	8	case	_	name=O
+7	tre	tre	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(db~20081207_3963610__T55--1
+8	renn	renn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Beaver	Beaver	PROPN	_	_	8	nmod	_	name=B-LOC|Entity=(db~20081207_3963610__265--1
+11	Creek	Creek	PROPN	_	_	10	flat:name	_	name=I-LOC|Entity=db~20081207_3963610__265)db~20081207_3963610__T55)
+12	to	to	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(db~20081207_3963610__T57--1(db~20081207_3963610__3140--1
+13	seire	seier	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=db~20081207_3963610__3140)
+14	og	og	CCONJ	_	_	16	cc	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(db~20081207_3963610__T59--1
+16	tredjeplass	tredjeplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T59)db~20081207_3963610__T57)
+17	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 019550
+# text = Et utrolig comeback etter det fryktelige fallet ifjor.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(db~20081207_3963610__T60--1
+2	utrolig	utrolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	name=O
+3	comeback	comeback	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+4	etter	etter	ADP	_	_	7	case	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(db~20081207_3963610__T61--1
+6	fryktelige	fryktelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	fallet	fall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O
+8	ifjor	ifjor	ADV	_	_	7	advmod	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T61)db~20081207_3963610__T60)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019551
+# text = Den norske standarden ble satt med Kjetil Jansruds fantastiske andreomgang.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(db~20081207_3963610__2142--1
+2	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	standarden	standard	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj:pass	_	name=O|Entity=db~20081207_3963610__2142)
+4	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+5	satt	sette	VERB	_	VerbForm=Part	0	root	_	name=O
+6	med	med	ADP	_	_	10	case	_	name=O
+7	Kjetil	Kjetil	PROPN	_	Gender=Masc	10	nmod	_	name=B-PER|Entity=(db~20081207_3963610__T64--1(db~20081207_3963610__181674--1
+8	Jansruds	Jansrud	PROPN	_	Case=Gen	7	flat:name	_	name=I-PER|Entity=db~20081207_3963610__181674)
+9	fantastiske	fantastisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	andreomgang	andreomgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T64)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 019552
+# text = Jansrud lå på 13. plass etter første, men kjørte ned til klar ledelse i andre.
+1	Jansrud	Jansrud	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__181674--1)
+2	lå	ligge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	5	case	_	name=O
+4	13.	13.	ADJ	_	Number=Plur	5	amod	_	name=O|Entity=(db~20081207_3963610__T66--1
+5	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=db~20081207_3963610__T66)
+6	etter	etter	ADP	_	_	7	case	_	name=O
+7	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	advmod	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__T67--1)
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	men	men	CCONJ	_	_	10	cc	_	name=O
+10	kjørte	kjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+11	ned	ned	ADP	_	_	10	compound:prt	_	name=O
+12	til	til	ADP	_	_	14	case	_	name=O
+13	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(db~20081207_3963610__2138--1
+14	ledelse	ledelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=db~20081207_3963610__2138)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	andre	andre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	advmod	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__2162--1)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 019553
+# text = Den ledelsen holdt helt til Raich slo ham med minimale 15 hundredeler og vant rennet på det.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(db~20081207_3963610__2138--1
+2	ledelsen	ledelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=db~20081207_3963610__2138)
+3	holdt	holde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	til	til	SCONJ	_	_	7	mark	_	name=O
+6	Raich	Raich	PROPN	_	_	7	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__2107--1)
+7	slo	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	name=O
+8	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	name=O|Entity=(db~20081207_3963610__181674--1)
+9	med	med	ADP	_	_	12	case	_	name=O
+10	minimale	minimal	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(db~20081207_3963610__2148--1
+11	15	15	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O
+12	hundredeler	hundredel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	name=O|Entity=db~20081207_3963610__2148)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	vant	vinne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	name=O
+15	rennet	renn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obj	_	name=O|Entity=(db~20081207_3963610__T74--1)
+16	på	på	ADP	_	_	17	case	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__2148--1)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019554
+# text = Lund Svindal så Jansruds kjøring fra toppen, og ble nesten nervøs av standarden unggutten satte.
+1	Lund	Lund	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__18991--1
+2	Svindal	Svindal	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081207_3963610__18991)
+3	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Jansruds	Jansrud	PROPN	_	Case=Gen	5	nmod	_	name=B-PER|Entity=(db~20081207_3963610__T78--1(db~20081207_3963610__181674--1)
+5	kjøring	kjøring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=db~20081207_3963610__T78)
+6	fra	fra	ADP	_	_	7	case	_	name=O
+7	toppen	topp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__T79--1)
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+11	nesten	nesten	ADV	_	_	10	advmod	_	name=O
+12	nervøs	nervøs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	xcomp	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	standarden	standard	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(db~20081207_3963610__2142--1
+15	unggutten	unggutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	name=O|Entity=(db~20081207_3963610__181674--1)
+16	satte	sette	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__2142)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019555
+# text = - Det var helt rått, jeg så på linja hans og han kjørte taktisk helt på grensen.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	rått	rå	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	8	punct	_	name=O
+7	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(db~20081207_3963610__18991--1)
+8	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	linja	linje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obl	_	name=O|Entity=(db~20081207_3963610__T83--1
+11	hans	hans	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(db~20081207_3963610__181674--1)db~20081207_3963610__T83)
+12	og	og	CCONJ	_	_	14	cc	_	name=O
+13	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(db~20081207_3963610__181674--1)
+14	kjørte	kjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	name=O
+15	taktisk	taktisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+16	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+17	på	på	ADP	_	_	18	case	_	name=O
+18	grensen	grense	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__T86--1)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 019556
+# text = Men det gikk jo bra.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	jo	jo	ADV	_	_	3	advmod	_	name=O
+5	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019557
+# text = Kjetil er en jævla god storslalåm-kjører, sier Lund Svindal.
+1	Kjetil	Kjetil	PROPN	_	Gender=Masc	6	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__181674--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(db~20081207_3963610__T88--1
+4	jævla	jævla	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	storslalåm-kjører	storslalåm-kjører	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T88)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+9	Lund	Lund	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__18991--1
+10	Svindal	Svindal	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-PER|Entity=db~20081207_3963610__18991)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 019558
+# text = Syns Aksel kunne roet ned
+1	Syns	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	Aksel	Aksel	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__18991--1)
+3	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	roet	roe	VERB	_	VerbForm=Part	1	ccomp	_	name=O
+5	ned	ned	ADP	_	_	4	compound:prt	_	name=O
+
+# sent_id = 019559
+# text = Jansruds tid var andreomgangs beste, og med dette resultatet får han et bedre startnummer neste lørdag enn han hadde i dag.
+1	Jansruds	Jansrud	PROPN	_	Case=Gen	2	nmod	_	name=B-PER|Entity=(db~20081207_3963610__2186--1(db~20081207_3963610__181674--1)
+2	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=db~20081207_3963610__2186)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	andreomgangs	andreomgang	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(db~20081207_3963610__2162--1)
+5	beste	god	ADJ	_	Definite=Def|Degree=Sup	0	root	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	11	punct	_	name=O
+7	og	og	CCONJ	_	_	11	cc	_	name=O
+8	med	med	ADP	_	_	10	case	_	name=O
+9	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(db~20081207_3963610__2186--1
+10	resultatet	resultat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	name=O|Entity=db~20081207_3963610__2186)
+11	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+12	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081207_3963610__181674--1)
+13	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(db~20081207_3963610__T96[1/2]--1
+14	bedre	god	ADJ	_	Degree=Cmp	15	amod	_	name=O
+15	startnummer	startnummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	name=O|Entity=db~20081207_3963610__T96[1/2])
+16	neste	neste	DET	_	Definite=Def|PronType=Dem	17	det	_	name=O|Entity=(db~20081207_3963610__T97--1
+17	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=db~20081207_3963610__T97)
+18	enn	enn	SCONJ	_	_	20	mark	_	name=O|Entity=(db~20081207_3963610__T96[2/2]--1
+19	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(db~20081207_3963610__181674--1)
+20	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	name=O
+21	i	i	ADP	_	_	22	case	_	name=O
+22	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__T99--1)db~20081207_3963610__T96[2/2])
+23	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 019560
+# text = - Jeg syns Aksel kunne unnet meg den pallplasseringen og lagt seg sekshundredeler bak, sier Jansrud til Dagbladet.no.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081207_3963610__181674--1)
+3	syns	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	Aksel	Aksel	PROPN	_	Gender=Masc	6	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__18991--1)
+5	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	name=O
+6	unnet	unne	VERB	_	VerbForm=Part	3	ccomp	_	name=O
+7	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	name=O|Entity=(db~20081207_3963610__181674--1)
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(db~20081207_3963610__T103--1
+9	pallplasseringen	pallplassering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=db~20081207_3963610__T103)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	lagt	legge	VERB	_	VerbForm=Part	6	conj	_	name=O
+12	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	name=O
+13	sekshundredeler	sekshundredel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	name=O|Entity=(db~20081207_3963610__T104--1)
+14	bak	bak	ADP	_	_	11	compound:prt	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+17	Jansrud	Jansrud	PROPN	_	_	16	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__181674--1)
+18	til	til	ADP	_	_	19	case	_	name=O
+19	Dagbladet.no	Dagbladet.no	PROPN	_	_	16	obl	_	SpaceAfter=No|name=B-ORG|Entity=(db~20081207_3963610__3176--1)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019561
+# text = Lund Svindal var altså bare fem hundredeler bak fjerdeplasserte Jansrud som naturlig nok ble nest beste nordmann i dag.
+1	Lund	Lund	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__18991--1
+2	Svindal	Svindal	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081207_3963610__18991)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	name=O
+4	altså	altså	ADV	_	_	10	advmod	_	name=O
+5	bare	bare	ADV	_	_	6	advmod	_	name=O|Entity=(db~20081207_3963610__T108--1
+6	fem	fem	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O
+7	hundredeler	hundredel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	name=O|Entity=db~20081207_3963610__T108)
+8	bak	bak	ADP	_	_	10	case	_	name=O
+9	fjerdeplasserte	fjerdeplassere	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	10	amod	_	name=O|Entity=(db~20081207_3963610__181674--1
+10	Jansrud	Jansrud	PROPN	_	_	0	root	_	name=B-PER
+11	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+12	naturlig	naturlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+13	nok	nok	ADV	_	_	12	advmod	_	name=O
+14	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	name=O
+15	nest	nest	ADV	_	_	16	advmod	_	name=O|Entity=(db~20081207_3963610__T110--1
+16	beste	god	ADJ	_	Definite=Def|Degree=Sup	17	amod	_	name=O
+17	nordmann	nordmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	xcomp	_	name=O|Entity=db~20081207_3963610__T110)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__T111--1)db~20081207_3963610__181674)
+20	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 019562
+# text = Akkurat det overrasker ikke alpinsjef Marius Arnesen.
+1	Akkurat	akkurat	ADV	_	_	2	advmod	_	name=O|Entity=(db~20081207_3963610__T112--1
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=db~20081207_3963610__T112)
+3	overrasker	overraske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	alpinsjef	alpinsjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(db~20081207_3963610__3357--1
+6	Marius	Marius	PROPN	_	Gender=Masc	3	obj	_	name=B-PER
+7	Arnesen	Arnesen	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PER|Entity=db~20081207_3963610__3357)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019563
+# text = - Det er helt rått det han gjør, men jeg er ikke overrasket.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081207_3963610__T114[1/2]--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	rått	rå	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	appos	_	name=O|Entity=(db~20081207_3963610__T114[2/2]--1(db~20081207_3963610__T115--1
+7	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(db~20081207_3963610__181674--1)
+8	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T114[2/2])db~20081207_3963610__T115)
+9	,	$,	PUNCT	_	_	14	punct	_	name=O
+10	men	men	CCONJ	_	_	14	cc	_	name=O
+11	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	name=O|Entity=(db~20081207_3963610__3357--1)
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+13	ikke	ikke	PART	_	Polarity=Neg	14	advmod	_	name=O
+14	overrasket	overraske	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	5	conj	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 019564
+# text = Det er kanskje ikke så mange som husker det, men Kjetil hadde beste tid i andreomgangen i sesongåpningen i Sølden også.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	kanskje	kanskje	ADV	_	_	6	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+5	så	så	ADV	_	_	6	advmod	_	name=O
+6	mange	mange	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+7	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+8	husker	huske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:cleft	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__T118--1)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	men	men	CCONJ	_	_	13	cc	_	name=O
+12	Kjetil	Kjetil	PROPN	_	Gender=Masc	13	nsubj	_	name=B-PER|Entity=(db~20081207_3963610__181674--1)
+13	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	name=O
+14	beste	god	ADJ	_	Definite=Def|Degree=Sup	15	amod	_	name=O|Entity=(db~20081207_3963610__T120--1
+15	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	name=O|Entity=db~20081207_3963610__T120)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	andreomgangen	andreomgang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(db~20081207_3963610__T121--1
+18	i	i	ADP	_	_	19	case	_	name=O
+19	sesongåpningen	sesongåpning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(db~20081207_3963610__T122--1
+20	i	i	ADP	_	_	21	case	_	name=O
+21	Sølden	Sølden	PROPN	_	_	19	nmod	_	name=B-GPE_LOC|Entity=(db~20081207_3963610__T123--1)db~20081207_3963610__T122)
+22	også	også	ADV	_	_	17	advmod	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T121)
+23	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 019565
+# text = Etter det har han kjørt vanvittig godt på trening, sier Arnesen.
+1	Etter	etter	ADP	_	_	2	case	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obl	_	name=O|Entity=(db~20081207_3963610__T124--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081207_3963610__181674--1)
+5	kjørt	kjøre	VERB	_	VerbForm=Part	0	root	_	name=O
+6	vanvittig	vanvittig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	trening	trening	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3963610__T126--1)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+12	Arnesen	Arnesen	PROPN	_	_	11	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(db~20081207_3963610__3357--1)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 019566
+# text = - Det er bare å glede seg til neste lørdag, da er det storslalåm igjen.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	bare	bare	ADV	_	_	6	advmod	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	glede	glede	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	name=O
+8	til	til	ADP	_	_	10	case	_	name=O
+9	neste	neste	DET	_	Definite=Def|PronType=Dem	10	det	_	name=O|Entity=(db~20081207_3963610__T128--1
+10	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=db~20081207_3963610__T128)
+11	,	$,	PUNCT	_	_	15	punct	_	name=O
+12	da	da	ADV	_	_	15	advmod	_	name=O
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	name=O
+15	storslalåm	storslalåm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=O|Entity=(db~20081207_3963610__T129--1)
+16	igjen	igjen	ADV	_	_	15	advmod	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	6	punct	_	name=O
+

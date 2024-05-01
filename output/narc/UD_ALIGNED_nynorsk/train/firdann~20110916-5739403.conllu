@@ -1,0 +1,346 @@
+# newdoc id = firdann~20110916-5739403
+# global.Entity = eid-etype-head-other
+# sent_id = 007703
+# text = Eksotisk nok for Princeton
+1	Eksotisk	eksotisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+2	nok	nok	ADV	_	_	1	advmod	_	name=O
+3	for	for	ADP	_	_	4	case	_	name=O
+4	Princeton	Princeton	PROPN	_	_	1	obl	_	name=B-ORG|Entity=(firdann~20110916_5739403__3167--1)
+
+# newpar
+# sent_id = 007704
+# text = Torsdagsdansen i Fjaler vert hovudoppgåve på amerikansk prestisjeuniversitet.
+1	Torsdagsdansen	Torsdagsdansen	PROPN	_	_	4	nsubj	_	name=B-EVT|Entity=(firdann~20110916_5739403__6207--1
+2	i	i	ADP	_	_	3	case	_	name=I-EVT
+3	Fjaler	Fjaler	PROPN	_	_	1	nmod	_	name=I-EVT|Entity=(firdann~20110916_5739403__4119--1)firdann~20110916_5739403__6207)
+4	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	hovudoppgåve	hovudoppgåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	xcomp	_	name=O|Entity=(firdann~20110916_5739403__T4--1
+6	på	på	ADP	_	_	8	case	_	name=O
+7	amerikansk	amerikansk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O|Entity=(firdann~20110916_5739403__237--1
+8	prestisjeuniversitet	prestisjeuniversitet	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739403__237)firdann~20110916_5739403__T4)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 007705
+# text = Sabrina Szeto frå Singapore vart hekta på gammaldans etter den første Torsdagsdansen ho var på.
+1	Sabrina	Sabrina	PROPN	_	_	6	nsubj:pass	_	name=B-PER|Entity=(firdann~20110916_5739403__191097--1
+2	Szeto	Szeto	PROPN	_	_	1	flat:name	_	name=I-PER
+3	frå	frå	ADP	_	_	4	case	_	name=O
+4	Singapore	Singapore	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110916_5739403__386--1)firdann~20110916_5739403__191097)
+5	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	name=O
+6	hekta	hekte	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	gammaldans	gammaldans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(firdann~20110916_5739403__T8--1)
+9	etter	etter	ADP	_	_	12	case	_	name=O
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(firdann~20110916_5739403__265--1
+11	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	Torsdagsdansen	Torsdagsdansen	PROPN	_	_	6	obl	_	name=B-EVT|Entity=(firdann~20110916_5739403__6207--1)
+13	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(firdann~20110916_5739403__191097--1)
+14	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	name=O
+15	på	på	ADP	_	_	12	acl:relcl	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739403__265)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007706
+# text = No er ho tilbake i Fjaler for å skrive hovudoppgåve om Torsdagsdansen.
+1	No	no	ADV	_	_	6	advmod	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(firdann~20110916_5739403__191097--1)
+4	tilbake	tilbake	ADP	_	_	6	case	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Fjaler	Fjaler	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=(firdann~20110916_5739403__4119--1)
+7	for	for	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	skrive	skrive	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+10	hovudoppgåve	hovudoppgåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	name=O|Entity=(firdann~20110916_5739403__294--1
+11	om	om	ADP	_	_	12	case	_	name=O
+12	Torsdagsdansen	Torsdagsdansen	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-EVT|Entity=(firdann~20110916_5739403__6207--1)firdann~20110916_5739403__294)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007707
+# text = På biletet dansar ho saman med Kristian Risting.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	biletet	bilete	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(firdann~20110916_5739403__T15--1)
+3	dansar	danse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110916_5739403__191097--1)
+5	saman	saman	ADV	_	_	7	advmod	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	Kristian	Kristian	NOUN	_	Gender=Masc	3	obl	_	name=B-PER|Entity=(firdann~20110916_5739403__T17--1
+8	Risting	Risting	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20110916_5739403__T17)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007708
+# text = Torsdagsdansen i Fjaler er eit populært tilbod for danseglade dalsfjordingar.
+1	Torsdagsdansen	Torsdagsdansen	PROPN	_	_	7	nsubj	_	name=B-EVT|Entity=(firdann~20110916_5739403__6207--1
+2	i	i	ADP	_	_	3	case	_	name=I-EVT
+3	Fjaler	Fjaler	PROPN	_	_	1	nmod	_	name=I-EVT|Entity=(firdann~20110916_5739403__4119--1)firdann~20110916_5739403__6207)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+5	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20110916_5739403__T20--1
+6	populært	populær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	tilbod	tilbod	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+8	for	for	ADP	_	_	10	case	_	name=O
+9	danseglade	danseglad	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(firdann~20110916_5739403__T21--1
+10	dalsfjordingar	dalsfjording	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739403__T21)firdann~20110916_5739403__T20)
+11	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 007709
+# text = I snart 30 år har danseglade dalsfjordingar samla seg til dans på ungdomshusa rundt om i kommunen utan å gjere noko stort nummer ut av det.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	snart	snar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O|Entity=(firdann~20110916_5739403__T22--1
+3	30	30	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	name=O|Entity=firdann~20110916_5739403__T22)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+6	danseglade	danseglad	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(firdann~20110916_5739403__260--1
+7	dalsfjordingar	dalsfjording	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=firdann~20110916_5739403__260)
+8	samla	samle	VERB	_	VerbForm=Part	0	root	_	name=O
+9	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	8	obj	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	dans	dans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(firdann~20110916_5739403__T24--1)
+12	på	på	ADP	_	_	13	case	_	name=O
+13	ungdomshusa	ungdomshus	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	obl	_	name=O|Entity=(firdann~20110916_5739403__T25--1
+14	rundt	rundt	ADP	_	_	17	case	_	name=O
+15	om	om	ADP	_	_	17	case	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	kommunen	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(firdann~20110916_5739403__T26--1)firdann~20110916_5739403__T25)
+18	utan	utan	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	gjere	gjere	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+21	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	23	det	_	name=O|Entity=(firdann~20110916_5739403__T27--1
+22	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	name=O
+23	nummer	nummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obj	_	name=O|Entity=firdann~20110916_5739403__T27)
+24	ut	ut	ADP	_	_	26	case	_	name=O
+25	av	av	ADP	_	_	26	case	_	name=O
+26	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739403__T28--1)
+27	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 007710
+# text = No skal Torsdagsdansen i Dalsfjorden verte hovudoppgåve på det prestisjefylte Princeton University i USA, og det ei ung kvinne frå Singapore som skal studere dei danseglade fjalerbuene, skriv Firda i ein reportasje på laurdag.
+1	No	no	ADV	_	_	6	advmod	_	name=O
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	Torsdagsdansen	Torsdagsdansen	PROPN	_	_	6	nsubj	_	name=B-EVT|Entity=(firdann~20110916_5739403__6207--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Dalsfjorden	Dalsfjorden	PROPN	_	_	3	nmod	_	name=B-LOC|Entity=(firdann~20110916_5739403__T30--1)firdann~20110916_5739403__6207)
+6	verte	verte	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	hovudoppgåve	hovudoppgåve	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	xcomp	_	name=O|Entity=(firdann~20110916_5739403__T31--1
+8	på	på	ADP	_	_	11	case	_	name=O
+9	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(firdann~20110916_5739403__237--1
+10	prestisjefylte	prestisjefylle	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	11	amod	_	name=O
+11	Princeton	Princeton	PROPN	_	_	7	nmod	_	name=B-ORG
+12	University	University	PROPN	_	_	11	flat:name	_	name=I-ORG
+13	i	i	ADP	_	_	14	case	_	name=O
+14	USA	USA	NOUN	_	Abbr=Yes	11	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110916_5739403__T33--1)firdann~20110916_5739403__237)firdann~20110916_5739403__T31)
+15	,	$,	PUNCT	_	_	17	punct	_	name=O
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	reparandum	_	name=O|Entity=(firdann~20110916_5739403__T34--1)
+18	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(firdann~20110916_5739403__T35--1
+19	ung	ung	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	name=O
+20	kvinne	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	reparandum	_	name=O
+21	frå	frå	ADP	_	_	22	case	_	name=O
+22	Singapore	Singapore	PROPN	_	_	20	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110916_5739403__386--1)
+23	som	som	PRON	_	PronType=Rel	25	nsubj	_	name=O
+24	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	studere	studere	VERB	_	VerbForm=Inf	20	acl:relcl	_	name=O
+26	dei	dei	DET	_	Number=Plur|PronType=Dem	28	det	_	name=O|Entity=(firdann~20110916_5739403__260--1
+27	danseglade	danseglad	ADJ	_	Degree=Pos|Number=Plur	28	amod	_	name=O
+28	fjalerbuene	fjalerbu	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739403__260)firdann~20110916_5739403__T35)
+29	,	$,	PUNCT	_	_	30	punct	_	name=O
+30	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+31	Firda	Firda	PROPN	_	_	30	nsubj	_	name=B-ORG|Entity=(firdann~20110916_5739403__2101--1)
+32	i	i	ADP	_	_	34	case	_	name=O
+33	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	34	det	_	name=O|Entity=(firdann~20110916_5739403__T39--1
+34	reportasje	reportasje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	obl	_	name=O|Entity=firdann~20110916_5739403__T39)
+35	på	på	ADP	_	_	36	case	_	name=O
+36	laurdag	laurdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739403__T40--1)
+37	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007711
+# text = Hekta etter første dans
+1	Hekta	hekte	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+2	etter	etter	ADP	_	_	4	case	_	name=O
+3	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(firdann~20110916_5739403__T41--1
+4	dans	dans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=firdann~20110916_5739403__T41)
+
+# sent_id = 007712
+# text = Sabrina Szeto kom frå Singapore til United World College i Flekke som 17-åring i 2006.
+1	Sabrina	Sabrina	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(firdann~20110916_5739403__191097--1
+2	Szeto	Szeto	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20110916_5739403__191097)
+3	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	frå	frå	ADP	_	_	5	case	_	name=O
+5	Singapore	Singapore	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(firdann~20110916_5739403__386--1)
+6	til	til	ADP	_	_	7	case	_	name=O
+7	United	United	PROPN	_	_	5	obl	_	name=B-ORG|Entity=(firdann~20110916_5739403__2112--1
+8	World	World	PROPN	_	_	7	flat:name	_	name=I-ORG
+9	College	College	PROPN	_	_	7	flat:name	_	name=I-ORG
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Flekke	Flekke	PROPN	_	_	7	nmod	_	name=B-LOC|Entity=(firdann~20110916_5739403__2115--1)firdann~20110916_5739403__2112)
+12	som	som	SCONJ	_	_	13	mark	_	name=O
+13	17-åring	17-åring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	acl	_	name=O|Entity=(firdann~20110916_5739403__T46--1)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	2006	2006	NUM	_	Number=Plur|NumType=Card	3	obl	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007713
+# text = Ein dag tok læraren hennar med seg Sabrina på Torsdagsdansen for å lære norsk folkedans og gammaldans, og den unge jenta vart hekta etter den første dansen.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(firdann~20110916_5739403__T47--1
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=firdann~20110916_5739403__T47)
+3	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	læraren	lærar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20110916_5739403__2108--1
+5	hennar	hennar	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(firdann~20110916_5739403__191097--1)firdann~20110916_5739403__2108)
+6	med	med	ADP	_	_	7	case	_	name=O
+7	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	obl	_	name=O|Entity=(firdann~20110916_5739403__2108--1)
+8	Sabrina	Sabrina	PROPN	_	_	3	obj	_	name=B-PER|Entity=(firdann~20110916_5739403__191097--1)
+9	på	på	ADP	_	_	10	case	_	name=O
+10	Torsdagsdansen	Torsdagsdansen	PROPN	_	_	3	obl	_	name=B-EVT|Entity=(firdann~20110916_5739403__6207--1)
+11	for	for	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	lære	lære	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+14	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(firdann~20110916_5739403__T52--1(firdann~20110916_5739403__T53--1
+15	folkedans	folkedans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=firdann~20110916_5739403__T53)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	gammaldans	gammaldans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739403__T54--1)firdann~20110916_5739403__T52)
+18	,	$,	PUNCT	_	_	24	punct	_	name=O
+19	og	og	CCONJ	_	_	24	cc	_	name=O
+20	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(firdann~20110916_5739403__191097--1
+21	unge	ung	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	jenta	jente	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	24	nsubj:pass	_	name=O|Entity=firdann~20110916_5739403__191097)
+23	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux:pass	_	name=O
+24	hekta	hekte	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	3	conj	_	name=O
+25	etter	etter	ADP	_	_	28	case	_	name=O
+26	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	name=O|Entity=(firdann~20110916_5739403__265--1
+27	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	28	amod	_	name=O
+28	dansen	dans	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739403__265)
+29	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007714
+# text = - Dansane er så vakre og elegante, og her er så positiv atmosfære.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Dansane	dans	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Bridge=firdann~20110916_5739403__6207<firdann~20110916_5739403__T57:default|Entity=(firdann~20110916_5739403__T57--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	så	så	ADV	_	_	5	advmod	_	name=O
+5	vakre	vakker	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	elegante	elegant	ADJ	_	Degree=Pos|Number=Plur	5	conj	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	her	her	ADV	_	_	5	conj	_	name=O
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+12	så	så	ADV	_	_	13	advmod	_	name=O|Entity=(firdann~20110916_5739403__T58--1
+13	positiv	positiv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	atmosfære	atmosfære	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739403__T58)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007715
+# text = Masse latter og energi, seier Sabrina til Firda.
+1	Masse	masse	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(firdann~20110916_5739403__T59--1
+2	latter	latter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	energi	energi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739403__T61--1)
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+7	Sabrina	Sabrina	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(firdann~20110916_5739403__191097--1)
+8	til	til	ADP	_	_	9	case	_	name=O
+9	Firda	Firda	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110916_5739403__2101--1)firdann~20110916_5739403__T59)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007716
+# text = Gode tilbakemeldingar
+1	Gode	god	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(firdann~20110916_5739403__T64--1
+2	tilbakemeldingar	tilbakemelding	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	name=O|Entity=firdann~20110916_5739403__T64)
+
+# sent_id = 007717
+# text = Året etter ho avslutta skulegangen på UWC, kom ho tilbake til Flekke ei veke og fekk med seg to Torsdagsdansar.
+1	Året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(firdann~20110916_5739403__T65--1
+2	etter	etter	SCONJ	_	_	4	mark	_	name=O
+3	ho	ho	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20110916_5739403__191097--1)
+4	avslutta	avslutte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl	_	name=O
+5	skulegangen	skulegang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(firdann~20110916_5739403__T67--1
+6	på	på	ADP	_	_	7	case	_	name=O
+7	UWC	UWC	PROPN	_	_	5	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110916_5739403__2112--1)firdann~20110916_5739403__T67)
+8	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=firdann~20110916_5739403__T65)
+9	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+10	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(firdann~20110916_5739403__191097--1)
+11	tilbake	tilbake	ADP	_	_	13	case	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	Flekke	Flekke	PROPN	_	_	9	obl	_	name=B-LOC|Entity=(firdann~20110916_5739403__2115--1)
+14	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(firdann~20110916_5739403__T71--1
+15	veke	veke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	name=O|Entity=firdann~20110916_5739403__T71)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	name=O
+18	med	med	ADP	_	_	19	case	_	name=O
+19	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	17	obl	_	name=O
+20	to	to	NUM	_	Number=Plur|NumType=Card	21	nummod	_	name=O|Entity=(firdann~20110916_5739403__T72--1
+21	Torsdagsdansar	Torsdagsdansar	PROPN	_	_	17	obj	_	SpaceAfter=No|name=B-EVT|Entity=firdann~20110916_5739403__T72)
+22	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 007718
+# text = Sabrina kjøpte seg også hardingfele, og før ho begynte å studere antropologi ved Princeton, forsikra ho seg om at det var mogleg å danse gammaldans der.
+1	Sabrina	Sabrina	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(firdann~20110916_5739403__191097--1)
+2	kjøpte	kjøpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	2	iobj	_	name=O
+4	også	også	ADV	_	_	2	advmod	_	name=O
+5	hardingfele	hardingfele	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739403__T74--1)
+6	,	$,	PUNCT	_	_	17	punct	_	name=O
+7	og	og	CCONJ	_	_	17	cc	_	name=O
+8	før	før	SCONJ	_	_	10	mark	_	name=O
+9	ho	ho	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(firdann~20110916_5739403__191097--1)
+10	begynte	begynne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	studere	studere	VERB	_	VerbForm=Inf	10	xcomp	_	name=O
+13	antropologi	antropologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=(firdann~20110916_5739403__T76--1)
+14	ved	ved	ADP	_	_	15	case	_	name=O
+15	Princeton	Princeton	PROPN	_	_	12	obl	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110916_5739403__3167--1)
+16	,	$,	PUNCT	_	_	10	punct	_	name=O
+17	forsikra	forsikre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+18	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(firdann~20110916_5739403__191097--1)
+19	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	17	obj	_	name=O|Entity=(firdann~20110916_5739403__191097--1)
+20	om	om	SCONJ	_	_	24	mark	_	name=O
+21	at	at	SCONJ	_	_	24	mark	_	name=O
+22	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	name=O
+23	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	cop	_	name=O
+24	mogleg	mogleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advcl	_	name=O
+25	å	å	PART	_	_	26	mark	_	name=O
+26	danse	danse	VERB	_	VerbForm=Inf	24	csubj	_	name=O
+27	gammaldans	gammaldans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obj	_	name=O|Entity=(firdann~20110916_5739403__T79--1)
+28	der	der	ADV	_	_	26	advmod	_	SpaceAfter=No|name=O
+29	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007719
+# text = No skal Sabrina skrive oppgåva til bachelor-graden sin om folkemusikk i Fjaler, og ho har fått gode tilbakemeldingar frå lærarane på Princeton.
+1	No	no	ADV	_	_	4	advmod	_	name=O
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	Sabrina	Sabrina	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(firdann~20110916_5739403__191097--1)
+4	skrive	skrive	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	oppgåva	oppgåve	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=(firdann~20110916_5739403__294--1
+6	til	til	ADP	_	_	7	case	_	name=O
+7	bachelor-graden	bachelor-grad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(firdann~20110916_5739403__T82--1
+8	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(firdann~20110916_5739403__191097--1)firdann~20110916_5739403__T82)
+9	om	om	ADP	_	_	10	case	_	name=O
+10	folkemusikk	folkemusikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(firdann~20110916_5739403__T84--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Fjaler	Fjaler	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110916_5739403__4119--1)firdann~20110916_5739403__T84)firdann~20110916_5739403__294)
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	og	og	CCONJ	_	_	17	cc	_	name=O
+15	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(firdann~20110916_5739403__191097--1)
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	fått	få	VERB	_	VerbForm=Part	4	conj	_	name=O
+18	gode	god	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O|Entity=(firdann~20110916_5739403__T87--1
+19	tilbakemeldingar	tilbakemelding	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	name=O
+20	frå	frå	ADP	_	_	21	case	_	name=O
+21	lærarane	lærar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	name=O|Entity=(firdann~20110916_5739403__2178--1
+22	på	på	ADP	_	_	23	case	_	name=O
+23	Princeton	Princeton	PROPN	_	_	21	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110916_5739403__3167--1)firdann~20110916_5739403__2178)firdann~20110916_5739403__T87)
+24	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007720
+# text = - Dei likte ideen veldig godt, seier Sabrina.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110916_5739403__2178--1)
+3	likte	like	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	ideen	idé	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Bridge=firdann~20110916_5739403__294<firdann~20110916_5739403__T91:default|Entity=(firdann~20110916_5739403__T91--1)
+5	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+9	Sabrina	Sabrina	PROPN	_	_	8	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20110916_5739403__191097--1)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+

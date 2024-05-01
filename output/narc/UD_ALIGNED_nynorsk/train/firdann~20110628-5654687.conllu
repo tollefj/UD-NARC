@@ -1,0 +1,688 @@
+# newdoc id = firdann~20110628-5654687
+# global.Entity = eid-etype-head-other
+# sent_id = 005806
+# text = Hardt ut mot lukka LO-arrangement
+1	Hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+2	ut	ut	ADP	_	_	5	case	_	name=O
+3	mot	mot	ADP	_	_	5	case	_	name=O
+4	lukka	lukke	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	5	amod	_	name=O|Entity=(firdann~20110628_5654687__T1--1
+5	LO-arrangement	LO-arrangement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=B-DRV|Entity=firdann~20110628_5654687__T1)
+
+# newpar
+# sent_id = 005807
+# text = Førde (firda.no):
+1	Førde	Førde	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=(firdann~20110628_5654687__4236--1
+2	(	$(	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__277--1
+3	firda.no	firda.no	PROPN	_	_	1	parataxis	_	SpaceAfter=No|name=B-PROD
+4	)	$)	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__277)firdann~20110628_5654687__4236)
+5	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 005808
+# text = Fagforbundet skal arrangere lukka valkampopning for spesielt inviterte.
+1	Fagforbundet	Fagforbundet	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654687__161429--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	arrangere	arrangere	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	lukka	lukke	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	5	amod	_	name=O|Entity=(firdann~20110628_5654687__7401--1
+5	valkampopning	valkampopning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O
+6	for	for	ADP	_	_	8	case	_	name=O
+7	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O|Entity=(firdann~20110628_5654687__T6--1
+8	inviterte	invitere	ADJ	_	Number=Plur|VerbForm=Part	5	amod	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T6)firdann~20110628_5654687__7401)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005809
+# text = Ingen frå dei borgarlege partia står på gjestelista.
+1	Ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	6	nsubj	_	name=O|Entity=(firdann~20110628_5654687__T7--1
+2	frå	frå	ADP	_	_	5	case	_	name=O
+3	dei	dei	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(firdann~20110628_5654687__235--1
+4	borgarlege	borgarleg	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	partia	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	1	nmod	_	name=O|Entity=firdann~20110628_5654687__235)firdann~20110628_5654687__T7)
+6	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	gjestelista	gjesteliste	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Bridge=firdann~20110628_5654687__7401<firdann~20110628_5654687__T9:default|Entity=(firdann~20110628_5654687__T9--1)
+9	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 005810
+# text = Fylkesleiar i Framstegspartiet, Frank Willy Djuvik.
+1	Fylkesleiar	fylkesleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(firdann~20110628_5654687__7348--1(firdann~20110628_5654687__T10--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Framstegspartiet	Framstegspartiet	NOUN	_	Gender=Neut	1	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110628_5654687__5284--1)
+4	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=firdann~20110628_5654687__T10)
+5	Frank	Frank	NOUN	_	Gender=Masc	0	root	_	name=B-PER
+6	Willy	Willy	NOUN	_	Gender=Masc	5	flat:name	_	name=I-PER
+7	Djuvik	Djuvik	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20110628_5654687__7348)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 005811
+# text = Solveig Løken Norevik er leiar i Fagforbundet Sogn og Fjordane.
+1	Solveig	Solveig	NOUN	_	Gender=Fem	5	nsubj	_	name=B-PER|Entity=(firdann~20110628_5654687__8868--1
+2	Løken	Løken	PROPN	_	_	1	flat:name	_	name=I-PER
+3	Norevik	Norevik	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20110628_5654687__8868)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	leiar	leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20110628_5654687__T14--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Fagforbundet	Fagforbundet	PROPN	_	_	5	nmod	_	name=B-ORG|Entity=(firdann~20110628_5654687__2100--1
+8	Sogn	Sogn	PROPN	_	_	7	flat:name	_	name=I-ORG
+9	og	og	CCONJ	_	_	7	flat:name	_	name=I-ORG
+10	Fjordane	Fjordane	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110628_5654687__2100)firdann~20110628_5654687__T14)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 005812
+# text = Ove Håkonsen er Frp sin ordførarkandidat i Førde, og sjølv mangeårig fagforbundsmedlem.
+1	Ove	Ove	NOUN	_	Gender=Masc	6	nsubj	_	name=B-PER|Entity=(firdann~20110628_5654687__81135--1
+2	Håkonsen	Håkonsen	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20110628_5654687__81135)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	Frp	Frp	NOUN	_	Abbr=Yes	5	obl	_	name=B-ORG|Entity=(firdann~20110628_5654687__T19--1(firdann~20110628_5654687__T18--1(firdann~20110628_5654687__5284--1)
+5	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=firdann~20110628_5654687__T18)
+6	ordførarkandidat	ordførarkandidat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Førde	Førde	PROPN	_	_	6	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110628_5654687__4236--1)firdann~20110628_5654687__T19)
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	og	og	CCONJ	_	_	13	cc	_	name=O
+11	sjølv	sjølv	ADV	_	_	13	advmod	_	name=O|Entity=(firdann~20110628_5654687__T21--1
+12	mangeårig	mangeårig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	fagforbundsmedlem	fagforbundsmedlem	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T21)
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 005813
+# text = Fylkesleiar i Framstegspartiet, Frank Willy Djuvik, er i harnisk over at ingen frå opposisjonen får halde appell under Fagforbundet si valkampopning.
+1	Fylkesleiar	fylkesleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(firdann~20110628_5654687__7348--1(firdann~20110628_5654687__T22--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Framstegspartiet	Framstegspartiet	NOUN	_	Gender=Neut	1	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110628_5654687__5284--1)
+4	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=firdann~20110628_5654687__T22)
+5	Frank	Frank	NOUN	_	Gender=Masc	11	nsubj	_	name=B-PER
+6	Willy	Willy	NOUN	_	Gender=Masc	5	flat:name	_	name=I-PER
+7	Djuvik	Djuvik	PROPN	_	_	5	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20110628_5654687__7348)
+8	,	$,	PUNCT	_	_	5	punct	_	name=O
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	harnisk	harnisk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20110628_5654687__T25--1
+12	over	over	SCONJ	_	_	18	mark	_	name=O
+13	at	at	SCONJ	_	_	18	mark	_	name=O
+14	ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	18	nsubj	_	name=O|Entity=(firdann~20110628_5654687__T26--1
+15	frå	frå	ADP	_	_	16	case	_	name=O
+16	opposisjonen	opposisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(firdann~20110628_5654687__235--1)firdann~20110628_5654687__T26)
+17	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+18	halde	halde	VERB	_	VerbForm=Inf	11	acl	_	name=O
+19	appell	appell	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	name=O|Entity=(firdann~20110628_5654687__T28--1)
+20	under	under	ADP	_	_	23	case	_	name=O
+21	Fagforbundet	Fagforbundet	PROPN	_	_	22	obl	_	name=B-ORG|Entity=(firdann~20110628_5654687__7401--1(firdann~20110628_5654687__T30--1(firdann~20110628_5654687__161429--1)
+22	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	nmod	_	name=O|Entity=firdann~20110628_5654687__T30)
+23	valkampopning	valkampopning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__7401)firdann~20110628_5654687__T25)
+24	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 005814
+# text = Kritikkverdig
+1	Kritikkverdig	kritikkverdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+
+# sent_id = 005815
+# text = Den 4. august kjem Fagforbundet sin landsomfattande valkampturnè til Sogn og Fjordane.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20110628_5654687__T32--1
+2	4.	4.	ADJ	_	Number=Plur	3	amod	_	name=O
+3	august	august	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=firdann~20110628_5654687__T32)
+4	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	Fagforbundet	Fagforbundet	PROPN	_	_	6	obl	_	name=B-ORG|Entity=(firdann~20110628_5654687__T35--1(firdann~20110628_5654687__T34--1(firdann~20110628_5654687__161429--1)
+6	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=firdann~20110628_5654687__T34)
+7	landsomfattande	landsomfattande	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	valkampturnè	valkampturné	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=firdann~20110628_5654687__T35)
+9	til	til	ADP	_	_	10	case	_	name=O
+10	Sogn	Sogn	PROPN	_	_	4	obl	_	name=B-GPE_LOC|Entity=(firdann~20110628_5654687__2134--1
+11	og	og	CCONJ	_	_	10	flat:name	_	name=I-GPE_LOC
+12	Fjordane	Fjordane	PROPN	_	_	10	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=firdann~20110628_5654687__2134)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005816
+# text = Arrangementet skal føregå i kinosalen i Førdehuset, og på programmet står appellar utelukkande frå dei raudgrøne fylkespolitikarane, så vel som konsert med Åge Aleksandersen & Sambandet.
+1	Arrangementet	arrangement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20110628_5654687__7401--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	føregå	føregå	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	kinosalen	kinosal	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(firdann~20110628_5654687__T38--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Førdehuset	Førdehuset	PROPN	_	_	5	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110628_5654687__T39--1)firdann~20110628_5654687__T38)
+8	,	$,	PUNCT	_	_	12	punct	_	name=O
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	programmet	program	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	obl	_	name=O|Entity=(firdann~20110628_5654687__T40--1)
+12	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+13	appellar	appell	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nsubj	_	name=O|Entity=(firdann~20110628_5654687__T41--1
+14	utelukkande	utelukke	ADJ	_	VerbForm=Part	18	advmod	_	name=O
+15	frå	frå	ADP	_	_	18	case	_	name=O
+16	dei	dei	DET	_	Number=Plur|PronType=Dem	18	det	_	name=O|Entity=(firdann~20110628_5654687__T42--1
+17	raudgrøne	raudgrøn	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O
+18	fylkespolitikarane	fylkespolitikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T42)firdann~20110628_5654687__T41)
+19	,	$,	PUNCT	_	_	21	punct	_	name=O
+20	så	så	ADV	_	_	21	advmod	_	name=O
+21	vel	vel	ADV	_	_	12	advmod	_	name=O
+22	som	som	ADP	_	_	23	case	_	name=O
+23	konsert	konsert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	name=O|Entity=(firdann~20110628_5654687__T43--1
+24	med	med	ADP	_	_	25	case	_	name=O
+25	Åge	Åge	NOUN	_	Gender=Masc	23	nmod	_	name=B-ORG|Entity=(firdann~20110628_5654687__T44--1
+26	Aleksandersen	Aleksandersen	PROPN	_	_	25	flat:name	_	name=I-ORG
+27	&	&	CCONJ	_	_	25	flat:name	_	name=I-ORG
+28	Sambandet	Sambandet	PROPN	_	_	25	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110628_5654687__T44)firdann~20110628_5654687__T43)
+29	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005817
+# text = - Det er uforståeleg kva Fagforbundet skal med ei valkampopning, når dei ikkje stiller til val, meiner Djuvik.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	uforståeleg	uforståeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	kva	kva	PRON	_	PronType=Int	7	obj	_	name=O
+6	Fagforbundet	Fagforbundet	PROPN	_	_	7	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654687__161429--1)
+7	skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	csubj	_	name=O
+8	med	med	ADP	_	_	10	case	_	name=O
+9	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(firdann~20110628_5654687__T46--1
+10	valkampopning	valkampopning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T46)
+11	,	$,	PUNCT	_	_	15	punct	_	name=O
+12	når	når	SCONJ	_	_	15	mark	_	name=O
+13	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(firdann~20110628_5654687__161429--1)
+14	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	name=O
+15	stiller	stille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+16	til	til	ADP	_	_	17	case	_	name=O
+17	val	val	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__T48--1)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+20	Djuvik	Djuvik	PROPN	_	_	19	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20110628_5654687__7348--1)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005818
+# text = - Det er kritikkverdig nok at fagrørsla overausar Arbeidarpartiet med millionar i valkampstøtte, men at dei i tillegg brukar millionar av kroner på å drive valkamp for enkeltparti i eit lokalval framstår for meg som utidig politisk korrupsjon, held han fram.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	kritikkverdig	kritikkverdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	nok	nok	ADV	_	_	4	advmod	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	fagrørsla	fagrørsle	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	name=O|Entity=(firdann~20110628_5654687__161429--1)
+8	overausar	overause	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	csubj	_	name=O
+9	Arbeidarpartiet	Arbeidarpartiet	PROPN	_	_	8	obj	_	name=B-ORG|Entity=(firdann~20110628_5654687__2175--1)
+10	med	med	ADP	_	_	11	case	_	name=O
+11	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	name=O|Entity=(firdann~20110628_5654687__T52--1
+12	i	i	ADP	_	_	13	case	_	name=O
+13	valkampstøtte	valkampstøtte	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__T53--1)firdann~20110628_5654687__T52)
+14	,	$,	PUNCT	_	_	33	punct	_	name=O
+15	men	men	CCONJ	_	_	33	cc	_	name=O
+16	at	at	SCONJ	_	_	20	mark	_	name=O
+17	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(firdann~20110628_5654687__161429--1)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	name=O|Entity=(firdann~20110628_5654687__T55--1)
+20	brukar	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	33	csubj	_	name=O
+21	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	obj	_	name=O|Entity=(firdann~20110628_5654687__T56--1
+22	av	av	ADP	_	_	23	case	_	name=O
+23	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	21	nmod	_	name=O|Entity=(firdann~20110628_5654687__T57--1)firdann~20110628_5654687__T56)
+24	på	på	SCONJ	_	_	26	mark	_	name=O
+25	å	å	PART	_	_	26	mark	_	name=O
+26	drive	drive	VERB	_	VerbForm=Inf	20	advcl	_	name=O
+27	valkamp	valkamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	obj	_	name=O|Entity=(firdann~20110628_5654687__T58--1
+28	for	for	ADP	_	_	29	case	_	name=O
+29	enkeltparti	enkeltparti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	27	nmod	_	name=O|Entity=(firdann~20110628_5654687__T59--1)firdann~20110628_5654687__T58)
+30	i	i	ADP	_	_	32	case	_	name=O
+31	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	32	det	_	name=O|Entity=(firdann~20110628_5654687__T60--1
+32	lokalval	lokalval	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	26	obl	_	name=O|Entity=firdann~20110628_5654687__T60)
+33	framstår	framstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+34	for	for	ADP	_	_	35	case	_	name=O
+35	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	33	obl	_	name=O|Entity=(firdann~20110628_5654687__7348--1)
+36	som	som	SCONJ	_	_	39	mark	_	name=O
+37	utidig	utidig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	39	amod	_	name=O|Entity=(firdann~20110628_5654687__T62--1
+38	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	39	amod	_	name=O
+39	korrupsjon	korrupsjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	xcomp	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T62)
+40	,	$,	PUNCT	_	_	33	punct	_	name=O
+41	held	halde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+42	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	name=O|Entity=(firdann~20110628_5654687__7348--1)
+43	fram	fram	ADP	_	_	41	compound:prt	_	SpaceAfter=No|name=O
+44	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005819
+# text = Djuvik meiner arrangementet i Førde, saman med dei 17 andre heilt like arrangementa som er planlagd rundt om i landet, synleggjer alt for sterke band mellom dei raudgrøne partia og fagrørsla.
+1	Djuvik	Djuvik	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(firdann~20110628_5654687__7348--1)
+2	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	arrangementet	arrangement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	nsubj	_	name=O|Entity=(firdann~20110628_5654687__7401--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Førde	Førde	PROPN	_	_	3	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110628_5654687__4236--1)
+6	,	$,	PUNCT	_	_	14	punct	_	name=O
+7	saman	saman	ADV	_	_	14	advmod	_	name=O
+8	med	med	ADP	_	_	14	case	_	name=O
+9	dei	dei	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(firdann~20110628_5654687__T67--1
+10	17	17	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O
+11	andre	annan	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O
+12	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+13	like	lik	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	arrangementa	arrangement	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nmod	_	name=O
+15	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+16	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	planlagd	planleggje	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	14	acl:relcl	_	name=O
+18	rundt	rundt	ADP	_	_	21	case	_	name=O
+19	om	om	ADP	_	_	21	case	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__2181--1)firdann~20110628_5654687__T67)firdann~20110628_5654687__7401)
+22	,	$,	PUNCT	_	_	14	punct	_	name=O
+23	synleggjer	synleggjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+24	alt	alt	ADV	_	_	25	advmod	_	name=O|Entity=(firdann~20110628_5654687__T69--1
+25	for	for	ADV	_	_	26	advmod	_	name=O
+26	sterke	sterk	ADJ	_	Degree=Pos|Number=Plur	27	amod	_	name=O
+27	band	band	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	obj	_	name=O
+28	mellom	mellom	ADP	_	_	31	case	_	name=O
+29	dei	dei	DET	_	Number=Plur|PronType=Dem	31	det	_	name=O|Entity=(firdann~20110628_5654687__T70--1(firdann~20110628_5654687__3309--1
+30	raudgrøne	raudgrøn	ADJ	_	Degree=Pos|Number=Plur	31	amod	_	name=O
+31	partia	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	27	nmod	_	name=O|Entity=firdann~20110628_5654687__3309)
+32	og	og	CCONJ	_	_	33	cc	_	name=O
+33	fagrørsla	fagrørsle	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__161429--1)firdann~20110628_5654687__T70)firdann~20110628_5654687__T69)
+34	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005820
+# text = I eit lesarinnlegg på firda.no tar han i dag eit kraftig oppgjer med Fagforbundet sine framgangsmåtar.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(firdann~20110628_5654687__T73--1
+3	lesarinnlegg	lesarinnlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	firda.no	firda.no	PROPN	_	_	3	nmod	_	name=B-PROD|Entity=(firdann~20110628_5654687__277--1)firdann~20110628_5654687__T73)
+6	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(firdann~20110628_5654687__7348--1)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(firdann~20110628_5654687__T76--1)
+10	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(firdann~20110628_5654687__T77--1
+11	kraftig	kraftig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	name=O
+12	oppgjer	oppgjer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O
+13	med	med	ADP	_	_	16	case	_	name=O
+14	Fagforbundet	Fagforbundet	PROPN	_	_	15	obl	_	name=B-ORG|Entity=(firdann~20110628_5654687__T80--1(firdann~20110628_5654687__T79--1(firdann~20110628_5654687__161429--1)
+15	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	16	nmod	_	name=O|Entity=firdann~20110628_5654687__T79)
+16	framgangsmåtar	framgangsmåte	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T80)firdann~20110628_5654687__T77)
+17	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 005821
+# text = LO:
+1	LO	LO	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110628_5654687__8860--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 005822
+# text = - Dette er eit lukka arrangement
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(firdann~20110628_5654687__7401--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(firdann~20110628_5654687__T83--1
+5	lukka	lukke	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	6	amod	_	name=O
+6	arrangement	arrangement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=firdann~20110628_5654687__T83)
+
+# sent_id = 005823
+# text = Fylkesleiar i Fagforbundet Sogn og Fjordane, Solveig Løvik Norevik, er tydeleg på at FrP og andre borgarlege parti ikkje er velkomne på arrangementet.
+1	Fylkesleiar	fylkesleiar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(firdann~20110628_5654687__8868--1(firdann~20110628_5654687__T84--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Fagforbundet	Fagforbundet	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(firdann~20110628_5654687__2100--1
+4	Sogn	Sogn	PROPN	_	_	3	flat:name	_	name=I-ORG
+5	og	og	CCONJ	_	_	3	flat:name	_	name=I-ORG
+6	Fjordane	Fjordane	PROPN	_	_	3	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110628_5654687__2100)
+7	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=firdann~20110628_5654687__T84)
+8	Solveig	Solveig	NOUN	_	Gender=Fem	13	nsubj	_	name=B-PER
+9	Løvik	Løvik	PROPN	_	_	8	flat:name	_	name=I-PER
+10	Norevik	Norevik	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20110628_5654687__8868)
+11	,	$,	PUNCT	_	_	8	punct	_	name=O
+12	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+13	tydeleg	tydeleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+14	på	på	SCONJ	_	_	23	mark	_	name=O
+15	at	at	SCONJ	_	_	23	mark	_	name=O
+16	FrP	FrP	NOUN	_	Abbr=Yes	23	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654687__T87--1(firdann~20110628_5654687__5284--1)
+17	og	og	CCONJ	_	_	20	cc	_	name=O
+18	andre	annan	DET	_	Number=Plur|PronType=Dem	20	det	_	name=O|Entity=(firdann~20110628_5654687__T89--1
+19	borgarlege	borgarleg	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O
+20	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	conj	_	name=O|Entity=firdann~20110628_5654687__T89)firdann~20110628_5654687__T87)
+21	ikkje	ikkje	PART	_	Polarity=Neg	23	advmod	_	name=O
+22	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	name=O
+23	velkomne	velkommen	ADJ	_	Degree=Pos|Number=Plur	13	advcl	_	name=O
+24	på	på	ADP	_	_	25	case	_	name=O
+25	arrangementet	arrangement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__7401--1)
+26	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 005824
+# text = - Dette er eit lukka arrangement i regi av LO nasjonalt, kor vi inviterer inntil 600 av våre medlemer i Sogn og Fjordane til eit aldri så lite Kick-Off før valkampen.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(firdann~20110628_5654687__7401--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(firdann~20110628_5654687__T92--1
+5	lukka	lukke	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	6	amod	_	name=O
+6	arrangement	arrangement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	regi	regi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20110628_5654687__T93--1
+9	av	av	ADP	_	_	10	case	_	name=O
+10	LO	LO	PROPN	_	_	8	nmod	_	name=B-ORG|Entity=(firdann~20110628_5654687__8860--1
+11	nasjonalt	nasjonal	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__8860)firdann~20110628_5654687__T93)
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	kor	kor	ADV	_	_	15	advmod	_	name=O
+14	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	name=O|Entity=(firdann~20110628_5654687__8860--1)
+15	inviterer	invitere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+16	inntil	inntil	ADP	_	_	17	case	_	name=O
+17	600	600	NUM	_	Number=Plur|NumType=Card	15	obj	_	name=O
+18	av	av	ADP	_	_	20	case	_	name=O
+19	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	20	nmod	_	name=O|Entity=(firdann~20110628_5654687__T97--1(firdann~20110628_5654687__8860--1)
+20	medlemer	medlem	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	nmod	_	name=O
+21	i	i	ADP	_	_	22	case	_	name=O
+22	Sogn	Sogn	PROPN	_	_	20	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110628_5654687__2134--1
+23	og	og	CCONJ	_	_	22	flat:name	_	name=I-GPE_LOC
+24	Fjordane	Fjordane	PROPN	_	_	22	flat:name	_	name=I-GPE_LOC|Entity=firdann~20110628_5654687__2134)firdann~20110628_5654687__T97)
+25	til	til	ADP	_	_	30	case	_	name=O
+26	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	30	det	_	name=O|Entity=(firdann~20110628_5654687__T99--1
+27	aldri	aldri	ADV	_	_	28	advmod	_	name=O
+28	så	så	ADV	_	_	29	advmod	_	name=O
+29	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	name=O
+30	Kick-Off	Kick-Off	PROPN	_	_	15	obl	_	name=O|Entity=firdann~20110628_5654687__T99)
+31	før	før	ADP	_	_	32	case	_	name=O
+32	valkampen	valkamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__T100--1)firdann~20110628_5654687__T92)
+33	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 005825
+# text = Fagforbundet har gjort dette i ei årrekkje, men det er første gang det vert lagt opp på denne måten, med eit storarrangement i kvart fylkeslag, seier Norevik.
+1	Fagforbundet	fagforbund	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654687__161429--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	gjort	gjere	VERB	_	VerbForm=Part	0	root	_	name=O
+4	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(firdann~20110628_5654687__T102--1)
+5	i	i	ADP	_	_	7	case	_	name=O
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20110628_5654687__T103--1
+7	årrekkje	årrekkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T103)
+8	,	$,	PUNCT	_	_	13	punct	_	name=O
+9	men	men	CCONJ	_	_	13	cc	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	name=O
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+12	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(firdann~20110628_5654687__T104--1
+13	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	name=O
+15	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux:pass	_	name=O
+16	lagt	leggje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	13	acl:cleft	_	name=O
+17	opp	opp	ADP	_	_	16	compound:prt	_	name=O
+18	på	på	ADP	_	_	20	case	_	name=O
+19	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(firdann~20110628_5654687__T105--1
+20	måten	måte	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T105)
+21	,	$,	PUNCT	_	_	24	punct	_	name=O
+22	med	med	ADP	_	_	24	case	_	name=O
+23	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(firdann~20110628_5654687__T106--1
+24	storarrangement	storarrangement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	name=O
+25	i	i	ADP	_	_	27	case	_	name=O
+26	kvart	kvar	DET	_	Gender=Neut|Number=Sing|PronType=Tot	27	det	_	name=O|Entity=(firdann~20110628_5654687__T107--1
+27	fylkeslag	fylkeslag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T107)firdann~20110628_5654687__T106)firdann~20110628_5654687__T104)
+28	,	$,	PUNCT	_	_	29	punct	_	name=O
+29	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+30	Norevik	Norevik	PROPN	_	_	29	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20110628_5654687__8868--1)
+31	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005826
+# text = - Men er det rett å berre invitere raudgrøne politikarar til å halde appellar?
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Men	men	CCONJ	_	_	5	cc	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	å	å	PART	_	_	8	mark	_	name=O
+7	berre	berre	ADV	_	_	8	advmod	_	name=O
+8	invitere	invitere	VERB	_	VerbForm=Inf	5	csubj	_	name=O
+9	raudgrøne	raudgrøn	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(firdann~20110628_5654687__T109--1
+10	politikarar	politikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	name=O|Entity=firdann~20110628_5654687__T109)
+11	til	til	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	halde	halde	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+14	appellar	appell	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__T110--1)
+15	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 005827
+# text = - Det er ei avgjersle som er fatta høgare oppe i LO-systemet, og vert gjort likt over heile landet, men vi har valt å invitere dei tre partia vi føler står for det same verdi- og grunnsynet som Fagforbundet, og i år er det Ap, Sp og SV, fortel fylkesleiaren vidare.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(firdann~20110628_5654687__T111--1
+5	avgjersle	avgjersle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O
+6	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	fatta	fatte	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	5	acl:cleft	_	name=O
+9	høgare	høg	ADJ	_	Degree=Cmp	12	advmod	_	name=O
+10	oppe	oppe	ADP	_	_	12	case	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	LO-systemet	LO-system	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=B-DRV|Entity=(firdann~20110628_5654687__T112--1)
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	og	og	CCONJ	_	_	16	cc	_	name=O
+15	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux:pass	_	name=O
+16	gjort	gjere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	8	conj	_	name=O
+17	likt	like	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	16	advmod	_	name=O
+18	over	over	ADP	_	_	20	case	_	name=O
+19	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(firdann~20110628_5654687__2181--1
+20	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__2181)firdann~20110628_5654687__T111)
+21	,	$,	PUNCT	_	_	25	punct	_	name=O
+22	men	men	CCONJ	_	_	25	cc	_	name=O
+23	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	25	nsubj	_	name=O|Entity=(firdann~20110628_5654687__8860--1)
+24	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	valt	velje	VERB	_	VerbForm=Part	5	conj	_	name=O
+26	å	å	PART	_	_	27	mark	_	name=O
+27	invitere	invitere	VERB	_	VerbForm=Inf	25	xcomp	_	name=O
+28	dei	dei	DET	_	Number=Plur|PronType=Dem	30	det	_	name=O|Entity=(firdann~20110628_5654687__3309--1
+29	tre	tre	NUM	_	Number=Plur|NumType=Card	30	nummod	_	name=O
+30	partia	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	27	obj	_	name=O
+31	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	name=O|Entity=(firdann~20110628_5654687__8860--1)
+32	føler	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	name=O
+33	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	xcomp	_	name=O
+34	for	for	ADP	_	_	37	case	_	name=O
+35	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	36	det	_	name=O|Entity=(firdann~20110628_5654687__T117--1(firdann~20110628_5654687__T118[1/2]--1
+36	same	same	DET	_	Definite=Def|PronType=Dem	37	det	_	name=O
+37	verdi-	verdi-	NOUN	_	_	33	obl	_	name=O|Entity=firdann~20110628_5654687__T118[1/2])
+38	og	og	CCONJ	_	_	39	cc	_	name=O
+39	grunnsynet	grunnsyn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	37	conj	_	name=O|Entity=(firdann~20110628_5654687__T119--1)
+40	som	som	ADP	_	_	41	case	_	name=O|Entity=(firdann~20110628_5654687__T118[2/2]--1
+41	Fagforbundet	Fagforbundet	PROPN	_	_	36	obl	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110628_5654687__161429--1)firdann~20110628_5654687__T118[2/2])firdann~20110628_5654687__T117)firdann~20110628_5654687__3309)
+42	,	$,	PUNCT	_	_	48	punct	_	name=O
+43	og	og	CCONJ	_	_	48	cc	_	name=O
+44	i	i	ADP	_	_	45	case	_	name=O
+45	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	48	obl	_	name=O|Entity=(firdann~20110628_5654687__T121--1)
+46	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	48	cop	_	name=O
+47	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	48	nsubj	_	name=O|Entity=(firdann~20110628_5654687__T122--1)
+48	Ap	Ap	NOUN	_	Abbr=Yes	25	conj	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110628_5654687__3309--1(firdann~20110628_5654687__2175--1)
+49	,	$,	PUNCT	_	_	50	punct	_	name=O
+50	Sp	Sp	NOUN	_	Abbr=Yes	48	conj	_	name=B-ORG|Entity=(firdann~20110628_5654687__T125--1)
+51	og	og	CCONJ	_	_	52	cc	_	name=O
+52	SV	SV	NOUN	_	Abbr=Yes	48	conj	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20110628_5654687__T126--1)firdann~20110628_5654687__3309)
+53	,	$,	PUNCT	_	_	48	punct	_	name=O
+54	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+55	fylkesleiaren	fylkesleiar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	54	nsubj	_	name=O|Entity=(firdann~20110628_5654687__8868--1)
+56	vidare	vid	ADJ	_	Degree=Cmp	54	advmod	_	SpaceAfter=No|name=O
+57	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 005828
+# text = - Du fryktar ikkje å støte frå deg LO-medlemmar som ikkje stemmer raudgrønt?
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110628_5654687__8868--1)
+3	fryktar	frykte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	støte	støte	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+7	frå	frå	ADP	_	_	8	case	_	name=O
+8	deg	du	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obl	_	name=O|Entity=(firdann~20110628_5654687__8868--1)
+9	LO-medlemmar	LO-medlem	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	name=B-DRV|Entity=(firdann~20110628_5654687__T130--1
+10	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	name=O
+12	stemmer	stemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+13	raudgrønt	raudgrøn	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T130)
+14	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005829
+# text = - Vi er klar over at mange av våre medlemmar stemmer borgarleg, men håpar sjølvsagt ikkje miste dei på bakgrunn av dette, seier Norevik.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20110628_5654687__8860--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+5	over	over	SCONJ	_	_	11	mark	_	name=O
+6	at	at	SCONJ	_	_	11	mark	_	name=O
+7	mange	mange	ADJ	_	Degree=Pos|Number=Plur	11	nsubj	_	name=O|Entity=(firdann~20110628_5654687__2267--1
+8	av	av	ADP	_	_	10	case	_	name=O
+9	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(firdann~20110628_5654687__T134--1(firdann~20110628_5654687__8860--1)
+10	medlemmar	medlem	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=firdann~20110628_5654687__T134)firdann~20110628_5654687__2267)
+11	stemmer	stemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+12	borgarleg	borgarleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	15	punct	_	name=O
+14	men	men	CCONJ	_	_	15	cc	_	name=O
+15	håpar	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+16	sjølvsagt	sjølvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+17	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	name=O
+18	miste	miste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	xcomp	_	name=O
+19	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(firdann~20110628_5654687__2267--1)
+20	på	på	ADP	_	_	21	case	_	name=O
+21	bakgrunn	bakgrunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	name=O|Entity=(firdann~20110628_5654687__T136--1
+22	av	av	ADP	_	_	23	case	_	name=O
+23	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__T137--1)firdann~20110628_5654687__T136)
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+26	Norevik	Norevik	PROPN	_	_	25	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20110628_5654687__8868--1)
+27	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005830
+# text = Fylkesleiaren legg til at det kan verte aktuelt med eit seinare, og ope, arrangement kor alle partia får høve til å halde appellar.
+1	Fylkesleiaren	fylkesleiar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20110628_5654687__8868--1)
+2	legg	leggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	til	til	SCONJ	_	_	7	mark	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	verte	verte	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+8	aktuelt	aktuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	xcomp	_	name=O
+9	med	med	ADP	_	_	16	case	_	name=O
+10	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(firdann~20110628_5654687__T140--1
+11	seinare	sein	ADJ	_	Degree=Cmp	16	amod	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	ope	open	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	14	punct	_	name=O
+16	arrangement	arrangement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nsubj	_	name=O
+17	kor	kor	ADV	_	_	20	advmod	_	name=O
+18	alle	all	DET	_	Number=Plur|PronType=Tot	19	det	_	name=O|Entity=(firdann~20110628_5654687__T141--1
+19	partia	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	20	nsubj	_	name=O|Entity=firdann~20110628_5654687__T141)
+20	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	name=O
+21	høve	høve	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obj	_	name=O|Entity=(firdann~20110628_5654687__T142--1
+22	til	til	SCONJ	_	_	24	mark	_	name=O
+23	å	å	PART	_	_	24	mark	_	name=O
+24	halde	halde	VERB	_	VerbForm=Inf	21	acl	_	name=O
+25	appellar	appell	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	24	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__T143--1)firdann~20110628_5654687__T142)firdann~20110628_5654687__T140)
+26	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005831
+# text = Ordførarkandidat skuffa
+1	Ordførarkandidat	ordførarkandidat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20110628_5654687__T144--1
+2	skuffa	skuffe	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	1	xcomp	_	name=O|Entity=firdann~20110628_5654687__T144)
+
+# sent_id = 005832
+# text = FrP sin ordførarkandidat i Førde, Ove Håkonsen, er frustert og fortvila over korleis Fagforbundet går fram.
+1	FrP	FrP	NOUN	_	Abbr=Yes	2	obl	_	name=B-ORG|Entity=(firdann~20110628_5654687__81135--1(firdann~20110628_5654687__T147--1(firdann~20110628_5654687__T146--1(firdann~20110628_5654687__5284--1)
+2	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	nmod	_	name=O|Entity=firdann~20110628_5654687__T146)
+3	ordførarkandidat	ordførarkandidat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Førde	Førde	PROPN	_	_	3	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110628_5654687__4236--1)
+6	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=firdann~20110628_5654687__T147)
+7	Ove	Ove	NOUN	_	Gender=Masc	11	nsubj	_	name=B-PER
+8	Håkonsen	Håkonsen	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20110628_5654687__81135)
+9	,	$,	PUNCT	_	_	7	punct	_	name=O
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+11	frustert	frusterte	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	fortvila	fortvila	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	conj	_	name=O
+14	over	over	SCONJ	_	_	17	mark	_	name=O
+15	korleis	korleis	ADV	_	_	17	advmod	_	name=O
+16	Fagforbundet	Fagforbundet	PROPN	_	_	17	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654687__161429--1)
+17	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	name=O
+18	fram	fram	ADP	_	_	17	compound:prt	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 005833
+# text = Han har sjølv vore medlem av LO-forbundet dei siste 25 åra, og kjenner seg motarbeidd.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(firdann~20110628_5654687__81135--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	sjølv	sjølv	ADV	_	_	5	advmod	_	name=O
+4	vore	vere	AUX	_	VerbForm=Part	5	cop	_	name=O
+5	medlem	medlem	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20110628_5654687__T152--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	LO-forbundet	LO-forbund	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=B-DRV|Entity=(firdann~20110628_5654687__161429--1)firdann~20110628_5654687__T152)
+8	dei	dei	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(firdann~20110628_5654687__T154--1
+9	siste	sist	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+10	25	25	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O
+11	åra	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T154)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+15	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	14	obj	_	name=O|Entity=(firdann~20110628_5654687__81135--1)
+16	motarbeidd	motarbeide	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	14	xcomp	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 005834
+# text = - Eg har kjempa for arbeidarar sine rettar i 25 år, og skjønner ikkje kvifor Fagforbundet ynskjer å motarbeide meg, seier Håkonsen og spør retorisk:
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20110628_5654687__81135--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	kjempa	kjempe	VERB	_	VerbForm=Part	0	root	_	name=O
+5	for	for	ADP	_	_	8	case	_	name=O
+6	arbeidarar	arbeidar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	name=O|Entity=(firdann~20110628_5654687__T158--1(firdann~20110628_5654687__T157--1(firdann~20110628_5654687__T156--1)
+7	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	name=O|Entity=firdann~20110628_5654687__T157)
+8	rettar	rett	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=firdann~20110628_5654687__T158)
+9	i	i	ADP	_	_	11	case	_	name=O
+10	25	25	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(firdann~20110628_5654687__T159--1
+11	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T159)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	skjønner	skjønne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+15	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	name=O
+16	kvifor	kvifor	ADV	_	_	18	advmod	_	name=O
+17	Fagforbundet	Fagforbundet	PROPN	_	_	18	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654687__161429--1)
+18	ynskjer	ynskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	ccomp	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	motarbeide	motarbeide	VERB	_	VerbForm=Inf	18	xcomp	_	name=O
+21	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	20	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__81135--1)
+22	,	$,	PUNCT	_	_	23	punct	_	name=O
+23	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+24	Håkonsen	Håkonsen	PROPN	_	_	23	nsubj	_	name=B-PER|Entity=(firdann~20110628_5654687__81135--1)
+25	og	og	CCONJ	_	_	26	cc	_	name=O
+26	spør	spørje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	conj	_	name=O
+27	retorisk	retorisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	advmod	_	SpaceAfter=No|name=O
+28	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005835
+# text = - Kor mange andre fagforbundsmedlemer er det som stiller som ordførarkandidatar?
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Kor	kor	ADV	_	_	3	advmod	_	name=O|Entity=(firdann~20110628_5654687__T163[1/2]--1
+3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+4	andre	annan	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O
+5	fagforbundsmedlemer	fagforbundsmedlem	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=firdann~20110628_5654687__T163[1/2])
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+8	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O|Entity=(firdann~20110628_5654687__T163[2/2]--1
+9	stiller	stille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:cleft	_	name=O
+10	som	som	SCONJ	_	_	11	mark	_	name=O
+11	ordførarkandidatar	ordførarkandidat	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	xcomp	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654687__T164--1)firdann~20110628_5654687__T163[2/2])
+12	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 005836
+# text = Håkonsen meiner Fagforbundet gjer feil når dei vel å bruke store delar av medlemmane sine innbetale kontingentar på å drive valkamp for parti som mange av medlemmane ikkje sympatiserer med.
+1	Håkonsen	Håkonsen	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(firdann~20110628_5654687__81135--1)
+2	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Fagforbundet	Fagforbundet	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654687__161429--1)
+4	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+5	feil	feil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+6	når	når	SCONJ	_	_	8	mark	_	name=O
+7	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(firdann~20110628_5654687__161429--1)
+8	vel	velje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	bruke	bruke	VERB	_	VerbForm=Inf	8	xcomp	_	name=O
+11	store	stor	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(firdann~20110628_5654687__T168--1
+12	delar	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obj	_	name=O
+13	av	av	ADP	_	_	17	case	_	name=O
+14	medlemmane	medlem	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	15	obl	_	name=O|Entity=(firdann~20110628_5654687__T171--1(firdann~20110628_5654687__2345--1(firdann~20110628_5654687__T169--1)
+15	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	17	nmod	_	name=O|Entity=firdann~20110628_5654687__2345)
+16	innbetale	innbetale	ADJ	_	Number=Plur|VerbForm=Part	17	amod	_	name=O
+17	kontingentar	kontingent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=firdann~20110628_5654687__T171)firdann~20110628_5654687__T168)
+18	på	på	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	drive	drive	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+21	valkamp	valkamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	name=O|Entity=(firdann~20110628_5654687__T172--1
+22	for	for	ADP	_	_	23	case	_	name=O
+23	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	21	nmod	_	name=O|Entity=(firdann~20110628_5654687__T173--1
+24	som	som	PRON	_	PronType=Rel	29	nmod	_	name=O
+25	mange	mange	ADJ	_	Degree=Pos|Number=Plur	29	nsubj	_	name=O|Entity=(firdann~20110628_5654687__T174--1
+26	av	av	ADP	_	_	27	case	_	name=O
+27	medlemmane	medlem	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	25	nmod	_	name=O|Entity=(firdann~20110628_5654687__2345--1)firdann~20110628_5654687__T174)
+28	ikkje	ikkje	PART	_	Polarity=Neg	29	advmod	_	name=O
+29	sympatiserer	sympatisere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	name=O
+30	med	med	ADP	_	_	29	compound:prt	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654687__T173)firdann~20110628_5654687__T172)
+31	.	$.	PUNCT	_	_	2	punct	_	name=O
+

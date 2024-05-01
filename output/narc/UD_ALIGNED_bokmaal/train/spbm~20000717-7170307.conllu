@@ -1,0 +1,318 @@
+# newdoc id = spbm~20000717-7170307
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 013351
+# text = E-stoffene skal bort fra bakverkene
+1	E-stoffene	E-stoff	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	name=O|Entity=(spbm~20000717_7170307__24--1)
+2	skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	bort	bort	ADP	_	_	5	case	_	name=O
+4	fra	fra	ADP	_	_	5	case	_	name=O
+5	bakverkene	bakverk	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	obl	_	name=O|Entity=(spbm~20000717_7170307__26--1)
+
+# sent_id = 013352
+# text = De såkalte E-stoffene blir gradvis fjernet fra bakervarene.
+1	De	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(spbm~20000717_7170307__24--1
+2	såkalte	såkalt	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	E-stoffene	E-stoff	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nsubj:pass	_	name=O|Entity=spbm~20000717_7170307__24)
+4	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	name=O
+5	gradvis	gradvis	ADV	_	_	6	advmod	_	name=O
+6	fjernet	fjerne	VERB	_	VerbForm=Part	0	root	_	name=O
+7	fra	fra	ADP	_	_	8	case	_	name=O
+8	bakervarene	bakervare	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__26--1)
+9	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 013353
+# text = Det foregår en kontinuerlig prosess med stadig mindre bruk av E-stoff, sier bakermester Reidar Kjersem i Ålesund.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	foregår	foregå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(spbm~20000717_7170307__T5--1
+4	kontinuerlig	kontinuerlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	prosess	prosess	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O
+6	med	med	ADP	_	_	9	case	_	name=O
+7	stadig	stadig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O|Entity=(spbm~20000717_7170307__T6--1
+8	mindre	liten	ADJ	_	Degree=Cmp	9	amod	_	name=O
+9	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	E-stoff	E-stoff	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__T7--1)spbm~20000717_7170307__T6)spbm~20000717_7170307__T5)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+14	bakermester	bakermester	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(spbm~20000717_7170307__268--1
+15	Reidar	Reidar	PROPN	_	Gender=Masc	13	nsubj	_	name=B-PER
+16	Kjersem	Kjersem	PROPN	_	_	15	flat:name	_	name=I-PER|Entity=spbm~20000717_7170307__268)
+17	i	i	ADP	_	_	18	case	_	name=O
+18	Ålesund	Ålesund	PROPN	_	_	13	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20000717_7170307__360--1)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013354
+# text = Før helga kjøpte Hildur Rødstøl et julebrød i ett av varehusene i byen.
+1	Før	før	ADP	_	_	2	case	_	name=O
+2	helga	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(spbm~20000717_7170307__T10--1)
+3	kjøpte	kjøpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Hildur	Hildur	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(spbm~20000717_7170307__6169--1
+5	Rødstøl	Rødstøl	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=spbm~20000717_7170307__6169)
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(spbm~20000717_7170307__4108--1
+7	julebrød	julebrød	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=spbm~20000717_7170307__4108)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	3	obl	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	varehusene	varehus	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	nmod	_	name=O|Entity=(spbm~20000717_7170307__T13--1
+12	i	i	ADP	_	_	13	case	_	name=O
+13	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__360--1)spbm~20000717_7170307__T13)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013355
+# text = Brødet har ikke ligget over fra jul; det er et bakverk som kommer i butikkene hver uke som noe godt til helga.
+1	Brødet	brød	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(spbm~20000717_7170307__4108--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	ligget	ligge	VERB	_	VerbForm=Part	0	root	_	name=O
+5	over	over	ADP	_	_	7	case	_	name=O
+6	fra	fra	ADP	_	_	7	case	_	name=O
+7	jul	jul	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__T16--1)
+8	;	$;	PUNCT	_	_	12	punct	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(spbm~20000717_7170307__T17--1)
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(spbm~20000717_7170307__T18--1
+12	bakverk	bakverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	conj	_	name=O
+13	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+14	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	butikkene	butikk	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	14	obl	_	name=O|Entity=(spbm~20000717_7170307__T19--1)
+17	hver	hver	DET	_	Gender=Fem|Number=Sing|PronType=Tot	18	det	_	name=O|Entity=(spbm~20000717_7170307__T20--1
+18	uke	uke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	14	obl	_	name=O|Entity=spbm~20000717_7170307__T20)
+19	som	som	ADP	_	_	21	case	_	name=O
+20	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	21	det	_	name=O|Entity=(spbm~20000717_7170307__T21--1
+21	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+22	til	til	ADP	_	_	23	case	_	name=O
+23	helga	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__T22--1)spbm~20000717_7170307__T21)spbm~20000717_7170307__T18)
+24	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013356
+# text = Hennes ærende er at innholdsdeklarasjonen opplyser at brødet inneholder ni E-stoffer.
+1	Hennes	hennes	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(spbm~20000717_7170307__T24--1(spbm~20000717_7170307__6169--1)
+2	ærende	ærend	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=spbm~20000717_7170307__T24)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	innholdsdeklarasjonen	innholdsdeklarasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(spbm~20000717_7170307__T25--1)
+6	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	brødet	brød	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(spbm~20000717_7170307__4108--1)
+9	inneholder	inneholde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	name=O
+10	ni	ni	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(spbm~20000717_7170307__T27--1
+11	E-stoffer	E-stoff	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170307__T27)
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 013357
+# text = Slik mat vil hun ikke spise.
+1	Slik	slik	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(spbm~20000717_7170307__T28--1
+2	mat	mat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=spbm~20000717_7170307__T28)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(spbm~20000717_7170307__6169--1)
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+6	spise	spise	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 013358
+# text = - Jeg kunne ønske det gikk an å få kjøpt julebrød uten E-stoffer både til jul og ellers i året, sier hun som representerer Naturvernforbundet i Ålesund.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(spbm~20000717_7170307__6169--1)
+3	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	ønske	ønske	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+6	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	xcomp	_	name=O
+7	an	an	ADV	_	_	6	advmod	_	name=O
+8	å	å	PART	_	_	10	mark	_	name=O
+9	få	få	AUX	_	VerbForm=Inf	10	aux	_	name=O
+10	kjøpt	kjøpe	VERB	_	VerbForm=Part	6	csubj	_	name=O
+11	julebrød	julebrød	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=(spbm~20000717_7170307__T31--1
+12	uten	uten	ADP	_	_	13	case	_	name=O
+13	E-stoffer	E-stoff	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	name=O|Entity=(spbm~20000717_7170307__10563--1)spbm~20000717_7170307__T31)
+14	både	både	CCONJ	_	_	16	cc	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	jul	jul	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	name=O|Entity=(spbm~20000717_7170307__T33--1)
+17	og	og	CCONJ	_	_	20	cc	_	name=O
+18	ellers	ellers	ADV	_	_	20	advmod	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__T34--1)
+21	,	$,	PUNCT	_	_	22	punct	_	name=O
+22	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+23	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(spbm~20000717_7170307__6169--1
+24	som	som	PRON	_	PronType=Rel	25	nsubj	_	name=O
+25	representerer	representere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	name=O
+26	Naturvernforbundet	Naturvernforbundet	PROPN	_	_	25	obj	_	name=B-ORG|Entity=(spbm~20000717_7170307__T36--1)
+27	i	i	ADP	_	_	28	case	_	name=O
+28	Ålesund	Ålesund	PROPN	_	_	25	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(spbm~20000717_7170307__360--1)spbm~20000717_7170307__6169)
+29	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013359
+# text = E-stoffene har forskjellige virkninger i deigen, og Hildur Rødstøl tror ikke at stoffene blir brukt for å forhøye kvaliten på varene.
+1	E-stoffene	E-stoff	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nsubj	_	name=O|Entity=(spbm~20000717_7170307__10563--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	forskjellige	forskjellig	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O|Entity=(spbm~20000717_7170307__T39--1
+4	virkninger	virkning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	obj	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	deigen	deig	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__T40--1)spbm~20000717_7170307__T39)
+7	,	$,	PUNCT	_	_	11	punct	_	name=O
+8	og	og	CCONJ	_	_	11	cc	_	name=O
+9	Hildur	Hildur	PROPN	_	_	11	nsubj	_	name=B-PER|Entity=(spbm~20000717_7170307__6169--1
+10	Rødstøl	Rødstøl	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=spbm~20000717_7170307__6169)
+11	tror	tro	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+12	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+13	at	at	SCONJ	_	_	16	mark	_	name=O
+14	stoffene	stoff	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	16	nsubj:pass	_	name=O|Entity=(spbm~20000717_7170307__10563--1)
+15	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux:pass	_	name=O
+16	brukt	bruke	VERB	_	VerbForm=Part	11	ccomp	_	name=O
+17	for	for	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	forhøye	forhøye	VERB	_	VerbForm=Inf	16	advcl	_	name=O
+20	kvaliten	kvalitet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obj	_	name=O|Entity=(spbm~20000717_7170307__T43--1)
+21	på	på	ADP	_	_	22	case	_	name=O
+22	varene	vare	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__T44--1)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013360
+# text = Snarere blir de brukt for å produsere billigere brød enn uten slik tilsetting.
+1	Snarere	snar	ADJ	_	Degree=Cmp	4	advmod	_	name=O
+2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	name=O
+3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj:pass	_	name=O|Entity=(spbm~20000717_7170307__10563--1)
+4	brukt	bruke	VERB	_	VerbForm=Part	0	root	_	name=O
+5	for	for	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	produsere	produsere	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+8	billigere	billig	ADJ	_	Degree=Cmp	9	amod	_	name=O|Entity=(spbm~20000717_7170307__T46--1
+9	brød	brød	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	name=O
+10	enn	enn	ADP	_	_	13	case	_	name=O
+11	uten	uten	ADP	_	_	13	case	_	name=O
+12	slik	slik	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(spbm~20000717_7170307__T47--1
+13	tilsetting	tilsetting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170307__T47)spbm~20000717_7170307__T46)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013361
+# text = Folk som er plaget av allergier, kan fort reagere både på farge og annet.
+1	Folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nsubj	_	name=O|Entity=(spbm~20000717_7170307__T48--1
+2	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	plaget	plage	VERB	_	VerbForm=Part	1	acl:relcl	_	name=O
+5	av	av	ADP	_	_	6	case	_	name=O
+6	allergier	allergi	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__T49--1)
+7	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=spbm~20000717_7170307__T48)
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	fort	fort	ADJ	_	Degree=Pos	10	advmod	_	name=O
+10	reagere	reagere	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	både	både	CCONJ	_	_	13	cc	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	farge	farge	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(spbm~20000717_7170307__T50--1(spbm~20000717_7170307__T51--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	13	conj	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170307__T50)
+16	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 013362
+# text = En brosjyre over næringsmiddeltilsettinger klassifiserer sju av stoffene i julebrødet som uskadelige, mens to av dem kan gi reaksjoner hos allergifølsomme personer.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(spbm~20000717_7170307__T52--1
+2	brosjyre	brosjyre	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O
+3	over	over	ADP	_	_	4	case	_	name=O
+4	næringsmiddeltilsettinger	næringsmiddeltilsetting	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	name=O|Entity=(spbm~20000717_7170307__T53--1)spbm~20000717_7170307__T52)
+5	klassifiserer	klassifisere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	sju	sju	NUM	_	Number=Plur|NumType=Card	5	obj	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	stoffene	stoff	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nmod	_	name=O|Entity=(spbm~20000717_7170307__2111--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	julebrødet	julebrød	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	name=O|Entity=(spbm~20000717_7170307__4108--1)spbm~20000717_7170307__2111)
+11	som	som	SCONJ	_	_	12	mark	_	name=O
+12	uskadelige	uskadelig	ADJ	_	Degree=Pos|Number=Plur	5	xcomp	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__T56--1)
+13	,	$,	PUNCT	_	_	19	punct	_	name=O
+14	mens	mens	SCONJ	_	_	19	mark	_	name=O
+15	to	to	NUM	_	Number=Plur|NumType=Card	19	nsubj	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	nmod	_	name=O|Entity=(spbm~20000717_7170307__2111--1)
+18	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	gi	gi	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+20	reaksjoner	reaksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	obj	_	name=O|Entity=(spbm~20000717_7170307__T58--1)
+21	hos	hos	ADP	_	_	23	case	_	name=O
+22	allergifølsomme	allergifølsom	ADJ	_	Degree=Pos|Number=Plur	23	amod	_	name=O|Entity=(spbm~20000717_7170307__T59--1
+23	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170307__T59)
+24	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013363
+# text = Bakermester Reidar Kjersem opplyser at E-stoffene er på veg ut.
+1	Bakermester	bakermester	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(spbm~20000717_7170307__268--1
+2	Reidar	Reidar	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER
+3	Kjersem	Kjersem	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=spbm~20000717_7170307__268)
+4	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	at	at	SCONJ	_	_	9	mark	_	name=O
+6	E-stoffene	E-stoff	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	nsubj	_	name=O|Entity=(spbm~20000717_7170307__10563--1)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	på	på	SCONJ	_	_	9	mark	_	name=O
+9	veg	veg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	ccomp	_	name=O|Entity=(spbm~20000717_7170307__T62--1
+10	ut	ut	ADP	_	_	9	nmod	_	SpaceAfter=No|name=O|Entity=spbm~20000717_7170307__T62)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013364
+# text = Dette skjer selv om de ikke er farlige.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(spbm~20000717_7170307__T63--1)
+2	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	selv	selv	ADV	_	_	4	advmod	_	name=O
+4	om	om	SCONJ	_	_	8	mark	_	name=O
+5	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(spbm~20000717_7170307__10563--1)
+6	ikke	ikke	PART	_	Polarity=Neg	8	advmod	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	farlige	farlig	ADJ	_	Degree=Pos|Number=Plur	2	advcl	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013365
+# text = Men det blir arbeidet med å gå bort fra dem.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	name=O
+4	arbeidet	arbeide	VERB	_	VerbForm=Part	0	root	_	name=O
+5	med	med	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	gå	gå	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+8	bort	bort	ADP	_	_	10	case	_	name=O
+9	fra	fra	ADP	_	_	10	case	_	name=O
+10	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__10563--1)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013366
+# text = - I tida er det signaler om at vi skal gå bort fra E-stoffene og å bruke produkter uten E-stoffer.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	I	i	ADP	_	_	3	case	_	name=O
+3	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=(spbm~20000717_7170307__T66--1)
+4	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+6	signaler	signal	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=(spbm~20000717_7170307__T67--1
+7	om	om	SCONJ	_	_	11	mark	_	name=O
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(spbm~20000717_7170307__T68--1)
+10	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	gå	gå	VERB	_	VerbForm=Inf	6	acl	_	name=O
+12	bort	bort	ADP	_	_	14	case	_	name=O
+13	fra	fra	ADP	_	_	14	case	_	name=O
+14	E-stoffene	E-stoff	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	obl	_	name=O|Entity=(spbm~20000717_7170307__10563--1)
+15	og	og	CCONJ	_	_	17	cc	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	bruke	bruke	VERB	_	VerbForm=Inf	11	conj	_	name=O
+18	produkter	produkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	obj	_	name=O|Entity=(spbm~20000717_7170307__T70--1
+19	uten	uten	ADP	_	_	20	case	_	name=O
+20	E-stoffer	E-stoff	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__T71--1)spbm~20000717_7170307__T70)spbm~20000717_7170307__T67)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013367
+# text = I noen produkter er disse stoffene borte og i andre er de under utfasing.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	noen	noen	DET	_	Number=Plur|PronType=Ind	3	det	_	name=O|Entity=(spbm~20000717_7170307__T72--1
+3	produkter	produkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O|Entity=spbm~20000717_7170307__T72)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+5	disse	disse	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(spbm~20000717_7170307__10563--1
+6	stoffene	stoff	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nsubj	_	name=O|Entity=spbm~20000717_7170307__10563)
+7	borte	borte	ADP	_	_	0	root	_	name=O
+8	og	og	CCONJ	_	_	14	cc	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	andre	annen	DET	_	Number=Plur|PronType=Dem	14	obl	_	name=O
+11	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+12	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(spbm~20000717_7170307__10563--1)
+13	under	under	ADP	_	_	14	case	_	name=O
+14	utfasing	utfasing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=(spbm~20000717_7170307__T75--1)
+15	.	$.	PUNCT	_	_	7	punct	_	name=O
+

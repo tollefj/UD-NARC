@@ -1,0 +1,490 @@
+# newdoc id = db~20081207-3962639
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 009819
+# text = Brækhus må stå over VM-stevne
+1	Brækhus	Brækhus	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(db~20081207_3962639__311862--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	stå	stå	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	over	over	ADP	_	_	5	case	_	name=O
+5	VM-stevne	VM-stevne	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(db~20081207_3962639__28--1)
+
+# newpar
+# sent_id = 009820
+# text = Sliter med influensa.
+1	Sliter	slite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	med	med	ADP	_	_	3	case	_	name=O
+3	influensa	influensa	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T3--1)
+4	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 009821
+# text = Cecilia Brækhus kommer ikke til å bokse på det store VM-stevnet i Zürich 20. desember.
+1	Cecilia	Cecilia	PROPN	_	_	2	nmod	_	name=B-PER|Entity=(db~20081207_3962639__311862--1(db~20081207_3962639__T4--1)
+2	Brækhus	Brækhus	PROPN	_	_	3	nsubj	_	name=I-PER|Entity=db~20081207_3962639__311862)
+3	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	til	til	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	bokse	bokse	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+8	på	på	ADP	_	_	11	case	_	name=O
+9	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(db~20081207_3962639__28--1
+10	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	VM-stevnet	VM-stevne	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	Zürich	Zürich	PROPN	_	_	11	nmod	_	name=B-GPE_LOC|Entity=(db~20081207_3962639__T7--1)
+14	20.	20.	ADJ	_	Number=Plur	15	amod	_	name=O|Entity=(db~20081207_3962639__T8--1
+15	desember	desember	NOUN	_	Gender=Masc	11	nmod	_	SpaceAfter=No|name=O|Entity=db~20081207_3962639__T8)db~20081207_3962639__28)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009822
+# text = Etter halvannen uke med influensa, kaster hun inn håndkleet.
+1	Etter	etter	ADP	_	_	3	case	_	name=O
+2	halvannen	halvannen	NUM	_	Gender=Fem|Number=Sing|NumType=Card	3	nummod	_	name=O|Entity=(db~20081207_3962639__T9--1
+3	uke	uke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O
+4	med	med	ADP	_	_	5	case	_	name=O
+5	influensa	influensa	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T10--1)db~20081207_3962639__T9)
+6	,	$,	PUNCT	_	_	3	punct	_	name=O
+7	kaster	kaste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+9	inn	inn	ADP	_	_	7	compound:prt	_	name=O
+10	håndkleet	håndkle	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T12--1)
+11	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 009823
+# text = - Jeg har slitt med influensa i halvannen uke.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	slitt	slite	VERB	_	VerbForm=Part	0	root	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	influensa	influensa	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(db~20081207_3962639__T14--1)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	halvannen	halvannen	NUM	_	Gender=Fem|Number=Sing|NumType=Card	9	nummod	_	name=O|Entity=(db~20081207_3962639__T15--1
+9	uke	uke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=db~20081207_3962639__T15)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009824
+# text = Fortsatt er jeg ikke helt bra.
+1	Fortsatt	fortsatt	ADV	_	_	6	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+4	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+5	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 009825
+# text = Derfor er det blitt lite trening i det siste, og den sparringen jeg skulle hatt mot amerikanske Nicole Woods, ble det ikke noe av.
+1	Derfor	derfor	ADV	_	_	4	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+5	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(db~20081207_3962639__T17--1
+6	trening	trening	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	xcomp	_	name=O|Entity=db~20081207_3962639__T17)
+7	i	i	ADP	_	_	9	case	_	name=O
+8	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(db~20081207_3962639__T18--1
+9	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	advmod	_	SpaceAfter=No|name=O|Entity=db~20081207_3962639__T18)
+10	,	$,	PUNCT	_	_	22	punct	_	name=O
+11	og	og	CCONJ	_	_	22	cc	_	name=O
+12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(db~20081207_3962639__T19--1(db~20081207_3962639__T23[1/2]--1
+13	sparringen	sparring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	nmod	_	name=O
+14	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+15	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux	_	name=O
+16	hatt	ha	VERB	_	VerbForm=Part	13	acl:relcl	_	name=O
+17	mot	mot	ADP	_	_	20	case	_	name=O
+18	amerikanske	amerikansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(db~20081207_3962639__375--1
+19	Nicole	Nicole	PROPN	_	_	20	nmod	_	name=B-PER|Entity=(db~20081207_3962639__T21--1)
+20	Woods	Woods	PROPN	_	_	16	obl	_	SpaceAfter=No|name=I-PER|Entity=db~20081207_3962639__375)
+21	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=db~20081207_3962639__T19)db~20081207_3962639__T23[1/2])
+22	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	name=O
+23	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	name=O
+24	ikke	ikke	PART	_	Polarity=Neg	22	advmod	_	name=O
+25	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	22	xcomp	_	name=O|Entity=(db~20081207_3962639__T23[2/2]--1
+26	av	av	ADP	_	_	13	case	_	SpaceAfter=No|name=O|Entity=db~20081207_3962639__T23[2/2])
+27	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009826
+# text = - Hun kom hit til Berlin, men i og med at jeg ikke var i stand til å sparre eller gjøre noe, ble hun bare sendt rett hjem igjen, forteller Cecilia Brækhus til NTB.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081207_3962639__375--1)
+3	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	hit	hit	ADV	_	_	3	advmod	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	Berlin	Berlin	PROPN	_	_	4	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081207_3962639__3123--1)
+7	,	$,	PUNCT	_	_	28	punct	_	name=O
+8	men	men	CCONJ	_	_	28	cc	_	name=O
+9	i	i	ADP	_	_	12	obl	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	med	med	ADP	_	_	9	conj	_	name=O
+12	at	at	SCONJ	_	_	17	mark	_	name=O
+13	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+14	ikke	ikke	PART	_	Polarity=Neg	17	advmod	_	name=O
+15	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	name=O
+16	i	i	SCONJ	_	_	17	mark	_	name=O
+17	stand	stand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	advcl	_	name=O|Entity=(db~20081207_3962639__T27--1
+18	til	til	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	sparre	sparre	VERB	_	VerbForm=Inf	17	acl	_	name=O
+21	eller	eller	CCONJ	_	_	22	cc	_	name=O
+22	gjøre	gjøre	VERB	_	VerbForm=Inf	20	conj	_	name=O
+23	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	22	obj	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T28--1)db~20081207_3962639__T27)
+24	,	$,	PUNCT	_	_	17	punct	_	name=O
+25	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux:pass	_	name=O
+26	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj:pass	_	name=O|Entity=(db~20081207_3962639__375--1)
+27	bare	bare	ADV	_	_	28	advmod	_	name=O
+28	sendt	sende	VERB	_	VerbForm=Part	3	conj	_	name=O
+29	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	advmod	_	name=O
+30	hjem	hjem	ADP	_	_	28	compound:prt	_	name=O
+31	igjen	igjen	ADV	_	_	28	advmod	_	SpaceAfter=No|name=O
+32	,	$,	PUNCT	_	_	28	punct	_	name=O
+33	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+34	Cecilia	Cecilia	PROPN	_	_	35	nmod	_	name=B-PER|Entity=(db~20081207_3962639__311862--1(db~20081207_3962639__T30--1)
+35	Brækhus	Brækhus	PROPN	_	_	33	nsubj	_	name=I-PER|Entity=db~20081207_3962639__311862)
+36	til	til	ADP	_	_	37	case	_	name=O
+37	NTB	NTB	PROPN	_	_	33	obl	_	SpaceAfter=No|name=B-ORG|Entity=(db~20081207_3962639__T32--1)
+38	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009827
+# text = Nå kommer hun til å bli i Berlin og trene vanlig fram til resten av Sauerland-stallen reiser til det store VM-stevnet i Sveits, der Nikolaj Valujev skal møte Evander Holyfield i VM-kamp i tungvekt i World Boxing Association (WBA).
+1	Nå	nå	ADV	_	_	2	advmod	_	name=O
+2	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	bli	bli	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Berlin	Berlin	PROPN	_	_	6	obl	_	name=B-GPE_LOC|Entity=(db~20081207_3962639__3123--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	trene	trene	VERB	_	VerbForm=Inf	6	conj	_	name=O
+11	vanlig	vanlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+12	fram	fram	ADP	_	_	13	obl	_	name=O
+13	til	til	SCONJ	_	_	17	mark	_	name=O
+14	resten	rest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(db~20081207_3962639__T35--1
+15	av	av	ADP	_	_	16	case	_	name=O
+16	Sauerland-stallen	Sauerland-stall	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=B-DRV|Entity=(db~20081207_3962639__T36--1)db~20081207_3962639__T35)
+17	reiser	reise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+18	til	til	ADP	_	_	21	case	_	name=O
+19	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	21	det	_	name=O|Entity=(db~20081207_3962639__T37--1
+20	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	VM-stevnet	VM-stevne	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	obl	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	Sveits	Sveits	PROPN	_	_	21	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081207_3962639__293--1)
+24	,	$,	PUNCT	_	_	29	punct	_	name=O
+25	der	der	SCONJ	_	_	29	mark	_	name=O
+26	Nikolaj	Nikolaj	PROPN	_	_	27	nmod	_	name=B-PER|Entity=(db~20081207_3962639__T40--1(db~20081207_3962639__T39--1)
+27	Valujev	Valujev	PROPN	_	_	29	nsubj	_	name=I-PER|Entity=db~20081207_3962639__T40)
+28	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	name=O
+29	møte	møte	VERB	_	VerbForm=Inf	21	acl	_	name=O
+30	Evander	Evander	PROPN	_	_	31	nmod	_	name=B-PER|Entity=(db~20081207_3962639__2100--1(db~20081207_3962639__T41--1)
+31	Holyfield	Holyfield	PROPN	_	_	29	obj	_	name=I-PER|Entity=db~20081207_3962639__2100)
+32	i	i	ADP	_	_	33	case	_	name=O
+33	VM-kamp	VM-kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	obl	_	name=O|Entity=(db~20081207_3962639__T43--1
+34	i	i	ADP	_	_	35	case	_	name=O
+35	tungvekt	tungvekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	33	nmod	_	name=O|Entity=(db~20081207_3962639__T44--1)db~20081207_3962639__T43)
+36	i	i	ADP	_	_	37	case	_	name=O
+37	World	World	PROPN	_	_	29	obl	_	name=B-ORG|Entity=(db~20081207_3962639__T45--1
+38	Boxing	Boxing	PROPN	_	_	37	flat:name	_	name=I-ORG
+39	Association	Association	PROPN	_	_	37	flat:name	_	name=I-ORG
+40	(	$(	PUNCT	_	_	41	punct	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T46--1
+41	WBA	WBA	PROPN	_	_	37	appos	_	SpaceAfter=No|name=B-ORG
+42	)	$)	PUNCT	_	_	41	punct	_	SpaceAfter=No|name=O|Entity=db~20081207_3962639__T46)db~20081207_3962639__T45)db~20081207_3962639__T37)
+43	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009828
+# text = Juleferie
+1	Juleferie	juleferie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(db~20081207_3962639__T47--1)
+
+# sent_id = 009829
+# text = - At det ikke ble noen kamp nå er ingen krise for meg, men det er klart jeg er skuffet over at jeg skulle bli syk.
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	At	at	SCONJ	_	_	5	mark	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	csubj	_	name=O
+6	noen	noen	DET	_	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	name=O|Entity=(db~20081207_3962639__T48--1
+7	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	xcomp	_	name=O|Entity=db~20081207_3962639__T48)
+8	nå	nå	ADV	_	_	5	advmod	_	name=O
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	11	det	_	name=O|Entity=(db~20081207_3962639__T49--1
+11	krise	krise	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+12	for	for	ADP	_	_	13	case	_	name=O
+13	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	11	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__311862--1)db~20081207_3962639__T49)
+14	,	$,	PUNCT	_	_	18	punct	_	name=O
+15	men	men	CCONJ	_	_	18	cc	_	name=O
+16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+17	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	name=O
+18	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	name=O
+19	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+20	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+21	skuffet	skuffe	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	18	csubj	_	name=O
+22	over	over	SCONJ	_	_	26	mark	_	name=O
+23	at	at	SCONJ	_	_	26	mark	_	name=O
+24	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+25	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	name=O
+26	bli	bli	VERB	_	VerbForm=Inf	21	advcl	_	name=O
+27	syk	syk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	26	xcomp	_	SpaceAfter=No|name=O
+28	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 009830
+# text = Jeg liker meg i Sveits, og jeg hadde virkelig sett fram til å få hilse på Evander Holyfield, sier hun.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+2	liker	like	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Sveits	Sveits	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081207_3962639__293--1)
+6	,	$,	PUNCT	_	_	11	punct	_	name=O
+7	og	og	CCONJ	_	_	11	cc	_	name=O
+8	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+9	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+10	virkelig	virkelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	sett	se	VERB	_	VerbForm=Part	2	conj	_	name=O
+12	fram	fram	SCONJ	_	_	16	mark	_	name=O
+13	til	til	SCONJ	_	_	16	mark	_	name=O
+14	å	å	PART	_	_	16	mark	_	name=O
+15	få	få	AUX	_	VerbForm=Inf	16	aux	_	name=O
+16	hilse	hilse	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+17	på	på	ADP	_	_	19	case	_	name=O
+18	Evander	Evander	PROPN	_	_	19	nmod	_	name=B-PER|Entity=(db~20081207_3962639__2100--1(db~20081207_3962639__T57--1)
+19	Holyfield	Holyfield	PROPN	_	_	16	obl	_	SpaceAfter=No|name=I-PER|Entity=db~20081207_3962639__2100)
+20	,	$,	PUNCT	_	_	11	punct	_	name=O
+21	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+22	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__311862--1)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 009831
+# text = - Etter hvert kommer jeg til å reise hjem på en drøy ukes juleferie til Norge, men regner med å være tilbake i Berlin igjen ved nyttårstider, for det er snakk om at jeg kan få en kamp allerede i begynnelsen av januar.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Etter	etter	ADP	_	_	3	case	_	name=O
+3	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	4	obl	_	name=O
+4	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+6	til	til	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	reise	reise	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+9	hjem	hjem	ADP	_	_	8	compound:prt	_	name=O
+10	på	på	ADP	_	_	14	case	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(db~20081207_3962639__T62--1(db~20081207_3962639__T61--1
+12	drøy	drøy	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	ukes	uke	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=db~20081207_3962639__T61)
+14	juleferie	juleferie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=db~20081207_3962639__T62)
+15	til	til	ADP	_	_	16	case	_	name=O
+16	Norge	Norge	PROPN	_	_	8	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(db~20081207_3962639__T63--1)
+17	,	$,	PUNCT	_	_	19	punct	_	name=O
+18	men	men	CCONJ	_	_	19	cc	_	name=O
+19	regner	regne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+20	med	med	SCONJ	_	_	22	mark	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	være	være	VERB	_	VerbForm=Inf	19	advcl	_	name=O
+23	tilbake	tilbake	ADP	_	_	25	obl	_	name=O
+24	i	i	ADP	_	_	25	case	_	name=O
+25	Berlin	Berlin	PROPN	_	_	22	obl	_	name=B-GPE_LOC|Entity=(db~20081207_3962639__3123--1)
+26	igjen	igjen	ADV	_	_	22	advmod	_	name=O
+27	ved	ved	ADP	_	_	28	case	_	name=O
+28	nyttårstider	nyttårstid	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	22	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T65--1)
+29	,	$,	PUNCT	_	_	33	punct	_	name=O
+30	for	for	CCONJ	_	_	33	cc	_	name=O
+31	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	expl	_	name=O
+32	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	33	cop	_	name=O
+33	snakk	snakk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	conj	_	name=O|Entity=(db~20081207_3962639__T66--1
+34	om	om	SCONJ	_	_	38	mark	_	name=O
+35	at	at	SCONJ	_	_	38	mark	_	name=O
+36	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+37	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	38	aux	_	name=O
+38	få	få	VERB	_	VerbForm=Inf	33	acl	_	name=O
+39	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	40	det	_	name=O|Entity=(db~20081207_3962639__T68--1
+40	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	38	obj	_	name=O|Entity=db~20081207_3962639__T68)
+41	allerede	allerede	ADV	_	_	43	advmod	_	name=O
+42	i	i	ADP	_	_	43	case	_	name=O
+43	begynnelsen	begynnelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	38	obl	_	name=O|Entity=(db~20081207_3962639__T69--1
+44	av	av	ADP	_	_	45	case	_	name=O
+45	januar	januar	NOUN	_	Gender=Masc	43	nmod	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T70--1)db~20081207_3962639__T69)db~20081207_3962639__T66)
+46	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 009832
+# text = - Dersom det blir tilfelle, kommer jeg til å bokse en av forkampene på det store stevnet der Marco Huck bokser hovedkampen, sier Brækhus.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Dersom	dersom	SCONJ	_	_	4	mark	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081207_3962639__T71--1)
+4	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+5	tilfelle	tilfelle	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	xcomp	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T72--1)
+6	,	$,	PUNCT	_	_	4	punct	_	name=O
+7	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	bokse	bokse	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	obj	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	forkampene	forkamp	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=(db~20081207_3962639__T74--1)
+15	på	på	ADP	_	_	18	case	_	name=O
+16	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(db~20081207_3962639__T75--1
+17	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	stevnet	stevne	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obl	_	name=O
+19	der	der	SCONJ	_	_	22	mark	_	name=O
+20	Marco	Marco	PROPN	_	_	21	nmod	_	name=B-PER|Entity=(db~20081207_3962639__T77--1(db~20081207_3962639__T76--1)
+21	Huck	Huck	PROPN	_	_	22	nsubj	_	name=I-PER|Entity=db~20081207_3962639__T77)
+22	bokser	bokse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl	_	name=O
+23	hovedkampen	hovedkamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T78--1)db~20081207_3962639__T75)
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+26	Brækhus	Brækhus	PROPN	_	_	25	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(db~20081207_3962639__311862--1)
+27	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 009833
+# text = Men det hun er mest opptatt av er alt snakket om at en tittelkamp nærmer seg med stormskritt.
+1	Men	men	CCONJ	_	_	10	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(db~20081207_3962639__T80--1
+3	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	6	advmod	_	name=O
+6	opptatt	opptatt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	acl:relcl	_	name=O
+7	av	av	ADP	_	_	6	obl	_	name=O|Entity=db~20081207_3962639__T80)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+9	alt	all	DET	_	Gender=Neut|Number=Sing|PronType=Tot	10	det	_	name=O|Entity=(db~20081207_3962639__T82--1
+10	snakket	snakk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O
+11	om	om	SCONJ	_	_	15	mark	_	name=O
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(db~20081207_3962639__T83--1
+14	tittelkamp	tittelkamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=db~20081207_3962639__T83)
+15	nærmer	nærme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl	_	name=O
+16	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	15	obj	_	name=O
+17	med	med	ADP	_	_	18	case	_	name=O
+18	stormskritt	stormskritt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T84--1)db~20081207_3962639__T82)
+19	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 009834
+# text = Klar
+1	Klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+
+# sent_id = 009835
+# text = - Dersom jeg ikke får kamp i januar, kommer etter all sannsynlighet den neste kampen min til å bli tittelkamp, og jeg må bare si at jeg er helt klar for det.
+1	-	$-	PUNCT	_	_	10	punct	_	name=O
+2	Dersom	dersom	SCONJ	_	_	5	mark	_	name=O
+3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+6	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=(db~20081207_3962639__T86--1)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	januar	januar	NOUN	_	Gender=Masc	5	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T87--1)
+9	,	$,	PUNCT	_	_	5	punct	_	name=O
+10	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	etter	etter	ADP	_	_	13	case	_	name=O
+12	all	all	DET	_	Gender=Fem|Number=Sing|PronType=Tot	13	det	_	name=O|Entity=(db~20081207_3962639__T88--1
+13	sannsynlighet	sannsynlighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	name=O|Entity=db~20081207_3962639__T88)
+14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(db~20081207_3962639__T89--1
+15	neste	neste	DET	_	Definite=Def|PronType=Dem	16	det	_	name=O
+16	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O
+17	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	name=O|Entity=(db~20081207_3962639__311862--1)db~20081207_3962639__T89)
+18	til	til	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	bli	bli	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+21	tittelkamp	tittelkamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	xcomp	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T91--1)
+22	,	$,	PUNCT	_	_	27	punct	_	name=O
+23	og	og	CCONJ	_	_	27	cc	_	name=O
+24	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+25	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	name=O
+26	bare	bare	ADV	_	_	27	advmod	_	name=O
+27	si	si	VERB	_	VerbForm=Inf	10	conj	_	name=O
+28	at	at	SCONJ	_	_	32	mark	_	name=O
+29	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+30	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	cop	_	name=O
+31	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	32	advmod	_	name=O
+32	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	ccomp	_	name=O
+33	for	for	ADP	_	_	34	case	_	name=O
+34	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T94--1)
+35	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 009836
+# text = - Jeg føler og mener jeg har det som skal til for å kunne vinne en tittel, bare jeg får mye og god sparring og en optimal oppkjøring, forteller hun.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+3	føler	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+6	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	name=O|Entity=(db~20081207_3962639__T97--1
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	skal	skulle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+11	til	til	ADP	_	_	10	compound:prt	_	name=O
+12	for	for	SCONJ	_	_	15	mark	_	name=O
+13	å	å	PART	_	_	15	mark	_	name=O
+14	kunne	kunne	AUX	_	VerbForm=Inf	15	aux	_	name=O
+15	vinne	vinne	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+16	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(db~20081207_3962639__T98--1
+17	tittel	tittel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=db~20081207_3962639__T98)
+18	,	$,	PUNCT	_	_	21	punct	_	name=O|Entity=db~20081207_3962639__T97)
+19	bare	bare	SCONJ	_	_	21	mark	_	name=O
+20	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+21	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+22	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	name=O|Entity=(db~20081207_3962639__T100--1(db~20081207_3962639__T101--1
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	conj	_	name=O
+25	sparring	sparring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obj	_	name=O|Entity=db~20081207_3962639__T101)
+26	og	og	CCONJ	_	_	29	cc	_	name=O
+27	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	29	det	_	name=O|Entity=(db~20081207_3962639__T102--1
+28	optimal	optimal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	29	amod	_	name=O
+29	oppkjøring	oppkjøring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No|name=O|Entity=db~20081207_3962639__T102)db~20081207_3962639__T100)
+30	,	$,	PUNCT	_	_	31	punct	_	name=O
+31	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+32	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__311862--1)
+33	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009837
+# text = I Sauerland-systemet jobbes det med å sende Brækhus i ringen i en tittelkamp i månedsskiftet februar/mars.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	Sauerland-systemet	Sauerland-system	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=B-DRV|Entity=(db~20081207_3962639__T104--1)
+3	jobbes	jobbe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	med	med	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	sende	sende	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+8	Brækhus	Brækhus	PROPN	_	_	7	obj	_	name=B-PER|Entity=(db~20081207_3962639__311862--1)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	ringen	ring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(db~20081207_3962639__T106--1)
+11	i	i	ADP	_	_	13	case	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(db~20081207_3962639__T107--1
+13	tittelkamp	tittelkamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=db~20081207_3962639__T107)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	månedsskiftet	månedsskifte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=(db~20081207_3962639__T108--1
+16	februar	februar	NOUN	_	Gender=Masc	15	appos	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T109--1(db~20081207_3962639__T110--1
+17	/	$/	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O|Entity=db~20081207_3962639__T110)
+18	mars	mars	NOUN	_	Gender=Masc	16	conj	_	SpaceAfter=No|name=O|Entity=(db~20081207_3962639__T111--1)db~20081207_3962639__T109)db~20081207_3962639__T108)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 009838
+# text = Hvilken tittel hun kommer til å kjempe om er foreløpig uklart.
+1	Hvilken	hvilken	DET	_	Gender=Masc|Number=Sing|PronType=Int	2	det	_	name=O|Entity=(db~20081207_3962639__T112--1
+2	tittel	tittel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=db~20081207_3962639__T112)
+3	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(db~20081207_3962639__311862--1)
+4	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	csubj	_	name=O
+5	til	til	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	kjempe	kjempe	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+8	om	om	ADP	_	_	2	case	_	name=O
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	foreløpig	foreløpig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	uklart	uklar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 009839
+# text = Både EM-tittelen i weltervekt og en eventuell VM-tittel i et av de store forbundene kan være aktuelle.
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	EM-tittelen	EM-tittel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(db~20081207_3962639__T114--1(db~20081207_3962639__T115--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	weltervekt	weltervekt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=(db~20081207_3962639__T116--1)db~20081207_3962639__T115)
+5	og	og	CCONJ	_	_	8	cc	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(db~20081207_3962639__T117--1
+7	eventuell	eventuell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	VM-tittel	VM-tittel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	nmod	_	name=O
+11	av	av	ADP	_	_	14	case	_	name=O
+12	de	de	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(db~20081207_3962639__T118--1
+13	store	stor	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	forbundene	forbund	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	10	nmod	_	name=O|Entity=db~20081207_3962639__T118)db~20081207_3962639__T117)db~20081207_3962639__T114)
+15	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+16	være	være	AUX	_	VerbForm=Inf	17	cop	_	name=O
+17	aktuelle	aktuell	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	17	punct	_	name=O
+

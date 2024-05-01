@@ -1,0 +1,516 @@
+# newdoc id = ap_20080908-2640087
+# global.Entity = eid-etype-head-other
+# sent_id = 000898
+# text = Minst 20 døde i orkan i Haiti
+1	Minst	liten	ADJ	_	Definite=Ind|Degree=Sup	2	amod	_	name=O|Entity=(ap_20080908_2640087__2153--1
+2	20	20	NUM	_	Number=Plur|NumType=Card	3	nsubj	_	name=O
+3	døde	dø	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O|Entity=ap_20080908_2640087__2153)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	orkan	orkan	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20080908_2640087__362--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Haiti	Haiti	PROPN	_	_	5	nmod	_	name=B-GPE_LOC|Entity=(ap_20080908_2640087__5169--1)ap_20080908_2640087__362)
+
+# newpar
+# sent_id = 000899
+# text = Nødhjelp fra Venezuela
+1	Nødhjelp	nødhjelp	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(ap_20080908_2640087__T3--1
+2	fra	fra	ADP	_	_	3	case	_	name=O
+3	Venezuela	Venezuela	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(ap_20080908_2640087__3116--1)ap_20080908_2640087__T3)
+
+# newpar
+# sent_id = 000900
+# text = Treffer Cuba i natt
+1	Treffer	treffe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	Cuba	Cuba	PROPN	_	_	1	obj	_	name=B-GPE_LOC|Entity=(ap_20080908_2640087__2102--1)
+3	i	i	ADP	_	_	4	case	_	name=O
+4	natt	natt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(ap_20080908_2640087__T6--1)
+
+# newpar
+# sent_id = 000901
+# text = Vanskelig å evakuere
+1	Vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+2	å	å	PART	_	_	3	mark	_	name=O
+3	evakuere	evakuere	VERB	_	VerbForm=Inf	1	csubj	_	name=O
+
+# newpar
+# sent_id = 000902
+# text = Blant de døde er 13 barn.
+1	Blant	blant	ADP	_	_	3	case	_	name=O
+2	de	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(ap_20080908_2640087__2153--1
+3	døde	død	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O|Entity=ap_20080908_2640087__2153)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+5	13	13	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(ap_20080908_2640087__T8--1
+6	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	SpaceAfter=No|name=O|Entity=ap_20080908_2640087__T8)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 000903
+# text = Det samlede tallet på dødsofre for Ike i Karibia har dermed kommet opp i over 500, viste tall fra FN søndag.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20080908_2640087__T9--1
+2	samlede	samle	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	3	amod	_	name=O
+3	tallet	tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	dødsofre	dødsoffer	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	name=O|Entity=(ap_20080908_2640087__T10--1
+6	for	for	ADP	_	_	7	case	_	name=O
+7	Ike	Ike	PROPN	_	_	5	nmod	_	name=B-EVT|Entity=(ap_20080908_2640087__9810--1)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Karibia	Karibia	PROPN	_	_	7	nmod	_	name=B-GPE_LOC|Entity=(ap_20080908_2640087__T12--1)ap_20080908_2640087__T10)ap_20080908_2640087__T9)
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	dermed	dermed	ADV	_	_	12	advmod	_	name=O
+12	kommet	komme	VERB	_	VerbForm=Part	0	root	_	name=O
+13	opp	opp	ADP	_	_	16	case	_	name=O
+14	i	i	ADP	_	_	16	case	_	name=O
+15	over	over	ADP	_	_	16	case	_	name=O
+16	500	500	NUM	_	Number=Plur|NumType=Card	12	obl	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	viste	vise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	parataxis	_	name=O
+19	tall	tall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	nsubj	_	name=O|Entity=(ap_20080908_2640087__T13--1
+20	fra	fra	ADP	_	_	21	case	_	name=O
+21	FN	FN	PROPN	_	Abbr=Yes	19	nmod	_	name=B-ORG|Entity=(ap_20080908_2640087__258--1)ap_20080908_2640087__T13)
+22	søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__T15--1)
+23	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 000904
+# text = Det falt da fortsatt styrtregn over mange av de hardest rammede områdene, der ødelagt infrastruktur gjorde det vanskelig å få fram hjelp.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	falt	falle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	da	da	ADV	_	_	2	advmod	_	name=O
+4	fortsatt	fortsatt	ADV	_	_	2	advmod	_	name=O
+5	styrtregn	styrtregn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20080908_2640087__T16--1)
+6	over	over	ADP	_	_	7	case	_	name=O
+7	mange	mange	ADJ	_	Degree=Pos|Number=Plur	2	advmod	_	name=O|Entity=(ap_20080908_2640087__T17--1
+8	av	av	ADP	_	_	12	case	_	name=O
+9	de	de	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(ap_20080908_2640087__T18--1
+10	hardest	hard	ADJ	_	Definite=Ind|Degree=Sup	11	advmod	_	name=O
+11	rammede	ramme	ADJ	_	Number=Plur|VerbForm=Part	12	amod	_	name=O
+12	områdene	område	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	17	punct	_	name=O
+14	der	der	SCONJ	_	_	17	mark	_	name=O
+15	ødelagt	ødelegge	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	16	amod	_	name=O|Entity=(ap_20080908_2640087__T19--1
+16	infrastruktur	infrastruktur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=ap_20080908_2640087__T19)
+17	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	name=O
+19	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	xcomp	_	name=O
+20	å	å	PART	_	_	21	mark	_	name=O
+21	få	få	VERB	_	VerbForm=Inf	17	xcomp	_	name=O
+22	fram	fram	ADP	_	_	21	compound:prt	_	name=O
+23	hjelp	hjelp	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__T20--1)ap_20080908_2640087__T18)ap_20080908_2640087__T17)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000905
+# text = En bro som forbinder byen Gonaives med Haitis hovedstad Port-au-Prince, styrtet sammen på grunn av uværet, og gjorde dermed den hardt prøvede byen nord i Haiti avskåret fra omgivelsene.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20080908_2640087__T21--1
+2	bro	bro	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nsubj	_	name=O
+3	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+4	forbinder	forbinde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	name=O
+5	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20080908_2640087__3131--1
+6	Gonaives	Gonaives	PROPN	_	_	4	obj	_	name=B-GPE_LOC|Entity=ap_20080908_2640087__3131)
+7	med	med	ADP	_	_	10	case	_	name=O
+8	Haitis	Haiti	PROPN	_	Case=Gen	9	nmod	_	name=B-GPE_LOC|Entity=(ap_20080908_2640087__253--1(ap_20080908_2640087__T24--1(ap_20080908_2640087__5169--1)
+9	hovedstad	hovedstad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=ap_20080908_2640087__T24)
+10	Port-au-Prince	Port-au-Prince	PROPN	_	_	4	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=ap_20080908_2640087__253)
+11	,	$,	PUNCT	_	_	2	punct	_	name=O|Entity=ap_20080908_2640087__T21)
+12	styrtet	styrte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+13	sammen	sammen	ADV	_	_	12	advmod	_	name=O
+14	på	på	ADP	_	_	15	case	_	name=O
+15	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(ap_20080908_2640087__T26--1
+16	av	av	ADP	_	_	17	case	_	name=O
+17	uværet	uvær	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__362--1)ap_20080908_2640087__T26)
+18	,	$,	PUNCT	_	_	20	punct	_	name=O
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	name=O
+21	dermed	dermed	ADV	_	_	20	advmod	_	name=O
+22	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	name=O|Entity=(ap_20080908_2640087__253--1
+23	hardt	hard	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	advmod	_	name=O
+24	prøvede	prøvet	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	25	amod	_	name=O
+25	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obj	_	name=O
+26	nord	nord	ADP	_	_	28	case	_	name=O
+27	i	i	ADP	_	_	28	case	_	name=O
+28	Haiti	Haiti	PROPN	_	_	25	nmod	_	name=B-GPE_LOC|Entity=(ap_20080908_2640087__5169--1)ap_20080908_2640087__253)
+29	avskåret	avskåret	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	xcomp	_	name=O
+30	fra	fra	ADP	_	_	31	case	_	name=O
+31	omgivelsene	omgivelse	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	29	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__T30--1)
+32	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 000906
+# text = En bilkolonne med forsyninger til ofre for uværet måtte gjøre vendereis på grunn av denne brokollapsen.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20080908_2640087__T31--1
+2	bilkolonne	bilkolonne	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	name=O
+3	med	med	ADP	_	_	4	case	_	name=O
+4	forsyninger	forsyning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	name=O|Entity=(ap_20080908_2640087__T32--1
+5	til	til	ADP	_	_	6	case	_	name=O
+6	ofre	offer	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nmod	_	name=O|Entity=(ap_20080908_2640087__T33--1
+7	for	for	ADP	_	_	8	case	_	name=O
+8	uværet	uvær	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(ap_20080908_2640087__362--1)ap_20080908_2640087__T33)ap_20080908_2640087__T32)ap_20080908_2640087__T31)
+9	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	name=O
+10	gjøre	gjøre	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	vendereis	vendereis	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	name=O|Entity=(ap_20080908_2640087__T35--1)
+12	på	på	ADP	_	_	13	case	_	name=O
+13	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(ap_20080908_2640087__T36--1
+14	av	av	ADP	_	_	16	case	_	name=O
+15	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(ap_20080908_2640087__T37--1
+16	brokollapsen	brokollaps	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=ap_20080908_2640087__T37)ap_20080908_2640087__T36)
+17	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 000907
+# text = Les også:
+1	Les	lese	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	også	også	ADV	_	_	1	advmod	_	SpaceAfter=No|name=O
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 000908
+# text = Akutt behov for hjelp etter Hanna
+1	Akutt	akutt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	name=O|Entity=(ap_20080908_2640087__T38--1
+2	behov	behov	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+3	for	for	ADP	_	_	4	case	_	name=O
+4	hjelp	hjelp	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=(ap_20080908_2640087__T39--1)
+5	etter	etter	ADP	_	_	6	case	_	name=O
+6	Hanna	Hanna	PROPN	_	Gender=Fem	2	obl	_	name=B-EVT|Entity=(ap_20080908_2640087__T40--1)ap_20080908_2640087__T38)
+
+# newpar
+# sent_id = 000909
+# text = Fredag ble 30 tonn med nødhjelpsvarer levert fra FNs World Food Program - den største enkeltstående leveransen til Gonaives siden de fire dødelige stormene traff Haiti, melder AP.
+1	Fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(ap_20080908_2640087__T41--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	name=O
+3	30	30	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(ap_20080908_2640087__T42[1/2]--1
+4	tonn	tonn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nsubj:pass	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	nødhjelpsvarer	nødhjelpsvare	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nmod	_	name=O|Entity=(ap_20080908_2640087__T43--1)ap_20080908_2640087__T42[1/2])
+7	levert	levere	VERB	_	VerbForm=Part	0	root	_	name=O
+8	fra	fra	ADP	_	_	10	case	_	name=O
+9	FNs	FN	PROPN	_	Abbr=Yes|Case=Gen	10	nmod	_	name=B-ORG|Entity=(ap_20080908_2640087__T45--1(ap_20080908_2640087__258--1)
+10	World	World	PROPN	_	_	7	obl	_	name=I-ORG
+11	Food	Food	PROPN	_	_	10	flat:name	_	name=I-ORG
+12	Program	Program	PROPN	_	_	10	flat:name	_	name=I-ORG|Entity=ap_20080908_2640087__T45)
+13	-	$-	PUNCT	_	_	17	punct	_	name=O
+14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(ap_20080908_2640087__T42[2/2]--1(ap_20080908_2640087__T46--1
+15	største	stor	ADJ	_	Definite=Def|Degree=Sup	17	amod	_	name=O
+16	enkeltstående	enkeltstående	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	leveransen	leveranse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	appos	_	name=O
+18	til	til	ADP	_	_	19	case	_	name=O
+19	Gonaives	Gonaives	PROPN	_	_	17	nmod	_	name=B-GPE_LOC|Entity=(ap_20080908_2640087__3131--1)
+20	siden	siden	SCONJ	_	_	25	mark	_	name=O
+21	de	de	DET	_	Number=Plur|PronType=Dem	24	det	_	name=O|Entity=(ap_20080908_2640087__2191--1
+22	fire	fire	NUM	_	Number=Plur|NumType=Card	24	nummod	_	name=O
+23	dødelige	dødelig	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	name=O
+24	stormene	storm	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	25	nsubj	_	name=O|Entity=ap_20080908_2640087__2191)
+25	traff	treffe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	name=O
+26	Haiti	Haiti	PROPN	_	_	25	obj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20080908_2640087__5169--1)ap_20080908_2640087__T42[2/2])ap_20080908_2640087__T46)
+27	,	$,	PUNCT	_	_	28	punct	_	name=O
+28	melder	melde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+29	AP	AP	PROPN	_	_	28	nsubj	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20080908_2640087__2136--1)
+30	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 000910
+# text = Venezuelas president Hugo Chavez sier søndag kveld at fly med mat og flaskevann er på vei også fra Venezuela til Gonaives.
+1	Venezuelas	Venezuela	PROPN	_	Case=Gen	2	nmod	_	name=B-GPE_ORG|Entity=(ap_20080908_2640087__T53--1(ap_20080908_2640087__T52--1(ap_20080908_2640087__3116--1)
+2	president	president	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=ap_20080908_2640087__T52)
+3	Hugo	Hugo	PROPN	_	Gender=Masc	5	nsubj	_	name=B-PER
+4	Chavez	Chavez	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=ap_20080908_2640087__T53)
+5	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(ap_20080908_2640087__T54--1
+7	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20080908_2640087__T55--1)ap_20080908_2640087__T54)
+8	at	at	SCONJ	_	_	16	mark	_	name=O
+9	fly	fly	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nsubj	_	name=O|Entity=(ap_20080908_2640087__T56--1
+10	med	med	ADP	_	_	11	case	_	name=O
+11	mat	mat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(ap_20080908_2640087__T57--1(ap_20080908_2640087__T58--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	flaskevann	flaskevann	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	conj	_	name=O|Entity=(ap_20080908_2640087__T59--1)ap_20080908_2640087__T57)ap_20080908_2640087__T56)
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+15	på	på	SCONJ	_	_	16	mark	_	name=O
+16	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	ccomp	_	name=O|Entity=(ap_20080908_2640087__T60--1
+17	også	også	ADV	_	_	19	advmod	_	name=O
+18	fra	fra	ADP	_	_	19	case	_	name=O
+19	Venezuela	Venezuela	PROPN	_	_	16	nmod	_	name=B-GPE_LOC|Entity=(ap_20080908_2640087__3116--1)
+20	til	til	ADP	_	_	21	case	_	name=O
+21	Gonaives	Gonaives	PROPN	_	_	19	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20080908_2640087__3131--1)ap_20080908_2640087__T60)
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000911
+# text = Også hjelpearbeidere og medisiner vil bli sendt til Haiti, melder er det boliviske nyhetsbyrået.
+1	Også	også	ADV	_	_	2	advmod	_	name=O|Entity=(ap_20080908_2640087__T63--1(ap_20080908_2640087__T64--1
+2	hjelpearbeidere	hjelpearbeider	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj:pass	_	name=O|Entity=ap_20080908_2640087__T64)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	medisiner	medisin	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	name=O|Entity=(ap_20080908_2640087__T65--1)ap_20080908_2640087__T63)
+5	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	bli	bli	AUX	_	VerbForm=Inf	7	aux:pass	_	name=O
+7	sendt	sende	VERB	_	VerbForm=Part	0	root	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	Haiti	Haiti	PROPN	_	_	7	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20080908_2640087__5169--1)
+10	,	$,	PUNCT	_	_	15	punct	_	name=O
+11	melder	melde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nsubj	_	name=O|Entity=(ap_20080908_2640087__T67--1)
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(ap_20080908_2640087__T68--1
+14	boliviske	bolivisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	nyhetsbyrået	nyhetsbyrå	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=ap_20080908_2640087__T68)
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 000912
+# text = Ikes videre rute er noe usikker, men klokken 20 søndag kveld norsk tid var orkanen like vest for Great Inagua Island i Bahamas.
+1	Ikes	Ike	PROPN	_	Case=Gen	3	nmod	_	name=B-EVT|Entity=(ap_20080908_2640087__T70--1(ap_20080908_2640087__9810--1)
+2	videre	vid	ADJ	_	Degree=Cmp	3	amod	_	name=O
+3	rute	rute	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	name=O|Entity=ap_20080908_2640087__T70)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	6	obl	_	name=O|Entity=(ap_20080908_2640087__T71--1)
+6	usikker	usikker	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	18	punct	_	name=O
+8	men	men	CCONJ	_	_	18	cc	_	name=O
+9	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(ap_20080908_2640087__T72--1
+10	20	20	NUM	_	Number=Plur|NumType=Card	18	obl	_	name=O|Entity=ap_20080908_2640087__T72)
+11	søndag	søndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(ap_20080908_2640087__T73--1
+12	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(ap_20080908_2640087__T74--1)ap_20080908_2640087__T73)
+13	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(ap_20080908_2640087__T75--1
+14	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	name=O|Entity=ap_20080908_2640087__T75)
+15	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	cop	_	name=O
+16	orkanen	orkan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	name=O|Entity=(ap_20080908_2640087__9810--1)
+17	like	like	ADV	_	_	18	advmod	_	name=O
+18	vest	vest	ADP	_	_	6	conj	_	name=O
+19	for	for	ADP	_	_	20	case	_	name=O
+20	Great	Great	PROPN	_	_	18	obl	_	name=B-LOC|Entity=(ap_20080908_2640087__T77--1
+21	Inagua	Inagua	PROPN	_	_	20	flat:name	_	name=I-LOC
+22	Island	Island	PROPN	_	_	20	flat:name	_	name=I-LOC
+23	i	i	ADP	_	_	24	case	_	name=O
+24	Bahamas	Bahamas	PROPN	_	_	20	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20080908_2640087__2158--1)ap_20080908_2640087__T77)
+25	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 000913
+# text = Det er imidlertid ventet at den vil fjerne seg fra Bahamas, og treffe kysten av det østre Cuba i natt, og det sentrale Cuba mandag, melder Associated Press (AP).
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	imidlertid	imidlertid	ADV	_	_	4	advmod	_	name=O
+4	ventet	vente	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20080908_2640087__9810--1)
+7	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	fjerne	fjerne	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+9	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	name=O|Entity=(ap_20080908_2640087__9810--1)
+10	fra	fra	ADP	_	_	11	case	_	name=O
+11	Bahamas	Bahamas	PROPN	_	_	8	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20080908_2640087__2158--1)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	treffe	treffe	VERB	_	VerbForm=Inf	8	conj	_	name=O
+15	kysten	kyst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=(ap_20080908_2640087__T81--1
+16	av	av	ADP	_	_	19	case	_	name=O
+17	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(ap_20080908_2640087__T82--1
+18	østre	østre	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O
+19	Cuba	Cuba	PROPN	_	_	15	nmod	_	name=B-GPE_LOC|Entity=ap_20080908_2640087__T82)ap_20080908_2640087__T81)
+20	i	i	ADP	_	_	21	case	_	name=O
+21	natt	natt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__T83--1)
+22	,	$,	PUNCT	_	_	26	punct	_	name=O
+23	og	og	CCONJ	_	_	26	cc	_	name=O
+24	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	26	det	_	name=O|Entity=(ap_20080908_2640087__T84--1
+25	sentrale	sentral	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	Cuba	Cuba	PROPN	_	_	14	conj	_	name=B-GPE_LOC
+27	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	orphan	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__T85--1)ap_20080908_2640087__T84)
+28	,	$,	PUNCT	_	_	29	punct	_	name=O
+29	melder	melde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+30	Associated	Associated	PROPN	_	_	29	nsubj	_	name=B-ORG|Entity=(ap_20080908_2640087__2136--1
+31	Press	Press	PROPN	_	_	30	flat:name	_	name=I-ORG
+32	(	$(	PUNCT	_	_	33	punct	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__T87--1
+33	AP	AP	PROPN	_	_	30	appos	_	SpaceAfter=No|name=B-ORG
+34	)	$)	PUNCT	_	_	33	punct	_	SpaceAfter=No|name=O|Entity=ap_20080908_2640087__T87)ap_20080908_2640087__2136)
+35	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000914
+# text = Orkanen, som for øyeblikket måler en styrke tilsvarende kategori fire på Saffir-Simpson-skalaen (se faktaramme til høyre), vil avta i styrke før den treffer Cuba.
+1	Orkanen	orkan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__9810--1
+2	,	$,	PUNCT	_	_	6	punct	_	name=O
+3	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	øyeblikket	øyeblikk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(ap_20080908_2640087__T89--1)
+6	måler	måle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20080908_2640087__T90--1
+8	styrke	styrke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O
+9	tilsvarende	tilsvare	ADJ	_	VerbForm=Part	8	amod	_	name=O
+10	kategori	kategori	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(ap_20080908_2640087__T91--1)
+11	fire	fire	NUM	_	Number=Plur|NumType=Card	9	obj	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	Saffir-Simpson-skalaen	Saffir-Simpson-skalaen	PROPN	_	_	11	obl	_	name=B-DRV|Entity=(ap_20080908_2640087__T92--1)ap_20080908_2640087__T90)ap_20080908_2640087__9810)
+14	(	$(	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+15	se	se	VERB	_	Mood=Imp|VerbForm=Fin	22	parataxis	_	name=O
+16	faktaramme	faktaramme	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	name=O|Entity=(ap_20080908_2640087__T93--1
+17	til	til	ADP	_	_	18	case	_	name=O
+18	høyre	høyre	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__T94--1)ap_20080908_2640087__T93)
+19	)	$)	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+20	,	$,	PUNCT	_	_	15	punct	_	name=O
+21	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+22	avta	avta	VERB	_	VerbForm=Inf	0	root	_	name=O
+23	i	i	ADP	_	_	24	case	_	name=O
+24	styrke	styrke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	name=O|Entity=(ap_20080908_2640087__T95--1)
+25	før	før	SCONJ	_	_	27	mark	_	name=O
+26	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	name=O|Entity=(ap_20080908_2640087__9810--1)
+27	treffer	treffe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	advcl	_	name=O
+28	Cuba	Cuba	PROPN	_	_	27	obj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20080908_2640087__2102--1)
+29	.	$.	PUNCT	_	_	22	punct	_	name=O
+
+# sent_id = 000915
+# text = I Florida Keys (se kart) er det startet evakuering av fastboende på den lavtliggende øykjeden etter at gjester ble bedt om å forlate området allerede lørdag.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	Florida	Florida	PROPN	_	_	10	obl	_	name=B-LOC|Entity=(ap_20080908_2640087__3304--1
+3	Keys	Keys	PROPN	_	_	2	flat:name	_	name=I-LOC|Entity=ap_20080908_2640087__3304)
+4	(	$(	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+5	se	se	VERB	_	Mood=Imp|VerbForm=Fin	10	parataxis	_	name=O
+6	kart	kart	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__T99--1)
+7	)	$)	PUNCT	_	_	5	punct	_	name=O
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+10	startet	starte	VERB	_	VerbForm=Part	0	root	_	name=O
+11	evakuering	evakuering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obj	_	name=O|Entity=(ap_20080908_2640087__2208--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	fastboende	fastboende	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(ap_20080908_2640087__T101--1
+14	på	på	ADP	_	_	17	case	_	name=O
+15	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(ap_20080908_2640087__3304--1
+16	lavtliggende	lavtliggende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	øykjeden	øykjede	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=ap_20080908_2640087__3304)ap_20080908_2640087__T101)ap_20080908_2640087__2208)
+18	etter	etter	SCONJ	_	_	22	mark	_	name=O
+19	at	at	SCONJ	_	_	22	mark	_	name=O
+20	gjester	gjest	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	nsubj:pass	_	name=O|Entity=(ap_20080908_2640087__T103--1)
+21	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux:pass	_	name=O
+22	bedt	be	VERB	_	VerbForm=Part	10	advcl	_	name=O
+23	om	om	SCONJ	_	_	25	mark	_	name=O
+24	å	å	PART	_	_	25	mark	_	name=O
+25	forlate	forlate	VERB	_	VerbForm=Inf	22	advcl	_	name=O
+26	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	25	obj	_	name=O|Entity=(ap_20080908_2640087__3304--1)
+27	allerede	allerede	ADV	_	_	28	advmod	_	name=O|Entity=(ap_20080908_2640087__T105--1
+28	lørdag	lørdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No|name=O|Entity=ap_20080908_2640087__T105)
+29	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 000916
+# text = - Vi forstår ulempen ved evakueringen for innbyggerne og gjestene, men deres sikkerhet er førsteprioritet.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20080908_2640087__2222--1)
+3	forstår	forstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ulempen	ulempe	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(ap_20080908_2640087__T107--1
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	evakueringen	evakuering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(ap_20080908_2640087__2208--1
+7	for	for	ADP	_	_	8	case	_	name=O
+8	innbyggerne	innbygger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	name=O|Entity=(ap_20080908_2640087__2221--1(ap_20080908_2640087__T110--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	gjestene	gjest	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|name=O|Bridge=ap_20080908_2640087__3304<ap_20080908_2640087__T111:default|Entity=(ap_20080908_2640087__T111--1)ap_20080908_2640087__2221)ap_20080908_2640087__2208)ap_20080908_2640087__T107)
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	men	men	CCONJ	_	_	16	cc	_	name=O
+13	deres	deres	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	name=O|Entity=(ap_20080908_2640087__T113--1(ap_20080908_2640087__2221--1)
+14	sikkerhet	sikkerhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	nsubj	_	name=O|Entity=ap_20080908_2640087__T113)
+15	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+16	førsteprioritet	førsteprioritet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No|name=O|Entity=(ap_20080908_2640087__T114--1)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000917
+# text = Det (uværet) er rett og slett for nært til at vi kan la være å reagere, sier administrator i Monroe County, Roman Gastesi.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20080908_2640087__9810--1
+2	(	$(	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+3	uværet	uvær	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	SpaceAfter=No|name=O
+4	)	$)	PUNCT	_	_	3	punct	_	name=O|Entity=ap_20080908_2640087__9810)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+6	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	slett	slett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	name=O
+9	for	for	ADV	_	_	10	advmod	_	name=O
+10	nært	nær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+11	til	til	SCONJ	_	_	15	mark	_	name=O
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	name=O|Entity=(ap_20080908_2640087__2222--1)
+14	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	la	la	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+16	være	være	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	reagere	reagere	VERB	_	VerbForm=Inf	15	xcomp	_	SpaceAfter=No|name=O
+19	,	$,	PUNCT	_	_	20	punct	_	name=O
+20	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	name=O
+21	administrator	administrator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	name=O|Entity=(ap_20080908_2640087__T119--1(ap_20080908_2640087__T117--1
+22	i	i	ADP	_	_	23	case	_	name=O
+23	Monroe	Monroe	PROPN	_	_	21	nmod	_	name=B-GPE_LOC|Entity=(ap_20080908_2640087__T118--1
+24	County	County	PROPN	_	_	23	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=ap_20080908_2640087__T118)
+25	,	$,	PUNCT	_	_	21	punct	_	name=O|Entity=ap_20080908_2640087__T117)
+26	Roman	Roman	PROPN	_	_	20	nsubj	_	name=B-PER
+27	Gastesi	Gastesi	PROPN	_	_	26	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20080908_2640087__T119)
+28	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# newpar
+# sent_id = 000918
+# text = I flere av byene ved Mexicogulfen er de evakuerte etter Gustav på vei tilbake til boligene sine mens myndighetene bekymret ser at Ike rykker nærmere
+1	I	i	ADP	_	_	2	case	_	name=O
+2	flere	mange	ADJ	_	Degree=Cmp	13	advmod	_	name=O|Entity=(ap_20080908_2640087__T120--1
+3	av	av	ADP	_	_	4	case	_	name=O
+4	byene	by	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	name=O|Entity=(ap_20080908_2640087__T121--1
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	Mexicogulfen	Mexicogulfen	PROPN	_	_	4	nmod	_	name=B-LOC|Entity=(ap_20080908_2640087__T122--1)ap_20080908_2640087__T121)ap_20080908_2640087__T120)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+8	de	de	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(ap_20080908_2640087__2250--1
+9	evakuerte	evakuere	ADJ	_	Number=Plur|VerbForm=Part	13	nsubj	_	name=O
+10	etter	etter	ADP	_	_	11	case	_	name=O
+11	Gustav	Gustav	PROPN	_	Gender=Masc	9	nmod	_	name=B-EVT|Entity=(ap_20080908_2640087__2259--1)ap_20080908_2640087__2250)
+12	på	på	ADP	_	_	13	case	_	name=O
+13	vei	vei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20080908_2640087__T125--1
+14	tilbake	tilbake	ADP	_	_	16	case	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	boligene	bolig	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	name=O|Entity=(ap_20080908_2640087__T126--1
+17	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	16	nmod	_	name=O|Entity=(ap_20080908_2640087__2250--1)ap_20080908_2640087__T126)ap_20080908_2640087__T125)
+18	mens	mens	SCONJ	_	_	21	mark	_	name=O
+19	myndighetene	myndighet	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	21	nsubj	_	name=O|Entity=(ap_20080908_2640087__T128--1)
+20	bekymret	bekymre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	19	acl	_	name=O
+21	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	name=O
+22	at	at	SCONJ	_	_	24	mark	_	name=O
+23	Ike	Ike	PROPN	_	_	24	nsubj	_	name=B-EVT|Entity=(ap_20080908_2640087__9810--1)
+24	rykker	rykke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	ccomp	_	name=O
+25	nærmere	nær	ADJ	_	Degree=Cmp	24	advmod	_	name=O
+
+# sent_id = 000919
+# text = - Våre innbyggere er slitne og de har brukt mye penger på evakueringen - fra Gustav.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	3	nmod	_	name=O|Entity=(ap_20080908_2640087__2263--1(ap_20080908_2640087__T130--1)
+3	innbyggere	innbygger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=ap_20080908_2640087__2263)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	slitne	sliten	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(ap_20080908_2640087__2263--1)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	brukt	bruke	VERB	_	VerbForm=Part	5	conj	_	name=O
+10	mye	mye	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(ap_20080908_2640087__T133--1
+11	penger	penge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	name=O|Entity=ap_20080908_2640087__T133)
+12	på	på	ADP	_	_	13	case	_	name=O
+13	evakueringen	evakuering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(ap_20080908_2640087__T134--1
+14	-	$-	PUNCT	_	_	16	punct	_	name=O
+15	fra	fra	ADP	_	_	16	case	_	name=O
+16	Gustav	Gustav	PROPN	_	Gender=Masc	13	nmod	_	SpaceAfter=No|name=B-EVT|Entity=(ap_20080908_2640087__2259--1)ap_20080908_2640087__T134)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000920
+# text = Min antagelse er at det blir vanskelig å få et like stort antall ut av byen denne gangen, sier borgermester Ray Nagin i New Orleans.
+1	Min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(ap_20080908_2640087__T137--1(ap_20080908_2640087__2277--1)
+2	antagelse	antagelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=ap_20080908_2640087__T137)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+6	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	xcomp	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	få	få	VERB	_	VerbForm=Inf	6	csubj	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(ap_20080908_2640087__T138--1
+11	like	like	ADV	_	_	12	advmod	_	name=O
+12	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	name=O
+13	antall	antall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	name=O|Entity=ap_20080908_2640087__T138)
+14	ut	ut	ADP	_	_	16	case	_	name=O
+15	av	av	ADP	_	_	16	case	_	name=O
+16	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(ap_20080908_2640087__2281--1)
+17	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(ap_20080908_2640087__T140--1
+18	gangen	gang	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=ap_20080908_2640087__T140)
+19	,	$,	PUNCT	_	_	20	punct	_	name=O
+20	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+21	borgermester	borgermester	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	name=O|Entity=(ap_20080908_2640087__2277--1
+22	Ray	Ray	PROPN	_	_	20	nsubj	_	name=B-PER
+23	Nagin	Nagin	PROPN	_	_	22	flat:name	_	name=I-PER
+24	i	i	ADP	_	_	25	case	_	name=O
+25	New	New	PROPN	_	_	22	nmod	_	name=B-GPE_LOC|Entity=(ap_20080908_2640087__2281--1
+26	Orleans	Orleans	PROPN	_	_	25	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=ap_20080908_2640087__2281)ap_20080908_2640087__2277)
+27	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 000921
+# text = Følg orkanene på vårt stormkart
+1	Følg	følge	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	orkanene	orkan	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	obj	_	name=O|Entity=(ap_20080908_2640087__2191--1)
+3	på	på	ADP	_	_	5	case	_	name=O
+4	vårt	vår	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(ap_20080908_2640087__T145--1(ap_20080908_2640087__T144--1)
+5	stormkart	stormkart	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	name=O|Entity=ap_20080908_2640087__T145)
+

@@ -1,0 +1,171 @@
+# newdoc id = db~20081207-3959931
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 019465
+# text = Tora Berger skjøt seg bort
+1	Tora	Tora	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(db~20081207_3959931__790--1
+2	Berger	Berger	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081207_3959931__790)
+3	skjøt	skyte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	name=O
+5	bort	bort	ADP	_	_	3	compound:prt	_	name=O
+
+# newpar
+# sent_id = 019466
+# text = Endte på sjetteplass.
+1	Endte	ende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	sjetteplass	sjetteplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3959931__T2--1)
+4	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 019467
+# text = Èn bom:
+1	Èn	én	NUM	_	Gender=Masc|Number=Sing|NumType=Card	2	nummod	_	name=O|Entity=(db~20081207_3959931__T3--1
+2	bom	bom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=db~20081207_3959931__T3)
+3	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 019468
+# text = Solveig Rogstad ble nest beste norske, på ellevteplass.
+1	Solveig	Solveig	PROPN	_	Gender=Fem	3	nsubj	_	name=B-PER|Entity=(db~20081207_3959931__237--1
+2	Rogstad	Rogstad	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=db~20081207_3959931__237)
+3	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	nest	nest	ADV	_	_	5	advmod	_	name=O
+5	beste	god	ADJ	_	Definite=Def|Degree=Sup	6	amod	_	name=O
+6	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	3	xcomp	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	ellevteplass	ellevteplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3959931__T5--1)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 019469
+# text = I går skjøt hun feilfritt, men i dag var ikke Tora Berger like treffsikker.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	går	går	NOUN	_	_	3	obl	_	name=O|Entity=(db~20081207_3959931__T6--1)
+3	skjøt	skyte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(db~20081207_3959931__790--1)
+5	feilfritt	feilfri	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	15	punct	_	name=O
+7	men	men	CCONJ	_	_	15	cc	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(db~20081207_3959931__T8--1)
+10	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	name=O
+11	ikke	ikke	PART	_	Polarity=Neg	15	advmod	_	name=O
+12	Tora	Tora	PROPN	_	_	15	nsubj	_	name=B-PER|Entity=(db~20081207_3959931__790--1
+13	Berger	Berger	PROPN	_	_	12	flat:name	_	name=I-PER|Entity=db~20081207_3959931__790)
+14	like	like	ADV	_	_	15	advmod	_	name=O
+15	treffsikker	treffsikker	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	conj	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019470
+# text = Skiskytteren hadde fire bomskudd, og var dermed sjanseløs mot tyske Martina Beck, som skjøt feilfritt.
+1	Skiskytteren	skiskytter	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(db~20081207_3959931__790--1)
+2	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	fire	fire	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(db~20081207_3959931__T11--1
+4	bomskudd	bomskudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No|name=O|Entity=db~20081207_3959931__T11)
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+8	dermed	dermed	ADV	_	_	9	advmod	_	name=O
+9	sjanseløs	sjanseløs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	conj	_	name=O
+10	mot	mot	ADP	_	_	12	case	_	name=O
+11	tyske	tysk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(db~20081207_3959931__227--1
+12	Martina	Martina	PROPN	_	_	9	obl	_	name=B-PER
+13	Beck	Beck	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PER
+14	,	$,	PUNCT	_	_	16	punct	_	name=O
+15	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+16	skjøt	skyte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	name=O
+17	feilfritt	feilfri	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	SpaceAfter=No|name=O|Entity=db~20081207_3959931__227)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 019471
+# text = Berger endte 53,6 sekunder bak tyskeren.
+1	Berger	Berger	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(db~20081207_3959931__790--1)
+2	endte	ende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	53,6	53,6	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(db~20081207_3959931__T14--1
+4	sekunder	sekund	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	name=O|Entity=db~20081207_3959931__T14)
+5	bak	bak	ADP	_	_	6	case	_	name=O
+6	tyskeren	tysker	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(db~20081207_3959931__227--1)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 019472
+# text = Etter sprinten i går gikk hun ut som nummer to.
+1	Etter	etter	ADP	_	_	2	case	_	name=O
+2	sprinten	sprint	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(db~20081207_3959931__T16--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	går	går	NOUN	_	_	2	nmod	_	name=O|Entity=(db~20081207_3959931__T17--1)db~20081207_3959931__T16)
+5	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(db~20081207_3959931__790--1)
+7	ut	ut	ADP	_	_	5	compound:prt	_	name=O
+8	som	som	SCONJ	_	_	10	mark	_	name=O
+9	nummer	nummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	name=O|Entity=(db~20081207_3959931__T19--1)
+10	to	to	NUM	_	Number=Plur|NumType=Card	5	xcomp	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 019473
+# text = Etter å ha dratt på seg tre strafferunder på de to første liggende, samt én bom på siste stående, ble pallplassering en umulighet.
+1	Etter	etter	SCONJ	_	_	4	mark	_	name=O
+2	å	å	PART	_	_	4	mark	_	name=O
+3	ha	ha	AUX	_	VerbForm=Inf	4	aux	_	name=O
+4	dratt	dra	VERB	_	VerbForm=Part	22	advcl	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obl	_	name=O
+7	tre	tre	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(db~20081207_3959931__T20--1
+8	strafferunder	strafferunde	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=O|Entity=db~20081207_3959931__T20)
+9	på	på	ADP	_	_	12	case	_	name=O
+10	de	de	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(db~20081207_3959931__T21--1
+11	to	to	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O
+12	første	første	ADJ	_	Degree=Pos|Number=Plur	4	advmod	_	name=O
+13	liggende	ligge	ADJ	_	VerbForm=Part	12	amod	_	SpaceAfter=No|name=O|Entity=db~20081207_3959931__T21)
+14	,	$,	PUNCT	_	_	17	punct	_	name=O
+15	samt	samt	CCONJ	_	_	17	cc	_	name=O
+16	én	én	NUM	_	Gender=Masc|Number=Sing|NumType=Card	17	nummod	_	name=O|Entity=(db~20081207_3959931__T22--1
+17	bom	bom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	name=O
+18	på	på	ADP	_	_	19	case	_	name=O
+19	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	orphan	_	name=O|Entity=(db~20081207_3959931__T23--1
+20	stående	stå	ADJ	_	VerbForm=Part	19	amod	_	SpaceAfter=No|name=O|Entity=db~20081207_3959931__T23)
+21	,	$,	PUNCT	_	_	17	punct	_	name=O|Entity=db~20081207_3959931__T22)
+22	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+23	pallplassering	pallplassering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	nsubj	_	name=O|Entity=(db~20081207_3959931__T24--1)
+24	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(db~20081207_3959931__T25--1
+25	umulighet	umulighet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	xcomp	_	SpaceAfter=No|name=O|Entity=db~20081207_3959931__T25)
+26	.	$.	PUNCT	_	_	22	punct	_	name=O
+
+# sent_id = 019474
+# text = På pallen sørget Jekaterina Jourijeva og Svetlana Sleptsova for dobbelt russisk, med henholdsvis andre og tredjeplass.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	pallen	pall	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(db~20081207_3959931__T26--1)
+3	sørget	sørge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Jekaterina	Jekaterina	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(db~20081207_3959931__T27--1(db~20081207_3959931__T28--1
+5	Jourijeva	Jourijeva	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=db~20081207_3959931__T28)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	Svetlana	Svetlana	PROPN	_	_	4	conj	_	name=B-PER|Entity=(db~20081207_3959931__T29--1
+8	Sleptsova	Sleptsova	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=db~20081207_3959931__T29)db~20081207_3959931__T27)
+9	for	for	ADP	_	_	11	case	_	name=O
+10	dobbelt	dobbelt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O|Entity=(db~20081207_3959931__T30--1
+11	russisk	russisk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=db~20081207_3959931__T30)
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	med	med	ADP	_	_	15	case	_	name=O
+14	henholdsvis	henholdsvis	ADV	_	_	15	advmod	_	name=O
+15	andre	annen	DET	_	Number=Plur|PronType=Dem	3	obl	_	name=O
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	tredjeplass	tredjeplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|name=O|Entity=(db~20081207_3959931__T31--1)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 019475
+# text = Bortsett fra Berger ble Solveig Rogstad eneste norske jente blant de 30 beste.
+1	Bortsett	bortse	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	advmod	_	name=O
+2	fra	fra	ADP	_	_	3	case	_	name=O
+3	Berger	Berger	PROPN	_	_	1	obl	_	name=B-PER|Entity=(db~20081207_3959931__790--1)
+4	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	Solveig	Solveig	PROPN	_	Gender=Fem	4	nsubj	_	name=B-PER|Entity=(db~20081207_3959931__237--1
+6	Rogstad	Rogstad	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=db~20081207_3959931__237)
+7	eneste	eneste	NUM	_	Definite=Def|NumType=Card	9	nummod	_	name=O|Entity=(db~20081207_3959931__T34--1
+8	norske	norsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	jente	jente	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	xcomp	_	name=O
+10	blant	blant	ADP	_	_	13	case	_	name=O
+11	de	de	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(db~20081207_3959931__T35--1
+12	30	30	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O
+13	beste	god	ADJ	_	Definite=Def|Degree=Sup	7	advmod	_	SpaceAfter=No|name=O|Entity=db~20081207_3959931__T35)db~20081207_3959931__T34)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+

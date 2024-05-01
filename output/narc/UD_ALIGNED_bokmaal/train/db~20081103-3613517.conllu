@@ -1,0 +1,217 @@
+# newdoc id = db~20081103-3613517
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 010288
+# text = Dagmamma brukte Hells Angels til å kreve inn gjeld
+1	Dagmamma	dagmamma	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(db~20081103_3613517__7155--1)
+2	brukte	bruke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	Hells	Hells	PROPN	_	_	2	obj	_	name=B-ORG|Entity=(db~20081103_3613517__6187--1
+4	Angels	Angels	PROPN	_	_	3	flat:name	_	name=I-ORG|Entity=db~20081103_3613517__6187)
+5	til	til	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	kreve	kreve	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+8	inn	inn	ADP	_	_	7	compound:prt	_	name=O
+9	gjeld	gjeld	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	name=O|Entity=(db~20081103_3613517__T3--1)
+
+# newpar
+# sent_id = 010289
+# text = Barnefaren ble oppsøkt av MC-menn.
+1	Barnefaren	barnefar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=(db~20081103_3613517__T4--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	oppsøkt	oppsøke	VERB	_	VerbForm=Part	0	root	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	MC-menn	MC-mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=(db~20081103_3613517__5105--1)
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 010290
+# text = Med assistanse fra medlemmer av MC-klubben Hells Angels (HA) forsøkte den oppsagte dagmammaen å inndrive utestående penger.
+1	Med	med	ADP	_	_	2	case	_	name=O
+2	assistanse	assistanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(db~20081103_3613517__T6--1
+3	fra	fra	ADP	_	_	4	case	_	name=O
+4	medlemmer	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=(db~20081103_3613517__5105--1
+5	av	av	ADP	_	_	7	case	_	name=O
+6	MC-klubben	MC-klubb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(db~20081103_3613517__6187--1
+7	Hells	Hells	PROPN	_	_	4	nmod	_	name=B-ORG
+8	Angels	Angels	PROPN	_	_	7	flat:name	_	name=I-ORG
+9	(	$(	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O|Entity=(db~20081103_3613517__T9--1
+10	HA	HA	PROPN	_	_	7	appos	_	SpaceAfter=No|name=B-ORG
+11	)	$)	PUNCT	_	_	10	punct	_	name=O|Entity=db~20081103_3613517__T9)db~20081103_3613517__6187)db~20081103_3613517__5105)db~20081103_3613517__T6)
+12	forsøkte	forsøke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+13	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(db~20081103_3613517__7155--1
+14	oppsagte	oppsagt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	dagmammaen	dagmamma	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=db~20081103_3613517__7155)
+16	å	å	PART	_	_	17	mark	_	name=O
+17	inndrive	inndrive	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+18	utestående	utestående	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O|Entity=(db~20081103_3613517__T11--1
+19	penger	penge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No|name=O|Entity=db~20081103_3613517__T11)
+20	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 010291
+# text = Etter at en barnefar sa opp kontrakten og holdt sin ett år gamle datter borte fra dagmammaen, ble han oppsøkt av HA-medlemmer hjemme på døren med krav om penger i oktober 2005.
+1	Etter	etter	SCONJ	_	_	5	mark	_	name=O
+2	at	at	SCONJ	_	_	5	mark	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(db~20081103_3613517__10332--1
+4	barnefar	barnefar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=db~20081103_3613517__10332)
+5	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	advcl	_	name=O
+6	opp	opp	ADP	_	_	5	compound:prt	_	name=O
+7	kontrakten	kontrakt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=(db~20081103_3613517__T13--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	holdt	holde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	name=O
+10	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	name=O|Entity=(db~20081103_3613517__T16--1(db~20081103_3613517__10332--1)
+11	ett	én	NUM	_	Gender=Neut|Number=Sing|NumType=Card	12	nummod	_	name=O|Entity=(db~20081103_3613517__T15--1
+12	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	name=O|Entity=db~20081103_3613517__T15)
+13	gamle	gammel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	datter	datter	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	name=O|Entity=db~20081103_3613517__T16)
+15	borte	borte	ADP	_	_	17	case	_	name=O
+16	fra	fra	ADP	_	_	17	case	_	name=O
+17	dagmammaen	dagmamma	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(db~20081103_3613517__7155--1)
+18	,	$,	PUNCT	_	_	5	punct	_	name=O
+19	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux:pass	_	name=O
+20	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	name=O|Entity=(db~20081103_3613517__10332--1)
+21	oppsøkt	oppsøke	VERB	_	VerbForm=Part	0	root	_	name=O
+22	av	av	ADP	_	_	23	case	_	name=O
+23	HA-medlemmer	HA-medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	21	obl	_	name=B-DRV|Entity=(db~20081103_3613517__5105--1)
+24	hjemme	hjemme	ADP	_	_	26	case	_	name=O
+25	på	på	ADP	_	_	26	case	_	name=O
+26	døren	dør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	obl	_	name=O|Entity=(db~20081103_3613517__T20--1)
+27	med	med	ADP	_	_	28	case	_	name=O
+28	krav	krav	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	name=O|Entity=(db~20081103_3613517__T21--1
+29	om	om	ADP	_	_	30	case	_	name=O
+30	penger	penge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	28	nmod	_	name=O|Entity=(db~20081103_3613517__T22--1)db~20081103_3613517__T21)
+31	i	i	ADP	_	_	32	case	_	name=O
+32	oktober	oktober	NOUN	_	Gender=Masc	21	obl	_	name=O|Entity=(db~20081103_3613517__T23--1
+33	2005	2005	NUM	_	Number=Plur|NumType=Card	32	nmod	_	SpaceAfter=No|name=O|Entity=db~20081103_3613517__T23)
+34	.	$.	PUNCT	_	_	21	punct	_	name=O
+
+# sent_id = 010292
+# text = I dommen fra Jæren tingrett slås det fast at dagmammaen (44) ikke hadde anledning til kreve inn 9.000 kroner fra mannen som mente kvinnen hadde misligholdt avtalen de hadde inngått.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dommen	dom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(db~20081103_3613517__280--1
+3	fra	fra	ADP	_	_	4	case	_	name=O
+4	Jæren	Jæren	PROPN	_	_	2	nmod	_	name=B-ORG|Entity=(db~20081103_3613517__T25--1
+5	tingrett	tingrett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	flat:name	_	name=I-ORG|Entity=db~20081103_3613517__T25)db~20081103_3613517__280)
+6	slås	slå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+8	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+9	at	at	SCONJ	_	_	15	mark	_	name=O
+10	dagmammaen	dagmamma	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(db~20081103_3613517__7155--1
+11	(	$(	PUNCT	_	_	12	punct	_	SpaceAfter=No|name=O
+12	44	44	NUM	_	Number=Plur|NumType=Card	10	appos	_	SpaceAfter=No|name=O
+13	)	$)	PUNCT	_	_	12	punct	_	name=O|Entity=db~20081103_3613517__7155)
+14	ikke	ikke	PART	_	Polarity=Neg	15	advmod	_	name=O
+15	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	ccomp	_	name=O
+16	anledning	anledning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	name=O|Entity=(db~20081103_3613517__T27--1
+17	til	til	ADP	_	_	18	case	_	name=O
+18	kreve	kreve	VERB	_	VerbForm=Inf	16	acl:relcl	_	name=O
+19	inn	inn	ADP	_	_	18	compound:prt	_	name=O
+20	9.000	9.000	NUM	_	Number=Plur|NumType=Card	21	nummod	_	name=O|Entity=(db~20081103_3613517__3110--1
+21	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	18	obj	_	name=O|Entity=db~20081103_3613517__3110)
+22	fra	fra	ADP	_	_	23	case	_	name=O
+23	mannen	mann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	name=O|Entity=(db~20081103_3613517__10332--1
+24	som	som	PRON	_	PronType=Rel	25	nsubj	_	name=O
+25	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	_	name=O
+26	kvinnen	kvinne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	nsubj	_	name=O|Entity=(db~20081103_3613517__7155--1)
+27	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	name=O
+28	misligholdt	misligholde	VERB	_	VerbForm=Part	25	ccomp	_	name=O
+29	avtalen	avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	28	obj	_	name=O|Entity=(db~20081103_3613517__T31--1
+30	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	name=O|SplitAnte=db~20081103_3613517__7155<db~20081103_3613517__T32,db~20081103_3613517__10332<db~20081103_3613517__T32|Entity=(db~20081103_3613517__T32--1)
+31	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	name=O
+32	inngått	inngå	VERB	_	VerbForm=Part	29	acl:relcl	_	SpaceAfter=No|name=O|Entity=db~20081103_3613517__T31)db~20081103_3613517__10332)db~20081103_3613517__T27)
+33	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 010293
+# text = Kvinnen var sammen med to medlemmer av Hells Angels da han urettmessig ble truet.
+1	Kvinnen	kvinne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(db~20081103_3613517__7155--1)
+2	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	sammen	sammen	ADV	_	_	6	advmod	_	name=O
+4	med	med	ADP	_	_	6	case	_	name=O
+5	to	to	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(db~20081103_3613517__5105--1
+6	medlemmer	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	Hells	Hells	PROPN	_	_	6	nmod	_	name=B-ORG|Entity=(db~20081103_3613517__6187--1
+9	Angels	Angels	PROPN	_	_	8	flat:name	_	name=I-ORG|Entity=db~20081103_3613517__6187)db~20081103_3613517__5105)
+10	da	da	SCONJ	_	_	14	mark	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	name=O|Entity=(db~20081103_3613517__10332--1)
+12	urettmessig	urettmessig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+13	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux:pass	_	name=O
+14	truet	true	VERB	_	VerbForm=Part	2	advcl	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 010294
+# text = Da småbarnsfaren nektet å betale kvinnen pengene, skal også den ene av HA-medlemmene ha sagt at de skulle overta gjelden dersom beløpet ikke ble gjort opp.
+1	Da	da	SCONJ	_	_	3	mark	_	name=O
+2	småbarnsfaren	småbarnsfar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(db~20081103_3613517__10332--1)
+3	nektet	nekte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	betale	betale	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	kvinnen	kvinne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	iobj	_	name=O|Entity=(db~20081103_3613517__7155--1)
+7	pengene	penge	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No|name=O|Entity=(db~20081103_3613517__3110--1)
+8	,	$,	PUNCT	_	_	3	punct	_	name=O
+9	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+10	også	også	ADV	_	_	16	advmod	_	name=O
+11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(db~20081103_3613517__T57--1
+12	ene	ene	NUM	_	Definite=Def|Number=Sing|NumType=Card	16	nsubj	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	HA-medlemmene	HA-medlem	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	12	nmod	_	name=B-DRV|Entity=(db~20081103_3613517__5105--1)db~20081103_3613517__T57)
+15	ha	ha	AUX	_	VerbForm=Inf	16	aux	_	name=O
+16	sagt	si	VERB	_	VerbForm=Part	0	root	_	name=O
+17	at	at	SCONJ	_	_	20	mark	_	name=O
+18	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(db~20081103_3613517__6187--1)
+19	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	name=O
+20	overta	overta	VERB	_	VerbForm=Inf	16	ccomp	_	name=O
+21	gjelden	gjeld	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obj	_	name=O|Entity=(db~20081103_3613517__T42--1)
+22	dersom	dersom	SCONJ	_	_	26	mark	_	name=O
+23	beløpet	beløp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	26	nsubj:pass	_	name=O|Entity=(db~20081103_3613517__3110--1)
+24	ikke	ikke	PART	_	Polarity=Neg	26	advmod	_	name=O
+25	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux:pass	_	name=O
+26	gjort	gjøre	VERB	_	VerbForm=Part	20	advcl	_	name=O
+27	opp	opp	ADP	_	_	26	compound:prt	_	SpaceAfter=No|name=O
+28	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 010295
+# text = - Fornærmede har forklart at han oppfattet det som skremmende at han ble oppsøkt av personer tilhørende Hells Angels-miljøet, og han var ikke i tvil om at de var i stand til å gjøre alvor av truslene, står det i dommen.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Fornærmede	fornærmet	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	nsubj	_	name=O|Entity=(db~20081103_3613517__10332--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	forklart	forklare	VERB	_	VerbForm=Part	0	root	_	name=O
+5	at	at	SCONJ	_	_	7	mark	_	name=O
+6	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(db~20081103_3613517__10332--1)
+7	oppfattet	oppfatte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+9	som	som	SCONJ	_	_	10	mark	_	name=O
+10	skremmende	skremme	ADJ	_	VerbForm=Part	7	xcomp	_	name=O|Entity=(db~20081103_3613517__T46--1)
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	name=O|Entity=(db~20081103_3613517__10332--1)
+13	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux:pass	_	name=O
+14	oppsøkt	oppsøke	VERB	_	VerbForm=Part	7	ccomp	_	name=O
+15	av	av	ADP	_	_	16	case	_	name=O
+16	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	name=O|Entity=(db~20081103_3613517__T48--1
+17	tilhørende	tilhøre	ADJ	_	VerbForm=Part	16	amod	_	name=O
+18	Hells	Hells	PROPN	_	_	19	compound	_	name=B-DRV|Entity=(db~20081103_3613517__6187--1
+19	Angels-miljøet	Angels-miljø	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	obj	_	SpaceAfter=No|name=I-DRV|Entity=db~20081103_3613517__6187)db~20081103_3613517__T48)
+20	,	$,	PUNCT	_	_	26	punct	_	name=O
+21	og	og	CCONJ	_	_	26	cc	_	name=O
+22	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	name=O|Entity=(db~20081103_3613517__10332--1)
+23	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	26	cop	_	name=O
+24	ikke	ikke	PART	_	Polarity=Neg	26	advmod	_	name=O
+25	i	i	ADP	_	_	26	case	_	name=O
+26	tvil	tvil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	name=O|Entity=(db~20081103_3613517__T51--1
+27	om	om	SCONJ	_	_	32	mark	_	name=O
+28	at	at	SCONJ	_	_	32	mark	_	name=O
+29	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	name=O|Entity=(db~20081103_3613517__6187--1)
+30	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	32	cop	_	name=O
+31	i	i	SCONJ	_	_	32	mark	_	name=O
+32	stand	stand	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	acl	_	name=O|Entity=(db~20081103_3613517__T53--1
+33	til	til	SCONJ	_	_	35	mark	_	name=O
+34	å	å	PART	_	_	35	mark	_	name=O
+35	gjøre	gjøre	VERB	_	VerbForm=Inf	32	acl	_	name=O
+36	alvor	alvor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	35	obj	_	name=O|Entity=(db~20081103_3613517__T54--1)
+37	av	av	ADP	_	_	38	case	_	name=O
+38	truslene	trussel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No|name=O|Entity=(db~20081103_3613517__T55--1)db~20081103_3613517__T53)db~20081103_3613517__T51)
+39	,	$,	PUNCT	_	_	26	punct	_	name=O
+40	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+41	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	expl	_	name=O
+42	i	i	ADP	_	_	43	case	_	name=O
+43	dommen	dom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No|name=O|Entity=(db~20081103_3613517__280--1)
+44	.	$.	PUNCT	_	_	4	punct	_	name=O
+

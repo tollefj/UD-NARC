@@ -1,0 +1,204 @@
+# newdoc id = firdann~20090916-4588654
+# global.Entity = eid-etype-head-other
+# sent_id = 007368
+# text = Slutt på skipsbygging i Florø
+1	Slutt	slutt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	skipsbygging	skipsbygging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	name=O|Entity=(firdann~20090916_4588654__T1--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Florø	Florø	PROPN	_	_	3	nmod	_	name=B-LOC|Entity=(firdann~20090916_4588654__T2--1)firdann~20090916_4588654__T1)
+
+# newpar
+# sent_id = 007369
+# text = STX Norway Florø nedbemannar med 120, og legg om drifta.
+1	STX	STX	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(firdann~20090916_4588654__212--1
+2	Norway	Norway	PROPN	_	_	1	flat:name	_	name=I-ORG
+3	Florø	Florø	PROPN	_	_	1	flat:name	_	name=I-ORG|Entity=firdann~20090916_4588654__212)
+4	nedbemannar	nedbemanne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	120	120	NUM	_	Number=Plur|NumType=Card	4	obl	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	legg	leggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+10	om	om	ADP	_	_	9	compound:prt	_	name=O
+11	drifta	drift	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Bridge=firdann~20090916_4588654__212<firdann~20090916_4588654__226:default|Entity=(firdann~20090916_4588654__226--1)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 007370
+# text = Foto Knut Magnussen
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20090916_4588654__T5--1
+2	Knut	Knut	NOUN	_	Gender=Masc	1	parataxis	_	name=B-PER|Entity=(firdann~20090916_4588654__T6--1
+3	Magnussen	Magnussen	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20090916_4588654__T6)firdann~20090916_4588654__T5)
+
+# newpar
+# sent_id = 007371
+# text = Dei tilsette vart i dag informerte om at verftet gir opp å satse på å byggje fleire skip, og legg om til å bli offhoreverkstad etter at dei dei to båtane som står att å levere er ferdige i høvesvis november i år og mars neste år.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|Entity=(firdann~20090916_4588654__T7--1
+2	tilsette	tilsett	ADJ	_	Degree=Pos|Number=Plur	6	nsubj:pass	_	name=O|Entity=firdann~20090916_4588654__T7)
+3	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(firdann~20090916_4588654__T8--1)
+6	informerte	informere	VERB	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+7	om	om	SCONJ	_	_	10	mark	_	name=O
+8	at	at	SCONJ	_	_	10	mark	_	name=O
+9	verftet	verft	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20090916_4588654__212--1)
+10	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	name=O
+11	opp	opp	ADP	_	_	10	compound:prt	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	satse	satse	VERB	_	VerbForm=Inf	10	xcomp	_	name=O
+14	på	på	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	byggje	byggje	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+17	fleire	mange	ADJ	_	Degree=Cmp	18	amod	_	name=O|Entity=(firdann~20090916_4588654__T10--1
+18	skip	skip	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obj	_	SpaceAfter=No|name=O|Entity=firdann~20090916_4588654__T10)
+19	,	$,	PUNCT	_	_	21	punct	_	name=O
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	legg	leggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	name=O
+22	om	om	ADP	_	_	21	compound:prt	_	name=O
+23	til	til	SCONJ	_	_	25	mark	_	name=O
+24	å	å	PART	_	_	25	mark	_	name=O
+25	bli	bli	VERB	_	VerbForm=Inf	21	advcl	_	name=O
+26	offhoreverkstad	offhoreverkstad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	xcomp	_	name=O|Entity=(firdann~20090916_4588654__T11--1)
+27	etter	etter	SCONJ	_	_	39	mark	_	name=O
+28	at	at	SCONJ	_	_	39	mark	_	name=O
+29	dei	dei	DET	_	Number=Plur|PronType=Dem	6	reparandum	_	name=O
+30	dei	dei	DET	_	Number=Plur|PronType=Dem	32	det	_	name=O|Entity=(firdann~20090916_4588654__231--1
+31	to	to	NUM	_	Number=Plur|NumType=Card	32	nummod	_	name=O
+32	båtane	båt	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	39	nsubj	_	name=O
+33	som	som	PRON	_	PronType=Rel	34	nsubj	_	name=O
+34	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	name=O
+35	att	att	ADP	_	_	34	compound:prt	_	name=O
+36	å	å	PART	_	_	37	mark	_	name=O
+37	levere	levere	VERB	_	VerbForm=Inf	34	advcl	_	name=O|Entity=firdann~20090916_4588654__231)
+38	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	39	cop	_	name=O
+39	ferdige	ferdig	ADJ	_	Degree=Pos|Number=Plur	25	advcl	_	name=O
+40	i	i	ADP	_	_	42	case	_	name=O
+41	høvesvis	høvesvis	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	42	amod	_	name=O|Entity=(firdann~20090916_4588654__T13--1(firdann~20090916_4588654__T14--1
+42	november	november	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	39	obl	_	name=O
+43	i	i	ADP	_	_	44	case	_	name=O
+44	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	42	nmod	_	name=O|Entity=(firdann~20090916_4588654__T15--1)firdann~20090916_4588654__T14)
+45	og	og	CCONJ	_	_	46	cc	_	name=O
+46	mars	mars	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	42	conj	_	name=O|Entity=(firdann~20090916_4588654__T16--1
+47	neste	neste	DET	_	Definite=Def|PronType=Dem	48	det	_	name=O|Entity=(firdann~20090916_4588654__T17--1
+48	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	46	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090916_4588654__T17)firdann~20090916_4588654__T16)firdann~20090916_4588654__T13)
+49	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007372
+# text = Tom ordrebok
+1	Tom	tom	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(firdann~20090916_4588654__238--1
+2	ordrebok	ordrebok	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=firdann~20090916_4588654__238)
+
+# sent_id = 007373
+# text = Etter at desse skipa er leverte, er ordreboka for nye skip tom.
+1	Etter	etter	SCONJ	_	_	6	mark	_	name=O
+2	at	at	SCONJ	_	_	6	mark	_	name=O
+3	desse	desse	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(firdann~20090916_4588654__231--1
+4	skipa	skip	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nsubj	_	name=O|Entity=firdann~20090916_4588654__231)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	leverte	levere	ADJ	_	Number=Plur|VerbForm=Part	13	advcl	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	6	punct	_	name=O
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+9	ordreboka	ordrebok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	13	nsubj	_	name=O|Entity=(firdann~20090916_4588654__238--1
+10	for	for	ADP	_	_	12	case	_	name=O
+11	nye	ny	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(firdann~20090916_4588654__T21--1
+12	skip	skip	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	nmod	_	name=O|Entity=firdann~20090916_4588654__T21)firdann~20090916_4588654__238)
+13	tom	tom	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 007374
+# text = Drifta skal no rettast inn mot reparasjonar og vedlikehald for offshoreverksemda, opplyser verftsdirektør Kjetil Bollestad, personaldirektør Anne Karine Lysne og teknisk sjef Deon Mortensen til firda.no.
+1	Drifta	drift	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20090916_4588654__226--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	no	no	ADV	_	_	4	advmod	_	name=O
+4	rettast	rette	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	inn	inn	ADP	_	_	7	case	_	name=O
+6	mot	mot	ADP	_	_	7	case	_	name=O
+7	reparasjonar	reparasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=(firdann~20090916_4588654__T23--1(firdann~20090916_4588654__T24--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	vedlikehald	vedlikehald	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	conj	_	name=O|Entity=(firdann~20090916_4588654__T25--1
+10	for	for	ADP	_	_	11	case	_	name=O
+11	offshoreverksemda	offshoreverksemd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588654__T26--1)firdann~20090916_4588654__T25)firdann~20090916_4588654__T23)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+14	verftsdirektør	verftsdirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(firdann~20090916_4588654__267--1(firdann~20090916_4588654__272--1
+15	Kjetil	Kjetil	NOUN	_	Gender=Masc	13	nsubj	_	name=B-PER
+16	Bollestad	Bollestad	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER
+17	,	$,	PUNCT	_	_	19	punct	_	name=O|Entity=firdann~20090916_4588654__272)
+18	personaldirektør	personaldirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=(firdann~20090916_4588654__T29--1
+19	Anne	Anne	NOUN	_	Gender=Fem	15	conj	_	name=B-PER
+20	Karine	Karine	NOUN	_	Gender=Fem	19	flat:name	_	name=I-PER
+21	Lysne	Lysne	PROPN	_	_	19	flat:name	_	name=I-PER|Entity=firdann~20090916_4588654__T29)
+22	og	og	CCONJ	_	_	25	cc	_	name=O
+23	teknisk	teknisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	24	amod	_	name=O|Entity=(firdann~20090916_4588654__T31--1(firdann~20090916_4588654__T30--1
+24	sjef	sjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	nmod	_	name=O|Entity=firdann~20090916_4588654__T30)
+25	Deon	Deon	PROPN	_	_	15	conj	_	name=B-PER
+26	Mortensen	Mortensen	PROPN	_	_	25	flat:name	_	name=I-PER|Entity=firdann~20090916_4588654__T31)firdann~20090916_4588654__267)
+27	til	til	ADP	_	_	28	case	_	name=O
+28	firda.no	firda.no	PROPN	_	_	13	obl	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20090916_4588654__T32--1)
+29	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007375
+# text = Dramatisk nedtrapping
+1	Dramatisk	dramatisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(firdann~20090916_4588654__T33--1
+2	nedtrapping	nedtrapping	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=firdann~20090916_4588654__T33)
+
+# sent_id = 007376
+# text = Omlegginga vil føre til ei nedtrapping av arbeidsstokken frå dagens 200 tilsette til ein arbeidsstokk på mellom 60 og 80, opplyser leiinga.
+1	Omlegginga	omlegging	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20090916_4588654__T34--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	føre	føre	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	til	til	ADP	_	_	6	case	_	name=O
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(firdann~20090916_4588654__276--1
+6	nedtrapping	nedtrapping	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	arbeidsstokken	arbeidsstokk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20090916_4588654__T36--1
+9	frå	frå	ADP	_	_	12	case	_	name=O
+10	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(firdann~20090916_4588654__T38--1(firdann~20090916_4588654__T37--1)
+11	200	200	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O
+12	tilsette	tilsett	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=firdann~20090916_4588654__T38)
+13	til	til	ADP	_	_	15	case	_	name=O
+14	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(firdann~20090916_4588654__T39--1
+15	arbeidsstokk	arbeidsstokk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O
+16	på	på	ADP	_	_	18	case	_	name=O
+17	mellom	mellom	ADP	_	_	18	case	_	name=O
+18	60	60	NUM	_	Number=Plur|NumType=Card	15	nmod	_	name=O
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	80	80	NUM	_	Number=Plur|NumType=Card	18	conj	_	SpaceAfter=No|name=O|Entity=firdann~20090916_4588654__T39)firdann~20090916_4588654__T36)firdann~20090916_4588654__276)
+21	,	$,	PUNCT	_	_	22	punct	_	name=O
+22	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+23	leiinga	leiing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	22	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588654__267--1)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007377
+# text = Nedtrappinga skal skje gradvis, fram til siste båt er levert neste år.
+1	Nedtrappinga	nedtrapping	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20090916_4588654__276--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	skje	skje	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	gradvis	gradvis	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	11	punct	_	name=O
+6	fram	fram	SCONJ	_	_	11	mark	_	name=O
+7	til	til	SCONJ	_	_	11	mark	_	name=O
+8	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(firdann~20090916_4588654__T42--1
+9	båt	båt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=firdann~20090916_4588654__T42)
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	levert	levere	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	3	advcl	_	name=O
+12	neste	neste	DET	_	Definite=Def|PronType=Dem	13	det	_	name=O|Entity=(firdann~20090916_4588654__T43--1
+13	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=firdann~20090916_4588654__T43)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007378
+# text = Ifølgje verftsdirektør Bollestad, finst det ikkje marknad for vidare skipsbygging.
+1	Ifølgje	ifølgje	ADP	_	_	3	case	_	name=O
+2	verftsdirektør	verftsdirektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(firdann~20090916_4588654__272--1
+3	Bollestad	Bollestad	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-PER|Entity=firdann~20090916_4588654__272)
+4	,	$,	PUNCT	_	_	3	punct	_	name=O
+5	finst	finnast	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+7	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+8	marknad	marknad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20090916_4588654__T45--1
+9	for	for	ADP	_	_	11	case	_	name=O
+10	vidare	vid	ADJ	_	Degree=Cmp	11	amod	_	name=O|Entity=(firdann~20090916_4588654__T46--1
+11	skipsbygging	skipsbygging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20090916_4588654__T46)firdann~20090916_4588654__T45)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+

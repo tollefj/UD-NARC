@@ -1,0 +1,220 @@
+# newdoc id = firdann~20100916-5312797
+# global.Entity = eid-etype-head-other
+# sent_id = 007582
+# text = Fem unge trafikkulykke
+1	Fem	fem	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O
+2	unge	ung	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+3	trafikkulykke	trafikkulykke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100916_5312797__T1--1)
+
+# newpar
+# sent_id = 007583
+# text = Politiet mistenkjer uaktsom køyring og høg fart.
+1	Politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100916_5312797__5164--1)
+2	mistenkjer	mistenkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	uaktsom	uaktsom	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(firdann~20100916_5312797__T3--1(firdann~20100916_5312797__T4--1
+4	køyring	køyring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=firdann~20100916_5312797__T4)
+5	og	og	CCONJ	_	_	7	cc	_	name=O
+6	høg	høg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(firdann~20100916_5312797__T5--1
+7	fart	fart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312797__T5)firdann~20100916_5312797__T3)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 007584
+# text = Ambulanse, brannvesen og politi rykte torsdag kveld ut til ei trafikkulykke på E39.
+1	Ambulanse	ambulanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312797__T6--1(firdann~20100916_5312797__T7--1)
+2	,	$,	PUNCT	_	_	3	punct	_	name=O
+3	brannvesen	brannvesen	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	conj	_	name=O|Entity=(firdann~20100916_5312797__T8--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	politi	politi	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	conj	_	name=O|Entity=(firdann~20100916_5312797__T9--1)firdann~20100916_5312797__T6)
+6	rykte	rykkje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	torsdag	torsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(firdann~20100916_5312797__T10--1
+8	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(firdann~20100916_5312797__T11--1)firdann~20100916_5312797__T10)
+9	ut	ut	ADP	_	_	12	case	_	name=O
+10	til	til	ADP	_	_	12	case	_	name=O
+11	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(firdann~20100916_5312797__235--1
+12	trafikkulykke	trafikkulykke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	name=O
+13	på	på	ADP	_	_	14	case	_	name=O
+14	E39	E39	PROPN	_	_	12	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20100916_5312797__T13--1)firdann~20100916_5312797__235)
+15	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007585
+# text = - Det var fem ungdommar i ulykkesbilen, og ungdommane er køyrde med ambulanse til legevakta, opplyser operasjonssentralen ved Sogn og Fjordane politidistrikt.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	fem	fem	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(firdann~20100916_5312797__4101--1
+5	ungdommar	ungdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=firdann~20100916_5312797__4101)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	ulykkesbilen	ulykkesbil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Bridge=firdann~20100916_5312797__235<firdann~20100916_5312797__4141:default|Entity=(firdann~20100916_5312797__4141--1)
+8	,	$,	PUNCT	_	_	12	punct	_	name=O
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	ungdommane	ungdom	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	name=O|Entity=(firdann~20100916_5312797__4101--1)
+11	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	køyrde	køyre	VERB	_	Number=Plur|VerbForm=Part	3	conj	_	name=O
+13	med	med	ADP	_	_	14	case	_	name=O
+14	ambulanse	ambulanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(firdann~20100916_5312797__T17--1)
+15	til	til	ADP	_	_	16	case	_	name=O
+16	legevakta	legevakt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312797__253--1)
+17	,	$,	PUNCT	_	_	12	punct	_	name=O
+18	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+19	operasjonssentralen	operasjonssentral	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	name=O|Entity=(firdann~20100916_5312797__T19--1
+20	ved	ved	ADP	_	_	21	case	_	name=O
+21	Sogn	Sogn	PROPN	_	_	19	nmod	_	name=B-ORG|Entity=(firdann~20100916_5312797__264--1
+22	og	og	CCONJ	_	_	21	flat:name	_	name=I-ORG
+23	Fjordane	Fjordane	PROPN	_	_	21	flat:name	_	name=I-ORG
+24	politidistrikt	politidistrikt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100916_5312797__264)firdann~20100916_5312797__T19)
+25	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007586
+# text = Politiet fekk meldinga om ulykka klokka 21.23.
+1	Politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100916_5312797__5164--1)
+2	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	meldinga	melding	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(firdann~20100916_5312797__T22--1
+4	om	om	ADP	_	_	5	case	_	name=O
+5	ulykka	ulykke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	name=O|Entity=(firdann~20100916_5312797__235--1)firdann~20100916_5312797__T22)
+6	klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(firdann~20100916_5312797__T24--1)
+7	21.23	21.23	NUM	_	NumType=Card	2	obl	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007587
+# text = Krasja i autovern og fjellvegg
+1	Krasja	krasje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	autovern	autovern	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	name=O|Entity=(firdann~20100916_5312797__T25--1(firdann~20100916_5312797__T26--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	fjellvegg	fjellvegg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	name=O|Entity=(firdann~20100916_5312797__T27--1)firdann~20100916_5312797__T25)
+
+# sent_id = 007588
+# text = Bilen skal ha vore utanfor vegbana på begge sider, og krasja både i autovern og fjellveggen.
+1	Bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(firdann~20100916_5312797__4141--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	ha	ha	AUX	_	VerbForm=Inf	6	aux	_	name=O
+4	vore	vere	AUX	_	VerbForm=Part	6	cop	_	name=O
+5	utanfor	utanfor	ADP	_	_	6	case	_	name=O
+6	vegbana	vegbane	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(firdann~20100916_5312797__T29--1)
+7	på	på	ADP	_	_	9	case	_	name=O
+8	begge	begge	DET	_	Number=Plur|PronType=Tot	9	det	_	name=O|Entity=(firdann~20100916_5312797__T30--1
+9	sider	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312797__T30)
+10	,	$,	PUNCT	_	_	12	punct	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	krasja	krasje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	name=O
+13	både	både	CCONJ	_	_	15	cc	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	autovern	autovern	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	name=O|Entity=(firdann~20100916_5312797__T31--1(firdann~20100916_5312797__T32--1)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	fjellveggen	fjellvegg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312797__T33--1)firdann~20100916_5312797__T31)
+18	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007589
+# text = - Alle dei fem ungdommane er køyrde til legevakta.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Alle	all	DET	_	Number=Plur|PronType=Tot	5	det	_	name=O|Entity=(firdann~20100916_5312797__4101--1
+3	dei	dei	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O
+4	fem	fem	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O
+5	ungdommane	ungdom	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=firdann~20100916_5312797__4101)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	køyrde	køyre	VERB	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	legevakta	legevakt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312797__253--1)
+10	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 007590
+# text = Skadeomfanget er ukjent, men dei sto alle utanfor bilen då vi kom til staden, så det er truleg snakk om moderate skader, seier operasjonsleiar Hans Petter Harlem i Sogn og Fjordane politidistrikt til bt.no.
+1	Skadeomfanget	skadeomfang	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20100916_5312797__T36--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	ukjent	ukjend	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	7	punct	_	name=O
+5	men	men	CCONJ	_	_	7	cc	_	name=O
+6	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(firdann~20100916_5312797__4101[1/2]--1)
+7	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+8	alle	all	DET	_	Number=Plur|PronType=Tot	6	det	_	name=O|Entity=(firdann~20100916_5312797__4101[2/2]--1)
+9	utanfor	utanfor	ADP	_	_	10	case	_	name=O
+10	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(firdann~20100916_5312797__4141--1)
+11	då	då	SCONJ	_	_	13	mark	_	name=O
+12	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(firdann~20100916_5312797__5164--1)
+13	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	ccomp	_	name=O
+14	til	til	ADP	_	_	15	case	_	name=O
+15	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Bridge=firdann~20100916_5312797__235<firdann~20100916_5312797__T40:default|Entity=(firdann~20100916_5312797__T40--1)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	så	så	CCONJ	_	_	21	cc	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	name=O
+19	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+20	truleg	truleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+21	snakk	snakk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	conj	_	name=O|Entity=(firdann~20100916_5312797__T41--1
+22	om	om	ADP	_	_	24	case	_	name=O
+23	moderate	moderat	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	name=O|Entity=(firdann~20100916_5312797__T42--1
+24	skader	skade	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312797__T42)firdann~20100916_5312797__T41)
+25	,	$,	PUNCT	_	_	21	punct	_	name=O
+26	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+27	operasjonsleiar	operasjonsleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	name=O|Entity=(firdann~20100916_5312797__T43--1
+28	Hans	Hans	NOUN	_	Gender=Masc	26	nsubj	_	name=B-PER
+29	Petter	Petter	NOUN	_	Gender=Masc	28	flat:name	_	name=I-PER
+30	Harlem	Harlem	PROPN	_	_	28	flat:name	_	name=I-PER
+31	i	i	ADP	_	_	32	case	_	name=O
+32	Sogn	Sogn	PROPN	_	_	28	nmod	_	name=B-ORG|Entity=(firdann~20100916_5312797__264--1
+33	og	og	CCONJ	_	_	32	flat:name	_	name=I-ORG
+34	Fjordane	Fjordane	PROPN	_	_	32	flat:name	_	name=I-ORG
+35	politidistrikt	politidistrikt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	32	flat:name	_	name=I-ORG|Entity=firdann~20100916_5312797__264)firdann~20100916_5312797__T43)
+36	til	til	ADP	_	_	37	case	_	name=O
+37	bt.no	bt.no	PROPN	_	_	26	obl	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20100916_5312797__T45--1)
+38	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007591
+# text = Har kverrsett førarkort
+1	Har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	name=O
+2	kverrsett	kverrsetje	VERB	_	VerbForm=Part	0	root	_	name=O
+3	førarkort	førarkort	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O|Entity=(firdann~20100916_5312797__T46--1)
+
+# sent_id = 007592
+# text = Politiet har mistanke om uaktsom køyring og høg fart, og har kverrsett førarkortet til sjåføren.
+1	Politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100916_5312797__5164--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	mistanke	mistanke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(firdann~20100916_5312797__T48--1
+4	om	om	ADP	_	_	6	case	_	name=O
+5	uaktsom	uaktsom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O|Entity=(firdann~20100916_5312797__T49--1(firdann~20100916_5312797__T50--1
+6	køyring	køyring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	nmod	_	name=O|Entity=firdann~20100916_5312797__T50)
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	høg	høg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(firdann~20100916_5312797__T51--1
+9	fart	fart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=firdann~20100916_5312797__T51)firdann~20100916_5312797__T49)firdann~20100916_5312797__T48)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	kverrsett	kverrsetje	VERB	_	VerbForm=Part	2	conj	_	name=O
+14	førarkortet	førarkort	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	obj	_	name=O|Entity=(firdann~20100916_5312797__T52--1
+15	til	til	ADP	_	_	16	case	_	name=O
+16	sjåføren	sjåfør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Bridge=firdann~20100916_5312797__4141<firdann~20100916_5312797__2107:default|Entity=(firdann~20100916_5312797__2107--1)firdann~20100916_5312797__T52)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007593
+# text = Vedkommande har ifølgje politiet samtykt i beslaget.
+1	Vedkommande	vedkommande	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20100916_5312797__2107--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	ifølgje	ifølgje	ADP	_	_	4	case	_	name=O
+4	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(firdann~20100916_5312797__5164--1)
+5	samtykt	samtykkje	VERB	_	VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	beslaget	beslag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100916_5312797__T56--1)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007594
+# text = Det var ein gut og fire jenter i bilen som var på veg frå Førde i retning Gaular.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(firdann~20100916_5312797__T57--1(firdann~20100916_5312797__T58--1
+4	gut	gut	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=firdann~20100916_5312797__T58)
+5	og	og	CCONJ	_	_	7	cc	_	name=O
+6	fire	fire	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(firdann~20100916_5312797__T59--1
+7	jenter	jente	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	conj	_	name=O|Entity=firdann~20100916_5312797__T59)firdann~20100916_5312797__T57)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	bilen	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100916_5312797__4141--1
+10	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+11	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	veg	veg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	acl:relcl	_	name=O|Entity=(firdann~20100916_5312797__T61--1
+14	frå	frå	ADP	_	_	15	case	_	name=O
+15	Førde	Førde	PROPN	_	_	13	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100916_5312797__T62--1)firdann~20100916_5312797__T61)
+16	i	i	ADP	_	_	18	case	_	name=O
+17	retning	retning	ADP	_	_	18	case	_	name=O
+18	Gaular	Gaular	PROPN	_	_	13	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100916_5312797__T63--1)firdann~20100916_5312797__4141)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+

@@ -1,0 +1,290 @@
+# newdoc id = aftenposten_03
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 000034
+# text = Jagland skal lede utenrikskomitéen
+1	Jagland	Jagland	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(aftenposten_03__361--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	lede	lede	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	utenrikskomitéen	utenrikskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(aftenposten_03__5139--1)
+
+# newpar
+# sent_id = 000035
+# text = Ap. får styringen med de store internasjonale spørsmål på Stortinget, mens Høyre konsentrerer seg om de nære ting.
+1	Ap.	Ap.	PROPN	_	Abbr=Yes	2	nsubj	_	name=B-ORG|Entity=(aftenposten_03__6198--1)
+2	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	styringen	styring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(aftenposten_03__T4--1
+4	med	med	ADP	_	_	8	case	_	name=O
+5	de	de	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(aftenposten_03__T5--1
+6	store	stor	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+7	internasjonale	internasjonal	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	Stortinget	Stortinget	PROPN	_	Gender=Neut	2	obl	_	SpaceAfter=No|name=B-ORG|Entity=(aftenposten_03__219--1)aftenposten_03__T5)aftenposten_03__T4)
+11	,	$,	PUNCT	_	_	14	punct	_	name=O
+12	mens	mens	SCONJ	_	_	14	mark	_	name=O
+13	Høyre	Høyre	PROPN	_	_	14	nsubj	_	name=B-ORG|Entity=(aftenposten_03__4135--1)
+14	konsentrerer	konsentrere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+15	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	14	obj	_	name=O|Entity=(aftenposten_03__4135--1)
+16	om	om	ADP	_	_	19	case	_	name=O
+17	de	de	DET	_	Number=Plur|PronType=Dem	19	det	_	name=O|Entity=(aftenposten_03__T8--1
+18	nære	nær	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O
+19	ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T8)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000036
+# text = Thorbjørn Jagland skal lede utenrikskomitéen.
+1	Thorbjørn	Thorbjørn	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(aftenposten_03__361--1
+2	Jagland	Jagland	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=aftenposten_03__361)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	lede	lede	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	utenrikskomitéen	utenrikskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__5139--1)
+6	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 000037
+# text = De parlamentariske ledere på Stortinget ble mandag kveld enige om hvilke partier som skal ha ledelsen for de forskjellige komitéene.
+1	De	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(aftenposten_03__T12--1
+2	parlamentariske	parlamentarisk	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	ledere	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	Stortinget	Stortinget	PROPN	_	Gender=Neut	3	nmod	_	name=B-ORG|Entity=(aftenposten_03__219--1)aftenposten_03__T12)
+6	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(aftenposten_03__T17--1
+8	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=aftenposten_03__T17)
+9	enige	enig	ADJ	_	Degree=Pos|Number=Plur	6	xcomp	_	name=O
+10	om	om	SCONJ	_	_	15	mark	_	name=O
+11	hvilke	hvilken	DET	_	Number=Plur|PronType=Int	12	det	_	name=O|Entity=(aftenposten_03__T14--1
+12	partier	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	15	nsubj	_	name=O
+13	som	som	PRON	_	PronType=Rel	15	nmod	_	name=O
+14	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	ha	ha	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+16	ledelsen	ledelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=(aftenposten_03__T15--1
+17	for	for	ADP	_	_	20	case	_	name=O
+18	de	de	DET	_	Number=Plur|PronType=Dem	20	det	_	name=O|SplitAnte=aftenposten_03__251<aftenposten_03__T16,aftenposten_03__248<aftenposten_03__T16,aftenposten_03__5139<aftenposten_03__T16,aftenposten_03__T54<aftenposten_03__T16,aftenposten_03__T55<aftenposten_03__T16,aftenposten_03__T59<aftenposten_03__T16,aftenposten_03__T60<aftenposten_03__T16,aftenposten_03__T61<aftenposten_03__T16,aftenposten_03__T67<aftenposten_03__T16,aftenposten_03__T69<aftenposten_03__T16,aftenposten_03__T75<aftenposten_03__T16,aftenposten_03__T82<aftenposten_03__T16|Entity=(aftenposten_03__T16--1
+19	forskjellige	forskjellig	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O
+20	komitéene	komité	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T16)aftenposten_03__T15)aftenposten_03__T14)
+21	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 000038
+# text = Fra før er det kjent at Fr.p. vil få ledervervene i finanskomitéen og sosialkomitéen, ved henholdsvis Siv Jensen og John Alvheim.
+1	Fra	fra	ADP	_	_	2	case	_	name=O
+2	før	før	ADP	_	_	5	obl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	kjent	kjent	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	Fr.p.	Frp.	PROPN	_	Abbr=Yes	9	nsubj	_	name=B-ORG|Entity=(aftenposten_03__T19--1)
+8	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	få	få	VERB	_	VerbForm=Inf	5	csubj	_	name=O
+10	ledervervene	lederverv	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	obj	_	name=O|Entity=(aftenposten_03__T20--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	finanskomitéen	finanskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(aftenposten_03__251--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	sosialkomitéen	sosialkomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__248--1)aftenposten_03__T20)
+15	,	$,	PUNCT	_	_	18	punct	_	name=O
+16	ved	ved	ADP	_	_	18	case	_	name=O
+17	henholdsvis	henholdsvis	ADV	_	_	18	cc	_	name=O
+18	Siv	Siv	PROPN	_	_	9	obl	_	name=B-PER|Entity=(aftenposten_03__251--1
+19	Jensen	Jensen	PROPN	_	_	18	flat:name	_	name=I-PER|Entity=aftenposten_03__251)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	John	John	PROPN	_	Gender=Masc	18	conj	_	name=B-PER|Entity=(aftenposten_03__249--1
+22	Alvheim	Alvheim	PROPN	_	_	21	flat:name	_	SpaceAfter=No|name=I-PER|Entity=aftenposten_03__249)
+23	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000039
+# text = Alvheim ledet sosialkomitéen også i forrige periode, mens Jensen var menig medlem av finanskomitéen.
+1	Alvheim	Alvheim	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(aftenposten_03__249--1)
+2	ledet	lede	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	sosialkomitéen	sosialkomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(aftenposten_03__248--1)
+4	også	også	ADV	_	_	7	advmod	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	forrige	forrige	DET	_	Definite=Def|PronType=Dem	7	det	_	name=O|Entity=(aftenposten_03__T27--1
+7	periode	periode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T27)
+8	,	$,	PUNCT	_	_	13	punct	_	name=O
+9	mens	mens	SCONJ	_	_	13	mark	_	name=O
+10	Jensen	Jensen	PROPN	_	_	13	nsubj	_	name=B-PER|Entity=(aftenposten_03__251--1)
+11	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+12	menig	menig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	name=O|Entity=(aftenposten_03__T29--1
+13	medlem	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	advcl	_	name=O
+14	av	av	ADP	_	_	15	case	_	name=O
+15	finanskomitéen	finanskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__251--1)aftenposten_03__T29)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000040
+# text = At Arbeiderpartiet får ledervervet i utenrikskomitéen, er et signal om at partiet forbereder seg på opposisjonstilværelsen.
+1	At	at	SCONJ	_	_	3	mark	_	name=O
+2	Arbeiderpartiet	Arbeiderpartiet	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(aftenposten_03__6198--1)
+3	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	csubj	_	name=O
+4	ledervervet	lederverv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(aftenposten_03__3117--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	utenrikskomitéen	utenrikskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__5139--1)aftenposten_03__3117)
+7	,	$,	PUNCT	_	_	3	punct	_	name=O
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(aftenposten_03__T34--1
+10	signal	signal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+11	om	om	SCONJ	_	_	14	mark	_	name=O
+12	at	at	SCONJ	_	_	14	mark	_	name=O
+13	partiet	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	name=O|Entity=(aftenposten_03__6198--1)
+14	forbereder	forberede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl	_	name=O
+15	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	14	obj	_	name=O|Entity=(aftenposten_03__6198--1)
+16	på	på	ADP	_	_	17	case	_	name=O
+17	opposisjonstilværelsen	opposisjonstilværelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__T37--1)aftenposten_03__T34)
+18	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 000041
+# text = Dette vervet bekles tradisjonelt av en representant for opposisjonen.
+1	Dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(aftenposten_03__3117--1
+2	vervet	verv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj:pass	_	name=O|Entity=aftenposten_03__3117)
+3	bekles	bekle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+4	tradisjonelt	tradisjonell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	av	av	ADP	_	_	7	case	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(aftenposten_03__T39--1
+7	representant	representant	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	opposisjonen	opposisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__T40--1)aftenposten_03__T39)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000042
+# text = Under sentrumsregjeringen ble utenrikskomitéen ledet av Ap.s Haakon Blankenborg, mens Kr.F.s Einar Steensnæs overtok vervet etter regjeringsskiftet.
+1	Under	under	ADP	_	_	2	case	_	name=O
+2	sentrumsregjeringen	sentrumsregjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(aftenposten_03__T41--1)
+3	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+4	utenrikskomitéen	utenrikskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj:pass	_	name=O|Entity=(aftenposten_03__5139--1)
+5	ledet	lede	VERB	_	VerbForm=Part	0	root	_	name=O
+6	av	av	ADP	_	_	8	case	_	name=O
+7	Ap.s	Ap.	PROPN	_	Abbr=Yes|Case=Gen	8	nmod	_	name=B-ORG|Entity=(aftenposten_03__T44--1(aftenposten_03__6198--1)
+8	Haakon	Haakon	PROPN	_	Gender=Masc	5	obl	_	name=B-PER
+9	Blankenborg	Blankenborg	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER|Entity=aftenposten_03__T44)
+10	,	$,	PUNCT	_	_	15	punct	_	name=O
+11	mens	mens	SCONJ	_	_	15	mark	_	name=O
+12	Kr.F.s	Krf.	PROPN	_	Abbr=Yes|Case=Gen	13	nmod	_	name=B-ORG|Entity=(aftenposten_03__T46--1(aftenposten_03__2111--1)
+13	Einar	Einar	PROPN	_	Gender=Masc	15	nsubj	_	name=B-PER
+14	Steensnæs	Steensnæs	PROPN	_	_	13	flat:name	_	name=I-PER|Entity=aftenposten_03__T46)
+15	overtok	overta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+16	vervet	verv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	obj	_	name=O|Entity=(aftenposten_03__3117--1)
+17	etter	etter	ADP	_	_	18	case	_	name=O
+18	regjeringsskiftet	regjeringsskifte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__T48--1)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000043
+# text = Thorbjørn Jagland skal nå lede utenrikskomitéen ifølge NTB.
+1	Thorbjørn	Thorbjørn	PROPN	_	Gender=Masc	5	nsubj	_	name=B-PER|Entity=(aftenposten_03__361--1
+2	Jagland	Jagland	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=aftenposten_03__361)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	nå	nå	ADV	_	_	5	advmod	_	name=O
+5	lede	lede	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	utenrikskomitéen	utenrikskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=(aftenposten_03__5139--1)
+7	ifølge	ifølge	ADP	_	_	8	case	_	name=O
+8	NTB	NTB	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-ORG|Entity=(aftenposten_03__T51--1)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000044
+# text = Ap. får også lederverv i forsvarskomitéen og næringskomitéen.
+1	Ap.	Ap.	PROPN	_	Abbr=Yes	2	nsubj	_	name=B-ORG|Entity=(aftenposten_03__6198--1)
+2	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	lederverv	lederverv	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(aftenposten_03__T53--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	forsvarskomitéen	forsvarskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(aftenposten_03__T54--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	næringskomitéen	næringskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__T55--1)aftenposten_03__T53)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000045
+# text = Høyre får lederverv i tre komitéer: familie-, kultur- og administrasjonskomitéen, justiskomitéen og samferdselskomitéen.
+1	Høyre	Høyre	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(aftenposten_03__4135--1)
+2	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	lederverv	lederverv	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(aftenposten_03__T57--1
+4	i	i	ADP	_	_	6	case	_	name=O
+5	tre	tre	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(aftenposten_03__T58--1
+6	komitéer	komité	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T58)aftenposten_03__T57)
+7	:	$:	PUNCT	_	_	8	punct	_	name=O
+8	familie-	familie-	NOUN	_	_	6	appos	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__T59--1
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	kultur-	kultur-	NOUN	_	_	8	conj	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	administrasjonskomitéen	administrasjonskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T59)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	justiskomitéen	justiskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	name=O|Entity=(aftenposten_03__T60--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	samferdselskomitéen	samferdselskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__T61--1)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000046
+# text = I de to sistnevnte hadde Høyre ledelsen også i forrige periode.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	de	de	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|SplitAnte=aftenposten_03__T61<aftenposten_03__T62,aftenposten_03__T60<aftenposten_03__T62|Entity=(aftenposten_03__T62--1
+3	to	to	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+4	sistnevnte	sistnevnt	ADJ	_	Degree=Pos|Number=Plur	5	advmod	_	name=O|Entity=aftenposten_03__T62)
+5	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	Høyre	Høyre	PROPN	_	_	5	nsubj	_	name=B-ORG|Entity=(aftenposten_03__4135--1)
+7	ledelsen	ledelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=(aftenposten_03__T65--1)
+8	også	også	ADV	_	_	11	advmod	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	forrige	forrige	DET	_	Definite=Def|PronType=Dem	11	det	_	name=O|Entity=(aftenposten_03__T64--1
+11	periode	periode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T64)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000047
+# text = Kr.F. skal lede energi- og miljøkomitéen, mens Sp. får kommunalkomitéen.
+1	Kr.F.	Krf.	PROPN	_	Abbr=Yes	3	nsubj	_	name=B-ORG|Entity=(aftenposten_03__2111--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	lede	lede	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	energi-	energi-	NOUN	_	_	3	obj	_	name=O|Entity=(aftenposten_03__T67--1
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	miljøkomitéen	miljøkomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T67)
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	mens	mens	SCONJ	_	_	10	mark	_	name=O
+9	Sp.	Sp.	PROPN	_	Abbr=Yes	10	nsubj	_	name=B-ORG|Entity=(aftenposten_03__T68--1)
+10	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+11	kommunalkomitéen	kommunalkomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__T69--1)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000048
+# text = SV har allerede utpekt sine komitéledere:
+1	SV	Sv	PROPN	_	Abbr=Yes	4	nsubj	_	name=B-ORG|Entity=(aftenposten_03__2141--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	allerede	allerede	ADV	_	_	4	advmod	_	name=O
+4	utpekt	utpeke	VERB	_	VerbForm=Part	0	root	_	name=O
+5	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	6	nmod	_	name=O|SplitAnte=aftenposten_03__2149<aftenposten_03__T72,aftenposten_03__T80<aftenposten_03__T72|Entity=(aftenposten_03__T72--1(aftenposten_03__2141--1)
+6	komitéledere	komitéleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T72)
+7	:	$:	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000049
+# text = Rolf Reikvam skal overta ledelsen av kirke-,utdannings- og forskningskomitéen, der han var menig medlem i forrige periode.
+1	Rolf	Rolf	PROPN	_	Gender=Masc	4	nsubj	_	name=B-PER|Entity=(aftenposten_03__2149--1
+2	Reikvam	Reikvam	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=aftenposten_03__2149)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	overta	overta	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	ledelsen	ledelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(aftenposten_03__T74--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	kirke-	kirke-	NOUN	_	_	5	nmod	_	SpaceAfter=No|name=O|Entity=(aftenposten_03__T75--1
+8	,	$,	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O
+9	utdannings-	utdannings-	NOUN	_	_	7	conj	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	forskningskomitéen	forskningskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T75)aftenposten_03__T74)
+12	,	$,	PUNCT	_	_	17	punct	_	name=O
+13	der	der	SCONJ	_	_	17	mark	_	name=O
+14	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(aftenposten_03__2149--1)
+15	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	name=O
+16	menig	menig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	name=O|Entity=(aftenposten_03__T78--1
+17	medlem	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	acl	_	name=O
+18	i	i	ADP	_	_	20	case	_	name=O
+19	forrige	forrige	DET	_	Definite=Def|PronType=Dem	20	det	_	name=O|Entity=(aftenposten_03__T79--1
+20	periode	periode	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T79)aftenposten_03__T78)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000050
+# text = Ågot Valle blir ny leder av kontroll- og konstitusjonskomitéen.
+1	Ågot	Ågot	PROPN	_	Gender=Fem	3	nsubj	_	name=B-PER|Entity=(aftenposten_03__T80--1
+2	Valle	Valle	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=aftenposten_03__T80)
+3	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(aftenposten_03__T81--1
+5	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	kontroll-	kontroll-	NOUN	_	_	5	nmod	_	name=O|Entity=(aftenposten_03__T82--1
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	konstitusjonskomitéen	konstitusjonskomité	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=aftenposten_03__T82)aftenposten_03__T81)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+

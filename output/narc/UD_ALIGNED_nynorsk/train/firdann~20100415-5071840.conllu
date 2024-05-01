@@ -1,0 +1,305 @@
+# newdoc id = firdann~20100415-5071840
+# global.Entity = eid-etype-head-other
+# sent_id = 006200
+# text = Fødande sviktar lokalsjukehus
+1	Fødande	føde	ADJ	_	VerbForm=Part	2	nsubj	_	name=O|Entity=(firdann~20100415_5071840__454--1)
+2	sviktar	svikte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	lokalsjukehus	lokalsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O|Entity=(firdann~20100415_5071840__210--1)
+
+# newpar
+# sent_id = 006201
+# text = Få Lærdals-kvinner føder på eige sjukehus.
+1	Få	få	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(firdann~20100415_5071840__T3--1
+2	Lærdals-kvinner	Lærdals-kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	nsubj	_	name=B-DRV|Entity=firdann~20100415_5071840__T3)
+3	føder	føde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	på	på	ADP	_	_	6	case	_	name=O
+5	eige	eigen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	6	det	_	name=O|Entity=(firdann~20100415_5071840__T4--1
+6	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5071840__T4)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 006202
+# text = Lærdal sjukehus.
+1	Lærdal	Lærdal	PROPN	_	_	0	root	_	name=B-LOC|Entity=(firdann~20100415_5071840__4132--1
+2	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=firdann~20100415_5071840__4132)
+3	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 006203
+# text = Bygdefolket går i protesttog for å berge lokalsjukehusa, men få av dei fødande brukar sitt eige lokalsjukehus.
+1	Bygdefolket	bygdefolk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100415_5071840__T6--1)
+2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	protesttog	protesttog	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100415_5071840__T7--1)
+5	for	for	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	berge	berge	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+8	lokalsjukehusa	lokalsjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5071840__210--1)
+9	,	$,	PUNCT	_	_	15	punct	_	name=O
+10	men	men	CCONJ	_	_	15	cc	_	name=O
+11	få	få	ADJ	_	Degree=Pos|Number=Plur	15	nsubj	_	name=O|Entity=(firdann~20100415_5071840__220--1
+12	av	av	ADP	_	_	14	case	_	name=O
+13	dei	dei	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(firdann~20100415_5071840__454--1
+14	fødande	føde	ADJ	_	VerbForm=Part	11	amod	_	name=O|Entity=firdann~20100415_5071840__454)firdann~20100415_5071840__220)
+15	brukar	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+16	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	_	name=O|Entity=(firdann~20100415_5071840__T12--1(firdann~20100415_5071840__220--1)
+17	eige	eigen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Prs	18	det	_	name=O
+18	lokalsjukehus	lokalsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5071840__T12)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006204
+# text = I ein rapport som konsulentselskapet PricewaterhouseCoopers (PWC) har utført på bestilling frå Helse Førde, går det fram at mange av kvinnene nyttar større sjukehus når dei sjølve skal føde, skriv Bergens Tidende.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(firdann~20100415_5071840__4126--1
+3	rapport	rapport	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	name=O
+4	som	som	PRON	_	PronType=Rel	11	obj	_	name=O
+5	konsulentselskapet	konsulentselskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	name=O|Entity=(firdann~20100415_5071840__269--1
+6	PricewaterhouseCoopers	PricewaterhouseCoopers	PROPN	_	_	8	nmod	_	name=B-ORG
+7	(	$(	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O
+8	PWC	PWC	PROPN	_	_	11	nsubj	_	SpaceAfter=No|name=B-ORG
+9	)	$)	PUNCT	_	_	8	punct	_	name=O|Entity=firdann~20100415_5071840__269)
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	utført	utføre	VERB	_	VerbForm=Part	3	acl:relcl	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	bestilling	bestilling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=(firdann~20100415_5071840__T15--1
+14	frå	frå	ADP	_	_	15	case	_	name=O
+15	Helse	Helse	PROPN	_	_	13	nmod	_	name=B-ORG|Entity=(firdann~20100415_5071840__T16--1
+16	Førde	Førde	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100415_5071840__T16)firdann~20100415_5071840__T15)firdann~20100415_5071840__4126)
+17	,	$,	PUNCT	_	_	3	punct	_	name=O
+18	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+19	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+20	fram	fram	ADP	_	_	18	compound:prt	_	name=O
+21	at	at	SCONJ	_	_	25	mark	_	name=O
+22	mange	mange	ADJ	_	Degree=Pos|Number=Plur	25	nsubj	_	name=O|Entity=(firdann~20100415_5071840__237--1
+23	av	av	ADP	_	_	24	case	_	name=O
+24	kvinnene	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	22	nmod	_	name=O|Entity=(firdann~20100415_5071840__454--1)firdann~20100415_5071840__237)
+25	nyttar	nytte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	csubj	_	name=O
+26	større	stor	ADJ	_	Degree=Cmp	27	amod	_	name=O|Entity=(firdann~20100415_5071840__T19--1
+27	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	25	obj	_	name=O|Entity=firdann~20100415_5071840__T19)
+28	når	når	SCONJ	_	_	32	mark	_	name=O
+29	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	name=O|Entity=(firdann~20100415_5071840__237--1
+30	sjølve	sjølve	DET	_	Definite=Def|PronType=Prs	29	det	_	name=O|Entity=firdann~20100415_5071840__237)
+31	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux	_	name=O
+32	føde	føde	VERB	_	VerbForm=Inf	25	advcl	_	SpaceAfter=No|name=O
+33	,	$,	PUNCT	_	_	34	punct	_	name=O
+34	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	parataxis	_	name=O
+35	Bergens	Bergens	PROPN	_	_	34	nsubj	_	name=B-ORG|Entity=(firdann~20100415_5071840__T21--1
+36	Tidende	Tidende	PROPN	_	_	35	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100415_5071840__T21)
+37	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 006205
+# text = Tre av fire til andre sjukehus
+1	Tre	tre	NUM	_	Number=Plur|NumType=Card	0	root	_	name=O
+2	av	av	ADP	_	_	3	case	_	name=O
+3	fire	fire	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=O
+4	til	til	ADP	_	_	6	case	_	name=O
+5	andre	annan	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(firdann~20100415_5071840__T22--1
+6	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	obl	_	name=O|Entity=firdann~20100415_5071840__T22)
+
+# sent_id = 006206
+# text = Ifølgje rapporten fødde berre 27 prosent av dei gravide i indre Sogn-kommunane Lærdal, Årdal, Aurland, Vik, Sogndal, Leikanger og Luster på Lærdals sjukehus i 2007.
+1	Ifølgje	ifølgje	ADP	_	_	2	case	_	name=O
+2	rapporten	rapport	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(firdann~20100415_5071840__4126--1)
+3	fødde	føde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	berre	berre	ADV	_	_	3	advmod	_	name=O
+5	27	27	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(firdann~20100415_5071840__T24--1
+6	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O
+7	av	av	ADP	_	_	9	case	_	name=O
+8	dei	dei	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(firdann~20100415_5071840__454--1
+9	gravide	gravid	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+10	i	i	ADP	_	_	13	case	_	name=O
+11	indre	indre	ADJ	_	Degree=Cmp	12	compound	_	name=B-DRV|Entity=(firdann~20100415_5071840__T27--1(firdann~20100415_5071840__4207--1(firdann~20100415_5071840__T26--1
+12	Sogn-kommunane	Sogn-kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	name=I-DRV|Entity=firdann~20100415_5071840__T26)
+13	Lærdal	Lærdal	PROPN	_	_	9	nmod	_	SpaceAfter=No|name=B-GPE_LOC
+14	,	$,	PUNCT	_	_	15	punct	_	name=O|Entity=firdann~20100415_5071840__4207)
+15	Årdal	Årdal	PROPN	_	_	13	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5071840__T29--1
+16	,	$,	PUNCT	_	_	15	punct	_	name=O|Entity=firdann~20100415_5071840__T29)
+17	Aurland	Aurland	PROPN	_	_	13	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5071840__T30--1
+18	,	$,	PUNCT	_	_	19	punct	_	name=O|Entity=firdann~20100415_5071840__T30)
+19	Vik	Vik	PROPN	_	_	13	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5071840__T31--1
+20	,	$,	PUNCT	_	_	19	punct	_	name=O|Entity=firdann~20100415_5071840__T31)
+21	Sogndal	Sogndal	PROPN	_	_	13	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5071840__T32--1
+22	,	$,	PUNCT	_	_	23	punct	_	name=O|Entity=firdann~20100415_5071840__T32)
+23	Leikanger	Leikanger	PROPN	_	_	13	conj	_	name=B-GPE_LOC|Entity=(firdann~20100415_5071840__T33--1)
+24	og	og	CCONJ	_	_	25	cc	_	name=O
+25	Luster	Luster	PROPN	_	_	13	conj	_	name=B-GPE_LOC|Entity=(firdann~20100415_5071840__T34--1)firdann~20100415_5071840__T27)firdann~20100415_5071840__454)firdann~20100415_5071840__T24)
+26	på	på	ADP	_	_	27	case	_	name=O
+27	Lærdals	Lærdals	PROPN	_	_	3	obl	_	name=B-LOC|Entity=(firdann~20100415_5071840__4132--1
+28	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	27	flat:name	_	name=I-LOC|Entity=firdann~20100415_5071840__4132)
+29	i	i	ADP	_	_	30	case	_	name=O
+30	2007	2007	NUM	_	Number=Plur|NumType=Card	3	obl	_	SpaceAfter=No|name=O
+31	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006207
+# text = Rapporten konkluderer med at tre av fire fødande i indre Sogn nyttar andre fødeavdelingar, og at dei fleste reiser til større nabosjukehus med fullverdige fødeavdelingar.
+1	Rapporten	rapport	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20100415_5071840__4126--1)
+2	konkluderer	konkludere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	med	med	SCONJ	_	_	12	mark	_	name=O
+4	at	at	SCONJ	_	_	12	mark	_	name=O
+5	tre	tre	NUM	_	Number=Plur|NumType=Card	12	nsubj	_	name=O
+6	av	av	ADP	_	_	8	case	_	name=O
+7	fire	fire	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(firdann~20100415_5071840__T37--1
+8	fødande	føde	ADJ	_	VerbForm=Part	5	amod	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	indre	indre	ADJ	_	Degree=Cmp	11	amod	_	name=B-GPE_LOC|Entity=(firdann~20100415_5071840__T38--1
+11	Sogn	Sogn	PROPN	_	_	8	nmod	_	name=I-GPE_LOC|Entity=firdann~20100415_5071840__T38)firdann~20100415_5071840__T37)
+12	nyttar	nytte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+13	andre	annan	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(firdann~20100415_5071840__T39--1
+14	fødeavdelingar	fødeavdeling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5071840__T39)
+15	,	$,	PUNCT	_	_	20	punct	_	name=O
+16	og	og	CCONJ	_	_	20	cc	_	name=O
+17	at	at	SCONJ	_	_	20	mark	_	name=O
+18	dei	dei	DET	_	Number=Plur|PronType=Dem	19	det	_	name=O|Entity=(firdann~20100415_5071840__T40--1
+19	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	20	nsubj	_	name=O|Entity=firdann~20100415_5071840__T40)
+20	reiser	reise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	name=O
+21	til	til	ADP	_	_	23	case	_	name=O
+22	større	stor	ADJ	_	Degree=Cmp	23	amod	_	name=O|Entity=(firdann~20100415_5071840__T41--1
+23	nabosjukehus	nabosjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	obl	_	name=O
+24	med	med	ADP	_	_	26	case	_	name=O
+25	fullverdige	fullverdig	ADJ	_	Degree=Pos|Number=Plur	26	amod	_	name=O|Entity=(firdann~20100415_5071840__T42--1
+26	fødeavdelingar	fødeavdeling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5071840__T42)firdann~20100415_5071840__T41)
+27	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006208
+# text = I 2007 vart det fødd 84 born ved sjukehuset i Lærdal, i 2008 var talet 109 og i 2009 vart det fødd 61 born ved sjukehuset.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	2007	2007	NUM	_	Number=Plur|NumType=Card	5	obl	_	name=O
+3	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	fødd	føde	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	84	84	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(firdann~20100415_5071840__T43--1
+7	born	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obj	_	name=O|Entity=firdann~20100415_5071840__T43)
+8	ved	ved	ADP	_	_	9	case	_	name=O
+9	sjukehuset	sjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(firdann~20100415_5071840__4132--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Lærdal	Lærdal	PROPN	_	_	9	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5071840__4207--1)firdann~20100415_5071840__4132)
+12	,	$,	PUNCT	_	_	17	punct	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	2008	2008	NUM	_	Number=Plur|NumType=Card	17	obl	_	name=O
+15	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	name=O
+16	talet	tal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	name=O|Entity=(firdann~20100415_5071840__T46--1)
+17	109	109	NUM	_	Number=Plur|NumType=Card	5	conj	_	name=O
+18	og	og	CCONJ	_	_	23	cc	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	2009	2009	NUM	_	Number=Plur|NumType=Card	23	obl	_	name=O
+21	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux:pass	_	name=O
+22	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	name=O
+23	fødd	føde	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	5	conj	_	name=O
+24	61	61	NUM	_	Number=Plur|NumType=Card	25	nummod	_	name=O|Entity=(firdann~20100415_5071840__T47--1
+25	born	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	obj	_	name=O|Entity=firdann~20100415_5071840__T47)
+26	ved	ved	ADP	_	_	27	case	_	name=O
+27	sjukehuset	sjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100415_5071840__4132--1)
+28	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006209
+# text = Noko av årsaka er at svangerskap med fare for komplikasjonar automatisk blir overført til større sjukehus.
+1	Noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	13	nsubj:pass	_	name=O
+2	av	av	ADP	_	_	3	case	_	name=O
+3	årsaka	årsak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20100415_5071840__T49--1)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+5	at	at	SCONJ	_	_	13	mark	_	name=O
+6	svangerskap	svangerskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nsubj:pass	_	name=O|Entity=(firdann~20100415_5071840__T50--1
+7	med	med	ADP	_	_	8	case	_	name=O
+8	fare	fare	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20100415_5071840__T51--1
+9	for	for	ADP	_	_	10	case	_	name=O
+10	komplikasjonar	komplikasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=(firdann~20100415_5071840__T52--1)firdann~20100415_5071840__T51)firdann~20100415_5071840__T50)
+11	automatisk	automatisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	advmod	_	name=O
+12	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux:pass	_	name=O
+13	overført	overføre	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+14	til	til	ADP	_	_	16	case	_	name=O
+15	større	stor	ADJ	_	Degree=Cmp	16	amod	_	name=O|Entity=(firdann~20100415_5071840__T53--1
+16	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5071840__T53)
+17	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 006210
+# text = Rapporten til PWC viser også at 30 prosent av dei med låg risiko ved fødsel vel å føde i Førde eller på Voss.
+1	Rapporten	rapport	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20100415_5071840__4126--1
+2	til	til	ADP	_	_	3	case	_	name=O
+3	PWC	PWC	PROPN	_	_	1	nmod	_	name=B-ORG|Entity=(firdann~20100415_5071840__269--1)firdann~20100415_5071840__4126)
+4	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	også	også	ADV	_	_	4	advmod	_	name=O
+6	at	at	SCONJ	_	_	16	mark	_	name=O
+7	30	30	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(firdann~20100415_5071840__T56--1
+8	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nsubj	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	name=O|Entity=(firdann~20100415_5071840__T57--1
+11	med	med	ADP	_	_	13	case	_	name=O
+12	låg	låg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(firdann~20100415_5071840__T58--1
+13	risiko	risiko	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O
+14	ved	ved	ADP	_	_	15	case	_	name=O
+15	fødsel	fødsel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(firdann~20100415_5071840__T59--1)firdann~20100415_5071840__T58)firdann~20100415_5071840__T57)firdann~20100415_5071840__T56)
+16	vel	velje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	føde	føde	VERB	_	VerbForm=Inf	16	xcomp	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	Førde	Førde	PROPN	_	_	18	obl	_	name=B-GPE_LOC|Entity=(firdann~20100415_5071840__T60--1)
+21	eller	eller	CCONJ	_	_	23	cc	_	name=O
+22	på	på	ADP	_	_	23	case	_	name=O
+23	Voss	Voss	PROPN	_	_	20	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100415_5071840__T61--1)
+24	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006211
+# text = - Ikkje unikt i Lærdal
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+3	unikt	unik	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Lærdal	Lærdal	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(firdann~20100415_5071840__4207--1)
+
+# sent_id = 006212
+# text = Ved mange andre lokalsjukehus der det no er frykt for fødetilbodet, er også talet årlege fødslar lågt.
+1	Ved	ved	ADP	_	_	4	case	_	name=O
+2	mange	mange	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O|Entity=(firdann~20100415_5071840__2132--1
+3	andre	annan	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O
+4	lokalsjukehus	lokalsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	obl	_	name=O
+5	der	der	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	no	no	ADV	_	_	8	advmod	_	name=O
+8	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl	_	name=O
+9	frykt	frykt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	name=O|Entity=(firdann~20100415_5071840__T64--1
+10	for	for	ADP	_	_	11	case	_	name=O
+11	fødetilbodet	fødetilbod	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Bridge=firdann~20100415_5071840__2132<firdann~20100415_5071840__T65:default|Entity=(firdann~20100415_5071840__T65--1)firdann~20100415_5071840__T64)firdann~20100415_5071840__2132)
+12	,	$,	PUNCT	_	_	4	punct	_	name=O
+13	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	name=O
+14	også	også	ADV	_	_	18	advmod	_	name=O
+15	talet	tal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	nsubj	_	name=O|Entity=(firdann~20100415_5071840__T66--1
+16	årlege	årleg	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(firdann~20100415_5071840__T67--1
+17	fødslar	fødsel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	appos	_	name=O|Entity=firdann~20100415_5071840__T67)firdann~20100415_5071840__T66)
+18	lågt	låg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 006213
+# text = - Det er heilt openbert at mange kvinner flyktar frå dei små fødeinstitusjonane.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	openbert	openberr	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	mange	mange	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(firdann~20100415_5071840__T68--1
+8	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	nsubj	_	name=O|Entity=firdann~20100415_5071840__T68)
+9	flyktar	flykte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	csubj	_	name=O
+10	frå	frå	ADP	_	_	13	case	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(firdann~20100415_5071840__2132--1
+12	små	liten	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	fødeinstitusjonane	fødeinstitusjon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100415_5071840__2132)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006214
+# text = Eg trur ikkje situasjonen i Lærdal er unik, seier Pål Øian til Aftenposten.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20100415_5071840__2143--1)
+2	trur	tru	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(firdann~20100415_5071840__T71--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Lærdal	Lærdal	PROPN	_	_	4	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100415_5071840__4207--1)firdann~20100415_5071840__T71)
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	unik	unik	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	ccomp	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+11	Pål	Pål	NOUN	_	Gender=Masc	10	nsubj	_	name=B-PER|Entity=(firdann~20100415_5071840__2143--1
+12	Øian	Øian	PROPN	_	_	11	flat:name	_	name=I-PER|Entity=firdann~20100415_5071840__2143)
+13	til	til	ADP	_	_	14	case	_	name=O
+14	Aftenposten	Aftenposten	NOUN	_	Gender=Masc	10	obl	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20100415_5071840__T74--1)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+

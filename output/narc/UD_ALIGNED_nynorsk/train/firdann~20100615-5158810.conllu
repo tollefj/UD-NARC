@@ -1,0 +1,123 @@
+# newdoc id = firdann~20100615-5158810
+# global.Entity = eid-etype-head-other
+# sent_id = 007007
+# text = Ekstra millionar til utdanning i vest
+1	Ekstra	ekstra	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(firdann~20100615_5158810__27--1
+2	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	utdanning	utdanning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(firdann~20100615_5158810__T2--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	vest	vest	ADP	_	_	4	nmod	_	name=O|Entity=firdann~20100615_5158810__T2)firdann~20100615_5158810__27)
+
+# newpar
+# sent_id = 007008
+# text = Kunnskapdepartementet opnar pengesekken.
+1	Kunnskapdepartementet	Kunnskapdepartementet	PROPN	_	_	2	nsubj	_	name=O|Entity=(firdann~20100615_5158810__216--1)
+2	opnar	opne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	pengesekken	pengesekk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No|name=O|Bridge=firdann~20100615_5158810__216<firdann~20100615_5158810__T4:default|Entity=(firdann~20100615_5158810__T4--1)
+4	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 007009
+# text = Tora Aasland håpar dei nye pengane vil styrke dei nye lærarutdanningane på Vestlandet
+1	Tora	Tora	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(firdann~20100615_5158810__369--1
+2	Aasland	Aasland	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20100615_5158810__369)
+3	håpar	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	dei	dei	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(firdann~20100615_5158810__27--1
+5	nye	ny	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	pengane	penge	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=firdann~20100615_5158810__27)
+7	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	styrke	styrke	VERB	_	VerbForm=Inf	3	ccomp	_	name=O
+9	dei	dei	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(firdann~20100615_5158810__352--1
+10	nye	ny	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	lærarutdanningane	lærarutdanning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	8	obj	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	Vestlandet	Vestlandet	NOUN	_	Gender=Neut	11	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100615_5158810__218--1)firdann~20100615_5158810__352)
+
+# newpar
+# sent_id = 007010
+# text = Dei nye lærerutdanningane på Vestlandet, får 3 millionar kroner frå Kunnskapsdepartementet.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(firdann~20100615_5158810__352--1
+2	nye	ny	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	lærerutdanningane	lærerutdanning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	nsubj	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	Vestlandet	Vestlandet	NOUN	_	Gender=Neut	3	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100615_5158810__218--1)firdann~20100615_5158810__352)
+6	,	$,	PUNCT	_	_	3	punct	_	name=O
+7	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	3	3	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(firdann~20100615_5158810__369--1(firdann~20100615_5158810__T11--1
+9	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	name=O|Entity=firdann~20100615_5158810__T11)
+10	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	name=O|Entity=firdann~20100615_5158810__369)
+11	frå	frå	ADP	_	_	12	case	_	name=O
+12	Kunnskapsdepartementet	Kunnskapsdepartementet	PROPN	_	_	7	obl	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20100615_5158810__216--1)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 007011
+# text = Høgskulane det gjeld er Bergen, Sogn og Fjordane, Stord, Haugesund og Volda.
+1	Høgskulane	høgskule	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Bridge=firdann~20100615_5158810__352<firdann~20100615_5158810__T14:default|Entity=(firdann~20100615_5158810__T14--1
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20100615_5158810__T15--1)
+3	gjeld	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O|Entity=firdann~20100615_5158810__T14)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+5	Bergen	Bergen	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20100615_5158810__T16--1(firdann~20100615_5158810__T17--1
+6	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=firdann~20100615_5158810__T17)
+7	Sogn	Sogn	PROPN	_	_	5	conj	_	name=B-ORG|Entity=(firdann~20100615_5158810__T18--1
+8	og	og	CCONJ	_	_	7	flat:name	_	name=I-ORG
+9	Fjordane	Fjordane	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-ORG
+10	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=firdann~20100615_5158810__T18)
+11	Stord	Stord	PROPN	_	_	5	conj	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20100615_5158810__T19--1
+12	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=firdann~20100615_5158810__T19)
+13	Haugesund	Haugesund	PROPN	_	_	5	conj	_	name=B-ORG|Entity=(firdann~20100615_5158810__T20--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	Volda	Volda	PROPN	_	_	5	conj	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20100615_5158810__T21--1)firdann~20100615_5158810__T16)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007012
+# text = Målet med bevilginga er å auke kvaliteten på utdanning og forskning gjennom samarbeid.
+1	Målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Bridge=firdann~20100615_5158810__216<firdann~20100615_5158810__T22:default|Entity=(firdann~20100615_5158810__T22--1
+2	med	med	ADP	_	_	3	case	_	name=O
+3	bevilginga	bevilling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20100615_5158810__369--1)firdann~20100615_5158810__T22)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	auke	auke	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	kvaliteten	kvalitet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(firdann~20100615_5158810__T24--1
+8	på	på	ADP	_	_	9	case	_	name=O
+9	utdanning	utdanning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	name=O|Entity=(firdann~20100615_5158810__T25--1(firdann~20100615_5158810__T26--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	forskning	forsking	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	name=O|Entity=(firdann~20100615_5158810__T27--1)firdann~20100615_5158810__T25)firdann~20100615_5158810__T24)
+12	gjennom	gjennom	ADP	_	_	13	case	_	name=O
+13	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100615_5158810__T28--1)
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007013
+# text = Totalt er 15 millioner fordelt i hele Norge.
+1	Totalt	total	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	15	15	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(firdann~20100615_5158810__T29--1
+4	millioner	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=firdann~20100615_5158810__T29)
+5	fordelt	fordele	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	hele	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(firdann~20100615_5158810__T30--1
+8	Norge	Norge	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=firdann~20100615_5158810__T30)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007014
+# text = Statsråd Tora Aasland seier i ei pressemelding at ho trur pengane vil auke kvaliteten på dei nye grunnskuleutdanningane.
+1	Statsråd	statsråd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20100615_5158810__369--1
+2	Tora	Tora	PROPN	_	_	4	nsubj	_	name=B-PER
+3	Aasland	Aasland	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20100615_5158810__369)
+4	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(firdann~20100615_5158810__T32--1
+7	pressemelding	pressemelding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=firdann~20100615_5158810__T32)
+8	at	at	SCONJ	_	_	10	mark	_	name=O
+9	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(firdann~20100615_5158810__369--1)
+10	trur	tru	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	name=O
+11	pengane	penge	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	13	nsubj	_	name=O|Entity=(firdann~20100615_5158810__369--1)
+12	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	auke	auke	VERB	_	VerbForm=Inf	10	ccomp	_	name=O
+14	kvaliteten	kvalitet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(firdann~20100615_5158810__T35--1
+15	på	på	ADP	_	_	18	case	_	name=O
+16	dei	dei	DET	_	Number=Plur|PronType=Dem	18	det	_	name=O|Entity=(firdann~20100615_5158810__352--1
+17	nye	ny	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O
+18	grunnskuleutdanningane	grunnskuleutdanning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20100615_5158810__352)firdann~20100615_5158810__T35)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+

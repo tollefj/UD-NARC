@@ -1,0 +1,888 @@
+# newdoc id = vtbnn~20050628-2384
+# global.Entity = eid-etype-head-other
+# sent_id = 012522
+# text = - Sogelandet kjem attande neste sommar
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Sogelandet	Sogelandet	PROPN	_	_	3	nsubj	_	name=B-EVT|Entity=(vtbnn~20050628_2384__121059--1)
+3	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	attande	attende	ADV	_	_	3	advmod	_	name=O
+5	neste	neste	DET	_	Definite=Def|PronType=Dem	6	det	_	name=O|Entity=(vtbnn~20050628_2384__T2--1
+6	sommar	sommar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=vtbnn~20050628_2384__T2)
+
+# newpar
+# sent_id = 012523
+# text = Både uhygge og hygge
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	uhygge	uhygge	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20050628_2384__T3--1(vtbnn~20050628_2384__T4--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	hygge	hygge	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	conj	_	name=O|Entity=(vtbnn~20050628_2384__T5--1)vtbnn~20050628_2384__T3)
+
+# newpar
+# sent_id = 012524
+# text = - Publikum svikta ikkje
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T6--1)
+3	svikta	svikte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+
+# newpar
+# sent_id = 012525
+# text = Pilegrimane er på veg mot Røldal
+1	Pilegrimane	pilegrim	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T7--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	veg	veg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20050628_2384__T8--1
+5	mot	mot	ADP	_	_	6	case	_	name=O
+6	Røldal	Røldal	PROPN	_	_	4	nmod	_	name=B-LOC|Entity=(vtbnn~20050628_2384__4613--1)vtbnn~20050628_2384__T8)
+
+# newpar
+# sent_id = 012526
+# text = - Sogelandet er kome for å bli.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Sogelandet	Sogelandet	PROPN	_	_	4	nsubj	_	name=B-EVT|Entity=(vtbnn~20050628_2384__121059--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	kome	kome	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	for	for	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	bli	bli	VERB	_	VerbForm=Inf	4	advcl	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012527
+# text = Tilskipingane i helga har vore ein suksess, men det tek tid å innarbeide noko heilt nytt.
+1	Tilskipingane	tilskiping	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T11--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	helga	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=(vtbnn~20050628_2384__T12--1)vtbnn~20050628_2384__T11)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+5	vore	vere	AUX	_	VerbForm=Part	7	cop	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(vtbnn~20050628_2384__T13--1
+7	suksess	suksess	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T13)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	men	men	CCONJ	_	_	11	cc	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	name=O
+12	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	name=O|Entity=(vtbnn~20050628_2384__T14--1)
+13	å	å	PART	_	_	14	mark	_	name=O
+14	innarbeide	innarbeide	VERB	_	VerbForm=Inf	11	csubj	_	name=O
+15	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	17	det	_	name=O
+16	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	name=O
+17	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012528
+# text = Me har greidd å skape ein eigen kvalitet kring Sogelandet, seier prosjektleiar Nicolai Riise og leiar av Dyrsku'n, Solveig Hellevig.
+1	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T15--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	greidd	greie	VERB	_	VerbForm=Part	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	skape	skape	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vtbnn~20050628_2384__T16--1
+7	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	8	det	_	name=O
+8	kvalitet	kvalitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=vtbnn~20050628_2384__T16)
+9	kring	kring	ADP	_	_	10	case	_	name=O
+10	Sogelandet	Sogelandet	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-EVT|Entity=(vtbnn~20050628_2384__121059--1)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+13	prosjektleiar	prosjektleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(vtbnn~20050628_2384__369--1(vtbnn~20050628_2384__4321--1
+14	Nicolai	Nicolai	NOUN	_	Gender=Masc	12	nsubj	_	name=B-PER
+15	Riise	Riise	PROPN	_	_	14	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2384__4321)
+16	og	og	CCONJ	_	_	21	cc	_	name=O
+17	leiar	leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=(vtbnn~20050628_2384__5524--1(vtbnn~20050628_2384__T20--1
+18	av	av	ADP	_	_	19	case	_	name=O
+19	Dyrsku'n	Dyrsku'n	PROPN	_	_	17	nmod	_	SpaceAfter=No|name=B-EVT|Entity=(vtbnn~20050628_2384__246--1)
+20	,	$,	PUNCT	_	_	17	punct	_	name=O|Entity=vtbnn~20050628_2384__T20)
+21	Solveig	Solveig	NOUN	_	Gender=Fem	14	conj	_	name=B-PER
+22	Hellevig	Hellevig	PROPN	_	_	21	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20050628_2384__5524)vtbnn~20050628_2384__369)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 012529
+# text = Solveig Hellevig i Dursku'n og prosjektleiar Nicolai Riise er vel nøgde med Sogelandet.
+1	Solveig	Solveig	NOUN	_	Gender=Fem	11	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2384__369--1(vtbnn~20050628_2384__5524--1
+2	Hellevig	Hellevig	PROPN	_	_	1	flat:name	_	name=I-PER
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Dursku'n	Dursku'n	PROPN	_	_	1	nmod	_	name=B-EVT|Entity=(vtbnn~20050628_2384__246--1)vtbnn~20050628_2384__5524)
+5	og	og	CCONJ	_	_	7	cc	_	name=O
+6	prosjektleiar	prosjektleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(vtbnn~20050628_2384__4321--1
+7	Nicolai	Nicolai	NOUN	_	Gender=Masc	1	conj	_	name=B-PER
+8	Riise	Riise	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2384__4321)vtbnn~20050628_2384__369)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	vel	vel	ADV	_	_	11	advmod	_	name=O
+11	nøgde	nøgd	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	Sogelandet	Sogelandet	PROPN	_	_	11	obl	_	SpaceAfter=No|name=B-EVT|Entity=(vtbnn~20050628_2384__121059--1)
+14	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 012530
+# text = Dei ser her Ragnar Windahl smi på vikingvis.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__369--1)
+2	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	her	her	ADV	_	_	2	advmod	_	name=O
+4	Ragnar	Ragnar	NOUN	_	Gender=Masc	6	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2384__T29--1
+5	Windahl	Windahl	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2384__T29)
+6	smi	smi	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	vikingvis	vikingvis	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T30--1)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 012531
+# text = Både laurdag og sundag var fjoset på Durskuplassen skapt om til ein mellomaldermarknad.
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	laurdag	laurdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(vtbnn~20050628_2384__T31--1(vtbnn~20050628_2384__T32--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	sundag	sundag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	name=O|Entity=(vtbnn~20050628_2384__T33--1)vtbnn~20050628_2384__T31)
+5	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	name=O
+6	fjoset	fjoset	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__2192--1
+7	på	på	ADP	_	_	8	case	_	name=O
+8	Durskuplassen	Durskuplassen	PROPN	_	_	6	nmod	_	name=B-LOC|Entity=(vtbnn~20050628_2384__5453--1)vtbnn~20050628_2384__2192)
+9	skapt	skape	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+10	om	om	ADP	_	_	9	compound:prt	_	name=O
+11	til	til	ADP	_	_	13	case	_	name=O
+12	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(vtbnn~20050628_2384__3286--1
+13	mellomaldermarknad	mellomaldermarknad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__3286)
+14	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012532
+# text = Publikum fekk ei kjensle av at dei verkeleg var 500 til 1.000 år tilbake i tid.
+1	Publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__276--1)
+2	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(vtbnn~20050628_2384__T38--1
+4	kjensle	kjensle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O
+5	av	av	SCONJ	_	_	16	mark	_	name=O
+6	at	at	SCONJ	_	_	16	mark	_	name=O
+7	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__276--1)
+8	verkeleg	verkeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	name=O
+9	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	cop	_	name=O
+10	500	500	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(vtbnn~20050628_2384__T40--1
+11	til	til	ADP	_	_	12	case	_	name=O
+12	1.000	1.000	NUM	_	Number=Plur|NumType=Card	10	obl	_	name=O
+13	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obl	_	name=O|Entity=vtbnn~20050628_2384__T40)
+14	tilbake	tilbake	SCONJ	_	_	16	mark	_	name=O
+15	i	i	SCONJ	_	_	16	mark	_	name=O
+16	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	acl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T41--1)vtbnn~20050628_2384__T38)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012533
+# text = Riddarar i full rustning, vikingar med skjold og sverd - og så «Pesti» som eit vondt varsel.
+1	Riddarar	riddar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(vtbnn~20050628_2384__T42--1(vtbnn~20050628_2384__T43[1/2]--1
+2	i	i	ADP	_	_	4	case	_	name=O
+3	full	full	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(vtbnn~20050628_2384__T44--1
+4	rustning	rustning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T44)
+5	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=vtbnn~20050628_2384__T43[1/2])
+6	vikingar	viking	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	name=O|Entity=(vtbnn~20050628_2384__T45--1
+7	med	med	ADP	_	_	8	case	_	name=O
+8	skjold	skjold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	name=O|Entity=(vtbnn~20050628_2384__T46--1(vtbnn~20050628_2384__T47--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	sverd	sverd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	conj	_	name=O|Entity=(vtbnn~20050628_2384__T48--1)vtbnn~20050628_2384__T46)vtbnn~20050628_2384__T45)
+11	-	$-	PUNCT	_	_	15	punct	_	name=O|Entity=(vtbnn~20050628_2384__T43[2/2]--1)
+12	og	og	CCONJ	_	_	15	cc	_	name=O
+13	så	så	ADV	_	_	15	advmod	_	name=O|Entity=(vtbnn~20050628_2384__T49--1
+14	«	$"	PUNCT	_	_	15	punct	_	SpaceAfter=No|name=O
+15	Pesti	Pesti	PROPN	_	_	1	conj	_	SpaceAfter=No|name=B-PER
+16	»	$"	PUNCT	_	_	15	punct	_	name=O
+17	som	som	ADP	_	_	20	case	_	name=O
+18	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(vtbnn~20050628_2384__T50--1
+19	vondt	vond	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	name=O
+20	varsel	varsel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T50)vtbnn~20050628_2384__T49)vtbnn~20050628_2384__T42)
+21	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 012534
+# text = Dyrskuplassen er verkeleg historisk grunn i Vest-Telemark.
+1	Dyrskuplassen	Dyrskuplassen	PROPN	_	_	5	nsubj	_	name=B-LOC|Entity=(vtbnn~20050628_2384__5453--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	verkeleg	verkeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+4	historisk	historisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(vtbnn~20050628_2384__T52--1
+5	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=vtbnn~20050628_2384__T52)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Vest-Telemark	Vest-Telemark	PROPN	_	_	5	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20050628_2384__4544--1)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012535
+# text = I fylgje forskarane er det restar etter kring 150 gravhaugar frå år 300 og fram til vikingtida.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	fylgje	fylgje	ADP	_	_	3	case	_	name=O
+3	forskarane	forskar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=(vtbnn~20050628_2384__T54--1)
+4	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+6	restar	rest	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T55--1
+7	etter	etter	ADP	_	_	10	case	_	name=O
+8	kring	kring	ADP	_	_	9	case	_	name=O|Entity=(vtbnn~20050628_2384__T56--1
+9	150	150	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O
+10	gravhaugar	gravhaug	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	name=O
+11	frå	frå	ADP	_	_	13	case	_	name=O
+12	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	name=O|Entity=(vtbnn~20050628_2384__T57--1)
+13	300	300	NUM	_	Number=Plur|NumType=Card	10	nmod	_	name=O
+14	og	og	CCONJ	_	_	17	cc	_	name=O
+15	fram	fram	ADP	_	_	17	case	_	name=O
+16	til	til	ADP	_	_	17	case	_	name=O
+17	vikingtida	vikingtid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__2119--1)vtbnn~20050628_2384__T56)vtbnn~20050628_2384__T55)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012536
+# text = Truleg har det også vore halde ting på denne staden i vikingtida.
+1	Truleg	truleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+4	også	også	ADV	_	_	6	advmod	_	name=O
+5	vore	vere	AUX	_	VerbForm=Part	6	aux	_	name=O
+6	halde	halde	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	ting	ting	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O|Entity=(vtbnn~20050628_2384__T59--1)
+8	på	på	ADP	_	_	10	case	_	name=O
+9	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(vtbnn~20050628_2384__5453--1
+10	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=vtbnn~20050628_2384__5453)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	vikingtida	vikingtid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__2119--1)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012537
+# text = I samband med Sogelandet var heile mellomalderen «illustrert».
+1	I	i	ADP	_	_	2	case	_	name=O
+2	samband	samband	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(vtbnn~20050628_2384__T62--1
+3	med	med	ADP	_	_	4	case	_	name=O
+4	Sogelandet	Sogelandet	PROPN	_	_	2	nmod	_	name=B-EVT|Entity=(vtbnn~20050628_2384__121059--1)vtbnn~20050628_2384__T62)
+5	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+6	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(vtbnn~20050628_2384__5531--1
+7	mellomalderen	mellomalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=vtbnn~20050628_2384__5531)
+8	«	$"	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O
+9	illustrert	illustrere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+10	»	$"	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012538
+# text = I full rustning og med spesialtrena hestar blei det vist døme på korleis ei riddartrunering arta seg på 1300-talet.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	full	full	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=(vtbnn~20050628_2384__T65--1
+3	rustning	rustning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	name=O|Entity=vtbnn~20050628_2384__T65)
+4	og	og	CCONJ	_	_	7	cc	_	name=O
+5	med	med	ADP	_	_	7	case	_	name=O
+6	spesialtrena	spesialtrene	ADJ	_	Number=Plur|VerbForm=Part	7	amod	_	name=O|Entity=(vtbnn~20050628_2384__T66--1
+7	hestar	hest	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	name=O|Entity=vtbnn~20050628_2384__T66)
+8	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+10	vist	vise	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+11	døme	døme	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	name=O|Entity=(vtbnn~20050628_2384__T67--1
+12	på	på	ADP	_	_	16	case	_	name=O
+13	korleis	korleis	ADV	_	_	16	advmod	_	name=O
+14	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(vtbnn~20050628_2384__T68--1
+15	riddartrunering	riddarturnering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	nsubj	_	name=O|Entity=vtbnn~20050628_2384__T68)
+16	arta	arte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	name=O
+17	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	16	obj	_	name=O
+18	på	på	ADP	_	_	19	case	_	name=O
+19	1300-talet	1300-tal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T69--1)vtbnn~20050628_2384__T67)
+20	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 012539
+# text = I den tidlege mellomalderen, då vikingane rådde grunnen, dreiv dei mykje med bogeskyting, øksekasting og kjeglespel.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(vtbnn~20050628_2384__2149--1
+3	tidlege	tidleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	mellomalderen	mellomalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__2149)
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	då	då	ADV	_	_	8	advmod	_	name=O
+7	vikingane	viking	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__2144--1)
+8	rådde	rå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	name=O
+9	grunnen	grunn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T72--1)
+10	,	$,	PUNCT	_	_	8	punct	_	name=O
+11	dreiv	drive	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+12	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__2144--1)
+13	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+14	med	med	ADP	_	_	15	case	_	name=O
+15	bogeskyting	bogeskyting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T74--1(vtbnn~20050628_2384__T75--1
+16	,	$,	PUNCT	_	_	17	punct	_	name=O|Entity=vtbnn~20050628_2384__T75)
+17	øksekasting	øksekasting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	conj	_	name=O|Entity=(vtbnn~20050628_2384__T76--1)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	kjeglespel	kjeglespel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T77--1)vtbnn~20050628_2384__T74)
+20	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 012540
+# text = Korleis livet var den gongen når det galt ulike former for handverk blei vist.
+1	Korleis	korleis	ADV	_	_	3	advmod	_	name=O
+2	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T78--1)
+3	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	csubj:pass	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(vtbnn~20050628_2384__2149--1
+5	gongen	gong	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=vtbnn~20050628_2384__2149)
+6	når	når	SCONJ	_	_	8	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+8	galt	gjelde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	name=O
+9	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O|Entity=(vtbnn~20050628_2384__T80--1
+10	former	form	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	obj	_	name=O
+11	for	for	ADP	_	_	12	case	_	name=O
+12	handverk	handverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	name=O|Entity=(vtbnn~20050628_2384__T81--1)vtbnn~20050628_2384__T80)
+13	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux:pass	_	name=O
+14	vist	vise	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 012541
+# text = Men tilværet i mellomalderen var ikkje ein dans på roser.
+1	Men	men	CCONJ	_	_	8	cc	_	name=O
+2	tilværet	tilvære	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T82--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	mellomalderen	mellomalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20050628_2384__5531--1)vtbnn~20050628_2384__T82)
+5	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+6	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vtbnn~20050628_2384__T84--1
+8	dans	dans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	roser	rose	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T85--1)vtbnn~20050628_2384__T84)
+11	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012542
+# text = I seinmellomalderen kom Svartedauden og slo ut heile bygdelag.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	seinmellomalderen	seinmellomalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20050628_2384__2181--1)
+3	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	Svartedauden	Svartedauden	PROPN	_	_	3	nsubj	_	name=B-MISC|Entity=(vtbnn~20050628_2384__T87--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	slo	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+7	ut	ut	ADP	_	_	6	compound:prt	_	name=O
+8	heile	heil	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(vtbnn~20050628_2384__T88--1
+9	bygdelag	bygdelag	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T88)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012543
+# text = Då dukka «Pesti» opp som ein skapnad som spreidde frykt over alt.
+1	Då	då	ADV	_	_	2	advmod	_	name=O
+2	dukka	dukke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T89--1
+4	Pesti	Pesti	PROPN	_	_	2	nsubj	_	SpaceAfter=No|name=B-PER
+5	»	$"	PUNCT	_	_	4	punct	_	name=O|Entity=vtbnn~20050628_2384__T89)
+6	opp	opp	ADP	_	_	2	compound:prt	_	name=O
+7	som	som	ADP	_	_	9	case	_	name=O
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20050628_2384__T90--1
+9	skapnad	skapnad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+10	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+11	spreidde	spreie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	name=O
+12	frykt	frykt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	name=O|Entity=(vtbnn~20050628_2384__T91--1)
+13	over	over	ADP	_	_	14	case	_	name=O
+14	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T92--1)vtbnn~20050628_2384__T90)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 012544
+# text = Dei som ikkje skikka seg vel fekk harde straffer på denne tida.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__2327--1
+2	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	skikka	skikke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	name=O
+5	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	4	obj	_	name=O|Entity=(vtbnn~20050628_2384__2327--1)
+6	vel	vel	ADV	_	_	4	advmod	_	name=O|Entity=vtbnn~20050628_2384__2327)
+7	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	harde	hard	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(vtbnn~20050628_2384__T94--1
+9	straffer	straff	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	name=O|Entity=vtbnn~20050628_2384__T94)
+10	på	på	ADP	_	_	12	case	_	name=O
+11	denne	denne	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(vtbnn~20050628_2384__2181--1
+12	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__2181)
+13	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012545
+# text = På mellomaldermarknaden fekk me fleire døme på det.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	mellomaldermarknaden	mellomaldermarknad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20050628_2384__3286--1)
+3	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T97--1)
+5	fleire	mange	ADJ	_	Degree=Cmp	6	amod	_	name=O|Entity=(vtbnn~20050628_2384__T98--1
+6	døme	døme	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T99--1)vtbnn~20050628_2384__T98)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012546
+# text = Her var både galgeberg, gapestokk og tremerr som i mellomalderen var frykta straffemetodar.
+1	Her	her	ADV	_	_	2	advmod	_	name=O
+2	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	både	både	CCONJ	_	_	4	cc	_	name=O
+4	galgeberg	galgeberg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T100--1(vtbnn~20050628_2384__T101--1
+5	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=vtbnn~20050628_2384__T101)
+6	gapestokk	gapestokk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	name=O|Entity=(vtbnn~20050628_2384__T102--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	tremerr	tremerr	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	name=O|Entity=(vtbnn~20050628_2384__T103--1
+9	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	mellomalderen	mellomalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(vtbnn~20050628_2384__5531--1)
+12	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	name=O
+13	frykta	frykte	ADJ	_	Number=Plur|VerbForm=Part	14	amod	_	name=O|Entity=(vtbnn~20050628_2384__T105--1
+14	straffemetodar	straffemetode	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T105)vtbnn~20050628_2384__T103)vtbnn~20050628_2384__T100)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012547
+# text = Mellomalderen var også ei rik tid med segner, soger, musikk og song.
+1	Mellomalderen	mellomalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__5531--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+3	også	også	ADV	_	_	6	advmod	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20050628_2384__T107--1
+5	rik	rik	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O
+7	med	med	ADP	_	_	8	case	_	name=O
+8	segner	segn	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T108--1(vtbnn~20050628_2384__T109--1
+9	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=vtbnn~20050628_2384__T109)
+10	soger	soge	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T110--1
+11	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=vtbnn~20050628_2384__T110)
+12	musikk	musikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	name=O|Entity=(vtbnn~20050628_2384__T111--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	song	song	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T112--1)vtbnn~20050628_2384__T108)vtbnn~20050628_2384__T107)
+15	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012548
+# text = I Gongestoga kunne ein oppleve den kunstnariske delen av mellomaldertilværet.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	Gongestoga	Gongestoga	PROPN	_	_	5	obl	_	name=B-LOC|Entity=(vtbnn~20050628_2384__T113--1)
+3	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+4	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	5	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T114--1)
+5	oppleve	oppleve	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(vtbnn~20050628_2384__T115--1
+7	kunstnariske	kunstnarisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	delen	del	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	mellomaldertilværet	mellomaldertilvære	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T116--1)vtbnn~20050628_2384__T115)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012549
+# text = Sogelandet med sine 11 ulike tilskipingar er storsatsinga i Vest-Telemark denne sommaren.
+1	Sogelandet	Sogelandet	PROPN	_	_	8	nsubj	_	name=B-EVT|Entity=(vtbnn~20050628_2384__121059--1
+2	med	med	ADP	_	_	6	case	_	name=O
+3	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	6	nmod	_	name=O|Entity=(vtbnn~20050628_2384__T119--1(vtbnn~20050628_2384__121059--1)
+4	11	11	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O
+5	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	tilskipingar	tilskiping	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	1	nmod	_	name=O|Entity=vtbnn~20050628_2384__T119)vtbnn~20050628_2384__121059)
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	storsatsinga	storsatsing	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20050628_2384__T120--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Vest-Telemark	Vest-Telemark	PROPN	_	_	8	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20050628_2384__4544--1)vtbnn~20050628_2384__T120)
+11	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(vtbnn~20050628_2384__T122--1
+12	sommaren	sommar	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T122)
+13	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012550
+# text = På førehand ga prosjektleiar Nicolai Riise uttrykk for at eit publikum på 10.000 ville vere realistisk målsetting.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	førehand	førehand	NOUN	_	_	3	obl	_	name=O|Entity=(vtbnn~20050628_2384__T123--1)
+3	ga	gi	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	prosjektleiar	prosjektleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(vtbnn~20050628_2384__4321--1
+5	Nicolai	Nicolai	NOUN	_	Gender=Masc	3	nsubj	_	name=B-PER
+6	Riise	Riise	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2384__4321)
+7	uttrykk	uttrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(vtbnn~20050628_2384__T125--1
+8	for	for	SCONJ	_	_	17	mark	_	name=O
+9	at	at	SCONJ	_	_	17	mark	_	name=O
+10	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(vtbnn~20050628_2384__T126--1
+11	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	nsubj	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	10.000	10.000	NUM	_	Number=Plur|NumType=Card	11	nmod	_	name=O|Entity=vtbnn~20050628_2384__T126)
+14	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	name=O
+15	vere	vere	AUX	_	VerbForm=Inf	17	cop	_	name=O
+16	realistisk	realistisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(vtbnn~20050628_2384__T127--1
+17	målsetting	målsetting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	acl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T127)vtbnn~20050628_2384__T125)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012551
+# text = Sogelandet er eit bygdeutviklingsprosjekt.
+1	Sogelandet	Sogelandet	PROPN	_	_	4	nsubj	_	name=B-EVT|Entity=(vtbnn~20050628_2384__121059--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(vtbnn~20050628_2384__T129--1
+4	bygdeutviklingsprosjekt	bygdeutviklingsprosjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T129)
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012552
+# text = Sjølv om det står att nokre tilskipingar seinare i sommar, så må ein slå fast at publikum svikta Sogelandet.
+1	Sjølv	sjølv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	4	mark	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	nmod	_	name=O
+5	att	att	ADP	_	_	4	compound:prt	_	name=O
+6	nokre	nokon	DET	_	Number=Plur|PronType=Ind	7	det	_	name=O|Entity=(vtbnn~20050628_2384__T130--1
+7	tilskipingar	tilskiping	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	nsubj	_	name=O
+8	seinare	sein	ADJ	_	Degree=Cmp	10	advmod	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	sommar	sommar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T131--1)vtbnn~20050628_2384__T130)
+11	,	$,	PUNCT	_	_	4	punct	_	name=O
+12	så	så	ADV	_	_	15	advmod	_	name=O
+13	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+14	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	15	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T132--1)
+15	slå	slå	VERB	_	VerbForm=Inf	0	root	_	name=O
+16	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+17	at	at	SCONJ	_	_	19	mark	_	name=O
+18	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T133--1)
+19	svikta	svikte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	ccomp	_	name=O
+20	Sogelandet	Sogelandet	PROPN	_	_	19	obj	_	SpaceAfter=No|name=B-EVT|Entity=(vtbnn~20050628_2384__121059--1)
+21	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# newpar
+# sent_id = 012553
+# text = - Me er ikkje samde i at publikum har svikta oss.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__4580--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	samde	samd	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	i	i	SCONJ	_	_	10	mark	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T136--1)
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	svikta	svikte	VERB	_	VerbForm=Part	5	advcl	_	name=O
+11	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	10	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__4580--1)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012554
+# text = Sogelandet 2005 er berre å rekne som ein start, og dette skal skipast til også neste år.
+1	Sogelandet	Sogelandet	PROPN	_	_	6	nsubj	_	name=B-EVT|Bridge=vtbnn~20050628_2384__121059<vtbnn~20050628_2384__T138:default|Entity=(vtbnn~20050628_2384__T138--1
+2	2005	2005	NUM	_	Number=Plur|NumType=Card	1	flat:name	_	name=I-EVT|Entity=vtbnn~20050628_2384__T138)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	berre	berre	ADV	_	_	6	advmod	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	rekne	rekne	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	som	som	SCONJ	_	_	9	mark	_	name=O
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20050628_2384__T139--1
+9	start	start	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T139)
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	og	og	CCONJ	_	_	14	cc	_	name=O
+12	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__121059--1)
+13	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	skipast	skipe	VERB	_	VerbForm=Inf	6	conj	_	name=O
+15	til	til	ADP	_	_	14	compound:prt	_	name=O
+16	også	også	ADV	_	_	18	advmod	_	name=O|Entity=(vtbnn~20050628_2384__T141--1
+17	neste	neste	DET	_	Definite=Def|PronType=Dem	18	det	_	name=O
+18	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T141)
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012555
+# text = I mellomtida skal Sogelandet bli utvikla vidare.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	mellomtida	mellomtid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=(vtbnn~20050628_2384__T142--1)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	Sogelandet	Sogelandet	PROPN	_	_	6	nsubj:pass	_	name=B-EVT|Entity=(vtbnn~20050628_2384__121059--1)
+5	bli	bli	AUX	_	VerbForm=Inf	6	aux:pass	_	name=O
+6	utvikla	utvikle	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	vidare	vid	ADJ	_	Degree=Cmp	6	advmod	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012556
+# text = Det publikummet me fekk har jubla over det dei opplevde.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(vtbnn~20050628_2384__2291--1
+2	publikummet	publikum	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O
+3	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__4580--1)
+4	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	name=O|Entity=vtbnn~20050628_2384__2291)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	jubla	juble	VERB	_	VerbForm=Part	0	root	_	name=O
+7	over	over	ADP	_	_	8	case	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	name=O|Entity=(vtbnn~20050628_2384__T146--1
+9	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__2291--1)
+10	opplevde	oppleve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T146)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012557
+# text = No er Dyrskuplassen etablert som ein møteplass for dei mange som lever og ander for denne tidsepoken, seier Nicolai Riise.
+1	No	no	ADV	_	_	4	advmod	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	Dyrskuplassen	Dyrskuplassen	PROPN	_	_	4	nsubj	_	name=B-LOC|Entity=(vtbnn~20050628_2384__5453--1)
+4	etablert	etablere	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	som	som	SCONJ	_	_	7	mark	_	name=O
+6	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(vtbnn~20050628_2384__T149--1
+7	møteplass	møteplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	xcomp	_	name=O
+8	for	for	ADP	_	_	10	case	_	name=O
+9	dei	dei	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(vtbnn~20050628_2384__T150--1
+10	mange	mange	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+11	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+12	lever	leve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	ander	ande	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	conj	_	name=O
+15	for	for	ADP	_	_	17	case	_	name=O
+16	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(vtbnn~20050628_2384__T151--1
+17	tidsepoken	tidsepoke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T151)vtbnn~20050628_2384__T150)vtbnn~20050628_2384__T149)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+20	Nicolai	Nicolai	NOUN	_	Gender=Masc	19	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2384__4321--1
+21	Riise	Riise	PROPN	_	_	20	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20050628_2384__4321)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012558
+# text = Solveig Hellevig meiner mellomaldermarknaden gav ei total sanseoppleving, som ein ikkje vil finne nokon annan stad enn i Fjoset på Dyrskuplassen.
+1	Solveig	Solveig	NOUN	_	Gender=Fem	3	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2384__5524--1
+2	Hellevig	Hellevig	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2384__5524)
+3	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	mellomaldermarknaden	mellomaldermarknad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__3286--1)
+5	gav	gje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vtbnn~20050628_2384__T155--1
+7	total	total	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	sanseoppleving	sanseoppleving	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	14	punct	_	name=O
+10	som	som	PRON	_	PronType=Rel	14	obj	_	name=O
+11	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	14	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T156--1)
+12	ikkje	ikkje	PART	_	Polarity=Neg	14	advmod	_	name=O
+13	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	finne	finne	VERB	_	VerbForm=Inf	8	acl:relcl	_	name=O
+15	nokon	nokon	DET	_	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	name=O|Entity=(vtbnn~20050628_2384__T157--1
+16	annan	annan	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	name=O
+17	stad	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O
+18	enn	enn	ADP	_	_	20	case	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	Fjoset	Fjoset	PROPN	_	_	16	obl	_	name=B-LOC|Entity=(vtbnn~20050628_2384__2192--1
+21	på	på	ADP	_	_	22	case	_	name=O
+22	Dyrskuplassen	Dyrskuplassen	PROPN	_	_	20	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(vtbnn~20050628_2384__5453--1)vtbnn~20050628_2384__2192)vtbnn~20050628_2384__T157)vtbnn~20050628_2384__T155)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012559
+# text = - Eg er imponert.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__5524--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	imponert	imponere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012560
+# text = Sogelandet tilfører Vest-Telemark noko unikt, og me er enno berre i startfasen, seier ho.
+1	Sogelandet	Sogelandet	PROPN	_	_	2	nsubj	_	name=B-EVT|Entity=(vtbnn~20050628_2384__121059--1)
+2	tilfører	tilføre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Vest-Telemark	Vest-Telemark	PROPN	_	_	2	iobj	_	name=B-GPE_LOC|Entity=(vtbnn~20050628_2384__4544--1)
+4	noko	nokon	DET	_	Gender=Neut|Number=Sing|PronType=Ind	5	det	_	name=O
+5	unikt	unik	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	13	punct	_	name=O
+7	og	og	CCONJ	_	_	13	cc	_	name=O
+8	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__4580--1)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+10	enno	enno	ADV	_	_	13	advmod	_	name=O
+11	berre	berre	ADV	_	_	13	advmod	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	startfasen	startfase	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T164--1)
+14	,	$,	PUNCT	_	_	13	punct	_	name=O
+15	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+16	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__5524--1)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 012561
+# text = Etter messe i Seljord kyrkje og «ferdagraut» på kyrkjebakken starta sju damer den kulturhistoriske pilegrimsvandringa til Røldal stavkyrkje.
+1	Etter	etter	ADP	_	_	2	case	_	name=O
+2	messe	messe	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	name=O|Entity=(vtbnn~20050628_2384__T166--1(vtbnn~20050628_2384__T167--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Seljord	Seljord	PROPN	_	_	2	nmod	_	name=B-LOC|Entity=(vtbnn~20050628_2384__T168--1
+5	kyrkje	kyrkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	flat:name	_	name=I-LOC|Entity=vtbnn~20050628_2384__T168)vtbnn~20050628_2384__T167)
+6	og	og	CCONJ	_	_	8	cc	_	name=O
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T169--1
+8	ferdagraut	ferdagraut	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|name=O
+9	»	$"	PUNCT	_	_	8	punct	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	kyrkjebakken	kyrkjebakke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Bridge=vtbnn~20050628_2384__T168<vtbnn~20050628_2384__T170:default|Entity=(vtbnn~20050628_2384__T170--1)vtbnn~20050628_2384__T169)vtbnn~20050628_2384__T166)
+12	starta	starte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+13	sju	sju	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(vtbnn~20050628_2384__51045--1
+14	damer	dame	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	nsubj	_	name=O|Entity=vtbnn~20050628_2384__51045)
+15	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(vtbnn~20050628_2384__3532--1
+16	kulturhistoriske	kulturhistorisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	pilegrimsvandringa	pilegrimsvandring	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	12	obj	_	name=O
+18	til	til	ADP	_	_	19	case	_	name=O
+19	Røldal	Røldal	PROPN	_	_	17	nmod	_	name=B-LOC|Entity=(vtbnn~20050628_2384__3546--1
+20	stavkyrkje	stavkyrkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=vtbnn~20050628_2384__3546)vtbnn~20050628_2384__3532)
+21	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 012562
+# text = Frå mellomalderen og fram til 1800-talet gjekk det føre seg ein årleg valfart frå Telemark til Røldal.
+1	Frå	frå	ADP	_	_	2	case	_	name=O
+2	mellomalderen	mellomalder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(vtbnn~20050628_2384__5531--1)
+3	og	og	CCONJ	_	_	6	cc	_	name=O
+4	fram	fram	ADP	_	_	6	case	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	1800-talet	1800-tal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	conj	_	name=O|Entity=(vtbnn~20050628_2384__T175--1)
+7	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+9	føre	føre	ADP	_	_	10	case	_	name=O
+10	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	7	obl	_	name=O
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(vtbnn~20050628_2384__3532--1
+12	årleg	årleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	valfart	valfart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nsubj	_	name=O
+14	frå	frå	ADP	_	_	15	case	_	name=O
+15	Telemark	Telemark	PROPN	_	_	13	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20050628_2384__T177--1)
+16	til	til	ADP	_	_	17	case	_	name=O
+17	Røldal	Røldal	PROPN	_	_	13	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(vtbnn~20050628_2384__4613--1)vtbnn~20050628_2384__3532)
+18	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012563
+# text = Målet var krusifikset i Røldal stavkyrkja.
+1	Målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T179--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	krusifikset	krusifiks	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20050628_2384__2371--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Røldal	Røldal	PROPN	_	_	3	nmod	_	name=B-LOC|Entity=(vtbnn~20050628_2384__3546--1
+6	stavkyrkja	stavkyrkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=vtbnn~20050628_2384__3546)vtbnn~20050628_2384__2371)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012564
+# text = Vest-Telemark Museum bles liv i denne gamle tradisjonen att, og årets ferd over fjellet er den tredje på rad.
+1	Vest-Telemark	Vest-Telemark	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(vtbnn~20050628_2384__2382--1
+2	Museum	Museum	PROPN	_	_	1	flat:name	_	name=I-ORG|Entity=vtbnn~20050628_2384__2382)
+3	bles	blåse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(vtbnn~20050628_2384__T183--1)
+5	i	i	SCONJ	_	_	8	mark	_	name=O
+6	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(vtbnn~20050628_2384__3532--1
+7	gamle	gammal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	tradisjonen	tradisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	xcomp	_	name=O|Entity=vtbnn~20050628_2384__3532)
+9	att	att	ADP	_	_	3	compound:prt	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	18	punct	_	name=O
+11	og	og	CCONJ	_	_	18	cc	_	name=O
+12	årets	år	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	name=O|Entity=(vtbnn~20050628_2384__T186--1(vtbnn~20050628_2384__T185--1)
+13	ferd	ferd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	nsubj	_	name=O
+14	over	over	ADP	_	_	15	case	_	name=O
+15	fjellet	fjell	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	name=O|Entity=(vtbnn~20050628_2384__T187--1)vtbnn~20050628_2384__T186)
+16	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	name=O
+17	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	name=O
+18	tredje	tredje	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	conj	_	name=O
+19	på	på	ADP	_	_	20	case	_	name=O
+20	rad	rad	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T188--1)
+21	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012565
+# text = - Legenda fortalde at kvar jonsok sveita krusifikset i kyrkja, og sveiten var undergjerande.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Legenda	legende	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T189--1)
+3	fortalde	fortelje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	kvar	kvar	DET	_	Gender=Masc|Number=Sing|PronType=Tot	6	det	_	name=O|Entity=(vtbnn~20050628_2384__T190--1
+6	jonsok	jonsok	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=vtbnn~20050628_2384__T190)
+7	sveita	sveitte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	xcomp	_	name=O
+8	krusifikset	krusifiks	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__2371--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	kyrkja	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__3546--1)vtbnn~20050628_2384__2371)
+11	,	$,	PUNCT	_	_	15	punct	_	name=O
+12	og	og	CCONJ	_	_	15	cc	_	name=O
+13	sveiten	sveitte	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T193--1)
+14	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	name=O
+15	undergjerande	undergjerande	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	conj	_	SpaceAfter=No|name=O
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012566
+# text = Folk strøymde til frå både inn- og utland for å bli lækte, fortel prosjektleiar Una Høydal ved Vest-Telemark Museum.
+1	Folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T194--1)
+2	strøymde	strøyme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	2	compound:prt	_	name=O
+4	frå	frå	ADP	_	_	6	case	_	name=O
+5	både	både	CCONJ	_	_	6	cc	_	name=O
+6	inn-	inn-	NOUN	_	_	2	obl	_	name=O|Entity=(vtbnn~20050628_2384__T195--1(vtbnn~20050628_2384__T196--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	utland	utland	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	name=O|Entity=(vtbnn~20050628_2384__T197--1)vtbnn~20050628_2384__T195)
+9	for	for	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	bli	bli	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+12	lækte	lækje	ADJ	_	Number=Plur|VerbForm=Part	11	xcomp	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	fortel	fortelje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+15	prosjektleiar	prosjektleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(vtbnn~20050628_2384__2415--1(vtbnn~20050628_2384__T198[1/2]--1)
+16	Una	Una	PROPN	_	_	14	nsubj	_	name=B-PER
+17	Høydal	Høydal	PROPN	_	_	16	flat:name	_	name=I-PER
+18	ved	ved	ADP	_	_	19	case	_	name=O|Entity=(vtbnn~20050628_2384__T198[2/2]--1
+19	Vest-Telemark	Vest-Telemark	PROPN	_	_	15	nmod	_	name=B-ORG|Entity=(vtbnn~20050628_2384__2382--1
+20	Museum	Museum	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=vtbnn~20050628_2384__2382)vtbnn~20050628_2384__T198[2/2])vtbnn~20050628_2384__2415)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012567
+# text = Fram til neste tysdag skal pilegrimane gå i telemarkingane sine fotspor langs dei gamle ålmann vegane mellom Vest-Telemark og Røldal.
+1	Fram	fram	ADP	_	_	4	case	_	name=O
+2	til	til	ADP	_	_	4	case	_	name=O
+3	neste	neste	DET	_	Definite=Def|PronType=Dem	4	det	_	name=O|Entity=(vtbnn~20050628_2384__T201--1
+4	tysdag	tysdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=vtbnn~20050628_2384__T201)
+5	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	pilegrimane	pilegrim	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__51045--1)
+7	gå	gå	VERB	_	VerbForm=Inf	0	root	_	name=O
+8	i	i	ADP	_	_	11	case	_	name=O
+9	telemarkingane	telemarking	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	10	obl	_	name=O|Entity=(vtbnn~20050628_2384__T205--1(vtbnn~20050628_2384__T204--1(vtbnn~20050628_2384__T203--1)
+10	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	11	nmod	_	name=O|Entity=vtbnn~20050628_2384__T204)
+11	fotspor	fotspor	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O|Entity=vtbnn~20050628_2384__T205)
+12	langs	langs	ADP	_	_	16	case	_	name=O
+13	dei	dei	DET	_	Number=Plur|PronType=Dem	16	det	_	name=O|Entity=(vtbnn~20050628_2384__T206--1
+14	gamle	gammal	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+15	ålmann	ålmann	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+16	vegane	veg	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	obl	_	name=O
+17	mellom	mellom	ADP	_	_	18	case	_	name=O
+18	Vest-Telemark	Vest-Telemark	PROPN	_	_	16	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20050628_2384__T207--1(vtbnn~20050628_2384__4544--1)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	Røldal	Røldal	PROPN	_	_	18	conj	_	SpaceAfter=No|name=B-LOC|Entity=(vtbnn~20050628_2384__4613--1)vtbnn~20050628_2384__T207)vtbnn~20050628_2384__T206)
+21	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012568
+# text = Nokre av pilegrimane kjem berre til å gå enkelte av dagsetappane, medan dei ivrigaste og sprekaste går heile vegen.
+1	Nokre	nokon	DET	_	Number=Plur|PronType=Ind	4	nsubj	_	name=O
+2	av	av	ADP	_	_	3	case	_	name=O
+3	pilegrimane	pilegrim	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	name=O|Entity=(vtbnn~20050628_2384__51045--1)
+4	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	berre	berre	ADV	_	_	4	advmod	_	name=O
+6	til	til	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	gå	gå	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+9	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	8	obj	_	name=O
+10	av	av	ADP	_	_	11	case	_	name=O
+11	dagsetappane	dagsetappe	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T211--1)
+12	,	$,	PUNCT	_	_	18	punct	_	name=O
+13	medan	medan	SCONJ	_	_	18	mark	_	name=O
+14	dei	dei	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(vtbnn~20050628_2384__T212--1(vtbnn~20050628_2384__T213--1
+15	ivrigaste	ivrig	ADJ	_	Definite=Def|Degree=Sup	18	nsubj	_	name=O|Entity=vtbnn~20050628_2384__T213)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	sprekaste	sprek	ADJ	_	Definite=Def|Degree=Sup	15	conj	_	name=O|Entity=(vtbnn~20050628_2384__T214--1)vtbnn~20050628_2384__T212)
+18	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	name=O
+19	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(vtbnn~20050628_2384__2446--1
+20	vegen	veg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__2446)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012569
+# text = Una Høydal seier at Røldal i gamle dagar var det nest største pilegrimsmålet i landet.
+1	Una	Una	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(vtbnn~20050628_2384__2415--1
+2	Høydal	Høydal	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20050628_2384__2415)
+3	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	13	mark	_	name=O
+5	Røldal	Røldal	PROPN	_	_	13	nsubj	_	name=B-LOC|Entity=(vtbnn~20050628_2384__4613--1)
+6	i	i	ADP	_	_	8	case	_	name=O
+7	gamle	gammal	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(vtbnn~20050628_2384__T218--1
+8	dagar	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	name=O|Entity=vtbnn~20050628_2384__T218)
+9	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+10	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(vtbnn~20050628_2384__T219--1
+11	nest	nest	ADV	_	_	12	advmod	_	name=O
+12	største	stor	ADJ	_	Definite=Def|Degree=Sup	13	amod	_	name=O
+13	pilegrimsmålet	pilegrimsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	ccomp	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__T220--1)vtbnn~20050628_2384__T219)
+16	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012570
+# text = Berre Nidaros var større.
+1	Berre	berre	ADV	_	_	2	advmod	_	name=O|Entity=(vtbnn~20050628_2384__T221--1
+2	Nidaros	Nidaros	PROPN	_	_	4	nsubj	_	name=B-LOC|Entity=vtbnn~20050628_2384__T221)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+4	større	stor	ADJ	_	Degree=Cmp	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012571
+# text = - Folk frå dei lokale sogelaga er kjentmenn og førarar undervegs.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__T222--1
+3	frå	frå	ADP	_	_	6	case	_	name=O
+4	dei	dei	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(vtbnn~20050628_2384__T223--1
+5	lokale	lokal	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	sogelaga	sogelag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=vtbnn~20050628_2384__T223)vtbnn~20050628_2384__T222)
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	kjentmenn	kjentmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(vtbnn~20050628_2384__T224--1(vtbnn~20050628_2384__T225--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	førarar	førar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	conj	_	name=O|Entity=(vtbnn~20050628_2384__T226--1)vtbnn~20050628_2384__T224)
+11	undervegs	undervegs	ADP	_	_	8	obl	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012572
+# text = Pilegrimane får med seg kulturen og historia langs vegen, og ved dei kyrkjene som blir passerte, vert det særskilde markeringar.
+1	Pilegrimane	pilegrim	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(vtbnn~20050628_2384__51045--1)
+2	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	med	med	ADP	_	_	4	case	_	name=O
+4	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	2	obl	_	name=O|Entity=(vtbnn~20050628_2384__51045--1)
+5	kulturen	kultur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(vtbnn~20050628_2384__T228--1(vtbnn~20050628_2384__T229--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	historia	historie	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	conj	_	name=O|Entity=(vtbnn~20050628_2384__T230--1)vtbnn~20050628_2384__T228)
+8	langs	langs	ADP	_	_	9	case	_	name=O
+9	vegen	veg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20050628_2384__2446--1)
+10	,	$,	PUNCT	_	_	19	punct	_	name=O
+11	og	og	CCONJ	_	_	19	cc	_	name=O
+12	ved	ved	ADP	_	_	14	case	_	name=O
+13	dei	dei	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(vtbnn~20050628_2384__T232--1
+14	kyrkjene	kyrkje	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	19	obl	_	name=O
+15	som	som	PRON	_	PronType=Rel	17	nsubj:pass	_	name=O
+16	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux:pass	_	name=O
+17	passerte	passere	VERB	_	Number=Plur|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T232)
+18	,	$,	PUNCT	_	_	14	punct	_	name=O
+19	vert	verte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+20	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	name=O
+21	særskilde	særskild	ADJ	_	Degree=Pos|Number=Plur	22	amod	_	name=O|Entity=(vtbnn~20050628_2384__T233--1
+22	markeringar	markering	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	xcomp	_	SpaceAfter=No|name=O|Entity=vtbnn~20050628_2384__T233)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+

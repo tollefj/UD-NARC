@@ -1,0 +1,601 @@
+# newdoc id = ap_20090814-3215872
+# global.Entity = eid-etype-head-other
+# sent_id = 003305
+# text = Feirer norsk-pakistansk selvsikkerhet
+1	Feirer	feire	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	norsk-pakistansk	norsk-pakistansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=(ap_20090814_3215872__3239--1
+3	selvsikkerhet	selvsikkerhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	name=O|Entity=ap_20090814_3215872__3239)
+
+# newpar
+# sent_id = 003306
+# text = Vellykket.
+1	Vellykket	vellykket	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 003307
+# text = Norsk identitet.
+1	Norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(ap_20090814_3215872__T2--1
+2	identitet	identitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T2)
+3	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 003308
+# text = Selvsikkerhet.
+1	Selvsikkerhet	selvsikkerhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T3--1)
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 003309
+# text = I dag er Oslo pyntet i grønt og hvitt.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(ap_20090814_3215872__T4--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	Oslo	Oslo	PROPN	_	_	5	nsubj	_	name=B-GPE_LOC|Entity=(ap_20090814_3215872__367--1)
+5	pyntet	pynte	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	grønt	grønn	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O|Entity=(ap_20090814_3215872__T6--1(ap_20090814_3215872__T7--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	hvitt	hvit	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T8--1)ap_20090814_3215872__T6)
+10	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 003310
+# text = Titusenvis av norsk-pakistanere feirer Pakistans nasjonaldag.
+1	Titusenvis	titusenvis	NOUN	_	_	4	nsubj	_	name=O|Entity=(ap_20090814_3215872__223--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	norsk-pakistanere	norsk-pakistaner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	name=O|Entity=(ap_20090814_3215872__3142--1)ap_20090814_3215872__223)
+4	feirer	feire	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	Pakistans	Pakistan	PROPN	_	Case=Gen	6	nmod	_	name=B-GPE_LOC|Entity=(ap_20090814_3215872__233--1(ap_20090814_3215872__228--1)
+6	nasjonaldag	nasjonaldag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__233)
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 003311
+# text = Det gjør de som vellykkede nordmenn.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(ap_20090814_3215872__T13--1)
+2	gjør	gjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090814_3215872__223--1)
+4	som	som	SCONJ	_	_	6	mark	_	name=O
+5	vellykkede	vellykket	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(ap_20090814_3215872__T15--1
+6	nordmenn	nordmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	acl	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T15)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 003312
+# text = Det er ikke bare opprettelsen av Pakistan som markeres ved ulike tilstelninger i Oslo i dag.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+4	bare	bare	ADV	_	_	5	advmod	_	name=O
+5	opprettelsen	opprettelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20090814_3215872__T16--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	Pakistan	Pakistan	PROPN	_	_	5	nmod	_	name=B-GPE_LOC|Entity=(ap_20090814_3215872__228--1)
+8	som	som	PRON	_	PronType=Rel	9	nsubj:pass	_	name=O
+9	markeres	markere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:cleft	_	name=O
+10	ved	ved	ADP	_	_	12	case	_	name=O
+11	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(ap_20090814_3215872__T18--1
+12	tilstelninger	tilstelning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	name=O|Entity=ap_20090814_3215872__T18)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	Oslo	Oslo	PROPN	_	_	9	obl	_	name=B-GPE_LOC|Entity=(ap_20090814_3215872__367--1)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T20--1)ap_20090814_3215872__T16)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 003313
+# text = Dagen er like mye en anledning for den norsk-pakistanske minoritetens hyllest av seg selv og den kollektive optimismen som råder innad i minoriteten.
+1	Dagen	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20090814_3215872__233--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	like	like	ADV	_	_	6	advmod	_	name=O
+4	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	advmod	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20090814_3215872__T22--1
+6	anledning	anledning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+7	for	for	ADP	_	_	11	case	_	name=O
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(ap_20090814_3215872__T24--1(ap_20090814_3215872__5480--1
+9	norsk-pakistanske	norsk-pakistansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	minoritetens	minoritet	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=ap_20090814_3215872__5480)
+11	hyllest	hyllest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	nmod	_	name=O|Entity=(ap_20090814_3215872__5480--1
+14	selv	selv	DET	_	PronType=Prs	13	det	_	name=O|Entity=ap_20090814_3215872__5480)
+15	og	og	CCONJ	_	_	18	cc	_	name=O
+16	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(ap_20090814_3215872__2170--1
+17	kollektive	kollektiv	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	optimismen	optimisme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	conj	_	name=O
+19	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+20	råder	råde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	name=O
+21	innad	innad	ADP	_	_	23	case	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	minoriteten	minoritet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__5480--1)ap_20090814_3215872__2170)ap_20090814_3215872__T24)ap_20090814_3215872__T22)
+24	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 003314
+# text = De unge norsk-pakistanerne som er oppvokst i Norge, har omsider begynt å leve opp til foreldrenes forventninger og storsamfunnets krav.
+1	De	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(ap_20090814_3215872__261--1
+2	unge	ung	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	norsk-pakistanerne	norsk-pakistaner	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nsubj	_	name=O
+4	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	oppvokst	oppvokst	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	acl:relcl	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Norge	Norge	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090814_3215872__T28--1)ap_20090814_3215872__261)
+9	,	$,	PUNCT	_	_	6	punct	_	name=O
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+11	omsider	omsider	ADV	_	_	12	advmod	_	name=O
+12	begynt	begynne	VERB	_	VerbForm=Part	0	root	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	leve	leve	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	opp	opp	ADP	_	_	14	compound:prt	_	name=O
+16	til	til	ADP	_	_	18	case	_	name=O
+17	foreldrenes	forelder	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	18	nmod	_	name=O|Entity=(ap_20090814_3215872__T30--1(ap_20090814_3215872__T31--1(ap_20090814_3215872__T29--1)
+18	forventninger	forventning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	obl	_	name=O|Entity=ap_20090814_3215872__T31)
+19	og	og	CCONJ	_	_	21	cc	_	name=O
+20	storsamfunnets	storsamfunn	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	21	nmod	_	name=O|Entity=(ap_20090814_3215872__T33--1(ap_20090814_3215872__T32--1)
+21	krav	krav	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	conj	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T33)ap_20090814_3215872__T30)
+22	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 003315
+# text = De klatrer til topps både i akademia og arbeidslivet.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090814_3215872__261--1)
+2	klatrer	klatre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	topps	topp	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(ap_20090814_3215872__T35--1)
+5	både	både	CCONJ	_	_	7	cc	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	akademia	akademi	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	obl	_	name=O|Entity=(ap_20090814_3215872__T36--1(ap_20090814_3215872__T37--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	arbeidslivet	arbeidsliv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T38--1)ap_20090814_3215872__T36)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003316
+# text = Den kanskje mest betydningsfulle organisasjonen i norsk-pakistansk historie, Pakistansk Studentsamfunn (PSS) i Oslo, illustrerer at utviklingen er gått i riktig retning.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(ap_20090814_3215872__3137--1(ap_20090814_3215872__T39--1
+2	kanskje	kanskje	ADV	_	_	3	advmod	_	name=O
+3	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	4	advmod	_	name=O
+4	betydningsfulle	betydningsfull	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	organisasjonen	organisasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	norsk-pakistansk	norsk-pakistansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(ap_20090814_3215872__T40--1
+8	historie	historie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T40)
+9	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=ap_20090814_3215872__T39)
+10	Pakistansk	Pakistansk	PROPN	_	_	18	nsubj	_	name=B-ORG
+11	Studentsamfunn	Studentsamfunn	PROPN	_	_	10	flat:name	_	name=I-ORG
+12	(	$(	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T42--1
+13	PSS	PSS	PROPN	_	_	10	appos	_	SpaceAfter=No|name=B-ORG
+14	)	$)	PUNCT	_	_	13	punct	_	name=O|Entity=ap_20090814_3215872__T42)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	Oslo	Oslo	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20090814_3215872__367--1)ap_20090814_3215872__3137)
+17	,	$,	PUNCT	_	_	16	punct	_	name=O
+18	illustrerer	illustrere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+19	at	at	SCONJ	_	_	22	mark	_	name=O
+20	utviklingen	utvikling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	name=O|Entity=(ap_20090814_3215872__3215--1)
+21	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+22	gått	gå	VERB	_	VerbForm=Part	18	ccomp	_	name=O
+23	i	i	ADP	_	_	25	case	_	name=O
+24	riktig	riktig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O|Entity=(ap_20090814_3215872__T45--1
+25	retning	retning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T45)
+26	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 003317
+# text = PSS ble opprettet i 1993 opprinnelig for å motivere norsk-pakistanere til å ta høyere utdannelse, men da jeg ledet studentsamfunnet for fire år siden, var fokuset helt annet - å opprette kontakt mellom de mange ferdigutdannede norsk-pakistanere og arbeidslivet.
+1	PSS	PSS	PROPN	_	_	3	nsubj:pass	_	name=B-ORG|Entity=(ap_20090814_3215872__3137--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	opprettet	opprette	VERB	_	VerbForm=Part	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	1993	1993	NUM	_	Number=Plur|NumType=Card	3	obl	_	name=O
+6	opprinnelig	opprinnelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+7	for	for	SCONJ	_	_	9	mark	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	motivere	motivere	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+10	norsk-pakistanere	norsk-pakistaner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	name=O|Entity=(ap_20090814_3215872__3142--1)
+11	til	til	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	ta	ta	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+14	høyere	høy	ADJ	_	Degree=Cmp	15	amod	_	name=O|Entity=(ap_20090814_3215872__T48--1
+15	utdannelse	utdannelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T48)
+16	,	$,	PUNCT	_	_	30	punct	_	name=O
+17	men	men	CCONJ	_	_	30	cc	_	name=O
+18	da	da	SCONJ	_	_	20	mark	_	name=O
+19	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	name=O|Entity=(ap_20090814_3215872__T49--1)
+20	ledet	lede	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	30	advcl	_	name=O
+21	studentsamfunnet	studentsamfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	obj	_	name=O|Entity=(ap_20090814_3215872__3137--1)
+22	for	for	ADP	_	_	24	case	_	name=O
+23	fire	fire	NUM	_	Number=Plur|NumType=Card	24	nummod	_	name=O|Entity=(ap_20090814_3215872__T51--1
+24	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	obl	_	name=O
+25	siden	siden	ADV	_	_	24	advmod	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T51)
+26	,	$,	PUNCT	_	_	20	punct	_	name=O
+27	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	30	cop	_	name=O
+28	fokuset	fokus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	30	nsubj	_	name=O|Entity=(ap_20090814_3215872__T52--1)
+29	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	advmod	_	name=O
+30	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	3	conj	_	name=O
+31	-	$-	PUNCT	_	_	33	punct	_	name=O
+32	å	å	PART	_	_	33	mark	_	name=O
+33	opprette	opprette	VERB	_	VerbForm=Inf	30	acl	_	name=O
+34	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	obj	_	name=O|Entity=(ap_20090814_3215872__T53--1
+35	mellom	mellom	ADP	_	_	39	case	_	name=O
+36	de	de	DET	_	Number=Plur|PronType=Dem	39	det	_	name=O|Entity=(ap_20090814_3215872__T54--1(ap_20090814_3215872__T55--1
+37	mange	mange	ADJ	_	Degree=Pos|Number=Plur	39	amod	_	name=O
+38	ferdigutdannede	ferdigutdannet	ADJ	_	Degree=Pos|Number=Plur	39	amod	_	name=O
+39	norsk-pakistanere	norsk-pakistaner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	34	nmod	_	name=O|Entity=ap_20090814_3215872__T55)
+40	og	og	CCONJ	_	_	41	cc	_	name=O
+41	arbeidslivet	arbeidsliv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	39	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T56--1)ap_20090814_3215872__T54)ap_20090814_3215872__T53)
+42	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 003318
+# text = Det er ikke få navn som demonstrerer denne utviklingen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	få	få	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(ap_20090814_3215872__T57--1
+5	navn	navn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	nsubj	_	name=O
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	demonstrerer	demonstrere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+8	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(ap_20090814_3215872__3215--1
+9	utviklingen	utvikling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__3215)ap_20090814_3215872__T57)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003319
+# text = Den prisbelønte professoren i medisin ved Universitetet i Oslo, Farrukh Chaudhry, er hjerneforsker ved et medisinsk fakultet hvor flere av studentkullene omtrent har en tosifret prosentandel med pakistansk bakgrunn.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20090814_3215872__T62--1(ap_20090814_3215872__T59--1
+2	prisbelønte	prisbelønne	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	3	amod	_	name=O
+3	professoren	professor	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	medisin	medisin	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(ap_20090814_3215872__T60--1)
+6	ved	ved	ADP	_	_	7	case	_	name=O
+7	Universitetet	Universitetet	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(ap_20090814_3215872__T61--1
+8	i	i	ADP	_	_	7	flat:name	_	name=I-ORG
+9	Oslo	Oslo	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20090814_3215872__T61)
+10	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=ap_20090814_3215872__T59)
+11	Farrukh	Farrukh	PROPN	_	_	15	nsubj	_	name=B-PER
+12	Chaudhry	Chaudhry	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PER
+13	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=ap_20090814_3215872__T62)
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+15	hjerneforsker	hjerneforsker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20090814_3215872__T63--1
+16	ved	ved	ADP	_	_	19	case	_	name=O
+17	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(ap_20090814_3215872__T64--1
+18	medisinsk	medisinsk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	name=O
+19	fakultet	fakultet	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	name=O
+20	hvor	hvor	ADV	_	_	25	advmod	_	name=O
+21	flere	mange	ADJ	_	Degree=Cmp	25	nsubj	_	name=O|Entity=(ap_20090814_3215872__T65--1
+22	av	av	ADP	_	_	23	case	_	name=O
+23	studentkullene	studentkull	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	21	nmod	_	name=O|Entity=(ap_20090814_3215872__T66--1)ap_20090814_3215872__T65)
+24	omtrent	omtrent	ADV	_	_	25	advmod	_	name=O
+25	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	name=O
+26	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	28	det	_	name=O|Entity=(ap_20090814_3215872__T67--1
+27	tosifret	tosifret	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	28	amod	_	name=O
+28	prosentandel	prosentandel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obj	_	name=O
+29	med	med	ADP	_	_	31	case	_	name=O
+30	pakistansk	pakistansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	31	amod	_	name=O|Entity=(ap_20090814_3215872__T68--1
+31	bakgrunn	bakgrunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T68)ap_20090814_3215872__T67)ap_20090814_3215872__T64)ap_20090814_3215872__T63)
+32	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 003320
+# text = Sheraz Yaqub, kirurg og doktorgradsholder, er den aller første som har fullført forskerlinjen på medisin.
+1	Sheraz	Sheraz	PROPN	_	_	11	nsubj	_	name=B-PER|Entity=(ap_20090814_3215872__T69--1
+2	Yaqub	Yaqub	PROPN	_	_	1	flat:name	_	SpaceAfter=No|name=I-PER
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	kirurg	kirurg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	name=O|Entity=(ap_20090814_3215872__T70--1(ap_20090814_3215872__T71[1/2]--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	doktorgradsholder	doktorgradsholder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T72--1)
+7	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=(ap_20090814_3215872__T71[2/2]--1)ap_20090814_3215872__T70)ap_20090814_3215872__T69)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O
+10	aller	aller	ADV	_	_	11	advmod	_	name=O
+11	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	0	root	_	name=O
+12	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	fullført	fullføre	VERB	_	VerbForm=Part	11	acl:relcl	_	name=O
+15	forskerlinjen	forskerlinje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	name=O|Entity=(ap_20090814_3215872__T73--1
+16	på	på	ADP	_	_	17	case	_	name=O
+17	medisin	medisin	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T74--1)ap_20090814_3215872__T73)
+18	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 003321
+# text = Og i sommer var en ny legespire intervjuet i Nettavisen - den 18-årige supereleven Faisal Qureshi ,som har sanket 25 seksere på videregående skole.
+1	Og	og	CCONJ	_	_	8	cc	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	sommer	sommer	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(ap_20090814_3215872__T75--1)
+4	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20090814_3215872__T76[1/2]--1
+6	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	legespire	legespire	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=ap_20090814_3215872__T76[1/2])
+8	intervjuet	intervjue	VERB	_	VerbForm=Part	0	root	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Nettavisen	Nettavisen	PROPN	_	_	8	obl	_	name=B-PROD|Entity=(ap_20090814_3215872__T77--1)
+11	-	$-	PUNCT	_	_	15	punct	_	name=O
+12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(ap_20090814_3215872__T76[2/2]--1(ap_20090814_3215872__T79--1(ap_20090814_3215872__T78--1
+13	18-årige	18-årig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	supereleven	superelev	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=ap_20090814_3215872__T78)
+15	Faisal	Faisal	PROPN	_	_	7	appos	_	name=B-PER
+16	Qureshi	Qureshi	PROPN	_	_	15	flat:name	_	name=I-PER
+17	,	$,	PUNCT	_	_	20	punct	_	SpaceAfter=No|name=O
+18	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+19	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+20	sanket	sanke	VERB	_	VerbForm=Part	15	acl:relcl	_	name=O
+21	25	25	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O|Entity=(ap_20090814_3215872__T80--1
+22	seksere	sekser	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	obj	_	name=O|Entity=ap_20090814_3215872__T80)
+23	på	på	ADP	_	_	25	case	_	name=O
+24	videregående	videregående	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O|Entity=(ap_20090814_3215872__T81--1
+25	skole	skole	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T81)ap_20090814_3215872__T76[2/2])ap_20090814_3215872__T79)
+26	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 003322
+# text = Utenfor medisinens verden har også det målrettede arbeidet blant norsk-pakistanerne lønnet seg.
+1	Utenfor	utenfor	ADP	_	_	3	case	_	name=O
+2	medisinens	medisin	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(ap_20090814_3215872__T83--1(ap_20090814_3215872__T82--1)
+3	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=ap_20090814_3215872__T83)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+5	også	også	ADV	_	_	11	advmod	_	name=O
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(ap_20090814_3215872__T84--1
+7	målrettede	målrettet	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	name=O
+9	blant	blant	ADP	_	_	10	case	_	name=O
+10	norsk-pakistanerne	norsk-pakistaner	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=(ap_20090814_3215872__3142--1)ap_20090814_3215872__T84)
+11	lønnet	lønne	VERB	_	VerbForm=Part	0	root	_	name=O
+12	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 003323
+# text = Norsk-pakistanske jenter og gutter er synlige blant ingeniører og konsulenter i Norges Silicon Valley - IT-Fornebu.
+1	Norsk-pakistanske	norsk-pakistansk	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(ap_20090814_3215872__T86--1(ap_20090814_3215872__T87--1
+2	jenter	jente	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nsubj	_	name=O|Entity=ap_20090814_3215872__T87)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	gutter	gutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	conj	_	name=O|Entity=(ap_20090814_3215872__T88--1)ap_20090814_3215872__T86)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	synlige	synlig	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+7	blant	blant	ADP	_	_	8	case	_	name=O
+8	ingeniører	ingeniør	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O|Entity=(ap_20090814_3215872__T89--1(ap_20090814_3215872__T90--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	konsulenter	konsulent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	conj	_	name=O|Entity=(ap_20090814_3215872__T91--1
+11	i	i	ADP	_	_	13	case	_	name=O
+12	Norges	Norge	PROPN	_	Case=Gen	13	nmod	_	name=B-GPE_LOC|Entity=(ap_20090814_3215872__T93--1(ap_20090814_3215872__3302--1)
+13	Silicon	Silicon	PROPN	_	_	10	nmod	_	name=B-LOC
+14	Valley	Valley	PROPN	_	_	13	flat:name	_	name=I-LOC
+15	-	$-	PUNCT	_	_	16	punct	_	name=O
+16	IT-Fornebu	IT-Fornebu	PROPN	_	_	13	appos	_	SpaceAfter=No|name=B-LOC|Entity=ap_20090814_3215872__T93)ap_20090814_3215872__T91)ap_20090814_3215872__T89)
+17	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 003324
+# text = Ikke minst er hele Norge blitt kjent med makroanalytikeren Shakeb Syed, som er ekspertkommentator for riksmediene.
+1	Ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+2	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	7	advmod	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+4	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(ap_20090814_3215872__3302--1
+5	Norge	Norge	PROPN	_	_	7	nsubj:pass	_	name=B-GPE_ORG|Entity=ap_20090814_3215872__3302)
+6	blitt	bli	AUX	_	VerbForm=Part	7	aux:pass	_	name=O
+7	kjent	kjenne	VERB	_	VerbForm=Part	0	root	_	name=O
+8	med	med	ADP	_	_	10	case	_	name=O
+9	makroanalytikeren	makroanalytiker	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(ap_20090814_3215872__T95--1
+10	Shakeb	Shakeb	PROPN	_	_	7	obl	_	name=B-PER
+11	Syed	Syed	PROPN	_	_	10	flat:name	_	SpaceAfter=No|name=I-PER
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+15	ekspertkommentator	ekspertkommentator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	acl:relcl	_	name=O|Entity=(ap_20090814_3215872__T96--1
+16	for	for	ADP	_	_	17	case	_	name=O
+17	riksmediene	riksmedium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T97--1)ap_20090814_3215872__T96)ap_20090814_3215872__T95)
+18	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 003325
+# text = Norsk-pakistanske jenter er svært delaktige i å frembringe den økende norsk-pakistanske selvtilliten.
+1	Norsk-pakistanske	norsk-pakistansk	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(ap_20090814_3215872__T98--1
+2	jenter	jente	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nsubj	_	name=O|Entity=ap_20090814_3215872__T98)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	delaktige	delaktig	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	i	i	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	frembringe	frembringe	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(ap_20090814_3215872__3239--1
+10	økende	øke	ADJ	_	VerbForm=Part	12	amod	_	name=O
+11	norsk-pakistanske	norsk-pakistansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	selvtilliten	selvtillit	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__3239)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 003326
+# text = Psykologistudenten Sidrah Iqbal prydet nylig Aftenpostens forside som eksempel på at minoritetsjenter er flinkest av alle til å fullføre videregående skole og at de i større utstrekning enn gutter med lik bakgrunn tar høyere utdannelse.
+1	Psykologistudenten	psykologistudent	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20090814_3215872__T100--1
+2	Sidrah	Sidrah	PROPN	_	_	4	nsubj	_	name=B-PER
+3	Iqbal	Iqbal	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=ap_20090814_3215872__T100)
+4	prydet	pryde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	nylig	nylig	ADV	_	_	4	advmod	_	name=O
+6	Aftenpostens	Aftenposten	PROPN	_	Case=Gen|Gender=Masc	7	nmod	_	name=B-PROD|Entity=(ap_20090814_3215872__T102--1(ap_20090814_3215872__T101--1)
+7	forside	forside	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=ap_20090814_3215872__T102)
+8	som	som	SCONJ	_	_	9	mark	_	name=O
+9	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	acl	_	name=O|Entity=(ap_20090814_3215872__T103--1
+10	på	på	ADP	_	_	14	case	_	name=O
+11	at	at	SCONJ	_	_	14	mark	_	name=O
+12	minoritetsjenter	minoritetsjente	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	nsubj	_	name=O|Entity=(ap_20090814_3215872__T104--1)
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+14	flinkest	flink	ADJ	_	Definite=Ind|Degree=Sup	9	amod	_	name=O
+15	av	av	ADP	_	_	16	case	_	name=O
+16	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	14	obl	_	name=O|Entity=(ap_20090814_3215872__T105--1)
+17	til	til	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	fullføre	fullføre	VERB	_	VerbForm=Inf	14	advcl	_	name=O
+20	videregående	videregående	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O|Entity=(ap_20090814_3215872__T106--1
+21	skole	skole	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	name=O|Entity=ap_20090814_3215872__T106)
+22	og	og	CCONJ	_	_	33	cc	_	name=O
+23	at	at	SCONJ	_	_	33	mark	_	name=O
+24	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	nsubj	_	name=O|Entity=(ap_20090814_3215872__T107--1)
+25	i	i	ADP	_	_	27	case	_	name=O
+26	større	stor	ADJ	_	Degree=Cmp	27	amod	_	name=O|Entity=(ap_20090814_3215872__T108--1
+27	utstrekning	utstrekning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	33	obl	_	name=O
+28	enn	enn	ADP	_	_	29	case	_	name=O
+29	gutter	gutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	26	obl	_	name=O|Entity=(ap_20090814_3215872__T109--1
+30	med	med	ADP	_	_	32	case	_	name=O
+31	lik	lik	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	32	amod	_	name=O|Entity=(ap_20090814_3215872__T110--1
+32	bakgrunn	bakgrunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	name=O|Entity=ap_20090814_3215872__T110)ap_20090814_3215872__T109)ap_20090814_3215872__T108)
+33	tar	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	name=O
+34	høyere	høy	ADJ	_	Degree=Cmp	35	amod	_	name=O|Entity=(ap_20090814_3215872__T111--1
+35	utdannelse	utdannelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T111)ap_20090814_3215872__T103)
+36	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 003327
+# text = Et trekk i den positive norsk-pakistanske utviklingen er også at man dyrker en norsk identitet.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20090814_3215872__T112--1
+2	trekk	trekk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	nsubj	_	name=O
+3	i	i	ADP	_	_	7	case	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20090814_3215872__3215--1
+5	positive	positiv	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+6	norsk-pakistanske	norsk-pakistansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	utviklingen	utvikling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=ap_20090814_3215872__3215)ap_20090814_3215872__T112)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+9	også	også	ADV	_	_	12	advmod	_	name=O
+10	at	at	SCONJ	_	_	12	mark	_	name=O
+11	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	12	nsubj	_	name=O|Entity=(ap_20090814_3215872__T114--1)
+12	dyrker	dyrke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+13	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(ap_20090814_3215872__T115--1
+14	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	identitet	identitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T115)
+16	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 003328
+# text = Norge sees på som det første hjemland, og betegnende nok er det i 14. august-feiringen blitt innlemmet verneverdige særnorske barnetog, arrangert av Høyres Aamir Sheikh.
+1	Norge	Norge	PROPN	_	_	2	nsubj	_	name=B-GPE_LOC|Entity=(ap_20090814_3215872__3302--1)
+2	sees	sees	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	2	compound:prt	_	name=O
+4	som	som	SCONJ	_	_	7	mark	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20090814_3215872__T117--1
+6	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	hjemland	hjemland	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T117)
+8	,	$,	PUNCT	_	_	18	punct	_	name=O
+9	og	og	CCONJ	_	_	18	cc	_	name=O
+10	betegnende	betegnende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+11	nok	nok	ADV	_	_	10	advmod	_	name=O
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+14	i	i	ADP	_	_	16	case	_	name=O
+15	14.	14.	ADJ	_	Number=Plur	16	amod	_	name=O|Entity=(ap_20090814_3215872__T118--1
+16	august-feiringen	august-feiring	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	name=O|Entity=ap_20090814_3215872__T118)
+17	blitt	bli	AUX	_	VerbForm=Part	18	aux:pass	_	name=O
+18	innlemmet	innlemme	VERB	_	VerbForm=Part	2	conj	_	name=O
+19	verneverdige	verneverdig	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	name=O|Entity=(ap_20090814_3215872__T119--1
+20	særnorske	særnorsk	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	name=O
+21	barnetog	barnetog	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	obj	_	SpaceAfter=No|name=O
+22	,	$,	PUNCT	_	_	23	punct	_	name=O
+23	arrangert	arrangere	VERB	_	VerbForm=Part	21	acl:relcl	_	name=O
+24	av	av	ADP	_	_	26	case	_	name=O
+25	Høyres	Høyre	PROPN	_	Case=Gen	26	nmod	_	name=B-ORG|Entity=(ap_20090814_3215872__3368--1(ap_20090814_3215872__T120--1)
+26	Aamir	Aamir	PROPN	_	_	23	obl	_	name=B-PER
+27	Sheikh	Sheikh	PROPN	_	_	26	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20090814_3215872__3368)ap_20090814_3215872__T119)
+28	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003329
+# text = Imidlertid har Sheikh utvist sviktende dømmekraft og høstet berettiget unison norsk-pakistansk fordømmelse for at han i dag overrekker en absurd brobyggingsutmerkelse til det postmoderne Norges største fordomsgenerator, Carl I. Hagen.
+1	Imidlertid	imidlertid	ADV	_	_	4	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	Sheikh	Sheikh	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(ap_20090814_3215872__3368--1)
+4	utvist	utvise	VERB	_	VerbForm=Part	0	root	_	name=O
+5	sviktende	svikte	ADJ	_	VerbForm=Part	6	amod	_	name=O|Entity=(ap_20090814_3215872__T123--1
+6	dømmekraft	dømmekraft	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=ap_20090814_3215872__T123)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	høstet	høste	VERB	_	VerbForm=Part	4	conj	_	name=O
+9	berettiget	berettige	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	12	amod	_	name=O|Entity=(ap_20090814_3215872__T124--1
+10	unison	unison	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+11	norsk-pakistansk	norsk-pakistansk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	fordømmelse	fordømmelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	name=O
+13	for	for	SCONJ	_	_	18	mark	_	name=O
+14	at	at	SCONJ	_	_	18	mark	_	name=O
+15	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(ap_20090814_3215872__3368--1)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obl	_	name=O|Entity=(ap_20090814_3215872__T126--1)
+18	overrekker	overrekke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(ap_20090814_3215872__T127--1
+20	absurd	absurd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	brobyggingsutmerkelse	brobyggingsutmerkelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	name=O|Entity=ap_20090814_3215872__T127)
+22	til	til	ADP	_	_	29	case	_	name=O
+23	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	25	det	_	name=O|Entity=(ap_20090814_3215872__T130--1(ap_20090814_3215872__T129--1(ap_20090814_3215872__T128--1
+24	postmoderne	postmoderne	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	25	amod	_	name=O
+25	Norges	Norge	PROPN	_	Case=Gen	27	nmod	_	name=B-GPE_LOC|Entity=ap_20090814_3215872__T128)
+26	største	stor	ADJ	_	Definite=Def|Degree=Sup	27	amod	_	name=O
+27	fordomsgenerator	fordomsgenerator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No|name=O
+28	,	$,	PUNCT	_	_	27	punct	_	name=O|Entity=ap_20090814_3215872__T129)
+29	Carl	Carl	PROPN	_	Gender=Masc	18	obl	_	name=B-PER
+30	I.	I.	PROPN	_	Abbr=Yes	29	flat:name	_	name=I-PER
+31	Hagen	Hagen	PROPN	_	_	29	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20090814_3215872__T130)ap_20090814_3215872__T124)
+32	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 003330
+# text = Det er en generell og mangeårig utfordring ved de folkerike 14. august-arrangementene at norske toppolitikere, i særdeleshet fra venstresiden, møter opp særlig i valgår, og leverer svevende, pompøse og lite substansielle taler.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20090814_3215872__T131--1
+4	generell	generell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	mangeårig	mangeårig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	conj	_	name=O
+7	utfordring	utfordring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+8	ved	ved	ADP	_	_	12	case	_	name=O
+9	de	de	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(ap_20090814_3215872__T132--1
+10	folkerike	folkerik	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+11	14.	14.	ADJ	_	Number=Plur	12	amod	_	name=O
+12	august-arrangementene	august-arrangement	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	7	nmod	_	name=O|Entity=ap_20090814_3215872__T132)ap_20090814_3215872__T131)
+13	at	at	SCONJ	_	_	22	mark	_	name=O
+14	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O|Entity=(ap_20090814_3215872__T133--1
+15	toppolitikere	toppolitiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	nsubj	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	i	i	ADP	_	_	18	case	_	name=O
+18	særdeleshet	særdeleshet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	name=O|Entity=(ap_20090814_3215872__T134--1)
+19	fra	fra	ADP	_	_	20	case	_	name=O
+20	venstresiden	venstreside	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T135--1)
+21	,	$,	PUNCT	_	_	20	punct	_	name=O|Entity=ap_20090814_3215872__T133)
+22	møter	møte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	csubj	_	name=O
+23	opp	opp	ADP	_	_	22	compound:prt	_	name=O
+24	særlig	særlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	advmod	_	name=O
+25	i	i	ADP	_	_	26	case	_	name=O
+26	valgår	valgår	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	22	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T136--1)
+27	,	$,	PUNCT	_	_	29	punct	_	name=O
+28	og	og	CCONJ	_	_	29	cc	_	name=O
+29	leverer	levere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	conj	_	name=O
+30	svevende	svevende	ADJ	_	Degree=Pos|Number=Plur	36	amod	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T137--1
+31	,	$,	PUNCT	_	_	32	punct	_	name=O
+32	pompøse	pompøs	ADJ	_	Degree=Pos|Number=Plur	30	conj	_	name=O
+33	og	og	CCONJ	_	_	35	cc	_	name=O
+34	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	35	advmod	_	name=O
+35	substansielle	substansiell	ADJ	_	Degree=Pos|Number=Plur	30	conj	_	name=O
+36	taler	tale	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T137)
+37	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 003331
+# text = Men norske politikere bør se opp, for selvsikkerheten den norsk-pakistanske minoriteten utstråler om sin egen fremtid, vil gjenspeiles i politikken.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=(ap_20090814_3215872__T138--1
+3	politikere	politiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=ap_20090814_3215872__T138)
+4	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	se	se	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	opp	opp	ADP	_	_	5	compound:prt	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	20	punct	_	name=O
+8	for	for	CCONJ	_	_	20	cc	_	name=O
+9	selvsikkerheten	selvsikkerhet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	nsubj:pass	_	name=O|Entity=(ap_20090814_3215872__3239--1
+10	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(ap_20090814_3215872__5480--1
+11	norsk-pakistanske	norsk-pakistansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	minoriteten	minoritet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=ap_20090814_3215872__5480)
+13	utstråler	utstråle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+14	om	om	ADP	_	_	17	case	_	name=O
+15	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	name=O|Entity=(ap_20090814_3215872__T142--1(ap_20090814_3215872__5480--1)
+16	egen	egen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	17	det	_	name=O
+17	fremtid	fremtid	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=ap_20090814_3215872__T142)ap_20090814_3215872__3239)
+18	,	$,	PUNCT	_	_	13	punct	_	name=O
+19	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+20	gjenspeiles	gjenspeile	VERB	_	VerbForm=Inf|Voice=Pass	5	conj	_	name=O
+21	i	i	ADP	_	_	22	case	_	name=O
+22	politikken	politikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T143--1)
+23	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 003332
+# text = I dag feires den velbegrunnede optimismen av nordmenn i grønt og hvitt.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20090814_3215872__T144--1)
+3	feires	feire	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(ap_20090814_3215872__2170--1
+5	velbegrunnede	velbegrunnet	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	optimismen	optimisme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=ap_20090814_3215872__2170)
+7	av	av	ADP	_	_	8	case	_	name=O
+8	nordmenn	nordmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=(ap_20090814_3215872__T146--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	grønt	grønn	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O|Entity=(ap_20090814_3215872__T147--1(ap_20090814_3215872__T148--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	hvitt	hvit	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090814_3215872__T149--1)ap_20090814_3215872__T147)ap_20090814_3215872__T146)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+

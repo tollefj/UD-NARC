@@ -1,0 +1,364 @@
+# newdoc id = firdann~20110628-5654307
+# global.Entity = eid-etype-head-other
+# sent_id = 005753
+# text = E39 er open att etter raskaos
+1	E39	E39	PROPN	_	_	3	nsubj	_	name=B-LOC|Entity=(firdann~20110628_5654307__7309--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	open	open	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	att	att	ADP	_	_	3	compound:prt	_	name=O
+5	etter	etter	ADP	_	_	6	case	_	name=O
+6	raskaos	raskaos	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(firdann~20110628_5654307__T2--1)
+
+# newpar
+# sent_id = 005754
+# text = Gulen (firda.no):
+1	Gulen	Gulen	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=(firdann~20110628_5654307__595--1
+2	(	$(	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654307__3135--1
+3	firda.no	firda.no	PROPN	_	_	1	parataxis	_	SpaceAfter=No|name=B-PROD
+4	)	$)	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654307__3135)firdann~20110628_5654307__595)
+5	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 005755
+# text = Europaveg 39 var tysdag mellombels stengd etter fleire jord-og steinras i Gulen kommune.
+1	Europaveg	europaveg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=B-LOC|Entity=(firdann~20110628_5654307__7309--1
+2	39	39	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=I-LOC|Entity=firdann~20110628_5654307__7309)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	name=O
+4	tysdag	tysdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(firdann~20110628_5654307__T6--1)
+5	mellombels	mellombels	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	stengd	stengje	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	etter	etter	ADP	_	_	9	case	_	name=O
+8	fleire	mange	ADJ	_	Degree=Cmp	9	amod	_	name=O|Entity=(firdann~20110628_5654307__274--1(firdann~20110628_5654307__T8--1
+9	jord-	jord-	NOUN	_	_	6	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654307__T8)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	steinras	steinras	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	conj	_	name=O|Entity=(firdann~20110628_5654307__T9--1
+12	i	i	ADP	_	_	13	case	_	name=O
+13	Gulen	Gulen	PROPN	_	_	11	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110628_5654307__595--1
+14	kommune	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=firdann~20110628_5654307__595)firdann~20110628_5654307__T9)firdann~20110628_5654307__274)
+15	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 005756
+# text = Eit større jordras har hamna midt i vegbana ved Instefjord i Gulen.
+1	Eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(firdann~20110628_5654307__T11--1
+2	større	stor	ADJ	_	Degree=Cmp	3	amod	_	name=O
+3	jordras	jordras	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=firdann~20110628_5654307__T11)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	hamna	hamne	VERB	_	VerbForm=Part	0	root	_	name=O
+6	midt	midt	ADV	_	_	8	advmod	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	vegbana	vegbane	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=(firdann~20110628_5654307__T12--1
+9	ved	ved	ADP	_	_	10	case	_	name=O
+10	Instefjord	Instefjord	PROPN	_	_	8	nmod	_	name=B-LOC|Entity=(firdann~20110628_5654307__395--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Gulen	Gulen	PROPN	_	_	10	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110628_5654307__595--1)firdann~20110628_5654307__395)firdann~20110628_5654307__T12)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 005757
+# text = Jord, stein og skog rasa ut i vegbana fleire stader i Ytre Sogn, noko som medførte lange køar, spesielt på hovudfartsåra mellom Førde og Bergen.
+1	Jord	jord	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654307__T15--1(firdann~20110628_5654307__T16--1
+2	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=firdann~20110628_5654307__T16)
+3	stein	stein	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(firdann~20110628_5654307__T17--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	skog	skog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(firdann~20110628_5654307__T18--1)firdann~20110628_5654307__T15)
+6	rasa	rase	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	ut	ut	ADP	_	_	9	case	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	vegbana	vegbane	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=(firdann~20110628_5654307__T19--1)
+10	fleire	mange	ADJ	_	Degree=Cmp	11	amod	_	name=O|Entity=(firdann~20110628_5654307__T20--1
+11	stader	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	Ytre	Ytre	PROPN	_	_	11	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110628_5654307__290--1
+14	Sogn	Sogn	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=firdann~20110628_5654307__290)firdann~20110628_5654307__T20)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	6	appos	_	name=O|Entity=(firdann~20110628_5654307__T22--1
+17	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+18	medførte	medføre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	name=O
+19	lange	lang	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(firdann~20110628_5654307__T23--1
+20	køar	kø	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No|name=O
+21	,	$,	PUNCT	_	_	24	punct	_	name=O
+22	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	advmod	_	name=O
+23	på	på	ADP	_	_	24	case	_	name=O
+24	hovudfartsåra	hovudfartsåre	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	20	nmod	_	name=O|Entity=(firdann~20110628_5654307__T24--1
+25	mellom	mellom	ADP	_	_	26	case	_	name=O
+26	Førde	Førde	PROPN	_	_	24	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110628_5654307__T25--1(firdann~20110628_5654307__T26--1)
+27	og	og	CCONJ	_	_	28	cc	_	name=O
+28	Bergen	Bergen	PROPN	_	_	26	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110628_5654307__T27--1)firdann~20110628_5654307__T25)firdann~20110628_5654307__T24)firdann~20110628_5654307__T23)firdann~20110628_5654307__T22)
+29	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 005758
+# text = Fleire stader
+1	Fleire	mange	ADJ	_	Degree=Cmp	2	amod	_	name=O|Entity=(firdann~20110628_5654307__T28--1
+2	stader	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=firdann~20110628_5654307__T28)
+
+# sent_id = 005759
+# text = E 39 er stengd ved Oppedal i Gulen som følgje av steinras.
+1	E	E	PROPN	_	_	4	nsubj	_	name=B-LOC|Entity=(firdann~20110628_5654307__7309--1
+2	39	39	NUM	_	Number=Plur|NumType=Card	1	flat:name	_	name=I-LOC|Entity=firdann~20110628_5654307__7309)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	stengd	stengje	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	Oppedal	Oppedal	PROPN	_	_	4	obl	_	name=B-LOC|Entity=(firdann~20110628_5654307__3111--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Gulen	Gulen	PROPN	_	_	6	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110628_5654307__595--1)firdann~20110628_5654307__3111)
+9	som	som	ADP	_	_	10	case	_	name=O
+10	følgje	følgje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=(firdann~20110628_5654307__T32--1
+11	av	av	ADP	_	_	12	case	_	name=O
+12	steinras	steinras	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654307__T33--1)firdann~20110628_5654307__T32)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005760
+# text = Eit anna steinras gjer at E 39 òg er stengd ved Instefjord i same kommune.
+1	Eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(firdann~20110628_5654307__T34--1
+2	anna	annan	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O
+3	steinras	steinras	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=firdann~20110628_5654307__T34)
+4	gjer	gjere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	at	at	SCONJ	_	_	10	mark	_	name=O
+6	E	E	PROPN	_	_	10	nsubj	_	name=B-LOC|Entity=(firdann~20110628_5654307__7309--1
+7	39	39	NUM	_	Number=Plur|NumType=Card	6	flat:name	_	name=I-LOC
+8	òg	òg	ADV	_	_	6	advmod	_	name=O|Entity=firdann~20110628_5654307__7309)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	stengd	stengje	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	4	ccomp	_	name=O
+11	ved	ved	ADP	_	_	12	case	_	name=O
+12	Instefjord	Instefjord	PROPN	_	_	10	obl	_	name=B-LOC|Entity=(firdann~20110628_5654307__395--1
+13	i	i	ADP	_	_	15	case	_	name=O
+14	same	same	DET	_	Definite=Def|PronType=Dem	15	det	_	name=O|Entity=(firdann~20110628_5654307__595--1
+15	kommune	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654307__595)firdann~20110628_5654307__395)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005761
+# text = Fylkesveg 8 er stengd ved Oppedal etter steinras mellom Oppedal og grenda Hest.
+1	Fylkesveg	fylkesveg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20110628_5654307__T38--1
+2	8	8	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=O|Entity=firdann~20110628_5654307__T38)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	stengd	stengje	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	Oppedal	Oppedal	PROPN	_	_	4	obl	_	name=B-LOC|Entity=(firdann~20110628_5654307__3111--1)
+7	etter	etter	ADP	_	_	8	case	_	name=O
+8	steinras	steinras	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(firdann~20110628_5654307__T40--1
+9	mellom	mellom	ADP	_	_	10	case	_	name=O
+10	Oppedal	Oppedal	PROPN	_	_	8	nmod	_	name=B-LOC|Entity=(firdann~20110628_5654307__T41--1(firdann~20110628_5654307__3111--1)
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	grenda	grend	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	name=O|Entity=(firdann~20110628_5654307__T43--1
+13	Hest	Hest	PROPN	_	_	10	conj	_	SpaceAfter=No|name=B-LOC|Entity=firdann~20110628_5654307__T43)firdann~20110628_5654307__T41)firdann~20110628_5654307__T40)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005762
+# text = Fylkesveg 1 er stengd mellom Instefjord og Brekke etter eit jordras ved Instefjordtunnelen.
+1	Fylkesveg	fylkesveg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20110628_5654307__T44--1
+2	1	1	NUM	_	NumType=Card	1	nmod	_	name=O|Entity=firdann~20110628_5654307__T44)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	stengd	stengje	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	mellom	mellom	ADP	_	_	6	case	_	name=O
+6	Instefjord	Instefjord	PROPN	_	_	4	obl	_	name=B-LOC|Entity=(firdann~20110628_5654307__T45--1(firdann~20110628_5654307__395--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Brekke	Brekke	PROPN	_	_	6	conj	_	name=B-LOC|Entity=(firdann~20110628_5654307__T47--1)firdann~20110628_5654307__T45)
+9	etter	etter	ADP	_	_	11	case	_	name=O
+10	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(firdann~20110628_5654307__T48--1
+11	jordras	jordras	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O
+12	ved	ved	ADP	_	_	13	case	_	name=O
+13	Instefjordtunnelen	Instefjordtunnelen	PROPN	_	_	11	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110628_5654307__T49--1)firdann~20110628_5654307__T48)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005763
+# text = Geolog kom på staden
+1	Geolog	geolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20110628_5654307__T50--1)
+2	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	staden	stad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(firdann~20110628_5654307__T51--1)
+
+# sent_id = 005764
+# text = Firda var i kontakt med Vegtrafikksentralen i Bergen, og opplyste tidlegare i dag at alle overnemnde stader var stengd for all trafikk.
+1	Firda	Firda	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654307__3135--1)
+2	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	kontakt	kontakt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(firdann~20110628_5654307__T53--1
+5	med	med	ADP	_	_	6	case	_	name=O
+6	Vegtrafikksentralen	Vegtrafikksentralen	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(firdann~20110628_5654307__2112--1
+7	i	i	ADP	_	_	6	flat:name	_	name=I-ORG
+8	Bergen	Bergen	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110628_5654307__2112)firdann~20110628_5654307__T53)
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	opplyste	opplyse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+12	tidlegare	tidleg	ADJ	_	Degree=Cmp	14	advmod	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(firdann~20110628_5654307__T55--1)
+15	at	at	SCONJ	_	_	20	mark	_	name=O
+16	alle	all	DET	_	Number=Plur|PronType=Tot	18	det	_	name=O|Entity=(firdann~20110628_5654307__T56--1
+17	overnemnde	overnemne	ADJ	_	Number=Plur|VerbForm=Part	18	amod	_	name=O
+18	stader	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	nsubj	_	name=O|Entity=firdann~20110628_5654307__T56)
+19	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	name=O
+20	stengd	stengje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	11	ccomp	_	name=O
+21	for	for	ADP	_	_	23	case	_	name=O
+22	all	all	DET	_	Gender=Masc|Number=Sing|PronType=Tot	23	det	_	name=O|Entity=(firdann~20110628_5654307__T57--1
+23	trafikk	trafikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654307__T57)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005765
+# text = - Vi må sjølvsagt prioritere E 39, og vel no å flyge inn geolog for å vurdere den vidare rasfaren i området, sa den vakthavande like etter klokka 11.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(firdann~20110628_5654307__2112--1)
+3	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	sjølvsagt	sjølvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	prioritere	prioritere	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	E	E	PROPN	_	_	5	obj	_	name=B-LOC|Entity=(firdann~20110628_5654307__7309--1
+7	39	39	NUM	_	Number=Plur|NumType=Card	6	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=firdann~20110628_5654307__7309)
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	vel	velje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+11	no	no	ADV	_	_	10	advmod	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	flyge	flyge	VERB	_	VerbForm=Inf	10	xcomp	_	name=O
+14	inn	inn	ADP	_	_	13	compound:prt	_	name=O
+15	geolog	geolog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(firdann~20110628_5654307__T60--1)
+16	for	for	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	vurdere	vurdere	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+19	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	name=O|Entity=(firdann~20110628_5654307__T61--1
+20	vidare	vid	ADJ	_	Degree=Cmp	21	amod	_	name=O
+21	rasfaren	rasfare	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obj	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654307__T62--1)firdann~20110628_5654307__T61)
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	parataxis	_	name=O
+26	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	27	det	_	name=O|Entity=(firdann~20110628_5654307__T63--1
+27	vakthavande	vakthavande	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	25	nsubj	_	name=O|Entity=firdann~20110628_5654307__T63)
+28	like	like	ADV	_	_	31	advmod	_	name=O
+29	etter	etter	ADP	_	_	31	case	_	name=O
+30	klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	31	obl	_	name=O|Entity=(firdann~20110628_5654307__T64--1)
+31	11	11	NUM	_	Number=Plur|NumType=Card	25	obl	_	SpaceAfter=No|name=O
+32	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 005766
+# text = Mykje nedbør
+1	Mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(firdann~20110628_5654307__T65--1
+2	nedbør	nedbør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=firdann~20110628_5654307__T65)
+
+# sent_id = 005767
+# text = Årsaka til rasa er truleg store nedbørsmengder i Ytre Sogn det siste døgnet, og alt måndag ettermiddag gjekk NVE ut og varsla om flaum- og rasfare på heile Vestlandet.
+1	Årsaka	årsak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nsubj	_	name=O|Entity=(firdann~20110628_5654307__T66--1
+2	til	til	ADP	_	_	3	case	_	name=O
+3	rasa	ras	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	1	nmod	_	name=O|Entity=(firdann~20110628_5654307__274--1)firdann~20110628_5654307__T66)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+5	truleg	truleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+6	store	stor	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(firdann~20110628_5654307__T68--1
+7	nedbørsmengder	nedbørsmengd	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	0	root	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Ytre	Ytre	PROPN	_	_	7	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110628_5654307__290--1
+10	Sogn	Sogn	PROPN	_	_	9	flat:name	_	name=I-GPE_LOC|Entity=firdann~20110628_5654307__290)
+11	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(firdann~20110628_5654307__T70--1
+12	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	døgnet	døgn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654307__T70)firdann~20110628_5654307__T68)
+14	,	$,	PUNCT	_	_	19	punct	_	name=O
+15	og	og	CCONJ	_	_	19	cc	_	name=O
+16	alt	alt	ADV	_	_	17	advmod	_	name=O|Entity=(firdann~20110628_5654307__T71--1
+17	måndag	måndag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	name=O
+18	ettermiddag	ettermiddag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(firdann~20110628_5654307__T72--1)firdann~20110628_5654307__T71)
+19	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	name=O
+20	NVE	NVE	PROPN	_	_	19	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654307__2151--1)
+21	ut	ut	ADP	_	_	19	compound:prt	_	name=O
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	varsla	varsle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	name=O
+24	om	om	ADP	_	_	25	case	_	name=O
+25	flaum-	flaum-	NOUN	_	_	23	obl	_	name=O|Entity=(firdann~20110628_5654307__T74--1(firdann~20110628_5654307__T75--1)
+26	og	og	CCONJ	_	_	27	cc	_	name=O
+27	rasfare	rasfare	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	conj	_	name=O|Entity=(firdann~20110628_5654307__T76--1
+28	på	på	ADP	_	_	30	case	_	name=O
+29	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	30	amod	_	name=O|Entity=(firdann~20110628_5654307__T77--1
+30	Vestlandet	Vestlandet	NOUN	_	Gender=Neut	27	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=firdann~20110628_5654307__T77)firdann~20110628_5654307__T76)firdann~20110628_5654307__T74)
+31	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 005768
+# text = NVE sa då til Firda at det spesielt i indre strok ville vere stor fare for stein- og jordras.
+1	NVE	NVE	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654307__2151--1)
+2	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	då	då	ADV	_	_	2	advmod	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	Firda	Firda	PROPN	_	_	2	obl	_	name=B-ORG|Entity=(firdann~20110628_5654307__3135--1)
+6	at	at	SCONJ	_	_	15	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	name=O
+8	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	indre	indre	ADJ	_	Degree=Cmp	11	amod	_	name=O|Entity=(firdann~20110628_5654307__T80--1
+11	strok	strok	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	15	obl	_	name=O|Entity=firdann~20110628_5654307__T80)
+12	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	name=O
+13	vere	vere	AUX	_	VerbForm=Inf	15	cop	_	name=O
+14	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O|Entity=(firdann~20110628_5654307__T81--1
+15	fare	fare	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	name=O
+16	for	for	ADP	_	_	17	case	_	name=O
+17	stein-	stein-	NOUN	_	_	15	nmod	_	name=O|Entity=(firdann~20110628_5654307__T82--1(firdann~20110628_5654307__T83--1)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	jordras	jordras	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654307__T84--1)firdann~20110628_5654307__T82)firdann~20110628_5654307__T81)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005769
+# text = Rydda opp fort
+1	Rydda	rydde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	opp	opp	ADP	_	_	1	compound:prt	_	name=O
+3	fort	fort	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	name=O
+
+# sent_id = 005770
+# text = Tysdag ettermiddag, like før klokka 13:00 meldte Statens Vegvesen att vegen igjen var open for normal trafikk.
+1	Tysdag	tysdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(firdann~20110628_5654307__T85--1
+2	ettermiddag	ettermiddag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654307__T86--1)
+3	,	$,	PUNCT	_	_	7	punct	_	name=O
+4	like	like	ADV	_	_	7	advmod	_	name=O
+5	før	før	ADP	_	_	7	case	_	name=O
+6	klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(firdann~20110628_5654307__T87--1)
+7	13:00	13:00	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=O|Entity=firdann~20110628_5654307__T85)
+8	meldte	melde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	Statens	Statens	PROPN	_	_	8	nsubj	_	name=B-ORG|Entity=(firdann~20110628_5654307__T88--1
+10	Vegvesen	Vegvesen	PROPN	_	_	9	flat:name	_	name=I-ORG|Entity=firdann~20110628_5654307__T88)
+11	att	at	SCONJ	_	_	15	mark	_	name=O
+12	vegen	veg	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(firdann~20110628_5654307__7309--1)
+13	igjen	igjen	ADV	_	_	15	advmod	_	name=O
+14	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	name=O
+15	open	open	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	ccomp	_	name=O
+16	for	for	ADP	_	_	18	case	_	name=O
+17	normal	normal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(firdann~20110628_5654307__T90--1
+18	trafikk	trafikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654307__T90)
+19	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 005771
+# text = E 39 hadde då vore stengd frå cirka klokka 08:30.
+1	E	E	PROPN	_	_	6	nsubj	_	name=B-LOC|Entity=(firdann~20110628_5654307__7309--1
+2	39	39	NUM	_	Number=Plur|NumType=Card	1	flat:name	_	name=I-LOC|Entity=firdann~20110628_5654307__7309)
+3	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	name=O
+4	då	då	ADV	_	_	6	advmod	_	name=O
+5	vore	vere	AUX	_	VerbForm=Part	6	cop	_	name=O
+6	stengd	stengje	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	frå	frå	ADP	_	_	10	case	_	name=O
+8	cirka	cirka	ADV	_	_	10	advmod	_	name=O
+9	klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	10	obl	_	name=O|Entity=(firdann~20110628_5654307__T92--1)
+10	08:30	08:30	NUM	_	Number=Plur|NumType=Card	6	obl	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 005772
+# text = Sjølv om det i starten danna seg lange køar på begge sider av rasstadane, løyste det seg etterkvart opp då bilistane oppdaga alternative ruter.
+1	Sjølv	sjølv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	6	mark	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	starten	start	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(firdann~20110628_5654307__T93--1)
+6	danna	danne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	name=O
+7	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	6	obj	_	name=O
+8	lange	lang	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(firdann~20110628_5654307__T94--1
+9	køar	kø	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=firdann~20110628_5654307__T94)
+10	på	på	ADP	_	_	12	case	_	name=O
+11	begge	begge	DET	_	Number=Plur|PronType=Tot	12	det	_	name=O|Entity=(firdann~20110628_5654307__T95--1
+12	sider	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	rasstadane	rasstad	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110628_5654307__T96--1)firdann~20110628_5654307__T95)
+15	,	$,	PUNCT	_	_	6	punct	_	name=O
+16	løyste	løyse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(firdann~20110628_5654307__T97--1)
+18	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	16	obj	_	name=O
+19	etterkvart	etterkvart	ADV	_	_	16	advmod	_	name=O
+20	opp	opp	ADP	_	_	16	compound:prt	_	name=O
+21	då	då	SCONJ	_	_	23	mark	_	name=O
+22	bilistane	bilist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	23	nsubj	_	name=O|Entity=(firdann~20110628_5654307__T98--1)
+23	oppdaga	oppdage	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	name=O
+24	alternative	alternativ	ADJ	_	Degree=Pos|Number=Plur	25	amod	_	name=O|Entity=(firdann~20110628_5654307__T99--1
+25	ruter	rute	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No|name=O|Entity=firdann~20110628_5654307__T99)
+26	.	$.	PUNCT	_	_	16	punct	_	name=O
+

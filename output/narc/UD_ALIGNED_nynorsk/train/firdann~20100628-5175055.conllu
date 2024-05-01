@@ -1,0 +1,215 @@
+# newdoc id = firdann~20100628-5175055
+# global.Entity = eid-etype-head-other
+# sent_id = 005590
+# text = Varslar sjukehusstreik
+1	Varslar	varsle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	sjukehusstreik	sjukehusstreik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=(firdann~20100628_5175055__T1--1)
+
+# newpar
+# sent_id = 005591
+# text = Timeavtalar ved nokre poliklinikkar ved Førde sentralsjukehus kan gå ut på tysdag.
+1	Timeavtalar	timeavtale	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	name=O|Entity=(firdann~20100628_5175055__T2--1
+2	ved	ved	ADP	_	_	4	case	_	name=O
+3	nokre	nokon	DET	_	Number=Plur|PronType=Ind	4	det	_	name=O|Entity=(firdann~20100628_5175055__T3--1
+4	poliklinikkar	poliklinikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	name=O
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	Førde	Førde	PROPN	_	_	4	nmod	_	name=B-LOC|Entity=(firdann~20100628_5175055__5109--1
+7	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	flat:name	_	name=I-LOC|Entity=firdann~20100628_5175055__5109)firdann~20100628_5175055__T3)firdann~20100628_5175055__T2)
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	gå	gå	VERB	_	VerbForm=Inf	0	root	_	name=O
+10	ut	ut	ADP	_	_	9	compound:prt	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	tysdag	tysdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5175055__460--1)
+13	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# newpar
+# sent_id = 005592
+# text = Varslar streik:
+1	Varslar	varsle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	streik	streik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5175055__T6--1)
+3	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 005593
+# text = Pasientar som har avtalar ved enkelte poliklinikkar ved Førde sentralsjukehus 29. juni bør vere merksame på at avtalane kan falle vekk.
+1	Pasientar	pasient	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nsubj	_	name=O|Entity=(firdann~20100628_5175055__T7--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	avtalar	avtale	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O|Entity=(firdann~20100628_5175055__220--1)
+5	ved	ved	ADP	_	_	7	case	_	name=O
+6	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(firdann~20100628_5175055__T9--1
+7	poliklinikkar	poliklinikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O
+8	ved	ved	ADP	_	_	9	case	_	name=O
+9	Førde	Førde	PROPN	_	_	7	nmod	_	name=B-LOC|Entity=(firdann~20100628_5175055__5109--1
+10	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	flat:name	_	name=I-LOC|Entity=firdann~20100628_5175055__5109)firdann~20100628_5175055__T9)
+11	29.	29.	ADJ	_	Number=Plur	12	amod	_	name=O|Entity=(firdann~20100628_5175055__460--1
+12	juni	juni	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=firdann~20100628_5175055__460)firdann~20100628_5175055__T7)
+13	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+14	vere	vere	AUX	_	VerbForm=Inf	15	cop	_	name=O
+15	merksame	merksam	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+16	på	på	SCONJ	_	_	20	mark	_	name=O
+17	at	at	SCONJ	_	_	20	mark	_	name=O
+18	avtalane	avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	20	nsubj	_	name=O|Entity=(firdann~20100628_5175055__220--1)
+19	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+20	falle	falle	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+21	vekk	vekk	ADP	_	_	20	compound:prt	_	SpaceAfter=No|name=O
+22	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# newpar
+# sent_id = 005594
+# text = Personar som har time ved nokre av poliklinikkane på Førde sentralsjukehus på tysdag bør vere merksame på at avtalane blir utsette ved ein eventuell streik.
+1	Personar	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nsubj	_	name=O|Entity=(firdann~20100628_5175055__T13--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	time	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(firdann~20100628_5175055__232--1)
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	nokre	nokon	DET	_	Number=Plur|PronType=Ind	3	obl	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	poliklinikkane	poliklinikk	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	name=O|Entity=(firdann~20100628_5175055__T15--1
+9	på	på	ADP	_	_	10	case	_	name=O
+10	Førde	Førde	PROPN	_	_	8	nmod	_	name=B-LOC|Entity=(firdann~20100628_5175055__5109--1
+11	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	flat:name	_	name=I-LOC|Entity=firdann~20100628_5175055__5109)firdann~20100628_5175055__T15)
+12	på	på	ADP	_	_	13	case	_	name=O
+13	tysdag	tysdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(firdann~20100628_5175055__460--1)firdann~20100628_5175055__T13)
+14	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	vere	vere	AUX	_	VerbForm=Inf	16	cop	_	name=O
+16	merksame	merksam	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+17	på	på	SCONJ	_	_	21	mark	_	name=O
+18	at	at	SCONJ	_	_	21	mark	_	name=O
+19	avtalane	avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	21	nsubj:pass	_	name=O|Entity=(firdann~20100628_5175055__232--1)
+20	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux:pass	_	name=O
+21	utsette	utsetje	VERB	_	Number=Plur|VerbForm=Part	16	advcl	_	name=O
+22	ved	ved	ADP	_	_	25	case	_	name=O
+23	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(firdann~20100628_5175055__T19--1
+24	eventuell	eventuell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O
+25	streik	streik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100628_5175055__T19)
+26	.	$.	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 005595
+# text = Det skriv Helse Førde på sine nettsider.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(firdann~20100628_5175055__T20--1)
+2	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Helse	Helse	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(firdann~20100628_5175055__392--1
+4	Førde	Førde	PROPN	_	_	3	flat:name	_	name=I-ORG|Entity=firdann~20100628_5175055__392)
+5	på	på	ADP	_	_	7	case	_	name=O
+6	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(firdann~20100628_5175055__T23--1(firdann~20100628_5175055__392--1)
+7	nettsider	nettside	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100628_5175055__T23)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005596
+# text = 32 tilsette ved Førde sentralsjukehus vert tekne ut i streik tysdag 29. juni dersom det blir brot i forhandlingane mellom Delta og Spekter.
+1	32	32	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(firdann~20100628_5175055__T24--1
+2	tilsette	tilsett	ADJ	_	Degree=Pos|Number=Plur	7	nsubj:pass	_	name=O
+3	ved	ved	ADP	_	_	4	case	_	name=O
+4	Førde	Førde	PROPN	_	_	2	nmod	_	name=B-ORG|Entity=(firdann~20100628_5175055__5109--1
+5	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	flat:name	_	name=I-ORG|Entity=firdann~20100628_5175055__5109)firdann~20100628_5175055__T24)
+6	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	name=O
+7	tekne	ta	VERB	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+8	ut	ut	ADP	_	_	7	compound:prt	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	streik	streik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(firdann~20100628_5175055__T26--1)
+11	tysdag	tysdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(firdann~20100628_5175055__460--1
+12	29.	29.	ADJ	_	Number=Plur	13	amod	_	name=O|Entity=(firdann~20100628_5175055__T28--1
+13	juni	juni	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=firdann~20100628_5175055__T28)firdann~20100628_5175055__460)
+14	dersom	dersom	SCONJ	_	_	16	mark	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	name=O
+16	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+17	brot	brot	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	xcomp	_	name=O|Entity=(firdann~20100628_5175055__T29--1
+18	i	i	ADP	_	_	19	case	_	name=O
+19	forhandlingane	forhandling	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	17	nmod	_	name=O|Entity=(firdann~20100628_5175055__T30--1
+20	mellom	mellom	ADP	_	_	21	case	_	name=O
+21	Delta	Delta	PROPN	_	_	19	nmod	_	name=B-ORG|Entity=(firdann~20100628_5175055__T31--1(firdann~20100628_5175055__T32--1)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	Spekter	Spekter	PROPN	_	_	21	conj	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20100628_5175055__T33--1)firdann~20100628_5175055__T31)firdann~20100628_5175055__T30)firdann~20100628_5175055__T29)
+24	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 005598
+# text = - Ein eventuell streik vil få konsekvensar frå første stund, og for pasientar som har time ved medisinsk og radiologisk poli-klinikk, poliklinikk for øyre/nase/hals og høyresentralen vil avtalane gå ut, skriv Arne Eithun for Helse Førde.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(firdann~20100628_5175055__T34--1
+3	eventuell	eventuell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	streik	streik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=firdann~20100628_5175055__T34)
+5	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	få	få	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	konsekvensar	konsekvens	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	name=O|Entity=(firdann~20100628_5175055__T35--1)
+8	frå	frå	ADP	_	_	10	case	_	name=O
+9	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(firdann~20100628_5175055__T36--1
+10	stund	stund	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100628_5175055__T36)
+11	,	$,	PUNCT	_	_	35	punct	_	name=O
+12	og	og	CCONJ	_	_	35	cc	_	name=O
+13	for	for	ADP	_	_	14	case	_	name=O
+14	pasientar	pasient	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	35	obl	_	name=O|Entity=(firdann~20100628_5175055__3140--1
+15	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+16	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	name=O
+17	time	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	name=O|Entity=(firdann~20100628_5175055__285--1)
+18	ved	ved	ADP	_	_	22	case	_	name=O
+19	medisinsk	medisinsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O|Entity=(firdann~20100628_5175055__T39--1(firdann~20100628_5175055__T40--1
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	radiologisk	radiologisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	19	conj	_	name=O
+22	poli-klinikk	poli-klinikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O
+23	,	$,	PUNCT	_	_	24	punct	_	name=O|Entity=firdann~20100628_5175055__T40)
+24	poliklinikk	poliklinikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	conj	_	name=O|Entity=(firdann~20100628_5175055__T41--1
+25	for	for	ADP	_	_	26	case	_	name=O
+26	øyre	øyre	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5175055__T42--1(firdann~20100628_5175055__T43--1
+27	/	$/	PUNCT	_	_	28	punct	_	SpaceAfter=No|name=O|Entity=firdann~20100628_5175055__T43)
+28	nase	nase	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5175055__T44--1
+29	/	$/	PUNCT	_	_	28	punct	_	SpaceAfter=No|name=O|Entity=firdann~20100628_5175055__T44)
+30	hals	hals	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	conj	_	name=O|Entity=(firdann~20100628_5175055__T45--1)firdann~20100628_5175055__T42)firdann~20100628_5175055__T41)
+31	og	og	CCONJ	_	_	32	cc	_	name=O
+32	høyresentralen	høyresentral	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	conj	_	name=O|Entity=(firdann~20100628_5175055__T46--1)firdann~20100628_5175055__T39)firdann~20100628_5175055__3140)
+33	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	name=O
+34	avtalane	avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	35	nsubj	_	name=O|Entity=(firdann~20100628_5175055__285--1)
+35	gå	gå	VERB	_	VerbForm=Inf	6	conj	_	name=O
+36	ut	ut	ADP	_	_	35	compound:prt	_	SpaceAfter=No|name=O
+37	,	$,	PUNCT	_	_	38	punct	_	name=O
+38	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+39	Arne	Arne	NOUN	_	Gender=Masc	38	nsubj	_	name=B-PER|Entity=(firdann~20100628_5175055__T48--1
+40	Eithun	Eithun	PROPN	_	_	39	flat:name	_	name=I-PER|Entity=firdann~20100628_5175055__T48)
+41	for	for	ADP	_	_	42	case	_	name=O
+42	Helse	Helse	PROPN	_	_	38	obl	_	name=B-ORG|Entity=(firdann~20100628_5175055__392--1
+43	Førde	Førde	PROPN	_	_	42	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100628_5175055__392)
+44	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 005599
+# text = Desse pasientane vert bedt om å følgje med om det blir streik mellom partane før dei reiser til Førde sentralsjukehus.
+1	Desse	desse	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|Entity=(firdann~20100628_5175055__3140--1
+2	pasientane	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj:pass	_	name=O|Entity=firdann~20100628_5175055__3140)
+3	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	name=O
+4	bedt	be	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	om	om	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	følgje	følgje	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+8	med	med	ADP	_	_	7	compound:prt	_	name=O
+9	om	om	SCONJ	_	_	11	mark	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+11	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+12	streik	streik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	xcomp	_	name=O|Entity=(firdann~20100628_5175055__T51--1
+13	mellom	mellom	ADP	_	_	14	case	_	name=O
+14	partane	part	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=(firdann~20100628_5175055__T52--1)firdann~20100628_5175055__T51)
+15	før	før	SCONJ	_	_	17	mark	_	name=O
+16	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(firdann~20100628_5175055__3140--1)
+17	reiser	reise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	name=O
+18	til	til	ADP	_	_	19	case	_	name=O
+19	Førde	Førde	PROPN	_	_	17	obl	_	name=B-LOC|Entity=(firdann~20100628_5175055__5109--1
+20	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=firdann~20100628_5175055__5109)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005600
+# text = Ny tilkalling vil bli tilsendt i posten om det bryt ut streik og avtalen fell vekk.
+1	Ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(firdann~20100628_5175055__T55--1
+2	tilkalling	tilkalling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	nsubj:pass	_	name=O|Entity=firdann~20100628_5175055__T55)
+3	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	bli	bli	AUX	_	VerbForm=Inf	5	aux:pass	_	name=O
+5	tilsendt	tilsende	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	posten	post	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(firdann~20100628_5175055__T56--1)
+8	om	om	SCONJ	_	_	10	mark	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+10	bryt	bryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	advcl	_	name=O
+11	ut	ut	ADP	_	_	10	compound:prt	_	name=O
+12	streik	streik	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20100628_5175055__T57--1)
+13	og	og	CCONJ	_	_	15	cc	_	name=O
+14	avtalen	avtale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(firdann~20100628_5175055__T58--1)
+15	fell	falle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	name=O
+16	vekk	vekk	ADP	_	_	15	compound:prt	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+

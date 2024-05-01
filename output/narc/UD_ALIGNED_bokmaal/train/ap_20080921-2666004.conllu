@@ -1,0 +1,580 @@
+# newdoc id = ap_20080921-2666004
+# global.Entity = eid-etype-head-other
+# sent_id = 001173
+# text = Ber Yunus forklare seg
+1	Ber	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	Yunus	Yunus	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(ap_20080921_2666004__5278--1)
+3	forklare	forklare	VERB	_	VerbForm=Inf	1	ccomp	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	name=O|Entity=(ap_20080921_2666004__5278--1)
+
+# newpar
+# sent_id = 001174
+# text = Krever svar.
+1	Krever	kreve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	svar	svar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T2--1)
+3	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 001175
+# text = Mareritt.
+1	Mareritt	mareritt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T3--1)
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 001176
+# text = Vilje.
+1	Vilje	vilje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T4--1)
+2	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 001177
+# text = Etter massiv kritikk mot Telenor, blir nå fredsprisvinner Yunus og Grameen Telecom bedt å redegjøre for egen praksis.
+1	Etter	etter	ADP	_	_	3	case	_	name=O
+2	massiv	massiv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=(ap_20080921_2666004__T5--1
+3	kritikk	kritikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O
+4	mot	mot	ADP	_	_	5	case	_	name=O
+5	Telenor	Telenor	PROPN	_	_	3	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20080921_2666004__7394--1)ap_20080921_2666004__T5)
+6	,	$,	PUNCT	_	_	3	punct	_	name=O
+7	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux:pass	_	name=O
+8	nå	nå	ADV	_	_	14	advmod	_	name=O
+9	fredsprisvinner	fredsprisvinner	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(ap_20080921_2666004__T7--1(ap_20080921_2666004__5278--1
+10	Yunus	Yunus	PROPN	_	_	14	nsubj:pass	_	name=B-PER|Entity=ap_20080921_2666004__5278)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	Grameen	Grameen	PROPN	_	_	10	conj	_	name=B-ORG|Entity=(ap_20080921_2666004__7354--1
+13	Telecom	Telecom	PROPN	_	_	12	flat:name	_	name=I-ORG|Entity=ap_20080921_2666004__7354)ap_20080921_2666004__T7)
+14	bedt	be	VERB	_	VerbForm=Part	0	root	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	redegjøre	redegjøre	VERB	_	VerbForm=Inf	14	xcomp	_	name=O
+17	for	for	ADP	_	_	19	case	_	name=O
+18	egen	egen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	19	det	_	name=O|Entity=(ap_20080921_2666004__T10--1
+19	praksis	praksis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=ap_20080921_2666004__T10)
+20	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# newpar
+# sent_id = 001178
+# text = - Vi har hatt en god dialog med Telenor.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20080921_2666004__9417--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20080921_2666004__T12--1
+6	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	dialog	dialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O
+8	med	med	ADP	_	_	9	case	_	name=O
+9	Telenor	Telenor	PROPN	_	_	7	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20080921_2666004__7394--1)ap_20080921_2666004__T12)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 001179
+# text = Vi mener det er en reell vilje til å rette opp det som har vært feil med arbeidsmiljøet i Bangladesh.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20080921_2666004__9417--1)
+2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	xcomp	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20080921_2666004__T15--1
+6	reell	reell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	vilje	vilje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	rette	rette	VERB	_	VerbForm=Inf	7	acl	_	name=O
+11	opp	opp	ADP	_	_	10	compound:prt	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	name=O|Entity=(ap_20080921_2666004__T16--1
+13	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	vært	være	AUX	_	VerbForm=Part	16	cop	_	name=O
+16	feil	feil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	acl:relcl	_	name=O
+17	med	med	ADP	_	_	18	case	_	name=O
+18	arbeidsmiljøet	arbeidsmiljø	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	name=O|Entity=(ap_20080921_2666004__T17--1
+19	i	i	ADP	_	_	20	case	_	name=O
+20	Bangladesh	Bangladesh	PROPN	_	_	18	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20080921_2666004__3217--1)ap_20080921_2666004__T17)ap_20080921_2666004__T16)ap_20080921_2666004__T15)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001180
+# text = Nå vil vi gjerne ha svar på hvordan Grameen Telecom utøver sitt eierskap.
+1	Nå	nå	ADV	_	_	5	advmod	_	name=O
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20080921_2666004__9417--1)
+4	gjerne	gjerne	ADV	_	_	5	advmod	_	name=O
+5	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	svar	svar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=(ap_20080921_2666004__T20--1
+7	på	på	ADP	_	_	11	case	_	name=O
+8	hvordan	hvordan	ADV	_	_	11	advmod	_	name=O
+9	Grameen	Grameen	PROPN	_	_	11	nsubj	_	name=B-ORG|Entity=(ap_20080921_2666004__7354--1
+10	Telecom	Telecom	PROPN	_	_	9	flat:name	_	name=I-ORG|Entity=ap_20080921_2666004__7354)
+11	utøver	utøve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+12	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(ap_20080921_2666004__T23--1(ap_20080921_2666004__7354--1)
+13	eierskap	eierskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=ap_20080921_2666004__T23)ap_20080921_2666004__T20)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 001181
+# text = Dette er slik vi jobber med samfunnsansvar.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20080921_2666004__T24--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	slik	slik	ADV	_	_	0	root	_	name=O
+4	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20080921_2666004__9417--1)
+5	jobber	jobbe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	samfunnsansvar	samfunnsansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T26--1)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001182
+# text = Hvis det er åpenbare brudd på bestemmelser, kan vi i ytterste instans si opp lånene, sier direktør Kjell Roland i Norfund.
+1	Hvis	hvis	SCONJ	_	_	3	mark	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	name=O
+4	åpenbare	åpenbar	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(ap_20080921_2666004__T27--1
+5	brudd	brudd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	bestemmelser	bestemmelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T28--1)ap_20080921_2666004__T27)
+8	,	$,	PUNCT	_	_	3	punct	_	name=O
+9	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+10	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	name=O|Entity=(ap_20080921_2666004__9417--1)
+11	i	i	ADP	_	_	13	case	_	name=O
+12	ytterste	ytre	ADJ	_	Definite=Def|Degree=Sup	13	amod	_	name=O|Entity=(ap_20080921_2666004__T30--1
+13	instans	instans	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=ap_20080921_2666004__T30)
+14	si	si	VERB	_	VerbForm=Inf	0	root	_	name=O
+15	opp	opp	ADP	_	_	14	compound:prt	_	name=O
+16	lånene	lån	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T31--1)
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	parataxis	_	name=O
+19	direktør	direktør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	name=O|Entity=(ap_20080921_2666004__7688--1
+20	Kjell	Kjell	PROPN	_	Gender=Masc	18	nsubj	_	name=B-PER
+21	Roland	Roland	PROPN	_	_	20	flat:name	_	name=I-PER
+22	i	i	ADP	_	_	23	case	_	name=O
+23	Norfund	Norfund	PROPN	_	_	20	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20080921_2666004__T33--1)ap_20080921_2666004__7688)
+24	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 001183
+# text = - Men om også Grameen Telecom har sviktet som eier, er vel ikke det noe de vil beskrive i et svarbrev til dere?
+1	-	$-	PUNCT	_	_	16	punct	_	name=O
+2	Men	men	CCONJ	_	_	16	cc	_	name=O
+3	om	om	SCONJ	_	_	8	mark	_	name=O
+4	også	også	ADV	_	_	5	advmod	_	name=O
+5	Grameen	Grameen	PROPN	_	_	8	nsubj	_	name=B-ORG|Entity=(ap_20080921_2666004__7354--1
+6	Telecom	Telecom	PROPN	_	_	5	flat:name	_	name=I-ORG|Entity=ap_20080921_2666004__7354)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	sviktet	svikte	VERB	_	VerbForm=Part	16	advcl	_	name=O
+9	som	som	SCONJ	_	_	10	mark	_	name=O
+10	eier	eier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	acl	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T35--1)
+11	,	$,	PUNCT	_	_	8	punct	_	name=O
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	name=O
+13	vel	vel	ADV	_	_	16	advmod	_	name=O
+14	ikke	ikke	PART	_	Polarity=Neg	16	advmod	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(ap_20080921_2666004__T36--1)
+16	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	0	root	_	name=O|Entity=(ap_20080921_2666004__T37--1
+17	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(ap_20080921_2666004__7354--1)
+18	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	beskrive	beskrive	VERB	_	VerbForm=Inf	16	acl:relcl	_	name=O
+20	i	i	ADP	_	_	22	case	_	name=O
+21	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(ap_20080921_2666004__T39--1
+22	svarbrev	svarbrev	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	name=O
+23	til	til	ADP	_	_	24	case	_	name=O
+24	dere	dere	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=2|PronType=Prs	22	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__9417--1)ap_20080921_2666004__T39)ap_20080921_2666004__T37)
+25	?	$?	PUNCT	_	_	16	punct	_	name=O
+
+# sent_id = 001184
+# text = - Kanskje ikke, men her er formålet å se om det er systematikk omkring dette, vi må forsikre oss om at vi er enige i standarder og policy på helse, miljø og sikkerhet.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Kanskje	kanskje	ADV	_	_	3	advmod	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	0	root	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	10	punct	_	name=O
+5	men	men	CCONJ	_	_	10	cc	_	name=O
+6	her	her	ADV	_	_	10	advmod	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+8	formålet	formål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(ap_20080921_2666004__T41--1)
+9	å	å	PART	_	_	10	mark	_	name=O
+10	se	se	VERB	_	VerbForm=Inf	3	conj	_	name=O
+11	om	om	SCONJ	_	_	13	mark	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	name=O
+13	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	xcomp	_	name=O
+14	systematikk	systematikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=(ap_20080921_2666004__T42--1
+15	omkring	omkring	ADP	_	_	16	case	_	name=O
+16	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T43--1)ap_20080921_2666004__T42)
+17	,	$,	PUNCT	_	_	20	punct	_	name=O
+18	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	name=O|Entity=(ap_20080921_2666004__3135--1)
+19	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+20	forsikre	forsikre	VERB	_	VerbForm=Inf	10	conj	_	name=O
+21	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	20	obj	_	name=O|Entity=(ap_20080921_2666004__3135--1)
+22	om	om	SCONJ	_	_	26	mark	_	name=O
+23	at	at	SCONJ	_	_	26	mark	_	name=O
+24	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	name=O|Entity=(ap_20080921_2666004__3135--1)
+25	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	cop	_	name=O
+26	enige	enig	ADJ	_	Degree=Pos|Number=Plur	20	advcl	_	name=O
+27	i	i	ADP	_	_	28	case	_	name=O
+28	standarder	standard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	26	obl	_	name=O|Entity=(ap_20080921_2666004__T47--1(ap_20080921_2666004__T48--1)
+29	og	og	CCONJ	_	_	30	cc	_	name=O
+30	policy	policy	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	28	conj	_	name=O|Entity=(ap_20080921_2666004__T49--1
+31	på	på	ADP	_	_	32	case	_	name=O
+32	helse	helse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T50--1(ap_20080921_2666004__T51--1
+33	,	$,	PUNCT	_	_	34	punct	_	name=O|Entity=ap_20080921_2666004__T51)
+34	miljø	miljø	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	32	conj	_	name=O|Entity=(ap_20080921_2666004__T52--1)
+35	og	og	CCONJ	_	_	36	cc	_	name=O
+36	sikkerhet	sikkerhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T53--1)ap_20080921_2666004__T50)ap_20080921_2666004__T49)ap_20080921_2666004__T47)
+37	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001185
+# text = Og det er ingen grunn til å stille andre krav til Grameen Telecom enn til Telenor som eiere.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	5	det	_	name=O|Entity=(ap_20080921_2666004__T54--1
+5	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O
+6	til	til	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	stille	stille	VERB	_	VerbForm=Inf	5	acl	_	name=O
+9	andre	annen	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(ap_20080921_2666004__T55[1/2]--1
+10	krav	krav	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	name=O|Entity=ap_20080921_2666004__T55[1/2])
+11	til	til	ADP	_	_	12	case	_	name=O
+12	Grameen	Grameen	PROPN	_	_	8	obl	_	name=B-ORG|Entity=(ap_20080921_2666004__7354--1
+13	Telecom	Telecom	PROPN	_	_	12	flat:name	_	name=I-ORG|Entity=ap_20080921_2666004__7354)
+14	enn	enn	ADP	_	_	16	case	_	name=O|Entity=(ap_20080921_2666004__T55[2/2]--1
+15	til	til	ADP	_	_	16	case	_	name=O
+16	Telenor	Telenor	PROPN	_	_	9	obl	_	name=B-ORG|Entity=(ap_20080921_2666004__7394--1)ap_20080921_2666004__T55[2/2])
+17	som	som	SCONJ	_	_	18	mark	_	name=O
+18	eiere	eier	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	xcomp	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T58--1)ap_20080921_2666004__T54)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 001186
+# text = For Telenor er samarbeidet med Yunus og Grameen blitt et lite mareritt.
+1	For	for	ADP	_	_	2	case	_	name=O
+2	Telenor	Telenor	PROPN	_	_	9	obl	_	name=B-ORG|Entity=(ap_20080921_2666004__7394--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+4	samarbeidet	samarbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(ap_20080921_2666004__T60--1
+5	med	med	ADP	_	_	6	case	_	name=O
+6	Yunus	Yunus	PROPN	_	_	4	nmod	_	name=B-PER|Entity=(ap_20080921_2666004__T61--1(ap_20080921_2666004__5278--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Grameen	Grameen	PROPN	_	_	6	conj	_	name=B-ORG|Entity=(ap_20080921_2666004__7354--1)ap_20080921_2666004__T61)ap_20080921_2666004__T60)
+9	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+10	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(ap_20080921_2666004__T64--1
+11	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	name=O
+12	mareritt	mareritt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20080921_2666004__T64)
+13	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 001187
+# text = Noe av det siste er at fredsprisvinneren beskylder Telenor for korrupsjon, og vil ha Telenor til å betale en bot på 300 millioner kroner som Grameenphone er ilagt i Bangladesh for ulovlig ruting av teletrafikk.
+1	Noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	8	nsubj	_	name=O
+2	av	av	ADP	_	_	4	case	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(ap_20080921_2666004__T65--1
+4	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	1	amod	_	name=O|Entity=ap_20080921_2666004__T65)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	fredsprisvinneren	fredsprisvinner	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(ap_20080921_2666004__5278--1)
+8	beskylder	beskylde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	Telenor	Telenor	PROPN	_	_	8	obj	_	name=B-ORG|Entity=(ap_20080921_2666004__7394--1)
+10	for	for	ADP	_	_	11	case	_	name=O
+11	korrupsjon	korrupsjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T68--1)
+12	,	$,	PUNCT	_	_	15	punct	_	name=O
+13	og	og	CCONJ	_	_	15	cc	_	name=O
+14	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	ha	ha	VERB	_	VerbForm=Inf	8	conj	_	name=O
+16	Telenor	Telenor	PROPN	_	_	15	obj	_	name=B-ORG|Entity=(ap_20080921_2666004__7394--1)
+17	til	til	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	betale	betale	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(ap_20080921_2666004__T70--1
+21	bot	bot	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	name=O
+22	på	på	ADP	_	_	25	case	_	name=O
+23	300	300	NUM	_	Number=Plur|NumType=Card	24	nummod	_	name=O|Entity=(ap_20080921_2666004__T72--1(ap_20080921_2666004__T71--1
+24	millioner	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	25	nmod	_	name=O|Entity=ap_20080921_2666004__T71)
+25	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	21	nmod	_	name=O|Entity=ap_20080921_2666004__T72)
+26	som	som	PRON	_	PronType=Rel	29	obj	_	name=O
+27	Grameenphone	Grameenphone	PROPN	_	_	29	nsubj	_	name=B-ORG|Entity=(ap_20080921_2666004__T73--1)
+28	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	aux	_	name=O
+29	ilagt	ilegge	VERB	_	VerbForm=Part	21	acl:relcl	_	name=O
+30	i	i	ADP	_	_	31	case	_	name=O
+31	Bangladesh	Bangladesh	PROPN	_	_	29	obl	_	name=B-GPE_LOC|Entity=(ap_20080921_2666004__3217--1)
+32	for	for	ADP	_	_	34	case	_	name=O
+33	ulovlig	ulovlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	34	amod	_	name=O|Entity=(ap_20080921_2666004__T75--1
+34	ruting	ruting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	29	obl	_	name=O
+35	av	av	ADP	_	_	36	case	_	name=O
+36	teletrafikk	teletrafikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T76--1)ap_20080921_2666004__T75)ap_20080921_2666004__T70)
+37	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001188
+# text = Roland går nå ut med en klar advarsel mot å kritisere investorer i u-land hardere enn det er grunnlag for.
+1	Roland	Roland	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(ap_20080921_2666004__7688--1)
+2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	nå	nå	ADV	_	_	2	advmod	_	name=O
+4	ut	ut	ADP	_	_	2	compound:prt	_	name=O
+5	med	med	ADP	_	_	8	case	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20080921_2666004__T78--1
+7	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	advarsel	advarsel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+9	mot	mot	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	kritisere	kritisere	VERB	_	VerbForm=Inf	8	acl	_	name=O
+12	investorer	investor	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	name=O|Entity=(ap_20080921_2666004__T79--1)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	u-land	u-land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	name=O|Entity=(ap_20080921_2666004__T80--1)
+15	hardere	hard	ADJ	_	Degree=Cmp	11	advmod	_	name=O
+16	enn	enn	SCONJ	_	_	18	mark	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+18	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	name=O
+19	grunnlag	grunnlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	nsubj	_	name=O|Entity=(ap_20080921_2666004__T81--1
+20	for	for	ADP	_	_	19	nmod	_	SpaceAfter=No|name=O|Entity=ap_20080921_2666004__T81)ap_20080921_2666004__T78)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001189
+# text = Det er vanskelig nok fra før å overbevise investorer til å ta høy politisk og økonomisk risiko i u-land.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	nok	nok	ADV	_	_	3	advmod	_	name=O
+5	fra	fra	ADP	_	_	6	case	_	name=O
+6	før	før	ADP	_	_	3	obl	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	overbevise	overbevise	VERB	_	VerbForm=Inf	3	csubj	_	name=O
+9	investorer	investor	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	name=O|Entity=(ap_20080921_2666004__3311--1)
+10	til	til	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	ta	ta	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+13	høy	høy	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O|Entity=(ap_20080921_2666004__T83--1
+14	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	økonomisk	økonomisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	conj	_	name=O
+17	risiko	risiko	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=ap_20080921_2666004__T83)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	u-land	u-land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T84--1)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001190
+# text = Dersom omdømmerisikoen i tillegg anses å være for stor, vil de holde seg unna og det vil ramme de fattige hardest:
+1	Dersom	dersom	SCONJ	_	_	5	mark	_	name=O
+2	omdømmerisikoen	omdømmerisiko	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj:pass	_	name=O|Entity=(ap_20080921_2666004__T85--1)
+3	i	i	ADP	_	_	4	case	_	name=O
+4	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(ap_20080921_2666004__T86--1)
+5	anses	anse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	13	advcl	_	name=O
+6	å	å	PART	_	_	9	mark	_	name=O
+7	være	være	AUX	_	VerbForm=Inf	9	cop	_	name=O
+8	for	for	ADV	_	_	9	advmod	_	name=O
+9	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	xcomp	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	5	punct	_	name=O
+11	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+12	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20080921_2666004__3311--1)
+13	holde	holde	VERB	_	VerbForm=Inf	0	root	_	name=O
+14	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	obj	_	name=O|Entity=(ap_20080921_2666004__3311--1)
+15	unna	unna	ADP	_	_	13	compound:prt	_	name=O
+16	og	og	CCONJ	_	_	19	cc	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(ap_20080921_2666004__T88--1)
+18	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	ramme	ramme	VERB	_	VerbForm=Inf	13	conj	_	name=O
+20	de	de	DET	_	Number=Plur|PronType=Dem	22	det	_	name=O
+21	fattige	fattig	ADJ	_	Degree=Pos|Number=Plur	22	amod	_	name=O
+22	hardest	hard	ADJ	_	Definite=Ind|Degree=Sup	19	obj	_	SpaceAfter=No|name=O
+23	:	$:	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 001191
+# text = - Vi investerer i land som er veldig forskjellig fra Norge.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20080921_2666004__9417--1)
+3	investerer	investere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	name=O|Entity=(ap_20080921_2666004__T90--1
+6	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	forskjellig	forskjellig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	acl:relcl	_	name=O
+10	fra	fra	ADP	_	_	11	case	_	name=O
+11	Norge	Norge	PROPN	_	_	9	obl	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(ap_20080921_2666004__T91--1)ap_20080921_2666004__T90)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001192
+# text = Vi vil bidra til utvikling, og aksepterer at norske standarder ikke oppnås fra dag én.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20080921_2666004__9417--1)
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	bidra	bidra	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T93--1)
+6	,	$,	PUNCT	_	_	8	punct	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	aksepterer	akseptere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+9	at	at	SCONJ	_	_	13	mark	_	name=O
+10	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(ap_20080921_2666004__T94--1
+11	standarder	standard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nsubj:pass	_	name=O|Entity=ap_20080921_2666004__T94)
+12	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	name=O
+13	oppnås	oppnå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	ccomp	_	name=O
+14	fra	fra	ADP	_	_	15	case	_	name=O
+15	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(ap_20080921_2666004__T95--1
+16	én	én	NUM	_	Gender=Masc|Number=Sing|NumType=Card	15	nmod	_	SpaceAfter=No|name=O|Entity=ap_20080921_2666004__T95)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001193
+# text = Denne debatten er blitt veldig norsk, sier Roland.
+1	Denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(ap_20080921_2666004__T96--1
+2	debatten	debatt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=ap_20080921_2666004__T96)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+5	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	norsk	norsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	xcomp	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+9	Roland	Roland	PROPN	_	_	8	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20080921_2666004__7688--1)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 001194
+# text = - Vi investerer for eksempel mye i mikrofinansinstitusjoner.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20080921_2666004__9417--1)
+3	investerer	investere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(ap_20080921_2666004__T99--1)
+6	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	obj	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	mikrofinansinstitusjoner	mikrofinansinstitusjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T100--1)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 001195
+# text = Fattige mennesker som låner penger fra mikrofinansinstitusjoner følger ikke nødvendigvis internasjonale standarder.
+1	Fattige	fattig	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(ap_20080921_2666004__T101--1
+2	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	name=O
+3	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+4	låner	låne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	name=O
+5	penger	penge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=O|Entity=(ap_20080921_2666004__T102--1)
+6	fra	fra	ADP	_	_	7	case	_	name=O
+7	mikrofinansinstitusjoner	mikrofinansinstitusjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=(ap_20080921_2666004__T103--1)ap_20080921_2666004__T101)
+8	følger	følge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	ikke	ikke	PART	_	Polarity=Neg	8	advmod	_	name=O
+10	nødvendigvis	nødvendigvis	ADV	_	_	8	advmod	_	name=O
+11	internasjonale	internasjonal	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(ap_20080921_2666004__T104--1
+12	standarder	standard	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|name=O|Entity=ap_20080921_2666004__T104)
+13	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 001196
+# text = I små familiebedrifter er det vanskelig å garantere seg mot for eksempel barnearbeid.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	små	liten	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=(ap_20080921_2666004__T105--1
+3	familiebedrifter	familiebedrift	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O|Entity=ap_20080921_2666004__T105)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+6	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	garantere	garantere	VERB	_	VerbForm=Inf	6	csubj	_	name=O
+9	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	obj	_	name=O|Entity=(ap_20080921_2666004__T143--1)
+10	mot	mot	ADP	_	_	13	case	_	name=O
+11	for	for	ADP	_	_	12	case	_	name=O|Entity=(ap_20080921_2666004__T107--1
+12	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	name=O|Entity=(ap_20080921_2666004__T106--1)
+13	barnearbeid	barnearbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=ap_20080921_2666004__T107)
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001197
+# text = Hvis norske bedrifter og investorer bare ser ulemper ved å engasjere seg i u-land, vil det virke avskrekkende, mener han.
+1	Hvis	hvis	SCONJ	_	_	7	mark	_	name=O
+2	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=(ap_20080921_2666004__T108--1(ap_20080921_2666004__T109--1
+3	bedrifter	bedrift	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=ap_20080921_2666004__T109)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	investorer	investor	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	conj	_	name=O|Entity=(ap_20080921_2666004__T110--1)ap_20080921_2666004__T108)
+6	bare	bare	ADV	_	_	7	advmod	_	name=O
+7	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	name=O
+8	ulemper	ulempe	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	name=O|Entity=(ap_20080921_2666004__T111--1)
+9	ved	ved	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	engasjere	engasjere	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+12	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	11	obj	_	name=O|Entity=(ap_20080921_2666004__T144--1)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	u-land	u-land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T112--1)
+15	,	$,	PUNCT	_	_	7	punct	_	name=O
+16	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	name=O
+18	virke	virke	VERB	_	VerbForm=Inf	0	root	_	name=O
+19	avskrekkende	avskrekkende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	SpaceAfter=No|name=O
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	parataxis	_	name=O
+22	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__7688--1)
+23	.	$.	PUNCT	_	_	18	punct	_	name=O
+
+# sent_id = 001198
+# text = Han sier at han kjenner norske investorer som skjuler sine engasjementer i utviklingsland fordi omdømmerisikoen er så stor.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20080921_2666004__7688--1)
+2	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20080921_2666004__7688--1)
+5	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+6	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(ap_20080921_2666004__2233--1
+7	investorer	investor	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obj	_	name=O
+8	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+9	skjuler	skjule	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	name=O
+10	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	11	nmod	_	name=O|Entity=(ap_20080921_2666004__T118--1(ap_20080921_2666004__2233--1)
+11	engasjementer	engasjement	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obj	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	utviklingsland	utviklingsland	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	nmod	_	name=O|Entity=(ap_20080921_2666004__T119--1)ap_20080921_2666004__T118)
+14	fordi	fordi	SCONJ	_	_	18	mark	_	name=O
+15	omdømmerisikoen	omdømmerisiko	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	name=O|Entity=(ap_20080921_2666004__T120--1)
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	name=O
+17	så	så	ADV	_	_	18	advmod	_	name=O
+18	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	advcl	_	SpaceAfter=No|name=O|Entity=ap_20080921_2666004__2233)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 001199
+# text = - Proporsjonene må være til stede.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Proporsjonene	proporsjon	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(ap_20080921_2666004__T121--1)
+3	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	være	være	AUX	_	VerbForm=Inf	6	cop	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	stede	stede	NOUN	_	_	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T122--1)
+7	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 001200
+# text = Og når Telenor går inn i et land som Bangladesh med i utgangspunktet små utsikter til fortjeneste og veldig høy risiko fordi det er riktig å gjøre det for landet, og dette så blir en kjempesuksess, er det en kjempesuksess som i første rekke bør motivere flere norske bedrifter til å investere i u-land, mener Roland.
+1	Og	og	CCONJ	_	_	42	cc	_	name=O
+2	når	når	SCONJ	_	_	4	mark	_	name=O
+3	Telenor	Telenor	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(ap_20080921_2666004__7394--1)
+4	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	42	advcl	_	name=O
+5	inn	inn	ADP	_	_	8	case	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20080921_2666004__2256--1
+8	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O
+9	som	som	ADP	_	_	10	case	_	name=O
+10	Bangladesh	Bangladesh	PROPN	_	_	8	nmod	_	name=B-GPE_LOC|Entity=(ap_20080921_2666004__3217--1)ap_20080921_2666004__2256)
+11	med	med	ADP	_	_	15	case	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O|Entity=(ap_20080921_2666004__T127--1(ap_20080921_2666004__T128--1
+13	utgangspunktet	utgangspunkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	name=O|Entity=(ap_20080921_2666004__T126--1)
+14	små	liten	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	utsikter	utsikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	obl	_	name=O
+16	til	til	ADP	_	_	17	case	_	name=O
+17	fortjeneste	fortjeneste	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	name=O|Entity=(ap_20080921_2666004__T129--1)ap_20080921_2666004__T128)
+18	og	og	CCONJ	_	_	21	cc	_	name=O
+19	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O|Entity=(ap_20080921_2666004__T130--1
+20	høy	høy	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	risiko	risiko	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	conj	_	name=O|Entity=ap_20080921_2666004__T130)ap_20080921_2666004__T127)
+22	fordi	fordi	SCONJ	_	_	25	mark	_	name=O
+23	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	expl	_	name=O
+24	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	cop	_	name=O
+25	riktig	riktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advcl	_	name=O
+26	å	å	PART	_	_	27	mark	_	name=O
+27	gjøre	gjøre	VERB	_	VerbForm=Inf	25	csubj	_	name=O
+28	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	obj	_	name=O|Entity=(ap_20080921_2666004__T131--1)
+29	for	for	ADP	_	_	30	case	_	name=O
+30	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	27	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__2256--1)
+31	,	$,	PUNCT	_	_	35	punct	_	name=O
+32	og	og	CCONJ	_	_	35	cc	_	name=O
+33	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	name=O|Entity=(ap_20080921_2666004__2268--1)
+34	så	så	ADV	_	_	35	advmod	_	name=O
+35	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+36	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	37	det	_	name=O|Entity=(ap_20080921_2666004__T134--1
+37	kjempesuksess	kjempesuksess	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	35	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20080921_2666004__T134)
+38	,	$,	PUNCT	_	_	35	punct	_	name=O
+39	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	42	cop	_	name=O
+40	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	name=O|Entity=(ap_20080921_2666004__2268--1)
+41	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	42	det	_	name=O|Entity=(ap_20080921_2666004__T136--1
+42	kjempesuksess	kjempesuksess	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+43	som	som	PRON	_	PronType=Rel	48	nsubj	_	name=O
+44	i	i	ADP	_	_	46	case	_	name=O
+45	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	46	amod	_	name=O|Entity=(ap_20080921_2666004__T137--1
+46	rekke	rekke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	48	obl	_	name=O|Entity=ap_20080921_2666004__T137)
+47	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	48	aux	_	name=O
+48	motivere	motivere	VERB	_	VerbForm=Inf	42	acl:relcl	_	name=O
+49	flere	mange	ADJ	_	Degree=Cmp	51	amod	_	name=O|Entity=(ap_20080921_2666004__T138--1
+50	norske	norsk	ADJ	_	Degree=Pos|Number=Plur	51	amod	_	name=O
+51	bedrifter	bedrift	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	48	obj	_	name=O|Entity=ap_20080921_2666004__T138)
+52	til	til	SCONJ	_	_	54	mark	_	name=O
+53	å	å	PART	_	_	54	mark	_	name=O
+54	investere	investere	VERB	_	VerbForm=Inf	48	advcl	_	name=O
+55	i	i	ADP	_	_	56	case	_	name=O
+56	u-land	u-land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	54	obl	_	SpaceAfter=No|name=O|Entity=(ap_20080921_2666004__T139--1)ap_20080921_2666004__T136)
+57	,	$,	PUNCT	_	_	58	punct	_	name=O
+58	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	42	parataxis	_	name=O
+59	Roland	Roland	PROPN	_	_	58	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20080921_2666004__7688--1)
+60	.	$.	PUNCT	_	_	42	punct	_	name=O
+

@@ -1,0 +1,558 @@
+# newdoc id = firdann~20110916-5739643
+# global.Entity = eid-etype-head-other
+# sent_id = 007754
+# text = Fjorden Baby til ungdommen
+1	Fjorden	Fjorden	PROPN	_	_	0	root	_	name=B-ORG|Entity=(firdann~20110916_5739643__T1--1(firdann~20110916_5739643__7391--1
+2	Baby	Baby	PROPN	_	_	1	flat:name	_	name=I-ORG|Entity=firdann~20110916_5739643__7391)
+3	til	til	ADP	_	_	4	case	_	name=O
+4	ungdommen	ungdom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(firdann~20110916_5739643__T2--1)firdann~20110916_5739643__T1)
+
+# newpar
+# sent_id = 007755
+# text = Først for dei under 18 år - deretter dei over.
+1	Først	først	ADV	_	_	0	root	_	name=O
+2	for	for	ADP	_	_	3	case	_	name=O
+3	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obl	_	name=O|Entity=(firdann~20110916_5739643__T3--1
+4	under	under	ADP	_	_	6	case	_	name=O
+5	18	18	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(firdann~20110916_5739643__T4--1
+6	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	name=O|Entity=firdann~20110916_5739643__T4)firdann~20110916_5739643__T3)
+7	-	$-	PUNCT	_	_	9	punct	_	name=O
+8	deretter	deretter	ADV	_	_	9	advmod	_	name=O|Entity=(firdann~20110916_5739643__3143--1
+9	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	1	conj	_	name=O
+10	over	over	ADP	_	_	9	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__3143)
+11	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 007756
+# text = Laurdag held Fjorden Baby dobbelkonsert på studentkroa Akutten.
+1	Laurdag	laurdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(firdann~20110916_5739643__T6--1)
+2	held	halde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	Fjorden	Fjorden	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(firdann~20110916_5739643__7391--1
+4	Baby	Baby	PROPN	_	_	3	flat:name	_	name=I-ORG|Entity=firdann~20110916_5739643__7391)
+5	dobbelkonsert	dobbelkonsert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(firdann~20110916_5739643__T8--1)
+6	på	på	ADP	_	_	8	case	_	name=O
+7	studentkroa	studentkro	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	nmod	_	name=O|Entity=(firdann~20110916_5739643__9606--1
+8	Akutten	Akutten	PROPN	_	_	2	obl	_	SpaceAfter=No|name=B-LOC|Entity=firdann~20110916_5739643__9606)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 007757
+# text = Bergensbandet Fjorden Baby held laurdag dobbelkonsert på studentkroa Akutten.
+1	Bergensbandet	bergensband	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20110916_5739643__7391--1
+2	Fjorden	Fjorden	PROPN	_	_	4	nsubj	_	name=B-ORG
+3	Baby	Baby	PROPN	_	_	2	flat:name	_	name=I-ORG|Entity=firdann~20110916_5739643__7391)
+4	held	halde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	laurdag	laurdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(firdann~20110916_5739643__T11--1)
+6	dobbelkonsert	dobbelkonsert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(firdann~20110916_5739643__3100--1)
+7	på	på	ADP	_	_	9	case	_	name=O
+8	studentkroa	studentkro	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	name=O|Entity=(firdann~20110916_5739643__9606--1
+9	Akutten	Akutten	PROPN	_	_	4	obl	_	SpaceAfter=No|name=B-LOC|Entity=firdann~20110916_5739643__9606)
+10	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 007758
+# text = Det er ikkje for mange konserttilbod for ungdom i Førde under 18 år.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	for	for	ADV	_	_	5	advmod	_	name=O|Entity=(firdann~20110916_5739643__T14--1
+5	mange	mange	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O
+6	konserttilbod	konserttilbod	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	nsubj	_	name=O
+7	for	for	ADP	_	_	8	case	_	name=O
+8	ungdom	ungdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20110916_5739643__3206--1
+9	i	i	ADP	_	_	10	case	_	name=O
+10	Førde	Førde	PROPN	_	_	8	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110916_5739643__3216--1)
+11	under	under	ADP	_	_	13	case	_	name=O
+12	18	18	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(firdann~20110916_5739643__T17--1
+13	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__T17)firdann~20110916_5739643__3206)firdann~20110916_5739643__T14)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007759
+# text = Slik opplevde i alle fall Ole Kristian Førsund det då han var liten.
+1	Slik	slik	ADV	_	_	2	xcomp	_	name=O
+2	opplevde	oppleve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	alle	all	DET	_	Number=Sing|PronType=Tot	5	det	_	name=O|Entity=(firdann~20110916_5739643__T18--1
+5	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	name=O|Entity=firdann~20110916_5739643__T18)
+6	Ole	Ole	NOUN	_	Gender=Masc	2	nsubj	_	name=B-PER|Entity=(firdann~20110916_5739643__9477--1
+7	Kristian	Kristian	NOUN	_	Gender=Masc	6	flat:name	_	name=I-PER
+8	Førsund	Førsund	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=firdann~20110916_5739643__9477)
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(firdann~20110916_5739643__T20--1)
+10	då	då	SCONJ	_	_	13	mark	_	name=O
+11	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(firdann~20110916_5739643__9477--1)
+12	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+13	liten	liten	ADJ	_	Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	2	advcl	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007760
+# text = Som arrangementsansvarleg ved studentkroa Akutten, ville han og Studentsamfunnet i Førde gjere noko med stoda.
+1	Som	som	SCONJ	_	_	2	mark	_	name=O
+2	arrangementsansvarleg	arrangementsansvarleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	acl	_	name=O|Entity=(firdann~20110916_5739643__9477--1
+3	ved	ved	ADP	_	_	5	case	_	name=O
+4	studentkroa	studentkro	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	name=O|Entity=(firdann~20110916_5739643__9606--1
+5	Akutten	Akutten	PROPN	_	_	2	nmod	_	SpaceAfter=No|name=B-ORG|Entity=firdann~20110916_5739643__9606)firdann~20110916_5739643__9477)
+6	,	$,	PUNCT	_	_	2	punct	_	name=O
+7	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+8	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(firdann~20110916_5739643__12818--1(firdann~20110916_5739643__9477--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	Studentsamfunnet	Studentsamfunnet	PROPN	_	_	8	conj	_	name=B-ORG|Entity=(firdann~20110916_5739643__3219--1
+11	i	i	ADP	_	_	10	flat:name	_	name=I-ORG
+12	Førde	Førde	PROPN	_	_	10	flat:name	_	name=I-ORG|Entity=firdann~20110916_5739643__3219)firdann~20110916_5739643__12818)
+13	gjere	gjere	VERB	_	VerbForm=Inf	0	root	_	name=O
+14	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	13	obj	_	name=O|Entity=(firdann~20110916_5739643__T27--1)
+15	med	med	ADP	_	_	16	case	_	name=O
+16	stoda	stode	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__T28--1)
+17	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 007761
+# text = - Laurdag arrangerer vi dobbeltkonsert med Fjorden Baby.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Laurdag	laurdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(firdann~20110916_5739643__T29--1)
+3	arrangerer	arrangere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110916_5739643__12818--1)
+5	dobbeltkonsert	dobbeltkonsert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(firdann~20110916_5739643__3100--1
+6	med	med	ADP	_	_	7	case	_	name=O
+7	Fjorden	Fjorden	PROPN	_	_	5	nmod	_	name=B-ORG|Entity=(firdann~20110916_5739643__7391--1
+8	Baby	Baby	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110916_5739643__7391)firdann~20110916_5739643__3100)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007762
+# text = Bakgrunnen er blant anna at vi har latt oss inspirere av storebror i Sogndal, som tidlegare har hatt konsertar for eit yngre publikum, forklarar Førsund.
+1	Bakgrunnen	bakgrunn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Bridge=firdann~20110916_5739643__3100<firdann~20110916_5739643__T33:default|Entity=(firdann~20110916_5739643__T33--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+3	blant	blant	ADP	_	_	4	case	_	name=O
+4	anna	annan	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	8	obl	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(firdann~20110916_5739643__12818--1)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	latt	la	VERB	_	VerbForm=Part	0	root	_	name=O
+9	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	8	iobj	_	name=O|Entity=(firdann~20110916_5739643__12818--1)
+10	inspirere	inspirere	VERB	_	VerbForm=Inf	8	xcomp	_	name=O
+11	av	av	ADP	_	_	12	case	_	name=O
+12	storebror	storebror	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(firdann~20110916_5739643__T36--1
+13	i	i	ADP	_	_	14	case	_	name=O
+14	Sogndal	Sogndal	PROPN	_	_	12	nmod	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(firdann~20110916_5739643__T37--1)
+15	,	$,	PUNCT	_	_	19	punct	_	name=O
+16	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+17	tidlegare	tidleg	ADJ	_	Degree=Cmp	19	advmod	_	name=O
+18	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	hatt	ha	VERB	_	VerbForm=Part	12	acl:relcl	_	name=O
+20	konsertar	konsert	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	19	obj	_	name=O|Entity=(firdann~20110916_5739643__T38--1)
+21	for	for	ADP	_	_	24	case	_	name=O
+22	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(firdann~20110916_5739643__T39--1
+23	yngre	ung	ADJ	_	Degree=Cmp	24	amod	_	name=O
+24	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__T39)firdann~20110916_5739643__T36)
+25	,	$,	PUNCT	_	_	26	punct	_	name=O
+26	forklarar	forklare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	name=O
+27	Førsund	Førsund	PROPN	_	_	26	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20110916_5739643__9477--1)
+28	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 007763
+# text = - Elles er det jo ikkje så mange konsertar for unge heller.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Elles	elles	ADV	_	_	3	advmod	_	name=O
+3	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	jo	jo	ADV	_	_	3	advmod	_	name=O
+6	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+7	så	så	ADV	_	_	8	advmod	_	name=O|Entity=(firdann~20110916_5739643__T41--1
+8	mange	mange	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O
+9	konsertar	konsert	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O
+10	for	for	ADP	_	_	11	case	_	name=O
+11	unge	ung	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(firdann~20110916_5739643__T42--1)firdann~20110916_5739643__T41)
+12	heller	heller	ADV	_	_	3	advmod	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007764
+# text = Om det kjem mange på denne konserten, arrangerer vi gledeleg fleire seinare, seier studenten.
+1	Om	om	SCONJ	_	_	3	mark	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	kjem	kome	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	name=O
+4	mange	mange	ADJ	_	Degree=Pos|Number=Plur	3	nsubj	_	name=O
+5	på	på	ADP	_	_	7	case	_	name=O
+6	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Bridge=firdann~20110916_5739643__3100<firdann~20110916_5739643__6514:default|Entity=(firdann~20110916_5739643__6514--1
+7	konserten	konsert	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__6514)
+8	,	$,	PUNCT	_	_	3	punct	_	name=O
+9	arrangerer	arrangere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	name=O|Entity=(firdann~20110916_5739643__12818--1)
+11	gledeleg	gledeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+12	fleire	mange	ADJ	_	Degree=Cmp	9	obj	_	name=O
+13	seinare	sein	ADJ	_	Degree=Cmp	9	advmod	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	name=O
+16	studenten	student	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__9477--1)
+17	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 007765
+# text = Blant Bergens beste
+1	Blant	blant	ADP	_	_	3	case	_	name=O
+2	Bergens	Bergen	PROPN	_	Case=Gen	3	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110916_5739643__T47--1(firdann~20110916_5739643__2117--1)
+3	beste	god	ADJ	_	Definite=Def|Degree=Sup	0	root	_	name=O|Entity=firdann~20110916_5739643__T47)
+
+# sent_id = 007766
+# text = Den første konserten vert halde for dei under 18 år.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20110916_5739643__6514--1
+2	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	konserten	konsert	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj:pass	_	name=O|Entity=firdann~20110916_5739643__6514)
+4	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	name=O
+5	halde	halde	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obl	_	name=O|Entity=(firdann~20110916_5739643__3206--1
+8	under	under	ADP	_	_	10	case	_	name=O
+9	18	18	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(firdann~20110916_5739643__T50--1
+10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__T50)firdann~20110916_5739643__3206)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007767
+# text = Seinare på kvelden vert dørene opna på nytt for dei over 18 år - og då med alkoholservering.
+1	Seinare	sein	ADJ	_	Degree=Cmp	6	advmod	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	kvelden	kveld	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20110916_5739643__T51--1)
+4	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	name=O
+5	dørene	dør	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	nsubj:pass	_	name=O|Bridge=firdann~20110916_5739643__9606<firdann~20110916_5739643__T52:default|Entity=(firdann~20110916_5739643__T52--1)
+6	opna	opne	VERB	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=(firdann~20110916_5739643__T53--1)
+9	for	for	ADP	_	_	10	case	_	name=O
+10	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obl	_	name=O|Entity=(firdann~20110916_5739643__3143--1
+11	over	over	ADP	_	_	13	case	_	name=O
+12	18	18	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(firdann~20110916_5739643__T55--1
+13	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	name=O|Entity=firdann~20110916_5739643__T55)firdann~20110916_5739643__3143)
+14	-	$-	PUNCT	_	_	18	punct	_	name=O
+15	og	og	CCONJ	_	_	18	cc	_	name=O
+16	då	då	ADV	_	_	18	advmod	_	name=O
+17	med	med	ADP	_	_	18	case	_	name=O
+18	alkoholservering	alkoholservering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__T56--1)
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007768
+# text = Konsertane vert halde på Akutten, som er studentkroa ved Høgskulen i Sogn og Fjordane i Førde.
+1	Konsertane	konsert	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj:pass	_	name=O|Entity=(firdann~20110916_5739643__3100--1)
+2	vert	verte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux:pass	_	name=O
+3	halde	halde	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	Akutten	Akutten	PROPN	_	_	3	obl	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20110916_5739643__9606--1
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	som	som	PRON	_	PronType=Rel	9	nsubj	_	name=O
+8	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	studentkroa	studentkro	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	acl:relcl	_	name=O|Entity=(firdann~20110916_5739643__T59--1
+10	ved	ved	ADP	_	_	11	case	_	name=O
+11	Høgskulen	Høgskulen	PROPN	_	_	9	nmod	_	name=B-ORG|Entity=(firdann~20110916_5739643__2198--1
+12	i	i	ADP	_	_	11	flat:name	_	name=I-ORG
+13	Sogn	Sogn	PROPN	_	_	11	flat:name	_	name=I-ORG
+14	og	og	CCONJ	_	_	11	flat:name	_	name=I-ORG
+15	Fjordane	Fjordane	PROPN	_	_	11	flat:name	_	name=I-ORG
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Førde	Førde	PROPN	_	_	11	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110916_5739643__3216--1)firdann~20110916_5739643__2198)firdann~20110916_5739643__T59)firdann~20110916_5739643__9606)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007769
+# text = - Vi har ikkje kapasitet til å ha dei største artistane, men vi ville veldig gjerne prøve med Fjorden Baby.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110916_5739643__12818--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	kapasitet	kapasitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(firdann~20110916_5739643__T63--1
+6	til	til	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	ha	ha	VERB	_	VerbForm=Inf	5	acl	_	name=O
+9	dei	dei	DET	_	Number=Plur|PronType=Dem	11	det	_	name=O|Entity=(firdann~20110916_5739643__T64--1
+10	største	stor	ADJ	_	Definite=Def|Degree=Sup	11	amod	_	name=O
+11	artistane	artist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__T64)firdann~20110916_5739643__T63)
+12	,	$,	PUNCT	_	_	18	punct	_	name=O
+13	men	men	CCONJ	_	_	18	cc	_	name=O
+14	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(firdann~20110916_5739643__12818--1)
+15	ville	vilje	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	name=O
+16	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	name=O
+17	gjerne	gjerne	ADV	_	_	18	advmod	_	name=O
+18	prøve	prøve	VERB	_	VerbForm=Inf	3	conj	_	name=O
+19	med	med	ADP	_	_	20	case	_	name=O
+20	Fjorden	Fjorden	PROPN	_	_	18	obl	_	name=B-ORG|Entity=(firdann~20110916_5739643__7391--1
+21	Baby	Baby	PROPN	_	_	20	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110916_5739643__7391)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007770
+# text = Dei er høgt oppe på lista, då dei blant anna var blant dei nominerte til Bergens beste band i Bergens Tidende si kåring, seier Førsund.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110916_5739643__7391--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	høgt	høg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	oppe	oppe	ADP	_	_	6	case	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	lista	liste	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__T68--1)
+7	,	$,	PUNCT	_	_	15	punct	_	name=O
+8	då	då	SCONJ	_	_	15	mark	_	name=O
+9	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(firdann~20110916_5739643__7391--1)
+10	blant	blant	ADP	_	_	11	case	_	name=O
+11	anna	annan	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	15	obl	_	name=O
+12	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	cop	_	name=O
+13	blant	blant	SCONJ	_	_	15	mark	_	name=O
+14	dei	dei	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(firdann~20110916_5739643__T70--1
+15	nominerte	nominere	ADJ	_	Number=Plur|VerbForm=Part	3	advcl	_	name=O
+16	til	til	ADP	_	_	19	case	_	name=O
+17	Bergens	Bergen	PROPN	_	Case=Gen	19	nmod	_	name=B-GPE_LOC|Entity=(firdann~20110916_5739643__T72--1(firdann~20110916_5739643__2117--1)
+18	beste	god	ADJ	_	Definite=Def|Degree=Sup	19	amod	_	name=O
+19	band	band	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	name=O|Entity=firdann~20110916_5739643__T72)
+20	i	i	ADP	_	_	24	case	_	name=O
+21	Bergens	Bergens	PROPN	_	_	23	obl	_	name=B-PROD|Entity=(firdann~20110916_5739643__T75--1(firdann~20110916_5739643__T74--1(firdann~20110916_5739643__T73--1
+22	Tidende	Tidende	PROPN	_	_	21	flat:name	_	name=I-PROD|Entity=firdann~20110916_5739643__T73)
+23	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	nmod	_	name=O|Entity=firdann~20110916_5739643__T74)
+24	kåring	kåring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__T75)firdann~20110916_5739643__T70)
+25	,	$,	PUNCT	_	_	26	punct	_	name=O
+26	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+27	Førsund	Førsund	PROPN	_	_	26	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20110916_5739643__9477--1)
+28	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007771
+# text = Fryktar konsertflopp
+1	Fryktar	frykte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	konsertflopp	konsertflopp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=(firdann~20110916_5739643__T77--1)
+
+# sent_id = 007772
+# text = Konsertlokalet har ein kapasitet på 120 gjestar.
+1	Konsertlokalet	konsertlokale	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20110916_5739643__9606--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(firdann~20110916_5739643__T79--1
+4	kapasitet	kapasitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+5	på	på	ADP	_	_	7	case	_	name=O
+6	120	120	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(firdann~20110916_5739643__T80--1
+7	gjestar	gjest	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__T80)firdann~20110916_5739643__T79)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007773
+# text = Studentsamfunnet kan hittil skilte med gode salstal for konserten for dei eldre, der det no berre er rundt 20 billettar att.
+1	Studentsamfunnet	Studentsamfunnet	PROPN	_	_	4	nsubj	_	name=O|Entity=(firdann~20110916_5739643__3219--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	hittil	hittil	ADV	_	_	4	advmod	_	name=O
+4	skilte	skilte	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	med	med	ADP	_	_	7	case	_	name=O
+6	gode	god	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(firdann~20110916_5739643__T82--1
+7	salstal	salstal	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	konserten	konsert	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Bridge=firdann~20110916_5739643__3100<firdann~20110916_5739643__T83:default|Entity=(firdann~20110916_5739643__T83--1
+10	for	for	ADP	_	_	12	case	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(firdann~20110916_5739643__3143--1
+12	eldre	gammal	ADJ	_	Degree=Cmp	9	amod	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__3143)firdann~20110916_5739643__T83)
+13	,	$,	PUNCT	_	_	21	punct	_	name=O
+14	der	der	SCONJ	_	_	21	mark	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	name=O
+16	no	no	ADV	_	_	21	advmod	_	name=O
+17	berre	berre	ADV	_	_	21	advmod	_	name=O
+18	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+19	rundt	rundt	SCONJ	_	_	21	mark	_	name=O
+20	20	20	NUM	_	Number=Plur|NumType=Card	21	nummod	_	name=O|Entity=(firdann~20110916_5739643__T85--1
+21	billettar	billett	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	acl	_	name=O|Entity=firdann~20110916_5739643__T85)
+22	att	att	ADP	_	_	21	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__T82)
+23	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007774
+# text = Verre har det vore med salet til ungdomskonserten.
+1	Verre	verre	ADJ	_	Degree=Cmp	4	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	vore	vere	VERB	_	VerbForm=Part	0	root	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	salet	sal	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(firdann~20110916_5739643__T86--1
+7	til	til	ADP	_	_	8	case	_	name=O
+8	ungdomskonserten	ungdomskonsert	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__6514--1)firdann~20110916_5739643__T86)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007775
+# text = - Vi har ei kjensle av at dei fleste gjerne ikkje veit kvar Akutten er, og då spesielt dei yngre.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20110916_5739643__12818--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(firdann~20110916_5739643__T89--1
+5	kjensle	kjensle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O
+6	av	av	SCONJ	_	_	12	mark	_	name=O
+7	at	at	SCONJ	_	_	12	mark	_	name=O
+8	dei	dei	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(firdann~20110916_5739643__T90--1
+9	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	12	nsubj	_	name=O|Entity=firdann~20110916_5739643__T90)
+10	gjerne	gjerne	ADV	_	_	12	advmod	_	name=O
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	name=O
+12	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl	_	name=O
+13	kvar	kvar	ADV	_	_	12	xcomp	_	name=O
+14	Akutten	Akutten	PROPN	_	_	13	nsubj	_	name=B-LOC|Entity=(firdann~20110916_5739643__9606--1)
+15	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	og	og	CCONJ	_	_	21	cc	_	name=O
+18	då	då	ADV	_	_	21	advmod	_	name=O
+19	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+20	dei	dei	DET	_	Number=Plur|PronType=Dem	21	det	_	name=O|Entity=(firdann~20110916_5739643__3206--1
+21	yngre	ung	ADJ	_	Degree=Cmp	12	conj	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__3206)firdann~20110916_5739643__T89)
+22	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007776
+# text = Frykta vår er at ikkje så mange skal komme, men vi håpar at konserten skal la seg gjennomføre, seier Førsund.
+1	Frykta	frykt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	name=O|Entity=(firdann~20110916_5739643__T92--1
+2	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	name=O|Entity=(firdann~20110916_5739643__12818--1)firdann~20110916_5739643__T92)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	name=O
+6	så	så	ADV	_	_	7	advmod	_	name=O|Entity=(firdann~20110916_5739643__T94--1
+7	mange	mange	ADJ	_	Degree=Pos|Number=Plur	9	nsubj	_	name=O|Entity=firdann~20110916_5739643__T94)
+8	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	komme	komme	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	men	men	CCONJ	_	_	13	cc	_	name=O
+12	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(firdann~20110916_5739643__12818--1)
+13	håpar	håpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	name=O
+14	at	at	SCONJ	_	_	17	mark	_	name=O
+15	konserten	konsert	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(firdann~20110916_5739643__6514--1)
+16	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	la	la	VERB	_	VerbForm=Inf	13	ccomp	_	name=O
+18	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	17	iobj	_	name=O|Entity=(firdann~20110916_5739643__6514--1)
+19	gjennomføre	gjennomføre	VERB	_	VerbForm=Inf	17	xcomp	_	SpaceAfter=No|name=O
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	name=O
+22	Førsund	Førsund	PROPN	_	_	21	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(firdann~20110916_5739643__9477--1)
+23	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 007777
+# text = Dørene for ungdomsarrangementet opnar klokka 19.00 laurdag.
+1	Dørene	dør	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	4	nsubj	_	name=O|Entity=(firdann~20110916_5739643__T98--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	ungdomsarrangementet	ungdomsarrangement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20110916_5739643__6514--1)firdann~20110916_5739643__T98)
+4	opnar	opne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	klokka	klokke	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=(firdann~20110916_5739643__T100--1)
+6	19.00	19.00	NUM	_	NumType=Card	4	obl	_	name=O
+7	laurdag	laurdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__T101--1)
+8	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007778
+# text = Til eit godt føremål
+1	Til	til	ADP	_	_	4	case	_	name=O
+2	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(firdann~20110916_5739643__T102--1
+3	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	name=O
+4	føremål	føremål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=firdann~20110916_5739643__T102)
+
+# sent_id = 007779
+# text = Blir det eit eventuelt overskot for drifta ved Akutten i løpet av året, vil pengane gå til Stryn Røde Kors, samt Foreningen for hjertesyke barn.
+1	Blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	name=O
+3	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(firdann~20110916_5739643__2211--1
+4	eventuelt	eventuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	name=O
+5	overskot	overskot	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	xcomp	_	name=O
+6	for	for	ADP	_	_	7	case	_	name=O
+7	drifta	drift	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	name=O|Entity=(firdann~20110916_5739643__T104--1
+8	ved	ved	ADP	_	_	9	case	_	name=O
+9	Akutten	Akutten	PROPN	_	_	7	nmod	_	name=B-ORG|Entity=(firdann~20110916_5739643__9606--1)firdann~20110916_5739643__T104)firdann~20110916_5739643__2211)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	løpet	løp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	obl	_	name=O|Entity=(firdann~20110916_5739643__T106--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__2228--1)firdann~20110916_5739643__T106)
+14	,	$,	PUNCT	_	_	1	punct	_	name=O
+15	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+16	pengane	penge	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	17	nsubj	_	name=O|Entity=(firdann~20110916_5739643__2211--1)
+17	gå	gå	VERB	_	VerbForm=Inf	0	root	_	name=O
+18	til	til	ADP	_	_	19	case	_	name=O
+19	Stryn	Stryn	PROPN	_	_	17	obl	_	name=B-ORG|Entity=(firdann~20110916_5739643__T109--1(firdann~20110916_5739643__2239--1
+20	Røde	Røde	PROPN	_	_	19	flat:name	_	name=I-ORG
+21	Kors	Kors	PROPN	_	_	19	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110916_5739643__2239)
+22	,	$,	PUNCT	_	_	24	punct	_	name=O
+23	samt	samt	ADV	_	_	24	advmod	_	name=O|Entity=(firdann~20110916_5739643__2242--1
+24	Foreningen	Foreningen	PROPN	_	_	19	conj	_	name=B-ORG
+25	for	for	X	_	_	24	flat:name	_	name=I-ORG
+26	hjertesyke	hjertesyke	X	_	_	24	flat:name	_	name=I-ORG
+27	barn	barn	X	_	_	24	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110916_5739643__2242)firdann~20110916_5739643__T109)
+28	.	$.	PUNCT	_	_	17	punct	_	name=O
+
+# sent_id = 007780
+# text = - Studentsamfunnet driv kroa, medan Studentsamskipnaden i Sogn og Fjordane (SISOF) eig kroa.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Studentsamfunnet	Studentsamfunnet	PROPN	_	_	3	nsubj	_	name=O|Entity=(firdann~20110916_5739643__3219--1)
+3	driv	drive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	kroa	kro	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__9606--1)
+5	,	$,	PUNCT	_	_	15	punct	_	name=O
+6	medan	medan	SCONJ	_	_	15	mark	_	name=O
+7	Studentsamskipnaden	Studentsamskipnaden	PROPN	_	_	15	nsubj	_	name=B-ORG|Entity=(firdann~20110916_5739643__3349--1
+8	i	i	ADP	_	_	7	flat:name	_	name=I-ORG
+9	Sogn	Sogn	PROPN	_	_	7	flat:name	_	name=I-ORG
+10	og	og	CCONJ	_	_	7	flat:name	_	name=I-ORG
+11	Fjordane	Fjordane	PROPN	_	_	7	flat:name	_	name=I-ORG
+12	(	$(	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__T115--1
+13	SISOF	SISOF	PROPN	_	_	7	appos	_	SpaceAfter=No|name=B-ORG
+14	)	$)	PUNCT	_	_	13	punct	_	name=O|Entity=firdann~20110916_5739643__T115)firdann~20110916_5739643__3349)
+15	eig	eige	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+16	kroa	kro	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__9606--1)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007781
+# text = No har SISOF lova at om dei går med overskot i løpet av året, vil vi få heile overskotet.
+1	No	no	ADV	_	_	4	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	SISOF	SISOF	PROPN	_	_	4	nsubj	_	name=B-ORG|Entity=(firdann~20110916_5739643__3349--1)
+4	lova	love	VERB	_	VerbForm=Part	0	root	_	name=O
+5	at	at	SCONJ	_	_	18	mark	_	name=O
+6	om	om	SCONJ	_	_	8	mark	_	name=O
+7	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(firdann~20110916_5739643__3349--1)
+8	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	advcl	_	name=O
+9	med	med	ADP	_	_	10	case	_	name=O
+10	overskot	overskot	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(firdann~20110916_5739643__2242--1)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	løpet	løp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(firdann~20110916_5739643__T120--1
+13	av	av	ADP	_	_	14	case	_	name=O
+14	året	år	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__2228--1)firdann~20110916_5739643__T120)
+15	,	$,	PUNCT	_	_	8	punct	_	name=O
+16	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+17	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(firdann~20110916_5739643__12818--1)
+18	få	få	VERB	_	VerbForm=Inf	4	ccomp	_	name=O
+19	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(firdann~20110916_5739643__2242--1
+20	overskotet	overskot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__2242)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007782
+# text = Blir dét tilfellet, har vi avgjort at 10.000 kroner fordelast mellom Røde Kors i Stryn og Foreningen for hjertesyke barn, seier den avtroppande arrangementsansvarlege.
+1	Blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	name=O
+2	dét	det	PRON	_	Gender=Neut|Person=3|PronType=Prs	1	nsubj	_	name=O|Entity=(firdann~20110916_5739643__T124--1)
+3	tilfellet	tilfelle	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	xcomp	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5739643__T125--1)
+4	,	$,	PUNCT	_	_	1	punct	_	name=O
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(firdann~20110916_5739643__12818--1)
+7	avgjort	avgjere	VERB	_	VerbForm=Part	0	root	_	name=O
+8	at	at	SCONJ	_	_	11	mark	_	name=O
+9	10.000	10.000	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(firdann~20110916_5739643__T127--1
+10	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	nsubj	_	name=O|Entity=firdann~20110916_5739643__T127)
+11	fordelast	fordele	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	name=O
+12	mellom	mellom	ADP	_	_	13	case	_	name=O
+13	Røde	Røde	PROPN	_	_	11	obl	_	name=B-ORG|Entity=(firdann~20110916_5739643__T128--1(firdann~20110916_5739643__2239--1
+14	Kors	Kors	PROPN	_	_	13	flat:name	_	name=I-ORG
+15	i	i	ADP	_	_	16	case	_	name=I-ORG
+16	Stryn	Stryn	PROPN	_	_	13	nmod	_	name=I-ORG|Entity=(firdann~20110916_5739643__T130--1)firdann~20110916_5739643__2239)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	Foreningen	Foreningen	PROPN	_	_	13	conj	_	name=B-ORG|Entity=(firdann~20110916_5739643__2242--1
+19	for	for	X	_	_	18	flat:name	_	name=I-ORG
+20	hjertesyke	hjertesyke	X	_	_	18	flat:name	_	name=I-ORG
+21	barn	barn	X	_	_	18	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110916_5739643__2242)firdann~20110916_5739643__T128)
+22	,	$,	PUNCT	_	_	23	punct	_	name=O
+23	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+24	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	name=O|Entity=(firdann~20110916_5739643__9477--1
+25	avtroppande	avtroppande	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	arrangementsansvarlege	arrangementsansvarleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	23	nsubj	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5739643__9477)
+27	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 007783
+# text = Strynejenta Hanne Kristine Fridtun, som var ein av dei som omkom på Utøya 22. juli, var sjukepleiarstudent ved høgskulen i Førde.
+1	Strynejenta	strynjente	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20110916_5739643__T133--1
+2	Hanne	Hanne	NOUN	_	Gender=Fem	19	nsubj	_	name=B-PER
+3	Kristine	Kristine	PROPN	_	_	2	flat:name	_	name=I-PER
+4	Fridtun	Fridtun	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=I-PER
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+7	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	acl:relcl	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	dei	dei	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=3|PronType=Prs	8	nmod	_	name=O|Entity=(firdann~20110916_5739643__T134--1
+11	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+12	omkom	omkome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	name=O
+13	på	på	ADP	_	_	14	case	_	name=O
+14	Utøya	Utøya	PROPN	_	_	12	obl	_	name=B-LOC|Entity=(firdann~20110916_5739643__T135--1)
+15	22.	22.	ADJ	_	Number=Plur	16	amod	_	name=B-EVT|Entity=(firdann~20110916_5739643__T136--1
+16	juli	juli	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|name=I-EVT|Entity=firdann~20110916_5739643__T136)firdann~20110916_5739643__T134)
+17	,	$,	PUNCT	_	_	2	punct	_	name=O|Entity=firdann~20110916_5739643__T133)
+18	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	name=O
+19	sjukepleiarstudent	sjukepleiarstudent	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(firdann~20110916_5739643__T137--1
+20	ved	ved	ADP	_	_	21	case	_	name=O
+21	høgskulen	høgskule	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=(firdann~20110916_5739643__2198--1
+22	i	i	ADP	_	_	23	case	_	name=O
+23	Førde	Førde	PROPN	_	_	21	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110916_5739643__3216--1)firdann~20110916_5739643__2198)firdann~20110916_5739643__T137)
+24	.	$.	PUNCT	_	_	19	punct	_	name=O
+

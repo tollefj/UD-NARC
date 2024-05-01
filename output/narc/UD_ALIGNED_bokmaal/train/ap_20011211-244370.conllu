@@ -1,0 +1,711 @@
+# newdoc id = ap_20011211-244370
+# global.Entity = eid-etype-head-other
+# sent_id = 000211
+# text = Feiret den utsatte freden
+1	Feiret	feire	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(ap_20011211_244370__215--1
+3	utsatte	utsatt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	freden	fred	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=ap_20011211_244370__215)
+
+# newpar
+# sent_id = 000212
+# text = "Brother Annan"
+1	"	$"	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T2--1
+2	Brother	Brother	PROPN	_	_	0	root	_	name=O
+3	Annan	Annan	PROPN	_	_	2	flat:name	_	SpaceAfter=No|name=B-PER
+4	"	$"	PUNCT	_	_	2	punct	_	name=O|Entity=ap_20011211_244370__T2)
+
+# newpar
+# sent_id = 000213
+# text = En spesiell høst går mot slutten.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(ap_20011211_244370__T3--1
+2	spesiell	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	høst	høst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=ap_20011211_244370__T3)
+4	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	mot	mot	ADP	_	_	6	case	_	name=O
+6	slutten	slutt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T4--1)
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000214
+# text = Tirsdag kveld - anført av musikanter som Paul McCartney, a-ha og Anastacia - samlet verden seg i Oslo Spektrum for å feire den utsatte freden.
+1	Tirsdag	tirsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(ap_20011211_244370__5416--1
+2	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(ap_20011211_244370__T6--1)
+3	-	$-	PUNCT	_	_	1	punct	_	name=O|Entity=ap_20011211_244370__5416)
+4	anført	anføre	VERB	_	VerbForm=Part	16	acl	_	name=O
+5	av	av	ADP	_	_	6	case	_	name=O
+6	musikanter	musikant	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=(ap_20011211_244370__T7--1
+7	som	som	ADP	_	_	8	case	_	name=O
+8	Paul	Paul	PROPN	_	Gender=Masc	6	nmod	_	name=B-PER|Entity=(ap_20011211_244370__T8--1(ap_20011211_244370__T9--1
+9	McCartney	McCartney	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER
+10	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=ap_20011211_244370__T9)
+11	a-ha	a-ha	PROPN	_	_	8	conj	_	name=B-ORG|Entity=(ap_20011211_244370__T10--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	Anastacia	Anastacia	PROPN	_	_	8	conj	_	name=B-PER|Entity=(ap_20011211_244370__T11--1)ap_20011211_244370__T8)ap_20011211_244370__T7)
+14	-	$-	PUNCT	_	_	4	punct	_	name=O
+15	samlet	samle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+16	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(ap_20011211_244370__2202--1)
+17	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	15	obj	_	name=O|Entity=(ap_20011211_244370__2202--1)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	Oslo	Oslo	PROPN	_	_	15	obl	_	name=B-LOC|Entity=(ap_20011211_244370__3141--1
+20	Spektrum	Spektrum	PROPN	_	_	19	flat:name	_	name=I-LOC|Entity=ap_20011211_244370__3141)
+21	for	for	SCONJ	_	_	23	mark	_	name=O
+22	å	å	PART	_	_	23	mark	_	name=O
+23	feire	feire	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+24	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	name=O|Entity=(ap_20011211_244370__215--1
+25	utsatte	utsatt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	freden	fred	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__215)
+27	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# newpar
+# sent_id = 000215
+# text = - My hope is in you , sang Yossou NDour fra Senegal og pekte bort på Kofi Annan, som var kommet opp på scenen til øredøvende jubel fra 6000 tilskuere.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	My	My	X	_	_	0	root	_	name=O
+3	hope	hope	X	_	_	2	flat:foreign	_	name=O
+4	is	is	X	_	_	2	flat:foreign	_	name=O
+5	in	in	X	_	_	2	flat:foreign	_	name=O
+6	you	you	X	_	_	2	flat:foreign	_	name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	sang	synge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	name=O
+9	Yossou	Yossou	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(ap_20011211_244370__T15--1
+10	NDour	NDour	PROPN	_	_	9	flat:name	_	name=I-PER
+11	fra	fra	ADP	_	_	12	case	_	name=O
+12	Senegal	Senegal	PROPN	_	_	9	nmod	_	name=B-GPE_LOC|Entity=(ap_20011211_244370__T16--1)ap_20011211_244370__T15)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	pekte	peke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	name=O
+15	bort	bort	ADP	_	_	17	case	_	name=O
+16	på	på	ADP	_	_	17	case	_	name=O
+17	Kofi	Kofi	PROPN	_	_	14	obl	_	name=B-PER|Entity=(ap_20011211_244370__4263--1
+18	Annan	Annan	PROPN	_	_	17	flat:name	_	SpaceAfter=No|name=I-PER
+19	,	$,	PUNCT	_	_	22	punct	_	name=O
+20	som	som	PRON	_	PronType=Rel	22	nsubj	_	name=O
+21	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	aux	_	name=O
+22	kommet	komme	VERB	_	VerbForm=Part	17	acl:relcl	_	name=O
+23	opp	opp	ADP	_	_	25	case	_	name=O
+24	på	på	ADP	_	_	25	case	_	name=O
+25	scenen	scene	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	obl	_	name=O|Bridge=ap_20011211_244370__3141<ap_20011211_244370__T18:default|Entity=(ap_20011211_244370__T18--1)
+26	til	til	ADP	_	_	28	case	_	name=O
+27	øredøvende	øredøvende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	28	amod	_	name=O|Entity=(ap_20011211_244370__T19--1
+28	jubel	jubel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	name=O
+29	fra	fra	ADP	_	_	31	case	_	name=O
+30	6000	6000	NUM	_	Number=Plur|NumType=Card	31	nummod	_	name=O|Entity=(ap_20011211_244370__T20--1
+31	tilskuere	tilskuer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T20)ap_20011211_244370__T19)ap_20011211_244370__4263)
+32	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000216
+# text = Bak han sto 60 barn fra 20 forskjellige land i The Centipede Childrens Choir.
+1	Bak	bak	ADP	_	_	2	case	_	name=O
+2	han	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	name=O|Entity=(ap_20011211_244370__4263--1)
+3	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	60	60	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(ap_20011211_244370__T22--1
+5	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	name=O
+6	fra	fra	ADP	_	_	9	case	_	name=O
+7	20	20	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(ap_20011211_244370__T23--1
+8	forskjellige	forskjellig	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O
+9	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	name=O|Entity=ap_20011211_244370__T23)ap_20011211_244370__T22)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	The	The	PROPN	_	_	3	obl	_	name=B-ORG|Entity=(ap_20011211_244370__T24--1
+12	Centipede	Centipede	PROPN	_	_	11	flat:name	_	name=I-ORG
+13	Childrens	Childrens	PROPN	_	_	11	flat:name	_	name=I-ORG
+14	Choir	Choir	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=ap_20011211_244370__T24)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000217
+# text = I 100 år er Nobels Fredspris blitt delt ut.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	100	100	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(ap_20011211_244370__252--1
+3	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	name=O|Entity=ap_20011211_244370__252)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+5	Nobels	Nobels	PROPN	_	_	8	nsubj:pass	_	name=B-PROD|Entity=(ap_20011211_244370__2215--1(ap_20011211_244370__2380--1)
+6	Fredspris	Fredspris	PROPN	_	_	5	flat:name	_	name=I-PROD|Entity=ap_20011211_244370__2215)
+7	blitt	bli	AUX	_	VerbForm=Part	8	aux:pass	_	name=O
+8	delt	dele	VERB	_	VerbForm=Part	0	root	_	name=O
+9	ut	ut	ADP	_	_	8	compound:prt	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 000218
+# text = I 56 av dem har FN kjempet for fred.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	56	56	NUM	_	Number=Plur|NumType=Card	7	obl	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	name=O|Entity=(ap_20011211_244370__252--1)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	FN	FN	PROPN	_	Abbr=Yes	7	nsubj	_	name=B-ORG|Entity=(ap_20011211_244370__8696--1)
+7	kjempet	kjempe	VERB	_	VerbForm=Part	0	root	_	name=O
+8	for	for	ADP	_	_	9	case	_	name=O
+9	fred	fred	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__264--1)
+10	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 000219
+# text = Tirsdag ble FN, dets leder Kofi Annan og freden behørig feiret i Oslo Spektrum av vanlige folk og av et imponerende antall nobeliteter.
+1	Tirsdag	tirsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(ap_20011211_244370__5416--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux:pass	_	name=O
+3	FN	FN	PROPN	_	Abbr=Yes	12	nsubj:pass	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20011211_244370__T31--1(ap_20011211_244370__8696--1)
+4	,	$,	PUNCT	_	_	7	punct	_	name=O
+5	dets	det	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	6	nmod	_	name=O|Entity=(ap_20011211_244370__4263--1(ap_20011211_244370__T33--1
+6	leder	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=ap_20011211_244370__T33)
+7	Kofi	Kofi	PROPN	_	_	3	conj	_	name=B-PER
+8	Annan	Annan	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=ap_20011211_244370__4263)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	freden	fred	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	conj	_	name=O|Entity=(ap_20011211_244370__264--1)ap_20011211_244370__T31)
+11	behørig	behørig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	advmod	_	name=O
+12	feiret	feire	VERB	_	VerbForm=Part	0	root	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	Oslo	Oslo	PROPN	_	_	12	obl	_	name=B-LOC|Entity=(ap_20011211_244370__3141--1
+15	Spektrum	Spektrum	PROPN	_	_	14	flat:name	_	name=I-LOC|Entity=ap_20011211_244370__3141)
+16	av	av	ADP	_	_	18	case	_	name=O
+17	vanlige	vanlig	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(ap_20011211_244370__T37--1
+18	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obl	_	name=O|Entity=ap_20011211_244370__T37)
+19	og	og	CCONJ	_	_	24	cc	_	name=O
+20	av	av	ADP	_	_	24	case	_	name=O
+21	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	23	det	_	name=O|Entity=(ap_20011211_244370__T39--1(ap_20011211_244370__T38--1
+22	imponerende	imponere	ADJ	_	VerbForm=Part	23	amod	_	name=O
+23	antall	antall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	24	nmod	_	name=O|Entity=ap_20011211_244370__T38)
+24	nobeliteter	nobelitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T39)
+25	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 000220
+# text = De kongelige, Märtha Louise, Mette-Marit og Haakon, var på plass sammen med store deler av Regjeringen.
+1	De	de	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|Entity=(ap_20011211_244370__T40--1(ap_20011211_244370__T41--1
+2	kongelige	kongelig	ADJ	_	Degree=Pos|Number=Plur	4	nmod	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	Märtha	Märtha	PROPN	_	Gender=Fem	13	nsubj	_	name=B-PER
+5	Louise	Louise	PROPN	_	Gender=Fem	4	flat:name	_	SpaceAfter=No|name=I-PER
+6	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=ap_20011211_244370__T41)
+7	Mette-Marit	Mette-Marit	PROPN	_	_	4	conj	_	name=B-PER|Entity=(ap_20011211_244370__T42--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	Haakon	Haakon	PROPN	_	Gender=Masc	4	conj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20011211_244370__3154--1)
+10	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=ap_20011211_244370__T40)
+11	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+12	på	på	ADP	_	_	13	case	_	name=O
+13	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(ap_20011211_244370__T44--1)
+14	sammen	sammen	ADV	_	_	17	advmod	_	name=O
+15	med	med	ADP	_	_	17	case	_	name=O
+16	store	stor	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(ap_20011211_244370__T45--1
+17	deler	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	name=O
+18	av	av	ADP	_	_	19	case	_	name=O
+19	Regjeringen	Regjeringen	PROPN	_	_	17	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(ap_20011211_244370__T46--1)ap_20011211_244370__T45)
+20	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 000221
+# text = -Vi lever i en ustabil verden, men så lenge det er folk i verden som vil kjempe for fred, er det håp for vår felles fremtid, sa kronprins Haakon da han åpnet konserten i går klokken 19.
+1	-	$-	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20011211_244370__2100--1)
+3	lever	leve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	i	i	ADP	_	_	7	case	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20011211_244370__T48--1
+6	ustabil	ustabil	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T48)
+8	,	$,	PUNCT	_	_	23	punct	_	name=O
+9	men	men	CCONJ	_	_	23	cc	_	name=O
+10	så	så	ADV	_	_	11	advmod	_	name=O
+11	lenge	lenge	ADJ	_	Degree=Pos	23	advmod	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	name=O
+13	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	name=O
+14	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nsubj	_	name=O|Entity=(ap_20011211_244370__T49[1/2]--1)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(ap_20011211_244370__T50--1)
+17	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O|Entity=(ap_20011211_244370__T49[2/2]--1
+18	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	kjempe	kjempe	VERB	_	VerbForm=Inf	14	acl:relcl	_	name=O
+20	for	for	ADP	_	_	21	case	_	name=O
+21	fred	fred	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T51--1)ap_20011211_244370__T49[2/2])
+22	,	$,	PUNCT	_	_	11	punct	_	name=O
+23	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+24	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	expl	_	name=O
+25	håp	håp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	nsubj	_	name=O|Entity=(ap_20011211_244370__T52--1
+26	for	for	ADP	_	_	29	case	_	name=O
+27	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	nmod	_	name=O|Entity=(ap_20011211_244370__T54--1(ap_20011211_244370__2100--1)
+28	felles	felles	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	29	amod	_	name=O
+29	fremtid	fremtid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T54)ap_20011211_244370__T52)
+30	,	$,	PUNCT	_	_	23	punct	_	name=O
+31	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+32	kronprins	kronprins	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	name=O|Entity=(ap_20011211_244370__3154--1
+33	Haakon	Haakon	PROPN	_	Gender=Masc	31	nsubj	_	name=B-PER|Entity=ap_20011211_244370__3154)
+34	da	da	SCONJ	_	_	36	mark	_	name=O
+35	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	name=O|Entity=(ap_20011211_244370__3154--1)
+36	åpnet	åpne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	31	advcl	_	name=O
+37	konserten	konsert	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	36	obj	_	name=O|Entity=(ap_20011211_244370__3257--1)
+38	i	i	ADP	_	_	39	case	_	name=O
+39	går	går	NOUN	_	_	36	obl	_	name=O|Entity=(ap_20011211_244370__T58--1)
+40	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	41	obl	_	name=O|Entity=(ap_20011211_244370__T59--1)
+41	19	19	NUM	_	Number=Plur|NumType=Card	36	obl	_	SpaceAfter=No|name=O
+42	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 000222
+# text = For hiphop-guruen Wyclef Jean var det en stor kveld da han fikk hylde en av sine store helter.
+1	For	for	ADP	_	_	3	case	_	name=O
+2	hiphop-guruen	hiphop-guru	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(ap_20011211_244370__5325--1
+3	Wyclef	Wyclef	PROPN	_	_	9	obl	_	name=B-PER
+4	Jean	Jean	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=ap_20011211_244370__5325)
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(ap_20011211_244370__T61--1
+8	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=ap_20011211_244370__T61)
+10	da	da	SCONJ	_	_	13	mark	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20011211_244370__5325--1)
+12	fikk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+13	hylde	hylle	VERB	_	VerbForm=Inf	9	advcl	_	name=O
+14	en	en	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	13	obj	_	name=O|Entity=(ap_20011211_244370__2130--1
+15	av	av	ADP	_	_	18	case	_	name=O
+16	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	18	nmod	_	name=O|Entity=(ap_20011211_244370__T65--1(ap_20011211_244370__5325--1)
+17	store	stor	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O
+18	helter	helt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T65)ap_20011211_244370__2130)
+19	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 000223
+# text = Han fremførte Bob Marleys "Redemption Song" med tilpasset tekst til "brother Annan" og fikk 12000 fingre til taktfast å veive fredstegnet.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20011211_244370__5325--1)
+2	fremførte	fremføre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	Bob	Bob	PROPN	_	_	6	nmod	_	name=B-PER|Entity=(ap_20011211_244370__T68--1(ap_20011211_244370__2130--1
+4	Marleys	Marley	PROPN	_	Case=Gen	3	flat:name	_	name=I-PER|Entity=ap_20011211_244370__2130)
+5	"	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O
+6	Redemption	Redemption	PROPN	_	_	2	obj	_	name=B-PROD
+7	Song	Song	PROPN	_	_	6	flat:name	_	SpaceAfter=No|name=I-PROD
+8	"	$"	PUNCT	_	_	6	punct	_	name=O|Entity=ap_20011211_244370__T68)
+9	med	med	ADP	_	_	11	case	_	name=O
+10	tilpasset	tilpasse	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	11	amod	_	name=O|Entity=(ap_20011211_244370__T69--1
+11	tekst	tekst	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O
+12	til	til	ADP	_	_	14	case	_	name=O
+13	"	$"	PUNCT	_	_	14	punct	_	SpaceAfter=No|name=O
+14	brother	brother	X	_	_	11	nmod	_	name=O
+15	Annan	Annan	PROPN	_	_	14	flat:foreign	_	SpaceAfter=No|name=B-PER
+16	"	$"	PUNCT	_	_	14	punct	_	name=O|Entity=ap_20011211_244370__T69)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+19	12000	12000	NUM	_	Number=Plur|NumType=Card	20	nummod	_	name=O|Entity=(ap_20011211_244370__T70--1
+20	fingre	finger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	obj	_	name=O|Entity=ap_20011211_244370__T70)
+21	til	til	SCONJ	_	_	24	mark	_	name=O
+22	taktfast	taktfast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	advmod	_	name=O
+23	å	å	PART	_	_	24	mark	_	name=O
+24	veive	veive	VERB	_	VerbForm=Inf	18	advcl	_	name=O
+25	fredstegnet	fredstegn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__2143--1)
+26	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000224
+# text = -Få se fredstegnet!
+1	-	$-	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Få	få	AUX	_	Mood=Imp|VerbForm=Fin	3	aux	_	name=O
+3	se	se	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	fredstegnet	fredstegn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__2143--1)
+5	!	$!	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000225
+# text = Kom igjen!
+1	Kom	komme	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	igjen	igjen	ADV	_	_	1	advmod	_	SpaceAfter=No|name=O
+3	!	$!	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 000226
+# text = -President Annan of the world, erklærte Jean til klampetrapp.
+1	-	$-	PUNCT	_	_	2	punct	_	SpaceAfter=No|name=O
+2	President	President	X	_	_	0	root	_	name=O|Entity=(ap_20011211_244370__4263--1
+3	Annan	Annan	X	_	_	2	flat:foreign	_	name=B-PER
+4	of	of	X	_	_	2	flat:foreign	_	name=O
+5	the	the	X	_	_	2	flat:foreign	_	name=O
+6	world	world	X	_	_	2	flat:foreign	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__4263)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	erklærte	erklære	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	name=O
+9	Jean	Jean	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(ap_20011211_244370__5325--1)
+10	til	til	ADP	_	_	11	case	_	name=O
+11	klampetrapp	klampetrapp	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T74--1)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000227
+# text = -Vi er her for å oppfordre folk, og gi håp.
+1	-	$-	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20011211_244370__2153--1)
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	her	her	ADV	_	_	3	advmod	_	name=O
+5	for	for	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	oppfordre	oppfordre	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+8	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T76--1)
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	gi	gi	VERB	_	VerbForm=Inf	7	conj	_	name=O
+12	håp	håp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T77--1)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000228
+# text = Vårt budskap i kveld er forståelse, dialog, respekt og fred, sa skuespilleren Meryl Streep, som ledet gårsdagens konsert sammen med Hollywood-kollega Liam Neeson.
+1	Vårt	vår	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(ap_20011211_244370__T79--1(ap_20011211_244370__2153--1)
+2	budskap	budskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20011211_244370__T80--1)ap_20011211_244370__T79)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+6	forståelse	forståelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T81--1(ap_20011211_244370__T82--1
+7	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=ap_20011211_244370__T82)
+8	dialog	dialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T83--1
+9	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=ap_20011211_244370__T83)
+10	respekt	respekt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=O|Entity=(ap_20011211_244370__T84--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	fred	fred	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T85--1)ap_20011211_244370__T81)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	name=O
+15	skuespilleren	skuespiller	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(ap_20011211_244370__2201--1
+16	Meryl	Meryl	PROPN	_	_	14	nsubj	_	name=B-PER
+17	Streep	Streep	PROPN	_	_	16	flat:name	_	SpaceAfter=No|name=I-PER
+18	,	$,	PUNCT	_	_	20	punct	_	name=O
+19	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+20	ledet	lede	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	acl:relcl	_	name=O
+21	gårsdagens	gårsdag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	name=O|Entity=(ap_20011211_244370__3257--1(ap_20011211_244370__5416--1)
+22	konsert	konsert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obj	_	name=O|Entity=ap_20011211_244370__3257)
+23	sammen	sammen	ADV	_	_	26	advmod	_	name=O
+24	med	med	ADP	_	_	26	case	_	name=O
+25	Hollywood-kollega	Hollywood-kollega	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	name=B-DRV|Entity=(ap_20011211_244370__3394--1
+26	Liam	Liam	PROPN	_	_	20	obl	_	name=B-PER
+27	Neeson	Neeson	PROPN	_	_	26	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20011211_244370__3394)ap_20011211_244370__2201)
+28	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 000229
+# text = At engasjementet er stort, også blant artistene som gjestet Oslo Spektrum i går, er stjernesopranen Barbara Hendricks et fremragende eksempel på.
+1	At	at	SCONJ	_	_	4	mark	_	name=O|Entity=(ap_20011211_244370__T95[1/2]--1
+2	engasjementet	engasjement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20011211_244370__T90--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	også	også	ADV	_	_	8	advmod	_	name=O
+7	blant	blant	ADP	_	_	8	case	_	name=O
+8	artistene	artist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=(ap_20011211_244370__T91--1
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	gjestet	gjeste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	name=O
+11	Oslo	Oslo	PROPN	_	_	10	obj	_	name=B-LOC|Entity=(ap_20011211_244370__3141--1
+12	Spektrum	Spektrum	PROPN	_	_	11	flat:name	_	name=I-LOC|Entity=ap_20011211_244370__3141)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	går	går	NOUN	_	_	10	obl	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T93--1)ap_20011211_244370__T91)
+15	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=ap_20011211_244370__T95[1/2])
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+17	stjernesopranen	stjernesopran	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(ap_20011211_244370__131545--1
+18	Barbara	Barbara	PROPN	_	_	22	nsubj	_	name=B-PER
+19	Hendricks	Hendricks	PROPN	_	_	18	flat:name	_	name=I-PER|Entity=ap_20011211_244370__131545)
+20	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(ap_20011211_244370__T95[2/2]--1
+21	fremragende	fremragende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	name=O
+22	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+23	på	på	ADP	_	_	4	case	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T95[2/2])
+24	.	$.	PUNCT	_	_	22	punct	_	name=O
+
+# sent_id = 000230
+# text = -Jeg er spesielt stolt over å være her i dag, fordi jeg har sett FN arbeide på nært hold.
+1	-	$-	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20011211_244370__131545--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	stolt	stolt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	over	over	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	være	være	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+9	her	her	ADV	_	_	8	advmod	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T97--1)
+12	,	$,	PUNCT	_	_	16	punct	_	name=O
+13	fordi	fordi	SCONJ	_	_	16	mark	_	name=O
+14	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	name=O|Entity=(ap_20011211_244370__131545--1)
+15	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	sett	se	VERB	_	VerbForm=Part	5	advcl	_	name=O
+17	FN	FN	PROPN	_	Abbr=Yes	18	nsubj	_	name=B-ORG|Entity=(ap_20011211_244370__8696--1)
+18	arbeide	arbeide	VERB	_	VerbForm=Inf	16	ccomp	_	name=O
+19	på	på	ADP	_	_	21	case	_	name=O
+20	nært	nær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	name=O|Entity=(ap_20011211_244370__T100--1
+21	hold	hold	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T100)
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 000231
+# text = FN har blitt kritisert, og den har gjort feil, men FN er ingen perfekt organisasjon fordi den utgjøres av mennesker, og vi er ikke perfekte, sa hun under en pressekonferanse før gårsdagens Fredspriskonsert.
+1	FN	FN	PROPN	_	Abbr=Yes	4	nsubj:pass	_	name=B-ORG|Entity=(ap_20011211_244370__8696--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	blitt	bli	AUX	_	VerbForm=Part	4	aux:pass	_	name=O
+4	kritisert	kritisere	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	9	punct	_	name=O
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(ap_20011211_244370__8696--1)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	gjort	gjøre	VERB	_	VerbForm=Part	4	conj	_	name=O
+10	feil	feil	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T103--1)
+11	,	$,	PUNCT	_	_	9	punct	_	name=O
+12	men	men	CCONJ	_	_	17	cc	_	name=O
+13	FN	FN	PROPN	_	Abbr=Yes	17	nsubj	_	name=B-ORG|Entity=(ap_20011211_244370__8696--1)
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+15	ingen	ingen	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	17	det	_	name=O|Entity=(ap_20011211_244370__T105--1
+16	perfekt	perfekt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	organisasjon	organisasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	name=O|Entity=ap_20011211_244370__T105)
+18	fordi	fordi	SCONJ	_	_	20	mark	_	name=O
+19	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj:pass	_	name=O|Entity=(ap_20011211_244370__8696--1)
+20	utgjøres	utgjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	17	advcl	_	name=O
+21	av	av	ADP	_	_	22	case	_	name=O
+22	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	obl	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__2215--1)
+23	,	$,	PUNCT	_	_	28	punct	_	name=O
+24	og	og	CCONJ	_	_	28	cc	_	name=O
+25	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	name=O|Entity=(ap_20011211_244370__2215--1)
+26	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	cop	_	name=O
+27	ikke	ikke	PART	_	Polarity=Neg	28	advmod	_	name=O
+28	perfekte	perfekt	ADJ	_	Degree=Pos|Number=Plur	20	conj	_	SpaceAfter=No|name=O
+29	,	$,	PUNCT	_	_	28	punct	_	name=O
+30	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	name=O
+31	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	name=O|Entity=(ap_20011211_244370__131545--1)
+32	under	under	ADP	_	_	34	case	_	name=O
+33	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	34	det	_	name=O|Entity=(ap_20011211_244370__T110--1
+34	pressekonferanse	pressekonferanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	obl	_	name=O|Entity=ap_20011211_244370__T110)
+35	før	før	ADP	_	_	37	case	_	name=O
+36	gårsdagens	gårsdag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	37	nmod	_	name=O|Entity=(ap_20011211_244370__3257--1(ap_20011211_244370__5416--1)
+37	Fredspriskonsert	Fredspriskonsert	PROPN	_	_	30	obl	_	SpaceAfter=No|name=B-EVT|Entity=ap_20011211_244370__3257)
+38	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000232
+# text = Hendricks fikk ros av Meryl Streep for at hun snakket begge språk; gjennom musikken, men også med sine meninger.
+1	Hendricks	Hendricks	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(ap_20011211_244370__131545--1)
+2	fikk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ros	ros	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(ap_20011211_244370__T114--1)
+4	av	av	ADP	_	_	5	case	_	name=O
+5	Meryl	Meryl	PROPN	_	_	2	obl	_	name=B-PER|Entity=(ap_20011211_244370__2201--1
+6	Streep	Streep	PROPN	_	_	5	flat:name	_	name=I-PER|Entity=ap_20011211_244370__2201)
+7	for	for	SCONJ	_	_	10	mark	_	name=O
+8	at	at	SCONJ	_	_	10	mark	_	name=O
+9	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(ap_20011211_244370__131545--1)
+10	snakket	snakke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	name=O
+11	begge	begge	DET	_	Number=Plur|PronType=Tot	12	det	_	name=O|Entity=(ap_20011211_244370__T117--1
+12	språk	språk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No|name=O
+13	;	$;	PUNCT	_	_	15	punct	_	name=O
+14	gjennom	gjennom	ADP	_	_	15	case	_	name=O
+15	musikken	musikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	appos	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T118--1)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	men	men	CCONJ	_	_	21	cc	_	name=O
+18	også	også	ADV	_	_	21	advmod	_	name=O
+19	med	med	ADP	_	_	21	case	_	name=O
+20	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	21	nmod	_	name=O|Entity=(ap_20011211_244370__T120--1(ap_20011211_244370__131545--1)
+21	meninger	mening	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	15	conj	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T120)ap_20011211_244370__T117)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000233
+# text = Den svensk-amerikanske sangerinnen har i mer enn 15 år arbeidet for FN som goodwill-ambassadør.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20011211_244370__131545--1
+2	svensk-amerikanske	svensk-amerikansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	sangerinnen	sangerinne	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=ap_20011211_244370__131545)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	mer	mye	ADJ	_	Degree=Cmp	10	advmod	_	name=O|Entity=(ap_20011211_244370__T122--1
+7	enn	enn	ADP	_	_	9	case	_	name=O
+8	15	15	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(ap_20011211_244370__T123--1
+9	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	name=O|Entity=ap_20011211_244370__T123)ap_20011211_244370__T122)
+10	arbeidet	arbeide	VERB	_	VerbForm=Part	0	root	_	name=O
+11	for	for	ADP	_	_	12	case	_	name=O
+12	FN	FN	PROPN	_	Abbr=Yes	10	obl	_	name=B-ORG|Entity=(ap_20011211_244370__8696--1)
+13	som	som	SCONJ	_	_	14	mark	_	name=O
+14	goodwill-ambassadør	goodwill-ambassadør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	acl	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T125--1)
+15	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 000234
+# text = Hendricks oppfordret alle til å bli forkjempere for menneskerettighetene.
+1	Hendricks	Hendricks	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(ap_20011211_244370__131545--1)
+2	oppfordret	oppfordre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	2	obj	_	name=O|Entity=(ap_20011211_244370__T127--1)
+4	til	til	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	bli	bli	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	forkjempere	forkjemper	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	xcomp	_	name=O|Entity=(ap_20011211_244370__T128--1
+8	for	for	ADP	_	_	9	case	_	name=O
+9	menneskerettighetene	menneskerettighet	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T129--1)ap_20011211_244370__T128)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000235
+# text = Men at artister har et spesielt ansvar, syntes hun ikke.
+1	Men	men	CCONJ	_	_	9	cc	_	name=O
+2	at	at	SCONJ	_	_	4	mark	_	name=O
+3	artister	artist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(ap_20011211_244370__2263--1)
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20011211_244370__T131--1
+6	spesielt	spesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T131)
+8	,	$,	PUNCT	_	_	4	punct	_	name=O
+9	syntes	synes	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+10	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(ap_20011211_244370__131545--1)
+11	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 000236
+# text = -Vi har ikke noe større ansvar enn lærere og leger.
+1	-	$-	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20011211_244370__2263--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	7	det	_	name=O|Entity=(ap_20011211_244370__T134--1
+6	større	stor	ADJ	_	Degree=Cmp	7	amod	_	name=O
+7	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O
+8	enn	enn	ADP	_	_	9	case	_	name=O
+9	lærere	lærer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O|Entity=(ap_20011211_244370__T135--1(ap_20011211_244370__T136--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	leger	lege	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T137--1)ap_20011211_244370__T135)ap_20011211_244370__T134)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000237
+# text = Jeg har min stemme og bruker den.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20011211_244370__131545--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(ap_20011211_244370__2281--1(ap_20011211_244370__131545--1)
+4	stemme	stemme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=ap_20011211_244370__2281)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	bruker	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+7	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__2281--1)
+8	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 000238
+# text = Alle bør ta et medmenneskelig ansvar, sa Hendricks.
+1	Alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	3	nsubj	_	name=O|Entity=(ap_20011211_244370__T142--1)
+2	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20011211_244370__T143--1
+5	medmenneskelig	medmenneskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O
+6	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T143)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+9	Hendricks	Hendricks	PROPN	_	_	8	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(ap_20011211_244370__131545--1)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 000239
+# text = Konferansier Liam Neeson mente at kunstnere, artister og skuespillere, etter 11. september og bombingen av New York, var viktigere enn noensinne, som et bindeledd og holdepunkt i verden.
+1	Konferansier	konferansier	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20011211_244370__3394--1
+2	Liam	Liam	PROPN	_	_	4	nsubj	_	name=B-PER
+3	Neeson	Neeson	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=ap_20011211_244370__3394)
+4	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	at	at	SCONJ	_	_	22	mark	_	name=O
+6	kunstnere	kunstner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__2304--1(ap_20011211_244370__T147--1
+7	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=ap_20011211_244370__T147)
+8	artister	artist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	conj	_	name=O|Entity=(ap_20011211_244370__T148--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	skuespillere	skuespiller	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T149--1)ap_20011211_244370__2304)
+11	,	$,	PUNCT	_	_	6	punct	_	name=O
+12	etter	etter	ADP	_	_	14	case	_	name=O
+13	11.	11.	ADJ	_	Number=Plur	14	amod	_	name=B-EVT|Entity=(ap_20011211_244370__T150--1(ap_20011211_244370__T151--1
+14	september	september	NOUN	_	Gender=Masc	22	obl	_	name=I-EVT|Entity=ap_20011211_244370__T151)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	bombingen	bombing	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	conj	_	name=O|Entity=(ap_20011211_244370__T152--1
+17	av	av	ADP	_	_	18	case	_	name=O
+18	New	New	PROPN	_	_	16	nmod	_	name=B-GPE_LOC|Entity=(ap_20011211_244370__T153--1
+19	York	York	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=ap_20011211_244370__T153)ap_20011211_244370__T152)ap_20011211_244370__T150)
+20	,	$,	PUNCT	_	_	14	punct	_	name=O
+21	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	name=O
+22	viktigere	viktig	ADJ	_	Degree=Cmp	4	ccomp	_	name=O
+23	enn	enn	ADP	_	_	24	case	_	name=O
+24	noensinne	noensinne	ADV	_	_	22	advmod	_	SpaceAfter=No|name=O
+25	,	$,	PUNCT	_	_	28	punct	_	name=O
+26	som	som	SCONJ	_	_	28	mark	_	name=O
+27	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	28	det	_	name=O|Entity=(ap_20011211_244370__T154--1(ap_20011211_244370__T155--1
+28	bindeledd	bindeledd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	acl	_	name=O|Entity=ap_20011211_244370__T155)
+29	og	og	CCONJ	_	_	30	cc	_	name=O
+30	holdepunkt	holdepunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	28	conj	_	name=O|Entity=(ap_20011211_244370__T156--1
+31	i	i	ADP	_	_	32	case	_	name=O
+32	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T157--1)ap_20011211_244370__T156)ap_20011211_244370__T154)
+33	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000240
+# text = -Vi kan bidra til å gjøre frustrasjonen litt mindre, sa skuespilleren, kjent fra blant annet "Schindlers liste".
+1	-	$-	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20011211_244370__2304--1)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	bidra	bidra	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	til	til	SCONJ	_	_	7	mark	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	gjøre	gjøre	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+8	frustrasjonen	frustrasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(ap_20011211_244370__T159--1)
+9	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+10	mindre	liten	ADJ	_	Degree=Cmp	7	xcomp	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	name=O
+13	skuespilleren	skuespiller	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__3394--1
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	kjent	kjenne	VERB	_	VerbForm=Part	13	acl:relcl	_	name=O
+16	fra	fra	ADP	_	_	20	case	_	name=O
+17	blant	blant	ADP	_	_	18	case	_	name=O|Entity=(ap_20011211_244370__T161--1
+18	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	20	nmod	_	name=O
+19	"	$"	PUNCT	_	_	20	punct	_	SpaceAfter=No|name=O
+20	Schindlers	Schindlers	PROPN	_	_	15	obl	_	name=B-PROD
+21	liste	liste	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No|name=I-PROD
+22	"	$"	PUNCT	_	_	20	punct	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T161)ap_20011211_244370__3394)
+23	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 000241
+# text = -Siden vi har 100-årsjubileum i år har vi gjort en ekstra innsats for å finne frem til spesielle talenter i år.
+1	-	$-	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O
+2	Siden	siden	SCONJ	_	_	4	mark	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20011211_244370__2327--1)
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	advcl	_	name=O
+5	100-årsjubileum	100-årsjubileum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=(ap_20011211_244370__T163--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obl	_	name=O|Entity=(ap_20011211_244370__T164--1)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+9	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	name=O|Entity=(ap_20011211_244370__2327--1)
+10	gjort	gjøre	VERB	_	VerbForm=Part	0	root	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(ap_20011211_244370__T166--1
+12	ekstra	ekstra	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	innsats	innsats	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=ap_20011211_244370__T166)
+14	for	for	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	finne	finne	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+17	frem	frem	ADP	_	_	20	case	_	name=O
+18	til	til	ADP	_	_	20	case	_	name=O
+19	spesielle	spesiell	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(ap_20011211_244370__T167--1
+20	talenter	talent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obl	_	name=O|Entity=ap_20011211_244370__T167)
+21	i	i	ADP	_	_	22	case	_	name=O
+22	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(ap_20011211_244370__T168--1)
+23	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 000242
+# text = Og med en slik konsert, en flott måte å blande budskap og musikk på, når vi folk og kontinenter på en annen måte enn gjennom det formelle programmet, sa Nobelinstituttets direktør Geir Lundestad under gårsdagens pressekonferanse og tittet bortover artistene og skuespillerne som hadde stilt opp for å hedre Nobels Fredspris.
+1	Og	og	CCONJ	_	_	17	cc	_	name=O
+2	med	med	ADP	_	_	5	case	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(ap_20011211_244370__T169--1
+4	slik	slik	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O
+5	konsert	konsert	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(ap_20011211_244370__T170--1
+8	flott	flott	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	blande	blande	VERB	_	VerbForm=Inf	9	acl	_	name=O
+12	budskap	budskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	name=O|Entity=(ap_20011211_244370__T171--1(ap_20011211_244370__T172--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	musikk	musikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	name=O|Entity=(ap_20011211_244370__T173--1)ap_20011211_244370__T171)
+15	på	på	ADP	_	_	11	compound:prt	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	9	punct	_	name=O|Entity=ap_20011211_244370__T170)ap_20011211_244370__T169)
+17	når	nå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+18	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	name=O|Entity=(ap_20011211_244370__T174--1)
+19	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	obj	_	name=O|Entity=(ap_20011211_244370__T175--1(ap_20011211_244370__T176--1)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	kontinenter	kontinent	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	conj	_	name=O|Entity=(ap_20011211_244370__T177--1)ap_20011211_244370__T175)
+22	på	på	ADP	_	_	25	case	_	name=O
+23	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(ap_20011211_244370__T178--1
+24	annen	annen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	name=O
+25	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obl	_	name=O
+26	enn	enn	ADP	_	_	30	case	_	name=O
+27	gjennom	gjennom	ADP	_	_	30	case	_	name=O
+28	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	30	det	_	name=O|Entity=(ap_20011211_244370__T179--1
+29	formelle	formell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	30	amod	_	name=O
+30	programmet	program	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=ap_20011211_244370__T179)ap_20011211_244370__T178)
+31	,	$,	PUNCT	_	_	32	punct	_	name=O
+32	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	parataxis	_	name=O
+33	Nobelinstituttets	Nobelinstituttet	PROPN	_	Case=Gen	34	nmod	_	name=B-ORG|Entity=(ap_20011211_244370__T182--1(ap_20011211_244370__T181--1(ap_20011211_244370__T180--1)
+34	direktør	direktør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	35	nmod	_	name=O|Entity=ap_20011211_244370__T181)
+35	Geir	Geir	PROPN	_	Gender=Masc	32	nsubj	_	name=B-PER
+36	Lundestad	Lundestad	PROPN	_	_	35	flat:name	_	name=I-PER|Entity=ap_20011211_244370__T182)
+37	under	under	ADP	_	_	39	case	_	name=O
+38	gårsdagens	gårsdag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	39	nmod	_	name=O|Entity=(ap_20011211_244370__T184--1(ap_20011211_244370__5416--1)
+39	pressekonferanse	pressekonferanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	32	obl	_	name=O|Entity=ap_20011211_244370__T184)
+40	og	og	CCONJ	_	_	41	cc	_	name=O
+41	tittet	titte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	32	conj	_	name=O
+42	bortover	bortover	ADP	_	_	43	case	_	name=O
+43	artistene	artist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	41	obl	_	name=O|Entity=(ap_20011211_244370__T185--1(ap_20011211_244370__T186--1)
+44	og	og	CCONJ	_	_	45	cc	_	name=O
+45	skuespillerne	skuespiller	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	43	conj	_	name=O|Entity=(ap_20011211_244370__T187--1
+46	som	som	PRON	_	PronType=Rel	48	nsubj	_	name=O
+47	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	48	aux	_	name=O
+48	stilt	stille	VERB	_	VerbForm=Part	45	acl:relcl	_	name=O
+49	opp	opp	ADP	_	_	48	compound:prt	_	name=O
+50	for	for	SCONJ	_	_	52	mark	_	name=O
+51	å	å	PART	_	_	52	mark	_	name=O
+52	hedre	hedre	VERB	_	VerbForm=Inf	48	advcl	_	name=O
+53	Nobels	Nobel	PROPN	_	Case=Gen	54	nmod	_	name=B-PROD|Entity=(ap_20011211_244370__2215--1(ap_20011211_244370__2380--1)
+54	Fredspris	Fredspris	PROPN	_	_	52	obj	_	SpaceAfter=No|name=I-PROD|Entity=ap_20011211_244370__2215)ap_20011211_244370__T187)ap_20011211_244370__T185)
+55	.	$.	PUNCT	_	_	17	punct	_	name=O
+

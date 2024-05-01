@@ -1,0 +1,1367 @@
+# newdoc id = ap_20091018-3326549
+# global.Entity = eid-etype-head-other
+# sent_id = 004079
+# text = Vil vi bli forbikjørt?
+1	Vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj:pass	_	name=O|Entity=(ap_20091018_3326549__184640--1)
+3	bli	bli	AUX	_	VerbForm=Inf	4	aux:pass	_	name=O
+4	forbikjørt	forbikjøre	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+5	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 004080
+# text = Stolthet over universitetene.
+1	Stolthet	stolthet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(ap_20091018_3326549__T2--1
+2	over	over	ADP	_	_	3	case	_	name=O
+3	universitetene	universitet	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	1	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T3--1)ap_20091018_3326549__T2)
+4	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 004081
+# text = Satser på utdanning.
+1	Satser	satse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	på	på	ADP	_	_	3	case	_	name=O
+3	utdanning	utdanning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T4--1)
+4	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 004082
+# text = Er det i Europa?
+1	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20091018_3326549__T5--1)
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Europa	Europa	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091018_3326549__3476--1)
+5	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 004083
+# text = Vil ta igjen.
+1	Vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	name=O
+2	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+3	igjen	igjen	ADV	_	_	2	advmod	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 004084
+# text = Status quo i statsbudsjettet.
+1	Status	status	NOUN	_	_	2	compound	_	name=O|Entity=(ap_20091018_3326549__T7--1
+2	quo	quo	NOUN	_	_	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	statsbudsjettet	statsbudsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__102543--1)ap_20091018_3326549__T7)
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 004085
+# text = Kina vil ikke bare være verdens produksjonssmie, landet vil ta en tilsvarende posisjon i verdens kunnskapssamfunn.
+1	Kina	Kina	PROPN	_	_	7	nsubj	_	name=B-GPE_LOC|Entity=(ap_20091018_3326549__193065--1)
+2	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	7	advmod	_	name=O
+4	bare	bare	ADV	_	_	7	advmod	_	name=O
+5	være	være	AUX	_	VerbForm=Inf	7	cop	_	name=O
+6	verdens	verden	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(ap_20091018_3326549__T11--1(ap_20091018_3326549__71110--1)
+7	produksjonssmie	produksjonssmie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T11)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nsubj	_	name=O|Entity=(ap_20091018_3326549__193065--1)
+10	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	ta	ta	VERB	_	VerbForm=Inf	7	conj	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(ap_20091018_3326549__T13--1
+13	tilsvarende	tilsvare	ADJ	_	VerbForm=Part	14	amod	_	name=O
+14	posisjon	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	name=O|Entity=ap_20091018_3326549__T13)
+15	i	i	ADP	_	_	17	case	_	name=O
+16	verdens	verden	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(ap_20091018_3326549__T15--1(ap_20091018_3326549__71110--1)
+17	kunnskapssamfunn	kunnskapssamfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T15)
+18	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 004086
+# text = I gjennomsnitt ligger nok Kina ennå en god del bak oss når det gjelder utdanningsnivå, men det vil nok ikke vare veldig lenge, skriver Torbjørn Digernes.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	gjennomsnitt	gjennomsnitt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(ap_20091018_3326549__T16--1)
+3	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	nok	nok	ADV	_	_	3	advmod	_	name=O
+5	Kina	Kina	PROPN	_	_	3	nsubj	_	name=B-GPE_ORG|Entity=(ap_20091018_3326549__193065--1)
+6	ennå	ennå	ADV	_	_	3	advmod	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(ap_20091018_3326549__T18--1
+8	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=ap_20091018_3326549__T18)
+10	bak	bak	ADP	_	_	11	case	_	name=O
+11	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obl	_	name=O|Entity=(ap_20091018_3326549__4662--1)
+12	når	når	SCONJ	_	_	14	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	name=O
+14	gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+15	utdanningsnivå	utdanningsnivå	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T20--1)
+16	,	$,	PUNCT	_	_	22	punct	_	name=O
+17	men	men	CCONJ	_	_	22	cc	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(ap_20091018_3326549__T21--1)
+19	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+20	nok	nok	ADV	_	_	22	advmod	_	name=O
+21	ikke	ikke	PART	_	Polarity=Neg	22	advmod	_	name=O
+22	vare	vare	VERB	_	VerbForm=Inf	3	conj	_	name=O
+23	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	advmod	_	name=O
+24	lenge	lenge	ADJ	_	Degree=Pos	22	advmod	_	SpaceAfter=No|name=O
+25	,	$,	PUNCT	_	_	26	punct	_	name=O
+26	skriver	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+27	Torbjørn	Torbjørn	PROPN	_	Gender=Masc	26	nsubj	_	name=B-PER|Entity=(ap_20091018_3326549__71264--1
+28	Digernes	Digernes	PROPN	_	_	27	flat:name	_	SpaceAfter=No|name=I-PER|Entity=ap_20091018_3326549__71264)
+29	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 004087
+# text = På besøk i Kina.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	besøk	besøk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(ap_20091018_3326549__T23--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Kina	Kina	PROPN	_	_	2	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091018_3326549__193065--1)ap_20091018_3326549__T23)
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004088
+# text = Samme dag som Regjeringen presenterte statsbudsjettet, kom jeg tilbake fra et kort besøk i Kina.
+1	Samme	samme	DET	_	Definite=Def|PronType=Dem	2	det	_	name=O|Entity=(ap_20091018_3326549__T25--1
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O
+3	som	som	PRON	_	PronType=Rel	5	iobj	_	name=O
+4	Regjeringen	Regjeringen	PROPN	_	_	5	nsubj	_	name=B-ORG|Entity=(ap_20091018_3326549__2348--1)
+5	presenterte	presentere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	name=O
+6	statsbudsjettet	statsbudsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__102543--1)
+7	,	$,	PUNCT	_	_	2	punct	_	name=O|Entity=ap_20091018_3326549__T25)
+8	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20091018_3326549__71264--1)
+10	tilbake	tilbake	ADP	_	_	14	obl	_	name=O
+11	fra	fra	ADP	_	_	14	case	_	name=O
+12	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(ap_20091018_3326549__T29--1
+13	kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	name=O
+14	besøk	besøk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	Kina	Kina	PROPN	_	_	14	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091018_3326549__193065--1)ap_20091018_3326549__T29)
+17	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 004089
+# text = Anledningen var en invitasjon fra rektorkollega Li Xiaohong ved Chongqing-universitetet, som inviterte til feiring av 80-årsjubileum.
+1	Anledningen	anledning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20091018_3326549__T31--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(ap_20091018_3326549__T32--1
+4	invitasjon	invitasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	fra	fra	ADP	_	_	7	case	_	name=O
+6	rektorkollega	rektorkollega	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(ap_20091018_3326549__T33--1
+7	Li	Li	PROPN	_	_	4	nmod	_	name=B-PER
+8	Xiaohong	Xiaohong	PROPN	_	_	7	flat:name	_	name=I-PER
+9	ved	ved	ADP	_	_	10	case	_	name=O
+10	Chongqing-universitetet	Chongqing-universitet	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|name=B-DRV|Entity=(ap_20091018_3326549__7494--1)
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+13	inviterte	invitere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	name=O
+14	til	til	ADP	_	_	15	case	_	name=O
+15	feiring	feiring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	name=O|Entity=(ap_20091018_3326549__T35--1
+16	av	av	ADP	_	_	17	case	_	name=O
+17	80-årsjubileum	80-årsjubileum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__2104--1)ap_20091018_3326549__T35)ap_20091018_3326549__T33)ap_20091018_3326549__T32)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004090
+# text = Fra NTNU utvikler vi samarbeid med dem på materialteknologi og på energiforskning.
+1	Fra	fra	ADP	_	_	2	case	_	name=O
+2	NTNU	NTNU	PROPN	_	_	3	obl	_	name=B-ORG|Entity=(ap_20091018_3326549__275--1)
+3	utvikler	utvikle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__275--1)
+5	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(ap_20091018_3326549__T39--1
+6	med	med	ADP	_	_	7	case	_	name=O
+7	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	nmod	_	name=O|Entity=(ap_20091018_3326549__7494--1)
+8	på	på	ADP	_	_	9	case	_	name=O
+9	materialteknologi	materialteknologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(ap_20091018_3326549__T41--1)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	energiforskning	energiforskning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T42--1)ap_20091018_3326549__T39)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004091
+# text = Turen ble en øyeåpner.
+1	Turen	tur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20091018_3326549__T43--1)
+2	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(ap_20091018_3326549__T44--1
+4	øyeåpner	øyeåpner	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T44)
+5	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004092
+# text = Chongqing by ligger ved Jiangtze (den lange flod), rett øst for Sichuan-provinsen, som har De tre kløfter, der kineserne er i ferd med å fullføre verdens største vannkraftverk.
+1	Chongqing	Chongqing	PROPN	_	_	3	nsubj	_	name=B-GPE_LOC|Entity=(ap_20091018_3326549__2252--1
+2	by	by	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	name=I-GPE_LOC|Entity=ap_20091018_3326549__2252)
+3	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ved	ved	ADP	_	_	5	case	_	name=O
+5	Jiangtze	Jiangtze	PROPN	_	_	3	obl	_	name=B-LOC|Entity=(ap_20091018_3326549__T46--1
+6	(	$(	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T47--1
+7	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	name=O
+8	lange	lang	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	flod	flod	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No|name=O
+10	)	$)	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T47)
+11	,	$,	PUNCT	_	_	15	punct	_	name=O|Entity=ap_20091018_3326549__T46)
+12	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+13	øst	øst	ADP	_	_	15	case	_	name=O
+14	for	for	ADP	_	_	15	case	_	name=O
+15	Sichuan-provinsen	Sichuan-provinsen	PROPN	_	_	5	appos	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091018_3326549__T48--1
+16	,	$,	PUNCT	_	_	18	punct	_	name=O
+17	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+18	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+19	De	De	PROPN	_	_	18	obj	_	name=B-LOC|Entity=(ap_20091018_3326549__T49--1
+20	tre	tre	NUM	_	Number=Plur|NumType=Card	19	flat:name	_	name=I-LOC
+21	kløfter	kløft	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	flat:name	_	SpaceAfter=No|name=I-LOC
+22	,	$,	PUNCT	_	_	27	punct	_	name=O
+23	der	der	SCONJ	_	_	27	mark	_	name=O
+24	kineserne	kineser	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	27	nsubj	_	name=O|Entity=(ap_20091018_3326549__T50--1)
+25	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	name=O
+26	i	i	SCONJ	_	_	27	mark	_	name=O
+27	ferd	ferd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	acl	_	name=O|Entity=(ap_20091018_3326549__T51--1
+28	med	med	SCONJ	_	_	30	mark	_	name=O
+29	å	å	PART	_	_	30	mark	_	name=O
+30	fullføre	fullføre	VERB	_	VerbForm=Inf	27	acl	_	name=O
+31	verdens	verden	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	33	nmod	_	name=O|Entity=(ap_20091018_3326549__T53--1(ap_20091018_3326549__71110--1)
+32	største	stor	ADJ	_	Definite=Def|Degree=Sup	33	amod	_	name=O
+33	vannkraftverk	vannkraftverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	30	obj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T53)ap_20091018_3326549__T51)ap_20091018_3326549__T49)ap_20091018_3326549__T48)
+34	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004093
+# text = Chongqing-provinsen har 32 millioner innbyggere på et areal som er det dobbelte av Trøndelags-fylkene - en folketetthet på linje med Nederland.
+1	Chongqing-provinsen	Chongqing-provins	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=B-GPE_LOC|Entity=(ap_20091018_3326549__2118--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	32	32	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(ap_20091018_3326549__T56--1(ap_20091018_3326549__T55--1
+4	millioner	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=ap_20091018_3326549__T55)
+5	innbyggere	innbygger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	name=O
+6	på	på	ADP	_	_	8	case	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20091018_3326549__T57--1
+8	areal	areal	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	name=O
+9	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	12	det	_	name=O
+12	dobbelte	dobbelt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	acl:relcl	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	Trøndelags-fylkene	Trøndelags-fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	12	obl	_	name=B-DRV|Entity=(ap_20091018_3326549__T58--1)ap_20091018_3326549__T57)
+15	-	$-	PUNCT	_	_	17	punct	_	name=O
+16	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(ap_20091018_3326549__T59--1
+17	folketetthet	folketetthet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	appos	_	name=O
+18	på	på	ADP	_	_	19	case	_	name=O
+19	linje	linje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	17	nmod	_	name=O|Entity=(ap_20091018_3326549__T60--1
+20	med	med	ADP	_	_	21	case	_	name=O
+21	Nederland	Nederland	PROPN	_	_	19	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091018_3326549__T61--1)ap_20091018_3326549__T60)ap_20091018_3326549__T59)ap_20091018_3326549__T56)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 004094
+# text = Universitetet har 58000 studenter, det største i provinsen, men det har mer enn 25 offentlige kollegauniversiteter og like mange private.
+1	Universitetet	universitet	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20091018_3326549__7494[1/2]--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	58000	58000	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(ap_20091018_3326549__T63--1
+4	studenter	student	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=ap_20091018_3326549__T63)
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20091018_3326549__7494[2/2]--1
+7	største	stor	ADJ	_	Definite=Def|Degree=Sup	1	appos	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	provinsen	provins	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__2118--1)ap_20091018_3326549__7494[2/2])
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	men	men	CCONJ	_	_	13	cc	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20091018_3326549__7494--1)
+13	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+14	mer	mye	ADJ	_	Degree=Cmp	18	amod	_	name=O|Entity=(ap_20091018_3326549__T66--1(ap_20091018_3326549__T67--1
+15	enn	enn	ADP	_	_	16	case	_	name=O
+16	25	25	NUM	_	Number=Plur|NumType=Card	14	obl	_	name=O
+17	offentlige	offentlig	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O
+18	kollegauniversiteter	kollegauniversitet	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	name=O|Entity=ap_20091018_3326549__T67)
+19	og	og	CCONJ	_	_	22	cc	_	name=O
+20	like	like	ADV	_	_	21	advmod	_	name=O
+21	mange	mange	ADJ	_	Degree=Pos|Number=Plur	22	amod	_	name=O
+22	private	privat	ADJ	_	Degree=Pos|Number=Plur	18	conj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T66)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004095
+# text = Jubileet var storslagent.
+1	Jubileet	jubileum	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__2104--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	_	name=O
+3	storslagent	storslagen	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004096
+# text = En forrykende festforestilling med 10000 tilskuere på campus første kvelden, dagen etter var nye 10000 samlet til selve markeringen i en av idrettsarenaene på campus.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(ap_20091018_3326549__T69--1(ap_20091018_3326549__T70--1
+2	forrykende	forrykende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	festforestilling	festforestilling	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+4	med	med	ADP	_	_	6	case	_	name=O
+5	10000	10000	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(ap_20091018_3326549__T71--1
+6	tilskuere	tilskuer	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nmod	_	name=O|Entity=ap_20091018_3326549__T71)
+7	på	på	SCONJ	_	_	8	mark	_	name=O
+8	campus	campus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	xcomp	_	name=O|Entity=(ap_20091018_3326549__4413--1)
+9	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(ap_20091018_3326549__T73--1
+10	kvelden	kveld	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T73)
+11	,	$,	PUNCT	_	_	17	punct	_	name=O|Entity=ap_20091018_3326549__T70)
+12	dagen	dag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obl	_	name=O|Entity=(ap_20091018_3326549__T74--1
+13	etter	etter	ADP	_	_	12	nmod	_	name=O|Entity=ap_20091018_3326549__T74)
+14	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux	_	name=O
+15	nye	ny	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+16	10000	10000	NUM	_	Number=Plur|NumType=Card	17	nsubj	_	name=O
+17	samlet	samle	VERB	_	VerbForm=Part	3	conj	_	name=O
+18	til	til	ADP	_	_	20	case	_	name=O
+19	selve	selve	DET	_	Definite=Def|PronType=Prs	20	det	_	name=O|Entity=(ap_20091018_3326549__T75--1
+20	markeringen	markering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obl	_	name=O|Entity=ap_20091018_3326549__T75)
+21	i	i	ADP	_	_	22	case	_	name=O
+22	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	obl	_	name=O
+23	av	av	ADP	_	_	24	case	_	name=O
+24	idrettsarenaene	idrettsarena	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	22	nmod	_	name=O|Entity=(ap_20091018_3326549__T76--1
+25	på	på	ADP	_	_	26	case	_	name=O
+26	campus	campus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__4413--1)ap_20091018_3326549__T76)ap_20091018_3326549__T69)
+27	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004097
+# text = Det gjennomgående temaet i talene var stolthet over hva universitetet hadde bidratt med i bygging av samfunns- og næringsliv - nasjonsbygging i høyeste potens.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20091018_3326549__T78--1
+2	gjennomgående	gjennomgående	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	temaet	tema	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	talene	tale	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	name=O|Entity=(ap_20091018_3326549__T79--1)ap_20091018_3326549__T78)
+6	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	name=O
+7	stolthet	stolthet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(ap_20091018_3326549__T80--1
+8	over	over	ADP	_	_	12	case	_	name=O
+9	hva	hva	PRON	_	PronType=Int	12	obl	_	name=O
+10	universitetet	universitet	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	name=O|Entity=(ap_20091018_3326549__7494--1)
+11	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+12	bidratt	bidra	VERB	_	VerbForm=Part	7	acl:relcl	_	name=O
+13	med	med	ADP	_	_	9	case	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	bygging	bygging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	obl	_	name=O|Entity=(ap_20091018_3326549__T82--1
+16	av	av	ADP	_	_	17	case	_	name=O
+17	samfunns-	samfunns-	NOUN	_	_	15	nmod	_	name=O|Entity=(ap_20091018_3326549__T83--1(ap_20091018_3326549__T84--1)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	næringsliv	næringsliv	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	conj	_	name=O|Entity=(ap_20091018_3326549__T85--1
+20	-	$-	PUNCT	_	_	21	punct	_	name=O
+21	nasjonsbygging	nasjonsbygging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	appos	_	name=O|Entity=(ap_20091018_3326549__T86--1
+22	i	i	ADP	_	_	24	case	_	name=O
+23	høyeste	høy	ADJ	_	Definite=Def|Degree=Sup	24	amod	_	name=O|Entity=(ap_20091018_3326549__T87--1
+24	potens	potens	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T87)ap_20091018_3326549__T86)ap_20091018_3326549__T85)ap_20091018_3326549__T83)ap_20091018_3326549__T82)ap_20091018_3326549__T80)
+25	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 004098
+# text = Kina satser meget offensivt på utdanning og forskning.
+1	Kina	Kina	PROPN	_	_	2	nsubj	_	name=B-GPE_ORG|Entity=(ap_20091018_3326549__193065--1)
+2	satser	satse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	meget	meget	ADV	_	_	4	advmod	_	name=O
+4	offensivt	offensiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	utdanning	utdanning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	name=O|Entity=(ap_20091018_3326549__T89--1(ap_20091018_3326549__T90--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	forskning	forskning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T91--1)ap_20091018_3326549__T89)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004099
+# text = Prosjekt 211 startet i 1995.
+1	Prosjekt	prosjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	name=B-PROD|Entity=(ap_20091018_3326549__3432--1
+2	211	211	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=I-PROD|Entity=ap_20091018_3326549__3432)
+3	startet	starte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	1995	1995	NUM	_	Number=Plur|NumType=Card	3	obl	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004100
+# text = Det er et prosjekt med direkte finansiering fra Beijing, og har som mål å utvikle 100 forskningsuniversiteter i verdensklasse i Kina innen 2020.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20091018_3326549__3432--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(ap_20091018_3326549__T94--1
+4	prosjekt	prosjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+5	med	med	ADP	_	_	7	case	_	name=O
+6	direkte	direkte	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(ap_20091018_3326549__T95--1
+7	finansiering	finansiering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nmod	_	name=O
+8	fra	fra	ADP	_	_	9	case	_	name=O
+9	Beijing	Beijing	PROPN	_	_	7	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091018_3326549__T96--1)ap_20091018_3326549__T95)ap_20091018_3326549__T94)
+10	,	$,	PUNCT	_	_	12	punct	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+13	som	som	SCONJ	_	_	14	mark	_	name=O
+14	mål	mål	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	xcomp	_	name=O|Entity=(ap_20091018_3326549__T97--1)
+15	å	å	PART	_	_	16	mark	_	name=O
+16	utvikle	utvikle	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+17	100	100	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O|Entity=(ap_20091018_3326549__T98--1
+18	forskningsuniversiteter	forskningsuniversitet	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obj	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	verdensklasse	verdensklasse	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	name=O|Entity=(ap_20091018_3326549__T99--1)ap_20091018_3326549__T98)
+21	i	i	ADP	_	_	22	case	_	name=O
+22	Kina	Kina	PROPN	_	_	16	obl	_	name=B-GPE_LOC|Entity=(ap_20091018_3326549__193065--1)
+23	innen	innen	ADP	_	_	24	case	_	name=O
+24	2020	2020	NUM	_	Number=Plur|NumType=Card	16	obl	_	SpaceAfter=No|name=O
+25	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004101
+# text = Chongqing var i den første gruppen som ble inkludert, i 1996.
+1	Chongqing	Chongqing	PROPN	_	_	6	nsubj	_	name=B-ORG|Entity=(ap_20091018_3326549__7494--1)
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+3	i	i	ADP	_	_	6	case	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(ap_20091018_3326549__T102--1
+5	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	gruppen	gruppe	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O
+7	som	som	PRON	_	PronType=Rel	9	nsubj:pass	_	name=O
+8	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux:pass	_	name=O
+9	inkludert	inkludere	VERB	_	VerbForm=Part	6	acl:relcl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	12	punct	_	name=O
+11	i	i	ADP	_	_	12	case	_	name=O
+12	1996	1996	NUM	_	Number=Plur|NumType=Card	9	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T102)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004102
+# text = I prosjektnummeret står 21 for 21. århundre og 1 for de 100 universiteter.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	prosjektnummeret	prosjektnummer	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(ap_20091018_3326549__T103--1)
+3	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	21	21	NUM	_	Number=Plur|NumType=Card	3	nsubj	_	name=O
+5	for	for	ADP	_	_	7	case	_	name=O
+6	21.	21.	ADJ	_	Number=Plur	7	amod	_	name=O|Entity=(ap_20091018_3326549__T104--1
+7	århundre	århundre	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=ap_20091018_3326549__T104)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	1	1	NUM	_	Number=Sing|NumType=Card	3	conj	_	name=O
+10	for	for	ADP	_	_	13	case	_	name=O
+11	de	de	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(ap_20091018_3326549__T105--1
+12	100	100	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O
+13	universiteter	universitet	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	orphan	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T105)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004103
+# text = At de mener alvor, kan illustreres med følgende:
+1	At	at	SCONJ	_	_	3	mark	_	name=O
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__T106--1)
+3	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	csubj:pass	_	name=O
+4	alvor	alvor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T107--1)
+5	,	$,	PUNCT	_	_	3	punct	_	name=O
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	illustreres	illustrere	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+8	med	med	ADP	_	_	9	case	_	name=O
+9	følgende	følgende	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	advmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T108--1)
+10	:	$:	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 004104
+# text = Som et ledd i planen øker Chongqing utdanningskapasiteten.
+1	Som	som	ADP	_	_	3	case	_	name=O
+2	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(ap_20091018_3326549__T109--1
+3	ledd	ledd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	planen	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(ap_20091018_3326549__T110--1)ap_20091018_3326549__T109)
+6	øker	øke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	Chongqing	Chongqing	PROPN	_	_	6	nsubj	_	name=B-ORG|Entity=(ap_20091018_3326549__7494--1)
+8	utdanningskapasiteten	utdanningskapasitet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T112--1)
+9	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004105
+# text = Det krever bygging av en ny campus, som er plassert 40 minutters bussreise fra sentrum.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20091018_3326549__T113--1)
+2	krever	kreve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	bygging	bygging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(ap_20091018_3326549__2239--1
+4	av	av	ADP	_	_	7	case	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(ap_20091018_3326549__T115--1
+6	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	campus	campus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	plassert	plassere	VERB	_	VerbForm=Part	7	acl:relcl	_	name=O
+12	40	40	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O|Entity=(ap_20091018_3326549__T117--1(ap_20091018_3326549__T116--1
+13	minutters	minutt	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	14	nmod	_	name=O|Entity=ap_20091018_3326549__T116)
+14	bussreise	bussreise	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	name=O|Entity=ap_20091018_3326549__T117)
+15	fra	fra	ADP	_	_	16	case	_	name=O
+16	sentrum	sentrum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T118--1)ap_20091018_3326549__T115)ap_20091018_3326549__2239)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004106
+# text = Første spadestikk ble tatt 18. desember 2004.
+1	Første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(ap_20091018_3326549__T119--1
+2	spadestikk	spadestikk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nsubj:pass	_	name=O|Entity=ap_20091018_3326549__T119)
+3	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux:pass	_	name=O
+4	tatt	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+5	18.	18.	ADJ	_	Number=Plur	6	amod	_	name=O|Entity=(ap_20091018_3326549__T120--1
+6	desember	desember	NOUN	_	Gender=Masc	4	obl	_	name=O
+7	2004	2004	NUM	_	Number=Plur|NumType=Card	6	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T120)
+8	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004107
+# text = I dag huser campusen 22000 studenter, og ved utløpet av 2010 skal utbyggingen være ferdig.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20091018_3326549__T121--1)
+3	huser	huse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	campusen	campus	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__4413--1)
+5	22000	22000	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(ap_20091018_3326549__T123--1
+6	studenter	student	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T123)
+7	,	$,	PUNCT	_	_	16	punct	_	name=O
+8	og	og	CCONJ	_	_	16	cc	_	name=O
+9	ved	ved	ADP	_	_	10	case	_	name=O
+10	utløpet	utløp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	name=O|Entity=(ap_20091018_3326549__T124--1
+11	av	av	ADP	_	_	12	case	_	name=O
+12	2010	2010	NUM	_	Number=Plur|NumType=Card	10	nmod	_	name=O|Entity=ap_20091018_3326549__T124)
+13	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+14	utbyggingen	utbygging	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	name=O|Entity=(ap_20091018_3326549__2239--1)
+15	være	være	AUX	_	VerbForm=Inf	16	cop	_	name=O
+16	ferdig	ferdig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	conj	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004108
+# text = Da er det studieplass, arbeidsplass og boliger til 30000 studenter og 4000 ansatte.
+1	Da	da	ADV	_	_	2	advmod	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+4	studieplass	studieplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T126--1(ap_20091018_3326549__T127--1
+5	,	$,	PUNCT	_	_	6	punct	_	name=O|Entity=ap_20091018_3326549__T127)
+6	arbeidsplass	arbeidsplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	conj	_	name=O|Entity=(ap_20091018_3326549__T128--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	boliger	bolig	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	conj	_	name=O|Entity=(ap_20091018_3326549__T129--1
+9	til	til	ADP	_	_	11	case	_	name=O
+10	30000	30000	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(ap_20091018_3326549__T130--1(ap_20091018_3326549__T131--1
+11	studenter	student	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=ap_20091018_3326549__T131)
+12	og	og	CCONJ	_	_	14	cc	_	name=O
+13	4000	4000	NUM	_	Number=Plur|NumType=Card	14	nummod	_	name=O|Entity=(ap_20091018_3326549__T132--1
+14	ansatte	ansatt	ADJ	_	Degree=Pos|Number=Plur	11	conj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T132)ap_20091018_3326549__T130)ap_20091018_3326549__T129)ap_20091018_3326549__T126)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004109
+# text = Allerede nå var det på plass idrettsanlegg i form av en normal fotballbane, to mindre baner, fem tennisbaner, 50 pingpongbaner og en stor friidrettsarena.
+1	Allerede	allerede	ADV	_	_	2	advmod	_	name=O
+2	nå	nå	ADV	_	_	3	advmod	_	name=O
+3	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	plass	plass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(ap_20091018_3326549__T133--1)
+7	idrettsanlegg	idrettsanlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__T134--1
+8	i	i	ADP	_	_	9	case	_	name=O
+9	form	form	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	name=O|Entity=(ap_20091018_3326549__T135--1
+10	av	av	ADP	_	_	13	case	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(ap_20091018_3326549__T136--1(ap_20091018_3326549__T137--1
+12	normal	normal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	fotballbane	fotballbane	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	17	punct	_	name=O|Entity=ap_20091018_3326549__T137)
+15	to	to	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(ap_20091018_3326549__T138--1
+16	mindre	liten	ADJ	_	Degree=Cmp	17	amod	_	name=O
+17	baner	bane	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No|name=O
+18	,	$,	PUNCT	_	_	17	punct	_	name=O|Entity=ap_20091018_3326549__T138)
+19	fem	fem	NUM	_	Number=Plur|NumType=Card	20	nummod	_	name=O|Entity=(ap_20091018_3326549__T139--1
+20	tennisbaner	tennisbane	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No|name=O
+21	,	$,	PUNCT	_	_	23	punct	_	name=O|Entity=ap_20091018_3326549__T139)
+22	50	50	NUM	_	Number=Plur|NumType=Card	23	nummod	_	name=O|Entity=(ap_20091018_3326549__T140--1
+23	pingpongbaner	pingpongbane	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	conj	_	name=O|Entity=ap_20091018_3326549__T140)
+24	og	og	CCONJ	_	_	27	cc	_	name=O
+25	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	name=O|Entity=(ap_20091018_3326549__T141--1
+26	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	27	amod	_	name=O
+27	friidrettsarena	friidrettsarena	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T141)ap_20091018_3326549__T136)ap_20091018_3326549__T135)ap_20091018_3326549__T134)
+28	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004110
+# text = Campus fremstår grønn og romslig, med parkanlegg, tre små innsjøer, i en av dem en kjempestor fontene.
+1	Campus	campus	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20091018_3326549__4413--1)
+2	fremstår	fremstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	grønn	grønn	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	xcomp	_	name=O
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	romslig	romslig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	conj	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	8	punct	_	name=O
+7	med	med	ADP	_	_	8	case	_	name=O
+8	parkanlegg	parkanlegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T143--1(ap_20091018_3326549__T144--1
+9	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=ap_20091018_3326549__T144)
+10	tre	tre	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(ap_20091018_3326549__2291--1
+11	små	liten	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	innsjøer	innsjø	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	12	punct	_	name=O|Entity=ap_20091018_3326549__2291)
+14	i	i	ADP	_	_	15	case	_	name=O|Entity=(ap_20091018_3326549__T147--1
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	nmod	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	nmod	_	name=O|Entity=(ap_20091018_3326549__2291--1)
+18	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O
+19	kjempestor	kjempestor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	name=O
+20	fontene	fontene	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T147)ap_20091018_3326549__T143)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004111
+# text = Studentene som viste oss rundt, var tydelig stolte:
+1	Studentene	student	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=(ap_20091018_3326549__3451--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	viste	vise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	name=O
+4	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	name=O|Entity=(ap_20091018_3326549__2303--1)
+5	rundt	rundt	ADP	_	_	3	compound:prt	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=ap_20091018_3326549__3451)
+7	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+8	tydelig	tydelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	stolte	stolt	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+10	:	$:	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 004112
+# text = - Vi kaller det «Chongqing-fart» sa de, da vi kommenterte at det gikk fort.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__3451--1)
+3	kaller	kalle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(ap_20091018_3326549__T151--1)
+5	«	$"	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__2416--1
+6	Chongqing-fart	Chongqing-fart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No|name=B-DRV
+7	»	$"	PUNCT	_	_	6	punct	_	name=O|Entity=ap_20091018_3326549__2416)
+8	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+9	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__3451--1
+10	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=ap_20091018_3326549__3451)
+11	da	da	SCONJ	_	_	13	mark	_	name=O
+12	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20091018_3326549__2303--1)
+13	kommenterte	kommentere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	name=O
+14	at	at	SCONJ	_	_	16	mark	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	name=O
+16	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	xcomp	_	name=O
+17	fort	fort	ADV	_	_	16	advmod	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004113
+# text = «Vil Norge gi gass og søke å beholde noe av det forspranget vi tross alt ennå har i kunnskapsøkonomien?»
+1	«	$"	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O
+2	Vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	Norge	Norge	PROPN	_	_	4	nsubj	_	name=B-GPE_ORG|Entity=(ap_20091018_3326549__184640--1)
+4	gi	gi	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	gass	gass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(ap_20091018_3326549__T156--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	søke	søke	VERB	_	VerbForm=Inf	4	conj	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	beholde	beholde	VERB	_	VerbForm=Inf	7	xcomp	_	name=O
+10	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	9	obj	_	name=O
+11	av	av	ADP	_	_	13	case	_	name=O
+12	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(ap_20091018_3326549__T157--1
+13	forspranget	forsprang	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	name=O
+14	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(ap_20091018_3326549__184640--1)
+15	tross	tross	ADP	_	_	16	case	_	name=O
+16	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obl	_	name=O|Entity=(ap_20091018_3326549__T159--1)
+17	ennå	ennå	ADV	_	_	18	advmod	_	name=O
+18	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	kunnskapsøkonomien	kunnskapsøkonomi	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__2444--1)ap_20091018_3326549__T157)
+21	?	$?	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O
+22	»	$"	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004114
+# text = Tilsvarende satsinger på utdanning og forskning skjer på mange titalls steder i landet.
+1	Tilsvarende	tilsvare	ADJ	_	VerbForm=Part	2	amod	_	name=O|Entity=(ap_20091018_3326549__T161--1
+2	satsinger	satsing	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	nsubj	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	utdanning	utdanning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=(ap_20091018_3326549__T162--1(ap_20091018_3326549__T163--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	forskning	forskning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	name=O|Entity=(ap_20091018_3326549__T164--1)ap_20091018_3326549__T162)ap_20091018_3326549__T161)
+7	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	på	på	ADP	_	_	11	case	_	name=O
+9	mange	mange	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(ap_20091018_3326549__T165--1
+10	titalls	titalls	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O
+11	steder	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__3660--1)ap_20091018_3326549__T165)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 004115
+# text = Kina er langt fra å være et utviklingsland.
+1	Kina	Kina	PROPN	_	_	8	nsubj	_	name=B-GPE_LOC|Entity=(ap_20091018_3326549__193065--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+3	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+4	fra	fra	ADP	_	_	8	case	_	name=O
+5	å	å	PART	_	_	8	mark	_	name=O
+6	være	være	AUX	_	VerbForm=Inf	8	cop	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20091018_3326549__T168--1
+8	utviklingsland	utviklingsland	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T168)
+9	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 004116
+# text = Det er et industriland med et enormt utviklingstempo.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20091018_3326549__193065--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(ap_20091018_3326549__T170--1
+4	industriland	industriland	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+5	med	med	ADP	_	_	8	case	_	name=O
+6	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20091018_3326549__T171--1
+7	enormt	enorm	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+8	utviklingstempo	utviklingstempo	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T171)ap_20091018_3326549__T170)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004117
+# text = Fysisk infrastruktur utvikles i stor hastighet, det samme gjelder informasjonsinfrastrukturen.
+1	Fysisk	fysisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(ap_20091018_3326549__T172--1
+2	infrastruktur	infrastruktur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=ap_20091018_3326549__T172)
+3	utvikles	utvikle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+4	i	i	ADP	_	_	6	case	_	name=O
+5	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(ap_20091018_3326549__T173--1
+6	hastighet	hastighet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T173)
+7	,	$,	PUNCT	_	_	10	punct	_	name=O
+8	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	9	det	_	name=O
+9	samme	samme	DET	_	Definite=Def|PronType=Dem	10	nsubj	_	name=O
+10	gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+11	informasjonsinfrastrukturen	informasjonsinfrastruktur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T174--1)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004118
+# text = Innsjekkingen for returreisen på flyplassen gikk greit med elektronisk billett.
+1	Innsjekkingen	innsjekking	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20091018_3326549__T175--1
+2	for	for	ADP	_	_	3	case	_	name=O
+3	returreisen	returreise	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(ap_20091018_3326549__T176--1)
+4	på	på	ADP	_	_	5	case	_	name=O
+5	flyplassen	flyplass	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	name=O|Entity=(ap_20091018_3326549__T177--1)ap_20091018_3326549__T175)
+6	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	greit	grei	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+8	med	med	ADP	_	_	10	case	_	name=O
+9	elektronisk	elektronisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(ap_20091018_3326549__T178--1
+10	billett	billett	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T178)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004119
+# text = Et lite problem ble det likevel da jeg ba om å få sjekket bagasjen helt frem til Trondheim.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(ap_20091018_3326549__T179--1
+2	lite	liten	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	name=O
+3	problem	problem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	xcomp	_	name=O|Entity=ap_20091018_3326549__T179)
+4	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+6	likevel	likevel	ADV	_	_	4	advmod	_	name=O
+7	da	da	SCONJ	_	_	9	mark	_	name=O
+8	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	name=O|Entity=(ap_20091018_3326549__71264--1)
+9	ba	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	name=O
+10	om	om	SCONJ	_	_	13	mark	_	name=O
+11	å	å	PART	_	_	13	mark	_	name=O
+12	få	få	AUX	_	VerbForm=Inf	13	aux	_	name=O
+13	sjekket	sjekke	VERB	_	VerbForm=Part	9	advcl	_	name=O
+14	bagasjen	bagasje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(ap_20091018_3326549__T181--1)
+15	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+16	frem	frem	ADP	_	_	18	case	_	name=O
+17	til	til	ADP	_	_	18	case	_	name=O
+18	Trondheim	Trondheim	PROPN	_	_	13	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091018_3326549__2372--1)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004120
+# text = Den hyggelige damen i skranken ble litt bekymret, og måtte spørre sin kollega i skranken ved siden av om han visste hva TRD var.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(ap_20091018_3326549__4762--1
+2	hyggelige	hyggelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	damen	dame	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	skranken	skranke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(ap_20091018_3326549__T184--1)ap_20091018_3326549__4762)
+6	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+8	bekymret	bekymre	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	6	xcomp	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	aux	_	name=O
+12	spørre	spørre	VERB	_	VerbForm=Inf	6	conj	_	name=O
+13	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	_	name=O|Entity=(ap_20091018_3326549__3566--1(ap_20091018_3326549__4762--1)
+14	kollega	kollega	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	skranken	skranke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(ap_20091018_3326549__T187--1
+17	ved	ved	ADP	_	_	18	case	_	name=O
+18	siden	side	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(ap_20091018_3326549__T188--1
+19	av	av	ADP	_	_	18	nmod	_	name=O|Entity=ap_20091018_3326549__T188)ap_20091018_3326549__T187)ap_20091018_3326549__3566)
+20	om	om	SCONJ	_	_	22	mark	_	name=O
+21	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(ap_20091018_3326549__3566--1)
+22	visste	vite	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	name=O
+23	hva	hva	PRON	_	PronType=Int	22	xcomp	_	name=O
+24	TRD	TRD	PROPN	_	_	23	nsubj	_	name=B-LOC|Entity=(ap_20091018_3326549__2372--1)
+25	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	cop	_	SpaceAfter=No|name=O
+26	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004121
+# text = Han visste heller ikke, og så pekte hun på forsiden av passet mitt og uttalte Norway på litt gebrokkent engelsk, og spurte forsiktig:
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20091018_3326549__3566--1)
+2	visste	vite	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	heller	heller	ADV	_	_	2	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	og	og	CCONJ	_	_	8	cc	_	name=O
+7	så	så	ADV	_	_	8	advmod	_	name=O
+8	pekte	peke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+9	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20091018_3326549__4762--1)
+10	på	på	ADP	_	_	11	case	_	name=O
+11	forsiden	forside	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(ap_20091018_3326549__T193--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	passet	pass	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(ap_20091018_3326549__T194--1
+14	mitt	min	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(ap_20091018_3326549__71264--1)ap_20091018_3326549__T194)ap_20091018_3326549__T193)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	uttalte	uttale	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	name=O
+17	Norway	Norway	PROPN	_	_	16	obj	_	name=B-GPE_LOC|Entity=(ap_20091018_3326549__3660--1)
+18	på	på	ADP	_	_	21	case	_	name=O
+19	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	name=O|Entity=(ap_20091018_3326549__T197--1
+20	gebrokkent	gebrokken	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	name=O
+21	engelsk	engelsk	NOUN	_	Gender=Neut	16	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T197)
+22	,	$,	PUNCT	_	_	24	punct	_	name=O
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	spurte	spørre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	conj	_	name=O
+25	forsiktig	forsiktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	advmod	_	SpaceAfter=No|name=O
+26	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004122
+# text = - Er det i Europa?
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(ap_20091018_3326549__T198--1)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Europa	Europa	PROPN	_	_	0	root	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091018_3326549__3476--1)
+6	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004123
+# text = Etter et bekreftende nikk fra meg, fant hun raskt de riktige knappene på tastaturet, og bagasjelappen kom ut av maskinen.
+1	Etter	etter	ADP	_	_	4	case	_	name=O
+2	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(ap_20091018_3326549__T200--1
+3	bekreftende	bekreftende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	name=O
+4	nikk	nikk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O
+5	fra	fra	ADP	_	_	6	case	_	name=O
+6	meg	jeg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__71264--1)
+7	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=ap_20091018_3326549__T200)
+8	fant	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20091018_3326549__4762--1)
+10	raskt	rask	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+11	de	de	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(ap_20091018_3326549__T203--1
+12	riktige	riktig	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	knappene	knapp	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obj	_	name=O|Entity=ap_20091018_3326549__T203)
+14	på	på	ADP	_	_	15	case	_	name=O
+15	tastaturet	tastatur	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T204--1)
+16	,	$,	PUNCT	_	_	19	punct	_	name=O
+17	og	og	CCONJ	_	_	19	cc	_	name=O
+18	bagasjelappen	bagasjelapp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	name=O|Entity=(ap_20091018_3326549__T205--1)
+19	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	name=O
+20	ut	ut	ADP	_	_	22	case	_	name=O
+21	av	av	ADP	_	_	22	case	_	name=O
+22	maskinen	maskin	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Bridge=ap_20091018_3326549__T203<ap_20091018_3326549__T206:default|Entity=(ap_20091018_3326549__T206--1)
+23	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 004124
+# text = I Chongqing nærmer studietilbøyeligheten blant ungdom seg det vi kjenner fra land i vår del av verden.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	Chongqing	Chongqing	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(ap_20091018_3326549__2252--1)
+3	nærmer	nærme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	studietilbøyeligheten	studietilbøyelighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__T208--1
+5	blant	blant	ADP	_	_	6	case	_	name=O
+6	ungdom	ungdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(ap_20091018_3326549__T209--1)ap_20091018_3326549__T208)
+7	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	iobj	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(ap_20091018_3326549__T210--1
+9	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	name=O|Entity=(ap_20091018_3326549__4662--1)
+10	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+11	fra	fra	ADP	_	_	12	case	_	name=O
+12	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obl	_	name=O|Entity=(ap_20091018_3326549__T212--1
+13	i	i	ADP	_	_	15	case	_	name=O
+14	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(ap_20091018_3326549__T214--1(ap_20091018_3326549__4662--1)
+15	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T215--1)ap_20091018_3326549__T214)ap_20091018_3326549__T212)ap_20091018_3326549__T210)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004125
+# text = I gjennomsnitt ligger nok Kina ennå en god del bak oss når det gjelder utdanningsnivå, men det vil nok ikke vare veldig lenge.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	gjennomsnitt	gjennomsnitt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(ap_20091018_3326549__T216--1)
+3	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	nok	nok	ADV	_	_	3	advmod	_	name=O
+5	Kina	Kina	PROPN	_	_	3	nsubj	_	name=B-GPE_ORG|Entity=(ap_20091018_3326549__193065--1)
+6	ennå	ennå	ADV	_	_	3	advmod	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(ap_20091018_3326549__T218--1
+8	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=ap_20091018_3326549__T218)
+10	bak	bak	ADP	_	_	11	case	_	name=O
+11	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obl	_	name=O|Entity=(ap_20091018_3326549__4662--1)
+12	når	når	SCONJ	_	_	14	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	name=O
+14	gjelder	gjelde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+15	utdanningsnivå	utdanningsnivå	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T220--1)
+16	,	$,	PUNCT	_	_	22	punct	_	name=O
+17	men	men	CCONJ	_	_	22	cc	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(ap_20091018_3326549__T221--1)
+19	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+20	nok	nok	ADV	_	_	22	advmod	_	name=O
+21	ikke	ikke	PART	_	Polarity=Neg	22	advmod	_	name=O
+22	vare	vare	VERB	_	VerbForm=Inf	3	conj	_	name=O
+23	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	24	advmod	_	name=O
+24	lenge	lenge	ADJ	_	Degree=Pos	22	advmod	_	SpaceAfter=No|name=O
+25	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004126
+# text = Dette landet mener alvor - ikke bare med å bli verdens ledende vareproduksjonssenter.
+1	Dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(ap_20091018_3326549__193065--1
+2	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=ap_20091018_3326549__193065)
+3	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	alvor	alvor	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(ap_20091018_3326549__T223--1)
+5	-	$-	PUNCT	_	_	10	punct	_	name=O
+6	ikke	ikke	PART	_	Polarity=Neg	10	advmod	_	name=O
+7	bare	bare	ADV	_	_	10	advmod	_	name=O
+8	med	med	ADP	_	_	10	case	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	bli	bli	VERB	_	VerbForm=Inf	3	conj	_	name=O
+11	verdens	verden	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(ap_20091018_3326549__2451--1(ap_20091018_3326549__71110--1)
+12	ledende	lede	ADJ	_	VerbForm=Part	13	amod	_	name=O
+13	vareproduksjonssenter	vareproduksjonssenter	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	orphan	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__2451)
+14	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004127
+# text = Den posisjonen tok det dem 25 år å ta, fra landets høyere utdanningssystem lå helt brakk etter kulturevolusjonen i 1978, og frem til tidlig i dette tiåret.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(ap_20091018_3326549__2451--1
+2	posisjonen	posisjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	name=O|Entity=ap_20091018_3326549__2451)
+3	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	iobj	_	name=O|Entity=(ap_20091018_3326549__193065--1)
+6	25	25	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(ap_20091018_3326549__T228--1
+7	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=ap_20091018_3326549__T228)
+8	å	å	PART	_	_	9	mark	_	name=O
+9	ta	ta	VERB	_	VerbForm=Inf	3	csubj	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	15	punct	_	name=O
+11	fra	fra	SCONJ	_	_	15	mark	_	name=O
+12	landets	land	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	14	nmod	_	name=O|Entity=(ap_20091018_3326549__T230--1(ap_20091018_3326549__193065--1)
+13	høyere	høy	ADJ	_	Degree=Cmp	14	amod	_	name=O
+14	utdanningssystem	utdanningssystem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	nsubj	_	name=O|Entity=ap_20091018_3326549__T230)
+15	lå	ligge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	name=O
+16	helt	hel	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	advmod	_	name=O
+17	brakk	brakk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+18	etter	etter	ADP	_	_	19	case	_	name=O
+19	kulturevolusjonen	kulturevolusjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	name=O|Entity=(ap_20091018_3326549__T231--1
+20	i	i	ADP	_	_	21	case	_	name=O
+21	1978	1978	NUM	_	Number=Plur|NumType=Card	19	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T231)
+22	,	$,	PUNCT	_	_	25	punct	_	name=O
+23	og	og	CCONJ	_	_	25	cc	_	name=O
+24	frem	frem	ADP	_	_	25	case	_	name=O
+25	til	til	ADP	_	_	15	conj	_	name=O
+26	tidlig	tidlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	29	advmod	_	name=O
+27	i	i	ADP	_	_	29	case	_	name=O
+28	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	29	det	_	name=O|Entity=(ap_20091018_3326549__T232--1
+29	tiåret	tiår	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T232)
+30	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004128
+# text = Dette har vi i Norge merket primært på to måter:
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	name=O|Entity=(ap_20091018_3326549__T233--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(ap_20091018_3326549__184640--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Norge	Norge	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(ap_20091018_3326549__T235--1)ap_20091018_3326549__184640)
+6	merket	merke	VERB	_	VerbForm=Part	0	root	_	name=O
+7	primært	primær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+8	på	på	ADP	_	_	10	case	_	name=O
+9	to	to	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(ap_20091018_3326549__T236--1
+10	måter	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T236)
+11	:	$:	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004129
+# text = Vi har nytt godt av billige importvarer, som har bidratt til lav inflasjon og økt levestandard her hjemme.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__184640--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	nytt	nyte	VERB	_	VerbForm=Part	0	root	_	name=O
+4	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	av	av	ADP	_	_	7	case	_	name=O
+6	billige	billig	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(ap_20091018_3326549__T238--1
+7	importvarer	importvare	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+10	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	bidratt	bidra	VERB	_	VerbForm=Part	7	acl:relcl	_	name=O
+12	til	til	ADP	_	_	14	case	_	name=O
+13	lav	lav	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(ap_20091018_3326549__T239--1(ap_20091018_3326549__T240--1
+14	inflasjon	inflasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=ap_20091018_3326549__T240)
+15	og	og	CCONJ	_	_	17	cc	_	name=O
+16	økt	øke	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	17	amod	_	name=O|Entity=(ap_20091018_3326549__T241--1
+17	levestandard	levestandard	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	conj	_	name=O
+18	her	her	ADV	_	_	17	advmod	_	name=O
+19	hjemme	hjemme	ADP	_	_	18	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T241)ap_20091018_3326549__T239)ap_20091018_3326549__T238)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004130
+# text = Og så har titusener av våre industriarbeidsplasser forsvunnet i konkurransen.
+1	Og	og	CCONJ	_	_	8	cc	_	name=O
+2	så	så	ADV	_	_	8	advmod	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+4	titusener	titusen	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=(ap_20091018_3326549__T242--1
+5	av	av	ADP	_	_	7	case	_	name=O
+6	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(ap_20091018_3326549__T244--1(ap_20091018_3326549__184640--1)
+7	industriarbeidsplasser	industriarbeidsplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nmod	_	name=O|Entity=ap_20091018_3326549__T244)ap_20091018_3326549__T242)
+8	forsvunnet	forsvinne	VERB	_	VerbForm=Part	0	root	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	konkurransen	konkurranse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T245--1)
+11	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 004131
+# text = Kinas satsing på forskning og høyere utdanning viser at de ikke har tenkt å stoppe med det å være verdens produksjonssmie, de vil ta en tilsvarende posisjon i verdens kunnskapssamfunn.
+1	Kinas	Kina	PROPN	_	Case=Gen	2	nmod	_	name=B-GPE_ORG|Entity=(ap_20091018_3326549__3432--1(ap_20091018_3326549__193065--1)
+2	satsing	satsing	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	nsubj	_	name=O
+3	på	på	ADP	_	_	4	case	_	name=O
+4	forskning	forskning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	nmod	_	name=O|Entity=(ap_20091018_3326549__T248--1(ap_20091018_3326549__T249--1)
+5	og	og	CCONJ	_	_	7	cc	_	name=O
+6	høyere	høy	ADJ	_	Degree=Cmp	7	amod	_	name=O|Entity=(ap_20091018_3326549__T250--1
+7	utdanning	utdanning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	conj	_	name=O|Entity=ap_20091018_3326549__T250)ap_20091018_3326549__T248)ap_20091018_3326549__3432)
+8	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	at	at	SCONJ	_	_	13	mark	_	name=O
+10	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20091018_3326549__193065--1)
+11	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	name=O
+12	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	tenkt	tenke	VERB	_	VerbForm=Part	8	ccomp	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	stoppe	stoppe	VERB	_	VerbForm=Inf	13	xcomp	_	name=O
+16	med	med	ADP	_	_	17	case	_	name=O
+17	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obl	_	name=O|Entity=(ap_20091018_3326549__T252--1
+18	å	å	PART	_	_	21	mark	_	name=O
+19	være	være	AUX	_	VerbForm=Inf	21	cop	_	name=O
+20	verdens	verden	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=(ap_20091018_3326549__T254--1(ap_20091018_3326549__71110--1)
+21	produksjonssmie	produksjonssmie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	17	appos	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T254)ap_20091018_3326549__T252)
+22	,	$,	PUNCT	_	_	25	punct	_	name=O
+23	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	name=O|Entity=(ap_20091018_3326549__193065--1)
+24	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	ta	ta	VERB	_	VerbForm=Inf	8	conj	_	name=O
+26	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	28	det	_	name=O|Entity=(ap_20091018_3326549__T256--1
+27	tilsvarende	tilsvare	ADJ	_	VerbForm=Part	28	amod	_	name=O
+28	posisjon	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obj	_	name=O|Entity=ap_20091018_3326549__T256)
+29	i	i	ADP	_	_	31	case	_	name=O
+30	verdens	verden	NOUN	_	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing	31	nmod	_	name=O|Entity=(ap_20091018_3326549__2590--1(ap_20091018_3326549__71110--1)
+31	kunnskapssamfunn	kunnskapssamfunn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__2590)
+32	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 004132
+# text = Utviklingen på IKT-området i Kina er nå formidabel.
+1	Utviklingen	utvikling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(ap_20091018_3326549__T259--1
+2	på	på	ADP	_	_	3	case	_	name=O
+3	IKT-området	IKT-område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(ap_20091018_3326549__T260--1)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Kina	Kina	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(ap_20091018_3326549__193065--1)ap_20091018_3326549__T259)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+7	nå	nå	ADV	_	_	8	advmod	_	name=O
+8	formidabel	formidabel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 004133
+# text = En metafor ligger snublende nær:
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20091018_3326549__T262--1
+2	metafor	metafor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=ap_20091018_3326549__T262)
+3	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	snublende	snuble	ADJ	_	VerbForm=Part	5	amod	_	name=O
+5	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O
+6	:	$:	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004134
+# text = Kina ligger i «Chongqing-fart» i venstrefeltet på kunnskapsmotorveien.
+1	Kina	Kina	PROPN	_	_	2	nsubj	_	name=B-GPE_ORG|Entity=(ap_20091018_3326549__193065--1)
+2	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	«	$"	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__2416--1
+5	Chongqing-fart	Chongqing-fart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=B-DRV
+6	»	$"	PUNCT	_	_	5	punct	_	name=O|Entity=ap_20091018_3326549__2416)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	venstrefeltet	venstrefelt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(ap_20091018_3326549__T265--1
+9	på	på	ADP	_	_	10	case	_	name=O
+10	kunnskapsmotorveien	kunnskapsmotorvei	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__2542--1)ap_20091018_3326549__T265)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004135
+# text = Det er viktig for oss her i dette lille landet (som i hvert fall noen kinesere vet ligger i Europa), å ta inn over oss dette.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	for	for	ADP	_	_	5	case	_	name=O
+5	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obl	_	name=O|Entity=(ap_20091018_3326549__184640--1
+6	her	her	ADV	_	_	5	advmod	_	name=O
+7	i	i	ADP	_	_	10	case	_	name=O
+8	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(ap_20091018_3326549__T268--1
+9	lille	liten	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O
+11	(	$(	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O
+12	som	som	PRON	_	PronType=Rel	18	iobj	_	name=O
+13	i	i	ADP	_	_	15	case	_	name=O|Entity=(ap_20091018_3326549__T270--1
+14	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	15	det	_	name=O|Entity=(ap_20091018_3326549__T269--1
+15	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	name=O|Entity=ap_20091018_3326549__T269)
+16	noen	noen	DET	_	Number=Plur|PronType=Ind	17	det	_	name=O
+17	kinesere	kineser	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	nsubj	_	name=O|Entity=ap_20091018_3326549__T270)
+18	vet	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O
+19	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	xcomp	_	name=O
+20	i	i	ADP	_	_	21	case	_	name=O
+21	Europa	Europa	PROPN	_	_	19	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(ap_20091018_3326549__3476--1)
+22	)	$)	PUNCT	_	_	18	punct	_	SpaceAfter=No|name=O
+23	,	$,	PUNCT	_	_	18	punct	_	name=O|Entity=ap_20091018_3326549__T268)ap_20091018_3326549__184640)
+24	å	å	PART	_	_	25	mark	_	name=O
+25	ta	ta	VERB	_	VerbForm=Inf	3	csubj	_	name=O
+26	inn	inn	ADP	_	_	28	case	_	name=O
+27	over	over	ADP	_	_	28	case	_	name=O
+28	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	25	obl	_	name=O|Entity=(ap_20091018_3326549__184640--1)
+29	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T273--1)
+30	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004136
+# text = Vil vi bare holde godt ut til høyre på denne motorveien slik at vi ikke blir påkjørt når de kommer opp bakfra - eller vil vi gi gass og søke å beholde noe av det forspranget vi tross alt ennå har i kunnskapsøkonomien?
+1	Vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+2	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20091018_3326549__184640--1)
+3	bare	bare	ADV	_	_	4	advmod	_	name=O
+4	holde	holde	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+6	ut	ut	ADP	_	_	8	case	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	høyre	høyre	NOUN	_	Gender=Neut	4	obl	_	name=O|Entity=(ap_20091018_3326549__T275--1)
+9	på	på	ADP	_	_	11	case	_	name=O
+10	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(ap_20091018_3326549__2542--1
+11	motorveien	motorvei	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=ap_20091018_3326549__2542)
+12	slik	slik	ADV	_	_	13	advmod	_	name=O
+13	at	at	SCONJ	_	_	17	mark	_	name=O
+14	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj:pass	_	name=O|Entity=(ap_20091018_3326549__184640--1)
+15	ikke	ikke	PART	_	Polarity=Neg	17	advmod	_	name=O
+16	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux:pass	_	name=O
+17	påkjørt	påkjøre	VERB	_	VerbForm=Part	4	advcl	_	name=O
+18	når	når	SCONJ	_	_	20	mark	_	name=O
+19	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(ap_20091018_3326549__193065--1)
+20	kommer	komme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	name=O
+21	opp	opp	ADP	_	_	20	compound:prt	_	name=O
+22	bakfra	bakfra	ADP	_	_	20	compound:prt	_	name=O
+23	-	$-	PUNCT	_	_	27	punct	_	name=O
+24	eller	eller	CCONJ	_	_	27	cc	_	name=O
+25	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	name=O
+26	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	name=O|Entity=(ap_20091018_3326549__184640--1)
+27	gi	gi	VERB	_	VerbForm=Inf	4	conj	_	name=O
+28	gass	gass	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	27	obj	_	name=O|Entity=(ap_20091018_3326549__T280--1)
+29	og	og	CCONJ	_	_	30	cc	_	name=O
+30	søke	søke	VERB	_	VerbForm=Inf	27	conj	_	name=O
+31	å	å	PART	_	_	32	mark	_	name=O
+32	beholde	beholde	VERB	_	VerbForm=Inf	30	xcomp	_	name=O
+33	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	32	obj	_	name=O
+34	av	av	ADP	_	_	36	case	_	name=O
+35	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	36	det	_	name=O|Entity=(ap_20091018_3326549__T281--1
+36	forspranget	forsprang	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	33	nmod	_	name=O
+37	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	41	nsubj	_	name=O|Entity=(ap_20091018_3326549__184640--1)
+38	tross	tross	ADP	_	_	39	case	_	name=O
+39	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	41	obl	_	name=O|Entity=(ap_20091018_3326549__T283--1)
+40	ennå	ennå	ADV	_	_	41	advmod	_	name=O
+41	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	name=O
+42	i	i	ADP	_	_	43	case	_	name=O
+43	kunnskapsøkonomien	kunnskapsøkonomi	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	41	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__2444--1)ap_20091018_3326549__T281)
+44	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 004137
+# text = Da er det statsbudsjettet jeg kom hjem til tirsdag kveld, ikke et godt svar.
+1	Da	da	ADV	_	_	15	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+3	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(ap_20091018_3326549__102543--1
+4	statsbudsjettet	statsbudsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	name=O
+5	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(ap_20091018_3326549__71264--1)
+6	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	name=O
+7	hjem	hjem	ADP	_	_	8	case	_	name=O
+8	til	til	ADP	_	_	6	compound:prt	_	name=O
+9	tirsdag	tirsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(ap_20091018_3326549__T288--1(ap_20091018_3326549__T287--1)
+10	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T288)
+11	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=ap_20091018_3326549__102543)
+12	ikke	ikke	PART	_	Polarity=Neg	15	advmod	_	name=O
+13	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(ap_20091018_3326549__T289--1
+14	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	name=O
+15	svar	svar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T289)
+16	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 004138
+# text = Det kan i beste fall kalles et status quo-budsjett på kunnskapsområdet.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	name=O|Entity=(ap_20091018_3326549__102543--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	beste	god	ADJ	_	Definite=Def|Degree=Sup	5	amod	_	name=O|Entity=(ap_20091018_3326549__T291--1
+5	fall	fall	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=ap_20091018_3326549__T291)
+6	kalles	kalle	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(ap_20091018_3326549__T292--1
+8	status	status	NOUN	_	_	9	compound	_	name=O
+9	quo-budsjett	quo-budsjett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	xcomp	_	name=O|Entity=ap_20091018_3326549__T292)
+10	på	på	ADP	_	_	11	case	_	name=O
+11	kunnskapsområdet	kunnskapsområde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T293--1)
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 004139
+# text = Men trolig representerer det en realnedgang i vår konkurranseevne til å gjøre Norge til et attraktivt land i verden for å drive forskning og utvikling i.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	trolig	trolig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+3	representerer	representere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__102543--1)
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(ap_20091018_3326549__T295--1
+6	realnedgang	realnedgang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O
+7	i	i	ADP	_	_	9	case	_	name=O
+8	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(ap_20091018_3326549__T297--1(ap_20091018_3326549__184640--1)
+9	konkurranseevne	konkurranseevne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	name=O
+10	til	til	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	gjøre	gjøre	VERB	_	VerbForm=Inf	9	acl	_	name=O
+13	Norge	Norge	PROPN	_	_	12	obj	_	name=B-GPE_LOC|Entity=(ap_20091018_3326549__3660--1)
+14	til	til	SCONJ	_	_	17	mark	_	name=O
+15	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(ap_20091018_3326549__T299--1
+16	attraktivt	attraktiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	name=O
+17	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	xcomp	_	name=O
+18	i	i	ADP	_	_	19	case	_	name=O
+19	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(ap_20091018_3326549__71110--1)
+20	for	for	SCONJ	_	_	22	mark	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	drive	drive	VERB	_	VerbForm=Inf	17	acl	_	name=O
+23	forskning	forskning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	obj	_	name=O|Entity=(ap_20091018_3326549__T301--1(ap_20091018_3326549__T302--1)
+24	og	og	CCONJ	_	_	25	cc	_	name=O
+25	utvikling	utvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	23	conj	_	name=O|Entity=(ap_20091018_3326549__T303--1)ap_20091018_3326549__T301)
+26	i	i	ADP	_	_	22	compound:prt	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T299)ap_20091018_3326549__T297)ap_20091018_3326549__T295)
+27	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004140
+# text = Det svarer ikke på behovet for et kjempeløft innen forskningens infrastruktur for å ta igjen mange års etterslep.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20091018_3326549__102543--1)
+2	svarer	svare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	behovet	behov	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(ap_20091018_3326549__T305--1
+6	for	for	ADP	_	_	8	case	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20091018_3326549__T306--1
+8	kjempeløft	kjempeløft	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	name=O
+9	innen	innen	ADP	_	_	11	case	_	name=O
+10	forskningens	forskning	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=(ap_20091018_3326549__T308--1(ap_20091018_3326549__T307--1)
+11	infrastruktur	infrastruktur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=ap_20091018_3326549__T308)
+12	for	for	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	ta	ta	VERB	_	VerbForm=Inf	8	acl	_	name=O
+15	igjen	igjen	ADV	_	_	14	advmod	_	name=O
+16	mange	mange	ADJ	_	Degree=Pos|Number=Plur	17	amod	_	name=O|Entity=(ap_20091018_3326549__T310--1(ap_20091018_3326549__T309--1
+17	års	år	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur	18	nmod	_	name=O|Entity=ap_20091018_3326549__T309)
+18	etterslep	etterslep	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T310)ap_20091018_3326549__T306)ap_20091018_3326549__T305)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004141
+# text = Det styrker ikke ryggraden i utviklingen av kunnskapssamfunnet - basisbevilgninger til forskning og utdanning.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20091018_3326549__102543--1)
+2	styrker	styrke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	ryggraden	ryggrad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(ap_20091018_3326549__T312--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	utviklingen	utvikling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(ap_20091018_3326549__T313--1
+7	av	av	ADP	_	_	8	case	_	name=O
+8	kunnskapssamfunnet	kunnskapssamfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	name=O|Entity=(ap_20091018_3326549__T314--1)ap_20091018_3326549__T313)
+9	-	$-	PUNCT	_	_	10	punct	_	name=O
+10	basisbevilgninger	basisbevilgning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	appos	_	name=O|Entity=(ap_20091018_3326549__T315--1
+11	til	til	ADP	_	_	12	case	_	name=O
+12	forskning	forskning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	name=O|Entity=(ap_20091018_3326549__T316--1(ap_20091018_3326549__T317--1)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	utdanning	utdanning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__T318--1)ap_20091018_3326549__T316)ap_20091018_3326549__T315)ap_20091018_3326549__T312)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004142
+# text = Budsjettet er ekspansivt, og bruker mye penger på gode formål.
+1	Budsjettet	budsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__102543--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	ekspansivt	ekspansiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	6	punct	_	name=O
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	bruker	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+7	mye	mye	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(ap_20091018_3326549__T320--1
+8	penger	penge	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obj	_	name=O|Entity=ap_20091018_3326549__T320)
+9	på	på	ADP	_	_	11	case	_	name=O
+10	gode	god	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(ap_20091018_3326549__T321--1
+11	formål	formål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T321)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004143
+# text = Men Regjeringen har altså ikke den erkjennelsen at for vår velstandsutvikling og våre lønnsomme arbeidsplasser på lang sikt, må det satses for å plassere oss i en sterk posisjon i kunnskapssamfunnet.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	Regjeringen	Regjeringen	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(ap_20091018_3326549__2348--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	altså	altså	ADV	_	_	3	advmod	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20091018_3326549__T323--1
+7	erkjennelsen	erkjennelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O
+8	at	at	SCONJ	_	_	22	mark	_	name=O
+9	for	for	ADP	_	_	11	case	_	name=O
+10	vår	vår	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	nmod	_	name=O|Entity=(ap_20091018_3326549__T325--1(ap_20091018_3326549__T326[1/2]--1(ap_20091018_3326549__184640--1)
+11	velstandsutvikling	velstandsutvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	obl	_	name=O|Entity=ap_20091018_3326549__T326[1/2])
+12	og	og	CCONJ	_	_	15	cc	_	name=O
+13	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(ap_20091018_3326549__T328--1(ap_20091018_3326549__184640--1)
+14	lønnsomme	lønnsom	ADJ	_	Degree=Pos|Number=Plur	15	amod	_	name=O
+15	arbeidsplasser	arbeidsplass	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	conj	_	name=O
+16	på	på	ADP	_	_	18	case	_	name=O
+17	lang	lang	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O|Entity=(ap_20091018_3326549__T329--1
+18	sikt	sikt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T329)ap_20091018_3326549__T328)
+19	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=(ap_20091018_3326549__T326[2/2]--1)ap_20091018_3326549__T325)
+20	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+21	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	name=O
+22	satses	satse	VERB	_	VerbForm=Inf|Voice=Pass	7	acl	_	name=O
+23	for	for	SCONJ	_	_	25	mark	_	name=O
+24	å	å	PART	_	_	25	mark	_	name=O
+25	plassere	plassere	VERB	_	VerbForm=Inf	22	advcl	_	name=O
+26	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	25	obj	_	name=O|Entity=(ap_20091018_3326549__184640--1)
+27	i	i	ADP	_	_	30	case	_	name=O
+28	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	30	det	_	name=O|Entity=(ap_20091018_3326549__T331--1
+29	sterk	sterk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	30	amod	_	name=O
+30	posisjon	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	name=O
+31	i	i	ADP	_	_	32	case	_	name=O
+32	kunnskapssamfunnet	kunnskapssamfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	30	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20091018_3326549__2590--1)ap_20091018_3326549__T331)ap_20091018_3326549__T323)
+33	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 004144
+# text = Det er ikke lenge før dragkraften fra petroleumsøkonomien avtar.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+4	lenge	lenge	ADJ	_	Degree=Pos	2	advmod	_	name=O
+5	før	før	SCONJ	_	_	9	mark	_	name=O
+6	dragkraften	dragkraft	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O|Entity=(ap_20091018_3326549__T333--1
+7	fra	fra	ADP	_	_	8	case	_	name=O
+8	petroleumsøkonomien	petroleumsøkonomi	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20091018_3326549__T334--1)ap_20091018_3326549__T333)
+9	avtar	avta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 004145
+# text = Våre naboland har tatt den internasjonale konkurransen inn over seg.
+1	Våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(ap_20091018_3326549__31017--1(ap_20091018_3326549__184640--1)
+2	naboland	naboland	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=ap_20091018_3326549__31017)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	tatt	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(ap_20091018_3326549__T337--1
+6	internasjonale	internasjonal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	konkurransen	konkurranse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=ap_20091018_3326549__T337)
+8	inn	inn	ADP	_	_	10	case	_	name=O
+9	over	over	ADP	_	_	10	case	_	name=O
+10	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obl	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 004146
+# text = Danmark, Sverige og Finland har alle tatt mangemilliardersløft i for sine kunnskapssektorer.
+1	Danmark	Danmark	PROPN	_	_	8	nsubj	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(ap_20091018_3326549__31017[1/2]--1(ap_20091018_3326549__T339[1/2]--1
+2	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=ap_20091018_3326549__T339[1/2])
+3	Sverige	Sverige	PROPN	_	_	1	conj	_	name=B-GPE_ORG|Entity=(ap_20091018_3326549__T340--1)
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	Finland	Finland	PROPN	_	_	1	conj	_	name=B-GPE_ORG|Entity=(ap_20091018_3326549__T341--1)ap_20091018_3326549__31017[1/2])
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+7	alle	all	DET	_	Number=Plur|PronType=Tot	1	det	_	name=O|Entity=(ap_20091018_3326549__31017[2/2]--1)(ap_20091018_3326549__T339[2/2]--1)
+8	tatt	ta	VERB	_	VerbForm=Part	0	root	_	name=O
+9	mangemilliardersløft	mangemilliardersløft	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	name=O|Entity=(ap_20091018_3326549__T342--1)
+10	i	i	ADP	_	_	8	compound:prt	_	name=O
+11	for	for	ADP	_	_	13	case	_	name=O
+12	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(ap_20091018_3326549__T344--1(ap_20091018_3326549__31017--1)
+13	kunnskapssektorer	kunnskapssektor	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T344)
+14	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 004147
+# text = Universiteter og høyskoler kan leve med det budsjettet som er lagt frem.
+1	Universiteter	universitet	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=(ap_20091018_3326549__T345--1(ap_20091018_3326549__T346--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	høyskoler	høyskole	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	conj	_	name=O|Entity=(ap_20091018_3326549__T347--1)ap_20091018_3326549__T345)
+4	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	leve	leve	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	med	med	ADP	_	_	8	case	_	name=O
+7	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(ap_20091018_3326549__102543--1
+8	budsjettet	budsjett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O
+9	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+10	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	lagt	legge	VERB	_	VerbForm=Part	8	acl:relcl	_	name=O
+12	frem	frem	ADP	_	_	11	compound:prt	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__102543)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 004148
+# text = Kan Velferds-Norge det om 20 år?
+1	Kan	kunne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	Velferds-Norge	Velferds-Norge	PROPN	_	_	1	nsubj	_	name=B-DRV|Entity=(ap_20091018_3326549__184640--1)
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	name=O|Entity=(ap_20091018_3326549__T350--1)
+4	om	om	ADP	_	_	6	case	_	name=O
+5	20	20	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(ap_20091018_3326549__T351--1
+6	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	obl	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__T351)
+7	?	$?	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 004149
+# text = Jeg er redd det da kan bli mindre igjen til alle de gode oppgavene som har fått prioritet foran en kunnskapssatsing i årets budsjett.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20091018_3326549__71264--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	redd	redd	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+5	da	da	ADV	_	_	7	advmod	_	name=O
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	bli	bli	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+8	mindre	liten	ADJ	_	Degree=Cmp	7	nsubj	_	name=O
+9	igjen	igjen	ADV	_	_	7	advmod	_	name=O
+10	til	til	ADP	_	_	14	case	_	name=O
+11	alle	all	DET	_	Number=Plur|PronType=Tot	14	det	_	name=O|Entity=(ap_20091018_3326549__T353--1
+12	de	de	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O
+13	gode	god	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	oppgavene	oppgave	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	7	obl	_	name=O
+15	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	fått	få	VERB	_	VerbForm=Part	14	acl:relcl	_	name=O
+18	prioritet	prioritet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	obj	_	name=O|Entity=(ap_20091018_3326549__T354--1
+19	foran	foran	ADP	_	_	21	case	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(ap_20091018_3326549__T355--1
+21	kunnskapssatsing	kunnskapssatsing	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=ap_20091018_3326549__T355)
+22	i	i	ADP	_	_	24	case	_	name=O
+23	årets	år	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	24	nmod	_	name=O|Entity=(ap_20091018_3326549__102543--1(ap_20091018_3326549__T356--1)
+24	budsjett	budsjett	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No|name=O|Entity=ap_20091018_3326549__102543)ap_20091018_3326549__T354)ap_20091018_3326549__T353)
+25	.	$.	PUNCT	_	_	3	punct	_	name=O
+

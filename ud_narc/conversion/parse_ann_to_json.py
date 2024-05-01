@@ -25,14 +25,14 @@ class Ann2Json(GenericParser):
         self.load(in_file)
 
         self._id = os.path.basename(in_file).split(self.FROM_FILE)[0]
-        # replace any weird chars in the id
-        replace_map = {
-            "~": "_",
-            " ": "_",
-            "-": "_",
-        }
-        for k, v in replace_map.items():
-            self._id = self._id.replace(k, v)
+        # replace any weird chars in the id, this could be helpful for visulization later, and to clean up entity names.
+        # replace_map = {
+        #     "~": "_",
+        #     " ": "_",
+        #     "-": "_",
+        # }
+        # for k, v in replace_map.items():
+        #     self._id = self._id.replace(k, v)
 
         self.invalid: Set[str] = invalid_mention_links[self._id]
         self.json: Dict[str, str] = None

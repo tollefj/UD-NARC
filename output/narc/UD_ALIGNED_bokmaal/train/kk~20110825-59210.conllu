@@ -1,0 +1,429 @@
+# newdoc id = kk~20110825-59210
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 012076
+# text = - Får seg ekstrajobber som alle andre
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	iobj	_	name=O
+4	ekstrajobber	ekstrajobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=(kk~20110825_59210__T1--1)
+5	som	som	ADP	_	_	7	case	_	name=O
+6	alle	all	DET	_	Number=Plur|PronType=Tot	7	det	_	name=O
+7	andre	annen	DET	_	Number=Plur|PronType=Dem	2	obl	_	name=O
+
+# sent_id = 012077
+# text = Tonje Gjevjon, styreleder i Boa (Bildekunstnerne i Oslo og Akershus), mener at koplingen mellom dårlig økonomi og lefling med økonomisk kriminalitet blant kunstnere er overdrevet.
+1	Tonje	Tonje	PROPN	_	_	15	nsubj	_	name=B-PER|Entity=(kk~20110825_59210__11419--1
+2	Gjevjon	Gjevjon	PROPN	_	_	1	flat:name	_	SpaceAfter=No|name=I-PER
+3	,	$,	PUNCT	_	_	4	punct	_	name=O
+4	styreleder	styreleder	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	appos	_	name=O|Entity=(kk~20110825_59210__T3--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Boa	Boa	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(kk~20110825_59210__T4--1
+7	(	$(	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__T5--1
+8	Bildekunstnerne	bildekunstner	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	appos	_	name=B-ORG
+9	i	i	ADP	_	_	8	flat:name	_	name=I-ORG
+10	Oslo	Oslo	PROPN	_	_	8	flat:name	_	name=I-ORG
+11	og	og	CCONJ	_	_	8	flat:name	_	name=I-ORG
+12	Akershus	Akershus	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-ORG
+13	)	$)	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=kk~20110825_59210__T5)kk~20110825_59210__T4)kk~20110825_59210__11419)
+14	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=kk~20110825_59210__T3)
+15	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+16	at	at	SCONJ	_	_	29	mark	_	name=O
+17	koplingen	kopling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	29	nsubj	_	name=O|Entity=(kk~20110825_59210__T6--1
+18	mellom	mellom	ADP	_	_	20	case	_	name=O
+19	dårlig	dårlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	name=O|Entity=(kk~20110825_59210__T7--1(kk~20110825_59210__T8--1
+20	økonomi	økonomi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=kk~20110825_59210__T8)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	lefling	lefling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	20	conj	_	name=O|Entity=(kk~20110825_59210__T9--1
+23	med	med	ADP	_	_	25	case	_	name=O
+24	økonomisk	økonomisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	25	amod	_	name=O|Entity=(kk~20110825_59210__T10--1
+25	kriminalitet	kriminalitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	nmod	_	name=O|Entity=kk~20110825_59210__T10)
+26	blant	blant	ADP	_	_	27	case	_	name=O
+27	kunstnere	kunstner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	nmod	_	name=O|Entity=(kk~20110825_59210__T11--1)kk~20110825_59210__T9)kk~20110825_59210__T7)kk~20110825_59210__T6)
+28	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	29	cop	_	name=O
+29	overdrevet	overdrive	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	15	ccomp	_	SpaceAfter=No|name=O
+30	.	$.	PUNCT	_	_	15	punct	_	name=O
+
+# sent_id = 012078
+# text = - Det er riktig at kunstnerøkonomien er vanskelig, men slutningen at kunstnere lettere lar seg friste til å gå over i gråsonene, stemmer ikke med min erfaring, sier hun.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	riktig	riktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	kunstnerøkonomien	kunstnerøkonomi	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(kk~20110825_59210__3109--1)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	csubj	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	25	punct	_	name=O
+10	men	men	CCONJ	_	_	25	cc	_	name=O
+11	slutningen	slutning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	name=O|Entity=(kk~20110825_59210__T13--1
+12	at	at	SCONJ	_	_	15	mark	_	name=O
+13	kunstnere	kunstner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nsubj	_	name=O|Entity=(kk~20110825_59210__6363--1)
+14	lettere	lett	ADJ	_	Degree=Cmp	15	advmod	_	name=O
+15	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl	_	name=O
+16	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	15	iobj	_	name=O|Entity=(kk~20110825_59210__6363--1)
+17	friste	friste	VERB	_	VerbForm=Inf	15	xcomp	_	name=O
+18	til	til	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	gå	gå	VERB	_	VerbForm=Inf	17	advcl	_	name=O
+21	over	over	ADP	_	_	23	case	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	gråsonene	gråsone	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	20	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__T15--1)
+24	,	$,	PUNCT	_	_	15	punct	_	name=O|Entity=kk~20110825_59210__T13)
+25	stemmer	stemme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+26	ikke	ikke	PART	_	Polarity=Neg	25	advmod	_	name=O
+27	med	med	ADP	_	_	29	case	_	name=O
+28	min	min	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	nmod	_	name=O|Entity=(kk~20110825_59210__T17--1(kk~20110825_59210__11419--1)
+29	erfaring	erfaring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No|name=O|Entity=kk~20110825_59210__T17)
+30	,	$,	PUNCT	_	_	31	punct	_	name=O
+31	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+32	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__11419--1)
+33	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012079
+# text = - Hva tenker du om det bildet kommentator Lotte Sandberg skaper av kunstnere som driver med lysskye transaksjoner og selger maleriene sine svart?
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Hva	hva	PRON	_	PronType=Int	3	obj	_	name=O
+3	tenker	tenke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110825_59210__11419--1)
+5	om	om	ADP	_	_	7	case	_	name=O
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(kk~20110825_59210__T20--1
+7	bildet	bilde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obl	_	name=O
+8	kommentator	kommentator	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(kk~20110825_59210__248--1
+9	Lotte	Lotte	PROPN	_	_	11	nsubj	_	name=B-PER
+10	Sandberg	Sandberg	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=kk~20110825_59210__248)
+11	skaper	skape	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	kunstnere	kunstner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obl	_	name=O|Entity=(kk~20110825_59210__247--1
+14	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+15	driver	drive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	name=O
+16	med	med	ADP	_	_	18	case	_	name=O
+17	lysskye	lyssky	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O|Entity=(kk~20110825_59210__T23--1
+18	transaksjoner	transaksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	obl	_	name=O|Entity=kk~20110825_59210__T23)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	selger	selge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	conj	_	name=O
+21	maleriene	maleri	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	20	obj	_	name=O|Entity=(kk~20110825_59210__T24--1
+22	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	21	nmod	_	name=O|Entity=(kk~20110825_59210__247--1)kk~20110825_59210__T24)
+23	svart	svart	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	advmod	_	SpaceAfter=No|name=O|Entity=kk~20110825_59210__247)kk~20110825_59210__T20)
+24	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012080
+# text = - Jeg aner ikke hvor hun har det fra.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110825_59210__11419--1)
+3	aner	ane	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	hvor	hvor	ADV	_	_	7	advmod	_	name=O
+6	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(kk~20110825_59210__248--1)
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	name=O|Entity=(kk~20110825_59210__T28--1)
+9	fra	fra	ADP	_	_	5	case	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012081
+# text = De kunstnerne jeg kjenner som sliter økonomisk får seg ekstrajobber sånn som alle andre.
+1	De	de	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|Entity=(kk~20110825_59210__2145--1
+2	kunstnerne	kunstner	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	name=O
+3	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(kk~20110825_59210__11419--1)
+4	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	name=O
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	sliter	slite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	name=O
+7	økonomisk	økonomisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=kk~20110825_59210__2145)
+8	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	8	iobj	_	name=O|Entity=(kk~20110825_59210__2145--1)
+10	ekstrajobber	ekstrajobb	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	name=O|Entity=(kk~20110825_59210__T31--1)
+11	sånn	sånn	ADV	_	_	8	advmod	_	name=O
+12	som	som	ADP	_	_	14	case	_	name=O
+13	alle	all	DET	_	Number=Plur|PronType=Tot	14	det	_	name=O
+14	andre	annen	DET	_	Number=Plur|PronType=Dem	11	obl	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012082
+# text = Gjevjon mener likevel at et søkelys på dagens ordninger og en diskusjon om andre løsninger er positivt.
+1	Gjevjon	Gjevjon	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110825_59210__11419--1)
+2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	likevel	likevel	ADV	_	_	2	advmod	_	name=O
+4	at	at	SCONJ	_	_	17	mark	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kk~20110825_59210__T33--1
+6	søkelys	søkelys	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	nsubj	_	name=O
+7	på	på	ADP	_	_	9	case	_	name=O
+8	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(kk~20110825_59210__T35--1(kk~20110825_59210__T36--1(kk~20110825_59210__T34--1)
+9	ordninger	ordning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nmod	_	name=O|Entity=kk~20110825_59210__T36)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kk~20110825_59210__T37--1
+12	diskusjon	diskusjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	name=O
+13	om	om	ADP	_	_	15	case	_	name=O
+14	andre	annen	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(kk~20110825_59210__T38--1
+15	løsninger	løsning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	nmod	_	name=O|Entity=kk~20110825_59210__T38)kk~20110825_59210__T37)kk~20110825_59210__T35)kk~20110825_59210__T33)
+16	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+17	positivt	positiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	SpaceAfter=No|name=O
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012083
+# text = - Bjerkestrand og Kulturrådet kan jo bidra til å bedre kunstnernes økonomi gjennom å heve satsene i Statens Utstillingsstipend, som ikke engang har blitt prisindeksert de siste ti årene, sier hun.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Bjerkestrand	Bjerkestrand	PROPN	_	_	7	nsubj	_	name=B-PER|Entity=(kk~20110825_59210__T39--1(kk~20110825_59210__T40--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	Kulturrådet	Kulturrådet	PROPN	_	_	2	conj	_	name=B-ORG|Entity=(kk~20110825_59210__6416--1)kk~20110825_59210__T39)
+5	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	jo	jo	ADV	_	_	7	advmod	_	name=O
+7	bidra	bidra	VERB	_	VerbForm=Inf	0	root	_	name=O
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	bedre	bedre	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+11	kunstnernes	kunstner	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=(kk~20110825_59210__3109--1(kk~20110825_59210__6363--1)
+12	økonomi	økonomi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=kk~20110825_59210__3109)
+13	gjennom	gjennom	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	heve	heve	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+16	satsene	sats	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	15	obj	_	name=O|Entity=(kk~20110825_59210__T44--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	Statens	Statens	PROPN	_	_	16	nmod	_	name=B-PROD|Entity=(kk~20110825_59210__295--1
+19	Utstillingsstipend	Utstillingsstipend	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=kk~20110825_59210__295)
+20	,	$,	PUNCT	_	_	26	punct	_	name=O
+21	som	som	PRON	_	PronType=Rel	26	nsubj:pass	_	name=O
+22	ikke	ikke	PART	_	Polarity=Neg	26	advmod	_	name=O
+23	engang	engang	ADV	_	_	26	advmod	_	name=O
+24	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	name=O
+25	blitt	bli	AUX	_	VerbForm=Part	26	aux:pass	_	name=O
+26	prisindeksert	prisindeksere	VERB	_	VerbForm=Part	16	acl:relcl	_	name=O
+27	de	de	DET	_	Number=Plur|PronType=Dem	30	det	_	name=O|Entity=(kk~20110825_59210__T46--1
+28	siste	sist	ADJ	_	Degree=Pos|Number=Plur	30	amod	_	name=O
+29	ti	ti	NUM	_	Number=Plur|NumType=Card	30	nummod	_	name=O
+30	årene	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	26	obl	_	SpaceAfter=No|name=O|Entity=kk~20110825_59210__T46)kk~20110825_59210__T44)
+31	,	$,	PUNCT	_	_	32	punct	_	name=O
+32	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+33	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__11419--1)
+34	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012084
+# text = - Norsk Kulturråd har selv bestemt å ikke øke potten til dette stipendet og da bidrar man i alle fall ikke positivt til kunstnernes økonomi.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Norsk	norsk	PROPN	_	_	6	nsubj	_	name=B-ORG|Entity=(kk~20110825_59210__6416--1
+3	Kulturråd	Kulturråd	PROPN	_	_	2	flat:name	_	name=I-ORG|Entity=kk~20110825_59210__6416)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	selv	selv	ADV	_	_	6	advmod	_	name=O|Entity=(kk~20110825_59210__6416--1)
+6	bestemt	bestemme	VERB	_	VerbForm=Part	0	root	_	name=O
+7	å	å	PART	_	_	9	mark	_	name=O
+8	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+9	øke	øke	VERB	_	VerbForm=Inf	6	xcomp	_	name=O
+10	potten	pott	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obj	_	name=O|Entity=(kk~20110825_59210__T49--1)
+11	til	til	ADP	_	_	13	case	_	name=O
+12	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(kk~20110825_59210__295--1
+13	stipendet	stipend	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=kk~20110825_59210__295)
+14	og	og	CCONJ	_	_	16	cc	_	name=O
+15	da	da	ADV	_	_	16	advmod	_	name=O
+16	bidrar	bidra	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+17	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	16	nsubj	_	name=O|Entity=(kk~20110825_59210__T51--1)
+18	i	i	ADP	_	_	20	case	_	name=O
+19	alle	all	DET	_	Number=Plur|PronType=Tot	20	det	_	name=O|Entity=(kk~20110825_59210__T52--1
+20	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obl	_	name=O|Entity=kk~20110825_59210__T52)
+21	ikke	ikke	PART	_	Polarity=Neg	16	advmod	_	name=O
+22	positivt	positiv	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	name=O
+23	til	til	ADP	_	_	25	case	_	name=O
+24	kunstnernes	kunstner	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	25	nmod	_	name=O|Entity=(kk~20110825_59210__3109--1(kk~20110825_59210__6363--1)
+25	økonomi	økonomi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=kk~20110825_59210__3109)
+26	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012085
+# text = Gjevjon mener at det er Kulturrådets oppgave å lage og håndheve ordninger som sørger for at flere midler går direkte til kunstnerne i stedet for til andre virksomheter i kunstfeltet.
+1	Gjevjon	Gjevjon	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110825_59210__11419--1)
+2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+6	Kulturrådets	Kulturrådet	PROPN	_	Case=Gen	7	nmod	_	name=B-ORG|Entity=(kk~20110825_59210__T57--1(kk~20110825_59210__6416--1)
+7	oppgave	oppgave	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	xcomp	_	name=O|Entity=kk~20110825_59210__T57)
+8	å	å	PART	_	_	9	mark	_	name=O
+9	lage	lage	VERB	_	VerbForm=Inf	7	csubj	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	håndheve	håndheve	VERB	_	VerbForm=Inf	9	conj	_	name=O
+12	ordninger	ordning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	obj	_	name=O|Entity=(kk~20110825_59210__T58--1
+13	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+14	sørger	sørge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	name=O
+15	for	for	SCONJ	_	_	19	mark	_	name=O
+16	at	at	SCONJ	_	_	19	mark	_	name=O
+17	flere	mange	ADJ	_	Degree=Cmp	18	amod	_	name=O|Entity=(kk~20110825_59210__T59--1
+18	midler	middel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	nsubj	_	name=O|Entity=kk~20110825_59210__T59)
+19	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	name=O
+20	direkte	direkte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	advmod	_	name=O
+21	til	til	ADP	_	_	22	case	_	name=O
+22	kunstnerne	kunstner	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	19	obl	_	name=O|Entity=(kk~20110825_59210__6363--1)
+23	i	i	ADP	_	_	24	case	_	name=O
+24	stedet	sted	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	obl	_	name=O|Entity=(kk~20110825_59210__T61--1
+25	for	for	ADP	_	_	24	nmod	_	name=O|Entity=kk~20110825_59210__T61)
+26	til	til	ADP	_	_	28	case	_	name=O
+27	andre	annen	DET	_	Number=Plur|PronType=Dem	28	det	_	name=O|Entity=(kk~20110825_59210__T62--1
+28	virksomheter	virksomhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	19	obl	_	name=O
+29	i	i	ADP	_	_	30	case	_	name=O
+30	kunstfeltet	kunstfelt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__T63--1)kk~20110825_59210__T62)kk~20110825_59210__T58)
+31	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012086
+# text = - I dag går mye av midlene fra Norsk Kulturråd til visningssteder, tekstutvikling og kunstkritikk.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	I	i	ADP	_	_	3	case	_	name=O
+3	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(kk~20110825_59210__T64--1)
+4	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(kk~20110825_59210__T65--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	midlene	middel	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	nmod	_	name=O|Entity=(kk~20110825_59210__T66--1
+8	fra	fra	ADP	_	_	9	case	_	name=O
+9	Norsk	Norsk	PROPN	_	_	7	nmod	_	name=B-ORG|Entity=(kk~20110825_59210__6416--1
+10	Kulturråd	Kulturråd	PROPN	_	_	9	flat:name	_	name=I-ORG|Entity=kk~20110825_59210__6416)kk~20110825_59210__T66)kk~20110825_59210__T65)
+11	til	til	ADP	_	_	12	case	_	name=O
+12	visningssteder	visningssted	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__2149--1(kk~20110825_59210__T69--1
+13	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=kk~20110825_59210__T69)
+14	tekstutvikling	tekstutvikling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	conj	_	name=O|Entity=(kk~20110825_59210__T70--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	kunstkritikk	kunstkritikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__T71--1)kk~20110825_59210__2149)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012087
+# text = Det er flott at man tenker på hele feltet, men slik ordningene er i dag er det ikke en klar avgrensing mellom det som faktisk går direkte til kunstnerne og det som går til sekundærprodusentene, sier hun.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	flott	flott	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	6	nsubj	_	name=O|Entity=(kk~20110825_59210__T72--1)
+6	tenker	tenke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	csubj	_	name=O
+7	på	på	ADP	_	_	9	case	_	name=O
+8	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(kk~20110825_59210__T73--1
+9	feltet	felt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=kk~20110825_59210__T73)
+10	,	$,	PUNCT	_	_	17	punct	_	name=O
+11	men	men	CCONJ	_	_	17	cc	_	name=O
+12	slik	slik	ADV	_	_	17	advmod	_	name=O
+13	ordningene	ordning	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	14	nsubj	_	name=O|Entity=(kk~20110825_59210__T74--1)
+14	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=(kk~20110825_59210__T75--1)
+17	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	name=O
+19	ikke	ikke	PART	_	Polarity=Neg	17	advmod	_	name=O
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(kk~20110825_59210__T76--1
+21	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	avgrensing	avgrensing	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nsubj	_	name=O
+23	mellom	mellom	ADP	_	_	24	case	_	name=O
+24	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nmod	_	name=O|Entity=(kk~20110825_59210__T77--1(kk~20110825_59210__T78--1
+25	som	som	PRON	_	PronType=Rel	27	nsubj	_	name=O
+26	faktisk	faktisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	27	advmod	_	name=O
+27	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	name=O
+28	direkte	direkte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	advmod	_	name=O
+29	til	til	ADP	_	_	30	case	_	name=O
+30	kunstnerne	kunstner	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	27	obl	_	name=O|Entity=(kk~20110825_59210__6363--1)kk~20110825_59210__T78)
+31	og	og	CCONJ	_	_	32	cc	_	name=O
+32	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	conj	_	name=O|Entity=(kk~20110825_59210__T80--1
+33	som	som	PRON	_	PronType=Rel	34	nsubj	_	name=O
+34	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	name=O
+35	til	til	ADP	_	_	36	case	_	name=O
+36	sekundærprodusentene	sekundærprodusent	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	34	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__2149--1)kk~20110825_59210__T80)kk~20110825_59210__T77)kk~20110825_59210__T76)
+37	,	$,	PUNCT	_	_	38	punct	_	name=O
+38	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+39	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__11419--1)
+40	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012088
+# text = - Eller for å ta opp noe en del ikke tør å snakke om:
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Eller	eller	CCONJ	_	_	5	cc	_	name=O
+3	for	for	ADP	_	_	5	case	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	ta	ta	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	opp	opp	ADP	_	_	5	compound:prt	_	name=O
+7	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	5	obj	_	name=O|Entity=(kk~20110825_59210__T83--1
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kk~20110825_59210__T84--1
+9	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=kk~20110825_59210__T84)
+10	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+11	tør	tørre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	snakke	snakke	VERB	_	VerbForm=Inf	11	xcomp	_	name=O
+14	om	om	ADP	_	_	13	compound:prt	_	SpaceAfter=No|name=O|Entity=kk~20110825_59210__T83)
+15	:	$:	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012089
+# text = Bør midler til kunstkritikk og tekster relatert til kunst egentlig være Norsk kulturråds ansvar?
+1	Bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+2	midler	middel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	nsubj	_	name=O|Entity=(kk~20110825_59210__T85--1
+3	til	til	ADP	_	_	4	case	_	name=O
+4	kunstkritikk	kunstkritikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(kk~20110825_59210__T86--1(kk~20110825_59210__T87--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	tekster	tekst	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	conj	_	name=O|Entity=(kk~20110825_59210__T88--1
+7	relatert	relatere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	6	amod	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	kunst	kunst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(kk~20110825_59210__T89--1)kk~20110825_59210__T88)kk~20110825_59210__T86)kk~20110825_59210__T85)
+10	egentlig	egentlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+11	være	være	AUX	_	VerbForm=Inf	14	cop	_	name=O
+12	Norsk	Norsk	PROPN	_	_	14	nmod	_	name=B-ORG|Entity=(kk~20110825_59210__T91--1(kk~20110825_59210__6416--1
+13	kulturråds	kulturråd	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	12	flat:name	_	name=I-ORG|Entity=kk~20110825_59210__6416)
+14	ansvar	ansvar	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=kk~20110825_59210__T91)
+15	?	$?	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 012090
+# text = Gjevjon mener at midlene som skal gå til prosjektmidler og produksjon av visuell kunst bør tredobles, og en del av disse midlene øremerkes til produksjon av kunst.
+1	Gjevjon	Gjevjon	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110825_59210__11419--1)
+2	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	16	mark	_	name=O
+4	midlene	middel	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	16	nsubj:pass	_	name=O|Entity=(kk~20110825_59210__2192--1
+5	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+6	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	gå	gå	VERB	_	VerbForm=Inf	4	acl:relcl	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	prosjektmidler	prosjektmiddel	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O|Entity=(kk~20110825_59210__T94--1(kk~20110825_59210__T95--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	produksjon	produksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	conj	_	name=O|Entity=(kk~20110825_59210__T96--1
+12	av	av	ADP	_	_	14	case	_	name=O
+13	visuell	visuell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(kk~20110825_59210__T97--1
+14	kunst	kunst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nmod	_	name=O|Entity=kk~20110825_59210__T97)kk~20110825_59210__T96)kk~20110825_59210__T94)kk~20110825_59210__2192)
+15	bør	burde	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+16	tredobles	tredoble	VERB	_	VerbForm=Inf|Voice=Pass	2	ccomp	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	24	punct	_	name=O
+18	og	og	CCONJ	_	_	24	cc	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(kk~20110825_59210__T98--1
+20	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	nsubj:pass	_	name=O
+21	av	av	ADP	_	_	23	case	_	name=O
+22	disse	disse	DET	_	Number=Plur|PronType=Dem	23	det	_	name=O|Entity=(kk~20110825_59210__2192--1
+23	midlene	middel	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	20	nmod	_	name=O|Entity=kk~20110825_59210__2192)kk~20110825_59210__T98)
+24	øremerkes	øremerke	VERB	_	VerbForm=Inf|Voice=Pass	16	conj	_	name=O
+25	til	til	ADP	_	_	26	case	_	name=O
+26	produksjon	produksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	24	orphan	_	name=O|Entity=(kk~20110825_59210__T100--1
+27	av	av	ADP	_	_	28	case	_	name=O
+28	kunst	kunst	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__T101--1)kk~20110825_59210__T100)
+29	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012091
+# text = Målet må være å skape en stabil grunnøkonomi for kunstnere og utøvere.
+1	Målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nsubj	_	name=O|Entity=(kk~20110825_59210__T102--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	være	være	AUX	_	VerbForm=Inf	5	cop	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	skape	skape	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kk~20110825_59210__T103--1
+7	stabil	stabil	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	grunnøkonomi	grunnøkonomi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=kk~20110825_59210__T103)
+9	for	for	ADP	_	_	10	case	_	name=O
+10	kunstnere	kunstner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obl	_	name=O|Entity=(kk~20110825_59210__T104--1(kk~20110825_59210__T105--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	utøvere	utøver	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__T106--1)kk~20110825_59210__T104)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012092
+# text = - Kunstnere har også barn og hus og lån og bil, og trenger en god grunnøkonomi.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Kunstnere	kunstner	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(kk~20110825_59210__T107--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	også	også	ADV	_	_	3	advmod	_	name=O
+5	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(kk~20110825_59210__T108--1(kk~20110825_59210__T109--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	hus	hus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	conj	_	name=O|Entity=(kk~20110825_59210__T110--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	lån	lån	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	conj	_	name=O|Entity=(kk~20110825_59210__T111--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No|name=O|Entity=(kk~20110825_59210__T112--1)kk~20110825_59210__T108)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	trenger	trenge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(kk~20110825_59210__T113--1
+16	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	grunnøkonomi	grunnøkonomi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=kk~20110825_59210__T113)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+

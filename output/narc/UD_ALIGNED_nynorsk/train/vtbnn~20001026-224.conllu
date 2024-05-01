@@ -1,0 +1,580 @@
+# newdoc id = vtbnn~20001026-224
+# global.Entity = eid-etype-head-other
+# sent_id = 012130
+# text = Kvitsund-ros heilt opp til statsministeren
+1	Kvitsund-ros	Kvitsund-ros	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=B-DRV|Entity=(vtbnn~20001026_224__T1--1
+2	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	name=O
+3	opp	opp	ADP	_	_	5	case	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	statsministeren	statsminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(vtbnn~20001026_224__T2--1)vtbnn~20001026_224__T1)
+
+# newpar
+# sent_id = 012131
+# text = - Ikkje nå att
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+3	nå	nå	ADV	_	_	0	root	_	name=O
+4	att	att	ADP	_	_	3	obl	_	name=O
+
+# newpar
+# sent_id = 012132
+# text = Imponert
+1	Imponert	imponere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+
+# newpar
+# sent_id = 012133
+# text = Kommunepolitikar James Kirkwood frå Wales kan ikkje fullkyte elevane frå Kvitsund Gymnas.
+1	Kommunepolitikar	kommunepolitikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20001026_224__181027--1
+2	James	James	PROPN	_	_	8	nsubj	_	name=B-PER
+3	Kirkwood	Kirkwood	PROPN	_	_	2	flat:name	_	name=I-PER
+4	frå	frå	ADP	_	_	5	case	_	name=O
+5	Wales	Wales	PROPN	_	_	2	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20001026_224__243--1)vtbnn~20001026_224__181027)
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+7	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	name=O
+8	fullkyte	fullkyte	VERB	_	VerbForm=Inf	0	root	_	name=O
+9	elevane	elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obj	_	name=O|Entity=(vtbnn~20001026_224__226--1
+10	frå	frå	ADP	_	_	11	case	_	name=O
+11	Kvitsund	Kvitsund	PROPN	_	_	9	nmod	_	name=B-LOC|Entity=(vtbnn~20001026_224__9553--1
+12	Gymnas	Gymnas	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=vtbnn~20001026_224__9553)vtbnn~20001026_224__226)
+13	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012134
+# text = Etter å ha møtt Kvitsund-elevar på ein flytur frå London til Kina, blei Kirkwood så imponert at han sendte brev til statsminister, utdanningsminister, ordførar og rektor.
+1	Etter	etter	SCONJ	_	_	4	mark	_	name=O
+2	å	å	PART	_	_	4	mark	_	name=O
+3	ha	ha	AUX	_	VerbForm=Inf	4	aux	_	name=O
+4	møtt	møte	VERB	_	VerbForm=Part	14	advcl	_	name=O
+5	Kvitsund-elevar	Kvitsund-elev	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=B-DRV|Entity=(vtbnn~20001026_224__T7--1)
+6	på	på	ADP	_	_	8	case	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vtbnn~20001026_224__3173--1
+8	flytur	flytur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O
+9	frå	frå	ADP	_	_	10	case	_	name=O
+10	London	London	PROPN	_	_	8	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20001026_224__244--1)
+11	til	til	ADP	_	_	12	case	_	name=O
+12	Kina	Kina	PROPN	_	_	8	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20001026_224__240--1)vtbnn~20001026_224__3173)
+13	,	$,	PUNCT	_	_	4	punct	_	name=O
+14	blei	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+15	Kirkwood	Kirkwood	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(vtbnn~20001026_224__181027--1)
+16	så	så	ADV	_	_	17	advmod	_	name=O
+17	imponert	imponere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	14	xcomp	_	name=O
+18	at	at	SCONJ	_	_	20	mark	_	name=O
+19	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	name=O|Entity=(vtbnn~20001026_224__181027--1)
+20	sendte	sende	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	name=O
+21	brev	brev	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obj	_	name=O|Entity=(vtbnn~20001026_224__T13--1)
+22	til	til	ADP	_	_	23	case	_	name=O
+23	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__T14--1(vtbnn~20001026_224__4211--1)
+24	,	$,	PUNCT	_	_	25	punct	_	name=O
+25	utdanningsminister	utdanningsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__283--1)
+26	,	$,	PUNCT	_	_	25	punct	_	name=O
+27	ordførar	ordførar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	conj	_	name=O|Entity=(vtbnn~20001026_224__285--1)
+28	og	og	CCONJ	_	_	29	cc	_	name=O
+29	rektor	rektor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__3183--1)vtbnn~20001026_224__T14)
+30	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# newpar
+# sent_id = 012135
+# text = Statsminister Jens Stoltenberg har motatt eit brev der Kvitsund-elevane blir skrytt opp i skyene.
+1	Statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20001026_224__4211--1
+2	Jens	Jens	NOUN	_	Gender=Masc	5	nsubj	_	name=B-PER
+3	Stoltenberg	Stoltenberg	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=vtbnn~20001026_224__4211)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	motatt	motta	VERB	_	VerbForm=Part	0	root	_	name=O
+6	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(vtbnn~20001026_224__T20--1
+7	brev	brev	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obj	_	name=O
+8	der	der	SCONJ	_	_	11	mark	_	name=O
+9	Kvitsund-elevane	Kvitsund-elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	11	nsubj:pass	_	name=B-DRV|Entity=(vtbnn~20001026_224__226--1)
+10	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux:pass	_	name=O
+11	skrytt	skryte	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	7	acl	_	name=O
+12	opp	opp	ADP	_	_	14	case	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	skyene	sky	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__T22--1)vtbnn~20001026_224__T20)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 012136
+# text = Det heile skjedde 23. september.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(vtbnn~20001026_224__T23--1
+2	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	nsubj	_	name=O|Entity=vtbnn~20001026_224__T23)
+3	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	23.	23.	ADJ	_	Number=Plur	5	amod	_	name=O|Entity=(vtbnn~20001026_224__T24--1
+5	september	september	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__T24)
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012137
+# text = Kvitsund Gymnas hadde si årlege alternative veke.
+1	Kvitsund	Kvitsund	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(vtbnn~20001026_224__9553--1
+2	Gymnas	Gymnas	PROPN	_	_	1	flat:name	_	name=I-ORG|Entity=vtbnn~20001026_224__9553)
+3	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(vtbnn~20001026_224__T27--1(vtbnn~20001026_224__9553--1)
+5	årlege	årleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+6	alternative	alternativ	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	veke	veke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__T27)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012138
+# text = 80 elevar skulle på tur til Kina.
+1	80	80	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(vtbnn~20001026_224__259--1
+2	elevar	elev	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=vtbnn~20001026_224__259)
+3	skulle	skulle	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	tur	tur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20001026_224__T29--1
+6	til	til	ADP	_	_	7	case	_	name=O
+7	Kina	Kina	PROPN	_	_	5	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20001026_224__240--1)vtbnn~20001026_224__T29)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012139
+# text = Dei reiste i to grupper, og det var slik 40 elevar kom til å ta flyet frå London til Beijing saman med kommunestyremedlem James Kirkwood frå Newport i Wales.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20001026_224__259--1)
+2	reiste	reise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	5	case	_	name=O
+4	to	to	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(vtbnn~20001026_224__T32--1
+5	grupper	gruppe	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__T32)
+6	,	$,	PUNCT	_	_	9	punct	_	name=O
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+9	var	vere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+10	slik	slik	ADV	_	_	9	advmod	_	name=O
+11	40	40	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(vtbnn~20001026_224__9570--1
+12	elevar	elev	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nsubj	_	name=O|Entity=vtbnn~20001026_224__9570)
+13	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl	_	name=O
+14	til	til	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	ta	ta	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+17	flyet	fly	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obj	_	name=O|Entity=(vtbnn~20001026_224__276--1)
+18	frå	frå	ADP	_	_	19	case	_	name=O
+19	London	London	PROPN	_	_	16	obl	_	name=B-GPE_LOC|Entity=(vtbnn~20001026_224__244--1)
+20	til	til	ADP	_	_	21	case	_	name=O
+21	Beijing	Beijing	PROPN	_	_	16	obl	_	name=B-GPE_LOC|Entity=(vtbnn~20001026_224__T36--1)
+22	saman	saman	ADV	_	_	25	advmod	_	name=O
+23	med	med	ADP	_	_	25	case	_	name=O
+24	kommunestyremedlem	kommunestyremedlem	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	nmod	_	name=O|Entity=(vtbnn~20001026_224__181027--1
+25	James	James	PROPN	_	_	16	obl	_	name=B-PER
+26	Kirkwood	Kirkwood	PROPN	_	_	25	flat:name	_	name=I-PER
+27	frå	frå	ADP	_	_	28	case	_	name=O
+28	Newport	Newport	PROPN	_	_	25	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20001026_224__T38--1
+29	i	i	ADP	_	_	30	case	_	name=O
+30	Wales	Wales	PROPN	_	_	28	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20001026_224__243--1)vtbnn~20001026_224__T38)vtbnn~20001026_224__181027)
+31	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 012140
+# text = - Not again! tenkte Kirkwood då elevane kom inn på flyet.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Not	not	ADV	_	_	3	advmod	_	name=O
+3	again	again	ADV	_	_	0	root	_	SpaceAfter=No|name=O
+4	!	$!	PUNCT	_	_	3	punct	_	name=O
+5	tenkte	tenkje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+6	Kirkwood	Kirkwood	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(vtbnn~20001026_224__181027--1)
+7	då	då	SCONJ	_	_	9	mark	_	name=O
+8	elevane	elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=(vtbnn~20001026_224__9570--1)
+9	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	advcl	_	name=O
+10	inn	inn	ADP	_	_	12	case	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	flyet	fly	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__276--1)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012141
+# text = Han hadde altfor ofte vore på lange flyturar med bråkete skuleungdom.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(vtbnn~20001026_224__181027--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+3	altfor	altfor	ADV	_	_	4	advmod	_	name=O
+4	ofte	ofte	ADJ	_	Degree=Pos	8	advmod	_	name=O
+5	vore	vere	AUX	_	VerbForm=Part	8	cop	_	name=O
+6	på	på	ADP	_	_	8	case	_	name=O
+7	lange	lang	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(vtbnn~20001026_224__T44--1
+8	flyturar	flytur	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=vtbnn~20001026_224__T44)
+9	med	med	ADP	_	_	11	case	_	name=O
+10	bråkete	bråkete	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(vtbnn~20001026_224__T45--1
+11	skuleungdom	skuleungdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__T45)
+12	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012142
+# text = Men slik var ikkje elevane frå gymnaset i Kviteseid.
+1	Men	men	CCONJ	_	_	2	cc	_	name=O
+2	slik	slik	ADV	_	_	0	root	_	name=O
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	cop	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	2	advmod	_	name=O
+5	elevane	elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(vtbnn~20001026_224__9570--1
+6	frå	frå	ADP	_	_	7	case	_	name=O
+7	gymnaset	gymnas	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(vtbnn~20001026_224__9553--1
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Kviteseid	Kviteseid	PROPN	_	_	7	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20001026_224__3154--1)vtbnn~20001026_224__9553)vtbnn~20001026_224__9570)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012143
+# text = - Elevane frå gymnaset i Kviteseid er flotte ambassadørar for skulen, kommunen og landet.
+1	-	$-	PUNCT	_	_	9	punct	_	name=O
+2	Elevane	elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=(vtbnn~20001026_224__9570--1
+3	frå	frå	ADP	_	_	4	case	_	name=O
+4	gymnaset	gymnas	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20001026_224__9553--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Kviteseid	Kviteseid	PROPN	_	_	4	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20001026_224__3154--1)vtbnn~20001026_224__9553)vtbnn~20001026_224__9570)
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	flotte	flott	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(vtbnn~20001026_224__T52--1
+9	ambassadørar	ambassadør	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O
+10	for	for	ADP	_	_	11	case	_	name=O
+11	skulen	skule	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__T53--1(vtbnn~20001026_224__9553--1)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	kommunen	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	conj	_	name=O|Entity=(vtbnn~20001026_224__3154--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__T56--1)vtbnn~20001026_224__T53)vtbnn~20001026_224__T52)
+16	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012144
+# text = Eg kosa meg på den 10 timar lange turen med dei flotte reisekameratane, skriv Kirkwood.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20001026_224__181027--1)
+2	kosa	kose	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	name=O|Entity=(vtbnn~20001026_224__181027--1)
+4	på	på	ADP	_	_	9	case	_	name=O
+5	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(vtbnn~20001026_224__3173--1
+6	10	10	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(vtbnn~20001026_224__T59--1
+7	timar	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	name=O|Entity=vtbnn~20001026_224__T59)
+8	lange	lang	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	turen	tur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=vtbnn~20001026_224__3173)
+10	med	med	ADP	_	_	13	case	_	name=O
+11	dei	dei	DET	_	Number=Plur|PronType=Dem	13	det	_	name=O|Entity=(vtbnn~20001026_224__9570--1
+12	flotte	flott	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	reisekameratane	reisekamerat	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__9570)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+16	Kirkwood	Kirkwood	PROPN	_	_	15	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20001026_224__181027--1)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012145
+# text = Han har sendt personlege brev til statsminister Jens Stoltenberg, utdanningsminister Trond Giske, Kviteseid-ordførar Karin Maria Larsen og Kvitsund-rektor Håvard Brekkå.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20001026_224__181027--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	sendt	sende	VERB	_	VerbForm=Part	0	root	_	name=O
+4	personlege	personleg	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(vtbnn~20001026_224__3212--1
+5	brev	brev	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=vtbnn~20001026_224__3212)
+6	til	til	ADP	_	_	8	case	_	name=O
+7	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(vtbnn~20001026_224__T65--1(vtbnn~20001026_224__4211--1
+8	Jens	Jens	NOUN	_	Gender=Masc	3	obl	_	name=B-PER
+9	Stoltenberg	Stoltenberg	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20001026_224__4211)
+10	,	$,	PUNCT	_	_	12	punct	_	name=O
+11	utdanningsminister	utdanningsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(vtbnn~20001026_224__283--1
+12	Trond	Trond	NOUN	_	Gender=Masc	8	conj	_	name=B-PER
+13	Giske	Giske	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20001026_224__283)
+14	,	$,	PUNCT	_	_	12	punct	_	name=O
+15	Kviteseid-ordførar	Kviteseid-ordførar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=B-DRV|Entity=(vtbnn~20001026_224__285--1
+16	Karin	Karin	NOUN	_	Gender=Fem	8	conj	_	name=B-PER
+17	Maria	Maria	NOUN	_	Gender=Fem	16	flat:name	_	name=I-PER
+18	Larsen	Larsen	PROPN	_	_	16	flat:name	_	name=I-PER|Entity=vtbnn~20001026_224__285)
+19	og	og	CCONJ	_	_	21	cc	_	name=O
+20	Kvitsund-rektor	Kvitsund-rektor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	21	nmod	_	name=B-DRV|Entity=(vtbnn~20001026_224__3183--1
+21	Håvard	Håvard	NOUN	_	Gender=Masc	8	conj	_	name=B-PER
+22	Brekkå	Brekkå	PROPN	_	_	21	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20001026_224__3183)vtbnn~20001026_224__T65)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012146
+# text = I alle breva trekkjer Kirkwood fram den eksemplariske framferda til Kvitsund-elevane.
+1	I	i	ADP	_	_	3	case	_	name=O
+2	alle	all	DET	_	Number=Plur|PronType=Tot	3	det	_	name=O|Entity=(vtbnn~20001026_224__3212--1
+3	breva	brev	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obl	_	name=O|Entity=vtbnn~20001026_224__3212)
+4	trekkjer	trekkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	Kirkwood	Kirkwood	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(vtbnn~20001026_224__181027--1)
+6	fram	fram	ADP	_	_	4	compound:prt	_	name=O
+7	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(vtbnn~20001026_224__2147--1
+8	eksemplariske	eksemplarisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	framferda	framferd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obj	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	Kvitsund-elevane	Kvitsund-elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No|name=B-DRV|Entity=(vtbnn~20001026_224__9570--1)vtbnn~20001026_224__2147)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012147
+# text = - Eg blei så imponert av framferda deira at eg bare måtte skrive desse breva, seier Kirkwood.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20001026_224__181027--1)
+3	blei	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	så	så	ADV	_	_	5	advmod	_	name=O
+5	imponert	imponere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	3	xcomp	_	name=O
+6	av	av	ADP	_	_	7	case	_	name=O
+7	framferda	framferd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=(vtbnn~20001026_224__2147--1
+8	deira	deira	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(vtbnn~20001026_224__9570--1)vtbnn~20001026_224__2147)
+9	at	at	SCONJ	_	_	13	mark	_	name=O
+10	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(vtbnn~20001026_224__181027--1)
+11	bare	bare	ADV	_	_	13	advmod	_	name=O
+12	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+13	skrive	skrive	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+14	desse	desse	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(vtbnn~20001026_224__3212--1
+15	breva	brev	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	13	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__3212)
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+18	Kirkwood	Kirkwood	PROPN	_	_	17	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20001026_224__181027--1)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012148
+# text = Dei siste 30 åra har James Kirkwood vore involvert i utdanningssystemet, fyrst og fremst som lokalpolitikar.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(vtbnn~20001026_224__T80--1
+2	siste	sist	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O
+3	30	30	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+4	åra	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	obl	_	name=O|Entity=vtbnn~20001026_224__T80)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+6	James	James	PROPN	_	_	9	nsubj	_	name=B-PER|Entity=(vtbnn~20001026_224__181027--1
+7	Kirkwood	Kirkwood	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=vtbnn~20001026_224__181027)
+8	vore	vere	AUX	_	VerbForm=Part	9	cop	_	name=O
+9	involvert	involvere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	utdanningssystemet	utdanningssystem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__T82--1)
+12	,	$,	PUNCT	_	_	17	punct	_	name=O
+13	fyrst	fyrst	ADV	_	_	17	advmod	_	name=O
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	fremst	fremre	ADJ	_	Definite=Ind|Degree=Sup	13	conj	_	name=O
+16	som	som	SCONJ	_	_	17	mark	_	name=O
+17	lokalpolitikar	lokalpolitikar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	acl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__T83--1)
+18	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012149
+# text = - Derfor har eg stor røynsle med ungdommar, og veit kva eg snakkar om, seier han vidare.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Derfor	derfor	ADV	_	_	3	advmod	_	name=O
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20001026_224__181027--1)
+5	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(vtbnn~20001026_224__T85--1
+6	røynsle	røynsle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obj	_	name=O|Entity=vtbnn~20001026_224__T85)
+7	med	med	ADP	_	_	8	case	_	name=O
+8	ungdommar	ungdom	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__T86--1)
+9	,	$,	PUNCT	_	_	11	punct	_	name=O
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+12	kva	kva	PRON	_	PronType=Int	14	obl	_	name=O
+13	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	name=O|Entity=(vtbnn~20001026_224__181027--1)
+14	snakkar	snakke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	name=O
+15	om	om	ADP	_	_	12	case	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	11	punct	_	name=O
+17	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+18	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(vtbnn~20001026_224__181027--1)
+19	vidare	vid	ADJ	_	Degree=Cmp	17	advmod	_	SpaceAfter=No|name=O
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012150
+# text = - Veldig hyggeleg.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+3	hyggeleg	hyggeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012151
+# text = Det er vår intensjon at elevane skal gje eit godt inntrykk.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	vår	vår	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(vtbnn~20001026_224__T90--1(vtbnn~20001026_224__6679--1)
+4	intensjon	intensjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=vtbnn~20001026_224__T90)
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	elevane	elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=(vtbnn~20001026_224__9570--1)
+7	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	gje	gje	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+9	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(vtbnn~20001026_224__T92--1
+10	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+11	inntrykk	inntrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__T92)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012152
+# text = Me har elevar som alltid er greie å ha med på tur, smiler rektor Håvard Brekkå.
+1	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20001026_224__6679--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	elevar	elev	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=(vtbnn~20001026_224__T94--1
+4	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+5	alltid	alltid	ADV	_	_	7	advmod	_	name=O
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	greie	grei	ADJ	_	Degree=Pos|Number=Plur	3	acl:relcl	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	ha	ha	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+10	med	med	ADP	_	_	9	compound:prt	_	name=O
+11	på	på	ADP	_	_	12	case	_	name=O
+12	tur	tur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__T95--1)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O|Entity=vtbnn~20001026_224__T94)
+14	smiler	smile	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+15	rektor	rektor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(vtbnn~20001026_224__3183--1
+16	Håvard	Håvard	NOUN	_	Gender=Masc	14	nsubj	_	name=B-PER
+17	Brekkå	Brekkå	PROPN	_	_	16	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20001026_224__3183)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012153
+# text = - Dette er ei oppmuntring for både elevane og privatskulen, smiler undervisningsinspektør på Kvitsund, Tor Arne Mørkved, som sjølv var med på flyturen.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(vtbnn~20001026_224__T97--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(vtbnn~20001026_224__T98--1
+5	oppmuntring	oppmuntring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=vtbnn~20001026_224__T98)
+6	for	for	ADP	_	_	8	case	_	name=O
+7	både	både	CCONJ	_	_	8	cc	_	name=O
+8	elevane	elev	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	obl	_	name=O|Entity=(vtbnn~20001026_224__T99--1(vtbnn~20001026_224__9570--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	privatskulen	privatskule	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__9553--1)vtbnn~20001026_224__T99)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	smiler	smile	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+13	undervisningsinspektør	undervisningsinspektør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(vtbnn~20001026_224__4493--1(vtbnn~20001026_224__T102--1
+14	på	på	ADP	_	_	15	case	_	name=O
+15	Kvitsund	Kvitsund	PROPN	_	_	13	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(vtbnn~20001026_224__9553--1)
+16	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=vtbnn~20001026_224__T102)
+17	Tor	Tor	NOUN	_	Gender=Masc	12	nsubj	_	name=B-PER
+18	Arne	Arne	NOUN	_	Gender=Masc	17	flat:name	_	name=I-PER
+19	Mørkved	Mørkved	PROPN	_	_	17	flat:name	_	SpaceAfter=No|name=I-PER
+20	,	$,	PUNCT	_	_	24	punct	_	name=O
+21	som	som	PRON	_	PronType=Rel	24	nsubj	_	name=O
+22	sjølv	sjølv	ADV	_	_	24	advmod	_	name=O
+23	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	cop	_	name=O
+24	med	med	ADP	_	_	17	acl:relcl	_	name=O
+25	på	på	ADP	_	_	26	case	_	name=O
+26	flyturen	flytur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__3173--1)vtbnn~20001026_224__4493)
+27	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012154
+# text = Behald dagens statsstøtte!
+1	Behald	behalde	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(vtbnn~20001026_224__T107--1(vtbnn~20001026_224__T106--1)
+3	statsstøtte	statsstøtte	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__T107)
+4	!	$!	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 012155
+# text = Ventar du rosande ord frå Stoltenberg og regjeringa etter dette? spør VTB.
+1	Ventar	vente	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	name=O|Entity=(vtbnn~20001026_224__4493--1)
+3	rosande	rose	ADJ	_	VerbForm=Part	4	amod	_	name=O|Entity=(vtbnn~20001026_224__T109--1
+4	ord	ord	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	1	obj	_	name=O|Entity=vtbnn~20001026_224__T109)
+5	frå	frå	ADP	_	_	6	case	_	name=O
+6	Stoltenberg	Stoltenberg	PROPN	_	_	1	obl	_	name=B-PER|Entity=(vtbnn~20001026_224__T110--1(vtbnn~20001026_224__4211--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	conj	_	name=O|Entity=(vtbnn~20001026_224__3347--1)vtbnn~20001026_224__T110)
+9	etter	etter	ADP	_	_	10	case	_	name=O
+10	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__T113--1)
+11	?	$?	PUNCT	_	_	1	punct	_	name=O
+12	spør	spørje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	name=O
+13	VTB	VTB	PROPN	_	_	12	nsubj	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20001026_224__T114--1)
+14	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 012156
+# text = - Den beste rosen me kan få frå regjeringa er at dei opprettheld dagens statsstøtte på 85 prosent til privatskular.
+1	-	$-	PUNCT	_	_	13	punct	_	name=O
+2	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(vtbnn~20001026_224__T115--1
+3	beste	god	ADJ	_	Definite=Def|Degree=Sup	4	amod	_	name=O
+4	rosen	ros	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O
+5	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20001026_224__6679--1)
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	få	få	VERB	_	VerbForm=Inf	4	acl:relcl	_	name=O
+8	frå	frå	ADP	_	_	9	case	_	name=O
+9	regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(vtbnn~20001026_224__3347--1)vtbnn~20001026_224__T115)
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+11	at	at	SCONJ	_	_	13	mark	_	name=O
+12	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(vtbnn~20001026_224__3347--1)
+13	opprettheld	oppretthalde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+14	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(vtbnn~20001026_224__3385--1(vtbnn~20001026_224__T119--1)
+15	statsstøtte	statsstøtte	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obj	_	name=O
+16	på	på	ADP	_	_	18	case	_	name=O
+17	85	85	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O|Entity=(vtbnn~20001026_224__T121--1
+18	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	name=O|Entity=vtbnn~20001026_224__T121)
+19	til	til	ADP	_	_	20	case	_	name=O
+20	privatskular	privatskule	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__T122--1)vtbnn~20001026_224__3385)
+21	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 012157
+# text = Det hadde vore fint om me kunne jobbe under same rammevilkår som me har gjort dei siste åra.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	vore	vere	AUX	_	VerbForm=Part	4	cop	_	name=O
+4	fint	fin	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	om	om	SCONJ	_	_	8	mark	_	name=O
+6	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(vtbnn~20001026_224__6679--1)
+7	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+8	jobbe	jobbe	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+9	under	under	ADP	_	_	11	case	_	name=O
+10	same	same	DET	_	Definite=Def|PronType=Dem	11	det	_	name=O|Entity=(vtbnn~20001026_224__T124--1
+11	rammevilkår	rammevilkår	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	name=O
+12	som	som	PRON	_	PronType=Rel	15	obj	_	name=O
+13	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	name=O|Entity=(vtbnn~20001026_224__6679--1)
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	gjort	gjere	VERB	_	VerbForm=Part	10	advcl	_	name=O
+16	dei	dei	DET	_	Number=Plur|PronType=Dem	18	det	_	name=O|Entity=(vtbnn~20001026_224__T126--1
+17	siste	sist	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O
+18	åra	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__T126)vtbnn~20001026_224__T124)
+19	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012158
+# text = Ap har programfesta at dei vil redusere støtta til 50 prosent.
+1	Ap	Ap	NOUN	_	Abbr=Yes	3	nsubj	_	name=B-ORG|Entity=(vtbnn~20001026_224__4528--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	programfesta	programfeste	VERB	_	VerbForm=Part	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20001026_224__4528--1)
+6	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	redusere	redusere	VERB	_	VerbForm=Inf	3	ccomp	_	name=O
+8	støtta	støtte	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obj	_	name=O|Entity=(vtbnn~20001026_224__3385--1)
+9	til	til	ADP	_	_	11	case	_	name=O
+10	50	50	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(vtbnn~20001026_224__T130--1
+11	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__T130)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012159
+# text = Går dei vekk frå det er me veldig fornøgde, seier Mørkved spøkjefullt.
+1	Går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	name=O
+2	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	name=O|Entity=(vtbnn~20001026_224__4528--1)
+3	vekk	vekk	ADP	_	_	5	case	_	name=O
+4	frå	frå	ADP	_	_	5	case	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obl	_	name=O|Entity=(vtbnn~20001026_224__T132--1)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+7	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	name=O|Entity=(vtbnn~20001026_224__6679--1)
+8	veldig	veldig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	fornøgde	fornøgd	ADJ	_	Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	name=O
+12	Mørkved	Mørkved	PROPN	_	_	11	nsubj	_	name=B-PER|Entity=(vtbnn~20001026_224__4493--1)
+13	spøkjefullt	spøkjefull	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012160
+# text = Men alvoret ligg tydeleg under.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	alvoret	alvor	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20001026_224__T135--1)
+3	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	tydeleg	tydeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	under	under	ADP	_	_	3	compound:prt	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012161
+# text = - Blir støtta frå det offentlege redusert til 50 prosent betyr det nedlegging av Kvitsund Gymnas.
+1	-	$-	PUNCT	_	_	11	punct	_	name=O
+2	Blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux:pass	_	name=O
+3	støtta	støtte	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	nsubj:pass	_	name=O|Entity=(vtbnn~20001026_224__3385--1
+4	frå	frå	ADP	_	_	6	case	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(vtbnn~20001026_224__T137--1
+6	offentlege	offentleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O|Entity=vtbnn~20001026_224__T137)vtbnn~20001026_224__3385)
+7	redusert	redusere	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	11	advcl	_	name=O
+8	til	til	ADP	_	_	10	case	_	name=O
+9	50	50	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(vtbnn~20001026_224__T138--1
+10	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	name=O|Entity=vtbnn~20001026_224__T138)
+11	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(vtbnn~20001026_224__T139--1)
+13	nedlegging	nedlegging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obj	_	name=O|Entity=(vtbnn~20001026_224__T140--1
+14	av	av	ADP	_	_	15	case	_	name=O
+15	Kvitsund	Kvitsund	PROPN	_	_	13	nmod	_	name=B-ORG|Entity=(vtbnn~20001026_224__9553--1
+16	Gymnas	Gymnas	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=vtbnn~20001026_224__9553)vtbnn~20001026_224__T140)
+17	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 012162
+# text = Nå må Ap skjøne at det er rimlegare å ha nokre elevar på privatskule enn alle i det offentlege, meiner undervisningsinspektøren.
+1	Nå	nå	ADV	_	_	4	advmod	_	name=O
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	Ap	Ap	NOUN	_	Abbr=Yes	4	nsubj	_	name=B-ORG|Entity=(vtbnn~20001026_224__4528--1)
+4	skjøne	skjøne	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+8	rimlegare	rimleg	ADJ	_	Degree=Cmp	4	xcomp	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	ha	ha	VERB	_	VerbForm=Inf	8	csubj	_	name=O
+11	nokre	nokon	DET	_	Number=Plur|PronType=Ind	12	det	_	name=O|Entity=(vtbnn~20001026_224__T143--1
+12	elevar	elev	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obj	_	name=O|Entity=vtbnn~20001026_224__T143)
+13	på	på	SCONJ	_	_	14	mark	_	name=O
+14	privatskule	privatskule	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	xcomp	_	name=O|Entity=(vtbnn~20001026_224__T144--1)
+15	enn	enn	ADP	_	_	16	case	_	name=O
+16	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	8	obl	_	name=O|Entity=(vtbnn~20001026_224__T145--1
+17	i	i	ADP	_	_	19	case	_	name=O
+18	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(vtbnn~20001026_224__T146--1
+19	offentlege	offentleg	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	SpaceAfter=No|name=O|Entity=vtbnn~20001026_224__T146)vtbnn~20001026_224__T145)
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+22	undervisningsinspektøren	undervisningsinspektør	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20001026_224__4493--1)
+23	.	$.	PUNCT	_	_	4	punct	_	name=O
+

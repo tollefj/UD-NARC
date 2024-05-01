@@ -1,0 +1,668 @@
+# newdoc id = ap_20090904-3252476
+# global.Entity = eid-etype-head-other
+# sent_id = 003797
+# text = Gi solskinnspolitikken en sjanse
+1	Gi	gi	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	solskinnspolitikken	solskinnspolitikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	iobj	_	name=O|Entity=(ap_20090904_3252476__4250--1)
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(ap_20090904_3252476__T2--1
+4	sjanse	sjanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=ap_20090904_3252476__T2)
+
+# newpar
+# sent_id = 003798
+# text = Enorme lidelser.
+1	Enorme	enorm	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(ap_20090904_3252476__T3--1
+2	lidelser	lidelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T3)
+3	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 003799
+# text = Ny åpning.
+1	Ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(ap_20090904_3252476__T4--1
+2	åpning	åpning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T4)
+3	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 003800
+# text = Kim Dae-jung har også etter sin død bidratt til å myke opp det anspente forholdet mellom Nord- og Sør-Korea.
+1	Kim	Kim	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(ap_20090904_3252476__9325--1
+2	Dae-jung	Dae-jung	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=ap_20090904_3252476__9325)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+4	også	også	ADV	_	_	7	advmod	_	name=O
+5	etter	etter	ADP	_	_	7	case	_	name=O
+6	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(ap_20090904_3252476__T7--1(ap_20090904_3252476__9325--1)
+7	død	død	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=ap_20090904_3252476__T7)
+8	bidratt	bidra	VERB	_	VerbForm=Part	0	root	_	name=O
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	myke	myke	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+12	opp	opp	ADP	_	_	11	compound:prt	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(ap_20090904_3252476__T8--1
+14	anspente	anspent	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	forholdet	forhold	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obj	_	name=O
+16	mellom	mellom	ADP	_	_	17	case	_	name=O
+17	Nord-	Nord-	PROPN	_	_	15	nmod	_	name=B-GPE_LOC|Entity=(ap_20090904_3252476__281--1(ap_20090904_3252476__151391--1)
+18	og	og	CCONJ	_	_	19	cc	_	name=I-GPE_LOC
+19	Sør-Korea	Sør-Korea	PROPN	_	_	17	conj	_	SpaceAfter=No|name=I-GPE_LOC|Entity=(ap_20090904_3252476__239--1)ap_20090904_3252476__281)ap_20090904_3252476__T8)
+20	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 003801
+# text = Tiden kan nå være moden for å gi ideene hans en ny sjanse.
+1	Tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(ap_20090904_3252476__T12--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	nå	nå	ADV	_	_	5	advmod	_	name=O
+4	være	være	AUX	_	VerbForm=Inf	5	cop	_	name=O
+5	moden	moden	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	for	for	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	gi	gi	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+9	ideene	idé	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	iobj	_	name=O|Entity=(ap_20090904_3252476__T13--1
+10	hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(ap_20090904_3252476__9325--1)ap_20090904_3252476__T13)
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(ap_20090904_3252476__T15--1
+12	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	sjanse	sjanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T15)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 003802
+# text = En høytstående delegasjon fra Nord-Korea dro til Seoul for å hedre den tidligere sørkoreanske presidenten Kim Dae-jungs minne.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(ap_20090904_3252476__238--1
+2	høytstående	høytstående	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	delegasjon	delegasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O
+4	fra	fra	ADP	_	_	5	case	_	name=O
+5	Nord-Korea	Nord-Korea	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(ap_20090904_3252476__151391--1)ap_20090904_3252476__238)
+6	dro	dra	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	Seoul	Seoul	PROPN	_	_	6	obl	_	name=B-GPE_LOC|Entity=(ap_20090904_3252476__T18--1)
+9	for	for	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	hedre	hedre	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+12	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(ap_20090904_3252476__T21--1(ap_20090904_3252476__9325--1(ap_20090904_3252476__T19--1
+13	tidligere	tidlig	ADJ	_	Degree=Cmp	15	amod	_	name=O
+14	sørkoreanske	sørkoreansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	presidenten	president	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=ap_20090904_3252476__T19)
+16	Kim	Kim	PROPN	_	_	18	nmod	_	name=B-PER
+17	Dae-jungs	Dae-jung	PROPN	_	Case=Gen	16	flat:name	_	name=I-PER|Entity=ap_20090904_3252476__9325)
+18	minne	minne	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T21)
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 003803
+# text = De møtte også nåværende president Lee Myung-bak for første gang siden han kom til makten i Sør-Korea i fjor.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090904_3252476__238--1)
+2	møtte	møte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	nåværende	nåværende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(ap_20090904_3252476__250--1(ap_20090904_3252476__T23--1
+5	president	president	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=ap_20090904_3252476__T23)
+6	Lee	Lee	PROPN	_	_	2	obj	_	name=B-PER
+7	Myung-bak	Myung-bak	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=ap_20090904_3252476__250)
+8	for	for	ADP	_	_	10	case	_	name=O
+9	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(ap_20090904_3252476__T25--1
+10	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+11	siden	siden	SCONJ	_	_	13	mark	_	name=O
+12	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(ap_20090904_3252476__250--1)
+13	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	name=O
+14	til	til	ADP	_	_	15	case	_	name=O
+15	makten	makt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(ap_20090904_3252476__T27--1)
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Sør-Korea	Sør-Korea	PROPN	_	_	13	obl	_	name=B-GPE_LOC|Entity=(ap_20090904_3252476__239--1)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	fjor	fjor	NOUN	_	_	13	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__T29--1)ap_20090904_3252476__T25)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003804
+# text = En rekke signaler fra Nord-Korea de siste ukene kan tolkes som en anledning til å gi ideene bak solskinns-politikken en ny sjanse.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20090904_3252476__T31--1(ap_20090904_3252476__T30--1
+2	rekke	rekke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=ap_20090904_3252476__T30)
+3	signaler	signal	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nsubj:pass	_	name=O
+4	fra	fra	ADP	_	_	5	case	_	name=O
+5	Nord-Korea	Nord-Korea	PROPN	_	_	3	nmod	_	name=B-GPE_ORG|Entity=(ap_20090904_3252476__151391--1)
+6	de	de	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(ap_20090904_3252476__T33--1
+7	siste	sist	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	ukene	uke	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	3	nmod	_	name=O|Entity=ap_20090904_3252476__T33)ap_20090904_3252476__T31)
+9	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	tolkes	tolke	VERB	_	VerbForm=Inf|Voice=Pass	0	root	_	name=O
+11	som	som	SCONJ	_	_	13	mark	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(ap_20090904_3252476__T34--1
+13	anledning	anledning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	xcomp	_	name=O
+14	til	til	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	gi	gi	VERB	_	VerbForm=Inf	13	acl	_	name=O
+17	ideene	idé	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	16	iobj	_	name=O|Entity=(ap_20090904_3252476__T35--1
+18	bak	bak	ADP	_	_	19	case	_	name=O
+19	solskinns-politikken	solskinns-politikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(ap_20090904_3252476__4250--1)ap_20090904_3252476__T35)
+20	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(ap_20090904_3252476__T37--1
+21	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	sjanse	sjanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T37)ap_20090904_3252476__T34)
+23	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 003805
+# text = Det kan gi håp til Nord-Koreas undertrykte folk.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(ap_20090904_3252476__T38--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	gi	gi	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	håp	håp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(ap_20090904_3252476__T39--1)
+5	til	til	ADP	_	_	8	case	_	name=O
+6	Nord-Koreas	Nord-Korea	PROPN	_	Case=Gen	8	nmod	_	name=B-GPE_LOC|Entity=(ap_20090904_3252476__3334--1(ap_20090904_3252476__151391--1)
+7	undertrykte	undertrykke	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	8	amod	_	name=O
+8	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__3334)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 003806
+# text = Kim Dae-jung mente at ikke noe kommunistisk regime lar seg endre av ytre press.
+1	Kim	kim	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=B-PER|Entity=(ap_20090904_3252476__9325--1
+2	Dae-jung	Dae-jung	PROPN	_	_	1	nmod	_	name=I-PER|Entity=(ap_20090904_3252476__T43--1)ap_20090904_3252476__9325)
+3	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O|Entity=(ap_20090904_3252476__T44--1
+6	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	8	det	_	name=O
+7	kommunistisk	kommunistisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	name=O
+8	regime	regime	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=ap_20090904_3252476__T44)
+9	lar	la	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	name=O
+10	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	9	iobj	_	name=O
+11	endre	endre	VERB	_	VerbForm=Inf	9	xcomp	_	name=O
+12	av	av	ADP	_	_	14	case	_	name=O
+13	ytre	ytre	ADJ	_	Degree=Cmp	14	amod	_	name=O|Entity=(ap_20090904_3252476__T45--1
+14	press	press	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T45)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 003807
+# text = Tvert imot er det ved samhandling med omverdenen at endring vil skje, mente han.
+1	Tvert	tvert	ADV	_	_	2	advmod	_	name=O
+2	imot	imot	ADP	_	_	6	obl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+5	ved	ved	ADP	_	_	6	case	_	name=O
+6	samhandling	samhandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O|Entity=(ap_20090904_3252476__T46--1
+7	med	med	ADP	_	_	8	case	_	name=O
+8	omverdenen	omverden	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20090904_3252476__T47--1)ap_20090904_3252476__T46)
+9	at	at	SCONJ	_	_	12	mark	_	name=O
+10	endring	endring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	nsubj	_	name=O|Entity=(ap_20090904_3252476__T48--1)
+11	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	skje	skje	VERB	_	VerbForm=Inf	6	advcl	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	mente	mene	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	name=O
+15	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__9325--1)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 003808
+# text = Dette kom til uttrykk i den såkalte solskinnspolitikken overfor Nord-Korea.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090904_3252476__T50--1)
+2	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	uttrykk	uttrykk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(ap_20090904_3252476__T51--1)
+5	i	i	ADP	_	_	8	case	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(ap_20090904_3252476__4250--1
+7	såkalte	såkalt	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	solskinnspolitikken	solskinnspolitikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O
+9	overfor	overfor	ADP	_	_	10	case	_	name=O
+10	Nord-Korea	Nord-Korea	PROPN	_	_	8	nmod	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(ap_20090904_3252476__151391--1)ap_20090904_3252476__4250)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003809
+# text = Han greide å få til samarbeid innen industri og turisme, direkte tog- og veiforbindelse og familiegjenforeninger på tvers av den godt bevoktede grensen.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090904_3252476__9325--1)
+2	greide	greie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	få	få	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	til	til	ADP	_	_	4	compound:prt	_	name=O
+6	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=(ap_20090904_3252476__T55--1(ap_20090904_3252476__T56--1
+7	innen	innen	ADP	_	_	8	case	_	name=O
+8	industri	industri	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(ap_20090904_3252476__T57--1(ap_20090904_3252476__T58--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	turisme	turisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__T59--1)ap_20090904_3252476__T57)
+11	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=ap_20090904_3252476__T56)
+12	direkte	direkte	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(ap_20090904_3252476__T60--1(ap_20090904_3252476__T61--1
+13	tog-	tog-	NOUN	_	_	6	conj	_	name=O|Entity=ap_20090904_3252476__T61)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	veiforbindelse	veiforbindelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	conj	_	name=O|Entity=(ap_20090904_3252476__T62--1)ap_20090904_3252476__T60)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	familiegjenforeninger	familiegjenforening	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	conj	_	name=O|Entity=(ap_20090904_3252476__T63--1
+18	på	på	ADP	_	_	19	case	_	name=O
+19	tvers	tvers	NOUN	_	_	17	nmod	_	name=O|Entity=(ap_20090904_3252476__T64--1
+20	av	av	ADP	_	_	24	case	_	name=O
+21	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	name=O|Bridge=ap_20090904_3252476__281<ap_20090904_3252476__T65:default|Entity=(ap_20090904_3252476__T65--1
+22	godt	god	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	23	advmod	_	name=O
+23	bevoktede	bevokte	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	24	amod	_	name=O
+24	grensen	grense	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T65)ap_20090904_3252476__T64)ap_20090904_3252476__T63)ap_20090904_3252476__T55)
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003810
+# text = Han mottok Nobels fredspris for sitt arbeid i 2000, men fikk aldri oppleve at de grunnleggende utfordringene på den koreanske halvøy ble løst.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090904_3252476__9325--1)
+2	mottok	motta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	Nobels	Nobel	PROPN	_	Case=Gen	4	nmod	_	name=B-PROD|Entity=(ap_20090904_3252476__T68--1(ap_20090904_3252476__T67--1)
+4	fredspris	fredspris	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=I-PROD|Entity=ap_20090904_3252476__T68)
+5	for	for	ADP	_	_	7	case	_	name=O
+6	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	name=O|Entity=(ap_20090904_3252476__T70--1(ap_20090904_3252476__9325--1)
+7	arbeid	arbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=ap_20090904_3252476__T70)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	2000	2000	NUM	_	Number=Plur|NumType=Card	2	obl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	men	men	CCONJ	_	_	14	cc	_	name=O
+12	fikk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	name=O
+13	aldri	aldri	ADV	_	_	14	advmod	_	name=O
+14	oppleve	oppleve	VERB	_	VerbForm=Inf	2	conj	_	name=O
+15	at	at	SCONJ	_	_	24	mark	_	name=O
+16	de	de	DET	_	Number=Plur|PronType=Dem	18	det	_	name=O|Entity=(ap_20090904_3252476__T71--1
+17	grunnleggende	grunnleggende	ADJ	_	Degree=Pos|Number=Plur	18	amod	_	name=O
+18	utfordringene	utfordring	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	24	nsubj:pass	_	name=O
+19	på	på	ADP	_	_	22	case	_	name=O
+20	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(ap_20090904_3252476__281--1
+21	koreanske	koreansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	22	amod	_	name=O
+22	halvøy	halvøy	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	name=O|Entity=ap_20090904_3252476__281)ap_20090904_3252476__T71)
+23	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux:pass	_	name=O
+24	løst	løse	VERB	_	VerbForm=Part	14	ccomp	_	SpaceAfter=No|name=O
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 003811
+# text = Den menneskerettslige og humanitære situasjonen i Nord-Korea er prekær.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(ap_20090904_3252476__2158--1
+2	menneskerettslige	menneskerettslig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	humanitære	humanitær	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	2	conj	_	name=O
+5	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nsubj	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Nord-Korea	Nord-Korea	PROPN	_	_	5	nmod	_	name=B-GPE_LOC|Entity=(ap_20090904_3252476__151391--1)ap_20090904_3252476__2158)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+9	prekær	prekær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 003812
+# text = Nord-Korea tillot at minst en million mennesker døde av sult på 1990-tallet, mens generalene prioriterte ressurser til militæret og atomvåpenprogrammet.
+1	Nord-Korea	Nord-Korea	PROPN	_	_	2	nsubj	_	name=B-GPE_ORG|Entity=(ap_20090904_3252476__151391--1)
+2	tillot	tillate	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	8	mark	_	name=O
+4	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	5	advmod	_	name=O|Entity=(ap_20090904_3252476__T77--1(ap_20090904_3252476__T76--1
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O
+6	million	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=ap_20090904_3252476__T76)
+7	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	nsubj	_	name=O|Entity=ap_20090904_3252476__T77)
+8	døde	dø	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	name=O
+9	av	av	ADP	_	_	10	case	_	name=O
+10	sult	sult	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(ap_20090904_3252476__T78--1)
+11	på	på	ADP	_	_	12	case	_	name=O
+12	1990-tallet	1990-tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__T79--1)
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	mens	mens	SCONJ	_	_	16	mark	_	name=O
+15	generalene	general	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	16	nsubj	_	name=O|Entity=(ap_20090904_3252476__T80--1)
+16	prioriterte	prioritere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	name=O
+17	ressurser	ressurs	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obj	_	name=O|Entity=(ap_20090904_3252476__T81--1
+18	til	til	ADP	_	_	19	case	_	name=O
+19	militæret	militær	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	name=O|Entity=(ap_20090904_3252476__T82--1(ap_20090904_3252476__T83--1)
+20	og	og	CCONJ	_	_	21	cc	_	name=O
+21	atomvåpenprogrammet	atomvåpenprogram	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__T84--1)ap_20090904_3252476__T82)ap_20090904_3252476__T81)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003813
+# text = Selv om situasjonen er noe bedret de senere år, representerer matmangel en kontinuerlig humanitær krise.
+1	Selv	selv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	6	mark	_	name=O
+3	situasjonen	situasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20090904_3252476__2158--1)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	6	obl	_	name=O
+6	bedret	bedre	VERB	_	VerbForm=Part	11	advcl	_	name=O
+7	de	de	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(ap_20090904_3252476__T86--1
+8	senere	sen	ADJ	_	Degree=Cmp	9	amod	_	name=O
+9	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T86)
+10	,	$,	PUNCT	_	_	6	punct	_	name=O
+11	representerer	representere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	matmangel	matmangel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	nsubj	_	name=O|Entity=(ap_20090904_3252476__T87--1)
+13	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(ap_20090904_3252476__T88--1
+14	kontinuerlig	kontinuerlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	name=O
+15	humanitær	humanitær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	krise	krise	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T88)
+17	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 003814
+# text = Over 37 prosent av barna i landet er kronisk feilernært.
+1	Over	over	ADP	_	_	2	case	_	name=O|Entity=(ap_20090904_3252476__T89--1
+2	37	37	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O
+3	prosent	prosent	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nsubj	_	name=O
+4	av	av	ADP	_	_	5	case	_	name=O
+5	barna	barn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	3	nmod	_	name=O|Entity=(ap_20090904_3252476__T90--1
+6	i	i	ADP	_	_	7	case	_	name=O
+7	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(ap_20090904_3252476__151391--1)ap_20090904_3252476__T90)ap_20090904_3252476__T89)
+8	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+9	kronisk	kronisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+10	feilernært	feilernært	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 003815
+# text = Det er også antatt at Nord-Korea internerer rundt 200000 mennesker i politiske fangeleirer uten lovlig dom og for grunnløse anklager.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20090904_3252476__T92--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	også	også	ADV	_	_	4	advmod	_	name=O
+4	antatt	anta	VERB	_	VerbForm=Part	0	root	_	name=O
+5	at	at	SCONJ	_	_	7	mark	_	name=O
+6	Nord-Korea	Nord-Korea	PROPN	_	_	7	nsubj	_	name=B-GPE_ORG|Entity=(ap_20090904_3252476__151391--1)
+7	internerer	internere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	name=O
+8	rundt	rundt	ADP	_	_	9	case	_	name=O|Entity=(ap_20090904_3252476__2291--1(ap_20090904_3252476__T94--1
+9	200000	200000	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O
+10	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obj	_	name=O|Entity=ap_20090904_3252476__T94)
+11	i	i	ADP	_	_	13	case	_	name=O
+12	politiske	politisk	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(ap_20090904_3252476__T95--1
+13	fangeleirer	fangeleir	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	obl	_	name=O|Entity=ap_20090904_3252476__T95)ap_20090904_3252476__2291)
+14	uten	uten	ADP	_	_	16	case	_	name=O
+15	lovlig	lovlig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	name=O|Entity=(ap_20090904_3252476__T96--1
+16	dom	dom	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=ap_20090904_3252476__T96)
+17	og	og	CCONJ	_	_	20	cc	_	name=O
+18	for	for	ADP	_	_	20	case	_	name=O
+19	grunnløse	grunnløs	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(ap_20090904_3252476__T97--1
+20	anklager	anklage	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T97)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 003816
+# text = Ikke bare er opposisjonelle fengslet, men også deres familiemedlemmer.
+1	Ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O
+2	bare	bare	ADV	_	_	5	advmod	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	opposisjonelle	opposisjonell	ADJ	_	Degree=Pos|Number=Plur	5	nsubj	_	name=O|Entity=(ap_20090904_3252476__2197--1)
+5	fengslet	fengsle	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	10	punct	_	name=O
+7	men	men	CCONJ	_	_	10	cc	_	name=O
+8	også	også	ADV	_	_	10	advmod	_	name=O|Entity=(ap_20090904_3252476__T100--1
+9	deres	deres	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	10	nmod	_	name=O|Entity=(ap_20090904_3252476__2197--1)
+10	familiemedlemmer	familiemedlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	conj	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T100)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 003817
+# text = Både eldre og barn arresteres i tråd med et system for kollektiv skyld i tre slektsledd.
+1	Både	både	CCONJ	_	_	2	cc	_	name=O
+2	eldre	gammel	ADJ	_	Degree=Cmp	5	nsubj:pass	_	name=O|Entity=(ap_20090904_3252476__T101--1(ap_20090904_3252476__T102--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	barn	barn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	conj	_	name=O|Entity=(ap_20090904_3252476__T103--1)ap_20090904_3252476__T101)
+5	arresteres	arrestere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	tråd	tråd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(ap_20090904_3252476__T104--1
+8	med	med	ADP	_	_	10	case	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(ap_20090904_3252476__T105--1
+10	system	system	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	nmod	_	name=O
+11	for	for	ADP	_	_	13	case	_	name=O
+12	kollektiv	kollektiv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(ap_20090904_3252476__T106--1
+13	skyld	skyld	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	nmod	_	name=O
+14	i	i	ADP	_	_	16	case	_	name=O
+15	tre	tre	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(ap_20090904_3252476__T107--1
+16	slektsledd	slektsledd	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T107)ap_20090904_3252476__T106)ap_20090904_3252476__T105)ap_20090904_3252476__T104)
+17	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 003818
+# text = Fangene lever under forhold vi knapt kan forestille oss.
+1	Fangene	fange	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(ap_20090904_3252476__2291--1)
+2	lever	leve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	under	under	ADP	_	_	4	case	_	name=O
+4	forhold	forhold	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	name=O|Entity=(ap_20090904_3252476__T109--1
+5	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	name=O|Entity=(ap_20090904_3252476__2221--1)
+6	knapt	knapp	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+7	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	forestille	forestille	VERB	_	VerbForm=Inf	4	acl:relcl	_	name=O
+9	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__2221--1)ap_20090904_3252476__T109)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003819
+# text = Militærdiktatoren Kim Jung-Il har de siste årene lykkes i å flytte fokuset bort fra innbyggernes lidelser og over på sine gjentatte atomvåpentrusler.
+1	Militærdiktatoren	militærdiktator	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(ap_20090904_3252476__3386--1
+2	Kim	Kim	PROPN	_	_	8	nsubj	_	name=B-PER
+3	Jung-Il	Jung-Il	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=ap_20090904_3252476__3386)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+5	de	de	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(ap_20090904_3252476__T113--1
+6	siste	sist	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	årene	år	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	obl	_	name=O|Entity=ap_20090904_3252476__T113)
+8	lykkes	lykkes	VERB	_	VerbForm=Part	0	root	_	name=O
+9	i	i	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	flytte	flytte	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+12	fokuset	fokus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	obj	_	name=O|Entity=(ap_20090904_3252476__T114--1)
+13	bort	bort	ADP	_	_	16	case	_	name=O
+14	fra	fra	ADP	_	_	16	case	_	name=O
+15	innbyggernes	innbygger	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	16	nmod	_	name=O|Entity=(ap_20090904_3252476__T116--1(ap_20090904_3252476__3334--1)
+16	lidelser	lidelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obl	_	name=O|Entity=ap_20090904_3252476__T116)
+17	og	og	CCONJ	_	_	22	cc	_	name=O
+18	over	over	ADP	_	_	22	case	_	name=O
+19	på	på	ADP	_	_	22	case	_	name=O
+20	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	22	nmod	_	name=O|Entity=(ap_20090904_3252476__T118--1(ap_20090904_3252476__3386--1)
+21	gjentatte	gjenta	ADJ	_	Number=Plur|VerbForm=Part	22	amod	_	name=O
+22	atomvåpentrusler	atomvåpentrussel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T118)
+23	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 003820
+# text = Da Nord-Korea for første gang gjennomførte en atomprøvesprengning i 2006, var verden samstemt i sin fordømmelse og sanksjoner ble vedtatt gjennom FNs sikkerhetsråd.
+1	Da	da	SCONJ	_	_	6	mark	_	name=O
+2	Nord-Korea	Nord-Korea	PROPN	_	_	6	nsubj	_	name=B-GPE_ORG|Entity=(ap_20090904_3252476__151391--1)
+3	for	for	ADP	_	_	5	case	_	name=O
+4	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O|Entity=(ap_20090904_3252476__T120--1
+5	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=ap_20090904_3252476__T120)
+6	gjennomførte	gjennomføre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	advcl	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20090904_3252476__T121--1
+8	atomprøvesprengning	atomprøvesprengning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=ap_20090904_3252476__T121)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	2006	2006	NUM	_	Number=Plur|NumType=Card	6	obl	_	SpaceAfter=No|name=O
+11	,	$,	PUNCT	_	_	6	punct	_	name=O
+12	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	name=O
+13	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	nsubj	_	name=O|Entity=(ap_20090904_3252476__4551--1)
+14	samstemt	samstemme	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+15	i	i	ADP	_	_	17	case	_	name=O
+16	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	name=O|Entity=(ap_20090904_3252476__T124--1(ap_20090904_3252476__4551--1)
+17	fordømmelse	fordømmelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	name=O|Entity=ap_20090904_3252476__T124)
+18	og	og	CCONJ	_	_	21	cc	_	name=O
+19	sanksjoner	sanksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	nsubj:pass	_	name=O|Entity=(ap_20090904_3252476__T125--1)
+20	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux:pass	_	name=O
+21	vedtatt	vedta	VERB	_	VerbForm=Part	14	conj	_	name=O
+22	gjennom	gjennom	ADP	_	_	24	case	_	name=O
+23	FNs	FN	PROPN	_	Abbr=Yes|Case=Gen	24	nmod	_	name=B-ORG|Entity=(ap_20090904_3252476__T127--1(ap_20090904_3252476__T126--1)
+24	sikkerhetsråd	sikkerhetsråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No|name=I-ORG|Entity=ap_20090904_3252476__T127)
+25	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 003821
+# text = Et rammeverk for forhandlinger ble etablert gjennom de såkalte sekspartsforhandlingene.
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(ap_20090904_3252476__T128--1
+2	rammeverk	rammeverk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	nsubj:pass	_	name=O
+3	for	for	ADP	_	_	4	case	_	name=O
+4	forhandlinger	forhandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	name=O|Entity=(ap_20090904_3252476__T129--1)ap_20090904_3252476__T128)
+5	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	name=O
+6	etablert	etablere	VERB	_	VerbForm=Part	0	root	_	name=O
+7	gjennom	gjennom	ADP	_	_	10	case	_	name=O
+8	de	de	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(ap_20090904_3252476__2263--1
+9	såkalte	såkalt	ADJ	_	Degree=Pos|Number=Plur	10	amod	_	name=O
+10	sekspartsforhandlingene	sekspartsforhandling	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__2263)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 003822
+# text = Jeg var blant dem som håpet at dette også kunne bli en plattform for å diskutere humanitære og menneskerettslige spørsmål.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(ap_20090904_3252476__T131--1)
+2	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	blant	blant	ADP	_	_	4	case	_	name=O
+4	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obl	_	name=O|Entity=(ap_20090904_3252476__T132--1
+5	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+6	håpet	håpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	name=O
+7	at	at	SCONJ	_	_	11	mark	_	name=O
+8	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(ap_20090904_3252476__2263--1)
+9	også	også	ADV	_	_	11	advmod	_	name=O
+10	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+11	bli	bli	VERB	_	VerbForm=Inf	6	ccomp	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(ap_20090904_3252476__T134--1
+13	plattform	plattform	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	xcomp	_	name=O
+14	for	for	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	diskutere	diskutere	VERB	_	VerbForm=Inf	13	acl	_	name=O
+17	humanitære	humanitær	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(ap_20090904_3252476__T135--1
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	menneskerettslige	menneskerettslig	ADJ	_	Degree=Pos|Number=Plur	17	conj	_	name=O
+20	spørsmål	spørsmål	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obj	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T135)ap_20090904_3252476__T134)ap_20090904_3252476__T132)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003823
+# text = Det viste seg å bli en haltende prosess som til slutt brøt sammen i desember i fjor.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	viste	vise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	2	obj	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	bli	bli	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20090904_3252476__T136--1
+7	haltende	halte	ADJ	_	VerbForm=Part	8	amod	_	name=O
+8	prosess	prosess	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	xcomp	_	name=O
+9	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+10	til	til	ADP	_	_	11	case	_	name=O
+11	slutt	slutt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=O|Entity=(ap_20090904_3252476__T137--1)
+12	brøt	bryte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	name=O
+13	sammen	sammen	ADV	_	_	12	advmod	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	desember	desember	NOUN	_	Gender=Masc	12	obl	_	name=O|Entity=(ap_20090904_3252476__2279--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	fjor	fjor	NOUN	_	_	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__T139--1)ap_20090904_3252476__2279)ap_20090904_3252476__T136)
+18	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 003824
+# text = Nord-Korea har etter den tid skremt, truet og provosert omverdenen med raketter og prøvesprengninger.
+1	Nord-Korea	Nord-Korea	PROPN	_	_	6	nsubj	_	name=B-GPE_ORG|Entity=(ap_20090904_3252476__151391--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	etter	etter	ADP	_	_	5	case	_	name=O
+4	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(ap_20090904_3252476__2279--1
+5	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	name=O|Entity=ap_20090904_3252476__2279)
+6	skremt	skremme	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	truet	true	VERB	_	VerbForm=Part	6	conj	_	name=O
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	provosert	provosere	VERB	_	VerbForm=Part	6	conj	_	name=O
+11	omverdenen	omverden	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=(ap_20090904_3252476__T142--1)
+12	med	med	ADP	_	_	13	case	_	name=O
+13	raketter	rakett	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	name=O|Entity=(ap_20090904_3252476__T143--1(ap_20090904_3252476__T144--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	prøvesprengninger	prøvesprengning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__T145--1)ap_20090904_3252476__T143)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 003825
+# text = Igjen sto verden samlet i fordømmelsen.
+1	Igjen	igjen	ADV	_	_	2	advmod	_	name=O
+2	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	verden	verden	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(ap_20090904_3252476__4551--1)
+4	samlet	samle	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	2	xcomp	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	fordømmelsen	fordømmelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__2303--1)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 003826
+# text = Det har den siste tiden vært en rekke initiativer fra Nord-Korea som kan tyde på at militærdiktaturet nå åpner for en mer dialogrettet linje - i hvert fall overfor USA.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(ap_20090904_3252476__T148--1
+4	siste	sist	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	tiden	tid	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=ap_20090904_3252476__T148)
+6	vært	være	AUX	_	VerbForm=Part	9	cop	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(ap_20090904_3252476__T150--1(ap_20090904_3252476__T149--1
+8	rekke	rekke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=ap_20090904_3252476__T149)
+9	initiativer	initiativ	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	name=O
+10	fra	fra	ADP	_	_	11	case	_	name=O
+11	Nord-Korea	Nord-Korea	PROPN	_	_	9	nmod	_	name=B-GPE_ORG|Entity=(ap_20090904_3252476__151391--1)
+12	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+13	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	tyde	tyde	VERB	_	VerbForm=Inf	9	acl:cleft	_	name=O
+15	på	på	SCONJ	_	_	19	mark	_	name=O
+16	at	at	SCONJ	_	_	19	mark	_	name=O
+17	militærdiktaturet	militærdiktatur	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	19	nsubj	_	name=O|Entity=(ap_20090904_3252476__151391--1)
+18	nå	nå	ADV	_	_	19	advmod	_	name=O
+19	åpner	åpne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	name=O
+20	for	for	ADP	_	_	24	case	_	name=O
+21	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(ap_20090904_3252476__T153--1
+22	mer	mye	ADJ	_	Degree=Cmp	23	advmod	_	name=O
+23	dialogrettet	dialogrette	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	24	amod	_	name=O
+24	linje	linje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	name=O
+25	-	$-	PUNCT	_	_	30	punct	_	name=O
+26	i	i	ADP	_	_	28	case	_	name=O
+27	hvert	hver	DET	_	Gender=Neut|Number=Sing|PronType=Tot	28	det	_	name=O|Entity=(ap_20090904_3252476__T154--1
+28	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	30	obl	_	name=O|Entity=ap_20090904_3252476__T154)
+29	overfor	overfor	ADP	_	_	30	case	_	name=O
+30	USA	USA	PROPN	_	Abbr=Yes	24	nmod	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(ap_20090904_3252476__T155--1)ap_20090904_3252476__T153)ap_20090904_3252476__T150)
+31	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 003827
+# text = Kanskje har den unisone fordømmelsen bidratt til at Kim Jung-Il nå viser tegn til oppmykning?
+1	Kanskje	kanskje	ADV	_	_	6	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(ap_20090904_3252476__2303--1
+4	unisone	unison	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	fordømmelsen	fordømmelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=ap_20090904_3252476__2303)
+6	bidratt	bidra	VERB	_	VerbForm=Part	0	root	_	name=O
+7	til	til	SCONJ	_	_	12	mark	_	name=O
+8	at	at	SCONJ	_	_	12	mark	_	name=O
+9	Kim	Kim	PROPN	_	_	12	nsubj	_	name=B-PER|Entity=(ap_20090904_3252476__3386--1
+10	Jung-Il	Jung-Il	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=ap_20090904_3252476__3386)
+11	nå	nå	ADV	_	_	12	advmod	_	name=O
+12	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	name=O
+13	tegn	tegn	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	12	obj	_	name=O|Entity=(ap_20090904_3252476__T158--1
+14	til	til	ADP	_	_	15	case	_	name=O
+15	oppmykning	oppmykning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__T159--1)ap_20090904_3252476__T158)
+16	?	$?	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 003828
+# text = Nå må verdenssamfunnet jobbe samlet og målrettet for å gi solskinnspolitikkens grunnleggende ideer om dialog og engasjement en ny sjanse.
+1	Nå	nå	ADV	_	_	4	advmod	_	name=O
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	verdenssamfunnet	verdenssamfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(ap_20090904_3252476__4551--1)
+4	jobbe	jobbe	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	samlet	samle	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	advmod	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	målrettet	målrettet	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	name=O
+8	for	for	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	gi	gi	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+11	solskinnspolitikkens	solskinnspolitikk	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(ap_20090904_3252476__T162--1(ap_20090904_3252476__4250--1)
+12	grunnleggende	grunnleggende	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	ideer	idé	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	iobj	_	name=O
+14	om	om	ADP	_	_	15	case	_	name=O
+15	dialog	dialog	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(ap_20090904_3252476__T163--1(ap_20090904_3252476__T164--1)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	engasjement	engasjement	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	15	conj	_	name=O|Entity=(ap_20090904_3252476__T165--1)ap_20090904_3252476__T163)ap_20090904_3252476__T162)
+18	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(ap_20090904_3252476__T166--1
+19	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	name=O
+20	sjanse	sjanse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=ap_20090904_3252476__T166)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 003829
+# text = Men dialogen med Nord-Korea må handle om mer enn atomvåpen; målet må også være å bedre levekårene og respekten for menneskerettighetene i landet.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	dialogen	dialog	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(ap_20090904_3252476__T167--1
+3	med	med	ADP	_	_	4	case	_	name=O
+4	Nord-Korea	Nord-Korea	PROPN	_	_	2	nmod	_	name=B-GPE_ORG|Entity=(ap_20090904_3252476__151391--1)ap_20090904_3252476__T167)
+5	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	handle	handle	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	om	om	ADP	_	_	8	case	_	name=O
+8	mer	mye	ADJ	_	Degree=Cmp	6	advmod	_	name=O|Entity=(ap_20090904_3252476__T169--1
+9	enn	enn	ADP	_	_	10	case	_	name=O
+10	atomvåpen	atomvåpen	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__T170--1)ap_20090904_3252476__T169)
+11	;	$;	PUNCT	_	_	17	punct	_	name=O
+12	målet	mål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nsubj	_	name=O|Entity=(ap_20090904_3252476__T171--1)
+13	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+14	også	også	ADV	_	_	17	advmod	_	name=O
+15	være	være	AUX	_	VerbForm=Inf	17	cop	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	bedre	bedre	VERB	_	VerbForm=Inf	6	conj	_	name=O
+18	levekårene	levekår	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	17	obj	_	name=O|Entity=(ap_20090904_3252476__T172--1(ap_20090904_3252476__T173--1)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	respekten	respekt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	conj	_	name=O|Entity=(ap_20090904_3252476__T174--1
+21	for	for	ADP	_	_	22	case	_	name=O
+22	menneskerettighetene	menneskerettighet	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	20	nmod	_	name=O|Entity=(ap_20090904_3252476__T175--1)
+23	i	i	ADP	_	_	24	case	_	name=O
+24	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__151391--1)ap_20090904_3252476__T174)ap_20090904_3252476__T172)
+25	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 003830
+# text = Vi kan ikke tillate at det nordkoreanske folks lidelser nok en gang havner i skyggen av atomvåpenspørsmålet.
+1	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(ap_20090904_3252476__T177--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	tillate	tillate	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	at	at	SCONJ	_	_	13	mark	_	name=O
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(ap_20090904_3252476__T179--1(ap_20090904_3252476__3334--1
+7	nordkoreanske	nordkoreansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	folks	folk	NOUN	_	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=ap_20090904_3252476__3334)
+9	lidelser	lidelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nsubj	_	name=O|Entity=ap_20090904_3252476__T179)
+10	nok	nok	ADV	_	_	11	advmod	_	name=O|Entity=(ap_20090904_3252476__T180--1
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O
+12	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=ap_20090904_3252476__T180)
+13	havner	havne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	skyggen	skygge	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(ap_20090904_3252476__T181--1
+16	av	av	ADP	_	_	17	case	_	name=O
+17	atomvåpenspørsmålet	atomvåpenspørsmål	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No|name=O|Entity=(ap_20090904_3252476__T182--1)ap_20090904_3252476__T181)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+

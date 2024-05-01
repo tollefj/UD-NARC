@@ -1,0 +1,126 @@
+# newdoc id = firdann~20110415-5569452
+# global.Entity = eid-etype-head-other
+# sent_id = 006544
+# text = Får flytte heim
+1	Får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	name=O
+2	flytte	flytte	VERB	_	VerbForm=Inf	0	root	_	name=O
+3	heim	heim	ADP	_	_	2	compound:prt	_	name=O
+
+# newpar
+# sent_id = 006545
+# text = Etter to veker blir det bygd mellombels rasvoll
+1	Etter	etter	ADP	_	_	3	case	_	name=O
+2	to	to	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O|Entity=(firdann~20110415_5569452__T1--1
+3	veker	veke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	obl	_	name=O|Entity=firdann~20110415_5569452__T1)
+4	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+6	bygd	byggje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	mellombels	mellombels	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(firdann~20110415_5569452__336--1
+8	rasvoll	rasvoll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=firdann~20110415_5569452__336)
+
+# newpar
+# sent_id = 006546
+# text = Heim i dag:
+1	Heim	heim	ADP	_	_	0	root	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20110415_5569452__T3--1)
+4	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 006547
+# text = Familien Berge får i dag flytte heim.
+1	Familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20110415_5569452__7126--1
+2	Berge	Berge	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=firdann~20110415_5569452__7126)
+3	får	få	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(firdann~20110415_5569452__T5--1)
+6	flytte	flytte	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	heim	heim	ADP	_	_	6	compound:prt	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006548
+# text = Til høgre i biletet er arbeidet med den mellombelse rasvollen i gang.
+1	Til	til	ADP	_	_	2	case	_	name=O
+2	høgre	høgre	NOUN	_	Gender=Neut	12	obl	_	name=O|Entity=(firdann~20110415_5569452__T6--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	biletet	bilete	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20110415_5569452__T7--1)firdann~20110415_5569452__T6)
+5	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+6	arbeidet	arbeid	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	name=O|Entity=(firdann~20110415_5569452__T8--1
+7	med	med	ADP	_	_	10	case	_	name=O
+8	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(firdann~20110415_5569452__336--1
+9	mellombelse	mellombels	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	rasvollen	rasvoll	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=firdann~20110415_5569452__336)firdann~20110415_5569452__T8)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	gang	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(firdann~20110415_5569452__T10--1)
+13	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# newpar
+# sent_id = 006549
+# text = Familien Berge i Fjærland har vore evakuerte i to veker etter at det 2. april gjekk eit stort snøras som stogga berre få meter frå huset deira.
+1	Familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20110415_5569452__7126--1
+2	Berge	Berge	PROPN	_	_	7	nsubj	_	name=B-PER
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Fjærland	Fjærland	PROPN	_	_	2	nmod	_	name=B-LOC|Entity=(firdann~20110415_5569452__T12--1)firdann~20110415_5569452__7126)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+6	vore	vere	AUX	_	VerbForm=Part	7	cop	_	name=O
+7	evakuerte	evakuere	ADJ	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+8	i	i	ADP	_	_	10	case	_	name=O
+9	to	to	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O|Entity=(firdann~20110415_5569452__T13--1
+10	veker	veke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obl	_	name=O|Entity=firdann~20110415_5569452__T13)
+11	etter	etter	SCONJ	_	_	16	mark	_	name=O
+12	at	at	SCONJ	_	_	16	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	expl	_	name=O
+14	2.	2.	ADJ	_	Number=Plur	15	amod	_	name=O|Entity=(firdann~20110415_5569452__T14--1
+15	april	april	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	name=O|Entity=firdann~20110415_5569452__T14)
+16	gjekk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	name=O
+17	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(firdann~20110415_5569452__T15--1
+18	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	name=O
+19	snøras	snøras	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	nsubj	_	name=O
+20	som	som	PRON	_	PronType=Rel	21	nsubj	_	name=O
+21	stogga	stogge	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	name=O
+22	berre	berre	ADV	_	_	23	advmod	_	name=O|Entity=(firdann~20110415_5569452__T16--1
+23	få	få	ADJ	_	Degree=Pos|Number=Plur	24	amod	_	name=O
+24	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	26	obl	_	name=O|Entity=firdann~20110415_5569452__T16)
+25	frå	frå	ADP	_	_	26	case	_	name=O
+26	huset	hus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	obl	_	name=O|Entity=(firdann~20110415_5569452__T17--1
+27	deira	deira	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	26	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110415_5569452__7126--1)firdann~20110415_5569452__T17)firdann~20110415_5569452__T15)
+28	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006550
+# text = I dag fekk dei endeleg flytte heim.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(firdann~20110415_5569452__T19--1)
+3	fekk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	name=O
+4	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(firdann~20110415_5569452__7126--1)
+5	endeleg	endeleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	flytte	flytte	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	heim	heim	ADP	_	_	6	compound:prt	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006551
+# text = Inge Berge seier til NRK at dei gler seg til å komme heim, og at dei kjenner seg trygge med den mellombelse rasvollen.
+1	Inge	Inge	PROPN	_	_	3	nsubj	_	name=B-PER|Bridge=firdann~20110415_5569452__7126<firdann~20110415_5569452__T21:default|Entity=(firdann~20110415_5569452__T21--1
+2	Berge	Berge	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20110415_5569452__T21)
+3	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	NRK	NRK	PROPN	_	_	3	obl	_	name=B-ORG|Entity=(firdann~20110415_5569452__T22--1)
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(firdann~20110415_5569452__7126--1)
+8	gler	gle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	name=O
+9	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	8	obj	_	name=O
+10	til	til	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	komme	komme	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+13	heim	heim	ADP	_	_	12	compound:prt	_	SpaceAfter=No|name=O
+14	,	$,	PUNCT	_	_	18	punct	_	name=O
+15	og	og	CCONJ	_	_	18	cc	_	name=O
+16	at	at	SCONJ	_	_	18	mark	_	name=O
+17	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(firdann~20110415_5569452__7126--1)
+18	kjenner	kjenne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	name=O
+19	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	18	obj	_	name=O|Entity=(firdann~20110415_5569452__7126--1)
+20	trygge	trygg	ADJ	_	Degree=Pos|Number=Plur	18	xcomp	_	name=O
+21	med	med	ADP	_	_	24	case	_	name=O
+22	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	name=O|Entity=(firdann~20110415_5569452__336--1
+23	mellombelse	mellombels	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	24	amod	_	name=O
+24	rasvollen	rasvoll	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110415_5569452__336)
+25	.	$.	PUNCT	_	_	3	punct	_	name=O
+

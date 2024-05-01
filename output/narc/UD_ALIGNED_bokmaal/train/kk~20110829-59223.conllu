@@ -1,0 +1,1484 @@
+# newdoc id = kk~20110829-59223
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 011791
+# text = Det blodige Roma
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kk~20110829_59223__273045--1
+2	blodige	blodig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	Roma	Roma	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=kk~20110829_59223__273045)
+
+# sent_id = 011792
+# text = Roma er mer en storslåtte bygninger.
+1	Roma	Roma	PROPN	_	_	3	nsubj	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__273045--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	mer	mye	ADJ	_	Degree=Cmp	0	root	_	name=O
+4	en	enn	ADP	_	_	6	case	_	name=O
+5	storslåtte	storslått	ADJ	_	Degree=Pos|Number=Plur	6	amod	_	name=O|Entity=(kk~20110829_59223__T3--1
+6	bygninger	bygning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T3)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 011793
+# text = Byen har også en mørk historie med bombeattentater og drap.
+1	Byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(kk~20110829_59223__273045--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kk~20110829_59223__T5--1
+5	mørk	mørk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	historie	historie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+7	med	med	ADP	_	_	8	case	_	name=O
+8	bombeattentater	bombeattentat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	name=O|Entity=(kk~20110829_59223__T6--1(kk~20110829_59223__T7--1)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	drap	drap	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	conj	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T8--1)kk~20110829_59223__T6)kk~20110829_59223__T5)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011794
+# text = Vold:
+1	Vold	vold	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T9--1)
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# newpar
+# sent_id = 011795
+# text = Romas voldelige historie fra 1970-tallet er fortsatt en del av den politiske debatten i Italia, hever Simen Ekern.
+1	Romas	Roma	PROPN	_	Case=Gen	3	nmod	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__T11--1(kk~20110829_59223__273045--1)
+2	voldelige	voldelig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	historie	historie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	nsubj	_	name=O
+4	fra	fra	ADP	_	_	5	case	_	name=O
+5	1970-tallet	1970-tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(kk~20110829_59223__5222--1)kk~20110829_59223__T11)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+7	fortsatt	fortsatt	ADV	_	_	9	advmod	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kk~20110829_59223__T13--1
+9	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+10	av	av	ADP	_	_	13	case	_	name=O
+11	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	name=O|Entity=(kk~20110829_59223__T14--1
+12	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	debatten	debatt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=kk~20110829_59223__T14)kk~20110829_59223__T13)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Italia	Italia	PROPN	_	_	9	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110829_59223__61378--1)
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	hever	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	name=O
+18	Simen	Simen	PROPN	_	Gender=Masc	17	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__263498--1
+19	Ekern	Ekern	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kk~20110829_59223__263498)
+20	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 011796
+# text = - Jeg ville skildre det moderne Romas mørkere sider, sier forfatter og journalist Simen Ekern.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(kk~20110829_59223__263498--1)
+3	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	skildre	skildre	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(kk~20110829_59223__T19--1(kk~20110829_59223__273045--1
+6	moderne	moderne	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	Romas	Roma	PROPN	_	Case=Gen	9	nmod	_	name=B-GPE_LOC|Entity=kk~20110829_59223__273045)
+8	mørkere	mørk	ADJ	_	Degree=Cmp	9	amod	_	name=O
+9	sider	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T19)
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+12	forfatter	forfatter	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nmod	_	name=O|Entity=(kk~20110829_59223__263498--1(kk~20110829_59223__T20--1
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	journalist	journalist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	conj	_	name=O|Entity=(kk~20110829_59223__T21--1)kk~20110829_59223__T20)
+15	Simen	Simen	PROPN	_	Gender=Masc	11	nsubj	_	name=B-PER
+16	Ekern	Ekern	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kk~20110829_59223__263498)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011797
+# text = I si nye bok om den italienske hovedstaden skildrer han de brutale politiske begivenhetene som preget Roma på 1970-tallet.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(kk~20110829_59223__3163--1(kk~20110829_59223__263498--1)
+3	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	bok	bok	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	name=O
+5	om	om	ADP	_	_	8	case	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(kk~20110829_59223__273045--1
+7	italienske	italiensk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	hovedstaden	hovedstad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=kk~20110829_59223__273045)kk~20110829_59223__3163)
+9	skildrer	skildre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(kk~20110829_59223__263498--1)
+11	de	de	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(kk~20110829_59223__4274--1
+12	brutale	brutal	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+13	politiske	politisk	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	begivenhetene	begivenhet	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	9	obj	_	name=O
+15	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+16	preget	prege	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	name=O
+17	Roma	Roma	PROPN	_	_	16	obj	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__273045--1)
+18	på	på	ADP	_	_	19	case	_	name=O
+19	1970-tallet	1970-tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__5222--1)kk~20110829_59223__4274)
+20	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 011798
+# text = På den tida herjet blant annet den venstreekstremistiske grupperingen De røde brigader.
+1	På	på	ADP	_	_	3	case	_	name=O
+2	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kk~20110829_59223__5222--1
+3	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	obl	_	name=O|Entity=kk~20110829_59223__5222)
+4	herjet	herje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	blant	blant	ADP	_	_	6	case	_	name=O
+6	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	4	obl	_	name=O
+7	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	name=O|Entity=(kk~20110829_59223__265--1(kk~20110829_59223__T31--1
+8	venstreekstremistiske	venstreekstremistisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	grupperingen	gruppering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=kk~20110829_59223__T31)
+10	De	De	PROPN	_	_	4	nsubj	_	name=B-ORG
+11	røde	rød	ADJ	_	Degree=Pos|Number=Plur	10	flat:name	_	name=I-ORG
+12	brigader	brigade	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=kk~20110829_59223__265)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011799
+# text = De sto bak kidnappingen og drapet på politikeren Aldo Moro, som ble et symbol på de blodige handlingene.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110829_59223__265--1)
+2	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	bak	bak	ADP	_	_	4	case	_	name=O
+4	kidnappingen	kidnapping	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(kk~20110829_59223__T34--1(kk~20110829_59223__T35--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	drapet	drap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	conj	_	name=O|Entity=(kk~20110829_59223__T36--1
+7	på	på	ADP	_	_	9	case	_	name=O
+8	politikeren	politiker	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(kk~20110829_59223__T37--1
+9	Aldo	Aldo	PROPN	_	_	6	nmod	_	name=B-PER
+10	Moro	Moro	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kk~20110829_59223__T37)
+11	,	$,	PUNCT	_	_	13	punct	_	name=O
+12	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+13	ble	bli	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	name=O
+14	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(kk~20110829_59223__T38--1
+15	symbol	symbol	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	xcomp	_	name=O
+16	på	på	ADP	_	_	19	case	_	name=O
+17	de	de	DET	_	Number=Plur|PronType=Dem	19	det	_	name=O|Entity=(kk~20110829_59223__4274--1
+18	blodige	blodig	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O
+19	handlingene	handling	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__4274)kk~20110829_59223__T38)kk~20110829_59223__T36)kk~20110829_59223__T34)
+20	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011800
+# text = Et annet Roma
+1	Et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(kk~20110829_59223__T40--1
+2	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O
+3	Roma	Roma	PROPN	_	_	0	root	_	name=B-GPE_LOC|Entity=kk~20110829_59223__T40)
+
+# sent_id = 011801
+# text = - Jeg kunne selvsagt ha skrevet en bok hvor jeg trakk de lengste linjene til «Den evige stad».
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(kk~20110829_59223__263498--1)
+3	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	name=O
+4	selvsagt	selvsagt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+5	ha	ha	AUX	_	VerbForm=Inf	6	aux	_	name=O
+6	skrevet	skrive	VERB	_	VerbForm=Part	0	root	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kk~20110829_59223__T42--1
+8	bok	bok	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O
+9	hvor	hvor	ADV	_	_	11	advmod	_	name=O
+10	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	name=O|Entity=(kk~20110829_59223__263498--1)
+11	trakk	trekke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	name=O
+12	de	de	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(kk~20110829_59223__T44--1
+13	lengste	lang	ADJ	_	Definite=Def|Degree=Sup	14	amod	_	name=O
+14	linjene	linje	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	11	obj	_	name=O|Entity=kk~20110829_59223__T44)
+15	til	til	ADP	_	_	19	case	_	name=O
+16	«	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__273045--1
+17	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	name=B-GPE_LOC
+18	evige	evig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=I-GPE_LOC
+19	stad	stad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=I-GPE_LOC
+20	»	$"	PUNCT	_	_	19	punct	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__273045)kk~20110829_59223__T42)
+21	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 011802
+# text = Men jeg hadde et ønske om å nøste opp noen av de politiske mysteriene som preger byen i dag.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110829_59223__263498--1)
+3	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kk~20110829_59223__T47--1
+5	ønske	ønske	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O
+6	om	om	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	nøste	nøste	VERB	_	VerbForm=Inf	5	acl	_	name=O
+9	opp	opp	ADP	_	_	8	compound:prt	_	name=O
+10	noen	noen	DET	_	Number=Plur|PronType=Ind	8	obj	_	name=O
+11	av	av	ADP	_	_	14	case	_	name=O
+12	de	de	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(kk~20110829_59223__T48--1
+13	politiske	politisk	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	mysteriene	mysterium	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	10	nmod	_	name=O
+15	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+16	preger	prege	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	name=O
+17	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obj	_	name=O|Entity=(kk~20110829_59223__273045--1)
+18	i	i	ADP	_	_	19	case	_	name=O
+19	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T50--1)kk~20110829_59223__T48)kk~20110829_59223__T47)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011803
+# text = Og da måtte jeg løfte fram de øverste lagene i Romas mangfoldige historie.
+1	Og	og	CCONJ	_	_	5	cc	_	name=O
+2	da	da	ADV	_	_	5	advmod	_	name=O
+3	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+4	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(kk~20110829_59223__263498--1)
+5	løfte	løfte	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	fram	fram	ADP	_	_	5	compound:prt	_	name=O
+7	de	de	DET	_	Number=Plur|PronType=Dem	9	det	_	name=O|Entity=(kk~20110829_59223__2109--1
+8	øverste	øvre	ADJ	_	Definite=Def|Degree=Sup	9	amod	_	name=O
+9	lagene	lag	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	obj	_	name=O
+10	i	i	ADP	_	_	13	case	_	name=O
+11	Romas	Roma	PROPN	_	Case=Gen	13	nmod	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__T54--1(kk~20110829_59223__273045--1)
+12	mangfoldige	mangfoldig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	historie	historie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T54)kk~20110829_59223__2109)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011804
+# text = Og 1970-tallet er et svært sentralt tiår i denne sammenhengen.
+1	Og	og	CCONJ	_	_	7	cc	_	name=O
+2	1970-tallet	1970-tall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=(kk~20110829_59223__5222--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kk~20110829_59223__T56--1
+5	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	sentralt	sentral	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	name=O
+7	tiår	tiår	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=kk~20110829_59223__T56)
+8	i	i	ADP	_	_	10	case	_	name=O
+9	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(kk~20110829_59223__2109--1
+10	sammenhengen	sammenheng	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__2109)
+11	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 011805
+# text = Boka er både en reiseskildring og et politisk essay.
+1	Boka	bok	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=(kk~20110829_59223__3163--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	både	både	CCONJ	_	_	5	cc	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kk~20110829_59223__T59--1(kk~20110829_59223__T60--1
+5	reiseskildring	reiseskildring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=kk~20110829_59223__T60)
+6	og	og	CCONJ	_	_	9	cc	_	name=O
+7	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kk~20110829_59223__T61--1
+8	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	name=O
+9	essay	essay	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T61)kk~20110829_59223__T59)
+10	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011806
+# text = Ekern forteller at det var nødvendig å bruke begge sjangrene for å si noe vesentlig om byen han er så fascinert av:
+1	Ekern	Ekern	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__263498--1)
+2	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	6	mark	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+5	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+6	nødvendig	nødvendig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	bruke	bruke	VERB	_	VerbForm=Inf	6	csubj	_	name=O
+9	begge	begge	DET	_	Number=Plur|PronType=Tot	10	det	_	name=O|Entity=(kk~20110829_59223__T63--1
+10	sjangrene	sjanger	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obj	_	name=O|Entity=kk~20110829_59223__T63)
+11	for	for	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	si	si	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+14	noe	noen	DET	_	Gender=Neut|Number=Sing|PronType=Ind	15	det	_	name=O
+15	vesentlig	vesentlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	obj	_	name=O
+16	om	om	ADP	_	_	17	case	_	name=O
+17	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(kk~20110829_59223__273045--1
+18	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(kk~20110829_59223__263498--1)
+19	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+20	så	så	ADV	_	_	21	advmod	_	name=O
+21	fascinert	fascinere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	17	acl:relcl	_	name=O
+22	av	av	ADP	_	_	21	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__273045)
+23	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011807
+# text = - For mange er Roma ensbetydende med Colosseum, Spansketrappen og Pantheon.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	For	for	ADP	_	_	3	case	_	name=O
+3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	6	advmod	_	name=O|Entity=(kk~20110829_59223__T66--1)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	Roma	Roma	PROPN	_	_	6	nsubj	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__273045--1)
+6	ensbetydende	ensbetydende	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+7	med	med	ADP	_	_	8	case	_	name=O
+8	Colosseum	Colosseum	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-LOC|Entity=(kk~20110829_59223__T68--1(kk~20110829_59223__T69--1
+9	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=kk~20110829_59223__T69)
+10	Spansketrappen	Spansketrappen	PROPN	_	_	8	conj	_	name=B-LOC|Entity=(kk~20110829_59223__T70--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	Pantheon	Pantheon	PROPN	_	_	8	conj	_	SpaceAfter=No|name=B-LOC|Entity=(kk~20110829_59223__T71--1)kk~20110829_59223__T68)
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 011808
+# text = Og Roma framstår ofte som en romantisk og koselig by med masse storslåtte bygninger og en gloriøs historie.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	Roma	Roma	PROPN	_	_	3	nsubj	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__273045--1)
+3	framstår	framstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ofte	ofte	ADJ	_	Degree=Pos	3	advmod	_	name=O
+5	som	som	SCONJ	_	_	10	mark	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kk~20110829_59223__T73--1
+7	romantisk	romantisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	koselig	koselig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	conj	_	name=O
+10	by	by	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	name=O
+11	med	med	ADP	_	_	14	case	_	name=O
+12	masse	masse	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O|Entity=(kk~20110829_59223__T74--1(kk~20110829_59223__T75--1
+13	storslåtte	storslått	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O
+14	bygninger	bygning	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	nmod	_	name=O|Entity=kk~20110829_59223__T75)
+15	og	og	CCONJ	_	_	18	cc	_	name=O
+16	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(kk~20110829_59223__T76--1
+17	gloriøs	gloriøs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	historie	historie	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T76)kk~20110829_59223__T74)kk~20110829_59223__T73)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011809
+# text = Jeg ønsket å få fram andre sider ved denne byen.
+1	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110829_59223__263498--1)
+2	ønsket	ønske	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	få	få	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	fram	fram	ADP	_	_	4	xcomp	_	name=O
+6	andre	annen	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(kk~20110829_59223__T78--1
+7	sider	side	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	name=O
+8	ved	ved	ADP	_	_	10	case	_	name=O
+9	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(kk~20110829_59223__273045--1
+10	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__273045)kk~20110829_59223__T78)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011810
+# text = -Det er blitt en ganske dyster bok?
+1	-	$-	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kk~20110829_59223__T80--1
+6	ganske	ganske	ADV	_	_	7	advmod	_	name=O
+7	dyster	dyster	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	bok	bok	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T80)
+9	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011811
+# text = - Nja, den slutter da ganske optimistisk.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Nja	nja	INTJ	_	_	5	discourse	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	2	punct	_	name=O
+4	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(kk~20110829_59223__3163--1)
+5	slutter	slutte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	da	da	ADV	_	_	5	advmod	_	name=O
+7	ganske	ganske	ADV	_	_	8	advmod	_	name=O
+8	optimistisk	optimistisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011812
+# text = Men skal man skrive om Romas skjønnhet, må man også skrive om de mørke sidene.
+1	Men	men	CCONJ	_	_	12	cc	_	name=O
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	4	nsubj	_	name=O|Entity=(kk~20110829_59223__T82--1)
+4	skrive	skrive	VERB	_	VerbForm=Inf	12	advcl	_	name=O
+5	om	om	ADP	_	_	7	case	_	name=O
+6	Romas	Roma	PROPN	_	Case=Gen	7	nmod	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__T84--1(kk~20110829_59223__273045--1)
+7	skjønnhet	skjønnhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T84)
+8	,	$,	PUNCT	_	_	4	punct	_	name=O
+9	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+10	man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	12	nsubj	_	name=O|Entity=(kk~20110829_59223__T85--1)
+11	også	også	ADV	_	_	12	advmod	_	name=O
+12	skrive	skrive	VERB	_	VerbForm=Inf	0	root	_	name=O
+13	om	om	ADP	_	_	16	case	_	name=O
+14	de	de	DET	_	Number=Plur|PronType=Dem	16	det	_	name=O|Entity=(kk~20110829_59223__T86--1
+15	mørke	mørk	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+16	sidene	side	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T86)
+17	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 011813
+# text = Det moderne Roma har ei ganske blodig og konfliktfylt fortid.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kk~20110829_59223__273045--1
+2	moderne	moderne	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	Roma	Roma	PROPN	_	_	4	nsubj	_	name=B-GPE_LOC|Entity=kk~20110829_59223__273045)
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	ei	en	DET	_	Gender=Fem|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kk~20110829_59223__T88--1
+6	ganske	ganske	ADV	_	_	7	advmod	_	name=O
+7	blodig	blodig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	konfliktfylt	konfliktfylt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	conj	_	name=O
+10	fortid	fortid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T88)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011814
+# text = Og det politiske livet i byen er fremdeles preget av si nære fortid.
+1	Og	og	CCONJ	_	_	9	cc	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	4	det	_	name=O|Entity=(kk~20110829_59223__T89--1
+3	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(kk~20110829_59223__273045--1)kk~20110829_59223__T89)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	fremdeles	fremdeles	ADV	_	_	9	advmod	_	name=O
+9	preget	prege	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+10	av	av	ADP	_	_	13	case	_	name=O
+11	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(kk~20110829_59223__T92--1(kk~20110829_59223__273045--1)
+12	nære	nære	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	fortid	fortid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T92)
+14	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 011815
+# text = -Det er en kamp om historien.
+1	-	$-	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(kk~20110829_59223__T93--1
+5	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+6	om	om	ADP	_	_	7	case	_	name=O
+7	historien	historie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T94--1)kk~20110829_59223__T93)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011816
+# text = Mange sentrale aktører fra dette tiåret har sluppet billig unna.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=(kk~20110829_59223__T95--1
+2	sentrale	sentral	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O
+3	aktører	aktør	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	name=O
+4	fra	fra	ADP	_	_	6	case	_	name=O
+5	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(kk~20110829_59223__5222--1
+6	tiåret	tiår	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=kk~20110829_59223__5222)kk~20110829_59223__T95)
+7	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	sluppet	slippe	VERB	_	VerbForm=Part	0	root	_	name=O
+9	billig	billig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+10	unna	unna	ADP	_	_	8	compound:prt	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 011817
+# text = Og enkelte hevder at ansvarsfordelingen er blitt pulverisert.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	3	nsubj	_	name=O|Entity=(kk~20110829_59223__T97--1)
+3	hevder	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	8	mark	_	name=O
+5	ansvarsfordelingen	ansvarsfordeling	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj:pass	_	name=O|Entity=(kk~20110829_59223__T98--1)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+7	blitt	bli	AUX	_	VerbForm=Part	8	aux:pass	_	name=O
+8	pulverisert	pulverisere	VERB	_	VerbForm=Part	3	ccomp	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011818
+# text = Og at de voldelige handlingene er blitt relativisert.
+1	Og	og	CCONJ	_	_	8	cc	_	name=O
+2	at	at	SCONJ	_	_	8	mark	_	name=O
+3	de	de	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(kk~20110829_59223__4274--1
+4	voldelige	voldelig	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	handlingene	handling	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	8	nsubj:pass	_	name=O|Entity=kk~20110829_59223__4274)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+7	blitt	bli	AUX	_	VerbForm=Part	8	aux:pass	_	name=O
+8	relativisert	relativisere	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 011819
+# text = Det finnes faktisk akademikere som har anbefalt en sannhetskommisjon som vi så i Sør-Afrika etter Apartheid-regimets fall, sier Ekern.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	finnes	finnes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	faktisk	faktisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+4	akademikere	akademiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(kk~20110829_59223__T100--1
+5	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	anbefalt	anbefale	VERB	_	VerbForm=Part	4	acl:relcl	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kk~20110829_59223__T101--1
+9	sannhetskommisjon	sannhetskommisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O
+10	som	som	PRON	_	PronType=Rel	12	obj	_	name=O
+11	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	name=O|Entity=(kk~20110829_59223__T102--1)
+12	så	se	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	Sør-Afrika	Sør-Afrika	PROPN	_	_	12	obl	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__T103--1)
+15	etter	etter	ADP	_	_	17	case	_	name=O
+16	Apartheid-regimets	Apartheid-regime	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	name=B-DRV|Entity=(kk~20110829_59223__T105--1(kk~20110829_59223__T104--1)
+17	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T105)kk~20110829_59223__T101)kk~20110829_59223__T100)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+20	Ekern	Ekern	PROPN	_	_	19	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kk~20110829_59223__263498--1)
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011820
+# text = Ekern forteller videre at det aldri er blitt foretatt en skikkelig oppvask etter de voldelige episodene.
+1	Ekern	Ekern	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__263498--1)
+2	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	videre	vid	ADJ	_	Degree=Cmp	2	advmod	_	name=O
+4	at	at	SCONJ	_	_	9	mark	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+6	aldri	aldri	ADV	_	_	9	advmod	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+8	blitt	bli	AUX	_	VerbForm=Part	9	aux:pass	_	name=O
+9	foretatt	foreta	VERB	_	VerbForm=Part	2	xcomp	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kk~20110829_59223__T108--1
+11	skikkelig	skikkelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	oppvask	oppvask	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	name=O|Entity=kk~20110829_59223__T108)
+13	etter	etter	ADP	_	_	16	case	_	name=O
+14	de	de	DET	_	Number=Plur|PronType=Dem	16	det	_	name=O|Entity=(kk~20110829_59223__4274--1
+15	voldelige	voldelig	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+16	episodene	episode	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__4274)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011821
+# text = - En av de mest kjente venstreekstremistene lever fremdeles i eksil i Brasil.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	nsubj	_	name=O|Entity=(kk~20110829_59223__4711--1
+3	av	av	ADP	_	_	7	case	_	name=O
+4	de	de	DET	_	Number=Plur|PronType=Dem	7	det	_	name=O|Entity=(kk~20110829_59223__T110--1
+5	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	6	advmod	_	name=O
+6	kjente	kjent	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O
+7	venstreekstremistene	venstreekstremist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	name=O|Entity=kk~20110829_59223__T110)kk~20110829_59223__4711)
+8	lever	leve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	fremdeles	fremdeles	ADV	_	_	8	advmod	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	eksil	eksil	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=(kk~20110829_59223__T111--1)
+12	i	i	ADP	_	_	13	case	_	name=O
+13	Brasil	Brasil	PROPN	_	_	8	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110829_59223__T112--1)
+14	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 011822
+# text = Hans tilhengere, kjente mennesker i mange land, mener han er uskyldig.
+1	Hans	hans	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	2	nmod	_	name=O|Entity=(kk~20110829_59223__T114--1(kk~20110829_59223__4711--1)
+2	tilhengere	tilhenger	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	5	punct	_	name=O
+4	kjente	kjent	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O|Entity=(kk~20110829_59223__T115--1
+5	mennesker	menneske	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	appos	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	mange	mange	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(kk~20110829_59223__T116--1
+8	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T116)
+9	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=kk~20110829_59223__T115)kk~20110829_59223__T114)
+10	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(kk~20110829_59223__4711--1)
+12	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	name=O
+13	uskyldig	uskyldig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	ccomp	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 011823
+# text = Mange italienere mener han må sendes tilbake til Italia for å la det italienske rettsvesenet gjøre jobben sin.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(kk~20110829_59223__T118--1
+2	italienere	italiener	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=kk~20110829_59223__T118)
+3	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	name=O|Entity=(kk~20110829_59223__4711--1)
+5	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	sendes	sende	VERB	_	VerbForm=Inf|Voice=Pass	3	ccomp	_	name=O
+7	tilbake	tilbake	ADP	_	_	9	case	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	Italia	Italia	PROPN	_	_	6	obl	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__61378--1)
+10	for	for	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	la	la	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+13	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(kk~20110829_59223__2244--1
+14	italienske	italiensk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	rettsvesenet	rettsvesen	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	iobj	_	name=O|Entity=kk~20110829_59223__2244)
+16	gjøre	gjøre	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+17	jobben	jobb	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obj	_	name=O|Entity=(kk~20110829_59223__T122--1
+18	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__2244--1)kk~20110829_59223__T122)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011824
+# text = Det er også folk innen det italienske statsapparatet som har litt å svare for, men de er nok ikke i tilstrekkelig grad blitt konfrontert med sine handlinger.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	nsubj	_	name=O|Entity=(kk~20110829_59223__T124[1/2]--1)
+5	innen	innen	ADP	_	_	8	case	_	name=O
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(kk~20110829_59223__3379--1
+7	italienske	italiensk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	statsapparatet	statsapparat	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=kk~20110829_59223__3379)
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O|Entity=(kk~20110829_59223__T124[2/2]--1
+10	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+11	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	obj	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	svare	svare	VERB	_	VerbForm=Inf	11	acl	_	name=O
+14	for	for	ADP	_	_	13	compound:prt	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T124[2/2])
+15	,	$,	PUNCT	_	_	25	punct	_	name=O
+16	men	men	CCONJ	_	_	25	cc	_	name=O
+17	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj:pass	_	name=O|Entity=(kk~20110829_59223__3379--1)
+18	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+19	nok	nok	ADV	_	_	25	advmod	_	name=O
+20	ikke	ikke	PART	_	Polarity=Neg	25	advmod	_	name=O
+21	i	i	ADP	_	_	23	case	_	name=O
+22	tilstrekkelig	tilstrekkelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	23	amod	_	name=O|Entity=(kk~20110829_59223__T127--1
+23	grad	grad	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obl	_	name=O|Entity=kk~20110829_59223__T127)
+24	blitt	bli	AUX	_	VerbForm=Part	25	aux:pass	_	name=O
+25	konfrontert	konfrontere	VERB	_	VerbForm=Part	2	conj	_	name=O
+26	med	med	ADP	_	_	28	case	_	name=O
+27	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	28	nmod	_	name=O|Entity=(kk~20110829_59223__T129--1(kk~20110829_59223__3379--1)
+28	handlinger	handling	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T129)
+29	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011825
+# text = Man har heller ikke funnet gjerningsmennene bak mange attentater.
+1	Man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	5	nsubj	_	name=O|Entity=(kk~20110829_59223__T130--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	heller	heller	ADV	_	_	5	advmod	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	funnet	finne	VERB	_	VerbForm=Part	0	root	_	name=O
+6	gjerningsmennene	gjerningsmann	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	obj	_	name=O|Entity=(kk~20110829_59223__T131--1
+7	bak	bak	ADP	_	_	9	case	_	name=O
+8	mange	mange	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O|Entity=(kk~20110829_59223__T132--1
+9	attentater	attentat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T132)kk~20110829_59223__T131)
+10	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011826
+# text = Med flere slike uoppklarte saker, er det vanskelig å komme videre.
+1	Med	med	SCONJ	_	_	5	mark	_	name=O
+2	flere	mange	ADJ	_	Degree=Cmp	5	amod	_	name=O|Entity=(kk~20110829_59223__T133--1
+3	slike	slik	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O
+4	uoppklarte	uoppklart	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	saker	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	xcomp	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T133)
+6	,	$,	PUNCT	_	_	5	punct	_	name=O
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+9	vanskelig	vanskelig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	komme	komme	VERB	_	VerbForm=Inf	9	csubj	_	name=O
+12	videre	vid	ADJ	_	Degree=Cmp	11	advmod	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 011827
+# text = Fascismen vender tilbake
+1	Fascismen	fascisme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(kk~20110829_59223__2271--1)
+2	vender	vende	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	tilbake	tilbake	ADP	_	_	2	compound:prt	_	name=O
+
+# sent_id = 011828
+# text = Ekern trekker også fram arven fra fascismen som et av de områdene hvor den nære historien fortsatt spiller en viktig rolle.
+1	Ekern	Ekern	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__263498--1)
+2	trekker	trekke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	fram	fram	ADP	_	_	2	compound:prt	_	name=O
+5	arven	arv	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(kk~20110829_59223__2279--1
+6	fra	fra	ADP	_	_	7	case	_	name=O
+7	fascismen	fascisme	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(kk~20110829_59223__2271--1)kk~20110829_59223__2279)
+8	som	som	SCONJ	_	_	9	mark	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	2	xcomp	_	name=O
+10	av	av	ADP	_	_	12	case	_	name=O
+11	de	de	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(kk~20110829_59223__T138--1
+12	områdene	område	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	nmod	_	name=O
+13	hvor	hvor	ADV	_	_	18	advmod	_	name=O
+14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(kk~20110829_59223__T139--1
+15	nære	nær	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	historien	historie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	name=O|Entity=kk~20110829_59223__T139)
+17	fortsatt	fortsatt	ADV	_	_	18	advmod	_	name=O
+18	spiller	spille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(kk~20110829_59223__T140--1
+20	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	rolle	rolle	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T140)kk~20110829_59223__T138)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011829
+# text = Han har snakket flere personer som bærer på den fascistiske arven.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110829_59223__263498--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	snakket	snakke	VERB	_	VerbForm=Part	0	root	_	name=O
+4	flere	mange	ADJ	_	Degree=Cmp	5	amod	_	name=O|Entity=(kk~20110829_59223__T142--1
+5	personer	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	bærer	bære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	name=O
+8	på	på	ADP	_	_	11	case	_	name=O
+9	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(kk~20110829_59223__2279--1
+10	fascistiske	fascistisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	arven	arv	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__2279)kk~20110829_59223__T142)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011830
+# text = Av det mer kuriøse slaget er en nostalgiker som bærer øredobber med bilde av diktatoren Benito Mussolini.
+1	Av	av	ADP	_	_	5	case	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(kk~20110829_59223__T144--1
+3	mer	mye	ADJ	_	Degree=Cmp	4	advmod	_	name=O
+4	kuriøse	kuriøs	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	slaget	slag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=kk~20110829_59223__T144)
+6	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kk~20110829_59223__T145--1
+8	nostalgiker	nostalgiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O
+9	som	som	PRON	_	PronType=Rel	10	nsubj	_	name=O
+10	bærer	bære	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+11	øredobber	øredobb	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	obj	_	name=O|Entity=(kk~20110829_59223__T146--1
+12	med	med	ADP	_	_	13	case	_	name=O
+13	bilde	bilde	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(kk~20110829_59223__T147--1
+14	av	av	ADP	_	_	16	case	_	name=O
+15	diktatoren	diktator	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(kk~20110829_59223__T148--1
+16	Benito	Benito	PROPN	_	_	13	nmod	_	name=B-PER
+17	Mussolini	Mussolini	PROPN	_	_	16	flat:name	_	SpaceAfter=No|name=I-PER|Entity=kk~20110829_59223__T148)kk~20110829_59223__T147)kk~20110829_59223__T146)kk~20110829_59223__T145)
+18	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011831
+# text = Men Ekern har også intervjuet lederen for en gruppering kalt «Romas folk», noe som kanskje representerer noe som er mer bekymringsverdig.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	Ekern	Ekern	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__263498--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	også	også	ADV	_	_	5	advmod	_	name=O
+5	intervjuet	intervjue	VERB	_	VerbForm=Part	0	root	_	name=O
+6	lederen	leder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obj	_	name=O|Entity=(kk~20110829_59223__T150--1
+7	for	for	ADP	_	_	9	case	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(kk~20110829_59223__T151--1(kk~20110829_59223__61257--1
+9	gruppering	gruppering	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nmod	_	name=O
+10	kalt	kalle	VERB	_	VerbForm=Part	9	acl:relcl	_	name=O
+11	«	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T153--1
+12	Romas	Roma	PROPN	_	Case=Gen	13	nmod	_	name=B-ORG|Entity=(kk~20110829_59223__T152--1)
+13	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No|name=I-ORG
+14	»	$"	PUNCT	_	_	13	punct	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T153)kk~20110829_59223__61257)
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	9	appos	_	name=O|Entity=(kk~20110829_59223__T154--1
+17	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+18	kanskje	kanskje	ADV	_	_	19	advmod	_	name=O
+19	representerer	representere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	name=O
+20	noe	noe	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	19	obj	_	name=O|Entity=(kk~20110829_59223__T155--1
+21	som	som	PRON	_	PronType=Rel	24	nsubj	_	name=O
+22	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	24	cop	_	name=O
+23	mer	mye	ADJ	_	Degree=Cmp	24	advmod	_	name=O
+24	bekymringsverdig	bekymringsverdig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	acl:relcl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T155)kk~20110829_59223__T154)kk~20110829_59223__T151)kk~20110829_59223__T150)
+25	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011832
+# text = Denne bevegelsen har sitt utspring i tribunene på Stadio Olympico i Roma.
+1	Denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	name=O|Entity=(kk~20110829_59223__61257--1
+2	bevegelsen	bevegelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=kk~20110829_59223__61257)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	sitt	sin	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	_	name=O|Entity=(kk~20110829_59223__T158--1(kk~20110829_59223__61257--1)
+5	utspring	utspring	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=kk~20110829_59223__T158)
+6	i	i	SCONJ	_	_	7	mark	_	name=O
+7	tribunene	tribune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	xcomp	_	name=O|Entity=(kk~20110829_59223__T159--1
+8	på	på	ADP	_	_	9	case	_	name=O
+9	Stadio	Stadio	PROPN	_	_	7	nmod	_	name=B-LOC|Entity=(kk~20110829_59223__T160--1
+10	Olympico	Olympico	PROPN	_	_	9	flat:name	_	name=I-LOC
+11	i	i	ADP	_	_	12	case	_	name=O
+12	Roma	Roma	PROPN	_	_	9	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110829_59223__273045--1)kk~20110829_59223__T160)kk~20110829_59223__T159)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011833
+# text = «Romas folk» og den mer innflytelsesrike «Casa Pound» rekrutterer sine medlemmer blant fotballhooligans og arbeidsledige.
+1	«	$"	PUNCT	_	_	3	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__5862--1(kk~20110829_59223__61257--1
+2	Romas	Roma	PROPN	_	Case=Gen	3	nmod	_	name=B-ORG|Entity=(kk~20110829_59223__T162--1)
+3	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	nsubj	_	SpaceAfter=No|name=I-ORG
+4	»	$"	PUNCT	_	_	3	punct	_	name=O|Entity=kk~20110829_59223__61257)
+5	og	og	CCONJ	_	_	10	cc	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	name=O|Entity=(kk~20110829_59223__T165--1
+7	mer	mye	ADJ	_	Degree=Cmp	8	advmod	_	name=O
+8	innflytelsesrike	innflytelsesrik	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	10	amod	_	name=O
+9	«	$"	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O
+10	Casa	Casa	PROPN	_	_	3	conj	_	name=B-ORG
+11	Pound	Pound	PROPN	_	_	10	flat:name	_	SpaceAfter=No|name=I-ORG
+12	»	$"	PUNCT	_	_	10	punct	_	name=O|Entity=kk~20110829_59223__T165)kk~20110829_59223__5862)
+13	rekrutterer	rekruttere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+14	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	15	nmod	_	name=O|Entity=(kk~20110829_59223__T167--1(kk~20110829_59223__5862--1)
+15	medlemmer	medlem	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obj	_	name=O|Entity=kk~20110829_59223__T167)
+16	blant	blant	ADP	_	_	17	case	_	name=O
+17	fotballhooligans	fotballhooligan	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	obl	_	name=O|Entity=(kk~20110829_59223__T168--1(kk~20110829_59223__T169--1)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	arbeidsledige	arbeidsledig	ADJ	_	Degree=Pos|Number=Plur	17	conj	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T170--1)kk~20110829_59223__T168)
+20	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# sent_id = 011834
+# text = - De snakker om identitet, Europas storhet og advarer mot tendenser til islamisering.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110829_59223__5862--1)
+3	snakker	snakke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	om	om	ADP	_	_	5	case	_	name=O
+5	identitet	identitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T172--1(kk~20110829_59223__T173--1
+6	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=kk~20110829_59223__T173)
+7	Europas	Europa	PROPN	_	Case=Gen	8	nmod	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__T175--1(kk~20110829_59223__3623--1)
+8	storhet	storhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	name=O|Entity=kk~20110829_59223__T175)kk~20110829_59223__T172)
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	advarer	advare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+11	mot	mot	ADP	_	_	12	case	_	name=O
+12	tendenser	tendens	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	name=O|Entity=(kk~20110829_59223__T176--1
+13	til	til	ADP	_	_	14	case	_	name=O
+14	islamisering	islamisering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T177--1)kk~20110829_59223__T176)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011835
+# text = I tillegg beskylder de 68-generasjonen for å ha relativisert grunnleggende europeiske verdier.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(kk~20110829_59223__T178--1)
+3	beskylder	beskylde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110829_59223__5862--1)
+5	68-generasjonen	68-generasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(kk~20110829_59223__T180--1)
+6	for	for	SCONJ	_	_	9	mark	_	name=O
+7	å	å	PART	_	_	9	mark	_	name=O
+8	ha	ha	AUX	_	VerbForm=Inf	9	aux	_	name=O
+9	relativisert	relativisere	VERB	_	VerbForm=Part	3	advcl	_	name=O
+10	grunnleggende	grunnleggende	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(kk~20110829_59223__T181--1
+11	europeiske	europeisk	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	verdier	verdi	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T181)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011836
+# text = Sjargongen de bruker er svært litt den vi treffer på hos høyreekstreme i andre land.
+1	Sjargongen	sjargong	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=(kk~20110829_59223__T182--1
+2	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110829_59223__5862--1)
+3	bruker	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O|Entity=kk~20110829_59223__T182)
+4	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+6	litt	lik	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+7	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	name=O|Entity=(kk~20110829_59223__T184--1
+8	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	name=O|Entity=(kk~20110829_59223__T185--1)
+9	treffer	treffe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	name=O
+10	på	på	ADP	_	_	9	compound:prt	_	name=O
+11	hos	hos	ADP	_	_	12	case	_	name=O
+12	høyreekstreme	høyreekstrem	ADJ	_	Degree=Pos|Number=Plur	9	advmod	_	name=O|Entity=(kk~20110829_59223__T186--1)
+13	i	i	ADP	_	_	15	case	_	name=O
+14	andre	annen	DET	_	Number=Plur|PronType=Dem	15	det	_	name=O|Entity=(kk~20110829_59223__T187--1
+15	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T187)kk~20110829_59223__T184)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 011837
+# text = Ikke minst tanken om at Europa er ved et vendepunkt.
+1	Ikke	ikke	PART	_	Polarity=Neg	2	advmod	_	name=O|Entity=(kk~20110829_59223__T188--1
+2	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	3	advmod	_	name=O
+3	tanken	tanke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O
+4	om	om	SCONJ	_	_	10	mark	_	name=O
+5	at	at	SCONJ	_	_	10	mark	_	name=O
+6	Europa	Europa	PROPN	_	_	10	nsubj	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__3623--1)
+7	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+8	ved	ved	SCONJ	_	_	10	mark	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kk~20110829_59223__T190--1
+10	vendepunkt	vendepunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	acl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T190)kk~20110829_59223__T188)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011838
+# text = Denne politiske retorikken blir krydret med romersk mytologi, hevder Ekern.
+1	Denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kk~20110829_59223__T191--1
+2	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	retorikken	retorikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj:pass	_	name=O|Entity=kk~20110829_59223__T191)
+4	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	name=O
+5	krydret	krydre	VERB	_	VerbForm=Part	0	root	_	name=O
+6	med	med	ADP	_	_	8	case	_	name=O
+7	romersk	romersk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O|Entity=(kk~20110829_59223__T192--1
+8	mytologi	mytologi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T192)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	hevder	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+11	Ekern	Ekern	PROPN	_	_	10	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kk~20110829_59223__263498--1)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011839
+# text = For å belyse hvordan «Romas folk» markerer en politisk klimaskifte, viser Ekern til de to store fotballklubbene i Roma, nemlig Lazio og Roma.
+1	For	for	SCONJ	_	_	3	mark	_	name=O
+2	å	å	PART	_	_	3	mark	_	name=O
+3	belyse	belyse	VERB	_	VerbForm=Inf	14	advcl	_	name=O
+4	hvordan	hvordan	ADV	_	_	9	advmod	_	name=O
+5	«	$"	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__61257--1
+6	Romas	Roma	PROPN	_	Case=Gen	7	nmod	_	name=B-ORG|Entity=(kk~20110829_59223__T194--1)
+7	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	SpaceAfter=No|name=I-ORG
+8	»	$"	PUNCT	_	_	7	punct	_	name=O|Entity=kk~20110829_59223__61257)
+9	markerer	markere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kk~20110829_59223__T196--1
+11	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	name=O
+12	klimaskifte	klimaskifte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T196)
+13	,	$,	PUNCT	_	_	9	punct	_	name=O
+14	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+15	Ekern	Ekern	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__263498--1)
+16	til	til	ADP	_	_	25	case	_	name=O
+17	de	de	DET	_	Number=Plur|PronType=Dem	20	det	_	name=O|Entity=(kk~20110829_59223__T200--1(kk~20110829_59223__T201--1(kk~20110829_59223__T198--1
+18	to	to	NUM	_	Number=Plur|NumType=Card	20	nummod	_	name=O
+19	store	stor	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O
+20	fotballklubbene	fotballklubb	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	25	nmod	_	name=O
+21	i	i	ADP	_	_	22	case	_	name=O
+22	Roma	Roma	PROPN	_	_	20	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110829_59223__273045--1)
+23	,	$,	PUNCT	_	_	20	punct	_	name=O|Entity=kk~20110829_59223__T198)
+24	nemlig	nemlig	ADV	_	_	25	advmod	_	name=O
+25	Lazio	Lazio	PROPN	_	_	14	obl	_	name=B-ORG|Entity=(kk~20110829_59223__2567--1)kk~20110829_59223__T201)
+26	og	og	CCONJ	_	_	27	cc	_	name=O
+27	Roma	Roma	PROPN	_	_	25	conj	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110829_59223__2410--1)kk~20110829_59223__T200)
+28	.	$.	PUNCT	_	_	14	punct	_	name=O
+
+# sent_id = 011840
+# text = -Før var det slik at Lazio var på høyresida i det politiske landskapet.
+1	-	$-	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+2	Før	før	ADP	_	_	5	obl	_	name=O
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	slik	slik	ADV	_	_	0	root	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	Lazio	Lazio	PROPN	_	_	8	nsubj	_	name=B-ORG|Entity=(kk~20110829_59223__2567--1)
+8	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	høyresida	høyreside	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	obl	_	name=O|Entity=(kk~20110829_59223__T204--1
+11	i	i	ADP	_	_	14	case	_	name=O
+12	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	14	det	_	name=O|Entity=(kk~20110829_59223__T205--1
+13	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	landskapet	landskap	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T205)kk~20110829_59223__T204)
+15	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011841
+# text = Folk på venstresida holdt med Roma.
+1	Folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=(kk~20110829_59223__T206--1
+2	på	på	ADP	_	_	3	case	_	name=O
+3	venstresida	venstreside	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	name=O|Entity=(kk~20110829_59223__T207--1)kk~20110829_59223__T206)
+4	holdt	holde	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	Roma	Roma	PROPN	_	_	4	obl	_	SpaceAfter=No|name=B-ORG|Entity=(kk~20110829_59223__2410--1)
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011842
+# text = Nå er disse tradisjonelle skillelinjene visket ut, uttaler han.
+1	Nå	nå	ADV	_	_	6	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	disse	disse	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(kk~20110829_59223__T209--1
+4	tradisjonelle	tradisjonell	ADJ	_	Degree=Pos|Number=Plur	5	amod	_	name=O
+5	skillelinjene	skillelinje	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	nsubj	_	name=O|Entity=kk~20110829_59223__T209)
+6	visket	viske	VERB	_	VerbForm=Part	0	root	_	name=O
+7	ut	ut	ADP	_	_	6	compound:prt	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	9	punct	_	name=O
+9	uttaler	uttale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+10	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__263498--1)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 011843
+# text = Ekern forteller videre om hvordan høyredreiningen på tribunene er blitt mer og mer tydelig.
+1	Ekern	Ekern	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__263498--1)
+2	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	videre	vid	ADJ	_	Degree=Cmp	2	advmod	_	name=O
+4	om	om	SCONJ	_	_	10	mark	_	name=O
+5	hvordan	hvordan	ADV	_	_	10	advmod	_	name=O
+6	høyredreiningen	høyredreining	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(kk~20110829_59223__T212--1
+7	på	på	ADP	_	_	8	case	_	name=O
+8	tribunene	tribune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	name=O|Entity=(kk~20110829_59223__T213--1)kk~20110829_59223__T212)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	blitt	bli	VERB	_	VerbForm=Part	2	advcl	_	name=O
+11	mer	mye	ADJ	_	Degree=Cmp	14	advmod	_	name=O
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	mer	mye	ADJ	_	Degree=Cmp	11	conj	_	name=O
+14	tydelig	tydelig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	xcomp	_	SpaceAfter=No|name=O
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011844
+# text = - Nå er det dagligdags å hilse med strak arm og åpen hånd i Lazio-svingen, altså en klassisk fascisthilsen.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Nå	nå	ADV	_	_	5	advmod	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	dagligdags	dagligdags	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	hilse	hilse	VERB	_	VerbForm=Inf	5	csubj	_	name=O
+8	med	med	ADP	_	_	10	case	_	name=O
+9	strak	strak	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O|Entity=(kk~20110829_59223__T214--1(kk~20110829_59223__T215--1
+10	arm	arm	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=kk~20110829_59223__T215)
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	åpen	åpen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(kk~20110829_59223__T216--1
+13	hånd	hånd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	conj	_	name=O|Entity=kk~20110829_59223__T216)kk~20110829_59223__T214)
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Lazio-svingen	Lazio-sving	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=B-DRV|Entity=(kk~20110829_59223__T217--1)
+16	,	$,	PUNCT	_	_	15	punct	_	name=O
+17	altså	altså	ADV	_	_	20	advmod	_	name=O|Entity=(kk~20110829_59223__T218--1
+18	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O
+19	klassisk	klassisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	name=O
+20	fascisthilsen	fascisthilsen	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T218)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011845
+# text = Det skjer også fordi grupper som «Romas folk» er med på å legitimere en slik symbolikk.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110829_59223__T219--1)
+2	skjer	skje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	fordi	fordi	SCONJ	_	_	12	mark	_	name=O
+5	grupper	gruppe	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	12	nsubj	_	name=O|Entity=(kk~20110829_59223__2444--1
+6	som	som	ADP	_	_	9	case	_	name=O
+7	«	$"	PUNCT	_	_	9	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__61257--1
+8	Romas	Roma	PROPN	_	Case=Gen	9	nmod	_	name=B-ORG|Entity=(kk~20110829_59223__T221--1)
+9	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|name=I-ORG
+10	»	$"	PUNCT	_	_	9	punct	_	name=O|Entity=kk~20110829_59223__61257)kk~20110829_59223__2444)
+11	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+12	med	med	ADP	_	_	2	advcl	_	name=O
+13	på	på	SCONJ	_	_	15	mark	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	legitimere	legitimere	VERB	_	VerbForm=Inf	12	advcl	_	name=O
+16	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(kk~20110829_59223__T223--1
+17	slik	slik	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	name=O
+18	symbolikk	symbolikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T223)
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011846
+# text = De ufarliggjør og bortforklarer de gamle fascistiske symbolene.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110829_59223__2444--1)
+2	ufarliggjør	ufarliggjøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	bortforklarer	bortforklare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+5	de	de	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(kk~20110829_59223__T225--1
+6	gamle	gammel	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+7	fascistiske	fascistisk	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	symbolene	symbol	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	4	obj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T225)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011847
+# text = Politisk flørt
+1	Politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(kk~20110829_59223__T226--1
+2	flørt	flørt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=kk~20110829_59223__T226)
+
+# sent_id = 011848
+# text = - Vatikanstaten ligger som kjent i Roma.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vatikanstaten	Vatikanstaten	PROPN	_	Gender=Masc	3	nsubj	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__61651--1)
+3	ligger	ligge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	som	som	ADP	_	_	5	case	_	name=O
+5	kjent	kjent	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O|Entity=(kk~20110829_59223__T228--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	Roma	Roma	PROPN	_	_	3	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110829_59223__273045--1)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011849
+# text = Hvordan preges byen av blandingen av religion og politikk?
+1	Hvordan	hvordan	ADV	_	_	2	advmod	_	name=O
+2	preges	prege	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+3	byen	by	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj:pass	_	name=O|Entity=(kk~20110829_59223__273045--1)
+4	av	av	ADP	_	_	5	case	_	name=O
+5	blandingen	blanding	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(kk~20110829_59223__T231--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	religion	religion	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(kk~20110829_59223__T232--1(kk~20110829_59223__T233--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T234--1)kk~20110829_59223__T232)kk~20110829_59223__T231)
+10	?	$?	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011850
+# text = - Roma er kristendommens sentrum, og det er stor oppslutning om paven.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Roma	Roma	PROPN	_	_	5	nsubj	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__273045--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	kristendommens	kristendom	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=(kk~20110829_59223__T237--1(kk~20110829_59223__T236--1)
+5	sentrum	sentrum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T237)
+6	,	$,	PUNCT	_	_	11	punct	_	name=O
+7	og	og	CCONJ	_	_	11	cc	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(kk~20110829_59223__T238--1
+11	oppslutning	oppslutning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	name=O
+12	om	om	ADP	_	_	13	case	_	name=O
+13	paven	pave	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__2480--1)kk~20110829_59223__T238)
+14	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011851
+# text = Holdningen er at Paven tilhører romerne.
+1	Holdningen	holdning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(kk~20110829_59223__T240--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	Paven	Paven	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__2480--1)
+5	tilhører	tilhøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	romerne	romer	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T242--1)
+7	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011852
+# text = Samtidig er det en reell kamp om religionens rolle i Roma og Italia.
+1	Samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kk~20110829_59223__T243--1
+5	reell	reell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+7	om	om	ADP	_	_	9	case	_	name=O
+8	religionens	religion	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(kk~20110829_59223__T245--1(kk~20110829_59223__T244--1)
+9	rolle	rolle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	name=O|Entity=kk~20110829_59223__T245)kk~20110829_59223__T243)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Roma	Roma	PROPN	_	_	6	obl	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__T246--1(kk~20110829_59223__273045--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	Italia	Italia	PROPN	_	_	11	conj	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110829_59223__61378--1)kk~20110829_59223__T246)
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 011853
+# text = Den katolske kirken har mye makt.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=B-ORG|Entity=(kk~20110829_59223__51309--1
+2	katolske	katolsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=I-ORG
+3	kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=I-ORG|Entity=kk~20110829_59223__51309)
+4	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(kk~20110829_59223__T250--1
+6	makt	makt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T250)
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011854
+# text = Og den bedriver en aktiv kamp mot sekularisering og mot andre religioner.
+1	Og	og	CCONJ	_	_	3	cc	_	name=O
+2	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110829_59223__51309--1)
+3	bedriver	bedrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kk~20110829_59223__T252--1
+5	aktiv	aktiv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O
+7	mot	mot	ADP	_	_	8	case	_	name=O
+8	sekularisering	sekularisering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	nmod	_	name=O|Entity=(kk~20110829_59223__T253--1)
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	mot	mot	ADP	_	_	12	case	_	name=O
+11	andre	annen	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(kk~20110829_59223__T254--1
+12	religioner	religion	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T254)kk~20110829_59223__T252)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011855
+# text = - Det er nok også en sentral oppfatning blant enkelte religiøse ledere at det foregår en avgjørende kamp om kristendommens rolle i Europa, og den finner sted i Roma.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+4	nok	nok	ADV	_	_	8	advmod	_	name=O
+5	også	også	ADV	_	_	8	advmod	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kk~20110829_59223__T255--1
+7	sentral	sentral	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	oppfatning	oppfatning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=kk~20110829_59223__T255)
+9	blant	blant	ADP	_	_	12	case	_	name=O
+10	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O|Entity=(kk~20110829_59223__T256--1
+11	religiøse	religiøs	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	ledere	leder	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obl	_	name=O|Entity=kk~20110829_59223__T256)
+13	at	at	SCONJ	_	_	15	mark	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	name=O
+15	foregår	foregå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	csubj	_	name=O
+16	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(kk~20110829_59223__2518--1
+17	avgjørende	avgjørende	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	18	amod	_	name=O
+18	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	name=O
+19	om	om	ADP	_	_	21	case	_	name=O
+20	kristendommens	kristendom	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	name=O|Entity=(kk~20110829_59223__T259--1(kk~20110829_59223__T258--1)
+21	rolle	rolle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	18	nmod	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	Europa	Europa	PROPN	_	_	21	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110829_59223__3623--1)kk~20110829_59223__T259)kk~20110829_59223__2518)
+24	,	$,	PUNCT	_	_	27	punct	_	name=O
+25	og	og	CCONJ	_	_	27	cc	_	name=O
+26	den	den	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	name=O|Entity=(kk~20110829_59223__2518--1)
+27	finner	finne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	conj	_	name=O
+28	sted	sted	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	27	obj	_	name=O|Entity=(kk~20110829_59223__T262--1)
+29	i	i	ADP	_	_	30	case	_	name=O
+30	Roma	Roma	PROPN	_	_	27	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110829_59223__273045--1)
+31	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 011856
+# text = - Den katolske kirken er svært flinke til å danne allianser innen de fleste politiske partier i Roma.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	name=B-ORG|Entity=(kk~20110829_59223__51309--1
+3	katolske	katolsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	4	amod	_	name=I-ORG
+4	kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=I-ORG|Entity=kk~20110829_59223__51309)
+5	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+6	svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	name=O
+7	flinke	flink	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	danne	danne	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+11	allianser	allianse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obj	_	name=O|Entity=(kk~20110829_59223__T265--1)
+12	innen	innen	ADP	_	_	16	case	_	name=O
+13	de	de	DET	_	Number=Plur|PronType=Dem	16	det	_	name=O|Entity=(kk~20110829_59223__T266--1
+14	fleste	mange	ADJ	_	Definite=Def|Degree=Sup	16	amod	_	name=O
+15	politiske	politisk	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+16	partier	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obl	_	name=O
+17	i	i	ADP	_	_	18	case	_	name=O
+18	Roma	Roma	PROPN	_	_	16	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110829_59223__273045--1)kk~20110829_59223__T266)
+19	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 011857
+# text = Det har også en enorm moralsk betydning hva kirken mener.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	7	det	_	name=O|Entity=(kk~20110829_59223__T268--1
+5	enorm	enorm	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+6	moralsk	moralsk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	betydning	betydning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=kk~20110829_59223__T268)
+8	hva	hva	PRON	_	PronType=Int	10	obj	_	name=O
+9	kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(kk~20110829_59223__51309--1)
+10	mener	mene	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	csubj	_	SpaceAfter=No|name=O
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011858
+# text = Det er ikke uproblematisk at mange politikere prøver å opprettholde en flørt med Vatikanet.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	name=O
+4	uproblematisk	uproblematisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	mange	mange	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(kk~20110829_59223__T270--1
+7	politikere	politiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=kk~20110829_59223__T270)
+8	prøver	prøve	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	csubj	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	opprettholde	opprettholde	VERB	_	VerbForm=Inf	8	xcomp	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(kk~20110829_59223__T271--1
+12	flørt	flørt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O
+13	med	med	ADP	_	_	14	case	_	name=O
+14	Vatikanet	Vatikanet	PROPN	_	_	12	nmod	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(kk~20110829_59223__61651--1)kk~20110829_59223__T271)
+15	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011859
+# text = Dette styrker innflytelsen Den katolske kirken har i det politiske livet, hevder Ekern.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(kk~20110829_59223__T273--1)
+2	styrker	styrke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	innflytelsen	innflytelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(kk~20110829_59223__T274--1
+4	Den	Den	PROPN	_	_	6	nmod	_	name=B-ORG|Entity=(kk~20110829_59223__51309--1(kk~20110829_59223__T275--1)
+5	katolske	katolsk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=I-ORG
+6	kirken	kirke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=I-ORG|Entity=kk~20110829_59223__51309)
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	name=O
+8	i	i	ADP	_	_	11	case	_	name=O
+9	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	11	det	_	name=O|Entity=(kk~20110829_59223__T277--1
+10	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T277)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O|Entity=kk~20110829_59223__T274)
+13	hevder	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+14	Ekern	Ekern	PROPN	_	_	13	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kk~20110829_59223__263498--1)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011860
+# text = - Vatikanet har vel også noen svin på skogen?
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vatikanet	Vatikanet	PROPN	_	_	3	nsubj	_	name=B-GPE_ORG|Entity=(kk~20110829_59223__61651--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	vel	vel	ADV	_	_	3	advmod	_	name=O
+5	også	også	ADV	_	_	3	advmod	_	name=O
+6	noen	noen	DET	_	Number=Plur|PronType=Ind	7	det	_	name=O|Entity=(kk~20110829_59223__T280--1
+7	svin	svin	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=kk~20110829_59223__T280)
+8	på	på	SCONJ	_	_	9	mark	_	name=O
+9	skogen	skog	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T281--1)
+10	?	$?	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011861
+# text = - Vatikanet har utvilsomt operert i gråsoner med henblikk på økonomisk kriminalitet.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Vatikanet	Vatikanet	PROPN	_	_	5	nsubj	_	name=B-GPE_ORG|Entity=(kk~20110829_59223__61651--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	utvilsomt	utvilsom	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	advmod	_	name=O
+5	operert	operere	VERB	_	VerbForm=Part	0	root	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	gråsoner	gråsone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obl	_	name=O|Entity=(kk~20110829_59223__T283--1)
+8	med	med	ADP	_	_	9	case	_	name=O
+9	henblikk	henblikk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(kk~20110829_59223__T284--1
+10	på	på	ADP	_	_	12	case	_	name=O
+11	økonomisk	økonomisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(kk~20110829_59223__T285--1
+12	kriminalitet	kriminalitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T285)kk~20110829_59223__T284)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011862
+# text = De som har sett filmen Gudfaren III, vil nok nikke gjenkjennende til denne opplysningen.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(kk~20110829_59223__T286--1
+2	som	som	PRON	_	PronType=Rel	4	nsubj	_	name=O
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	sett	se	VERB	_	VerbForm=Part	1	acl:relcl	_	name=O
+5	filmen	film	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(kk~20110829_59223__2576--1
+6	Gudfaren	Gudfaren	PROPN	_	_	4	obj	_	name=B-PROD
+7	III	III	NUM	_	NumType=Card	6	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=kk~20110829_59223__2576)
+8	,	$,	PUNCT	_	_	1	punct	_	name=O|Entity=kk~20110829_59223__T286)
+9	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+10	nok	nok	ADV	_	_	11	advmod	_	name=O
+11	nikke	nikke	VERB	_	VerbForm=Inf	0	root	_	name=O
+12	gjenkjennende	gjenkjenne	ADJ	_	VerbForm=Part	11	advmod	_	name=O
+13	til	til	ADP	_	_	15	case	_	name=O
+14	denne	denne	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	name=O|Entity=(kk~20110829_59223__T288--1
+15	opplysningen	opplysning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T288)
+16	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 011863
+# text = I filmen blir det antydet at det eksisterer en allianse mellom Vatikanet og den sicilianske mafiaen som vedrører hemmelige pengetransaksjoner.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	filmen	film	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(kk~20110829_59223__2576--1)
+3	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	antydet	antyde	VERB	_	VerbForm=Part	0	root	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+8	eksisterer	eksistere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	xcomp	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kk~20110829_59223__2587--1
+10	allianse	allianse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nsubj	_	name=O
+11	mellom	mellom	ADP	_	_	12	case	_	name=O
+12	Vatikanet	Vatikanet	PROPN	_	_	10	nmod	_	name=B-GPE_ORG|Entity=(kk~20110829_59223__T291--1(kk~20110829_59223__61651--1)
+13	og	og	CCONJ	_	_	16	cc	_	name=O
+14	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(kk~20110829_59223__2636--1
+15	sicilianske	siciliansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	amod	_	name=O
+16	mafiaen	mafia	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	conj	_	name=O|Entity=kk~20110829_59223__2636)kk~20110829_59223__T291)
+17	som	som	PRON	_	PronType=Rel	18	nsubj	_	name=O
+18	vedrører	vedrøre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O
+19	hemmelige	hemmelig	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(kk~20110829_59223__T294--1
+20	pengetransaksjoner	pengetransaksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T294)kk~20110829_59223__2587)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011864
+# text = Ekern hevder at fiksjonen på dette punktet likner mye på virkeligheten.
+1	Ekern	Ekern	PROPN	_	_	2	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__263498--1)
+2	hevder	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	8	mark	_	name=O
+4	fiksjonen	fiksjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nsubj	_	name=O|Entity=(kk~20110829_59223__T296--1)
+5	på	på	ADP	_	_	7	case	_	name=O
+6	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	7	det	_	name=O|Entity=(kk~20110829_59223__2587--1
+7	punktet	punkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	obl	_	name=O|Entity=kk~20110829_59223__2587)
+8	likner	likne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+9	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	virkeligheten	virkelighet	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T298--1)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011865
+# text = - Vatikanet har også hatt en utstrakt vilje til å lukke øynene for mye av det som har foregått av lyssky aktivitet, hevder han.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Vatikanet	Vatikanet	PROPN	_	_	5	nsubj	_	name=B-GPE_ORG|Entity=(kk~20110829_59223__61651--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	også	også	ADV	_	_	5	advmod	_	name=O
+5	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+6	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(kk~20110829_59223__T300--1
+7	utstrakt	utstrakt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	vilje	vilje	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obj	_	name=O
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	lukke	lukke	VERB	_	VerbForm=Inf	8	acl	_	name=O
+12	øynene	øye	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	obj	_	name=O|Entity=(kk~20110829_59223__T301--1)
+13	for	for	ADP	_	_	14	case	_	name=O
+14	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O|Entity=(kk~20110829_59223__T302--1
+15	av	av	ADP	_	_	16	case	_	name=O
+16	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nmod	_	name=O|Entity=(kk~20110829_59223__T303--1
+17	som	som	PRON	_	PronType=Rel	19	nsubj	_	name=O
+18	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	name=O
+19	foregått	foregå	VERB	_	VerbForm=Part	16	acl:relcl	_	name=O
+20	av	av	ADP	_	_	22	case	_	name=O
+21	lyssky	lyssky	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O|Entity=(kk~20110829_59223__T304--1
+22	aktivitet	aktivitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T304)kk~20110829_59223__T303)kk~20110829_59223__T302)kk~20110829_59223__T300)
+23	,	$,	PUNCT	_	_	24	punct	_	name=O
+24	hevder	hevde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	parataxis	_	name=O
+25	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__263498--1)
+26	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 011866
+# text = Geriatrisk kultur
+1	Geriatrisk	geriatrisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(kk~20110829_59223__T306--1
+2	kultur	kultur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=kk~20110829_59223__T306)
+
+# sent_id = 011867
+# text = Det politiske livet i Italia framstår for mange som nokså eksentrisk.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(kk~20110829_59223__T307--1
+2	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Italia	Italia	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__61378--1)kk~20110829_59223__T307)
+6	framstår	framstå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	for	for	ADP	_	_	8	case	_	name=O
+8	mange	mange	ADJ	_	Degree=Pos|Number=Plur	6	advmod	_	name=O|Entity=(kk~20110829_59223__T309--1)
+9	som	som	SCONJ	_	_	11	mark	_	name=O
+10	nokså	nokså	ADV	_	_	11	advmod	_	name=O|Entity=(kk~20110829_59223__T310--1
+11	eksentrisk	eksentrisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	xcomp	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T310)
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 011868
+# text = Størrelser som Silvio Berlusconi og Giulio Andreotti har styrket bildet av italienske politikere som skandaleomsuste og myteomspunnede.
+1	Størrelser	størrelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	nsubj	_	name=O|Entity=(kk~20110829_59223__T311--1
+2	som	som	ADP	_	_	3	case	_	name=O
+3	Silvio	Silvio	PROPN	_	_	1	nmod	_	name=B-PER|Entity=(kk~20110829_59223__T312--1(kk~20110829_59223__T313--1
+4	Berlusconi	Berlusconi	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=kk~20110829_59223__T313)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	Giulio	Giulio	PROPN	_	_	3	conj	_	name=B-PER|Entity=(kk~20110829_59223__93011--1
+7	Andreotti	Andreotti	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=kk~20110829_59223__93011)kk~20110829_59223__T312)kk~20110829_59223__T311)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	styrket	styrke	VERB	_	VerbForm=Part	0	root	_	name=O
+10	bildet	bilde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obj	_	name=O|Entity=(kk~20110829_59223__T315--1
+11	av	av	ADP	_	_	13	case	_	name=O
+12	italienske	italiensk	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(kk~20110829_59223__T316--1
+13	politikere	politiker	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	name=O|Entity=kk~20110829_59223__T316)kk~20110829_59223__T315)
+14	som	som	SCONJ	_	_	15	mark	_	name=O
+15	skandaleomsuste	skandaleomsust	ADJ	_	Degree=Pos|Number=Plur	9	xcomp	_	name=O|Entity=(kk~20110829_59223__T317--1(kk~20110829_59223__T318--1)
+16	og	og	CCONJ	_	_	17	cc	_	name=O
+17	myteomspunnede	myteomspunnet	ADJ	_	Number=Plur	15	conj	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T319--1)kk~20110829_59223__T317)
+18	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 011869
+# text = - Andreotti har gjort ting som ikke har vært særlig legitimt med tanke på hans politiske posisjon.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Andreotti	Andreotti	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__93011--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	gjort	gjøre	VERB	_	VerbForm=Part	0	root	_	name=O
+5	ting	ting	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=O|Entity=(kk~20110829_59223__T321--1
+6	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+7	ikke	ikke	PART	_	Polarity=Neg	11	advmod	_	name=O
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+9	vært	være	AUX	_	VerbForm=Part	11	cop	_	name=O
+10	særlig	særlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	name=O
+11	legitimt	legitim	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	acl:relcl	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	tanke	tanke	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(kk~20110829_59223__T322--1
+14	på	på	ADP	_	_	17	case	_	name=O
+15	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	nmod	_	name=O|Entity=(kk~20110829_59223__T324--1(kk~20110829_59223__93011--1)
+16	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	posisjon	posisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T324)kk~20110829_59223__T322)kk~20110829_59223__T321)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011870
+# text = Man kan kalle det kynisme, eller en særegen form for romersk pragmatisme, sier Ekern.
+1	Man	man	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|PronType=Prs	3	nsubj	_	name=O|Entity=(kk~20110829_59223__T325--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	kalle	kalle	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(kk~20110829_59223__T326--1)
+5	kynisme	kynisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T327--1(kk~20110829_59223__T328--1
+6	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=kk~20110829_59223__T328)
+7	eller	eller	CCONJ	_	_	10	cc	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(kk~20110829_59223__T329--1
+9	særegen	særegen	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	amod	_	name=O
+10	form	form	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O
+11	for	for	ADP	_	_	13	case	_	name=O
+12	romersk	romersk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(kk~20110829_59223__T330--1
+13	pragmatisme	pragmatisme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T330)kk~20110829_59223__T329)kk~20110829_59223__T327)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+16	Ekern	Ekern	PROPN	_	_	15	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(kk~20110829_59223__263498--1)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011871
+# text = Andreotti er en av de mest gåtefulle politikerne i Italias etterkrigshistorie.
+1	Andreotti	Andreotti	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__93011--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	0	root	_	name=O
+4	av	av	ADP	_	_	8	case	_	name=O
+5	de	de	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(kk~20110829_59223__T333--1
+6	mest	mye	ADJ	_	Definite=Ind|Degree=Sup	7	advmod	_	name=O
+7	gåtefulle	gåtefull	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	politikerne	politiker	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	Italias	Italia	PROPN	_	Case=Gen	11	nmod	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__T335--1(kk~20110829_59223__61378--1)
+11	etterkrigshistorie	etterkrigshistorie	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T335)kk~20110829_59223__T333)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 011872
+# text = Han omtales av enkelte som «Guden Giulio» og skal etter sigende ha bygget opp mye av sin makt med støtte fra den sicilianske mafiaen.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	name=O|Entity=(kk~20110829_59223__93011--1)
+2	omtales	omtale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	enkelte	enkelt	ADJ	_	Degree=Pos|Number=Plur	2	advmod	_	name=O|Entity=(kk~20110829_59223__T337--1)
+5	som	som	SCONJ	_	_	8	mark	_	name=O
+6	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=(kk~20110829_59223__T338--1
+7	Guden	gud	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=B-PER
+8	Giulio	Giulio	PROPN	_	_	2	xcomp	_	SpaceAfter=No|name=I-PER
+9	»	$"	PUNCT	_	_	8	punct	_	name=O|Entity=kk~20110829_59223__T338)
+10	og	og	CCONJ	_	_	15	cc	_	name=O
+11	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+12	etter	etter	ADP	_	_	13	case	_	name=O
+13	sigende	sigende	NOUN	_	_	15	obl	_	name=O|Entity=(kk~20110829_59223__T339--1)
+14	ha	ha	AUX	_	VerbForm=Inf	15	aux	_	name=O
+15	bygget	bygge	VERB	_	VerbForm=Part	2	conj	_	name=O
+16	opp	opp	ADP	_	_	15	compound:prt	_	name=O
+17	mye	mye	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	obj	_	name=O
+18	av	av	ADP	_	_	20	case	_	name=O
+19	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	name=O|Entity=(kk~20110829_59223__T341--1(kk~20110829_59223__93011--1)
+20	makt	makt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=kk~20110829_59223__T341)
+21	med	med	ADP	_	_	22	case	_	name=O
+22	støtte	støtte	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obl	_	name=O|Entity=(kk~20110829_59223__T342--1
+23	fra	fra	ADP	_	_	26	case	_	name=O
+24	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	name=O|Entity=(kk~20110829_59223__2636--1
+25	sicilianske	siciliansk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	26	amod	_	name=O
+26	mafiaen	mafia	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__2636)kk~20110829_59223__T342)
+27	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 011873
+# text = Andreotti er nå blitt 92 år og vaker fremdeles i Romas politiske landskap.
+1	Andreotti	Andreotti	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__93011--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	nå	nå	ADV	_	_	4	advmod	_	name=O
+4	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+5	92	92	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(kk~20110829_59223__T345--1
+6	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	xcomp	_	name=O|Entity=kk~20110829_59223__T345)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	vaker	vake	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+9	fremdeles	fremdeles	ADV	_	_	8	advmod	_	name=O
+10	i	i	ADP	_	_	13	case	_	name=O
+11	Romas	Roma	PROPN	_	Case=Gen	13	nmod	_	name=B-GPE_LOC|Entity=(kk~20110829_59223__T347--1(kk~20110829_59223__273045--1)
+12	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	landskap	landskap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T347)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011874
+# text = Han er dermed blitt en symbol for det Ekern omtaler som en geriatrisk politisk kultur i Italia.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(kk~20110829_59223__93011--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	dermed	dermed	ADV	_	_	4	advmod	_	name=O
+4	blitt	bli	VERB	_	VerbForm=Part	0	root	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kk~20110829_59223__T349--1
+6	symbol	symbol	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	xcomp	_	name=O
+7	for	for	ADP	_	_	8	case	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nmod	_	name=O|Entity=(kk~20110829_59223__T350--1
+9	Ekern	Ekern	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(kk~20110829_59223__263498--1)
+10	omtaler	omtale	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	name=O
+11	som	som	SCONJ	_	_	15	mark	_	name=O
+12	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(kk~20110829_59223__T352--1
+13	geriatrisk	geriatrisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O
+14	politisk	politisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	kultur	kultur	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	xcomp	_	name=O
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Italia	Italia	PROPN	_	_	15	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(kk~20110829_59223__61378--1)kk~20110829_59223__T352)kk~20110829_59223__T350)kk~20110829_59223__T349)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 011875
+# text = -Han er også et eksempel på hvordan de overlapping mellom ulike maktfelt som det politiske, det religiøse og det kriminelle overlapper hverandre.
+1	-	$-	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O
+2	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(kk~20110829_59223__93011--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	også	også	ADV	_	_	6	advmod	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(kk~20110829_59223__T355--1
+6	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O
+7	på	på	ADP	_	_	23	case	_	name=O
+8	hvordan	hvordan	ADV	_	_	23	advmod	_	name=O
+9	de	de	DET	_	Number=Plur|PronType=Dem	10	det	_	name=O|Entity=(kk~20110829_59223__T356--1
+10	overlapping	overlapping	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	23	nsubj	_	name=O
+11	mellom	mellom	ADP	_	_	13	case	_	name=O
+12	ulike	ulik	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O|Entity=(kk~20110829_59223__T357--1
+13	maktfelt	maktfelt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nmod	_	name=O
+14	som	som	ADP	_	_	16	case	_	name=O
+15	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	16	det	_	name=O|Entity=(kk~20110829_59223__T358--1(kk~20110829_59223__T359--1
+16	politiske	politisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	SpaceAfter=No|name=O
+17	,	$,	PUNCT	_	_	19	punct	_	name=O|Entity=kk~20110829_59223__T359)
+18	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	19	det	_	name=O|Entity=(kk~20110829_59223__T360--1
+19	religiøse	religiøs	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	conj	_	name=O|Entity=kk~20110829_59223__T360)
+20	og	og	CCONJ	_	_	22	cc	_	name=O
+21	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	22	det	_	name=O|Entity=(kk~20110829_59223__T361--1
+22	kriminelle	kriminell	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	16	conj	_	name=O|Entity=kk~20110829_59223__T361)kk~20110829_59223__T358)kk~20110829_59223__T357)kk~20110829_59223__T356)
+23	overlapper	overlappe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	name=O
+24	hverandre	hverandre	PRON	_	Animacy=Hum|Number=Plur|PronType=Rcp	23	obj	_	SpaceAfter=No|name=O|Entity=kk~20110829_59223__T355)
+25	.	$.	PUNCT	_	_	6	punct	_	name=O
+

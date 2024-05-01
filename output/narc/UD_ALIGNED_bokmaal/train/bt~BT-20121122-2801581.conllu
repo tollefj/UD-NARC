@@ -1,0 +1,596 @@
+# newdoc id = bt~BT-20121122-2801581
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 006649
+# text = Stor ståhei for fenalår
+1	Stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(bt~bt_20121122_2801581__T1--1
+2	ståhei	ståhei	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+3	for	for	ADP	_	_	4	case	_	name=O
+4	fenalår	fenalår	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	nmod	_	name=O|Entity=(bt~bt_20121122_2801581__T2--1)bt~bt_20121122_2801581__T1)
+
+# newpar
+# sent_id = 006650
+# text = Stilte opp tre og en halv time for tidlig
+1	Stilte	stille	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	opp	opp	ADP	_	_	1	compound:prt	_	name=O
+3	tre	tre	NUM	_	Number=Plur|NumType=Card	8	obl	_	name=O
+4	og	og	CCONJ	_	_	7	cc	_	name=O
+5	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(bt~bt_20121122_2801581__T3--1
+6	halv	halv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	time	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	conj	_	name=O|Entity=bt~bt_20121122_2801581__T3)
+8	for	for	ADV	_	_	9	advmod	_	name=O
+9	tidlig	tidlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	name=O
+
+# newpar
+# sent_id = 006651
+# text = Koster vanligvis over 500 kroner
+1	Koster	koste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	vanligvis	vanligvis	ADV	_	_	1	advmod	_	name=O
+3	over	over	ADP	_	_	4	case	_	name=O|Entity=(bt~bt_20121122_2801581__T4--1
+4	500	500	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O
+5	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	1	obj	_	name=O|Entity=bt~bt_20121122_2801581__T4)
+
+# newpar
+# sent_id = 006652
+# text = Skynder seg frem
+1	Skynder	skynde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	1	obj	_	name=O|Entity=(bt~bt_20121122_2801581__T123--1)
+3	frem	frem	ADP	_	_	1	compound:prt	_	name=O
+
+# newpar
+# sent_id = 006653
+# text = - Blir nok stående
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	nok	nok	ADV	_	_	2	advmod	_	name=O
+4	stående	stå	ADJ	_	VerbForm=Part	2	xcomp	_	name=O
+
+# sent_id = 006654
+# text = Utenfor sto bilene parkert i hytt og pine.
+1	Utenfor	utenfor	ADP	_	_	2	compound:prt	_	name=O
+2	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	bilene	bil	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T5--1)
+4	parkert	parkere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	3	acl	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	hytt	hytt	NOUN	_	_	4	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T6--1(bt~bt_20121122_2801581__T7--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	pine	pine	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T8--1)bt~bt_20121122_2801581__T6)
+9	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 006655
+# text = Inne var temperaturen høy.
+1	Inne	inne	ADP	_	_	4	obl	_	name=O
+2	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	temperaturen	temperatur	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T9--1)
+4	høy	høy	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006656
+# text = - Noen må ringe politiet og be dem bøtelegge alle som ikke pleier å handle her, sier en irritert stamkunde.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Noen	noen	PRON	_	Gender=Fem,Masc|Number=Sing|Person=3|PronType=Ind,Prs	4	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T10--1)
+3	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	ringe	ringe	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obj	_	name=O|Entity=(bt~bt_20121122_2801581__223--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	be	be	VERB	_	VerbForm=Inf	4	conj	_	name=O
+8	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	iobj	_	name=O|Entity=(bt~bt_20121122_2801581__223--1)
+9	bøtelegge	bøtelegge	VERB	_	VerbForm=Inf	7	xcomp	_	name=O
+10	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	9	obj	_	name=O|Entity=(bt~bt_20121122_2801581__T13--1
+11	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+12	ikke	ikke	PART	_	Polarity=Neg	13	advmod	_	name=O
+13	pleier	pleie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	name=O
+14	å	å	PART	_	_	15	mark	_	name=O
+15	handle	handle	VERB	_	VerbForm=Inf	13	xcomp	_	name=O
+16	her	her	ADV	_	_	15	advmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T13)
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+19	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	name=O|Entity=(bt~bt_20121122_2801581__7351--1
+20	irritert	irritere	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	21	amod	_	name=O
+21	stamkunde	stamkunde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__7351)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006657
+# text = Hun har stilt seg opp i køen på Spar Bønes for å sikre seg et fenalår til en krone.
+1	Hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__7351--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	stilt	stille	VERB	_	VerbForm=Part	0	root	_	name=O
+4	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	3	obj	_	name=O|Entity=(bt~bt_20121122_2801581__7351--1)
+5	opp	opp	ADP	_	_	3	compound:prt	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	køen	kø	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T16--1
+8	på	på	ADP	_	_	9	case	_	name=O
+9	Spar	Spar	PROPN	_	_	7	nmod	_	name=B-LOC|Entity=(bt~bt_20121122_2801581__4230--1
+10	Bønes	Bønes	PROPN	_	_	9	flat:name	_	name=I-LOC|Entity=bt~bt_20121122_2801581__4230)bt~bt_20121122_2801581__T16)
+11	for	for	SCONJ	_	_	13	mark	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	sikre	sikre	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+14	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	iobj	_	name=O|Entity=(bt~bt_20121122_2801581__7351--1)
+15	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(bt~bt_20121122_2801581__250--1
+16	fenalår	fenalår	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obj	_	name=O
+17	til	til	ADP	_	_	19	case	_	name=O
+18	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	19	det	_	name=O|Entity=(bt~bt_20121122_2801581__T19--1
+19	krone	krone	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T19)bt~bt_20121122_2801581__250)
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006658
+# text = Men hun var for sent ute, og har ikke kølapp.
+1	Men	men	CCONJ	_	_	5	cc	_	name=O
+2	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__7351--1)
+3	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+4	for	for	ADV	_	_	5	advmod	_	name=O
+5	sent	sen	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+6	ute	ute	ADP	_	_	5	obl	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	9	punct	_	name=O
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+10	ikke	ikke	PART	_	Polarity=Neg	9	advmod	_	name=O
+11	kølapp	kølapp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T21--1)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006659
+# text = - Så da får jeg sikkert ikke.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Så	så	ADV	_	_	4	advmod	_	name=O
+3	da	da	ADV	_	_	4	advmod	_	name=O
+4	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__7351--1)
+6	sikkert	sikker	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+7	ikke	ikke	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 006660
+# text = Men det hjelper ikke hvis du får fenalår til en krone og parkeringsbot på 500, sier hun.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T23--1)
+3	hjelper	hjelpe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	3	advmod	_	name=O
+5	hvis	hvis	SCONJ	_	_	7	mark	_	name=O
+6	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T24--1)
+7	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	name=O
+8	fenalår	fenalår	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	obj	_	name=O|Entity=(bt~bt_20121122_2801581__T25--1(bt~bt_20121122_2801581__T26--1
+9	til	til	ADP	_	_	11	case	_	name=O
+10	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(bt~bt_20121122_2801581__T27--1
+11	krone	krone	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=bt~bt_20121122_2801581__T27)bt~bt_20121122_2801581__T26)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	parkeringsbot	parkeringsbot	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	name=O|Entity=(bt~bt_20121122_2801581__T28--1
+14	på	på	ADP	_	_	15	case	_	name=O
+15	500	500	NUM	_	Number=Plur|NumType=Card	13	nmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T28)bt~bt_20121122_2801581__T25)
+16	,	$,	PUNCT	_	_	17	punct	_	name=O
+17	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+18	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__7351--1)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006661
+# text = Svært mange hadde fått med seg dagens tilbud.
+1	Svært	svær	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O|Entity=(bt~bt_20121122_2801581__2155--1
+2	mange	mange	ADJ	_	Degree=Pos|Number=Plur	4	nsubj	_	name=O|Entity=bt~bt_20121122_2801581__2155)
+3	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+5	med	med	ADP	_	_	6	case	_	name=O
+6	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obl	_	name=O|Entity=(bt~bt_20121122_2801581__2155--1)
+7	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(bt~bt_20121122_2801581__250--1(bt~bt_20121122_2801581__T31--1)
+8	tilbud	tilbud	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__250)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006662
+# text = Innerst i butikken sto folk tett i tett, og det var nærmest umulig å bevege seg for dem som var der for å handle mat.
+1	Innerst	indre	ADJ	_	Definite=Ind|Degree=Sup	3	advmod	_	name=O
+2	i	i	ADP	_	_	3	case	_	name=O
+3	butikken	butikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(bt~bt_20121122_2801581__4230--1)
+4	sto	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T34--1)
+6	tett	tett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	tett	tett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T35--1)
+9	,	$,	PUNCT	_	_	14	punct	_	name=O
+10	og	og	CCONJ	_	_	14	cc	_	name=O
+11	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	name=O
+12	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	name=O
+13	nærmest	nær	ADJ	_	Definite=Ind|Degree=Sup	14	advmod	_	name=O
+14	umulig	umulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	bevege	bevege	VERB	_	VerbForm=Inf	14	csubj	_	name=O
+17	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	16	obj	_	name=O|Entity=(bt~bt_20121122_2801581__2162--1)
+18	for	for	ADP	_	_	19	case	_	name=O
+19	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obl	_	name=O|Entity=(bt~bt_20121122_2801581__2162--1
+20	som	som	PRON	_	PronType=Rel	22	nsubj	_	name=O
+21	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	name=O
+22	der	der	ADV	_	_	19	acl:relcl	_	name=O
+23	for	for	SCONJ	_	_	25	mark	_	name=O
+24	å	å	PART	_	_	25	mark	_	name=O
+25	handle	handle	VERB	_	VerbForm=Inf	22	advcl	_	name=O
+26	mat	mat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T37--1)bt~bt_20121122_2801581__2162)
+27	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006663
+# text = De aller første stilte seg opp allerede klokken 14.30, tre og en halv time før salget av fenalårene begynte.
+1	De	de	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(bt~bt_20121122_2801581__2166--1
+2	aller	aller	ADV	_	_	3	advmod	_	name=O
+3	første	første	ADJ	_	Degree=Pos|Number=Plur	4	nsubj	_	name=O|Entity=bt~bt_20121122_2801581__2166)
+4	stilte	stille	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obj	_	name=O|Entity=(bt~bt_20121122_2801581__2166--1)
+6	opp	opp	ADP	_	_	4	compound:prt	_	name=O
+7	allerede	allerede	ADV	_	_	9	advmod	_	name=O
+8	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T39--1)
+9	14.30	14.30	NUM	_	NumType=Card	4	obl	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	tre	tre	NUM	_	Number=Plur|NumType=Card	9	appos	_	name=O
+12	og	og	CCONJ	_	_	15	cc	_	name=O
+13	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(bt~bt_20121122_2801581__T40--1
+14	halv	halv	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	15	amod	_	name=O
+15	time	time	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	conj	_	name=O
+16	før	før	SCONJ	_	_	20	mark	_	name=O
+17	salget	salg	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	20	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__2135--1
+18	av	av	ADP	_	_	19	case	_	name=O
+19	fenalårene	fenalår	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	17	nmod	_	name=O|Entity=(bt~bt_20121122_2801581__T42--1)bt~bt_20121122_2801581__2135)
+20	begynte	begynne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T40)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006664
+# text = - Vi trodde det ville bli så mye folk, så vi tenkte at vi måtte være tidlig ute, sier Fredrik Johannessen (65) og Rigmor Erenstsen (79).
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__9613--1)
+3	trodde	tro	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+5	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	name=O
+6	bli	bli	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+7	så	så	ADV	_	_	8	advmod	_	name=O|Entity=(bt~bt_20121122_2801581__T44--1
+8	mye	mye	ADJ	_	Degree=Pos|Number=Plur	9	amod	_	name=O
+9	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	6	xcomp	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T44)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	så	så	CCONJ	_	_	13	cc	_	name=O
+12	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__9613--1)
+13	tenkte	tenke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+14	at	at	SCONJ	_	_	18	mark	_	name=O
+15	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__9613--1)
+16	måtte	måtte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	name=O
+17	være	være	AUX	_	VerbForm=Inf	18	cop	_	name=O
+18	tidlig	tidlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	ccomp	_	name=O
+19	ute	ute	ADP	_	_	18	obl	_	SpaceAfter=No|name=O
+20	,	$,	PUNCT	_	_	21	punct	_	name=O
+21	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+22	Fredrik	Fredrik	PROPN	_	Gender=Masc	21	nsubj	_	name=B-PER|Entity=(bt~bt_20121122_2801581__9613--1(bt~bt_20121122_2801581__2106--1
+23	Johannessen	Johannessen	PROPN	_	_	22	flat:name	_	name=I-PER
+24	(	$(	PUNCT	_	_	25	punct	_	SpaceAfter=No|name=O
+25	65	65	NUM	_	Number=Plur|NumType=Card	22	nmod	_	SpaceAfter=No|name=O
+26	)	$)	PUNCT	_	_	25	punct	_	name=O|Entity=bt~bt_20121122_2801581__2106)
+27	og	og	CCONJ	_	_	28	cc	_	name=O
+28	Rigmor	Rigmor	PROPN	_	Gender=Fem	22	conj	_	name=B-PER|Entity=(bt~bt_20121122_2801581__T49--1
+29	Erenstsen	Erenstsen	PROPN	_	_	28	flat:name	_	name=I-PER
+30	(	$(	PUNCT	_	_	31	punct	_	SpaceAfter=No|name=O
+31	79	79	NUM	_	Number=Plur|NumType=Card	28	nmod	_	SpaceAfter=No|name=O
+32	)	$)	PUNCT	_	_	31	punct	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T49)bt~bt_20121122_2801581__9613)
+33	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006665
+# text = De to hadde sikret seg kølappen med nummer 1 på.
+1	De	de	DET	_	Number=Plur|PronType=Dem	2	det	_	name=O|Entity=(bt~bt_20121122_2801581__9613--1
+2	to	to	NUM	_	Number=Plur|NumType=Card	4	nsubj	_	name=O|Entity=bt~bt_20121122_2801581__9613)
+3	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	sikret	sikre	VERB	_	VerbForm=Part	0	root	_	name=O
+5	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	iobj	_	name=O|Entity=(bt~bt_20121122_2801581__9613--1)
+6	kølappen	kølapp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(bt~bt_20121122_2801581__T50--1
+7	med	med	ADP	_	_	9	case	_	name=O
+8	nummer	nummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T51--1)
+9	1	1	NUM	_	Number=Sing|NumType=Card	6	nmod	_	name=O
+10	på	på	ADP	_	_	9	xcomp	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T50)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006666
+# text = Fra klokken 16 begynte det å strømme på med folk som ville sikre seg nesten gratis fenalår før jul.
+1	Fra	fra	ADP	_	_	3	case	_	name=O
+2	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T52--1)
+3	16	16	NUM	_	Number=Plur|NumType=Card	4	obl	_	name=O
+4	begynte	begynne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	strømme	strømme	VERB	_	VerbForm=Inf	4	xcomp	_	name=O
+8	på	på	ADP	_	_	7	compound:prt	_	name=O
+9	med	med	ADP	_	_	10	case	_	name=O
+10	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O|Entity=(bt~bt_20121122_2801581__6538--1
+11	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+12	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	name=O
+13	sikre	sikre	VERB	_	VerbForm=Inf	10	acl:relcl	_	name=O
+14	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	13	obj	_	name=O|Entity=(bt~bt_20121122_2801581__6538--1)
+15	nesten	nesten	ADV	_	_	16	advmod	_	name=O|Entity=(bt~bt_20121122_2801581__T54--1
+16	gratis	gratis	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	name=O
+17	fenalår	fenalår	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	name=O|Entity=bt~bt_20121122_2801581__T54)
+18	før	før	ADP	_	_	19	case	_	name=O
+19	jul	jul	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T55--1)bt~bt_20121122_2801581__6538)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 006667
+# text = - Vi har vært her alene lenge, men vi har hatt det kjekt, sier Johannessen.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__9613--1)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	vært	være	VERB	_	VerbForm=Part	0	root	_	name=O
+5	her	her	ADV	_	_	4	advmod	_	name=O
+6	alene	alene	ADV	_	_	4	advmod	_	name=O
+7	lenge	lenge	ADJ	_	Degree=Pos	4	advmod	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	12	punct	_	name=O
+9	men	men	CCONJ	_	_	12	cc	_	name=O
+10	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__9613--1)
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	hatt	ha	VERB	_	VerbForm=Part	4	conj	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	name=O
+14	kjekt	kjekk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	xcomp	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	12	punct	_	name=O
+16	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+17	Johannessen	Johannessen	PROPN	_	_	16	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(bt~bt_20121122_2801581__2106--1)
+18	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006668
+# text = De skryter av underholdningen til kjøpmann og butikksjef Per Erik Landsvik.
+1	De	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__9613--1)
+2	skryter	skryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	underholdningen	underholdning	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T60--1
+5	til	til	ADP	_	_	9	case	_	name=O
+6	kjøpmann	kjøpmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=(bt~bt_20121122_2801581__121071--1
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	butikksjef	butikksjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=O
+9	Per	Per	PROPN	_	Gender=Masc	4	nmod	_	name=B-PER
+10	Erik	Erik	PROPN	_	Gender=Masc	9	flat:name	_	name=I-PER
+11	Landsvik	Landsvik	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-PER|Entity=bt~bt_20121122_2801581__121071)bt~bt_20121122_2801581__T60)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006669
+# text = Han har paller med 200 fenalår stående på kjølerommet, og synes det er stas å ha butikken full av folk.
+1	Han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__121071--1)
+2	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	paller	pall	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=(bt~bt_20121122_2801581__T65--1
+4	med	med	ADP	_	_	6	case	_	name=O
+5	200	200	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(bt~bt_20121122_2801581__2144--1
+6	fenalår	fenalår	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nmod	_	name=O|Entity=bt~bt_20121122_2801581__2144)bt~bt_20121122_2801581__T65)
+7	stående	stå	ADJ	_	VerbForm=Part	2	xcomp	_	name=O
+8	på	på	ADP	_	_	9	case	_	name=O
+9	kjølerommet	kjølerom	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Bridge=bt~bt_20121122_2801581__121071<bt~bt_20121122_2801581__T67:default|Entity=(bt~bt_20121122_2801581__T67--1)
+10	,	$,	PUNCT	_	_	12	punct	_	name=O
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	synes	synes	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	expl	_	name=O
+14	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+15	stas	stas	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	xcomp	_	name=O|Entity=(bt~bt_20121122_2801581__T68--1)
+16	å	å	PART	_	_	17	mark	_	name=O
+17	ha	ha	VERB	_	VerbForm=Inf	15	csubj	_	name=O
+18	butikken	butikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obj	_	name=O|Entity=(bt~bt_20121122_2801581__4230--1)
+19	full	full	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	xcomp	_	name=O
+20	av	av	ADP	_	_	21	case	_	name=O
+21	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	19	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T70--1)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 006670
+# text = - Jeg ville lage litt action.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__121071--1)
+3	ville	ville	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	lage	lage	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O|Entity=(bt~bt_20121122_2801581__T72--1
+6	action	action	NOUN	_	_	4	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T72)
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006671
+# text = Det er bra med litt show og rock n'roll i hverdagen, sier han.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	bra	bra	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	med	med	ADP	_	_	6	case	_	name=O
+5	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	name=O|Entity=(bt~bt_20121122_2801581__T73--1(bt~bt_20121122_2801581__T74--1
+6	show	show	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=bt~bt_20121122_2801581__T74)
+7	og	og	CCONJ	_	_	9	cc	_	name=O
+8	rock	rock	NOUN	_	_	9	compound	_	name=O|Entity=(bt~bt_20121122_2801581__T75--1
+9	n'roll	n'roll	NOUN	_	_	6	conj	_	name=O
+10	i	i	ADP	_	_	11	case	_	name=O
+11	hverdagen	hverdag	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T76--1)bt~bt_20121122_2801581__T75)bt~bt_20121122_2801581__T73)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+14	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__121071--1)
+15	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006672
+# text = - Men disse fenalårene selger du vel med tap?
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Men	men	CCONJ	_	_	5	cc	_	name=O
+3	disse	disse	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(bt~bt_20121122_2801581__2144--1
+4	fenalårene	fenalår	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	obj	_	name=O|Entity=bt~bt_20121122_2801581__2144)
+5	selger	selge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__121071--1)
+7	vel	vel	ADV	_	_	5	advmod	_	name=O
+8	med	med	ADP	_	_	9	case	_	name=O
+9	tap	tap	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T80--1)
+10	?	$?	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 006673
+# text = - Vanligvis koster fenalår mellom 500 og 600 kroner, så differansen blir stor, svarer butikksjefen.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Vanligvis	vanligvis	ADV	_	_	3	advmod	_	name=O
+3	koster	koste	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	fenalår	fenalår	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T81--1)
+5	mellom	mellom	ADP	_	_	6	case	_	name=O|Entity=(bt~bt_20121122_2801581__T82--1
+6	500	500	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	600	600	NUM	_	Number=Plur|NumType=Card	6	conj	_	name=O
+9	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T82)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	så	så	CCONJ	_	_	13	cc	_	name=O
+12	differansen	differanse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T83--1)
+13	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+14	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	xcomp	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	13	punct	_	name=O
+16	svarer	svare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+17	butikksjefen	butikksjef	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__121071--1)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006674
+# text = - Er det verdt det?
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T85--1)
+4	verdt	verdt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T86--1)
+6	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006675
+# text = - Ja, når du ser ut over gjengen her, så.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Ja	ja	INTJ	_	_	0	root	_	SpaceAfter=No|name=O
+3	,	$,	PUNCT	_	_	6	punct	_	name=O
+4	når	når	SCONJ	_	_	6	mark	_	name=O
+5	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T87--1)
+6	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+7	ut	ut	ADP	_	_	9	case	_	name=O
+8	over	over	ADP	_	_	9	case	_	name=O
+9	gjengen	gjeng	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	name=O|Entity=(bt~bt_20121122_2801581__6538--1
+10	her	her	ADV	_	_	9	advmod	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__6538)
+11	,	$,	PUNCT	_	_	12	punct	_	name=O
+12	så	så	ADV	_	_	6	advmod	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 006676
+# text = Det er kjempegøy.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__T89--1)
+2	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	kjempegøy	kjempegøy	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+4	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006677
+# text = Presis klokken 18 stiller han seg opp på en bruskasse.
+1	Presis	presis	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	acl	_	name=O
+2	klokken	klokke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T90--1
+3	18	18	NUM	_	Number=Plur|NumType=Card	2	nmod	_	name=O|Entity=bt~bt_20121122_2801581__T90)
+4	stiller	stille	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__121071--1)
+6	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obj	_	name=O|Entity=(bt~bt_20121122_2801581__121071--1)
+7	opp	opp	ADP	_	_	10	case	_	name=O
+8	på	på	ADP	_	_	10	case	_	name=O
+9	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	name=O|Entity=(bt~bt_20121122_2801581__T92--1
+10	bruskasse	bruskasse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T92)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006678
+# text = - Hallo alle sammen, nå begynner showet, roper han så høyt han kan, og begynner å lese opp tall i en rasende fart.
+1	-	$-	PUNCT	_	_	7	punct	_	name=O
+2	Hallo	hallo	INTJ	_	_	7	discourse	_	name=O
+3	alle	alle	PRON	_	Number=Plur|Person=3|PronType=Prs,Tot	7	parataxis	_	name=O|Entity=(bt~bt_20121122_2801581__T93--1
+4	sammen	sammen	ADV	_	_	3	advmod	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=bt~bt_20121122_2801581__T93)
+6	nå	nå	ADV	_	_	7	advmod	_	name=O
+7	begynner	begynne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	showet	show	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__2135--1)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	roper	rope	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__121071--1)
+12	så	så	ADV	_	_	13	advmod	_	name=O
+13	høyt	høy	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+14	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__121071--1)
+15	kan	kunne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	18	punct	_	name=O
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	begynner	begynne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	lese	lese	VERB	_	VerbForm=Inf	18	xcomp	_	name=O
+21	opp	opp	ADP	_	_	20	compound:prt	_	name=O
+22	tall	tall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	20	obj	_	name=O|Entity=(bt~bt_20121122_2801581__T97--1)
+23	i	i	ADP	_	_	26	case	_	name=O
+24	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	26	det	_	name=O|Entity=(bt~bt_20121122_2801581__T98--1
+25	rasende	rase	ADJ	_	VerbForm=Part	26	amod	_	name=O
+26	fart	fart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T98)
+27	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 006679
+# text = En etter en skynder kundene seg frem for å sikre seg fenalåret de har ventet på.
+1	En	en	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	5	acl	_	name=O|Entity=(bt~bt_20121122_2801581__T99--1
+2	etter	etter	ADP	_	_	3	case	_	name=O
+3	en	en	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	1	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T100--1)bt~bt_20121122_2801581__T99)
+4	skynder	skynde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	kundene	kunde	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__6538--1)
+6	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	4	obj	_	name=O|Entity=(bt~bt_20121122_2801581__6538--1)
+7	frem	frem	ADP	_	_	4	compound:prt	_	name=O
+8	for	for	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	sikre	sikre	VERB	_	VerbForm=Inf	4	advcl	_	name=O
+11	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	10	iobj	_	name=O
+12	fenalåret	fenalår	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=(bt~bt_20121122_2801581__T102--1
+13	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__6538--1)
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	ventet	vente	VERB	_	VerbForm=Part	12	acl:relcl	_	name=O
+16	på	på	ADP	_	_	15	compound:prt	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T102)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006680
+# text = - Husk å kjøpe rømme, kringle, øl og akevitt til, oppfordrer kjøpmannen.
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Husk	huske	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+3	å	å	PART	_	_	4	mark	_	name=O
+4	kjøpe	kjøpe	VERB	_	VerbForm=Inf	2	xcomp	_	name=O
+5	rømme	rømme	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T104--1(bt~bt_20121122_2801581__T105--1
+6	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=bt~bt_20121122_2801581__T105)
+7	kringle	kringle	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__T106--1
+8	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=bt~bt_20121122_2801581__T106)
+9	øl	øl	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	conj	_	name=O|Entity=(bt~bt_20121122_2801581__T107--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	akevitt	akevitt	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	conj	_	name=O|Entity=(bt~bt_20121122_2801581__T108--1)bt~bt_20121122_2801581__T104)
+12	til	til	ADP	_	_	11	nmod	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	oppfordrer	oppfordre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	name=O
+15	kjøpmannen	kjøpmann	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__121071--1)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 006681
+# text = I fjor ble butikken hans kåret til Bergens Beste Nærbutikk.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	fjor	fjor	NOUN	_	_	6	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T110--1)
+3	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	name=O
+4	butikken	butikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nsubj:pass	_	name=O|Entity=(bt~bt_20121122_2801581__4230--1
+5	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	nmod	_	name=O|Entity=(bt~bt_20121122_2801581__121071--1)bt~bt_20121122_2801581__4230)
+6	kåret	kåre	VERB	_	VerbForm=Part	0	root	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	Bergens	Bergens	PROPN	_	_	6	obl	_	name=B-PROD|Entity=(bt~bt_20121122_2801581__T113--1
+9	Beste	Beste	PROPN	_	_	8	flat:name	_	name=I-PROD
+10	Nærbutikk	Nærbutikk	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=bt~bt_20121122_2801581__T113)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 006682
+# text = Kunde nummer 199 ser ned på lappen sin.
+1	Kunde	kunde	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__5591--1
+2	nummer	nummer	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T115--1)
+3	199	199	NUM	_	Number=Plur|NumType=Card	1	nmod	_	name=O|Entity=bt~bt_20121122_2801581__5591)
+4	ser	se	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	ned	ned	ADP	_	_	7	case	_	name=O
+6	på	på	ADP	_	_	7	case	_	name=O
+7	lappen	lapp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(bt~bt_20121122_2801581__T116--1
+8	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__5591--1)bt~bt_20121122_2801581__T116)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 006683
+# text = - Jeg blir nok stående her en stund, sier hun.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Jeg	jeg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__5591--1)
+3	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	nok	nok	ADV	_	_	3	advmod	_	name=O
+5	stående	stå	ADJ	_	VerbForm=Part	3	xcomp	_	name=O
+6	her	her	ADV	_	_	5	advmod	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(bt~bt_20121122_2801581__T119--1
+8	stund	stund	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=bt~bt_20121122_2801581__T119)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	sier	si	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+11	hun	hun	PRON	_	Animacy=Hum|Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No|name=O|Entity=(bt~bt_20121122_2801581__5591--1)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 006684
+# text = - Men fenalår skal du ha?
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Men	men	CCONJ	_	_	6	cc	_	name=O
+3	fenalår	fenalår	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obj	_	name=O|Entity=(bt~bt_20121122_2801581__T121--1)
+4	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+5	du	du	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	name=O|Entity=(bt~bt_20121122_2801581__5591--1)
+6	ha	ha	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No|name=O
+7	?	$?	PUNCT	_	_	6	punct	_	name=O
+

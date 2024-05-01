@@ -1,0 +1,494 @@
+# newdoc id = firdann~20081224-4011837
+# global.Entity = eid-etype-head-other
+# newpar
+# sent_id = 014888
+# text = Tone er MPG-klar
+1	Tone	Tone	NOUN	_	Gender=Fem	3	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__231359--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	MPG-klar	MPG-klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=B-DRV
+
+# sent_id = 014889
+# text = Idolsirkuset gav Tone Damli Aaberge (17) frå Sogndal ein flying start på songkarrièra.
+1	Idolsirkuset	Idolsirkus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=B-DRV|Entity=(firdann~20081224_4011837__T2--1)
+2	gav	gje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	Tone	Tone	NOUN	_	Gender=Fem	2	iobj	_	name=B-PER|Entity=(firdann~20081224_4011837__231359--1
+4	Damli	Damli	PROPN	_	_	3	flat:name	_	name=I-PER
+5	Aaberge	Aaberge	PROPN	_	_	3	flat:name	_	name=I-PER
+6	(	$(	PUNCT	_	_	7	punct	_	SpaceAfter=No|name=O
+7	17	17	NUM	_	Number=Plur|NumType=Card	3	nmod	_	SpaceAfter=No|name=O
+8	)	$)	PUNCT	_	_	7	punct	_	name=O
+9	frå	frå	ADP	_	_	10	case	_	name=O
+10	Sogndal	Sogndal	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(firdann~20081224_4011837__T4--1)firdann~20081224_4011837__231359)
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(firdann~20081224_4011837__T5--1
+12	flying	flying	NOUN	_	_	13	compound	_	name=O
+13	start	start	NOUN	_	Gender=Masc	2	obj	_	name=O
+14	på	på	ADP	_	_	15	case	_	name=O
+15	songkarrièra	songkarriere	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Bridge=firdann~20081224_4011837__231359<firdann~20081224_4011837__T6:default|Entity=(firdann~20081224_4011837__T6--1)firdann~20081224_4011837__T5)
+16	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 014890
+# text = Plata hennar « Bliss » selde til gull, og ho er den tredje mest søkte personen på nettet.
+1	Plata	plate	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	name=O|Entity=(firdann~20081224_4011837__3206--1(firdann~20081224_4011837__T7--1
+2	hennar	hennar	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	name=O|Entity=(firdann~20081224_4011837__231359--1)firdann~20081224_4011837__T7)
+3	«	$"	PUNCT	_	_	4	punct	_	name=O
+4	Bliss	Bliss	PROPN	_	_	6	nsubj	_	name=B-PROD
+5	»	$"	PUNCT	_	_	4	punct	_	name=O|Entity=firdann~20081224_4011837__3206)
+6	selde	selje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	gull	gull	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20081224_4011837__T10--1)
+9	,	$,	PUNCT	_	_	17	punct	_	name=O
+10	og	og	CCONJ	_	_	17	cc	_	name=O
+11	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(firdann~20081224_4011837__231359--1)
+12	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	name=O
+13	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	name=O|Entity=(firdann~20081224_4011837__T12--1
+14	tredje	tredje	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	15	advmod	_	name=O
+15	mest	mykje	ADJ	_	Definite=Ind|Degree=Sup	16	advmod	_	name=O
+16	søkte	søkje	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	17	amod	_	name=O
+17	personen	person	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	conj	_	name=O
+18	på	på	ADP	_	_	19	case	_	name=O
+19	nettet	nett	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20081224_4011837__T13--1)firdann~20081224_4011837__T12)
+20	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 014891
+# text = Les meir
+1	Les	lese	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	meir	mykje	ADJ	_	Degree=Cmp	1	obj	_	name=O
+
+# sent_id = 014892
+# text = Populær:
+1	Populær	populær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+2	:	$:	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 014893
+# text = Den flotte sogndalsjenta er no klar for Melodi Grand Prix.
+1	Den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20081224_4011837__231359--1
+2	flotte	flott	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	sogndalsjenta	sogndalsjente	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	name=O|Entity=firdann~20081224_4011837__231359)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+5	no	no	ADV	_	_	6	advmod	_	name=O
+6	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+7	for	for	ADP	_	_	8	case	_	name=O
+8	Melodi	Melodi	PROPN	_	_	6	obl	_	name=B-PROD|Entity=(firdann~20081224_4011837__6242--1
+9	Grand	Grand	PROPN	_	_	8	flat:name	_	name=I-PROD
+10	Prix	Prix	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=firdann~20081224_4011837__6242)
+11	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 014894
+# text = Foto Stig Roger Eide
+1	Foto	foto	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(firdann~20081224_4011837__T16--1
+2	Stig	Stig	NOUN	_	Gender=Masc	1	parataxis	_	name=B-PER|Entity=(firdann~20081224_4011837__T17--1
+3	Roger	Roger	NOUN	_	Gender=Masc	2	flat:name	_	name=I-PER
+4	Eide	Eide	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20081224_4011837__T17)firdann~20081224_4011837__T16)
+
+# sent_id = 014895
+# text = Wenche Myhre har fleire gonger deltatt i Melodi Grand Prix og Damli Aaberge skal såleis konkurrere mot ei ekte Melodi Grand Prix-dronning.
+1	Wenche	Wenche	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__241--1
+2	Myhre	Myhre	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20081224_4011837__241)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+4	fleire	mange	ADJ	_	Degree=Cmp	5	amod	_	name=O|Entity=(firdann~20081224_4011837__T19--1
+5	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	obl	_	name=O|Entity=firdann~20081224_4011837__T19)
+6	deltatt	delta	VERB	_	VerbForm=Part	0	root	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Melodi	Melodi	PROPN	_	_	6	obl	_	name=B-PROD|Entity=(firdann~20081224_4011837__6242--1
+9	Grand	Grand	PROPN	_	_	8	flat:name	_	name=I-PROD
+10	Prix	Prix	PROPN	_	_	8	flat:name	_	name=I-PROD|Entity=firdann~20081224_4011837__6242)
+11	og	og	CCONJ	_	_	16	cc	_	name=O
+12	Damli	Damli	PROPN	_	_	16	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__231359--1
+13	Aaberge	Aaberge	PROPN	_	_	12	flat:name	_	name=I-PER|Entity=firdann~20081224_4011837__231359)
+14	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	såleis	såleis	ADV	_	_	16	advmod	_	name=O
+16	konkurrere	konkurrere	VERB	_	VerbForm=Inf	6	conj	_	name=O
+17	mot	mot	ADP	_	_	22	case	_	name=O
+18	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	22	det	_	name=O|Entity=(firdann~20081224_4011837__T22--1
+19	ekte	ekte	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	22	amod	_	name=O
+20	Melodi	Melodi	PROPN	_	_	22	compound	_	name=B-DRV
+21	Grand	Grand	PROPN	_	_	22	compound	_	name=I-DRV
+22	Prix-dronning	Prix-dronning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No|name=I-DRV|Entity=firdann~20081224_4011837__T22)
+23	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 014896
+# text = Ikkje den einaste
+1	Ikkje	ikkje	PART	_	Polarity=Neg	3	advmod	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O
+3	einaste	einaste	NUM	_	Definite=Def|NumType=Card	0	root	_	name=O
+
+# sent_id = 014897
+# text = Men Wenche Myhre er ikkje den einaste veteranen som skal delta i konkurransen i Bodø.
+1	Men	men	CCONJ	_	_	8	cc	_	name=O
+2	Wenche	Wenche	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__241--1
+3	Myhre	Myhre	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20081224_4011837__241)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(firdann~20081224_4011837__T24--1
+7	einaste	einaste	NUM	_	Definite=Def|NumType=Card	8	nummod	_	name=O
+8	veteranen	veteran	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O
+9	som	som	PRON	_	PronType=Rel	11	nsubj	_	name=O
+10	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+11	delta	delta	VERB	_	VerbForm=Inf	8	acl:relcl	_	name=O
+12	i	i	ADP	_	_	13	case	_	name=O
+13	konkurransen	konkurranse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(firdann~20081224_4011837__6242--1
+14	i	i	ADP	_	_	15	case	_	name=O
+15	Bodø	Bodø	PROPN	_	_	13	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20081224_4011837__265--1)firdann~20081224_4011837__6242)firdann~20081224_4011837__T24)
+16	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 014898
+# text = Alexander Stenerud skal nemleg også vere med.
+1	Alexander	Alexander	NOUN	_	Gender=Masc	7	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__4123--1
+2	Stenerud	Stenerud	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20081224_4011837__4123)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+4	nemleg	nemleg	ADV	_	_	7	advmod	_	name=O
+5	også	også	ADV	_	_	7	advmod	_	name=O
+6	vere	vere	AUX	_	VerbForm=Inf	7	cop	_	name=O
+7	med	med	ADP	_	_	0	root	_	SpaceAfter=No|name=O
+8	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 014899
+# text = Han er ein mann nokon kanskje hugsar frå i fjor, då han stod som den eine halvparten i gruppa Zuma.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20081224_4011837__4123--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+3	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(firdann~20081224_4011837__T29--1
+4	mann	mann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+5	nokon	nokon	PRON	_	Number=Plur|Person=3|PronType=Ind,Prs	7	nsubj	_	name=O|Entity=(firdann~20081224_4011837__T30--1)
+6	kanskje	kanskje	ADV	_	_	7	advmod	_	name=O
+7	hugsar	hugse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+8	frå	frå	ADP	_	_	10	case	_	name=O
+9	i	i	ADP	_	_	10	case	_	name=O
+10	fjor	fjor	NOUN	_	_	7	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20081224_4011837__T31--1)
+11	,	$,	PUNCT	_	_	14	punct	_	name=O
+12	då	då	SCONJ	_	_	14	mark	_	name=O
+13	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(firdann~20081224_4011837__4123--1)
+14	stod	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	advcl	_	name=O
+15	som	som	SCONJ	_	_	18	mark	_	name=O
+16	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	name=O|Entity=(firdann~20081224_4011837__T33--1
+17	eine	eine	NUM	_	Definite=Def|Number=Sing|NumType=Card	18	nummod	_	name=O
+18	halvparten	halvpart	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	acl	_	name=O
+19	i	i	ADP	_	_	21	case	_	name=O
+20	gruppa	gruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	21	nmod	_	name=O|Entity=(firdann~20081224_4011837__T34--1
+21	Zuma	Zuma	PROPN	_	_	18	nmod	_	SpaceAfter=No|name=B-ORG|Entity=firdann~20081224_4011837__T34)firdann~20081224_4011837__T33)firdann~20081224_4011837__T29)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 014900
+# text = I år skal ha stå aleine på scena.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(firdann~20081224_4011837__T35--1)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+4	ha	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(firdann~20081224_4011837__4123--1)
+5	stå	stå	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	aleine	aleine	ADV	_	_	5	advmod	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	scena	scene	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Bridge=firdann~20081224_4011837__6242<firdann~20081224_4011837__T37:default|Entity=(firdann~20081224_4011837__T37--1)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 014901
+# text = Her er artistane som skal opptre i Bodø:
+1	Her	her	ADV	_	_	2	advmod	_	name=O
+2	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	artistane	artist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(firdann~20081224_4011837__T38--1
+4	som	som	PRON	_	PronType=Rel	6	nsubj	_	name=O
+5	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	opptre	opptre	VERB	_	VerbForm=Inf	3	acl:relcl	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Bodø	Bodø	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20081224_4011837__265--1)firdann~20081224_4011837__T38)
+9	:	$:	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 014902
+# text = Damli Aaberge har skrive teksten til låta " Butterlies " saman med Mats Lie Skåre.
+1	Damli	Damli	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__231359--1
+2	Aaberge	Aaberge	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20081224_4011837__231359)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	skrive	skrive	VERB	_	VerbForm=Part	0	root	_	name=O
+5	teksten	tekst	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(firdann~20081224_4011837__T41--1
+6	til	til	ADP	_	_	9	case	_	name=O
+7	låta	låt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	9	nmod	_	name=O|Entity=(firdann~20081224_4011837__2148--1
+8	"	$"	PUNCT	_	_	9	punct	_	name=O
+9	Butterlies	Butterlies	PROPN	_	_	5	nmod	_	name=B-PROD
+10	"	$"	PUNCT	_	_	9	punct	_	name=O|Entity=firdann~20081224_4011837__2148)firdann~20081224_4011837__T41)
+11	saman	saman	ADV	_	_	13	advmod	_	name=O
+12	med	med	ADP	_	_	13	case	_	name=O
+13	Mats	Mats	NOUN	_	Gender=Masc	4	obl	_	name=B-PER|Entity=(firdann~20081224_4011837__T43--1
+14	Lie	Lie	PROPN	_	_	13	flat:name	_	name=I-PER
+15	Skåre	Skåre	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20081224_4011837__T43)
+16	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 014903
+# text = Den kjende produsenten David Eriksen står for musikken.
+1	Den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20081224_4011837__T45--1(firdann~20081224_4011837__T44--1
+2	kjende	kjend	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	produsenten	produsent	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=firdann~20081224_4011837__T44)
+4	David	David	NOUN	_	Gender=Masc	6	nsubj	_	name=B-PER
+5	Eriksen	Eriksen	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=firdann~20081224_4011837__T45)
+6	står	stå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	for	for	ADP	_	_	8	case	_	name=O
+8	musikken	musikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Bridge=firdann~20081224_4011837__2148<firdann~20081224_4011837__T46:default|Entity=(firdann~20081224_4011837__T46--1)
+9	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 014904
+# text = Dette skriv NRK i ei pressemelding.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(firdann~20081224_4011837__T47--1)
+2	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	NRK	NRK	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(firdann~20081224_4011837__3213--1)
+4	i	i	ADP	_	_	6	case	_	name=O
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(firdann~20081224_4011837__T49--1
+6	pressemelding	pressemelding	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=firdann~20081224_4011837__T49)
+7	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 014905
+# text = Gler seg
+1	Gler	gle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	1	obj	_	name=O
+
+# sent_id = 014906
+# text = - Eg gler meg som bare det og har mange sommarfuglar i magen!
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20081224_4011837__231359--1)
+3	gler	gle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	meg	eg	PRON	_	Animacy=Hum|Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	name=O|Entity=(firdann~20081224_4011837__231359--1)
+5	som	som	ADP	_	_	7	case	_	name=O
+6	bare	bare	ADV	_	_	7	advmod	_	name=O|Entity=(firdann~20081224_4011837__T52--1
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	name=O|Entity=firdann~20081224_4011837__T52)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+10	mange	mange	ADJ	_	Degree=Pos|Number=Plur	11	amod	_	name=O|Entity=(firdann~20081224_4011837__T53--1
+11	sommarfuglar	sommarfugl	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obj	_	name=O|Entity=firdann~20081224_4011837__T53)
+12	i	i	ADP	_	_	13	case	_	name=O
+13	magen	mage	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20081224_4011837__T54--1)
+14	!	$!	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 014907
+# text = MGP er annleis enn alt.
+1	MGP	MGP	PROPN	_	_	3	nsubj	_	name=B-PROD|Entity=(firdann~20081224_4011837__6242--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	annleis	annleis	ADV	_	_	0	root	_	name=O
+4	enn	enn	ADP	_	_	5	case	_	name=O
+5	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20081224_4011837__T56--1)
+6	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 014908
+# text = Det blir kjempespesielt å vere med, dette er ein gigaproduksjon, så utrulig stort, og det blir morosamt.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+2	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	kjempespesielt	kjempespesiell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	xcomp	_	name=O
+4	å	å	PART	_	_	6	mark	_	name=O
+5	vere	vere	AUX	_	VerbForm=Inf	6	cop	_	name=O
+6	med	med	ADP	_	_	2	csubj	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	11	punct	_	name=O
+8	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(firdann~20081224_4011837__6242--1)
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(firdann~20081224_4011837__T58--1(firdann~20081224_4011837__T59--1
+11	gigaproduksjon	gigaproduksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	15	punct	_	name=O|Entity=firdann~20081224_4011837__T59)
+13	så	så	ADV	_	_	14	advmod	_	name=O
+14	utrulig	utrulig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+15	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	conj	_	SpaceAfter=No|name=O|Entity=firdann~20081224_4011837__T58)
+16	,	$,	PUNCT	_	_	11	punct	_	name=O
+17	og	og	CCONJ	_	_	19	cc	_	name=O
+18	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(firdann~20081224_4011837__T60--1)
+19	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+20	morosamt	morosam	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	19	xcomp	_	SpaceAfter=No|name=O
+21	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 014909
+# text = Men eg er skitnervøs, seier Tone Damli Aaberge til NRK.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(firdann~20081224_4011837__231359--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	skitnervøs	skitnervøs	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	_	name=O
+7	Tone	Tone	NOUN	_	Gender=Fem	6	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__231359--1
+8	Damli	Damli	PROPN	_	_	7	flat:name	_	name=I-PER
+9	Aaberge	Aaberge	PROPN	_	_	7	flat:name	_	name=I-PER|Entity=firdann~20081224_4011837__231359)
+10	til	til	ADP	_	_	11	case	_	name=O
+11	NRK	NRK	PROPN	_	_	6	obl	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20081224_4011837__3213--1)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 014910
+# text = Sogndalsjenta og resten av familien har i lang tid vore tilhengjarar av Melodi Grand Prix.
+1	Sogndalsjenta	sogndalsjente	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj	_	name=O|Entity=(firdann~20081224_4011837__T64--1(firdann~20081224_4011837__231359--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	resten	rest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	conj	_	name=O|Entity=(firdann~20081224_4011837__T66--1
+4	av	av	ADP	_	_	5	case	_	name=O
+5	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	name=O|Bridge=firdann~20081224_4011837__231359<firdann~20081224_4011837__2139:default|Entity=(firdann~20081224_4011837__2139--1)firdann~20081224_4011837__T66)firdann~20081224_4011837__T64)
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+7	i	i	ADP	_	_	9	case	_	name=O
+8	lang	lang	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O|Entity=(firdann~20081224_4011837__T68--1
+9	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=firdann~20081224_4011837__T68)
+10	vore	vere	AUX	_	VerbForm=Part	11	cop	_	name=O
+11	tilhengjarar	tilhengjar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=(firdann~20081224_4011837__T69--1
+12	av	av	ADP	_	_	13	case	_	name=O
+13	Melodi	Melodi	PROPN	_	_	11	nmod	_	name=B-PROD|Entity=(firdann~20081224_4011837__6242--1
+14	Grand	Grand	PROPN	_	_	13	flat:name	_	name=I-PROD
+15	Prix	Prix	PROPN	_	_	13	flat:name	_	SpaceAfter=No|name=I-PROD|Entity=firdann~20081224_4011837__6242)firdann~20081224_4011837__T69)
+16	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 014911
+# text = Då Tone var lita reiste familien heilt til Oslo for å sjå på MPG-finale i Oslo Spektrum.
+1	Då	då	SCONJ	_	_	4	mark	_	name=O
+2	Tone	Tone	NOUN	_	Gender=Fem	4	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__231359--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+4	lita	liten	ADJ	_	Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	5	advcl	_	name=O
+5	reiste	reise	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	familien	familie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20081224_4011837__2139--1)
+7	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	Oslo	Oslo	PROPN	_	_	5	obl	_	name=B-GPE_LOC|Entity=(firdann~20081224_4011837__T73--1)
+10	for	for	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	sjå	sjå	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+13	på	på	ADP	_	_	14	case	_	name=O
+14	MPG-finale	MPG-finale	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obl	_	name=B-EVT|Entity=(firdann~20081224_4011837__T74--1)
+15	i	i	ADP	_	_	16	case	_	name=O
+16	Oslo	Oslo	PROPN	_	_	12	obl	_	name=B-LOC|Entity=(firdann~20081224_4011837__T75--1
+17	Spektrum	Spektrum	PROPN	_	_	16	flat:name	_	SpaceAfter=No|name=I-LOC|Entity=firdann~20081224_4011837__T75)
+18	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 014912
+# text = Damli Aaberge er berre 20 år, men ho er likevel ein av Norge sine mest populære og profilerte artistar.
+1	Damli	Damli	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__231359--1
+2	Aaberge	Aaberge	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=firdann~20081224_4011837__231359)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	berre	berre	ADV	_	_	5	advmod	_	name=O|Entity=(firdann~20081224_4011837__T77--1
+5	20	20	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O
+6	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No|name=O|Entity=firdann~20081224_4011837__T77)
+7	,	$,	PUNCT	_	_	12	punct	_	name=O
+8	men	men	CCONJ	_	_	12	cc	_	name=O
+9	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(firdann~20081224_4011837__231359--1)
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+11	likevel	likevel	ADV	_	_	12	advmod	_	name=O
+12	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	conj	_	name=O
+13	av	av	ADP	_	_	20	case	_	name=O
+14	Norge	Norge	PROPN	_	_	15	obl	_	name=B-GPE_LOC|Entity=(firdann~20081224_4011837__T81--1(firdann~20081224_4011837__T79--1)
+15	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	20	nmod	_	name=O
+16	mest	mykje	ADJ	_	Definite=Ind|Degree=Sup	17	advmod	_	name=O
+17	populære	populær	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	profilerte	profilere	ADJ	_	Number=Plur|VerbForm=Part	17	conj	_	name=O
+20	artistar	artist	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No|name=O|Entity=firdann~20081224_4011837__T81)
+21	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 014913
+# text = Ho deltok i Idol i 2005, berre 17 år gamal, der ho kom heilt til finalen.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20081224_4011837__231359--1)
+2	deltok	delta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	Idol	Idol	PROPN	_	_	2	obl	_	name=B-PROD|Entity=(firdann~20081224_4011837__T83[1/2]--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	2005	2005	NUM	_	Number=Plur|NumType=Card	2	obl	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	11	punct	_	name=O
+8	berre	berre	ADV	_	_	9	advmod	_	name=O|Entity=(firdann~20081224_4011837__T84--1
+9	17	17	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O
+10	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	obl	_	name=O|Entity=firdann~20081224_4011837__T84)
+11	gamal	gamal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	1	acl	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	11	punct	_	name=O
+13	der	der	SCONJ	_	_	15	mark	_	name=O|Entity=(firdann~20081224_4011837__T83[2/2]--1
+14	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(firdann~20081224_4011837__231359--1)
+15	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl	_	name=O
+16	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+17	til	til	ADP	_	_	18	case	_	name=O
+18	finalen	finale	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20081224_4011837__T86--1)firdann~20081224_4011837__T83[2/2])
+19	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 014914
+# text = Sogndalsjenta har også vore med i "Skal vi danse".
+1	Sogndalsjenta	sogndalsjente	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20081224_4011837__231359--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	også	også	ADV	_	_	5	advmod	_	name=O
+4	vore	vere	AUX	_	VerbForm=Part	5	cop	_	name=O
+5	med	med	ADP	_	_	0	root	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	"	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=(firdann~20081224_4011837__T88--1
+8	Skal	Skal	PROPN	_	_	5	obl	_	name=B-PROD
+9	vi	vi	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	8	flat:name	_	name=I-PROD
+10	danse	danse	VERB	_	VerbForm=Inf	8	flat:name	_	SpaceAfter=No|name=I-PROD
+11	"	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O|Entity=firdann~20081224_4011837__T88)
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 014915
+# text = Nytt album
+1	Nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	name=O|Entity=(firdann~20081224_4011837__T89--1
+2	album	album	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=firdann~20081224_4011837__T89)
+
+# sent_id = 014916
+# text = I februar skal Damli Aaberge, etter planen, gje ut eit nytt album og ho er dermed oppteken med å skrive og spele inn låtar for tida.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	februar	februar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obl	_	name=O|Entity=(firdann~20081224_4011837__T90--1)
+3	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+4	Damli	Damli	PROPN	_	_	10	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__231359--1
+5	Aaberge	Aaberge	PROPN	_	_	4	flat:name	_	SpaceAfter=No|name=I-PER|Entity=firdann~20081224_4011837__231359)
+6	,	$,	PUNCT	_	_	4	punct	_	name=O
+7	etter	etter	ADP	_	_	8	case	_	name=O
+8	planen	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20081224_4011837__T92--1)
+9	,	$,	PUNCT	_	_	8	punct	_	name=O
+10	gje	gje	VERB	_	VerbForm=Inf	0	root	_	name=O
+11	ut	ut	ADP	_	_	10	compound:prt	_	name=O
+12	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(firdann~20081224_4011837__T93--1
+13	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	name=O
+14	album	album	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=firdann~20081224_4011837__T93)
+15	og	og	CCONJ	_	_	19	cc	_	name=O
+16	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	name=O|Entity=(firdann~20081224_4011837__231359--1)
+17	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	name=O
+18	dermed	dermed	ADV	_	_	19	advmod	_	name=O
+19	oppteken	oppteken	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	conj	_	name=O
+20	med	med	SCONJ	_	_	22	mark	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	skrive	skrive	VERB	_	VerbForm=Inf	19	advcl	_	name=O
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	spele	spele	VERB	_	VerbForm=Inf	22	conj	_	name=O
+25	inn	inn	ADP	_	_	24	compound:prt	_	name=O
+26	låtar	låt	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	24	obj	_	name=O|Entity=(firdann~20081224_4011837__T95--1)
+27	for	for	ADP	_	_	28	case	_	name=O
+28	tida	tid	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20081224_4011837__T96--1)
+29	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 014917
+# text = Det første albumet som ho gav ut, heiter " Bliss ", og det selde til den store gullmedaljen.
+1	Det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20081224_4011837__3206--1
+2	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	amod	_	name=O
+3	albumet	album	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O
+4	som	som	PRON	_	PronType=Rel	6	nmod	_	name=O
+5	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(firdann~20081224_4011837__231359--1)
+6	gav	gje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	_	name=O
+7	ut	ut	ADP	_	_	6	compound:prt	_	SpaceAfter=No|name=O|Entity=firdann~20081224_4011837__3206)
+8	,	$,	PUNCT	_	_	3	punct	_	name=O
+9	heiter	heite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+10	"	$"	PUNCT	_	_	11	punct	_	name=O|Entity=(firdann~20081224_4011837__T99--1
+11	Bliss	Bliss	PROPN	_	_	9	xcomp	_	name=B-PROD
+12	"	$"	PUNCT	_	_	11	punct	_	SpaceAfter=No|name=O|Entity=firdann~20081224_4011837__T99)
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	og	og	CCONJ	_	_	16	cc	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	name=O|Entity=(firdann~20081224_4011837__3206--1)
+16	selde	selje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	name=O
+17	til	til	ADP	_	_	20	case	_	name=O
+18	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	name=O|Entity=(firdann~20081224_4011837__T101--1
+19	store	stor	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	20	amod	_	name=O
+20	gullmedaljen	gullmedalje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=firdann~20081224_4011837__T101)
+21	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 014918
+# text = NRK skriv at Damli Aaberge ser på Melodi Grand Prix-deltakinga som ein fantastisk moglegheit for å få spelt låta si for publikum.
+1	NRK	NRK	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(firdann~20081224_4011837__3213--1)
+2	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	6	mark	_	name=O
+4	Damli	Damli	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(firdann~20081224_4011837__231359--1
+5	Aaberge	Aaberge	PROPN	_	_	4	flat:name	_	name=I-PER|Entity=firdann~20081224_4011837__231359)
+6	ser	sjå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	Melodi	Melodi	PROPN	_	_	6	obl	_	name=B-DRV|Bridge=firdann~20081224_4011837__231359<firdann~20081224_4011837__T104:default|Entity=(firdann~20081224_4011837__T104--1
+9	Grand	Grand	PROPN	_	_	8	flat:name	_	name=I-DRV
+10	Prix-deltakinga	Prix-deltaking	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	8	flat:name	_	name=I-DRV|Entity=firdann~20081224_4011837__T104)
+11	som	som	SCONJ	_	_	14	mark	_	name=O
+12	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	name=O|Entity=(firdann~20081224_4011837__T105--1
+13	fantastisk	fantastisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	14	amod	_	name=O
+14	moglegheit	moglegheit	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	xcomp	_	name=O
+15	for	for	SCONJ	_	_	18	mark	_	name=O
+16	å	å	PART	_	_	18	mark	_	name=O
+17	få	få	AUX	_	VerbForm=Inf	18	aux	_	name=O
+18	spelt	spele	VERB	_	VerbForm=Part	14	acl	_	name=O
+19	låta	låt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obj	_	name=O|Entity=(firdann~20081224_4011837__2148--1
+20	si	sin	PRON	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(firdann~20081224_4011837__231359--1)firdann~20081224_4011837__2148)
+21	for	for	ADP	_	_	22	case	_	name=O
+22	publikum	publikum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20081224_4011837__T108--1)firdann~20081224_4011837__T105)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+

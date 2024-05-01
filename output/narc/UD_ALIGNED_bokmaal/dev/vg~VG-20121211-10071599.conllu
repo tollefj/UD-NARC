@@ -1,0 +1,706 @@
+# newdoc id = vg~VG-20121211-10071599
+# global.Entity = eid-etype-head-other
+# sent_id = 018043
+# text = Fordømmer pågripelsen av Malis statsminister
+1	Fordømmer	fordømme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	pågripelsen	pågripelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T1--1
+3	av	av	ADP	_	_	5	case	_	name=O
+4	Malis	Mali	PROPN	_	Case=Gen	5	nmod	_	name=B-GPE_ORG|Entity=(vg~vg_20121211_10071599__201076--1(vg~vg_20121211_10071599__12825--1)
+5	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=vg~vg_20121211_10071599__201076)vg~vg_20121211_10071599__T1)
+
+# sent_id = 018044
+# text = Brøt seg inn
+1	Brøt	bryte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	1	obj	_	name=O
+3	inn	inn	ADP	_	_	1	compound:prt	_	name=O
+
+# newpar
+# sent_id = 018045
+# text = Sharia
+1	Sharia	sharia	NOUN	_	_	0	root	_	name=O|Entity=(vg~vg_20121211_10071599__T4--1)
+
+# newpar
+# sent_id = 018046
+# text = Vakuum
+1	Vakuum	vakuum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(vg~vg_20121211_10071599__T5--1)
+
+# newpar
+# sent_id = 018047
+# text = Skepsis
+1	Skepsis	skepsis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(vg~vg_20121211_10071599__T6--1)
+
+# newpar
+# sent_id = 018048
+# text = FNs sikkerhetsråd fordømmer pågripelsen av Malis statsminister Cheick Modibo Diarra, som har gått av etter å ha blitt pågrepet soldater som var sendt av den tidligere kupplederen Amadou Sanogo.
+1	FNs	FN	PROPN	_	Abbr=Yes|Case=Gen	2	nmod	_	name=B-ORG|Entity=(vg~vg_20121211_10071599__365--1(vg~vg_20121211_10071599__3291--1)
+2	sikkerhetsråd	sikkerhetsråd	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	name=I-ORG|Entity=vg~vg_20121211_10071599__365)
+3	fordømmer	fordømme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	pågripelsen	pågripelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T9--1
+5	av	av	ADP	_	_	8	case	_	name=O
+6	Malis	Mali	PROPN	_	Case=Gen	7	nmod	_	name=B-GPE_ORG|Entity=(vg~vg_20121211_10071599__201076--1(vg~vg_20121211_10071599__T11--1(vg~vg_20121211_10071599__12825--1)
+7	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=vg~vg_20121211_10071599__T11)
+8	Cheick	Cheick	PROPN	_	_	4	nmod	_	name=B-PER
+9	Modibo	Modibo	PROPN	_	_	8	flat:name	_	name=I-PER
+10	Diarra	Diarra	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER
+11	,	$,	PUNCT	_	_	14	punct	_	name=O
+12	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+13	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	gått	gå	VERB	_	VerbForm=Part	8	acl:relcl	_	name=O
+15	av	av	ADP	_	_	14	compound:prt	_	name=O
+16	etter	etter	SCONJ	_	_	20	mark	_	name=O
+17	å	å	PART	_	_	20	mark	_	name=O
+18	ha	ha	AUX	_	VerbForm=Inf	20	aux	_	name=O
+19	blitt	bli	AUX	_	VerbForm=Part	20	aux:pass	_	name=O
+20	pågrepet	pågripe	VERB	_	VerbForm=Part	14	advcl	_	name=O
+21	soldater	soldat	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T13--1
+22	som	som	PRON	_	PronType=Rel	24	nsubj	_	name=O
+23	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	name=O
+24	sendt	sende	VERB	_	VerbForm=Part	21	acl:relcl	_	name=O
+25	av	av	ADP	_	_	29	case	_	name=O
+26	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	name=O|Entity=(vg~vg_20121211_10071599__3165--1(vg~vg_20121211_10071599__T14--1
+27	tidligere	tidlig	ADJ	_	Degree=Cmp	28	amod	_	name=O
+28	kupplederen	kuppleder	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	name=O|Entity=vg~vg_20121211_10071599__T14)
+29	Amadou	Amadou	PROPN	_	_	24	obl	_	name=B-PER
+30	Sanogo	Sanogo	PROPN	_	_	29	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vg~vg_20121211_10071599__3165)vg~vg_20121211_10071599__T13)vg~vg_20121211_10071599__201076)vg~vg_20121211_10071599__T9)
+31	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 018049
+# text = I en kort tale på Malis statlige fjernsyn sa Diarra tirsdag at han går av med hele sin regjering.
+1	I	i	ADP	_	_	4	case	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	4	det	_	name=O|Entity=(vg~vg_20121211_10071599__T16--1
+3	kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O
+4	tale	tale	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O
+5	på	på	ADP	_	_	8	case	_	name=O
+6	Malis	Mali	PROPN	_	Case=Gen	8	nmod	_	name=B-GPE_LOC|Entity=(vg~vg_20121211_10071599__T18--1(vg~vg_20121211_10071599__12825--1)
+7	statlige	statlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	fjernsyn	fjernsyn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=vg~vg_20121211_10071599__T18)vg~vg_20121211_10071599__T16)
+9	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+10	Diarra	Diarra	PROPN	_	_	9	nsubj	_	name=B-PER|Entity=(vg~vg_20121211_10071599__201076--1)
+11	tirsdag	tirsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T20--1)
+12	at	at	SCONJ	_	_	14	mark	_	name=O
+13	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__201076--1)
+14	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	name=O
+15	av	av	ADP	_	_	14	compound:prt	_	name=O
+16	med	med	ADP	_	_	19	case	_	name=O
+17	hele	hel	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	19	amod	_	name=O|Entity=(vg~vg_20121211_10071599__T23--1
+18	sin	sin	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__201076--1)
+19	regjering	regjering	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__T23)
+20	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# newpar
+# sent_id = 018050
+# text = Sikkerhetsrådet fordømmer pågripelsen av Diarra og advarer om at hæren i landet er i ferd med å undergrave de internasjonale forsøkene på å slå ned det islamistiske opprøret nord i landet.
+1	Sikkerhetsrådet	sikkerhetsråd	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	name=B-ORG|Entity=(vg~vg_20121211_10071599__365--1)
+2	fordømmer	fordømme	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	pågripelsen	pågripelse	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T25--1
+4	av	av	ADP	_	_	5	case	_	name=O
+5	Diarra	Diarra	PROPN	_	_	3	nmod	_	name=B-PER|Entity=(vg~vg_20121211_10071599__201076--1)vg~vg_20121211_10071599__T25)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	advarer	advare	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+8	om	om	SCONJ	_	_	15	mark	_	name=O
+9	at	at	SCONJ	_	_	15	mark	_	name=O
+10	hæren	hær	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__T27--1
+11	i	i	ADP	_	_	12	case	_	name=O
+12	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__12825--1)vg~vg_20121211_10071599__T27)
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+14	i	i	SCONJ	_	_	15	mark	_	name=O
+15	ferd	ferd	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	advcl	_	name=O|Entity=(vg~vg_20121211_10071599__T29--1
+16	med	med	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	undergrave	undergrave	VERB	_	VerbForm=Inf	15	acl	_	name=O
+19	de	de	DET	_	Number=Plur|PronType=Dem	21	det	_	name=O|Entity=(vg~vg_20121211_10071599__T30--1
+20	internasjonale	internasjonal	ADJ	_	Degree=Pos|Number=Plur	21	amod	_	name=O
+21	forsøkene	forsøk	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	18	obj	_	name=O
+22	på	på	SCONJ	_	_	24	mark	_	name=O
+23	å	å	PART	_	_	24	mark	_	name=O
+24	slå	slå	VERB	_	VerbForm=Inf	21	acl	_	name=O
+25	ned	ned	ADP	_	_	24	compound:prt	_	name=O
+26	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	28	det	_	name=O|Entity=(vg~vg_20121211_10071599__T31--1
+27	islamistiske	islamistisk	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	28	amod	_	name=O
+28	opprøret	opprør	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	obj	_	name=O
+29	nord	nord	ADP	_	_	31	case	_	name=O
+30	i	i	ADP	_	_	31	case	_	name=O
+31	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__12825--1)vg~vg_20121211_10071599__T31)vg~vg_20121211_10071599__T30)vg~vg_20121211_10071599__T29)
+32	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 018051
+# text = Sikkerhetsrådet varsler også om at det kan bli aktuelt å innføre sanksjoner mot Mali.
+1	Sikkerhetsrådet	Sikkerhetsrådet	PROPN	_	_	2	nsubj	_	name=B-ORG|Entity=(vg~vg_20121211_10071599__365--1)
+2	varsler	varsle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	om	om	SCONJ	_	_	8	mark	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+7	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	bli	bli	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+9	aktuelt	aktuell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	xcomp	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	innføre	innføre	VERB	_	VerbForm=Inf	8	csubj	_	name=O
+12	sanksjoner	sanksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	11	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T34--1
+13	mot	mot	ADP	_	_	14	case	_	name=O
+14	Mali	Mali	PROPN	_	_	12	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vg~vg_20121211_10071599__12825--1)vg~vg_20121211_10071599__T34)
+15	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 018052
+# text = Ifølge en av Diarras livvakter var det rundt 20 soldater som mandag kom fra en militærleir utenfor hovedstaden Bamako, som er hovedkvarteret til Sanogo og de tidligere kuppmakerne.
+1	Ifølge	ifølge	ADP	_	_	2	case	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	obl	_	name=O
+3	av	av	ADP	_	_	5	case	_	name=O
+4	Diarras	Diarra	PROPN	_	Case=Gen	5	nmod	_	name=B-PER|Entity=(vg~vg_20121211_10071599__T37--1(vg~vg_20121211_10071599__201076--1)
+5	livvakter	livvakt	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	nmod	_	name=O|Entity=vg~vg_20121211_10071599__T37)
+6	var	være	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+8	rundt	rundt	ADP	_	_	9	case	_	name=O|Entity=(vg~vg_20121211_10071599__3136--1
+9	20	20	NUM	_	Number=Plur|NumType=Card	10	nummod	_	name=O
+10	soldater	soldat	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj	_	name=O
+11	som	som	PRON	_	PronType=Rel	13	nsubj	_	name=O
+12	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T39--1)
+13	kom	komme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	acl:relcl	_	name=O
+14	fra	fra	ADP	_	_	16	case	_	name=O
+15	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(vg~vg_20121211_10071599__T40--1
+16	militærleir	militærleir	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	obl	_	name=O
+17	utenfor	utenfor	ADP	_	_	19	case	_	name=O
+18	hovedstaden	hovedstad	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__2212--1
+19	Bamako	Bamako	PROPN	_	_	16	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=vg~vg_20121211_10071599__2212)
+20	,	$,	PUNCT	_	_	23	punct	_	name=O
+21	som	som	PRON	_	PronType=Rel	23	nsubj	_	name=O
+22	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	name=O
+23	hovedkvarteret	hovedkvarter	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	acl:relcl	_	name=O|Entity=(vg~vg_20121211_10071599__T42--1
+24	til	til	ADP	_	_	25	case	_	name=O
+25	Sanogo	Sanogo	PROPN	_	_	23	nmod	_	name=B-PER|Entity=(vg~vg_20121211_10071599__T43--1(vg~vg_20121211_10071599__3165--1)
+26	og	og	CCONJ	_	_	29	cc	_	name=O
+27	de	de	DET	_	Number=Plur|PronType=Dem	29	det	_	name=O|Entity=(vg~vg_20121211_10071599__T45--1
+28	tidligere	tidlig	ADJ	_	Degree=Cmp	29	amod	_	name=O
+29	kuppmakerne	kuppmaker	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__T45)vg~vg_20121211_10071599__T43)vg~vg_20121211_10071599__T42)vg~vg_20121211_10071599__T40)vg~vg_20121211_10071599__3136)
+30	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# newpar
+# sent_id = 018053
+# text = Livvakter forteller at soldatene slo inn døra for å ta seg inn i Diarras hjem, og at de hadde behandlet ham ganske røft.
+1	Livvakter	livvakt	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	2	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__T46--1)
+2	forteller	fortelle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	5	mark	_	name=O
+4	soldatene	soldat	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__3136--1)
+5	slo	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	name=O
+6	inn	inn	ADP	_	_	5	compound:prt	_	name=O
+7	døra	dør	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T48--1)
+8	for	for	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	ta	ta	VERB	_	VerbForm=Inf	5	advcl	_	name=O
+11	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	10	obj	_	name=O
+12	inn	inn	ADP	_	_	15	case	_	name=O
+13	i	i	ADP	_	_	15	case	_	name=O
+14	Diarras	Diarra	PROPN	_	Case=Gen	15	nmod	_	name=B-PER|Entity=(vg~vg_20121211_10071599__T50--1(vg~vg_20121211_10071599__201076--1)
+15	hjem	hjem	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__T50)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	og	og	CCONJ	_	_	21	cc	_	name=O
+18	at	at	SCONJ	_	_	21	mark	_	name=O
+19	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__3136--1)
+20	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	name=O
+21	behandlet	behandle	VERB	_	VerbForm=Part	5	conj	_	name=O
+22	ham	han	PRON	_	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	name=O|Entity=(vg~vg_20121211_10071599__201076--1)
+23	ganske	ganske	ADV	_	_	24	advmod	_	name=O
+24	røft	røff	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	xcomp	_	SpaceAfter=No|name=O
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 018054
+# text = Ifølge en talsmann for de militære ble Diarra arrestert fordi han prøvde å reise fra landet.
+1	Ifølge	ifølge	ADP	_	_	3	case	_	name=O
+2	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(vg~vg_20121211_10071599__2157--1
+3	talsmann	talsmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obl	_	name=O
+4	for	for	ADP	_	_	6	case	_	name=O
+5	de	de	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(vg~vg_20121211_10071599__2154--1
+6	militære	militær	ADJ	_	Degree=Pos|Number=Plur	3	amod	_	name=O|Entity=vg~vg_20121211_10071599__2154)vg~vg_20121211_10071599__2157)
+7	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux:pass	_	name=O
+8	Diarra	Diarra	PROPN	_	_	9	nsubj:pass	_	name=B-PER|Entity=(vg~vg_20121211_10071599__201076--1)
+9	arrestert	arrestere	VERB	_	VerbForm=Part	0	root	_	name=O
+10	fordi	fordi	SCONJ	_	_	12	mark	_	name=O
+11	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__201076--1)
+12	prøvde	prøve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	reise	reise	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	fra	fra	ADP	_	_	16	case	_	name=O
+16	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__12825--1)
+17	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 018055
+# text = Diarra skulle mandag reist til Frankrike for en legeundersøkelse, men han avlyste reisen da han fikk vite at bagasjen hans var tatt av flyet han skulle reist med.
+1	Diarra	Diarra	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(vg~vg_20121211_10071599__201076--1)
+2	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+3	mandag	mandag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T59--1)
+4	reist	reise	VERB	_	VerbForm=Part	0	root	_	name=O
+5	til	til	ADP	_	_	6	case	_	name=O
+6	Frankrike	Frankrike	PROPN	_	_	4	obl	_	name=B-GPE_LOC|Entity=(vg~vg_20121211_10071599__2192--1)
+7	for	for	ADP	_	_	9	case	_	name=O
+8	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vg~vg_20121211_10071599__T61--1
+9	legeundersøkelse	legeundersøkelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__T61)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	men	men	CCONJ	_	_	13	cc	_	name=O
+12	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__201076--1)
+13	avlyste	avlyse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	name=O
+14	reisen	reise	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T63--1)
+15	da	da	SCONJ	_	_	18	mark	_	name=O
+16	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__201076--1)
+17	fikk	få	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux	_	name=O
+18	vite	vite	VERB	_	VerbForm=Inf	13	advcl	_	name=O
+19	at	at	SCONJ	_	_	23	mark	_	name=O
+20	bagasjen	bagasje	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__T65--1
+21	hans	hans	PRON	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__201076--1)vg~vg_20121211_10071599__T65)
+22	var	være	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux	_	name=O
+23	tatt	ta	VERB	_	VerbForm=Part	18	ccomp	_	name=O
+24	av	av	ADP	_	_	25	case	_	name=O
+25	flyet	fly	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T67--1
+26	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__201076--1)
+27	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	name=O
+28	reist	reise	VERB	_	VerbForm=Part	25	acl:relcl	_	name=O
+29	med	med	ADP	_	_	28	compound:prt	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__T67)
+30	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 018056
+# text = Diarra har mange ganger gjort det klart at han ønsker en rask militæraksjon for å drive islamistene som har tatt kontrollen over det nordlige Mali, bort.
+1	Diarra	Diarra	PROPN	_	_	5	nsubj	_	name=B-PER|Entity=(vg~vg_20121211_10071599__201076--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	4	amod	_	name=O|Entity=(vg~vg_20121211_10071599__T70--1
+4	ganger	gang	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obl	_	name=O|Entity=vg~vg_20121211_10071599__T70)
+5	gjort	gjøre	VERB	_	VerbForm=Part	0	root	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+7	klart	klar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	xcomp	_	name=O
+8	at	at	SCONJ	_	_	10	mark	_	name=O
+9	han	han	PRON	_	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__201076--1)
+10	ønsker	ønske	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(vg~vg_20121211_10071599__T72--1
+12	rask	rask	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	militæraksjon	militæraksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	obj	_	name=O|Entity=vg~vg_20121211_10071599__T72)
+14	for	for	SCONJ	_	_	16	mark	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	drive	drive	VERB	_	VerbForm=Inf	10	advcl	_	name=O
+17	islamistene	islamist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	16	obj	_	name=O|Entity=(vg~vg_20121211_10071599__8786--1
+18	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+19	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+20	tatt	ta	VERB	_	VerbForm=Part	17	acl:relcl	_	name=O
+21	kontrollen	kontroll	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T74--1
+22	over	over	ADP	_	_	25	case	_	name=O
+23	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	25	det	_	name=O|Bridge=vg~vg_20121211_10071599__12825<vg~vg_20121211_10071599__3337:default|Entity=(vg~vg_20121211_10071599__3337--1
+24	nordlige	nordlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	25	amod	_	name=O
+25	Mali	Mali	PROPN	_	_	21	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=vg~vg_20121211_10071599__3337)vg~vg_20121211_10071599__T74)vg~vg_20121211_10071599__8786)
+26	,	$,	PUNCT	_	_	27	punct	_	name=O
+27	bort	bort	ADP	_	_	16	compound:prt	_	SpaceAfter=No|name=O
+28	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# newpar
+# sent_id = 018057
+# text = Islamistene har innført sharialov i gamle kulturbyer som Timbuktu.
+1	Islamistene	islamist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__8786--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	innført	innføre	VERB	_	VerbForm=Part	0	root	_	name=O
+4	sharialov	sharialov	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T77--1)
+5	i	i	ADP	_	_	7	case	_	name=O
+6	gamle	gammel	ADJ	_	Degree=Pos|Number=Plur	7	amod	_	name=O|Entity=(vg~vg_20121211_10071599__T78--1
+7	kulturbyer	kulturby	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O
+8	som	som	ADP	_	_	9	case	_	name=O
+9	Timbuktu	Timbuktu	PROPN	_	_	7	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vg~vg_20121211_10071599__T79--1)vg~vg_20121211_10071599__T78)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 018058
+# text = Blant annet straffer de tyver ved å kappe hendene av dem, de tvinger kvinner til å dekke seg til, og de har forbudt aktiviteter som fotball.
+1	Blant	blant	ADP	_	_	2	case	_	name=O
+2	annet	annen	DET	_	Definite=Ind|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	name=O
+3	straffer	straffe	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__8786--1)
+5	tyver	tyv	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obj	_	name=O|Entity=(vg~vg_20121211_10071599__2164--1)
+6	ved	ved	SCONJ	_	_	8	mark	_	name=O
+7	å	å	PART	_	_	8	mark	_	name=O
+8	kappe	kappe	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+9	hendene	hånd	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	8	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T82--1)
+10	av	av	ADP	_	_	11	case	_	name=O
+11	dem	de	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__2164--1)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__8786--1)
+14	tvinger	tvinge	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+15	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T85--1)
+16	til	til	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	dekke	dekke	VERB	_	VerbForm=Inf	14	advcl	_	name=O
+19	seg	seg	PRON	_	Case=Acc|PronType=Prs|Reflex=Yes	18	obj	_	name=O
+20	til	til	ADP	_	_	18	compound:prt	_	SpaceAfter=No|name=O
+21	,	$,	PUNCT	_	_	14	punct	_	name=O
+22	og	og	CCONJ	_	_	25	cc	_	name=O
+23	de	de	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__8786--1)
+24	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	forbudt	forby	VERB	_	VerbForm=Part	3	conj	_	name=O
+26	aktiviteter	aktivitet	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	25	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T87--1
+27	som	som	ADP	_	_	28	case	_	name=O
+28	fotball	fotball	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__T88--1)vg~vg_20121211_10071599__T87)
+29	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 018059
+# text = Diarra ble utnevnt til statsminister i en interimsregjering noen uker etter et kupp i mars som kastet det tidligere stabile landet ut i kaos.
+1	Diarra	Diarra	PROPN	_	_	3	nsubj:pass	_	name=B-PER|Entity=(vg~vg_20121211_10071599__201076--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	utnevnt	utnevne	VERB	_	VerbForm=Part	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T90--1
+6	i	i	ADP	_	_	8	case	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(vg~vg_20121211_10071599__3376--1
+8	interimsregjering	interimsregjering	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=vg~vg_20121211_10071599__3376)vg~vg_20121211_10071599__T90)
+9	noen	noen	DET	_	Number=Plur|PronType=Ind	10	det	_	name=O|Entity=(vg~vg_20121211_10071599__T92--1
+10	uker	uke	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	13	obl	_	name=O|Entity=vg~vg_20121211_10071599__T92)
+11	etter	etter	ADP	_	_	13	case	_	name=O
+12	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(vg~vg_20121211_10071599__3315--1
+13	kupp	kupp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obl	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	mars	mars	NOUN	_	Gender=Masc	13	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__T94--1)
+16	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+17	kastet	kaste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	_	name=O
+18	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	21	det	_	name=O|Entity=(vg~vg_20121211_10071599__12825--1
+19	tidligere	tidlig	ADJ	_	Degree=Cmp	20	advmod	_	name=O
+20	stabile	stabil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O
+21	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	17	obj	_	name=O|Entity=vg~vg_20121211_10071599__12825)
+22	ut	ut	ADP	_	_	24	case	_	name=O
+23	i	i	ADP	_	_	24	case	_	name=O
+24	kaos	kaos	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__T96--1)vg~vg_20121211_10071599__3315)
+25	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 018060
+# text = Dioncounda Traore sitter fortsatt som interimspresident i landet.
+1	Dioncounda	Dioncounda	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(vg~vg_20121211_10071599__2279--1
+2	Traore	Traore	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vg~vg_20121211_10071599__2279)
+3	sitter	sitte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	fortsatt	fortsatt	ADV	_	_	3	advmod	_	name=O
+5	som	som	SCONJ	_	_	6	mark	_	name=O
+6	interimspresident	interimspresident	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	xcomp	_	name=O|Entity=(vg~vg_20121211_10071599__T98--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__12825--1)vg~vg_20121211_10071599__T98)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 018061
+# text = Ifølge militærregimet vil en ny statsminister snart bli utnevnt.
+1	Ifølge	ifølge	ADP	_	_	2	case	_	name=O
+2	militærregimet	militærregime	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	name=O|Entity=(vg~vg_20121211_10071599__2154--1)
+3	vil	ville	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+4	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vg~vg_20121211_10071599__T101--1
+5	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nsubj:pass	_	name=O|Entity=vg~vg_20121211_10071599__T101)
+7	snart	snar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+8	bli	bli	AUX	_	VerbForm=Inf	9	aux:pass	_	name=O
+9	utnevnt	utnevne	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 018062
+# text = - Dette er ikke et statskupp, forsikrer militærtalsmann Bakary Mariko overfor fjernsynskanalen France 24.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__T102--1)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	ikke	ikke	PART	_	Polarity=Neg	6	advmod	_	name=O
+5	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vg~vg_20121211_10071599__T103--1
+6	statskupp	statskupp	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__T103)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	forsikrer	forsikre	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	parataxis	_	name=O
+9	militærtalsmann	militærtalsmann	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__2157--1
+10	Bakary	Bakary	PROPN	_	_	8	nsubj	_	name=B-PER
+11	Mariko	Mariko	PROPN	_	_	10	flat:name	_	name=I-PER|Entity=vg~vg_20121211_10071599__2157)
+12	overfor	overfor	ADP	_	_	14	case	_	name=O
+13	fjernsynskanalen	fjernsynskanal	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__T105--1
+14	France	France	PROPN	_	_	8	obl	_	name=B-ORG
+15	24	24	NUM	_	Number=Plur|NumType=Card	14	nummod	_	SpaceAfter=No|name=I-ORG|Entity=vg~vg_20121211_10071599__T105)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 018063
+# text = Kaptein Sanogo gjennomførte kuppet mot den sittende presidenten Amadou Toure på grunn av skuffelse over at regjeringen ikke gjorde mer for å stanse et opprør blant tuaregene i nord.
+1	Kaptein	kaptein	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__3165--1
+2	Sanogo	Sanogo	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=vg~vg_20121211_10071599__3165)
+3	gjennomførte	gjennomføre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	kuppet	kupp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	name=O|Entity=(vg~vg_20121211_10071599__3315--1
+5	mot	mot	ADP	_	_	9	case	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(vg~vg_20121211_10071599__T109--1(vg~vg_20121211_10071599__T108--1
+7	sittende	sitte	ADJ	_	VerbForm=Part	8	amod	_	name=O
+8	presidenten	president	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=vg~vg_20121211_10071599__T108)
+9	Amadou	Amadou	PROPN	_	_	4	nmod	_	name=B-PER
+10	Toure	Toure	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=vg~vg_20121211_10071599__T109)vg~vg_20121211_10071599__3315)
+11	på	på	ADP	_	_	12	case	_	name=O
+12	grunn	grunn	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T110--1
+13	av	av	ADP	_	_	14	case	_	name=O
+14	skuffelse	skuffelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__T111--1
+15	over	over	SCONJ	_	_	19	mark	_	name=O
+16	at	at	SCONJ	_	_	19	mark	_	name=O
+17	regjeringen	regjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	19	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__3376--1)
+18	ikke	ikke	PART	_	Polarity=Neg	19	advmod	_	name=O
+19	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl	_	name=O
+20	mer	mye	ADJ	_	Degree=Cmp	19	obj	_	name=O
+21	for	for	SCONJ	_	_	23	mark	_	name=O
+22	å	å	PART	_	_	23	mark	_	name=O
+23	stanse	stanse	VERB	_	VerbForm=Inf	19	advcl	_	name=O
+24	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	25	det	_	name=O|Entity=(vg~vg_20121211_10071599__T113--1
+25	opprør	opprør	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	23	obj	_	name=O
+26	blant	blant	ADP	_	_	27	case	_	name=O
+27	tuaregene	tuareg	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	25	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__3357--1
+28	i	i	ADP	_	_	29	case	_	name=O
+29	nord	nord	ADP	_	_	27	nmod	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__3357)vg~vg_20121211_10071599__T113)vg~vg_20121211_10071599__T111)vg~vg_20121211_10071599__T110)
+30	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 018064
+# text = Men kuppet skapte et vakuum som gjorde at tuaregene og deres islamistiske allierte kunne ta kontrollen over de nordligste to tredelene av landet.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	kuppet	kupp	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__3315--1)
+3	skapte	skape	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(vg~vg_20121211_10071599__T116--1
+5	vakuum	vakuum	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	3	obj	_	name=O
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	gjorde	gjøre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	name=O
+8	at	at	SCONJ	_	_	15	mark	_	name=O
+9	tuaregene	tuareg	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	15	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__T117--1(vg~vg_20121211_10071599__3357--1)
+10	og	og	CCONJ	_	_	13	cc	_	name=O
+11	deres	deres	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	13	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__8786--1(vg~vg_20121211_10071599__T119--1)
+12	islamistiske	islamistisk	ADJ	_	Degree=Pos|Number=Plur	13	amod	_	name=O
+13	allierte	alliert	ADJ	_	Degree=Pos|Number=Plur	9	conj	_	name=O|Entity=vg~vg_20121211_10071599__8786)vg~vg_20121211_10071599__T117)
+14	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux	_	name=O
+15	ta	ta	VERB	_	VerbForm=Inf	7	ccomp	_	name=O
+16	kontrollen	kontroll	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	15	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T121--1
+17	over	over	ADP	_	_	21	case	_	name=O
+18	de	de	DET	_	Number=Plur|PronType=Dem	21	det	_	name=O|Entity=(vg~vg_20121211_10071599__3337--1
+19	nordligste	nordlig	ADJ	_	Definite=Def|Degree=Sup	21	amod	_	name=O
+20	to	to	NUM	_	Number=Plur|NumType=Card	21	nummod	_	name=O
+21	tredelene	tredel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	16	nmod	_	name=O
+22	av	av	ADP	_	_	23	case	_	name=O
+23	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__12825--1)vg~vg_20121211_10071599__3337)vg~vg_20121211_10071599__T121)vg~vg_20121211_10071599__T116)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 018065
+# text = Siden kastet islamistene ut tuaregene og tok makten alene.
+1	Siden	siden	ADV	_	_	2	advmod	_	name=O
+2	kastet	kaste	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	islamistene	islamist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__8786--1)
+4	ut	ut	ADP	_	_	2	compound:prt	_	name=O
+5	tuaregene	tuareg	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	obj	_	name=O|Entity=(vg~vg_20121211_10071599__3357--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	tok	ta	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	name=O
+8	makten	makt	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T126--1)
+9	alene	alene	ADV	_	_	7	advmod	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 018066
+# text = Vestafrikanske land har lagt planer for en militær intervensjon og har bedt FN godkjenne planene, som støttes av Frankrike.
+1	Vestafrikanske	vestafrikansk	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(vg~vg_20121211_10071599__T127--1
+2	land	land	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	name=O|Entity=vg~vg_20121211_10071599__T127)
+3	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	lagt	legge	VERB	_	VerbForm=Part	0	root	_	name=O
+5	planer	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T128--1
+6	for	for	ADP	_	_	9	case	_	name=O
+7	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vg~vg_20121211_10071599__T129--1
+8	militær	militær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	intervensjon	intervensjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nmod	_	name=O|Entity=vg~vg_20121211_10071599__T129)vg~vg_20121211_10071599__T128)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+12	bedt	be	VERB	_	VerbForm=Part	4	conj	_	name=O
+13	FN	FN	PROPN	_	Abbr=Yes	12	iobj	_	name=B-ORG|Entity=(vg~vg_20121211_10071599__3291--1)
+14	godkjenne	godkjenne	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	planene	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__T131--1
+16	,	$,	PUNCT	_	_	18	punct	_	name=O
+17	som	som	PRON	_	PronType=Rel	18	nsubj:pass	_	name=O
+18	støttes	støtte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	15	acl:relcl	_	name=O
+19	av	av	ADP	_	_	20	case	_	name=O
+20	Frankrike	Frankrike	PROPN	_	_	18	obl	_	SpaceAfter=No|name=B-GPE_ORG|Entity=(vg~vg_20121211_10071599__2192--1)vg~vg_20121211_10071599__T131)
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 018067
+# text = Tyskland og USA har lovet å bidra med opplæring og logistisk støtte.
+1	Tyskland	Tyskland	PROPN	_	_	5	nsubj	_	name=B-GPE_ORG|Entity=(vg~vg_20121211_10071599__T133--1(vg~vg_20121211_10071599__T134--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	USA	USA	PROPN	_	Abbr=Yes	1	conj	_	name=B-GPE_ORG|Entity=(vg~vg_20121211_10071599__3447--1)vg~vg_20121211_10071599__T133)
+4	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+5	lovet	love	VERB	_	VerbForm=Part	0	root	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	bidra	bidra	VERB	_	VerbForm=Inf	5	xcomp	_	name=O
+8	med	med	ADP	_	_	9	case	_	name=O
+9	opplæring	opplæring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T136--1(vg~vg_20121211_10071599__T137--1)
+10	og	og	CCONJ	_	_	12	cc	_	name=O
+11	logistisk	logistisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	amod	_	name=O|Entity=(vg~vg_20121211_10071599__T138--1
+12	støtte	støtte	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__T138)vg~vg_20121211_10071599__T136)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 018068
+# text = Vesten frykter at det nordlige Mali skal bli et nytt støttepunkt for islamistiske terrorgrupper, ettersom noen av islamistene der har forbindelser til al-Qaida.
+1	Vesten	vest	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=B-GPE_ORG|Entity=(vg~vg_20121211_10071599__T139--1)
+2	frykter	frykte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	8	mark	_	name=O
+4	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(vg~vg_20121211_10071599__3337--1
+5	nordlige	nordlig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O
+6	Mali	Mali	PROPN	_	_	8	nsubj	_	name=B-GPE_LOC|Entity=vg~vg_20121211_10071599__3337)
+7	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	bli	bli	VERB	_	VerbForm=Inf	2	ccomp	_	name=O
+9	et	en	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(vg~vg_20121211_10071599__T141--1
+10	nytt	ny	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+11	støttepunkt	støttepunkt	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	xcomp	_	name=O
+12	for	for	ADP	_	_	14	case	_	name=O
+13	islamistiske	islamistisk	ADJ	_	Degree=Pos|Number=Plur	14	amod	_	name=O|Entity=(vg~vg_20121211_10071599__T142--1
+14	terrorgrupper	terrorgruppe	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__T142)vg~vg_20121211_10071599__T141)
+15	,	$,	PUNCT	_	_	21	punct	_	name=O
+16	ettersom	ettersom	SCONJ	_	_	21	mark	_	name=O
+17	noen	noen	DET	_	Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	_	name=O
+18	av	av	ADP	_	_	19	case	_	name=O
+19	islamistene	islamist	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	17	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__8786--1
+20	der	der	ADV	_	_	19	advmod	_	name=O|Entity=vg~vg_20121211_10071599__8786)
+21	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	name=O
+22	forbindelser	forbindelse	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obj	_	name=O|Entity=(vg~vg_20121211_10071599__T144--1
+23	til	til	ADP	_	_	24	case	_	name=O
+24	al-Qaida	al-Qaida	PROPN	_	_	22	nmod	_	SpaceAfter=No|name=B-ORG|Entity=(vg~vg_20121211_10071599__2311--1)vg~vg_20121211_10071599__T144)
+25	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 018069
+# text = Men det er fortsatt stor internasjonal skepsis mot planen om å sette inn 3.300 vestafrikanske soldater.
+1	Men	men	CCONJ	_	_	3	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	er	være	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	fortsatt	fortsatt	ADV	_	_	3	advmod	_	name=O
+5	stor	stor	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(vg~vg_20121211_10071599__T146--1
+6	internasjonal	internasjonal	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	skepsis	skepsis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O
+8	mot	mot	ADP	_	_	9	case	_	name=O
+9	planen	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__T147--1
+10	om	om	SCONJ	_	_	12	mark	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	sette	sette	VERB	_	VerbForm=Inf	9	acl	_	name=O
+13	inn	inn	ADP	_	_	12	compound:prt	_	name=O
+14	3.300	3.300	NUM	_	Number=Plur|NumType=Card	16	nummod	_	name=O|Entity=(vg~vg_20121211_10071599__2309--1
+15	vestafrikanske	vestafrikansk	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+16	soldater	soldat	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__2309)vg~vg_20121211_10071599__T147)vg~vg_20121211_10071599__T146)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 018070
+# text = Mange av Malis naboer foretrekker å prøve å få til en forhandlingsløsning, og både FN og USA ber om tilbakeholdenhet.
+1	Mange	mange	ADJ	_	Degree=Pos|Number=Plur	5	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__T149--1
+2	av	av	ADP	_	_	4	case	_	name=O
+3	Malis	Mali	PROPN	_	Case=Gen	4	nmod	_	name=B-GPE_LOC|Entity=(vg~vg_20121211_10071599__T151--1(vg~vg_20121211_10071599__12825--1)
+4	naboer	nabo	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	nmod	_	name=O|Entity=vg~vg_20121211_10071599__T151)vg~vg_20121211_10071599__T149)
+5	foretrekker	foretrekke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	å	å	PART	_	_	7	mark	_	name=O
+7	prøve	prøve	VERB	_	VerbForm=Inf	5	xcomp	_	name=O
+8	å	å	PART	_	_	9	mark	_	name=O
+9	få	få	VERB	_	VerbForm=Inf	7	xcomp	_	name=O
+10	til	til	ADP	_	_	9	compound:prt	_	name=O
+11	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(vg~vg_20121211_10071599__T152--1
+12	forhandlingsløsning	forhandlingsløsning	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__T152)
+13	,	$,	PUNCT	_	_	19	punct	_	name=O
+14	og	og	CCONJ	_	_	19	cc	_	name=O
+15	både	både	CCONJ	_	_	16	cc	_	name=O
+16	FN	FN	PROPN	_	Abbr=Yes	19	nsubj	_	name=B-ORG|Entity=(vg~vg_20121211_10071599__T153--1(vg~vg_20121211_10071599__3291--1)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	USA	USA	PROPN	_	Abbr=Yes	16	conj	_	name=B-GPE_ORG|Entity=(vg~vg_20121211_10071599__3447--1)vg~vg_20121211_10071599__T153)
+19	ber	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	name=O
+20	om	om	ADP	_	_	21	case	_	name=O
+21	tilbakeholdenhet	tilbakeholdenhet	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__T156--1)
+22	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 018071
+# text = USAs FN-ambassadør Susan Rice sa i forrige uke at de vestafrikanske soldatene er dårlig egnet til å krige i ørkenen mot grupper som Ansar Dine, al-Qaida i Maghreb (Aqim) og MUJAO.
+1	USAs	USA	PROPN	_	Abbr=Yes|Case=Gen	2	nmod	_	name=B-GPE_ORG|Entity=(vg~vg_20121211_10071599__T159--1(vg~vg_20121211_10071599__T158--1(vg~vg_20121211_10071599__3447--1)
+2	FN-ambassadør	FN-ambassadør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=B-DRV|Entity=vg~vg_20121211_10071599__T158)
+3	Susan	Susan	PROPN	_	_	5	nsubj	_	name=B-PER
+4	Rice	Rice	PROPN	_	_	3	flat:name	_	name=I-PER|Entity=vg~vg_20121211_10071599__T159)
+5	sa	si	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+6	i	i	ADP	_	_	8	case	_	name=O
+7	forrige	forrige	DET	_	Definite=Def|PronType=Dem	8	det	_	name=O|Entity=(vg~vg_20121211_10071599__T160--1
+8	uke	uke	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=vg~vg_20121211_10071599__T160)
+9	at	at	SCONJ	_	_	15	mark	_	name=O
+10	de	de	DET	_	Number=Plur|PronType=Dem	12	det	_	name=O|Entity=(vg~vg_20121211_10071599__2309--1
+11	vestafrikanske	vestafrikansk	ADJ	_	Degree=Pos|Number=Plur	12	amod	_	name=O
+12	soldatene	soldat	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	15	nsubj	_	name=O|Entity=vg~vg_20121211_10071599__2309)
+13	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	name=O
+14	dårlig	dårlig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	15	advmod	_	name=O
+15	egnet	egnet	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	ccomp	_	name=O
+16	til	til	SCONJ	_	_	18	mark	_	name=O
+17	å	å	PART	_	_	18	mark	_	name=O
+18	krige	krige	VERB	_	VerbForm=Inf	15	advcl	_	name=O
+19	i	i	ADP	_	_	20	case	_	name=O
+20	ørkenen	ørken	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	18	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T162--1)
+21	mot	mot	ADP	_	_	22	case	_	name=O
+22	grupper	gruppe	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	18	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T163--1
+23	som	som	ADP	_	_	24	case	_	name=O
+24	Ansar	Ansar	PROPN	_	_	22	nmod	_	name=B-ORG|Entity=(vg~vg_20121211_10071599__T164--1(vg~vg_20121211_10071599__T165--1
+25	Dine	Dine	PROPN	_	_	24	flat:name	_	SpaceAfter=No|name=I-ORG
+26	,	$,	PUNCT	_	_	27	punct	_	name=O|Entity=vg~vg_20121211_10071599__T165)
+27	al-Qaida	al-Qaida	PROPN	_	_	24	conj	_	name=B-ORG|Entity=(vg~vg_20121211_10071599__2311--1
+28	i	i	ADP	_	_	27	flat:name	_	name=I-ORG
+29	Maghreb	Maghreb	PROPN	_	_	27	flat:name	_	name=I-ORG
+30	(	$(	PUNCT	_	_	31	punct	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__T167--1
+31	Aqim	Aqim	PROPN	_	_	27	appos	_	SpaceAfter=No|name=B-ORG
+32	)	$)	PUNCT	_	_	31	punct	_	name=O|Entity=vg~vg_20121211_10071599__T167)vg~vg_20121211_10071599__2311)
+33	og	og	CCONJ	_	_	34	cc	_	name=O
+34	MUJAO	MUJAO	PROPN	_	_	24	conj	_	SpaceAfter=No|name=B-ORG|Entity=(vg~vg_20121211_10071599__T168--1)vg~vg_20121211_10071599__T164)vg~vg_20121211_10071599__T163)
+35	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 018072
+# text = En bekymring er også at regjeringen i Bamako er svak og ennå ikke har begynt å planlegge nye valg for å erstatte interimsregjeringen med en demokratisk valgt regjering.
+1	En	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(vg~vg_20121211_10071599__T169--1
+2	bekymring	bekymring	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=vg~vg_20121211_10071599__T169)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+4	også	også	ADV	_	_	10	advmod	_	name=O
+5	at	at	SCONJ	_	_	10	mark	_	name=O
+6	regjeringen	regjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(vg~vg_20121211_10071599__T170--1
+7	i	i	ADP	_	_	8	case	_	name=O
+8	Bamako	Bamako	PROPN	_	_	6	nmod	_	name=B-GPE_LOC|Entity=(vg~vg_20121211_10071599__2212--1)vg~vg_20121211_10071599__T170)
+9	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+10	svak	svak	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+11	og	og	CCONJ	_	_	15	cc	_	name=O
+12	ennå	ennå	ADV	_	_	15	advmod	_	name=O
+13	ikke	ikke	PART	_	Polarity=Neg	15	advmod	_	name=O
+14	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	begynt	begynne	VERB	_	VerbForm=Part	10	conj	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	planlegge	planlegge	VERB	_	VerbForm=Inf	15	xcomp	_	name=O
+18	nye	ny	ADJ	_	Degree=Pos|Number=Plur	19	amod	_	name=O|Entity=(vg~vg_20121211_10071599__T172--1
+19	valg	valg	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	obj	_	name=O|Entity=vg~vg_20121211_10071599__T172)
+20	for	for	SCONJ	_	_	22	mark	_	name=O
+21	å	å	PART	_	_	22	mark	_	name=O
+22	erstatte	erstatte	VERB	_	VerbForm=Inf	17	advcl	_	name=O
+23	interimsregjeringen	interimsregjering	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	22	obj	_	name=O|Entity=(vg~vg_20121211_10071599__3376--1)
+24	med	med	ADP	_	_	28	case	_	name=O
+25	en	en	DET	_	Gender=Masc|Number=Sing|PronType=Art	28	det	_	name=O|Entity=(vg~vg_20121211_10071599__T174--1
+26	demokratisk	demokratisk	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	27	advmod	_	name=O
+27	valgt	velge	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	28	amod	_	name=O
+28	regjering	regjering	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=vg~vg_20121211_10071599__T174)
+29	.	$.	PUNCT	_	_	10	punct	_	name=O
+
+# sent_id = 018073
+# text = Django Cissoko er utnevnt til ny statsminister i Mali etter at forgjengeren Cheick Modibo Diarra ble tvunget til å gå av.
+1	Django	Django	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(vg~vg_20121211_10071599__2354--1
+2	Cissoko	Cissoko	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vg~vg_20121211_10071599__2354)
+3	er	være	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	utnevnt	utnevne	VERB	_	VerbForm=Part	0	root	_	name=O
+5	til	til	ADP	_	_	7	case	_	name=O
+6	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	7	amod	_	name=O|Entity=(vg~vg_20121211_10071599__T176--1
+7	statsminister	statsminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Mali	Mali	PROPN	_	_	7	nmod	_	name=B-GPE_LOC|Entity=(vg~vg_20121211_10071599__12825--1)vg~vg_20121211_10071599__T176)
+10	etter	etter	SCONJ	_	_	17	mark	_	name=O
+11	at	at	SCONJ	_	_	17	mark	_	name=O
+12	forgjengeren	forgjenger	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__201076--1
+13	Cheick	Cheick	PROPN	_	_	17	nsubj:pass	_	name=B-PER
+14	Modibo	Modibo	PROPN	_	_	13	flat:name	_	name=I-PER
+15	Diarra	Diarra	PROPN	_	_	13	flat:name	_	name=I-PER|Entity=vg~vg_20121211_10071599__201076)
+16	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux:pass	_	name=O
+17	tvunget	tvinge	VERB	_	VerbForm=Part	4	advcl	_	name=O
+18	til	til	SCONJ	_	_	20	mark	_	name=O
+19	å	å	PART	_	_	20	mark	_	name=O
+20	gå	gå	VERB	_	VerbForm=Inf	17	advcl	_	name=O
+21	av	av	ADP	_	_	20	compound:prt	_	SpaceAfter=No|name=O
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 018074
+# text = Cissoko ble utnevnt av landets midlertidige president Dioncounda Traore tirsdag kveld.
+1	Cissoko	Cissoko	PROPN	_	_	3	nsubj:pass	_	name=B-PER|Entity=(vg~vg_20121211_10071599__2354--1)
+2	ble	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	utnevnt	utnevne	VERB	_	VerbForm=Part	0	root	_	name=O
+4	av	av	ADP	_	_	8	case	_	name=O
+5	landets	land	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod	_	name=O|Entity=(vg~vg_20121211_10071599__2279--1(vg~vg_20121211_10071599__T181--1(vg~vg_20121211_10071599__T180--1)
+6	midlertidige	midlertidig	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	7	amod	_	name=O
+7	president	president	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=vg~vg_20121211_10071599__T181)
+8	Dioncounda	Dioncounda	PROPN	_	_	3	obl	_	name=B-PER
+9	Traore	Traore	PROPN	_	_	8	flat:name	_	name=I-PER|Entity=vg~vg_20121211_10071599__2279)
+10	tirsdag	tirsdag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vg~vg_20121211_10071599__T183--1
+11	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No|name=O|Entity=(vg~vg_20121211_10071599__T184--1)vg~vg_20121211_10071599__T183)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+

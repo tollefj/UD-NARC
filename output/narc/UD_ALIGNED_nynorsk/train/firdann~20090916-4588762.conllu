@@ -1,0 +1,241 @@
+# newdoc id = firdann~20090916-4588762
+# global.Entity = eid-etype-head-other
+# sent_id = 007380
+# text = Krass kritikk mot to legar
+1	Krass	krass	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(firdann~20090916_4588762__T1--1
+2	kritikk	kritikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+3	mot	mot	ADP	_	_	5	case	_	name=O
+4	to	to	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(firdann~20090916_4588762__T2--1
+5	legar	lege	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	nmod	_	name=O|Entity=firdann~20090916_4588762__T2)firdann~20090916_4588762__T1)
+
+# newpar
+# sent_id = 007381
+# text = Oversåg at operasjonspasient var blødar
+1	Oversåg	oversjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	at	at	SCONJ	_	_	5	mark	_	name=O
+3	operasjonspasient	operasjonspasient	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20090916_4588762__T3--1)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	_	name=O
+5	blødar	blødar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	1	ccomp	_	name=O|Entity=(firdann~20090916_4588762__T4--1)
+
+# newpar
+# sent_id = 007383
+# text = Fylkeslege Petter Øgar gir kraftig refs til to legar ved Førde sentralsjukehus som oversåg at ein pasient var blødar.
+1	Fylkeslege	fylkeslege	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20090916_4588762__377--1
+2	Petter	Petter	NOUN	_	Gender=Masc	4	nsubj	_	name=B-PER
+3	Øgar	Øgar	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20090916_4588762__377)
+4	gir	gi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	kraftig	kraftig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(firdann~20090916_4588762__T6--1
+6	refs	refs	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=firdann~20090916_4588762__T6)
+7	til	til	ADP	_	_	9	case	_	name=O
+8	to	to	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(firdann~20090916_4588762__5146--1
+9	legar	lege	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O
+10	ved	ved	ADP	_	_	11	case	_	name=O
+11	Førde	Førde	PROPN	_	_	9	nmod	_	name=B-ORG|Entity=(firdann~20090916_4588762__362--1
+12	sentralsjukehus	sentralsjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	flat:name	_	name=I-ORG|Entity=firdann~20090916_4588762__362)
+13	som	som	PRON	_	PronType=Rel	14	nsubj	_	name=O
+14	oversåg	oversjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	name=O
+15	at	at	SCONJ	_	_	19	mark	_	name=O
+16	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(firdann~20090916_4588762__9281--1
+17	pasient	pasient	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nsubj	_	name=O|Entity=firdann~20090916_4588762__9281)
+18	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	name=O
+19	blødar	blødar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	ccomp	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588762__T10--1)firdann~20090916_4588762__5146)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007384
+# text = Oversåg journalen
+1	Oversåg	oversjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	journalen	journal	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obj	_	name=O|Bridge=firdann~20090916_4588762__9281<firdann~20090916_4588762__227:default|Entity=(firdann~20090916_4588762__227--1)
+
+# sent_id = 007385
+# text = Dette skjedde under ein operasjon tidlegare i år på sjukehuset.
+1	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(firdann~20090916_4588762__T12--1)
+2	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	under	under	ADP	_	_	5	case	_	name=O
+4	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(firdann~20090916_4588762__T13--1
+5	operasjon	operasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+6	tidlegare	tidleg	ADJ	_	Degree=Cmp	8	advmod	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(firdann~20090916_4588762__T14--1)
+9	på	på	ADP	_	_	10	case	_	name=O
+10	sjukehuset	sjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588762__362--1)firdann~20090916_4588762__T13)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007386
+# text = Sjølv om det stod i journalen til pasienten at han var blødar, blei ikkje dette tatt til etterretning.
+1	Sjølv	sjølv	ADV	_	_	2	advmod	_	name=O
+2	om	om	SCONJ	_	_	4	mark	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+4	stod	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	journalen	journal	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(firdann~20090916_4588762__227--1
+7	til	til	ADP	_	_	8	case	_	name=O
+8	pasienten	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(firdann~20090916_4588762__9281--1)firdann~20090916_4588762__227)
+9	at	at	SCONJ	_	_	12	mark	_	name=O
+10	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(firdann~20090916_4588762__9281--1)
+11	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	name=O
+12	blødar	blødar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	csubj	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588762__T19--1)
+13	,	$,	PUNCT	_	_	4	punct	_	name=O
+14	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	aux:pass	_	name=O
+15	ikkje	ikkje	PART	_	Polarity=Neg	17	advmod	_	name=O
+16	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj:pass	_	name=O|Entity=(firdann~20090916_4588762__T20--1)
+17	tatt	ta	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+18	til	til	ADP	_	_	19	case	_	name=O
+19	etterretning	etterretning	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588762__T21--1)
+20	.	$.	PUNCT	_	_	17	punct	_	name=O
+
+# sent_id = 007387
+# text = I tillegg var det klistra på ein eigen obs-lapp på tilvisningsskrivet der det stod at pasienten hadde sjukdommen.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(firdann~20090916_4588762__T22--1)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	klistra	klistre	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	på	på	ADP	_	_	9	case	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(firdann~20090916_4588762__T23--1
+8	eigen	eigen	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Prs	9	det	_	name=O
+9	obs-lapp	obs-lapp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	obl	_	name=O
+10	på	på	ADP	_	_	11	case	_	name=O
+11	tilvisningsskrivet	tilvisningsskriv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Bridge=firdann~20090916_4588762__9281<firdann~20090916_4588762__T24:default|Entity=(firdann~20090916_4588762__T24--1)
+12	der	der	SCONJ	_	_	14	mark	_	name=O
+13	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	name=O
+14	stod	stå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl	_	name=O
+15	at	at	SCONJ	_	_	17	mark	_	name=O
+16	pasienten	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	name=O|Entity=(firdann~20090916_4588762__9281--1)
+17	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	14	csubj	_	name=O
+18	sjukdommen	sjukdom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588762__254--1)firdann~20090916_4588762__T23)
+19	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007388
+# text = Likevel oversåg legane blødarsjukdomen som i praksis betyr at pasienten ikkje sluttar å blø frå operasjonssåret.
+1	Likevel	likevel	ADV	_	_	2	advmod	_	name=O
+2	oversåg	oversjå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	legane	lege	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(firdann~20090916_4588762__5146--1)
+4	blødarsjukdomen	blødarsjukdom	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	obj	_	name=O|Entity=(firdann~20090916_4588762__254--1
+5	som	som	PRON	_	PronType=Rel	8	nsubj	_	name=O
+6	i	i	ADP	_	_	7	case	_	name=O
+7	praksis	praksis	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obl	_	name=O|Entity=(firdann~20090916_4588762__T29--1)
+8	betyr	bety	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	name=O
+9	at	at	SCONJ	_	_	12	mark	_	name=O
+10	pasienten	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(firdann~20090916_4588762__9281--1)
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	name=O
+12	sluttar	slutte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	blø	blø	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	frå	frå	ADP	_	_	16	case	_	name=O
+16	operasjonssåret	operasjonssår	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No|name=O|Bridge=firdann~20090916_4588762__9281<firdann~20090916_4588762__T31:default|Entity=(firdann~20090916_4588762__T31--1)firdann~20090916_4588762__254)
+17	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007389
+# text = Fagleg uforsvarleg
+1	Fagleg	fagleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+2	uforsvarleg	uforsvarleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+
+# sent_id = 007390
+# text = Fylkeslegen konkluderer no med at behandlinga var fagleg uforsvarleg.
+1	Fylkeslegen	fylkeslege	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(firdann~20090916_4588762__377--1)
+2	konkluderer	konkludere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	no	no	ADV	_	_	2	advmod	_	name=O
+4	med	med	SCONJ	_	_	9	mark	_	name=O
+5	at	at	SCONJ	_	_	9	mark	_	name=O
+6	behandlinga	behandling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	9	nsubj	_	name=O|Bridge=firdann~20090916_4588762__T13<firdann~20090916_4588762__T33:default|Entity=(firdann~20090916_4588762__T33--1)
+7	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	cop	_	name=O
+8	fagleg	fagleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	uforsvarleg	uforsvarleg	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	advcl	_	SpaceAfter=No|name=O
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007391
+# text = Dei to legane opptredde aktlaust og sette pasienten i fare.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(firdann~20090916_4588762__5146--1
+2	to	to	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O
+3	legane	lege	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=firdann~20090916_4588762__5146)
+4	opptredde	opptre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	aktlaust	aktlaus	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	sette	setje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	name=O
+8	pasienten	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	obj	_	name=O|Entity=(firdann~20090916_4588762__9281--1)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	fare	fare	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588762__T36--1)
+11	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007392
+# text = Legane har no fått refs internt på sjukehuset.
+1	Legane	lege	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(firdann~20090916_4588762__5146--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	no	no	ADV	_	_	4	advmod	_	name=O
+4	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+5	refs	refs	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(firdann~20090916_4588762__T38--1)
+6	internt	intern	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+7	på	på	ADP	_	_	8	case	_	name=O
+8	sjukehuset	sjukehus	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588762__362--1)
+9	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007393
+# text = Øgar skal no vurdere om legane skal få ein formell reaksjon.
+1	Øgar	Øgar	PROPN	_	_	4	nsubj	_	name=B-PER|Entity=(firdann~20090916_4588762__377--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	no	no	ADV	_	_	4	advmod	_	name=O
+4	vurdere	vurdere	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	om	om	SCONJ	_	_	8	mark	_	name=O
+6	legane	lege	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=(firdann~20090916_4588762__5146--1)
+7	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	få	få	VERB	_	VerbForm=Inf	4	ccomp	_	name=O
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(firdann~20090916_4588762__T42--1
+10	formell	formell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O
+11	reaksjon	reaksjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No|name=O|Entity=firdann~20090916_4588762__T42)
+12	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007394
+# text = Opplevde det same to gonger
+1	Opplevde	oppleve	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+2	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	3	det	_	name=O
+3	same	same	DET	_	Definite=Def|PronType=Dem	1	obj	_	name=O
+4	to	to	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(firdann~20090916_4588762__T43--1
+5	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	1	obl	_	name=O|Entity=firdann~20090916_4588762__T43)
+
+# sent_id = 007395
+# text = Men det er ikkje første gong at pasienten har opplevd dette.
+1	Men	men	CCONJ	_	_	6	cc	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	name=O
+5	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(firdann~20090916_4588762__T44--1
+6	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	pasienten	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(firdann~20090916_4588762__9281--1)
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	opplevd	oppleve	VERB	_	VerbForm=Part	6	acl	_	name=O
+11	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588762__T46--1)firdann~20090916_4588762__T44)
+12	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007396
+# text = - Dette skjedde også pasienten under ein operasjon for sju år sidan.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20090916_4588762__T47--1)
+3	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	også	også	ADV	_	_	3	advmod	_	name=O
+5	pasienten	pasient	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(firdann~20090916_4588762__9281--1)
+6	under	under	ADP	_	_	8	case	_	name=O
+7	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	name=O|Entity=(firdann~20090916_4588762__T49--1
+8	operasjon	operasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=firdann~20090916_4588762__T49)
+9	for	for	ADP	_	_	11	case	_	name=O
+10	sju	sju	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(firdann~20090916_4588762__T50--1
+11	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	name=O
+12	sidan	sidan	ADV	_	_	11	advmod	_	SpaceAfter=No|name=O|Entity=firdann~20090916_4588762__T50)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007397
+# text = Men den gong hadde ikkje legane kunnskap om at personen var blødar.
+1	Men	men	CCONJ	_	_	4	cc	_	name=O
+2	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	name=O|Entity=(firdann~20090916_4588762__T51--1
+3	gong	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=firdann~20090916_4588762__T51)
+4	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+6	legane	lege	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(firdann~20090916_4588762__T52--1)
+7	kunnskap	kunnskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obj	_	name=O|Entity=(firdann~20090916_4588762__T53--1
+8	om	om	SCONJ	_	_	12	mark	_	name=O
+9	at	at	SCONJ	_	_	12	mark	_	name=O
+10	personen	person	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	name=O|Entity=(firdann~20090916_4588762__9281--1)
+11	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	cop	_	name=O
+12	blødar	blødar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	acl	_	SpaceAfter=No|name=O|Entity=(firdann~20090916_4588762__T55--1)firdann~20090916_4588762__T53)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+

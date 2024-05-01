@@ -1,0 +1,224 @@
+# newdoc id = firdann~20100628-5174274
+# global.Entity = eid-etype-head-other
+# sent_id = 005490
+# text = Gentest kan redde liv
+1	Gentest	gentest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20100628_5174274__T1--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	redde	redde	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	liv	liv	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obj	_	name=O|Entity=(firdann~20100628_5174274__T2--1)
+
+# newpar
+# sent_id = 005491
+# text = Enkel test kan hindre overdosering.
+1	Enkel	enkel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(firdann~20100628_5174274__T3--1
+2	test	test	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=firdann~20100628_5174274__T3)
+3	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+4	hindre	hindre	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	overdosering	overdosering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5174274__T4--1)
+6	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 005492
+# text = 90.000 personar brukar den blodfortynnande medisinen Marevan i Noreg.
+1	90.000	90.000	NUM	_	Number=Plur|NumType=Card	2	nummod	_	name=O|Entity=(firdann~20100628_5174274__T5--1
+2	personar	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	nsubj	_	name=O|Entity=firdann~20100628_5174274__T5)
+3	brukar	bruke	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	name=O|Entity=(firdann~20100628_5174274__6155--1(firdann~20100628_5174274__T6--1
+5	blodfortynnande	blodfortynne	ADJ	_	VerbForm=Part	6	amod	_	name=O
+6	medisinen	medisin	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	name=O|Entity=firdann~20100628_5174274__T6)
+7	Marevan	Marevan	PROPN	_	_	3	obj	_	name=B-PROD|Entity=firdann~20100628_5174274__6155)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Noreg	Noreg	PROPN	_	_	3	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100628_5174274__228--1)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005493
+# text = 40 - 50 personar døyr kvart år av biverknader.
+1	40	40	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(firdann~20100628_5174274__T9--1
+2	-	$-	PUNCT	_	_	3	punct	_	name=O
+3	50	50	NUM	_	Number=Plur|NumType=Card	1	conj	_	name=O
+4	personar	person	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=firdann~20100628_5174274__T9)
+5	døyr	døy	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	kvart	kvar	DET	_	Gender=Neut|Number=Sing|PronType=Tot	7	det	_	name=O|Entity=(firdann~20100628_5174274__T10--1
+7	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=firdann~20100628_5174274__T10)
+8	av	av	ADP	_	_	9	case	_	name=O
+9	biverknader	biverknad	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5174274__T11--1)
+10	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 005494
+# text = No kan ein enkel test avsløre kor mykje medisin kvar enkelt toler.
+1	No	no	ADV	_	_	6	advmod	_	name=O
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+3	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(firdann~20100628_5174274__T12--1
+4	enkel	enkel	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	5	amod	_	name=O
+5	test	test	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	nsubj	_	name=O|Entity=firdann~20100628_5174274__T12)
+6	avsløre	avsløre	VERB	_	VerbForm=Inf	0	root	_	name=O
+7	kor	kor	ADV	_	_	8	advmod	_	name=O|Entity=(firdann~20100628_5174274__T13--1
+8	mykje	mykje	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	9	amod	_	name=O
+9	medisin	medisin	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	obj	_	name=O|Entity=firdann~20100628_5174274__T13)
+10	kvar	kvar	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	name=O|Entity=(firdann~20100628_5174274__T14--1
+11	enkelt	enkelt	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	12	nsubj	_	name=O|Entity=firdann~20100628_5174274__T14)
+12	toler	tole	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 005495
+# text = Marevan reddar mange frå å få blodpropp, men er samtidig blant dei legemidla som tek livet av flest pasientar her i landet.
+1	Marevan	Marevan	PROPN	_	_	2	nsubj	_	name=B-PROD|Entity=(firdann~20100628_5174274__6155--1)
+2	reddar	redde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	mange	mange	ADJ	_	Degree=Pos|Number=Plur	2	obj	_	name=O
+4	frå	frå	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	få	få	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+7	blodpropp	blodpropp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5174274__T16--1)
+8	,	$,	PUNCT	_	_	14	punct	_	name=O
+9	men	men	CCONJ	_	_	14	cc	_	name=O
+10	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	name=O
+11	samtidig	samtidig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	14	advmod	_	name=O
+12	blant	blant	ADP	_	_	14	case	_	name=O
+13	dei	dei	DET	_	Number=Plur|PronType=Dem	14	det	_	name=O|Entity=(firdann~20100628_5174274__T17--1
+14	legemidla	legemiddel	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	conj	_	name=O
+15	som	som	PRON	_	PronType=Rel	16	nsubj	_	name=O
+16	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	name=O
+17	livet	liv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obj	_	name=O|Entity=(firdann~20100628_5174274__T18--1)
+18	av	av	ADP	_	_	20	case	_	name=O
+19	flest	mange	ADJ	_	Definite=Ind|Degree=Sup	20	amod	_	name=O|Entity=(firdann~20100628_5174274__T19--1
+20	pasientar	pasient	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	obl	_	name=O|Entity=firdann~20100628_5174274__T19)
+21	her	her	ADV	_	_	16	advmod	_	name=O
+22	i	i	ADP	_	_	23	case	_	name=O
+23	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5174274__228--1)firdann~20100628_5174274__T17)
+24	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 005496
+# text = No har forskarar funne ut at nokon har ein medfødt evne til å bryte ned medisinen, og at dette er knytt til bestemte genmutasjonar.
+1	No	no	ADV	_	_	4	advmod	_	name=O
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	forskarar	forskar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(firdann~20100628_5174274__T21--1)
+4	funne	finne	VERB	_	VerbForm=Part	0	root	_	name=O
+5	ut	ut	ADP	_	_	4	compound:prt	_	name=O
+6	at	at	SCONJ	_	_	8	mark	_	name=O
+7	nokon	nokon	PRON	_	Number=Plur|Person=3|PronType=Ind,Prs	8	nsubj	_	name=O|Entity=(firdann~20100628_5174274__T22--1)
+8	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	name=O
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(firdann~20100628_5174274__248--1
+10	medfødt	medfødd	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	name=O
+11	evne	evne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obj	_	name=O
+12	til	til	SCONJ	_	_	14	mark	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	bryte	bryte	VERB	_	VerbForm=Inf	11	acl	_	name=O
+15	ned	ned	ADP	_	_	14	compound:prt	_	name=O
+16	medisinen	medisin	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5174274__6155--1)firdann~20100628_5174274__248)
+17	,	$,	PUNCT	_	_	22	punct	_	name=O
+18	og	og	CCONJ	_	_	22	cc	_	name=O
+19	at	at	SCONJ	_	_	22	mark	_	name=O
+20	dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	name=O|Entity=(firdann~20100628_5174274__248--1)
+21	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	cop	_	name=O
+22	knytt	knyte	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	8	conj	_	name=O
+23	til	til	ADP	_	_	25	case	_	name=O
+24	bestemte	bestemt	ADJ	_	Degree=Pos|Number=Plur	25	amod	_	name=O|Entity=(firdann~20100628_5174274__T26--1
+25	genmutasjonar	genmutasjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No|name=O|Entity=firdann~20100628_5174274__T26)
+26	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 005497
+# text = Dei som bryt ned medisinen sakte, kan ha opp til tjue gonger høgare risiko for blødingar, skriv Aftenposten.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(firdann~20100628_5174274__265--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	bryt	bryte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	ned	ned	ADP	_	_	3	compound:prt	_	name=O
+5	medisinen	medisin	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(firdann~20100628_5174274__6155--1)
+6	sakte	sakte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	SpaceAfter=No|name=O|Entity=firdann~20100628_5174274__265)
+7	,	$,	PUNCT	_	_	1	punct	_	name=O
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	ha	ha	VERB	_	VerbForm=Inf	0	root	_	name=O
+10	opp	opp	ADP	_	_	12	case	_	name=O|Entity=(firdann~20100628_5174274__T30--1(firdann~20100628_5174274__T29--1
+11	til	til	ADP	_	_	12	case	_	name=O
+12	tjue	tjue	NUM	_	Number=Plur|NumType=Card	13	nummod	_	name=O
+13	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	obl	_	name=O|Entity=firdann~20100628_5174274__T29)
+14	høgare	høg	ADJ	_	Degree=Cmp	15	amod	_	name=O
+15	risiko	risiko	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	name=O
+16	for	for	ADP	_	_	17	case	_	name=O
+17	blødingar	bløding	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5174274__T31--1)firdann~20100628_5174274__T30)
+18	,	$,	PUNCT	_	_	19	punct	_	name=O
+19	skriv	skrive	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	name=O
+20	Aftenposten	Aftenposten	NOUN	_	Gender=Masc	19	nsubj	_	SpaceAfter=No|name=B-ORG|Entity=(firdann~20100628_5174274__T32--1)
+21	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 005498
+# text = Ein gentest viser kva evne kroppen har til å bryte ned medisinen, og pasientar i risikogruppa kan for eksempel få lågare dosar og tettare oppfølging, i tillegg til andre medisinar som kan påverke Marevan.
+1	Ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	name=O|Entity=(firdann~20100628_5174274__T33--1
+2	gentest	gentest	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=firdann~20100628_5174274__T33)
+3	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	kva	kva	DET	_	PronType=Int	5	det	_	name=O|Entity=(firdann~20100628_5174274__T34--1
+5	evne	evne	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	name=O|Entity=firdann~20100628_5174274__T34)
+6	kroppen	kropp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	name=O|Entity=(firdann~20100628_5174274__T35--1)
+7	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	name=O
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	bryte	bryte	VERB	_	VerbForm=Inf	7	advcl	_	name=O
+11	ned	ned	ADP	_	_	10	compound:prt	_	name=O
+12	medisinen	medisin	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No|name=O|Entity=(firdann~20100628_5174274__6155--1)
+13	,	$,	PUNCT	_	_	21	punct	_	name=O
+14	og	og	CCONJ	_	_	21	cc	_	name=O
+15	pasientar	pasient	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	nsubj	_	name=O|Entity=(firdann~20100628_5174274__T37--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	risikogruppa	risikogruppe	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	name=O|Entity=(firdann~20100628_5174274__265--1)firdann~20100628_5174274__T37)
+18	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	name=O
+19	for	for	ADP	_	_	20	case	_	name=O
+20	eksempel	eksempel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	name=O|Entity=(firdann~20100628_5174274__T39--1)
+21	få	få	VERB	_	VerbForm=Inf	3	conj	_	name=O
+22	lågare	låg	ADJ	_	Degree=Cmp	23	amod	_	name=O|Entity=(firdann~20100628_5174274__T40--1(firdann~20100628_5174274__T41--1
+23	dosar	dose	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	21	obj	_	name=O|Entity=firdann~20100628_5174274__T41)
+24	og	og	CCONJ	_	_	26	cc	_	name=O
+25	tettare	tett	ADJ	_	Degree=Cmp	26	amod	_	name=O|Entity=(firdann~20100628_5174274__T42--1
+26	oppfølging	oppfølging	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No|name=O|Entity=firdann~20100628_5174274__T42)firdann~20100628_5174274__T40)
+27	,	$,	PUNCT	_	_	29	punct	_	name=O
+28	i	i	ADP	_	_	29	case	_	name=O
+29	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obl	_	name=O|Entity=(firdann~20100628_5174274__T43--1
+30	til	til	ADP	_	_	32	case	_	name=O
+31	andre	annan	DET	_	Number=Plur|PronType=Dem	32	det	_	name=O|Entity=(firdann~20100628_5174274__T44--1
+32	medisinar	medisin	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	29	nmod	_	name=O
+33	som	som	PRON	_	PronType=Rel	35	nsubj	_	name=O
+34	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	name=O
+35	påverke	påverke	VERB	_	VerbForm=Inf	32	acl:relcl	_	name=O
+36	Marevan	Marevan	PROPN	_	_	35	obj	_	SpaceAfter=No|name=B-PROD|Entity=(firdann~20100628_5174274__6155--1)firdann~20100628_5174274__T44)firdann~20100628_5174274__T43)
+37	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005499
+# text = - Dette viser at gentesting kan førebyggje kostnadskrevjande blødingar og truleg også dødsfall, seier professor i farmasi Espen Molden ved Universitetet i Oslo.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Dette	dette	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20100628_5174274__T46--1)
+3	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	gentesting	gentesting	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nsubj	_	name=O|Entity=(firdann~20100628_5174274__T47--1)
+6	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	førebyggje	førebyggje	VERB	_	VerbForm=Inf	3	ccomp	_	name=O
+8	kostnadskrevjande	kostnadskrevje	ADJ	_	VerbForm=Part	9	amod	_	name=O|Entity=(firdann~20100628_5174274__T48--1(firdann~20100628_5174274__T49--1
+9	blødingar	bløding	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	name=O|Entity=firdann~20100628_5174274__T49)
+10	og	og	CCONJ	_	_	13	cc	_	name=O
+11	truleg	truleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	name=O|Entity=(firdann~20100628_5174274__T50--1
+12	også	også	ADV	_	_	13	advmod	_	name=O
+13	dødsfall	dødsfall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	9	conj	_	SpaceAfter=No|name=O|Entity=firdann~20100628_5174274__T50)firdann~20100628_5174274__T48)
+14	,	$,	PUNCT	_	_	15	punct	_	name=O
+15	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	name=O
+16	professor	professor	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=(firdann~20100628_5174274__2108--1(firdann~20100628_5174274__T51--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	farmasi	farmasi	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	name=O|Entity=(firdann~20100628_5174274__T52--1)firdann~20100628_5174274__T51)
+19	Espen	Espen	NOUN	_	Gender=Masc	15	nsubj	_	name=B-PER
+20	Molden	Molden	PROPN	_	_	19	flat:name	_	name=I-PER
+21	ved	ved	ADP	_	_	22	case	_	name=O
+22	Universitetet	Universitetet	PROPN	_	_	19	nmod	_	name=B-ORG|Entity=(firdann~20100628_5174274__T54--1
+23	i	i	ADP	_	_	22	flat:name	_	name=I-ORG
+24	Oslo	Oslo	PROPN	_	_	22	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100628_5174274__T54)firdann~20100628_5174274__2108)
+25	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 005500
+# text = Han har gjennomført studien saman med forskarkollegaer ved Diakonhjemmet Sykehus.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(firdann~20100628_5174274__2108--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	gjennomført	gjennomføre	VERB	_	VerbForm=Part	0	root	_	name=O
+4	studien	studie	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	obj	_	name=O|Bridge=firdann~20100628_5174274__T21<firdann~20100628_5174274__T56:default|Entity=(firdann~20100628_5174274__T56--1)
+5	saman	saman	ADV	_	_	7	advmod	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	forskarkollegaer	forskarkollega	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	3	obl	_	name=O|Entity=(firdann~20100628_5174274__T57--1
+8	ved	ved	ADP	_	_	9	case	_	name=O
+9	Diakonhjemmet	Diakonhjemmet	PROPN	_	_	7	nmod	_	name=B-ORG|Entity=(firdann~20100628_5174274__T58--1
+10	Sykehus	Sykehus	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20100628_5174274__T58)firdann~20100628_5174274__T57)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+

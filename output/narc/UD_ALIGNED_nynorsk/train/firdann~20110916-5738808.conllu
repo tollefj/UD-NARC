@@ -1,0 +1,212 @@
+# newdoc id = firdann~20110916-5738808
+# global.Entity = eid-etype-head-other
+# sent_id = 007654
+# text = Får 500.000 til samhandling
+1	Får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+2	500.000	500.000	NUM	_	Number=Plur|NumType=Card	1	obj	_	name=O
+3	til	til	ADP	_	_	4	case	_	name=O
+4	samhandling	samhandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	name=O|Entity=(firdann~20110916_5738808__T1--1)
+
+# newpar
+# sent_id = 007655
+# text = Dei to andre fylka i Helse Vest får over to millionar kvar.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(firdann~20110916_5738808__T2--1
+2	to	to	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O
+3	andre	annan	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O
+4	fylka	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	8	nsubj	_	name=O
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Helse	Helse	PROPN	_	_	4	nmod	_	name=B-ORG|Entity=(firdann~20110916_5738808__215--1
+7	Vest	Vest	PROPN	_	_	6	flat:name	_	name=I-ORG|Entity=firdann~20110916_5738808__215)firdann~20110916_5738808__T2)
+8	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+9	over	over	ADP	_	_	10	case	_	name=O|Entity=(firdann~20110916_5738808__T4--1
+10	to	to	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O
+11	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	obj	_	name=O
+12	kvar	kvar	DET	_	Gender=Masc|Number=Sing|PronType=Tot	10	obl	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5738808__T4)
+13	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 007656
+# text = Helseminister Anne-Grethe Strøm-Erichsen deler ut 5,1 millionar til samhandling til kommunar på Vestlandet.
+1	Helseminister	helseminister	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(firdann~20110916_5738808__T5--1
+2	Anne-Grethe	Anne-Grethe	PROPN	_	_	4	nsubj	_	name=B-PER
+3	Strøm-Erichsen	Strøm-Erichsen	PROPN	_	_	2	flat:name	_	name=I-PER|Entity=firdann~20110916_5738808__T5)
+4	deler	dele	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	ut	ut	ADP	_	_	4	compound:prt	_	name=O
+6	5,1	5,1	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(firdann~20110916_5738808__T6--1
+7	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obj	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	samhandling	samhandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	nmod	_	name=O|Entity=(firdann~20110916_5738808__T7--1)firdann~20110916_5738808__T6)
+10	til	til	ADP	_	_	11	case	_	name=O
+11	kommunar	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=(firdann~20110916_5738808__T8--1
+12	på	på	ADP	_	_	13	case	_	name=O
+13	Vestlandet	Vestlandet	NOUN	_	Gender=Neut	11	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110916_5738808__270--1)firdann~20110916_5738808__T8)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 007657
+# text = Kommunar i føretaksområdet til Helse Vest får til saman 5,1 millionar kroner i samhandlingsmidlar frå Helse- og omsorgsdepartementet.
+1	Kommunar	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nsubj	_	name=O|Entity=(firdann~20110916_5738808__T10--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	føretaksområdet	føretaksområde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	1	nmod	_	name=O|Entity=(firdann~20110916_5738808__T11--1
+4	til	til	ADP	_	_	5	case	_	name=O
+5	Helse	Helse	PROPN	_	_	3	nmod	_	name=B-ORG|Entity=(firdann~20110916_5738808__215--1
+6	Vest	Vest	PROPN	_	_	5	flat:name	_	name=I-ORG|Entity=firdann~20110916_5738808__215)firdann~20110916_5738808__T11)firdann~20110916_5738808__T10)
+7	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	saman	saman	ADV	_	_	7	advmod	_	name=O
+10	5,1	5,1	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(firdann~20110916_5738808__489--1(firdann~20110916_5738808__T13--1
+11	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=firdann~20110916_5738808__T13)
+12	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	obj	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	samhandlingsmidlar	samhandlingsmiddel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=(firdann~20110916_5738808__T15--1)firdann~20110916_5738808__489)
+15	frå	frå	ADP	_	_	16	case	_	name=O
+16	Helse-	Helse-	PROPN	_	_	7	obl	_	name=B-ORG|Entity=(firdann~20110916_5738808__T16--1
+17	og	og	CCONJ	_	_	16	flat:name	_	name=I-ORG
+18	omsorgsdepartementet	omsorgsdepartement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=firdann~20110916_5738808__T16)
+19	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 007658
+# text = Av desse midlane får Hordaland 2,6 millionar kroner, Rogaland 2 millionar kroner og Sogn og Fjordane 500.000 kroner.
+1	Av	av	ADP	_	_	3	case	_	name=O
+2	desse	desse	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(firdann~20110916_5738808__489--1
+3	midlane	middel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	obl	_	name=O|Entity=firdann~20110916_5738808__489)
+4	får	få	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	Hordaland	Hordaland	PROPN	_	_	4	nsubj	_	name=B-GPE_ORG|Entity=(firdann~20110916_5738808__T18--1)
+6	2,6	2,6	NUM	_	Number=Plur|NumType=Card	7	nummod	_	name=O|Entity=(firdann~20110916_5738808__T20--1(firdann~20110916_5738808__T19--1
+7	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	8	nmod	_	name=O|Entity=firdann~20110916_5738808__T19)
+8	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5738808__T20)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	Rogaland	Rogaland	PROPN	_	_	4	conj	_	name=B-GPE_ORG|Entity=(firdann~20110916_5738808__T21--1
+11	2	2	NUM	_	Number=Plur|NumType=Card	12	nummod	_	name=O|Entity=(firdann~20110916_5738808__T23--1(firdann~20110916_5738808__T22--1
+12	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	13	nmod	_	name=O|Entity=firdann~20110916_5738808__T22)
+13	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	10	orphan	_	name=O|Entity=firdann~20110916_5738808__T23)firdann~20110916_5738808__T21)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	Sogn	Sogn	PROPN	_	_	4	conj	_	name=B-GPE_ORG|Entity=(firdann~20110916_5738808__T24--1
+16	og	og	CCONJ	_	_	15	orphan	_	name=I-GPE_ORG
+17	Fjordane	Fjordane	PROPN	_	_	15	flat:name	_	name=I-GPE_ORG
+18	500.000	500.000	NUM	_	Number=Plur|NumType=Card	19	nummod	_	name=O|Entity=(firdann~20110916_5738808__T25--1
+19	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5738808__T25)firdann~20110916_5738808__T24)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007659
+# text = Samhandlingsmidlane skal blant anna brukast til lokalmedisinske senter, der kommunar og sjukehus samarbeider om å byggje opp lokale tenester.
+1	Samhandlingsmidlane	samhandlingsmiddel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	name=O|Entity=(firdann~20110916_5738808__489--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	blant	blant	ADP	_	_	4	case	_	name=O
+4	anna	annan	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Dem	5	obl	_	name=O
+5	brukast	bruke	VERB	_	VerbForm=Inf	0	root	_	name=O
+6	til	til	ADP	_	_	8	case	_	name=O
+7	lokalmedisinske	lokalmedisinsk	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O|Entity=(firdann~20110916_5738808__T27--1
+8	senter	senter	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	14	punct	_	name=O
+10	der	der	SCONJ	_	_	14	mark	_	name=O
+11	kommunar	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	name=O|Entity=(firdann~20110916_5738808__T28--1(firdann~20110916_5738808__T29--1)
+12	og	og	CCONJ	_	_	13	cc	_	name=O
+13	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	11	conj	_	name=O|Entity=(firdann~20110916_5738808__T30--1)firdann~20110916_5738808__T28)
+14	samarbeider	samarbeide	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl	_	name=O
+15	om	om	SCONJ	_	_	17	mark	_	name=O
+16	å	å	PART	_	_	17	mark	_	name=O
+17	byggje	byggje	VERB	_	VerbForm=Inf	14	advcl	_	name=O
+18	opp	opp	ADP	_	_	17	compound:prt	_	name=O
+19	lokale	lokal	ADJ	_	Degree=Pos|Number=Plur	20	amod	_	name=O|Entity=(firdann~20110916_5738808__T31--1
+20	tenester	teneste	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5738808__T31)firdann~20110916_5738808__T27)
+21	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007660
+# text = Midlane går også til andre typar samarbeid om helse- og omsorgstenester, både samarbeid mellom kommunar og sjukehus og samarbeid kommunar imellom.
+1	Midlane	middel	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nsubj	_	name=O|Entity=(firdann~20110916_5738808__489--1)
+2	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	til	til	ADP	_	_	7	case	_	name=O
+5	andre	annan	DET	_	Number=Plur|PronType=Dem	6	det	_	name=O|Entity=(firdann~20110916_5738808__T34--1(firdann~20110916_5738808__T33--1
+6	typar	type	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	7	nmod	_	name=O|Entity=firdann~20110916_5738808__T33)
+7	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O
+8	om	om	ADP	_	_	9	case	_	name=O
+9	helse-	helse-	NOUN	_	_	7	nmod	_	name=O|Entity=(firdann~20110916_5738808__T35--1(firdann~20110916_5738808__T36--1)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	omsorgstenester	omsorgsteneste	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5738808__T37--1)firdann~20110916_5738808__T35)
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	både	både	CCONJ	_	_	14	cc	_	name=O
+14	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	7	appos	_	name=O|Entity=(firdann~20110916_5738808__T38--1
+15	mellom	mellom	ADP	_	_	16	case	_	name=O
+16	kommunar	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nmod	_	name=O|Entity=(firdann~20110916_5738808__T39--1(firdann~20110916_5738808__T40--1)
+17	og	og	CCONJ	_	_	18	cc	_	name=O
+18	sjukehus	sjukehus	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	conj	_	name=O|Entity=(firdann~20110916_5738808__T41--1)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	samarbeid	samarbeid	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	conj	_	name=O|Entity=(firdann~20110916_5738808__T42--1
+21	kommunar	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	nmod	_	name=O|Entity=(firdann~20110916_5738808__T43--1)
+22	imellom	imellom	ADP	_	_	21	case	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5738808__T42)firdann~20110916_5738808__T39)firdann~20110916_5738808__T38)firdann~20110916_5738808__T34)
+23	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 007661
+# text = Regjeringa har i år sett av totalt 133 millionar kroner til samhandling ute i kommunane.
+1	Regjeringa	regjering	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	name=O|Entity=(firdann~20110916_5738808__T44--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(firdann~20110916_5738808__T45--1)
+5	sett	setje	VERB	_	VerbForm=Part	0	root	_	name=O
+6	av	av	ADP	_	_	5	compound:prt	_	name=O
+7	totalt	total	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O|Entity=(firdann~20110916_5738808__T47--1(firdann~20110916_5738808__T46--1
+8	133	133	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O
+9	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	nmod	_	name=O|Entity=firdann~20110916_5738808__T46)
+10	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	name=O|Entity=firdann~20110916_5738808__T47)
+11	til	til	ADP	_	_	12	case	_	name=O
+12	samhandling	samhandling	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obl	_	name=O|Entity=(firdann~20110916_5738808__T48--1
+13	ute	ute	ADP	_	_	15	case	_	name=O
+14	i	i	ADP	_	_	15	case	_	name=O
+15	kommunane	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20110916_5738808__T49--1)firdann~20110916_5738808__T48)
+16	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 007662
+# text = I juni vart 104 millionar kroner fordelt til samhandlingsprosjekt landet rundt.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	juni	juni	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obl	_	name=O|Entity=(firdann~20110916_5738808__T50--1)
+3	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux:pass	_	name=O
+4	104	104	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(firdann~20110916_5738808__T52--1(firdann~20110916_5738808__T51--1
+5	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	name=O|Entity=firdann~20110916_5738808__T51)
+6	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	7	nsubj:pass	_	name=O|Entity=firdann~20110916_5738808__T52)
+7	fordelt	fordele	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+8	til	til	ADP	_	_	9	case	_	name=O
+9	samhandlingsprosjekt	samhandlingsprosjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	name=O|Entity=(firdann~20110916_5738808__T53--1
+10	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nmod	_	name=O|Entity=(firdann~20110916_5738808__T54--1)
+11	rundt	rundt	ADP	_	_	10	case	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5738808__T53)
+12	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 007663
+# text = No blir 24,3 millioner kroner delt ut, og 5,1 millionar av desse går til samhandlingsprosjekt i kommunar på Vestlandet.
+1	No	no	ADV	_	_	6	advmod	_	name=O
+2	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux:pass	_	name=O
+3	24,3	24,3	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(firdann~20110916_5738808__2114--1(firdann~20110916_5738808__T55--1
+4	millioner	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nmod	_	name=O|Entity=firdann~20110916_5738808__T55)
+5	kroner	krone	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	6	nsubj:pass	_	name=O|Entity=firdann~20110916_5738808__2114)
+6	delt	dele	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	ut	ut	ADP	_	_	6	compound:prt	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	14	punct	_	name=O
+9	og	og	CCONJ	_	_	14	cc	_	name=O
+10	5,1	5,1	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O|Entity=(firdann~20110916_5738808__T57--1
+11	millionar	million	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	14	nsubj	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	desse	desse	PRON	_	Number=Plur|Person=3|PronType=Prs	11	nmod	_	name=O|Entity=(firdann~20110916_5738808__2114--1)firdann~20110916_5738808__T57)
+14	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+15	til	til	ADP	_	_	16	case	_	name=O
+16	samhandlingsprosjekt	samhandlingsprosjekt	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	obl	_	name=O|Entity=(firdann~20110916_5738808__T59--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	kommunar	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	16	nmod	_	name=O|Entity=(firdann~20110916_5738808__T60--1
+19	på	på	ADP	_	_	20	case	_	name=O
+20	Vestlandet	Vestlandet	NOUN	_	Gender=Neut	18	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20110916_5738808__270--1)firdann~20110916_5738808__T60)firdann~20110916_5738808__T59)
+21	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007664
+# text = - No blir det bygd opp helsetenester der folk bur.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	No	no	ADV	_	_	5	advmod	_	name=O
+3	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux:pass	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	bygd	byggje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+6	opp	opp	ADP	_	_	5	compound:prt	_	name=O
+7	helsetenester	helseteneste	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	obj	_	name=O|Entity=(firdann~20110916_5738808__T62--1
+8	der	der	SCONJ	_	_	10	mark	_	name=O
+9	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	nsubj	_	name=O|Entity=(firdann~20110916_5738808__T63--1)
+10	bur	bu	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No|name=O|Entity=firdann~20110916_5738808__T62)
+11	.	$.	PUNCT	_	_	5	punct	_	name=O
+

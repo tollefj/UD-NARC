@@ -1,0 +1,1018 @@
+# newdoc id = vtbnn~20010904-541
+# global.Entity = eid-etype-head-other
+# sent_id = 013852
+# text = - Få folk forbanna!
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Få	få	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+3	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(vtbnn~20010904_541__T1--1)
+4	forbanna	forbanna	ADJ	_	Degree=Pos|Number=Plur	2	xcomp	_	SpaceAfter=No|name=O
+5	!	$!	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 013853
+# text = Utan Ap og H
+1	Utan	utan	ADP	_	_	2	case	_	name=O
+2	Ap	Ap	NOUN	_	Abbr=Yes	0	root	_	name=B-ORG|Entity=(vtbnn~20010904_541__T2--1(vtbnn~20010904_541__7832--1)
+3	og	og	CCONJ	_	_	4	cc	_	name=O
+4	H	H	PROPN	_	_	2	conj	_	name=B-ORG|Entity=(vtbnn~20010904_541__4405--1)vtbnn~20010904_541__T2)
+
+# newpar
+# sent_id = 013854
+# text = Feilslått distriktspolitikk
+1	Feilslått	feilslått	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	2	amod	_	name=O|Entity=(vtbnn~20010904_541__T5--1
+2	distriktspolitikk	distriktspolitikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=vtbnn~20010904_541__T5)
+
+# newpar
+# sent_id = 013855
+# text = Distriktspoliti
+1	Distriktspoliti	distriktspoliti	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20010904_541__T6--1)
+
+# newpar
+# sent_id = 013856
+# text = Styre sjølve
+1	Styre	styre	VERB	_	VerbForm=Inf	0	root	_	name=O
+2	sjølve	sjølve	DET	_	Definite=Def|PronType=Prs	1	obj	_	name=O
+
+# newpar
+# sent_id = 013857
+# text = Distriktspolitiske ekspertar
+1	Distriktspolitiske	distriktspolitisk	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(vtbnn~20010904_541__T7--1
+2	ekspertar	ekspert	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	0	root	_	name=O|Entity=vtbnn~20010904_541__T7)
+
+# newpar
+# sent_id = 013858
+# text = Meldinga frå Mette Westlie, ei av føregangsopprørarane frå Finnmark, til kampfellene for distrikta i Telemark var klar fredag kveld:
+1	Meldinga	melding	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	19	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T8--1
+2	frå	frå	ADP	_	_	3	case	_	name=O
+3	Mette	Mette	PROPN	_	_	1	nmod	_	name=B-PER|Entity=(vtbnn~20010904_541__131773--1
+4	Westlie	Westlie	PROPN	_	_	3	flat:name	_	SpaceAfter=No|name=I-PER
+5	,	$,	PUNCT	_	_	6	punct	_	name=O
+6	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	3	appos	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	føregangsopprørarane	føregangsopprørar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nmod	_	name=O|Entity=(vtbnn~20010904_541__6573--1
+9	frå	frå	ADP	_	_	10	case	_	name=O
+10	Finnmark	Finnmark	PROPN	_	_	8	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20010904_541__T11--1)vtbnn~20010904_541__6573)vtbnn~20010904_541__131773)
+11	,	$,	PUNCT	_	_	6	punct	_	name=O
+12	til	til	ADP	_	_	13	case	_	name=O
+13	kampfellene	kampfelle	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	name=O|Entity=(vtbnn~20010904_541__T12--1
+14	for	for	ADP	_	_	15	case	_	name=O
+15	distrikta	distrikt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	13	nmod	_	name=O|Entity=(vtbnn~20010904_541__101448--1
+16	i	i	ADP	_	_	17	case	_	name=O
+17	Telemark	Telemark	PROPN	_	_	15	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20010904_541__4334--1)vtbnn~20010904_541__101448)vtbnn~20010904_541__T12)vtbnn~20010904_541__T8)
+18	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	cop	_	name=O
+19	klar	klar	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+20	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obl	_	name=O|Entity=(vtbnn~20010904_541__T15--1
+21	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T16--1)vtbnn~20010904_541__T15)
+22	:	$:	PUNCT	_	_	19	punct	_	name=O
+
+# sent_id = 013859
+# text = - Få folk forbanna!
+1	-	$-	PUNCT	_	_	2	punct	_	name=O
+2	Få	få	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+3	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	obj	_	name=O|Entity=(vtbnn~20010904_541__T17--1)
+4	forbanna	forbanna	ADJ	_	Degree=Pos|Number=Plur	2	xcomp	_	SpaceAfter=No|name=O
+5	!	$!	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 013860
+# text = - Distriktspolitikken er feilslått, og politikarane veit det, refsa Mette Westlie.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Distriktspolitikken	distriktspolitikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T18--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	feilslått	feilslått	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	og	og	CCONJ	_	_	8	cc	_	name=O
+7	politikarane	politikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=(vtbnn~20010904_541__81216--1)
+8	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T20--1)
+10	,	$,	PUNCT	_	_	8	punct	_	name=O
+11	refsa	refse	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	name=O
+12	Mette	Mette	PROPN	_	_	11	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__131773--1
+13	Westlie	Westlie	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20010904_541__131773)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013861
+# text = Fredag hadde Tone Edland (t.v.) og kampfellene hennar invitert ei av føregangsopprørarane frå Finnmarksopprøret til å drøfte distriktspolitikk i Telemark.
+1	Fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=(vtbnn~20010904_541__T22--1)
+2	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+3	Tone	Tone	NOUN	_	Gender=Fem	11	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__3253--1(vtbnn~20010904_541__6519--1
+4	Edland	Edland	PROPN	_	_	3	flat:name	_	name=I-PER
+5	(	$(	PUNCT	_	_	6	punct	_	SpaceAfter=No|name=O
+6	t.v.	t.v.	ADV	_	Abbr=Yes	3	advmod	_	SpaceAfter=No|name=O
+7	)	$)	PUNCT	_	_	6	punct	_	name=O|Entity=vtbnn~20010904_541__6519)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	kampfellene	kampfelle	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	3	conj	_	name=O|Entity=(vtbnn~20010904_541__T25--1
+10	hennar	hennar	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	9	nmod	_	name=O|Entity=(vtbnn~20010904_541__6519--1)vtbnn~20010904_541__T25)vtbnn~20010904_541__3253)
+11	invitert	invitere	VERB	_	VerbForm=Part	0	root	_	name=O
+12	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	obj	_	name=O
+13	av	av	ADP	_	_	14	case	_	name=O
+14	føregangsopprørarane	føregangsopprørar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	name=O|Entity=(vtbnn~20010904_541__6573--1
+15	frå	frå	ADP	_	_	16	case	_	name=O
+16	Finnmarksopprøret	Finnmarksopprøret	PROPN	_	_	14	nmod	_	name=B-ORG|Entity=(vtbnn~20010904_541__5638--1)vtbnn~20010904_541__6573)
+17	til	til	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	drøfte	drøfte	VERB	_	VerbForm=Inf	11	advcl	_	name=O
+20	distriktspolitikk	distriktspolitikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	name=O|Entity=(vtbnn~20010904_541__T29--1
+21	i	i	ADP	_	_	22	case	_	name=O
+22	Telemark	Telemark	PROPN	_	_	20	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20010904_541__4334--1)vtbnn~20010904_541__T29)
+23	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 013862
+# text = Bare tri av partia i fylket fann det bryet verdt å møte distriktsopprørarane.
+1	Bare	bare	ADV	_	_	2	advmod	_	name=O
+2	tri	tri	NUM	_	Number=Plur|NumType=Card	7	nsubj	_	name=O
+3	av	av	ADP	_	_	4	case	_	name=O
+4	partia	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=(vtbnn~20010904_541__T31--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	fylket	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	name=O|Entity=(vtbnn~20010904_541__4334--1)vtbnn~20010904_541__T31)
+7	fann	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	name=O
+9	bryet	bry	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=(vtbnn~20010904_541__T33--1)
+10	verdt	verd	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	7	xcomp	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	møte	møte	VERB	_	VerbForm=Inf	7	xcomp	_	name=O
+13	distriktsopprørarane	distriktsopprørar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__3253--1)
+14	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 013863
+# text = Bare tri parti, SV, Sp og Frp, fann det bryet verdt å møte til ordskifte om distriktspolitikk i Bø fredag kveld.
+1	Bare	bare	ADV	_	_	2	advmod	_	name=O|Entity=(vtbnn~20010904_541__T36--1(vtbnn~20010904_541__T37--1(vtbnn~20010904_541__T35--1
+2	tri	tri	NUM	_	Number=Plur|NumType=Card	3	nummod	_	name=O
+3	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No|name=O
+4	,	$,	PUNCT	_	_	3	punct	_	name=O|Entity=vtbnn~20010904_541__T35)
+5	SV	SV	NOUN	_	Abbr=Yes	11	nsubj	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20010904_541__5913--1)
+6	,	$,	PUNCT	_	_	7	punct	_	name=O|Entity=vtbnn~20010904_541__T37)
+7	Sp	Sp	NOUN	_	Abbr=Yes	5	conj	_	name=B-ORG|Entity=(vtbnn~20010904_541__5684--1)
+8	og	og	CCONJ	_	_	9	cc	_	name=O
+9	Frp	Frp	NOUN	_	Abbr=Yes	5	conj	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20010904_541__4558--1)vtbnn~20010904_541__T36)
+10	,	$,	PUNCT	_	_	9	punct	_	name=O
+11	fann	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+13	bryet	bry	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	obj	_	name=O|Entity=(vtbnn~20010904_541__T40--1)
+14	verdt	verd	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	xcomp	_	name=O
+15	å	å	PART	_	_	16	mark	_	name=O
+16	møte	møte	VERB	_	VerbForm=Inf	11	xcomp	_	name=O
+17	til	til	ADP	_	_	18	case	_	name=O
+18	ordskifte	ordskifte	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	name=O|Entity=(vtbnn~20010904_541__4449--1
+19	om	om	ADP	_	_	20	case	_	name=O
+20	distriktspolitikk	distriktspolitikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	18	nmod	_	name=O|Entity=(vtbnn~20010904_541__T42--1)
+21	i	i	ADP	_	_	22	case	_	name=O
+22	Bø	Bø	PROPN	_	_	18	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20010904_541__T43--1)vtbnn~20010904_541__4449)
+23	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obl	_	name=O|Entity=(vtbnn~20010904_541__T44--1
+24	kveld	kveld	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T45--1)vtbnn~20010904_541__T44)
+25	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 013864
+# text = - Me er ikkje nøgde med frammøtet.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T46--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+5	nøgde	nøgd	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+6	med	med	ADP	_	_	7	case	_	name=O
+7	frammøtet	frammøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Bridge=vtbnn~20010904_541__T36<vtbnn~20010904_541__2114:default|Entity=(vtbnn~20010904_541__2114--1)
+8	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013865
+# text = Desverre var det nok litt for kort tid frå invitasjonen til møtet, seier Tone Edland, ei av dei tri Telemarks-kvinnene som går i brodden for større åtgaum på distrikta i valkampen.
+1	Desverre	dessverre	ADV	_	_	8	advmod	_	name=O
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	name=O
+4	nok	nok	ADV	_	_	8	advmod	_	name=O
+5	litt	litt	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O|Entity=(vtbnn~20010904_541__T48--1
+6	for	for	ADV	_	_	7	advmod	_	name=O
+7	kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	0	root	_	name=O
+9	frå	frå	ADP	_	_	10	case	_	name=O
+10	invitasjonen	invitasjon	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(vtbnn~20010904_541__T49--1)
+11	til	til	ADP	_	_	12	case	_	name=O
+12	møtet	møte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__4449--1)vtbnn~20010904_541__T48)
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	name=O
+15	Tone	Tone	NOUN	_	Gender=Fem	14	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__6519--1
+16	Edland	Edland	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER
+17	,	$,	PUNCT	_	_	18	punct	_	name=O
+18	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	appos	_	name=O
+19	av	av	ADP	_	_	22	case	_	name=O
+20	dei	dei	DET	_	Number=Plur|PronType=Dem	22	det	_	name=O|Entity=(vtbnn~20010904_541__3382--1
+21	tri	tri	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O
+22	Telemarks-kvinnene	Telemarks-kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	name=B-DRV
+23	som	som	PRON	_	PronType=Rel	24	nsubj	_	name=O
+24	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	name=O
+25	i	i	ADP	_	_	26	case	_	name=O
+26	brodden	brodd	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	obl	_	name=O|Entity=(vtbnn~20010904_541__T53--1
+27	for	for	ADP	_	_	29	case	_	name=O
+28	større	stor	ADJ	_	Degree=Cmp	29	amod	_	name=O|Entity=(vtbnn~20010904_541__T54--1
+29	åtgaum	åtgaum	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	26	nmod	_	name=O
+30	på	på	ADP	_	_	31	case	_	name=O
+31	distrikta	distrikt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	29	nmod	_	name=O|Entity=(vtbnn~20010904_541__101448--1)
+32	i	i	ADP	_	_	33	case	_	name=O
+33	valkampen	valkamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T56--1)vtbnn~20010904_541__T54)vtbnn~20010904_541__T53)vtbnn~20010904_541__3382)vtbnn~20010904_541__6519)
+34	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 013866
+# text = Med seg har ho Kjersti Versto Roheim frå Sauherad og Solveig Hellevik frå Drangedal, og ei rekkje kvinner som har skrive under på oppropet deira.
+1	Med	med	ADP	_	_	2	case	_	name=O
+2	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	3	obl	_	name=O|Entity=(vtbnn~20010904_541__6519--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20010904_541__6519--1)
+5	Kjersti	Kjersti	NOUN	_	Gender=Fem	3	obj	_	name=B-PER|Entity=(vtbnn~20010904_541__T58--1(vtbnn~20010904_541__T280--1(vtbnn~20010904_541__T59--1
+6	Versto	Versto	PROPN	_	_	5	flat:name	_	name=I-PER
+7	Roheim	Roheim	PROPN	_	_	5	flat:name	_	name=I-PER
+8	frå	frå	ADP	_	_	9	case	_	name=O
+9	Sauherad	Sauherad	PROPN	_	_	5	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20010904_541__T60--1)vtbnn~20010904_541__T59)
+10	og	og	CCONJ	_	_	11	cc	_	name=O
+11	Solveig	Solveig	NOUN	_	Gender=Fem	5	conj	_	name=B-PER|Entity=(vtbnn~20010904_541__T61--1
+12	Hellevik	Hellevik	PROPN	_	_	11	flat:name	_	name=I-PER
+13	frå	frå	ADP	_	_	14	case	_	name=O
+14	Drangedal	Drangedal	PROPN	_	_	11	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20010904_541__T62--1)vtbnn~20010904_541__T61)vtbnn~20010904_541__T280)
+15	,	$,	PUNCT	_	_	19	punct	_	name=O
+16	og	og	CCONJ	_	_	19	cc	_	name=O
+17	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	18	det	_	name=O|Entity=(vtbnn~20010904_541__T64--1(vtbnn~20010904_541__T63--1
+18	rekkje	rekkje	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	19	nmod	_	name=O|Entity=vtbnn~20010904_541__T63)
+19	kvinner	kvinne	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	conj	_	name=O
+20	som	som	PRON	_	PronType=Rel	22	nsubj	_	name=O
+21	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	name=O
+22	skrive	skrive	VERB	_	VerbForm=Part	19	acl:relcl	_	name=O
+23	under	under	ADP	_	_	22	compound:prt	_	name=O
+24	på	på	ADP	_	_	25	case	_	name=O
+25	oppropet	opprop	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	obl	_	name=O|Entity=(vtbnn~20010904_541__T65--1
+26	deira	deira	PRON	_	Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	25	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__3382--1)vtbnn~20010904_541__T65)vtbnn~20010904_541__T64)vtbnn~20010904_541__T58)
+27	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013867
+# text = Om ikkje frammøtet var det største, var engasjementet for ein distriktskamp heilhuga frå om lag 30 frammøtte.
+1	Om	om	SCONJ	_	_	6	mark	_	name=O
+2	ikkje	ikkje	PART	_	Polarity=Neg	6	advmod	_	name=O
+3	frammøtet	frammøte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(vtbnn~20010904_541__2114--1)
+4	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	name=O
+5	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	6	det	_	name=O
+6	største	stor	ADJ	_	Definite=Def|Degree=Sup	13	advcl	_	SpaceAfter=No|name=O
+7	,	$,	PUNCT	_	_	6	punct	_	name=O
+8	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	cop	_	name=O
+9	engasjementet	engasjement	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T68--1
+10	for	for	ADP	_	_	12	case	_	name=O
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	name=O|Entity=(vtbnn~20010904_541__T69--1
+12	distriktskamp	distriktskamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	nmod	_	name=O|Entity=vtbnn~20010904_541__T69)vtbnn~20010904_541__T68)
+13	heilhuga	heilhuga	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+14	frå	frå	ADP	_	_	18	case	_	name=O
+15	om	om	ADP	_	_	16	case	_	name=O|Entity=(vtbnn~20010904_541__T71--1
+16	lag	lag	NOUN	_	_	17	obl	_	name=O|Entity=(vtbnn~20010904_541__T70--1)
+17	30	30	NUM	_	Number=Plur|NumType=Card	18	nummod	_	name=O
+18	frammøtte	frammøte	ADJ	_	Number=Plur|VerbForm=Part	13	advmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20010904_541__T71)
+19	.	$.	PUNCT	_	_	13	punct	_	name=O
+
+# newpar
+# sent_id = 013868
+# text = Verre var det at dei to store partia, Arbeidarpartiet og Høgre, ikkje fann tid til å drøfte distriktspolitikk.
+1	Verre	verre	ADJ	_	Degree=Cmp	0	root	_	name=O
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	cop	_	name=O
+3	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	name=O
+4	at	at	SCONJ	_	_	15	mark	_	name=O
+5	dei	dei	DET	_	Number=Plur|PronType=Dem	8	det	_	name=O|Entity=(vtbnn~20010904_541__T73--1(vtbnn~20010904_541__T72--1
+6	to	to	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O
+7	store	stor	ADJ	_	Degree=Pos|Number=Plur	8	amod	_	name=O
+8	partia	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=vtbnn~20010904_541__T72)
+10	Arbeidarpartiet	Arbeidarpartiet	PROPN	_	_	15	nsubj	_	name=B-ORG|Entity=(vtbnn~20010904_541__7832--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	Høgre	Høgre	PROPN	_	_	10	conj	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20010904_541__4405--1)
+13	,	$,	PUNCT	_	_	10	punct	_	name=O|Entity=vtbnn~20010904_541__T73)
+14	ikkje	ikkje	PART	_	Polarity=Neg	15	advmod	_	name=O
+15	fann	finne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	csubj	_	name=O
+16	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	15	obj	_	name=O|Entity=(vtbnn~20010904_541__T76--1
+17	til	til	SCONJ	_	_	19	mark	_	name=O
+18	å	å	PART	_	_	19	mark	_	name=O
+19	drøfte	drøfte	VERB	_	VerbForm=Inf	16	acl	_	name=O
+20	distriktspolitikk	distriktspolitikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T77--1)vtbnn~20010904_541__T76)
+21	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 013869
+# text = - Då veit me i alle fall kva parti me ikkje skal stemme på, slo Tone Edland fast.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Då	då	ADV	_	_	3	advmod	_	name=O
+3	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20010904_541__2159--1)
+5	i	i	ADP	_	_	7	case	_	name=O
+6	alle	all	DET	_	Number=Sing|PronType=Tot	7	det	_	name=O|Entity=(vtbnn~20010904_541__T79--1
+7	fall	fall	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	name=O|Entity=vtbnn~20010904_541__T79)
+8	kva	kva	DET	_	PronType=Int	9	det	_	name=O|Entity=(vtbnn~20010904_541__T80--1
+9	parti	parti	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	name=O|Entity=vtbnn~20010904_541__T80)
+10	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	name=O|Entity=(vtbnn~20010904_541__2159--1)
+11	ikkje	ikkje	PART	_	Polarity=Neg	13	advmod	_	name=O
+12	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	name=O
+13	stemme	stemme	VERB	_	VerbForm=Inf	3	ccomp	_	name=O
+14	på	på	ADP	_	_	9	case	_	SpaceAfter=No|name=O
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	slo	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+17	Tone	Tone	NOUN	_	Gender=Fem	16	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__6519--1
+18	Edland	Edland	PROPN	_	_	17	flat:name	_	name=I-PER|Entity=vtbnn~20010904_541__6519)
+19	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	advmod	_	SpaceAfter=No|name=O
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013870
+# text = Medan KrF i eit brev kunngjorde at dei ikkje kunne møte, men støtta eit opprør for distrikta, hadde Ap og H bestemt takka nei til møtet.
+1	Medan	medan	SCONJ	_	_	6	mark	_	name=O
+2	KrF	KrF	NOUN	_	Abbr=Yes	6	nsubj	_	name=B-ORG|Entity=(vtbnn~20010904_541__2168--1)
+3	i	i	ADP	_	_	5	case	_	name=O
+4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(vtbnn~20010904_541__T84--1
+5	brev	brev	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=vtbnn~20010904_541__T84)
+6	kunngjorde	kunngjere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	advcl	_	name=O
+7	at	at	SCONJ	_	_	11	mark	_	name=O
+8	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(vtbnn~20010904_541__2168--1)
+9	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	name=O
+10	kunne	kunne	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+11	møte	møte	VERB	_	VerbForm=Inf	6	ccomp	_	SpaceAfter=No|name=O
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	men	men	CCONJ	_	_	14	cc	_	name=O
+14	støtta	støtte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	conj	_	name=O
+15	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(vtbnn~20010904_541__T86--1
+16	opprør	opprør	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	name=O
+17	for	for	ADP	_	_	18	case	_	name=O
+18	distrikta	distrikt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__101448--1)vtbnn~20010904_541__T86)
+19	,	$,	PUNCT	_	_	14	punct	_	name=O
+20	hadde	ha	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	name=O
+21	Ap	Ap	NOUN	_	Abbr=Yes	25	nsubj	_	name=B-ORG|Entity=(vtbnn~20010904_541__T88--1(vtbnn~20010904_541__7832--1)
+22	og	og	CCONJ	_	_	23	cc	_	name=O
+23	H	H	PROPN	_	_	21	conj	_	name=B-ORG|Entity=(vtbnn~20010904_541__4405--1)vtbnn~20010904_541__T88)
+24	bestemt	bestemme	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	25	advmod	_	name=O
+25	takka	takke	VERB	_	VerbForm=Part	0	root	_	name=O
+26	nei	nei	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	25	obj	_	name=O|Entity=(vtbnn~20010904_541__T91--1
+27	til	til	ADP	_	_	28	case	_	name=O
+28	møtet	møte	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	26	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__4449--1)vtbnn~20010904_541__T91)
+29	.	$.	PUNCT	_	_	25	punct	_	name=O
+
+# sent_id = 013871
+# text = - Ap lika dårleg det som skjedde då Jens Stoltenberg fekk så øyro flagra i Vadsø.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Ap	Ap	NOUN	_	Abbr=Yes	3	nsubj	_	name=B-ORG|Entity=(vtbnn~20010904_541__7832--1)
+3	lika	like	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	dårleg	dårleg	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	3	advmod	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	name=O|Entity=(vtbnn~20010904_541__T94--1
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	skjedde	skje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	name=O
+8	då	då	SCONJ	_	_	11	mark	_	name=O
+9	Jens	Jens	NOUN	_	Gender=Masc	11	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__4620--1
+10	Stoltenberg	Stoltenberg	PROPN	_	_	9	flat:name	_	name=I-PER|Entity=vtbnn~20010904_541__4620)
+11	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	advcl	_	name=O
+12	så	så	SCONJ	_	_	14	mark	_	name=O
+13	øyro	øyra	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	14	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T96--1)
+14	flagra	flagre	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	name=O
+15	i	i	ADP	_	_	16	case	_	name=O
+16	Vadsø	Vadsø	PROPN	_	_	11	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20010904_541__T97--1)vtbnn~20010904_541__T94)
+17	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013872
+# text = Regjeringspartiet vil unngå å møte Finnmarksopprøret, meinte Mette Westlie.
+1	Regjeringspartiet	regjeringsparti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20010904_541__7832--1)
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	unngå	unngå	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	møte	møte	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	Finnmarksopprøret	Finnmarksopprøret	PROPN	_	_	5	obj	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20010904_541__5638--1)
+7	,	$,	PUNCT	_	_	8	punct	_	name=O
+8	meinte	meine	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+9	Mette	Mette	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__131773--1
+10	Westlie	Westlie	PROPN	_	_	9	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20010904_541__131773)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013873
+# text = SV og Sp møtte med fyrste og andrekandidatane sine, Sigbjørn Molvik og Henriette Westhrin frå SV og Lars Bjaadal og Torunn Hovde Kaasa frå Sp
+1	SV	SV	NOUN	_	Abbr=Yes	4	nsubj	_	name=B-ORG|Entity=(vtbnn~20010904_541__2206--1(vtbnn~20010904_541__5913--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	Sp	Sp	NOUN	_	Abbr=Yes	1	conj	_	name=B-ORG|Entity=(vtbnn~20010904_541__5684--1)vtbnn~20010904_541__2206)
+4	møtte	møte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	med	med	ADP	_	_	11	case	_	name=O
+6	fyrste	fyrste	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	11	nmod	_	name=O|Entity=(vtbnn~20010904_541__T106--1(vtbnn~20010904_541__T107--1
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	andrekandidatane	andrekandidatane	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	conj	_	name=O|Entity=(vtbnn~20010904_541__T104--1
+9	sine	sin	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__2206--1)
+10	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=vtbnn~20010904_541__T104)
+11	Sigbjørn	Sigbjørn	NOUN	_	Gender=Masc	4	obl	_	name=B-PER|Entity=(vtbnn~20010904_541__51211--1
+12	Molvik	Molvik	PROPN	_	_	11	flat:name	_	name=I-PER|Entity=vtbnn~20010904_541__51211)vtbnn~20010904_541__T107)
+13	og	og	CCONJ	_	_	14	cc	_	name=O
+14	Henriette	Henriette	PROPN	_	_	11	conj	_	name=B-PER|Entity=(vtbnn~20010904_541__T108--1
+15	Westhrin	Westhrin	PROPN	_	_	14	flat:name	_	name=I-PER
+16	frå	frå	ADP	_	_	17	case	_	name=O
+17	SV	SV	NOUN	_	Abbr=Yes	14	nmod	_	name=B-ORG|Entity=(vtbnn~20010904_541__5913--1)vtbnn~20010904_541__T108)
+18	og	og	CCONJ	_	_	19	cc	_	name=O
+19	Lars	Lars	NOUN	_	Gender=Masc	11	conj	_	name=B-PER|Entity=(vtbnn~20010904_541__T110--1(vtbnn~20010904_541__3592--1
+20	Bjaadal	Bjaadal	PROPN	_	_	19	flat:name	_	name=I-PER|Entity=vtbnn~20010904_541__3592)
+21	og	og	CCONJ	_	_	22	cc	_	name=O
+22	Torunn	Torunn	NOUN	_	Gender=Fem	19	conj	_	name=B-PER|Entity=(vtbnn~20010904_541__T112--1
+23	Hovde	Hovde	PROPN	_	_	22	flat:name	_	name=I-PER
+24	Kaasa	Kaasa	PROPN	_	_	22	flat:name	_	name=I-PER
+25	frå	frå	ADP	_	_	26	case	_	name=O
+26	Sp	Sp.	NOUN	_	Abbr=Yes	22	nmod	_	name=B-ORG|Entity=(vtbnn~20010904_541__5684--1)vtbnn~20010904_541__T112)vtbnn~20010904_541__T110)vtbnn~20010904_541__T106)
+
+# sent_id = 013874
+# text = Frå Framstegspartiet kom nestleiar i fylkespartiet, Gunleik Lindheim.
+1	Frå	frå	ADP	_	_	2	case	_	name=O
+2	Framstegspartiet	Framstegspartiet	NOUN	_	Gender=Neut	3	obl	_	name=B-ORG|Entity=(vtbnn~20010904_541__4558--1)
+3	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	nestleiar	nestleiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(vtbnn~20010904_541__3520--1(vtbnn~20010904_541__T115--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	fylkespartiet	fylkesparti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|name=O|Bridge=vtbnn~20010904_541__4558<vtbnn~20010904_541__T116:default|Entity=(vtbnn~20010904_541__T116--1)
+7	,	$,	PUNCT	_	_	4	punct	_	name=O|Entity=vtbnn~20010904_541__T115)
+8	Gunleik	Gunleik	PROPN	_	_	3	nsubj	_	name=B-PER
+9	Lindheim	Lindheim	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20010904_541__3520)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 013875
+# text = Mette Westlie eggja til kamp for distrikta.
+1	Mette	Mette	PROPN	_	_	3	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__131773--1
+2	Westlie	Westlie	PROPN	_	_	1	flat:name	_	name=I-PER|Entity=vtbnn~20010904_541__131773)
+3	eggja	eggje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	til	til	ADP	_	_	5	case	_	name=O
+5	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20010904_541__T119--1
+6	for	for	ADP	_	_	7	case	_	name=O
+7	distrikta	distrikt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__101448--1)vtbnn~20010904_541__T119)
+8	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013876
+# text = Ho orienterte oppglødd om opprøret dei starta i Vadsø.
+1	Ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20010904_541__131773--1)
+2	orienterte	orientere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	oppglødd	oppglødd	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	advmod	_	name=O
+4	om	om	ADP	_	_	5	case	_	name=O
+5	opprøret	opprør	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(vtbnn~20010904_541__5638--1
+6	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20010904_541__6573--1)
+7	starta	starte	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Vadsø	Vadsø	PROPN	_	_	7	obl	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(vtbnn~20010904_541__T124--1)vtbnn~20010904_541__5638)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013877
+# text = - Distriktspolitikken er feilslått, og politikarane veit det, slo ho fast.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Distriktspolitikken	distriktspolitikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T125--1)
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	feilslått	feilslått	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|name=O
+5	,	$,	PUNCT	_	_	8	punct	_	name=O
+6	og	og	CCONJ	_	_	8	cc	_	name=O
+7	politikarane	politikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	nsubj	_	name=O|Entity=(vtbnn~20010904_541__81216--1)
+8	veit	vite	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+9	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T127--1)
+10	,	$,	PUNCT	_	_	8	punct	_	name=O
+11	slo	slå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	name=O
+12	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	name=O|Entity=(vtbnn~20010904_541__131773--1)
+13	fast	fast	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	advmod	_	SpaceAfter=No|name=O
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013878
+# text = Opprøret i Finnmark kom overraskande på både statsministeren og det lokale partilaget, og blei lagt merke til over heile landet.
+1	Opprøret	opprør	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(vtbnn~20010904_541__5638--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Finnmark	Finnmark	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20010904_541__2391--1)vtbnn~20010904_541__5638)
+4	kom	kome	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	overraskande	overraske	ADJ	_	VerbForm=Part	4	xcomp	_	name=O
+6	på	på	ADP	_	_	8	case	_	name=O
+7	både	både	CCONJ	_	_	8	cc	_	name=O
+8	statsministeren	statsminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	5	obl	_	name=O|Entity=(vtbnn~20010904_541__T131--1(vtbnn~20010904_541__4620--1)
+9	og	og	CCONJ	_	_	12	cc	_	name=O
+10	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	12	det	_	name=O|Entity=(vtbnn~20010904_541__T133--1
+11	lokale	lokal	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	12	amod	_	name=O
+12	partilaget	partilag	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No|name=O|Entity=vtbnn~20010904_541__T133)vtbnn~20010904_541__T131)
+13	,	$,	PUNCT	_	_	16	punct	_	name=O
+14	og	og	CCONJ	_	_	16	cc	_	name=O
+15	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux:pass	_	name=O
+16	lagt	leggje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	conj	_	name=O
+17	merke	merke	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	16	obj	_	name=O|Entity=(vtbnn~20010904_541__T134--1
+18	til	til	ADP	_	_	17	nmod	_	name=O|Entity=vtbnn~20010904_541__T134)
+19	over	over	ADP	_	_	21	case	_	name=O
+20	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	21	amod	_	name=O|Entity=(vtbnn~20010904_541__2311--1
+21	landet	land	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20010904_541__2311)
+22	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013879
+# text = - Me mobiliserte folket, me sa ifrå.
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20010904_541__6573--1)
+3	mobiliserte	mobilisere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	folket	folk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T137--1)
+5	,	$,	PUNCT	_	_	7	punct	_	name=O
+6	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	name=O|Entity=(vtbnn~20010904_541__6573--1)
+7	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+8	ifrå	ifrå	ADP	_	_	7	compound:prt	_	SpaceAfter=No|name=O
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013880
+# text = Me snakka direkte og uredde frå hjarta, på eit språk folk skjøna.
+1	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20010904_541__6573--1)
+2	snakka	snakke	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	direkte	direkte	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	acl	_	name=O
+4	og	og	CCONJ	_	_	5	cc	_	name=O
+5	uredde	uredd	ADJ	_	Degree=Pos|Number=Plur	3	conj	_	name=O
+6	frå	frå	ADP	_	_	7	case	_	name=O
+7	hjarta	hjarte	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T140--1)
+8	,	$,	PUNCT	_	_	11	punct	_	name=O
+9	på	på	ADP	_	_	11	case	_	name=O
+10	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(vtbnn~20010904_541__T141--1
+11	språk	språk	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O
+12	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T142--1)
+13	skjøna	skjøne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20010904_541__T141)
+14	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013881
+# text = Statsmininisteren blei teken fullstendig på senga.
+1	Statsmininisteren	statsminister	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj:pass	_	name=O|Entity=(vtbnn~20010904_541__4620--1)
+2	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	teken	ta	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+4	fullstendig	fullstendig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+5	på	på	ADP	_	_	6	case	_	name=O
+6	senga	seng	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T144--1)
+7	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013882
+# text = Det viser kor lite politikarane lyttar til folket, sa Westlie.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T145--1)
+2	viser	vise	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	kor	kor	ADV	_	_	4	advmod	_	name=O
+4	lite	lite	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	name=O
+5	politikarane	politikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Entity=(vtbnn~20010904_541__81216--1)
+6	lyttar	lytte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	name=O
+7	til	til	ADP	_	_	8	case	_	name=O
+8	folket	folk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T147--1)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	name=O
+11	Westlie	Westlie	PROPN	_	_	10	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20010904_541__131773--1)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 013883
+# text = Makta og arbeidsplassane blir meir og meir sentralisert, ikkje minst ved honnørprat om effektivisering, meinte Mette Westlie.
+1	Makta	makt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	name=O|Bridge=vtbnn~20010904_541__2311<vtbnn~20010904_541__T149:default|Entity=(vtbnn~20010904_541__T149--1(vtbnn~20010904_541__2321--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	arbeidsplassane	arbeidsplass	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	1	conj	_	name=O|Entity=(vtbnn~20010904_541__T151--1)vtbnn~20010904_541__T149)
+4	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+5	meir	mykje	ADJ	_	Degree=Cmp	8	advmod	_	name=O
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	meir	mykje	ADJ	_	Degree=Cmp	5	conj	_	name=O
+8	sentralisert	sentralisere	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	xcomp	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	13	punct	_	name=O
+10	ikkje	ikkje	PART	_	Polarity=Neg	11	advmod	_	name=O
+11	minst	liten	ADJ	_	Definite=Ind|Degree=Sup	13	advmod	_	name=O
+12	ved	ved	ADP	_	_	13	case	_	name=O
+13	honnørprat	honnørprat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(vtbnn~20010904_541__T152--1
+14	om	om	ADP	_	_	15	case	_	name=O
+15	effektivisering	effektivisering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T153--1)vtbnn~20010904_541__T152)
+16	,	$,	PUNCT	_	_	13	punct	_	name=O
+17	meinte	meine	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	name=O
+18	Mette	Mette	PROPN	_	_	17	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__131773--1
+19	Westlie	Westlie	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20010904_541__131773)
+20	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013884
+# text = - Folk i utkantane føler uro.
+1	-	$-	PUNCT	_	_	5	punct	_	name=O
+2	Folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T155--1
+3	i	i	ADP	_	_	4	case	_	name=O
+4	utkantane	utkant	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	name=O|Entity=(vtbnn~20010904_541__101448--1)vtbnn~20010904_541__T155)
+5	føler	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	uro	uro	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T157--1)
+7	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013885
+# text = Små kommunar i distrikta har ikkje råd til å halde oppe velferdstilbod.
+1	Små	liten	ADJ	_	Degree=Pos|Number=Plur	2	amod	_	name=O|Entity=(vtbnn~20010904_541__T158--1
+2	kommunar	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	5	nsubj	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	distrikta	distrikt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	2	nmod	_	name=O|Entity=(vtbnn~20010904_541__101448--1)vtbnn~20010904_541__T158)
+5	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+6	ikkje	ikkje	PART	_	Polarity=Neg	5	advmod	_	name=O
+7	råd	råd	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	name=O|Entity=(vtbnn~20010904_541__T160--1
+8	til	til	SCONJ	_	_	10	mark	_	name=O
+9	å	å	PART	_	_	10	mark	_	name=O
+10	halde	halde	VERB	_	VerbForm=Inf	7	acl	_	name=O
+11	oppe	oppe	ADP	_	_	10	compound:prt	_	name=O
+12	velferdstilbod	velferdstilbod	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T161--1)vtbnn~20010904_541__T160)
+13	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 013886
+# text = Endå verre blir det når det nye inntektssystemet, Ratsø 2, med prislapp pr. hovud, blir innført.
+1	Endå	endå	ADV	_	_	2	advmod	_	name=O
+2	verre	verre	ADJ	_	Degree=Cmp	3	xcomp	_	name=O
+3	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+5	når	når	SCONJ	_	_	19	mark	_	name=O
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(vtbnn~20010904_541__T163--1(vtbnn~20010904_541__T162--1
+7	nye	ny	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	inntektssystemet	inntektssystem	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=vtbnn~20010904_541__T162)
+10	Ratsø	Ratsø	PROPN	_	_	19	nsubj:pass	_	name=B-PROD
+11	2	2	NUM	_	Number=Plur|NumType=Card	10	flat:name	_	SpaceAfter=No|name=I-PROD
+12	,	$,	PUNCT	_	_	14	punct	_	name=O
+13	med	med	ADP	_	_	14	case	_	name=O
+14	prislapp	prislapp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	10	nmod	_	name=O|Entity=(vtbnn~20010904_541__T164--1
+15	pr.	pr.	ADP	_	Abbr=Yes	16	case	_	name=O
+16	hovud	hovud	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T165--1)vtbnn~20010904_541__T164)vtbnn~20010904_541__T163)
+17	,	$,	PUNCT	_	_	14	punct	_	name=O
+18	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux:pass	_	name=O
+19	innført	innføre	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	3	advcl	_	SpaceAfter=No|name=O
+20	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013887
+# text = Er det rart folk føler uro? spurde Westlie.
+1	Er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+2	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+3	rart	rar	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+4	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	5	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T166--1)
+5	føler	føle	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	csubj	_	name=O
+6	uro	uro	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T167--1)
+7	?	$?	PUNCT	_	_	3	punct	_	name=O
+8	spurde	spørje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+9	Westlie	Westlie	PROPN	_	_	8	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20010904_541__131773--1)
+10	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013888
+# text = Medisinen ligg i at folket tek att makta, meinte ho.
+1	Medisinen	medisin	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T169--1)
+2	ligg	liggje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	i	i	SCONJ	_	_	6	mark	_	name=O
+4	at	at	SCONJ	_	_	6	mark	_	name=O
+5	folket	folk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T170--1)
+6	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	name=O
+7	att	att	ADP	_	_	6	compound:prt	_	name=O
+8	makta	makt	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__2321--1)
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	meinte	meine	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	name=O
+11	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__131773--1)
+12	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013889
+# text = - Skal me leggja oss ned for ein stat som ikkje tek heile Noreg i bruk?
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(vtbnn~20010904_541__3527--1)
+4	leggja	leggje	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	oss	vi	PRON	_	Animacy=Hum|Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	name=O|Entity=(vtbnn~20010904_541__3527--1)
+6	ned	ned	ADP	_	_	4	compound:prt	_	name=O
+7	for	for	ADP	_	_	9	case	_	name=O
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20010904_541__T175--1
+9	stat	stat	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	obl	_	name=O
+10	som	som	PRON	_	PronType=Rel	12	nsubj	_	name=O
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	name=O
+12	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	name=O
+13	heile	heil	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	14	amod	_	name=O|Entity=(vtbnn~20010904_541__2311--1
+14	Noreg	Noreg	PROPN	_	_	12	obj	_	name=B-GPE_LOC|Entity=vtbnn~20010904_541__2311)
+15	i	i	SCONJ	_	_	16	mark	_	name=O
+16	bruk	bruk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T177--1)vtbnn~20010904_541__T175)
+17	?	$?	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013891
+# text = Ta opp kampen for å utvikle lokalsamfunna våre.
+1	Ta	ta	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	name=O
+2	opp	opp	ADP	_	_	1	compound:prt	_	name=O
+3	kampen	kamp	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obj	_	name=O|Entity=(vtbnn~20010904_541__T178--1)
+4	for	for	SCONJ	_	_	6	mark	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	utvikle	utvikle	VERB	_	VerbForm=Inf	1	advcl	_	name=O
+7	lokalsamfunna	lokalsamfunn	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	obj	_	name=O|Entity=(vtbnn~20010904_541__T179--1
+8	våre	vår	PRON	_	Number=Plur|Poss=Yes|PronType=Prs	7	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__3527--1)vtbnn~20010904_541__T179)
+9	.	$.	PUNCT	_	_	1	punct	_	name=O
+
+# sent_id = 013892
+# text = Politikarane skal få merke at dei ikkje kan styre som dei vil, åtvara Mette Westlie.
+1	Politikarane	politikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(vtbnn~20010904_541__81216--1)
+2	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	få	få	AUX	_	VerbForm=Inf	4	aux	_	name=O
+4	merke	merke	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	at	at	SCONJ	_	_	9	mark	_	name=O
+6	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(vtbnn~20010904_541__81216--1)
+7	ikkje	ikkje	PART	_	Polarity=Neg	9	advmod	_	name=O
+8	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	styre	styre	VERB	_	VerbForm=Inf	4	ccomp	_	name=O
+10	som	som	PRON	_	PronType=Rel	12	obj	_	name=O
+11	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(vtbnn~20010904_541__81216--1)
+12	vil	vilje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	åtvara	åtvare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	name=O
+15	Mette	Mette	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__131773--1
+16	Westlie	Westlie	PROPN	_	_	15	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20010904_541__131773)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013893
+# text = Like viktig som eit opprør før valet meinte ho det var å vera eit distriktspoliti som minner politikarane om at dei er til for folk, også folk i utkantane.
+1	Like	like	ADV	_	_	2	advmod	_	name=O
+2	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	xcomp	_	name=O
+3	som	som	ADP	_	_	5	case	_	name=O
+4	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	5	det	_	name=O|Entity=(vtbnn~20010904_541__T185--1
+5	opprør	opprør	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	1	obl	_	name=O
+6	før	før	ADP	_	_	7	case	_	name=O
+7	valet	val	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(vtbnn~20010904_541__2455--1)vtbnn~20010904_541__T185)
+8	meinte	meine	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	ho	ho	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(vtbnn~20010904_541__131773--1)
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	name=O
+11	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	cop	_	name=O
+12	å	å	PART	_	_	15	mark	_	name=O
+13	vera	vere	AUX	_	VerbForm=Inf	15	cop	_	name=O
+14	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(vtbnn~20010904_541__T188--1
+15	distriktspoliti	distriktspoliti	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	csubj	_	name=O
+16	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+17	minner	minne	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	name=O
+18	politikarane	politikar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	17	obj	_	name=O|Entity=(vtbnn~20010904_541__81216--1)
+19	om	om	SCONJ	_	_	23	mark	_	name=O
+20	at	at	SCONJ	_	_	23	mark	_	name=O
+21	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	name=O|Entity=(vtbnn~20010904_541__81216--1)
+22	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	cop	_	name=O
+23	til	til	ADP	_	_	17	advcl	_	name=O
+24	for	for	ADP	_	_	25	case	_	name=O
+25	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T191--1
+26	,	$,	PUNCT	_	_	28	punct	_	name=O
+27	også	også	ADV	_	_	28	advmod	_	name=O|Entity=(vtbnn~20010904_541__T192--1
+28	folk	folk	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	25	appos	_	name=O
+29	i	i	ADP	_	_	30	case	_	name=O
+30	utkantane	utkant	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__101448--1)vtbnn~20010904_541__T192)vtbnn~20010904_541__T191)vtbnn~20010904_541__T188)
+31	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# newpar
+# sent_id = 013894
+# text = Politikarpanelet var påfallande samde i både kritikken frå opprørarane, og i å arbeide for distrikta.
+1	Politikarpanelet	politikarpanel	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|SplitAnte=vtbnn~20010904_541__T106<vtbnn~20010904_541__T194,vtbnn~20010904_541__3520<vtbnn~20010904_541__T194|Entity=(vtbnn~20010904_541__T194--1)
+2	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	_	name=O
+3	påfallande	påfallande	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	4	advmod	_	name=O
+4	samde	samd	ADJ	_	Degree=Pos|Number=Plur	0	root	_	name=O
+5	i	i	ADP	_	_	7	case	_	name=O
+6	både	både	CCONJ	_	_	7	cc	_	name=O
+7	kritikken	kritikk	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obl	_	name=O|Entity=(vtbnn~20010904_541__T195--1
+8	frå	frå	ADP	_	_	9	case	_	name=O
+9	opprørarane	opprørar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__3253--1)vtbnn~20010904_541__T195)
+10	,	$,	PUNCT	_	_	14	punct	_	name=O
+11	og	og	CCONJ	_	_	14	cc	_	name=O
+12	i	i	ADP	_	_	14	case	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	arbeide	arbeide	VERB	_	VerbForm=Inf	7	conj	_	name=O
+15	for	for	ADP	_	_	16	case	_	name=O
+16	distrikta	distrikt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	14	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__101448--1)
+17	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013895
+# text = Gunleik Lindheim (Frp) hadde som venta ein annan medisin enn SV og Sp.
+1	Gunleik	Gunleik	PROPN	_	_	6	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__3520--1
+2	Lindheim	Lindheim	PROPN	_	_	1	flat:name	_	name=I-PER
+3	(	$(	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__4558--1
+4	Frp	Frp	NOUN	_	Abbr=Yes	1	nmod	_	SpaceAfter=No|name=B-ORG
+5	)	$)	PUNCT	_	_	4	punct	_	name=O|Entity=vtbnn~20010904_541__4558)vtbnn~20010904_541__3520)
+6	hadde	ha	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+7	som	som	ADP	_	_	8	case	_	name=O
+8	venta	vente	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	6	advmod	_	name=O|Entity=(vtbnn~20010904_541__T200--1)
+9	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	name=O|Entity=(vtbnn~20010904_541__T201--1
+10	annan	annan	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	name=O
+11	medisin	medisin	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O
+12	enn	enn	ADP	_	_	13	case	_	name=O
+13	SV	SV	NOUN	_	Abbr=Yes	10	obl	_	name=B-ORG|Entity=(vtbnn~20010904_541__T202--1(vtbnn~20010904_541__5913--1)
+14	og	og	CCONJ	_	_	15	cc	_	name=O
+15	Sp	Sp	NOUN	_	Abbr=Yes	13	conj	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20010904_541__5684--1)vtbnn~20010904_541__T202)vtbnn~20010904_541__T201)
+16	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 013896
+# text = Han peika på partiets politikk om lågare avgifter på bil og drivstoff, eit enklare byråkrati i departement og direktorat og mindre overstyring av kommunane ved øyremerkte midlar som den beste hjelpa for distrikta.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20010904_541__3520--1)
+2	peika	peike	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	på	på	ADP	_	_	5	case	_	name=O
+4	partiets	parti	NOUN	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	5	nmod	_	name=O|Entity=(vtbnn~20010904_541__T207--1(vtbnn~20010904_541__4558--1)
+5	politikk	politikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	name=O
+6	om	om	ADP	_	_	8	case	_	name=O
+7	lågare	låg	ADJ	_	Degree=Cmp	8	amod	_	name=O|Entity=(vtbnn~20010904_541__T208--1(vtbnn~20010904_541__T209--1
+8	avgifter	avgift	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	5	nmod	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	bil	bil	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(vtbnn~20010904_541__T210--1(vtbnn~20010904_541__T211--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	drivstoff	drivstoff	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T212--1)vtbnn~20010904_541__T210)
+13	,	$,	PUNCT	_	_	16	punct	_	name=O|Entity=vtbnn~20010904_541__T209)
+14	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	16	det	_	name=O|Entity=(vtbnn~20010904_541__T213--1
+15	enklare	enkel	ADJ	_	Degree=Cmp	16	amod	_	name=O
+16	byråkrati	byråkrati	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	8	conj	_	name=O
+17	i	i	ADP	_	_	18	case	_	name=O
+18	departement	departement	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	nmod	_	name=O|Entity=(vtbnn~20010904_541__T214--1(vtbnn~20010904_541__T215--1)
+19	og	og	CCONJ	_	_	20	cc	_	name=O
+20	direktorat	direktorat	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	18	conj	_	name=O|Entity=(vtbnn~20010904_541__T216--1)vtbnn~20010904_541__T214)vtbnn~20010904_541__T213)
+21	og	og	CCONJ	_	_	23	cc	_	name=O
+22	mindre	liten	ADJ	_	Degree=Cmp	23	amod	_	name=O|Entity=(vtbnn~20010904_541__T217--1
+23	overstyring	overstyring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	name=O
+24	av	av	ADP	_	_	25	case	_	name=O
+25	kommunane	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	23	nmod	_	name=O|Entity=(vtbnn~20010904_541__T218--1)
+26	ved	ved	ADP	_	_	28	case	_	name=O
+27	øyremerkte	øyremerke	ADJ	_	Number=Plur|VerbForm=Part	28	amod	_	name=O|Entity=(vtbnn~20010904_541__T219--1
+28	midlar	middel	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	23	nmod	_	name=O|Entity=vtbnn~20010904_541__T219)vtbnn~20010904_541__T217)vtbnn~20010904_541__T208)vtbnn~20010904_541__T207)
+29	som	som	SCONJ	_	_	32	mark	_	name=O
+30	den	den	DET	_	Gender=Fem|Number=Sing|PronType=Dem	32	det	_	name=O|Entity=(vtbnn~20010904_541__T220--1
+31	beste	god	ADJ	_	Definite=Def|Degree=Sup	32	amod	_	name=O
+32	hjelpa	hjelp	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	2	xcomp	_	name=O
+33	for	for	ADP	_	_	34	case	_	name=O
+34	distrikta	distrikt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	32	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__101448--1)vtbnn~20010904_541__T220)
+35	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 013897
+# text = Sigbjørn Molvik (SV) og Lars Bjaadal (Sp) peika på EU som ein trussel mot sjølvstyre.
+1	Sigbjørn	Sigbjørn	NOUN	_	Gender=Masc	12	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__T222--1(vtbnn~20010904_541__51211--1
+2	Molvik	Molvik	PROPN	_	_	1	flat:name	_	name=I-PER
+3	(	$(	PUNCT	_	_	4	punct	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__5913--1
+4	SV	SV	NOUN	_	Abbr=Yes	1	nmod	_	SpaceAfter=No|name=B-ORG
+5	)	$)	PUNCT	_	_	4	punct	_	name=O|Entity=vtbnn~20010904_541__5913)vtbnn~20010904_541__51211)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	Lars	Lars	NOUN	_	Gender=Masc	1	conj	_	name=B-PER|Entity=(vtbnn~20010904_541__3592--1
+8	Bjaadal	Bjaadal	PROPN	_	_	7	flat:name	_	name=I-PER
+9	(	$(	PUNCT	_	_	10	punct	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__5684--1
+10	Sp	Sp	NOUN	_	Abbr=Yes	7	nmod	_	SpaceAfter=No|name=B-ORG
+11	)	$)	PUNCT	_	_	10	punct	_	name=O|Entity=vtbnn~20010904_541__5684)vtbnn~20010904_541__3592)vtbnn~20010904_541__T222)
+12	peika	peike	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+13	på	på	ADP	_	_	14	case	_	name=O
+14	EU	EU	NOUN	_	Abbr=Yes	12	obl	_	name=B-GPE_ORG|Entity=(vtbnn~20010904_541__T227--1)
+15	som	som	SCONJ	_	_	17	mark	_	name=O
+16	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(vtbnn~20010904_541__T228--1
+17	trussel	trussel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	xcomp	_	name=O
+18	mot	mot	ADP	_	_	19	case	_	name=O
+19	sjølvstyre	sjølvstyre	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T229--1)vtbnn~20010904_541__T228)
+20	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 013898
+# text = Men om dei to småpartia blir samde, er det ikkje nok, minna Molvik om.
+1	Men	men	CCONJ	_	_	12	cc	_	name=O
+2	om	om	SCONJ	_	_	6	mark	_	name=O
+3	dei	dei	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|SplitAnte=vtbnn~20010904_541__5913<vtbnn~20010904_541__T230,vtbnn~20010904_541__5684<vtbnn~20010904_541__T230|Entity=(vtbnn~20010904_541__T230--1
+4	to	to	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O
+5	småpartia	småparti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nsubj	_	name=O|Entity=vtbnn~20010904_541__T230)
+6	blir	bli	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	name=O
+7	samde	samd	ADJ	_	Degree=Pos|Number=Plur	6	xcomp	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	6	punct	_	name=O
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T231--1)
+11	ikkje	ikkje	PART	_	Polarity=Neg	12	advmod	_	name=O
+12	nok	nok	ADV	_	_	0	root	_	SpaceAfter=No|name=O
+13	,	$,	PUNCT	_	_	14	punct	_	name=O
+14	minna	minne	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	12	parataxis	_	name=O
+15	Molvik	Molvik	PROPN	_	_	14	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__51211--1)
+16	om	om	ADP	_	_	14	compound:prt	_	SpaceAfter=No|name=O
+17	.	$.	PUNCT	_	_	12	punct	_	name=O
+
+# sent_id = 013899
+# text = - Nøkkelen har Ap og H
+1	-	$-	PUNCT	_	_	3	punct	_	name=O
+2	Nøkkelen	nøkkel	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T233--1)
+3	har	ha	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	Ap	Ap	NOUN	_	Abbr=Yes	3	obj	_	name=B-ORG|Entity=(vtbnn~20010904_541__51278--1(vtbnn~20010904_541__7832--1)
+5	og	og	CCONJ	_	_	6	cc	_	name=O
+6	H	H.	NOUN	_	Abbr=Yes	4	conj	_	name=B-ORG|Entity=(vtbnn~20010904_541__4405--1)vtbnn~20010904_541__51278)
+
+# sent_id = 013900
+# text = Eg skulle ønskje dei to fekk seg ein vekkjar frå veljarane.
+1	Eg	eg	PRON	_	Animacy=Hum|Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20010904_541__51211--1)
+2	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	ønskje	ønskje	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	dei	dei	DET	_	Number=Plur|PronType=Dem	5	det	_	name=O|Entity=(vtbnn~20010904_541__51278--1)
+5	to	to	NUM	_	Number=Plur|NumType=Card	6	nsubj	_	name=O
+6	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+7	seg	seg	PRON	_	Case=Acc|Number=Sing|PronType=Prs	6	iobj	_	name=O|Entity=(vtbnn~20010904_541__51278--1)
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20010904_541__T238--1
+9	vekkjar	vekkjar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=vtbnn~20010904_541__T238)
+10	frå	frå	ADP	_	_	11	case	_	name=O
+11	veljarane	veljar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T239--1)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013901
+# text = Fyrst då byrjar regjeringspartiet å leggje om, og sluttar å overlata alt til marknadskreftene, sa Molvik.
+1	Fyrst	fyrst	ADV	_	_	2	advmod	_	name=O
+2	då	då	ADV	_	_	3	advmod	_	name=O
+3	byrjar	byrje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	regjeringspartiet	regjeringsparti	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20010904_541__7832--1)
+5	å	å	PART	_	_	6	mark	_	name=O
+6	leggje	leggje	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+7	om	om	ADP	_	_	6	compound:prt	_	SpaceAfter=No|name=O
+8	,	$,	PUNCT	_	_	10	punct	_	name=O
+9	og	og	CCONJ	_	_	10	cc	_	name=O
+10	sluttar	slutte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+11	å	å	PART	_	_	12	mark	_	name=O
+12	overlata	overlate	VERB	_	VerbForm=Inf	10	xcomp	_	name=O
+13	alt	alt	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	name=O|Entity=(vtbnn~20010904_541__T241--1)
+14	til	til	ADP	_	_	15	case	_	name=O
+15	marknadskreftene	marknadskraft	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T242--1)
+16	,	$,	PUNCT	_	_	10	punct	_	name=O
+17	sa	seie	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+18	Molvik	Molvik	PROPN	_	_	17	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20010904_541__51211--1)
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 013902
+# text = - Dei største partia har vist at dei går imot saker for distrikta.
+1	-	$-	PUNCT	_	_	6	punct	_	name=O
+2	Dei	dei	DET	_	Number=Plur|PronType=Dem	4	det	_	name=O|Entity=(vtbnn~20010904_541__51278--1
+3	største	stor	ADJ	_	Definite=Def|Degree=Sup	4	amod	_	name=O
+4	partia	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	6	nsubj	_	name=O|Entity=vtbnn~20010904_541__51278)
+5	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	vist	vise	VERB	_	VerbForm=Part	0	root	_	name=O
+7	at	at	SCONJ	_	_	9	mark	_	name=O
+8	dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(vtbnn~20010904_541__51278--1)
+9	går	gå	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	ccomp	_	name=O
+10	imot	imot	ADP	_	_	11	case	_	name=O
+11	saker	sak	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	9	obl	_	name=O|Entity=(vtbnn~20010904_541__T246--1
+12	for	for	ADP	_	_	13	case	_	name=O
+13	distrikta	distrikt	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__101448--1)vtbnn~20010904_541__T246)
+14	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 013903
+# text = Jan og Jens, i kompaniskap «Jans», er samde om dei grunnleggande tinga.
+1	Jan	Jan	NOUN	_	Gender=Masc	11	nsubj	_	name=B-PER|Entity=(vtbnn~20010904_541__T248--1(vtbnn~20010904_541__T249[1/2]--1)
+2	og	og	CCONJ	_	_	3	cc	_	name=O
+3	Jens	Jens	NOUN	_	Gender=Masc	1	conj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20010904_541__4620--1)
+4	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=(vtbnn~20010904_541__T249[2/2]--1
+5	i	i	ADP	_	_	6	case	_	name=O|Entity=(vtbnn~20010904_541__T252--1
+6	kompaniskap	kompaniskap	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(vtbnn~20010904_541__T251--1)
+7	«	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O
+8	Jans	Jans	PROPN	_	_	1	appos	_	SpaceAfter=No|name=B-ORG
+9	»	$"	PUNCT	_	_	8	punct	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	8	punct	_	name=O|Entity=vtbnn~20010904_541__T252)vtbnn~20010904_541__T249[2/2])vtbnn~20010904_541__T248)
+11	er	vere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+12	samde	samd	ADJ	_	Degree=Pos|Number=Plur	11	xcomp	_	name=O
+13	om	om	ADP	_	_	16	case	_	name=O
+14	dei	dei	DET	_	Number=Plur|PronType=Dem	16	det	_	name=O|Entity=(vtbnn~20010904_541__T253--1
+15	grunnleggande	grunnleggande	ADJ	_	Degree=Pos|Number=Plur	16	amod	_	name=O
+16	tinga	ting	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20010904_541__T253)
+17	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 013904
+# text = Det er her me må setja kreftene inn, konkluderte Bjaadal.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	name=O
+3	her	her	ADV	_	_	0	root	_	name=O
+4	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T254--1)
+5	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	name=O
+6	setja	setje	VERB	_	VerbForm=Inf	3	advcl	_	name=O
+7	kreftene	kraft	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	6	obj	_	name=O|Entity=(vtbnn~20010904_541__T255--1)
+8	inn	inn	ADP	_	_	6	compound:prt	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	10	punct	_	name=O
+10	konkluderte	konkludere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	name=O
+11	Bjaadal	Bjaadal	PROPN	_	_	10	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20010904_541__3592--1)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 013905
+# text = Distrikts-kvinneopprøret i Telemark fekk ikkje den eksplosjonsarta starten opprøret i Finnmark fekk.
+1	Distrikts-kvinneopprøret	distrikts-kvinneopprør	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T257--1
+2	i	i	ADP	_	_	3	case	_	name=O
+3	Telemark	Telemark	PROPN	_	_	1	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20010904_541__4334--1)vtbnn~20010904_541__T257)
+4	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+5	ikkje	ikkje	PART	_	Polarity=Neg	4	advmod	_	name=O
+6	den	den	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(vtbnn~20010904_541__T259--1
+7	eksplosjonsarta	eksplosjonsarta	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	starten	start	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	4	obj	_	name=O
+9	opprøret	opprør	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nsubj	_	name=O|Entity=(vtbnn~20010904_541__5638--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Finnmark	Finnmark	PROPN	_	_	9	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20010904_541__2391--1)vtbnn~20010904_541__5638)
+12	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20010904_541__T259)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013906
+# text = Men med god ammunisjon frå Mette Westlie var kvinnene bak rusta til vidare kamp etter samlinga fredag.
+1	Men	men	CCONJ	_	_	11	cc	_	name=O
+2	med	med	ADP	_	_	4	case	_	name=O
+3	god	god	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(vtbnn~20010904_541__T262--1
+4	ammunisjon	ammunisjon	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O
+5	frå	frå	ADP	_	_	6	case	_	name=O
+6	Mette	Mette	PROPN	_	_	4	nmod	_	name=B-PER|Entity=(vtbnn~20010904_541__131773--1
+7	Westlie	Westlie	PROPN	_	_	6	flat:name	_	name=I-PER|Entity=vtbnn~20010904_541__131773)vtbnn~20010904_541__T262)
+8	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	name=O
+9	kvinnene	kvinne	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	11	nsubj	_	name=O|Entity=(vtbnn~20010904_541__3382--1
+10	bak	bak	ADP	_	_	9	nmod	_	name=O|Entity=vtbnn~20010904_541__3382)
+11	rusta	ruste	VERB	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+12	til	til	ADP	_	_	14	case	_	name=O
+13	vidare	vid	ADJ	_	Degree=Cmp	14	amod	_	name=O|Entity=(vtbnn~20010904_541__T265--1
+14	kamp	kamp	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	11	obl	_	name=O|Entity=vtbnn~20010904_541__T265)
+15	etter	etter	ADP	_	_	16	case	_	name=O
+16	samlinga	samling	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	obl	_	name=O|Entity=(vtbnn~20010904_541__4449--1
+17	fredag	fredag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T267--1)vtbnn~20010904_541__4449)
+18	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 013907
+# text = - Det er viktig å halde trykket oppe, også etter valet.
+1	-	$-	PUNCT	_	_	4	punct	_	name=O
+2	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	name=O
+4	viktig	viktig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	name=O
+5	å	å	PART	_	_	6	mark	_	name=O
+6	halde	halde	VERB	_	VerbForm=Inf	4	csubj	_	name=O
+7	trykket	trykk	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obj	_	name=O|Bridge=vtbnn~20010904_541__T257<vtbnn~20010904_541__T268:default|Entity=(vtbnn~20010904_541__T268--1)
+8	oppe	oppe	ADP	_	_	6	xcomp	_	SpaceAfter=No|name=O
+9	,	$,	PUNCT	_	_	12	punct	_	name=O
+10	også	også	ADV	_	_	12	advmod	_	name=O
+11	etter	etter	ADP	_	_	12	case	_	name=O
+12	valet	val	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__2455--1)
+13	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 013908
+# text = Me må samarbeide på tvers av partia og på tvers av fylka.
+1	Me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20010904_541__T270--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	samarbeide	samarbeide	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	tvers	tvers	NOUN	_	_	3	obl	_	name=O|Entity=(vtbnn~20010904_541__T271--1
+6	av	av	ADP	_	_	7	case	_	name=O
+7	partia	parti	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	5	nmod	_	name=O|Entity=(vtbnn~20010904_541__T272--1)vtbnn~20010904_541__T271)
+8	og	og	CCONJ	_	_	10	cc	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	tvers	tvers	NOUN	_	_	5	conj	_	name=O|Entity=(vtbnn~20010904_541__T273--1
+11	av	av	ADP	_	_	12	case	_	name=O
+12	fylka	fylke	NOUN	_	Definite=Def|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20010904_541__T274--1)vtbnn~20010904_541__T273)
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+

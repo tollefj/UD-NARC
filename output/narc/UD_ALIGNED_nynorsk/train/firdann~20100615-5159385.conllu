@@ -1,0 +1,140 @@
+# newdoc id = firdann~20100615-5159385
+# global.Entity = eid-etype-head-other
+# sent_id = 007048
+# text = Ferska i 96 km/t i 80-sone
+1	Ferska	ferske	ADJ	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+2	i	i	ADP	_	_	4	case	_	name=O
+3	96	96	NUM	_	Number=Plur|NumType=Card	4	nummod	_	name=O|Entity=(firdann~20100615_5159385__T1--1
+4	km/t	km/t	NOUN	_	Abbr=Yes	1	nmod	_	name=O|Entity=firdann~20100615_5159385__T1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	80-sone	80-sone	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	1	obl	_	name=O|Entity=(firdann~20100615_5159385__T2--1)
+
+# newpar
+# sent_id = 007049
+# text = Fleire tekne i fartskontrollar i Årdal og Vanylven i dag.
+1	Fleire	mange	ADJ	_	Degree=Cmp	2	nsubj	_	name=O|Entity=(firdann~20100615_5159385__T3--1)
+2	tekne	ta	ADJ	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	fartskontrollar	fartskontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	2	obl	_	name=O|Entity=(firdann~20100615_5159385__T4--1
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Årdal	Årdal	PROPN	_	_	4	nmod	_	name=B-GPE_LOC|Entity=(firdann~20100615_5159385__T5--1(firdann~20100615_5159385__217--1)
+7	og	og	CCONJ	_	_	8	cc	_	name=O
+8	Vanylven	Vanylven	PROPN	_	_	6	conj	_	name=B-GPE_LOC|Entity=(firdann~20100615_5159385__242--1)firdann~20100615_5159385__T5)firdann~20100615_5159385__T4)
+9	i	i	ADP	_	_	10	case	_	name=O
+10	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100615_5159385__T8--1)
+11	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 007050
+# text = UP har gjennomført trafikkontroll i Årdal i dag.
+1	UP	UP	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(firdann~20100615_5159385__T9--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	gjennomført	gjennomføre	VERB	_	VerbForm=Part	0	root	_	name=O
+4	trafikkontroll	trafikkontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(firdann~20100615_5159385__T10--1)
+5	i	i	ADP	_	_	6	case	_	name=O
+6	Årdal	Årdal	PROPN	_	_	3	obl	_	name=B-GPE_LOC|Entity=(firdann~20100615_5159385__217--1)
+7	i	i	ADP	_	_	8	case	_	name=O
+8	dag	dag	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100615_5159385__T12--1)
+9	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 007051
+# text = På Årdalstangen vart fire bilførarar bøtelagt etter å ha køyrt for fort i 50-sone, og høgste målte fart var 68 km/t.
+1	På	på	ADP	_	_	2	case	_	name=O
+2	Årdalstangen	Årdalstangen	NOUN	_	Gender=Masc	6	obl	_	name=B-LOC|Entity=(firdann~20100615_5159385__236--1)
+3	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	name=O
+4	fire	fire	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(firdann~20100615_5159385__T14--1
+5	bilførarar	bilførar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj:pass	_	name=O|Entity=firdann~20100615_5159385__T14)
+6	bøtelagt	bøteleggje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	etter	etter	SCONJ	_	_	10	mark	_	name=O
+8	å	å	PART	_	_	10	mark	_	name=O
+9	ha	ha	AUX	_	VerbForm=Inf	10	aux	_	name=O
+10	køyrt	køyre	VERB	_	VerbForm=Part	6	advcl	_	name=O
+11	for	for	ADV	_	_	12	advmod	_	name=O
+12	fort	fort	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+13	i	i	ADP	_	_	14	case	_	name=O
+14	50-sone	50-sone	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100615_5159385__T15--1)
+15	,	$,	PUNCT	_	_	22	punct	_	name=O
+16	og	og	CCONJ	_	_	22	cc	_	name=O
+17	høgste	høg	ADJ	_	Definite=Def|Degree=Sup	19	amod	_	name=O|Entity=(firdann~20100615_5159385__T16--1
+18	målte	måle	ADJ	_	Definite=Def|Number=Sing|VerbForm=Part	19	amod	_	name=O
+19	fart	fart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	nsubj	_	name=O|Entity=firdann~20100615_5159385__T16)
+20	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	22	cop	_	name=O
+21	68	68	NUM	_	Number=Plur|NumType=Card	22	nummod	_	name=O|Entity=(firdann~20100615_5159385__T17--1
+22	km/t.	km/t	NOUN	_	Abbr=Yes	6	conj	_	name=O|Entity=firdann~20100615_5159385__T17)
+
+# sent_id = 007052
+# text = I tillegg blei fem førarar tekne etter å ha køyrt for fort i ei 30-sone, som er ein skuleveg med fartsdumpar, på Årdalstangen.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	tillegg	tillegg	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=(firdann~20100615_5159385__T18--1)
+3	blei	bli	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	name=O
+4	fem	fem	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(firdann~20100615_5159385__T19--1
+5	førarar	førar	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nsubj:pass	_	name=O|Entity=firdann~20100615_5159385__T19)
+6	tekne	ta	VERB	_	Number=Plur|VerbForm=Part	0	root	_	name=O
+7	etter	etter	SCONJ	_	_	10	mark	_	name=O
+8	å	å	PART	_	_	10	mark	_	name=O
+9	ha	ha	AUX	_	VerbForm=Inf	10	aux	_	name=O
+10	køyrt	køyre	VERB	_	VerbForm=Part	6	advcl	_	name=O
+11	for	for	ADV	_	_	12	advmod	_	name=O
+12	fort	fort	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	10	advmod	_	name=O
+13	i	i	ADP	_	_	15	case	_	name=O
+14	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	name=O|Entity=(firdann~20100615_5159385__T20--1
+15	30-sone	30-sone	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|name=O
+16	,	$,	PUNCT	_	_	20	punct	_	name=O
+17	som	som	PRON	_	PronType=Rel	20	nsubj	_	name=O
+18	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	cop	_	name=O
+19	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	20	det	_	name=O|Entity=(firdann~20100615_5159385__T21--1
+20	skuleveg	skuleveg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	acl:relcl	_	name=O
+21	med	med	ADP	_	_	22	case	_	name=O
+22	fartsdumpar	fartsdump	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No|name=O|Entity=(firdann~20100615_5159385__T22--1)firdann~20100615_5159385__T21)
+23	,	$,	PUNCT	_	_	20	punct	_	name=O
+24	på	på	ADP	_	_	25	case	_	name=O
+25	Årdalstangen	Årdalstangen	NOUN	_	Gender=Masc	15	nmod	_	SpaceAfter=No|name=B-LOC|Entity=(firdann~20100615_5159385__236--1)firdann~20100615_5159385__T20)
+26	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007053
+# text = Høgste fart var målt 55 km/t .
+1	Høgste	høg	ADJ	_	Definite=Def|Degree=Sup	2	amod	_	name=O|Entity=(firdann~20100615_5159385__T24--1
+2	fart	fart	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nsubj	_	name=O|Entity=firdann~20100615_5159385__T24)
+3	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	name=O
+4	målt	måle	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	0	root	_	name=O
+5	55	55	NUM	_	Number=Plur|NumType=Card	6	nummod	_	name=O|Entity=(firdann~20100615_5159385__T25--1
+6	km/t	km/t	NOUN	_	Abbr=Yes	4	obl	_	name=O|Entity=firdann~20100615_5159385__T25)
+7	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 007054
+# text = I Øvre Årdal vart det utført fartskontroll i 60-sona, og politiet melder at her vart ingen bøtelagt.
+1	I	i	ADP	_	_	2	case	_	name=O
+2	Øvre	Øvre	PROPN	_	_	6	obl	_	name=B-LOC|Entity=(firdann~20100615_5159385__T26--1
+3	Årdal	Årdal	PROPN	_	_	2	flat:name	_	name=I-LOC|Entity=firdann~20100615_5159385__T26)
+4	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux:pass	_	name=O
+5	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	name=O
+6	utført	utføre	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+7	fartskontroll	fartskontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	6	obj	_	name=O|Entity=(firdann~20100615_5159385__T27--1)
+8	i	i	ADP	_	_	9	case	_	name=O
+9	60-sona	60-sone	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(firdann~20100615_5159385__T28--1)
+10	,	$,	PUNCT	_	_	13	punct	_	name=O
+11	og	og	CCONJ	_	_	13	cc	_	name=O
+12	politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	nsubj	_	name=O|Entity=(firdann~20100615_5159385__260--1)
+13	melder	melde	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	name=O
+14	at	at	SCONJ	_	_	18	mark	_	name=O
+15	her	her	ADV	_	_	18	advmod	_	name=O
+16	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	18	aux:pass	_	name=O
+17	ingen	ingen	PRON	_	Number=Plur|Person=3|Polarity=Neg|PronType=Neg,Prs	18	nsubj:pass	_	name=O|Entity=(firdann~20100615_5159385__T30--1)
+18	bøtelagt	bøteleggje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	13	ccomp	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 007055
+# text = Politiet har hatt fartskontroll på riksveg 61 i Syltefjorden i Vanylven.
+1	Politiet	politi	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(firdann~20100615_5159385__260--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	hatt	ha	VERB	_	VerbForm=Part	0	root	_	name=O
+4	fartskontroll	fartskontroll	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(firdann~20100615_5159385__T32--1
+5	på	på	ADP	_	_	6	case	_	name=O
+6	riksveg	riksveg	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=(firdann~20100615_5159385__T33--1
+7	61	61	NUM	_	Number=Plur|NumType=Card	6	flat:name	_	name=O
+8	i	i	ADP	_	_	9	case	_	name=O
+9	Syltefjorden	Syltefjorden	PROPN	_	_	6	nmod	_	name=B-LOC|Entity=(firdann~20100615_5159385__T34--1
+10	i	i	ADP	_	_	11	case	_	name=O
+11	Vanylven	Vanylven	PROPN	_	_	9	nmod	_	SpaceAfter=No|name=B-GPE_LOC|Entity=(firdann~20100615_5159385__242--1)firdann~20100615_5159385__T34)firdann~20100615_5159385__T33)firdann~20100615_5159385__T32)
+12	.	$.	PUNCT	_	_	3	punct	_	name=O
+

@@ -1,0 +1,635 @@
+# newdoc id = vtbnn~20071218-3584
+# global.Entity = eid-etype-head-other
+# sent_id = 012884
+# text = Vil fylle steinbrot med vatn
+1	Vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	name=O
+2	fylle	fylle	VERB	_	VerbForm=Inf	0	root	_	name=O
+3	steinbrot	steinbrot	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)
+4	med	med	ADP	_	_	5	case	_	name=O
+5	vatn	vatn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	name=O|Entity=(vtbnn~20071218_3584__T2--1)
+
+# newpar
+# sent_id = 012885
+# text = Hytteeigar negativ
+1	Hytteeigar	hytteeigar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20071218_3584__11796--1)
+2	negativ	negativ	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	1	xcomp	_	name=O
+
+# newpar
+# sent_id = 012886
+# text = Skeptisk til botnen
+1	Skeptisk	skeptisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+2	til	til	ADP	_	_	3	case	_	name=O
+3	botnen	botn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	1	obl	_	name=O|Entity=(vtbnn~20071218_3584__2127--1)
+
+# newpar
+# sent_id = 012887
+# text = Kyrkjebygdheia AS ønskjer å fylle det omdiskuterte steinbrotet med vatn, men først vil ein ta ut stein i fem år til.
+1	Kyrkjebygdheia	Kyrkjebygdheia	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(vtbnn~20071218_3584__5311--1
+2	AS	AS	NOUN	_	Abbr=Yes|Definite=Def,Ind|Gender=Neut|Number=Plur,Sing	1	flat:name	_	name=I-ORG|Entity=vtbnn~20071218_3584__5311)
+3	ønskjer	ønskje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+4	å	å	PART	_	_	5	mark	_	name=O
+5	fylle	fylle	VERB	_	VerbForm=Inf	3	xcomp	_	name=O
+6	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	8	det	_	name=O|Entity=(vtbnn~20071218_3584__13848--1
+7	omdiskuterte	omdiskutert	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	8	amod	_	name=O
+8	steinbrotet	steinbrot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obj	_	name=O|Entity=vtbnn~20071218_3584__13848)
+9	med	med	ADP	_	_	10	case	_	name=O
+10	vatn	vatn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20071218_3584__T7--1)
+11	,	$,	PUNCT	_	_	16	punct	_	name=O
+12	men	men	CCONJ	_	_	16	cc	_	name=O
+13	først	først	ADV	_	_	16	advmod	_	name=O
+14	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	name=O
+15	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	16	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__T8--1)
+16	ta	ta	VERB	_	VerbForm=Inf	3	conj	_	name=O
+17	ut	ut	ADP	_	_	16	compound:prt	_	name=O
+18	stein	stein	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	16	obj	_	name=O|Entity=(vtbnn~20071218_3584__T9--1)
+19	i	i	ADP	_	_	21	case	_	name=O
+20	fem	fem	NUM	_	Number=Plur|NumType=Card	21	nummod	_	name=O|Entity=(vtbnn~20071218_3584__T10--1
+21	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	16	obl	_	name=O
+22	til	til	ADP	_	_	21	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T10)
+23	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# newpar
+# sent_id = 012888
+# text = Alf Einar Kvernberg (t.h.) meiner det er for lenge å drive steinbrotet i fem år til.
+1	Alf	Alf	NOUN	_	Gender=Masc	7	nsubj	_	name=B-PER|Entity=(vtbnn~20071218_3584__11796--1
+2	Einar	Einar	NOUN	_	Gender=Masc	1	flat:name	_	name=I-PER
+3	Kvernberg	Kvernberg	PROPN	_	_	1	flat:name	_	name=I-PER
+4	(	$(	PUNCT	_	_	5	punct	_	SpaceAfter=No|name=O
+5	t.h.	t.h.	ADV	_	Abbr=Yes	1	advmod	_	SpaceAfter=No|name=O
+6	)	$)	PUNCT	_	_	5	punct	_	name=O|Entity=vtbnn~20071218_3584__11796)
+7	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	name=O
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	name=O
+10	for	for	ADV	_	_	11	advmod	_	name=O
+11	lenge	lenge	ADJ	_	Degree=Pos	7	xcomp	_	name=O
+12	å	å	PART	_	_	13	mark	_	name=O
+13	drive	drive	VERB	_	VerbForm=Inf	11	csubj	_	name=O
+14	steinbrotet	steinbrot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	13	obj	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)
+15	i	i	ADP	_	_	17	case	_	name=O
+16	fem	fem	NUM	_	Number=Plur|NumType=Card	17	nummod	_	name=O|Entity=(vtbnn~20071218_3584__T13--1
+17	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	13	obl	_	name=O
+18	til	til	ADP	_	_	17	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T13)
+19	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012889
+# text = Det skulle avviklast om kort tid då han kjøpte hyttetomt i 2003.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)
+2	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	name=O
+3	avviklast	avvikle	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	om	om	ADP	_	_	6	case	_	name=O
+5	kort	kort	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	6	amod	_	name=O|Entity=(vtbnn~20071218_3584__T15--1
+6	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=vtbnn~20071218_3584__T15)
+7	då	då	SCONJ	_	_	9	mark	_	name=O
+8	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__11796--1)
+9	kjøpte	kjøpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	advcl	_	name=O
+10	hyttetomt	hyttetomt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	9	obj	_	name=O|Entity=(vtbnn~20071218_3584__T17--1)
+11	i	i	ADP	_	_	12	case	_	name=O
+12	2003	2003	NUM	_	Number=Plur|NumType=Card	9	obl	_	SpaceAfter=No|name=O
+13	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012890
+# text = Dei andre hytteeigarane på bildet er Bjørn Ohm Sørensen, Pål Tallaksen, Reilly Solhaug.
+1	Dei	dei	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O|Entity=(vtbnn~20071218_3584__T18--1
+2	andre	annan	DET	_	Number=Plur|PronType=Dem	3	det	_	name=O
+3	hytteeigarane	hytteeigar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	7	nsubj	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	bildet	bilde	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nmod	_	name=O|Entity=(vtbnn~20071218_3584__T19--1)vtbnn~20071218_3584__T18)
+6	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	name=O
+7	Bjørn	Bjørn	NOUN	_	Gender=Masc	0	root	_	name=B-PER|Entity=(vtbnn~20071218_3584__T20--1(vtbnn~20071218_3584__T21--1
+8	Ohm	Ohm	PROPN	_	_	7	flat:name	_	name=I-PER
+9	Sørensen	Sørensen	PROPN	_	_	7	flat:name	_	SpaceAfter=No|name=I-PER
+10	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=vtbnn~20071218_3584__T21)
+11	Pål	Pål	NOUN	_	Gender=Masc	7	conj	_	name=B-PER|Entity=(vtbnn~20071218_3584__T22--1
+12	Tallaksen	Tallaksen	PROPN	_	_	11	flat:name	_	SpaceAfter=No|name=I-PER
+13	,	$,	PUNCT	_	_	11	punct	_	name=O|Entity=vtbnn~20071218_3584__T22)
+14	Reilly	Reilly	PROPN	_	_	7	conj	_	name=B-PER|Entity=(vtbnn~20071218_3584__T23--1
+15	Solhaug	Solhaug	PROPN	_	_	14	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20071218_3584__T23)vtbnn~20071218_3584__T20)
+16	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# newpar
+# sent_id = 012891
+# text = Det opplyser plansjef i Nissedal kommune, Sveinung Seljås.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	name=O|Entity=(vtbnn~20071218_3584__T24--1)
+2	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	plansjef	plansjef	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	8	nmod	_	name=O|Entity=(vtbnn~20071218_3584__4322--1(vtbnn~20071218_3584__T25--1
+4	i	i	ADP	_	_	5	case	_	name=O
+5	Nissedal	Nissedal	PROPN	_	_	3	nmod	_	name=B-GPE_LOC|Entity=(vtbnn~20071218_3584__286--1
+6	kommune	kommune	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	5	flat:name	_	SpaceAfter=No|name=I-GPE_LOC|Entity=vtbnn~20071218_3584__286)
+7	,	$,	PUNCT	_	_	5	punct	_	name=O|Entity=vtbnn~20071218_3584__T25)
+8	Sveinung	Sveinung	PROPN	_	_	2	nsubj	_	name=B-PER
+9	Seljås	Seljås	PROPN	_	_	8	flat:name	_	SpaceAfter=No|name=I-PER|Entity=vtbnn~20071218_3584__4322)
+10	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012892
+# text = Firmaet som tek ut stein på Kyrkjebygdheia har fått kritikk av hytteeigarane i området for å ha gått langt utover grensene som var sett for steinbrotet i reguleringsplanen.
+1	Firmaet	firma	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__5311--1
+2	som	som	PRON	_	PronType=Rel	3	nsubj	_	name=O
+3	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	name=O
+4	ut	ut	ADP	_	_	3	compound:prt	_	name=O
+5	stein	stein	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	obj	_	name=O|Entity=(vtbnn~20071218_3584__T29--1)
+6	på	på	ADP	_	_	7	case	_	name=O
+7	Kyrkjebygdheia	Kyrkjebygdheia	PROPN	_	_	3	obl	_	name=B-LOC|Entity=(vtbnn~20071218_3584__284--1)vtbnn~20071218_3584__5311)
+8	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	name=O
+9	fått	få	VERB	_	VerbForm=Part	0	root	_	name=O
+10	kritikk	kritikk	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	9	obj	_	name=O|Entity=(vtbnn~20071218_3584__T31--1)
+11	av	av	ADP	_	_	12	case	_	name=O
+12	hytteeigarane	hytteeigar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	9	obl	_	name=O|Entity=(vtbnn~20071218_3584__5422--1
+13	i	i	ADP	_	_	14	case	_	name=O
+14	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	12	nmod	_	name=O|Bridge=vtbnn~20071218_3584__284<vtbnn~20071218_3584__T33:default|Entity=(vtbnn~20071218_3584__T33--1)vtbnn~20071218_3584__5422)
+15	for	for	SCONJ	_	_	18	mark	_	name=O
+16	å	å	PART	_	_	18	mark	_	name=O
+17	ha	ha	AUX	_	VerbForm=Inf	18	aux	_	name=O
+18	gått	gå	VERB	_	VerbForm=Part	9	advcl	_	name=O
+19	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	name=O
+20	utover	utover	ADP	_	_	21	case	_	name=O
+21	grensene	grense	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	18	obl	_	name=O|Entity=(vtbnn~20071218_3584__4258--1
+22	som	som	PRON	_	PronType=Rel	24	nsubj	_	name=O
+23	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	name=O
+24	sett	setje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	21	acl:relcl	_	name=O
+25	for	for	ADP	_	_	26	case	_	name=O
+26	steinbrotet	steinbrot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	24	obl	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)
+27	i	i	ADP	_	_	28	case	_	name=O
+28	reguleringsplanen	reguleringsplan	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No|name=O|Bridge=vtbnn~20071218_3584__286<vtbnn~20071218_3584__T36:default|Entity=(vtbnn~20071218_3584__T36--1)vtbnn~20071218_3584__4258)
+29	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012893
+# text = To av velforeiningane, Stokkosen og Breili, har også skrive brev til Fylkesmannen og bede om at uttaket av stein blir stoppa.
+1	To	to	NUM	_	Number=Plur|NumType=Card	11	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__283--1
+2	av	av	ADP	_	_	3	case	_	name=O
+3	velforeiningane	velforeining	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20071218_3584__T37--1)
+4	,	$,	PUNCT	_	_	5	punct	_	name=O
+5	Stokkosen	Stokkosen	PROPN	_	_	1	appos	_	name=B-ORG|Entity=(vtbnn~20071218_3584__3206--1)
+6	og	og	CCONJ	_	_	7	cc	_	name=O
+7	Breili	Breili	PROPN	_	_	5	conj	_	SpaceAfter=No|name=B-ORG|Entity=(vtbnn~20071218_3584__T40--1)vtbnn~20071218_3584__283)
+8	,	$,	PUNCT	_	_	5	punct	_	name=O
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	name=O
+10	også	også	ADV	_	_	11	advmod	_	name=O
+11	skrive	skrive	VERB	_	VerbForm=Part	0	root	_	name=O
+12	brev	brev	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	name=O|Entity=(vtbnn~20071218_3584__T41--1)
+13	til	til	ADP	_	_	14	case	_	name=O
+14	Fylkesmannen	Fylkesmannen	PROPN	_	_	11	obl	_	name=B-ORG|Entity=(vtbnn~20071218_3584__3318--1)
+15	og	og	CCONJ	_	_	16	cc	_	name=O
+16	bede	be	VERB	_	VerbForm=Part	11	conj	_	name=O
+17	om	om	SCONJ	_	_	23	mark	_	name=O
+18	at	at	SCONJ	_	_	23	mark	_	name=O
+19	uttaket	uttak	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	23	nsubj:pass	_	name=O|Entity=(vtbnn~20071218_3584__T43--1
+20	av	av	ADP	_	_	21	case	_	name=O
+21	stein	stein	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	19	nmod	_	name=O|Entity=(vtbnn~20071218_3584__T44--1)vtbnn~20071218_3584__T43)
+22	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	23	aux:pass	_	name=O
+23	stoppa	stoppe	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	16	advcl	_	SpaceAfter=No|name=O
+24	.	$.	PUNCT	_	_	11	punct	_	name=O
+
+# sent_id = 012894
+# text = Dei meiner steinbrotet er fire til fem gonger så stort som det som er godkjent, og at det blir brent søppel og arbeidd i helgene, noko som provoserer hytteeigarane.
+1	Dei	dei	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__283--1)
+2	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	steinbrotet	steinbrot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	10	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)
+4	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	name=O
+5	fire	fire	NUM	_	Number=Plur|NumType=Card	8	nummod	_	name=O|Entity=(vtbnn~20071218_3584__T47--1
+6	til	til	ADP	_	_	7	case	_	name=O
+7	fem	fem	NUM	_	Number=Plur|NumType=Card	5	obl	_	name=O
+8	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	9	obl	_	name=O|Entity=vtbnn~20071218_3584__T47)
+9	så	så	ADV	_	_	10	advmod	_	name=O
+10	stort	stor	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	name=O
+11	som	som	ADP	_	_	12	case	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obl	_	name=O|Entity=(vtbnn~20071218_3584__T48--1
+13	som	som	PRON	_	PronType=Rel	15	nsubj	_	name=O
+14	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	godkjent	godkjenne	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	12	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T48)
+16	,	$,	PUNCT	_	_	21	punct	_	name=O
+17	og	og	CCONJ	_	_	21	cc	_	name=O
+18	at	at	SCONJ	_	_	21	mark	_	name=O
+19	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	expl	_	name=O
+20	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux:pass	_	name=O
+21	brent	brenne	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	10	conj	_	name=O
+22	søppel	søppel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	name=O|Entity=(vtbnn~20071218_3584__T49--1)
+23	og	og	CCONJ	_	_	24	cc	_	name=O
+24	arbeidd	arbeide	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	21	conj	_	name=O
+25	i	i	ADP	_	_	26	case	_	name=O
+26	helgene	helg	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20071218_3584__T50--1)
+27	,	$,	PUNCT	_	_	28	punct	_	name=O
+28	noko	noko	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Ind,Prs	21	appos	_	name=O|Entity=(vtbnn~20071218_3584__T51--1
+29	som	som	PRON	_	PronType=Rel	30	nsubj	_	name=O
+30	provoserer	provosere	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	name=O
+31	hytteeigarane	hytteeigar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	30	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20071218_3584__5422--1)vtbnn~20071218_3584__T51)
+32	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012895
+# text = Etter ei synfaring på Kyrkjebygdheia i sommar innrømde Seljås at området for masseuttak er utvida langt utover grensene og at kommunen dessverre ikkje har følgd opp.
+1	Etter	etter	ADP	_	_	3	case	_	name=O
+2	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	3	det	_	name=O|Entity=(vtbnn~20071218_3584__T53--1
+3	synfaring	synfaring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	name=O
+4	på	på	ADP	_	_	5	case	_	name=O
+5	Kyrkjebygdheia	Kyrkjebygdheia	PROPN	_	_	3	nmod	_	name=B-LOC|Entity=(vtbnn~20071218_3584__284--1)
+6	i	i	ADP	_	_	7	case	_	name=O
+7	sommar	sommar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	3	nmod	_	name=O|Entity=(vtbnn~20071218_3584__T55--1)vtbnn~20071218_3584__T53)
+8	innrømde	innrømme	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+9	Seljås	Seljås	PROPN	_	_	8	nsubj	_	name=B-PER|Entity=(vtbnn~20071218_3584__4322--1)
+10	at	at	SCONJ	_	_	15	mark	_	name=O
+11	området	område	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	15	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__T57--1
+12	for	for	ADP	_	_	13	case	_	name=O
+13	masseuttak	masseuttak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(vtbnn~20071218_3584__T58--1)vtbnn~20071218_3584__T57)
+14	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	utvida	utvide	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	8	ccomp	_	name=O
+16	langt	lang	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	advmod	_	name=O
+17	utover	utover	ADP	_	_	18	case	_	name=O
+18	grensene	grense	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	15	obl	_	name=O|Entity=(vtbnn~20071218_3584__4258--1)
+19	og	og	CCONJ	_	_	25	cc	_	name=O
+20	at	at	SCONJ	_	_	25	mark	_	name=O
+21	kommunen	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	25	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__286--1)
+22	dessverre	dessverre	ADV	_	_	25	advmod	_	name=O
+23	ikkje	ikkje	PART	_	Polarity=Neg	25	advmod	_	name=O
+24	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	name=O
+25	følgd	følgje	VERB	_	VerbForm=Part	15	conj	_	name=O
+26	opp	opp	ADP	_	_	25	compound:prt	_	SpaceAfter=No|name=O
+27	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012896
+# text = Det vart kravd at firmaet enten leverte ein plan for korleis steinbrotet kan avviklast innanfor dagens grenser, eller søkjer om utvida masseuttak.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	name=O
+2	vart	verte	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	name=O
+3	kravd	krevje	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	0	root	_	name=O
+4	at	at	SCONJ	_	_	7	mark	_	name=O
+5	firmaet	firma	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__5311--1)
+6	enten	enten	CCONJ	_	_	7	cc	_	name=O
+7	leverte	levere	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	name=O
+8	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	name=O|Entity=(vtbnn~20071218_3584__T62--1
+9	plan	plan	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	7	obj	_	name=O
+10	for	for	ADP	_	_	14	case	_	name=O
+11	korleis	korleis	ADV	_	_	14	advmod	_	name=O
+12	steinbrotet	steinbrot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	14	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)
+13	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	name=O
+14	avviklast	avvikle	VERB	_	VerbForm=Inf	9	acl:relcl	_	name=O
+15	innanfor	innanfor	ADP	_	_	17	case	_	name=O
+16	dagens	dag	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	name=O|Entity=(vtbnn~20071218_3584__4258--1(vtbnn~20071218_3584__T64--1)
+17	grenser	grense	NOUN	_	Definite=Ind|Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__4258)vtbnn~20071218_3584__T62)
+18	,	$,	PUNCT	_	_	20	punct	_	name=O
+19	eller	eller	CCONJ	_	_	20	cc	_	name=O
+20	søkjer	søkje	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	name=O
+21	om	om	ADP	_	_	23	case	_	name=O
+22	utvida	utvide	ADJ	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	23	amod	_	name=O|Entity=(vtbnn~20071218_3584__T66--1
+23	masseuttak	masseuttak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T66)
+24	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012897
+# text = Kyrkjebygdheia AS valde det første, men klarte ikkje det innan første fristen som var 26. november.
+1	Kyrkjebygdheia	Kyrkjebygdheia	PROPN	_	_	3	nsubj	_	name=B-ORG|Entity=(vtbnn~20071218_3584__5311--1
+2	AS	AS	NOUN	_	Abbr=Yes|Definite=Def,Ind|Gender=Neut|Number=Plur,Sing	1	flat:name	_	name=I-ORG|Entity=vtbnn~20071218_3584__5311)
+3	valde	velje	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	det	det	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	name=O
+5	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	3	obj	_	SpaceAfter=No|name=O
+6	,	$,	PUNCT	_	_	8	punct	_	name=O
+7	men	men	CCONJ	_	_	8	cc	_	name=O
+8	klarte	klare	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	name=O
+9	ikkje	ikkje	PART	_	Polarity=Neg	8	advmod	_	name=O
+10	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	name=O|Entity=(vtbnn~20071218_3584__T68--1)
+11	innan	innan	ADP	_	_	13	case	_	name=O
+12	første	første	ADJ	_	Definite=Def|Degree=Pos|Number=Sing	13	amod	_	name=O|Entity=(vtbnn~20071218_3584__T69--1
+13	fristen	frist	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	8	obl	_	name=O
+14	som	som	PRON	_	PronType=Rel	17	nsubj	_	name=O
+15	var	vere	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	name=O
+16	26.	26.	ADJ	_	Number=Plur	17	amod	_	name=O|Entity=(vtbnn~20071218_3584__T70--1
+17	november	november	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	13	acl:relcl	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T70)vtbnn~20071218_3584__T69)
+18	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012898
+# text = Det fekk ny frist til 10. desember og har altså no føreslege å lage ein kunstig vasspegel, men først etter ha teke ut stein i fem år til.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__T71--1)
+2	fekk	få	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	ny	ny	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	4	amod	_	name=O|Entity=(vtbnn~20071218_3584__T72--1
+4	frist	frist	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	obj	_	name=O
+5	til	til	ADP	_	_	7	case	_	name=O
+6	10.	10.	ADJ	_	Number=Plur	7	amod	_	name=O|Entity=(vtbnn~20071218_3584__T73--1
+7	desember	desember	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	4	nmod	_	name=O|Entity=vtbnn~20071218_3584__T73)vtbnn~20071218_3584__T72)
+8	og	og	CCONJ	_	_	12	cc	_	name=O
+9	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	name=O
+10	altså	altså	ADV	_	_	12	advmod	_	name=O
+11	no	no	ADV	_	_	12	advmod	_	name=O
+12	føreslege	føreslå	VERB	_	VerbForm=Part	2	conj	_	name=O
+13	å	å	PART	_	_	14	mark	_	name=O
+14	lage	lage	VERB	_	VerbForm=Inf	12	xcomp	_	name=O
+15	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	17	det	_	name=O|Entity=(vtbnn~20071218_3584__T74--1
+16	kunstig	kunstig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	name=O
+17	vasspegel	vasspegel	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T74)
+18	,	$,	PUNCT	_	_	23	punct	_	name=O
+19	men	men	CCONJ	_	_	23	cc	_	name=O
+20	først	først	ADV	_	_	23	advmod	_	name=O
+21	etter	etter	ADP	_	_	23	case	_	name=O
+22	ha	ha	AUX	_	VerbForm=Inf	23	aux	_	name=O
+23	teke	ta	VERB	_	VerbForm=Part	14	conj	_	name=O
+24	ut	ut	ADP	_	_	23	orphan	_	name=O
+25	stein	stein	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	23	obj	_	name=O|Entity=(vtbnn~20071218_3584__T75--1)
+26	i	i	ADP	_	_	28	case	_	name=O
+27	fem	fem	NUM	_	Number=Plur|NumType=Card	28	nummod	_	name=O|Entity=(vtbnn~20071218_3584__T76--1
+28	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	23	obl	_	name=O
+29	til	til	ADP	_	_	28	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T76)
+30	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# newpar
+# sent_id = 012899
+# text = - Steinuttak i fem år til er heilt feil, seier Alf Einar Kvernberg, leiar i Stokkosen Hyttevel.
+1	-	$-	PUNCT	_	_	9	punct	_	name=O
+2	Steinuttak	steinuttak	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__T77--1
+3	i	i	ADP	_	_	5	case	_	name=O
+4	fem	fem	NUM	_	Number=Plur|NumType=Card	5	nummod	_	name=O|Entity=(vtbnn~20071218_3584__T78--1
+5	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	2	nmod	_	name=O
+6	til	til	ADP	_	_	5	nmod	_	name=O|Entity=vtbnn~20071218_3584__T78)vtbnn~20071218_3584__T77)
+7	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	name=O
+8	heilt	heil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	advmod	_	name=O
+9	feil	feil	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|name=O
+10	,	$,	PUNCT	_	_	11	punct	_	name=O
+11	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	parataxis	_	name=O
+12	Alf	Alf	NOUN	_	Gender=Masc	11	nsubj	_	name=B-PER|Entity=(vtbnn~20071218_3584__11796--1
+13	Einar	Einar	NOUN	_	Gender=Masc	12	flat:name	_	name=I-PER
+14	Kvernberg	Kvernberg	PROPN	_	_	12	flat:name	_	SpaceAfter=No|name=I-PER
+15	,	$,	PUNCT	_	_	16	punct	_	name=O
+16	leiar	leiar	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	12	appos	_	name=O|Entity=(vtbnn~20071218_3584__T80--1
+17	i	i	ADP	_	_	18	case	_	name=O
+18	Stokkosen	Stokkosen	PROPN	_	_	16	nmod	_	name=B-ORG|Entity=(vtbnn~20071218_3584__3206--1
+19	Hyttevel	Hyttevel	PROPN	_	_	18	flat:name	_	SpaceAfter=No|name=I-ORG|Entity=vtbnn~20071218_3584__3206)vtbnn~20071218_3584__T80)vtbnn~20071218_3584__11796)
+20	.	$.	PUNCT	_	_	9	punct	_	name=O
+
+# sent_id = 012900
+# text = Han opplyser at ein ikkje har hatt tid til å diskutere det i velforeininga, men han likar verken tidsperspektivet eller tanken om at det skal lagast eit kunstig vatn.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__11796--1)
+2	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	at	at	SCONJ	_	_	7	mark	_	name=O
+4	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	7	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__T83--1)
+5	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	name=O
+6	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+7	hatt	ha	VERB	_	VerbForm=Part	2	ccomp	_	name=O
+8	tid	tid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	7	obj	_	name=O|Entity=(vtbnn~20071218_3584__T84--1
+9	til	til	SCONJ	_	_	11	mark	_	name=O
+10	å	å	PART	_	_	11	mark	_	name=O
+11	diskutere	diskutere	VERB	_	VerbForm=Inf	8	acl	_	name=O
+12	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	name=O|Entity=(vtbnn~20071218_3584__T85--1)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	velforeininga	velforeining	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20071218_3584__3206--1)vtbnn~20071218_3584__T84)
+15	,	$,	PUNCT	_	_	18	punct	_	name=O
+16	men	men	CCONJ	_	_	18	cc	_	name=O
+17	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__11796--1)
+18	likar	like	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	name=O
+19	verken	verken	CCONJ	_	_	20	cc	_	name=O
+20	tidsperspektivet	tidsperspektiv	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	18	obj	_	name=O|Entity=(vtbnn~20071218_3584__T88--1(vtbnn~20071218_3584__T89--1)
+21	eller	eller	CCONJ	_	_	22	cc	_	name=O
+22	tanken	tanke	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	20	conj	_	name=O|Entity=(vtbnn~20071218_3584__T90--1
+23	om	om	SCONJ	_	_	27	mark	_	name=O
+24	at	at	SCONJ	_	_	27	mark	_	name=O
+25	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	expl	_	name=O
+26	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	name=O
+27	lagast	lagast	VERB	_	VerbForm=Inf	22	acl	_	name=O
+28	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	30	det	_	name=O|Entity=(vtbnn~20071218_3584__T91--1
+29	kunstig	kunstig	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	name=O
+30	vatn	vatn	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	27	nsubj	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T91)vtbnn~20071218_3584__T90)vtbnn~20071218_3584__T88)
+31	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012901
+# text = - Då me kjøpte tomt skulle steinbrotet avviklast i nær framtid, seier Kvernberg.
+1	-	$-	PUNCT	_	_	8	punct	_	name=O
+2	Då	då	SCONJ	_	_	4	mark	_	name=O
+3	me	me	PRON	_	Animacy=Hum|Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__5422--1)
+4	kjøpte	kjøpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	name=O
+5	tomt	tomt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	obj	_	name=O|Entity=(vtbnn~20071218_3584__T93--1)
+6	skulle	skulle	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	name=O
+7	steinbrotet	steinbrot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	8	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)
+8	avviklast	avvikle	VERB	_	VerbForm=Inf	0	root	_	name=O
+9	i	i	ADP	_	_	11	case	_	name=O
+10	nær	nær	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(vtbnn~20071218_3584__T95--1
+11	framtid	framtid	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T95)
+12	,	$,	PUNCT	_	_	13	punct	_	name=O
+13	seier	seie	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	name=O
+14	Kvernberg	Kvernberg	PROPN	_	_	13	nsubj	_	SpaceAfter=No|name=B-PER|Entity=(vtbnn~20071218_3584__11796--1)
+15	.	$.	PUNCT	_	_	8	punct	_	name=O
+
+# sent_id = 012902
+# text = Han kjøpte tomt i 2003.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__11796--1)
+2	kjøpte	kjøpe	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+3	tomt	tomt	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	2	obj	_	name=O|Entity=(vtbnn~20071218_3584__T98--1)
+4	i	i	ADP	_	_	5	case	_	name=O
+5	2003	2003	NUM	_	Number=Plur|NumType=Card	2	obl	_	SpaceAfter=No|name=O
+6	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012903
+# text = Alt då gikk steinbrotet utover grensa på 90 gonger 45 meter og han meiner hytteeigarane har vore tolmodige.
+1	Alt	alt	ADV	_	_	2	advmod	_	name=O
+2	då	då	ADV	_	_	3	advmod	_	name=O
+3	gikk	gå	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	name=O
+4	steinbrotet	steinbrot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)
+5	utover	utover	ADP	_	_	6	case	_	name=O
+6	grensa	grense	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	obl	_	name=O|Entity=(vtbnn~20071218_3584__4258--1
+7	på	på	ADP	_	_	11	case	_	name=O
+8	90	90	NUM	_	Number=Plur|NumType=Card	9	nummod	_	name=O|Entity=(vtbnn~20071218_3584__T102--1(vtbnn~20071218_3584__T101--1
+9	gonger	gong	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	10	obl	_	name=O|Entity=vtbnn~20071218_3584__T101)
+10	45	45	NUM	_	Number=Plur|NumType=Card	11	nummod	_	name=O
+11	meter	meter	NOUN	_	Definite=Ind|Gender=Masc|Number=Plur	6	nmod	_	name=O|Entity=vtbnn~20071218_3584__T102)vtbnn~20071218_3584__4258)
+12	og	og	CCONJ	_	_	14	cc	_	name=O
+13	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__11796--1)
+14	meiner	meine	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+15	hytteeigarane	hytteeigar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	18	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__5422--1)
+16	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	name=O
+17	vore	vere	AUX	_	VerbForm=Part	18	cop	_	name=O
+18	tolmodige	tolmodig	ADJ	_	Degree=Pos|Number=Plur	14	ccomp	_	SpaceAfter=No|name=O
+19	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012904
+# text = Han fryktar også for at det vil bli gjennombrot i kantane til steinbrotet dersom det skal drivast i fem år til.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__11796--1)
+2	fryktar	frykte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+3	også	også	ADV	_	_	2	advmod	_	name=O
+4	for	for	SCONJ	_	_	8	mark	_	name=O
+5	at	at	SCONJ	_	_	8	mark	_	name=O
+6	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__T106--1)
+7	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	name=O
+8	bli	bli	VERB	_	VerbForm=Inf	2	advcl	_	name=O
+9	gjennombrot	gjennombrot	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	8	xcomp	_	name=O|Entity=(vtbnn~20071218_3584__T107--1)
+10	i	i	ADP	_	_	11	case	_	name=O
+11	kantane	kant	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	8	obl	_	name=O|Entity=(vtbnn~20071218_3584__T108--1
+12	til	til	ADP	_	_	13	case	_	name=O
+13	steinbrotet	steinbrot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	11	nmod	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)vtbnn~20071218_3584__T108)
+14	dersom	dersom	SCONJ	_	_	17	mark	_	name=O
+15	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)
+16	skal	skulle	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	name=O
+17	drivast	drive	VERB	_	VerbForm=Inf	8	advcl	_	name=O
+18	i	i	ADP	_	_	20	case	_	name=O
+19	fem	fem	NUM	_	Number=Plur|NumType=Card	20	nummod	_	name=O|Entity=(vtbnn~20071218_3584__T111--1
+20	år	år	NOUN	_	Definite=Ind|Gender=Neut|Number=Plur	17	obl	_	name=O
+21	til	til	ADP	_	_	20	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T111)
+22	.	$.	PUNCT	_	_	2	punct	_	name=O
+
+# sent_id = 012905
+# text = Dermed vil ein sjå rett inn i det frå nokre av hyttene og det trur han ikkje vil bli akseptert.
+1	Dermed	dermed	ADV	_	_	4	advmod	_	name=O
+2	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	4	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__T112--1)
+4	sjå	sjå	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	rett	rett	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	advmod	_	name=O
+6	inn	inn	ADP	_	_	8	case	_	name=O
+7	i	i	ADP	_	_	8	case	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	name=O|Entity=(vtbnn~20071218_3584__13848--1)
+9	frå	frå	ADP	_	_	10	case	_	name=O
+10	nokre	nokre	PRON	_	Number=Plur|Person=3|PronType=Prs	4	obl	_	name=O|Entity=(vtbnn~20071218_3584__T114--1
+11	av	av	ADP	_	_	12	case	_	name=O
+12	hyttene	hytte	NOUN	_	Definite=Def|Gender=Fem|Number=Plur	10	nmod	_	name=O|Entity=(vtbnn~20071218_3584__T115--1)vtbnn~20071218_3584__T114)
+13	og	og	CCONJ	_	_	15	cc	_	name=O
+14	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj:pass	_	name=O|Entity=(vtbnn~20071218_3584__T116--1)
+15	trur	tru	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	name=O
+16	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__11796--1)
+17	ikkje	ikkje	PART	_	Polarity=Neg	20	advmod	_	name=O
+18	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	name=O
+19	bli	bli	AUX	_	VerbForm=Inf	20	aux:pass	_	name=O
+20	akseptert	akseptere	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	15	ccomp	_	SpaceAfter=No|name=O
+21	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# newpar
+# sent_id = 012906
+# text = Seljås kan på dette tidspunktet ikkje seie korleis saka blir vurdert.
+1	Seljås	Seljås	PROPN	_	_	7	nsubj	_	name=B-PER|Entity=(vtbnn~20071218_3584__4322--1)
+2	kan	kunne	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	name=O
+3	på	på	ADP	_	_	5	case	_	name=O
+4	dette	dette	DET	_	Gender=Neut|Number=Sing|PronType=Dem	5	det	_	name=O|Entity=(vtbnn~20071218_3584__T119--1
+5	tidspunktet	tidspunkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	7	obl	_	name=O|Entity=vtbnn~20071218_3584__T119)
+6	ikkje	ikkje	PART	_	Polarity=Neg	7	advmod	_	name=O
+7	seie	seie	VERB	_	VerbForm=Inf	0	root	_	name=O
+8	korleis	korleis	ADV	_	_	11	advmod	_	name=O
+9	saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	11	nsubj:pass	_	name=O|Entity=(vtbnn~20071218_3584__2244--1)
+10	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux:pass	_	name=O
+11	vurdert	vurdere	VERB	_	Definite=Ind|Number=Sing|VerbForm=Part	7	ccomp	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	7	punct	_	name=O
+
+# sent_id = 012907
+# text = Han er i utgangspunktet skeptisk til om botnen vil bli vasstett.
+1	Han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__4322--1)
+2	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+3	i	i	ADP	_	_	4	case	_	name=O
+4	utgangspunktet	utgangspunkt	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	5	obl	_	name=O|Entity=(vtbnn~20071218_3584__T122--1)
+5	skeptisk	skeptisk	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	0	root	_	name=O
+6	til	til	ADP	_	_	5	obl	_	name=O
+7	om	om	SCONJ	_	_	10	mark	_	name=O
+8	botnen	botn	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__2127--1)
+9	vil	vilje	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	bli	bli	VERB	_	VerbForm=Inf	6	advcl	_	name=O
+11	vasstett	vasstett	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	10	xcomp	_	SpaceAfter=No|name=O
+12	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012908
+# text = Saka må diskuterast og så må planane ut på høyring.
+1	Saka	sak	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__2244--1)
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	name=O
+3	diskuterast	diskutere	VERB	_	VerbForm=Inf	0	root	_	name=O
+4	og	og	CCONJ	_	_	6	cc	_	name=O
+5	så	så	ADV	_	_	6	advmod	_	name=O
+6	må	måtte	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	name=O
+7	planane	plan	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	6	nsubj	_	name=O|Bridge=vtbnn~20071218_3584__5311<vtbnn~20071218_3584__T125:default|Entity=(vtbnn~20071218_3584__T125--1)
+8	ut	ut	ADP	_	_	10	case	_	name=O
+9	på	på	ADP	_	_	10	case	_	name=O
+10	høyring	høyring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20071218_3584__T126--1)
+11	.	$.	PUNCT	_	_	3	punct	_	name=O
+
+# sent_id = 012909
+# text = Overingeniør Arne Kjellsen hjå Fylkesmannen opplyser på generelt grunnlag at ein kunstig dam må godkjennast av NVE dersom han er del av eit vassdrag.
+1	Overingeniør	overingeniør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20071218_3584__T127--1
+2	Arne	Arne	NOUN	_	Gender=Masc	6	nsubj	_	name=B-PER
+3	Kjellsen	Kjellsen	PROPN	_	_	2	flat:name	_	name=I-PER
+4	hjå	hjå	ADP	_	_	5	case	_	name=O
+5	Fylkesmannen	Fylkesmannen	PROPN	_	_	2	nmod	_	name=B-ORG|Entity=(vtbnn~20071218_3584__3318--1)vtbnn~20071218_3584__T127)
+6	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	på	på	ADP	_	_	9	case	_	name=O
+8	generelt	generell	ADJ	_	Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	name=O|Entity=(vtbnn~20071218_3584__T129--1
+9	grunnlag	grunnlag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	name=O|Entity=vtbnn~20071218_3584__T129)
+10	at	at	SCONJ	_	_	15	mark	_	name=O
+11	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	13	det	_	name=O|Entity=(vtbnn~20071218_3584__3403--1
+12	kunstig	kunstig	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	13	amod	_	name=O
+13	dam	dam	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	nsubj	_	name=O|Entity=vtbnn~20071218_3584__3403)
+14	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	name=O
+15	godkjennast	godkjenne	VERB	_	VerbForm=Inf	6	ccomp	_	name=O
+16	av	av	ADP	_	_	17	case	_	name=O
+17	NVE	NVE	PROPN	_	_	15	obl	_	name=B-ORG|Entity=(vtbnn~20071218_3584__T131--1)
+18	dersom	dersom	SCONJ	_	_	21	mark	_	name=O
+19	han	han	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__3403--1)
+20	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	name=O
+21	del	del	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	15	advcl	_	name=O|Entity=(vtbnn~20071218_3584__T133--1
+22	av	av	ADP	_	_	24	case	_	name=O
+23	eit	ein	DET	_	Gender=Neut|Number=Sing|PronType=Art	24	det	_	name=O|Entity=(vtbnn~20071218_3584__T134--1
+24	vassdrag	vassdrag	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T134)vtbnn~20071218_3584__T133)
+25	.	$.	PUNCT	_	_	6	punct	_	name=O
+
+# sent_id = 012910
+# text = Om ikkje er det kommunen som tek avgjerda.
+1	Om	om	SCONJ	_	_	5	obl	_	name=O
+2	ikkje	ikkje	PART	_	Polarity=Neg	1	advmod	_	name=O
+3	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	name=O
+4	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	name=O
+5	kommunen	kommune	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	0	root	_	name=O|Entity=(vtbnn~20071218_3584__T135--1
+6	som	som	PRON	_	PronType=Rel	7	nsubj	_	name=O
+7	tek	ta	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:cleft	_	name=O
+8	avgjerda	avgjerd	NOUN	_	Definite=Def|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No|name=O|Entity=(vtbnn~20071218_3584__T136--1)vtbnn~20071218_3584__T135)
+9	.	$.	PUNCT	_	_	5	punct	_	name=O
+
+# sent_id = 012911
+# text = Det må også gjerast ei vurdering av risikoen og eventuell sikring av dammen.
+1	Det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	name=O
+2	må	måtte	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	også	også	ADV	_	_	4	advmod	_	name=O
+4	gjerast	gjerast	VERB	_	VerbForm=Inf	0	root	_	name=O
+5	ei	ein	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	name=O|Entity=(vtbnn~20071218_3584__T137--1
+6	vurdering	vurdering	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	4	nsubj	_	name=O
+7	av	av	ADP	_	_	8	case	_	name=O
+8	risikoen	risiko	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	name=O|Entity=(vtbnn~20071218_3584__T138--1(vtbnn~20071218_3584__T139--1)
+9	og	og	CCONJ	_	_	11	cc	_	name=O
+10	eventuell	eventuell	ADJ	_	Definite=Ind|Degree=Pos|Number=Sing	11	amod	_	name=O|Entity=(vtbnn~20071218_3584__T140--1
+11	sikring	sikring	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	8	conj	_	name=O
+12	av	av	ADP	_	_	13	case	_	name=O
+13	dammen	dam	NOUN	_	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|name=O|Entity=(vtbnn~20071218_3584__3403--1)vtbnn~20071218_3584__T140)vtbnn~20071218_3584__T138)vtbnn~20071218_3584__T137)
+14	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012912
+# text = Hytteeigarane har også klaga på at det blir brent søppel og skogsavfall i steinbrotet.
+1	Hytteeigarane	hytteeigar	NOUN	_	Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__5422--1)
+2	har	ha	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	name=O
+3	også	også	ADV	_	_	4	advmod	_	name=O
+4	klaga	klage	VERB	_	VerbForm=Part	0	root	_	name=O
+5	på	på	SCONJ	_	_	9	mark	_	name=O
+6	at	at	SCONJ	_	_	9	mark	_	name=O
+7	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	name=O
+8	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux:pass	_	name=O
+9	brent	brenne	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	4	advcl	_	name=O
+10	søppel	søppel	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	9	obj	_	name=O|Entity=(vtbnn~20071218_3584__2295--1(vtbnn~20071218_3584__T144--1)
+11	og	og	CCONJ	_	_	12	cc	_	name=O
+12	skogsavfall	skogsavfall	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	conj	_	name=O|Entity=(vtbnn~20071218_3584__T145--1)vtbnn~20071218_3584__2295)
+13	i	i	ADP	_	_	14	case	_	name=O
+14	steinbrotet	steinbrot	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No|name=O|Entity=(vtbnn~20071218_3584__13848--1)
+15	.	$.	PUNCT	_	_	4	punct	_	name=O
+
+# sent_id = 012913
+# text = Overingeniør Gunnar Djuvik hjå Fylkesmannen opplyser at det er skrive brev til Kyrkjebygdheia AS der ein bed om at avfallet blir teke hand om på ein annan måte.
+1	Overingeniør	overingeniør	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	2	nmod	_	name=O|Entity=(vtbnn~20071218_3584__T147--1
+2	Gunnar	Gunnar	NOUN	_	Gender=Masc	6	nsubj	_	name=B-PER
+3	Djuvik	Djuvik	PROPN	_	_	2	flat:name	_	name=I-PER
+4	hjå	hjå	ADP	_	_	5	case	_	name=O
+5	Fylkesmannen	Fylkesmannen	PROPN	_	_	2	nmod	_	name=B-ORG|Entity=(vtbnn~20071218_3584__3318--1)vtbnn~20071218_3584__T147)
+6	opplyser	opplyse	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	name=O
+7	at	at	SCONJ	_	_	10	mark	_	name=O
+8	det	det	PRON	_	Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	name=O
+9	er	vere	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	name=O
+10	skrive	skrive	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	6	xcomp	_	name=O
+11	brev	brev	NOUN	_	Definite=Ind|Gender=Neut|Number=Sing	10	obj	_	name=O|Entity=(vtbnn~20071218_3584__T149[1/2]--1)
+12	til	til	ADP	_	_	13	case	_	name=O
+13	Kyrkjebygdheia	Kyrkjebygdheia	PROPN	_	_	10	obl	_	name=B-ORG|Entity=(vtbnn~20071218_3584__5311--1
+14	AS	AS	NOUN	_	Abbr=Yes|Definite=Def,Ind|Gender=Neut|Number=Plur,Sing	13	flat:name	_	name=I-ORG|Entity=vtbnn~20071218_3584__5311)
+15	der	der	SCONJ	_	_	17	mark	_	name=O|Entity=(vtbnn~20071218_3584__T149[2/2]--1
+16	ein	ein	PRON	_	Animacy=Hum|Number=Sing|PronType=Art,Prs	17	nsubj	_	name=O|Entity=(vtbnn~20071218_3584__T151--1)
+17	bed	bede	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	acl	_	name=O
+18	om	om	SCONJ	_	_	22	mark	_	name=O
+19	at	at	SCONJ	_	_	22	mark	_	name=O
+20	avfallet	avfall	NOUN	_	Definite=Def|Gender=Neut|Number=Sing	22	nsubj:pass	_	name=O|Entity=(vtbnn~20071218_3584__2295--1)
+21	blir	bli	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux:pass	_	name=O
+22	teke	ta	VERB	_	Definite=Ind|Gender=Neut|Number=Sing|VerbForm=Part	17	advcl	_	name=O
+23	hand	hand	NOUN	_	Definite=Ind|Gender=Fem|Number=Sing	22	obj	_	name=O|Entity=(vtbnn~20071218_3584__T153--1)
+24	om	om	ADP	_	_	22	compound:prt	_	name=O
+25	på	på	ADP	_	_	28	case	_	name=O
+26	ein	ein	DET	_	Gender=Masc|Number=Sing|PronType=Art	28	det	_	name=O|Entity=(vtbnn~20071218_3584__T154--1
+27	annan	annan	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	name=O
+28	måte	måte	NOUN	_	Definite=Ind|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No|name=O|Entity=vtbnn~20071218_3584__T154)vtbnn~20071218_3584__T149[2/2])
+29	.	$.	PUNCT	_	_	6	punct	_	name=O
+
