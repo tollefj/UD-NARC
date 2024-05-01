@@ -1,108 +1,79 @@
 import argparse
 import os
-from dataclasses import dataclass
-from enum import Enum
 from typing import List
 
 from conllu import TokenList, parse
 from tqdm import tqdm
+from util import Language, get_paths
 
 
-class Language(Enum):
-    BOKMAAL = "bokmaal"
-    NYNORSK = "nynorsk"
-
-
-@dataclass
-class Paths:
-    train: str
-    test: str
-    dev: str
-
-
-def get_paths(path: str) -> Paths:
+def align_treebank(
+    source: str,
+    ud: str,
+    output: str,
+    train_key="train",
+    test_key="test",
+    dev_key="dev",
+) -> None:
     """
-    Retrieves the paths to the train, test, and dev CoNLL-U format files for a corpus.
+    Aligns the source + UD and writes the aligned data to CoNLL-U
 
     Args:
-        path (str): The path to the corpus directory.
-
-    Returns:
-        Paths: A Paths object containing the paths to the train, test, and dev files.
-    """
-    files = [
-        os.path.join(path, file)
-        for file in os.listdir(path)
-        if file.endswith(".conllu")
-    ]
-
-    return Paths(
-        train=[f for f in files if "train" in f][0],
-        test=[f for f in files if "test" in f][0],
-        dev=[f for f in files if "dev" in f][0],
-    )
-
-
-def align_norne(norne: str, ud: str, output: str) -> None:
-    """
-    Aligns the NorNE and UD Norwegian corpora and writes the aligned data to
-    CoNLL-U format files.
-
-    Args:
-        norne (str): The path to the NorNE corpus directory.
-        ud (str): The path to the UD Norwegian corpus directory.
+        source (str): The path to the source directory.
+        ud (str): The path to the UD directory.
         output (str): The path to the output directory.
+        train_key (str): The key for the training data.
+        test_key (str): The key for the testing data.
+        dev_key (str): The key for the development data.
 
     Returns:
         None
     """
     os.makedirs(output, exist_ok=True)
+    print(
+        f"Initialized UD alignment for\{source.split('/')[-1]} and {ud.split('/')[-1]}"
+    )
 
-    for lang in Language:
-        norne_id = "nob" if lang == Language.BOKMAAL else "nno"
-        ud_id = f"UD_Norwegian-{lang.value.capitalize()}"
+    ud = get_paths(ud)
+    source = get_paths(source)
 
-        NORNE = get_paths(os.path.join(norne, norne_id))
-        UD = get_paths(os.path.join(ud, ud_id))
+    for split in [train_key, test_key, dev_key]:
+        source_path = getattr(source, split)
+        ud_path = getattr(ud, split)
+        print(f"Processing {source_path.split('/')[-1]} and {ud_path.split('/')[-1]}")
 
-        for split in ["train", "test", "dev"]:
-            norne_path = getattr(NORNE, split)
-            ud_path = getattr(UD, split)
-            print(split)
-            print(norne_path, ud_path)
+        with open(ud_path, "r", encoding="utf-8") as ud_f, open(
+            source_path, "r", encoding="utf-8"
+        ) as entity_f:
+            ud_data = parse(ud_f.read())
+            entity_data = parse(entity_f.read())
 
-            with open(ud_path, "r", encoding="utf-8") as ud_f, open(
-                norne_path, "r", encoding="utf-8"
-            ) as entity_f:
-                ud_data = parse(ud_f.read())
-                entity_data = parse(entity_f.read())
+        out_filename = f"aligned-ud-{split}.conllu"
+        out = os.path.join(output, out_filename)
 
-            out_filename = f"no_{lang.value}-ud-{split}.conllu"
-            out = os.path.join(output, out_filename)
+        aligned_data = align_sentences(ud_data, entity_data)
 
-            aligned_data = align_sentences(ud_data, entity_data)
-
-            with open(out, "w", encoding="utf-8", newline="\n") as f:
-                for sent in aligned_data:
-                    f.write(sent.serialize())
+        with open(out, "w", encoding="utf-8", newline="\n") as f:
+            for sent in aligned_data:
+                f.write(sent.serialize())
 
 
 def align_sentences(
     ud_data: List[TokenList], entity_data: List[TokenList]
 ) -> List[TokenList]:
     """
-    Aligns the sentences in the UD Norwegian and NorNE corpora.
+    Aligns the sentences in the UD and source corpora.
 
     Args:
-        ud_data (List[TokenList]): The UD Norwegian corpus data.
-        entity_data (List[TokenList]): The NorNE corpus data.
+        ud_data (List[TokenList]): The UD corpus.
+        entity_data (List[TokenList]): The source data.
 
     Returns:
         List[TokenList]: The aligned data.
     """
     aligned_data = []
 
-    # some sentences are split across two sentences in the NorNE data
+    # some sentences are split across two sentences in the source data
     # keep track of this index
     entity_extra_idx_iterator = 0
 
@@ -123,8 +94,8 @@ def align_sentences(
             aligned = merge_sentences(ud_sent, entity_sent)
             ud_data[i] = aligned
         elif ud_text == entity_text + next_entity_text and valid_idx:
-            # try to match the UD sent with the next NorNE sent
-            # such that UD1 = NorNE1 + NorNE2
+            # try to match the UD sent with the next source sent
+            # such that UD1 = source1 + source2
             entity_tokens = [t for t in entity_sent]
             entity_tokens_nxt = [t for t in entity_sent_nxt]
             merged = TokenList(entity_tokens + entity_tokens_nxt)
@@ -135,7 +106,7 @@ def align_sentences(
             # we may get:
             # En kampanje for "etnisk renskning" starter med at én nabo vender seg mot en annen.
             # "En kampanje for "etnisk renskning" starter med at én nabo vender seg mot en annen.
-            # that is, the norne sentence has an unnecessary token at the beginning. Ignore it!
+            # that is, the source sentence has an unnecessary token at the beginning. Ignore it!
             entity_tokens = [t for t in entity_sent]
             merged = TokenList(entity_tokens[1:])
             aligned = merge_sentences(ud_sent, merged)
@@ -154,11 +125,11 @@ def align_sentences(
 
 def merge_sentences(ud: TokenList, entity: TokenList) -> TokenList:
     """
-    Merges the UD Norwegian and NorNE corpus data for a single sentence.
+    Merges UD and source corpus data for a single sentence.
 
     Args:
         ud (TokenList): The UD Norwegian corpus data for the sentence.
-        entity (TokenList): The NorNE corpus data for the sentence.
+        entity (TokenList): The source corpus data for the sentence.
 
     Returns:
         TokenList: The merged data.
@@ -169,7 +140,6 @@ def merge_sentences(ud: TokenList, entity: TokenList) -> TokenList:
         ud_misc = ud_tok["misc"] or {}
         entity_misc = entity_toks[j]["misc"] or {}
         entity_misc = {k: v for k, v in entity_misc.items() if k == "name"}
-
         ud_misc.update(entity_misc)
         ud_tok["misc"] = ud_misc
 
@@ -179,7 +149,7 @@ def merge_sentences(ud: TokenList, entity: TokenList) -> TokenList:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--norne", "-n", type=str, help="Source for NorNE data", default="data/norne/ud"
+        "--source", "-n", type=str, help="source data", default="data/source/ud"
     )
     parser.add_argument("--ud", "-u", type=str, help="Source for UD data", default="UD")
     parser.add_argument(
@@ -187,8 +157,8 @@ if __name__ == "__main__":
         "-o",
         type=str,
         help="Merged files location",
-        default="data/norne-aligned",
+        default="data/source-aligned",
     )
     args = parser.parse_args()
 
-    align_norne(args.norne, args.ud, args.output)
+    align_treebank(args.source, args.ud, args.output)
