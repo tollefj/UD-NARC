@@ -30,9 +30,6 @@ def align_treebank(
         None
     """
     os.makedirs(output, exist_ok=True)
-    print(
-        f"Initialized UD alignment for\{source.split('/')[-1]} and {ud.split('/')[-1]}"
-    )
 
     ud = get_paths(ud)
     source = get_paths(source)

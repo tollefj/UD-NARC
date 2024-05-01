@@ -9,6 +9,9 @@ install:
 convert:
 	python ud_narc/pipeline.py
 
+align-treebank:
+	python ud_narc/pipeline_treebank_update.py
+
 clean:
 	rm -rf output/
 
