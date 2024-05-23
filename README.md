@@ -1,4 +1,7 @@
 # NARC-NORNE-UD
+
+Paper: <https://aclanthology.org/2024.lrec-main.62/>
+
 Complete UD-based corpora merged with entity (NorNE) and coreference information (NARC).
 
 - Universal Dependencies
